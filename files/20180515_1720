@@ -1,0 +1,77 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import xml.etree.ElementTree as ET
+
+class MiddleText(object):
+    def __init__(self):
+        self.attrs = []
+        #self.gp = gp
+    def __str__(self):
+        output = " {\n"
+        for attr in self.attrs:
+            output += "%s\n" % attr
+        #output += "%s \n" %self.gp
+        output += "\n}"
+        return output
+
+class getGP(object):
+    def __init__(self):
+        self.argument = []
+        self.attrs = []
+    def __str__(self):
+        for arg in self.argument:
+            output = "%s \n I {\n" %arg
+        for attr in self.attrs:
+            output += "%s\n" % attr
+        output += "\n}\n}"
+        return output
+
+
+ancoranet_es = ET.parse('files/ancoranet-es_VIVIRexemple.xml')
+verb_lex = ET.parse('files/vivir.lex.xml')
+
+root = verb_lex.getroot()
+root2 = ancoranet_es.getroot()
+
+gp = getGP()
+
+for sense in root.findall('sense'):
+    id = sense.get('id')
+    anc_sense = ('anc_sense  = ' + id)
+
+    for frame in sense.iter('frame'):
+        # anc_lss.append(frame.get('lss'))
+        lss = frame.get('lss')
+        anc_lss = ('anc_lss = ' + lss)
+
+        for argument in frame.iter('argument'):
+            arg = argument.get('argument')
+
+            thematicrole = argument.get('thematicrole')
+            anc_theme = ('anc_theme= ' + thematicrole)
+            funct = argument.get('function')
+            anc_function = ('anc_function = ' + funct)
+
+        gp.argument.append(arg)
+        gp.attrs.append(anc_theme)
+        gp.attrs.append(anc_function)
+
+
+
+
+
+    WriteOutput = MiddleText()
+    WriteOutput.attrs.append(anc_sense)
+    WriteOutput.attrs.append(anc_lss)
+
+
+
+    #Write to file:
+    filename = ('gp.txt')
+    file = open(filename, 'a')
+    file.write(str(WriteOutput))
+    file.write(str(gp))
+    file.close()
+
+#print WriteOutput

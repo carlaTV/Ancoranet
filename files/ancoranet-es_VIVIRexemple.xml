@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<ancoranet lng='es'>
+<link ancoralexid="verb.vivir.1.default" propbankid="be.01"/>
+<link ancoralexid="verb.vivir.2.default" propbankid="dwell.01">
+  <arglink ancoralexarg="arg1" propbankarg="0"/>
+  <arglink ancoralexarg="arg2" propbankarg="1"/>
+  <verbnet file="lodge-46" class="46" member="dwell">
+    <framenet fnlexent="2215">Residence</framenet>
+    <wordnet wnsense="3">dwell%2:42:00</wordnet>
+    <grouping>dwell.02</grouping>
+  </verbnet>
+  <verbnet file="exist-47.1" class="47.1-1" member="dwell">
+    <framenet>DS</framenet>
+    <wordnet wnsense="2">dwell%2:42:01</wordnet>
+    <wordnet wnsense="3">dwell%2:42:00</wordnet>
+    <grouping>dwell.02</grouping>
+  </verbnet>
+</link>
+<link ancoralexid="verb.vivir.2.default" propbankid="reside.01">
+  <arglink ancoralexarg="arg1" propbankarg="0"/>
+  <arglink ancoralexarg="arg2" propbankarg="1"/>
+  <verbnet file="exist-47.1" class="47.1-1" member="reside">
+    <framenet>DS</framenet>
+    <wordnet wnsense="1">reside%2:42:00</wordnet>
+    <wordnet wnsense="2">reside%2:42:01</wordnet>
+    <wordnet wnsense="3">reside%2:42:12</wordnet>
+    <grouping>reside.01</grouping>
+  </verbnet>
+</link>
+<link ancoralexid="verb.vivir.3.default" propbankid="suffer.01">
+  <arglink ancoralexarg="arg1" propbankarg="0"/>
+  <arglink ancoralexarg="arg2" propbankarg="1"/>
+  <verbnet file="marvel-31.3" class="31.3" member="suffer">
+    <framenet>DS</framenet>
+    <wordnet wnsense="3">suffer%2:37:00</wordnet>
+    <wordnet wnsense="6">suffer%2:29:00</wordnet>
+    <wordnet wnsense="8">suffer%2:29:03</wordnet>
+    <grouping>suffer.01</grouping>
+  </verbnet>
+</link>
+<link ancoralexid="verb.vivir.4.default" propbankid="live.01">
+  <verbnet file="gorge-39.6" class="39.6" member="live">
+    <framenet>DS</framenet>
+    <wordnet wnsense="3">live%2:42:04</wordnet>
+    <grouping>live.03</grouping>
+  </verbnet>
+  <verbnet file="lodge-46" class="46" member="live">
+    <framenet fnlexent="2220">Residence</framenet>
+    <wordnet wnsense="1">live%2:42:08</wordnet>
+    <grouping>live.02</grouping>
+  </verbnet>
+  <verbnet file="exist-47.1" class="47.1-1" member="live">
+    <framenet>DS</framenet>
+    <wordnet wnsense="1">live%2:42:08</wordnet>
+    <wordnet wnsense="3">live%2:42:04</wordnet>
+    <wordnet wnsense="4">live%2:42:01</wordnet>
+    <grouping>live.01</grouping>
+    <grouping>live.02</grouping>
+    <grouping>live.03</grouping>
+  </verbnet>
+</link>
+<link ancoralexid="verb.vivir.4.impersonal" propbankid="live.01">
+  <verbnet file="gorge-39.6" class="39.6" member="live">
+    <framenet>DS</framenet>
+    <wordnet wnsense="3">live%2:42:04</wordnet>
+    <grouping>live.03</grouping>
+  </verbnet>
+  <verbnet file="lodge-46" class="46" member="live">
+    <framenet fnlexent="2220">Residence</framenet>
+    <wordnet wnsense="1">live%2:42:08</wordnet>
+    <grouping>live.02</grouping>
+  </verbnet>
+  <verbnet file="exist-47.1" class="47.1-1" member="live">
+    <framenet>DS</framenet>
+    <wordnet wnsense="1">live%2:42:08</wordnet>
+    <wordnet wnsense="3">live%2:42:04</wordnet>
+    <wordnet wnsense="4">live%2:42:01</wordnet>
+    <grouping>live.01</grouping>
+    <grouping>live.02</grouping>
+    <grouping>live.03</grouping>
+  </verbnet>
+</link>
+<link ancoralexid="verb.vivir.4.passive" propbankid="live.01">
+  <verbnet file="gorge-39.6" class="39.6" member="live">
+    <framenet>DS</framenet>
+    <wordnet wnsense="3">live%2:42:04</wordnet>
+    <grouping>live.03</grouping>
+  </verbnet>
+  <verbnet file="lodge-46" class="46" member="live">
+    <framenet fnlexent="2220">Residence</framenet>
+    <wordnet wnsense="1">live%2:42:08</wordnet>
+    <grouping>live.02</grouping>
+  </verbnet>
+  <verbnet file="exist-47.1" class="47.1-1" member="live">
+    <framenet>DS</framenet>
+    <wordnet wnsense="1">live%2:42:08</wordnet>
+    <wordnet wnsense="3">live%2:42:04</wordnet>
+    <wordnet wnsense="4">live%2:42:01</wordnet>
+    <grouping>live.01</grouping>
+    <grouping>live.02</grouping>
+    <grouping>live.03</grouping>
+  </verbnet>
+</link>
+<link ancoralexid="verb.vivir.5.default" propbankid="live.01">
+  <verbnet file="gorge-39.6" class="39.6" member="live">
+    <framenet>DS</framenet>
+    <wordnet wnsense="3">live%2:42:04</wordnet>
+    <grouping>live.03</grouping>
+  </verbnet>
+  <verbnet file="lodge-46" class="46" member="live">
+    <framenet fnlexent="2220">Residence</framenet>
+    <wordnet wnsense="1">live%2:42:08</wordnet>
+    <grouping>live.02</grouping>
+  </verbnet>
+  <verbnet file="exist-47.1" class="47.1-1" member="live">
+    <framenet>DS</framenet>
+    <wordnet wnsense="1">live%2:42:08</wordnet>
+    <wordnet wnsense="3">live%2:42:04</wordnet>
+    <wordnet wnsense="4">live%2:42:01</wordnet>
+    <grouping>live.01</grouping>
+    <grouping>live.02</grouping>
+    <grouping>live.03</grouping>
+  </verbnet>
+</link>
+</ancoranet>

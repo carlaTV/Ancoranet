@@ -1,0 +1,89 @@
+verb_vivir_01:_verb_ {
+anc_vtype = default
+pbcls =be
+pbID = 01
+
+}verb_vivir_02:_verb_ {
+anc_vtype = default
+pbcls =dwell
+pbID = 01
+vncls = lodge
+class = 46
+fn = Residence
+vncls = exist
+class = 47.1-1
+fn = DS
+
+}verb_vivir_02:_verb_ {
+anc_vtype = default
+pbcls =reside
+pbID = 01
+vncls = exist
+class = 47.1-1
+fn = DS
+
+}verb_vivir_03:_verb_ {
+anc_vtype = default
+pbcls =suffer
+pbID = 01
+vncls = marvel
+class = 31.3
+fn = DS
+
+}verb_vivir_04:_verb_ {
+anc_vtype = default
+pbcls =live
+pbID = 01
+vncls = gorge
+class = 39.6
+fn = DS
+vncls = lodge
+class = 46
+fn = Residence
+vncls = exist
+class = 47.1-1
+fn = DS
+
+}verb_vivir_04:_verb_ {
+anc_vtype = impersonal
+pbcls =live
+pbID = 01
+vncls = gorge
+class = 39.6
+fn = DS
+vncls = lodge
+class = 46
+fn = Residence
+vncls = exist
+class = 47.1-1
+fn = DS
+
+}verb_vivir_04:_verb_ {
+anc_vtype = passive
+pbcls =live
+pbID = 01
+vncls = gorge
+class = 39.6
+fn = DS
+vncls = lodge
+class = 46
+fn = Residence
+vncls = exist
+class = 47.1-1
+fn = DS
+
+}verb_vivir_05:_verb_ {
+anc_vtype = default
+pbcls =live
+pbID = 01
+vncls = gorge
+class = 39.6
+fn = DS
+vncls = lodge
+class = 46
+fn = Residence
+vncls = exist
+class = 47.1-1
+fn = DS
+
+}

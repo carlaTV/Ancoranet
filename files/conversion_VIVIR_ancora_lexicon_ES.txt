@@ -1,0 +1,313 @@
+// CONVERSION DE VIVIR del formato AnCoraVerb_ES al formato de LEXICON_ES
+
+// anc_sense = default, passive, impersonal   ¿Atributo o incluido en la identificación de la entrada?  ver: VIVIR_VB_04
+
+// _verb_  :   arg1(anc) = arg1(pb) ;   NO hay mapping con Pb. No hay arg0 en ancora.  ;
+// vs   
+// _verbExtArg_  :   arg1(anc) = arg0(pb)  ;    arg0(anc) = arg0(pb)
+
+// lss = lexical semantic structure (following Levin,,,, in Verbnet. VerbNet follows Levin's semantic classification and adopts PropBank
+// semantic annotation [Palmer et al., 2005].)
+// LSS determines the number of arguments a verbal predicate requires and the thematic role of these arguments, 
+// and restricts the set of all possible diathesis
+
+// anc_themes: ver lista de valores
+
+"vivir_VB_01":_verb_ {			// arg1(anc) = arg1(pb)
+    entryID = "?"
+    anc_sense = "1"
+    anc_vtype = "default"
+    anc_lss = "C11.state-existential"
+    pbcls = "be"		
+    pbID = "01"
+    gp = {		
+      I = {				// tem
+	anc_theme = "tem"							
+        anc_function = "suj"			
+      }
+      II = {				// atr
+        anc_theme = "atr"
+        anc_function = "cpred"	
+      }
+    }
+  }
+
+"vivir_VB_02":_verbExtArg_ {		// arg1(anc) = arg0(pb)
+    entryID = "?"
+    anc_sense = "2"
+    anc_vtype = "default"
+    anc_lss = "C11.state-existential"
+    pbcls_01 = "dwell"		
+    pbID_01 = "01"
+    	vncls_01_01 = "lodge"
+    	vnID_01_01 = "46"
+    	fn_01_01 = "Residence"
+	wnet30ID_01_01 = "dwell.3"
+	onID_01_01 = "dwell.02"		// poníamos dwell-v.2
+    	vncls_01_02 = "exist"
+    	vnID_01_02 = "47.1"
+    	fn_01_02 = "Different_Sense"
+	wnet30ID_01_02_a = "dwell.2"
+	wnet30ID_01_02_b = "dwell.3"
+        onID_01_02 = "dwell.02"		// poníamos dwell-v.2 
+    pbcls_02 = "reside"		
+    pbID_02 = "01"
+    	vncls_02_01 = "exist"
+    	vnID_02_01 = "47.1"
+    	fn_02_01 = "Different_Sense"
+        wnet30ID_02_01_a = "reside.1"
+	wnet30ID_02_01_b = "reside.2"
+	wnet30ID_02_01_c = "reside.3"
+	onID_02_01 = "reside.01"	// poníamos reside-v.1
+    gp = {		
+      I = {				// arg1 (anc) = I ??
+        anc_theme = "tem"
+	anc_function = "suj"			
+      }
+      II = {
+ 	anc_theme = "loc"		// loc
+        anc_function = "cc"
+	anc_prep = "en"	
+        anc_prep = "entre"
+      }
+      M1 = {				// tmp
+        anc_theme = "tmp"
+	anc_function = "cc"
+      }
+      M2 = {				// mnr
+        anc_theme = "mnr"
+	anc_function = "cc"
+      }
+      M3 = {
+	anc_theme = "adv"		// adv
+        anc_function = "cc"
+	anc_prep = "con"	
+      }
+    }
+  }
+
+
+"vivir_VB_03":_verbExtArg_ {		// arg1(anc) = arg0(pb)
+    entryID = "?"
+    anc_sense = "3"
+    anc_vtype = "default"
+    anc_lss = "C21.state-attributive"
+    pbcls_01 = "suffer"		
+    pbID_01 = "01"
+    	vncls_01 = "marvel"		// vncls_01_01 ?
+    	vnID_01 = "31.3"		// vnID_01_01 ?
+    	fn_01 = "Different_Sense"	// fn_01_01 ?
+	wnet30ID_01_01_a = "suffer.3"
+	wnet30ID_01_01_b = "suffer.6"
+	wnet30ID_01_01_c = "suffer.8"
+	onID_01_01 = "suffer.01"	// poníamos suffer-v.1
+    gp = {		
+      I = {
+	anc_theme = "tem"		// tem	(o lo añadimos como atributo anc_theme ="tem")	o experiencer (ver columna vn)	
+        anc_function = "suj"			
+      }
+      II = {
+        anc_theme = "atr"		// Cause en Vnet
+	anc_function = "cd"
+      }
+      M1 = {
+	anc_theme = "mnr"		// mnr
+        anc_function = "cc"
+        anc_prep = "con"
+      }
+      M2 = {	
+	anc_theme = "tmp"		// tmp
+        anc_function = "cc"	
+      }
+    }
+  }
+
+"vivir_VB_04_default":_verbExtArg_ {	// arg0(anc) = arg0(pb)	?
+    entryID = "?"
+    anc_sense = "4"
+    anc_vtype = "default"
+    anc_lss = "A21.transitive-agentive-patient"
+    pbcls_01 = "live"		
+    pbID_01 = "01"
+    	vncls_01_01 = "gorge"
+    	vnID_01_01 = "39.6"
+    	fn_01_01 = "Different_Sense"
+	wnet30ID_01_01_a = "live.3"
+	onID_01_01 = "live.03"		// formato ontoNotes? - grouping?
+    	vncls_01_02 = "lodge"
+    	vnID_01_02 = "46"
+    	fn_01_02 = "Residence"
+	wnet30ID_01_02_a = "live.1"
+	onID_01_02 = "live.02"		// formato ontoNotes? - grouping?
+        vncls_01_03 = "exist"
+    	vnID_01_03 = "47.1"
+    	fn_01_03 = "Different_Sense"
+	wnet30ID_01_03_a = "live.1"
+	wnet30ID_01_03_b = "live.3"
+	wnet30ID_01_03_c = "live.4"
+	onID_01_03_01 = "live.01"		// formato ontoNotes? - grouping?
+	onID_01_03_02 = "live.02"		// formato ontoNotes? - grouping?
+	onID_01_03_03 = "live.03"		// formato ontoNotes? - grouping?
+    gp = {		
+      I = {				// agt	(o lo añadimos como atributo anc_theme ="agt")
+//				           En vn-39.6 "Agent"; en vn-46 "Theme"; en fn-Residence "Resident"; en vn-47.1-1 "Theme"	
+        anc_theme = "agt"
+	anc_function = "suj"			
+      }
+      II = {
+	anc_theme = "pat"		// pat
+        anc_function = "cd"
+      }
+    }
+  }
+
+"vivir_VB_04_passive":_verbExtArg_ {	// arg0(anc) = arg0(pb)	
+    entryID = "?"
+    anc_sense = "4"
+    anc_vtype = "passive"
+    anc_lss = "B22.unaccusative-passive-transitive"
+    pbcls_01 = "live"		
+    pbID_01 = "01"
+    	vncls_01_01 = "gorge"
+    	vnID_01_01 = "39.6"
+    	fn_01_01 = "Different_Sense"
+	wnet30ID_01_01_a = "live.3"
+	onID_01_01 = "live.03"		// formato ontoNotes? - grouping?
+    	vncls_01_02 = "lodge"
+    	vnID_01_02 = "46"
+    	fn_01_02 = "Residence"
+	wnet30ID_01_02_a = "live.1"
+	onID_01_02 = "live.02"		// formato ontoNotes? - grouping?
+        vncls_01_03 = "exist"
+    	vnID_01_03 = "47.1"
+    	fn_01_03 = "Different_Sense"
+	wnet30ID_01_01_a = "live.1"
+	wnet30ID_01_01_b = "live.3"
+	wnet30ID_01_01_c = "live.4"
+	onID_01_03_01 = "live.01"		// formato ontoNotes? - grouping?
+	onID_01_03_02 = "live.02"		// formato ontoNotes? - grouping?
+	onID_01_03_03 = "live.03"		// formato ontoNotes? - grouping?
+    gp = {		
+      I = {				// pat	(o lo añadimos como atributo anc_theme ="pat")
+//				           En vn-39.6 "Patient"	
+	anc_theme = "pat"        
+	anc_function = "suj"			
+      }
+      II = {				// agt
+	anc_theme = "agt"        
+	anc_function = "cag"
+      }
+    }
+  }
+
+
+"vivir_VB_04_impersonal":_verb_ {		// arg1(anc) = arg1(pb)	
+    entryID = "?"
+    anc_sense = "4"
+    anc_vtype = "impersonal"
+    anc_lss = "A21.transitive-agentive-patient"
+    pbcls_01 = "live"		
+    pbID_01 = "01"
+    	vncls_01_01 = "gorge"
+    	vnID_01_01 = "39.6"
+    	fn_01_01 = "Different_Sense"
+	wnet30ID_01_01_a = "live.3"
+	onID_01_01 = "live.03"		// formato ontoNotes? - grouping?
+    	vncls_01_02 = "lodge"
+    	vnID_01_02 = "46"
+    	fn_01_02 = "Residence"
+	wnet30ID_01_02_a = "live.1"
+	onID_01_02 = "live.02"		// formato ontoNotes? - grouping?
+        vncls_01_03 = "exist"
+    	vnID_01_03 = "47.1"
+    	fn_01_03 = "Different_Sense"
+	wnet30ID_01_03_a = "live.1"
+	wnet30ID_01_03_b = "live.3"
+	wnet30ID_01_03_c = "live.4"
+	onID_01_03_01 = "live.01"		// formato ontoNotes? - grouping?
+	onID_01_03_02 = "live.02"		// formato ontoNotes? - grouping?
+	onID_01_03_03 = "live.03"		// formato ontoNotes? - grouping?
+    gp = {		
+      I = {				// pat	(o lo añadimos como atributo anc_theme ="pat")
+//				           En vn-39.6 "Patient"	
+        anc_theme = "pat"
+	anc_function = "cd"			
+      }
+    }
+  }
+
+
+
+"vivir_VB_05_default":_verbExtArg_ {	// arg0(anc) = arg0(pb)	
+    entryID = "?"
+    anc_sense = "5"
+    anc_vtype = "default"
+    anc_lss = "D21.inergative-experiencer"
+    pbcls_01 = "live"		
+    pbID_01 = "01"
+    	vncls_01_01 = "gorge"
+    	vnID_01_01 = "39.6"
+    	fn_01_01 = "Different_Sense"
+	wnet30ID_01_01_a = "live.3""
+	onID_01_01 = "live.03"		// formato ontoNotes? - grouping?
+    	vncls_01_02 = "lodge"
+    	vnID_01_02 = "46"
+    	fn_01_02 = "Residence"
+	wnet30ID_01_02_a = "live.1"
+	onID_01_01 = "live.02"		// formato ontoNotes? - grouping?
+        vncls_01_03 = "exist"
+    	vnID_01_03 = "47.1"
+    	fn_01_03 = "Different_Sense"
+	wnet30ID_01_03_a = "live.1"
+	wnet30ID_01_03_b = "live.3"
+	wnet30ID_01_03_c = "live.4"
+	onID_01_03_01 = "live.01"		// formato ontoNotes? - grouping?
+	onID_01_03_02 = "live.02"		// formato ontoNotes? - grouping?
+	onID_01_03_03 = "live.03"		// formato ontoNotes? - grouping?
+    gp = {		
+      I = {				
+        anc_theme = "exp"
+	anc_function = "suj"			
+      }
+      M1 = {				// mnr
+        anc_theme = "mnr"
+	anc_function = "cc"
+        anc_prep = "con"
+      }
+      M2 = {				// loc
+        anc_theme = "loc"
+	anc_function = "cc"
+	anc_prep = "ante"	
+      }
+      M3 = {				// tmp
+	anc_theme = "tmp"        
+  	anc_function = "cc"
+      }
+      M4 = {				// ext
+	anc_theme = "ext"
+	anc_function = "cc"
+      }
+    }
+  }
+
+"vivir_VB_06_default":_verb_ {		// NO hay mapping con Pb. No hay arg0 en ancora.
+    entryID = "?"
+    anc_sense = "6"
+    anc_vtype = "default"
+    anc_lss = "C21.state-attributive"
+    
+    gp = {		
+      I = {				// tem
+        anc_theme = "tem"
+	anc_function = "suj"			
+      }
+      II = {				// atr
+	anc_theme = "atr"        
+	anc_function = "creg"
+	anc_prep = "de"
+      }
+    }
+  }
+
+
+
