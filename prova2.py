@@ -91,6 +91,9 @@ def haz_todo(root, root2):
                 WriteOutput.gp.append(rel_funct[arg])
 
             output1.append(str(WriteOutput))
+                # WriteOutput.gp.remove(rel_theme[arg])
+                # WriteOutput.gp.remove(rel_funct[arg])
+
             #print output1[0]
 
     # Write to file:
@@ -105,27 +108,18 @@ def haz_todo(root, root2):
             anc_vtype = ('anc_vtype = '+ anc_vtype)
             name = (VB + '_' + name_verb+ '_'+ '0' + num)
             spec = ('_'+VB+'_')
-
             bankID = link.get('propbankid')
             pbcls, pbID = bankID.split('.')
 
             pbcls = ('pbcls ='+ pbcls)
             pbID = ('pbID = '+  pbID)
 
-            rel = {name : output1[i]}
+            rel = {name : output1[i]}  #falla quan tenen el mateix nom
             print("i = %i" %i)
             i += 1
-            # print "dict output:"
-            # print name
-            # print rel[name]
-            # print "dict end"
+
             AncDict = Ancoranet(name, spec, rel[name])
-            #
-            # for o in range(0,len(output1)):
-            #     AncDict = Ancoranet(name, spec, output1[o])
-            #     print o
-            #     print output1[o]
-            #GP = getGP()
+
             AncDict.attrs.append(anc_vtype)
             AncDict.attrs.append(pbcls)
             AncDict.attrs.append(pbID)
