@@ -51,43 +51,62 @@ fn = Residence
 vncls = exist
 class = 47.1-1
 fn = DS
-anc_sense  = 1 
+anc_sense  = 2 
 anc_lss = C11.state-existential 
  	arg1 {
 		anc_theme= tem {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
+		anc_theme= loc {
+		anc_function = cc {
 		anc_theme= tmp {
 		anc_function = cc {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= adv {
 		anc_function = cc {
  	arg2 {
 		anc_theme= tem {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
+		anc_theme= loc {
+		anc_function = cc {
 		anc_theme= tmp {
 		anc_function = cc {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= adv {
 		anc_function = cc {
  	argM {
 		anc_theme= tem {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
+		anc_theme= loc {
+		anc_function = cc {
 		anc_theme= tmp {
 		anc_function = cc {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= adv {
 		anc_function = cc {
  	argM {
 		anc_theme= tem {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
+		anc_theme= loc {
+		anc_function = cc {
 		anc_theme= tmp {
 		anc_function = cc {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= adv {
+		anc_function = cc {
+ 	argM {
+		anc_theme= tem {
+		anc_function = suj {
+		anc_theme= loc {
+		anc_function = cc {
+		anc_theme= tmp {
+		anc_function = cc {
+		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= adv {
 		anc_function = cc {
 
 }verb_vivir_02:_verb_ {
@@ -97,43 +116,43 @@ pbID = 01
 vncls = exist
 class = 47.1-1
 fn = DS
-anc_sense  = 1 
-anc_lss = C11.state-existential 
+anc_sense  = 3 
+anc_lss = C21.state-attributive 
  	arg1 {
 		anc_theme= tem {
 		anc_function = suj {
 		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
+		anc_function = cd {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= tmp {
 		anc_function = cc {
  	arg2 {
 		anc_theme= tem {
 		anc_function = suj {
 		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
+		anc_function = cd {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= tmp {
 		anc_function = cc {
  	argM {
 		anc_theme= tem {
 		anc_function = suj {
 		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
+		anc_function = cd {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= tmp {
 		anc_function = cc {
  	argM {
 		anc_theme= tem {
 		anc_function = suj {
 		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
+		anc_function = cd {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= tmp {
 		anc_function = cc {
 
 }verb_vivir_03:_verb_ {
@@ -143,44 +162,18 @@ pbID = 01
 vncls = marvel
 class = 31.3
 fn = DS
-anc_sense  = 1 
-anc_lss = C11.state-existential 
+anc_sense  = 4 
+anc_lss = A21.transitive-agentive-patient 
+ 	arg0 {
+		anc_theme= agt {
+		anc_function = suj {
+		anc_theme= pat {
+		anc_function = cd {
  	arg1 {
-		anc_theme= tem {
+		anc_theme= agt {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	arg2 {
-		anc_theme= tem {
-		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	argM {
-		anc_theme= tem {
-		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	argM {
-		anc_theme= tem {
-		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
+		anc_theme= pat {
+		anc_function = cd {
 
 }verb_vivir_04:_verb_ {
 anc_vtype = default
@@ -195,44 +188,45 @@ fn = Residence
 vncls = exist
 class = 47.1-1
 fn = DS
-anc_sense  = 1 
-anc_lss = C11.state-existential 
+anc_sense  = 4 
+anc_lss = A21.transitive-agentive-patient 
+anc_lss = B22.unaccusative-passive-transitive 
+ 	arg0 {
+		anc_theme= agt {
+		anc_function = suj {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
+		anc_function = suj {
+		anc_theme= agt {
+		anc_function = cag {
  	arg1 {
-		anc_theme= tem {
+		anc_theme= agt {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	arg2 {
-		anc_theme= tem {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	argM {
-		anc_theme= tem {
+		anc_theme= agt {
+		anc_function = cag {
+ 	arg1 {
+		anc_theme= agt {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	argM {
-		anc_theme= tem {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
+		anc_theme= agt {
+		anc_function = cag {
+ 	arg0 {
+		anc_theme= agt {
+		anc_function = suj {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
+		anc_function = suj {
+		anc_theme= agt {
+		anc_function = cag {
 
 }verb_vivir_04:_verb_ {
 anc_vtype = impersonal
@@ -247,44 +241,65 @@ fn = Residence
 vncls = exist
 class = 47.1-1
 fn = DS
-anc_sense  = 1 
-anc_lss = C11.state-existential 
+anc_sense  = 4 
+anc_lss = A21.transitive-agentive-patient 
+anc_lss = B22.unaccusative-passive-transitive 
+anc_lss = A21.transitive-agentive-patient 
+ 	arg0 {
+		anc_theme= agt {
+		anc_function = suj {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
+		anc_function = suj {
+		anc_theme= agt {
+		anc_function = cag {
+		anc_theme= pat {
+		anc_function = cd {
  	arg1 {
-		anc_theme= tem {
+		anc_theme= agt {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	arg2 {
-		anc_theme= tem {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	argM {
-		anc_theme= tem {
+		anc_theme= agt {
+		anc_function = cag {
+		anc_theme= pat {
+		anc_function = cd {
+ 	arg1 {
+		anc_theme= agt {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	argM {
-		anc_theme= tem {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
+		anc_theme= agt {
+		anc_function = cag {
+		anc_theme= pat {
+		anc_function = cd {
+ 	arg0 {
+		anc_theme= agt {
+		anc_function = suj {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
+		anc_function = suj {
+		anc_theme= agt {
+		anc_function = cag {
+		anc_theme= pat {
+		anc_function = cd {
+ 	arg1 {
+		anc_theme= agt {
+		anc_function = suj {
+		anc_theme= pat {
+		anc_function = cd {
+		anc_theme= pat {
+		anc_function = suj {
+		anc_theme= agt {
+		anc_function = cag {
+		anc_theme= pat {
+		anc_function = cd {
 
 }verb_vivir_04:_verb_ {
 anc_vtype = passive
@@ -299,43 +314,62 @@ fn = Residence
 vncls = exist
 class = 47.1-1
 fn = DS
-anc_sense  = 1 
-anc_lss = C11.state-existential 
- 	arg1 {
-		anc_theme= tem {
+anc_sense  = 5 
+anc_lss = D21.inergative-experiencer 
+ 	arg0 {
+		anc_theme= exp {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
 		anc_theme= mnr {
 		anc_function = cc {
- 	arg2 {
-		anc_theme= tem {
-		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
+		anc_theme= loc {
+		anc_function = cc {
 		anc_theme= tmp {
 		anc_function = cc {
-		anc_theme= mnr {
+		anc_theme= ext {
 		anc_function = cc {
  	argM {
-		anc_theme= tem {
+		anc_theme= exp {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
+		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= loc {
+		anc_function = cc {
 		anc_theme= tmp {
 		anc_function = cc {
-		anc_theme= mnr {
+		anc_theme= ext {
 		anc_function = cc {
  	argM {
-		anc_theme= tem {
+		anc_theme= exp {
 		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
+		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= loc {
+		anc_function = cc {
 		anc_theme= tmp {
 		anc_function = cc {
+		anc_theme= ext {
+		anc_function = cc {
+ 	argM {
+		anc_theme= exp {
+		anc_function = suj {
 		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= loc {
+		anc_function = cc {
+		anc_theme= tmp {
+		anc_function = cc {
+		anc_theme= ext {
+		anc_function = cc {
+ 	argM {
+		anc_theme= exp {
+		anc_function = suj {
+		anc_theme= mnr {
+		anc_function = cc {
+		anc_theme= loc {
+		anc_function = cc {
+		anc_theme= tmp {
+		anc_function = cc {
+		anc_theme= ext {
 		anc_function = cc {
 
 }verb_vivir_05:_verb_ {
@@ -351,43 +385,17 @@ fn = Residence
 vncls = exist
 class = 47.1-1
 fn = DS
-anc_sense  = 1 
-anc_lss = C11.state-existential 
+anc_sense  = 6 
+anc_lss = C21.state-attributive 
  	arg1 {
 		anc_theme= tem {
 		anc_function = suj {
 		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
+		anc_function = creg {
  	arg2 {
 		anc_theme= tem {
 		anc_function = suj {
 		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	argM {
-		anc_theme= tem {
-		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
- 	argM {
-		anc_theme= tem {
-		anc_function = suj {
-		anc_theme= atr {
-		anc_function = cpred {
-		anc_theme= tmp {
-		anc_function = cc {
-		anc_theme= mnr {
-		anc_function = cc {
+		anc_function = creg {
 
 }

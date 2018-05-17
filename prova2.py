@@ -97,9 +97,9 @@ def haz_todo(root, root2):
     filename = ('OutputFiles/%s.txt' % 'prova2')
 
     with open(filename, 'w') as fd:
-
+        i = 0
         for link in root2:
-            i = 0
+
             lexid = link.get('ancoralexid')
             VB, name_verb, num, anc_vtype = lexid.split('.')
             anc_vtype = ('anc_vtype = '+ anc_vtype)
