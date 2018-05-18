@@ -24,50 +24,50 @@ verb_lex = ET.parse('OriginalFiles/vivir.lex.xml')
 root = verb_lex.getroot()
 root2 = ancoranet_es.getroot()
 
+# Write to file:
+filename = ('OutputFiles/%s.txt' % 'dictionary')
 #### FILE 1: ancoranet-es
-for link in root2:
+with open(filename, 'a') as output_file:
 
-    lexid = link.get('ancoralexid')
-    VB, name_verb, num, anc_vtype = lexid.split('.')
-    anc_vtype = ('anc_vtype = '+ anc_vtype)
-    name = (VB + '_' + name_verb+ '_'+ '0' + num)
-    spec = ('_'+VB+'_')
+    for link in root2:
 
-    bankID = link.get('propbankid')
-    pbcls, pbID = bankID.split('.')
+        lexid = link.get('ancoralexid')
+        VB, name_verb, num, anc_vtype = lexid.split('.')
+        anc_vtype = ('anc_vtype = '+ anc_vtype)
+        name = (VB + '_' + name_verb+ '_'+ '0' + num)
+        spec = ('_'+VB+'_')
 
-    pbcls = ('pbcls ='+ pbcls)
-    pbID = ('pbID = '+  pbID)
+        bankID = link.get('propbankid')
+        pbcls, pbID = bankID.split('.')
 
-    WriteOutput = Entry(name, spec)
-    #GP = getGP()
-    WriteOutput.attrs.append(anc_vtype)
-    WriteOutput.attrs.append(pbcls)
-    WriteOutput.attrs.append(pbID)
+        pbcls = ('pbcls ='+ pbcls)
+        pbID = ('pbID = '+  pbID)
+
+        WriteOutput = Entry(name, spec)
+        #GP = getGP()
+        WriteOutput.attrs.append(anc_vtype)
+        WriteOutput.attrs.append(pbcls)
+        WriteOutput.attrs.append(pbID)
 
 
-    for verbnet in link:
-        fil = verbnet.get('file')
-        classe = verbnet.get('class')
+        for verbnet in link:
+            fil = verbnet.get('file')
+            classe = verbnet.get('class')
 
-        if fil is not None:
-            vncls,_number = fil.split('-')
-            vncls = ('vncls = '+ vncls)
+            if fil is not None:
+                vncls,_number = fil.split('-')
+                vncls = ('vncls = '+ vncls)
 
-            WriteOutput.attrs.append(vncls)
+                WriteOutput.attrs.append(vncls)
 
-        if classe is not None:
-            classe = ('class = ' + classe)
-            WriteOutput.attrs.append(classe)
+            if classe is not None:
+                classe = ('class = ' + classe)
+                WriteOutput.attrs.append(classe)
 
-        for framenet in verbnet.iter('framenet'):
-            fn = framenet.text
-            fn = ('fn = '+fn)
-            WriteOutput.attrs.append(fn)
+            for framenet in verbnet.iter('framenet'):
+                fn = framenet.text
+                fn = ('fn = '+fn)
+                WriteOutput.attrs.append(fn)
 
-    #Write to file:
-    filename = ('OutputFiles/%s.txt' % name_verb)
-
-    file = open(filename, 'a')
-    file.write(str(WriteOutput))
-    file.close()
+        output_file.write(str(WriteOutput))
+# output_file.close()

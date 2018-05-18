@@ -21,16 +21,18 @@ class Ancoranet(object):
 class verbLex(object):
     def __init__(self):
         self.attrs = []
-        self.argument = []
-        self.gp = []
+        self.argument = {}
+
     def __str__(self):
         output = ""
         for atr in self.attrs:
             output += "%s \n"  %atr
+
         for arg in self.argument:
             output += " \t%s {\n" % arg
-            for g in self.gp:
-                output += "\t\t%s \n" %g
+            for attr in self.argument[arg]:
+                output += "\t\t%s \n" % attr
+            output += "\t\n}\n"
         return output
 
 
@@ -65,29 +67,22 @@ def haz_todo(root, root2):
                 funct = argument.get('function')
                 anc_function = ('anc_function = ' + funct)
 
-                WriteOutput.argument.append(arg)
-
                 # WriteOutput.gp.insert(0,anc_theme)
-                # anc_THEME.append(anc_theme)
-                anc_THEME.insert(0,anc_theme)
+                anc_THEME.append(anc_theme)
+                # anc_THEME.insert(0,anc_theme)
                 # anc_THEME[0] = anc_theme
 
                 # WriteOutput.gp.insert(1,anc_function)
-                # anc_FUNCT.append(anc_function)
+                anc_FUNCT.append(anc_function)
                 # anc_FUNCT[0] = anc_function
-                anc_FUNCT.insert(0,anc_function)
+                # anc_FUNCT.insert(0,anc_function)
 
-                # print("j = %i" %j)
-                #
-                # rel_theme = {arg : anc_THEME[j]}
-                # rel_funct = {arg : anc_FUNCT[j]}
-                # j += 1
-                #
-                # WriteOutput.gp.append(rel_theme[arg])
-                # WriteOutput.gp.append(rel_funct[arg])
+                print("j = %i" %j)
 
-                WriteOutput.gp.append(anc_THEME[0])
-                WriteOutput.gp.append(anc_FUNCT[0])
+                arg_attrs = (anc_THEME[j], anc_FUNCT[j])
+                j += 1
+
+                WriteOutput.argument[arg] = arg_attrs
 
             output1.append(str(WriteOutput))
                 # WriteOutput.gp.remove(rel_theme[arg])
@@ -113,7 +108,7 @@ def haz_todo(root, root2):
             pbcls = ('pbcls ='+ pbcls)
             pbID = ('pbID = '+  pbID)
 
-            rel = {name : output1[i]}  #falla quan tenen el mateix nom
+            rel = {name : output1[i]}  #falla quan tenen el mateix nom+
             print("i = %i" %i)
             i += 1
 

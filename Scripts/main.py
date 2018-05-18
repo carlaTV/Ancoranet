@@ -44,7 +44,7 @@ class gp(object):
 
 ## 1. parse file verb.lex:
 
-def parse_index(lex_root):
+def parse_lex(lex_root):
     output1 = []
     anc_FUNCT = []
     anc_THEME = []
@@ -116,7 +116,7 @@ if __name__ == "__main__":
     lex_root = verb_lex.getroot()
     ancoranet_root = ancoranet_es.getroot()
 
-    parse_index(lex_root)
+    parse_lex(lex_root)
 
     # generate_mate_dict(root, root2)
     # haz_todo(root, root2)

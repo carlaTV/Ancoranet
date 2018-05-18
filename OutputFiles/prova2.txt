@@ -5,17 +5,20 @@ pbID = 01
 anc_sense  = 1 
 anc_lss = C11.state-existential 
  	arg1 {
- 	arg2 {
- 	argM {
- 	argM {
 		anc_theme= tem 
 		anc_function = suj 
+	
+}
+ 	arg2 {
 		anc_theme= atr 
 		anc_function = cpred 
-		anc_theme= tmp 
-		anc_function = cc 
+	
+}
+ 	argM {
 		anc_theme= mnr 
 		anc_function = cc 
+	
+}
 
 }verb_vivir_02:_verb_ {
 anc_vtype = default
@@ -30,20 +33,20 @@ fn = DS
 anc_sense  = 2 
 anc_lss = C11.state-existential 
  	arg1 {
- 	arg2 {
- 	argM {
- 	argM {
- 	argM {
 		anc_theme= tem 
 		anc_function = suj 
+	
+}
+ 	arg2 {
 		anc_theme= loc 
 		anc_function = cc 
-		anc_theme= tmp 
-		anc_function = cc 
-		anc_theme= mnr 
-		anc_function = cc 
+	
+}
+ 	argM {
 		anc_theme= adv 
 		anc_function = cc 
+	
+}
 
 }verb_vivir_02:_verb_ {
 anc_vtype = default
@@ -55,17 +58,20 @@ fn = DS
 anc_sense  = 3 
 anc_lss = C21.state-attributive 
  	arg1 {
- 	arg2 {
- 	argM {
- 	argM {
 		anc_theme= tem 
 		anc_function = suj 
+	
+}
+ 	arg2 {
 		anc_theme= atr 
 		anc_function = cd 
-		anc_theme= mnr 
-		anc_function = cc 
+	
+}
+ 	argM {
 		anc_theme= tmp 
 		anc_function = cc 
+	
+}
 
 }verb_vivir_03:_verb_ {
 anc_vtype = default
@@ -77,11 +83,15 @@ fn = DS
 anc_sense  = 4 
 anc_lss = A21.transitive-agentive-patient 
  	arg0 {
- 	arg1 {
 		anc_theme= agt 
 		anc_function = suj 
+	
+}
+ 	arg1 {
 		anc_theme= pat 
 		anc_function = cd 
+	
+}
 
 }verb_vivir_04:_verb_ {
 anc_vtype = default
@@ -100,17 +110,15 @@ anc_sense  = 4
 anc_lss = A21.transitive-agentive-patient 
 anc_lss = B22.unaccusative-passive-transitive 
  	arg0 {
- 	arg1 {
- 	arg1 {
- 	arg0 {
-		anc_theme= agt 
-		anc_function = suj 
-		anc_theme= pat 
-		anc_function = cd 
-		anc_theme= pat 
-		anc_function = suj 
 		anc_theme= agt 
 		anc_function = cag 
+	
+}
+ 	arg1 {
+		anc_theme= pat 
+		anc_function = suj 
+	
+}
 
 }verb_vivir_04:_verb_ {
 anc_vtype = impersonal
@@ -130,20 +138,15 @@ anc_lss = A21.transitive-agentive-patient
 anc_lss = B22.unaccusative-passive-transitive 
 anc_lss = A21.transitive-agentive-patient 
  	arg0 {
- 	arg1 {
- 	arg1 {
- 	arg0 {
- 	arg1 {
-		anc_theme= agt 
-		anc_function = suj 
-		anc_theme= pat 
-		anc_function = cd 
-		anc_theme= pat 
-		anc_function = suj 
 		anc_theme= agt 
 		anc_function = cag 
+	
+}
+ 	arg1 {
 		anc_theme= pat 
 		anc_function = cd 
+	
+}
 
 }verb_vivir_04:_verb_ {
 anc_vtype = passive
@@ -161,20 +164,15 @@ fn = DS
 anc_sense  = 5 
 anc_lss = D21.inergative-experiencer 
  	arg0 {
- 	argM {
- 	argM {
- 	argM {
- 	argM {
 		anc_theme= exp 
 		anc_function = suj 
-		anc_theme= mnr 
-		anc_function = cc 
-		anc_theme= loc 
-		anc_function = cc 
-		anc_theme= tmp 
-		anc_function = cc 
+	
+}
+ 	argM {
 		anc_theme= ext 
 		anc_function = cc 
+	
+}
 
 }verb_vivir_05:_verb_ {
 anc_vtype = default
@@ -192,10 +190,14 @@ fn = DS
 anc_sense  = 6 
 anc_lss = C21.state-attributive 
  	arg1 {
- 	arg2 {
 		anc_theme= tem 
 		anc_function = suj 
+	
+}
+ 	arg2 {
 		anc_theme= atr 
 		anc_function = creg 
+	
+}
 
 }
