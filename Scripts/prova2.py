@@ -30,17 +30,9 @@ class verbLex(object):
         for arg in self.argument:
             output += " \t%s {\n" % arg
             for g in self.gp:
-                output += "\t\t%s {\n" %g
+                output += "\t\t%s \n" %g
         return output
 
-# class verbLex(object):
-#     def __init__(self):
-#         self.attrs = []
-#     def __str__(self):
-#         output = ""
-#         for atr in self.attrs:
-#             output += "%s \n"  %atr
-#         return output
 
 def haz_todo(root, root2):
     output1 = []
@@ -75,20 +67,27 @@ def haz_todo(root, root2):
 
                 WriteOutput.argument.append(arg)
 
-                # WriteOutput.gp.append(anc_theme)
-                anc_THEME.append(anc_theme)
+                # WriteOutput.gp.insert(0,anc_theme)
+                # anc_THEME.append(anc_theme)
+                anc_THEME.insert(0,anc_theme)
+                # anc_THEME[0] = anc_theme
 
-                # WriteOutput.gp.append(anc_function)
-                anc_FUNCT.append(anc_function)
+                # WriteOutput.gp.insert(1,anc_function)
+                # anc_FUNCT.append(anc_function)
+                # anc_FUNCT[0] = anc_function
+                anc_FUNCT.insert(0,anc_function)
 
-                print("j = %i" %j)
+                # print("j = %i" %j)
+                #
+                # rel_theme = {arg : anc_THEME[j]}
+                # rel_funct = {arg : anc_FUNCT[j]}
+                # j += 1
+                #
+                # WriteOutput.gp.append(rel_theme[arg])
+                # WriteOutput.gp.append(rel_funct[arg])
 
-                rel_theme = {arg : anc_THEME[j]}
-                rel_funct = {arg : anc_FUNCT[j]}
-                j += 1
-
-                WriteOutput.gp.append(rel_theme[arg])
-                WriteOutput.gp.append(rel_funct[arg])
+                WriteOutput.gp.append(anc_THEME[0])
+                WriteOutput.gp.append(anc_FUNCT[0])
 
             output1.append(str(WriteOutput))
                 # WriteOutput.gp.remove(rel_theme[arg])
@@ -198,8 +197,8 @@ def haz_todo(root, root2):
 
 if __name__ == "__main__":
 
-    ancoranet_es = ET.parse('files/ancoranet-es_VIVIRexemple.xml')
-    verb_lex = ET.parse('files/vivir.lex.xml')
+    ancoranet_es = ET.parse('OriginalFiles/ancoranet-es_VIVIRexemple.xml')
+    verb_lex = ET.parse('OriginalFiles/vivir.lex.xml')
 
     root = verb_lex.getroot()
     root2 = ancoranet_es.getroot()

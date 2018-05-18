@@ -85,8 +85,8 @@ def WriteFile(name, parent, filename, arguments, objects):
 #             file.write(str(end))
 
 
-ancoranet_es = ET.parse('files/ancoranet-es_VIVIRexemple.xml')
-verb_lex = ET.parse('files/vivir.lex.xml')
+ancoranet_es = ET.parse('OriginalFiles/ancoranet-es_VIVIRexemple.xml')
+verb_lex = ET.parse('OriginalFiles/vivir.lex.xml')
 
 root = verb_lex.getroot()
 root2 = ancoranet_es.getroot()

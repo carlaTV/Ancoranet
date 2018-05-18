@@ -3,7 +3,7 @@
 
 import xml.etree.ElementTree as ET
 
-class VerbLex(object):
+class MiddleText(object):
     def __init__(self):
         self.attrs = []
         self.arg = []
@@ -22,16 +22,15 @@ class VerbLex(object):
 
 
 
-ancoranet_es = ET.parse('files/ancoranet-es_VIVIRexemple.xml')
-verb_lex = ET.parse('files/vivir.lex.xml')
+ancoranet_es = ET.parse('OriginalFiles/ancoranet-es_VIVIRexemple.xml')
+verb_lex = ET.parse('OriginalFiles/vivir.lex.xml')
 
 root = verb_lex.getroot()
 root2 = ancoranet_es.getroot()
 
 
-filename = ('OutputFiles/printv2.txt')
+filename = ('OutputFiles/print.txt')
 file = open(filename, 'a')
-file2 = open('OutputFiles/WriteOutput.txt','a')
 
 ##### FILE 2: verbnet.lex.xml ####
 for sense in root.findall('sense'):
@@ -44,7 +43,7 @@ for sense in root.findall('sense'):
         lss = frame.get('lss')
         anc_lss = ('anc_lss = ' + lss)
 
-        WriteOutput = VerbLex()
+        WriteOutput = MiddleText()
         WriteOutput.attrs.append(anc_sense)
         print("{")
         file.write("{\n")
@@ -88,7 +87,8 @@ for sense in root.findall('sense'):
             file.write("\t\t}\n\t}\n}")
 
 
-    file2.write(str(WriteOutput))
+        #file.write(str(WriteOutput))
+
 file.close()
 
 
