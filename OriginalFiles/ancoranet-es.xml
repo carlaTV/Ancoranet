@@ -1,29 +1,4 @@
 <?xml version="1.0"?>
-<!-- 
-AncoraNet
-Copyright (C) 2011 Universitat de Barcelona
-
-This package contains AncoraNet links between AncoraLex frames and PropBank rolesets.
-
-As additional information, it contains links to FrameNet, VerbNet, WordNet and 
-OntoNotes Groupings. This additional information has been inherited from PropBank 
-links using SemLink 1.1.
-
-Only the AncoraLex-PropBank links have been validated manually and the links 
-inherited along with PropBank have not been validated by us.
-
-This package is distributed under the terms of GNU General Public License. See the 
-license text for further details. The license text can be found in OriginalFiles LICENSE.txt,
-LICENCIA.html and LLICENCIA.html in English, Spanish and Catalan respectively.
-
-IMPORTANT
----------
-
-Any use of this package or any part of it should cite clearly the following article:
-
-Taulé, Mariona; M. Antònia Martí, Oriol Borrega (2011). AnCora-Net: Integración multilingüe 
-de recursos lingüísticos semánticos. Procesamiento del Lenguaje Natural, 47. Spain.
- -->
 <ancoranet lng="es">
   <link ancoralexid="verb.abanderar.1.default" propbankid="champion.01">
     <verbnet file="captain-29.8" class="29.8" member="champion">
