@@ -30,66 +30,68 @@ root2 = ancoranet_es.getroot()
 
 
 filename = ('OutputFiles/print.txt')
-file = open(filename, 'a')
+# fitxer = open(filename, 'a')
 
-##### FILE 2: verbnet.lex.xml ####
-for sense in root.findall('sense'):
-    id = sense.get('id')
-    anc_sense = ('anc_sense  = ' + id)
+with open(filename, 'a') as output_file:
 
-
-    for frame in sense.iter('frame'):
-        # anc_lss.append(frame.get('lss'))
-        lss = frame.get('lss')
-        anc_lss = ('anc_lss = ' + lss)
-
-        WriteOutput = MiddleText()
-        WriteOutput.attrs.append(anc_sense)
-        print("{")
-        file.write("{\n")
-        print(anc_sense)
-        file.write(anc_sense+ "\n")
-        WriteOutput.attrs.append(anc_lss)
-        file.write(anc_lss+ "\n")
-        print(anc_lss)
+    ##### FILE 2: verbnet.lex.xml ####
+    for sense in root.findall('sense'):
+        id = sense.get('id')
+        anc_sense = ('anc_sense  = ' + id)
 
 
+        for frame in sense.iter('frame'):
+            # anc_lss.append(frame.get('lss'))
+            lss = frame.get('lss')
+            anc_lss = ('anc_lss = ' + lss)
 
-        for argument in frame.iter('argument'):
-            arg = argument.get('argument')
-            #gp.argument.append(arg)
-            thematicrole = argument.get('thematicrole')
-            anc_theme = ('anc_theme= ' + thematicrole)
-            funct = argument.get('function')
-            anc_function = ('anc_function = ' + funct)
-
-
-            #gp.attrs.append(anc_theme)
-            #gp.attrs.append(anc_function)
-            #print gp
-            #file.write(str(gp))
-
-            # WriteOutput = MiddleText()
-            # WriteOutput.attrs.append(anc_sense)
-            # print("Writing %s to file" %anc_sense)
-            # WriteOutput.attrs.append(anc_lss)
-            # print("Writing %s to file" % anc_lss)
-            WriteOutput.arg.append(arg)
-            print("\t" + arg + "{")
-            file.write(("\t" + arg + "{" + "\n"))
-            WriteOutput.gp.append(anc_theme)
-            print("\t\t" + anc_theme)
-            file.write("\t\t" + anc_theme + "\n")
-            WriteOutput.gp.append(anc_function)
-            print("\t\t"+anc_function)
-            file.write("\t\t"+anc_function+ "\n")
-            print("\t\t}\n\t}\n}")
-            file.write("\t\t}\n\t}\n}")
+            WriteOutput = MiddleText()
+            WriteOutput.attrs.append(anc_sense)
+            print("{")
+            output_file.write("{\n")
+            print(anc_sense)
+            output_file.write(anc_sense + "\n")
+            WriteOutput.attrs.append(anc_lss)
+            output_file.write(anc_lss + "\n")
+            print(anc_lss)
 
 
-        #file.write(str(WriteOutput))
 
-file.close()
+            for argument in frame.iter('argument'):
+                arg = argument.get('argument')
+                #gp.argument.append(arg)
+                thematicrole = argument.get('thematicrole')
+                anc_theme = ('anc_theme= ' + thematicrole)
+                funct = argument.get('function')
+                anc_function = ('anc_function = ' + funct)
+
+
+                #gp.attrs.append(anc_theme)
+                #gp.attrs.append(anc_function)
+                #print gp
+                #file.write(str(gp))
+
+                # WriteOutput = MiddleText()
+                # WriteOutput.attrs.append(anc_sense)
+                # print("Writing %s to file" %anc_sense)
+                # WriteOutput.attrs.append(anc_lss)
+                # print("Writing %s to file" % anc_lss)
+                WriteOutput.arg.append(arg)
+                print("\t" + arg + "{")
+                output_file.write(("\t" + arg + "{" + "\n"))
+                WriteOutput.gp.append(anc_theme)
+                print("\t\t" + anc_theme)
+                output_file.write("\t\t" + anc_theme + "\n")
+                WriteOutput.gp.append(anc_function)
+                print("\t\t"+anc_function)
+                output_file.write("\t\t" + anc_function + "\n")
+                print("\t\t}\n\t}\n}")
+                output_file.write("\t\t}\n\t}\n}")
+
+
+            #file.write(str(WriteOutput))
+
+# output_file.close()
 
 
 

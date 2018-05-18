@@ -84,7 +84,7 @@ def parse_index(lex_root):
                 # anc_THEME.append(anc_theme)
 
                 # get_ThFunc.gp[1] = anc_function
-                get_ThFunc.gp.insert(1,anc_function)
+                get_ThFunc.gp.insert(0,anc_function)
                 # anc_FUNCT.append(anc_function)
 
 
