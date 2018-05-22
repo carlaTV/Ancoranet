@@ -1,99 +1,48 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# -*- coding: UTF-8-*-
 
 import xml.etree.ElementTree as ET
 
-class MiddleText(object):
+parsing = ET.parse('/home/carlatv/Documents/AncoraNET/ancoranet/OriginalFiles/ancora-verb-es/abanderar.lex.xml')
+
+root = parsing.getroot()
+
+class WrapFeatures(object):
     def __init__(self):
-        self.attrs = []
-        self.arg = []
-        self.gp = []
-        #self.gp = gp
+        self.attrs = {}
     def __str__(self):
-        output = " {\n"
+        output = "{"
         for attr in self.attrs:
-            output += "%s\n" % attr
-        for a in self.arg:
-            output += "\t%s {\n" % a
-            for g in self.gp:
-                output += "\t\t%s\n" % g
-        output += "\t\n}\n}"
+            output += "%s = %s\n" %(attr, self.attrs.get(attr))
+        output += "}"
         return output
 
+wrapping = WrapFeatures()
+
+names = ['anc_sense', 'lss', 'type', 'argument', 'thematicrole', 'function', 'constituent', 'preposition']
 
 
-ancoranet_es = ET.parse('OriginalFiles/ancoranet-es_VIVIRexemple.xml')
-verb_lex = ET.parse('OriginalFiles/vivir.lex.xml')
-
-root = verb_lex.getroot()
-root2 = ancoranet_es.getroot()
-
-
-filename = ('OutputFiles/print.txt')
-# fitxer = open(filename, 'a')
-
-with open(filename, 'a') as output_file:
-
-    ##### FILE 2: verbnet.lex.xml ####
+def ParseFile(root):
     for sense in root.findall('sense'):
         id = sense.get('id')
-        anc_sense = ('anc_sense  = ' + id)
-
-
+        # anc_sense = ('anc_sense  = ' + id)
+        wrapping.attrs = {names[0]:id}
         for frame in sense.iter('frame'):
             # anc_lss.append(frame.get('lss'))
             lss = frame.get('lss')
-            anc_lss = ('anc_lss = ' + lss)
-
-            WriteOutput = MiddleText()
-            WriteOutput.attrs.append(anc_sense)
-            print("{")
-            output_file.write("{\n")
-            print(anc_sense)
-            output_file.write(anc_sense + "\n")
-            WriteOutput.attrs.append(anc_lss)
-            output_file.write(anc_lss + "\n")
-            print(anc_lss)
-
-
+            type = frame.get('type')
+            {names[1]: lss, names[2]: type}
+            wrapping.attrs.update({names[1]:lss, names[2]:type})
 
             for argument in frame.iter('argument'):
                 arg = argument.get('argument')
-                #gp.argument.append(arg)
-                thematicrole = argument.get('thematicrole')
-                anc_theme = ('anc_theme= ' + thematicrole)
+                themrole = argument.get('thematicrole')
                 funct = argument.get('function')
-                anc_function = ('anc_function = ' + funct)
 
+                wrapping.attrs.update({names[3]:arg, names[4]:themrole, names[5]:funct})
+                print wrapping
 
-                #gp.attrs.append(anc_theme)
-                #gp.attrs.append(anc_function)
-                #print gp
-                #file.write(str(gp))
+    return wrapping
 
-                # WriteOutput = MiddleText()
-                # WriteOutput.attrs.append(anc_sense)
-                # print("Writing %s to file" %anc_sense)
-                # WriteOutput.attrs.append(anc_lss)
-                # print("Writing %s to file" % anc_lss)
-                WriteOutput.arg.append(arg)
-                print("\t" + arg + "{")
-                output_file.write(("\t" + arg + "{" + "\n"))
-                WriteOutput.gp.append(anc_theme)
-                print("\t\t" + anc_theme)
-                output_file.write("\t\t" + anc_theme + "\n")
-                WriteOutput.gp.append(anc_function)
-                print("\t\t"+anc_function)
-                output_file.write("\t\t" + anc_function + "\n")
-                print("\t\t}\n\t}\n}")
-                output_file.write("\t\t}\n\t}\n}")
-
-
-            #file.write(str(WriteOutput))
-
-# output_file.close()
-
-
-
-
-
+ParseFile(root)
+# print str(result)
