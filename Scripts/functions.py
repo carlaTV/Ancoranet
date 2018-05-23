@@ -4,28 +4,99 @@
 import xml.etree.ElementTree as ET
 import codecs
 
+class Entry(object):
+
+    def __init__(self, name, parent, num):
+        self.name = name
+        self.parent = parent
+        self.num = num
+        self.anc_vtype = None
+        self.pbcls = None
+        self.pbID = None
+
+        self.attrs = {}
+
+    def __str__(self):
+        output = "%s:%s {\n" % (self.name, self.parent)
+
+        output += "\tanc_vtype = %s\n" % self.anc_vtype
+        output += "\tpbcls = %s\n" % self.pbcls
+        output += "\tpbID = %s\n" % self.pbID
+
+        return output.encode("utf8")
+
+class Sense(object):
+    def __init__(self, id):
+        self.id = id
+        self.frames = []
+
+    def __str__(self):
+        output = "\tid = %s\n" % self.id
+        output += "\t{\n"
+        for frame in self.frames:
+            output += "%s\n" % frame
+        output += "\t}\n"
+
+        return output
+
+class Frame(object):
+    def __init__(self, lss, type):
+        self.lss = lss
+        self.type = type
+        self.arguments = []
+
+    def __str__(self):
+        output = "\t\tlss = %s\n" % self.lss
+        output += "\t\ttype = %s\n" % self.type
+        output += "\t\t{\n"
+        for argument in self.arguments:
+            output += "%s\n" % argument
+        output += "\t}\n"
+
+        return output
+
+class Argument(object):
+    def __init__(self, arg, func, role):
+        self.arg = arg
+        self.func = func
+        self.role = role
+
+    def __str__(self):
+        output = "\t\t\targ = %s\n" % self.arg
+        output += "\t\t\tfunction = %s\n" % self.func
+        output += "\t\t\trole = %s\n" % self.role
+
+        return output
+
 ## funcio que pilli els verbs d'acoranet_es
 
-def getNames(root):
-    names = []
+def getEntries(root):
+
+    entries = []
     for link in root:
+
         lexid = link.get('ancoralexid')
-        VB, name_verb, num, anc_vtype = lexid.split('.')
-        name = (VB + '_' + name_verb + '_' + '0' + num)
-        spec = ('_' + VB + '_')
 
-        names.append(name_verb)
-    return names
+        parent, name, num, anc_vtype = lexid.split('.')
 
-def getAtrs(root):
-    attributes = []
-    for link in root:
-        bankID = link.get('propbankid')
-        pbcls, pbID = bankID.split('.')
+        entry = Entry(name, parent, num)
+        entry.anc_vtype = anc_vtype
 
-        attributes.append(pbcls)
-        attributes.append(pbID)
-    return attributes
+        getAttributes(link, entry)
+
+        entries.append(entry)
+
+    return entries
+
+def getAttributes(link, entry):
+
+    bankID = link.get('propbankid')
+    pbcls, pbID = bankID.split('.')
+
+    entry.pbcls = pbcls
+    entry.pbID = pbID
+
+
 def ParseName(name_verb):
     ntilde = u'ñ'
     a_dieresi = u'ä'
@@ -129,35 +200,88 @@ def ParseName(name_verb):
 
     return name_verb
 
-def OpenFiles(names):
-    name_files = []
-    for name in range(0, len(names)):
-        names[name] = ParseName(names[name])
-        name_file = ('../OriginalFiles/ancora-verb-es/' + names[name] + ".lex.xml")
-        name_files.append(name_file)
-    return name_files
+def getSenses(lex_filename):
 
-def Senses(names_files):
+    file_lex = ET.parse(lex_filename)
+    root_lex = file_lex.getroot()
+
     senses = []
-    for f in names_files:
-        file_lex = ET.parse(f)
-        root_lex = file_lex.getroot()
-        for sense in root_lex:
-            id = sense.get('id')
-            senses.append(id)
+    for sense_node in root_lex.findall('sense'):
+        id = sense_node.get('id')
+        sense_obj = Sense(id)
+
+        for frame_node in sense_node.iter('frame'):
+            lss = frame_node.get('lss')
+            type = frame_node.get('type')
+            frame_obj = Frame(lss, type)
+
+            for argument_node in frame_node.iter('argument'):
+                arg = argument_node.get('argument')
+                func = argument_node.get('function')
+                role = argument_node.get('thematicrole')
+                argument_obj = Argument(arg, func, role)
+
+                frame_obj.arguments.append(argument_obj)
+
+            sense_obj.frames.append(frame_obj)
+
+        senses.append(sense_obj)
+
     return senses
 
+arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d"}
+
+def getIndices(entries):
+
+
+    for entry in entries:
+        lex_name = ParseName(entry.name)
+        lex_filename = '../OriginalFiles/ancora-verb-es/' + lex_name + ".lex.xml"
+
+        sense_count = 1
+        senses = getSenses(lex_filename)
+        for sense in senses:
+
+            for frame in sense.frames:
+
+                print "%s_%s_%02d:%s {\n" % (entry.parent, entry.name, sense_count, entry.parent)
+                sense_count += 1
+
+                print "\tentryId = \"%s\"" % '?'
+                print "\tanc_sense = \"%s\"" % sense.id
+                print "\tanc_vtype = \"%s\"" % entry.anc_vtype
+                print "\tanc_lss = \"%s\"" % frame.lss
+                print "\tpbcls = \"%s\"" % entry.pbcls
+                print "\tpbID = \"%s\"" % entry.pbID
+
+                print "\tgp = {"
+                count = 1
+                for argument in frame.arguments:
+
+                    arg_name = arg_map[argument.arg]
+                    if arg_name.startswith("M"):
+                        arg_name = arg_name % count
+                        count +=  1
+
+                    print "\t\t%s = {" % arg_name
+                    print "\t\t\tanc_function = \"%s\"" % argument.func
+                    print "\t\t\tanc_theme = \"%s\"" % argument.role
+                    #print "\t\t\tanc_prep = \"%s\"" % argument.prep
+                    print "\t\t}\n"
+
+                print "\t}\n"
+
+                print "}\n"
 
 
 def main():
+
     ancoranet = ET.parse(codecs.open('../OriginalFiles/ancoranet-es.xml', encoding="utf8"))
     root_ancoranet = ancoranet.getroot()
-    names = getNames(root_ancoranet)
-    attrs = getAtrs(root_ancoranet)
-    names_files = OpenFiles(names)
-    senses = Senses(names_files)
-    for i in range(0, len(senses)):
-        print("sense = "+ senses[i])
+
+    entries = getEntries(root_ancoranet)
+    getIndices(entries)
+
 
 
 main()
