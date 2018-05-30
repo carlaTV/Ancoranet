@@ -7399,14 +7399,14 @@
       <grouping>situate.01</grouping>
     </verbnet>
   </link>
-  <link ancoralexid="verb.empu&#xFFFD;ar.1.default" propbankid="wield.01">
+  <link ancoralexid="verb.empuñar.1.default" propbankid="wield.01">
     <verbnet file="hold-15.1" class="15.1" member="wield">
       <framenet>NA</framenet>
       <wordnet wnsense="2">wield%2:35:00</wordnet>
       <grouping>wield.01</grouping>
     </verbnet>
   </link>
-  <link ancoralexid="verb.empu&#xFFFD;ar.1.default" propbankid="brandish.01"/>
+  <link ancoralexid="verb.empuñar.1.default" propbankid="brandish.01"/>
   <link ancoralexid="verb.emular.1.default" propbankid="emulate.01"/>
   <link ancoralexid="verb.emular.1.default" propbankid="imitate.01">
     <verbnet file="transcribe-25.4" class="25.4" member="imitate">
@@ -28508,7 +28508,7 @@
       <grouping>widen.01</grouping>
     </verbnet>
   </link>
-  <link ancoralexid="verb.ense&#xFFFD;ar.1.default" propbankid="show.03">
+  <link ancoralexid="verb.enseñar.1.default" propbankid="show.03">
     <verbnet file="reflexive_appearance-48.1.2" class="48.1.2" member="show">
       <framenet>DS</framenet>
       <wordnet wnsense="2">show%2:31:00</wordnet>
@@ -28518,7 +28518,7 @@
       <grouping>show.01</grouping>
     </verbnet>
   </link>
-  <link ancoralexid="verb.ense&#xFFFD;ar.1.default" propbankid="teach.01"/>
+  <link ancoralexid="verb.enseñar.1.default" propbankid="teach.01"/>
   <link ancoralexid="verb.ensuciar.1.default" propbankid="soil.01">
     <verbnet file="fill-9.8" class="9.8" member="soil">
       <framenet>NA</framenet>
