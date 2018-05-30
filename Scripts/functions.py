@@ -66,10 +66,23 @@ class Argument(object):
         self.func = func
         self.role = role
 
+        self.constituents = []
+
     def __str__(self):
         output = "\t\t\targ = %s\n" % self.arg
         output += "\t\t\tfunction = %s\n" % self.func
         output += "\t\t\trole = %s\n" % self.role
+
+        for constituent in self.constituents:
+            output += "%s\n" % constituent
+        return output
+
+class Constituent(object):
+    def __init__(self, prep):
+        self.prep = prep
+    def __str__(self):
+        #output = "\t\t\tprep = %s\n" % self.prep
+        output = "%s\n" % self.prep
 
         return output
 
@@ -238,6 +251,13 @@ def getSenses(lex_filename):
 
                 frame_obj.arguments.append(argument_obj)
 
+                for constituent_node in argument_node.iter('constituent'):
+                    prep = constituent_node.get('preposition')
+                    constituent_obj = Constituent(prep)
+
+                    argument_obj.constituents.append(constituent_obj)
+
+
             sense_obj.frames.append(frame_obj)
 
         senses.append(sense_obj)
@@ -294,8 +314,10 @@ def getIndices(entries):
                     print "\t\t%s = {" % arg_name
                     print "\t\t\tanc_function = \"%s\"" % argument.func
                     print "\t\t\tanc_theme = \"%s\"" % argument.role
-                    #print "\t\t\tanc_prep = \"%s\"" % argument.prep
-                    print "\t\t}\n"
+
+                    for constituent in argument.constituents:
+                        print "\t\t\tanc_prep = \"%s\"" % constituent
+                        print "\t\t}\n"
 
                 print "\t}\n"
 
