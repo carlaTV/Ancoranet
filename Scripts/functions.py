@@ -26,12 +26,14 @@ class Entry(object):
         return output.encode("utf8")
 
 class Sense(object):
-    def __init__(self, id):
+    def __init__(self, id, lemma):
+        self.lemma = lemma
         self.id = id
         self.frames = []
 
     def __str__(self):
-        output = "\tid = %s\n" % self.id
+        output = "\tlemma = %s\n" % self.lemma
+        output += "\tid = %s\n" % self.id
         output += "\t{\n"
         for frame in self.frames:
             output += "%s\n" % frame
@@ -116,7 +118,7 @@ def ParseName(name_verb):
     hacer = 'hacer_'
     poner = 'poner_'
     tener = 'tener_'
-    atenerse = 'atener_se'
+    #atenerse = 'atener_se'
     sacar = 'sacar_'
     echar = 'echar_'
     encontrar = 'encontrar_'
@@ -205,10 +207,12 @@ def getSenses(lex_filename):
     file_lex = ET.parse(lex_filename)
     root_lex = file_lex.getroot()
 
+    lemma = root_lex.get('lemma')
+
     senses = []
     for sense_node in root_lex.findall('sense'):
         id = sense_node.get('id')
-        sense_obj = Sense(id)
+        sense_obj = Sense(id, lemma)
 
         for frame_node in sense_node.iter('frame'):
             lss = frame_node.get('lss')
@@ -229,7 +233,7 @@ def getSenses(lex_filename):
 
     return senses
 
-arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d"}
+arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d","arrgM": "M%d" ,"arm": "M%d","argL":"argL", "aer2":"aer2", "arg":"arg"}
 
 def getIndices(entries):
 
@@ -244,10 +248,16 @@ def getIndices(entries):
 
             for frame in sense.frames:
 
-                print "%s_%s_%02d:%s {\n" % (entry.parent, entry.name, sense_count, entry.parent)
+                if entry.parent == 'verb':
+                    abbrv = "VB"
+                if entry.parent == 'noun':
+                    abbrv = 'NN'
+
+                print "\"%s_%s_%02d\":%s {\n" % (entry.name, abbrv, sense_count, entry.parent)
                 sense_count += 1
 
                 print "\tentryId = \"%s\"" % '?'
+                print "\tlemma = \"%s\"" % sense.lemma
                 print "\tanc_sense = \"%s\"" % sense.id
                 print "\tanc_vtype = \"%s\"" % entry.anc_vtype
                 print "\tanc_lss = \"%s\"" % frame.lss
@@ -276,7 +286,8 @@ def getIndices(entries):
 
 def main():
 
-    ancoranet = ET.parse(codecs.open('../OriginalFiles/ancoranet-es.xml', encoding="utf8"))
+   # ancoranet = ET.parse(codecs.open('../OriginalFiles/ancoranet-es.xml', encoding="utf8"))
+    ancoranet = ET.parse('../OriginalFiles/ancoranet-es.xml')
     root_ancoranet = ancoranet.getroot()
 
     entries = getEntries(root_ancoranet)
