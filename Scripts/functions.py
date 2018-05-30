@@ -13,6 +13,7 @@ class Entry(object):
         self.anc_vtype = None
         self.pbcls = None
         self.pbID = None
+        self.propbankarg = None
 
         self.attrs = {}
 
@@ -22,6 +23,8 @@ class Entry(object):
         output += "\tanc_vtype = %s\n" % self.anc_vtype
         output += "\tpbcls = %s\n" % self.pbcls
         output += "\tpbID = %s\n" % self.pbID
+
+        output += "\tpropbankarg = %s\n" % self.propbankarg
 
         return output.encode("utf8")
 
@@ -86,6 +89,8 @@ def getEntries(root):
 
         getAttributes(link, entry)
 
+        getArgAncora(link, entry)
+
         entries.append(entry)
 
     return entries
@@ -97,6 +102,12 @@ def getAttributes(link, entry):
 
     entry.pbcls = pbcls
     entry.pbID = pbID
+
+def getArgAncora(link, entry):
+    for arglink in link:
+        propbankarg = arglink.get('propbankarg')
+
+        entry.propbankarg = propbankarg
 
 
 def ParseName(name_verb):
@@ -242,7 +253,7 @@ def getIndices(entries):
         lex_name = ParseName(entry.name)
         lex_filename = '../OriginalFiles/ancora-verb-es/' + lex_name + ".lex.xml"
 
-        sense_count = 1
+        #sense_count = 1
         senses = getSenses(lex_filename)
         for sense in senses:
 
@@ -253,8 +264,14 @@ def getIndices(entries):
                 if entry.parent == 'noun':
                     abbrv = 'NN'
 
-                print "\"%s_%s_%02d\":%s {\n" % (entry.name, abbrv, sense_count, entry.parent)
-                sense_count += 1
+                if entry.propbankarg == "0":
+                    parent = "VerbExtrArg"
+                else:
+                    parent = entry.parent
+
+
+                print "\"%s_%s_0%s\":_%s_ {\n" % (entry.name, abbrv, sense.id, parent)
+                #sense_count += 1
 
                 print "\tentryId = \"%s\"" % '?'
                 print "\tlemma = \"%s\"" % sense.lemma
@@ -263,6 +280,7 @@ def getIndices(entries):
                 print "\tanc_lss = \"%s\"" % frame.lss
                 print "\tpbcls = \"%s\"" % entry.pbcls
                 print "\tpbID = \"%s\"" % entry.pbID
+                #print "\tpropbankarg = \"%s\"" % entry.propbankarg
 
                 print "\tgp = {"
                 count = 1
