@@ -7,6 +7,20 @@ import sys
 import glob
 import errno
 
+class Entry(object):
+    def __init__(self):
+        self.ancoralex_item = None
+        self.pbcls = None
+        self.pbId = None
+        self.name = None
+        self.sense = None
+    def __str__(self):
+        output = "%s" %self.pbcls
+        output += "%s" % self.pbId
+
+        return output
+
+
 class Sense(object):
     def __init__(self, id, lemma, type):
         self.lemma = lemma
@@ -108,7 +122,33 @@ def getSenses(root_lex):
 
 arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d","arrgM": "M%d" ,"arm": "M%d","argL":"argL", "aer2":"aer2", "arg":"arg"}
 
-def readFiles():
+def parseAncoranet(root_ancoranet):
+
+    entries = []
+    for link in root_ancoranet.findall('link'):
+        entry = Entry()
+        ancoralex_item = link.get('ancoralexid')
+        entry.ancoralex_item = ancoralex_item
+        verb_,lemma, sense, type_ = ancoralex_item.split('.')
+        entry.name = lemma
+        entry.sense = sense
+
+        propbankid = link.get('propbankid')
+        pblcs, pbId = propbankid.split('.')
+
+        entry.pbcls = pblcs
+        entry.pbId = pbId
+
+        entries.append(entry)
+
+    return entries
+
+
+
+
+
+
+def mergeFiles(root_ancoranet):
     path = '../OriginalFiles/ancora-verb-es/*.lex.xml'
 
     files = glob.glob(path)
@@ -118,10 +158,12 @@ def readFiles():
         root_lex = verb_lex.getroot()
 
         senses = getSenses(root_lex)
+        entries = parseAncoranet(root_ancoranet)
 
         # with open("../OutputFiles/ReverseDict.txt",'a') as fd:
         with codecs.open("../OutputFiles/ReverseDict.txt",'a', encoding="utf8") as fd:
            for sense in senses:
+               # print "entry = %s" %entry
                if sense.type != "passive":
                    if sense.type == "verb":
                        abbrv = "VB"
@@ -139,6 +181,14 @@ def readFiles():
                    fd.write("\tlemma = \"%s\"\n" % sense.lemma)
                    print "\tanc_sense = \"%s\"\n" % sense.id
                    fd.write("\tanc_sense = \"%s\"\n" % sense.id)
+
+                   if sense.type == "verb":
+                       anc_vtype = "default"
+                   else:
+                       anc_vtype = sense.type
+
+                   print"\tanc_vtype = \"%s\"\n" % anc_vtype
+                   fd.write("\tanc_vtype = \"%s\"\n" % anc_vtype)
 
                    for frame in sense.frames:
 
@@ -160,18 +210,6 @@ def readFiles():
                         # fd.write("\tanc_vtype = \"%s\"\n" % entry.anc_vtype)
                         print "\tanc_lss = \"%s\"\n" % frame.lss
                         fd.write("\tanc_lss = \"%s\"\n" % frame.lss)
-
-                        # print "\t\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbID)
-                        # fd.write("\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbID))
-                        #
-                        # print "\t\tpbcls = \"%s\"\n" % entry.pbcls
-                        # fd.write("\t\tpbcls = \"%s\"\n" % entry.pbcls)
-                        # print "\t\tpbID = \"%s\"\n" % entry.pbID
-                        # fd.write("\t\tpbID = \"%s\"\n" % entry.pbID)
-                        # print "\tpropbankarg = \"%s\"" % entry.propbankarg
-
-                        print "\t}\n"
-                        fd.write("}\n")
 
                         print "\tgp = {\n"
                         fd.write("\tgp = {\n")
@@ -196,6 +234,19 @@ def readFiles():
                                 print "\t\t}\n"
                                 fd.write("\t\t}\n")
 
+                        for entry in entries:
+                            if entry.name == sense.lemma and entry.sense == sense.id:
+                                print "\t\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbId)
+                                fd.write("\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbId))
+
+                                print "\t\tpbcls = \"%s\"\n" % entry.pbcls
+                                fd.write("\t\tpbcls = \"%s\"\n" % entry.pbcls)
+                                print "\t\tpbID = \"%s\"\n" % entry.pbId
+                                fd.write("\t\tpbID = \"%s\"\n" % entry.pbId)
+                                # print "\tpropbankarg = \"%s\"" % entry.propbankarg
+
+                                print "\t}\n"
+                                fd.write("}\n")
                         print "\t}\n"
                         fd.write("\t}\n")
 
@@ -216,7 +267,9 @@ def readFiles():
 
 
 def main():
-    readFiles()
+    ancoranet = ET.parse("../OriginalFiles/ancoranet-es.xml")
+    root_ancoranet = ancoranet.getroot()
+    mergeFiles(root_ancoranet)
 
 main()
 
