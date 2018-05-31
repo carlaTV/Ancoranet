@@ -2,406 +2,48 @@
 anc_sense  = 1
 anc_lss = C11.state-existential
 	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= atr
-		anc_function = cpred
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}{
+	arg2{
+	argM{
+	argM{
+{
 anc_sense  = 2
 anc_lss = C11.state-existential
 	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= loc
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= adv
-		anc_function = cc
-		}
-	}
-}{
+	arg2{
+	argM{
+	argM{
+	argM{
+{
 anc_sense  = 3
 anc_lss = C21.state-attributive
 	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= atr
-		anc_function = cd
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}{
+	arg2{
+	argM{
+	argM{
+{
 anc_sense  = 4
 anc_lss = A21.transitive-agentive-patient
 	arg0{
-		anc_theme= agt
-		anc_function = suj
-		}
-	}
-}	arg1{
-		anc_theme= pat
-		anc_function = cd
-		}
-	}
-}{
+	arg1{
+{
 anc_sense  = 4
 anc_lss = B22.unaccusative-passive-transitive
 	arg1{
-		anc_theme= pat
-		anc_function = suj
-		}
-	}
-}	arg0{
-		anc_theme= agt
-		anc_function = cag
-		}
-	}
-}{
+	arg0{
+{
 anc_sense  = 4
 anc_lss = A21.transitive-agentive-patient
 	arg1{
-		anc_theme= pat
-		anc_function = cd
-		}
-	}
-}{
+{
 anc_sense  = 5
 anc_lss = D21.inergative-experiencer
 	arg0{
-		anc_theme= exp
-		anc_function = suj
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= loc
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= ext
-		anc_function = cc
-		}
-	}
-}{
+	argM{
+	argM{
+	argM{
+	argM{
+{
 anc_sense  = 6
 anc_lss = C21.state-attributive
 	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= atr
-		anc_function = creg
-		}
-	}
-}{
-anc_sense  = 1
-anc_lss = C11.state-existential
-	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= atr
-		anc_function = cpred
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}{
-anc_sense  = 2
-anc_lss = C11.state-existential
-	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= loc
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= adv
-		anc_function = cc
-		}
-	}
-}{
-anc_sense  = 3
-anc_lss = C21.state-attributive
-	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= atr
-		anc_function = cd
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}{
-anc_sense  = 4
-anc_lss = A21.transitive-agentive-patient
-	arg0{
-		anc_theme= agt
-		anc_function = suj
-		}
-	}
-}	arg1{
-		anc_theme= pat
-		anc_function = cd
-		}
-	}
-}{
-anc_sense  = 4
-anc_lss = B22.unaccusative-passive-transitive
-	arg1{
-		anc_theme= pat
-		anc_function = suj
-		}
-	}
-}	arg0{
-		anc_theme= agt
-		anc_function = cag
-		}
-	}
-}{
-anc_sense  = 4
-anc_lss = A21.transitive-agentive-patient
-	arg1{
-		anc_theme= pat
-		anc_function = cd
-		}
-	}
-}{
-anc_sense  = 1
-anc_lss = C11.state-existential
-	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= atr
-		anc_function = cpred
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}{
-anc_sense  = 2
-anc_lss = C11.state-existential
-	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= loc
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= adv
-		anc_function = cc
-		}
-	}
-}{
-anc_sense  = 3
-anc_lss = C21.state-attributive
-	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= atr
-		anc_function = cd
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}{
-anc_sense  = 4
-anc_lss = A21.transitive-agentive-patient
-	arg0{
-		anc_theme= agt
-		anc_function = suj
-		}
-	}
-}	arg1{
-		anc_theme= pat
-		anc_function = cd
-		}
-	}
-}{
-anc_sense  = 4
-anc_lss = B22.unaccusative-passive-transitive
-	arg1{
-		anc_theme= pat
-		anc_function = suj
-		}
-	}
-}	arg0{
-		anc_theme= agt
-		anc_function = cag
-		}
-	}
-}{
-anc_sense  = 4
-anc_lss = A21.transitive-agentive-patient
-	arg1{
-		anc_theme= pat
-		anc_function = cd
-		}
-	}
-}{
-anc_sense  = 5
-anc_lss = D21.inergative-experiencer
-	arg0{
-		anc_theme= exp
-		anc_function = suj
-		}
-	}
-}	argM{
-		anc_theme= mnr
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= loc
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= tmp
-		anc_function = cc
-		}
-	}
-}	argM{
-		anc_theme= ext
-		anc_function = cc
-		}
-	}
-}{
-anc_sense  = 6
-anc_lss = C21.state-attributive
-	arg1{
-		anc_theme= tem
-		anc_function = suj
-		}
-	}
-}	arg2{
-		anc_theme= atr
-		anc_function = creg
-		}
-	}
-}
+	arg2{

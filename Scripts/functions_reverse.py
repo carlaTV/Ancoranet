@@ -121,29 +121,53 @@ def getSenses(root_lex):
     return senses
 
 arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d","arrgM": "M%d" ,"arm": "M%d","argL":"argL", "aer2":"aer2", "arg":"arg"}
+#
+# def parseAncoranet(root_ancoranet):
+#
+#     entries = []
+#     # mapping = {}
+#     for link in root_ancoranet.findall('link'):
+#         entry = Entry()
+#         ancoralex_item = link.get('ancoralexid')
+#         entry.ancoralex_item = ancoralex_item
+#         verb_,lemma, sense, type_ = ancoralex_item.split('.')
+#         entry.name = lemma
+#         entry.sense = sense
+#
+#         propbankid = link.get('propbankid')
+#         pblcs, pbId = propbankid.split('.')
+#
+#         entry.pbcls = pblcs
+#         entry.pbId = pbId
+#
+#         entries.append(entry)
+#     entries = list(set(entries))
+#     return entries
 
 def parseAncoranet(root_ancoranet):
 
-    entries = []
+    mapping = {}
     for link in root_ancoranet.findall('link'):
         entry = Entry()
         ancoralex_item = link.get('ancoralexid')
         entry.ancoralex_item = ancoralex_item
-        verb_,lemma, sense, type_ = ancoralex_item.split('.')
+        verb_,lemma, sense, type = ancoralex_item.split('.')
         entry.name = lemma
         entry.sense = sense
 
-        propbankid = link.get('propbankid')
-        pblcs, pbId = propbankid.split('.')
+        map_info = lemma+"_VB_0"+sense
 
-        entry.pbcls = pblcs
-        entry.pbId = pbId
+        if type != 'passive':
+            propbankid = link.get('propbankid')
+            pblcs, pbId = propbankid.split('.')
 
-        entries.append(entry)
+            entry.pbcls = pblcs
+            entry.pbId = pbId
 
-    return entries
+            dict1 = {map_info:[entry.pbcls, entry.pbId] }
+            mapping.update(dict1)
 
-
+    return mapping
 
 
 
@@ -172,6 +196,7 @@ def mergeFiles(root_ancoranet):
                    else:
                        abbrv = "VB"
 
+                   title = "%s_%s_0%s" % (sense.lemma, abbrv, sense.id)
                    print "\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, abbrv)
                    fd.write("\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, abbrv))
 
@@ -190,26 +215,19 @@ def mergeFiles(root_ancoranet):
                    print"\tanc_vtype = \"%s\"\n" % anc_vtype
                    fd.write("\tanc_vtype = \"%s\"\n" % anc_vtype)
 
+                   mapping = parseAncoranet(root_ancoranet)
+                   try:
+                       print mapping[title]
+                       fd.write(str(mapping[title]))
+                   except:
+                       print None
+
                    for frame in sense.frames:
 
-                        # if entry.parent == 'verb':
-                        #     abbrv = "VB"
-                        # if entry.parent == 'noun':
-                        #     abbrv = 'NN'
-                        #
-                        # if entry.propbankarg == "0":
-                        #     parent = "VerbExtrArg"
-                        # else:
-                        #     parent = entry.parent
-                        #
-                        # print "\"%s_%s_0%s\":_%s_ {\n" % (entry.name, abbrv, sense.id, parent)
-                        # fd.write("\"%s_%s_0%s\":_%s_ {\n" % (entry.name, abbrv, sense.id, parent))
-                        # # sense_count += 1
-
-                        # print "\tanc_vtype = \"%s\"\n" % entry.anc_vtype
-                        # fd.write("\tanc_vtype = \"%s\"\n" % entry.anc_vtype)
                         print "\tanc_lss = \"%s\"\n" % frame.lss
                         fd.write("\tanc_lss = \"%s\"\n" % frame.lss)
+
+
 
                         print "\tgp = {\n"
                         fd.write("\tgp = {\n")
@@ -233,26 +251,28 @@ def mergeFiles(root_ancoranet):
                                 fd.write("\t\t\tanc_prep = \"%s\"\n" % constituent)
                                 print "\t\t}\n"
                                 fd.write("\t\t}\n")
+                            print "\t}\n"
+                            fd.write("\t}\n")
 
-                        for entry in entries:
-                            if entry.name == sense.lemma and entry.sense == sense.id:
-                                print "\t\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbId)
-                                fd.write("\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbId))
+                        # for entry in entries:
+                        #  if entry.name == sense.lemma and entry.sense == sense.id:
+                        #     print "\t\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbId)
+                        #     fd.write("\t\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbId))
+                        #
+                        #     print "\t\tpbcls = \"%s\"\n" % entry.pbcls
+                        #     fd.write("\t\tpbcls = \"%s\"\n" % entry.pbcls)
+                        #     print "\t\tpbID = \"%s\"\n" % entry.pbId
+                        #     fd.write("\t\tpbID = \"%s\"\n" % entry.pbId)
+                        #     # print "\tpropbankarg = \"%s\"" % entry.propbankarg
+                        #
+                        #     print "\t}\n"
+                        #     fd.write("\t}\n")
 
-                                print "\t\tpbcls = \"%s\"\n" % entry.pbcls
-                                fd.write("\t\tpbcls = \"%s\"\n" % entry.pbcls)
-                                print "\t\tpbID = \"%s\"\n" % entry.pbId
-                                fd.write("\t\tpbID = \"%s\"\n" % entry.pbId)
-                                # print "\tpropbankarg = \"%s\"" % entry.propbankarg
 
-                                print "\t}\n"
-                                fd.write("}\n")
-                        print "\t}\n"
-                        fd.write("\t}\n")
 
-                        print "}\n"
-                        fd.write("}\n")
-        fd.close()
+               print "}\n"
+               fd.write("}\n")
+    fd.close()
 
 
         # except IOError as exc:

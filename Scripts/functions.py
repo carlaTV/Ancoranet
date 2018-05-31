@@ -274,71 +274,80 @@ def getIndices(entries):
             lex_name = ParseName(entry.name)
             lex_filename = '../OriginalFiles/ancora-verb-es/' + lex_name + ".lex.xml"
 
-            #sense_count = 1
-            senses = getSenses(lex_filename)
-            for sense in senses:
+            if entry.anc_vtype != "passive":
 
-                for frame in sense.frames:
+                #sense_count = 1
+                senses = getSenses(lex_filename)
+                for sense in senses:
 
-                    if entry.parent == 'verb':
-                        abbrv = "VB"
-                    if entry.parent == 'noun':
-                        abbrv = 'NN'
+                    for frame in sense.frames:
 
-                    if entry.propbankarg == "0":
-                        parent = "VerbExtrArg"
-                    else:
-                        parent = entry.parent
+                        if entry.parent == 'verb':
+                            abbrv = "VB"
+                        if entry.parent == 'noun':
+                            abbrv = 'NN'
+
+                        if entry.propbankarg == "0":
+                            parent = "VerbExtrArg"
+                        else:
+                            parent = entry.parent
 
 
-                    print "\"%s_%s_0%s\":_%s_ {\n" % (entry.name, abbrv, sense.id, parent)
-                    fd.write("\"%s_%s_0%s\":_%s_ {\n" % (entry.name, abbrv, sense.id, parent))
-                    #sense_count += 1
+                        print "\"%s_%s_0%s\":_%s_ {\n" % (entry.name, abbrv, sense.id, parent)
+                        fd.write("\"%s_%s_0%s\":_%s_ {\n" % (entry.name, abbrv, sense.id, parent))
+                        #sense_count += 1
 
-                    print "\tentryId = \"%s\"\n" % '?'
-                    fd.write("\tentryId = \"%s\"\n" % '?')
-                    print "\tlemma = \"%s\"\n" % sense.lemma
-                    fd.write("\tlemma = \"%s\"\n" % sense.lemma)
-                    print "\tanc_sense = \"%s\"\n" % sense.id
-                    fd.write("\tanc_sense = \"%s\"\n" % sense.id)
-                    print "\tanc_vtype = \"%s\"\n" % entry.anc_vtype
-                    fd.write("\tanc_vtype = \"%s\"\n" % entry.anc_vtype)
-                    print "\tanc_lss = \"%s\"\n" % frame.lss
-                    fd.write("\tanc_lss = \"%s\"\n" % frame.lss)
-                    print "\tpbcls = \"%s\"\n" % entry.pbcls
-                    fd.write("\tpbcls = \"%s\"\n" % entry.pbcls)
-                    print "\tpbID = \"%s\"\n" % entry.pbID
-                    fd.write("\tpbID = \"%s\"\n" % entry.pbID)
-                    #print "\tpropbankarg = \"%s\"" % entry.propbankarg
+                        print "\tentryId = \"%s\"\n" % '?'
+                        fd.write("\tentryId = \"%s\"\n" % '?')
+                        print "\tlemma = \"%s\"\n" % sense.lemma
+                        fd.write("\tlemma = \"%s\"\n" % sense.lemma)
+                        print "\tanc_sense = \"%s\"\n" % sense.id
+                        fd.write("\tanc_sense = \"%s\"\n" % sense.id)
+                        print "\tanc_vtype = \"%s\"\n" % entry.anc_vtype
+                        fd.write("\tanc_vtype = \"%s\"\n" % entry.anc_vtype)
+                        print "\tanc_lss = \"%s\"\n" % frame.lss
+                        fd.write("\tanc_lss = \"%s\"\n" % frame.lss)
 
-                    print "\tgp = {\n"
-                    fd.write("\tgp = {\n")
-                    count = 1
-                    for argument in frame.arguments:
+                        print "\t\"%s_%s_%s\" = {\n" %(entry.pbcls, abbrv, entry.pbID)
+                        fd.write( "\"%s_%s_%s\" = {\n" %(entry.pbcls, abbrv, entry.pbID))
 
-                        arg_name = arg_map[argument.arg]
-                        if arg_name.startswith("M"):
-                            arg_name = arg_name % count
-                            count +=  1
+                        print "\t\tpbcls = \"%s\"\n" % entry.pbcls
+                        fd.write("\t\tpbcls = \"%s\"\n" % entry.pbcls)
+                        print "\t\tpbID = \"%s\"\n" % entry.pbID
+                        fd.write("\t\tpbID = \"%s\"\n" % entry.pbID)
+                        #print "\tpropbankarg = \"%s\"" % entry.propbankarg
 
-                        print "\t\t%s = {\n" % arg_name
-                        fd.write("\t\t%s = {\n" % arg_name)
-                        print "\t\t\tanc_function = \"%s\"\n" % argument.func
-                        fd.write("\t\t\tanc_function = \"%s\"\n" % argument.func)
-                        print "\t\t\tanc_theme = \"%s\"\n" % argument.role
-                        fd.write("\t\t\tanc_theme = \"%s\"\n" % argument.role)
+                        print "\t}\n"
+                        fd.write("}\n")
 
-                        for constituent in argument.constituents:
-                            print "\t\t\tanc_prep = \"%s\"\n" % constituent
-                            fd.write("\t\t\tanc_prep = \"%s\"\n" % constituent)
-                            print "\t\t}\n"
-                            fd.write("\t\t}\n")
+                        print "\tgp = {\n"
+                        fd.write("\tgp = {\n")
+                        count = 1
+                        for argument in frame.arguments:
 
-                    print "\t}\n"
-                    fd.write("\t}\n")
+                            arg_name = arg_map[argument.arg]
+                            if arg_name.startswith("M"):
+                                arg_name = arg_name % count
+                                count +=  1
 
-                    print "}\n"
-                    fd.write("}\n")
+                            print "\t\t%s = {\n" % arg_name
+                            fd.write("\t\t%s = {\n" % arg_name)
+                            print "\t\t\tanc_function = \"%s\"\n" % argument.func
+                            fd.write("\t\t\tanc_function = \"%s\"\n" % argument.func)
+                            print "\t\t\tanc_theme = \"%s\"\n" % argument.role
+                            fd.write("\t\t\tanc_theme = \"%s\"\n" % argument.role)
+
+                            for constituent in argument.constituents:
+                                print "\t\t\tanc_prep = \"%s\"\n" % constituent
+                                fd.write("\t\t\tanc_prep = \"%s\"\n" % constituent)
+                                print "\t\t}\n"
+                                fd.write("\t\t}\n")
+
+                        print "\t}\n"
+                        fd.write("\t}\n")
+
+                        print "}\n"
+                        fd.write("}\n")
     fd.close()
 
 def main():
