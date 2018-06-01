@@ -14,6 +14,7 @@ class Entry(object):
         self.pbId = None
         self.name = None
         self.sense = None
+        self.propbankarg = None
     def __str__(self):
         output = "%s" %self.pbcls
         output += "%s" % self.pbId
@@ -69,7 +70,7 @@ class Argument(object):
         output += "\t\t\trole = %s\n" % self.role
 
         for constituent in self.constituents:
-            output += "%s\n" % constituent
+            output += "%s" % constituent
         return output
 
 class Constituent(object):
@@ -142,22 +143,47 @@ def parseAncoranet(root_ancoranet):
 
     return mapping
 
+def getPropbankarg(root_ancoranet):
+    entry = Entry()
+    map_propbankarg = {}
+    iszero = False
+    for link in root_ancoranet.findall('link'):
+        ancoralex_item = link.get('ancoralexid')
+        entry.ancoralex_item = ancoralex_item
+        verb_, lemma, sense, type = ancoralex_item.split('.')
+        entry.name = lemma
+        entry.sense = sense
+
+        for arglink in link:
+            propbankarg = arglink.get('propbankarg')
+            entry.propbankarg = propbankarg
+            if propbankarg == "0":
+                iszero = True
+                break
+            else:
+                iszero = False
 
 
+        map_info = lemma+"_VB_0"+sense
+        dict1 = {map_info:iszero}
+        map_propbankarg.update(dict1)
+    return map_propbankarg
 
 def mergeFiles(root_ancoranet):
     path = '../OriginalFiles/ancora-verb-es/*.lex.xml'
 
     files = glob.glob(path)
-    for name in files: # 'file' is a builtin type, 'name' is a less-ambiguous variable name.
-        # try:
-        verb_lex = ET.parse(name)
-        root_lex = verb_lex.getroot()
+    with codecs.open("../OutputFiles/ReverseDict.dic", 'a', encoding="utf8") as fd:
+        fd.write("lexicon_Ancora{\n")
+        for name in files: # 'file' is a builtin type, 'name' is a less-ambiguous variable name.
+            # try:
+            verb_lex = ET.parse(name)
+            root_lex = verb_lex.getroot()
 
-        senses = getSenses(root_lex)
+            senses = getSenses(root_lex)
 
-        with codecs.open("../OutputFiles/ReverseDict.txt",'a', encoding="utf8") as fd:
-           for sense in senses:
+
+            for sense in senses:
                if sense.type != "passive":
                    if sense.type == "verb":
                        abbrv = "VB"
@@ -165,79 +191,87 @@ def mergeFiles(root_ancoranet):
                    #     abbrv = "NN"
                    else:
                        abbrv = "VB"
+                   try:
+                       map_prop = getPropbankarg(root_ancoranet)
+                       title = "%s_%s_0%s" % (sense.lemma, abbrv, sense.id)
+                       propbankarg = map_prop[title]
 
-                   title = "%s_%s_0%s" % (sense.lemma, abbrv, sense.id)
-                   print "\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, abbrv)
-                   fd.write("\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, abbrv))
+                       if propbankarg is True:
+                           parent = "VerbExtrArg"
+                       else:
+                           parent = "verb"
+                   except:
+                       parent = "verb"
 
-                   print "\tentryId = \"%s\"\n" % '?'
-                   fd.write("\tentryId = \"%s\"\n" % '?')
-                   print "\tlemma = \"%s\"\n" % sense.lemma
-                   fd.write("\tlemma = \"%s\"\n" % sense.lemma)
-                   print "\tanc_sense = \"%s\"\n" % sense.id
-                   fd.write("\tanc_sense = \"%s\"\n" % sense.id)
+                   #print "\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent)
+                   fd.write("\t\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent))
+
+                   #print "\tentryId = \"%s\"\n" % '?'
+                   fd.write("\t\tentryId = \"%s\"\n" % '?')
+                   #print "\t\tlemma = \"%s\"\n" % sense.lemma
+                   fd.write("\t\tlemma = \"%s\"\n" % sense.lemma)
+                   #print "\t\tanc_sense = \"%s\"\n" % sense.id
+                   fd.write("\t\tanc_sense = \"%s\"\n" % sense.id)
 
                    if sense.type == "verb":
                        anc_vtype = "default"
                    else:
                        anc_vtype = sense.type
 
-                   print"\tanc_vtype = \"%s\"\n" % anc_vtype
-                   fd.write("\tanc_vtype = \"%s\"\n" % anc_vtype)
+                       #print"\tanc_vtype = \"%s\"\n" % anc_vtype
+                   fd.write("\t\tanc_vtype = \"%s\"\n" % anc_vtype)
 
                    mapping = parseAncoranet(root_ancoranet)
-
                    try:
                        pb = mapping[title]
                        pbcls = pb[0]
                        pbId = pb[1]
-                       print "\t %s_VB_%s{\n" %(pbcls, pbId)
-                       print "\t\t pbcls = %s \n" %pbcls
-                       print "\t\t pbId = %s \n" %pbId
+                       #print "\t\t \"%s_VB_%s\"{\n" %(pbcls, pbId)
+                       #print "\t\t\t pbcls = \"%s\" \n" %pbcls
+                       #print "\t\t\t pbId = \"%s\" \n" %pbId
 
-                       fd.write("\t %s_VB_%s{\n" %(pbcls, pbId))
-                       fd.write("\t\t pbcls = %s \n" %pbcls)
-                       fd.write("\t\t pbId = %s \n" %pbId)
-                       fd.write("\t}\n")
+                       fd.write("\t\t %s_VB_%s{\n" %(pbcls, pbId))
+                       fd.write("\t\t\t pbcls = %s \n" %pbcls)
+                       fd.write("\t\t\t pbId = %s \n" %pbId)
+                       fd.write("\t\t}\n")
                    except:
                        print None
 
                    for frame in sense.frames:
 
-                        print "\tanc_lss = \"%s\"\n" % frame.lss
-                        fd.write("\tanc_lss = \"%s\"\n" % frame.lss)
+                       #print "\tanc_lss = \"%s\"\n" % frame.lss
+                        fd.write("\t\tanc_lss = \"%s\"\n" % frame.lss)
 
 
-
-                        print "\tgp = {\n"
-                        fd.write("\tgp = {\n")
                         count = 1
                         for argument in frame.arguments:
-
                             arg_name = arg_map[argument.arg]
                             if arg_name.startswith("M"):
                                 arg_name = arg_name % count
                                 count += 1
 
-                            print "\t\t%s = {\n" % arg_name
-                            fd.write("\t\t%s = {\n" % arg_name)
-                            print "\t\t\tanc_function = \"%s\"\n" % argument.func
-                            fd.write("\t\t\tanc_function = \"%s\"\n" % argument.func)
-                            print "\t\t\tanc_theme = \"%s\"\n" % argument.role
-                            fd.write("\t\t\tanc_theme = \"%s\"\n" % argument.role)
+                                #print "\tgp = {\n"
+                            fd.write("\t\tgp = {\n")
+
+                            #print "\t\t%s = {\n" % arg_name
+                            fd.write("\t\t\t%s = {\n" % arg_name)
+                            #print "\t\t\t\tanc_function = \"%s\"\n" % argument.func
+                            fd.write("\t\t\t\tanc_function = \"%s\"\n" % argument.func)
+                            #print "\t\t\t\tanc_theme = \"%s\"\n" % argument.role
+                            fd.write("\t\t\t\tanc_theme = \"%s\"\n" % argument.role)
 
                             for constituent in argument.constituents:
-                                print "\t\t\tanc_prep = \"%s\"\n" % constituent
-                                fd.write("\t\t\tanc_prep = \"%s\"\n" % constituent)
-                                print "\t\t}\n"
-                                fd.write("\t\t}\n")
-                            print "\t}\n"
-                            fd.write("\t}\n")
+                                #  print "\t\t\tanc_prep = \"%s\" \n" % constituent
+                                fd.write("\t\t\t\tanc_prep = \"%s\"\n" % constituent)
+                                #print "\t\t}\n"
+                                fd.write("\t\t\t}\n")  #print "\t\t}\n"
+                            fd.write("\t\t\t}\n")
+                            #print "\t}\n"
+                            fd.write("\t\t}\n")
 
-
-
-               print "}\n"
-               fd.write("}\n")
+                            #print "}\n"
+               fd.write("\t}\n\n")
+        fd.write("\n}")
     fd.close()
 
 
