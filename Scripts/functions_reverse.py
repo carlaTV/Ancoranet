@@ -76,16 +76,11 @@ class Constituent(object):
     def __init__(self, prep):
         self.prep = prep
     def __str__(self):
-        #output = "\t\t\tprep = %s\n" % self.prep
         output = "%s\n" % self.prep
 
         return output
 
 def getSenses(root_lex):
-
-    # file_lex = ET.parse(lex_filename)
-    # root_lex = file_lex.getroot()
-
     lemma = root_lex.get('lemma')
     type = root_lex.get('type')
 
@@ -121,28 +116,6 @@ def getSenses(root_lex):
     return senses
 
 arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d","arrgM": "M%d" ,"arm": "M%d","argL":"argL", "aer2":"aer2", "arg":"arg"}
-#
-# def parseAncoranet(root_ancoranet):
-#
-#     entries = []
-#     # mapping = {}
-#     for link in root_ancoranet.findall('link'):
-#         entry = Entry()
-#         ancoralex_item = link.get('ancoralexid')
-#         entry.ancoralex_item = ancoralex_item
-#         verb_,lemma, sense, type_ = ancoralex_item.split('.')
-#         entry.name = lemma
-#         entry.sense = sense
-#
-#         propbankid = link.get('propbankid')
-#         pblcs, pbId = propbankid.split('.')
-#
-#         entry.pbcls = pblcs
-#         entry.pbId = pbId
-#
-#         entries.append(entry)
-#     entries = list(set(entries))
-#     return entries
 
 def parseAncoranet(root_ancoranet):
 
@@ -183,10 +156,8 @@ def mergeFiles(root_ancoranet):
 
         senses = getSenses(root_lex)
 
-        # with open("../OutputFiles/ReverseDict.txt",'a') as fd:
         with codecs.open("../OutputFiles/ReverseDict.txt",'a', encoding="utf8") as fd:
            for sense in senses:
-               # print "entry = %s" %entry
                if sense.type != "passive":
                    if sense.type == "verb":
                        abbrv = "VB"
@@ -263,34 +234,11 @@ def mergeFiles(root_ancoranet):
                             print "\t}\n"
                             fd.write("\t}\n")
 
-                        # for entry in entries:
-                        #  if entry.name == sense.lemma and entry.sense == sense.id:
-                        #     print "\t\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbId)
-                        #     fd.write("\t\"%s_%s_%s\" = {\n" % (entry.pbcls, abbrv, entry.pbId))
-                        #
-                        #     print "\t\tpbcls = \"%s\"\n" % entry.pbcls
-                        #     fd.write("\t\tpbcls = \"%s\"\n" % entry.pbcls)
-                        #     print "\t\tpbID = \"%s\"\n" % entry.pbId
-                        #     fd.write("\t\tpbID = \"%s\"\n" % entry.pbId)
-                        #     # print "\tpropbankarg = \"%s\"" % entry.propbankarg
-                        #
-                        #     print "\t}\n"
-                        #     fd.write("\t}\n")
-
 
 
                print "}\n"
                fd.write("}\n")
     fd.close()
-
-
-        # except IOError as exc:
-        #     if exc.errno != errno.EISDIR: # Do not fail if a directory is found, just ignore it.
-        #         raise # Propagate other kinds of IOError.
-
-
-
-
 
 
 
@@ -301,13 +249,3 @@ def main():
     mergeFiles(root_ancoranet)
 
 main()
-
-#
-# verb = ET.parse("../OriginalFiles/ancora-verb-es/abalanzar.lex.xml")
-#
-# root = verb.getroot()
-#
-# lex = root.get('lemma')
-# #lemma = lex.get('lemma')
-#
-# print(lex)
