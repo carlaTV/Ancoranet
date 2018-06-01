@@ -182,7 +182,6 @@ def mergeFiles(root_ancoranet):
         root_lex = verb_lex.getroot()
 
         senses = getSenses(root_lex)
-        entries = parseAncoranet(root_ancoranet)
 
         # with open("../OutputFiles/ReverseDict.txt",'a') as fd:
         with codecs.open("../OutputFiles/ReverseDict.txt",'a', encoding="utf8") as fd:
@@ -216,9 +215,19 @@ def mergeFiles(root_ancoranet):
                    fd.write("\tanc_vtype = \"%s\"\n" % anc_vtype)
 
                    mapping = parseAncoranet(root_ancoranet)
+
                    try:
-                       print mapping[title]
-                       fd.write(str(mapping[title]))
+                       pb = mapping[title]
+                       pbcls = pb[0]
+                       pbId = pb[1]
+                       print "\t %s_VB_%s{\n" %(pbcls, pbId)
+                       print "\t\t pbcls = %s \n" %pbcls
+                       print "\t\t pbId = %s \n" %pbId
+
+                       fd.write("\t %s_VB_%s{\n" %(pbcls, pbId))
+                       fd.write("\t\t pbcls = %s \n" %pbcls)
+                       fd.write("\t\t pbId = %s \n" %pbId)
+                       fd.write("\t}\n")
                    except:
                        print None
 
