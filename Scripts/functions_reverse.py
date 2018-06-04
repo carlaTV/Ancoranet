@@ -77,7 +77,7 @@ class Constituent(object):
     def __init__(self, prep):
         self.prep = prep
     def __str__(self):
-        output = "%s\n" % self.prep
+        output = "%s" % self.prep
 
         return output
 
@@ -169,11 +169,39 @@ def getPropbankarg(root_ancoranet):
         map_propbankarg.update(dict1)
     return map_propbankarg
 
-def mergeFiles(root_ancoranet):
+def writeArguments(frame, fd):
+    fd.write("\t\tgp = {\n")
+
+    count = 1
+    for argument in frame.arguments:
+        arg_name = arg_map[argument.arg]
+        if arg_name.startswith("M"):
+            arg_name = arg_name % count
+            count += 1
+
+            # print "\tgp = {\n"
+
+        # print "\t\t%s = {\n" % arg_name
+        fd.write("\t\t\t%s = {\n" % arg_name)
+        # print "\t\t\t\tanc_function = \"%s\"\n" % argument.func
+        fd.write("\t\t\t\tanc_function = \"%s\"\n" % argument.func)
+        # print "\t\t\t\tanc_theme = \"%s\"\n" % argument.role
+        fd.write("\t\t\t\tanc_theme = \"%s\"\n" % argument.role)
+
+        for constituent in argument.constituents:
+            #  print "\t\t\tanc_prep = \"%s\" \n" % constituent
+            fd.write("\t\t\t\tanc_prep = \"%s\"\n" % constituent)
+            # print "\t\t}\n"
+            fd.write("\t\t\t}\n")  # print "\t\t}\n"
+        # fd.write("\t\t\t}\n")
+        # print "\t}\n"
+    fd.write("\t\t}\n")
+
+def mergeFiles(root_ancoranet, map_prop,mapping):
     path = '../OriginalFiles/ancora-verb-es/*.lex.xml'
 
     files = glob.glob(path)
-    with codecs.open("../OutputFiles/ReverseDict.dic", 'a', encoding="utf8") as fd:
+    with codecs.open("../OutputFiles/AncoraDict.dic", 'a', encoding="utf8") as fd:
         fd.write("lexicon_Ancora{\n")
         for name in files: # 'file' is a builtin type, 'name' is a less-ambiguous variable name.
             # try:
@@ -192,7 +220,7 @@ def mergeFiles(root_ancoranet):
                    else:
                        abbrv = "VB"
                    try:
-                       map_prop = getPropbankarg(root_ancoranet)
+
                        title = "%s_%s_0%s" % (sense.lemma, abbrv, sense.id)
                        propbankarg = map_prop[title]
 
@@ -221,55 +249,26 @@ def mergeFiles(root_ancoranet):
                        #print"\tanc_vtype = \"%s\"\n" % anc_vtype
                    fd.write("\t\tanc_vtype = \"%s\"\n" % anc_vtype)
 
-                   mapping = parseAncoranet(root_ancoranet)
+
                    try:
                        pb = mapping[title]
                        pbcls = pb[0]
                        pbId = pb[1]
-                       #print "\t\t \"%s_VB_%s\"{\n" %(pbcls, pbId)
-                       #print "\t\t\t pbcls = \"%s\" \n" %pbcls
-                       #print "\t\t\t pbId = \"%s\" \n" %pbId
 
-                       fd.write("\t\t %s_VB_%s{\n" %(pbcls, pbId))
-                       fd.write("\t\t\t pbcls = %s \n" %pbcls)
-                       fd.write("\t\t\t pbId = %s \n" %pbId)
-                       fd.write("\t\t}\n")
+                       fd.write("\t\t\t %s_VB_%s{\n" %(pbcls, pbId))
+                       fd.write("\t\t\t\t pbcls = %s \n" %pbcls)
+                       fd.write("\t\t\t\t pbId = %s \n" %pbId)
+                       fd.write("\t\t\t}\n")
                    except:
-                       print None
+                       pass
+
 
                    for frame in sense.frames:
-
-                       #print "\tanc_lss = \"%s\"\n" % frame.lss
                         fd.write("\t\tanc_lss = \"%s\"\n" % frame.lss)
 
+                        if frame.arguments:
+                            writeArguments(frame, fd)
 
-                        count = 1
-                        for argument in frame.arguments:
-                            arg_name = arg_map[argument.arg]
-                            if arg_name.startswith("M"):
-                                arg_name = arg_name % count
-                                count += 1
-
-                                #print "\tgp = {\n"
-                            fd.write("\t\tgp = {\n")
-
-                            #print "\t\t%s = {\n" % arg_name
-                            fd.write("\t\t\t%s = {\n" % arg_name)
-                            #print "\t\t\t\tanc_function = \"%s\"\n" % argument.func
-                            fd.write("\t\t\t\tanc_function = \"%s\"\n" % argument.func)
-                            #print "\t\t\t\tanc_theme = \"%s\"\n" % argument.role
-                            fd.write("\t\t\t\tanc_theme = \"%s\"\n" % argument.role)
-
-                            for constituent in argument.constituents:
-                                #  print "\t\t\tanc_prep = \"%s\" \n" % constituent
-                                fd.write("\t\t\t\tanc_prep = \"%s\"\n" % constituent)
-                                #print "\t\t}\n"
-                                fd.write("\t\t\t}\n")  #print "\t\t}\n"
-                            fd.write("\t\t\t}\n")
-                            #print "\t}\n"
-                            fd.write("\t\t}\n")
-
-                            #print "}\n"
                fd.write("\t}\n\n")
         fd.write("\n}")
     fd.close()
@@ -280,6 +279,8 @@ def mergeFiles(root_ancoranet):
 def main():
     ancoranet = ET.parse("../OriginalFiles/ancoranet-es.xml")
     root_ancoranet = ancoranet.getroot()
-    mergeFiles(root_ancoranet)
+    map_prop = getPropbankarg(root_ancoranet)
+    mapping = parseAncoranet(root_ancoranet)
+    mergeFiles(root_ancoranet, map_prop,mapping)
 
 main()
