@@ -92,25 +92,26 @@ def getSenses(root_lex):
 
         for frame_node in sense_node.iter('frame'):
             lss = frame_node.get('lss')
-            type = frame_node.get('type')
-            frame_obj = Frame(lss, type)
+            frame_type = frame_node.get('type')
+            frame_obj = Frame(lss, frame_type)
 
-            for argument_node in frame_node.iter('argument'):
-                arg = argument_node.get('argument')
-                func = argument_node.get('function')
-                role = argument_node.get('thematicrole')
-                argument_obj = Argument(arg, func, role)
+            if frame_type != 'passive':
+                for argument_node in frame_node.iter('argument'):
+                    arg = argument_node.get('argument')
+                    func = argument_node.get('function')
+                    role = argument_node.get('thematicrole')
+                    argument_obj = Argument(arg, func, role)
 
-                frame_obj.arguments.append(argument_obj)
+                    frame_obj.arguments.append(argument_obj)
 
-                for constituent_node in argument_node.iter('constituent'):
-                    prep = constituent_node.get('preposition')
-                    constituent_obj = Constituent(prep)
+                    for constituent_node in argument_node.iter('constituent'):
+                        prep = constituent_node.get('preposition')
+                        constituent_obj = Constituent(prep)
 
-                    argument_obj.constituents.append(constituent_obj)
+                        argument_obj.constituents.append(constituent_obj)
 
 
-            sense_obj.frames.append(frame_obj)
+                sense_obj.frames.append(frame_obj)
 
         senses.append(sense_obj)
 
@@ -118,29 +119,38 @@ def getSenses(root_lex):
 
 arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d","arrgM": "M%d" ,"arm": "M%d","argL":"argL", "aer2":"aer2", "arg":"arg"}
 
-def parseAncoranet(root_ancoranet):
+def getAncoraType(root_ancoranet):
+    types = []
+    for link in root_ancoranet.findall('link'):
+        ancoralex_item = link.get('ancoralexid')
+        verb_, lemma, sense, type = ancoralex_item.split('.')
+        types.append(type)
+    return types
 
+def parseAncoranet(root_ancoranet):
     mapping = {}
+    propbank = []
+    map = "aclarar_VB_01"
     for link in root_ancoranet.findall('link'):
         entry = Entry()
         ancoralex_item = link.get('ancoralexid')
         entry.ancoralex_item = ancoralex_item
-        verb_,lemma, sense, type = ancoralex_item.split('.')
+        verb_, lemma, sense, type = ancoralex_item.split('.')
         entry.name = lemma
         entry.sense = sense
 
-        map_info = lemma+"_VB_0"+sense
+        map_info = lemma + "_VB_0" + sense + "_" + type
+        if map != map_info:
+            propbank = []
+        map = map_info
 
         if type != 'passive':
             propbankid = link.get('propbankid')
-            pblcs, pbId = propbankid.split('.')
+            propbank.append(propbankid)
 
-            entry.pbcls = pblcs
-            entry.pbId = pbId
+            dict1 = {map_info: propbank}
 
-            dict1 = {map_info:[entry.pbcls, entry.pbId] }
             mapping.update(dict1)
-
     return mapping
 
 def getPropbankarg(root_ancoranet):
@@ -164,13 +174,13 @@ def getPropbankarg(root_ancoranet):
                 iszero = False
 
 
-        map_info = lemma+"_VB_0"+sense
+        map_info = lemma+"_VB_0"+sense+"_"+type
         dict1 = {map_info:iszero}
         map_propbankarg.update(dict1)
     return map_propbankarg
 
 def writeArguments(frame, fd):
-    fd.write("\t\tgp = {\n")
+    fd.write("\tgp = {\n")
 
     count = 1
     for argument in frame.arguments:
@@ -182,26 +192,29 @@ def writeArguments(frame, fd):
             # print "\tgp = {\n"
 
         # print "\t\t%s = {\n" % arg_name
-        fd.write("\t\t\t%s = {\n" % arg_name)
+        fd.write("\t\t%s = {\n" % arg_name)
         # print "\t\t\t\tanc_function = \"%s\"\n" % argument.func
-        fd.write("\t\t\t\tanc_function = \"%s\"\n" % argument.func)
+        fd.write("\t\t\tanc_function = \"%s\"\n" % argument.func)
         # print "\t\t\t\tanc_theme = \"%s\"\n" % argument.role
-        fd.write("\t\t\t\tanc_theme = \"%s\"\n" % argument.role)
+        fd.write("\t\t\tanc_theme = \"%s\"\n" % argument.role)
 
-        for constituent in argument.constituents:
-            #  print "\t\t\tanc_prep = \"%s\" \n" % constituent
-            fd.write("\t\t\t\tanc_prep = \"%s\"\n" % constituent)
-            # print "\t\t}\n"
-            fd.write("\t\t\t}\n")  # print "\t\t}\n"
-        # fd.write("\t\t\t}\n")
-        # print "\t}\n"
-    fd.write("\t\t}\n")
+        if argument.constituents:
+            for constituent in argument.constituents:
+                #  print "\t\t\tanc_prep = \"%s\" \n" % constituent
+                fd.write("\t\t\tanc_prep = \"%s\"\n" % constituent)
+                # print "\t\t}\n"
+                fd.write("\t\t}\n")  # print "\t\t}\n"
+            # fd.write("\t\t\t}\n")
+            # print "\t}\n"
+        else:
+            fd.write("\t\t}\n")
+    fd.write("\t}\n")
 
-def mergeFiles(root_ancoranet, map_prop,mapping):
+def mergeFiles(root_ancoranet,mapping, types):
     path = '../OriginalFiles/ancora-verb-es/*.lex.xml'
 
     files = glob.glob(path)
-    with codecs.open("../OutputFiles/AncoraDict.dic", 'a', encoding="utf8") as fd:
+    with codecs.open("../OutputFiles/AncoraDict_test.dic", 'a', encoding="utf8") as fd:
         fd.write("lexicon_Ancora{\n")
         for name in files: # 'file' is a builtin type, 'name' is a less-ambiguous variable name.
             # try:
@@ -212,65 +225,68 @@ def mergeFiles(root_ancoranet, map_prop,mapping):
 
 
             for sense in senses:
-               if sense.type != "passive":
-                   if sense.type == "verb":
-                       abbrv = "VB"
-                   # if sense.type == "noun":
-                   #     abbrv = "NN"
-                   else:
-                       abbrv = "VB"
-                   try:
-
-                       title = "%s_%s_0%s" % (sense.lemma, abbrv, sense.id)
+               if sense.type == "verb":
+                   abbrv = "VB"
+               # if sense.type == "noun":
+               #     abbrv = "NN"
+               else:
+                   abbrv = "VB"
+               try:
+                   for type in types:
+                       title = "%s_%s_0%s_%s" % (sense.lemma, abbrv, sense.id, type)
+                       map_prop = getPropbankarg(root_ancoranet)
                        propbankarg = map_prop[title]
 
                        if propbankarg is True:
                            parent = "VerbExtrArg"
                        else:
                            parent = "verb"
-                   except:
-                       parent = "verb"
+               except:
+                   parent = "verb"
 
-                   #print "\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent)
-                   fd.write("\t\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent))
+               #print "\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent)
+               fd.write("\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent))
 
-                   #print "\tentryId = \"%s\"\n" % '?'
-                   fd.write("\t\tentryId = \"%s\"\n" % '?')
-                   #print "\t\tlemma = \"%s\"\n" % sense.lemma
-                   fd.write("\t\tlemma = \"%s\"\n" % sense.lemma)
-                   #print "\t\tanc_sense = \"%s\"\n" % sense.id
-                   fd.write("\t\tanc_sense = \"%s\"\n" % sense.id)
+               #print "\tentryId = \"%s\"\n" % '?'
+               fd.write("\tentryId = \"%s\"\n" % '?')
+               #print "\t\tlemma = \"%s\"\n" % sense.lemma
+               fd.write("\tlemma = \"%s\"\n" % sense.lemma)
+               #print "\t\tanc_sense = \"%s\"\n" % sense.id
+               fd.write("\tanc_sense = \"%s\"\n" % sense.id)
 
-                   if sense.type == "verb":
-                       anc_vtype = "default"
-                   else:
-                       anc_vtype = sense.type
+               if sense.type == "verb":
+                   anc_vtype = "default"
+               else:
+                   anc_vtype = sense.type
 
-                       #print"\tanc_vtype = \"%s\"\n" % anc_vtype
-                   fd.write("\t\tanc_vtype = \"%s\"\n" % anc_vtype)
-
-
-                   try:
-                       pb = mapping[title]
-                       pbcls = pb[0]
-                       pbId = pb[1]
-
-                       fd.write("\t\t\t %s_VB_%s{\n" %(pbcls, pbId))
-                       fd.write("\t\t\t\t pbcls = %s \n" %pbcls)
-                       fd.write("\t\t\t\t pbId = %s \n" %pbId)
-                       fd.write("\t\t\t}\n")
-                   except:
-                       pass
+                   #print"\tanc_vtype = \"%s\"\n" % anc_vtype
+               fd.write("\tanc_vtype = \"%s\"\n" % anc_vtype)
 
 
-                   for frame in sense.frames:
-                        fd.write("\t\tanc_lss = \"%s\"\n" % frame.lss)
 
-                        if frame.arguments:
-                            writeArguments(frame, fd)
 
-               fd.write("\t}\n\n")
-        fd.write("\n}")
+               for frame in sense.frames:
+                    fd.write("\tanc_lss = \"%s\"\n" % frame.lss)
+
+                    try:
+                        propbank = mapping[title]
+                        fd.write("\tpb = {\n")
+                        for pb in propbank:
+                            pbcls, pbId = pb.split('.')
+
+                            fd.write("\t\t %s_VB_%s{\n" % (pbcls, pbId))
+                            fd.write("\t\t\t pbcls = %s \n" % pbcls)
+                            fd.write("\t\t\t pbId = %s \n" % pbId)
+                            fd.write("\t\t}\n")
+                        fd.write("\t}\n")
+                    except:
+                        pass
+
+                    if frame.arguments:
+                        writeArguments(frame, fd)
+
+               fd.write("}\n\n")
+            fd.write("\n}\n")
     fd.close()
 
 
@@ -279,8 +295,8 @@ def mergeFiles(root_ancoranet, map_prop,mapping):
 def main():
     ancoranet = ET.parse("../OriginalFiles/ancoranet-es.xml")
     root_ancoranet = ancoranet.getroot()
-    map_prop = getPropbankarg(root_ancoranet)
     mapping = parseAncoranet(root_ancoranet)
-    mergeFiles(root_ancoranet, map_prop,mapping)
+    types = getAncoraType(root_ancoranet)
+    mergeFiles(root_ancoranet, mapping, types)
 
 main()
