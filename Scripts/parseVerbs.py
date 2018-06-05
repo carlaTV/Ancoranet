@@ -96,7 +96,7 @@ def getSenses(root_lex):
             frame_type = frame_node.get('type')
             frame_obj = Frame(lss, frame_type)
 
-            if frame_type != 'passive':
+            if frame_type == 'default':
                 for argument_node in frame_node.iter('argument'):
                     arg = argument_node.get('argument')
                     func = argument_node.get('function')
@@ -145,7 +145,7 @@ def parseAncoranet(root_ancoranet):
             propbank = []
         map = map_info
 
-        if type != 'passive':
+        if type == 'default':
             propbankid = link.get('propbankid')
             propbank.append(propbankid)
 
@@ -166,19 +166,22 @@ def getPropbankarg(root_ancoranet):
         entry.name = lemma
         entry.sense = sense
 
-        for arglink in link:
-            propbankarg = arglink.get('propbankarg')
-            entry.propbankarg = propbankarg
-            if propbankarg == "0":
-                iszero = True
-                break
-            else:
-                iszero = False
+        if type == 'default':
+            for arglink in link:
+                propbankarg = arglink.get('propbankarg')
+                entry.propbankarg = propbankarg
+                if propbankarg == "0":
+                    iszero = True
+                    break
+                else:
+                    iszero = False
 
         map_info = lemma + "_VB_0" + sense
         dict1 = {map_info: iszero}
         if map_info not in map_propbankarg.keys() and iszero == True:
             map_propbankarg.update(dict1)
+        map_info = None
+        iszero = False
     return map_propbankarg
 
 def writeArguments(frame, fd):
@@ -217,6 +220,7 @@ def mergeFiles(map_prop,mapping):
     path = '../OriginalFiles/ancora-verb-es/*.lex.xml'
 
     files = glob.glob(path)
+    unaxifra = ["0","1","2","3","4","5","6","7","8","9"]
     with codecs.open("../OutputFiles/AncoraDict.dic", 'a', encoding="utf8") as fd:
         fd.write("lexicon_Ancora{\n")
         for name in files: # 'file' is a builtin type, 'name' is a less-ambiguous variable name.
@@ -238,9 +242,9 @@ def mergeFiles(map_prop,mapping):
                    # for type in types:
                    title = "%s_%s_0%s" % (sense.lemma, abbrv, sense.id)
                    # map_prop = getPropbankarg(root_ancoranet)
-                   propbankarg = map_prop[title]
+                   # propbankarg = map_prop[title]
 
-                   if propbankarg is True:
+                   if map_prop[title] is True:
                        parent = "VerbExtrArg"
                    else:
                        parent = "verb"
@@ -248,8 +252,11 @@ def mergeFiles(map_prop,mapping):
                    parent = "verb"
 
                #print "\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent)
-               fd.write("\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent))
-
+               # propbankarg = False
+               if sense.id in unaxifra:
+                   fd.write("\"%s_%s_0%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent))
+               else:
+                   fd.write("\"%s_%s_%s\":_%s_ {\n" % (sense.lemma, abbrv, sense.id, parent))
                #print "\tentryId = \"%s\"\n" % '?'
                fd.write("\tentryId = \"%s\"\n" % '?')
                #print "\t\tlemma = \"%s\"\n" % sense.lemma
@@ -301,11 +308,6 @@ def main():
     root_ancoranet = ancoranet.getroot()
     mapping = parseAncoranet(root_ancoranet)
     map_prop = getPropbankarg(root_ancoranet)
-    # with codecs.open("../OutputFiles/dictionary_extrArg.txt",'a') as fd:
-    for map in map_prop:
-        print(map)
-        # fd.write(json.dumps(map_prop))
-    # types = getAncoraType(root_ancoranet)
     mergeFiles(map_prop, mapping)
 
 main()
