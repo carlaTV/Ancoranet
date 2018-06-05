@@ -6,6 +6,7 @@ import codecs
 import sys
 import glob
 import errno
+import json
 
 class Entry(object):
     def __init__(self):
@@ -300,6 +301,10 @@ def main():
     root_ancoranet = ancoranet.getroot()
     mapping = parseAncoranet(root_ancoranet)
     map_prop = getPropbankarg(root_ancoranet)
+    # with codecs.open("../OutputFiles/dictionary_extrArg.txt",'a') as fd:
+    for map in map_prop:
+        print(map)
+        # fd.write(json.dumps(map_prop))
     # types = getAncoraType(root_ancoranet)
     mergeFiles(map_prop, mapping)
 
