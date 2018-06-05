@@ -153,6 +153,7 @@ def parseAncoranet(root_ancoranet):
             mapping.update(dict1)
     return mapping
 
+
 def getPropbankarg(root_ancoranet):
     entry = Entry()
     map_propbankarg = {}
@@ -173,10 +174,10 @@ def getPropbankarg(root_ancoranet):
             else:
                 iszero = False
 
-
-        map_info = lemma+"_VB_0"+sense+"_"+type
-        dict1 = {map_info:iszero}
-        map_propbankarg.update(dict1)
+        map_info = lemma + "_VB_0" + sense + "_" + type
+        dict1 = {map_info: iszero}
+        if map_info not in map_propbankarg.keys() and iszero == True:
+            map_propbankarg.update(dict1)
     return map_propbankarg
 
 def writeArguments(frame, fd):
@@ -210,7 +211,8 @@ def writeArguments(frame, fd):
             fd.write("\t\t}\n")
     fd.write("\t}\n")
 
-def mergeFiles(root_ancoranet,mapping, types):
+def mergeFiles(map_prop,mapping, types):
+    # path = '../OriginalFiles/ancora-verb-es/*.lex.xml'
     path = '../OriginalFiles/ancora-verb-es/*.lex.xml'
 
     files = glob.glob(path)
@@ -234,7 +236,7 @@ def mergeFiles(root_ancoranet,mapping, types):
                try:
                    for type in types:
                        title = "%s_%s_0%s_%s" % (sense.lemma, abbrv, sense.id, type)
-                       map_prop = getPropbankarg(root_ancoranet)
+                       # map_prop = getPropbankarg(root_ancoranet)
                        propbankarg = map_prop[title]
 
                        if propbankarg is True:
@@ -267,9 +269,10 @@ def mergeFiles(root_ancoranet,mapping, types):
 
                for frame in sense.frames:
                     fd.write("\tanc_lss = \"%s\"\n" % frame.lss)
+                    title_pb = "%s_%s_0%s_%s" % (sense.lemma, abbrv, sense.id, anc_vtype)
 
                     try:
-                        propbank = mapping[title]
+                        propbank = mapping[title_pb]
                         fd.write("\tpb = {\n")
                         for pb in propbank:
                             pbcls, pbId = pb.split('.')
@@ -296,7 +299,8 @@ def main():
     ancoranet = ET.parse("../OriginalFiles/ancoranet-es.xml")
     root_ancoranet = ancoranet.getroot()
     mapping = parseAncoranet(root_ancoranet)
+    map_prop = getPropbankarg(root_ancoranet)
     types = getAncoraType(root_ancoranet)
-    mergeFiles(root_ancoranet, mapping, types)
+    mergeFiles(map_prop, mapping, types)
 
 main()
