@@ -35,12 +35,22 @@ class Frame(object):
         self.lss = lss
         self.type = type
         self.arguments = []
+        self.pb = []
 
     def __str__(self):
         output = "\tlss = %s\n" % self.lss
         output += "\ttype = %s\n" % self.type
+        output += "\t gp = { \n"
         for argument in self.arguments:
             output += "%s\n" % argument
+        output += "\t } \n"
+        if self.pb:
+            for p in self.pb:
+                pbcls, pbId = str(p).split('.')
+                output += "\t\t\"%s_VB_%s\"= {\n" %(pbcls, pbId)
+                output += "\t\t\tpbcls = \"%s\" \n" %pbcls
+                output += "\t\t\tpbId = \"%s\" \n" % pbId
+                output += "\t\t}\n"
         output += "\t}\n"
 
         return output
@@ -55,13 +65,6 @@ class Argument(object):
 
 
     def __str__(self):
-        # arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d", "arrgM": "M%d",
-        #            "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
-        #
-        # arg_name = arg_map[self.arg]
-        # if arg_name.startswith("M"):
-        #     arg_name = arg_name % self.count
-        #     self.count += 1
 
         output = "\t\targ = %s{\n" % self.arg
         output += "\t\t\tanc_theme = %s\n" % self.role
@@ -70,7 +73,7 @@ class Argument(object):
         for constituent in self.constituents:
             output += "\t\t\tanc_prep  = %s\n" % constituent
 
-        output += "\t\t{\n"
+        output += "\t\t}\n"
         return output
 
 class Constituent(object):
@@ -90,9 +93,9 @@ def getRoot():
         root_lex.append(verb_lex.getroot())
     return root_lex
 
+
 def getPropbankarg(root_ancoranet):
     iszero = False
-    sense_obj = Sense()
     map_propbankarg = {}
     for link in root_ancoranet.findall('link'):
         ancoralex_item = link.get('ancoralexid')
@@ -113,7 +116,30 @@ def getPropbankarg(root_ancoranet):
         iszero = False
     return map_propbankarg
 
-def getExrtArg(title, map_propbank):
+def getPb(root_ancoranet):
+    mapping = {}
+    propbank = []
+    map = "aclarar_VB_01"
+    for link in root_ancoranet.findall('link'):
+        ancoralex_item = link.get('ancoralexid')
+        verb_, lemma, sense, type = ancoralex_item.split('.')
+
+        map_info = lemma + "_VB_0" + sense
+        if map != map_info:
+            propbank = []
+        map = map_info
+
+        if type == 'default':
+            propbankid = link.get('propbankid')
+            propbank.append(propbankid)
+
+            dict1 = {map_info: propbank}
+
+            mapping.update(dict1)
+    return mapping
+
+
+def getExtrArg(title, map_propbank):
     try:
         if map_propbank[str(title)] is True:
             parent = "VerbExtrArg"
@@ -128,7 +154,7 @@ def getExrtArg(title, map_propbank):
 arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d", "arrgM": "M%d",
            "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
 
-def getSenses(root_lex, map_propbank):
+def getSenses(root_lex, map_propbank, map_pb):
 
 
     lemma = root_lex.get('lemma')
@@ -142,7 +168,7 @@ def getSenses(root_lex, map_propbank):
         sense_obj.id = id
 
         title = "%s_VB_0%s" % (lemma, id)
-        sense_obj.parent = getExrtArg(title, map_propbank)
+        sense_obj.parent = getExtrArg(title, map_propbank)
 
         for frame_node in sense_node.iter('frame'):
             lss = frame_node.get('lss')
@@ -151,6 +177,12 @@ def getSenses(root_lex, map_propbank):
             count = 0
 
             if frame_type == 'default':
+                try:
+                    # frame_obj.pb.append(map_pb[title])
+                    frame_obj.pb = map_pb[title]
+                    print frame_obj.pb
+                except:
+                    pass
                 for argument_node in frame_node:
                     arg = argument_node.get('argument')
                     role = argument_node.get('thematicrole')
@@ -178,18 +210,18 @@ def getSenses(root_lex, map_propbank):
 
     return senses
 
-def writeOpening():
-    with codecs.open("../OutputFiles/test.dic", 'w', encoding="utf8") as fd:
+def writeOpening(filename):
+    with codecs.open(filename, 'w', encoding="utf8") as fd:
         fd.write("lexiconAncora{\n")
     fd.close()
 
-def writeEnding():
-    with codecs.open("../OutputFiles/test.dic", 'a', encoding="utf8") as fd:
+def writeEnding(filename):
+    with codecs.open(filename, 'a', encoding="utf8") as fd:
         fd.write("}\n")
     fd.close()
 
-def writeSenses(senses):
-    with codecs.open("../OutputFiles/test.dic", 'a', encoding="utf8") as fd:
+def writeSenses(filename,senses):
+    with codecs.open(filename, 'a', encoding="utf8") as fd:
         for sense in senses:
             # try:
             fd.write(str(sense))
@@ -203,10 +235,12 @@ def main():
     ancoranet = ET.parse("../OriginalFiles/ancoranet-es.xml")
     root_ancoranet = ancoranet.getroot()
     map_propbank = getPropbankarg(root_ancoranet)
-    writeOpening()
+    map_pb = getPb(root_ancoranet)
+    filename = "../OutputFiles/test_pb.dic"
+    writeOpening(filename)
     root_lex = getRoot()
     for root in root_lex:
-        senses = getSenses(root, map_propbank)
-        writeSenses(senses)
-    writeEnding()
+        senses = getSenses(root, map_propbank, map_pb)
+        writeSenses(filename, senses)
+    writeEnding(filename)
 main()
