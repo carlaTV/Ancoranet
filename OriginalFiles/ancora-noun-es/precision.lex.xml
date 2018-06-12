@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="precisión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="precisar" originlink="verb.precisar.1" wordnetsynset="16:03768956+16:03768230">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a1-6.tbf.xml" nodepath="6.3.1.1.1.2.0.0" sentencenodepath="6">Germán_de_Granda nos entrega un libro en el que , a_partir_de <argset><head>precisiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre el concepto de - español atlántico -</argument></argset>Ø nos va dando interferencias lingüísticas de blancos , negros y cobrizos ; de las peculiaridades dialectales de alguna parcela del español americano ( coherencias con el postulado anterior ) o del encuentro del español con lenguas africanas ( lo que también es coherente ) . </example>
+        <example file="3LB-CAST/d2-15.tbf.xml" nodepath="11.4.1.2.1.0.0.0" sentencenodepath="11">El sábado , sin_embargo , Ø hizo un impecable ejercicio de <argset><head>precisión </head></argset>y nada más que precisión . </example>
+        <example file="3LB-CAST/d2-15.tbf.xml" nodepath="11.4.1.2.1.2.0.1.1.0.0" sentencenodepath="11">El sábado , sin_embargo , Ø hizo un impecable ejercicio de precisión y nada más que <argset><head>precisión </head></argset>. </example>
+        <example file="3LB-CAST/dc10-8.tbf.xml" nodepath="0.3.1.1.2.3.2.1.1" sentencenodepath="0">Las estrías practicadas en ellos descomponen la inercia de la bala en un movimiento giratorio que estabiliza su trayectoria , logrando <argset><specifier>una</specifier><reference_modifiers>mayor</reference_modifiers><head>precisión </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el blanco</argument></argset>. </example>
+        <example file="3LB-CAST/t5-5.tbf.xml" nodepath="5.3.4.2.0.1" sentencenodepath="5">Pero ella era de natural metódico y Ø sólo se dormía , con <argset><reference_modifiers>asombrosa</reference_modifiers><head>precisión </head></argset>, de doce_de_la_noche a siete_en_punto_de_la_mañana . </example>
+        <example file="3LB-CAST/t6-4.tbf.xml" nodepath="6.0.8.0.3.1.0.1.2.1.0.0" sentencenodepath="6">Ø Le dijo a Auri que Ø se iba al fútbol , ella le miró con Los ojos fuera de las órbitas , Ø nunca había ido al fútbol antes , Ø nunca iría después , sus escapadas futuras se convertirían en un hermoso trabajo de <argset><head>precisión </head></argset>, un riesgo inexistente pero siempre milimétricamente calculado , Barcelona , Vigo , Valencia , incluso Frankfurt , pero aquella tarde Ø no tenía tiempo para pensar , Ø no sabía exactamente lo que Ø iba a hacer , así_que Ø cogió el coche , nuevo también , y Ø deshizo el camino , regocijándose por su previa astucia , el repentino impulso que le había inducido a conservar su vieja casa de alquiler ocultándoselo a su socia en gananciales . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="19.4.4.0.2.0" sentencenodepath="19">El diputado de Coalición_Canaria Luis_Mardones coincidió con De_Miguel en la exigencia de la ponderación adecuada del voto y en las prioridades de la ampliación , aunque Ø pidió <argset>" <specifier>más</specifier>
+            <head>precisión </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">en los costes de financiación</argument>
+          </argset>y más poder vinculante de la Carta . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="6.0.6.2.2.1.0.0" sentencenodepath="6">Alrededor del minuto 24 , un centro inocuo tras un tiro de esquina corto por la izquierda sobre el área universitaria lo ganó Pereyra por arriba de cabeza , pero medio de_espaldas al pórtico y sin <argset><head>precisión </head></argset>; para su fortuna , el balón dio en el pecho de Rafael_Olarra , Ø cambió de dirección y Ø se introdujo en el pórtico de Vargas , que sólo atinó a mirar . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="24.3.2.1.1.0" sentencenodepath="24">Las campañas políticas norteamericanas se basan en una clarificación , en <argset><specifier>una</specifier><head>precisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de lo que llamamos mensaje</argument></argset>y en sus votantes . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="25.6.0.0" sentencenodepath="25">- - ¿ Aquí no hay <argset><head>precisión </head></argset>porque no hay mensaje ? . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="57.3.0.0.0" sentencenodepath="57">Y eso exige <argset><head>precisión </head>, rigor , exactitud </argset>. </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="17.2.5.1.1.1.0.0" sentencenodepath="17">Esto explica que la policía se haya incautado de toda la cubertería de la casa para verificar con <argset><head>precisión </head></argset>el utensilio empleado . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

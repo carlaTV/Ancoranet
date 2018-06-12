@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="enfrentamiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="enfrentar" originlink="verb.enfrentar.1" wordnetsynset="16:10071502">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="con" type="sp"/>
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/15209_20001220.tbf.xml" nodepath="3.3.1.1.1.3.2.1.1.1.1.0.1.3.1.0.3.1.1" sentencenodepath="3">Según cálculos de organizaciones egipcias , más de 17 millones de minas siguen enterradas en el desierto occidental egipcio , sobre_todo en la zona de El_Alamein , donde tuvo_lugar el que se considera <argset><specifier>el</specifier><reference_modifiers>mayor</reference_modifiers><head>enfrentamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre tanques</argument><reference_modifiers>de la historia</reference_modifiers><reference_modifiers>, en el que los alemanes fueron derrotados por los británicos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="0.5.2.1.1.0" sentencenodepath="0">La comisión parlamentaria que investiga las irregularidades financieras durante el gobierno de Helmut_Kohl interrumpió hoy , horas antes de lo previsto , la sesión de preguntas al ex canciller , al producirse <argset><specifier>un</specifier><head>enfrentamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre sus miembros</argument></argset>. </example>
+        <example file="CESS-CAST-AA/25091_20000929.tbf.xml" nodepath="0.2.2.4.1.1" sentencenodepath="0">El secretario general del PCE y candidato a Coordinador_General_de_Izquierda_Unida , Francisco_Frutos , afirmó hoy que en la VI_Asamblea existe un riesgo de " enfrentamiento abierto " dentro de la coalición , y Ø añadió que con la opción que él representa se puede solventar <argset><specifier>el</specifier>" <head>enfrentamiento </head><reference_modifiers>interno</reference_modifiers>" </argset>. </example>
+        <example file="CESS-CAST-AA/7291_20000112.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">Valencia , que también fue futbolista , aprovechó <argset><specifier>un</specifier><head>enfrentamiento </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">a tiros</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de sus secuestradores</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con desconocidos que aparecieron en la zona montañosa en la que permanecía cautivo</argument></argset>, según relató él mismo a periodistas de la ciudad de Cali . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="11.2.4.1.0.4.0" sentencenodepath="11">El portavoz del Gobierno_Vasco , Josu_Jon_Imaz , aseguró que " los que cometen los crímenes buscan crear <argset>confrontación , división y <head>enfrentamiento </head>
+          </argset>entre las fuerzas políticas y la sociedad vasca " , por lo que Ø pidió " no caer nunca en esa trampa " . </example>
+        <example file="CESS-CAST-P/112_20020103.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">Mantilla , octavo cabeza_de_serie , espera <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>enfrentamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">ante el checo Radek_Stepanek , que dio la sorpresa de la jornada al derrotar al croata Goran_Ivanisevic ( número 2 ) en dos sets , 7-6 ( 7-4 ) y 6-2</argument></argset>. </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="2.3.3.1.0" sentencenodepath="2">El Gobierno vasco replica al presidente que su mensaje busca <argset><specifier>el</specifier><head>enfrentamiento </head></argset>. </example>
+        <example file="CESS-CAST-P/30_20020801_g.tbf.xml" nodepath="3.3.1.0.2.1.1.0" sentencenodepath="3">Radio_Liberty empezó a emitir en 1959 como instrumento de propaganda política de Estados_Unidos en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>enfrentamiento </head><reference_modifiers>ideológico</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con el comunismo soviético</argument></argset>. </example>
+        <example file="CESS-CAST-P/32_19981202.tbf.xml" nodepath="3.3.2.1.1.1.1.1.3.1.1.0" sentencenodepath="3">También sería indispensable continuar reduciendo el desempleo , que por primera vez en ocho años acaba de bajar del 10% , y un acuerdo con los 275.000 funcionarios , que amenazan con <argset><specifier>un</specifier><head>enfrentamiento </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por temas laborales</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="15.5.1.0" sentencenodepath="15">No_obstante , durante la noche aún se produjeron <argset><specifier>algunos</specifier><head>enfrentamientos </head><reference_modifiers>aislados</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/62_20010702.tbf.xml" nodepath="0.0.1.1" sentencenodepath="0"><argset><specifier>EL</specifier><reference_modifiers>MASIVO</reference_modifiers><head>enfrentamiento </head></argset>sucedió ayer por la madrugada en la plaza de España . </example>
+        <example file="CESS-CAST-P/77_20000502.tbf.xml" nodepath="2.5.0.1.1.1.3.5.0.0" sentencenodepath="2">Junto_a estas líneas , un joven " autónomo " se pasea desnudo frente a la policía suiza de Zúrich , donde también se produjeron <argset><head>enfrentamientos </head></argset>. </example>
+        <example file="CESS-CAST-P/91_19991002.tbf.xml" nodepath="3.2.1.1" sentencenodepath="3">Calderón tuvo <argset><specifier>un</specifier><reference_modifiers>duro</reference_modifiers><head>enfrentamiento </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">verbal</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con Juan_Onieva , vicepresidente del Madrid ,</argument></argset>en la COPE . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="enfrentar" originlink="verb.enfrentar.1" wordnetsynset="16:05367872">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/7054_20000309.tbf.xml" nodepath="8.2.1.1.4.1.1" sentencenodepath="8">Ferrari ha hecho todas las pruebas del nuevo modelo F1-2000 en sus circuitos de Fiorano y Mugello y aunque los tiempos logrados han sido mejores que los realizados el pasado año , hasta que no se produzca <argset><specifier>el</specifier><reference_modifiers>primer</reference_modifiers><head>enfrentamiento </head><reference_modifiers>directo</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con sus rivales</argument></argset>, no se sabrá cual es el valor real del coche . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="enfrentar" originlink="verb.enfrentar.2" wordnetsynset="16:10071502">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="7" preposition="entre" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="3" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="11" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="8.3.2.1.0.1.1.0.0" sentencenodepath="8">En los casi tres años del gobierno actual , el Ejecutivo y la oposición habían mantenido una tensa discrepancia sobre los asuntos de Estado , hasta situaciones de <argset><head>enfrentamiento </head><reference_modifiers>verbal</reference_modifiers></argset>tanto en el Parlamento como en los medios de comunicación social . </example>
+        <example file="3LB-CAST/dc10-7.tbf.xml" nodepath="1.3.1.2.5.1.1.4.0.1.1.1.1.0.0" sentencenodepath="1">Se establecieron también tres tipos de duelo : los decretorios o a_muerte , los propugnatorios o a_primera_sangre , en los que se combatía para lavar el honor pero sin ánimo de matar y los satisfactorios , en los que se estaba dispuesto a desistir del <argset><head>enfrentamiento </head></argset>en cualquier momento si el ofensor prestaba la debida satisfacción . </example>
+        <example file="3LB-CAST/dc10-7.tbf.xml" nodepath="10.1.1.3.1.1.0" sentencenodepath="10">Y para que el azar jugara en <argset><specifier>estos</specifier><head>enfrentamientos </head></argset>un papel todavía más relevante , no se admitían pistolas de cañón rayado , de mucha mayor puntería . </example>
+        <example file="3LB-CAST/e2-0.tbf.xml" nodepath="4.0.3.1.0" sentencenodepath="4">Al correr de los siglos se había manifestado <argset><specifier>un</specifier><head>enfrentamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre dos mundos , de los que tenían conciencia explícita los pensadores e incluso la gente común : el de la naturaleza y el del espíritu</argument></argset>; éste último sería , para entendernos , el de la cultura que se oponía a la naturaleza . </example>
+        <example file="3LB-CAST/n1-0.tbf.xml" nodepath="10.3.1.1.0" sentencenodepath="10">En Bhambayi cientos de casas han sido arrasadas en <argset><specifier>los</specifier><head>enfrentamientos </head></argset>. </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="0.3.1.1" sentencenodepath="0">Los candidatos demócrata , Albert_Gore , y republicano , George_W._Bush , tuvieron hoy <argset><specifier>un</specifier><reference_modifiers>tenso</reference_modifiers><head>enfrentamiento </head></argset>en su último debate presidencial por sus significativas discrepancias en los temas claves de la campaña electoral : reforma sanitaria , educación e impuestos . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="10.0.2.1.0" sentencenodepath="10">El diario turinés de información general " La_Stampa " califica <argset><specifier>el</specifier><head>enfrentamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre gallegos y piamonteses</argument></argset>como " una dura batalla bajo la lluvia " , Ø considera el empate como " importantísimo " para el Juventus e Ø indica que en el primer tiempo el " Deportivo era una furia que recuperaba balones en el centro del campo " . </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="3.0.2.1.2.1.1.1.1.1.0" sentencenodepath="3">Lamentablemente para el boxeo mexicano el duelo número 49 en la historia de <argset><specifier>los</specifier><head>enfrentamientos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre sus propios campeones mundiales</argument></argset>los dejó con uno menos , pero el deporte recuperó su grandeza ante la gran pelea que protagonizaron Morales y Barrera . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">Detrás_de <argset><specifier>este</specifier><head>enfrentamiento </head></argset>están los subsidios concedidos a las respectivas empresas aeronáuticas , la brasileña Embraer , la cuarta del mundo , y la canadiense Bombardier , la tercera después de Airbus y Boeing , especializadas en aviones de pequeño recorrido y dimensión mediana . </example>
+        <example file="CESS-CAST-AA/25091_20000929.tbf.xml" nodepath="0.0.3.3.1.1.1.0.1" sentencenodepath="0">El secretario general del PCE y candidato a Coordinador_General_de_Izquierda_Unida , Francisco_Frutos , afirmó hoy que en la VI_Asamblea existe un riesgo de <argset>" <head>enfrentamiento </head>
+            <reference_modifiers>abierto</reference_modifiers>" <argument argument="argM" function="cn" thematicrole="loc" type="sadv">dentro de la coalición</argument>
+          </argset>, y Ø añadió que con la opción que él representa se puede solventar el " enfrentamiento interno " . </example>
+        <example file="CESS-CAST-AA/3788_20000405.tbf.xml" nodepath="0.0.3.1.1.2.3.1.1.1" sentencenodepath="0">Un aficionado inglés falleció hoy como_consecuencia_de las graves lesiones que Ø sufrió en <argset><specifier>los</specifier><reference_modifiers>violentos</reference_modifiers><head>enfrentamientos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre las aficiones del Galatasaray y el Leeds</argument></argset>, informó el canal de televisión NTV . </example>
+        <example file="CESS-CAST-AA/3847_20000605.tbf.xml" nodepath="9.0.1.1.0" sentencenodepath="9">En <argset><specifier>los cuatro</specifier><head>enfrentamientos </head><reference_modifiers>que ambos había disputado</reference_modifiers></argset>, Squillari venció en Múnich este año y en Casablanca en 1997 , pero Ø se inclinó ante El_Aynaoui en Buenos_Aires en 1998 y en Guadalajara un año antes . </example>
+        <example file="CESS-CAST-AA/3847_20000605.tbf.xml" nodepath="10.0.0.2.1.1.1.1.1" sentencenodepath="10">El hecho de que ambos jugadores hayan compartido entrenador en la figura de Horacio_de_la_Pena , y el nivel de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>último</reference_modifiers><head>enfrentamiento </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Múnich</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">hace cuatro meses</argument></argset>hará que " gane quien esté mejor físicamente " , comentó el de Buenos_Aires . </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="0.0.3.1.1.0" sentencenodepath="0">Al_menos 30 personas sufrieron heridas de distinta consideración en <argset><specifier>los</specifier><head>enfrentamientos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre manifestantes antigubernamentales y la policía</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el centro de Belgrado</argument></argset>y es posible que haya dos muertos , según los servicios de urgencia . </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>Los</specifier><head>enfrentamientos </head></argset>se produjeron cuando una muchedumbre que protestaba por el fraude electoral irrumpió en el céntrico Parlamento federal yugoslavo al inicio de una gran protesta de la oposición . </example>
+        <example file="CESS-CAST-AA/6315_20001209.tbf.xml" nodepath="0.4.7.1.1.0" sentencenodepath="0">El entrenador del Celta , Víctor_Fernández , ha manifestado hoy a EFE que su equipo " no renuncia a nada " en <argset><specifier>el</specifier><head>enfrentamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Liga</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del domingo</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">ante el Real_Madrid</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Santiago_Bernabéu</argument></argset>. </example>
+        <example file="CESS-CAST-P/16_20010102.tbf.xml" nodepath="4.3.3.1.0" sentencenodepath="4">O Ø ponemos el tema en la agenda de las prioridades políticas o dentro de unos meses Ø volveremos a tener <argset><specifier>un</specifier><head>enfrentamiento </head><reference_modifiers>bélico</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/20_20010702.tbf.xml" nodepath="11.0.2.0.0" sentencenodepath="11">En otros puntos de los territorios autónomos hubo <argset><head>enfrentamientos </head><reference_modifiers>menores</reference_modifiers></argset>, mientras los dirigentes políticos israelís y palestinos discrepan abiertamente sobre cuándo se iniciará la cuenta de la semana de " calma absoluta " propuesta por EEUU para empezar a aplicar el informe Mitchell . </example>
+        <example file="CESS-CAST-P/22_20020301.tbf.xml" nodepath="0.1.1.0.0" sentencenodepath="0">Trece palestinos murieron y 90 más resultaron heridos en <argset><head>enfrentamientos </head><reference_modifiers>ocurridos durante las incursiones realizadas ayer en los campos de refugiados palestinos de Balata y Yenín , en Cisjordania</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/24_20011001.tbf.xml" nodepath="0.1.4.1.0.1" sentencenodepath="0">La Intifada_de_Al_Aqsa , llamada también guerra de la independencia palestina , ha cambiado las coordenadas del conflicto palestino-israelí : del diálogo en la mesa de negociaciones se ha pasado a <argset><reference_modifiers>sangrientos</reference_modifiers><head>enfrentamientos </head><reference_modifiers>que en un año se han cobrado las vidas de 684 palestinos y 160 israelís</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/28_20010102.tbf.xml" nodepath="3.2.4.2.1.2.2.1.0.1" sentencenodepath="3">Reunido con el mando de las Fuerzas_Armadas en el cuartel general del Ejército , Barak dijo : " Preparad Ø a vuestras tropas y limpiad Ø todo el polvo innecesario que pueda molestar a <argset><reference_modifiers>posibles</reference_modifiers><head>enfrentamientos </head><reference_modifiers>futuros</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/35_19991101.tbf.xml" nodepath="3.3.1.1.1" sentencenodepath="3">El fracaso de la alianza formada para hacerse con el gobierno de las tres capitales vascas y el control de las diputaciones forales ya desembocó en <argset><specifier>un</specifier><reference_modifiers>agrio</reference_modifiers><head>enfrentamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre el presidente de EA , Carlos_Garaikoetxea , y el secretario general , Inazio_Oliveri , que presentó su dimisión</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_19990901.tbf.xml" nodepath="9.0.2.1.1.1.1.1.1.1.0.0" sentencenodepath="9">El diálogo fue su receta para solventar los distintos niveles de <argset><head>enfrentamiento </head></argset>existentes en el País_Vasco : " Deben dialogar el Gobierno y ETA , el lehendakari con los partidos políticos , y estas formaciones entre sí " . </example>
+        <example file="CESS-CAST-P/47_20000402.tbf.xml" nodepath="0.2.1.1.1.0.0" sentencenodepath="0">La reforma constitucional fue el telón_de_fondo del <argset><head>enfrentamiento </head></argset>. </example>
+        <example file="CESS-CAST-P/47_20000402.tbf.xml" nodepath="1.4.1.1.1.1" sentencenodepath="1">La policía antidisturbios de Zimbabue empleó ayer gases lacrimógenos para detener <argset><specifier>los</specifier><reference_modifiers>violentos</reference_modifiers><head>enfrentamientos </head><reference_modifiers>que estallaron en la capital , Harare ,</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre miles de manifestantes opositores y unos 300 veteranos de guerra , partidarios del presidente , Robert_Mugabe</argument></argset>. </example>
+        <example file="CESS-CAST-P/48_20000602.tbf.xml" nodepath="1.2.1.1.1" sentencenodepath="1">El ex vicelehendakari socialista señaló que <argset><specifier>el</specifier><reference_modifiers>actual</reference_modifiers><head>enfrentamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">político y social</argument></argset>se traduce " en un progresivo rearme de los polos opuestos " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="enfrentar" originlink="verb.enfrentar.2" wordnetsynset="16:05367872">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="5.2.0.1.1.0" sentencenodepath="5">La vicelehendakari reconoció que <argset><specifier>el</specifier><head>enfrentamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre nacionalistas y populares</argument></argset>está afectando a las relaciones institucionales entre los Gobiernos vasco y central , en las que únicamente " se guardan las formas " , de lo que Ø responsabilizó al PP . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

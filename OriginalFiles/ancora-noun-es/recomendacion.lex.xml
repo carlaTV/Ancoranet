@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="recomendación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="recomendar" originlink="verb.recomendar.1" wordnetsynset="16:05002688">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060111_5-1.tbf.xml" nodepath="6.5.0.1.1.3.1.0" sentencenodepath="6">La misión observadora de la OEA , que presidió el ex canciller guatemalteco Eduardo_Stein , se retiró del país dos días antes de los comicios después de que la autoridad electoral rechazara <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>recomendación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de aplazar durante diez días las elecciones para evaluar el sistema de cómputo de votos utilizado</argument></argset>. </example>
+        <example file="3LB-CAST/211_C-3.tbf.xml" nodepath="9.3.1.2.5.3.1.0" sentencenodepath="9">Tampoco vigilaron la segunda vuelta de las elecciones los observadores internacionales , que se retiraron del país después_que el jurado electoral rechazó <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>recomendación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para aplazar los comicios y corregir las irregularidades en el proceso</argument></argset>, ya_que Ø pedían más tiempo para evaluar el programa de cómputo de votos utilizado el domingo . </example>
+        <example file="CESS-CAST-A/10872_20001214.tbf.xml" nodepath="7.2.1.1.1.0.2.2.1.0.1.4.1.1.0" sentencenodepath="7">El Gobierno de De_La_Rúa , que Ø asumió el pasado 10_de_diciembre , heredó el conflicto del gabinete anterior , presidido por Carlos_Menem , que hizo caso omiso a <argset><specifier>las</specifier><head>recomendaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Comisión_Interamericana_de_Derechos_Humanos</argument></argset>. </example>
+        <example file="CESS-CAST-A/16529_20001121.tbf.xml" nodepath="2.2.3.4.1.0" sentencenodepath="2">En la primera etapa , el DANE diagnosticará el modelo estadístico a usar y en la segunda Ø precisará la viabilidad institucional , el ámbito de aplicación y <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">recomendaciones </head><reference_modifiers>financieras , técnicas y de tiempo</reference_modifiers></argset>para su implementación . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="7.5.1.0.2.1.0" sentencenodepath="7">Transcurrido un tiempo , los dos gobiernos se denunciaron mutuamente por no cumplir <argset><specifier>las</specifier><head>recomendaciones </head></argset>y mantener las sanciones ilegales por lo que la OMC estudió nuevamente el caso . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="15.2.1.1.1.1.1.1.1.1.0" sentencenodepath="15">Por_ejemplo , ¿ puede un informe sobre la puesta_en_práctica de <argset><specifier>una</specifier><head>recomendación </head><reference_modifiers>ya apelada</reference_modifiers></argset>ser objeto de una nueva apelación ? . </example>
+        <example file="CESS-CAST-AA/19561_20000830.tbf.xml" nodepath="0.4.1.1.1.1.0.0" sentencenodepath="0">Una reunión de técnicos sanitarios de los países del Mercado_Común_del_Sur ( MERCOSUR ) , con la sola ausencia de Argentina , culminó hoy en Montevideo con una serie de <argset><head>recomendaciones </head><reference_modifiers>estratégicas y operativas</reference_modifiers><reference_modifiers>inmediatas</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="sp">para detener la expansión de la fiebre aftosa en el ganado de la región</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20613_20000428.tbf.xml" nodepath="2.3.2.3.0.0" sentencenodepath="2">En conferencia de prensa que Ø ofreció hoy tras asistir a un multitudinario acto en Nueva_York , Toledo dijo que " si jueces independientes y expertos legales que trabajan con nosotros concluyen que ( Berenson ) no tuvo un juicio justo , Ø aguardaríamos <argset><head argument="arg1" thematicrole="pat">recomendaciones </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para revisar el proceso</argument></argset>, pero Ø no haremos distinciones jurídicas por cuestiones de nacionalidad " . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="15.1.0.2.0.0" sentencenodepath="15">En la revisión del texto ahora consensuado se incluyen <argset><head>recomendaciones </head><reference_modifiers>sobre la supresión del trabajo infantil y del trabajo forzado</reference_modifiers></argset>y se incluyen las normas laborales fundamentales reconocidas por la Organización_Internacional_del_Trabajo ( OIT ) . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="16.3.2.1.0" sentencenodepath="16">También aparece como novedad un reforzamiento del dispositivo de medidas para la protección del medio_ambiente , <argset><specifier>una</specifier><head>recomendación </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre derechos_humanos</argument></argset>y nuevos capítulos sobre la lucha contra la corrupción y la defensa del consumidor . </example>
+        <example file="CESS-CAST-AA/22292_20000131.tbf.xml" nodepath="6.4.2.1.1.2.1.0" sentencenodepath="6">Por ello , Ø instó al presidente del Ejecutivo autónomo , Román_Rodríguez , a que Ø cese " a los consejeros y altos cargos que participaron en todo el proceso " y a que - siguiendo <argset><specifier>la</specifier><head>recomendación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Audiencia_de_Cuentas</argument></argset>- " Ø emprenda la acción social de responsabilidad contra los consejeros delegados de Saturno " . </example>
+        <example file="CESS-CAST-AA/24822_20001030.tbf.xml" nodepath="5.2.2.1.0" sentencenodepath="5">Sobre el uso y concesiones del agua , se prohíben nuevas estaciones hídricas y se establecen limitaciones en algunas zonas , según <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">recomendaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Plan_de_Ordenación del ámbito de Doñana</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="3.2.1.1.2.0.1.0" sentencenodepath="3">" La tecnología existente hoy permite un acceso mucho más directo y eficiente a los mercados que las conexiones electrónicas entre mercados ( ITS ) " , explica el informe preparado por una comisión especial del NYSE y <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyas</argument><head argument="arg1" thematicrole="pat">recomendaciones </head></argset>fueron aprobadas hoy por el Consejo_de_Administración_de_la_Bolsa . </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="10.2.1.1.0" sentencenodepath="10">Richard_Grasso , presidente del directorio del NYSE , dijo que <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">recomendaciones </head><reference_modifiers>que adoptará la Bolsa</reference_modifiers></argset>permitirán construir un mercado " basado en la elección de los clientes respecto_a la forma en cómo ellos tienen acceso y Ø utilizan la transparencia , liquidez y profundidad sin paralelo del NYSE " . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="8.3.4.1.1.1.1.0" sentencenodepath="8">Portillo se comprometió a impulsar acciones legales y administrativas para garantizar el resarcimiento a las víctimas del conflicto armado , a colaborar en la búsqueda de los detenidos-desaparecidos y a cumplir con <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">recomendaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Comisión_del_Esclarecimiento_Histórico ( CEH )</argument></argset>. </example>
+        <example file="CESS-CAST-P/10_20010301.tbf.xml" nodepath="3.3.1.1.1.0.0" sentencenodepath="3">Como una bocanada de aire clarificador se agradece la lista de <argset><head>recomendaciones </head></argset>del Consell_de_l'Audiovisual de Catalunya . </example>
+        <example file="CESS-CAST-P/45_20010302.tbf.xml" nodepath="1.1.2.1.0" sentencenodepath="1">El ex presidente del Parlament y de ERC , desoyendo <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">recomendación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la policía</argument></argset>, protagonizó un recorrido a_pie Rambla arriba , escoltado por las fuerzas de seguridad y con el telón_de_fondo de los gritos y los insultos lanzados por los inmigrantes que le esperaban a la puerta de Ràdio_Barcelona , a los que se sumaron un gran número de transeúntes catalanes . </example>
+        <example file="CESS-CAST-P/91_20010301.tbf.xml" nodepath="1.2.1.1" sentencenodepath="1">Estas son <argset><specifier>las dos</specifier><reference_modifiers>grandes</reference_modifiers><head argument="arg1" thematicrole="pat">recomendaciones </head><reference_modifiers>que hizo ayer el Consell_de_l'Audiovisual_de_Catalunya ( CAC ) al presentar las normas que , a su juicio , deben prevalecer al informar de tragedias personales</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/91_20010301.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Para asegurar estas premisas , el CAC lanza <argset><specifier>una triple</specifier><head>recomendación </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

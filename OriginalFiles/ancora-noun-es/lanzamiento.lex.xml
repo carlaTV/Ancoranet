@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="lanzamiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="lanzar" originlink="verb.lanzar.1" wordnetsynset="16:00155548">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="5.4.2.1.2.1.1.3.3.1.0.1" sentencenodepath="5">Respecto_a la oferta automovilística de la marca , el máximo responsable de Citroen explicó la implantación de una nueva estrategia , con la aparición en el Salón parisino de la nueva berlina C5 , a la que seguirán en <argset><reference_modifiers>próximos</reference_modifiers><head>lanzamientos </head></argset>un pequeño C3 y un lujoso C6 . </example>
+        <example file="CESS-CAST-P/11_20020902.tbf.xml" nodepath="13.3.2.1.1.1" sentencenodepath="13">Ante semejante potencial , Ø decidió asociarse con una multinacional para <argset><specifier>este</specifier><reference_modifiers>primer</reference_modifiers><head>lanzamiento </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="lanzar" originlink="verb.lanzar.1" wordnetsynset="16:00155548">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="6.1.1.3.1.1.0" sentencenodepath="6">De_igual_forma_que el C5 , que se sitúa entre el Xantia , con el que Ø convivirá , y el XM , que desaparece , el futuro modelo C3 , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyo</argument><head>lanzamiento </head></argset>se producirá en el 2002 , se situará entre el Saxo y el Xsara , sin llegar a sustituir al primero . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="lanzar" originlink="verb.lanzar.1" wordnetsynset="16:00155548">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3865_20000204.tbf.xml" nodepath="12.2.2.1.1.1.1.4.1.1.0" sentencenodepath="12">De las cuentas del partido se encargaba el tesorero , dijo Kohl quien explicó que él ya estaba " suficientemente ocupado " con la labor de dirigir el partido y el país , y Ø aprovechó para recordar todo lo que Ø hizo en esos años , desde liderar la unificación de Alemania hasta impulsar <argset><specifier>el</specifier><head>lanzamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del euro</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="4" lexicalized="no" originlemma="lanzar" originlink="verb.lanzar.2" wordnetsynset="16:00155548">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="15.2.2.1.1.2.1.0.1.0" sentencenodepath="15">Milberg anunció que el viejo Mini , hasta que Ø deje de producirse , se venderá bajo Alchemy y que el nuevo modelo , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyo</argument><head>lanzamiento </head></argset>se prevé para el 2001 y se comercializará bajo la marca Mini , se producirá bajo BMW en Oxford , donde se fabricará también el modelo 75 de Rover . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="5" lexicalized="no" originlemma="lanzar" originlink="verb.lanzar.3" wordnetsynset="16:00064905+16:00155548+16:00066170">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="a_cargo_de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-6.tbf.xml" nodepath="10.2.1.3.4.0.2.0.0.1.0" sentencenodepath="10">Entre los métodos indirectos más insidiosos figuraría una truculenta idea con la que ya se especulaba en los años sesenta : - Sería posible , mediante <argset><specifier>el</specifier><head>lanzamiento </head></argset>y diseminación de los agentes químicos apropiados , abrir un agujero en la capa de ozono sobre una nación enemiga ? </example>
+        <example file="CESS-CAST-A/13507_20000918.tbf.xml" nodepath="9.4.2.2.1.1.1.1.0" sentencenodepath="9">Esto se tradujo en el único tanto de la capitana Carina_Masotta , al recoger un rechace de la portera inglesa Hilary_Rose , después de <argset><specifier>un</specifier><head>lanzamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Vanina_Oneto</argument><reference_modifiers>en jugada bien conducida por la banda izquierda</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="4.2.2.3.1.3.2.3.1.1.1.1.0.0" sentencenodepath="4">Milberg afirmó que a_partir_de ahora , BMW podrá concentrarse en su propia marca y que Ø producirá una nueva línea de pequeños automóviles , la llamada serie 2 , cuya fecha de <argset><head>lanzamiento </head></argset>Ø no quiso adelantar para no dar pistas a la competencia . </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="3.3.2.1.1.0.0" sentencenodepath="3">Para el O'Higgins descontaron el paraguayo Alcidio_Fleitas ( 27' ) y Mauricio_Dinamarca ( 91' ) , ambos goles de <argset><head>lanzamiento </head><reference_modifiers>penal</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="20.2.2.0.0.2.2.0.0" sentencenodepath="20">Los goles de Deportes_Concepción fueron convertidos por Luis_Chavarría ( 43` ) , y Mario_Vargas ( 70` ) , mientras_que para el equipo visitante descontó José_Luis_Díaz ( 13` ) , de <argset><head>lanzamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">penal</argument></argset>y Julio_Gutiérrez ( 94` ) . </example>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="2.3.4.1.2.1.1.1.0.0" sentencenodepath="2">El Hispasat_1C aumenta la capacidad del sistema español de telecomunicaciones por satélite , ya_que Ø cuenta con 24 transpondedores de alta potencia ( los mismos que el 1A y el 1B juntos ) , una masa de <argset><head>lanzamiento </head></argset>un 50_por_ciento mayor que los dos satélites anteriores y una vida útil de 15 años . </example>
+        <example file="CESS-CAST-P/157_20010201.tbf.xml" nodepath="15.3.1.1.2.1.0.2.3.1.1" sentencenodepath="15">Pero el cantautor dispone de otros tres discos en proyecto : dos con piezas nuevas ( uno de ellos , titulado De_regresos_y_partidas , será <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>siguiente</reference_modifiers><head>lanzamiento </head></argset>) y una grabación centrada en tangos y milongas . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="17.0.2.1.0" sentencenodepath="17">Ø Fue <argset><specifier>un</specifier><head>lanzamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de falta</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">a_cargo_de Alonso</argument></argset>, pero Busquets estuvo ágil para desviar el balón ( m.65 ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="6" lexicalized="no" originlemma="lanzar" originlink="verb.lanzar.3" wordnetsynset="16:00064905+16:00066170">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-1.tbf.xml" nodepath="4.0.1.2.4.1.1.0" sentencenodepath="4">La consola PlayStation_2 , que ha vendido cerca_de un 1,8 millones de unidades desde <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>lanzamiento </head><argument argument="argM" function="cn" thematicrole="tmp" type="sn">el 4_de_marzo</argument></argset>, llegará a los mercados de Norteamérica y Europa el próximo_mes_de_octubre , según Sony . </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="10.2.4.1.0.0" sentencenodepath="10">La policía hizo_acto_de_presencia y Ø detuvo a varios de los seguidores hondureños , pero Ø no pudo acercarse a la galería este debido_al <argset><head>lanzamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de todas clases de objetos</argument></argset>. </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="11.2.3.2.1.1.1.0" sentencenodepath="11">El manejador de los Yanquis admite que tal_vez Yarnall siente demasiada presión e Ø intenta conseguir que <argset><specifier>cada</specifier><head>lanzamiento </head></argset>sea el perfecto . </example>
+        <example file="CESS-CAST-AA/22553_20001128.tbf.xml" nodepath="8.3.1.5.1.1.2.1.1.1.0.0" sentencenodepath="8">Según la fuente , los resultados de los estudios llevaron a que la empresa Nichols_Foods se asociara con la federación para compartir el riesgo del negocio y los costos del <argset><head>lanzamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del producto</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="6.0.1.0.2.0.0" sentencenodepath="6">Con la construcción y <argset><head>lanzamiento </head></argset>del satélite 1C finaliza la primera generación de satélites Hispasat , en la que la participación de la industria española aeroespacial ha sido del 33_por_ciento . </example>
+        <example file="CESS-CAST-AA/24070_20000329.tbf.xml" nodepath="9.2.0.1.0" sentencenodepath="9">El mismo jugador yugoslavo dispuso de una inmejorable oportunidad para empatar el partido a los dos minutos de la segunda parte , pero <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>lanzamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de falta directa</argument></argset>salió rozando el larguero . </example>
+        <example file="CESS-CAST-P/32_20011101.tbf.xml" nodepath="3.3.1.1" sentencenodepath="3">Bush ( foto de la derecha ) efectuó <argset><specifier>el</specifier><reference_modifiers>primer</reference_modifiers><head>lanzamiento </head></argset>luciendo una chaqueta de los bomberos de Nueva_York . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="7" lexicalized="no" originlemma="lanzar" originlink="verb.lanzar.3" wordnetsynset="16:00155548">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/69_20010201_f.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">Sony prepara <argset><specifier>el</specifier><head>lanzamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un banco ' on_line '</argument></argset>. </example>
+        <example file="CESS-CAST-P/92_19990601.tbf.xml" nodepath="2.1.1.0" sentencenodepath="2">En Francia , <argset><specifier>el</specifier><head>lanzamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del polémico libro</argument></argset>estaba previsto para el 10_de_junio . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

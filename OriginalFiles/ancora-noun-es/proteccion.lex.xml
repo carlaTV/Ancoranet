@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="protección" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="proteger" originlink="verb.proteger.1" wordnetsynset="16:00522858">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="contra" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="16" type="void"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="9" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="14.3.3.4.1.1.0" sentencenodepath="14">Ø También consideró que es preciso mejorar la calidad del empleo , aumentar la cobertura por desempleo , perfeccionar <argset><specifier>la</specifier><head>protección </head><reference_modifiers>social</reference_modifiers></argset>y frenar la siniestralidad laboral . </example>
+        <example file="3LB-CAST/204_c-6.tbf.xml" nodepath="13.1.3.1.1.2.1.0.0" sentencenodepath="13">Según las primeras inspecciones de los delegados sindicales , " las obras carecían de las más elementales medidas de <argset><head>protección </head></argset>tanto colectivas como individuales " , apuntaron las citadas fuentes de CCOO . </example>
+        <example file="3LB-CAST/211_C-2.tbf.xml" nodepath="17.2.1.4.0.1.1.2.1.1.2.1.0.0" sentencenodepath="17">Ø Añadió que el Gobierno entiende que éste es un problema social , por lo que se aplican medidas para garantizar la seguridad y la integridad de los inmigrantes mediante los grupos especiales de <argset><head>protección </head></argset>denominados " grupos beta " . </example>
+        <example file="3LB-CAST/dc1-13.tbf.xml" nodepath="7.3.1.1.0.3.1.1.1.1.0.0" sentencenodepath="7">Una cebra , un águila real , una serpiente de cascabel , una rana bermeja , un leucisco cabezudo , un grillo o una simple araña de jardín tienen muy poco que ver entre sí en lo que se refiere a su atuendo de <argset><head>protección </head></argset>frente a las inclemencias atmosféricas . </example>
+        <example file="3LB-CAST/dc1-15.tbf.xml" nodepath="2.3.0.0" sentencenodepath="2">Esta cubierta ofrece al individuo <argset><head>protección </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de muy diversa índole</argument></argset>. </example>
+        <example file="3LB-CAST/dc1-6.tbf.xml" nodepath="7.0.1.1.0" sentencenodepath="7">Sin <argset><specifier>la</specifier><head>protección </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de la nieve</argument></argset>, tendrían que pasar semanas antes del brote de las plantas , y los animales salvajes e insectos carecerían de su primera alimentación , vital tras el largo sueño . </example>
+        <example file="3LB-CAST/r2-9.tbf.xml" nodepath="1.3.0.1.0" sentencenodepath="1">Contra estas tentaciones no hay <argset><specifier>otra</specifier><head>protección </head></argset>que la ley . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="1.2.1.1.1.0.1.0.1.1.1.0" sentencenodepath="1">Los eurodiputados incorporaron una serie de enmiendas para aumentar <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los inversores</argument></argset>y que ahora deberán negociarse con los ministros de Finanzas de la Unión_Europea ( UE ) . </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="11.3.1.1.1.0.0" sentencenodepath="11">Morales recibió en el duodécimo asalto la cuenta de <argset><head>protección </head></argset>después que el árbitro de la pelea , Mitch_Halpern , consideró a sólo 45 segundos del final una caída por empujón de Barrera como el efecto de una izquierda cruzada . </example>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="11.2.1.2.1.2.4.1.0.0" sentencenodepath="11">Aventis ha identificado aproximadamente 142.500 hectáreas de plantación del maíz StarLink , una variedad amarilla que se cultiva principalmente en el Medio_Oeste , y otras 68.000 hectáreas de cultivos intercalados , que se usan como <argset><head>protección </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">contra el polen que se propaga desde el maíz transgénico</argument></argset>. </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="4.2.2.2.1.1.1.1.0.0" sentencenodepath="4">Según la sentencia , dado su estado de embriaguez , el conductor perdió el control del ligero vehículo , Ø colisionó con una valla de <argset><head>protección </head></argset>de la calzada y Ø quedó suspendido sobre la misma . </example>
+        <example file="CESS-CAST-AA/20551_20000128.tbf.xml" nodepath="0.4.1.1.1.2.1.0.2.1.0.2.1.0.1.1.1.0" sentencenodepath="0">El pleno de la Diputación_Permanente_del_Congreso se reunirá el próximo Martes para debatir la convalidación o no del Real_Decreto aprobado el pasado día_14_de_enero por el Consejo_de_Ministros sobre determinadas medidas de mejora de <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">familiar</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Seguridad_Social</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2938_20000303.tbf.xml" nodepath="0.0.2.4.1.1.1.3.1.0" sentencenodepath="0">El ministro de Trabajo , Juan_Carlos_Aparicio , ha asegurado que no se puede poner ningún ejemplo de que el PP haya rebajado <argset><specifier>la</specifier><head>protección </head><reference_modifiers>social</reference_modifiers></argset>y Ø ha criticado , refiriéndose a Narcís_Serra , a aquellos que " pretenden repartir progreso sin que Ø hayan sabido crear empleo " . </example>
+        <example file="CESS-CAST-AA/2938_20000303.tbf.xml" nodepath="2.3.7.4.3.3.4.1.1.2.2.0.0" sentencenodepath="2">En este sentido , Ø ha añadido que " nuestros pasivos ya no tienen esa angustia , porque Ø saben cómo gobierna el PP , que no quita las pensiones , sino_que , y esto sí_que molesta muchísimo a nuestros adversarios , no se puede citar ni un solo ejemplo en el que el PP haya reducido , bajado , recortado o quitado <argset><head>protección </head><reference_modifiers>social</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/2938_20000303.tbf.xml" nodepath="3.4.4.3.0.2.1.0.0" sentencenodepath="3">Sin_embargo , se puede decir , según Aparicio , que " Ø ha mejorado distintas prestaciones e Ø incluso ha creado nuevas formas de <argset><head>protección </head><reference_modifiers>social</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/7301_20000609.tbf.xml" nodepath="1.3.1.1.1.1.2.1.0.0" sentencenodepath="1">El Consejo_de_Ministros autorizó hoy la firma de un convenio de cooperación y asistencia en_materia_de <argset><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">civil</argument></argset>con la Federación_de_Rusia para mejorar la prevención de catástrofes y garantizar la asistencia mutua en situaciones de emergencia por causas naturales o tecnológicas . </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="0.4.1.2.1.1.1.0.0" sentencenodepath="0">El secretario general de UGT , Cándido_Méndez , pidió hoy " hablar " con el Gobierno para " cambiar las normas en_materia_de <argset><head>protección </head><reference_modifiers>social</reference_modifiers><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por desempleo</argument></argset>para mejorarlas " ya_que , matizó Ø , éstas son " duras , injustas y excluyentes con los parados de larga duración y con los jóvenes " . </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="1.1.2.2.3.1.1.1.1.1.0" sentencenodepath="1">En una conferencia de prensa convocada en Alicante con_motivo_de la clausura de un seminario sobre los modelos de relación entre el sindicato y la sociedad organizado por UGT , Méndez apostó por un " cambio en la legislación " y Ø resaltó que hay que " conectar la buena situación económica con un avance en <argset><specifier>la</specifier><head>protección </head><argument argument="argM" function="cn" type="sp">por desempleo</argument></argset>" . </example>
+        <example file="CESS-CAST-P/14_20020301.tbf.xml" nodepath="2.2.3.1.0" sentencenodepath="2">Es anómalo que autoridades democráticas necesiten <argset><specifier>una</specifier><head>protección </head><reference_modifiers>propia de las dictaduras</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="16.0.0.0" sentencenodepath="16"><argset><head>PROTECCIÓN </head><reference_modifiers>ESPECIAL</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="18.4.1.1.1.1.2.1.0.2.0" sentencenodepath="18">En 13 supuestos se acordó el año pasado el establecimiento de un servicio policial de <argset>vigilancia y <head>protección </head>
+            <reference_modifiers>personal</reference_modifiers>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la víctima</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/65_20000602.tbf.xml" nodepath="13.0.1.1.1.0.0" sentencenodepath="13">Los servicios de <argset><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">civil</argument></argset>acogieron a las angustiadas familias de los rehenes en un centro cultural situado en las inmediaciones para darles apoyo psicológico . </example>
+        <example file="CESS-CAST-P/71_19991201_e.tbf.xml" nodepath="1.2.1.1.2.1.0.0" sentencenodepath="1">El organismo que vela por la intimidad personal frente_al abuso de las nuevas tecnologías teme que la nueva ley de <argset><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de datos</argument></argset>propicie los fraudes . </example>
+        <example file="CESS-CAST-P/73_20020301.tbf.xml" nodepath="0.3.1.1.1.1.1.0.1.1.0.3.1.0.1.1.0.0" sentencenodepath="0">LA NUEVA NORMATIVA obliga a los ayuntamientos a reservar un mínimo del 20% del suelo urbano y residencial de nueva ocupación para viviendas de <argset><head>protección </head><reference_modifiers>oficial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/91_19991002.tbf.xml" nodepath="5.2.1.2.4.1.0" sentencenodepath="5">" Me dio la impresión de que Ø podía estar detrás_de las amenazas que Ø he recibido , como instigador de esas maniobras intimidatorias . que no dude Ø de que Ø estaré en la asamblea para mantener mis denuncias " , dijo el líder de la oposición , que no ha aceptado <argset><specifier>la</specifier><head>protección </head><reference_modifiers>que le ha ofrecido la Delegación_del_Gobierno en Madrid</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="11.0.1.2.1.0" sentencenodepath="11">Pese_a las ventajas y <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">oficial</argument><reference_modifiers>que se les promete</reference_modifiers></argset>, muchas de las 25.000 prostitutas de Holanda no parecen muy interesadas en legalizar su situación , registrarse y pagar impuestos elevados . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="proteger" originlink="verb.proteger.1" wordnetsynset="16:00522858">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="2" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10477_20001114.tbf.xml" nodepath="7.3.1.3.1.0.1.1.0.0" sentencenodepath="7">El consejero cita en su carta las diferentes directivas comunitarias sobre medidas de <argset><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la población</argument></argset>para que se exija al Gobierno británico su cumplimiento . </example>
+        <example file="CESS-CAST-A/11099_20000915.tbf.xml" nodepath="3.3.1.4.1.0" sentencenodepath="3">El alcalde de Osaka fundamentó sus opciones en el gran plan de reurbanización que se culminará en el año_2007 , las modernas infraestructuras de telecomunicaciones , <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del medio_ambiente</argument></argset>, la seguridad y lo atractivo del proyecto , cuyas instalaciones ya están en buena parte construidas y que tendrán su centro neurálgico en tres islas . </example>
+        <example file="CESS-CAST-A/16875_20000321.tbf.xml" nodepath="4.2.2.1.2.1.0.0.0" sentencenodepath="4">Sin_embargo , Bell resaltó el gran esfuerzo que el Gobierno está haciendo y Ø enumeró los avances logrados en los últimos años en_materia_de <argset><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la población civil y de los defensores de derechos_humanos</argument></argset>, la tipificación en el Código_Penal del reclutamiento de menores o las investigaciones de los presuntos delitos cometidos por miembros de las Fuerzas_Armadas . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="16.3.0.1.1.1.0.1.1.0.1.1.1.0" sentencenodepath="16">También aparece como novedad un reforzamiento del dispositivo de medidas para <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del medio_ambiente</argument></argset>, una recomendación sobre derechos_humanos y nuevos capítulos sobre la lucha contra la corrupción y la defensa del consumidor . </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="12.2.1.4.1.0" sentencenodepath="12">Ø Destacó que la sanidad , la enseñanza y <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la familia</argument></argset>serán prioritarias . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="9.4.4.1.1.1.0.0" sentencenodepath="9">Sobre la obligatoriedad de la externalización de los compromisos propensiones no hay nada que objetar , puesto_que Ø es una medida de <argset><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los trabajadores</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en supuestos de insolvencia del empresario</argument></argset>. </example>
+        <example file="CESS-CAST-P/31_20000802.tbf.xml" nodepath="8.3.0.2.4.1.0" sentencenodepath="8">En un segundo encuentro entre representantes del Gobierno y el PSOE que tuvo_lugar ayer , el secretario de Estado de Seguridad , Pedro_Morenés , y algunos responsables del PSOE trataron cuestiones relacionadas con operativos generales de seguridad , entre las cuales se encontraba <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los cargos socialistas</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="proteger" originlink="verb.proteger.1" wordnetsynset="16:00522858">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="14.3.1.2.1.2.0" sentencenodepath="14">A la vista de estos antecedentes , Enersis reitera su decidido empeño en <argset>" <specifier>la</specifier>
+            <head>protección </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los intereses de la sociedad y de todos sus accionistas</argument>
+          </argset>, para lo que Ø empleará cuantos medios legales Ø tenga a su alcance " . </example>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="3.1.2.4.1.1.0.4.2.1" sentencenodepath="3">Para López_Amor , la compañía que Ø preside " forma_parte de la marca España y Ø constituye un medio de relaciones propio que garantiza el autogobierno en el mundo de la comunicación internacional " por lo que , en este sentido , Ø supone <argset>" <specifier>una</specifier>
+            <reference_modifiers>modesta</reference_modifiers>
+            <head>protección </head>
+            <argument argument="arg2" function="cn" thematicrole="tem" type="sadv">frente a los gigantescos procesos de fusiones multimedia</argument>" </argset>. </example>
+        <example file="CESS-CAST-AA/3224_20000304.tbf.xml" nodepath="14.2.5.1.2.1.1.0" sentencenodepath="14">El delegado del Gobierno en la Comunidad_Valenciana anunció que el próximo Lunes Ø mantendrá una reunión con los responsables de los diferentes partidos políticos para " tranquilizarles " y garantizar <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las sedes</argument></argset>" en la medida de lo posible " . </example>
+        <example file="CESS-CAST-AA/4018_20000706.tbf.xml" nodepath="2.0.3.1.1.1.0" sentencenodepath="2">" Hay que actuar pronto para asegurar <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las frágiles especies situadas en aguas profundas</argument></argset>antes de que haya daños irreversibles " , afirmó Ø en un comunicado . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="17.0.4.1.1.0" sentencenodepath="17">Durante los años_80 Ø se dedicó a <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los derechos_humanos</argument></argset>y Ø se convirtió en miembro del comité para la defensa de la libertad de expresión . </example>
+        <example file="CESS-CAST-P/72_19990601.tbf.xml" nodepath="13.4.1.1.1.0.1.2.1.0" sentencenodepath="13">Por esta razón , se han incorporado al proyecto una serie de medidas que aseguran <argset><specifier>la</specifier><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del valioso entorno natural</argument></argset>. </example>
+        <example file="CESS-CAST-P/73_20000201_a.tbf.xml" nodepath="7.3.1.2.0.3.1.1.1.1.1.1.0.0" sentencenodepath="7">La Asociación_en_Defensa_de_los_Derechos_del_Animal ( ADDA ) , la primera que denunció los hechos , ha empezado a recoger firmas para exigir a la Generalitat que Ø elabore el reglamento de la ley de <argset><head>protección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de animales</argument></argset>y que se apliquen las sanciones . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="uso" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="usar" originlink="verb.usar.1" wordnetsynset="16:00605730">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="3" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="16" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="8" type="s.a"/>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a12-1.tbf.xml" nodepath="0.0.2.0.1.1.0" sentencenodepath="0">Pero también a <argset><specifier>un</specifier><head>uso </head><reference_modifiers>excesivo</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del teléfono</argument></argset>y a una sobredosis de fármacos : probablemente éste sea el caso del protagonista de Dinero , la novela de Martin_Amis , que se pasa medio libro discutiendo por teléfono y el otro medio hinchándose de drogas hasta_que Ø se le salen por las orejas . </example>
+        <example file="3LB-CAST/c4-1.tbf.xml" nodepath="4.1.2.1.1.0" sentencenodepath="4">No por la certidumbre de que la muerte , con su guarnición de sangre y masa encefálica desparramada , espera al hombre en el asfalto , sino por <argset><specifier>el</specifier><head>uso </head><reference_modifiers>que los energúmenos de la paz y el orden puedan hacer de la noticia</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="9.3.1.2.0.0" sentencenodepath="9">Hoy Ø sabemos que , junto_al <argset><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de iperita y lewisita - dos de las más conocidas armas químicas -</argument></argset>, las tropas japonesas también llevaron_a_cabo experiencias con armas bacteriológicas , aunque afortunadamente de forma limitada . </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="4.2.3.1.2.4.0.0.1.0" sentencenodepath="4">Ø Afirmó que en determinadas zonas de la Comunidad_Valenciana existe un nivel de desarrollo urbanístico " que claramente marca <argset><specifier>un</specifier><head>uso </head></argset>y abuso del agua " , por lo que " es muy difícil hacer una petición de solidaridad a otras regiones cuando desde el Gobierno no se están haciendo acciones concretas " para mejorar el uso del agua . </example>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="0.0.3.5.1.1.1.1.4.1.2.1.1.1.0" sentencenodepath="0">La empresa Kellogs , fabricante de cereales para el desayuno , ha cerrado su planta de producción de Michigan porque Ø no ha podido abastecerse de maíz con la seguridad de que Ø no contiene una variedad transgénica vetada para <argset><specifier>el</specifier><head>uso </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">humano</argument></argset>, informaron fuentes de la industria . </example>
+        <example file="CESS-CAST-AA/22739_20001027.tbf.xml" nodepath="0.0.0.0.1.2.1.0.1.1.0.1.1.0.0" sentencenodepath="0">El precio máximo del litro de gasóleo de <argset><head>uso </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">automovilístico</argument></argset>ha subido en lo que va de año un 21,7_por_ciento , mientras_que el de la gasolina sin plomo de 95 octanos lo ha hecho en un 16_por_ciento y el de la súper tradicional en un 20_por_ciento , según datos elaborados por EFE . </example>
+        <example file="CESS-CAST-AA/23915_20001130.tbf.xml" nodepath="3.3.1.1.2.4.1.1.1.0.1.1.0.0" sentencenodepath="3">Pero los combustibles y carburantes se encarecieron un 70,9_por_ciento en un año y un 2,2_por_ciento el mes pasado , cuando aumentaron en un 7,8_por_ciento los precios del gas para <argset><head>uso </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">profesional</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="7.4.2.2.1.4.1.2.0.0" sentencenodepath="7">Dicha documentación , añadió Ø , corresponde a los acuerdos adoptados en plenos municipales del Ayuntamiento_de_Marbella celebrados el 17_de_agosto y 22_de_noviembre de 1999 y el 12_de_mayo de este año , con " tres sellos " y planos que " en muchos casos obedecen a un mismo territorio y <argset><head>usos </head><reference_modifiers>distintos</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/24822_20001030.tbf.xml" nodepath="0.2.3.1.0.0" sentencenodepath="0">El plan de ordenación del territorio del ámbito de Doñana , elaborado por la Consejería_de_Obras_Públicas , plantea una edificabilidad máxima en la zona de 3.000 nuevas plazas turísticas , y se da prioridad al <argset><head>uso </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">hotelero</argument></argset>frente al residencial . </example>
+        <example file="CESS-CAST-AA/24822_20001030.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">También recoge el plan ordenar <argset><specifier>los</specifier><head>usos </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">productivos</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del suelo</argument></argset>ante " el crecimiento espontáneo de ocupación de masa forestal " en el cultivo de la fresa en la zona de Huelva . </example>
+        <example file="CESS-CAST-AA/24822_20001030.tbf.xml" nodepath="5.0.1.0.0.1.0" sentencenodepath="5">Sobre <argset><specifier>el</specifier><head>uso </head></argset>y concesiones del agua , se prohíben nuevas estaciones hídricas y se establecen limitaciones en algunas zonas , según las recomendaciones del Plan_de_Ordenación del ámbito de Doñana . </example>
+        <example file="CESS-CAST-AA/24822_20001030.tbf.xml" nodepath="6.2.3.2.1.1.0" sentencenodepath="6">La directora de Ordenación_del_Territorio explicó que los objetivos de dicho plan son proteger el espacio y los valores ambientales de una zona protegida como es Doñana , ordenar <argset><specifier>los</specifier><head>usos </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">productivos</argument></argset>y articular el ámbito de aplicación . </example>
+        <example file="CESS-CAST-AA/6773_20000112.tbf.xml" nodepath="0.0.3.1.1.1.1.1.0.1.0" sentencenodepath="0">Japón destruirá 985.000 minas antipersonales que posee su ejército hasta el año_2.003 , en_conformidad_con el tratado para prohibir <argset><specifier>el</specifier><head>uso </head></argset>, la producción y la posesión de esos artefactos , se informó hoy , miércoles . </example>
+        <example file="CESS-CAST-AA/8873_20000412.tbf.xml" nodepath="0.3.1.1.4.6.2.0.2.1.0.0" sentencenodepath="0">El BOE publica hoy el Real_Decreto por el que se prohíbe comercializar gasolinas con plomo a_partir_del uno_de_enero_de_2002 , aunque Ø permitirá la distribución de este carburante , hasta un máximo del 0,5_por_ciento de las ventas totales , para vehículos antiguos de <argset><head>uso </head><reference_modifiers>especial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/101_20010601.tbf.xml" nodepath="0.4.2.0.3.1.1.1.1.0.0" sentencenodepath="0">EL PROYECTO municipal , avanzado ayer por L'Informatiu de TVE_Catalunya , recuperaría la fauna y la flora subacuáticas en el fondo marino del litoral de la ciudad , lo que permitiría regular posteriormente actividades de submarinismo y pesca entre el Besòs y el Llobregat mediante un plan de <argset><head>usos </head></argset>. </example>
+        <example file="CESS-CAST-P/133_20011001.tbf.xml" nodepath="1.2.1.1.1.0.0" sentencenodepath="1">El primer paso para completar el plan es el programa de <argset><head>usos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Fòrum</argument></argset>, en fase de estudio y que deberán aprobar los responsables municipales y los de la Diputación . </example>
+        <example file="CESS-CAST-P/133_20011001.tbf.xml" nodepath="3.0.1.1.1.1.0.0" sentencenodepath="3">En enero , aproximadamente , el programa de <argset><head>usos </head></argset>redactado por Josep_Montanyés , actual director del Teatre_Lliure y coordinador de la puesta_en_marcha de la Ciutat_del_Teatre , pasará a ser un texto definitivo y se sabrá entonces para qué servirá el edificio y qué funciones Ø deberá cubrir . </example>
+        <example file="CESS-CAST-P/168_20010701.tbf.xml" nodepath="1.2.1.2.0.1.1.0.2.1.4.2.1.0.0" sentencenodepath="1">Las primeras informaciones apuntan a que existen documentos con fundados indicios de que Ollé , edil independiente adscrito al grupo del PSC , " habría utilizado indebidamente y para <argset><head>usos </head><reference_modifiers>personales</reference_modifiers></argset>unos 14 millones de la sociedad municipal que rige el centro médico " , según fuentes conocedoras del caso . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="26.0.1.1.1.1.1.1.0.0" sentencenodepath="26">La aplicación de las normas al <argset><head>uso </head></argset>comienzan a rasgarse ante la penetración social del nuevo medio y la facilidad con que Ø inaugura áreas insospechadas de privacidad que , a_la_vez , quedan inmediatamente expuestas a la vista de quien reclame un derecho para escudriñarlas . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="7.5.1.1.0" sentencenodepath="7">- - Ø Me refiero a <argset><specifier>otros</specifier><head>usos </head><reference_modifiers>propagandísticos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/19_20020501.tbf.xml" nodepath="16.4.5.1.1.1.0.0" sentencenodepath="16">Para esos especuladores , el vino es un valor de cambio , cuando en_realidad Ø debería ser un valor de <argset><head>uso </head></argset>. </example>
+        <example file="CESS-CAST-P/25_20000301.tbf.xml" nodepath="11.1.4.0.1.1.0.0" sentencenodepath="11">Existen muchas obras cartelísticas , diseños de piezas de interiorismo , objetos de <argset><head>uso </head><reference_modifiers>cotidiano</reference_modifiers></argset>que tienen , aunque Ø sólo sea en alguno de sus detalles , una estética mironiana . </example>
+        <example file="CESS-CAST-P/26_20000802.tbf.xml" nodepath="8.2.1.2.1.0.1" sentencenodepath="8">Estas medidas están sujetas al restablecimiento " duradero " de una paz civil en la isla y al <argset><reference_modifiers>buen</reference_modifiers><head>uso </head><reference_modifiers>que haga la Asamblea corsa de las transferencias de competencias de aquí al 2002</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="11.4.5.1.0" sentencenodepath="11">En Catalunya , la Conselleria_de_Sanitat ha renunciado a preparar una campaña para informar a los usuarios de las precauciones que se deben adoptar con la Viagra , aunque , en un comunicado hecho público el jueves , Ø recuerda <argset><specifier>el</specifier><head>uso </head><reference_modifiers>controlado</reference_modifiers><reference_modifiers>que requiere el medicamento</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="9.3.1.0.2.0.0" sentencenodepath="9">La reclamación de Kuwait se fundamenta en la supuesta malversación y <argset><head>uso </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">fraudulento</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de fondos públicos</argument></argset>en la gestión del grupo Kuwait_Investment_Office ( KIO ) . </example>
+        <example file="CESS-CAST-P/55_20000903.tbf.xml" nodepath="10.1.2.2.1.2.1.2.1.1.0" sentencenodepath="10">Desde entonces no se ha presentado ningún proyecto ni se ha pedido ningún permiso municipal para reaprovechar el actual local para <argset><specifier>otro</specifier><head>uso </head></argset>. </example>
+        <example file="CESS-CAST-P/84_20020401.tbf.xml" nodepath="4.2.4.5.1.2.1.1.1" sentencenodepath="4">Digamos Ø que Manolo_Sánchez volvió a estar abúlico y desencantado ante el ganado ( silencio y palmas ) ; que José_Antonio_Canales_Rivera parece querer surgir del bache en que Ø estuvo sumido largo tiempo ( ovación y oreja ) , y que el francés Juan_Bautista ( aviso con ovación y aviso con ovación ) hizo un toreo más vistoso que la temporada pasada sin llegar a cuajar faenas por <argset><specifier>el</specifier><reference_modifiers>mal</reference_modifiers><head>uso </head><reference_modifiers>que hizo de la tizona</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/99_20011201.tbf.xml" nodepath="0.4.1.1.1.1.1.1.1.0.1.1.0.0" sentencenodepath="0">EL ' CONSELLER ' de Sanitat , Eduard_Rius , se comprometió anoche ante los sindicatos de la red de hospitales de <argset><head>uso </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">público</argument></argset>de Catalunya ( XHUP ) a convocar a la patronal para negociar las reivindicaciones del personal sanitario . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="usar" originlink="verb.usar.1" wordnetsynset="16:00605730">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="en_favor_de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="22" preposition="de" type="sp"/>
+        <constituent frequency="6" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="desde" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="18" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="6" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="8.2.2.2.1.1.1.1.1.0" sentencenodepath="8">No_obstante , Ø ya se ha resignado a alterar sus prácticas comerciales y Ø ha propuesto dar a los fabricantes de ordenadores mayor flexibilidad en la elección del sistema de operación y a los consumidores más opciones para <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de programas que no funcionen con Windows</argument></argset>. </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="15.3.1.1.3.2.1.2.3.2.0.1.1.0" sentencenodepath="15">La misión también habló con la secretaria de la Liga_Nacional_para_la_Democracia , Aung_San_Suu_Kyi , quien insistió en " la gravedad persistente del trabajo forzoso , en_particular debido_a <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>uso </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por militares</argument></argset>y sobre las formas extremas que Ø podía adoptar con el reclutamiento de niños " . </example>
+        <example file="3LB-CAST/dc1-10.tbf.xml" nodepath="9.0.2.2.0" sentencenodepath="9">La medicina nuclear , es_decir <argset>, <specifier>el</specifier>
+            <head>uso </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de radiaciones ionizantes , como los rayos_X o el radio ,</argument>
+            <argument argument="argM" function="cn" thematicrole="fin" type="sp">como medio de diagnóstico y tratamiento médico de ciertas enfermedades</argument>
+          </argset>es conocida desde antiguo , mucho antes de que comenzara la llamada era nuclear , tras el estallido de la primera bomba atómica . </example>
+        <example file="3LB-CAST/dc3-5.tbf.xml" nodepath="2.2.1.3.0.1.1.1.0" sentencenodepath="2">Son muchas las otras posibles aplicaciones de los polímeros conductores tales como <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>uso </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">como conductores eléctricos , antiestáticos , electrodos , sensores , etc</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="7.1.1.0" sentencenodepath="7">Por_otro_lado , <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ligandos de distinta naturaleza ( tomos o moléculas )</argument></argset>permite un perfecto control sobre la distancia interplanar . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="16.2.1.1.1.0.6.0" sentencenodepath="16">En la historia de las elecciones dominicanas abundan las denuncias de <argset>fraudes , intromisión de los militares en los comicios , compras de documentos de votación , <head>uso </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los fondos públicos</argument>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">en_favor_de los candidatos oficialistas</argument>y acciones violentas que arrojaron tristes saldos de muertos y heridos </argset>. </example>
+        <example file="CESS-CAST-A/13810_20000617.tbf.xml" nodepath="6.3.5.1.1.2.2.1.0" sentencenodepath="6">LA GACETA destaca en primera que Telefónica cae un 5_por_ciento en lo que Ø considera un " duro castigo " de la bolsa tras las informaciones de un diario madrileño que apuntaban <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de información privilegiada</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por su presidente Juan_Villalonga</argument></argset>. </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="14.6.3.2.2.0.0" sentencenodepath="14">Ya el pasado marzo , durante la cumbre extraordinaria de la UE en Lisboa , los Quince pidieron a Rusia que Ø hiciera " honor a sus compromisos " y Ø pusiera_fin " al <argset><head>uso </head><reference_modifiers>indiscriminado</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la fuerza militar</argument></argset>" en Chechenia </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="4.3.2.1.0.5.5.0.2.2.1.1.0" sentencenodepath="4">Ø Afirmó que en determinadas zonas de la Comunidad_Valenciana existe un nivel de desarrollo urbanístico " que claramente marca un uso y abuso del agua " , por lo que " es muy difícil hacer una petición de solidaridad a otras regiones cuando desde el Gobierno no se están haciendo acciones concretas " para mejorar <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del agua</argument></argset>. </example>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="5.2.1.1.0" sentencenodepath="5">El problema está en <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una variedad de maíz transgénico , conocida como StarLink , que no se ha aprobado para el consumo humano debido_a que puede causar reacciones alérgicas</argument></argset>. </example>
+        <example file="CESS-CAST-A/17384_20000221.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>El</specifier><head>uso </head><reference_modifiers>indiscriminado</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de alimentos granulados , concentrados o deshidratados</argument><argument argument="argM" function="cn" type="sp">en la preparación de caldos y sopas</argument></argset>tiene efectos nocivos para la salud , denunció hoy la Asociación_Mexicana_de_Estudios_para_la_Defensa_del_Consumidor ( AMEDEC ) . </example>
+        <example file="CESS-CAST-A/17384_20000221.tbf.xml" nodepath="6.0.0.1.0" sentencenodepath="6"><argset><specifier>El</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de granulados</argument></argset>" se ha extendido tanto que incluso se estandarizó su gusto en hogares , fondas , cocinas económicas y restaurantes , olvidando la rica tradición culinaria mexicana " , agregó Ø . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="3.4.3.1.1.1.1.0" sentencenodepath="3">El conductor , Antonio_Muñoz_Serrano , que ha sido condenado a una multa de 120.000 pesetas y prohibición de la licencia de circulación durante un año , sufrió el accidente la mañana del 5_de_junio del pasado año cuando Ø conducía su cuadriciclo - <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyo</argument><head>uso </head></argset>requiere solo de la licencia de circulación - , por una travesía de Sant_Boi_de_Llobregat ( Barcelona ) . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="5.3.4.2.1.1.2.1.1.1.1.1.1.1.1.1.1.1.0" sentencenodepath="5">Para lograr que aumente la competencia , el PSOE pide que se garantice el acceso de terceros a las redes de almacenamiento y distribución de productos petrolíferos con el establecimiento del acceso regulado y con la atribución a la CNE de la competencia para fijar los cánones y peajes a pagar por <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>uso </head></argset>. </example>
+        <example file="CESS-CAST-AA/4398_20000706.tbf.xml" nodepath="0.3.0.1.1.2.1.0.0" sentencenodepath="0">Estados_Unidos señaló hoy que el programa piloto de <argset><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un hongo herbicida</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para erradicar las plantaciones de coca en Colombia</argument></argset>durará dos años y que las autoridades colombianas tendrán después que evaluar los resultados y decidir si Ø siguen o no con él . </example>
+        <example file="CESS-CAST-AA/4398_20000706.tbf.xml" nodepath="7.2.0.1.1" sentencenodepath="7">El conocimiento del hongo , que se reproduce de forma natural en algunas plantas y tiene variantes que sólo atacan a determinadas especies , data de hace varios años y <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>posible</reference_modifiers><head>uso </head><reference_modifiers>como arma biológica</reference_modifiers></argset>ha sido objeto de estudio por_parte_de investigadores estadounidenses y de la extinta Unión_Soviética . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="5.2.5.2.0.1.1.1.1.1.0.1" sentencenodepath="5">Portillo señaló que su país afronta una difícil situación en el campo externo , como efecto de la combinación del <argset><reference_modifiers>mal</reference_modifiers><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las políticas económicas</argument></argset>con la caída de los precios de los principales productos de exportación . </example>
+        <example file="CESS-CAST-P/107_20010201.tbf.xml" nodepath="1.0.0.1.4.1.0" sentencenodepath="1">Adenc , que ya denunció <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del agua</argument></argset>, cree que han existido irregularidades en la concesión . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="25.0.1.0" sentencenodepath="25"><argset><specifier>El</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esta herramienta</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">desde el hogar , el espacio laboral ( sea fijo o a distancia ) o los ratos de ocio ,</argument></argset>plantea el dilema de quién es el propietario del mensaje en cada caso y qué tipo de legislación lo ampara . </example>
+        <example file="CESS-CAST-P/25_20020502.tbf.xml" nodepath="1.2.0.4.1.0" sentencenodepath="1">No la independencia de Euskadi , que todo en democracia es posible , sino la muerte , su justificación y <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>uso </head><reference_modifiers>político</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/34_20010502.tbf.xml" nodepath="2.0.4.1.1.0.2.2.4.1.0" sentencenodepath="2">" Sin_duda , se requiere profundizar en aspectos centrales , como la autonomía y la libre determinación , los pueblos y comunidades indígenas como sujetos de derecho público , <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los recursos naturales como tierras y territorios , por citar algunos</argument></argset>" , explicaba el comunicado presidencial que finalmente leyó la coordinadora para el Desarrollo_de_los_Pueblos_Indígenas , Xóchitl_Gálvez , la única funcionaria que había criticado la iniciativa . </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="7.4.5.1.5.2.1.0" sentencenodepath="7">El ministerio pide en primer lugar a los facultativos que , antes de extender la receta , Ø evalúen a los pacientes teniendo_en_cuenta que patologías como la hipertensión , la hipercolesterolemia , la insuficiencia renal o trastornos neurológicos y psiquiátricos se asocian con la disfunción eréctil , al_igual_que <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de algunos medicamentos , en_particular antihipertensivos y psicotrópicos</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="9.4.4.1.3.0.1.2.1.1.0" sentencenodepath="9">Ø También pide a médicos y farmacéuticos que Ø adviertan a los pacientes de los posibles efectos secundarios , " así_como otros que pueden aparecer con <argset><specifier>el</specifier><head>uso </head><reference_modifiers>más extendido</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del medicamento</argument></argset>" . </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="26.0.0.2.1.1.1.1.0.1.1.1.0" sentencenodepath="26">José_Gurrea , director de la clínica , y Roberto_Lertxundi , autor del estudio sobre <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del nuevo fármaco</argument></argset>, aseguraron que " la impotencia es una enfermedad , no un capricho " , y que , por ello , " con los controles necesarios que ya se ponen a otros fármacos , la Viagra no tiene por qué estar fuera del sistema público de financiación " . </example>
+        <example file="CESS-CAST-P/48_19990802.tbf.xml" nodepath="5.1.1.1.1.1.0" sentencenodepath="5">A_medida_que los precios de los terminales y del servicio se han abaratado , la extensión de <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>uso </head></argset>ha tenido un crecimiento exponencial , sobre_todo en España . </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="14.2.1.0" sentencenodepath="14">Los jueces suizos prohibieron <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de estas pruebas - - entre ellas las cuentas de De_la_Rosa en el país - -</argument></argset>porque la entrega fue irregular . </example>
+        <example file="CESS-CAST-P/80_20000701.tbf.xml" nodepath="24.4.1.0" sentencenodepath="24">" La peatonalización - - añade Ø - - complementará <argset><specifier>el</specifier><head>uso </head><reference_modifiers>lúdico</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del pasaje " , en el que se encuentra el polideportivo Vintró , que cuenta con 3.000 abonados y una lista de espera de 2.000</argument></argset>. </example>
+        <example file="CESS-CAST-P/82_19991202.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">El Ayuntamiento impulsa <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de especies mediterráneas</argument></argset>. </example>
+        <example file="CESS-CAST-P/82_19991202.tbf.xml" nodepath="2.3.1.2.1.1.0" sentencenodepath="2">La cuarta teniente de alcalde ( IC-V ) animó a los barceloneses a promover unas fiestas más ecológicas mediante <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de especies mediterráneas , que tienen muchas más posibilidades de sobrevivir que el tradicional abeto</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="usar" originlink="verb.usar.1" wordnetsynset="16:00605730">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="7" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="16.3.2.1.0.1.4.1.1.0" sentencenodepath="16">Myanmar está entre las preocupaciones de la OIT , especialmente desde 1998 , cuando una comisión de investigación juzgó que <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del trabajo forzado</argument></argset>estaba muy expandido . </example>
+        <example file="3LB-CAST/t1-4.tbf.xml" nodepath="5.4.1.4.1.2.2.1.1.2.1.1.1.3.1.1.1.1.1.0.0" sentencenodepath="5">Ø No encontraba razones para que Fermina_Daza no fuera una viuda igual , preparada por la vida para aceptarlo a él tal_como Ø era , sin fantasías de culpa por el marido muerto , resuelta a descubrir con él la otra felicidad de ser feliz dos veces , con un amor de <argset><head>uso </head><reference_modifiers>cotidiano</reference_modifiers></argset>que convirtiera cada instante en un milagro de vivir , y con otro amor de ella sola preservado de todo contagio por la inmunidad de la muerte . </example>
+        <example file="3LB-CAST/t5-6.tbf.xml" nodepath="6.0.1.0.0" sentencenodepath="6">Haciendo <argset><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un trocito de cartón y de cierto melindre</argument></argset>Ø recogió el cadáver del moscón suicida y Ø lo arrojó a la lata . </example>
+        <example file="CESS-CAST-A/10168_20000212.tbf.xml" nodepath="6.3.1.1.1.0.1.1.3.1.2.2.1.0" sentencenodepath="6">Ambos países critican , además , la postura de Egipto , que no ha firmado el protocolo de Otawa que prohíbe <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las minas antipersonales</argument></argset>, y cuyo Gobierno utiliza para asegurar su frontera con Libia y Sudán . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="5.0.4.1.1.2.1.1.0" sentencenodepath="5">" El hombre debe buscar un desarrollo sostenible para que con la tecnología y con <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los recursos</argument></argset>Ø no estemos poniendo continuamente al mundo en peligro , porque se trata de trabajar , sobre_todo , para la prevención " , indicó el parlamentario . </example>
+        <example file="CESS-CAST-AA/4398_20000706.tbf.xml" nodepath="1.3.3.0.2.1.1.0" sentencenodepath="1">El portavoz del Departamento_de_Estado , Richard_Boucher , dijo hoy que EEUU " está proporcionando fondos a la Agencia_para_el_Control_de_Drogas_de_la_ONU y trabajar con el Gobierno_de_Colombia en <argset><specifier>el</specifier><head>uso </head><reference_modifiers>científico</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Fusarium_Oxysporum</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en las plantaciones de coca</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/4398_20000706.tbf.xml" nodepath="6.0.3.1.2.1.1.0" sentencenodepath="6">" Lo que Ø queremos es un programa de investigación , y nada_más_que de investigación , sobre <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de controles biológicos contra esa clase de cosechas</argument></argset>" , dijo Juan_Mayr , ministro de Medio_Ambiente de Colombia , citado por el rotativo . </example>
+        <example file="CESS-CAST-AA/6736_20000208.tbf.xml" nodepath="1.0.3.1.0" sentencenodepath="1">La decisión prohíbe a las agencias gubernamentales <argset><specifier>el</specifier><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de cualquier tipo de información genética</argument></argset>a_la_hora_de decidir contrataciones , despidos o ascensos , anunció Clinton durante una intervención ante la Asociación_para_el_Avance_de_la_Ciencia , en Washington . </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="6.4.1.0.3.1.0.2.1" sentencenodepath="6">En un escrito que incluye severas instrucciones , la Administración advierte a los médicos del " posible potencial de <argset>abuso , <reference_modifiers>mal</reference_modifiers>
+            <head>uso </head>o efectos desconocidos que pudieran implicar responsabilidades e , incluso , acciones legales </argset>" . </example>
+        <example file="CESS-CAST-P/75_19990202.tbf.xml" nodepath="1.3.1.1.0.2.1.1.1" sentencenodepath="1">La iniciativa de puertas abiertas servirá también para recoger sugerencias de los ciudadanos sobre <argset><specifier>el</specifier><reference_modifiers>futuro</reference_modifiers><head>uso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de estas 45 hectáreas de terreno , compradas por el ayuntamiento al Ejército por 2.700 millones después de un largo proceso de negociación</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="hacer_uso" cousin="no" denotation="none" id="4" lexicalizationtype="verbal" lexicalized="yes" originlemma="usar" originlink="verb.usar.1" wordnetsynset="16:00605730">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-1.tbf.xml" nodepath="6.0.2.0.0" sentencenodepath="6">La compañía hizo <argset><head>uso </head></argset>del recurso de apelación , tras lo cual la multa fue confirmada y reducida a 1.365 millones de pesos , explicó el funcionario . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="sentimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="sentir" originlink="verb.sentir.1" wordnetsynset="16:00014045">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-4.tbf.xml" nodepath="1.3.1.1.1.3.1.1.0" sentencenodepath="1">La débil barrera moral que se evidencia durante las guerras resultaba fácil de saltar en una época en la que el miedo dominaba por_encima_de <argset><specifier>cualquier otro</specifier><head>sentimiento </head></argset>. </example>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="4.4.1.1.0" sentencenodepath="4">Y hasta más allá de los cuarenta años Ø atribuyó a <argset><specifier>los</specifier><head>sentimientos </head></argset>la capacidad de discernir lo bueno . </example>
+        <example file="CESS-CAST-A/16712_20000825.tbf.xml" nodepath="2.0.0.1.2.3.1.1.0" sentencenodepath="2">Algo que " da mucha más tranquilidad " y que se mezcla con <argset><specifier>otro</specifier><head>sentimiento </head><reference_modifiers>" muy especial "</reference_modifiers><reference_modifiers>por tener la oportunidad de acudir a Sydney con otro entrenador que ha confiado en él en los últimos años : Iñaki_Saez</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/18351_20000724.tbf.xml" nodepath="3.2.4.1.1" sentencenodepath="3">Jaime_Blanco explicó que con la " vuelta y media " le ha quedado <argset><specifier>un</specifier>" <head>sentimiento </head><reference_modifiers>agrio</reference_modifiers>" </argset>porque Ø considera que , " en alguna medida " , con el voto útil ha " quedado desairada Matilde_Fernández " , candidata por la que previamente se había decantado el líder de los socialistas cántabros . </example>
+        <example file="CESS-CAST-AA/19559_20000923.tbf.xml" nodepath="11.3.1.1.1.0.0" sentencenodepath="11">Rodríguez_Ibarra también hizo un llamamiento al <argset><head>sentimiento </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de la identidad extremeña</argument></argset>, " nosotros somos extremeños pero Ø no necesitamos pegatinas en el coche ni apellidos autonomistas " . </example>
+        <example file="CESS-CAST-P/103_20000502.tbf.xml" nodepath="6.3.2.1.1.2.5.1.0.0.0" sentencenodepath="6">Una serie de hechos violentos van desvelándose de manera sencilla , hasta componer un puzzle dramático con el que Atom_Egoyan , atrapa al espectador a_partir_de <argset><head>sentimientos </head><reference_modifiers>abstractos</reference_modifiers>y emociones a_contrapié </argset>. </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="11.2.2.1.1.0" sentencenodepath="11">Djordjevic reconoció además que Ø se siente un azulgrana más - - " aquí Ø he puesto mis raíces , Ø he comprado una casa , Ø he vivido el club , los colores , y Ø me siento un culé más " - - después de estas tres temporadas , pero Ø añadió que <argset><specifier>ese</specifier><head>sentimiento </head></argset>no tiene por qué influir en su decisión . </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="20.2.3.0.0" sentencenodepath="20">Curiosamente , Rivaldo se ha perdido los tres duelos de esta temporada con el Valencia ( la derrota en la Supercopa y el 3-1 de Mestalla ) , pero Ø no alberga <argset><head>sentimientos </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de revancha</argument></argset>. </example>
+        <example file="CESS-CAST-P/122_20011202.tbf.xml" nodepath="14.0.3.3.4.1.3.0.0" sentencenodepath="14">" Es bonito saberlo . Y Ø es que cuando Ø toco la pared Ø noto que Ø tiene historia , que Ø tiene <argset><head>sentimiento </head></argset>" , dice Claudia , segura de saber siempre lo que Ø toca . </example>
+        <example file="CESS-CAST-P/16_19990901.tbf.xml" nodepath="4.0.1.2.0.1.2.1.1.0.0" sentencenodepath="4">Hasta que llega Juan_Señor , un presentador con <argset><head>sentimientos </head></argset>. </example>
+        <example file="CESS-CAST-P/19_20020501.tbf.xml" nodepath="11.2.1.0.2.3.0.1.1.2.1.1.1.1.0.0" sentencenodepath="11">Un buen bebedor es el que es capaz de introducirse en un vino nuevo , pero que también es capaz de reconocer a_ciegas los muchos vinos bebidos con <argset><head>sentimiento </head></argset>. </example>
+        <example file="CESS-CAST-P/19_20020501.tbf.xml" nodepath="12.0.1.1.1.1.0.0" sentencenodepath="12">Porque el vino sin <argset><head>sentimiento </head></argset>es agua sucia . </example>
+        <example file="CESS-CAST-P/26_19990701_a.tbf.xml" nodepath="25.2.1.1.0" sentencenodepath="25">Ø Sí pienso que aunque algunos no sientan eso que se llama patria Ø podrían sentirse más europeístas , pero tampoco <argset><specifier>ese</specifier><head>sentimiento </head></argset>es mayoritario . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="sentir" originlink="verb.sentir.2" wordnetsynset="16:00014045">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/15931_20000320.tbf.xml" nodepath="8.3.3.1.2.1.0" sentencenodepath="8">Ø Pidió a la Universidad que Ø siga trabajando en implantar en la sociedad <argset><specifier>el</specifier><head>sentimiento </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de " amor por el trabajo bien hecho "</argument></argset>, porque en los países que apuestan por " cimentar sus proyectos sobre la formación y la cultura Ø están acercándose al crecimiento económico y a dotarse de personalidad desde el punto de vista político " . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="1.2.1.1.1" sentencenodepath="1">De_Miguel , quien compareció en el Congreso ante la comisión mixta para la Unión_Europea , apeló a <argset><specifier>un</specifier>" <head>sentimiento </head><reference_modifiers>elemental</reference_modifiers><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de solidaridad</argument>" </argset>para defender la postura de España ante la ampliación europea , a la que Ø definió como " una oportunidad y no una amenaza " . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Representantes de las asociaciones de comerciantes de Catalunya expresaron ayer <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>sentimiento </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de haber sido " traicionados y defraudados " por el Gobierno del PP tras la nueva regulación de los horarios comerciales</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="sentir" originlink="verb.sentir.3" wordnetsynset="16:00014045">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/16786_20000221.tbf.xml" nodepath="6.0.3.1.3.1.1.0" sentencenodepath="6">El yen registró momentos de alza efímeros debido_a que la confianza de los inversores en la divisa nipona ha disminuído por <argset><specifier>el</specifier><head>sentimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que la actividad económica japonesa está en descenso</argument></argset>y un impuesto a los principales bancos situados en Tokio que , de ser aprobado , reducirá los beneficios de esas entidades . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="descubrimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="descubrir" originlink="verb.descubrir.1" wordnetsynset="16:00098007">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-0.tbf.xml" nodepath="0.4.1.1.1.1.1" sentencenodepath="0">Si Ø admitimos como cierta la idea antropológica que afirma que la inteligencia aparece , en la escala evolutiva hacia el hombre , cuando hay un ser capaz de crear sus propias herramientas para cada necesidad , nunca ha sido el hombre tan humano como en <argset><specifier>los</specifier><reference_modifiers>modernos</reference_modifiers><head>descubrimientos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nuevos materiales</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>Este</specifier><head>descubrimiento </head><reference_modifiers>clave</reference_modifiers></argset>fue origen de un gran esfuerzo investigador , que provocó la búsqueda de nuevos complejos orgánicos de transferencia de carga ( CTC ) que pudieran igualar o incluso mejorar al TCNQ-TTF . </example>
+        <example file="3LB-CAST/t6-5.tbf.xml" nodepath="5.2.0.0.1.2.1.1.1.1.0" sentencenodepath="5">En aquel momento Ø se había sentido culpable de la previsible destrucción del prodigio , pero ahora , cuando la amargura de <argset><specifier>aquel</specifier><head>descubrimiento </head></argset>se había diluido poco_a_poco en el transcurso del tiempo , casi tres años de vida igual , Ø se había acostumbrado ya a que las cosas siguieran ese orden del que se suele decir que Ø es el curso lógico de los acontecimientos . </example>
+        <example file="CESS-CAST-A/11084_20001014.tbf.xml" nodepath="11.0.0.1.2.1.1.1.0" sentencenodepath="11">El duro golpe recibido con <argset><specifier>el</specifier><head>descubrimiento </head><reference_modifiers>que su madre y hermana mayor sufrían de cáncer de mama</reference_modifiers></argset>, afectó a su rendimiento deportivo , incluida la ausencia de los Juegos_Olímpicos de Sydney , donde Ø esperaba defender la medalla de oro conseguida en Atlanta'96, pero en_absoluto Ø le han quitado la ilusión de seguir en la competición activa . </example>
+        <example file="CESS-CAST-P/135_20020501.tbf.xml" nodepath="8.4.1.1.0" sentencenodepath="8">Una vez cerrado el caso , Ø se reabre por <argset><specifier>el</specifier><head>descubrimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un macabro asesinato que guarda relación con el anterior</argument></argset>. </example>
+        <example file="CESS-CAST-P/177_20000702.tbf.xml" nodepath="0.4.1.2.3.1.1" sentencenodepath="0">El equipo del espacio 2.MIL ofrece esta noche ( La_2 , 23.05 horas ) un programa especial en el que se analizan <argset><specifier>los</specifier><reference_modifiers>últimos</reference_modifiers><head>descubrimientos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la NASA</argument><argument argument="argM" function="cn" type="sp">sobre el planeta Marte</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="descubrir" originlink="verb.descubrir.1" wordnetsynset="16:00098007">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-4.tbf.xml" nodepath="4.2.1.0.0" sentencenodepath="4">Resulta esto del <argset><head>descubrimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por Heeger , McDiarmid y Nigrey , que encontraron compuestos poliméricos conductores</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="8.5.1.1.0" sentencenodepath="8">Sin_embargo , la búsqueda de conductores orgánicos no se desarrolló hasta <argset><specifier>el</specifier><head>descubrimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del potente aceptor de electrones tetraciano-p-quinodima ( TCNQ ) en 1960 y el potente dador electrónico tetratiafulvaleno ( TTF ) en 1970</argument></argset>, lo que condujo en 1973 a su combinación para formar el complejo n-molecular dadoraceptor ( TTF-TCNQ ) ( fig. 3 ) , con una conductividad semejante a los metales ( véase la tabla 1 ) . </example>
+        <example file="3LB-CAST/t6-4.tbf.xml" nodepath="5.0.0.1.0" sentencenodepath="5"><argset><specifier>El</specifier><head>descubrimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la decoración , en cuyos torpes misterios decidiera iniciarse con la enfermiza disponibilidad de un fanático ,</argument></argset>le había resultado muy saludable , pero Ø había aprovechado ya todas las esquinas , Ø había llenado todos los armarios de cajoneras , Ø había cubierto la terraza , Ø había diseñado hasta en los más mínimos detalles la distribución del jardín , y Ø hasta había instalado un sistema de calefacción alimentado con acumuladores solares , y Ø era domingo , llovía , habían pasado seis meses desde el día de su boda , y el azar , que una vez fuera con él generoso hasta los límites de lo grotesco , le había abandonado para siempre , dejándole a_solas con su nueva mujer y su casa nueva , espléndidamente decorada . </example>
+        <example file="CESS-CAST-P/91_20010301.tbf.xml" nodepath="3.3.0.6.4.2.1.1.0" sentencenodepath="3">En_definitiva , el CAC reclama que no se convierta un hecho luctuoso en un espectáculo para los televidentes , como Ø ocurrió en el reciente accidente de autocar de Golmayo ( Soria ) o tras <argset><specifier>el</specifier><head>descubrimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los cuerpos de las niñas de Alcàsser</argument></argset>, y que se respete el derecho a la privacidad de las víctimas y de sus familiares . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="descubrir" originlink="verb.descubrir.1" wordnetsynset="16:05389592">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a15-1.tbf.xml" nodepath="4.0.1.1.1.4.1.1.0" sentencenodepath="4">El investigador que nunca descubre nada que no se populariza gracias_a <argset><specifier>algún</specifier><head>descubrimiento </head><reference_modifiers>suficientemente espectacular</reference_modifiers><reference_modifiers>que lo haga aparecer en algún magazine televisivo</reference_modifiers></argset>, va perdiendo las fuentes de financiación . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

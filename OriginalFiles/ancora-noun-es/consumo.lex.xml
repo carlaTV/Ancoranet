@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="consumo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="consumir" originlink="verb.consumir.1" wordnetsynset="16:00537659+16:09726045">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="23" type="void"/>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="13.1.2.2.4.1.2.1.1.1.0.0.1.1.0" sentencenodepath="13">En su editorial , el diario analiza la situación económica del país tomando como base el informe difundido ayer de la OCDE y Ø asegura que el caballo de batalla de Aznar en esta legislatura será " convencer a la opinión pública de los riesgos de <argset><specifier>un</specifier><head>consumo </head></argset>y de un crecimiento desbocado , hacerle ver la urgencia de reformar el mercado laboral y de liberalizar la economía , escenificar los peligros de la inflación " . </example>
+        <example file="3LB-CAST/204_c-3.tbf.xml" nodepath="9.3.0.1.1.2.1.5.1.0" sentencenodepath="9">La Consejería_de_Agricultura emitió esta resolución después de comprobar en una investigación que ni su plantilla , ni su maquinaria , ni <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>consumos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de luz</argument></argset>eran suficientes para procesar la cantidad de lino que Ø certificaban . </example>
+        <example file="3LB-CAST/e2-3.tbf.xml" nodepath="6.1.1.4.1.2.1.1.1.1.0.0" sentencenodepath="6">- Claro que en 1930 nadie imaginaba un desarrollo tan brutal de la sociedad de <argset><head>consumo </head></argset>; pero el hecho es que veinte años más tarde en Europa el tiempo libre se convertía en un encadenamiento de servidumbres donde no cabía el perfeccionamiento personal a_través_de la liberación espiritual de la persona , a_pesar_de_que la idea de cultura avanzaba en este sentido . </example>
+        <example file="3LB-CAST/n1-12.tbf.xml" nodepath="6.0.1.1.1.1.0.0" sentencenodepath="6">Tras la orgía de <argset><head>consumo </head></argset>llega el crujir de dientes . </example>
+        <example file="CESS-CAST-A/12547_20000119.tbf.xml" nodepath="4.2.2.3.0.3.1.2.1.1.1.1.0.0" sentencenodepath="4">Según Romero , la política medioambiental del Gobierno andaluz presidido por Manuel_Chaves ha sido " un desastre que Ø calificamos no con cero sino con puntos negativos " , y Ø afirmó que la última legislatura han sido " años perdidos para sacar a Andalucía de su dependencia en <argset><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">energético</argument></argset>" . </example>
+        <example file="CESS-CAST-A/12547_20000119.tbf.xml" nodepath="5.0.2.1.1.1.1.1.0.0" sentencenodepath="5">El coordinador de IU-LV-CA informó de que más del 90_por_ciento del <argset><head>consumo </head></argset>corresponde a energías no renovables e importadas , lo que supone , según sus cifras , un gasto anual de medio billón de pesetas , y Ø lamentó que España no explote más la energía solar , " cuando países con menos luz diaria como Alemania u otros como Grecia tienen esta industria mucho más avanzada " . </example>
+        <example file="CESS-CAST-A/12547_20000119.tbf.xml" nodepath="6.3.1.1.1.1.2.2.2.2.1.1.1.0.0" sentencenodepath="6">Desde IU se va a impulsar la creación de un consorcio que se denominará Iperea ( Instituciones_por_las_Energías_Renovables_de_Andalucía ) , que integrará a administraciones locales y universidades , y que pretende alcanzar para el 2004 un 15_por_ciento de <argset><head>consumo </head></argset>con energías alternativas , " tal_y_como propone la UE " . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="23.0.0.1.1.1.1.2.1.1.0" sentencenodepath="23">Otro de los factores que inciden en <argset><specifier>el</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de artículos deportivos</argument></argset>es la frecuencia con que se practica deporte . </example>
+        <example file="CESS-CAST-A/14479_20000418.tbf.xml" nodepath="3.2.3.1.1.1.0.0" sentencenodepath="3">En 1999 , EEUU tuvo una inflación acumulada del 2,7_por_ciento ; en_cambio , en Argentina , en_vez_de subir , los precios al <argset><head>consumo </head></argset>bajaron ( deflación ) un 1,8_por_ciento . </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="3.3.4.1.1.1.2.2.1.1.1.1.1.1.0.0" sentencenodepath="3">El presidente ecuatoriano , Jamil_Mahuad , anunció ya que Ø fijará una lista de precios de productos , basada en los vigentes el 31_de_diciembre pasado , para frenar la ola especulativa que ha disparado los costes de varios bienes de <argset><head>consumo </head></argset>. </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="16.5.1.1.1.4.3.1.0" sentencenodepath="16">Paradójicamente , al_menos de_momento , la crisis se ha agudizado en los hogares , en muchos de los cuales se ha debido replantear el esquema alimenticio y se ha contraído en_general <argset><specifier>el</specifier><head>consumo </head></argset>. </example>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="2.3.1.0.1.1.0.1.1.0.1.2.1.1.1.1.0" sentencenodepath="2">Durante la semana fuentes del gobierno y del sector empresario indicaron que miles de toneladas de maíz producido por manipulación genética , y no apto para <argset><specifier>el</specifier><head>consumo </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">humano</argument></argset>, pueden haber sido utilizadas para fabricar una variedad de alimentos a la venta en Estados_Unidos . </example>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="5.2.1.1.1.1.1.3.4.1.1.0" sentencenodepath="5">El problema está en el uso de una variedad de maíz transgénico , conocida como StarLink , que no se ha aprobado para <argset><specifier>el</specifier><head>consumo </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">humano</argument></argset>debido_a que Ø puede causar reacciones alérgicas . </example>
+        <example file="CESS-CAST-AA/2005_20000904.tbf.xml" nodepath="0.3.1.1.1.3.2.1.1.1.0.1" sentencenodepath="0">El presidente de la OPEP y ministro de Energía_de_Venezuela , Alí_Rodríguez , propondrá lanzar una " campaña mundial de información " para tratar de reducir la elevada carga tributaria que aplican los países de <argset><reference_modifiers>mayor</reference_modifiers><head>consumo </head></argset>a los hidrocarburos . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="4.0.4.6.1.1.1.2.1.1" sentencenodepath="4">" Hacer nuestro trabajo , tan alejados de los grandes mercados , es un alarde de voluntarismo ; así_que , después de tanto tiempo intentando hacer muchas cosas , y de hacerlas bien , si Ø no tenemos ventajas competitivas , no queda más remedio que estar donde está <argset><specifier>el</specifier><reference_modifiers>gran</reference_modifiers><head>consumo </head></argset>" , apuntó Ø . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="8.2.2.3.3.1.2.1.1.1.1.1.1.1.0.0" sentencenodepath="8">El creador comentó que la mejora en la comunicación por carretera con la meseta " no es suficiente " y que en esta Comunidad , " los equipos de trabajo se cansan y se hace difícil competir lejos de los aeropuertos y a más de cuatro horas de las áreas de <argset><head>consumo </head></argset>que son los grandes centros urbanos " . </example>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="14.3.1.1.1.1.1.0.0" sentencenodepath="14">Con_respecto_a Japón , la OCDE considera que a_pesar_de las previsiones de aumento del PIB - un 1,7_por_ciento este año y 2,2_por_ciento en el 2001 , el crecimiento del <argset><head>consumo </head><argument argument="arg0" function="cn" thematicrole="agt" type="S">privado</argument></argset>sigue " carente de dinamismo " y las autoridades " deberían tratar de apoyar la recuperación a_corto_plazo sin comprometer exageradamente la salud de la economía en una perspectiva a_largo_plazo " . </example>
+        <example file="CESS-CAST-AA/23915_20001130.tbf.xml" nodepath="4.0.0.1.2.1.1.1.1.1.1.1.0.0" sentencenodepath="4">Los precios industriales en el sector de los bienes de <argset><head>consumo </head></argset>subieron un 0,3_por_ciento en octubre , impulsados principalmente por el encarecimiento de los artículos de imprenta , joyería y audiovisual , y un 1,2_por_ciento en doce meses . </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="1.2.0.0.1.1.1.1.1.1.0.0" sentencenodepath="1">El plan de Mejía implica una subida de los impuestos al <argset><head>consumo </head></argset>, una reforma arancelaria y tributaria y un gravamen considerable a los vehículos , entre otras medidas . </example>
+        <example file="CESS-CAST-AA/5988_20000608.tbf.xml" nodepath="4.4.1.1.2.4.1.2.5.1.1.0.0" sentencenodepath="4">Colombia , segundo cultivador y exportador de café después de Brasil , calculaba exportaciones para los dos años de retención de cerca de 20 millones de sacas de 60 kilos , de los que Ø guardará un máximo de 4 millones de sacas , que Ø no destinará ni_siquiera para <argset><head>consumo </head><reference_modifiers>interno</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="3.2.1.1.5.1.0.1.0" sentencenodepath="3">Ø Recordó la dependencia de la región de las lluvias y del trasvase Tajo-Segura , que en este año ha superado los 500 hectómetros cúbicos , y el " agobio " para la agricultura que supone la escasez de agua , así_como riesgo de pérdida de masa forestal , además_de incidir en que Murcia necesita también agua para <argset><specifier>el</specifier><head>consumo </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">humano</argument></argset>, la industria y el turismo . </example>
+        <example file="CESS-CAST-AA/8439_20001011.tbf.xml" nodepath="1.0.1.1.1.0.1.1.0.0" sentencenodepath="1">El índice de precios al <argset><head>consumo </head></argset>retrocedió significativamente en_relación_al 1,31_por_ciento de agosto . </example>
+        <example file="CESS-CAST-P/105_20000401.tbf.xml" nodepath="6.2.3.0.1.1.1.0" sentencenodepath="6">De poco sirve que las políticas económicas hayan contribuido a estimular <argset><specifier>el</specifier><head>consumo </head></argset>- - más tráfico en los peajes - - y a bajar los tipos de interés - - menor coste de financiación empresarial y amortización más rápida - - . </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="1.2.0.1.0.1.1.1.0.0" sentencenodepath="1">Catalunya crecerá en el 2000 igual que en el año en curso , el 3,9% , pero con menos impulso del <argset><head>consumo </head></argset>y más peso de las exportaciones . </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>El</specifier><head>consumo </head></argset>experimentará una ligera reducción , lo que permitirá bajar la inflación al 2,2% . </example>
+        <example file="CESS-CAST-P/110_20000401.tbf.xml" nodepath="11.0.1.1.1.0.1.1.0.0" sentencenodepath="11">El índice de precios al <argset><head>consumo </head></argset>japonés registró en Febrero una caída del 0,1% en_comparación_con enero . </example>
+        <example file="CESS-CAST-P/110_20000401.tbf.xml" nodepath="12.3.0.1.1.1.1.0.0" sentencenodepath="12">El descenso de los precios se debió a la debilidad del <argset><head>consumo </head><reference_modifiers>interno</reference_modifiers><reference_modifiers>, que aún se resiente de la crisis económica ,</reference_modifiers></argset>y a la apreciación del yen . </example>
+        <example file="CESS-CAST-P/139_20010103.tbf.xml" nodepath="1.2.2.1.1.1.0.0" sentencenodepath="1">La causa de la crisis será el auge de la reproducción ilegal y una ralentización del <argset><head>consumo </head><reference_modifiers>privado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/16_20020202.tbf.xml" nodepath="1.0.1.1.1.0.2.1.1.1.1.0.0" sentencenodepath="1">Mucho antes del boom inmobiliario de la sociedad de <argset><head>consumo </head></argset>de fin del siglo_XX , sus antepasados subieron al carro de caballos para que toda clase de enseres acompañara a sus dueños . </example>
+        <example file="CESS-CAST-P/30_20010701.tbf.xml" nodepath="0.0.2.1.1.1.1.1.1.1.0.0" sentencenodepath="0">Los animalistas españoles venimos denunciando el maltrato de los animales destinados al <argset><head>consumo </head></argset>desde hace años , pero las administraciones no nos toman_en_cuenta ; al_contrario , Ø resultamos molestos . </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="17.2.1.1.1.0.1" sentencenodepath="17">Tal circunstancia deberán tenerla_en_cuenta las empresas de <argset><reference_modifiers>gran</reference_modifiers><head>consumo </head></argset>en sus políticas de precios en Eurolandia . </example>
+        <example file="CESS-CAST-P/68_19991201.tbf.xml" nodepath="1.2.4.1.1.4.1.0.0" sentencenodepath="1">La Unión_de_Consumidores_de_España ( UCE ) en Asturias ha iniciado acciones legales y Ø ha exigido a la Administración y a la Unión_Europea la retirada del mercado del videojuego Metal_Gear_Solid , de la empresa japonesa Konami , por considerar que " Ø incita al <argset><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de drogas</argument></argset>" . </example>
+        <example file="CESS-CAST-P/68_19991201.tbf.xml" nodepath="3.2.0.1.0.1.0" sentencenodepath="3">La empresa productora del videojuego , que ha distribuido cinco millones de unidades en Europa , replicó que <argset><specifier>el</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Diazepan</argument></argset>" es para el muñeco y no para el usuario " , y que la denuncia " carece de sentido ya_que de esa forma también habría que demandar a los fabricantes de coches , a los de bebidas alcohólicas y a los de tabaco porque Ø son peligrosos " . </example>
+        <example file="CESS-CAST-P/69_20010201_d.tbf.xml" nodepath="2.3.1.4.1.1.1.1.0.0" sentencenodepath="2">Con el contrato , de unos 1.400 millones de pesetas anuales , la Generalitat obtendrá un ahorro anual del 19% en la factura eléctrica de 90 puntos de <argset><head>consumo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las conselleries y el Institut_Català_de_la_Salut</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="consumir" originlink="verb.consumir.1" wordnetsynset="16:00229211">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="3" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/16545_20000620.tbf.xml" nodepath="0.2.3.1.1.1.3.1.0" sentencenodepath="0">El presidente venezolano , Hugo_Chávez , aseguró hoy que la Fuerza_Aérea de su país es " eficaz " en la custodia del espacio aéreo nacional para la lucha antidrogas , y Ø calificó de " hueco muy negro " el hecho de que se haya incrementado <argset><specifier>el</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de estupefacientes</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en EEUU</argument></argset>. </example>
+        <example file="CESS-CAST-A/16545_20000620.tbf.xml" nodepath="5.2.1.1.1.5.4.1.0" sentencenodepath="5">Ø Criticó el hecho de que las autoridades de Estados_Unidos se quejen por su decisión de prohibir el sobrevuelo de aeronaves de ese país cuando en las " calles de Nueva_York se ha duplicado <argset><specifier>el</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de drogas</argument></argset>" . </example>
+        <example file="CESS-CAST-A/16545_20000620.tbf.xml" nodepath="6.0.1.5.2.1.1.0" sentencenodepath="6">" Si Ø es que se habla que el espacio aéreo venezolano es sobrevolado por aviones del narcotráfico , yo estuve viendo un informe hace pocos días que indica que <argset><specifier>el</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de drogas</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en las calles de Nueva_York</argument></argset>se ha duplicado en la última , ahí pudiera haber un hueco mucho más oscuro " , dijo Chávez . </example>
+        <example file="CESS-CAST-A/17384_20000221.tbf.xml" nodepath="1.2.1.2.1.0" sentencenodepath="1">El presidente de AMEDEC , Arturo_Lomelí , advirtió de que " <argset><specifier>el</specifier><head>consumo </head><reference_modifiers>excesivo</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de granulados</argument></argset>causa el llamado 'síndrome del restaurante chino' , que se caracteriza por una tensión de los músculos de cara y cuello , acompañado de dolor de cabeza , náuseas y vahído " . </example>
+        <example file="CESS-CAST-P/33_19990802.tbf.xml" nodepath="0.2.0.1.1.2.1.0" sentencenodepath="0">La carne de vacuno británica puede volver a comercializarse en los países de la Unión_Europea desde ayer , tras levantarse el veto impuesto hace 40 meses por la Comisión_Europea como respuesta a la detección del denominado mal de las vacas locas , pero la desconfianza que despierta <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>consumo </head></argset>va a seguir penalizando las exportaciones por un largo periodo de tiempo . </example>
+        <example file="CESS-CAST-P/81_20010501.tbf.xml" nodepath="1.2.1.0.1" sentencenodepath="1">La OMS ha alertado del <argset><reference_modifiers>creciente</reference_modifiers><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de tabaco</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en los países pobres</argument><reference_modifiers>, por la nueva estrategia comercial de los productores</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/91_20020501.tbf.xml" nodepath="0.2.4.0.1.1.1.1.0" sentencenodepath="0">También ha sorprendido que tres_de_cada_cuatro jóvenes consultados se muestre partidario de penalizar <argset><specifier>el</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de drogas</argument></argset>( un 44% pide su prohibición y el 33% sólo las duras ) . </example>
+        <example file="CESS-CAST-P/91_20020501.tbf.xml" nodepath="3.2.3.0.3.1.0" sentencenodepath="3">Muñoz apuntó que un 20% cree que nunca debería penalizarse <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>consumo </head></argset>y que la actitud intolerante mayoritaria hacia el consumo de drogas puede estar relacionada con la percepción de que las drogas constituyen uno de los principales problemas de la sociedad . </example>
+        <example file="CESS-CAST-P/91_20020501.tbf.xml" nodepath="3.2.3.2.1.1.3.1.1.0" sentencenodepath="3">Muñoz apuntó que un 20% cree que nunca debería penalizarse su consumo y que la actitud intolerante mayoritaria hacia <argset><specifier>el</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de drogas</argument></argset>puede estar relacionada con la percepción de que las drogas constituyen uno de los principales problemas de la sociedad . </example>
+        <example file="CESS-CAST-P/93_20010701.tbf.xml" nodepath="4.3.1.1.1.1.1.1.3.0.1.1.0.0.1.3.1.0.1.1.0.2.0" sentencenodepath="4">Metales_y_Derivados nació hace más de 50 años en el seno de un grupo que aglutina también empresas como Regaber - - dedicada a proyectos de <argset>riego y <head>consumo </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de agua</argument>
+          </argset>- - e Industrias_Químicas_del_Vallès ( IQV ) , filial que produce abonos derivados de las sales de cobre . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="consumir" originlink="verb.consumir.1" wordnetsynset="16:00229211">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>El</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de café</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Alemania</argument></argset>aumentó cerca_del 2_por_ciento en 1999 , según las estadísticas anuales de la empresa Kraft_Foods de Bremen . </example>
+        <example file="CESS-CAST-AA/21729_20000225.tbf.xml" nodepath="4.0.3.1.0.0" sentencenodepath="4">Strawberry , ocho veces elegido para el Partido_de_las_Estrellas , ha sido suspendido dos veces por <argset><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de cocaína</argument></argset>y , según algunas fuentes dentro de la oficina del comisionado , Ø puede recibir otra sanción de por_lo_menos un año . </example>
+        <example file="CESS-CAST-AA/22553_20001128.tbf.xml" nodepath="4.3.1.1.1.1.1.2.1.0.1.1.1.0.2.1.1" sentencenodepath="4">Las primeras ventas comenzaron hace tres semanas en 225 supermercados de la cadena Sainsbury`s en Inglaterra , país que registra <argset><specifier>el</specifier><reference_modifiers>mayor</reference_modifiers><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de café soluble</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Europa</argument></argset>y donde ya se vendían mil toneladas de liofilizado a_granel para máquinas de café soluble . </example>
+        <example file="CESS-CAST-P/181_20010302.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>El</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de televisión</argument></argset>se situó en tres horas y 46 minutos por persona y día . </example>
+        <example file="CESS-CAST-P/2_20010702.tbf.xml" nodepath="2.2.1.1.1.0" sentencenodepath="2">La gran diferencia es que ahora <argset><specifier>el</specifier><head>consumo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de electricidad</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en los meses de verano</argument></argset>no es muy inferior al que se produce durante el frío invierno y que , debido_a la gran afluencia de visitantes , los problemas de capacidad se originan en las zonas turísticas de la costa . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

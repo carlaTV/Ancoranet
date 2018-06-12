@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="beneficio" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="beneficiar" originlink="verb.beneficiar.1" wordnetsynset="16:09537885">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="para" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="26" type="void"/>
+        <constituent frequency="28" postype="article" type="determiner"/>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="6" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="20" type="s.a"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="6" type="S"/>
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="11.2.1.2.4.1.0.1.2.0.1" sentencenodepath="11">Este documento , que ha tomado como referencia la Comunidad_de_Madrid , hace_hincapié en que los retornos económicos de las inversiones en investigación básica son " muy elevados " , y que " el conocimiento básico tiende a ser explotado en innovaciones que producen <argset><reference_modifiers>sustanciales</reference_modifiers><head>beneficios </head></argset>durante un largo periodo " . </example>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="16.4.0.1.1.1.0" sentencenodepath="16">De llevarse_a_cabo , la fusión creará una sociedad con ingresos combinados de 12.400 millones de dólares mientras que <argset><specifier>los</specifier><head>beneficios </head><reference_modifiers>económicos</reference_modifiers><reference_modifiers>inmediatos</reference_modifiers></argset>supondrán al_menos un ahorro de 150 millones de dólares . </example>
+        <example file="3LB-CAST/111_C-6.tbf.xml" nodepath="9.4.3.2.3.3.5.1.0" sentencenodepath="9">El presidente estadounidense dijo el miércoles en Lisboa que la retirada israelí abre " una nueva situación " que aumenta el coste de no lograr un acuerdo rápidamente , aunque Ø también hace crecer <argset><specifier>los</specifier><head>beneficios </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de lograr</argument></argset>
+        </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">El grupo Navidul obtuvo en 1999 <argset><specifier>un</specifier><head>beneficio </head><reference_modifiers>neto</reference_modifiers><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 2.054 millones de pesetas ( 12 millones de euros )</argument></argset>, lo que supone un crecimiento del 30,4_por_ciento respecto_al ejercicio anterior , mientras_que la cifra de negocios aumentó un ocho_por_ciento , hasta los 44.350 millones de pesetas ( 266,54 millones de euros ) . </example>
+        <example file="3LB-CAST/211_C-2.tbf.xml" nodepath="3.4.5.1.1.2.0.0" sentencenodepath="3">El Gobierno de Estados_Unidos pidió hoy al Senado que Ø someta a votación a_mediados_de este mes el acuerdo que otorga <argset><head>beneficios </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">comerciales</argument><reference_modifiers>permanentes</reference_modifiers></argset>a China . </example>
+        <example file="3LB-CAST/c4-0.tbf.xml" nodepath="1.0.2.1.0.0" sentencenodepath="1">El malabarista causa entusiasmo , pero raramente <argset><head>beneficio </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">público</argument></argset>; el héroe , ungido y tonsurado como tal por los conejos que Ø saca de su brumosa chistera , sólo se salva a sí mismo y Ø no apaga otro fuego que el de su propia ambición , ni Ø deja otra riqueza que la del crujir de dientes del colectivo social . </example>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="4.2.2.1.0.0" sentencenodepath="4">La evolución de las defensas obligará a mejorar la calidad del ataque y esto irá en <argset><head>beneficio </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del espectáculo</argument></argset>. </example>
+        <example file="3LB-CAST/n1-5.tbf.xml" nodepath="4.0.0.1.0" sentencenodepath="4"><argset><specifier>Los</specifier><head>beneficios </head></argset>financian al sindicato y la barra la ocupan por riguroso turno todos los afiliados y afiliadas que curran sin cobrar . </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="13.3.4.1.4.1.1.1.2.1.3.0.0" sentencenodepath="13">Por otra parte , Ø explicó que la venta de Land_Rover a Ford se debe a que su propio todoterreno , el X5 , coincide en algunos elementos con el Range_Rover , otro todoterreno que tampoco generó <argset><head>beneficios </head></argset>en 1999 . </example>
+        <example file="CESS-CAST-A/14291_20000518.tbf.xml" nodepath="8.2.0.1.0" sentencenodepath="8">El consorcio Telia facturó en 1999 por 52.100 millones de coronas ( 5.788 millones de dólares ) , y <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>beneficios </head><reference_modifiers>brutos</reference_modifiers></argset>ascendieron a 6.000 millones de coronas ( 666 millones de dólares ) . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="12.0.1.1.0" sentencenodepath="12">Pese_a <argset><specifier>estos</specifier><head>beneficios </head></argset>, la fuerte corriente de inversiones españolas no ha dejado de provocar cierta preocupación , como expresó en su último informe sobre inversión extranjera la Comisión_Económica_para_América_Latina_y_el_Caribe ( CEPAL ) . </example>
+        <example file="CESS-CAST-A/14827_20000719.tbf.xml" nodepath="9.3.0.1.0.0" sentencenodepath="9">Según los exportadores ecuatorianos , las ventas no subirán en cantidad , puesto_que los volúmenes de producción están definidos , sino en <argset><head>beneficios </head></argset>, por el incremento de los precios . </example>
+        <example file="CESS-CAST-A/14827_20000719.tbf.xml" nodepath="13.2.1.1.1" sentencenodepath="13">El director ejecutivo del Instituto_del_Café_de_Costa_Rica ( ICAFE ) , Juan_Bautista_Moya , indicó que <argset><specifier>el</specifier><reference_modifiers>posible</reference_modifiers><head>beneficio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">para los productores</argument></argset>depende de que se mantenga la tendencia al alza o una estabilización de los precios en los topes actuales . </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="0.0.3.1.1.0.1.0" sentencenodepath="0">La economía mundial debe alcanzar un equilibrio para que <argset><specifier>los</specifier><head>beneficios </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la globalización</argument></argset>y el comercio puedan llegar a todos los países , afirmó hoy el comisario de Comercio de la Unión_Europea ( UE ) , Pascal_Lamy . </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">El funcionario europeo , que se encuentra de visita en Brasil con_el_objetivo_de fomentar las relaciones políticas y económicas entre la UE y el gigante suramericano , aseguró que <argset><specifier>los</specifier><head>beneficios </head><reference_modifiers>producidos por el comercio</reference_modifiers></argset>deben ser distribuidos con justicia en el mundo para que Ø generen desarrollo . </example>
+        <example file="CESS-CAST-A/16786_20000221.tbf.xml" nodepath="6.2.2.1.0" sentencenodepath="6">El yen registró momentos de alza efímeros debido_a que la confianza de los inversores en la divisa nipona ha disminuído por el sentimiento de que la actividad económica japonesa está en descenso y un impuesto a los principales bancos situados en Tokio que , de ser aprobado , reducirá <argset><specifier>los</specifier><head>beneficios </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esas entidades</argument></argset>. </example>
+        <example file="CESS-CAST-A/17887_20000622.tbf.xml" nodepath="0.2.2.1.0" sentencenodepath="0">Caja_Rural_de_Asturias prevé obtener este ejercicio <argset><specifier>unos</specifier><head>beneficios </head><reference_modifiers>netos</reference_modifiers><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 2.237 millones de pesetas</argument></argset>, lo que supone un incremento del 5_por_ciento respecto_a 1999 , con lo que Ø volverá a batir su " récord " de rentabilidad , según indicó el presidente de la entidad , Román_Suárez_Blanco . </example>
+        <example file="CESS-CAST-A/17887_20000622.tbf.xml" nodepath="1.2.2.1.1.1.0.2.4.1.0" sentencenodepath="1">Suárez_Blanco presentó hoy ante la Asamblea_General_Ordinaria_de_Caja_Rural las cuentas anuales de 1999 y Ø avanzó los resultados del actual ejercicio en el que , durante los cinco primeros meses , la sociedad logró <argset><specifier>unos</specifier><head>beneficios </head><reference_modifiers>después de impuestos</reference_modifiers><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 962 millones de pesetas , un 1,32_por_ciento más que en el mismo periodo del pasado año</argument></argset>. </example>
+        <example file="CESS-CAST-A/17887_20000622.tbf.xml" nodepath="7.2.1.1.1.1.0" sentencenodepath="7">El plan de negocio diseñado por la entidad prevé un incremento de <argset><specifier>los</specifier><head>beneficios </head></argset>antes de impuestos hasta 3.406 millones en 2003 , lo que supondría un incremento del 43_por_ciento respecto_a los resultados obtenidos en 1999 , con lo que en este trienio Caja_Rural obtendría más de 9.000 millones de beneficios . </example>
+        <example file="CESS-CAST-A/17887_20000622.tbf.xml" nodepath="7.3.2.0.4.5.1.1.1.0.0" sentencenodepath="7">El plan de negocio diseñado por la entidad prevé un incremento de los beneficios antes de impuestos hasta 3.406 millones en 2003 , lo que supondría un incremento del 43_por_ciento respecto_a los resultados obtenidos en 1999 , con lo que en este trienio Caja_Rural obtendría más de 9.000 millones de <argset><head>beneficios </head></argset>. </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="17.4.4.0.1.1.4.2.1.0" sentencenodepath="17">El jefe del Estado ha pedido paciencia y calma a la población , pues Ø está seguro de que en el corto plazo se verán los resultados de los ajustes y <argset><specifier>los</specifier><head>beneficios </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">sociales</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="11.3.0.4.1.2.2.1.1.1.0.0" sentencenodepath="11">En el lado opuesto se encontraban Banco_Herrero , que cedía un 6,15_por_ciento , Aumar , un 5,17_por_ciento , y Corporación_Mapfre , un 4,14_por_ciento , por la recogida de <argset><head>beneficios </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los inversores</argument></argset>tras la espectacular subida del 17_por_ciento de anteayer . </example>
+        <example file="CESS-CAST-AA/20809_20000428.tbf.xml" nodepath="0.0.2.1.2.1.2.2.2.1.1.1.1.0" sentencenodepath="0">Caja_Cantabria ha puesto_en_marcha un plan de ajuste para fortalecer su situación financiera y solvencia , tras haber registrado en 1999 un descenso en <argset><argument argument="arg1" thematicrole="pat" type="spec">sus</argument><head>beneficios </head><reference_modifiers>brutos</reference_modifiers></argset>del 35_por_ciento , hasta los 4.716 millones de pesetas , informó hoy su director general , Javier_Eraso . </example>
+        <example file="CESS-CAST-AA/20809_20000428.tbf.xml" nodepath="2.4.2.1.1.1.1.2.1.2.1.1.0" sentencenodepath="2">" El último ejercicio económico no ha ido muy allá ... Es probable que si Ø hubiera sido un año brillante para Caja_Cantabria yo , que llevo tres meses en el cargo , no estaría hoy aquí " , explicó el director general en conferencia de prensa , al ser preguntado por las razones que explican un recorte de 2.585 millones en <argset><specifier>los</specifier><head>beneficios </head></argset>. </example>
+        <example file="CESS-CAST-AA/21460_20000526.tbf.xml" nodepath="6.2.5.1.1.0.2.1.2.3.1.0" sentencenodepath="6">Ø Agregó que el Gobierno " debería también poner coto a lo que está siendo un escándalo a nivel nacional como Ø son <argset><specifier>los</specifier><head>beneficios </head><reference_modifiers>multimillonarios</reference_modifiers><reference_modifiers>que están teniendo los oligopolios de la electricidad o energía que han sido privatizados y que se les están yendo de la mano al Gobierno</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="1.0.3.4.2.1.2.1.1.0" sentencenodepath="1">" La contratación de servicios en los dos primeros satélites en órbita está en plena capacidad , y en_cuanto el Hispasat_1C esté activo , se podrá duplicar la capacidad de prestación de servicios , con la consiguiente repercusión en <argset><specifier>los</specifier><head>beneficios </head></argset>" , dijo Fernando_López_Amor , presidente de Hispasat , en unas jornadas sobre telecomunicaciones . </example>
+        <example file="CESS-CAST-AA/5005_20001107.tbf.xml" nodepath="7.4.1.0" sentencenodepath="7">Si se tiene_en_cuenta que la tarifa plana de acceso a Internet que el Gobierno fijó para Telefónica por ser el operador dominante es de 2.750 pesetas al mes , las operadoras que quieran competir con esa empresa tendrán como máximo <argset><specifier>un</specifier><head>beneficio </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 450 pesetas mensuales por cliente</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5694_20000908.tbf.xml" nodepath="2.0.1.1.6.0.0" sentencenodepath="2">Tras señalar que el fin de la " guerra_fría " entre Occidente y el bloque comunista del este no " trajo en el plano económico <argset><head>beneficios </head><reference_modifiers>sustanciales</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para los países en desarrollo</argument></argset>" , Ø estimó que el conflicto " ha sido sustituido por una_especie_de antagonismo entre el Norte y el Sur " , es_decir entre las potencias económicas y los países en crecimiento o pobres . </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="10.4.1.2.1.1.1.1.1.3.1.2.1.2.0.1.1.1.1.3.0.0" sentencenodepath="10">La representante colombiana ante la comisión de la Comunidad_Andina ( CAN ) solicitó al Gobierno_de_Venezuela una reunión para tratar el tema en el marco de la sesión de la Comisión , que se lleva_a_cabo esta semana en Lima , para " un diálogo que permita acuerdos sobre una controversia que no trae <argset><head>beneficios </head></argset>a nadie " . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="3.4.3.3.1.2.0" sentencenodepath="3">El diputado justificó la petición del PSOE en el crecimiento económico y en el aumento del tráfico por carretera que han garantizado una cuenta de resultados " extraordinariamente " elevada en las circunstancias actuales , llegándose en algunos casos a <argset>" <specifier>unos</specifier>
+            <head>beneficios </head>
+            <argument argument="argM" function="cn" thematicrole="ext" type="sp">de hasta un 60_por_ciento</argument>
+            <argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre el volumen de facturación</argument>" </argset>. </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="11.2.2.1.1.1.0.3.1.1.0.0.0" sentencenodepath="11">Por_último , el diputado popular se refirió a la derogación de una serie de artículos de la ley 8/1972 , " lo que no se puede hacer alegremente " , y Ø añadió que en lo que se refiere a <argset><specifier>los</specifier><head>beneficios </head>o incremento de facturación que tienen estas empresas por las estaciones de servicio </argset>, " no se puede criticar este aspecto , pues las concesionarias pueden buscar sus ingresos en estos campos " . </example>
+        <example file="CESS-CAST-AA/8933_20000211.tbf.xml" nodepath="4.3.0.0" sentencenodepath="4">Estos procesos de integración , agregó Ø , deben garantizar <argset><head>beneficios </head></argset>para todos , " porque en caso contrario Ø no se justifican " . </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="13.0.1.0" sentencenodepath="13"><argset><specifier>El</specifier><head>beneficio </head><reference_modifiers>bruto</reference_modifiers><reference_modifiers>conjunto</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">, con cifras de 1997 ,</argument></argset>asciende a 543.000 millones de pesetas . </example>
+        <example file="CESS-CAST-P/10_20010402_a.tbf.xml" nodepath="7.3.2.1.0.1" sentencenodepath="7">¿ Qué sentido tiene combinar tan dura faena con <argset><reference_modifiers>tan torpe</reference_modifiers><head>beneficio </head></argset>sin el consuelo romántico de un mar libre , abierto e inagotable ? . </example>
+        <example file="CESS-CAST-P/10_20020501.tbf.xml" nodepath="24.3.1.1.1.1.1.0.0" sentencenodepath="24">Por_otro_lado , todos sabemos que en el sistema de <argset><head>beneficios </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por desempleo</argument></argset>se cometen abusos . </example>
+        <example file="CESS-CAST-P/10_20020501.tbf.xml" nodepath="26.3.1.1.1.1.1.0" sentencenodepath="26">Cuando Ø solucionen esto Ø podrán ocuparse de los abusos de <argset><specifier>los</specifier><head>beneficios </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">por desempleo</argument></argset>. </example>
+        <example file="CESS-CAST-P/111_19981202.tbf.xml" nodepath="0.3.1.1.1.1.2.1.1.1.0.0" sentencenodepath="0">Las bolsas españolas registraron ayer una sesión marcada por las ventas y las recogidas de <argset><head>beneficios </head></argset>, después de varias jornadas con predominio de subidas . </example>
+        <example file="CESS-CAST-P/113_19990501_a.tbf.xml" nodepath="10.5.0.1.1.3.1.1.1.0.1" sentencenodepath="10">Los sindicatos también reclamarán a los empresarios un mayor esfuerzo en la creación de empleo después de que 1998 ha sido un año de <argset><reference_modifiers>grandes</reference_modifiers><head>beneficios </head></argset>. </example>
+        <example file="CESS-CAST-P/113_19990501_b.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Caixa_Catalunya aumentó el 10,1% <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>beneficios </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">hasta marzo</argument></argset>. </example>
+        <example file="CESS-CAST-P/113_19990501_b.tbf.xml" nodepath="1.3.1.1.1.1.2.1.0.0" sentencenodepath="1">Con este incremento , la entidad bancaria catalana alcanzó la cifra de 4.375 millones de pesetas de <argset><head>beneficio </head></argset>. </example>
+        <example file="CESS-CAST-P/113_19990501_d.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>beneficio </head><reference_modifiers>neto</reference_modifiers><reference_modifiers>atribuido al grupo</reference_modifiers></argset>alcanzó los 2.124 millones de pesetas , superior a los 1.876 millones registrados entre enero y marzo_de_1998 , según informó la entidad . </example>
+        <example file="CESS-CAST-P/125_19990702.tbf.xml" nodepath="6.2.2.3.2.2.1.0" sentencenodepath="6">Tras los nombramientos , Sanz reiteró que Ø no piensa convocar elecciones " porque Ø sería desestabilizar al club y no es el momento " , y Ø aseguró : " En el Madrid nunca ha habido ninguna irregularidad y no ha habido <argset><specifier>ningún</specifier><head>beneficio </head></argset>por_parte_de ningún directivo " . </example>
+        <example file="CESS-CAST-P/12_20010302.tbf.xml" nodepath="3.2.3.0.0" sentencenodepath="3">Es positivo que Repsol , Telefónica , Endesa o Altadis tengan <argset><head>beneficios </head><reference_modifiers>suficientes</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="sp">para seguir creciendo en el mundo</argument></argset>. </example>
+        <example file="CESS-CAST-P/190_20011002.tbf.xml" nodepath="0.0.4.1.1.1.0.2.0" sentencenodepath="0">Tres azafatas , una viuda joven en paro y una hermana sin <argset>oficio ni <head>beneficio </head>
+          </argset>son las protagonistas de Jet_lag , la nueva comedia de situación ( sitcom ) que hoy estrena TV-3 , tras el Telenotícies_vespre . </example>
+        <example file="CESS-CAST-P/199_20001201.tbf.xml" nodepath="7.3.1.1.1.1.1.0" sentencenodepath="7">A_partir_de 1961 , Morley decidió destinar una parte de <argset><specifier>los</specifier><head>beneficios </head></argset>a obras de beneficencia . </example>
+        <example file="CESS-CAST-P/25_19991202.tbf.xml" nodepath="17.2.4.1.1.1.0" sentencenodepath="17">A_menudo hay gente que se calla lo que Ø sabe , pero Ø no lo hace para obtener <argset><specifier>un</specifier><head>beneficio </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">económico</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="27.2.1.1.1.0" sentencenodepath="27">El Govern debe empezar a asumir las cargas y no sólo <argset><specifier>los</specifier><head>beneficios </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de su capacidad para impulsar una política fiscal</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="4.0.0.3.1.1.1.1.0.0" sentencenodepath="4">Dado_que los farmacéuticos trabajan con un margen de <argset><head>beneficio </head></argset>del 29,7% sobre el precio de venta al público y que existe un mercado potencial de más de un millón de consumidores , la posibilidad de negocio es enorme . </example>
+        <example file="CESS-CAST-P/44_20011001.tbf.xml" nodepath="11.3.2.1.1.1.1.0.0" sentencenodepath="11">Pero la obra nueva ha de mirar más al futuro que al pasado , más al bien común que al <argset><head>beneficio </head><reference_modifiers>privado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/44_20011001.tbf.xml" nodepath="13.4.1.1.1.1.0.0" sentencenodepath="13">De_vez_en_cuando los periódicos nos sorprenden con la cifra de <argset><head>beneficios </head></argset>de las compañías eléctricas . </example>
+        <example file="CESS-CAST-P/48_20000402.tbf.xml" nodepath="4.2.0.1" sentencenodepath="4">Teo_Babun , director de Cuba-Caribbean_Development_Co. , espera <argset><reference_modifiers>grandes</reference_modifiers><head>beneficios </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para las empresas de todo el país y , sobre_todo , de Florida</argument></argset>, una_vez_que desaparezca el régimen castrista . </example>
+        <example file="CESS-CAST-P/48_20000402.tbf.xml" nodepath="12.3.1.1.2.2.1.1.1.1.1.0.0" sentencenodepath="12">Entre octubre_de_1994 y diciembre_de_1999 , la balanza comercial estadounidense con Cuba llegó a 127.500 millones de pesetas , una gota en el océano de <argset><head>beneficios </head></argset>que el mundo empresarial estadounidense espera cosechar en el poscastrismo . </example>
+        <example file="CESS-CAST-P/5_20010302.tbf.xml" nodepath="4.1.0.1.0" sentencenodepath="4">Sin_embargo , <argset><specifier>los</specifier><head>beneficios </head><reference_modifiers>aportados</reference_modifiers>, </argset>más los generados en el resto de la región , han contribuido notablemente a cumplir sus previsiones . </example>
+        <example file="CESS-CAST-P/61_19991001.tbf.xml" nodepath="11.2.1.1.1.1.0" sentencenodepath="11">Los tributos que los letrados deben pagar suponen el 50% o 60% de <argset><specifier>los</specifier><head>beneficios </head></argset>, según el decano . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="2.4.1.1.0" sentencenodepath="2">La firma sube en bolsa el 7,4% pese_a_que <argset><argument argument="arg1" thematicrole="pat" type="spec">sus</argument><head>beneficios </head></argset>han bajado el 3% Telefónica_Móviles y Latinoamérica concentran la mitad de las ganancias . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="4.1.1.0" sentencenodepath="4">Pese_a este aumento de la facturación , <argset><specifier>los</specifier><head>beneficios </head><reference_modifiers>netos</reference_modifiers></argset>cayeron el 3% hasta 164.500 millones de pesetas . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="6.1.1.0" sentencenodepath="6">Descontados ingresos extraordinarios , provisiones y el impacto negativo de los resultados de la filial Terra , <argset><specifier>los</specifier><head>beneficios </head><reference_modifiers>netos</reference_modifiers></argset>hubiesen aumentado el 27,2% , porcentaje superior al conseguido por otras operadoras europeas . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="8.0.0.0.1.1.1.0" sentencenodepath="8">Telefónica_Móviles , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyo</argument><head>beneficio </head><reference_modifiers>neto</reference_modifiers></argset>creció el 44,2% y las filiales latinoamericanas , con un alza del 37,1% de las ventas , fueron los motores indiscutibles de la operadora , que se consolidó como apuesta estratégica de la compañía española , al conseguir entre ambas más de la mitad de los ingresos y de los beneficios . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="9.4.4.1.1.1.1.0" sentencenodepath="9">Los mercados recibieron los resultados de Telefónica con subidas , ya_que Ø habían previsto una reducción de <argset><specifier>los</specifier><head>beneficios </head></argset>de hasta el 6% . </example>
+        <example file="CESS-CAST-P/69_20010201_g.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">BBVA_Portugal aumentó <argset><specifier>los</specifier><head>beneficios </head></argset>el 91% en el 2000 . </example>
+        <example file="CESS-CAST-P/69_20010201_k.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>beneficio </head></argset>no incluye las cargas excepcionales relacionadas con el accidente del petrolero Erika , por valor de 183.024 millones de pesetas , ni ingresos por plusvalías de 49.915 millones . </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="8.4.0.0.2.1.1.2.1.0.1.1.1.0" sentencenodepath="8">Además , los Quince reclaman condiciones para favorecer el acceso y la tributación de los fondos de capital riesgo ( inversores dispuestos a apostar por pequeñas compañías a_cambio_de participación en <argset><specifier>los</specifier><head>beneficios </head></argset>cuando éstas salen a Bolsa ) . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="17.3.3.4.1.0.0" sentencenodepath="17">El dirigente te aseguró que los grandes grupos " no repercuten sus economías de escala en los precios y Ø además presionan sobre la industria y el sector agrario en <argset><head>beneficio </head><reference_modifiers>propio</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="6.2.1.2.3.1.1.1.0" sentencenodepath="6">Otra de las cuestiones a las que Ø dedicará especial atención será la mejora de las infraestructuras , instalaciones y servicios portuarios , para rentabilizar mejor las inversiones y para capitalizar <argset><specifier>los</specifier><head>beneficios </head></argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="10.4.1.3.1.2.3.1.0.1.0" sentencenodepath="10">Además , Ø apeló a la responsabilidad de los empresarios del sector servicios y turísticos para que Ø reflexionen sobre " el espectacular desarrollo " de <argset><specifier>sus</specifier><head>beneficios </head></argset>y sus precios . </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="19.2.4.4.1.1.1.0" sentencenodepath="19">Vicente_Martínez_Pujalte , del PP , dijo que una rebaja de impuestos podría tener efectos negativos si las petroleras la aprovechan para subir <argset><specifier>sus</specifier><head>beneficios </head></argset>. </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="12.3.2.1.1.0" sentencenodepath="12">" Lo más importante - - recalcó Ø - - no son las 7.800 pesetas , sino_que se vuelva a plantear que <argset><specifier>los</specifier><head>beneficios </head><reference_modifiers>que España_SA obtiene de la mejora de la situación económica</reference_modifiers></argset>se dediquen en_parte a hacer justicia social a los más necesitados " . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="10.0.3.1.1.2.1.1.2.1.1.0.0" sentencenodepath="10">La delegada francesa Francine_Blanche , de la CGT , se mostró determinada a hacer_frente a " una multinacional con la única estrategia de obtener <argset><head>beneficios </head></argset>" , y Ø advirtió de que si el presidente de la compañía " quiere la guerra , Ø la tendrá " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="beneficiar" originlink="verb.beneficiar.2" wordnetsynset="16:09537885">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="tem"/>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="9.3.1.0.1.0" sentencenodepath="9">Spanair cerró su último ejercicio ( octubre_98-octubre_99 ) con <argset><specifier>unos</specifier><head>beneficios </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 550 millones de pesetas</argument>, </argset>y una facturación de 89.500 millones de pesetas . </example>
+        <example file="CESS-CAST-AA/5145_20000207.tbf.xml" nodepath="0.0.2.1.0" sentencenodepath="0">El Grupo_Prosegur obtuvo <argset><specifier>un</specifier><head>beneficio </head><reference_modifiers>neto</reference_modifiers><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 4.326 millones de pesetas</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en 1999</argument><argument argument="argM" function="cn" thematicrole="ext" type="sn">, un 14,6_por_ciento más que en 1998 ,</argument></argset>lo que demuestra la " positiva evolución " de la compañía española de seguridad y de recursos humanos , anunció hoy la empresa . </example>
+        <example file="CESS-CAST-AA/5145_20000207.tbf.xml" nodepath="1.3.2.1.0.3.0.1.0" sentencenodepath="1">Las ventas del grupo aumentaron un 16,8_por_ciento , con lo que la facturación alcanzó los 113.363 millones de pesetas , y <argset><specifier>el</specifier><head>beneficio </head><reference_modifiers>antes de impuestos</reference_modifiers></argset>ascendió a 6.826 millones de pesetas , un 12,6_por_ciento más que en el ejercicio anterior . </example>
+        <example file="CESS-CAST-P/130_20010201.tbf.xml" nodepath="3.3.1.1.1.1.1" sentencenodepath="3">Quienes dominan el cotarro , liderados por Bernie_Ecclestone , a quien la UE trata de cortar las alas reduciendo sus incalculables ganancias ( Ø es una de las grandes fortunas del mundo ) , no tienen mayor objetivo que conseguir <argset><specifier>los</specifier><reference_modifiers>mayores</reference_modifiers><head>beneficios </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del campeonato</argument></argset>. </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="8.2.1.2.1.1.1.5.2.2.1.1.2.1.1.0" sentencenodepath="8">Telefónica_Móviles , cuyo beneficio neto creció el 44,2% y las filiales latinoamericanas , con un alza del 37,1% de las ventas , fueron los motores indiscutibles de la operadora , que se consolidó como apuesta estratégica de la compañía española , al conseguir entre ambas más de la mitad de los ingresos y de <argset><specifier>los</specifier><head argument="arg1" thematicrole="tem">beneficios </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

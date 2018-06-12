@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="quiebra" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="quebrar" originlink="verb.quebrar.2" wordnetsynset="16:00767861+16:10386165+16:05559582">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="6.3.1.3.1.1.2.0.1.1.2.1.0.0" sentencenodepath="6">Además , el octogenario ministro defiende la controvertida condonación de las deudas a los grandes almacenes Sogo , firma privada en <argset><head>quiebra </head><reference_modifiers>técnica</reference_modifiers></argset>a la que el gobierno nipón perdonará obligaciones por 97.000 millones de yenes ( 915 millones de dólares ) . </example>
+        <example file="CESS-CAST-AA/22292_20000131.tbf.xml" nodepath="3.2.6.5.0.1.0.0" sentencenodepath="3">Alcaraz señaló que un informe previo al de la Audiencia_de_Cuentas ya encontró irregularidades en el precontrato firmado en 1996 entre Saturno y la empresa minera Cabo_Verde , anterior propietaria de los terrenos , pues ésta - aseguró Ø - " estaba en <argset><head>quiebra </head><reference_modifiers>técnica</reference_modifiers></argset>y con 19 embargos " . </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="11.0.1.2.2.2.0.0" sentencenodepath="11">Hace cuatro años el déficit era del 7_por_ciento del PIB y la Seguridad_Social estaba " en <argset><head>quiebra </head></argset>" y hoy , recordó Ø , el déficit es del 1_por_ciento y el sistema de prestaciones sociales tiene superávit . </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="4.5.1.3.1.1.0" sentencenodepath="4">En una conferencia de prensa posterior , Duhalde calificó de " muy grave " la sentencia porque , en su opinión , Ø puede llevar a <argset><specifier>la</specifier><head>quiebra </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del sistema financiero</argument></argset>y entonces , " cobrarán los abogados , no los ahorradores " , subrayó Ø . </example>
+        <example file="CESS-CAST-P/56_20000801_a.tbf.xml" nodepath="1.2.1.1.2.1.1.0" sentencenodepath="1">La fábrica Morapiel , uno de los símbolos industriales de la comarca de la Ribera_d´Ebre , fundada en 1972 con capital catalán , volverá a producir tras dos años de inactividad a_causa_de <argset><specifier>la</specifier><head>quiebra </head><reference_modifiers>presentada por sus propietarios desde 1994 , el grupo coreano Kukje_Chung-Nam</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/69_20010201_m.tbf.xml" nodepath="1.2.1.1.1.1.1.1.5.1.1.0" sentencenodepath="1">La medida intenta garantizar la supervivencia de la firma , que la semana pasada se salvó de <argset><specifier>la</specifier><head>quiebra </head></argset>gracias_a una inversión in_extremis . </example>
+        <example file="CESS-CAST-P/85_20010902.tbf.xml" nodepath="0.0.0.0" sentencenodepath="0"><argset><head>Quiebra </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Juzgado_número_5 de Palma_de_Mallorca</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="quebrar" originlink="verb.quebrar.2" wordnetsynset="16:00767861+16:05559582">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head>quiebra </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Fondo_Nacional_de_Inversores , mayor fondo mutuo privado ,</argument><reference_modifiers>que desencadenó el pánico la semana pasada a 300.000 personas</reference_modifiers>, </argset>fue seguida por intentos desestabilizadores en el Banco_Comercial_Rumano ( BCR ) , el mayor del Estado , y en el CEC , entidad en la que seis millones de rumanos colocaron sus ahorros . </example>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="9.2.3.1.0.2.0.1.1.1.1" sentencenodepath="9">Las pruebas recogidas por la Policía , así_como informaciones de prensa , indican que fueron grupos organizados los que difundieron rumores sobre <argset><specifier>la</specifier><reference_modifiers>inminente</reference_modifiers><head>quiebra </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del BCR</argument></argset>, a_través_de llamadas telefónicas anónimas y mensajes por correo electrónico . </example>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="8.3.1.1.1.1.1.1.1.1.0" sentencenodepath="8">El plan de auxilio oficial , que fue criticado por usar dinero de los contribuyentes para auxiliar una firma cuyo camino hacia la recuperación está lleno de incertidumbre , es para Miyazawa una forma de reducir el impacto de <argset><specifier>la</specifier><head>quiebra </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Sogo</argument></argset>en el erario público . </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="15.0.1.0" sentencenodepath="15"><argset><specifier>La</specifier><head>quiebra </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ISMM-ISL , a quien la FIFA vendió los derechos de comercialización del Mundial ,</argument></argset>provocó un cataclismo en las finanzas del organismo . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

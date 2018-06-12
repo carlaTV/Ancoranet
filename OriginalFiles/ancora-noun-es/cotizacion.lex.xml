@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="cotización" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="cotizar" originlink="verb.cotizar.1" wordnetsynset="16:09602953">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="8" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="11.0.2.1.1.1.1.0" sentencenodepath="11">La firme intervención del primer ministro , Mugur_Isarescu , quien garantizó la solidez de BCR , la estabilidad de <argset><specifier>las</specifier><head>cotizaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la moneda nacional</argument></argset>, asimismo la convicción de la gente de que Ø fueron víctimas de manipulaciones especulativas , contribuyeron a traer de_nuevo la calma . </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="6.2.2.1.1" sentencenodepath="6">Ø Recordó que sólo en 1999 <argset><specifier>la</specifier><reference_modifiers>alta</reference_modifiers><head>cotización </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la libra</argument></argset>generó pérdidas adicionales de unos 350 millones de euros a Rover en una industria dirigida hacia la exportación . </example>
+        <example file="CESS-CAST-A/14709_20000419.tbf.xml" nodepath="5.0.5.4.0.1.0" sentencenodepath="5">" La caída de la corona frente al dólar no preocupa demasiado , ya_que las dos terceras partes del comercio exterior checo se realizan en euros y <argset><specifier>la</specifier><head>cotización </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la corona</argument><argument argument="argM" function="cn" thematicrole="adv" type="sadv">frente a la moneda europea</argument></argset>es estable " , advierte Ludek_Niedermayer , de consejo bancario del CNB . </example>
+        <example file="CESS-CAST-A/14827_20000719.tbf.xml" nodepath="15.2.3.2.1.1.1.1.0" sentencenodepath="15">Ø Expresó que hasta el momento no se han generado pérdidas por los bajos precios de los meses anteriores , debido_a que la cosecha 1999-2000 fue la tercera más grande de la historia costarricense y el volumen de las ventas ha compensado la baja de <argset><specifier>la</specifier><head>cotización </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del producto</argument></argset>. </example>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="10.2.2.0.1.1.0" sentencenodepath="10">El precio interno que paga el Fondo_Nacional_del_Café ( FNC ) , un ente para-fiscal que garantiza la compra de la cosecha a los cultivadores , está ligado diariamente a <argset><specifier>la</specifier><head>cotización </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">internacional</argument></argset>y al tipo de cambio . </example>
+        <example file="CESS-CAST-AA/20428_20000525.tbf.xml" nodepath="1.3.4.1.1.1.3.1.1.1.0" sentencenodepath="1">En una entrevista publicada hoy por el diario económico Gazeta_Mercantil , el dirigente gremial aseguró que Brasil va a perder divisas , volumen de exportaciones y mercado con el acuerdo al que llegaron los productores para aumentar <argset><specifier>las</specifier><head>cotizaciones </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">internacionales</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del grano</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="2.2.1.2.1.1.0" sentencenodepath="2">Dentro_de los alimentos hortofrutícolas , resaltan los aumentos de esta diferencia en <argset><specifier>las</specifier><head>cotizaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del fresón</argument></argset>, puesto_que en 1999 el margen mayorista de este producto creció el 59_por_ciento respecto_al año anterior , en_tanto_que el margen minorista se incrementó el 42_por_ciento . </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="7.0.0.1.0" sentencenodepath="7"><argset><specifier>Las</specifier><head>cotizaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del pimiento verde</argument></argset>supusieron una subida del 30_por_ciento del margen mayorista y del tres_por_ciento del porcentaje para el minorista ; las de la zanahoria dejaron un incremento del 65_por_ciento del margen para el mayorista y del 12_por_ciento más para el detallista . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="15.0.1.1.0" sentencenodepath="15">Si <argset><specifier>la</specifier><head>cotización </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Terra</argument></argset>alcanza los 62 euros , Telefónica se verá liberada de acudir a la ampliación , lo que se reflejará en su cotización . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="cotizar" originlink="verb.cotizar.2" wordnetsynset="16:09602953">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat"/>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="17.1.1.0" sentencenodepath="17">Por otra parte , <argset><specifier>la</specifier><head>cotización </head><reference_modifiers>suplementaria</reference_modifiers><reference_modifiers>que aportan los directivos al Unedic</reference_modifiers></argset>será suprimida a_partir_del 1_de_enero_del_2001 . </example>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="8.4.2.1.1.2.3.0.1.1.1.0" sentencenodepath="8">El grano colombiano cerró hoy , viernes , en la bolsa de Café , Azúcar y cacao de Nueva_York ( EEUU ) hasta 1,08 dólares la libra , frente_a los 1,15 dólares del jueves , y hasta el 1,26 el miércoles , que fue una de <argset><specifier>las</specifier><head>cotizaciones </head><reference_modifiers>más altas</reference_modifiers></argset>en lo que va de este año . </example>
+        <example file="CESS-CAST-AA/24699_20000229.tbf.xml" nodepath="2.3.0.1.2.1.1.3.1.0.1.1.0.0" sentencenodepath="2">Ante unas 500 personas , la esposa de José_María_Aznar ha destacado el conocido Decreto_Coste_Cero , iniciativa que ha eximido a las empresas del pago de <argset><head argument="arg1" thematicrole="pat">cotizaciones </head><reference_modifiers>empresariales</reference_modifiers></argset>a la Seguridad_Social cuando Ø contraten empleados en sustitución de los que estén de baja por maternidad , o la ley que promueve la conciliación de la vida familiar y laboral de las personas trabajadoras . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="14.2.1.1.2.1.1.0" sentencenodepath="14">Los analistas advierten de una creciente relación de <argset><specifier>las</specifier><head>cotizaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Telefónica y Terra</argument></argset>( en proceso de ampliación de capital ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="cotizar" originlink="verb.cotizar.2" wordnetsynset="16:09602953">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/109_19990502.tbf.xml" nodepath="1.2.3.1.1.1.1.1.1.1.0" sentencenodepath="1">El mercado ha valorado positivamente la noticia y las acciones ascendieron un 4,9% el viernes , después de que <argset><specifier>la</specifier><head>cotización </head></argset>quedara suspendida por la mañana . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="cotizar" originlink="verb.cotizar.3" wordnetsynset="16:09602953">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="0.3.4.1.2.2.1.1.1.2.1.1.0" sentencenodepath="0">Brasil , el mayor productor y exportador mundial de café , garantizó hoy , sábado , que Ø cumplirá totalmente el plan de retención de embarques acordado por la Asociación_de_los_Países_Productores_de_Café ( APPC ) para evitar una mayor caída en <argset><specifier>las</specifier><head>cotizaciones </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">internacionales</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del grano</argument></argset>. </example>
+        <example file="CESS-CAST-A/15839_20000123.tbf.xml" nodepath="6.3.2.4.1.0" sentencenodepath="6">Rato afirma en la entrevista que el Gobierno introducirá modificaciones en la política de vivienda para fomentar la movilidad geográfica y que " Ø hemos bajado <argset><specifier>las</specifier><head>cotizaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">sociales</argument></argset>lo que Ø hemos podido " . </example>
+        <example file="CESS-CAST-AA/20428_20000525.tbf.xml" nodepath="11.0.1.1.4.1.1.0" sentencenodepath="11">Esa retención , con la que los productores pretenden recuperar <argset><specifier>la</specifier><head>cotización </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">internacional</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del grano</argument></argset>, puede significar en los dos años unos 34 millones de sacas de 60 kilos sobre una producción exportable para el mismo período que se calcula en 170 millones de sacas ( 85 millones en 12 meses ) . </example>
+        <example file="CESS-CAST-AA/24699_20000229.tbf.xml" nodepath="4.3.0.1.1.1.1.0" sentencenodepath="4">Ana_Botella ha destacado , entre las propuestas del PP , la eliminación de <argset><specifier>las</specifier><head>cotizaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">sociales</argument></argset>durante un periodo de dos años por razón de maternidad , así_como el programa nacional de guarderías y escuelas infantiles . </example>
+        <example file="CESS-CAST-AA/5988_20000608.tbf.xml" nodepath="8.4.1.1.1.0" sentencenodepath="8">Los países cultivadores , 33 en total , que representan el 85_por_ciento de la producción mundial de café , acordaron en Londres retener hasta un 20_por_ciento de la producción a_partir_de Junio y por 24 meses para recuperar <argset><specifier>la</specifier><head>cotización </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">internacional</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del grano</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5988_20000608.tbf.xml" nodepath="10.1.1.0" sentencenodepath="10">Para el caso del grano colombiano , <argset><specifier>la</specifier><head>cotización </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de hoy</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">para entregas en Junio</argument></argset>cayó a 103,6 centavos de dólar por libra , el valor más bajo desde el 12_de_Octubre del año pasado reciente comenzó el periodo cafetero octubre_de_1999 a septiembre_de_2000 . </example>
+        <example file="CESS-CAST-AA/5988_20000608.tbf.xml" nodepath="11.0.1.1.1.1.1.0" sentencenodepath="11">En el caso de <argset><specifier>las</specifier><head>cotizaciones </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la bolsa de Café_,_Cacao_y_Azúcar de Nueva_York</argument><reference_modifiers>para los suaves centroamericanos</reference_modifiers></argset>el precio de hoy fue de 95,3 centavos de dólar , también uno de los más bajos desde octubre_de_1999 . </example>
+        <example file="CESS-CAST-AA/6498_20000409.tbf.xml" nodepath="0.4.1.1.0" sentencenodepath="0">El mercado español para empresas tecnológicas , denominado Nuevo_Mercado , se estrenará mañana Lunes con <argset><specifier>la</specifier><head>cotización </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de diez compañías , que suman una capitalización de 6,8 billones de pesetas , unos 40.000 millones de dólares</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="13.3.2.1.2.1.2.1.1.0" sentencenodepath="13">La proposición del Círculo_de_Empresarios_de_Madrid de que sean las propias trabajadoras las que costeen su propia baja maternal resulta insostenible desde cualquier punto de vista e innecesaria , habida_cuenta_de que las medidas vigentes y el coste cero de <argset><specifier>la</specifier><head>cotización </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la posible sustituta</argument></argset>son más_que suficientes . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="15.5.2.0.3.1.1.0" sentencenodepath="15">Si la cotización de Terra alcanza los 62 euros , Telefónica se verá liberada de acudir a la ampliación , lo que se reflejará en <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>cotización </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="decepción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="decepcionar" originlink="verb.decepcionar.1" wordnetsynset="16:05605549">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-14.tbf.xml" nodepath="5.0.1.1.1.0.2.0.5.0" sentencenodepath="5">Un sinfín de situaciones vividas <argset>, pena , cansancio , <head>decepciones </head>, y alegrías </argset>. </example>
+        <example file="3LB-CAST/r2-7.tbf.xml" nodepath="9.0.2.1.0" sentencenodepath="9">En esa retirada ha habido <argset><specifier>algunas</specifier><head>decepciones </head><reference_modifiers>personales</reference_modifiers></argset>, pero también cartas inesperadas , como la que le envió Ramón_Jáuregui , secretario general del PSE-PSOE , quien ya le ha hecho nuevas ofertas y que , - por_supuesto - , en las próximas elecciones generales le ve como candidato por Vizcaya . </example>
+        <example file="CESS-CAST-A/10080_20000914.tbf.xml" nodepath="5.0.3.4.1.0" sentencenodepath="5">" Ø No estoy al_cien_por_ciento y una de bronce no sería para mí <argset><specifier>una</specifier><head>decepción </head></argset>" , Ø aseguró . </example>
+        <example file="CESS-CAST-P/117_19990202.tbf.xml" nodepath="3.4.2.1.1.1" sentencenodepath="3">Ayer en Valencia Ø consiguió resarcirse con el título de Copa , el segundo de su historia , de <argset><specifier>la</specifier><reference_modifiers>amarga</reference_modifiers><head>decepción </head><reference_modifiers>que vivió el pasado año en la final de la Liga_ACB ante el TDK</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/19_20020501.tbf.xml" nodepath="4.3.2.1.2.1.1.0" sentencenodepath="4">En nuestra historia siempre hay un vino interior que nos subraya las emociones , un vino amargo de <argset><specifier>la</specifier><head>decepción </head></argset>y un vino que nos dice de dónde Ø venimos y dónde nos gustaría morir . </example>
+        <example file="CESS-CAST-P/7_20000903.tbf.xml" nodepath="12.3.1.0" sentencenodepath="12">Cuando Ø fue elegido Papa Ø tuvo <argset><specifier>una</specifier><head>decepción </head></argset>. </example>
+        <example file="CESS-CAST-P/8_20010401.tbf.xml" nodepath="4.3.1.0.1.0" sentencenodepath="4">La plantilla se debate entre <argset><specifier>la</specifier><head>decepción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">profesional</argument><reference_modifiers>- - porque desarrollar encargos de alta tecnología es " un orgullo " - -</reference_modifiers></argset>y la preocupación por su futuro laboral , ante la posibilidad de que la empresa decida reducir costes y puestos de trabajo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="underspecified" id="2" lexicalized="no" originlemma="decepcionar" originlink="verb.decepcionar.1" wordnetsynset="16:05605549">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/187_20010401.tbf.xml" nodepath="7.5.2.1.0" sentencenodepath="7">De_manera_que desde tres horas antes del momento fijado , servidores y proveedores de Internet de toda Italia quedaron colapsados , provocando <argset><specifier>la</specifier><head>decepción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de muchos usuarios reunidos en los café-internet de la península</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

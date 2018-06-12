@@ -5,7 +5,6 @@ import xml.etree.ElementTree as ET
 import codecs
 import glob
 
-
 class Sense(object):
     def __init__(self):
         self.lemma = None
@@ -27,7 +26,6 @@ class Sense(object):
             output += "%s\n" % frame
 
         return output.encode("utf8")
-
 
 class Frame(object):
     def __init__(self, lss, type):
@@ -93,7 +91,6 @@ def getRoot():
         root_lex.append(verb_lex.getroot())
     return root_lex
 
-
 def getPropbankarg(root_ancoranet):
     iszero = False
     map_propbankarg = {}
@@ -119,7 +116,6 @@ def getPropbankarg(root_ancoranet):
 lss_list = ["A21.transitive-agentive-patient","A22.transitive-agentive-theme", "A23.transitive-agentive-extension", "A31.ditransitive-patient-locative", "A32.ditransitive-patient-benefactive",
             "A33.ditransitive-theme-locative", "A34.ditransitive-patient-theme", "A35.ditransitive-theme-cotheme", "D11.inergative-agentive"]
 
-
 def getPb(root_ancoranet):
     mapping = {}
     propbank = []
@@ -143,7 +139,6 @@ def getPb(root_ancoranet):
             mapping.update(dict1)
     return mapping
 
-
 def getExtrArg(title, map_propbank, lss):
     try:
         if lss in lss_list:
@@ -157,7 +152,6 @@ def getExtrArg(title, map_propbank, lss):
         parent = "verb"
 
     return parent
-
 
 arg_map = {"arg0": "I", "arg1": "I", "arg2": "II", "arg3": "III", "arg4": "IV", "argM": "M%d", "arrgM": "M%d",
            "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
@@ -249,8 +243,6 @@ def writeSenses(filename,senses):
                 sense_str = str(sense)
                 fd.write(sense_str.decode("utf8"))
     fd.close()
-
-
 
 def main():
     ancoranet = ET.parse("../OriginalFiles/ancoranet-es.xml")

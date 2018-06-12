@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="perdón" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="perdonar" originlink="verb.perdonar.1" wordnetsynset="16:00795926">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="25.0.2.1.1.0" sentencenodepath="25">El " tigre de Limonar " busca aprovechar <argset><specifier>el</specifier><head>perdón </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la IAAF</argument></argset>para despedir una gloriosa carrera de manera digna y exitosa , y el ruso de Vladikavkaz rubricar el dominio en esta prueba en los últimos años . </example>
+        <example file="CESS-CAST-A/19111_20000923.tbf.xml" nodepath="1.0.3.2.0.0" sentencenodepath="1">" Ø Presento mi dimisión , porque como político Ø he perdido todo el prestigio que Ø tenía y Ø pido <argset><head>perdón </head></argset>a todos aquellos a los que Ø ofendí con mi irresponsable e irrespetuoso comportamiento " , dijo el ministro Siwiec en un comunicado entregado a los medios . </example>
+        <example file="CESS-CAST-A/19111_20000923.tbf.xml" nodepath="8.0.0.2.1.1.1.0.0" sentencenodepath="8">La dimisión de Siwiec y sus ruegos de <argset><head>perdón </head><reference_modifiers>por su broma de mal gusto</reference_modifiers></argset>no significarán el final del asunto : las imágenes que han provocado el revuelo han sido incorporadas a un anuncio electoral del candidato Krzaklewski . </example>
+        <example file="CESS-CAST-AA/6552_20000810.tbf.xml" nodepath="7.3.3.2.0.0" sentencenodepath="7">Los rumores amenazadores de que los 700 miembros del Parlamento someterían a Wahid a una moción de censura forzaron al presidente que Ø admitiera sus faltas y Ø pidiera <argset><head>perdón </head></argset>el Lunes pasado durante la apertura de la reunión anual del MPR . </example>
+        <example file="CESS-CAST-P/35_20000202_a.tbf.xml" nodepath="8.3.0.0" sentencenodepath="8">Por esta declaración , Schäuble debió pedir <argset><head>perdón </head></argset>en el Parlamento . </example>
+        <example file="CESS-CAST-P/99_20020301.tbf.xml" nodepath="15.3.1.1.0.1" sentencenodepath="15">Gómez-Angulo aprovechó la entrevista de TV para pedir <argset>" <head>perdón </head>" </argset>al ciclista Joan_Llaneras , medalla de oro en Sydney , por la indefensión que Ø sufrió por el error en un control antidopaje en otoño . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="perdonar" originlink="verb.perdonar.2" wordnetsynset="16:00795926">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/c1-4.tbf.xml" nodepath="2.1.1.0.0" sentencenodepath="2">Un soldador como el del Liceo , con <argset><head>perdón </head></argset>. </example>
+        <example file="CESS-CAST-AA/4901_20001107.tbf.xml" nodepath="6.2.0.0" sentencenodepath="6">Japón pidió <argset><head>perdón </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">por las atrocidades de la guerra</argument></argset>en 1998 durante la visita del entonces primer ministro japonés al Reino_Unido . </example>
+        <example file="CESS-CAST-AA/4901_20001107.tbf.xml" nodepath="7.6.2.1.3.1.2.4.1.1.1.4.1.1.4.0.0" sentencenodepath="7">Pero para Arthur_Titherington , presidente de la asociación de supervivientes de los campos de concentración japoneses , eso no fue suficiente ni adecuado , al considerar que las autoridades niponas deben utilizar la palabra " shazai " , que en japonés significa el reconocimiento de que " Ø he cometido una ofensa por la que de forma humilde Ø pido <argset><head>perdón </head></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

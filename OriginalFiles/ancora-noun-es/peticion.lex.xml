@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="petición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="pedir" originlink="verb.pedir.1" wordnetsynset="16:04888919">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="12" preposition="de" type="sp"/>
+        <constituent frequency="7" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="21" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="3" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="2" preposition="contra" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="demonstrative" type="determiner"/>
+        <constituent frequency="25" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+        <constituent frequency="7" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="8.0.2.1.1.1.1.0" sentencenodepath="8">Ayllón ha presentado un escrito con <argset><specifier>esta</specifier><head>petición </head></argset>, firmado por él mismo y otros senadores del PSOE que pertenecen a las circunscripciones por las que discurrirá el trazado del futuro AVE , informó hoy en una nota de prensa el Grupo_Socialista en el Senado . </example>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="11.1.1.1.0.1.1.1.0" sentencenodepath="11">Además_de Ayllón , los senadores firmantes de <argset><specifier>la</specifier><head>petición </head></argset>son Juan_Pablo_Herranz y Antonio_Collado , de Castilla-La_Mancha ; Francisco_Arnau , Segundo_Bru y Angel_Franco , de Valencia , y María_Antonia_Martínez y Manuel_Hurtado , de Murcia . </example>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="6.3.1.1.1.1.1.1.1.0.1.1.0.0" sentencenodepath="6">Portavoces del gobierno vasco niegan credibilidad a la existencia de una oleada de cartas de <argset><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de impuesto revolucionario</argument></argset>en el País_Vasco . </example>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="11.2.6.4.1.1.0.2.1.2.1.1.0" sentencenodepath="11">Éstos especificaron que - el diseño de esa campaña de cartas es absurdo , y el mecanismo que Ø sugieren , chocante ; Ø no se parece a lo que ha venido siendo la tónica general de <argset><specifier>las</specifier><head>peticiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de ETA</argument></argset>- . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="25.2.3.1.0" sentencenodepath="25">Kuroyédov anunció que al_menos 78 familiares de los tripulantes del " Kursk " han firmado <argset><specifier>una</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">oficial</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para subir los cuerpos junto_con el submarino en su momento</argument></argset>porque ahora hay " muy pocas posibilidades " de éxito . </example>
+        <example file="CESS-CAST-A/10872_20001214.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">En una carta dirigida a De_la_Rúa , reproducida por el diario mexicano " La_Jornada " , Cárdenas justifica <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>petición </head></argset>para que la justicia argentina revise los casos de los presos " ante la inminencia de un desenlace fatal y queriendo el bien de su patria " . </example>
+        <example file="CESS-CAST-A/12863_20001116.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>petición </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a Nicaragua</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de exigir el visado de entrada en el país , en_especial a personas procedentes de Sudamérica ,</argument></argset>ha sido formulada a_través_de la legación diplomática en Managua mediante una nota de prensa en la que Ø resalta los esfuerzos de otros países para lograr ese objetivo . </example>
+        <example file="CESS-CAST-A/12863_20001116.tbf.xml" nodepath="9.5.1.1.0" sentencenodepath="9">Hasta el momento , el gobierno de Managua no ha reaccionado de forma oficial a <argset><specifier>la</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de EEUU</argument></argset>. </example>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">En <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>petición </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">contra " Olga " , sobre la que el Tribunal parisiense dictará sentencia el próximo 15_de_marzo</argument></argset>, la Audiencia_Nacional reclama su extradición por " asesinato terrorista , 24 intentos de asesinato terrorista , destrozos y falsificación de matrículas " . </example>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="7.2.1.1.0" sentencenodepath="7">La fiscal Ceccaldi consideró que <argset><specifier>la</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">española</argument></argset>cumple todos los requisitos necesarios , por lo que Ø recomendó su aceptación . </example>
+        <example file="CESS-CAST-A/15355_20001120.tbf.xml" nodepath="2.4.1.1.1.0" sentencenodepath="2">La Junta_de_Recuento_de_Votos de Miami-Dade aprobó el viernes la revisión de los 614 colegios electorales tras analizar <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la campaña demócrata que busca obtener votos adicionales para ayudar a su candidato Al_Gore a superar la escasa ventaja que le lleva su rival republicano George_W._Bush</argument></argset>. </example>
+        <example file="CESS-CAST-A/1617_20000703.tbf.xml" nodepath="6.2.4.1.0" sentencenodepath="6">Las fuentes señalaron que cuando un ciudadano extranjero solicita asilo político en Barajas se comunica <argset><specifier>esta</specifier><head>petición </head></argset>a la Subdirección_General_de_Asilo , dependiente del Ministerio_del_Interior , para iniciar los trámites administrativos pertinentes . </example>
+        <example file="CESS-CAST-A/1617_20000703.tbf.xml" nodepath="7.2.3.1.1.3.1.1.2.1.1.0" sentencenodepath="7">En ese momento , los funcionarios de asilo empiezan el estudio del expediente del solicitante y en un período de tres días Ø adoptan una resolución , que puede ser tanto la admisión a trámite de <argset><specifier>la</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de asilo político</argument></argset>como su denegación . </example>
+        <example file="CESS-CAST-A/1617_20000703.tbf.xml" nodepath="9.1.2.0.2.1.2.1.1.0" sentencenodepath="9">Agotado este plazo , los funcionarios de asilo comunican su decisión y , si la admisión a trámite de <argset><specifier>la</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de asilo</argument></argset>es denegada de_nuevo , se aplica la Ley_de_Extranjería , lo que puede llevar al retorno del solicitante a su país de origen o a su entrada en España por razones humanitarias . </example>
+        <example file="CESS-CAST-A/16210_20000520.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">El JNE rechazó el pasado viernes <argset><specifier>una</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del partido Perú_Posible</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para que la elección sea aplazada hasta el 18_de_junio próximo</argument></argset>, lo cual precipitó la retirada del candidato opositor , Alejandro_Toledo . </example>
+        <example file="CESS-CAST-A/16210_20000520.tbf.xml" nodepath="2.3.2.3.1.1.1.1.0" sentencenodepath="2">En declaraciones a la cadena de televisión Canal_N , Rómulo_Muñoz_Arce , miembro del Jurado , declaró que el tribunal ha desestimado " solo un pedido " de aplazamiento y que Ø está abierto a recibir y estudiar <argset><specifier>otras</specifier><head>peticiones </head><reference_modifiers>similares</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="4.3.2.1.0.4.1.1.0" sentencenodepath="4">Ø Afirmó que en determinadas zonas de la Comunidad_Valenciana existe un nivel de desarrollo urbanístico " que claramente marca un uso y abuso del agua " , por lo que " es muy difícil hacer <argset><specifier>una</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de solidaridad</argument></argset>a otras regiones cuando desde el Gobierno no se están haciendo acciones concretas " para mejorar el uso del agua . </example>
+        <example file="CESS-CAST-A/18485_20000724.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>La</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la consejera</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que el Ministerio_de_Medio_Ambiente convalide el estudio de la Junta</argument></argset>fue bien acogido por Alvarez_Cascos , quien coincidió en que de esta forma se daría un impulso " sustancial " a esta infraestructura ferroviaria . </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>Las</specifier><head>peticiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una rápida y adecuada financiación</argument></argset>coinciden con la apertura hoy Jueves de la revisión de la escala de cuotas que los Estados miembros de la ONU deben aportar al presupuesto de la organización para las misiones de mantenimiento de la paz . </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="4.4.1.1.1.1.0" sentencenodepath="4">Los abogados de los familiares en Miami de Elián se negaron hoy a cumplir con <argset><specifier>la</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del INS</argument></argset>, durante una reunión en la que Ø discutieron los términos del estatus temporal del niño en EEUU y las medidas que " aseguren que Ø será entregado a su padre " . </example>
+        <example file="CESS-CAST-AA/2519_20000203.tbf.xml" nodepath="1.2.2.4.3.1.0" sentencenodepath="1">Salvador_Romaní , presidente de la anticastrista Junta_Patriótica_Cubana , señaló que el asilo fue solicitado por " varios médicos " y Ø confirmó que Ø ha pedido al ministro venezolano de Relaciones_Exteriores , José_Vicente_Rangel , que Ø apruebe <argset><specifier>esas</specifier><head argument="arg1" thematicrole="pat">peticiones </head></argset>. </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="19.0.0.3.1.4.1.0" sentencenodepath="19">" Ø Confío en que por su concepto del honor y de la autoridad , y por las funciones que Ø desempeñan , Ø aceptarán <argset><argument argument="arg0" thematicrole="agt" type="spec">mi</argument><head>petición </head></argset>" , indicó Kostunica y Ø agregó que " así Ø impedirían que el proceso electoral se convirtiera en una farsa , Ø eliminaríamos las dudas y Ø atenuaríamos el descontento justificado de los ciudadanos " . </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="0.3.2.0.0" sentencenodepath="0">El Grupo_Parlamentario_Socialista ha presentado una enmienda a la totalidad , con <argset><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de devolución</argument></argset>, a la sección 17 del Proyecto_de_Ley_de_Presupuestos_Generales_del_Estado para el próximo año , que se refiere a la política de infraestructuras . </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="0.2.1.1.1.1.3.3.1.1.2.3.1.1.1.1.0.1.2.1.1.0" sentencenodepath="0">El presidente ecuatoriano , Jamil_Mahuad , ha recibido el apoyo de su colega estadounidense , Bill_Clinton , quien se mostró dispuesto a solicitar a los organismos multilaterales que Ø agilicen las ayudas ofrecidas al gobernante , acosado por <argset><specifier>las</specifier><head>peticiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dimisión</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="3.4.4.3.1.1.1.0.0" sentencenodepath="3">Hasta en su propio partido , la Democracia_Popular , han surgido evidentes las discrepancias , pues varios de sus correligionarios han criticado algunas decisiones del Ejecutivo y Ø le han entregado una lista de <argset><head>peticiones </head></argset>para continuar con su respaldo . </example>
+        <example file="CESS-CAST-AA/7453_20000209.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>Esta</specifier><head>petición </head></argset>coincide con las líneas generales defendidas por Joe_Bossano , que fue ministro principal de Gibraltar entre 1988 y 1996 al_frente_del Partido_Laborista ( GSLP ) , y que concurre a estas elecciones encabezando la Alianza_Socialista_Liberal , integrada también por el Partido_Liberal ( GLP ) de Joseph_García . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">El diputado justificó <argset><specifier>la</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del PSOE</argument></argset>en el crecimiento económico y en el aumento del tráfico por carretera que han garantizado una cuenta de resultados " extraordinariamente " elevada en las circunstancias actuales , llegándose en algunos casos a " unos beneficios de hasta un 60_por_ciento sobre el volumen de facturación " . </example>
+        <example file="CESS-CAST-P/104_20010802.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">En estos términos justifica la Audiencia_de_Girona <argset><specifier>la</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de indulto</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para Javier_Martín_Gualda , Ramon_Deulofeu_Revuelta y Marc_Ribas_Servià , a quienes condenaba a dos años y tres meses de cárcel por un delito contra la salud pública</argument></argset>. </example>
+        <example file="CESS-CAST-P/108_20000601_a.tbf.xml" nodepath="1.2.2.1.1.0" sentencenodepath="1">Microsoft contraatacó ayer en su alegato final contra la propuesta del Gobierno_de_EEUU de dividir la compañía en dos y Ø aseguró que <argset><specifier>la</specifier><head>petición </head></argset>es " vaga , ambigua y deficiente " . </example>
+        <example file="CESS-CAST-P/108_20000601_c.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Sólo quedan por devolver <argset><specifier>las</specifier><head>peticiones </head><reference_modifiers>que no tienen derecho a ello o con algún problema</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/11_20000801.tbf.xml" nodepath="1.5.1.1.0.5.1.3.1.0" sentencenodepath="1">Y Ø no es que Ø esté en_contra_de quienes puedan venir a la zona , pues Ø considero que Ø son tan dignos como cualquiera , por lo que Ø me solidarizo con ellos para que se respete <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de quedarse en Les_Glòries</argument></argset>. </example>
+        <example file="CESS-CAST-P/141_19990302.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">Gorka , nombre del joven sometido al piercing , justificó <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>petición </head></argset>en el deseo de complacer a su mujer , que esperaba lograr una mayor satisfacción sexual tras la implantación de un pequeño aro en la punta del glande . </example>
+        <example file="CESS-CAST-P/141_19990302.tbf.xml" nodepath="5.0.1.3.3.1.0" sentencenodepath="5">" Cada día nos llegan de 80 a <argset><specifier>85</specifier><head argument="arg1" thematicrole="pat">peticiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de personas que quieren experimentar una sensación a la carta</argument></argset>. Evidentemente , Ø elegimos la más divertida " , dijo Ø . </example>
+        <example file="CESS-CAST-P/2_20010501.tbf.xml" nodepath="3.4.1.0" sentencenodepath="3">CiU vota en el Parlament_de_Catalunya , junto_a los grupos de izquierda , <argset><specifier>una</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de retirada del PHN</argument></argset>. </example>
+        <example file="CESS-CAST-P/30_20000103.tbf.xml" nodepath="3.0.1.3.1.0" sentencenodepath="3">" Si Ø respetamos <argset><specifier>la</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de suspensión</argument><reference_modifiers>formulada por el Tribunal</reference_modifiers></argset>, las reacciones del público podrían atenuarse con el tiempo y podría llegarse a una solución positiva para Turquía " , añadió Ø . </example>
+        <example file="CESS-CAST-P/30_20020801_c.tbf.xml" nodepath="1.4.1.1.1.0" sentencenodepath="1">Obres_Públiques aprobará hoy el proyecto del tramo final de la controvertida ronda_Nord , entre la C-17 en Canovelles y la antigua carretera de Ribes , sin atender <argset><specifier>la</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de soterramiento</argument><reference_modifiers>formulada por el Ayuntamiento_de_Granollers para reducir el impacto que causará en las viviendas cercanas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/35_20000202_b.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">La fiscalía de Fráncfort hizo ayer <argset><specifier>esta</specifier><head>petición </head></argset>para poder juzgar al eurodiputado ecologista . </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="41.5.1.1.1.1.0" sentencenodepath="41">- - ¿ La ronda de conversaciones de Pujol con todas las fuerzas es un rechazo a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un pacto estable</argument></argset>? - - </example>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="17.4.5.1.1.0" sentencenodepath="17">Aznar sólo le garantizó que , aunque Ø no se oponga frontalmente a su estrategia , Ø tampoco accederá a <argset><specifier>esta</specifier><head argument="arg1" thematicrole="pat">petición </head></argset>hasta que EH pida a ETA que Ø no vuelva a matar . </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="3.3.0.1.1.1.0" sentencenodepath="3">Los abogados del financiero han remitido al juzgado copia de <argset><specifier>la</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de " auxilio jurisdiccional "</argument><reference_modifiers>formulada por el fiscal general de Kuwait ante los tribunales suizos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/57_20000601_c.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">El Poder_Judicial informó ayer contra <argset><specifier>la</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del empresario , que reclama 100.000 millones por la dilación de 16 años del caso Rumasa</argument></argset>. </example>
+        <example file="CESS-CAST-P/57_20000601_d.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">Gil se enfrenta a <argset><specifier>una</specifier><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 34 años</argument></argset>por el ' caso Atlético ' . </example>
+        <example file="CESS-CAST-P/57_20010801.tbf.xml" nodepath="1.2.0.1.1.1.1.4.1.1.1.1.0" sentencenodepath="1">" Injustificable " y " muy benévola " fueron algunos de los calificativos que varios jueces utilizaron ayer para referirse a <argset><specifier>la</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del fiscal</argument><reference_modifiers>para el jefe de la inspección del Consejo_General_del_Poder_Judicial ( CGPJ ) , José_María_Bento</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/57_20010801.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la fiscalía de Alicante</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">contra el magistrado del CGPJ</argument></argset>contradice al_menos una sentencia del Tribunal_Supremo que absolvió al diputado socialista Javier_Barrero de un delito de desobediencia grave , por no someterse a la prueba del alcoholímetro , al considerar que el acusado no presentaba síntomas externos de que Ø conducía bajo los efectos del alcohol . </example>
+        <example file="CESS-CAST-P/60_20011101.tbf.xml" nodepath="4.0.2.1.0" sentencenodepath="4">Homs rechazó <argset><specifier>la</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">empresarial</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de bajar los impuestos</argument></argset>y Ø anunció una inversión pública en infraestructuras de medio billón . </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="5.4.1.2.1.1.0" sentencenodepath="5">A este criterio se acogió Béjar para no acceder a <argset><specifier>la</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Sección_Séptima</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de buscar a un magistrado sustituto con_el_fin_de evitar la suspensión de un juicio contra un presunto violador</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="2.2.3.1.0" sentencenodepath="2">La defensa explicó que la acusación , que inicialmente pedía tres penas de ocho años de internamiento por otros tantos delitos de asesinato , rebajó <argset><specifier>la</specifier><head>petición </head></argset>a la vista de los informes psicológicos y psiquiátricos . </example>
+        <example file="CESS-CAST-P/7_20000201.tbf.xml" nodepath="3.3.3.1.0" sentencenodepath="3">En un escrito , los abogados Sophie_Thonon y Jacques_Miquel indicaron que Ø reiterarán <argset><specifier>esa</specifier><head>petición </head></argset>a los ministros franceses de Justicia , Elisabeth_Guigou , y de Exteriores , Hubert_Védrine . </example>
+        <example file="CESS-CAST-P/81_20000201.tbf.xml" nodepath="9.4.1.1.1.0" sentencenodepath="9">Onega , en representación del Gobierno , se comprometió a estudiar <argset><specifier>la</specifier><head>petición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las ONG y sindicatos</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de prolongar el plazo de dos meses - - del 22_de_febrero al 28_de_abril - - previsto inicialmente para que los afectados presenten su solicitud</argument></argset>. </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="2.3.1.0" sentencenodepath="2">Durante la hora y media que duró el encuentro , los representantes de UGT y de CCOO centraron <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head argument="arg1" thematicrole="pat">peticiones </head></argset>en el cierre de los sábados , una reivindicación tradicional en el sector . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="pedir" originlink="verb.pedir.1" wordnetsynset="16:04888919">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-A/10477_20001114.tbf.xml" nodepath="2.3.3.6.1.1.0" sentencenodepath="2">En su misiva , Zarrías destaca que un acuerdo de 1997 indica que cuando una comunidad autónoma desee que el Reino_de_España demande a otro Estado miembro por incumplimiento de las obligaciones de los tratados , Ø lo pondrá en conocimiento del presidente de la Comisión_de_Seguimiento motivando <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>petición </head></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="pedir" originlink="verb.pedir.1" wordnetsynset="16:04888919">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/8633_20000114.tbf.xml" nodepath="4.2.0.2.1.1.1" sentencenodepath="4">Los socios de esa asociación han empezado a buscar consejo legal sobre <argset><specifier>una</specifier><reference_modifiers>posible</reference_modifiers><head>petición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de compensación económica por las consecuencias sufridas tras adquirir el carburante de Mobil</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

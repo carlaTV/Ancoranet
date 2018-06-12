@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="desventaja" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="aventajar" originlink="verb.aventajar.1" wordnetsynset="16:04021143">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-9.tbf.xml" nodepath="6.3.3.1.0" sentencenodepath="6">Otros lo rechazan porque Ø es <argset><specifier>una</specifier><head>desventaja </head></argset>teniendo_en_cuenta sus características en_relación_a las de sus rivales . </example>
+        <example file="3LB-CAST/dc1-9.tbf.xml" nodepath="4.0.0.1.0" sentencenodepath="4"><argset><specifier>La</specifier><head>desventaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de esta técnica</argument></argset>es que se necesita un edificio donde colocar los compresores y los depósitos de aire comprimido ; después hay que instalar unas conducciones que introduzcan el aire comprimido en el cañón . </example>
+        <example file="3LB-CAST/t1-4.tbf.xml" nodepath="7.0.2.2.1.1.0" sentencenodepath="7">Ser rico en aquel tiempo tenía muchas ventajas , y también <argset><specifier>muchas</specifier><head>desventajas </head></argset>, por_supuesto , pero medio mundo lo anhelaba como la posibilidad más probable de ser eterno . </example>
+        <example file="CESS-CAST-A/14423_20000317.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">Según Carmen_Quintanilla , " <argset><specifier>esa</specifier><head>desventaja </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el mundo laboral</argument></argset>es consecuencia de la reticencia de las empresas españolas a contratar mujeres y por la tardía incorporación de la mujer al trabajo " . </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="2.6.1.1.1.0" sentencenodepath="2">Los Spurs sin el alero titular Tim_Duncan les dieron a los Lakers una lección de baloncesto de equipo al remontar <argset><specifier>una</specifier><head>desventaja </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 17 puntos</argument><reference_modifiers>con la que llegaron al cuarto periodo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="14.4.0.2.2.1.1.2.4.1.1.0" sentencenodepath="14">Ø Presume de que su eslogan electoral , " La_fuerza_positiva " , se ajusta a su perfil , amante del diálogo y la negociación y poco aficionado a las descalificaciones y a los duelos dialécticos , en los que Ø parte con <argset><specifier>la</specifier><head>desventaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sus dificultades de pronunciación , sobre las que él mismo bromea</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="9.0.3.3.0.1.1.1.0" sentencenodepath="9">" Esta estructura de plataforma múltiple no sacrifica la vigorosa competencia entre los mercados y Ø no tiene ninguna de <argset><specifier>las</specifier><head>desventajas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un CLOB</argument></argset>" , explica el informe del NYSE . </example>
+        <example file="CESS-CAST-AA/8933_20000211.tbf.xml" nodepath="7.3.2.3.1.1" sentencenodepath="7">González_Macchi también recordó que su país , " pese_a <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><reference_modifiers>claras</reference_modifiers><head>desventajas </head></argset>" , es también uno de los potencialmente más ricos socios del MERCOSUR " , dada su ubicación estratégica , prácticamente equidistante entre los océanos Pacífico y Atlántico y de los grandes centros industriales y económicos de la subregión " . </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="2.3.0.3.1.0.2.1.1.1.0.0" sentencenodepath="2">Medina , apoyado de forma persistente a_lo_largo_de toda la campaña por el presidente Leonel_Fernández , se considera " víctima " de manipulaciones de encuestadoras y medios de comunicación para presentarlo en <argset><head>desventaja </head></argset>frente_a Balaguer . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

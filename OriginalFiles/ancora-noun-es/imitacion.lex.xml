@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="imitación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="imitar" originlink="verb.imitar.1" wordnetsynset="16:00659386">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-3.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>Una</specifier><head>imitación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de estas características</argument></argset>es la que debió causar la gran epidemia gripal el año_1918 , durante la cual murieron más_de veinte millones de personas . </example>
+        <example file="CESS-CAST-AA/5244_20000908.tbf.xml" nodepath="13.0.1.0.0.1.1.1.0" sentencenodepath="13">" Muchas de <argset><specifier>las</specifier><head>imitaciones </head></argset>se fabrican especialmente en países como Indonesia o se contrata a ` mochileros ` en Australia como mano de obra barata , para que Ø pinten estos objetos copiando los diseños aborígenes " , manifestó Hume . </example>
+        <example file="CESS-CAST-P/190_20011002.tbf.xml" nodepath="8.0.1.1.3.1.1.3.4.1.3.3.1.0" sentencenodepath="8">Un argumento en el que insistió el director de Televisió_de_Catalunya , Miquel_Puig , al destacar que la gran suerte de la nueva producción televisiva es que las cinco actrices " tienen una personalidad muy definida " que hace innecesaria <argset><specifier>las</specifier><head>imitaciones </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="acusación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="acusar" originlink="verb.acusar.1" wordnetsynset="16:05401516">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" preposition="entre" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="contra" type="sp"/>
+      </argument>
+      <argument argument="arg2" foundincorporated="yes" thematicrole="tem">
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="18" postype="article" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="8" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="respecto_a" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a15-6.tbf.xml" nodepath="5.4.1.1.0" sentencenodepath="5">Por eso , para juzgar a Chibana Ø tuvieron que echar_mano de <argset><specifier>otra</specifier><head>acusación </head><reference_modifiers>: daños a la propiedad pública</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>acusación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">pública</argument></argset>mantiene que el Atlético_de_Madrid utilizó dinero del Ayuntamiento_de_Marbella para completar el traspaso del jugador argentino Diego_Pablo_Simeone desde el Sevilla al Atlético_de_Madrid aunque los dos ex directivos mantienen que Ø es falso . </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="5.3.2.4.2.1.4.4.1.1.1.0" sentencenodepath="5">Esta mañana han finalizado las declaraciones de los doce procesados , después_de que también lo hicieran José_Ramón_Guimaraens , que fue presidente de la empresa deportiva Dorma , y el ex auditor del Atlético_de_Madrid_ Pablo_de_Castro , que sólo está imputado por <argset><specifier>la</specifier><head>acusación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">particular</argument><reference_modifiers>, que ejerce Jose_Carlos_Aguilera , en representación del PSOE</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="7.3.1.2.2.1.1.1.1.1.0" sentencenodepath="7">Por su parte , Pablo_de_Castro ha sido el único procesado que ha contestado a las preguntas de <argset><specifier>la</specifier><head>acusación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">particular</argument></argset>porque el resto de imputados se han acogido a su derecho de no contestarle . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="17.3.0.3.3.1.1.1.0.0" sentencenodepath="17">De los siete candidatos que compiten mañana , el que concentra mayor atención internacional es Joaquín_Balaguer , de 93 años y ciego , siete veces presidente de la República , quien encabeza la lista de <argset><head>acusaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de sus adversarios</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por haber ganado supuestamente los comicios por métodos fraudulentos</argument></argset>. </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="4.0.2.1.1.0.0" sentencenodepath="4">Los cuatro meses de campaña electoral estuvieron impregnados de <argset><head>acusaciones </head><reference_modifiers>mutuas</reference_modifiers><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de incompetencia</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los dos candidatos liberales</argument></argset>, mientras_que Balaguer apenas dio media docena de mítines con discursos no superiores a los quince minutos . </example>
+        <example file="CESS-CAST-A/13252_20000216.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Durante un acto electoral con empresarios , en el que también han participado Joaquín_Almunia y Narcís_Serra , Maragall ha rectificado <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>acusación </head></argset>después de que Telefónica hiciera ayer público un comunicado en el que Ø asegura que su vicepresidente , Isidre_Fainé , que también es consejero en_representación_de La_Caixa , no tiene " Stock_Options " . </example>
+        <example file="CESS-CAST-A/13252_20000216.tbf.xml" nodepath="3.3.3.1.0" sentencenodepath="3">En declaraciones a los periodistas , Maragall ha explicado que Ø lanzó <argset><specifier>esta</specifier><head>acusación </head></argset>contra Fainé porque todo el mundo pensaba que , en su calidad de vicepresidente de Telefónica , Ø participaba en este programa . </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="7.0.1.1.1.1.1.1.0" sentencenodepath="7">Las autoridades , molestas con <argset><specifier>las</specifier><head>acusaciones </head></argset>, han declarado que los " exabruptos " de los dirigentes sociales carecen de fundamentos y Ø son " irresponsables " . </example>
+        <example file="CESS-CAST-AA/3865_20000204.tbf.xml" nodepath="18.4.1.0" sentencenodepath="18">Ø Mencionó también con indignación <argset><specifier>las</specifier><head>acusaciones </head><reference_modifiers>vertidas contra el fallecido presidente francés Francois_Mitterand</reference_modifiers><reference_modifiers>, respecto_a una supuesta ayuda millonaria de aquel a las campañas electorales de Kohl que presuntamente se canalizaron a_través_de la compra de una refinería de la ex RDA por el grupo francés Elf_Aquitaine</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/5786_20000407.tbf.xml" nodepath="0.4.0.0.0" sentencenodepath="0">El Gobierno y los opositores al referendo propuesto por el presidente colombiano , Andrés_Pastrana , que disolvería el Congreso , se dedicaron hoy <argset><head>acusaciones </head>y palabras destempladas </argset>a_través_de los medios de comunicación . </example>
+        <example file="CESS-CAST-AA/5786_20000407.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">La polarización entre los que apoyan el referendo y los críticos , parlamentarios liberales , conservadores e independientes , comenzó hoy con <argset><specifier>las</specifier><head>acusaciones </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de irresponsabilidad</argument><reference_modifiers>que les hizo el ministro del Interior , Néstor_Martínez</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="11.2.1.1.1.0.0" sentencenodepath="11">La presentación de la candidatura de Porta la semana pasada desató un cruce de <argset><head>acusaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre ambos candidatos</argument></argset>que puso_de_manifiesto la existencia de una fuerte división en esta institución histórica catalana . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>acusación </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de asociación ilícita</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al grupo de ultras del Atlético_de_Madrid que acosaron y mataron a un aficionado rival</argument></argset>es un buen precedente jurídico para plantar_cara a las bandas urbanas organizadas . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="13.1.4.1.1.1.1.0" sentencenodepath="13">La decisión tiene trascendencia jurídica y sin_duda también social , porque el tribunal ha aceptado el planteamiento de <argset><specifier>la</specifier><head>acusación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">popular</argument><reference_modifiers>ejercida por el Movimiento_contra_la_intolerancia</reference_modifiers></argset>, de que los 10 miembros de la banda ultra que acompañaban al presunto autor material del homicidio , sean juzgados por la comisión de un delito de asociación ilícita y no - - como así sostenían el juez instructor y el fiscal - - por la comisión de un delito de desórdenes públicos . </example>
+        <example file="CESS-CAST-P/24_19981201.tbf.xml" nodepath="16.1.1.2.3.1.0" sentencenodepath="16">Pero el abogado Eduardo_Contreras , que dirige <argset><specifier>la</specifier><head>acusación </head></argset>en la primera querella contra el dictador en Chile , acusó el diplomático chileno de " mentir " a Madrid y a Londres cuando Ø asegura que si el dictador regresa se aceleraría el proceso judicial en marcha . </example>
+        <example file="CESS-CAST-P/34_19981202.tbf.xml" nodepath="4.2.3.1.1.1.1.1.0" sentencenodepath="4">Los diputados republicanos de esta comisión señalaron que Ø tenían la intención de investigar <argset><specifier>las</specifier><head>acusaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que Clinton podría haber cometido " actos delictivos " , al reunir fondos para su campaña de reelección</argument></argset>. </example>
+        <example file="CESS-CAST-P/35_20000202_d.tbf.xml" nodepath="4.0.2.1.0" sentencenodepath="4">Wiranto ha negado <argset><specifier>todas las</specifier><head>acusaciones </head><reference_modifiers>formuladas en su contra</reference_modifiers></argset>y Ø ha defendido su gestión al_frente_de las Fuerzas_Armadas . </example>
+        <example file="CESS-CAST-P/38_19990902_c.tbf.xml" nodepath="2.4.1.0" sentencenodepath="2">Gil también considera ofensivas <argset><specifier>las</specifier><head>acusaciones </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de malversación de caudales públicos , prevaricación y cohecho que los socialistas hicieron contra los miembros del GIL</argument></argset>. </example>
+        <example file="CESS-CAST-P/39_20010201.tbf.xml" nodepath="1.0.2.2.4.1.0.0.0" sentencenodepath="1">Los trabajadores de Interviú afirman que Ø no han firmado nada en_relación_con Rei y Ø reiteran que Ø siempre han condenado <argset><specifier>las</specifier><head argument="arg2" thematicrole="tem">acusaciones </head>y mentiras de éste </argset>, por lo que Ø exigen a Gara que Ø rectifique . </example>
+        <example file="CESS-CAST-P/39_20010202.tbf.xml" nodepath="1.4.5.1.0.1.1.1.0" sentencenodepath="1">En su despacho , el vicefiscal general de Rusia reconoce en esta entrevista a EL_PERIODICO que su oficina filtró deliberadamente información judicial sobre los profesionales de NTV como respuesta a <argset><specifier>las</specifier><head argument="arg2" thematicrole="tem">acusaciones </head><reference_modifiers>que lanzaban los informadores desde la cadena de televisión</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra la Fiscalía rusa</argument></argset>. </example>
+        <example file="CESS-CAST-P/41_20020103.tbf.xml" nodepath="7.3.1.1.2.1.2.4.1.0" sentencenodepath="7">La juez aceptó que el juicio empiece el 14_de_octubre , tal como propuso el fiscal Robert_Spencer , que confirmó contra Moussaoui <argset><specifier>seis</specifier><head argument="arg2" thematicrole="tem">acusaciones </head><reference_modifiers>, que incluyen la participación directa en la muerte de más de 3.000 personas</reference_modifiers><reference_modifiers>: cuatro de los cargos están castigados con la pena de muerte , y dos , con la cadena_perpetua</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/45_20000302.tbf.xml" nodepath="3.2.2.1.1.1.1.0" sentencenodepath="3">El tribunal afirma que , a_pesar_de_que la declaración de la joven resultó " coherente " , la gravedad de <argset><specifier>las</specifier><head>acusaciones </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">sobre la " violencia física y psíquica "</argument></argset>fue descrita de forma " pobre y esquemática " y con algunas contradicciones . </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="2.4.1.1.1.1.0.0" sentencenodepath="2">La tensión que enfrenta al PNV y al PP se disparó ayer con otro cruce de <argset><head>acusaciones </head></argset>a_cuenta_de la actuación del Ministerio_del_Interior . </example>
+        <example file="CESS-CAST-P/50_20010902.tbf.xml" nodepath="0.3.1.2.1.1.1.0" sentencenodepath="0">ISABEL_GARCIA_MARCOS , portavoz socialista en el Ayuntamiento marbellí , anunció ayer la decisión del partido de ejercer <argset><specifier>la</specifier><head>acusación </head><reference_modifiers>particular</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="4.0.1.1.1.0.0" sentencenodepath="4">Los cruces de <argset><head argument="arg2" thematicrole="tem">acusaciones </head></argset>se prolongaron a_lo_largo_del día . </example>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="2.2.1.1.0" sentencenodepath="2">La defensa explicó que <argset><specifier>la</specifier><head>acusación </head><reference_modifiers>, que inicialmente pedía tres penas de ocho años de internamiento por otros tantos delitos de asesinato ,</reference_modifiers></argset>rebajó la petición a la vista de los informes psicológicos y psiquiátricos . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="17.0.1.1.1.1.0" sentencenodepath="17">La tesis de <argset><specifier>la</specifier><head>acusación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">pública</argument></argset>fue desestimada tanto por el juez instructor como por la Audiencia_de_Barcelona , que ordenaron que el caso fuese juzgado por una falta de imprudencia leve con resultado de muerte y lesiones . </example>
+        <example file="CESS-CAST-P/82_19981101.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>acusación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">particular</argument></argset>solicita para el procesado tres años de prisión y una indemnización de 50 millones de pesetas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="acusar" originlink="verb.acusar.1" wordnetsynset="16:05035457">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/122_19990202.tbf.xml" nodepath="7.2.0.2.4.1.1.1.0" sentencenodepath="7">La lista de desmentidos incluye numerosas referencias a la supuesta vida suntuosa del dirigente , a los regalos que Ø recibe e , incluso , a <argset><specifier>la</specifier><head>acusación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que su hija , María_Teresa , trabajó para la candidatura de Sydney</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="acusar" originlink="verb.acusar.1" wordnetsynset="16:05401516">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">La vicelehendakari , Idoia_Zenarruzabeitia , reiteró hoy <argset><specifier>la</specifier><head>acusación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al ministerio de Interior</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de " ocultar información " sobre ETA al Gobierno_Vasco</argument></argset>, pese_a_que ayer el ministro Jaime_Mayor_Oreja aseguró en el Congreso que se había facilitado la información conveniente . </example>
+        <example file="CESS-CAST-AA/24886_20000330.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">También rechaza la Federación <argset><specifier>la</specifier><head>acusación </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de que se le exigió a Sabariz la designación " en_especial " de una pareja de árbitros , sino_que " simplemente se le transmitió el malestar de los clubes implicados " sobre la categoría de los colegiados designados para dirigir el Estudiantes_de_Ferrol-Estudiantes_de_Lugo</argument></argset>. </example>
+        <example file="CESS-CAST-P/35_19991202.tbf.xml" nodepath="9.6.1.1.2.1.0.0" sentencenodepath="9">Paralelamente , el Ministerio_de_Exteriores ruso entregó ayer a la embajada de EEUU una nota de protesta tras la detención de la diplomática norteamericana Cheri_Leberknight bajo <argset><head>acusación </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de espionaje</argument></argset>. </example>
+        <example file="CESS-CAST-P/41_20010502.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Una comisión investigadora del Congreso peruano consideró procedente <argset><specifier>la</specifier><head>acusación </head><reference_modifiers>constitucional</reference_modifiers><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por haber alquilado helicópteros del Ejército a la ONU de manera supuestamente irregular</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

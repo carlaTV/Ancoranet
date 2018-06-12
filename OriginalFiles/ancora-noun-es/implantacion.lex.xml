@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="implantación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="implantar" originlink="verb.implantar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/15386_20000720.tbf.xml" nodepath="4.3.5.1.0.1.1.2.3.1.0.0" sentencenodepath="4">La presencia de Media_Park en Latinoamérica vendrá apoyada principalmente por Telefónica , si_bien la productora cuenta entre sus accionistas con Iberdrola , compañía eléctrica que también cuenta con <argset><head>implantación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la zona</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5021_20000206.tbf.xml" nodepath="19.0.2.1.0" sentencenodepath="19">Que si <argset><specifier>la</specifier><head>implantación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de frenillos dentales</argument></argset>también estaba motivada por la presencia de alguna chica . </example>
+        <example file="CESS-CAST-AA/5255_20000110.tbf.xml" nodepath="5.2.1.1.1.0.0" sentencenodepath="5">La sencillez de la marca facilitará las labores de <argset><head>implantación </head></argset>, en las que se invertirán unos 6.700 millones de pesetas , unos 26.000 millones de pesetas menos que si se hubiese creado una imagen corporativa totalmente diferente . </example>
+        <example file="CESS-CAST-P/107_20010802.tbf.xml" nodepath="1.3.1.1.3.0.3.1.1.1.0" sentencenodepath="1">La inversión se incluye en un plan de choque de la Generalitat que prevé habilitar 96 hectáreas de terrenos para fomentar <argset><specifier>la</specifier><head>implantación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de industrias</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en las seis comarcas pirenaicas</argument></argset>y que creará 15.000 puestos de trabajo . </example>
+        <example file="CESS-CAST-P/113_20000201.tbf.xml" nodepath="12.2.1.3.1.0.1.0" sentencenodepath="12">El presidente de Microsoft , Bill_Gates , atribuyó el retraso de Europa respecto_a Estados_Unidos en <argset><specifier>la</specifier><head>implantación </head></argset>y desarrollo de Internet al monopolio en las llamadas telefónicas locales que todavía existe en muchos países , entre ellos España . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="implantar" originlink="verb.implantar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="3" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="2.2.3.1.1.1.1.1.1.1.0.0" sentencenodepath="2">Verino declaró que Ø tiene muchos problemas para desarrollar su proyecto de <argset><head>implantación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de toda su infraestructura de logística e I+D</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Parque_Tecnológico_de_Galicia , ubicado en el polígono industrial de San_Cibrao_de_Viñas ( Orense )</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="5.3.1.0" sentencenodepath="5">Respecto_a la oferta automovilística de la marca , el máximo responsable de Citroen explicó <argset><specifier>la</specifier><head>implantación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una nueva estrategia</argument></argset>, con la aparición en el Salón parisino de la nueva berlina C5 , a la que seguirán en próximos lanzamientos un pequeño C3 y un lujoso C6 . </example>
+        <example file="CESS-CAST-AA/2698_20000203.tbf.xml" nodepath="2.3.4.2.1.1.0" sentencenodepath="2">Ø Explicó que la tecnología ADSL es la única que establece tarifa plana , aunque Ø reconoció que Ø no es " muy económica " y que <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>implantación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en España</argument></argset>es escasa . </example>
+        <example file="CESS-CAST-AA/5255_20000110.tbf.xml" nodepath="0.3.2.0.3.1.2.1.1.0" sentencenodepath="0">La imagen corporativa del nuevo Banco_Bilbao_Vizcaya_Argentaria ( BBVA ) mantendrá los colores y tipografía del Banco_Bilbao_Vizcaya ( BBV ) , lo que permitirá a la entidad un ahorro de costes en <argset><specifier>la</specifier><head>implantación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la nueva marca</argument></argset>de unos 26.000 millones de pesetas , según fuentes de la entidad . </example>
+        <example file="CESS-CAST-P/141_19990302.tbf.xml" nodepath="1.3.1.1.1.1.1.1.1.1.3.2.1.1.0" sentencenodepath="1">Gorka , nombre del joven sometido al piercing , justificó su petición en el deseo de complacer a su mujer , que esperaba lograr una mayor satisfacción sexual tras <argset><specifier>la</specifier><head>implantación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un pequeño aro</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la punta del glande</argument></argset>. </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="20.2.0.2.3.1.1.1.1.2.1.1.0" sentencenodepath="20">Ø Estarán de_acuerdo conmigo que hubiera sido mejor el análisis de las previsibles dificultades en <argset><specifier>la</specifier><head>implantación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del fatídico decreto</argument></argset>que llegar a la actual situación , en la que los auténticamente enfrentados - - los defensores de la vía MIR ( incluidos la mayoría de médicos de hospitales públicos que secundaron la huelga el pasado Martes ) y la Administración estatal - - pretenden buscar soluciones técnicamente aceptables en un marco distorsionado por el conflicto y las consiguientes presiones de terceros . </example>
+        <example file="CESS-CAST-P/73_20000201_e.tbf.xml" nodepath="2.2.3.1.1.1.1.1.0" sentencenodepath="2">La entidad recordó que medidas similares en los aeropuertos de Londres precisaron de 20 meses para <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>implantación </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

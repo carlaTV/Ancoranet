@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="opción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="optar" originlink="verb.optar.1" wordnetsynset="16:04463475">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="tem">
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="17" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="atr">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="r" type="determiner"/>
+        <constituent frequency="12" postype="indefinite" type="determiner"/>
+        <constituent frequency="15" type="void"/>
+        <constituent frequency="15" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="6" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="9" type="S"/>
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="2" type="sn"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="8.2.2.2.1.1.0" sentencenodepath="8">No_obstante , Ø ya se ha resignado a alterar sus prácticas comerciales y Ø ha propuesto dar a los fabricantes de ordenadores mayor flexibilidad en la elección del sistema de operación y a los consumidores <argset><specifier>más</specifier><head>opciones </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para el uso de programas que no funcionen con Windows</argument></argset>. </example>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="10.1.2.1.2.0" sentencenodepath="10">En esa situación , sus recursos legales podrían tramitarse en tribunales de apelación o Ø podrían pasar directamente al Tribunal_Supremo_de_Justicia <argset>, <specifier>una</specifier>
+            <head>opción </head>
+            <reference_modifiers>que existe para los grandes casos de monopolio</reference_modifiers>
+          </argset>. </example>
+        <example file="3LB-CAST/a12-3.tbf.xml" nodepath="4.0.2.2.1.1.1.1.1.0" sentencenodepath="4">El bigote es algo muy serio y Ø no puede tomarse a_la_ligera , y los bigotudos saben de la trascendencia de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>opción </head></argset>: el bigote es para toda la vida . </example>
+        <example file="3LB-CAST/c2-0.tbf.xml" nodepath="6.1.3.1.1" sentencenodepath="6">Claro que aún hay <argset><specifier>una</specifier><reference_modifiers>tercera</reference_modifiers><head>opción </head></argset>en el derribo . </example>
+        <example file="3LB-CAST/e1-2.tbf.xml" nodepath="2.3.1.1.0" sentencenodepath="2">ZZNM , en_cambio , simboliza tan_solo <argset><specifier>una</specifier><head>opción </head><reference_modifiers>puramente privada y por nadie compartida</reference_modifiers></argset>en el contexto social de sus andanzas . </example>
+        <example file="3LB-CAST/t3-6.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">A_través_de las cortinas de lluvia y lágrimas , el mar era <argset><specifier>una</specifier><head>opción </head><reference_modifiers>: o avanzar hacia las definitivas profundidades y hundir para siempre la piedra oscura que le ocupaba el cerebro o regresar a la playa para recuperar la penumbra de una fuga frustrada</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/11099_20000915.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">El alcalde de Osaka fundamentó <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>opciones </head></argset>en el gran plan de reurbanización que se culminará en el año_2007 , las modernas infraestructuras de telecomunicaciones , la protección del medio_ambiente , la seguridad y lo atractivo del proyecto , cuyas instalaciones ya están en buena parte construidas y que tendrán su centro neurálgico en tres islas . </example>
+        <example file="CESS-CAST-A/11476_20000614.tbf.xml" nodepath="2.0.4.3.2.0.0" sentencenodepath="2">Pinillos llegó la pasada campaña al CD_Toledo , cedido por el Deportivo_de_la_Coruña , con <argset><head>opción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a un segundo año , ya en propiedad ,</argument><reference_modifiers>que hizo valer el Consejo_de_Administración toledano</reference_modifiers></argset>, y Ø tiene una cláusula de rescisión de 300 millones de pesetas . </example>
+        <example file="CESS-CAST-A/11714_20000314.tbf.xml" nodepath="0.2.3.1.1.5.1.0" sentencenodepath="0">El presidente del PP catalán , Alberto_Fernández_Díaz , ha advertido hoy a CiU de que Ø debe elegir entre ellos y ERC para garantizar la gobernabilidad en Cataluña y Ø se ha mostrado convencido de que finalmente Jordi_Pujol no tendrá <argset><specifier>más</specifier><head>opción </head><reference_modifiers>que pactar con el PP como tuvo que hacer para su investidura</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/12375_20000119.tbf.xml" nodepath="9.3.3.1.0" sentencenodepath="9">En su campaña por toda Croacia , que Ø realiza de forma improvisada recorriendo el país en un automóvil prestado , Mesic promete " el establecimiento del Estado_de_Derecho , <argset><specifier>la</specifier><head>opción </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">europea</argument></argset>y la entrada de capital extranjero para activar nuestros recursos " . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="9.2.1.0" sentencenodepath="9">El Barcelona echó_por_tierra <argset><specifier>la mayoría de sus</specifier><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ganar el título de Liga por tercera vez consecutiva</argument></argset>al caer derrotado en Oviedo por 3-0 , un resultado al que parece abonado el equipo de Louis_van_Gaal . </example>
+        <example file="CESS-CAST-A/14353_20000618.tbf.xml" nodepath="5.2.2.4.1.1.0" sentencenodepath="5">Este rotativo lamenta también la actitud de los hinchas ingleses y Ø sostiene que los disturbios " podrían haber acabado con <argset><specifier>las</specifier><head>opciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Inglaterra</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de organizar el mundial del 2006</argument></argset>" . </example>
+        <example file="CESS-CAST-A/1538_20001103.tbf.xml" nodepath="6.0.2.1.0.1.5.1.2.5.4.1.0" sentencenodepath="6">El resultado favorece al Atlético_Nacional , que jugará el partido de vuelta en su cancha , el Atanasio_Girardot de Medellín , el próximo jueves_9_de_noviembre , cuando Ø podrá disponer de todos sus titulares , ya_que Ø ha perdido <argset><specifier>toda</specifier><head>opción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de entrar en la fase decisiva de la Liga de Colombia</argument></argset>, mientras_que Millonarios deberá jugar con algunos reservas , ya_que Ø aspira a una plaza en la final local . </example>
+        <example file="CESS-CAST-A/15839_20000123.tbf.xml" nodepath="2.2.1.1.1.1.1.2.1.1.1.1.1.0" sentencenodepath="2">Rato defiende el sistema de Oferta_Pública_de_Venta utilizado por el Gobierno del PP frente_a la política de fomento de " núcleos estables " practicada por el Ejecutivo del PSOE , además_de mostrarse muy crítico sobre los ataques de los socialistas hacia el reparto de <argset><specifier>las</specifier><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre acciones</argument></argset>aprobado por Telefónica . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">La decisión , que , a su juicio , demuestra la sintonía política con Mas ante el congreso del partido previsto para el mes_de_noviembre , favorece <argset><specifier>las</specifier><head>opciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del portavoz del gobierno catalán y conseller de Economía</argument></argset>en la " pugna " que Ø mantiene con el líder de UDC , Josep_Antoni_Duran_i_LLeida , por la sucesión de Jordi_Pujol en el seno de CiU . </example>
+        <example file="CESS-CAST-A/16712_20000825.tbf.xml" nodepath="6.5.4.5.4.1.0.0" sentencenodepath="6">Aranzubía se plantea la experiencia de Sydney como " algo que pocos deportistas tienen la oportunidad de vivir , porque Ø representas a tu país y Ø además convives con personas de otros lugares " , aunque Ø reconoce que el interés por los Juegos_Olímpicos " es mayor porque Ø vamos allí con <argset><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ganar medalla</argument></argset>" . </example>
+        <example file="CESS-CAST-A/18886_20000323.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">Respecto_a <argset><specifier>las</specifier><head>opciones </head><reference_modifiers>que su equipo puede tener para conseguir su primer título de Liga</reference_modifiers></argset>, Pauleta dijo : " Ø nos lo merecemos y Ø tenemos las condiciones necesarias para conseguirlo " . </example>
+        <example file="CESS-CAST-AA/20667_20000128.tbf.xml" nodepath="3.3.4.5.2.1.0.2.1.0" sentencenodepath="3">El estadounidense Donny_Harris podría volver a la convocatoria de doce jugadores , ya_que en estos momentos Ø son trece en la plantilla y para el encuentro contra los vigueses uno de ellos se tiene que quedar fuera , para lo cual tiene <argset><specifier>más</specifier><head>opciones </head></argset>Juan_Marín . </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="2.7.0.1.0.0" sentencenodepath="2">Según el alcalde de Jerez_de_la_Frontera y candidato andalucista , tras el acuerdo federal entre el PSOE e IU , el PA " se quedó casi en exclusiva como <argset><head>opción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de centro izquierda</argument></argset>" , " tranquilo " y " en_medio_de la derecha de siempre y la izquierda " . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="3.2.4.1.0" sentencenodepath="3">El secretario de Estado auguró que la entrada en la UE de varios países del Este supone para España <argset><specifier>una</specifier><head>opción </head><reference_modifiers>" única "</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de entablar " lazos "</argument></argset>, después de que por " razones históricas en el pasado y políticas en años presentes " , Ø haya estado " desgajada " de ellos . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="11.3.1.2.1.1.1.2.1.0.3.1.2.1.0" sentencenodepath="11">De_Miguel expresó también la disposición del Gobierno a aceptar una posible modificación del artículo 7 del Tratado , que recoge <argset><specifier>la</specifier><head>opción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de expulsar a un Estado por deficiencias democráticas</argument></argset>, y al que Ø calificó como " una bomba nuclear que no se utiliza " . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="2.1.0.2.1.1.0" sentencenodepath="2">En ese documento , Bruselas considera que <argset><specifier>la</specifier><head>opción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">nuclear</argument></argset>contribuye a la reducción de emisiones de gases de efecto invernadero y Ø garantiza el suministro energético de la Unión . </example>
+        <example file="CESS-CAST-AA/25091_20000929.tbf.xml" nodepath="0.2.2.1.1.1.0" sentencenodepath="0">El secretario general del PCE y candidato a Coordinador_General_de_Izquierda_Unida , Francisco_Frutos , afirmó hoy que en la VI_Asamblea existe un riesgo de " enfrentamiento abierto " dentro de la coalición , y Ø añadió que con <argset><specifier>la</specifier><head>opción </head><reference_modifiers>que él representa</reference_modifiers></argset>se puede solventar el " enfrentamiento interno " . </example>
+        <example file="CESS-CAST-AA/25491_20000331.tbf.xml" nodepath="2.4.5.0.1.5.2.1.1.0.0" sentencenodepath="2">El equipo catalán podría llegar a clasificarse igualmente empatando , aunque para ello deberían acabar en tablas Novara y Barcelos , que se enfrentan entre ellos en pista italiana y también con <argset><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de clasificación</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">para ambos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3047_20000106.tbf.xml" nodepath="1.2.2.1.0" sentencenodepath="1">El otro finalista de esta competición mixta por equipos no se conocerá hasta el viernes , pero el equipo de Tailandia tiene <argset><specifier>muchas</specifier><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de disputar el título a los surafricanos</argument></argset>tras vencer hoy a Eslovaquia por 3-0 . </example>
+        <example file="CESS-CAST-AA/3121_20000605.tbf.xml" nodepath="6.1.0.2.7.3.1.1.0" sentencenodepath="6">En su editorial , Ø subraya que " esta nueva muerte acentúa todavía más el fatalismo " , porque " desgraciadamente <argset><specifier>todas las</specifier><head>opciones </head><reference_modifiers>democráticas</reference_modifiers></argset>han perdido protagonismo , el fatalismo crece en las calles del País_Vasco al_lado_del miedo y la crispación " y Ø añade " con el asesinato de Jesús_María_Pedrosa ETA retoma la ofensiva contra el PP . El PP no había parado la_suya contra el PNV . Ahora Ø la intensificará que " . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="6.0.3.2.1.5.4.2.3.2.1.0" sentencenodepath="6">" Aún_así , esperemos Ø que la resaca del Bayern no nos pase factura . Contra el Racing Ø pagamos el esfuerzo y Ø deseo y Ø espero que Ø no nos vuelva a pasar , ya_que Ø es un partido fundamental y Ø debemos ganarlo porque todavía está todo en el aire y Ø seguimos teniendo <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestras</argument><head>opciones </head></argset>" , continuó el entrenador . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="12.2.1.1.3.2.1.1.0" sentencenodepath="12">Ø Buscará una victoria que le permita sobrepasar al equipo madridista en la tabla clasificatoria y acrecentar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de participar en la Liga_de_Campeones de la próxima temporada</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3291_20000304.tbf.xml" nodepath="2.2.3.5.1.0" sentencenodepath="2">Asimismo , el dirigente popular ha acusado a CiU de " esconder su predisposición a pactar con el PSOE " , y Ø ha apelado al " voto útil y consciente " porque " en Cataluña sólo hay <argset><specifier>dos</specifier><head>opciones </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en estas elecciones</argument><reference_modifiers>, Aznar o Almunia</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/4618_20001207.tbf.xml" nodepath="0.5.6.1.1.0" sentencenodepath="0">El delantero colombiano Carlos_Castro que milita en Millonarios , equipo que quedó eliminado del cuadrangular final del Campeonato_Profesional_Colombiano , se afianza cada vez más como el goleador general del torneo , pues sus adversarios que están en competencia , se alejan cada vez más de <argset><specifier>la</specifier><head>opción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de alcanzarlo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4618_20001207.tbf.xml" nodepath="1.4.5.0.0" sentencenodepath="1">Castro que sumó 24 goles en la temporada , espera pacientemente a que termine la final colombiana , en la que sus más inmediatos rivales el brasileño Marquinho y el colombiano Orlando_Ballesteros , ambos del Junior , suman tan_solo 16 y 15 goles , respectivamente , y quienes en la jornada de hoy no tuvieron <argset><head>opción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de acortar la ventaja</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5124_20000307.tbf.xml" nodepath="7.0.0.2.1.1.0" sentencenodepath="7">" Votando por <argset><specifier>aquellas</specifier><head argument="arg1" thematicrole="tem">opciones </head><reference_modifiers>que consideren más procedentes , y que entiendan que rechazan con mayor contundencia y actúan con mayor eficacia para erradicar el terrorismo</reference_modifiers></argset>" , precisó el presidente del Gobierno_de_Navarra , quien pidió a los navarros " que Ø actúen sin miedo y Ø asuman en las elecciones su responsabilidad como ciudadanos para defender las libertades " . </example>
+        <example file="CESS-CAST-AA/5244_20000908.tbf.xml" nodepath="7.0.3.1.0" sentencenodepath="7">Muchos de los restaurantes de Sydney también reducirán <argset><specifier>las</specifier><head>opciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de sus menús</argument></argset>y Ø hasta cobrarán 50 dólares a aquellas personas que cancelen sus reservas o que no cumplan con el horario fijado . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="9.2.1.1.0" sentencenodepath="9">Las asociaciones automovilísticas han reiterado que <argset><specifier>su</specifier><head>opción </head><reference_modifiers>preferida</reference_modifiers></argset>es la retirada del distintivo provincial , con_el_objetivo_de facilitar un mayor dinamismo en el mercado de ocasión . </example>
+        <example file="CESS-CAST-AA/5808_20001108.tbf.xml" nodepath="14.1.1.1.1.4.1.0" sentencenodepath="14">Aunque como todo parece apuntar , Haider no arrojará la toalla en la escena política , el hecho de que Ø deje abierta <argset><specifier>esa</specifier><head>opción </head></argset>, aunque Ø sea sólo públicamente , es indicativo de que Ø necesita tomar el pulso a la opinión pública en_general , y a su partido y a su electorado , en_particular , para saber qué hacer en este momento de crisis . </example>
+        <example file="CESS-CAST-AA/6013_20000408.tbf.xml" nodepath="0.5.1.1.1.1.5.5.0.0" sentencenodepath="0">Deportivo_Alavés y Espanyol dirimirán este domingo en Mendizorroza una confrontación plagada de alicientes en_aras_de lograr una victoria que acerque un poco más a Europa a cualquiera de ambos equipos , aunque los vitorianos todavía acarician <argset><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de meter la cabeza en la Liga_de_Campeones</argument></argset>a_expensas_de otros resultados . </example>
+        <example file="CESS-CAST-AA/7642_20000309.tbf.xml" nodepath="5.4.5.3.1.1.0.0" sentencenodepath="5">En referencia al trascendental choque ante el equipo de Javier_Irureta , el central sueco tiene claro que sólo les vale la victoria si Ø quieren seguir con <argset><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">al título de liga</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8656_20000813.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La golfista zaragozana Raquel_Carriedo tiene <argset><specifier>muchas</specifier><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ser la primera jugadora española que compita con el equipo europeo en la Copa_Solheim , la réplica femenina de la Copa_Ryder , que se disputará del 6 al 8_de_octubre próximo en Loch_Lomond</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8656_20000813.tbf.xml" nodepath="4.0.3.3.0.0" sentencenodepath="4">" Este año Ø he acabado cinco torneos del circuito europeo entre las diez primeras , algo que no es nada fácil , y en algunos Ø he tenido <argset><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">para ganar</argument></argset>" , destacó Ø . </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="9.3.0.0" sentencenodepath="9">Las llanuras de la región de La_Vienne no darán <argset><head>opción </head></argset>a ninguno de los candidatos a la victoria final a poder esconderse en el interior del pelotón . </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="25.0.3.0.1.0" sentencenodepath="25">" Ø Tiene <argset><specifier>tantas</specifier><head>opciones </head></argset>como Ullrich , Zülle y Armstrong " , dijo Ø . </example>
+        <example file="CESS-CAST-P/108_20000301_a.tbf.xml" nodepath="3.0.1.3.3.3.0.0" sentencenodepath="3">" Ø Sólo volvimos porque Ø creíamos que Ø teníamos <argset><head>opciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ganar la carrera con nuestro corredor argentino Martín_Garrido</argument></argset>. Hace un año los camiones te adelantaban a 70 o 80 kilómetros por hora . Ø Pasaban al pelotón como si nada y , en una llegada , los ciclistas tuvieron que sortear a coches que estaban en marcha , mientras Ø disputaban el esprint . Este año Ø se los han encontrado de_frente y ha llegado la desgracia " , explicó ayer con gran tristeza José_María_Pérez , director deportivo del Relax_Fuenlabrada y descubridor de Morales . </example>
+        <example file="CESS-CAST-P/108_20000601_a.tbf.xml" nodepath="13.1.2.2.1.0" sentencenodepath="13">En esa situación , sus recursos podrían tramitarse en tribunales de apelación o pasar al Tribunal_Supremo <argset>, <head>opción </head>
+            <reference_modifiers>viable para los grandes casos de monopolio</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/10_20010402_b.tbf.xml" nodepath="5.4.4.1.1.2.2.1.0.0" sentencenodepath="5">El porcentaje de la población de la tercera edad ( más de 65 años ) que tiene algún tipo de servicios domiciliarios en nuestro país ayudando a las familias en el cuidado de ancianos y personas con discapacidades es sólo del 1,4% ( en Catalunya Ø es el 1,5% ) , contrastando con Suecia ( 30% ) , país que ha estado gobernado 48 años , desde la segunda guerra mundial , por <argset><head>opciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">socialdemócratas</argument></argset>. </example>
+        <example file="CESS-CAST-P/121_19991202_a.tbf.xml" nodepath="15.3.3.1.0" sentencenodepath="15">El madrileño aseguró ayer que Ø ha escogido <argset><specifier>la</specifier><head>opción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Ford</argument></argset>porque Ø quiere seguir ganando carreras , según comentó el nuevo hombre de la marca del óvalo . </example>
+        <example file="CESS-CAST-P/143_20010302.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">El conjunto de Sergio_Scariolo no dio <argset><specifier>ninguna</specifier><head>opción </head></argset>. </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="3.2.3.2.1.1.0.2.2.1.1.1.0" sentencenodepath="3">Ø Entiendo que en las elecciones del 17_de_octubre_de_1999 los ciudadanos y ciudadanas , con sus votos mayoritarios pero no suficientes para que <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestra</argument><head>opción </head></argset>pudiera gobernar , estaban pidiendo un cambio de estilo , de tono y de actitud , que podría resumirse con estas palabras : " Ø No queremos que Ø gobernéis todavía , pero Ø sí queremos que Ø tengáis la suficiente fuerza parlamentaria para propiciar otra manera de hacer las cosas " . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>La otra</specifier><head>opción </head><reference_modifiers>, las líneas de Trasmediterránea - - con un catamarán que hace el viaje en cuatro horas - - ,</reference_modifiers></argset>no es menos complicada . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="30.4.1.1.1.0.0" sentencenodepath="30">En las próximas elecciones autonómicas , el Partido_Popular ya será un partido con <argset><head>opción </head><reference_modifiers>clara</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de gobernar en Catalunya</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="31.3.1.1.0.0" sentencenodepath="31">Es lógica la aportación de Piqué , como <argset><head>opción </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de futuro</argument></argset>y por su condición de ministro . </example>
+        <example file="CESS-CAST-P/3_20020302.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La otra</specifier><head>opción </head><reference_modifiers>, más económica ,</reference_modifiers></argset>es que cada radar disponga de un disco que archive las imágenes y que un guardia_urbano se encargue de recogerlo cada semana . </example>
+        <example file="CESS-CAST-P/42_20020802.tbf.xml" nodepath="7.2.2.3.1.0" sentencenodepath="7">Hierro lo tiene crudo frente_a shows de canciones del verano , pero es de agradecer que TVE tenga <argset><specifier>una</specifier><head>opción </head><reference_modifiers>digna</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">para aquellos a los que no les hagan tilín referentes sociales de la categoría de Chenoa y Bisbal</argument></argset>. </example>
+        <example file="CESS-CAST-P/82_19991202.tbf.xml" nodepath="5.2.2.4.1.0.0" sentencenodepath="5">Mayol admite que " es difícil cambiar la costumbre " , pero Ø espera que en unos años el abeto sea relevado por <argset><head argument="arg1" thematicrole="tem">opciones </head><argument argument="argM" function="cn" thematicrole="atr" type="sp">con más posibilidades de supervivencia en el clima mediterráneo</argument></argset>. </example>
+        <example file="CESS-CAST-P/8_20011202.tbf.xml" nodepath="7.2.1.0" sentencenodepath="7">O_sea : <argset><specifier>la</specifier><head>opción </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del catedrático</argument></argset>vale lo mismo que la del estudiante . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

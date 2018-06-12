@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="concentración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="concentrar" originlink="verb.concentrar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>concentración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de camiones</argument></argset>, tanto en_dirección_a Alicante como a Barcelona , se ha iniciado sobre las 07.00 horas en_torno_al kilómetro 500 , a la altura del término de Paterna , donde se produce el enlace del " By-Pass " con la V-30 , por donde se canaliza el tráfico al Puerto_de_Valencia . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="6.2.1.1" sentencenodepath="6">A_partir_de las 11.30 horas , empezó <argset><specifier>una</specifier><reference_modifiers>nueva</reference_modifiers><head>concentración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de camiones</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la N-340 Valencia-Barcelona a su paso por la localidad de Sagunto</argument></argset>, según fuentes de Tráfico . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="8.4.4.4.0.0" sentencenodepath="8">La protesta en los puertos se traduce en una ausencia de actividad del transporte , ya_que Transcont considera que no se deben realizar <argset><head>concentraciones </head></argset>" para no molestar a la sociedad " . </example>
+        <example file="CESS-CAST-A/1587_20000703.tbf.xml" nodepath="4.0.3.1.1.0" sentencenodepath="4">Pero Ronaldo retornó a <argset><specifier>la</specifier><head>concentración </head></argset>en un helicóptero , Ø pasó literalmente volando sobre la Aduana y con ello Ø habría burlado la fiscalización oficial al límite de compras de 500 dólares que rige para los brasileños que regresan al país . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="0.5.2.1.0.0.1.1.1.0" sentencenodepath="0">La Iglesia filipina instó hoy Sábado al presidente Joseph_Estrada a " volver a la gracia de Dios " y renunciar a su cargo , durante la mayor de <argset><specifier>las</specifier><head>concentraciones </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">de protesta</argument><reference_modifiers>celebradas hasta ahora en Manila contra el jefe del Estado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="14.3.0.1.0.0" sentencenodepath="14">La oposición ha iniciado " una rebelión histórica contra el fraude " con <argset><head>concentraciones </head><reference_modifiers>diarias</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en las plazas de Belgrado y otras ciudades serbias</argument></argset>y con el paro de escuelas , universidades , tráfico , fábricas y teatros . </example>
+        <example file="CESS-CAST-AA/8193_20000511.tbf.xml" nodepath="12.0.2.4.1.1.0.0" sentencenodepath="12">Ø Dijo que esa unidad no debe limitarse a convocar <argset><head>concentraciones </head></argset>después de cada desgracia y Ø apostó por definir una estrategia para combatir la violencia , similar a la que se diseñó en el Pacto_de_Ajuria_Enea para combatir el terrorismo . </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="11.3.1.0.1.1.5.1.1.1.0" sentencenodepath="11">El líder de esta central , Hubertus_Schmoldt , supeditó el apoyo de los trabajadores al compromiso de que los empleos en Alemania y Francia no se vean afectados por <argset><specifier>la</specifier><head>concentración </head></argset>. </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="2.4.1.1.2.1.1.1.1.1.1.3.0.0.0" sentencenodepath="2">" Estos equipos con su público atacan en_tromba . Hay que evitar tener esos cinco o diez minutos malos que pueden hacer que se te vaya toda una eliminatoria " , manifestó el capitán Mendieta , opinión compartida por Cúper en la preparación de un partido para el que Ø exige <argset><head>concentración </head>, serenidad y disciplina </argset>para superarlo con éxito . </example>
+        <example file="CESS-CAST-P/32_20000801.tbf.xml" nodepath="4.1.1.0" sentencenodepath="4">En Barcelona , <argset><specifier>una</specifier><head>concentración </head><reference_modifiers>silenciosa</reference_modifiers><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de cinco minutos</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la plaza de Sant_Jaume</argument></argset>reunió a un centenar de personas . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">La policía y la Guardia_Nacional impiden <argset><specifier>más</specifier><head>concentraciones </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">ante el centro de congresos</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000402.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>concentración </head></argset>se disolvió sin incidentes . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="13.3.3.1.2.1.0.1.1.1.0.0" sentencenodepath="13">Por esta razón , la CCC reclama que la Generalitat realice un nuevo estudio sobre el grado de <argset><head>concentración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de grandes superficies</argument></argset>y la oferta de comercios en Catalunya . </example>
+        <example file="CESS-CAST-P/77_20000502.tbf.xml" nodepath="1.1.1.1.1.1.0" sentencenodepath="1">En la parte superior , a la derecha , una imagen de <argset><specifier>la</specifier><head>concentración </head><reference_modifiers>celebrada en Hannóver</reference_modifiers><reference_modifiers>, a la que el canciller Schröder asistió en_compañía_de los dirigentes sindicales</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="concentrar" originlink="verb.concentrar.2" wordnetsynset="16:03970585">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="3" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="2.2.4.1.2.1.1.0" sentencenodepath="2">Zubía explicó que , además_del " vertiginoso avance tecnológico " de los últimos años , el desprestigio sufrido por la Formación_Profesional ( FP ) ha provocado un abandono de estos oficios en_favor_de <argset><specifier>una</specifier><head>concentración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de estudiantes</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en carreras universitarias de bajo o muy bajo grado de inserción laboral , como el Derecho o Psicología</argument></argset>. </example>
+        <example file="CESS-CAST-A/10049_20001114.tbf.xml" nodepath="0.3.3.1.1.1.1.1.1.0.0" sentencenodepath="0">La Comisión_Europea anunció hoy , martes , que Ø ha recibido la notificación de un proyecto de <argset><head>concentración </head></argset>por el cual Stet_International_Netherlands ( SIN ) , Endesa_Telecomunicaciones ( ET ) y Unión_Fenosa_Inversiones ( UFINSA ) adquieren el control común de varias empresas españolas de cable . </example>
+        <example file="CESS-CAST-A/10049_20001114.tbf.xml" nodepath="7.3.3.0.1.1.0.1.1.0.1.1.1.2.1.0.0" sentencenodepath="7">Tras el examen preliminar de la documentación presentada , los servicios de competencia de la Comisión_Europea estiman que la operación podría entrar dentro del campo de aplicación de la reglamentación comunitaria sobre <argset><head>concentraciones </head></argset>. </example>
+        <example file="CESS-CAST-A/10049_20001114.tbf.xml" nodepath="8.3.1.3.1.1.1.1.0.0" sentencenodepath="8">La Comisión_Europea invita a las terceras partes interesadas en esta operación a trasmitirle sus observaciones en el plazo de diez días sobre este proyecto de <argset><head>concentración </head></argset>. </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="11.2.1.1.3.0.2.1.0.0" sentencenodepath="11">La medida fue adoptada con_el_objeto_de establecer si la operación implica eventuales riesgos de <argset><head>concentración </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">monopolística</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el sector sanitario</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21460_20000526.tbf.xml" nodepath="4.3.1.2.3.1.0.1.1.1.1.0" sentencenodepath="4">Para el coordinador de IU en Asturias , el rechazo a la OPA era la única medida que podía adoptar el Gobierno ante el aumento de <argset><specifier>la</specifier><head>concentración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del sector eléctrico</argument></argset>y la incidencia que la misma tendría en los consumidores . </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="5.0.1.1.2.1.1.1.0" sentencenodepath="5">La fusión , la respuesta a <argset><specifier>la</specifier><head>concentración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las suizas Ciba y Sandoz</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Novartis</argument></argset>, costará unos 286.000 millones de pesetas , según el responsable financiero del nuevo conglomerado , Patrick_Langlois . </example>
+        <example file="CESS-CAST-P/107_19991001.tbf.xml" nodepath="0.4.2.1.0.3.3.1.1.1" sentencenodepath="0">El ministro de Industria y Energía , Josep_Piqué , afirmó ayer que el sector agroalimentario español está demasiado atomizado , por lo que es " conveniente e inevitable " que Ø avance hacia <argset><specifier>una</specifier><reference_modifiers>progresiva</reference_modifiers><head>concentración </head></argset>, como estrategia para fortalecer su posición frente_al sector de la distribución . </example>
+        <example file="CESS-CAST-P/107_19991001.tbf.xml" nodepath="3.2.4.1.1.4.1.1.0" sentencenodepath="3">El secretario general de la FIAB , Jorge_Jordana , admitió que sólo a_través_del crecimiento y de la mayor dimensión se puede hacer_frente a la " enfermedad francesa " de <argset><specifier>la</specifier><head>concentración </head></argset>, que se ha visto agravada recientemente con la fusión de los grupos Carrefour y Promodès . </example>
+        <example file="CESS-CAST-P/120_20010103.tbf.xml" nodepath="12.2.3.1.1" sentencenodepath="12">Salvo la concesión de Rivaldo y Overmars , Serra_Ferrer no quiere correr riesgos y Ø ha reclamado a los jugadores <argset><specifier>la</specifier><reference_modifiers>máxima</reference_modifiers><head>concentración </head></argset>. </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="11.0.0.0" sentencenodepath="11"><argset><head>Concentración </head></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="passive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="S"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="20.0.1.1.0" sentencenodepath="20">Sobre <argset><specifier>la</specifier><head>concentración </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">por la paz</argument><reference_modifiers>que Ibarretxe ha convocado para mañana</reference_modifiers></argset>, Aznar le trasladó su " rotundo apoyo " siempre_que Ø sea " unitaria " , es_decir , que HB no lleve un lema propio . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="7.4.2.1.1.0" sentencenodepath="7">El plan de ajuste es la única salida posible , según la dirección de ABB_Alstom_Power , a la sobrecapacidad , los precios a la baja y a <argset><specifier>la</specifier><head>concentración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la producción</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Europa</argument><argument argument="argM" function="cn" thematicrole="tmp" type="S">cuando los mercados están fuera del continente</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="concentrar" originlink="verb.concentrar.2" wordnetsynset="16:03970585">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="58.2.0.1.0" sentencenodepath="58">Otra cosa es <argset><specifier>la</specifier><head>concentración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de medios</argument></argset>o que en muchas ciudades ya sólo se edite un solo diario . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="concentrar" originlink="verb.concentrar.2" wordnetsynset="16:03970585">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3291_20000304.tbf.xml" nodepath="3.5.2.2.0" sentencenodepath="3">En este sentido , Fernández , que se reúne hoy con representantes del PP de las comarcas del Maresme , Osona , Berguedá y la Cerdanya , ha llamado al electorado del PP a movilizarse puesto_que , a su juicio , <argset>" <specifier>la</specifier>
+            <head>concentración </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">del voto</argument>" </argset>es la única vía para garantizar la continuidad del Gobierno de Aznar . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="campo_de_concentración" cousin="no" denotation="result" id="5" lexicalizationtype="nominal" lexicalized="yes" originlemma="concentrar" originlink="verb.concentrar.1" wordnetsynset="16:cs3">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/n1-13.tbf.xml" nodepath="13.2.0.1.1.1.1.1.0.1.1.0.0" sentencenodepath="13">- Lo único que ocurre es que una cámara atrae otras cámaras : la de Spielberg arrastra a las de la televisión , y éstas a las de los curiosos - , comenta uno de los vigilantes del campo de <argset><head>concentración </head></argset>- museo de Auschwitz . </example>
+        <example file="CESS-CAST-AA/4901_20001107.tbf.xml" nodepath="7.1.1.0.1.1.1.1.1.1.1.0.1.1.1.1.1.0.0" sentencenodepath="7">Pero para Arthur_Titherington , presidente de la asociación de supervivientes de los campos de <argset><head>concentración </head></argset>japoneses , eso no fue suficiente ni adecuado , al considerar que las autoridades niponas deben utilizar la palabra " shazai " , que en japonés significa el reconocimiento de que " Ø he cometido una ofensa por la que de forma humilde Ø pido perdón " . </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="10.5.1.0.1.1.0.0" sentencenodepath="10">En 1941 , tras el ataque de Pearl_Harbor , Franklin_Delano_Roosevelt confinó a más de 100.000 japoneses en campos de <argset><head>concentración </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

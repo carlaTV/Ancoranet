@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="queja" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="quejar" originlink="verb.quejar.1" wordnetsynset="16:05051294">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="tem">
+        <constituent frequency="3" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="14.4.1.0.2.2.2.2.0.1.0" sentencenodepath="14">Durante la visita , los expertos se entrevistaron con responsables políticos que aseguraron que , tras la publicación de un decreto el pasado año , la imposición de trabajos forzosos u obligatorios ha sido suspendida en la práctica y <argset><specifier>ninguna</specifier><head>queja </head></argset>ha llegado al conocimiento de los órganos de aplicación de la ley . </example>
+        <example file="3LB-CAST/r2-2.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>La</specifier><head argument="arg1" thematicrole="tem">queja </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de alguna de sus señorías socialistas</argument></argset>es que González no aprovechara la ocasión para sentar al PP en la mesa de la negociación y cerrar el acuerdo de cubrir las vacantes de las otras instituciones . </example>
+        <example file="CESS-CAST-A/11011_20000914.tbf.xml" nodepath="4.2.7.1.1.1" sentencenodepath="4">Leiva afirmó que Aeronáutica_Civil " está vigilando estrechamente a las líneas aéreas " ante <argset><specifier>las</specifier><reference_modifiers>continuas</reference_modifiers><head>quejas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los pasajeros</argument></argset>, especialmente de TACA , por el constante extravío de equipaje , suspensión abrupta de vuelos o cancelación de cupos , aunque el usuario haya comprado su billete . </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="8.3.0.0" sentencenodepath="8">A_diario se escuchan <argset><head>quejas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la ciudadanía</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por el alto coste de la vida y la constante pérdida del valor adquisitivo del sucre ( moneda local ) , que será relegado a un segundo plano con la " dolarización "</argument></argset>. </example>
+        <example file="CESS-CAST-A/17249_20001021.tbf.xml" nodepath="7.3.1.0" sentencenodepath="7">Sin_embargo , Ø presentó <argset><specifier>una</specifier><head>queja </head></argset>ante el Ministerio_de_Relaciones_Exteriores alegando que el domicilio del funcionario fue allanado al incumplir convenios internacionales sobre la inviolabilidad de domicilio e inmunidad de los diplomáticos . </example>
+        <example file="CESS-CAST-AA/21176_20000626.tbf.xml" nodepath="2.4.1.1.2.1.1.0.1.5.4.6.1.2.4.1.1.0" sentencenodepath="2">Tras su victoria , el jugador estadounidense , que busca alcanzar en solitario el récord de doce títulos del Grand_Slam que Ø comparte con el australiano Roy_Emerson , no pudo sustraerse a la gran polémica suscitada por Corretja y Costa , que ayer domingo abandonaron el torneo , forzando a la organización a tomar una medida sin precedentes , pues Ø les dejaron escapar sin ser sancionados económicamente al reconocer en parte que Ø tienen toda la razón por <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>quejas </head></argset>. </example>
+        <example file="CESS-CAST-AA/21730_20001026.tbf.xml" nodepath="4.4.4.1.0" sentencenodepath="4">A su juicio , Ø es una prueba del esfuerzo por mantener informado al Gobierno y a la sociedad de la situación del " Tireless " , no ha sido autorizada la entrada de ningún técnico español que pudiera verificar la información suministrada <argset>, <head>queja </head>
+            <reference_modifiers>que figura en la carta enviada ayer por Piqué a Londres</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/2505_20001004.tbf.xml" nodepath="14.0.3.1.0" sentencenodepath="14">El Tribunal_Constitucional discutirá hoy <argset><specifier>una</specifier><head>queja </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la DOS</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre las irregularidades en el escrutinio de los votos</argument><reference_modifiers>, rechazada ya por la Comisión_Electoral estatal</reference_modifiers></argset>, y Ø tendrá de plazo hasta el viernes para decidir al_respecto . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="10.0.0.0" sentencenodepath="10"><argset><head>QUEJAS </head></argset>. </example>
+        <example file="CESS-CAST-P/3_20020103.tbf.xml" nodepath="0.3.1.2.4.0.0" sentencenodepath="0">En el conjunto de España , las 89 oficinas del euro instaladas por la red de cámaras de comercio han atendido 4.000 llamadas de usuarios en las que sobre_todo se expresaron <argset><head>quejas </head></argset>porque la demanda de euros desbordó las previsiones . </example>
+        <example file="CESS-CAST-P/3_20020103.tbf.xml" nodepath="2.0.2.1.0" sentencenodepath="2">Antonino_Joya , portavoz de la Organización_de_Consumidores_y_Usuarios ( OCU ) , mostró <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>queja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por el tipo de redondeo que se ha aplicado en algunos servicios y productos</argument></argset>: " Ha habido subidas importantes en panadería , juegos de azar , cines , buses , metros , revistas y periódicos " . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="20.2.2.1.0" sentencenodepath="20">Ø Asegura sentirse muy satisfecho de la reforma del barrio , pero Ø manifiesta <argset><specifier>una</specifier><head>queja </head><reference_modifiers>: " Faltan aparcamientos "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/53_19990901.tbf.xml" nodepath="6.2.1.0" sentencenodepath="6">La normativa que hoy entra en vigor ha desencadenado <argset><specifier>las</specifier><head>quejas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de grupos ecologistas , e , incluso , de algunos países de la UE , como Holanda o Italia , que han presentado demandas a la nueva legislación</argument></argset>. </example>
+        <example file="CESS-CAST-P/67_20011001.tbf.xml" nodepath="2.1.0.0.1.0" sentencenodepath="2">Con esta artillería , <argset><specifier>las</specifier><head argument="arg1" thematicrole="tem">quejas </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">patronales</argument></argset>apenas resuenan más allá de la Franja_de_Ponent , o Ø llegan distorsionadas . </example>
+        <example file="CESS-CAST-P/85_19990302.tbf.xml" nodepath="1.0.1.1.3.0.1" sentencenodepath="1">La industria , que genera <argset><reference_modifiers>constantes</reference_modifiers><head>quejas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los vecinos de las calles limítrofes</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la emisión de malos olores</argument></argset>, pese_a_que Ø cumple todas las medidas de seguridad exigidas por la legislación , ocupa un solar de 10.000 metros_cuadrados que no cumple los requisitos que le marca el Plan_General_Metropolitano ( PGM ) . </example>
+        <example file="CESS-CAST-P/85_20010103.tbf.xml" nodepath="17.0.1.0" sentencenodepath="17"><argset><specifier>Las</specifier><head>quejas </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">ciudadanas</argument></argset>motivaron un despliegue extra la mañana del día_1 . </example>
+        <example file="CESS-CAST-P/93_20010602.tbf.xml" nodepath="6.3.2.1.0.3.1.0" sentencenodepath="6">Un portavoz del sindicato criticó que los policías destacados en el aeropuerto presenciaron todos los actos vandálicos , " pero Ø no intervinieron " , por lo que Ø presentaron <argset><specifier>una</specifier><head>queja </head></argset>ante la dirección de El_Prat . </example>
+        <example file="CESS-CAST-P/99_20020301.tbf.xml" nodepath="8.0.1.1" sentencenodepath="8"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><reference_modifiers>principal</reference_modifiers><head>queja </head></argset>viene dada por un hecho evidente . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="logro" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="lograr" originlink="verb.lograr.1" wordnetsynset="16:00025788">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat"/>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="4.3.1.2.0" sentencenodepath="4">El aumento sostenido que ha experimentado la exportación vitivinícola durante los últimos cuatro meses fue valorado por los productores y exportadores como <argset>" <specifier>un</specifier>
+            <head>logro </head>
+            <reference_modifiers>muy significativo</reference_modifiers>" </argset>. </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>Todo un</specifier><head argument="arg1" thematicrole="pat">logro </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la principal patronal , el Movimiento de empresas francesas ( Medef ) , que tras algunos retoques introducidos a_lo_largo_de una maratoniana reunión de trece horas , consiguió ayer al alba llevarse a su terreno a la mayoría de sus interlocutores sindicales , que días antes se cerraban_en_banda contra el Care</argument></argset>. </example>
+        <example file="3LB-CAST/211_C-2.tbf.xml" nodepath="6.2.6.1.0" sentencenodepath="6">Barchevsky agregó que " mientras Ø más demoremos , en más peligro Ø pondremos <argset><specifier>los</specifier><head>logros </head><reference_modifiers>que se han alcanzado hasta ahora</reference_modifiers></argset>" . </example>
+        <example file="3LB-CAST/c2-4.tbf.xml" nodepath="3.0.0.2.0.2.3.0.1" sentencenodepath="3">Con monjes budistas o en tejanos recios , huyendo de su fama o buscándola , actor de mayor o menor enjundia - Ø tiene <argset><reference_modifiers>muy buenos</reference_modifiers><head>logros </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">en su haber</argument></argset>- Richard_Gere está resultando un modelo paradigmático de la masculinidad de nuestro tiempo . </example>
+        <example file="3LB-CAST/dc3-2.tbf.xml" nodepath="3.0.1.1.1.1.0" sentencenodepath="3">La clave de <argset><specifier>este</specifier><head argument="arg1" thematicrole="pat">logro </head></argset>se basaba en el gran aumento de la conductividad que se producía al exponer el poliacetileno a la presencia de un agente oxidante ( - dopado - ) , llegándose a valores de 200 . </example>
+        <example file="3LB-CAST/n1-15.tbf.xml" nodepath="5.1.2.2.1.0" sentencenodepath="5">Después_de que la madre de Enrique_Buendía ( uno de los líderes de la Corriente ) recogiera el fusil de su hijo muerto en combate , los discursos comenzaron y se enumeraron <argset><specifier>los</specifier><head argument="arg1" thematicrole="pat">logros </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del acuerdo</argument><reference_modifiers>: ayudas para créditos , becas para estudios , subsidio de paro durante dos años e indulto para los presos por delitos relacionados con la revolución - un punto en el que algunos no estaban del_todo de_acuerdo porque no se extiende a delitos relacionados con el secuestro , para los que hay una pena de 60 años -</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/r2-7.tbf.xml" nodepath="3.2.2.1.1.0" sentencenodepath="3">Para mí él ha sido el mejor ministro de Interior que ha habido y es una pena que <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head argument="arg1" thematicrole="pat">logros </head></argset>se vayan al traste por el sinvergüenza de Roldán . </example>
+        <example file="CESS-CAST-A/11465_20000214.tbf.xml" nodepath="5.4.0.0" sentencenodepath="5">Para Matutes , " todo ello son <argset><head>logros </head><reference_modifiers>de los que podemos sentirnos todos legítimamente orgullosos</reference_modifiers><reference_modifiers>, empezando por todos los españoles en primer lugar ,</reference_modifiers></argset>porque lo que ha hecho este Gobierno es armar y conducir un caballo lleno de vitalidad , de fuerza , de confianza en el futuro que se llama España y los españoles " . </example>
+        <example file="CESS-CAST-A/17865_20001223.tbf.xml" nodepath="21.2.1.1.1.1" sentencenodepath="21">Antonio_Díaz_Miguel fue <argset>el artífice del <reference_modifiers>mayor</reference_modifiers>
+            <head>logro </head>
+            <argument argument="argM" function="cn" type="s.a">internacional</argument>
+            <argument argument="argM" function="cn" type="sp">del baloncesto</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-A/17865_20001223.tbf.xml" nodepath="24.1.1.2.0.2.2.1.1.2.1.0.0" sentencenodepath="24">Y el de balonmano , Domingo_Bárcenas , maestro de entrenadores , aunque con un pobre historial de <argset><head>logros </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">internacionales</argument></argset>, detuvo el reloj de su vida en marzo , a los 73 años y después de una grave enfermedad . </example>
+        <example file="CESS-CAST-AA/22459_20000927.tbf.xml" nodepath="4.4.1.0" sentencenodepath="4">" Después de haber perdido los individuales de la forma que perdimos los dos , que Ø nos quedamos chafados " , continuó Ø , " recuperarnos y ganar una medalla es <argset><specifier>un</specifier><head>logro </head><reference_modifiers>inolvidable</reference_modifiers>" </argset>. </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="4.0.2.1.1.1.1.1.0" sentencenodepath="4">Ø Explicó que la consecución de <argset><specifier>este</specifier><head>logro </head></argset>se debe a " la generosa donación del marqués de Lorenzana " , y Ø dijo que la restauración " piedra_a_piedra " y la remodelación del palacio ha sido una labor en la que la Junta extremeña , " con su presidente a_la_cabeza " , ha invertido 61 millones de pesetas y Ø ha provocado " desvelos , sinsabores y esperanzas " . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="5.0.3.3.3.1.0" sentencenodepath="5">" El gusanillo de crear una empresa llegó tarde , pero eso también permite saborear ahora con otra perspectiva <argset><specifier>los</specifier><head argument="arg1" thematicrole="pat">logros </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del grupo</argument></argset>" , explica Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

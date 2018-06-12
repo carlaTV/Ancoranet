@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="golpe" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="golpear" originlink="verb.golpear.1" wordnetsynset="16:00369708">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ins">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="18" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="z" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="12" type="s.a"/>
+        <constituent frequency="8" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="6.3.1.1.6.1.1" sentencenodepath="6">Pero antes de eso , habrá otras coincidencias : cuando Clinton , esté llegando esta tarde al Palacio_de_Bellevue , donde Ø será recibido con honores militares por el presidente alemán , Johannes_Rau , a pocos metros de distancia , en la Avenida_17_de_Junio , los corredores de la Vuelta_Ciclista a Alemania darán <argset><specifier>los</specifier><reference_modifiers>últimos</reference_modifiers><head>golpes </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de pedal</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">de su entrada triunfal a la capital</argument></argset>. </example>
+        <example file="3LB-CAST/2000060211_6-3.tbf.xml" nodepath="0.3.0.0.1.0" sentencenodepath="0">El gobernador mostró a los periodistas <argset><specifier>un</specifier><head>golpe </head><reference_modifiers>leve</reference_modifiers><reference_modifiers>sufrido en la cabeza</reference_modifiers></argset>y un pequeño sangrado en el labio superior , causados por las piedras y naranjas arrojadas por los manifestantes . </example>
+        <example file="3LB-CAST/d1-16.tbf.xml" nodepath="1.2.1.1.0.1.0.1.3.1.0" sentencenodepath="1">El partido ha aplazado la muerte del Madrid y precipitado la del Atleti , que recibe <argset><specifier>un</specifier><head>golpe </head><reference_modifiers>deportivo</reference_modifiers><reference_modifiers>económico y psicológico</reference_modifiers><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de infinita crueldad</argument></argset>. </example>
+        <example file="3LB-CAST/d2-15.tbf.xml" nodepath="5.0.1.2.1.1" sentencenodepath="5">Con un único gol , de <argset><specifier>un</specifier><reference_modifiers>solo</reference_modifiers><head>golpe </head></argset>, el Barcelona acabó con su maleficio del Bernabéu y Ø arrinconó al Deportivo contra la jornada postrera , contra el deber de ganar , que puede ser la más dura de las obligaciones . </example>
+        <example file="3LB-CAST/t1-3.tbf.xml" nodepath="1.0.1.1.0" sentencenodepath="1">Por <argset><specifier>un</specifier><head>golpe </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de intuición</argument><reference_modifiers>que no hubiera podido explicar</reference_modifiers></argset>, Ø estaba convencida de que había sido ella la autora de la conspiración para escamotearle el premio . </example>
+        <example file="CESS-CAST-A/11084_20001014.tbf.xml" nodepath="11.0.0.1.1" sentencenodepath="11"><argset><specifier>El</specifier><reference_modifiers>duro</reference_modifiers><head>golpe </head><reference_modifiers>recibido con el descubrimiento que su madre y hermana mayor sufrían de cáncer de mama</reference_modifiers>, </argset>afectó a su rendimiento deportivo , incluida la ausencia de los Juegos_Olímpicos de Sydney , donde Ø esperaba defender la medalla de oro conseguida en Atlanta'96, pero en_absoluto Ø le han quitado la ilusión de seguir en la competición activa . </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="10.3.1.0" sentencenodepath="10">Con este discurso claramente " electoralista " , coinciden en apuntar hoy los analistas , Jospin dio <argset><specifier>un</specifier><head>golpe </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de timón</argument></argset>al despojarse de su talante de " gestor ortodoxo " del Estado y erigirse en repartidor de millardos para la administración pública . </example>
+        <example file="CESS-CAST-A/15801_20000123.tbf.xml" nodepath="10.0.2.0.2.1.0" sentencenodepath="10">El jugador de Johannesburgo consiguió quince saques directos y <argset><specifier>64</specifier><head>golpes </head><reference_modifiers>ganadores</reference_modifiers></argset>que marcaron el desarrollo del partido , y Clavet demasiado incómodo con el viento , no pudo desarrollar el tenis con el que Ø se impuso al croata Goran_Ivanisevic . </example>
+        <example file="CESS-CAST-A/15801_20000123.tbf.xml" nodepath="25.0.3.1.1.0" sentencenodepath="25">En el cuadro femenino , la japonesa Ai_Sugiyama destrozó con <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>golpes </head><reference_modifiers>de fondo</reference_modifiers></argset>la frágil moral de la francesa Mary_Pierce ( 4 ) , campeona en 1995 , por 7-5 y 6-4 , mientras_que la estadounidense Lindsay_Davenport acabó con la novia de Philippoussis en este torneo , la rusa Anna_Kournikova , por 6-4 y 6-3 . </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="4.2.3.2.1.1.1.1.0.1.3.1.0" sentencenodepath="4">El poder de los puños , la destreza , aguante físico y decisión para mantenerse de pie hasta el final hizo que su pelea fuese la mejor de lo que se lleva del año_2000 y muy difícil de superar después que se intercambiaron <argset><specifier>cerca de 1.500</specifier><head>golpes </head></argset>. </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="15.0.1.1.1.1.1.3.1.2.1.0.0" sentencenodepath="15">La clave de la pelea , que fue un intercambio feroz de <argset><head>golpes </head></argset>desde el inicio de la campana , estuvo en el quinto asalto cuando Morales colocó una serie de derechas potentes a la cabeza de Barrera que sintió el efecto y Ø lo tuvo por casi un minuto al borde del nocaut . </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="18.2.0.1.3.1.0" sentencenodepath="18">" Ø Creo que Barrera demostró ser un gran boxeador y por mi parte está bien la pelea de revancha , si Ø acepta hacerla en la categoría de los plumas " , declaró Morales , que conectó <argset><specifier>319</specifier><head>golpes </head></argset>por 299 para Barrera . </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="5.6.2.1.0" sentencenodepath="5">El Universidad_Católica , en_tanto , que el próximo martes debe enfrentar al Peñarol_de_Montevideo , por la Copa_Libertadores_de_América , derrotó al equipo de Santiago_Morning por 1-0 , mediante <argset><specifier>un</specifier><head>golpe </head><reference_modifiers>de cabeza</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del defensa Miguel_Ramírez</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, a los 95 minutos ,</argument><reference_modifiers>que descolocó al portero Carlos_Tejas , de muy buen desempeño bajo los tres palos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16730_20000221.tbf.xml" nodepath="6.4.4.0.1.1.0.0" sentencenodepath="6">McCain , de 62 años , senador por Arizona desde hace 13 años , ex piloto de la Marina y prisionero de guerra en Vietnam durante casi 6 años , dio un mitin en la localidad de Lavonia , muy cerca de Detroit , en el que Ø mostró su capacidad de rehacerse después del <argset><head>golpe </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Carolina_del_Sur</argument></argset>. </example>
+        <example file="CESS-CAST-A/16730_20000221.tbf.xml" nodepath="7.3.4.1.0" sentencenodepath="7">Mientras sus seguidores coreaban su nombre , el senador , acompañado de su esposa Cindy y de sus hijos , recordaba que la vida le ha dado <argset><specifier>unos cuantos</specifier><head>golpes </head></argset>, en_referencia_a su carrera militar y a los años en que Ø fue prisionero de guerra después de que su avión se estrellara en la guerra de Vietnam . </example>
+        <example file="CESS-CAST-A/18968_20000223.tbf.xml" nodepath="8.3.0.2.5.1.0.1.1.1.0" sentencenodepath="8">La nota negativa del entrenamiento la protagonizó José_María_Gutiérrez 'Guti' , que se tuvo que retirar a la media hora de iniciarse la sesión por culpa de <argset><specifier>los</specifier><head>golpes </head><reference_modifiers>que ha recibido en los últimos partidos en la zona costal y que le molestaban e impedían respirar con normalidad</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20072_20000924.tbf.xml" nodepath="7.3.4.1.3.1.0.1.3.1.0" sentencenodepath="7">La segunda mitad comenzó con equilibrio de fuerzas , aunque la grada reclamó un posible penalti de Pellegrino sobre Rubén_Navarro , quien recibió <argset><specifier>un</specifier><head>golpe </head></argset>por_parte_del jugador argentino . </example>
+        <example file="CESS-CAST-AA/20077_20001125.tbf.xml" nodepath="1.0.2.0.2.1.0.0" sentencenodepath="1">El lateral Marc_Amargant , que está siendo una de las piezas claves en el equipo de esta temporada , será baja en este encuentro a_raíz_del <argset><head>golpe </head><reference_modifiers>que sufrió en la nariz en el pasado partido ante el Barcelona</reference_modifiers></argset>, mientras el resto de efectivos vallesanos estarán a la disposición de Hasanefendic . </example>
+        <example file="CESS-CAST-AA/22459_20000927.tbf.xml" nodepath="10.2.1.1.0" sentencenodepath="10">Costa , que hoy rubricó con un excelente resto el ` break ` que encarriló el triunfo español nada_más reanudarse el juego esta mañana después de la suspensión del partido el Martes , afirmó que <argset><specifier>ese</specifier><head>golpe </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de derecha</argument></argset>" ha salido gracias_a la motivación " de ambos y a que Ø estaban " muy unidos " . </example>
+        <example file="CESS-CAST-AA/3645_20000305.tbf.xml" nodepath="5.3.1.0.1.1.0.2.2.0.1.1.1.1.2.1.0.0" sentencenodepath="5">González conectó dos rectas imponentes al mentón de Jinete , que no pudo recuperarse , suspendido por el árbitro luego de recibir una fuerte cantidad de <argset><head>golpes </head></argset>. </example>
+        <example file="CESS-CAST-AA/3645_20000305.tbf.xml" nodepath="7.2.0.1.1.1.1.4.0.0" sentencenodepath="7">Ortíz fue superior ante un Herrera , que apenas Ø subió al cuadrilátero , comenzó a recibir <argset><head>golpes </head><reference_modifiers>que liquidaron tempranamente el combate a_favor_del local</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/117_19990202.tbf.xml" nodepath="23.0.1.0" sentencenodepath="23"><argset><specifier>El</specifier><head>golpe </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Tau</argument></argset>había sido demoledor . </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="5.4.1.1.0.1.1.1.0.0" sentencenodepath="5">Con la excepción de los islamistas , todas las fuerzas políticas turcas , desde la derecha extrema hasta la izquierda radical , se sienten heredadas del kemalismo , es_decir , del <argset><head>golpe </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">militar</argument><reference_modifiers>que en el primer tercio de este siglo acabó con el viejo y decadente imperio islámico y bajo la dirección de los propios militares se propuso convertir a la vieja Turquía en un país laico , moderno y centralizado por la vía del autoritarismo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="16.2.5.1.0.1.1.2.2.1.1.0.1.1.1.1.0" sentencenodepath="16">El drama es que , hoy_por_hoy , en este país inmenso que tiene un pie en Europa y el otro muy lejos de ésta , ninguna fuerza política esté en condiciones de asumir este programa y esta propuesta sin peligro de hundirse y , sobre_todo , sin peligro de propiciar <argset><specifier>un</specifier><head>golpe </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">político</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las Fuerzas_Armadas , siempre al_acecho como vigilantes supremos del Estado turco</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="1.0.1.1.2.1.4.1.0" sentencenodepath="1">Como si ser tocado , recibir una paliza , una pedrada , <argset><specifier>un</specifier><head>golpe </head></argset>o un disparo fuera algo que se puede esperar . </example>
+        <example file="CESS-CAST-P/18_19981102.tbf.xml" nodepath="9.3.1.0" sentencenodepath="9">Ahora el ecumenismo recibe <argset><specifier>otro</specifier><head>golpe </head></argset>con un decreto de los obispos católicos de Gran_Bretaña e Irlanda prohibiendo a católicos la comunión en una iglesia anglicana y viceversa . </example>
+        <example file="CESS-CAST-P/35_20020501.tbf.xml" nodepath="4.3.1.1" sentencenodepath="4">De confirmarse su muerte , Ø sería <argset><specifier>un</specifier><reference_modifiers>duro</reference_modifiers><head>golpe </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para los independentistas</argument></argset>tras el fallecimiento confirmado de otro destacado dirigente guerrillero , Jatab . </example>
+        <example file="CESS-CAST-P/38_19990902_d.tbf.xml" nodepath="2.3.1.1.3.1.0" sentencenodepath="2">El conductor del coche en el que viajaba Pujol frenó para evitar el impacto , momento en el que Ø recibió <argset><specifier>un</specifier><head>golpe </head><reference_modifiers>trasero</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del tercer automóvil de la comitiva presidencial</argument></argset>. </example>
+        <example file="CESS-CAST-P/40_20000202.tbf.xml" nodepath="1.3.1.1" sentencenodepath="1">El senador por Arizona John_McCain asestó ayer <argset><specifier>un</specifier><reference_modifiers>duro</reference_modifiers><head>golpe </head></argset>al favorito republicano a la Casa_Blanca , George_W._Bush , al conseguir una amplia victoria en las primarias celebradas en el estado norteamericano de Nueva_Hampshire . </example>
+        <example file="CESS-CAST-P/69_20010501.tbf.xml" nodepath="14.2.1.1.0" sentencenodepath="14">Franco fue atendido de <argset><specifier>un</specifier><head>golpe </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la cabeza</argument></argset>en el hospital Arnau_de_Vilanova poco después de las 17.30_horas . </example>
+        <example file="CESS-CAST-P/71_20010702.tbf.xml" nodepath="3.1.2.1.2.1.1.1" sentencenodepath="3">Desde el inicio de la marcha , en el triste escenario de <argset><specifier>los</specifier><reference_modifiers>mayores</reference_modifiers><head>golpes </head></argset>, el tema de conversación era la actuación policial y los recuerdos de guerra . </example>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="0.0.0.1.2.1.4.1.0.0" sentencenodepath="0">José_Rabadán_Pardo , el menor que en abril_del_año_pasado mató a sus padres y a su hermana a <argset><head>golpes </head><argument argument="argM" function="cn" thematicrole="ins" type="sp">de catana</argument></argset>en la pedanía murciana de Santiago_el_Mayor , aceptó ayer la condena pedida por el fiscal de seis años de internamiento en un centro terapéutico en régimen cerrado y cuatro años de libertad vigilada . </example>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="10.2.1.4.0.1" sentencenodepath="10">El arma homicida fue una catana ( espada de samurai ) que el padre le había regalado poco antes y un puñal , con los que Ø asestó <argset><reference_modifiers>numerosos</reference_modifiers><head>golpes </head></argset>a sus tres familiares . </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="4.2.3.1.1.1" sentencenodepath="4">El reto es embocar la bola en un hoyo situado a 105 metros de distancia con <argset><specifier>un</specifier><reference_modifiers>solo</reference_modifiers><head>golpe </head></argset>. </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="12.6.5.1.1.2.1.1.0" sentencenodepath="12">Varios miles de personas se acercaron ayer al Moll_de_Marina , atraídas por la curiosidad de presenciar una iniciativa inédita en la ciudad , aunque sólo unas 200 personas se atrevieron a intentar conseguir el hoyo de <argset><specifier>un</specifier><head>golpe </head></argset>. </example>
+        <example file="CESS-CAST-P/94_19990901.tbf.xml" nodepath="4.3.1.1.1.0" sentencenodepath="4">" ¡ Ø Estás jugando Fatal ! ¡ Fatal ! " , vociferó Albert_Costa tras estampar <argset><specifier>otro</specifier><head>golpe </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de revés</argument></argset>a la red . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="a_golpe_de" cousin="no" denotation="none" id="2" lexicalizationtype="prepositional" lexicalized="yes" originlemma="golpear" originlink="verb.golpear.1" wordnetsynset="16:00224275+16:00086415">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c1-3.tbf.xml" nodepath="7.2.1.0.4.2.1.1.3.1.1.1.4.1.0.2.1.0.0" sentencenodepath="7">La señora Aguirre , híbrido de comadre galdosiana y coronela de las SS , contribuye al - progrom - antisindical y antitrabajadores levantiscos que ha puesto_en_marcha la derecha que nos agobia con su terapia de estropajo y aljofifa , de barrenderos y multas , de purificación ciudadana a <argset><head>golpe </head><reference_modifiers>de fregona</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/116_19991201.tbf.xml" nodepath="7.2.4.1.1.1.0.1.2.1.1.1.0.2.3.0.3.1.0.0" sentencenodepath="7">Ellos saben que aquí no hay más movida que la de un equipo que no funciona , un trasplante del mejor Ajax que no acaba de cuajar ( Van_Gaal destrozó a <argset><head>golpe </head><argument argument="argL" function="cn" type="sp">de talonario</argument></argset>el equipo de Amsterdam para prefabricar un clónico que no cautiva ) y un técnico que , además_de estar " muy preocupado " , se muestra temeroso del presente , aunque Ø sabe que su futuro está más_que protegido . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="golpe_de_efecto" cousin="no" denotation="result" id="3" lexicalizationtype="nominal" lexicalized="yes" originlemma="golpear" originlink="verb.golpear.1" wordnetsynset="16:00369708+16:50000388">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argL">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ins">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="10.2.1.1.1" sentencenodepath="10">Fuentes del sector crítico de CDC , opinan que <argset><specifier>el</specifier>" <head>golpe </head><argument argument="argL" function="cn" type="sp">de efecto</argument>" <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Esteve</argument></argset>ha sorprendido favorablemente , ya_que Ø reconduce la situación interna hacia un nuevo escenario en el que se pueden conciliar mejor las distintas sensibilidades del partido . </example>
+        <example file="CESS-CAST-P/7_19990901.tbf.xml" nodepath="0.0.0.1" sentencenodepath="0"><argset><reference_modifiers>Barato</reference_modifiers><head>golpe </head><argument argument="argL" function="cn" type="sp">de efecto</argument><argument argument="argM" function="cn" thematicrole="ins" type="sp">con las pensiones</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="golpe_de_estado" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="golpear" originlink="verb.golpear.1" wordnetsynset="16:00629246">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argL">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="en_favor_de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="en_favor_de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-1.tbf.xml" nodepath="6.0.0.1.4.1.1.1" sentencenodepath="6">Speight , quien ha definido su acción como <argset><specifier>un</specifier>" <head>golpe </head><argument argument="argL" function="cn" type="sp">de Estado civil</argument>" <reference_modifiers>en_favor_de la comunidad de nativos fiyianos</reference_modifiers></argset>, dejó el recinto del Legislativo escoltado por un grupo de soldados . </example>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="12.0.4.1.1.1.1.1.2.1.0.0" sentencenodepath="12">Mientras , el ministro de Defensa , general Eliécer_Hurtado , se vio obligado a salir_al_paso de los ya casi normales y permanentes rumores de <argset><head>golpe </head><argument argument="argL" function="cn" type="sp">de Estado</argument></argset>, y Ø negó que haya división en las filas castrenses y mucho menos que esté en marcha una conspiración contra Chávez . </example>
+        <example file="3LB-CAST/111_C-6.tbf.xml" nodepath="1.2.1.1" sentencenodepath="1">El empresario fiyiano George_Speight encabeza <argset><specifier>este</specifier>" <head>golpe </head><argument argument="argL" function="cn" type="sp">de Estado</argument><reference_modifiers>civil</reference_modifiers>" <argument argument="argM" function="cn" thematicrole="fin" type="sp">en_favor_de la comunidad de nativos fiyianos</argument></argset>, como ha definido su acción . </example>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="2.3.2.2.1.1.0" sentencenodepath="2">En_cuanto_a los rumores que han circulado en las últimas semanas sobre la existencia de " ruido de sables " en los cuarteles , Chávez dijo que " se habla de <argset><specifier>un</specifier><head>golpe </head><argument argument="argL" function="cn" type="sp">de Estado</argument></argset>de manera irresponsable y lanzar rumores es faltar al respeto a la Fuerza_Armada " . </example>
+        <example file="CESS-CAST-AA/8907_20000114.tbf.xml" nodepath="0.0.1.4.3.1.1.0" sentencenodepath="0">El ex presidente de Costa_de_Marfil Henri_Konan_Bédié , destituido el pasado 24_de_diciembre por <argset><specifier>un</specifier><head>golpe </head><argument argument="argL" function="cn" type="sp">de Estado</argument><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">militar</argument></argset>, reclamó hoy en París la celebración de elecciones " libres y transparentes " en su país antes de Junio próximo . </example>
+        <example file="CESS-CAST-AA/8907_20000114.tbf.xml" nodepath="2.3.0.1.1.1.0.0" sentencenodepath="2">El ex jefe de Estado , exiliado en Francia desde el pasado día_3 , denunció en su artículo las condiciones del <argset><head>golpe </head><argument argument="argL" function="cn" type="sp">de Estado</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del general Robert_Guei</argument></argset>y la reacción " muy moderada " que éste suscitó en el extranjero , en_particular en Francia . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

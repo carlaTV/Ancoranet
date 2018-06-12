@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="delegación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="delegar" originlink="verb.delegar.1" wordnetsynset="16:06108680">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="14" preposition="de" type="sp"/>
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" foundincorporated="yes" thematicrole="tem"/>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="3" preposition="en" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="23" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="6" type="S"/>
+        <constituent frequency="2" type="sn"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/n1-14.tbf.xml" nodepath="6.3.1.2.1.2.0.1.0" sentencenodepath="6">Este año la cabecera de la marcha tuvo que multiplicarse para dar cabida al invitado de honor - el presidente de Uruguay , primer país que reconoció oficialmente al Estado_de_Israel - , así_como <argset><specifier>una</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Tel_Aviv</argument></argset>, representación institucional polaca y los inevitables e interminables séquitos respectivos . </example>
+        <example file="3LB-CAST/r2-4.tbf.xml" nodepath="7.3.1.1.2.1.0.0.2.0" sentencenodepath="7">La rotunda negativa de los máximos responsables de las finanzas españolas a contribuir al fortalecimiento de la banda mafiosa se saldó con una ofensiva etarra contra <argset>oficinas , <head>delegaciones </head>y sucursales de diversas entidades bancarias </argset>. </example>
+        <example file="3LB-CAST/r2-6.tbf.xml" nodepath="4.3.1.1.0" sentencenodepath="4">Según fuentes empresariales , el ex_ministro trabajará en <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la compañía</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la calle Castellana , en Madrid ,</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">probablemente en el departamento comercial , en el que ya estuvo destinado en su última etapa en la empresa y donde ahora intentarán aprovechar sus conocimientos del sector y sus contactos sindicales y convertirle , pese_a lo que él dice , en un ejecutivo</argument></argset>. </example>
+        <example file="CESS-CAST-A/10168_20000212.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>Una</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las Naciones_Unidas</argument></argset>inició hoy , sábado , una misión especial para examinar como erradicar del territorio egipcio los varios millones de minas que permanecen enterradas desde el final de la Segunda_Guerra_Mundial , publica el diario oficialista " Al_Ahram " . </example>
+        <example file="CESS-CAST-A/10168_20000212.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la ONU</argument></argset>tiene previsto visitar la región en los próximos días para evaluar , sobre el terreno , las posibilidades y medios necesarios para limpiar la zona . </example>
+        <example file="CESS-CAST-A/10938_20000214.tbf.xml" nodepath="2.5.1.1.0" sentencenodepath="2">Las afirmaciones de Musa , a quien cita hoy , lunes , la prensa local , coinciden con la presencia estos días en Egipto de <argset><specifier>una</specifier><head>delegación </head><reference_modifiers>de especialistas</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las Naciones_Unidas</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para tratar con las autoridades de este país sobre las posibilidades de eliminar esos artefactos en el territorio egipcio</argument></argset>. </example>
+        <example file="CESS-CAST-A/13026_20001117.tbf.xml" nodepath="1.3.4.1.1" sentencenodepath="1">Fuentes diplomáticas comunitarias confirmaron hoy , viernes , que Austria " es <argset><specifier>la</specifier><reference_modifiers>única</reference_modifiers><head>delegación </head><reference_modifiers>que ha comunicado esa dificultad</reference_modifiers></argset>" , aunque las fuentes no entraron en detalles sobre la naturaleza del problema . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="20.2.4.1.1.3.4.1.1.1.1.0" sentencenodepath="20">La estadounidense , que comenzó como una brillante jugadora de baloncesto , vio cortada su racha en 1998 cuando , tras 38 pruebas invicta , Ø cayó en la última competición del año ante la alemana Heike_Drechsler ; y la italiana perdió el oro en Sevilla'99 por un polémico salto de Montalvo , que incluso provocó la reclamación de <argset><specifier>la</specifier><head argument="arg2" thematicrole="tem">delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de su país</argument></argset>. </example>
+        <example file="CESS-CAST-A/17704_20000522.tbf.xml" nodepath="5.1.1.1.1.1.1.0" sentencenodepath="5">Según fuentes próximas al Ministerio_de_Defensa , durante las conversaciones entre <argset><specifier>las dos</specifier><head>delegaciones </head></argset>el general Nyanda se interesó especialmente sobre la situación en las fronteras de Angola con Namibia y Zambia , donde en los últimos meses las fuerzas de la UNITA protagonizaron violentos incidentes armados . </example>
+        <example file="CESS-CAST-A/18701_20000922.tbf.xml" nodepath="7.2.1.1.3.4.1.1.0" sentencenodepath="7">" Ø No veo a ninguno de esos dos países bloqueando hasta el final la directiva " , comentó el diplomático , quien explicó que las últimas modificaciones introducidas en el borrador han satisfecho ya a <argset><specifier>otra</specifier><head>delegación </head><reference_modifiers>reticente</reference_modifiers><reference_modifiers>, Holanda</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="8.5.2.1.1.3.2.1.1.0" sentencenodepath="8">En un descenso con piso muy irregular , la italiana superó a Fullana tras chocar con ella y derribarla , en una maniobra que no estuvo bien vista por <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">española</argument><reference_modifiers>, que quiso presentar una reclamación , algo que descarta el reglamento olímpico del " mountain-bike "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="1.2.1.1.3.1.2.3.2.2.1.1.2.4.2.0.1.1.0.0" sentencenodepath="1">El titular del juzgado_de_Lo_Penal_3 de Barcelona , Santiago_Vidal , ha dictado una sentencia en la que Ø critica la legislación actual , que permite " la simple expedición de la licencia de ciclomotores que la Autoridad_Provincial_de_Tráfico concede de forma indiscriminada y sin ningún control real , por vía de <argset><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">a las autoescuelas de formación de conductores</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="5.2.1.1.1.1.1.1.0" sentencenodepath="5">Amigos_de_la_Tierra recordó que la posición defendida por <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la UE</argument></argset>en la reciente Conferencia_de_Naciones_Unidas sobre Cambio_Climático " estuvo en_contra_del empleo de la energía nuclear " . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="10.0.3.0.1.1.0" sentencenodepath="10">" Hay un doble rasero en la UE cuando se trata de la energía nuclear . Por_un_lado , <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">comunitaria</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en La_Haya</argument></argset>la semana pasada apoyó abstenerse en emplear instalaciones nucleares para reducir emisiones de dióxido de carbono , mientras_que al_mismo_tiempo se permite a la comisaria Loyola_de_Palacio que Ø abuse de su poder para promocionar la industria nuclear " , según los parlamentarios verdes . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="0.0.1.2.2.1.0" sentencenodepath="0">El acuerdo sobre el código de conducta para las multinacionales que negociaban <argset><specifier>33</specifier><head argument="arg2" thematicrole="tem">delegaciones </head></argset>en la Conferencia ministerial de la OCDE en París fue firmado hoy , Martes , tras lograr un compromiso para retirar el veto que imponía México . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>Una</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Parlamento_Europeo</argument></argset>recibió hoy de las autoridades venezolanas información de primera mano sobre el desastre natural de diciembre pasado , con el fin de orientar los futuros proyectos de reconstrucción . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>delegación </head></argset>informará de sus gestiones en Venezuela a la Comisión_Europea , a la Unión_Europea y al Parlamento_Europeo . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="8.2.4.2.1.1.1.1.0" sentencenodepath="8">El embajador de Venezuela en Bélgica , Luis_Xavier_Grisanti , que acompañó a la misión , recordó que el 20_de_enero pasado el Parlamento_Europeo aprobó una resolución de solidaridad con Venezuela y el envío de <argset><specifier>esta</specifier><head>delegación </head></argset>. </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="1.0.1.2.1.1.1.0" sentencenodepath="1">El primer documento emitido por <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Centro_Carter</argument></argset>desde su llegada al país , en_calidad_de observadores internacionales de las elecciones , indica que esa " desconfianza " proviene de la " naturaleza provisional " de los miembros del CNE y del " método de su selección " . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="3.1.1.0.2.1.1.1.0" sentencenodepath="3">En ese sentido , el ex presidente uruguayo y portavoz de <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Centro_Carter</argument></argset>, Luis_Alberto_Lacalle , calificó de " muy positiva " la decisión del CNE de autorizar una auditoría externa del proceso . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="7.4.2.1.0" sentencenodepath="7">Ø Invitó a los candidatos a evitar que sus actividades oficiales sean usadas como " instrumentos de apoyo de campaña " , puesto_que <argset><specifier>la</specifier><head>delegación </head><reference_modifiers>Carter</reference_modifiers></argset>reconoció " la ventaja natural que disfrutan " los candidatos a la reelección en el cargo " para que su agenda sea cubierta de manera preferencial por los medios " . </example>
+        <example file="CESS-CAST-AA/4361_20000109.tbf.xml" nodepath="3.3.1.1.1.1.1.0" sentencenodepath="3">La secretaria de Estado , Madeleine_Albright , almorzó hoy con el jefe de <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">siria</argument></argset>, Faruk_Al_Chará , en el hotel de la histórica ciudad de Virginia_Occidental en el que se celebran las negociaciones . </example>
+        <example file="CESS-CAST-AA/4361_20000109.tbf.xml" nodepath="8.0.4.3.1.1.1.1.0" sentencenodepath="8">Por el momento no se sabe cuándo se marchará el jefe de <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">siria</argument></argset>, Faruk_Al_Chará , ministro de Asuntos_Exteriores , pero es poco probable que Ø permanezca en EEUU si se marcha Barak . </example>
+        <example file="CESS-CAST-AA/4361_20000109.tbf.xml" nodepath="9.4.0.1.1.1.0" sentencenodepath="9">En Estados_Unidos permanecerán en_principio , sin_embargo , miembros de <argset><specifier>las dos</specifier><head argument="arg2" thematicrole="tem">delegaciones </head></argset>, aunque se desconoce si Ø seguirán en Shepherdstown o Ø se reunirán en otro lugar . </example>
+        <example file="CESS-CAST-AA/5327_20000707.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">estadounidense</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Conferencia_de_Donantes_de_Madrid</argument></argset>está dirigida por los secretarios de Estado adjuntos para Asuntos_Globales , Thomas_Pickering , y para Asuntos_Interamericanos , Peter_Romero . </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="17.0.3.0.1.1.1.1.1.0" sentencenodepath="17">" Ø Creo que el mundo igual se ha preparado , por_eso Ø se nos pudiera hacer difícil , pero por lo que Ø he podido apreciar la preparación de <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">cubana</argument></argset>está bastante bien y Ø creo que sí se puede optar por esa posición " , sentenció Ø . </example>
+        <example file="CESS-CAST-AA/9923_20001114.tbf.xml" nodepath="2.0.0.0.1.1.1.0" sentencenodepath="2">Fuentes de <argset><specifier>la</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">chilena</argument><reference_modifiers>que acompaña a Lagos</reference_modifiers></argset>dijeron a EFE que se trató de una visita breve - de dos horas - pero muy " emotiva " , y Ø detallaron que fue especialmente conmovedor el momento en el que el presidente se dirigió a los soldados chilenos destacados en Timor_Oriental . </example>
+        <example file="CESS-CAST-P/117_20010801.tbf.xml" nodepath="0.2.1.1.1.1" sentencenodepath="0">El degradado palacio Abaria , del siglo_XVIII , cedido por la familia Ravanals , será rehabilitado para acoger <argset><specifier>la</specifier><reference_modifiers>recién creada</reference_modifiers><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Govern</argument></argset>. </example>
+        <example file="CESS-CAST-P/117_20010801.tbf.xml" nodepath="2.3.1.2.3.1.1.2.2.2.1.2.1.1.0.1.1.1.0" sentencenodepath="2">Representantes de la Generalitat y del consistorio presentaron ayer el plan , de ejecución inmediata , que se combina con otra intervención importante : el derribo del antiguo instituto Joaquim_Bau , muy cercano , para convertir una parte en jardín , bajo el que se construirá un párking , y otra en oficinas de <argset><specifier>las</specifier><head>delegaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Ejecutivo</argument></argset>, creadas en su mayoría durante los últimos meses . </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="8.0.0.2.1.1.1.0.0" sentencenodepath="8">Unos han ejercido la jefatura de <argset><head>delegaciones </head></argset>en el extranjero , otros han desempeñado puestos de dirección en nuestro país informando con rigor y objetividad . </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="3.3.0.1.1.4.1.4.1.1.3.4.1.1.1.0" sentencenodepath="3">Esta propuesta , que debería ser refrendada por los miembros de la junta directiva de la entidad , se produce después de que la lista de Porta acusara a Millàs de " hacer trampa " por el envío de una carta a los 16.000 socios en la que se les insta a remitir <argset><specifier>la</specifier><head>delegación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de voto</argument></argset>directamente al propio Millàs " para evitar una alteración de la línea seguida por Òmnium_Cultural desde sus inicios " . </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="4.3.1.1.2.1.2.1.0.0" sentencenodepath="4">Según los estatutos de la entidad , el presidente es el único que puede recibir un número ilimitado de <argset><head>delegaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de voto</argument></argset>. </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="7.0.3.1.1.1.1.1.1.0" sentencenodepath="7">El presidente se negó a revelar el nombre de <argset><specifier>la</specifier><head>delegación </head></argset>, y Ø agregó la " única preocupación " del sector renovador es decapitarle . </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="19.2.1.1.1.3.1.0" sentencenodepath="19">Todos estos movimientos coinciden con la gira que realiza por la región del Golfo <argset><specifier>una</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Departamento_de_Estado norteamericano</argument><reference_modifiers>que tiene como objetivo aunar fuerzas para derrocar a Sadam_Husein</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="20.0.1.0" sentencenodepath="20"><argset><specifier>La</specifier><head>delegación </head></argset>está encabezada por el subsecretario de Estado_para_Oriente_Próximo , Martin_Indyk , que ayer se entrevistó en Kuwait con el emir Jaber_al_Ahmad_al_Sabah y el príncipe heredero Saad_al_Abdalá . </example>
+        <example file="CESS-CAST-P/31_20000802.tbf.xml" nodepath="7.2.0.1.1.1.0.3.0.0" sentencenodepath="7">Esta reunión llega después de la que celebraron el Lunes por la noche <argset><head>delegaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno central y del PSOE</argument><reference_modifiers>, que reafirmaron su acuerdo básico en la lucha contra el terrorismo , sobre el fundamento de suscribir los principios democráticos frente_a la violencia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>Una</specifier><head>delegación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del organismo</argument></argset>se reúne de urgencia con el Gobierno brasileño en Brasilia . </example>
+        <example file="CESS-CAST-P/93_20010701.tbf.xml" nodepath="12.2.0.0.0" sentencenodepath="12">La compañía cuenta con almacenes en Barcelona , Madrid , Guipúzcoa , Valencia y Sevilla , y <argset><head>delegaciones </head></argset>en Lisboa , Oporto , Bayona y Perpinyà . </example>
+        <example file="CESS-CAST-P/99_20020301.tbf.xml" nodepath="3.2.1.1.1.1.0" sentencenodepath="3">Walter_Mayer , director de esquí nórdico austríaco , desmintió cualquier vínculo de <argset><specifier>su</specifier><head argument="arg2" thematicrole="tem">delegación </head></argset>con el dopaje . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

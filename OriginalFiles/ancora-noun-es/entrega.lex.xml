@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="entrega" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="entregar" originlink="verb.entregar.1" wordnetsynset="16:00205732">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12432_20000416.tbf.xml" nodepath="7.0.3.1.0" sentencenodepath="7">Por_último , Iber-X garantiza <argset><specifier>la</specifier><head>entrega </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del servicio</argument></argset>y , en_colaboración_con la Comisión_del_Mercado_de_Telecomunicaciones ( CMT ) , Ø certifica su calidad . </example>
+        <example file="CESS-CAST-A/17124_20001122.tbf.xml" nodepath="13.2.2.2.1.0" sentencenodepath="13">Ø Relató que el Rey_Juan_Carlos " se emociona no cuando Ø piensa en lo que Ø ha hecho por el país , sino en lo que Ø puede hacer " y Ø subrayó que " <argset><specifier>esa</specifier><head>entrega </head></argset>es uno de los aspectos más destacados de un reinado que está pasando a la historia de España como uno de los más brillantes , pero también como uno de los más esperanzadores " </example>
+        <example file="CESS-CAST-AA/5988_20000608.tbf.xml" nodepath="10.1.1.2.1.0.0" sentencenodepath="10">Para el caso del grano colombiano , la cotización de hoy para <argset><head>entregas </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en Junio</argument></argset>cayó a 103,6 centavos de dólar por libra , el valor más bajo desde el 12_de_Octubre del año pasado reciente comenzó el periodo cafetero octubre_de_1999 a septiembre_de_2000 . </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="15.4.1.1.3.2.1.2.1.0.0" sentencenodepath="15">La reacción de los camioneros británicos se produce después de una semana agitada en el mercado de materias primas londinense , donde los contratos de petróleo Brent para <argset><head>entrega </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en octubre</argument></argset>llegaron a fijarse a 34,60 dólares el barril , el precio más alto desde noviembre_de_1990 , en plena crisis del golfo Pérsico . </example>
+        <example file="CESS-CAST-P/135_19981201_c.tbf.xml" nodepath="4.0.0.1.1.1.0.0" sentencenodepath="4">La gala de <argset><head>entrega </head></argset>de los premios se celebrará el próximo viernes en Londres y está confirmada la asistencia de Almodóvar , Bardem , Penélope_Cruz y Carmelo_Gómez . </example>
+        <example file="CESS-CAST-P/179_20010401.tbf.xml" nodepath="2.0.1.1" sentencenodepath="2"><argset><specifier>Esta</specifier><reference_modifiers>segunda</reference_modifiers><head>entrega </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las correrías de Torrente , el poli facha y cutre ,</argument></argset>sacrifica el esperpento por la acumulación de gags y secuencias de acción . </example>
+        <example file="CESS-CAST-P/30_19990201.tbf.xml" nodepath="5.2.2.1.1.1.1.2.0.2.0.0" sentencenodepath="5">Arenas , en su primer discurso como nuevo número dos del partido , vinculó su futuro político al de José_María_Aznar y Ø ensalzó el trabajo de su antecesor , Francisco_Alvarez-Cascos , <argset><argument argument="arg0" thematicrole="agt" type="relatiu">cuya</argument>" <head>entrega </head>e inteligencia </argset>serán muy difíciles de igualar " . </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="14.3.1.1.0" sentencenodepath="14">Los jueces suizos prohibieron el uso de estas pruebas - - entre ellas las cuentas de De_la_Rosa en el país - - porque <argset><specifier>la</specifier><head>entrega </head></argset>fue irregular . </example>
+        <example file="CESS-CAST-P/55_20010103.tbf.xml" nodepath="6.4.1.0" sentencenodepath="6">Estos precios , añadió la compañía , no incluyen <argset><specifier>la</specifier><head>entrega </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">a_domicilio</argument></argset>como en España . </example>
+        <example file="CESS-CAST-P/7_19990901.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>entrega </head></argset>, de una vez y posiblemente antes de las elecciones del 17_de_octubre . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="entregar" originlink="verb.entregar.1" wordnetsynset="16:00205732">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="9" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="4" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="15.2.1.1.1.0" sentencenodepath="15">El dividendo especial estará condicionado a <argset><specifier>la</specifier><head>entrega </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para el intercambio con Alcan</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del 67_por_ciento de las acciones en circulación de Algroup</argument></argset>. </example>
+        <example file="CESS-CAST-A/10376_20001114.tbf.xml" nodepath="9.3.4.1.1.2.1.1.1.2.1.1.2.1.1.0" sentencenodepath="9">Todo apunta a que la oferta de Baker será rechazada por los demócratas , ya_que Ø están a_la_espera_de la decisión de un juez sobre la demanda que pide ampliar el plazo de las 22.00 GMT de hoy para <argset><specifier>la</specifier><head>entrega </head><reference_modifiers>oficial</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los resultados de los condados</argument></argset>. </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="8.0.3.1.1.1.2.1.0" sentencenodepath="8">Tal_y_como Ø ocurre en otros sectores , donde <argset><specifier>la</specifier><head>entrega </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del manejo de empresas locales</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a manos españolas</argument></argset>se ha traducido en una oleada de fuertes inversiones para mejorar los servicios , en el sector financiero la entrada de los bancos españoles ha dado más seguridad a un sistema financiero muchas veces endeble . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="3.3.0.1.1.0" sentencenodepath="3">Los líderes de la UE acordaron en la cumbre de Helsinki , en diciembre pasado , suspender <argset><specifier>la</specifier><head>entrega </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 30 millones de euros</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">de ayuda alimentaria</argument></argset>y " reorientar " los fondos de ayuda del programa TACIS correspondientes al año_2000 destinados a Rusia . </example>
+        <example file="CESS-CAST-A/16577_20000320.tbf.xml" nodepath="16.0.1.1.0" sentencenodepath="16">Con <argset><specifier>la</specifier><head>entrega </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del nuevo título</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a De_La_Hoya</argument></argset>, el ex medalla de oro Olímpica en Barcelona'92 tendrá que establecer qué corona Ø expone cuando Ø se enfrente a Mosley porque Ø también tiene en su poder la de la Asociación_Internacional_de_Boxeo ( AIB ) . </example>
+        <example file="CESS-CAST-A/16986_20000621.tbf.xml" nodepath="3.2.1.1.1.0.2.0" sentencenodepath="3">La página de turismo ofrecerá un servicio de <argset>alerta de tarifas , <head>entrega </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de pasajes</argument>y línea de emergencia para pasajeros que deben viajar de urgencia </argset>. </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="11.3.1.2.1.0.1.1.1.2.2.2.1.0" sentencenodepath="11">Ø Volvió a insistir también en que Ø nunca fue sobornable y que ninguno de los negocios cerrados durante su mandato , como la venta de la refinería estatal Leuna a la francesa Elf-Aquitaine o <argset><specifier>la</specifier><head>entrega </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de tanques</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a Arabia_Saudí</argument></argset>, estuvo relacionado con alguna transacción turbia , como sospecha la comisión parlamentaria . </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="13.2.5.1.1.0" sentencenodepath="13">Ø Adelantó que no se encontraría nada respecto_a <argset><specifier>la</specifier><head>entrega </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los tanques</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a Arabia_Saudí</argument></argset>, simplemente porque nunca hubo documentación al_respecto , al_menos no respecto_a los trámites previos a la decisión . </example>
+        <example file="CESS-CAST-P/30_20010401.tbf.xml" nodepath="0.2.2.1.0" sentencenodepath="0">Bosnia y Croacia no_sólo saludaron ayer la detención de Slobodan_Milosevic , sino_que Ø reclamaron <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>entrega </head></argset>al Tribunal_Penal_Internacional para la antigua Yugoslavia ( TPI ) , que lo acusa de crímenes de guerra . </example>
+        <example file="CESS-CAST-P/43_20010702.tbf.xml" nodepath="0.0.1.1.0" sentencenodepath="0">Desbloqueada <argset><specifier>la</specifier><head>entrega </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los etarras detenidos en México</argument></argset>, España aspira ahora a que la policía mexicana investigue la red de apoyos que ETA tiene en este país , según informaron fuentes oficiales . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

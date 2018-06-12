@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="inscripción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="inscribir" originlink="verb.inscribir.1" wordnetsynset="16:04828090+16:00027235">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" type="sn"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4412_20001107.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Hasta el momento Gran_Bretaña lidera <argset><specifier>la</specifier><head>inscripción </head></argset>con 103 yates , seguido de Alemania con 38 y de Noruega y Estados_Unidos , con 20 . </example>
+        <example file="CESS-CAST-P/3_19991102.tbf.xml" nodepath="7.2.1.0" sentencenodepath="7">En la plaza de Sant_Iu figuraba <argset><specifier>la</specifier><head>inscripción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sn">OTO_666</argument><reference_modifiers>con una cruz roja</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/3_19991102.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head>inscripción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sn">OTO</argument></argset>corresponde a Ordo_Templi_Orientis , una secta conocida como Templarios_Negros . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="10.2.1.0.1.0.1.1.0" sentencenodepath="10">Entre sus funciones destacan la de autorizar <argset><specifier>la</specifier><head>inscripción </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el censo de la entidad portuaria de consignatarios de empresas de estiba y de los comercializadores de pescado</argument></argset>, además_de otorgar concesiones y autorizaciones para la ocupación de la superficie pública y de las instalaciones . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="inscribir" originlink="verb.inscribir.2" wordnetsynset="16:00027235">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="15.4.1.1.1.0.0" sentencenodepath="15">Sin_embargo , para aumentar las posibilidades del número de sufragios , la JCE extendió el plazo de <argset><head>inscripción </head></argset>una hora más para las mujeres , hasta las 9:30 hora local ( 13:30 GMT ) . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="18.4.1.1.1.0.0" sentencenodepath="18">Sin_embargo , para aumentar las posibilidades del número de sufragios , la JCE extendió el plazo de <argset><head>inscripción </head></argset>una hora más para las mujeres , hasta las 09.30 hora local ( 13.30 GMT ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="inscribir" originlink="verb.inscribir.2" wordnetsynset="16:00027235">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="atr">
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/7327_20000209.tbf.xml" nodepath="0.0.2.1.0" sentencenodepath="0">El Tribunal_Regional_Electoral ( TRE ) de Sao_Paulo anuló <argset><specifier>la</specifier><head>inscripción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del ex presidente brasileño Fernando_Collor_de_Mello</argument><argument argument="argM" function="cn" thematicrole="atr" type="sp">como residente en esta ciudad</argument></argset>, lo que le impide de_momento presentarse como candidato a la Alcaldía de Sao_Paulo en las próximas elecciones , informa hoy la prensa . </example>
+        <example file="CESS-CAST-AA/7327_20000209.tbf.xml" nodepath="6.2.0.1.1.1.0.0" sentencenodepath="6">La abogada del ex mandatario , que calificó de " burocrática " la decisión del TRE , anunció que Ø no la apelará porque el fallo devuelve el proceso a la fase inicial y la solicitud de <argset><head>inscripción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Collor</argument></argset>será analizada ahora por el juez al que realmente corresponde el caso . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

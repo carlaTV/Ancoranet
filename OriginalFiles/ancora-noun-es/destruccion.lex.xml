@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="destrucción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="destruir" originlink="verb.destruir.1" wordnetsynset="16:00141128">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c2-0.tbf.xml" nodepath="11.0.5.1.1.0" sentencenodepath="11">El que prende el fuego caníbal , desde la violencia se ha asentado ya en <argset><specifier>la</specifier><head>destrucción </head></argset>, y su ritual es una catarsis salvaje . </example>
+        <example file="3LB-CAST/d2-11.tbf.xml" nodepath="8.1.2.5.1.0.1.1.1.1.4.1.1.1.2.1.1.0" sentencenodepath="8">Pues_bien , ya es triste ironía que el hombre , joven y vital , que ha mantenido a_flote el baloncesto blanco a_través_de las tragedias y los desfallecimientos , con una visión de futuro y un espíritu empresarial y deportivo moderno , esté ahora en una lucha terrible contra la enfermedad : como si el sino de la desdicha que desde 1989 persigue a esa sección se dirigiera ahora a una de las pocas personas que se han alzado contra él para invertir una tendencia imparable a <argset><specifier>la</specifier><head>destrucción </head></argset>... </example>
+        <example file="3LB-CAST/dc2-4.tbf.xml" nodepath="2.6.1.1.2.1.3.1.1.1.0.0" sentencenodepath="2">Y si Ø no se llegaron a utilizar , probablemente Ø se debió a una doble razón : de una parte , el arma atómica - puesta a_punto en 1945 - proporcionaba otro medio de <argset><head>destrucción </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">en masa</argument></argset>que se creyó más fácil de controlar , y además por_aquel_entonces sólo la poseía Estados_Unidos , lo que aumentaba su valor estratégico . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="20.0.3.3.2.1.1.1.0.1.1.0.0" sentencenodepath="20">" Nuestras fuerzas se diseñaron para la confrontación con la Unión_Soviética , para los grandes desafíos militares , pero ahora las amenazas son el terrorismo , y el terrorismo vinculado al tráfico de drogas , o la proliferación de armamentos de <argset><head>destrucción </head><reference_modifiers>masiva</reference_modifiers></argset>" , indicó Ø . </example>
+        <example file="CESS-CAST-AA/9923_20001114.tbf.xml" nodepath="1.3.1.1.3.3.1.4.1.1.1.2.2.1.1.1.1.0.2.0" sentencenodepath="1">Lagos se ha convertido en el primer jefe de Estado de Latinoamérica que visita Timor_Oriental desde que sus habitantes votaron por la independencia en un referéndum celebrado el 30_de_agosto_de_1999 , y que fue precedido por una oleada de <argset>violencia y <head>destrucción </head>
+          </argset>protagonizada por las milicias y soldados indonesios . </example>
+        <example file="CESS-CAST-P/18_19990602_a.tbf.xml" nodepath="4.3.3.1.1.1.0.3.1.0.1.0" sentencenodepath="4">Y Ø creemos que nuestro resultado , nuestra paz , será más justa y democrática que la que se alcance mediante <argset><specifier>la</specifier><head>destrucción </head></argset>y la muerte . </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="6.3.3.1.0" sentencenodepath="6">Los contrarios a las investigaciones , la mayoría republicanos opuestos al aborto , votaron en_contra porque la clonación implica <argset><specifier>la</specifier><head>destrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de embriones</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="destruir" originlink="verb.destruir.1" wordnetsynset="16:00141128">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e1-1.tbf.xml" nodepath="10.3.0.7.3.1.1.0" sentencenodepath="10">Y Ø es que el personaje trágico no puede ser persuadido ni Ø transige , Ø insiste sencillamente una y otra vez en sus motivos , Ø reitera su obsesión y Ø pasa de_largo hasta <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>destrucción </head><reference_modifiers>final</reference_modifiers></argset>; Ø es un poseso y un maniático , precisamente como el delirante ZZNM . </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="8.2.0.2.1.2.1.1.2.5.2.0.0" sentencenodepath="8">La finitud de lo existente no es una mera carencia o limitación sino oposición real , la guerra intestina de un ser individualizado , que sólo se sostiene porque hay <argset><head>destrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la entidad de unas cosas por la de otras</argument><reference_modifiers>, resta o sustracción del ser por el ser</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/t6-5.tbf.xml" nodepath="5.0.4.0.1.1.1.1" sentencenodepath="5">En aquel momento Ø se había sentido culpable de <argset><specifier>la</specifier><reference_modifiers>previsible</reference_modifiers><head>destrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del prodigio</argument></argset>, pero ahora , cuando la amargura de aquel descubrimiento se había diluido poco_a_poco en el transcurso del tiempo , casi tres años de vida igual , Ø se había acostumbrado ya a que las cosas siguieran ese orden del que se suele decir que Ø es el curso lógico de los acontecimientos . </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="12.0.1.1.0" sentencenodepath="12">Respecto_a <argset><specifier>la</specifier><head>destrucción </head><reference_modifiers>masiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de actas y archivos</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Cancillería</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en las últimas semanas de su mandato</argument></argset>, el ex-canciller sostuvo que " no se hizo nada impropio " y que Ø estaba dispuesto a explicar " dentro de un procedimiento ordenado " dónde podría encontrarse cada cosa . </example>
+        <example file="CESS-CAST-AA/6773_20000112.tbf.xml" nodepath="2.0.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>destrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las minas</argument></argset>será asignada a varias empresas privadas , entre ellas el fabricante de productos químicos Asahi_Chemical , dijeron las fuentes . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="destruir" originlink="verb.destruir.1" wordnetsynset="16:00141128">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="15.4.0.1.0" sentencenodepath="15">El político liberal Hirsch había constatado la víspera ante la comisión <argset><specifier>la</specifier><head>destrucción </head><reference_modifiers>sistemática</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dos terceras partes de los datos almacenados en los sistemas informáticos de la Cancillería</argument>, </argset>además_de la manipulación de otras muchas actas , entre ellas algunas relativas al negocio de Leuna . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

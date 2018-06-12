@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="contacto" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="contactar" originlink="verb.contactar.1" wordnetsynset="16:00023118+16:07180689+16:04734393">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="1.0.4.1.0" sentencenodepath="1">Sin_embargo , el hecho más importante ahora es <argset><specifier>el</specifier><head>contacto </head><reference_modifiers>existente</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre tomos de selenio , cuya distancia es menor que la suma de los radios de Van_der_Waals ,</argument></argset>con lo que en este caso estos compuestos pueden ser conductores bi o tridimensionales . </example>
+        <example file="3LB-CAST/dc3-5.tbf.xml" nodepath="10.4.0.1.1.0.0" sentencenodepath="10">En algunos casos también se ha podido observar conducción por <argset><head>contacto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre los tomos metálicos contenidos en los macrociclos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="4.0.1.2.2.2.1.0" sentencenodepath="4">Su colega Pérez_Roque , quien destacó en su intervención <argset><specifier>los</specifier><head>contactos </head><reference_modifiers>" fluidos "</reference_modifiers><reference_modifiers>que mantienen Cuba y España</reference_modifiers></argset>y mostró su satisfacción porque " las relaciones progresan " , explicó que Ø se ha entrevistado con las autoridades de Italia , el Vaticano , San_Marino , Francia , Dinamarca y Rusia para exponer el punto de vista de La_Habana sobre la situación de Elián . </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="5.3.1.0.1.1.1.1.0" sentencenodepath="5">" Es ridículo hablar de que yo esté escribiendo el guión , Ø no necesito ninguna estrategia o guión " , dijo Kohl en_alusión_al reproche de que <argset><specifier>estos</specifier><head>contactos </head></argset>le servían para seguir manteniendo las riendas del asunto . </example>
+        <example file="CESS-CAST-P/34_20010502.tbf.xml" nodepath="8.2.5.0.1.1.1.1.1.0.0" sentencenodepath="8">Si no , volver a empezar , mientras la paz vuelve a estar lejos después de 33 días de <argset><head>contactos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre el Gobierno y el Ejército_Zapatista</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="contactar" originlink="verb.contactar.2" wordnetsynset="16:04734393+16:00023118">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="11" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="3" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="13" type="void"/>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="11" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="2.0.0.1.1.1.1.1.2.1.0.0" sentencenodepath="2">La diversidad de las culturas que están en <argset><head>contacto </head></argset>se proyecta hacia el futuro , especialmente tras la creación por las innovaciones tecnológicas de los más avanzados medios de comunicación : las normas simbólicas particulares segregadas por los mass_media han planteado una cultura que oscila entre la divulgación de la cultura - culta - y una cultura en el sentido antropológico de la palabra , esto_es , definida no_tanto por parámetros tradicionalmente elitistas como por las necesidades o demandas culturales de las sociedades actuales . </example>
+        <example file="3LB-CAST/r2-6.tbf.xml" nodepath="4.3.1.1.3.1.1.1.2.3.4.0.1.2.1.0" sentencenodepath="4">Según fuentes empresariales , el ex_ministro trabajará en la delegación de la compañía en la calle Castellana , en Madrid , probablemente en el departamento comercial , en el que Ø ya estuvo destinado en su última etapa en la empresa y donde ahora Ø intentarán aprovechar sus conocimientos del sector y <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>contactos </head><argument argument="arg1" function="cn" type="s.a">sindicales</argument></argset>y convertirle , pese_a lo que él dice , en un ejecutivo . </example>
+        <example file="CESS-CAST-A/13241_20000216.tbf.xml" nodepath="10.1.2.2.3.3.1.0" sentencenodepath="10">En el debate , varios diputados socialdemócratas defendieron la actitud contra Austria , y el responsable de política exterior , Gernot_Erler , recordó que no se han adoptado sanciones contra ese país , sino_que simplemente se han reducido <argset><specifier>los</specifier><head>contactos </head></argset>a nivel bilateral . </example>
+        <example file="CESS-CAST-A/13853_20000918.tbf.xml" nodepath="18.4.4.1.2.1.1.1.0.1.0.0" sentencenodepath="18">La clave del partido , según Irureta , es " acertar " con la portería contraria porque , dijo Ø , " si Ø lo hacemos Ø podemos ganar " , aunque Ø incidió en que " en el fútbol de <argset><head>contacto </head><reference_modifiers>directo</reference_modifiers></argset>, de choque , de agresividad , el Hamburgo es bastante fuerte " . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="11.5.4.0.0" sentencenodepath="11">El grupo parlamentario socialista exigirá al Gobierno , la próxima semana en el pleno del Senado , que Ø inicie <argset><head>contactos </head><reference_modifiers>directos</reference_modifiers><argument argument="arg1" function="cn" type="sp">con las compañías que operan en el sector eléctrico , con las organizaciones de consumidores y con los sindicatos</argument></argset>antes de autorizar la fusión de Endesa e Iberdrola . </example>
+        <example file="CESS-CAST-A/17704_20000522.tbf.xml" nodepath="6.2.1.1.1.0" sentencenodepath="6">Las mismas fuentes confirmaron que durante <argset><specifier>los</specifier><head>contactos </head><reference_modifiers>oficiales</reference_modifiers></argset>el general Nyanda informó a su homólogo angoleño sobre el próximo despliegue de tropas sudafricanas en el marco de la Misión_de_la_ONU en el vecino Congo . </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="8.2.6.2.1.0.4.1.0.0" sentencenodepath="8">Matutes recordó que le fue imposible hablar con Pérez_Roque porque éste se hallaba de viaje , por lo que el jefe de su gabinete se puso en <argset><head>contacto </head></argset>con la embajadora cubana para mostrar su interés por estas personas , que fueron liberadas a las pocas horas . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="9.0.2.1.1" sentencenodepath="9">Presidida por Manuel_Chaves , la Comisión mantuvo <argset><specifier>un</specifier><reference_modifiers>primer</reference_modifiers><head>contacto </head><reference_modifiers>en el que se habló de la crisis de Valencia , la Segunda federación en importancia , con casi 40.000 militantes</reference_modifiers></argset>, y Ø pidió a los miembros de su gestora y a su portavoz parlamentario que Ø no dimitan . </example>
+        <example file="CESS-CAST-AA/20613_20000428.tbf.xml" nodepath="6.2.3.2.1.0" sentencenodepath="6">La congresista reveló que Ø conoce " de <argset><specifier>algunos</specifier><head>contactos </head><reference_modifiers>que en Europa estos señores ( Toledo y su esposa ) habrían tenido con familiares políticos del señor Abimael_Guzmán ( el líder preso de la banda Sendero_Luminoso )</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="9.2.1.3.1.1.1.1.1.3.2.1.1.1" sentencenodepath="9">Las empresas de calificación de riesgo extranjeras y los analistas económicos locales coinciden en que el auxilio oficial a Sogo equivale a una burla de la ya iniciada desregulación financiera en la que son las leyes del mercado las que determinan el destino de las empresas y no <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><reference_modifiers>buenos</reference_modifiers><head>contactos </head><argument argument="arg1" function="cn" type="s.a">políticos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21730_20001026.tbf.xml" nodepath="1.0.3.3.1.0" sentencenodepath="1">Fuentes diplomáticas británicas destacaron hoy que el Gobierno británico mantiene <argset><specifier>un</specifier><head>contacto </head><reference_modifiers>permanente</reference_modifiers><argument argument="arg1" function="cn" type="sp">con el español</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre la situación del submarino averiado</argument></argset>y Ø evitaron comentar la carta que envió ayer el ministro de Asuntos_Exteriores , Josep_Piqué , a su colega británico , Robin_Cook , en la que Ø considera que el asunto es " inquietante " y la información " insuficiente " . </example>
+        <example file="CESS-CAST-AA/24289_20000731.tbf.xml" nodepath="6.0.1.3.3.1.1.4.0.0" sentencenodepath="6">" También me gustaría aprovechar este encuentro con los hinchas para aclarar que en ningún momento Ø tuve <argset><head>contactos </head><argument argument="arg1" function="cn" type="sp">con el entrenador Luis_García</argument></argset>. Ø Apenas conversamos telefónicamente para una radio - días atrás - y Ø jamás hablamos sobre la posibilidad de integrar la selección " , añadió el colombiano en Todogol.com . </example>
+        <example file="CESS-CAST-AA/4831_20000306.tbf.xml" nodepath="1.4.1.2.1.0.1.1.0" sentencenodepath="1">Los desnudos candidatos , entre los que se encontraba su cabeza de lista por la provincia de Santa_Cruz_de_Tenerife , Joaquín_Galera , llevaron así a las últimas consecuencias la necesidad de su partido de tener <argset><specifier>un</specifier><head>contacto </head><reference_modifiers>directo</reference_modifiers></argset>con la gente e innovar sobre los tan frecuentes mítines políticos . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">Stoltenberg , de 41 años , iniciará <argset><specifier>los</specifier><head>contactos </head></argset>la próxima semana y mientras_tanto permanecerá en funciones la alianza dimisionaria , compuesta por democristianos , centristas y liberales , que reúnen 42 de los 165 escaños del Storting ( Parlamento ) . </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="9.2.3.0.0" sentencenodepath="9">Ambos coincidieron en Italia , en su etapa en la Fortitudo , y desde entonces Ø han mantenido <argset><head>contactos </head><reference_modifiers>regulares</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="8.2.3.1.1.1.3.1.0" sentencenodepath="8">La corrupción en la época postsoviética es la adaptación a un capitalismo primitivo de lo que era la corrupción en los tiempos soviéticos y las redes que se hicieron con el poder y constituyeron los grupos de intereses que degeneraron rápidamente en mafias tenían sus raíces en los grupos que controlaban en la época anterior <argset><specifier>los</specifier><head>contactos </head><argument argument="arg1" function="cn" type="sp">con el extranjero</argument></argset>. </example>
+        <example file="CESS-CAST-P/124_20010201.tbf.xml" nodepath="5.2.1.0" sentencenodepath="5">Josep_Mariné , presidente del ente provincial y alcalde de Alforja , reconoce <argset><specifier>los</specifier><head>contactos </head><argument argument="arg1" function="cn" type="sp">con Defensa</argument></argset>. </example>
+        <example file="CESS-CAST-P/130_19990701.tbf.xml" nodepath="1.0.4.1.1.1.1.0" sentencenodepath="1">El propio periodista reconoció implícitamente a este diario la existencia de <argset><specifier>los</specifier><head>contactos </head></argset>, pero Ø negó que hasta el momento Ø hayan culminado en un acuerdo concreto . </example>
+        <example file="CESS-CAST-P/135_19981202.tbf.xml" nodepath="3.0.2.1.0" sentencenodepath="3">El humor y la diversión - - que les permite plantear con frivolidad algunos de los temas que más preocupan a la sociedad actual - - , y <argset><specifier>el</specifier><head>contacto </head><reference_modifiers>directo</reference_modifiers><argument argument="arg1" function="cn" type="sp">con el público</argument><reference_modifiers>- - del que se requiere una activa colaboración tanto en el escenario como en el patio de butacas - -</reference_modifiers></argset>, son los pilares que sustentan unos espectáculos dramatúrgicamente poco ambiciosos que aspiran a entretener dignamente humor , la improvisación y la participación . </example>
+        <example file="CESS-CAST-P/140_20011102.tbf.xml" nodepath="8.3.3.3.1.1" sentencenodepath="8">" A mí me Ø han hecho grandes elogios y Ø me han insultado . Las críticas , totalmente azarosas , afectan a los escritores porque Ø son <argset><specifier>el</specifier><reference_modifiers>primer</reference_modifiers><head>contacto </head><reference_modifiers>que tenemos</reference_modifiers><argument argument="arg1" function="cn" type="sp">con la realidad</argument></argset>" . </example>
+        <example file="CESS-CAST-P/16_19990501_b.tbf.xml" nodepath="4.2.2.3.1.3.0.0.2.0" sentencenodepath="4">Ø Pedimos comprensión , y que Ø acepten que Ø no podemos mantener <argset>correspondencia o <head>contacto </head>
+            <reference_modifiers>telefónico</reference_modifiers>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">sobre ellas</argument>
+          </argset>ni tampoco devolverlas . </example>
+        <example file="CESS-CAST-P/17_20000602_a.tbf.xml" nodepath="1.3.1.1.1.0.1.1.0.0" sentencenodepath="1">Eso explicaría también la falta de teléfono o domicilio de <argset><head>contacto </head></argset>. </example>
+        <example file="CESS-CAST-P/187_20010401.tbf.xml" nodepath="5.0.1.1.1.0.0" sentencenodepath="5">El alud de <argset><head>contactos </head></argset>obligó a los organizadores a retrasar durante una hora el concierto anunciado , lo cual multiplicó las protestas e insultos que llovieron sobre la dirección electrónica del portal . </example>
+        <example file="CESS-CAST-P/18_19981102.tbf.xml" nodepath="4.0.2.4.1.1.1.1.0" sentencenodepath="4">Es cierto que en Roma todavía existe una oficina para <argset><specifier>los</specifier><head>contactos </head>- - diálogo ha sido siempre la palabra para este ejercicio inútil - - <argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre la Iglesia católica y la anglicana</argument>
+          </argset>, pero ambas parecen empeñadas en hacer fracasar los esfuerzos de aproximación . </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="20.0.3.1.1.2.2.2.1.0" sentencenodepath="20">" En casos muy graves , se puede acordar la vigilancia de la víctima todo el día o acompañarle a comprar al trabajo o a la escuela de su hijo . Hay otros sistemas de control , como la contravigilancia o <argset><specifier>el</specifier><head>contacto </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">telefónico</argument><argument argument="arg1" function="cn" type="sp">con los agentes</argument></argset>" , afirman los Mossos_d'Esquadra . </example>
+        <example file="CESS-CAST-P/20_20010702.tbf.xml" nodepath="6.2.1.1.1.0.2.2.1.0.1.4.1.0.0" sentencenodepath="6">El bombardeo israelí provocó la indignación del mundo árabe , especialmente de Siria y Líbano , cuyos ministros de Asuntos_Exteriores se pusieron en <argset><head>contacto </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">telefónico</argument></argset>para estudiar una respuesta . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="19.3.1.0.0" sentencenodepath="19">Ø Tienen prohibido por el jefe del sector establecer <argset><head>contacto </head><argument argument="arg1" function="cn" type="sp">con desconocidos</argument></argset>. </example>
+        <example file="CESS-CAST-P/2_19991102.tbf.xml" nodepath="12.3.4.0.0" sentencenodepath="12">En esta página se ofrecen textos sobre los valores del satanista , misas negras , además_de <argset><head>contactos </head><argument argument="arg1" function="cn" type="sp">con satánicos de todo el mundo</argument>( uno de ellos es de Catalunya ) </argset>y los principios de este movimiento . </example>
+        <example file="CESS-CAST-P/65_20000602.tbf.xml" nodepath="18.3.0.0" sentencenodepath="18">Durante toda la noche , el secuestrador mantuvo <argset><head>contactos </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">telefónicos</argument><argument argument="arg1" function="cn" type="sp">con la policía</argument><reference_modifiers>, en los que repitió sus exigencias y fijó un ultimátum para las 8.30 de la mañana</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="contactar" originlink="verb.contactar.2" wordnetsynset="16:00023118">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <examples>
+        <example file="3LB-CAST/d2-17.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head>contacto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre ellos</argument></argset>posee una profundidad ideológica , mientras_que el que Ø mantienen con los demás se refiere a aspectos más superficiales y , por_lo_tanto , menos dañinos para el cuerpo y el espíritu . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense alternativelemma="poner_en_contacto" cousin="no" denotation="none" id="4" lexicalizationtype="verbal" lexicalized="yes" originlemma="contactar" originlink="verb.contactar.2" wordnetsynset="16:04734393">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="3.1.5.1.0.0" sentencenodepath="3">Además , - cómo se ponen Ø en <argset><head>contacto </head><reference_modifiers>con ETA</reference_modifiers></argset>? </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="result" id="5" lexicalized="no" originlemma="tocar" originlink="verb.tocar.1" wordnetsynset="16:10346256">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/18_20011202.tbf.xml" nodepath="3.1.1.1.1.0.4.1.2.2.1.1.1.0.0" sentencenodepath="3">Hay el antecedente del sobe testicular de Michel a Valderrama , desdoro impune , tal_vez por limitarse al <argset><head>contacto </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">manual</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

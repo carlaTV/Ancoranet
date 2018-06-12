@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="atención" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="atender" originlink="verb.atender.1" wordnetsynset="16.04405653n">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="a" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="23" type="void"/>
+        <constituent frequency="17" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="r" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="12" type="s.a"/>
+        <constituent frequency="4" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a22-4.tbf.xml" nodepath="8.1.4.5.2.2.1.0.1.1.0.0" sentencenodepath="8">Muy bien : - cree usted que Ø puede dar franca salida a sus ímpetus caritativos agarrando un bosnio o dos y llevándolos a su casa para colmarlos de <argset><head>atenciones </head></argset>, protegerlos del invierno , regalarles turrón en Navidad y hacerles ver que la solidaridad humana velaría por ellos y por los demás destituidos del mundo ? </example>
+        <example file="3LB-CAST/a27-0.tbf.xml" nodepath="2.3.1.1.1.2.2.2.1.1.2.0.1.3.1.0.1" sentencenodepath="2">La censura se encargaba de acallar cualquier voz altisonante que pudiera dañar el régimen de Franco y sus instituciones , salvo Radio_Pirenaica , que era seguida con <argset><reference_modifiers>gran</reference_modifiers><head>atención </head></argset>por los más concienciados políticamente . </example>
+        <example file="3LB-CAST/d2-12.tbf.xml" nodepath="7.1.1.1.1.0" sentencenodepath="7">Una forma lícita y pacífica de protesta y de aprovechar la resonancia de la carrera para atraer <argset><specifier>la</specifier><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">pública</argument></argset>hacia esos lamentables casos de desamparo obrero . </example>
+        <example file="3LB-CAST/d2-9.tbf.xml" nodepath="2.4.0.2.1.0.0" sentencenodepath="2">Paralelamente , sus patrocinadores , con el departamento de marketing a la expectativa de cumplir los objetivos marcados a principio de temporada , dan " toques de <argset><head>atención </head></argset>" a los directores de equipo cuando no se alcanzan los niveles deseados . </example>
+        <example file="3LB-CAST/dc1-5.tbf.xml" nodepath="9.0.1.1.0" sentencenodepath="9">Incluso <argset><specifier>la</specifier><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de dos padres</argument></argset>no basta , debido_a que uno de ellos estaría forzado a comer y a llevar el cachorro al mismo tiempo , lo que no es una tarea fácil dada su pequeña envergadura . </example>
+        <example file="3LB-CAST/dc2-5.tbf.xml" nodepath="8.5.5.3.1.1.1" sentencenodepath="8">Sin_embargo , estas naciones serían también las víctimas más indefensas y propiciatorias , ya_que sus deficientes estructuras sanitarias no permitirían ni la pronta identificación del agente agresor , ni desde_luego <argset><specifier>una</specifier><reference_modifiers>eficaz</reference_modifiers><head>atención </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a los afectados que , a_la_postre , acabarían además convertidos en vectores de contagio involuntarios</argument></argset>. </example>
+        <example file="3LB-CAST/e1-1.tbf.xml" nodepath="2.1.0.0.0" sentencenodepath="2">Cuanto_menos <argset><head>atención </head></argset>se presta al texto , más se acentúan en el personaje exento los rasgos menos inocentes de un prototipo sobrecargado . </example>
+        <example file="3LB-CAST/e2-0.tbf.xml" nodepath="8.2.2.0.1.2.1.1.0" sentencenodepath="8">La cultura adquiere entidad propia , Ø es objeto de un desarrollo especial y de <argset><specifier>una</specifier><head>atención </head><reference_modifiers>cada vez más globalizadora</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las actividades y valores humanos</argument></argset>. </example>
+        <example file="3LB-CAST/r2-4.tbf.xml" nodepath="11.2.3.1.3.4.1.2.1.1.0" sentencenodepath="11">Los expertos en la lucha contra el terrorismo estiman que la actual oleada de cartas , remitidas a comienzos del pasado mes_de_mayo y firmadas por ETA , tienen un objetivo psicológico más_que económico : - Se trataría de amedrentar y sembrar el terror en la capital del Estado y desviar <argset><specifier>la</specifier><head>atención </head></argset>hacia otro centro económico para evitar las críticas fundadas que achacan a ETA la responsabilidad de la crisis económica en el País_Vasco - . </example>
+        <example file="3LB-CAST/t4-2.tbf.xml" nodepath="12.2.1.1.0" sentencenodepath="12">Lo único bueno que hacen las universidades es promover , cultivar y orientar <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestra</argument><head>atención </head></argset>. </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="17.1.1.0.2.0.1" sentencenodepath="17">De los siete candidatos que compiten mañana , el que concentra <argset><reference_modifiers>mayor</reference_modifiers><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">internacional</argument></argset>es Joaquín_Balaguer , de 93 años y ciego , siete veces presidente de la República , quien encabeza la lista de acusaciones de sus adversarios por haber ganado supuestamente los comicios por métodos fraudulentos . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="1.1.1.0.2.0.1" sentencenodepath="1">De los siete candidatos contendientes en_representación_de 18 partidos para elegir al presidente número 78 de la historia dominicana , el que concentra <argset><reference_modifiers>mayor</reference_modifiers><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">internacional</argument></argset>es Joaquín_Balaguer . </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="1.0.2.1.1.1.0.0" sentencenodepath="1">Los Lakers han sido el centro de <argset><head>atención </head></argset>durante toda la liga por sus triunfos , pero en las dos últimas jornadas en su gira por tierras tejanas Ø han sufrido dos derrotas muy significativas en_vísperas de comenzar la primera ronda de la fase final contra los Kings_de_Sacramento . </example>
+        <example file="CESS-CAST-A/15801_20000123.tbf.xml" nodepath="13.0.2.1.1.2.1.0" sentencenodepath="13">Si había un partido que llamaba <argset><specifier>la</specifier><head>atención </head></argset>en el programa de hoy éste era el que enfrentaba al estadounidense Andre_Agassi y al australiano Mark_Philippoussis . </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="7.3.1.0" sentencenodepath="7">Ø También llamó <argset><specifier>la</specifier><head>atención </head></argset>sobre la necesidad de fortalecer el sistema de comercio multilateral mediante una mayor coherencia entre instituciones como la Organización_Mundial_del_Comercio ( OMC ) , el Fondo_Monetario_Internacional ( FMI ) , el Banco_Mundial ( BM ) y el Programa_de_las_Naciones_Unidas_para_el_Desarrollo ( PNUD ) . </example>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="1.2.1.1.2.0.1" sentencenodepath="1">El Nautic_Centre es el recinto que , hasta el momento , <argset><reference_modifiers>mayor</reference_modifiers><head>atención </head></argset>ha demandado entre los australianos . </example>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="10.3.1.3.2.1.1.1.2.2.1.0" sentencenodepath="10">El director general del CPI calificó estos datos como " la realidad de un viejo sueño . Ø Es la prueba de que el deporte paralímpico es grande y Ø acapara <argset><specifier>la</specifier><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del público</argument></argset>" . </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="3.3.1.0.1" sentencenodepath="3">Es_decir , las empresas debían incluir cinco empleados de raza negra por cada uno de raza blanca , mestizo o indio , además_de dar <argset><reference_modifiers>gran</reference_modifiers><head>atención </head></argset>al empleo de mujeres y minusválidos , mediante cupos establecidos . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="7.3.1.4.3.4.1.1.2.1.0.2.0" sentencenodepath="7">Xavier_Trias insiste en su discurso en que Cataluña necesita más recursos porque el trato fiscal que Ø recibe en la actualidad es " injusto " y Ø puede acabar dañando su competitividad , y además Ø impide al gobierno de la Generalitat ofrecer los mismos servicios que otras autonomías en_materia_de <argset>asistencia sanitaria , <head>atención </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la tercera edad</argument>o construcción de guarderías </argset>. </example>
+        <example file="CESS-CAST-AA/3818_20000806.tbf.xml" nodepath="1.0.2.4.2.1.1.0.0" sentencenodepath="1">Alonso , que llegó a Valencia la pasada semana procedente de Uruguay , donde Ø estaba concentrado con su selección , explicó que Cúper ha dado a los jugadores " un toque de <argset><head>atención </head></argset>sobre las características del rival , que saldrá muy motivado " , indicó Ø . </example>
+        <example file="CESS-CAST-AA/5808_20001108.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">El populista de derechas Joerg_Haider , mentor del Partido_Liberal austriaco ( FPOE ) , centra de_nuevo <argset><specifier>la</specifier><head>atención </head></argset>por insinuar que Ø podría abandonar la política próximamente cuando su grupo parece el más implicado en el escándalo por el acceso ilegal a datos policiales sobre sus adversarios . </example>
+        <example file="CESS-CAST-AA/6438_20000608.tbf.xml" nodepath="0.2.2.1.0" sentencenodepath="0">La esposa del presidente del Gobierno , Ana_Botella , ha pedido hoy a las mujeres que Ø aumenten la natalidad " para lograr que España no sea una sociedad cada vez más envejecida " y Ø ha reclamado <argset><specifier>más</specifier><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las administraciones públicas</argument></argset>, con_el_fin_de hacer compatible el trabajo de la mujer y su función como madre . </example>
+        <example file="CESS-CAST-AA/6697_20000910.tbf.xml" nodepath="4.2.0.2.2.1.1.2.2.2.1.0" sentencenodepath="4">" Que viva el sucre , que muera el dólar " , fue una de las frases repetida con insistencia por los curiosos , la mayoría ancianos y niños , así_como artistas que seguían a la Mariscal coreando canciones tristes y que llamaron <argset><specifier>la</specifier><head>atención </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los transeúntes</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6823_20000810.tbf.xml" nodepath="0.3.4.3.1.2.0.2.1.1.0" sentencenodepath="0">El presidente de Unicaja , Braulio_Medel afirmó hoy que " la experiencia ha demostrado que Internet es un canal bancario complementario a las sucursales en <argset><specifier>la</specifier><head>atención </head><reference_modifiers>que las entidades bancarias podemos ofrecer al cliente</reference_modifiers></argset>" , ya_que , según indicó Ø es " imprescindible " un soporte físico . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="6.3.3.2.2.3.1.0.0" sentencenodepath="6">Asimismo , Aznar afirmó que el Gobierno " trabajará para adecuar a las necesidades reales las plazas en Centros_de_Acogida y en pisos tutelados " , e Ø impulsará " las unidades específicas en las Comisarías y servicios de la Guardia_Civil de <argset><head>atención </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a mujeres , niños y adolescentes víctimas de agresiones sexuales o malos tratos</argument></argset>, unidades que estarán integradas principalmente por mujeres " . </example>
+        <example file="CESS-CAST-P/123_19990202.tbf.xml" nodepath="3.3.5.1.0.1.1.1.0" sentencenodepath="3">John_Coates , presidente del Comité_Olímpico_Australiano , reconoció ayer que tras el escándalo desatado Ø no descarta anular alguna de <argset><specifier>las</specifier><head>atenciones </head><reference_modifiers>previstas en Sydney para los miembros del COI</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/136_20010102_b.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">El_Laboratorio_del_circo centrará <argset><specifier>la</specifier><head>atención </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del domingo</argument></argset>con los pases de Leo_Bassi , Joan_Font , Tortell_Poltrona , Monti , Rumbaqueterumba , y Mau_Mau . </example>
+        <example file="CESS-CAST-P/149_20020501.tbf.xml" nodepath="5.4.2.1.0.3.1.1.0" sentencenodepath="5">El juego se comercializa para Gameboy_Advance ( que es la nueva consola de bolsillo de Nintendo , sensación de todos los adolescentes y niños ) , para Playstation_2 y para PC , con lo que se intenta captar <argset><specifier>la</specifier><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de un público más adulto</argument></argset>. </example>
+        <example file="CESS-CAST-P/16_19990202.tbf.xml" nodepath="10.1.0.0" sentencenodepath="10">¡ <argset><head>Atención </head></argset>al veneno mental de la hora de la sopa ! . </example>
+        <example file="CESS-CAST-P/16_20000202.tbf.xml" nodepath="8.0.3.0.0" sentencenodepath="8">Si Ø ponen <argset><head>atención </head></argset>en lo que se dice y se escribe sobre una posible repatriación de Eliancito , los que se fueron al exilio han de estar desesperanzados . </example>
+        <example file="CESS-CAST-P/17_20000602_b.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>Más</specifier><head>atención </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al judo</argument></argset>. </example>
+        <example file="CESS-CAST-P/199_20001201.tbf.xml" nodepath="5.3.2.1.0" sentencenodepath="5">En_realidad lo que Ø quería era simplemente atraer <argset><specifier>la</specifier><head>atención </head></argset>sobre su cadena de teatro y salas de juego . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="23.3.0.0" sentencenodepath="23">Según los investigadores Ø recibía <argset><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">psiquiátrica</argument></argset>a_causa_de una depresión . </example>
+        <example file="CESS-CAST-P/21_20000202_c.tbf.xml" nodepath="1.3.2.1.0.3.2.1.1.1.2.1.1.0" sentencenodepath="1">Está prevista su reforma , por lo que Ø esperamos poder ofrecer nuestros servicios en un centro estructuralmente más amplio y con <argset><specifier>una</specifier><head>atención </head><reference_modifiers>más íntegra</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="14.2.1.1.1" sentencenodepath="14">Los afectados volvieron a quejarse de <argset><specifier>la</specifier><reference_modifiers>mala</reference_modifiers><head>atención </head><reference_modifiers>que reciben de Turbocat</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/2_19991102.tbf.xml" nodepath="3.2.3.4.5.1.0" sentencenodepath="3">Hola , mi nombre es ... , Ø quisiera saber qué hacer para iniciarme en el satanismo , pues Ø siento que Ø me atrae poderosamente <argset><specifier>la</specifier><head>atención </head></argset>. </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="1.2.0.1.1.0.0" sentencenodepath="1">Los centros deberán crear áreas de <argset><head>atención </head><reference_modifiers>inmediata</reference_modifiers></argset>para casos leves . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="3.0.3.1.1.1.5.1.1.1.1.0.0" sentencenodepath="3">El conseller de Sanitat , Eduard_Rius , ha asumido como " una realidad " el hecho de que los usuarios no confían , de_momento , en los centros de <argset><head>atención </head><reference_modifiers>continuada</reference_modifiers></argset>( CAC ) de los barrios , y Ø ha optado por volcar sus medios técnicos y económicos en reforzar los servicios de urgencias de los hospitales . </example>
+        <example file="CESS-CAST-P/37_19990301.tbf.xml" nodepath="18.2.1.0" sentencenodepath="18">El impacto de los aludes en los Alpes y el hecho de que las explosiones de Salou no se vincularan con una actuación terrorista desviaron <argset><specifier>la</specifier><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">informativa</argument></argset>, según explicaron fuentes de los turoperadores de la zona . </example>
+        <example file="CESS-CAST-P/48_20000402.tbf.xml" nodepath="10.0.3.1.0" sentencenodepath="10">Esta cifra no_sólo ha atraído <argset><specifier>la</specifier><head>atención </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las empresas estadounidenses</argument></argset>, sino_que Ø también ha aumentado su ansiedad , pues Ø augura una gran competencia internacional por la conquista de Cuba , cuando desaparezca el embargo . </example>
+        <example file="CESS-CAST-P/71_19991201_a.tbf.xml" nodepath="3.2.3.1.1.1.1.0.2.0" sentencenodepath="3">El delegado del plan , Gonzalo_Robles , explicó que se trata de un proyecto de <argset>prevención del daño y <head>atención </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="s.a">sanitaria</argument>
+          </argset>, que además persigue " devolver la dignidad " a personas que viven en condiciones " lamentables " . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="8.3.1.2.2.0.1" sentencenodepath="8">El director general de Política_Económica y Defensa_de_la_Competencia , Luis_de_Guindos , afirmó ayer que su departamento vigilará " con <argset><reference_modifiers>especial</reference_modifiers><head>atención </head></argset>" esta operación , y Ø presentará las alegaciones oportunas a la Comisión_Europea . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="6.0.0.1.1.1.1.3.0.1" sentencenodepath="6">Otra de las cuestiones a las que Ø dedicará <argset><reference_modifiers>especial</reference_modifiers><head>atención </head></argset>será la mejora de las infraestructuras , instalaciones y servicios portuarios , para rentabilizar mejor las inversiones y para capitalizar los beneficios . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="0.2.1.1.1.0.0" sentencenodepath="0">La juez reprocha la falta de <argset><head>atención </head></argset>al conductor , al que Ø retira un año el carnet . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="7.2.5.1.1.1.0.0" sentencenodepath="7">La sentencia de la juez de instrucción número 21 , María_del_Carmen_Suárez , afirma que el imputado " no adoptó las medidas de <argset><head>atención </head></argset>exigibles en la conducción " , por lo que Ø perdió el control del coche . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="15.3.6.1.1.1.0.0" sentencenodepath="15">La juez Suárez entiende que " tal anticipación no fue prevista " por el acusado cuando Ø se iba a incorporar al paseo de Gràcia , ya_que " Ø no adoptó las medidas de <argset><head>atención </head></argset>exigibles " , lo que " determinó que Ø perdiera el control de su vehículo " , atropellando a_continuación a los tres menores que se dirigían a la escuela . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="atender" originlink="verb.atender.1" wordnetsynset="16:00428745+16:04405653">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2519_20000203.tbf.xml" nodepath="4.4.1.1.1.1.1.1.0.2.0" sentencenodepath="4">Cuba envió varias brigadas de socorristas a Venezuela para colaborar en las labores de <argset>rescate y <head>atención </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">a los miles de damnificados que dejaron las catastróficas lluvias caídas en diciembre</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="7.3.1.3.1.6.1.0" sentencenodepath="7">Desde entonces , el trabajo de la institución consiste en " revitalizar las más diversas disciplinas de la cultura regional mediante la celebración de congresos y seminarios , la publicación de libros y el rescate de joyas perdidas de nuestra bibliografía , la edición de memorias y boletines , y <argset><specifier>la</specifier><head>atención </head><reference_modifiers>meticulosa</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a todas aquellas consultas que se nos hacen desde los pueblos y ciudades de Extremadura</argument></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="atender" originlink="verb.atender.1" wordnetsynset="16:00428745">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="8.4.1.2.1.1.1.1.1.0.2.4.1.3.0.1.1.2.1.1.1.1.0.0" sentencenodepath="8">En opinión de Fidalgo , " ni este Gobierno ni los anteriores han tenido el valor suficiente para atajar ese incremento del gasto farmacéutico , que está parasitando el gasto sanitario y evitando que se liberen recursos para aumentar el número de camas , las dotaciones de plantillas y ampliar los servicios de <argset><head>atención </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a los pacientes</argument></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="centro_de_atención" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="atender" originlink="verb.atender.1" wordnetsynset="16:04506619">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="18.2.0.1.1.0.0" sentencenodepath="18">Jan_Ullrich volvió a ser centro de <argset><head>atención </head></argset>, tras un año de ausencia por lesión . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="llamar_la_atención" cousin="no" denotation="none" id="5" lexicalizationtype="verbal" lexicalized="yes" originlemma="atender" originlink="verb.atender.1" wordnetsynset="16:04406962">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="4.4.1.2.2.1.1.1.0" sentencenodepath="4">En_medio_de todo esto , dos millares de prostitutas procedentes de 23 países celebran a_partir_de hoy un congreso de cinco días , centrado en llamar <argset><specifier>la</specifier><head>atención </head></argset>sobre la discriminación jurídica de su profesión frente_a otras . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">La patronal vasca , Confebask , llamó hoy <argset><specifier>la</specifier><head>atención </head></argset>sobre la existencia en la Comunidad_Autónoma_Vasca de 18.000 puestos de trabajo sin cubrir debido_a la falta de mano de obra adecuada , cuya incorporación al mercado laboral reduciría las previsiones sobre la tasa de paro para el año_2003 en dos puntos . </example>
+        <example file="3LB-CAST/c1-1.tbf.xml" nodepath="0.1.2.0.2.1.1.0" sentencenodepath="0">Hay quien intenta cumplir y llamar <argset><specifier>la</specifier><head>atención </head></argset>regalando cosas completamente absurdas . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

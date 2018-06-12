@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="evasión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="evadir" originlink="verb.evadir.1" wordnetsynset="16:00112413">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/t4-2.tbf.xml" nodepath="0.3.1.2.1.0" sentencenodepath="0">Eso les hizo tal_vez recordar que el nacer era <argset><specifier>una</specifier><head>evasión </head></argset>( - de qué ? ) y el morir una emigración ( - a dónde ? ) </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="7.4.1.1.0.1.0" sentencenodepath="7">El Gobierno , que suscribió en diciembre pasado un plan de ajuste con el Fondo_Monetario_Internacional ( FMI ) , se comprometió a incrementar la gestión de la Dirección_de_Impuestos_y_Aduanas_Nacionales ( DIAN ) para enfrentar <argset><specifier>la</specifier><head>evasión </head></argset>y el contrabando . </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="8.0.0.1.2.1.1.1.1.0" sentencenodepath="8">Junto_a la reducción del impuesto a la renta , el control a <argset><specifier>la</specifier><head>evasión </head><reference_modifiers>, que en el caso del Impuesto al Valor_Añadido ( IVA ) puede ascender a un 40_por_ciento ,</reference_modifiers></argset>y al contrabando , que según algunos estudios puede ser del_orden_de 2.000 millones de dólares anuales , se prevé la eliminación de algunas exenciones tributarias . </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="15.2.4.1.1.2.0.0.1.0" sentencenodepath="15">El jefe de Estado anunció que , con el paquete de disposiciones económicas que Ø anunció , Ø eliminará " prácticas y concepciones que han estimulado <argset><specifier>la</specifier><head>evasión </head></argset>y el escondite de los patrimonios en el país " , por lo que Ø ha decidido " transparentar " y hacer más eficiente el cobro del impuesto sobre la renta . </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="17.0.2.3.1.1.1.1.0" sentencenodepath="17">Mejía advirtió que se terminó la era de <argset><specifier>las</specifier><head>evasiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">fiscales</argument></argset>y Ø anunció " la última amnistía fiscal " para quienes han evadido el pago de los impuestos . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

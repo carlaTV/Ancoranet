@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="instalación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="instalar" originlink="verb.instalar.1" wordnetsynset="16:02661119">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10920_20001115.tbf.xml" nodepath="4.3.0.1.1.1.0.1.1.1.1.0" sentencenodepath="4">Desde el día uno_de_diciembre , los supervisores regionales tendrán derecho a ordenar la clausura de <argset><specifier>las</specifier><head>instalaciones </head><reference_modifiers>que no cumplan las normas ,</reference_modifiers></argset>e incluso el " cierre inmediato " si las circunstancias son de " gran inseguridad " para los trabajadores . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="27.0.1.1.2.1.2.1.0.1.1.0.0" sentencenodepath="27">Las Comunidades_Autónomas que han registrado un mayor incremento del número de <argset><head>instalaciones </head></argset>, respecto_al año_1985 , han sido Baleares , Aragón y Asturias , aunque las Comunidades donde hay un mayor número de instalaciones deportivas son Cataluña y Andalucía . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="27.3.2.1.1.2.1.2.1.0.0" sentencenodepath="27">Las Comunidades_Autónomas que han registrado un mayor incremento del número de instalaciones , respecto_al año_1985 , han sido Baleares , Aragón y Asturias , aunque las Comunidades donde hay un mayor número de <argset><head>instalaciones </head><reference_modifiers>deportivas</reference_modifiers></argset>son Cataluña y Andalucía . </example>
+        <example file="CESS-CAST-A/17116_20000722.tbf.xml" nodepath="0.3.1.1.2.1.1.1.2.3.3.1.0" sentencenodepath="0">Los obreros de la fábrica de cerveza Adelshoffen_de_Schiltigheim , en un suburbio de Estrasburgo ( este ) , suspendieron hoy el ultimátum dado a la dirección para explotar las bombonas de gas que alimentan la planta si se cierran <argset><specifier>las</specifier><head>instalaciones </head></argset>, a_la_espera_de una reunión el martes próximo . </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="1.0.0.1.5.1.2.1.1" sentencenodepath="1">Rato , que se trasladó a Villabrázaro ( Zamora ) para inaugurar junto_con el presidente de Castilla_y_León , Juan_José_Lucas , <argset><specifier>las</specifier><reference_modifiers>nuevas</reference_modifiers><head>instalaciones </head><reference_modifiers>del grupo Tablicia</reference_modifiers></argset>en esta localidad , afirmó que el Ejecutivo ha solicitado a las dos empresas " una copia exacta de sus planes " y , a_partir_de ello , " Ø estudiaremos cuáles son las consecuencias para la competencia y para los ciudadanos y consumidores " . </example>
+        <example file="CESS-CAST-A/18886_20000323.tbf.xml" nodepath="2.0.1.1.1.4.1.1.0" sentencenodepath="2">Tras el entrenamiento que hoy tuvo la plantilla deportivista en <argset><specifier>las</specifier><head>instalaciones </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Acea_da_Ama</argument></argset>, Pauleta insistió ante los periodistas en que Ø no hizo " nada para merecer una sanción de dos partidos " y Ø se mostró convencido de que eso mismo " lo hubiera hecho un jugador del Real_Madrid o del Barcelona Ø no le habrían castigado " . </example>
+        <example file="CESS-CAST-AA/24092_20000928.tbf.xml" nodepath="3.1.2.2.0.1.1.1.4.1.1.0" sentencenodepath="3">A su juicio , " no_sólo Ø es cuestión de ver si el volumen de pasaje y de mercancías que hoy se está moviendo se corresponde con <argset><specifier>la</specifier><head>instalación </head><reference_modifiers>actual</reference_modifiers></argset>" , sino hacer lo necesario para que " ese incremento que se va a producir en todo el ámbito del Atlántico medio " pueda ser aprovechado por la isla . </example>
+        <example file="CESS-CAST-AA/5315_20000207.tbf.xml" nodepath="10.4.0.1.2.2.1.1.0" sentencenodepath="10">" Juanjo es una parte importantísima de todo lo que me está sucediendo . Ø Es un gran conocedor de la disciplina y Ø conoce muy bien a las personas . Ø Es un buen psicólogo . Ø Es una persona muy segura de sí misma que confía mucho en mí " , explicó a Efe Lamela , que este año seguirá entrenándose en <argset><specifier>las</specifier><head>instalaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">ovetenses</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">de San_Lázaro</argument></argset>, pero ha cambiado su matrícula universitaria y en_lugar_de estudiar informática en Gijón , lo hará en Oviedo . </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="10.2.3.1.1.0" sentencenodepath="10">En Bristol , al sur , diez camiones han bloqueado un depósito de Texaco , mientras otros dos vehículos han hecho lo propio en <argset><specifier>una</specifier><head>instalaciones </head><reference_modifiers>cercanas</reference_modifiers><reference_modifiers>pertenecientes a la petrolera estadounidense Esso</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/9923_20001114.tbf.xml" nodepath="8.0.3.1.0" sentencenodepath="8">Acompañado por el embajador de Chile ante Naciones_Unidas , Juan_Gabriel_Valdés , y el Jefe_del_Estado_Mayor_del_Ejército_de_Chile , el general Carlos_Chacón , Lagos recorrió <argset><specifier>las</specifier><head>instalaciones </head><reference_modifiers>militares</reference_modifiers></argset>y Ø habló sobre la misión chilena en el país . </example>
+        <example file="CESS-CAST-P/101_20020402.tbf.xml" nodepath="5.3.4.1.2.1.1.1.2.1.1.0.0.2.0" sentencenodepath="5">Los clubs españoles que han visitado el Apostolos_Nikolaidis no comprenden cómo la UEFA autoriza al equipo griego a disputar partidos de la competición de clubs de más alto nivel en un recinto tan viejo y , sobre_todo , con <argset>accesos e <head>instalaciones </head>
+            <reference_modifiers>tan anticuadas</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/11_20000801.tbf.xml" nodepath="4.2.1.1.0" sentencenodepath="4">Es mucho más fácil reubicar <argset><specifier>una</specifier><head>instalación </head></argset>en unos terrenos amplios y con los proyectos sin realizar que en un área como Vall_d'Hebron , junto_a una ronda casi siempre colapsada y frente_a una ciudad sanitaria con tanto movimiento de tráfico ( ambulancias , coches y transportes públicos ) . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="8.0.3.1.1.0" sentencenodepath="8">La hija de María_del_Carmen_Costa , que también se llama Carmen , afirmó ayer que <argset><specifier>la</specifier><head>instalación </head></argset>era nueva , y Ø subrayó que la espita de entrada del gas se cambió el pasado julio . </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="15.4.1.0" sentencenodepath="15">Horas más tarde , ocho aviones estadounidenses y británicos que patrullaban la zona de exclusión en el sur de Irak " atacaron <argset><specifier>dos</specifier><head>instalaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de comunicaciones iraquís</argument></argset>" . </example>
+        <example file="CESS-CAST-P/30_20020801_g.tbf.xml" nodepath="1.5.1.0.1.4.1.0" sentencenodepath="1">El Gobierno de Estados_Unidos transfirió ayer formalmente la emisora de Radio_Liberty a Radio_Nacional_de_España , que ahora gestiona <argset><specifier>la</specifier><head>instalación </head></argset>. </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="17.3.1.1" sentencenodepath="17">" No hace_falta <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>instalación </head></argset>" . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="passive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10920_20001115.tbf.xml" nodepath="5.3.0.1.0" sentencenodepath="5">La oficina regional también inspeccionará <argset><specifier>las</specifier><head>instalaciones </head><reference_modifiers>de la mina</reference_modifiers></argset>, sus equipos , aparatos , herramientas y seguros de accidente de los trabajadores , que deberán cumplir las leyes nacionales . </example>
+        <example file="CESS-CAST-A/11099_20000915.tbf.xml" nodepath="3.3.1.8.1.1.1.0.1.1.0.1.0" sentencenodepath="3">El alcalde de Osaka fundamentó sus opciones en el gran plan de reurbanización que se culminará en el año_2007 , las modernas infraestructuras de telecomunicaciones , la protección del medio_ambiente , la seguridad y lo atractivo del proyecto , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyas</argument><head>instalaciones </head></argset>ya están en buena parte construidas y que tendrán su centro neurálgico en tres islas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="instalar" originlink="verb.instalar.1" wordnetsynset="16:00153919">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="6.2.3.0.2.2.2.1.1.1.2.3.1.2.1.1.0" sentencenodepath="6">Ø Confesó que Ø ha atendido asuntos internacionales , como " una conversación con el secretario general de la Organización_de_Estados_Americanos ( OEA ) , César_Gaviria evaluando la pretensión de EEUU de sancionar a Perú por el triunfo de Alberto_Fujimori , que nosotros combatimos " , y también con el conflicto planteado con Guayana , que produjo una protesta de la Cancillería_de_Caracas por <argset><specifier>la</specifier><head>instalación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una base espacial</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en un territorio reclamado por Venezuela</argument></argset>. </example>
+        <example file="CESS-CAST-P/86_20010301.tbf.xml" nodepath="1.2.2.1.0" sentencenodepath="1">Los sindicatos de estudiantes promovieron la abstención y <argset><specifier>la</specifier><head>instalación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de mesas alternativas</argument></argset>para realizar un referéndum sobre diferentes cuestiones . </example>
+        <example file="CESS-CAST-P/95_20010501.tbf.xml" nodepath="0.2.1.1.3.1.1.1.0.1.1.1.0" sentencenodepath="0">El pleno del Ayuntamiento_de_Cornellà ha aprobado una moción por la que Ø suspende la concesión de permisos para <argset><specifier>la</specifier><head>instalación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de estaciones base y antenas de telefonía_móvil</argument></argset>durante tres meses , prorrogable a un año . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="instalar" originlink="verb.instalar.1" wordnetsynset="16:03564342+16:00153919">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="10.0.1.1.3.1.1.0" sentencenodepath="10">La goma que conecta el electrodoméstico de esa casa a <argset><specifier>la</specifier><head>instalación </head><reference_modifiers>general</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sn">gas</argument></argset>era muy nueva . </example>
+        <example file="CESS-CAST-P/64_19990102.tbf.xml" nodepath="5.3.1.1.2.1.1.2.0.2.1.0" sentencenodepath="5">La inversión prevista , según el concejal , oscilará en_torno_a los 100 millones de pesetas , cantidad que permitirá la plantación de árboles y <argset><specifier>la</specifier><head>instalación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de láminas de plástico transparente</argument></argset>a_modo_de prolongación de las vallas ya existentes . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="instalar" originlink="verb.instalar.2" wordnetsynset="16:02661119">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/95_20010501.tbf.xml" nodepath="1.2.2.1.3.1.1.2.1.0" sentencenodepath="1">La medida pretende presionar a la Generalitat y al Estado para que Ø elaboren una normativa que regule <argset><specifier>las</specifier><head>instalaciones </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

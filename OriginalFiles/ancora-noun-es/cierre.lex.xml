@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="cierre" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="cerrar" originlink="verb.cerrar.1" wordnetsynset="16:00148822">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2484_20000704.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esas empresas</argument></argset>también afectó a varios bancos privados que les habían concedido créditos y que en algunos casos no pudieron recuperar ni mediante la subasta de bienes . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="cerrar" originlink="verb.cerrar.1" wordnetsynset="16:00220085+16:00148822">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="0.4.1.1.0" sentencenodepath="0">Luis_Cuervas y Jose_María_del_Nido , ex presidente y ex vicepresidente del Sevilla_FC , respectivamente , admitieron hoy durante su declaración que <argset><specifier>el</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del traspaso de Diego_Pablo_Simeone del Sevilla al Atlético_de_Madrid</argument></argset>se llevó_a_cabo dos días antes de la firma del patrocinio de las camisetas . </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="8.3.4.1.2.4.5.1.1.0" sentencenodepath="8">El ex auditor reconoció que él no tuvo conocimiento de los contratos de patrocinio de las camisetas de las temporadas 91-92 y 92-93 hasta junio_de_1993, aunque Ø restó importancia al explicar a la Sala que " es habitual que las empresas no entreguen toda la documentación hasta <argset><specifier>el</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del ejercicio</argument></argset>" . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="7.4.1.0" sentencenodepath="7">Para facilitar las votaciones a las personas en los lugares donde Ø están empadronadas , el Gobierno dispuso hoy <argset><specifier>el</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de todas las dependencias públicas</argument></argset>a_partir_de las 12:00 horas locales ( 16:00 GMT ) , hasta la mañana del miércoles . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="13.2.1.1.2.1.4.1.0.2.2.0.1.0.0" sentencenodepath="13">La inclusión en la ley electoral de esa modalidad obedeció a una decisión del Congreso , integrado mayoritariamente por hombres , de " proteger a las mujeres " de eventuales incidentes que pudieran producirse al <argset><head>cierre </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las votaciones</argument></argset>y con el inicio de los escrutinios . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="10.0.0.1.0.0" sentencenodepath="10">Al <argset><head>cierre </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la sesión</argument></argset>, Telefónica subió el 7,45% y Ø acumula una revalorización de 1,9 billones en una semana . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="cerrar" originlink="verb.cerrar.1" wordnetsynset="16:00220085">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="16.2.1.1.2.1.4.1.0.2.2.0.1.0.0" sentencenodepath="16">La inclusión en la ley electoral de esa modalidad obedeció a una decisión del Congreso , integrado mayoritariamente por hombres , de " proteger a las mujeres " de eventuales incidentes que pudieran producirse al <argset><head>cierre </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las votaciones</argument></argset>y con el inicio de los escrutinios . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="cerrar" originlink="verb.cerrar.2" wordnetsynset="16:00220085">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="11.0.2.1.1.1.0.0" sentencenodepath="11">El consejo de Telefónica y las amenazas con <argset><head>cierres </head><reference_modifiers>parciales</reference_modifiers><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de las gasolineras</argument></argset>son las principales noticias con las que abren hoy los diarios económicos . </example>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="14.4.4.3.1.0.0" sentencenodepath="14">Por su parte CINCO_DIAS titula en portada " Villalonga normaliza las relaciones con el núcleo estable de Telefónica " , " La_UE y EEUU quieren iniciar una nueva ronda comercial este año " , " Las gasolineras amenazan con <argset><head>cierres </head><reference_modifiers>parciales</reference_modifiers></argset>" , " La_Bolsa cae el 6,8_% en mayo y Ø pierde un 8,2_% en el año " , " Bruselas propone un mercado único de los fondos de inversión " . </example>
+        <example file="CESS-CAST-A/10920_20001115.tbf.xml" nodepath="4.3.0.1.1.1.2.1.1.1" sentencenodepath="4">Desde el día uno_de_diciembre , los supervisores regionales tendrán derecho a ordenar la clausura de las instalaciones que no cumplan las normas , e incluso <argset><specifier>el</specifier>" <head>cierre </head><reference_modifiers>inmediato</reference_modifiers>" </argset>si las circunstancias son de " gran inseguridad " para los trabajadores . </example>
+        <example file="CESS-CAST-A/15392_20001220.tbf.xml" nodepath="8.2.3.1.2.0" sentencenodepath="8">En un informe sobre " el fin de las actividades mineras de Francia " hecho público hoy , el Tribunal_de_Cuentas alertó sobre las " incertidumbres " que pesan sobre varias de las actividades de CdF y , ante la " degradación irreversible de las condiciones de explotación " , Ø aboga por <argset>" <specifier>el</specifier>
+            <head>cierre </head>
+            <reference_modifiers>más rápido posible</reference_modifiers>" <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las minas de carbón</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-A/15392_20001220.tbf.xml" nodepath="9.3.1.1.1.1.1.0" sentencenodepath="9">En 1994 , el Gobierno y los sindicatos firmaron un acuerdo que preveía <argset><specifier>el</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de todas las minas de carbón</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Francia</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en 2005</argument></argset>y establecía las condiciones de partida para los trabajadores de CdF , que eran 17.710 hace cinco años y se han quedado ahora en 9.922 . </example>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>El</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del ejercicio de este año , que " ha sido malo por las circunstancias que todos conocemos del incremento de precio del combustible y la depreciación del euro ,</argument></argset>nos va a mantener , no_obstante , en un cierto equilibrio en la cuenta de resultados " , aunque Ø eludió adelantar cifras . </example>
+        <example file="CESS-CAST-A/18375_20000922.tbf.xml" nodepath="5.5.1.1.2.1.1.0.0" sentencenodepath="5">Así , a las 15.25 hora local ( 13.25 GMT ) , cuando ya se había anunciado la intervención concertada en apoyo del euro del Banco_Central_Europeo ( BCE ) , de la Reserva_Federal_Estadounidense y del Banco_Central_de_Japón , el CAC-40 se situaba en 6.145 puntos , un 1,75_por_ciento por_debajo_del <argset><head>cierre </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de ayer , jueves</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="19.3.1.1.1.1.0.0" sentencenodepath="19">Los bonos a 30 años cerraron con su tasa en el 6,27_por_ciento desde el 6,14_por_ciento del <argset><head>cierre </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de ayer</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5856_20000809.tbf.xml" nodepath="1.4.2.1.1.0.1.1.0.0" sentencenodepath="1">La rentabilidad de las letras a seis meses ha aumentado desde el comienzo de este año un 1,337_por_ciento , al pasar del 3,402_por_ciento del <argset><head>cierre </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de 1999</argument></argset>al 4,739_por_ciento en que lo situó hoy el Tesoro . </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="0.3.1.1.1.0.0" sentencenodepath="0">El candidato a la presidencia por el Partido_Reformista_Social_Cristiano ( PRSC ) , Joaquín_Balaguer , de 93 años y ciego , encabezará hoy , su mitin de <argset><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de campaña</argument></argset>a cinco días de las elecciones mientras Ø se afianza en el segundo lugar de preferencias de los votantes en la mayoría de las encuestas . </example>
+        <example file="CESS-CAST-P/105_19990601.tbf.xml" nodepath="6.4.1.0.0" sentencenodepath="6">El mercado madrileño registró ayer el más bajo volumen de negociación de todo el año ( 69.715 millones de pesetas ) debido_al <argset><head>cierre </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por festividad</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en Londres y Wall_Street</argument></argset>. </example>
+        <example file="CESS-CAST-P/77_20000801.tbf.xml" nodepath="2.0.0.1.0" sentencenodepath="2"><argset><specifier>Este</specifier><head>cierre </head></argset>representa un descenso mensual del 0,47% , y Ø mantiene al índice en zona de mínimos anuales . </example>
+        <example file="CESS-CAST-P/79_19981101.tbf.xml" nodepath="4.2.0.1.0.1.0.2.1.1.1.1.0.0" sentencenodepath="4">También hay casos de reiterado incumplimiento de los horarios de <argset><head>cierre </head></argset>o de vulneración de algunas normas de seguridad . </example>
+        <example file="CESS-CAST-P/79_19981101.tbf.xml" nodepath="9.0.1.0.0" sentencenodepath="9">Además_del <argset><head>cierre </head></argset>, estos establecimientos pueden recibir sanciones de hasta un millón de pesetas de multa . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="17.3.1.0.1.5.2.1.0" sentencenodepath="17">La protesta también arrecia en Castilla_y_León , donde los sindicatos propondrán a la patronal regional Conferco una huelga general y <argset><specifier>un</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de establecimientos</argument></argset>el 13_de_julio . </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="2.4.1.1.0" sentencenodepath="2">Durante la hora y media que duró el encuentro , los representantes de UGT y de CCOO centraron sus peticiones en <argset><specifier>el</specifier><head>cierre </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de los sábados</argument><reference_modifiers>, una reivindicación tradicional en el sector</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="5" lexicalized="no" originlemma="cerrar" originlink="verb.cerrar.2" wordnetsynset="16:00220085+16:00148822">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="1.0.3.1.0" sentencenodepath="1">La empresa no confirmó <argset><specifier>el</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la planta</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Battle_Creek</argument></argset>, pero el diario " The_Washington_Post " citó " dos fuentes familiarizadas con la situación " que indicaron que la producción se suspendió a_mediados_de semana en esa fábrica . </example>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="3.1.1.0" sentencenodepath="3">Según el Post , <argset><specifier>el</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la planta de Kellogs</argument></argset>se debió a la imposibilidad de que los grandes proveedores de granos certificaran que su maíz no estaba " adulterado " con la variedad StartLink . </example>
+        <example file="CESS-CAST-AA/8551_20000114.tbf.xml" nodepath="7.3.1.1.2.4.2.0.4.1.1.1" sentencenodepath="7">De_acuerdo_con APAVIT , la medida afecta a los usuarios del transporte aéreo que verán aumentado sus costos , lo que también aumentaría el desempleo con <argset><specifier>el</specifier><reference_modifiers>posible</reference_modifiers><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de algunas agencias de viajes</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="6" lexicalized="no" originlemma="cerrar" originlink="verb.cerrar.2" wordnetsynset="16:00220085">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="1.2.4.0.2.2.0.1.0" sentencenodepath="1">Los estudiantes y los empleados estatales han anunciado que hoy Jueves , segunda jornada de protestas , Ø efectuarán movilizaciones en todo el país , con <argset><specifier>el</specifier><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de carreteras</argument></argset>y marchas en las principales ciudades . </example>
+        <example file="CESS-CAST-P/26_19991101.tbf.xml" nodepath="5.0.1.0.0" sentencenodepath="5">Al <argset><head>cierre </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los colegios</argument></argset>, más de un 60% de los electores habían votado . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="cerrar_filas" cousin="no" denotation="none" id="7" lexicalizationtype="verbal" lexicalized="yes" originlemma="cerrar" originlink="verb.cerrar.1" wordnetsynset="16:00220085">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="en_torno_al" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/51_19990702.tbf.xml" nodepath="0.4.1.1.2.1.0" sentencenodepath="0">El secretario general del Partido_Popular , Javier_Arenas , marcó ayer el " punto de salida " de la campaña de las elecciones autonómicas con una clara instrucción <argset>: <head>cierre </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de filas</argument>
+            <reference_modifiers>en_torno_al presidente y candidato del PP catalán , Alberto_Fernández_Díaz ,</reference_modifiers>
+            <argument argument="argM" function="cn" thematicrole="fin" type="sp">para reforzar su imagen de liderazgo</argument>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="apuesta" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="apostar" originlink="verb.apostar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="9" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="2" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="4" preposition="por" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13810_20000617.tbf.xml" nodepath="7.2.2.2.0" sentencenodepath="7">Su editorial " Impulso_en_Fomento " recuerda que este es un departamento " que tiende a despertar simpatías porque , si Ø se gestiona bien , sus inversiones son muy tangibles " y Ø destaca <argset>" <specifier>la</specifier>
+            <head>apuesta </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Alvarez_Cascos</argument>
+            <argument argument="arg2" function="cn" thematicrole="tem" type="sp">por la entrada de capital privado en la financiación de las obras</argument>" </argset>. </example>
+        <example file="CESS-CAST-A/14353_20000618.tbf.xml" nodepath="10.2.2.2.0.3.1.1.1.1.0.0" sentencenodepath="10">Por su parte , el Daily_Telegraph considera a Shearer " el hombre del partido " y Ø afirma que , gracias_a su gol , Inglaterra sube peldaños en las casas de <argset><head>apuestas </head></argset>y Ø se coloca como cuarta favorita para ganar el torneo . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>Esta</specifier><head>apuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las firmas españolas</argument></argset>les permitió conocer el mercado y la forma de hacer negocios en América_Latina , lo que explica porqué Ø controlan hoy segmentos claves de la economía latinoamericana . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="6.2.4.0.2.1.1.0" sentencenodepath="6">Loyola_de_Palacio señaló que el fomento de las energías verdes " es clave en el desarrollo europeo en <argset><specifier>una</specifier><head>apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por que este desarrollo sea duradero , respetuoso con el medio_ambiente , generador de empleo de calidad y que permita una solidaridad con las generaciones futuras</argument></argset>" . </example>
+        <example file="CESS-CAST-A/17992_20001022.tbf.xml" nodepath="4.2.3.2.0.0.1" sentencenodepath="4">Ø No lo hizo hoy y Ø ni_siquiera llegó a empatar , a_pesar_de <argset><reference_modifiers>nueva</reference_modifiers><head>apuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Rojo</argument><reference_modifiers>- cinco jugadores de ataque acompañando a Urrutia de la defensa hacia adelante -</reference_modifiers><reference_modifiers>, que sólo sirvió para provocar innumerables jugadas a balón parado , dilapidadas en ocasiones lastimosamente</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/19134_20000426.tbf.xml" nodepath="3.0.1.3.1.0" sentencenodepath="3">" Hace cuatro años TV3 hizo <argset><specifier>una</specifier><head>apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por la Fórmula_Uno</argument></argset>. Si Ø hicimos una apuesta , ahora Ø no vamos a hacer partícipes a terceros gratuitamente . El canal vasco ( ETB-1 ) y el valenciano ( Canal_9 ) son los únicos que fueron sensibles con nosotros , pero no TVE " , ha aclarado Oliva . </example>
+        <example file="CESS-CAST-A/19134_20000426.tbf.xml" nodepath="3.0.3.0.3.1.0" sentencenodepath="3">" Hace cuatro años TV3 hizo una apuesta por la Fórmula_Uno . Si Ø hicimos <argset><specifier>una</specifier><head>apuesta </head></argset>, ahora Ø no vamos a hacer partícipes a terceros gratuitamente . El canal vasco ( ETB-1 ) y el valenciano ( Canal_9 ) son los únicos que fueron sensibles con nosotros , pero no TVE " , ha aclarado Oliva . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>apuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Pujol</argument></argset>obedece a su voluntad de situar como prioridad política para la próxima legislatura la negociación de un pacto autonómico que incremente el nivel del autogobierno y de un pacto fiscal que mejore sustancialmente su financiación . </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="5.2.1.0" sentencenodepath="5">Scariolo es <argset><specifier>la</specifier><head>apuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la directiva que preside Lorenzo_Sanz</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para reconstruir el proyecto del básquet blanco , que la próxima temporada recibirá una fuerte inyección económica , para competir con posibilidades tanto en la Liga_ACB como en la Euroliga</argument></argset>. </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="13.0.0.2.1.0" sentencenodepath="13">El dirigente defendió <argset><specifier>la</specifier><head>apuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del técnico holandés</argument></argset>- - " también se nos censuraría si Ø jugáramos de manera defensiva , como el Mallorca o el Atlético , todos atrás " - - y Ø criticó que se minimizara el gran partido que realizó el Barça ante el Manchester : " Ø Pudimos ganar 6-3 , porque Ø lo merecimos , y entonces la afición hubiera tenido una reacción muy distinta " . </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">Eriksson mantiene <argset><specifier>una</specifier><head>apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="s.a">italiana</argument><reference_modifiers>que ha situado a Inglaterra más cerca del Lazio que del viejo estilo británico</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/168_20010701.tbf.xml" nodepath="2.0.2.0.1.1.1.0" sentencenodepath="2">Josep_Maria_Ollé , EX militante de UDC , fue una de <argset><specifier>las</specifier><head>apuestas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del actual alcalde , el socialista Francesc_Moreno ,</argument><reference_modifiers>al confeccionar la candidatura para las elecciones de 1999</reference_modifiers></argset>y Ø ocupó el tercer puesto de la lista . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="45.2.2.2.1.0" sentencenodepath="45">A_partir_de ahora se hablará de inversión , es_decir , el elector invertirá , Ø hará <argset><specifier>una</specifier><head>apuesta </head><reference_modifiers>de futuro</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="8.2.1.0" sentencenodepath="8">Nosotros reiteramos <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestra</argument><head>apuesta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">por la estabilidad</argument></argset>, a_partir_del reconocimiento de nuestra capacidad de influencia . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="39.0.0.1.0" sentencenodepath="39"><argset><specifier>La</specifier><head>apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="s.a">social</argument></argset>permitirá atraer a estos sectores , y la moderación , a aquellos sectores cansados del discurso nacionalista . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="61.2.1.1.1.1.5.2.1.1.0" sentencenodepath="61">El planteamiento es abrir la posibilidad de que CiU se pueda incorporar a un Gobierno_de_España desde la lealtad constitucional y desde <argset><specifier>una</specifier><head>apuesta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un proyecto de España compartido</argument></argset>. </example>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="12.3.1.1.3.1.2.2.1.1.0" sentencenodepath="12">Ibarretxe describió a Aznar la disyuntiva ante la que se encuentra la formación que lidera Arnaldo_Otegi , que mantiene <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head argument="arg1" thematicrole="pat">apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por las vías políticas</argument></argset>, pero tiene dificultades muy serias para exigir a ETA que Ø no vuelva a empuñar las armas . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="8.2.1.2.1.1.1.4.1.0.0" sentencenodepath="8">Telefónica_Móviles , cuyo beneficio neto creció el 44,2% y las filiales latinoamericanas , con un alza del 37,1% de las ventas , fueron los motores indiscutibles de la operadora , que se consolidó como <argset><head>apuesta </head><reference_modifiers>estratégica</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la compañía española</argument></argset>, al conseguir entre ambas más de la mitad de los ingresos y de los beneficios . </example>
+        <example file="CESS-CAST-P/6_20010501.tbf.xml" nodepath="3.0.1.1" sentencenodepath="3"><argset><specifier>La</specifier><reference_modifiers>próxima</reference_modifiers><head>apuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno</argument><reference_modifiers>, reformar la negociación colectiva ,</reference_modifiers></argset>puede ser el reactivo para recuperar la deseable unidad sindical . </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="10.4.1.1.0" sentencenodepath="10">La presidencia española , que ayer sólo tuvo que hacer_frente a las protestas de una treintena de miembros de un sindicato del Cuerpo_Nacional_de_Policía que reclamaba mejoras salariales , se estrena también con <argset><specifier>una</specifier><head>apuesta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">por las patentes comunitarias y nuevas mejoras</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para proteger las marcas " ante las nuevas circunstancias " derivadas de Internet</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="apostar" originlink="verb.apostar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="3" preposition="por" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/176_20001201.tbf.xml" nodepath="5.2.2.1.1.0" sentencenodepath="5">Navarro , en un momento de forma excepcional , se encargó de llevar el peso del partido para los azulgranas , pero el Unicaja supo contrarrestar <argset><specifier>la</specifier><head>apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por la velocidad de su rival</argument></argset>con un inesperado dominio del rebote ofensivo . </example>
+        <example file="CESS-CAST-P/21_20000701.tbf.xml" nodepath="3.3.2.1.0" sentencenodepath="3">Pero Blair hizo ayer en Tubinga ( Alemania ) votos europeístas , Ø reiteró <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">, " en_principio " , por el euro</argument></argset>y Ø reclamó que Gran_Bretaña sea " un socio completo " en la Unión_Europea , en abierto rechazo a la Europa de dos velocidades . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="55.0.1.0" sentencenodepath="55"><argset><specifier>La</specifier><head>apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por Josep_Piqué</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en 1996</argument></argset>se ha demostrado todo un acierto . </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="19.3.1.0" sentencenodepath="19">- - Según Piqué , <argset><specifier>la</specifier><head>apuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">por el centro catalanista</argument></argset>pasa por defender un modelo de financiación que reduzca la aportación de Catalunya . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

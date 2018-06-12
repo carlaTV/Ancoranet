@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="asociación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="asociar" originlink="verb.asociar.1" wordnetsynset="16:05972379+16:04445470">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="6" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="11" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="demonstrative" type="determiner"/>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="19" postype="article" type="determiner"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="4" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="12.0.0.0.1.0" sentencenodepath="12"><argset><specifier>Esa</specifier><head>asociación </head><reference_modifiers>, que deberá tener_en_consideración el papel de la OACI ,</reference_modifiers></argset>promoverá y Ø reforzará mejoras sostenibles en_materia_de seguridad de la aeronavegación , así_como mejoras en las condiciones de fortalecimiento de los sistemas de aviación civil de la región . </example>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="10.4.1.0.1" sentencenodepath="10">El Tribunal_Correccional_de_París condenó el pasado 5_de_octubre a siete años de prisión por <argset>" <head>asociación </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de malhechores</argument>" </argset>a esta etarra , a la que la policía española relaciona con el " comando Madrid " de ETA y la organización del asesinato del ex presidente del Tribunal_Constitucional Francisco_Tomás_y_Valiente en 1996 . </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="0.3.2.1.1.1.1.1.0" sentencenodepath="0">Las ventas de ganado y de granos quedaron prácticamente paralizadas hoy en Argentina , a_causa_de la huelga organizada por <argset><specifier>las</specifier><head>asociaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de productores agropecuarios</argument></argset>para exigir una menor presión del Fisco y ayuda para el sector . </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="6.0.0.1.0" sentencenodepath="6"><argset><specifier>Las</specifier><head>asociaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de productores agropecuarios</argument></argset>, a_excepción_de la Sociedad_Rural_Argentina ( SRA ) , organizaron la huelga para exigir que el gobierno reduzca los impuestos y Ø aumente la ayuda al sector . </example>
+        <example file="CESS-CAST-A/14423_20000317.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">Además , la presidenta de AFAMMER indicó que <argset><specifier>esta</specifier><head>asociación </head><reference_modifiers>, a la que pertenecen 140.000 mujeres de toda España ,</reference_modifiers></argset>ha logrado crear a_través_de sociedades cooperativas unos 3.000 empleos para mujeres . </example>
+        <example file="CESS-CAST-A/15392_20001220.tbf.xml" nodepath="1.4.3.1.1.2.1.1.1.0" sentencenodepath="1">En una entrevista publicada hoy , miércoles , por el vespertino " Le_Monde " , Ladoucette defendió la venta a Endesa de un 30_por_ciento de SNET porque la compañía eléctrica española propuso " un precio superior , pero también un proyecto industrial basado en <argset><specifier>la</specifier><head>asociación </head></argset>" . </example>
+        <example file="CESS-CAST-A/17745_20000322.tbf.xml" nodepath="0.1.2.0.0" sentencenodepath="0">El grupo editorial alemán Axel_Springer , en <argset><head>asociación </head><argument argument="arg2" function="cn" type="sp">con el diario deportivo portugués " A_Bola "</argument></argset>, pondrá en circulación mañana , jueves , la revista " AutoFoco " , dedicada al sector del automóvil . </example>
+        <example file="CESS-CAST-A/18733_20000223.tbf.xml" nodepath="2.3.1.1.2.1.2.1.0.0" sentencenodepath="2">El pasado lunes , el Tribunal_Correccional condenó a diez años de cárcel , pena máxima por <argset><head>asociación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de malhechores</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">con fines terroristas</argument></argset>, a " Pototo " y a su antiguo lugarteniente , el francés Daniel_Derguy - que hoy cumple 59 días en huelga de hambre - . </example>
+        <example file="CESS-CAST-AA/19561_20000830.tbf.xml" nodepath="5.0.3.1.0.2.2.1.1.1" sentencenodepath="5">En el encuentro participaron Paraguay y Uruguay con representantes técnicos de los servicios sanitarios ganaderos y de <argset><specifier>las</specifier><reference_modifiers>respectivas</reference_modifiers><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de productores rurales</argument></argset>, mientras_que Brasil , Bolivia y Chile lo hicieron sólo a nivel de expertos de los servicios de sanidad oficiales . </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="10.3.3.1.1.1.1.0" sentencenodepath="10">El acuerdo firmado por el PA con UAGA - que ya lo hizo antes con el PSOE e IU - incluye los compromisos de crear un consejo asesor agrario y una revisión de la fiscalidad y la Seguridad_Social , según explicó el presidente de <argset><specifier>la</specifier><head>asociación </head><reference_modifiers>agraria</reference_modifiers></argset>, Miguel_López . </example>
+        <example file="CESS-CAST-AA/3682_20000706.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Las matriculaciones de automóviles de turismo en el pasado mes_de_junio se elevaron a 146.489 unidades , un 0,2_por_ciento menos que las 146.819 del mismo mes del pasado año , informaron hoy <argset><specifier>las</specifier><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de fabricantes de automóviles ( ANFAC ) , importadores ( Aniacam ) , concesionarios ( Faconauto ) y vendedores ( Ganvam )</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4901_20001107.tbf.xml" nodepath="7.1.1.0.1.1.1.1.1.0" sentencenodepath="7">Pero para Arthur_Titherington , presidente de <argset><specifier>la</specifier><head>asociación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de supervivientes de los campos de concentración japoneses</argument></argset>, eso no fue suficiente ni adecuado , al considerar que las autoridades niponas deben utilizar la palabra " shazai " , que en japonés significa el reconocimiento de que " Ø he cometido una ofensa por la que de forma humilde Ø pido perdón " . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>Las</specifier><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">automovilísticas</argument></argset>han reiterado que su opción preferida es la retirada del distintivo provincial , con_el_objetivo_de facilitar un mayor dinamismo en el mercado de ocasión . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="10.1.1.1.1.1.0" sentencenodepath="10">Por_su_parte , un portavoz de <argset><specifier>la</specifier><head>asociación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de fabricantes de matrículas</argument><reference_modifiers>, AFAPIVE ,</reference_modifiers></argset>reconoció que con la decisión del Gobierno se resarce en_parte las pérdidas ocasionadas a este sector , conformado por pequeñas y medianas empresas . </example>
+        <example file="CESS-CAST-AA/6438_20000608.tbf.xml" nodepath="1.3.1.0.2.3.3.1.1.0" sentencenodepath="1">Ana_Botella hizo estas declaraciones en Chillón , localidad de unos 2.500 habitantes situada al suroeste de la provincia de Ciudad_Real , donde Ø ha inaugurado una residencia de ancianos , Ø se ha reunido con <argset><specifier>una</specifier><head>asociación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de mujeres</argument></argset>y Ø ha compartido un almuerzo con militantes del Partido_Popular . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="1.4.1.1.1.1.0.1.2.1.1.0" sentencenodepath="1">Aznar recibió hoy en el Palacio_de_la_Moncloa a un grupo de cantantes que apoyan a <argset><specifier>diversas</specifier><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de mujeres</argument></argset>, formado por Cristina_del_Valle , Marta y Marilia ( componentes del dúo " Ella_baila_Sola " ) , Malú , Tamara , María_Angeles_Muñoz ( Camela ) , Olga_Cerpa ( Mestisay ) y Aurora_Beltrán ( Tahures_Zurdos ) . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="9.2.0.1.3.3.1.1.1.1.2.1.1.0" sentencenodepath="9">" Ø Debemos luchar contra todo aquello que contribuya a la resignación y el silencio de las víctimas " , subrayó Aznar , quien agregó que el aumento del número de denuncias demuestra que las diversas campañas llevadas_a_cabo por el Gobierno y por <argset><specifier>distintas</specifier><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de mujeres</argument></argset>están cumpliendo un importante papel . </example>
+        <example file="CESS-CAST-AA/8633_20000114.tbf.xml" nodepath="4.0.1.1.1.1.0" sentencenodepath="4">Los socios de <argset><specifier>esa</specifier><head>asociación </head></argset>han empezado a buscar consejo legal sobre una posible petición de compensación económica por las consecuencias sufridas tras adquirir el carburante de Mobil . </example>
+        <example file="CESS-CAST-P/106_20011201.tbf.xml" nodepath="2.1.1.0" sentencenodepath="2">No_obstante , <argset><specifier>la</specifier><head>asociación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de vecinos</argument></argset>mantiene las demás movilizaciones previstas para este mes . </example>
+        <example file="CESS-CAST-P/110_20001202.tbf.xml" nodepath="0.2.2.0.1.1.1.1.0" sentencenodepath="0">Joan_Clos vio obras recién acabadas en el barrio de Sant_Ramon y Ø visitó la sede de <argset><specifier>la</specifier><head>asociación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de vecinos</argument></argset>y algunas tiendas . </example>
+        <example file="CESS-CAST-P/157_20011202.tbf.xml" nodepath="5.1.0.2.1.0" sentencenodepath="5">En 1989 , Olivia , su mujer , y Barbara_Bach , esposa de Ringo , fundaron <argset><specifier>una</specifier><head>asociación </head></argset>para recaudar fondos y George compuso y Ø grabó Nobody's_childs ( Niños_de_nadie ) con el mismo fin . </example>
+        <example file="CESS-CAST-P/17_19990201.tbf.xml" nodepath="4.4.1.1.1.2.1.0" sentencenodepath="4">Inmersa en el área presupuestaria - - la Gran_Manzana destinó 55.000 millones de pesetas a los sin_techo el pasado año - - , Ø lidió con un reparto que canalizan <argset><specifier>diversas</specifier><head>asociaciones </head></argset>para devolver la esperanza a los que ya no tienen nada . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="0.0.1.1.1.0.0" sentencenodepath="0">La acusación de <argset><head>asociación </head><reference_modifiers>ilícita</reference_modifiers></argset>al grupo de ultras del Atlético_de_Madrid que acosaron y mataron a un aficionado rival es un buen precedente jurídico para plantar_cara a las bandas urbanas organizadas . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="13.1.4.1.2.2.3.0.1.1.1.1.1.1.1.0.0" sentencenodepath="13">La decisión tiene trascendencia jurídica y sin_duda también social , porque el tribunal ha aceptado el planteamiento de la acusación popular ejercida por el Movimiento_contra_la_intolerancia , de que los 10 miembros de la banda ultra que acompañaban al presunto autor material del homicidio , sean juzgados por la comisión de un delito de <argset><head>asociación </head><reference_modifiers>ilícita</reference_modifiers></argset>y no - - como así sostenían el juez instructor y el fiscal - - por la comisión de un delito de desórdenes públicos . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="20.1.2.3.1.0" sentencenodepath="20">Mientras_que el artículo 515 prescribe que son punibles <argset><specifier>las</specifier><head>asociaciones </head><reference_modifiers>ilícitas</reference_modifiers></argset>y , entre otras , el Código atribuye esta condición a las siguientes : las que " después de constituidas promuevan la comisión de un delito " ; " las bandas armadas " ; " las que , aun teniendo por objeto un fin lícito , empleen medios violentos ... " ; " las que promuevan el odio o la violencia contra las personas , grupos o asociaciones por razón de su ideología , religión , creencias , la pertenencia de sus miembros o de algunos de ellos a una etnia , raza , o nación , su sexo , orientación sexual ... " , etcétera . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="20.3.4.1.1.0.0.1.7.2.0.2.2.1.1.1.4.0.0" sentencenodepath="20">Mientras_que el artículo 515 prescribe que son punibles las asociaciones ilícitas y , entre otras , el Código atribuye esta condición a las siguientes : las que " después de constituidas promuevan la comisión de un delito " ; " las bandas armadas " ; " las que , aun teniendo por objeto un fin lícito , empleen medios violentos ... " ; " las que promuevan el odio o la violencia contra las personas , grupos o <argset><head>asociaciones </head></argset>por razón de su ideología , religión , creencias , la pertenencia de sus miembros o de algunos de ellos a una etnia , raza , o nación , su sexo , orientación sexual ... " , etcétera . </example>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="15.1.1.0" sentencenodepath="15">No_obstante , <argset><specifier>las</specifier><head>asociaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de agricultores</argument></argset>coincidieron en que las lluvias serán , en_general , beneficiosas para el campo , así_como para las reservas de riego de los pantanos , Según confirmó la Confederación_Hidrográfica_del_Júcar . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="20.5.3.1.1.1.1.0" sentencenodepath="20">Si la empresa se niega , se puede optar por la vía civil , ya_que la avería no es un caso de " fuerza mayor " , según explicó la abogada de <argset><specifier>la</specifier><head>asociación </head></argset>, Cristina_Chueca . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="14.5.1.2.3.1.1.2.1.2.1.1.2.0" sentencenodepath="14">Hasta hace escasas semanas , el Gobierno no se cansaba de exigir a los peneuvistas que Ø enterraran el Pacto_de_Lizarra , el documento que precedió a la tregua de ETA y en el que <argset>todas las fuerzas y <head>asociaciones </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="s.a">nacionalistas</argument>
+          </argset>esbozaron un plan de paz basado en la construcción nacional de Euskal_Herria . </example>
+        <example file="CESS-CAST-P/56_20000801_d.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>asociación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de empresarios y profesionales</argument><reference_modifiers>Fòrum_Calafell</reference_modifiers></argset>anunció ayer que Ø ha enviado una carta a la compañía eléctrica Fecsa-Enher para protestar " por los reiterados cortes de fluido que se están produciendo este verano en la localidad " . </example>
+        <example file="CESS-CAST-P/73_20000201_a.tbf.xml" nodepath="5.0.1.1.2.1.1.0" sentencenodepath="5">Más de un centenar de personas , convocadas por <argset><specifier>la</specifier><head>asociación </head><reference_modifiers>Defensa_y_Ayuda_Animales</reference_modifiers></argset>, se concentraron ayer ante el ayuntamiento para exigir que se depuren las responsabilidades oportunas . </example>
+        <example file="CESS-CAST-P/78_20010201.tbf.xml" nodepath="1.2.1.0.1.1.1.0" sentencenodepath="1">El aviso responde al anuncio de <argset><specifier>la</specifier><head>asociación </head><reference_modifiers>religiosa</reference_modifiers><reference_modifiers>Badr</reference_modifiers></argset>de que los 35.000 musulmanes de la ciudad no cumplirán la normativa sobre el mal de las vacas locas . </example>
+        <example file="CESS-CAST-P/81_20001001.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>Las</specifier><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de mujeres</argument></argset>reivindican la creación de un fondo por_parte_del Estado para que , en caso de impago , la Administración les asegure el cobro y Ø se lo exija luego al EX cónyuge obligado a hacer el pago . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="4.0.0.1.1.1.0" sentencenodepath="4">Representantes de <argset><specifier>las</specifier><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de comerciantes de Catalunya</argument></argset>expresaron ayer su sentimiento de haber sido " traicionados y defraudados " por el Gobierno del PP tras la nueva regulación de los horarios comerciales . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="passive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="17.0.1.1.1.1.1.2.1.1.0.2.0" sentencenodepath="17">Tras la disolución de la masiva y pacífica manifestación convocada por <argset>sindicatos , <head>asociaciones </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="s.a">ecologistas</argument>y organizaciones no gubernamentales ( ONG ) </argset>contra la OMC y la " mundialización de las multinacionales " , Paul_Schell , alcalde de Seattle , declaró a media tarde del Martes el estado de emergencia y Ø decretó el toque de queda en el centro de la ciudad . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="5.1.1.0" sentencenodepath="5">Mientras las firmas afectadas anuncian inminentes recursos ante los tribunales administrativos , <argset><specifier>las</specifier><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de consumidores</argument><reference_modifiers>que habían promovido el alegato acusador ante la Autoridad_Antimonopolios</reference_modifiers></argset>pidieron al Ministerio_de_Industria que Ø vaya más allá y Ø revoque las licencias a las compañías que rechacen asegurar a motos y coches en las zonas de riesgo del sur de Italia . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="13.3.1.1.2.3.2.1.0" sentencenodepath="13">Termina así , de_momento , un contencioso que ha durado 10 meses y en el que se han enfrentado las compañías de seguros , <argset><specifier>las</specifier><head>asociaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de consumidores</argument></argset>, el Parlamento , el Gobierno y hasta la Comisión_Europea . </example>
+        <example file="CESS-CAST-P/79_20020301.tbf.xml" nodepath="1.2.1.1.1.1.0" sentencenodepath="1">Así definió el vicepresidente de <argset><specifier>la</specifier><head>asociación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de vecinos</argument></argset>, Joan_Maria_Soler , la protesta que ayer reunió a cerca de 3.000 personas . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

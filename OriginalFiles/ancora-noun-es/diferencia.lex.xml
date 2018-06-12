@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="diferencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="diferenciar" originlink="verb.diferenciar.1" wordnetsynset="16:04513036">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="7" preposition="de" type="sp"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="13" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="2" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="37" postype="article" type="determiner"/>
+        <constituent frequency="19" type="void"/>
+        <constituent frequency="11" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="19" type="s.a"/>
+        <constituent frequency="11" type="S"/>
+        <constituent frequency="3" type="sn"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060104_5-2.tbf.xml" nodepath="6.5.1.1.1" sentencenodepath="6">En la asamblea también se criticó la elevada cifra de exportaciones brasileñas de contrabando que llegan a Uruguay por <argset><specifier>las</specifier><reference_modifiers>grandes</reference_modifiers><head>diferencias </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de precios</argument></argset>. </example>
+        <example file="3LB-CAST/a22-0.tbf.xml" nodepath="7.0.1.1" sentencenodepath="7"><argset><specifier>La</specifier><reference_modifiers>nica</reference_modifiers><head>diferencia </head></argset>estaba en el color del pañal : el uno era blanco y el otro rojizo . </example>
+        <example file="3LB-CAST/d1-1.tbf.xml" nodepath="10.0.1.0.0" sentencenodepath="10">A <argset><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su compañero</argument></argset>, Alfonso maneja las dos piernas , Ø tira muy duro y Ø es un excelente rematador de cabeza bajo condiciones adversas de marcaje . </example>
+        <example file="3LB-CAST/d1-7.tbf.xml" nodepath="3.3.1.1" sentencenodepath="3">La jugada del segundo gol rojiblanco sintetiza por sí sola <argset><specifier>las</specifier><reference_modifiers>más grandes</reference_modifiers><head>diferencias </head><reference_modifiers>que se dieron en el encuentro</reference_modifiers><reference_modifiers>: las que van de un conjunto expresivo y ágil a otro torpe y lacónico</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/d1-9.tbf.xml" nodepath="1.5.2.4.2.1.1" sentencenodepath="1">Sin_embargo , si hay unanimidad en pensar que los mejores equipos de la NBA son mejores que los_nuestros , también se admite que la defensa de ellos es mucho mejor que la_nuestra y que probablemente ahí es donde radica <argset><specifier>la</specifier><reference_modifiers>mayor</reference_modifiers><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre un baloncesto y otro</argument></argset>. </example>
+        <example file="3LB-CAST/d2-7.tbf.xml" nodepath="6.2.1.1.1.1.1.1.1.1.0.0" sentencenodepath="6">Sería muy bonito que dos corredores separados por diez años de <argset><head>diferencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de edad</argument></argset>se unieran , aparte_de en el mismo equipo , en el mismo podio . </example>
+        <example file="3LB-CAST/dc1-13.tbf.xml" nodepath="6.3.3.0.1" sentencenodepath="6">Pero lo cierto es que mamíferos , aves , reptiles , anfibios , peces e invertebrados presentan <argset><reference_modifiers>netas</reference_modifiers><head>diferencias </head></argset>en la constitución de sus respectivas pieles , cosa que se advierte a simple vista . </example>
+        <example file="3LB-CAST/dc10-5.tbf.xml" nodepath="8.0.0.2.1.0" sentencenodepath="8">Los celos , <argset><specifier>las</specifier><head>diferencias </head><reference_modifiers>políticas</reference_modifiers></argset>o indiscreciones eran razones suficientes ; pero también un desplante , una simple descortesía o una mirada que se sospechara ambigua empujaban a personajes como Alejandro_Dumas , el duque de Wellington , William_Pitt o Espronceda a batirse para lavar una cuenta personal . </example>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="3.4.1.1.1.1.1.4.1.0.1.1.1.1.0" sentencenodepath="3">Más tarde la invasión de los bárbaros introdujo el denominado - duelo judiciario - o juicio de Dios durante la Edad_Media , época en que los nobles y hombres libres lo utilizaron como procedimiento para zanjar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>diferencias </head></argset>. </example>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="10.3.1.1.1.3.1.2.1.1.0" sentencenodepath="10">El código del honor obligaba a los duelistas a observar unas reglas fijas establecidas : ambos contendientes habían de poseer el mismo rango social , de_lo_contrario <argset><specifier>las</specifier><head>diferencias </head></argset>pasaban a solventarse en un juicio ordinario ; Ø habían de llevar dos padrinos o testigos , encargados de determinar el grado de la ofensa , decidir la fecha , el terreno , el tipo de arma y la distancia que mediaría entre los adversarios . </example>
+        <example file="3LB-CAST/dc10-7.tbf.xml" nodepath="7.3.1.3.1.0" sentencenodepath="7">Las armas de fuego aventajaban a las blancas en que Ø derribaban <argset><specifier>las</specifier><head>diferencias </head><reference_modifiers>físicas</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">entre ambos duelistas</argument></argset>. </example>
+        <example file="3LB-CAST/e1-2.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">Pero hay <argset><specifier>una</specifier><head>diferencia </head><reference_modifiers>esencial</reference_modifiers></argset>entre la raza de ZZNM o ZZNF y nuestro Caballero_de_la_Triste_Figura . </example>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="5.5.1.1.2.0.0" sentencenodepath="5">Su principal avance sobre la filosofía de Leibniz Ø lo cifró siempre en que , a <argset><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de éste</argument></argset>, reconoce la sensibilidad como fuente de un conocimiento distinto del intelectual . </example>
+        <example file="3LB-CAST/e3-3.tbf.xml" nodepath="4.0.2.0.1.0" sentencenodepath="4">Que yo me encuentre dado a mí mismo como objeto de intuición empírica no es lo_mismo que pensar que Ø pienso , y <argset><specifier>esta</specifier><head>diferencia </head></argset>es lo decisivo puesto_que sin autointuición - - advierte Kant - - no habría autoconciencia : - Yo , el sujeto , soy objeto ( Gegenstan ) de mí mismo . </example>
+        <example file="CESS-CAST-A/10585_20000213.tbf.xml" nodepath="1.2.1.0.0" sentencenodepath="1">El alemán de 34 años de edad fue con <argset><head>diferencia </head></argset>el mejor de los participantes superando sin problemas a sus rivales con mucha facilidad . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="21.0.4.2.1.1.1.1.1.2.1.1.0" sentencenodepath="21">Bush , por su parte , dio las gracias " por la oportunidad de haber tenido un diálogo honesto sobre <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestras</argument><head>diferencias </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de opinión</argument></argset>" , y Ø pidió el voto a los indecisos . </example>
+        <example file="CESS-CAST-A/14713_20001219.tbf.xml" nodepath="3.4.4.5.1.0" sentencenodepath="3">En_cuanto_a la propuesta de directiva sobre el control portuario de los navíos , las fuentes adelantaron también que el acuerdo es posible , aunque se mantienen aún <argset><specifier>algunas</specifier><head>diferencias </head></argset>en_torno_a los criterios por los que debe fijarse el número de barcos que tendrán que someterse a esos controles . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="2.3.0.2.2.1.1.0" sentencenodepath="2">Sendas lesiones en las semifinales de los 200 metros de las pruebas de selección en Sacramento arrebataron al mundo entero uno de los momentos más deseados , verlos dirimir <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>diferencias </head></argset>codo_a_codo en la pista . </example>
+        <example file="CESS-CAST-A/15839_20000123.tbf.xml" nodepath="3.2.5.1.1.4.3.1.0" sentencenodepath="3">El vicepresidente segundo niega que el asunto de las " stock_options " de Telefónica perjudique electoralmente al PP al precisar que " todos los sondeos indican que Ø hemos aumentado <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestra</argument><head>diferencia </head></argset>en intención de voto en diciembre , cuando se debatió eso " . </example>
+        <example file="CESS-CAST-A/15839_20000123.tbf.xml" nodepath="7.6.1.1.2.1.1.1.0.0" sentencenodepath="7">Ø También se muestra tranquilo sobre el repunte de la inflación en España al asegurar que " las nueve décimas de <argset><head>diferencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de IPC</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">con la UE</argument></argset>no afectan a la economía " . </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="5.3.4.3.1.0" sentencenodepath="5">Lamy indicó además que para que la globalización tenga éxito es necesario que los gobiernos establezcan <argset><specifier>una</specifier><head>diferencia </head></argset>entre la política y la economía , ya_que las decisiones cruciales para un país no pueden depender de procesos electorales . </example>
+        <example file="CESS-CAST-A/16730_20000221.tbf.xml" nodepath="2.2.3.2.1.0" sentencenodepath="2">El mensaje de McCain , senador por Arizona , se ha hecho más agresivo después de la victoria de Bush en Carolina_del_Sur , y en los escasos tres días que van a separar un proceso de otro , Ø ha querido dejar clara <argset><specifier>la</specifier><head>diferencia </head><reference_modifiers>que separa a ambos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17992_20001022.tbf.xml" nodepath="6.0.3.1.0" sentencenodepath="6">El gol del brasileño no_sólo puso <argset><specifier>una</specifier><head>diferencia </head><reference_modifiers>definitiva</reference_modifiers><reference_modifiers>en el marcador</reference_modifiers><reference_modifiers>- que completó Josico a centro de un jugador hecho en Lezama , Edu_Alonso -</reference_modifiers></argset>, sino_que Ø enseñó las miserias en el juego del Athletic . </example>
+        <example file="CESS-CAST-AA/20351_20000224.tbf.xml" nodepath="2.0.3.3.1.1.1.1.1.2.1.2.1.1.1.2.1.0" sentencenodepath="2">" Para nadie es un secreto que Ø no hicimos un buen partido , Ø no tuvimos una buena noche , Ø hemos cometido muchos errores , Ø creo que Ø la_hemos_sacado_barata , porque Ø era para 10 u 11 goles , y eso hubiera sido fatal , pero es bueno que nos pase esto ahora para darnos_cuenta de que la Copa es una cosa y que el torneo local es otra . Ahora Ø tenemos la oportunidad de jugar 5 partidos más , 3 de locales en el Atanasio donde hay que tratar de mantener <argset><specifier>la</specifier><head>diferencia </head></argset>para pasar a la siguiente fase " , comentó el guardavallas . </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="6.3.4.1.4.2.1.0" sentencenodepath="6">Por_otra_parte , Ø anunció que Ø respalda al alcalde de San_Fernando ( Cádiz ) , el andalucista Antonio_Moreno , para que Ø continúe como presidente de la Mancomunidad_de_Municipios_de_la_Bahía_de_Cádiz , a_pesar_de <argset><specifier>las</specifier><head>diferencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">políticas</argument><reference_modifiers>que ha tenido con él en los últimos tiempos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/2181_20000504.tbf.xml" nodepath="6.2.1.1.4.1.1.2.2.1.1.1.0.0" sentencenodepath="6">El brasileño Favio_de_Oliveira hizo los dos tantos que le permitieron al Mariscal_Braun revertir un marcador adverso , con dos goles de <argset><head>diferencia </head></argset>, que pesaba sobre las espaldas de su equipo en la primera mitad del encuentro . </example>
+        <example file="CESS-CAST-AA/22653_20000227.tbf.xml" nodepath="4.6.5.4.5.1.0" sentencenodepath="4">Por su parte , el técnico del Rayo , Juande_Ramos , no ha puesto ningún reproche a la victoria españolista , aunque Ø cree que Ø está sobredimensionada , porque Ø entiende que el 5-1 " no es <argset><specifier>la</specifier><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre los dos equipos</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/24052_20000229.tbf.xml" nodepath="5.0.7.2.4.1.1.0.0" sentencenodepath="5">" Ø Practican una defensa abierta 3-2-1 , Ø pelean , Ø luchan mucho y no hay que olvidar que en las tres eliminatorias de la Recopa en su pista Ø han logrado vencer por <argset><head>diferencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de seis y ocho goles</argument></argset>" , agregó Ø . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="10.3.1.2.1.1.0" sentencenodepath="10">Tras mostrar la disposición de la Junta a crear una comisión conjunta con el consistorio para que " haya claridad en el proceso de redacción " del documento , Ø refirió que los técnicos han tenido que " jugar a <argset><specifier>las siete</specifier><head>diferencias </head></argset>" y Ø han encontrado cambios incluso en la parte suspendida hasta la aprobación definitiva del plan . </example>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="4.2.1.1.0" sentencenodepath="4">Ø Ha logrado mejorar mucho el coche , pero en esta ocasión <argset><specifier>las</specifier><head>diferencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">en los tiempos</argument></argset>pueden ser mucho mayores que en otros circuitos , además_de correr el riesgo de no tener ruedas suficientes para la carrera del domingo , en la que , al_menos , se harán dos paradas , si perdura el calor que ha hecho hoy . </example>
+        <example file="CESS-CAST-AA/25617_20000929.tbf.xml" nodepath="4.3.1.1.2.2.1.0" sentencenodepath="4">De la mano de un inspirado Patrik_Sáez_de_Ugarte , el Bilbao_Basket gozó de las primeras ventajas que alcanzaron <argset><specifier>una</specifier><head>diferencia </head><reference_modifiers>máxima</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de siete puntos</argument><reference_modifiers>( 15-8 )</reference_modifiers></argset>a los cinco minutos . </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="6.3.4.4.1.1.1.1.0.0" sentencenodepath="6">La Comisión electoral estatal aseguró que Kostunica rozó pero Ø no llegó al 50_por_ciento de los votos , límite necesario para que no se repita la votación , aunque Ø admitió que Ø ganó la primera ronda con unos doce puntos de <argset><head>diferencia </head></argset>sobre Milosevic . </example>
+        <example file="CESS-CAST-AA/4738_20001107.tbf.xml" nodepath="4.3.2.1.0" sentencenodepath="4">" La Federación ha querido interpretar que Ø tienen los mismos derechos porque se les permite jugar como extranjeros , pero precisamente ahí radica <argset><specifier>la</specifier><head>diferencia </head></argset>" . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="1.2.2.1.1.0" sentencenodepath="1">El equipo argentino jugó desde el minuto 47 con un hombre menos , por la expulsión de Leonardo_Ramos , pero la debilidad de la " U " y su falta de ataque efectivo hicieron que <argset><specifier>la</specifier><head>diferencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">numérica</argument></argset>casi no se notara . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="2.2.2.3.1.1.1.1.1.0.1.1.1.1.0.0" sentencenodepath="2">El campeón chileno necesitaba la victoria para mantener sus posibilidades de avanzar en el torneo , pero Ø dejó_ir la oportunidad en mayor medida por sus propias flaquezas que por méritos del rival y ahora Ø está en la obligación de vencer por tres goles de <argset><head>diferencia </head></argset>como_mínimo al Atlas mexicano en su último partido para mantenerse en carrera . </example>
+        <example file="CESS-CAST-AA/5332_20000207.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">El jugador del Real_Madrid Michel_Salgado reconoció <argset><specifier>la</specifier><head>diferencia </head><reference_modifiers>que ayer hubo entre el Deportivo_de_La_Coruña y su equipo</reference_modifiers></argset>, afirmando que los gallegos consiguieron " un resultado justo " y que , tras conseguir el tercer gol , Ø les " pasaron por_encima " . </example>
+        <example file="CESS-CAST-AA/5332_20000207.tbf.xml" nodepath="4.0.3.0.1.0.0" sentencenodepath="4">" Queda mucha Liga y el equipo no se va a venir abajo . Hubo <argset><head>diferencia </head></argset>entre los dos equipos y por eso Ø nos metieron cinco goles . Con el 2-1 Ø tuvimos nuestras posibilidades , pero Ø no las aprovechamos " , añadió el lateral derecho . </example>
+        <example file="CESS-CAST-AA/5606_20000207.tbf.xml" nodepath="1.4.1.1.3.3.4.1.1.1.1.0" sentencenodepath="1">El anuncio fue hecho el domingo en Porto_Alegre , capital del estado de Río_Grande_do_Sul , donde opera la CRT , por el presidente de TCS , Henrique_Neves , quien afirmó que Telefónica y sus socios aceptaron esa solución para poner_fin a <argset><specifier>la</specifier><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre el precio pedido por TBS y el que está dispuesto a pagar TCS , única empresa interesada en el negocio</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5606_20000207.tbf.xml" nodepath="7.0.1.1.1.0" sentencenodepath="7">Para conciliar <argset><specifier>las</specifier><head>diferencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">monetarias</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre las partes</argument></argset>se decidió adoptar el arbitraje que , según Neves , probablemente estará formado por tres jueces que serán designados por los dos grupos . </example>
+        <example file="CESS-CAST-AA/6635_20000409.tbf.xml" nodepath="5.0.0.0.1.0.1.1" sentencenodepath="5">Dadas <argset><specifier>las</specifier><reference_modifiers>mínimas</reference_modifiers><head>diferencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de tiempos</argument><reference_modifiers>que se habían registrado para adjudicar los puestos de la formación de salida</reference_modifiers></argset>y las dificultades de adelantar en este circuito , estaba claro que la decisión de la carrera , salvo incidentes , iba a ser estratégica y en ese plano Ferrari tenía ventaja sobre Mclaren y hoy Ø lo volvió a demostrar . </example>
+        <example file="CESS-CAST-AA/7642_20000309.tbf.xml" nodepath="7.0.1.3.1.2.2.1.1.1.0.0" sentencenodepath="7">" Aunque la presión puede jugar en_contra_del Deportivo , porque Ø saben que si Ø quieren ganar la liga Ø deben ganar todos los partidos en casa , Ø son un gran equipo que lleva cinco puntos de <argset><head>diferencia </head></argset>al segundo y será muy complicado ganar allí " , añadió el defensa . </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="1.3.1.1.2.2.1.0" sentencenodepath="1">En dicho trabajo se analiza la evolución que experimentaron los márgenes de las frutas y hortalizas , es_decir , <argset><specifier>la</specifier><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre los precios en origen y al consumidor</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, entre 1997 y 1999</argument></argset>, tomando como muestra un período de 39 semanas . </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="2.2.1.1.1.1.0" sentencenodepath="2">Dentro_de los alimentos hortofrutícolas , resaltan los aumentos de <argset><specifier>esta</specifier><head>diferencia </head></argset>en las cotizaciones del fresón , puesto_que en 1999 el margen mayorista de este producto creció el 59_por_ciento respecto_al año anterior , en_tanto_que el margen minorista se incrementó el 42_por_ciento . </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="3.2.4.1.0" sentencenodepath="3">El estudio indica que durante algunas semanas del año pasado , entre el precio pagado al productor de fresón y el de venta al público hubo <argset><specifier>una</specifier><head>diferencia </head><reference_modifiers>cercana a las 300 pesetas por kilo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="4.1.2.0.1.1" sentencenodepath="4">En_cuanto_al melocotón , el margen mayorista se elevó el 55_por_ciento y el minorista subió el 29_por_ciento , y <argset><specifier>la</specifier><reference_modifiers>mayor</reference_modifiers><head>diferencia </head><reference_modifiers>registrada</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre el precio en origen y el de venta al consumidor</argument></argset>fue de 200 pesetas por kilo . </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="9.0.1.1.0" sentencenodepath="9">En los cítricos , <argset><specifier>las</specifier><head>diferencias </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre el precio en origen y al público</argument></argset>se acortaron en 1999 : en los limones el margen mayorista bajó el 38_por_ciento y el minorista se redujo el 19,4_por_ciento . </example>
+        <example file="CESS-CAST-P/105_20020301.tbf.xml" nodepath="8.0.1.0.2.3.0.1.2.0.0" sentencenodepath="8">" Ø Pensábamos que Ø iban a ser jugadores que marcarían <argset><head>diferencias </head></argset>y Ø no ha sido así . Ø Tenemos que aceptar que Ø nos hemos equivocado y que Ø no hemos acertado , tampoco , con el entrenador " , aseguró el ex vicepresidente . </example>
+        <example file="CESS-CAST-P/112_20020102.tbf.xml" nodepath="0.0.0.0.0" sentencenodepath="0"><argset><head>Diferencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">en las proporciones de los personajes</argument>o elementos contemporáneos que se cuelan en el plano </argset>son algunos de los errores de El_señor_de_los_anillos . </example>
+        <example file="CESS-CAST-P/120_20010103.tbf.xml" nodepath="16.0.1.1.0" sentencenodepath="16">A_pesar_de <argset><specifier>la</specifier><head>diferencia </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">de categoría</argument></argset>, el técnico se refirió al Ceuta con admiración . </example>
+        <example file="CESS-CAST-P/125_20020202.tbf.xml" nodepath="4.3.1.1.3.2.1.2.1.1.1" sentencenodepath="4">La boda de Guillermo_de_Holanda y Máxima_Zorreguieta ha reunido en Amsterdam a los miembros más destacados de la realeza europea , empeñados en mantener una especie de solidaridad monárquica ante <argset><specifier>las</specifier><reference_modifiers>cada vez más evidentes</reference_modifiers><head>diferencias </head><reference_modifiers>existentes</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">entre los representantes de la generación reinante y sus herederos</argument></argset>. </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="15.0.2.1.0" sentencenodepath="15">El capitán Manuel_Estiarte aumentó <argset><specifier>la</specifier><head>diferencia </head></argset>, pero España tuvo que sufrir hasta la última jugada el acoso australiano . </example>
+        <example file="CESS-CAST-P/169_20010202.tbf.xml" nodepath="11.2.0.1.1.1.0" sentencenodepath="11">El constructor destacó algunas de <argset><specifier>las</specifier><head>diferencias </head><reference_modifiers>que distinguen a los principales fabricantes de instrumentos de cuerda</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/16_20000202.tbf.xml" nodepath="9.3.1.1.0" sentencenodepath="9">Para gente que lleva años esperando volver , ha de ser deprimente leer y escuchar <argset><specifier>las</specifier><head>diferencias </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre el futuro que espera al chico , según pueda quedarse en Estados_Unidos o lo repatríen a Cuba</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="16.4.1.1.1.1.2.1.1.0" sentencenodepath="16">En mi primera intervención en el Parlament , el día del debate de investidura , Ø ofrecí al president de la Generalitat Jordi_Pujol mi disponibilidad a entendernos desde la exigencia mutua , desde <argset><specifier>la</specifier><head>diferencia </head></argset>y desde la mutua oposición . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="9.2.1.1.1.1.2.2.1.4.2.1.0" sentencenodepath="9">El estudio comparativo de dos cohortes con estas características fue el objeto de mi tesis doctoral presentada en la Universitat_de_Barcelona hace ahora seis años y cuyas conclusiones globales no sorprendieron a nadie : aquel colectivo MIR mostró mejor nivel de competencia clínica que el resto , si_bien <argset><specifier>las</specifier><head>diferencias </head></argset>fueron más destacadas en los aspectos de conocimientos que en los que analizaban más las cualidades del ejercicio profesional en sí . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="16.3.1.1.1.1.2.3.0.1" sentencenodepath="16">Ø No ha tenido_en_cuenta las características de los países de la UE que tienen , aunque Ø suene extraño , <argset><reference_modifiers>grandes</reference_modifiers><head>diferencias </head></argset>en sus sistemas de formación médica . </example>
+        <example file="CESS-CAST-P/21_20000401.tbf.xml" nodepath="8.2.1.0" sentencenodepath="8">Sólo hay <argset><specifier>una</specifier><head>diferencia </head></argset>. </example>
+        <example file="CESS-CAST-P/23_20000201_a.tbf.xml" nodepath="1.0.0.1" sentencenodepath="1"><argset><reference_modifiers>Considerables</reference_modifiers><head>diferencias </head><reference_modifiers>retributivas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre plantillas que hacen las mismas funciones , etcétera o que nos afectan a todos</argument></argset>( revalorización digna de las pensiones mínimas ) . </example>
+        <example file="CESS-CAST-P/27_19981202.tbf.xml" nodepath="8.3.2.1.1.0" sentencenodepath="8">El presidente chileno , Eduardo_Frei , dijo ayer : " A_pesar_de <argset><specifier>las</specifier><head>diferencias </head><reference_modifiers>que separan a los chilenos</reference_modifiers></argset>, Ø hemos dado nuestra solución a la tensión , siempre presente en los periodos de transición , entre la necesidad de justicia y la necesidad de reconciliación " . </example>
+        <example file="CESS-CAST-P/2_20010702.tbf.xml" nodepath="2.0.1.1" sentencenodepath="2"><argset><specifier>La</specifier><reference_modifiers>gran</reference_modifiers><head>diferencia </head></argset>es que ahora el consumo de electricidad en los meses de verano no es muy inferior al que se produce durante el frío invierno y que , debido_a la gran afluencia de visitantes , los problemas de capacidad se originan en las zonas turísticas de la costa . </example>
+        <example file="CESS-CAST-P/34_20020103.tbf.xml" nodepath="7.5.1.1.1.1.0" sentencenodepath="7">- - ¿ Ø Es un cruzado de <argset><specifier>la</specifier><head>diferencia </head></argset>? - - . </example>
+        <example file="CESS-CAST-P/39_19990202.tbf.xml" nodepath="3.0.3.1.1" sentencenodepath="3">No_obstante , Ø constató <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre los dos procesos de paz</argument></argset>: " En Irlanda_del_Norte se está logrando la reconciliación de una sociedad dividida , mientras_que en el País_Vasco se está dando un proceso de división , impulsado desde la política , de una sociedad que no lo está " . </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="13.0.3.1.0" sentencenodepath="13">En pesetas se ve <argset><specifier>la</specifier><head>diferencia </head><reference_modifiers>de forma bien transparente</reference_modifiers></argset>: en Berlín cuesta un 25% más hincarle el diente a uno de los productos más estandarizados que existen . </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="14.0.3.2.1.0" sentencenodepath="14">En euros , Ø parece que existen <argset><specifier>menos</specifier><head>diferencias </head></argset>, pero hay que tener_en_cuenta que cada cent - - fracción en la que se divide el euro - - son 1,66 pesetas . </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="15.2.1.1.1.1.0.0" sentencenodepath="15">Ello significa que los 26 cents de <argset><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre las dos hamburguesas ( la de Barcelona y la de Berlín ) ,</argument></argset>equivalen a más de 43 pesetas , es_decir , el mismo 25% que si se hace la comparación en pesetas . </example>
+        <example file="CESS-CAST-P/40_20000202.tbf.xml" nodepath="2.1.2.0" sentencenodepath="2">Con una cuarta parte de los votos escrutados , McCain se hizo con el 47% de los votos , y Bush , con el 31% <argset>, <specifier>una</specifier>
+            <head>diferencia </head>
+            <reference_modifiers>muy superior a los 10 puntos que pronosticaban los sondeos la víspera</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/40_20000202.tbf.xml" nodepath="4.5.6.2.0" sentencenodepath="4">En el bando demócrata , la pugna entre el vicepresidente Al_Gore y el ex senador Bill_Bradley se presentó más igualada , aunque Gore logró el 54% de los votos frente al 46% para Bradley <argset>, <specifier>una</specifier>
+            <head>diferencia </head>
+            <reference_modifiers>que entraba dentro de los cálculos de Gore</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="6.3.1.0.1.1.1.0" sentencenodepath="6">En esta ocasión ambos estaban decididos a orillar <argset><specifier>las</specifier><head>diferencias </head><reference_modifiers>que les separan</reference_modifiers></argset>y a no ponerse zancadillas en el camino de la paz . </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="10.1.1.0" sentencenodepath="10">Según el ministro , <argset><specifier>todas las</specifier><head>diferencias </head><reference_modifiers>por resolver</reference_modifiers></argset>son subsanables , excepto la pretensión del Gobierno vasco de tener representación propia en la Unión_Europea cuando se discutan medidas que afecten a su financiación . </example>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="17.0.1.0" sentencenodepath="17"><argset><specifier>Las</specifier><head>diferencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de precios</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">en algunos artículos</argument></argset>llegan ya al 200% , según señalaba ayer el diario O_Globo . </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="17.2.3.2.3.1.1.1.1.1.0" sentencenodepath="17">El presidente explicó que CiU defenderá en la reunión del Pacto_de_Toledo una subida de todas las pensiones mínimas e Ø intentará que se establezca un mecanismo para compensar <argset><specifier>las</specifier><head>diferencias </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">territoriales</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de inflación</argument></argset>, para que las autonomías no tengan que volver a aprobar nuevas ayudas complementarias , recalcó Pujol . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="5.0.1.1.2.0.1" sentencenodepath="5">Mientras_que la balanza comercial <argset>( <head>diferencia </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre exportaciones e importaciones</argument>) </argset>del primer trimestre empeoró en 245.800 millones respecto_al mismo periodo de 1998 , los ingresos netos por turismo sólo han subido en 93.400 millones . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="12.3.1.1.2.0.1" sentencenodepath="12">Durante el primer trimestre del año , el virtual estancamiento de las exportaciones y el incremento en un 5% de las importaciones han hecho que el déficit comercial <argset>( <head>diferencia </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre exportaciones e importaciones</argument>) </argset>se sitúe en 795.800 millones . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="19.0.1.0.2.3.1.0" sentencenodepath="19">Del análisis de la cuenta financiera ( que mide <argset><specifier>la</specifier><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre</argument><reference_modifiers>las inversiones españolas en el exterior y las del extranjero en España</reference_modifiers></argset>) se desprende la fortaleza de la inversión española . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="passive">
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="1.2.0.3.1.0" sentencenodepath="1">Ambos admiten que sólo hubo <argset><specifier>una</specifier><head>diferencia </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de dos días</argument></argset>pero que las negociaciones fueron diferentes , las relativas con el fichaje del jugador argentino fueron con el hijo del alcalde marbellí Miguel_Angel_Gil_Marín , y el patrocinio de las camisetas con el logotipo de Marbella fueron con el regidor . </example>
+        <example file="CESS-CAST-A/15197_20000823.tbf.xml" nodepath="3.0.3.4.1.1.1.1.1.0" sentencenodepath="3">Aunque el intermediario en el traspaso , el croata Josip_Kuze , afirma que el NK_Zagreb no tiene ningún derecho de reclamar <argset><specifier>la</specifier><head>diferencia </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 3,8 millones</argument></argset>- al tratarse únicamente de un desliz mecanográfico por parte alemana - la directiva del club croata ha solicitado formalmente al Werder_Bremen abonar la cantidad indicada en letras . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="diferenciar" originlink="verb.diferenciar.2" wordnetsynset="16:03731027">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/11456_20000715.tbf.xml" nodepath="8.2.0.0.0.1.0" sentencenodepath="8">Por su parte , Carlos_Juárez aseveró que " los jugadores de Argentina son tan humanos como nosotros , <argset><specifier>la</specifier><head>diferencia </head></argset>es que ellos juegan en Europa y Ø han estado en varios Mundiales y por eso Ø están mejor cotizados , pero nosotros también sabemos anotar buenos goles y la realidad será en la cancha : Ø será once contra once " . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="1.4.2.1.1.0" sentencenodepath="1">El esperado debate entre Gore y Bush se desarrolló en un ambiente de mayor agresividad a tres semanas de las elecciones del 7_de_noviembre y con <argset><specifier>unas</specifier><head>diferencias </head><reference_modifiers>mínimas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en las intenciones de voto</argument></argset>. </example>
+        <example file="CESS-CAST-P/113_19990501_a.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Las dos centrales dejarán por un día <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>diferencias </head></argset>para pedir una " Europa en paz y con derechos " . </example>
+        <example file="CESS-CAST-P/44_19991102.tbf.xml" nodepath="5.0.0.1.2.4.1.1.1" sentencenodepath="5">Los evangélicos españoles , que en el comunicado insisten en <argset><specifier>las</specifier><reference_modifiers>enormes</reference_modifiers><head>diferencias </head><reference_modifiers>existentes</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre ambas iglesias</argument></argset>, califican de incoherente " la postura papal de firmar esta declaración a_la_vez_que se anuncian indulgencias a_través_de la confesión , la visita a Roma y las limosnas para el año_2000 " . </example>
+        <example file="CESS-CAST-P/86_20000102.tbf.xml" nodepath="15.2.1.1.1.0" sentencenodepath="15">El juego de la semana consiste en encontrar <argset><specifier>las siete</specifier><head>diferencias </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre la boda de Cristina_Tárrega con Mami_Quevedo y Fernando_Morientes con Victoria_López</argument></argset>. </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="9.2.5.2.2.0" sentencenodepath="9">El representante del sindicato alemán IG_Metall , Albrecht_Kotitschke , dijo que " será difícil encontrar un denominador común " para las negociaciones europeas de un plan social , debido_a <argset>" <specifier>las</specifier>
+            <head>diferencias </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de legislación</argument>" </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="diferenciar" originlink="verb.diferenciar.2" wordnetsynset="16:03731593">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-9.tbf.xml" nodepath="0.3.3.1.0" sentencenodepath="0">La sequedad del aire ambiental es muy importante , ya_que en ese caso <argset><specifier>la</specifier><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de presión</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sp">entre el cristal de hielo y el vapor de agua</argument></argset>alcanza su máxima efectividad , pudiéndose producir la sublimación originaria de los copos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="diferenciar" originlink="verb.diferenciar.2" wordnetsynset="16:03731593">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/11084_20001014.tbf.xml" nodepath="5.0.2.1.1" sentencenodepath="5">" Tal_vez <argset><specifier>la</specifier><reference_modifiers>gran</reference_modifiers><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de mi actitud con el resto de las personalidades y celebridades</argument></argset>es que Ø no_sólo hablo de la necesidad de ayudar a los niños sino_que Ø lo pongo_en_práctica en la búsqueda de ingresos para darla " , explicó Agassi . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">La coronel Janet_Tucker , portavoz del Comando de Experimentación conjunta en Suffolk ( Virginia ) , explicó a EFE <argset><specifier>la</specifier><head>diferencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre los tradicionales ejercicios militares y este experimento , en el cual participarán miles de soldados</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

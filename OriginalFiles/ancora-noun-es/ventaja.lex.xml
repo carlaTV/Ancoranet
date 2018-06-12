@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ventaja" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="aventajar" originlink="verb.aventajar.1" wordnetsynset="16:04015246">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+        <constituent frequency="8" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="6" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="respecto_a" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="respecto_a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="atr">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" postype="indefinite" type="determiner"/>
+        <constituent frequency="22" type="void"/>
+        <constituent frequency="27" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="11" type="s.a"/>
+        <constituent frequency="7" type="S"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="15.1.2.4.7.4.2.0" sentencenodepath="15">En el editorial Ø señala los cambios de la bolsas española hacia modelos más europeos y Ø considera estos cambios lógicos , pues " resulta razonable que las Bolsas europeas unifiquen sus normas de contratación " , ya_que éstas supondrán <argset>" <specifier>una</specifier>
+            <head>ventaja </head>
+            <argument argument="arg2" function="cn" thematicrole="atr" type="sp">para gestores , inversores y operadores</argument>" </argset>. </example>
+        <example file="3LB-CAST/d2-10.tbf.xml" nodepath="7.4.1.3.1.1.1.1.1.1.2.4.1.2.1.1.1.0.0" sentencenodepath="7">Cuando hace días dimitía , por sus prácticas fiscales , Ø digamos , atípicas ( cada vez menos atípicas , es_cierto , a la vista de la que está cayendo ... ) , el " conselleiro " del Gobierno gallego Juan_Fernández , el lector medio de periódicos no cayó sin_duda en_la_cuenta de que se trataba del mismo Juan_Fernández que hizo a_pulso el OAR_Ferrol , tarea por la que Ø es universalmente aplaudido ... pero en la que Ø ya lució una reprobable afición a jugar con <argset><head>ventaja </head></argset>. </example>
+        <example file="3LB-CAST/d2-2.tbf.xml" nodepath="7.2.2.1.1.0" sentencenodepath="7">El suizo imitó a Miguel_Indurain en su forma de interpretar una jornada de alta montaña y Ø decidió conservar <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>ventaja </head></argset>. </example>
+        <example file="3LB-CAST/dc1-3.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>ventaja </head></argset>a corto plazo para el macho es que ella puede producirle otra nidada rápidamente , en_el_caso_de_que un depredador destruya la primera . </example>
+        <example file="3LB-CAST/dc2-2.tbf.xml" nodepath="4.0.1.1" sentencenodepath="4"><argset><specifier>Las</specifier><reference_modifiers>presuntas</reference_modifiers><head>ventajas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las armas biológicas</argument></argset>gravitan sobre tres puntos fundamentales . </example>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="5.2.1.2.1.1.1.1.1.2.1.0" sentencenodepath="5">Supone esto una conclusión importante en el sentido de que , a_pesar_de <argset><specifier>la</specifier><head>ventaja </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">electroquímica</argument><reference_modifiers>que supone</reference_modifiers></argset>, la fusión de sus anillos aromáticos origina una excesiva distorsión de la planaridad molecular . </example>
+        <example file="3LB-CAST/dc3-4.tbf.xml" nodepath="7.2.1.2.2.1.0" sentencenodepath="7">El polisulfuro de fenileno , aunque no conjugado , es en estado puro un excelente aislante ( 1016 ) pero al - doparlo - Ø alcanza una conductividad de 1 y Ø presenta <argset><specifier>la</specifier><head>ventaja </head><reference_modifiers>de ser el primer polímero conductor soluble y termomoldeable</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/t1-4.tbf.xml" nodepath="7.0.2.0.1.0" sentencenodepath="7">Ser rico en aquel tiempo tenía <argset><specifier>muchas</specifier><head>ventajas </head>, </argset>y también muchas desventajas , por_supuesto , pero medio mundo lo anhelaba como la posibilidad más probable de ser eterno . </example>
+        <example file="CESS-CAST-A/11099_20000915.tbf.xml" nodepath="1.4.0.3.1.0" sentencenodepath="1">Takafumi_Isomura , alcalde de Osaka y presidente del Comité_de_la_Candidatura ( OBC ) , explicó hoy en Sydney que Pekín puede tener <argset><specifier>la</specifier><head>ventaja </head><reference_modifiers>de que China nunca ha acogido unos Juegos</reference_modifiers></argset>pero que no deben compararse culturalmente ambos países porque cada uno se ha desarrollado por su lado . </example>
+        <example file="CESS-CAST-A/12221_20000215.tbf.xml" nodepath="2.3.4.2.1.1.0" sentencenodepath="2">Sobre el emparejamiento en cuartos_de_final ante el Airtel_Valencia , el técnico del Ademar , Manolo_Cadenas , considera que " Ø es un equipo novato en esta competición , pero Ø cuenta con <argset><specifier>la</specifier><head>ventaja </head><reference_modifiers>de la ilusión que supone el haber logrado uno de los objetivos de la temporada</reference_modifiers></argset>" , dijo Ø . </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="2.2.1.1.2.4.1.1.1.4.5.1.0" sentencenodepath="2">Croissier participó en la XI_Convención de la Bolsa_Mexicana_de_Valores ( BMV ) , que se lleva_a_cabo en la Ciudad_de_México , donde Ø señaló que , al privatizar progresivamente las empresas estatales en el mercado de acciones , " Ø es <argset><specifier>una</specifier><head>ventaja </head></argset>cuando existen desacuerdos o temores de que puedan caer las compañías en manos de extranjeros " . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="4.0.2.1.0" sentencenodepath="4">Cinco puntos es <argset><specifier>la</specifier><head>ventaja </head><reference_modifiers>que tiene el Deportivo</reference_modifiers><argument argument="arg2" function="cn" thematicrole="atr" type="sp">sobre Real_Madrid y Barcelona</argument></argset>, mientras_que el Zaragoza , cuarto clasificado , está a seis del conjunto gallego . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="12.3.0.1.1.1.1.0" sentencenodepath="12">Aunque los locales basaron su victoria en la fortaleza y la habilidad de sus delanteros , la actuación del defensa colombiano Mario_Yepes fue vital para mantener <argset><specifier>la</specifier><head>ventaja </head></argset>en el segundo tiempo . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="20.2.0.2.1.0.2.4.1.1.1.0.0" sentencenodepath="20">Al empate siguió algo de vértigo con jugadas salientes en las que Saviola para el River_Plate y Delgado para el Boca_Juniors a punto estuvieron de poner en <argset><head>ventaja </head></argset>a sus equipos . </example>
+        <example file="CESS-CAST-A/13710_20001017.tbf.xml" nodepath="7.1.1.0" sentencenodepath="7">Después del medio juego , <argset><specifier>la</specifier><head>ventaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las piezas blancas</argument></argset>se iba acentuando . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="11.2.0.1.1.2.1.0" sentencenodepath="11">Entre los principales países origen de las importaciones destaca China , que presenta <argset><specifier>la</specifier><head>ventaja </head><reference_modifiers>competitiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los bajos precios</argument></argset>y , por_tanto , de donde proceden los productos más baratos . </example>
+        <example file="CESS-CAST-A/13959_20000217.tbf.xml" nodepath="6.2.2.3.1.0" sentencenodepath="6">Arteaga cree que el descanso copero va a ir muy bien para el equipo , " pues Ø va a ser mejor para afrontar la Liga y las semifinales de Copa " , pero Ø negó que esto sea <argset><specifier>una</specifier><head>ventaja </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">respecto_a equipos como el Real_Madrid o el Barcelona , inmersos por esas fechas en plena lucha por seguir adelante en la Liga_de_Campeones</argument></argset>. </example>
+        <example file="CESS-CAST-A/14498_20000121.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>Las</specifier><head>ventajas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los cultivos que contienen almidón</argument></argset>son muchas como su cocción ligera y su alta retención de aceite que los convierte en aptos para elaborar productos al horno , cereales y tentempiés , sopas y salsas , así_como para la obtención de aromas naturales y de cremas en polvo de productos lácteos y no lácteos . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="9.3.1.2.1.1.0.0" sentencenodepath="9">Sobre el Deportivo-Juventus , Ø escribe que el equipo italiano " ha luchado con ardor y pasado en <argset><head>ventaja </head></argset>con Inzaghi , pero Ø ha sido traicionado por Van_der_Sar sólo dos minutos después , Ø ha sufrido en el corazón , pero Ø ha obtenido lo que Ø deseaba : un punto que , al_final , ha sido aceptado con una sonrisa también por el Deportivo " . </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="6.3.1.1.1.1.1.1.0" sentencenodepath="6">Los spurs ( 53-29 ) tuvieron el premio con su victoria de conseguir <argset><specifier>la</specifier><head>ventaja </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de campo</argument></argset>en la serie de la primera ronda de la fase final que Ø disputaran al mejor de cinco contra los Suns_de_Phoenix . </example>
+        <example file="CESS-CAST-A/15355_20001120.tbf.xml" nodepath="2.4.1.1.1.1.1.1.2.2.1.0.2.1.2.1.1.1.1" sentencenodepath="2">La Junta_de_Recuento_de_Votos de Miami-Dade aprobó el viernes la revisión de los 614 colegios electorales tras analizar una petición de la campaña demócrata que busca obtener votos adicionales para ayudar a su candidato Al_Gore a superar <argset><specifier>la</specifier><reference_modifiers>escasa</reference_modifiers><head>ventaja </head><reference_modifiers>que le lleva su rival republicano George_W._Bush</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/15355_20001120.tbf.xml" nodepath="12.5.1.1.0" sentencenodepath="12">El candidato presidencial republicano debería haber sido proclamado vencedor el sábado pasado en Florida con <argset><specifier>una</specifier><head>ventaja </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de 930 votos</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sp">sobre su rival demócrata</argument></argset>, si no hubiera intervenido el viernes , por su propia cuenta , el Tribunal_Supremo . </example>
+        <example file="CESS-CAST-A/15801_20000123.tbf.xml" nodepath="3.2.0.1.0" sentencenodepath="3">El_Aynaui le rompió el servicio en el séptimo juego y <argset><specifier>esa</specifier><head>ventaja </head></argset>fue suficiente para que el marroquí se alzase con la victoria . </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="13.0.0.0.1.1.2.1.1.0" sentencenodepath="13">Lejos de echarse atrás y defender <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>ventaja </head></argset>, la selección continuó presionando y cuando Soto se iba derecho a la portería hondureña Ø fue agarrado en falta por Lagos . </example>
+        <example file="CESS-CAST-A/16730_20000221.tbf.xml" nodepath="15.0.1.2.1.2.2.1.0" sentencenodepath="15">" Ø Parece una tarea de titanes , en la que <argset><specifier>la</specifier><head>ventaja </head></argset>es que Michigan no es Carolina_del_Sur , pero McCain sólo va a tener tres días por delante , donde Bush tuvo 18 " , dijo Dante_Chinni , un comentarista del diario " The_Christian_Science_Monitor " en un programa de debates . </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="4.2.3.0.3.2.0.1.1.0.0" sentencenodepath="4">Patrick_Kluivert , autor del primer tanto del equipo azulgrana , aumentó a 13 su cuenta en el presente campeonato y Ø ya es líder en solitario de la clasificación de goleadores del Barcelona en la Liga 1999-2000 , con uno de <argset><head>ventaja </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">sobre Rivaldo</argument></argset>. </example>
+        <example file="CESS-CAST-A/17992_20001022.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>Esa</specifier><head>ventaja </head><reference_modifiers>, que ya era de gran valía para el conjunto amarillo ,</reference_modifiers></argset>se transformó en un auténtico tesoro cuando la amplió Alvaro , con un cabezazo que finiquitó una buena jugada de Pablo_Lago por la banda derecha . </example>
+        <example file="CESS-CAST-A/18656_20000126.tbf.xml" nodepath="0.2.1.2.2.1.1.1.1.0.1.1.2.1.0.0.0" sentencenodepath="0">Microsoft , Telefónica_Data y Bankinter , han desarrollado el programa " Conecta_2000 " que consiste en una serie de iniciativas para comunicar a las empresas <argset><specifier>las</specifier><head>ventajas </head>y oportunidades de Internet </argset>. </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="1.3.1.1.1.1.1.2.4.1.1.2.2.1.0" sentencenodepath="1">Fullana entró en meta a 33 segundos de la campeona italiana , que cubrió los 35,7 kilómetros del recorrido olímpico en un tiempo de una hora , 49 minutos y 24 segundos , con <argset><specifier>una</specifier><head>ventaja </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 27 segundos</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sp">sobre Barbara_Blatter , que regresará a Suiza con una medalla de plata</argument></argset>. </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="6.1.4.1.0.1.1.1.0.0" sentencenodepath="6">La autoridad del pedaleo de Fullana dejaba entrever la posibilidad de que la española redactase , efectivamente , la crónica de un oro anunciado : tras la tercera vuelta , la isleña lideraba con 14 segundos de <argset><head>ventaja </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">sobre Blatter</argument></argset>y 18 sobre Pezzo . </example>
+        <example file="CESS-CAST-AA/20070_20000525.tbf.xml" nodepath="4.0.2.4.2.1.0" sentencenodepath="4">Otro dato a tener_en_cuenta es que el entonces presidente y candidato a la reelección , José_Luís_Núñez , reunió 14.331 firmas , con <argset><specifier>la</specifier><head>ventaja </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de tener a su favor el acceso al censo de socios del club</argument></argset>, pero esa cifra fue casi la mitad de las 27.152 firmas que presentó el propio Núñez en las anteriores elecciones celebradas contra Sixte_Cambra en 1989 . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="4.0.4.3.4.0.0" sentencenodepath="4">" Hacer nuestro trabajo , tan alejados de los grandes mercados , es un alarde de voluntarismo ; así_que , después de tanto tiempo intentando hacer muchas cosas , y de hacerlas bien , si Ø no tenemos <argset><head>ventajas </head><reference_modifiers>competitivas</reference_modifiers></argset>, no queda más remedio que estar donde está el gran consumo " , apuntó Ø . </example>
+        <example file="CESS-CAST-AA/21954_20000226.tbf.xml" nodepath="5.3.5.3.0.4.1.0" sentencenodepath="5">Respecto_al partido que enfrentará al Real_Madrid y al Barcelona , rivales directos del Deportivo en su lucha por el título de Liga , Irureta dijo : " El que a nosotros nos importa es el que Ø disputaremos mañana porque Ø dependemos de nosotros mismos y si Ø ganamos Ø podremos aumentar tres puntos más <argset><argument argument="arg1" thematicrole="tem" type="spec">nuestra</argument><head>ventaja </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">respecto_a Madrid o Barca</argument></argset>o incluso en dos puntos respecto_a los dos , si ellos empatan " . </example>
+        <example file="CESS-CAST-AA/22653_20000227.tbf.xml" nodepath="6.0.1.0.1.1.1" sentencenodepath="6">" Con <argset><specifier>la</specifier><reference_modifiers>mínima</reference_modifiers><head>ventaja </head></argset>Ø nos pensábamos que estaba todo hecho y que Ø íbamos a ganar . Las tres ausencias en defensa nos han hecho mucho daño . Ø Se han notado mucho " , ha añadido Ø . </example>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="1.3.0.2.1.2.1.0.1.1.1.0.0" sentencenodepath="1">Al volante de un coche fiable - sólo un abandono por avería mecánica en la presente temporada , en Monáco - y que se adapta perfectamente a todo tipo de circuitos , Michael_Schumacher tiene todo a su favor para volver a triunfar en Magny-Cours y aumentar los 22 puntos de <argset><head>ventaja </head></argset>que Ø cuenta sobre el británico David_Coulthard y 24 sobre el finlandés Mika_Hakkinen , ambos de McLaren-Mercedes . </example>
+        <example file="CESS-CAST-AA/24052_20000229.tbf.xml" nodepath="3.5.1.0" sentencenodepath="3">En opinión del técnico albiazul , el jugar el encuentro de vuelta en Pamplona " es siempre <argset><specifier>una</specifier><head>ventaja </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para pasar a la siguiente ronda de la Recopa</argument></argset>" , si_bien Ø puntualizó que para acceder a la final " habrá que hacer también un buen partido en Eslovenia , para luego poder rematar en nuestra cancha con el apoyo de la afición " . </example>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="12.3.1.1.1.1.0.0" sentencenodepath="12">Si mañana Coulthard no sufre más incidencias Ø estará en una situación de <argset><head>ventaja </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">sobre el resto de los pilotos</argument></argset>junto_con el alemán Heinz-Harald_Frentzen ( Jordan_EJ10_Mugen_Honda ) y el italiano Giancarlo_Fisichella ( Benetton_B200_Playlife ) , que han sido los que menos han rodado , siete y nueve vueltas respectivamente . </example>
+        <example file="CESS-CAST-AA/25617_20000929.tbf.xml" nodepath="4.3.1.1.1" sentencenodepath="4">De la mano de un inspirado Patrik_Sáez_de_Ugarte , el Bilbao_Basket gozó de <argset><specifier>las</specifier><reference_modifiers>primeras</reference_modifiers><head>ventajas </head><reference_modifiers>que alcanzaron una diferencia máxima de siete puntos ( 15-8 ) a los cinco minutos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="7.4.4.2.0" sentencenodepath="7">Ø Invitó a los candidatos a evitar que sus actividades oficiales sean usadas como " instrumentos de apoyo de campaña " , puesto_que la delegación Carter reconoció <argset>" <specifier>la</specifier>
+            <head>ventaja </head>
+            <reference_modifiers>natural</reference_modifiers>
+            <reference_modifiers>que disfrutan " los candidatos a la reelección en el cargo " para que su agenda sea cubierta de manera preferencial por los medios "</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="9.2.2.1.5.2.1.3.1.4.2.1.1.0.0" sentencenodepath="9">El presidente venezolano , Hugo_Chávez , inició su campaña por la reelección el pasado miércoles viajando al interior del país en un avión comercial y trasladándose en vehículos particulares , e Ø informó de que Ø suspendió , por lo que queda de campaña , sus participaciones en inauguraciones de obras públicas , como una " demostración " de que Ø no va a utilizar " ningún tipo de <argset><head>ventajas </head></argset>" . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="10.0.1.0.3.1.1.1.0.0" sentencenodepath="10">" Sin_embargo , el Deportivo lleva dos puntos de <argset><head>ventaja </head></argset>y Ø es el máximo favorito al título de Liga . Si Ø controlan esas cosas que suelen pasar a_final_de temporada , probablemente Ø ganen el título " , continuó Ø . </example>
+        <example file="CESS-CAST-AA/3847_20000605.tbf.xml" nodepath="12.4.1.4.2.0.1.1.0.0" sentencenodepath="12">Este partido que se desarrollaba al_mismo_tiempo_que el de Squillari-El_Aynaoui sí continuó a_pesar_de la lluvia que caía casi ininterrumpidamente sobre el estadio parisiense hasta que Ø fue interrumpido por falta de luz , con Albert_Costa con <argset><head>ventaja </head><argument argument="argM" function="cn" thematicrole="atr" type="sp">de 6-3 y 4-4</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4216_20001107.tbf.xml" nodepath="6.3.2.1.1.1.0.0" sentencenodepath="6">Y Ø es que , aunque el gobernador de Texas supera en la mayoría de las encuestas al demócrata Al_Gore , el margen de <argset><head>ventaja </head></argset>se ha reducido ligeramente en el último día de campaña . </example>
+        <example file="CESS-CAST-AA/4216_20001107.tbf.xml" nodepath="7.3.0.1" sentencenodepath="7">Además , Gore tiene <argset><reference_modifiers>ligeras</reference_modifiers><head>ventajas </head></argset>en algunos estados clave que le hacen albergar esperanzas de victoria , incluso con menos votos populares , gracias_a la institución del Colegio_Electoral . </example>
+        <example file="CESS-CAST-AA/4618_20001207.tbf.xml" nodepath="1.4.5.0.1.1.1.1.0" sentencenodepath="1">Castro que sumó 24 goles en la temporada , espera pacientemente a que termine la final colombiana , en la que sus más inmediatos rivales el brasileño Marquinho y el colombiano Orlando_Ballesteros , ambos del Junior , suman tan_solo 16 y 15 goles , respectivamente , y quienes en la jornada de hoy no tuvieron opción de acortar <argset><specifier>la</specifier><head>ventaja </head></argset>. </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="6.3.1.1.1.1.1.3.4.1.1.2.1.2.0.0" sentencenodepath="6">El triunfo permitió a los Marineros , líderes en la División_del_Oeste_de_la_Liga_Americana , un aviso a los Yanquis , que hoy ficharon al veterano toletero cubano José_Canseco para reforzar su ataque , pero que esta temporada no han podido con el equipo de Seattle que en las series tiene <argset><head>ventaja </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de 5-2</argument></argset>y podría mantenerla si ambos se enfrentasen en el Campeonato_de_División . </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="9.2.2.0.2.1.1.1.1.0.0" sentencenodepath="9">Los Yanquis perdieron el tercer partido consecutivo después de colocarse 14 triunfos por_encima_del promedio 500 , pero Ø ahora tienen 37-39 en los últimos 75 partidos que Ø han disputado y liderar la División_Este_de_la_Americana con tres juegos de <argset><head>ventaja </head></argset>. </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="8.4.1.2.2.1.2.3.1.2.1.0.0" sentencenodepath="8">En el 38 , Bonano se lució al desviar un cabezazo de Rivarola que iba adentro , en la ocasión más clara que tuvo la " U " para irse al descanso en <argset><head>ventaja </head></argset>. </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="0.3.1.1.3.3.1.1.1.0" sentencenodepath="0">El Deportivo , del que muchos dudaban que Ø pudiera ganar la Liga tras su mal comienzo de año , demostró que Ø sigue siendo un firme aspirante al título con una goleada sobre el Real_Madrid ( 5-2 ) que le sirve para aumentar <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>ventaja </head></argset>al_frente_de la tabla . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="1.0.3.1.1.1.1.0.0" sentencenodepath="1">El equipo de Javier_Irureta cuenta ahora con cuatro puntos de <argset><head>ventaja </head></argset>sobre el Zaragoza , que empató frente_al Atlético_de_Madrid ( 2-2 ) en el Vicente_Calderón , y Ø ya tiene a cinco a un FC_Barcelona que fracasó en el Nou_Camp ante el Alavés ( 0-1 ) . </example>
+        <example file="CESS-CAST-AA/6635_20000409.tbf.xml" nodepath="1.2.1.1.5.1.1.1.1.0.0" sentencenodepath="1">Schumacher ha logrado esta victoria , que lo catapulta al_frente_de la clasificación del Campeonato_del_Mundo_de_Fórmula_Uno con 21 puntos de <argset><head>ventaja </head></argset>sobre su compañero de equipo el brasileño Rubens_Barrichello , no_solo gracias_a sus dotes de piloto , sino al excepcional trabajo de sus mecánicos en el segundo repostaje , que le permitieron incorporarse a la pista por_delante_de Hakkinen . </example>
+        <example file="CESS-CAST-AA/6635_20000409.tbf.xml" nodepath="5.0.2.3.0.0" sentencenodepath="5">Dadas las mínimas diferencias de tiempos que se habían registrado para adjudicar los puestos de la formación de salida y las dificultades de adelantar en este circuito , estaba claro que la decisión de la carrera , salvo incidentes , iba a ser estratégica y en ese plano Ferrari tenía <argset><head>ventaja </head></argset>sobre Mclaren y hoy Ø lo volvió a demostrar . </example>
+        <example file="CESS-CAST-AA/6635_20000409.tbf.xml" nodepath="6.4.0.0.0" sentencenodepath="6">Hakkinen , que había sumado dos abandonos en las dos primeras carreras , se situó en primera posición al darse la salida y Ø fue seguido como su sombra , aunque hoy el cielo estaba cubierto a_diferencia_de los días anteriores , por Michael_Schumacher y <argset><head>ventaja </head></argset>no superaría nunca los cinco segundos . </example>
+        <example file="CESS-CAST-AA/6635_20000409.tbf.xml" nodepath="8.5.2.1.0.4.1.0.1.4.2.1.1.1" sentencenodepath="8">El finlandés se pararía por segunda y última vez en la vuelta 44 , con lo que Ø cedía el primer puesto a Michael_Schumacher , que comenzaría a tirar como un loco , para sacar <argset><specifier>la</specifier><reference_modifiers>mayor</reference_modifiers><head>ventaja </head><reference_modifiers>posible</reference_modifiers></argset>, antes de que le llegara su turno . </example>
+        <example file="CESS-CAST-AA/6635_20000409.tbf.xml" nodepath="12.2.0.2.1.1.0.0" sentencenodepath="12">Hakkinen trató de situarse en posición de poder atacar a Schumacher para adelantarle , pero el alemán administró sus dos segundos y medio de <argset><head>ventaja </head></argset>de manera excepcional y de poco le sirvió al finlandés batir en varias ocasiones la vuelta rápida de carrera , la última de ellas a dos vueltas del final . </example>
+        <example file="CESS-CAST-P/104_20000301.tbf.xml" nodepath="2.0.2.1.0" sentencenodepath="2">El equipo romano aprovechó <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>ventaja </head></argset>para controlar el partido , pero el conjunto holandés sorprendió en los minutos finales con dos goles del danés Tomasson en apenas seis minutos y cuando quedaban otros tantos para el final del encuentro dirigido por el español López_Nieto . </example>
+        <example file="CESS-CAST-P/104_20000301.tbf.xml" nodepath="6.2.2.1.1.1.0" sentencenodepath="6">Iván_de_la_Peña entró en la segunda parte por Pouget ( m_._71 ) y Ø ayudó a conservar <argset><specifier>la</specifier><head>ventaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su equipo</argument></argset>. </example>
+        <example file="CESS-CAST-P/105_19990401.tbf.xml" nodepath="14.2.1.2.1.1.0" sentencenodepath="14">El técnico explicó que era más complicado mantener <argset><specifier>la</specifier><head>ventaja </head></argset>, " y Ø hemos sido capaces de aguantar la presión " . </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="8.1.1.1.2.1.0.0" sentencenodepath="8">Ello ha obligado a las grandes estrellas de la prueba a entrenarse y esforzarse al_máximo estos últimos días : los contrarrelojistas , para empezar a cobrar <argset><head>ventaja </head></argset>desde el kilómetro cero , y los escaladores , para no ahogarse en sus limitaciones contra el reloj . </example>
+        <example file="CESS-CAST-P/109_20010301.tbf.xml" nodepath="8.2.1.3.1.0" sentencenodepath="8">Se confía en que los ciudadanos evalúen <argset><specifier>las</specifier><head>ventajas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de " no tener que dar vueltas hasta encontrar un sitio libre "</argument></argset>. </example>
+        <example file="CESS-CAST-P/159_20011002.tbf.xml" nodepath="6.3.1.1" sentencenodepath="6">" La colocación del mismo tiene <argset><specifier>otra</specifier><reference_modifiers>gran</reference_modifiers><head>ventaja </head><reference_modifiers>: sólo requiere de un fuerte vendaje , lo que permitirá al futbolista iniciar los ejercicios de recuperación antes de lo que lo haría si se le hubiese enyesado la pierna</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/178_20010401_a.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Con este resultado , el equipo de Bozidar_Maljkovic reduce <argset><specifier>la</specifier><head>ventaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los azulgranas , que se mantienen líderes , pero ahora con una única victoria sobre el conjunto malagueño</argument></argset>. </example>
+        <example file="CESS-CAST-P/2_19981101.tbf.xml" nodepath="5.0.1.1" sentencenodepath="5"><argset><specifier>La</specifier><reference_modifiers>principal</reference_modifiers><head>ventaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la Viagra</argument><reference_modifiers>frente al tratamiento con prostaglandina</reference_modifiers></argset>es que , para aplicar este último método , se precisa de un pinchazo en el pene . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="11.0.1.0.1.0" sentencenodepath="11">Pese_a <argset><specifier>las</specifier><head>ventajas </head></argset>y la protección oficial que se les promete , muchas de las 25.000 prostitutas de Holanda no parecen muy interesadas en legalizar su situación , registrarse y pagar impuestos elevados . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="underspecified" id="2" lexicalized="no" originlemma="aventajar" originlink="verb.aventajar.1" wordnetsynset="16:04016440">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10055_20000713.tbf.xml" nodepath="1.2.1.1.1" sentencenodepath="1">Australia , actual campeona del torneo , intentará aprovechar <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>teórica</reference_modifiers><head>ventaja </head></argset>en la hierba , en la que los luchadores jugadores brasileños , salvo el " todoterreno " Gustavo_Kuerten , no se adaptan bien . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

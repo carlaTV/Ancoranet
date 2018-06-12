@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="coste" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="costar" originlink="verb.costar.1" wordnetsynset="16:09553349">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="11" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg3" thematicrole="ben">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" postype="article" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="11.0.0.1.1" sentencenodepath="11"><argset><specifier>El</specifier><reference_modifiers>menor</reference_modifiers><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las licencias de telefonía móvil UMTS en España</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre otros países</argument></argset>permitirá abrir el mercado del móvil a operadores de servicios sin red antes que en otros países europeos , dijo hoy el presidente de la Comisión_del_Mercado_de_las_Telecomunicaciones , José_María_Vázquez_Quintana . </example>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="2.2.3.1.1.1.1.1.1.0" sentencenodepath="2">El director del banco , Radovan_Vrava , señaló que el motivo principal es la reestructuración del banco y no sólo la reducción de <argset><specifier>los</specifier><head>costes </head></argset>. </example>
+        <example file="3LB-CAST/111_C-6.tbf.xml" nodepath="9.4.3.2.3.2.1.0" sentencenodepath="9">El presidente estadounidense dijo el miércoles en Lisboa que la retirada israelí abre " una nueva situación " que aumenta <argset><specifier>el</specifier><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de no lograr un acuerdo rápidamente</argument></argset>, aunque Ø también hace crecer los beneficios de lograr </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="11.3.1.1.1.5.2.1.1.1.1.1.3.1.1.0.3.1.0.0.4.0" sentencenodepath="11">Por ello , Ø indicó la necesidad de que mediante el diálogo social se afronte ese problema del mercado de trabajo , partiendo de la base de una igualdad de trato entre contratos temporales e indefinidos en lo que se refiere a <argset>regulación , indemnización y <head>coste </head>
+            <argument argument="arg3" function="cn" thematicrole="ben" type="sp">para la empresa</argument>
+          </argset>. </example>
+        <example file="3LB-CAST/dc3-1.tbf.xml" nodepath="7.3.2.1.1.1.0.0.0" sentencenodepath="7">Desde que la ciencia supo poner a servicio la electricidad , los metales han sido , con sus inconvenientes de <argset><head>coste </head>, peso o corrosión </argset>, los conductores eléctricos disponibles . </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="3.3.4.1.1.1.2.2.1.0" sentencenodepath="3">El presidente ecuatoriano , Jamil_Mahuad , anunció ya que Ø fijará una lista de precios de productos , basada en los vigentes el 31_de_diciembre pasado , para frenar la ola especulativa que ha disparado <argset><specifier>los</specifier><head>costes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de varios bienes de consumo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="19.4.4.0.2.2.1.1.0" sentencenodepath="19">El diputado de Coalición_Canaria Luis_Mardones coincidió con De_Miguel en la exigencia de la ponderación adecuada del voto y en las prioridades de la ampliación , aunque Ø pidió " más precisión " en <argset><specifier>los</specifier><head>costes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de financiación</argument></argset>y más poder vinculante de la Carta . </example>
+        <example file="CESS-CAST-AA/5255_20000110.tbf.xml" nodepath="0.3.2.0.3.1.1.1.0.0" sentencenodepath="0">La imagen corporativa del nuevo Banco_Bilbao_Vizcaya_Argentaria ( BBVA ) mantendrá los colores y tipografía del Banco_Bilbao_Vizcaya ( BBV ) , lo que permitirá a la entidad un ahorro de <argset><head>costes </head></argset>en la implantación de la nueva marca de unos 26.000 millones de pesetas , según fuentes de la entidad . </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="6.2.1.1.0" sentencenodepath="6">El directivo explicó que <argset><specifier>estos</specifier><head>costes </head></argset>se repercutirán progresivamente en los de Aventis , de_forma_que Ø supondrán casi 36.000 millones de pesetas en 1999 , unos 100.000 en el 2000 y 171.600 en el 2001 . </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="10.3.1.1.1" sentencenodepath="10">Los ministros de Trabajo de la UE acordaron no seguir fomentando las jubilaciones anticipadas por <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><reference_modifiers>altos</reference_modifiers><head>costes </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">laborales y sociales</argument></argset>. </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="19.5.1.3.1.1.1.1.0" sentencenodepath="19">También se recurre , como las empresas privadas , a las jubilaciones anticipadas para hacer recaer sobre la Seguridad_Social - - una Seguridad_Social que recorta fármacos para ahorrar - - una parte de <argset><specifier>los</specifier><head>costes </head><reference_modifiers>generados por la medida arbitraria</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/136_20010501.tbf.xml" nodepath="4.3.1.2.1.1.4.1.1.1.0" sentencenodepath="4">El delantero jerezano está en el punto_de_mira de los ultras más exaltados por no haber puesto las 150.000 pesetas que Ø exigieron a cada futbolista para financiar <argset><specifier>el</specifier><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un vuelo charter a Tenerife el pasado 8_de_abril</argument></argset>. </example>
+        <example file="CESS-CAST-P/169_20010202.tbf.xml" nodepath="4.0.0.1.0" sentencenodepath="4"><argset><argument argument="arg1" thematicrole="tem" type="spec">Su</argument><head>coste </head><reference_modifiers>estimado</reference_modifiers></argset>es de 450 millones de pesetas y su constructor , Joseph_Guarnerius_del_Gesù , de Cremona ( Italia ) , está considerado como el Van_Gogh de la luthiere . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="13.3.2.1.2.1.0" sentencenodepath="13">La proposición del Círculo_de_Empresarios_de_Madrid de que sean las propias trabajadoras las que costeen su propia baja maternal resulta insostenible desde cualquier punto de vista e innecesaria , habida_cuenta_de que las medidas vigentes y <argset><specifier>el</specifier><head>coste </head><argument argument="argM" function="cn" thematicrole="ext" type="s.a">cero</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la cotización de la posible sustituta</argument></argset>son más_que suficientes . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="14.0.1.1.3.1.0.2.0" sentencenodepath="14">Según las últimas declaraciones del Gobierno en_materia_de <argset>contratación y <head>coste </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">del despido</argument>
+          </argset>, parece inminente , si patronal y sindicatos no se ponen de_acuerdo , que se dictarán medidas que reduzcan la indemnización por despido y una cierta penalización a la contratación de duración determinada . </example>
+        <example file="CESS-CAST-P/20_20010102.tbf.xml" nodepath="3.5.4.1.1.0.2.1.0" sentencenodepath="3">Formado en Princeton , donde Ø fue capitán de los equipos de fútbol y de lucha , Ø fue miembro de la Cámara_de_Representantes en tres legislaturas , Ø dirigió la Oficina_de_Oportunidades_Económicas y Ø luego se puso al_frente_de la que calcula <argset><specifier>el</specifier><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la vida</argument></argset>. </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="19.4.1.2.1.1.0.1.1.1.0" sentencenodepath="19">Sin_embargo , como la Generalitat ya ha abierto expediente sancionador , Ø pueden optar por solicitar una mediación o un arbitraje con_objeto_de pactar daños y perjuicios por <argset><specifier>los</specifier><head>costes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de manutención , hotel y cancelaciones</argument><reference_modifiers>que están teniendo que asumir</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/30_20020801_c.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>El</specifier><head>coste </head><reference_modifiers>total</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los trabajos</argument></argset>será de 37,5 millones de euros ( 6.239,5 de pesetas ) . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="8.0.3.2.1.0" sentencenodepath="8">" Ø No tienen limitaciones , el Servei_Català_de_la_Salut pagará <argset><specifier>el</specifier><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ese personal</argument></argset>" afirma Rius . </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="11.4.1.1.1.1.1.1.3.1.1.0.0.0" sentencenodepath="11">Pero Ø no logra desbloquear la creación de una Oficina_Europea_de_Patentes , reclamada por la industria para ahorrar <argset><head>costes </head>y papeleo </argset>. </example>
+        <example file="CESS-CAST-P/8_20010401.tbf.xml" nodepath="4.3.1.2.1.2.2.1.1.1.3.1.0.0.0" sentencenodepath="4">La plantilla se debate entre la decepción profesional - - porque desarrollar encargos de alta tecnología es " un orgullo " - - y la preocupación por su futuro laboral , ante la posibilidad de que la empresa decida reducir <argset><head>costes </head>y puestos de trabajo </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="costar" originlink="verb.costar.2" wordnetsynset="16:09553349">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="11" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="arg2" foundincorporated="yes" thematicrole="ext">
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060111_5-3.tbf.xml" nodepath="2.0.0.1.1.0.0.1.1.1.0" sentencenodepath="2">La posibilidad de aliviar <argset><specifier>los</specifier><head>costes </head></argset>y de contrarrestar las pérdidas causadas por los bloqueos mediante el pago diferido de aranceles también es estudiada por el Gobierno , añadió el titular de Agricultura . </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="5.2.3.1.1.1.1.1.1.0.1.0" sentencenodepath="5">El jefe de BMW culpó al Gobierno británico de no haber aprovechado la oportunidad de entrar en la Unión_Monetaria y Ø destacó el alto tipo de cambio de la libra esterlina como un factor muy negativo para <argset><specifier>los</specifier><head>costes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de producción</argument></argset>y las ventas de Rover . </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="8.3.0.2.1.0.1.1" sentencenodepath="8">A_diario se escuchan quejas de la ciudadanía por <argset><specifier>el</specifier><reference_modifiers>alto</reference_modifiers><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la vida</argument></argset>y la constante pérdida del valor adquisitivo del sucre ( moneda local ) , que será relegado a un segundo plano con la " dolarización " . </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="13.2.0.1.0" sentencenodepath="13">Sin_embargo , el tiempo pasa , <argset><specifier>los</specifier><head>costes </head></argset>siguen subiendo y con ellos el malestar de la población , que el Gobierno intenta aplacar con el análisis de la posible eliminación de aranceles a productos básicos con_el_fin_de abrir paso a la importación . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="10.3.1.1.1.2.1.2.1.1.0" sentencenodepath="10">Con estas movilizaciones los transportistas de la provincia de Valencia han expresado su protesta por las continuas subidas del precio del gasóleo y su impacto negativo en <argset><specifier>los</specifier><head argument="arg2" thematicrole="ext">costes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del sector</argument></argset>. </example>
+        <example file="CESS-CAST-AA/22163_20000527.tbf.xml" nodepath="9.0.3.3.1.0" sentencenodepath="9">" Chile decidió sembrar esos explosivos y ahora Ø tiene que afrontar <argset><specifier>los</specifier><head>costes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del retiro</argument></argset>porque el peligro es grande para la población de la zona " , opinó Borth . </example>
+        <example file="CESS-CAST-AA/2252_20000704.tbf.xml" nodepath="4.4.4.0.1.1.1.1" sentencenodepath="4">Los jinetes de Doma_Clásica que vayan a competir en Australia llevaran sólo su mejor caballo , pues transportar más de uno es impensable por <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>alto</reference_modifiers><head>coste </head><reference_modifiers>económico</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="8.4.1.1.2.1.1.0" sentencenodepath="8">En los dos últimos años , los tipos medios de emisión de la deuda han aumentado dos puntos , encarecimiento que comenzará a mostrarse en <argset><specifier>el</specifier><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la deuda</argument></argset>el próximo año , cuando además se refinanciarán letras emitidas en 1998 y 1999 . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="14.3.6.2.0.1.1.0" sentencenodepath="14">Además , es " previsible " que durante el próximo ejercicio el Tesoro vuelva a recomprar valores en el mercado secundario , para minimizar <argset><specifier>el</specifier><head>coste </head></argset>y , al_mismo_tiempo , garantizar un elevado grado de transparencia que evite distorsiones en el mercado . </example>
+        <example file="CESS-CAST-AA/5005_20001107.tbf.xml" nodepath="3.4.0.2.1.0.1.1.0" sentencenodepath="3">Los " altos " precios de interconexión no dejan - a su juicio - suficiente margen para cubrir <argset><specifier>los demás</specifier><head>costes </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">operativos</argument></argset>ni , en_consecuencia , admitir más clientes de tarifa plana manteniendo el nivel de calidad del servicio . </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="9.0.5.2.1.0.2.1.1.0" sentencenodepath="9">" La gente está perdiendo la paciencia . Los altos precios del petróleo , , al_final afectan a los consumidores . Ellos son los que tendrán que pagar por <argset><specifier>estos</specifier><head>costes </head><reference_modifiers>adicionales</reference_modifiers></argset>" , comentó el agricultor Charlie_Armstrong , quien participa en el bloqueo de la autopista . </example>
+        <example file="CESS-CAST-P/105_20000401.tbf.xml" nodepath="6.2.3.2.1.2.0.2.0.1" sentencenodepath="6">De poco sirve que las políticas económicas hayan contribuido a estimular el consumo - - más tráfico en los peajes - - y a bajar los tipos de interés - - <argset><reference_modifiers>menor</reference_modifiers><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de financiación empresarial</argument></argset>y amortización más rápida - - . </example>
+        <example file="CESS-CAST-P/118_20011202.tbf.xml" nodepath="10.2.1.2.1.0.1.1.0" sentencenodepath="10">Xavier_Oliveras recibió una llamada del servicio jurídico del ayuntamiento para saber <argset><specifier>el</specifier><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la placa</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sn">( 30.000 pesetas )</argument></argset>y reclamarlo a la aseguradora del camión . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="7.4.3.3.1.1.1.2.1.1" sentencenodepath="7">Pues_bien , la Dirección_General_de_Seguros , en una interpretación que Ø entiendo extensiva , ha considerado que estos premios económicos tienen naturaleza de compromisos de pensiones y , por_tanto , Ø están obligados a externalizarse , con <argset><specifier>el</specifier><reference_modifiers>elevado</reference_modifiers><head>coste </head><argument argument="arg2" function="cn" thematicrole="ext" type="s.a">económico</argument><reference_modifiers>que ello conlleva para el empresario</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/55_20010103.tbf.xml" nodepath="3.2.4.0.1.1.1.1.1.0.1.1.0.0" sentencenodepath="3">La petrolera hispanoargentina explicó que Ø sólo ha repercutido parte de las 254 pesetas de incremento del <argset><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la materia prima</argument></argset>desde que Ø fijó la última tarifa . </example>
+        <example file="CESS-CAST-P/55_20010103.tbf.xml" nodepath="9.3.1.0" sentencenodepath="9">Ya entonces , Repsol subió <argset><specifier>el</specifier><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la bombona de butano</argument></argset>a 1.135 pesetas , es_decir , 20 pesetas más . </example>
+        <example file="CESS-CAST-P/5_20010302.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">Ambas adquisiciones tuvieron <argset><specifier>un</specifier><head>coste </head><reference_modifiers>elevado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="16.0.1.0" sentencenodepath="16"><argset><specifier>Los</specifier><head>costes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de algunos productos básicos</argument></argset>han subido en los últimos días más del 30% . </example>
+        <example file="CESS-CAST-P/65_20010602.tbf.xml" nodepath="5.2.1.1.1" sentencenodepath="5">El ejecutivo del grupo químico lamentó que <argset><specifier>el</specifier><reference_modifiers>elevado</reference_modifiers><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los servicios en España , básicamente energías y agua ,</argument></argset>deteriore la capacidad competitiva del grupo respecto_a otros emplazamientos de BASF en Europa . </example>
+        <example file="CESS-CAST-P/65_20010602.tbf.xml" nodepath="6.0.2.1.0" sentencenodepath="6">" Para nosotros <argset><specifier>el</specifier><head>coste </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">energético</argument></argset>es un 19% más elevado que el que Ø soportan en Amberes , por_ejemplo " , precisó Bach . </example>
+        <example file="CESS-CAST-P/65_20010602.tbf.xml" nodepath="7.0.1.1.1.1.1.0" sentencenodepath="7">La necesidad de hacer bajar <argset><specifier>esos</specifier><head>costes </head></argset>es la razón por la que BASF ha decidido participar en los estudios preliminares para llevar_a_cabo un nuevo gasoducto , junto_a Cepsa y otras empresas . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="5.3.1.1.2.4.1.1.1.1.0" sentencenodepath="5">La reducción de plantilla de los 54.000 empleos actuales a 44.000 se enmarca en el programa Energy_21 , que tiene como objetivo una disminución de <argset><specifier>los</specifier><head>costes </head></argset>del 30% en tres años . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="corrupción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="corromper" originlink="verb.corromper.1" wordnetsynset="16:00175090+16:03803876">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="10" type="void"/>
+        <constituent frequency="20" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060111_5-2.tbf.xml" nodepath="5.2.2.0.1.4.1.0.2.1.0.0" sentencenodepath="5">Gutiérrez no se arrepiente de haber participado en la insurrección contra Mahuad y Ø está seguro que la actitud de los oficiales se debió al elevado grado de <argset><head>corrupción </head><reference_modifiers>que dice hubo durante la anterior administración</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/r2-10.tbf.xml" nodepath="1.0.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>corrupción </head></argset>es como los pasos de la procesión , aún no ha llegado a la plaza un paso cuando sale el otro dando traspiés . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="25.3.0.3.2.2.1.1.2.1.0" sentencenodepath="25">La gobernabilidad requiere , según la Declaración , transformaciones sociales , económicas y culturales profundas que conduzcan a disminuir las desigualdades y la exclusión social , y a superar la pobreza , <argset><specifier>la</specifier><head>corrupción </head></argset>, el terrorismo , el narcotráfico , el lavado de dinero y cualquier forma de delincuencia organizada . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="29.4.1.2.1.2.1.0.1.0" sentencenodepath="29">Además_de la cooperación social y cultural , los 21 países se comprometieron a unir sus esfuerzos para desactivar las minas contra personal y combatir <argset><specifier>la</specifier><head>corrupción </head></argset>, el narcotráfico y el terrorismo . </example>
+        <example file="CESS-CAST-A/12375_20000119.tbf.xml" nodepath="8.1.2.1.1.0" sentencenodepath="8">Todo ello sin sucumbir a la " tentación " de recurrir a la represión y eludiendo <argset><specifier>la</specifier><head>corrupción </head></argset>, problemas que , según ambos , eran característicos del antiguo presidente . </example>
+        <example file="CESS-CAST-A/12863_20001116.tbf.xml" nodepath="7.0.4.2.1.1.0.2.1.1.4.3.0.1.1.0.0.0" sentencenodepath="7">El pasado 6_de_noviembre , el gobierno de Estados_Unidos felicitó al de Costa_Rica , por el arresto cinco días antes de la presunta traficante de personas Gloria_Niño_Canales , quien afronta cargos de <argset><head>corrupción </head>y falsificación de documentos </argset>, agrega Ø . </example>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="11.0.3.2.1.0.0.1.1.0.0" sentencenodepath="11">La propia administración de Miyazawa se vio sacudida en 1992 por escándalos de <argset><head>corrupción </head></argset>y sobornos y el año siguiente , aún bajo su presidencia , el Partido_Liberal_Democratico ( PLD ) sufrió una derrota electoral que dio origen al único paréntesis en los 38 años de gobierno ininterrumpido desde su fundación . </example>
+        <example file="CESS-CAST-AA/21391_20000129.tbf.xml" nodepath="9.0.0.0.2.1.1.1.2.1.0" sentencenodepath="9">Acusado en múltiples ocasiones por sus adversarios de " hacer trampas " para ganar las elecciones y denunciado por admitir las violaciones a los derechos_humanos y <argset><specifier>la</specifier><head>corrupción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">administrativa</argument></argset>, Balaguer , sin_embargo , está en la mira de sus adversarios , quienes se cuidan de no tocarlo " ni con el pétalo de una rosa " . </example>
+        <example file="CESS-CAST-AA/22292_20000131.tbf.xml" nodepath="2.2.0.1.3.1.0.2.1.1.0" sentencenodepath="2">" Parte del actual Gobierno está bajo sospecha " , aseveró Alcaraz , quien calificó de " tapadera de <argset><specifier>la</specifier><head>corrupción </head></argset>" a la empresa Saturno , que representó al Gabinete en la compra de los terrenos en los que está prevista la construcción del monumento , una operación " llena de absurdos y contradicciones " en la que un informe de la Audiencia_de_Cuentas ha detectado irregularidades . </example>
+        <example file="CESS-CAST-AA/3784_20000806.tbf.xml" nodepath="0.0.0.1.1.1.1.1.0.2.1.1.0.1.0" sentencenodepath="0">Después de tres décadas de régimen autoritario plagado por <argset><specifier>la</specifier><head>corrupción </head></argset>y el nepotismo , Indonesia encontró a Aburrahman_Wahid , un popular y carismático líder musulmán que desde octubre tiene la ardua tarea de reformar la política y la economía de esta nación desde su Presidencia . </example>
+        <example file="CESS-CAST-AA/3784_20000806.tbf.xml" nodepath="11.0.2.1.1.1.0.0" sentencenodepath="11">Las disputas políticas , los alegatos de <argset><head>corrupción </head></argset>contra el Gobierno y la persistencia de los problemas económicos y sociales , llevaron a que la Asamblea_Consultiva_del_Pueblo considerara la posibilidad de someter a Wahid a una moción de censura , poder que de_momento no tiene este órgano legislativo . </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="0.0.0.1.3.0.1.1.1.1.1.0.0" sentencenodepath="0">El presidente de Filipinas , Joseph_Estrada , inmerso en un escándalo de <argset><head>corrupción </head></argset>, dijo hoy que el gobernador que le acusó de haberse embolsado millones de dólares procedentes del juego ilegal había intentado sobornarle , pero - Ø aseguró - " Ø nunca utilicé ese dinero " . </example>
+        <example file="CESS-CAST-AA/6594_20000308.tbf.xml" nodepath="0.4.1.1.1.4.1.1.1.1.1.0" sentencenodepath="0">El portavoz socialista en el Congreso , Luis_Martínez_Noval , acusó hoy al ministro de Industria y portavoz del Gobierno , Josep_Piqué , de ser el " brazo derecho de Javier_de_la_Rosa en la inducción de <argset><specifier>la</specifier><head>corrupción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Aguiar y Huguet " , ex responsables de Hacienda en Cataluña</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6594_20000308.tbf.xml" nodepath="3.2.2.4.2.0.0.0.1.3.1.2.1.2.1.0" sentencenodepath="3">El portavoz socialista aludió a la dimisión de Josep_Borrell como candidato socialista a la presidencia del Gobierno , y Ø afirmó que " es irritante que haya habido personas que vieron alterada su trayectoria política simplemente por su amistad con Aguiar y Huguet , mientras_que Piqué , que fue el brazo derecho de quien indujo <argset><specifier>la</specifier><head>corrupción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los inspectores</argument></argset>, hable y Ø hable en_nombre_del Gobierno_de_España como_si_tal_cosa " . </example>
+        <example file="CESS-CAST-AA/6697_20000910.tbf.xml" nodepath="9.4.1.2.1.2.6.2.2.1.0.1.1.1.0" sentencenodepath="9">Un artista , vestido de sacerdote , se unió a las pompas fúnebres con una coloreada vestimenta y una bandera de Ecuador , a la que después Ø lavaron ante la imagen de la Virgen_del_Cisne , para de forma simbólica limpiar al país de <argset><specifier>la</specifier><head>corrupción </head></argset>. </example>
+        <example file="CESS-CAST-AA/7327_20000209.tbf.xml" nodepath="2.0.0.1.2.3.1.1.1.1.1.1.1.1.0.0" sentencenodepath="2">Collor , que renunció a la Presidencia en 1992 , antes de ser destituido por un escándalo de <argset><head>corrupción </head></argset>, y estuvo inhabilitado durante ocho años para ocupar cargos públicos , anunció que Ø pretende regresar a la actividad política disputando en octubre próximo la alcaldía de la mayor ciudad del país . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="0.0.0.1.0.1.0" sentencenodepath="0">Erradicar <argset><specifier>la</specifier><head>corrupción </head></argset>y la impunidad , eliminar los privilegios y monopolios , romper el presidencialismo , reducir las desigualdades sociales y revolucionar la educación , son algunas de las promesas que hizo Alfonso_Portillo al asumir la Presidencia_de_Guatemala . </example>
+        <example file="CESS-CAST-P/10_20020501.tbf.xml" nodepath="28.5.3.1.1.1.0.1.0" sentencenodepath="28">Con esta manera de proceder , el Gobierno del PP se muestra fuerte con los débiles y débil con los fuertes , que es el colmo de <argset><specifier>la</specifier><head>corrupción </head></argset>y la hipocresía del poder . </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">Los organismos internacionales económicos , la UE y EEUU han demostrado una ceguera ante <argset><specifier>la</specifier><head>corrupción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">política</argument><reference_modifiers>presente en la extinta URSS</reference_modifiers></argset>que sólo siendo voluntaria resulta comprensible . </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="2.3.1.2.3.1.4.2.1.1" sentencenodepath="2">En estas mismas páginas y desde hace ya muchos meses Ø veníamos criticando la pasividad interesada con la que Occidente trataba el acelerado deslizamiento de Rusia hacia la ingobernabilidad absoluta , debido en primer lugar a <argset><specifier>la</specifier><reference_modifiers>masiva</reference_modifiers><head>corrupción </head><reference_modifiers>en la que se desenvolvía el círculo más allegado al poder</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="8.0.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head>corrupción </head></argset>en la época postsoviética es la adaptación a un capitalismo primitivo de lo que era la corrupción en los tiempos soviéticos y las redes que se hicieron con el poder y constituyeron los grupos de intereses que degeneraron rápidamente en mafias tenían sus raíces en los grupos que controlaban en la época anterior los contactos con el extranjero . </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="8.0.3.1.2.1.1.0.2.1.0" sentencenodepath="8">La corrupción en la época postsoviética es la adaptación a un capitalismo primitivo de lo que era <argset><specifier>la</specifier><head>corrupción </head></argset>en los tiempos soviéticos y las redes que se hicieron con el poder y constituyeron los grupos de intereses que degeneraron rápidamente en mafias tenían sus raíces en los grupos que controlaban en la época anterior los contactos con el extranjero . </example>
+        <example file="CESS-CAST-P/123_19990202.tbf.xml" nodepath="0.0.3.1.1.1.1.2.1.1.2.1.0.0" sentencenodepath="0">Juan_Antonio_Samaranch no ha ordenado la apertura de una investigación sobre Sydney-2000 en_relación_con un supuesto caso de <argset><head>corrupción </head></argset>, pero Ø ha pedido a la ciudad australiana que Ø le suministre ciertas informaciones , al_igual_que a todas las ciudades candidatas de 1996 al 2006 , según informó ayer un portavoz del Comité_Olímpico_Internacional ( COI ) . </example>
+        <example file="CESS-CAST-P/135_20020501.tbf.xml" nodepath="10.0.1.0.3.1.0" sentencenodepath="10">" Sí , en la película aparece <argset><specifier>mucha</specifier><head>corrupción </head></argset>, pero Ø creo que la realidad la supera . Ø Estamos viendo gente honorable que defrauda y roba . Está claro que en nuestra sociedad el único valor importante es el dinero " , aseguró Ferreira . </example>
+        <example file="CESS-CAST-P/20_19991202.tbf.xml" nodepath="20.3.1.1.3.1.1.1.0.0" sentencenodepath="20">Ahora Ø deja la Unesco , que había sido un nido de <argset><head>corrupción </head><reference_modifiers>tercermundista</reference_modifiers></argset>, con dignidad y la cabeza bien alta . </example>
+        <example file="CESS-CAST-P/26_19991101.tbf.xml" nodepath="4.0.3.2.1.1.0" sentencenodepath="4">Abachidze , en_cambio , prefiere poner el acento en <argset><specifier>la</specifier><head>corrupción </head></argset>e Ø intenta aglutinar el voto de los descontentos con las reformas , que al_igual_que en la mayoría de las exrepúblicas soviéticas , no han traído a Georgia la prosperidad esperada . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="27.3.1.1.1.0.2.0" sentencenodepath="27">Con este apelativo se conoce el entramado de <argset>clientelismo y <head>corrupción </head>
+          </argset>que Dris_Basri , el todopoderoso ministro del Interior , forjó en los 25 años que Ø lleva en el cargo y en los que Ø fue la implacable mano ejecutora de los designios de Hassan_II . </example>
+        <example file="CESS-CAST-P/35_19991202.tbf.xml" nodepath="8.3.1.1.1.3.0.1.1.0.0" sentencenodepath="8">Este fue relevado de su cargo en el momento en que Ø investigaba asuntos de <argset><head>corrupción </head></argset>entre familiares de Yeltsin y altos funcionarios del Kremlin . </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="0.0.1.1.1.1.0" sentencenodepath="0">El debate sobre <argset><specifier>la</specifier><head>corrupción </head></argset>. </example>
+        <example file="CESS-CAST-P/51_20020601.tbf.xml" nodepath="7.0.1.1.1.1.1.1.1.3.2.1.1.1.1.1.0" sentencenodepath="7">Si la FIFA , convaleciente de una cruenta batalla interna , salpicada por la plaga de <argset><specifier>la</specifier><head>corrupción </head></argset>, hubiera buscado un escenario mejor Ø no lo habría encontrado . </example>
+        <example file="CESS-CAST-P/91_19990701.tbf.xml" nodepath="9.0.1.1.1.1.3.2.1.1.1.2.1.0" sentencenodepath="9">" En un momento en que Ø intentamos ganar la confianza pública en la UE y de poner_fin a las disfunciones y <argset><specifier>la</specifier><head>corrupción </head></argset>, va el señor Bangemann y Ø reaviva el temor de los ciudadanos " , destacó en una nota el Partido_Socialista_Europeo , el único que se hizo eco del nombramiento del comisario . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="corromper" originlink="verb.corromper.1" wordnetsynset="16:03803876">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="16.3.4.0.2.1.0.1.1.1.1.0" sentencenodepath="16">También aparece como novedad un reforzamiento del dispositivo de medidas para la protección del medio_ambiente , una recomendación sobre derechos_humanos y nuevos capítulos sobre la lucha contra <argset><specifier>la</specifier><head>corrupción </head></argset>y la defensa del consumidor . </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="1.0.1.1.1.0.1.1.1.0" sentencenodepath="1">El estallido del escándalo de <argset><specifier>la</specifier><head>corrupción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del entorno del presidente ruso Boris_Yeltsin</argument></argset>ha sorprendido sólo a aquellos que querían darse por no enterados o_bien que realmente no se enteran de nada de lo que pasa en el mundo . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

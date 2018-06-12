@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="previsión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="prever" originlink="verb.prever.1" wordnetsynset="16:05058536">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="11" preposition="de" type="sp"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="11" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="5" preposition="para" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="26" postype="article" type="determiner"/>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="6" type="S"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="16.3.4.3.1.0" sentencenodepath="16">LA_GACETA_DE_LOS_NEGOCIOS señala en portada " Las gasolineras protestan contra los monopolios de la distribución " , " Europa y América preparan otra ronda de la OMC " , " El comercio electrónico supera <argset><specifier>todas las</specifier><head>previsiones </head></argset>" y " El_Ibex_35 mitiga las pérdidas y Ø cierra mayo con una caída del 6,8_% " . </example>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="17.4.1.0" sentencenodepath="17">En su editorial , el diario califica de halagüeñas <argset><specifier>las</specifier><head>previsiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del informe de la OCDE</argument></argset>, pues " el déficit se puede reducir este mismo año_2000 al 0,5_% del PIB , todo un récord " . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="0.4.1.1.2.1.1.2.1.1.1.1.1.1.0.3.3.1.0" sentencenodepath="0">La patronal vasca , Confebask , llamó hoy la atención sobre la existencia en la Comunidad_Autónoma_Vasca de 18.000 puestos de trabajo sin cubrir debido_a la falta de mano de obra adecuada , cuya incorporación al mercado laboral reduciría <argset><specifier>las</specifier><head>previsiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre la tasa de paro</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">para el año_2003</argument></argset>en dos puntos . </example>
+        <example file="3LB-CAST/a4-0.tbf.xml" nodepath="3.2.0.4.1.0" sentencenodepath="3">Existía entonces un vacío intelectual , una protesta en ciernes y <argset><specifier>una</specifier><head>previsión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de cambio</argument></argset>que hacían precisa una tarea de reflexión política sin la que hubiera sido mucho más difícil la posterior construcción de la democracia . </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="5.4.5.1.0.0" sentencenodepath="5">La huelga no afectará el abastecimiento debido_a_que los frigoríficos , las empresas alimentarias y las cadenas de supermercados aumentaron sus compras la semana pasada en <argset><head>previsión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una escasez de productos</argument></argset>. </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="4.0.0.1.4.1.1.0" sentencenodepath="4">Esteve , que hace 15 días indicó que <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>previsión </head></argset>era presentarse a la reelección , ha puntualizado que Ø está dispuesto a volver a optar al cargo " porque Ø me hace ilusión y no hay ninguna razón para no hacerlo si se da el caso de que Mas no optase al cargo " . </example>
+        <example file="CESS-CAST-A/16786_20000221.tbf.xml" nodepath="5.2.1.2.0.2.1.2.1.0" sentencenodepath="5">Los mayores vendedores fueron los intermediarios bancarios y los exportadores japoneses quienes provocaron fuertes fluctuaciones las que , según <argset><specifier>la</specifier><head>previsión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de algunos analistas</argument></argset>, se extenderán a los demás mercados asiáticos y europeos . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="1.2.3.5.1.1.0" sentencenodepath="1">Durante una visita a la comunidad foral para conocer la Ciudad_del_Transporte y el parque eólico de Guerinda , en la que Ø rehusó opinar sobre la dimisión del ministro Pimentel , De_Palacio fue recibida por el presidente Miguel_Sanz y , en una comparecencia ante los medios , Ø comentó que en_todo_caso esta nueva vía no podrá incorporarse a <argset><specifier>las</specifier><head>previsiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las redes transeuropeas</argument></argset>hasta_tanto no se pronuncie el Gobierno francés . </example>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="12.0.5.0.1.0" sentencenodepath="12">" Para el lunes 60.000 escolares acudirán a ver las pruebas deportivas en autobús . Pero el miércoles puede ser el día de más afluencia . <argset><specifier>Las</specifier><head>previsiones </head></argset>son mucho mayores " , indicó Willoughby . </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="4.0.0.2.1.1.0" sentencenodepath="4">Sin_embargo y contra <argset><specifier>toda</specifier><head>previsión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la administración</argument></argset>, en los últimos seis años el desempleo ha crecido de manera alarmante y hoy Ø alcanza a más del 30_por_ciento de la población activa . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="6.0.3.1.2.1.0.0" sentencenodepath="6">En su sentencia , a la que ha tenido acceso EFE , el juez critica la " falta de <argset><head>previsión </head></argset>del legislador por la inexistente exigencia de requisitos de capacitación teórica y práctica para conducir " vehículos como ciclomotores o cuadriciclos y ello " pese_a ser un instrumento potencialmente peligroso para la integridad física de personas totalmente inexpertas en su correcto manejo , desconocedoras además de las normas de seguridad vial básicas " . </example>
+        <example file="CESS-CAST-AA/20120_20000525.tbf.xml" nodepath="7.3.1.1.0" sentencenodepath="7">Esta evolución encaja perfectamente con <argset><specifier>las</specifier><head>previsiones </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre la evolución de la curva de inflación este año</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del BCE , que había pronosticado un repunte de los precios a_comienzos_de la primavera y una ralentización de su crecimiento para antes del verano</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20120_20000525.tbf.xml" nodepath="14.1.1.0" sentencenodepath="14">A_final_de año , <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">previsiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los economistas de las principales instituciones financieras</argument></argset>sitúan las tasas de la eurozona entre el 4,25 y el 4,5_por_ciento . </example>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="1.0.1.1" sentencenodepath="1"><argset><specifier>Las</specifier><reference_modifiers>nuevas</reference_modifiers><head argument="arg1" thematicrole="pat">previsiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Organización_para_la_Cooperación_y_el_Desarrollo_Económico ( OCDE )</argument></argset>figuran en sus Perspectivas_Económicas provisionales semestrales . </example>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="11.3.5.0.1.1.1.0.1.1.1.0" sentencenodepath="11">No_obstante , Ø puntualiza que " si la inflación subyacente y anticipada se mostrara incompatible con el objetivo a_medio_plazo de la estabilidad de los precios , los tipos directores deberían ser aumentados antes de lo contemplado en <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">previsiones </head></argset>" . </example>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="14.3.1.0.1.1.0" sentencenodepath="14">Con_respecto_a Japón , la OCDE considera que a_pesar_de <argset><specifier>las</specifier><head>previsiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de aumento del PIB - un 1,7_por_ciento este año y 2,2_por_ciento en el 2001 ,</argument></argset>el crecimiento del consumo privado sigue " carente de dinamismo " y las autoridades " deberían tratar de apoyar la recuperación a_corto_plazo sin comprometer exageradamente la salud de la economía en una perspectiva a_largo_plazo " . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>Estas</specifier><head argument="arg1" thematicrole="pat">previsiones </head></argset>" se basan en unos supuestos de emisión continuistas con lo realizado este año " que intentan compatibilizar los objetivos de minimizar la carga financiera y el riesgo de refinanciación . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="9.2.5.1.1.1.0" sentencenodepath="9">El Gobierno espera mantener la vida media de la deuda en los niveles actuales el próximo año , en_línea con los del resto de Europa , teniendo_en_cuenta que <argset><specifier>las</specifier><head>previsiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de tipos</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">para el 2001</argument><reference_modifiers>descontadas por los mercados</reference_modifiers></argset>apuntan a subidas adicionales de los tipos a corto y algo menores a medio y largo plazo . </example>
+        <example file="CESS-CAST-AA/3682_20000706.tbf.xml" nodepath="6.4.1.1.4.1.1.0" sentencenodepath="6">Con_todo , Valero se muestra confiado en que el ejercicio actual cierre en el entorno de los 1,5 millones de turismos nuevos matriculados conforme_a <argset><specifier>las</specifier><head>previsiones </head><reference_modifiers>iniciales</reference_modifiers></argset>que , en el caso del acumulado anual , está totalmente ajustado . </example>
+        <example file="CESS-CAST-AA/7301_20000609.tbf.xml" nodepath="2.2.1.0.2.2.1.1.1.1.0.0.0.0" sentencenodepath="2">La cooperación prevista por el Convenio comprenderá , entre otras , actividades como el intercambio de técnicos y científicos , y de información y tecnología , con_objeto_de mejorar la capacidad de <argset><head>previsión </head>y prevención de catástrofes </argset>. </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">Ésta es <argset><specifier>la</specifier><head>previsión </head><reference_modifiers>que maneja el conseller de Economia , Artur_Mas , en el primer esbozo del Presupuesto_de_la_Generalitat para el 2000 presentado ayer , en el que prevé una rebaja del déficit del 25% , hasta 11.250 millones de pesetas ( 67,61 millones de euros ) , con_el_objetivo_de lograr el equilibrio presupuestario en el 2001</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/12_20000903.tbf.xml" nodepath="7.4.1.0.2.1.1.0" sentencenodepath="7">De_hecho , ya Ø figura en segundo lugar en <argset><specifier>las</specifier><head>previsiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de gastos por comunidades</argument><reference_modifiers>fijadas en el plan</reference_modifiers></argset>, detrás de las de Andalucía . </example>
+        <example file="CESS-CAST-P/139_20010103.tbf.xml" nodepath="5.0.0.1.0" sentencenodepath="5"><argset><specifier>Las</specifier><head>previsiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de evolución</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de este mercado</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">a corto-medio plazo</argument></argset>no son optimistas , y se prevé un mantenimiento en el estancamiento en las ventas durante el bienio 2000-2001 . </example>
+        <example file="CESS-CAST-P/18_19990602_a.tbf.xml" nodepath="0.1.1.0" sentencenodepath="0">Ingenuos pacifistas desgracia , <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestras</argument><head argument="arg1" thematicrole="pat">previsiones </head></argset>se cumplieron en el grado más amargo posible . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="14.5.1.2.0.1.0.0" sentencenodepath="14">La administración de la Unión_Europea ( UE ) tampoco ha demostrado hasta el momento , en este caso de los candidatos a especialistas médicos de_facto , una excelente capacidad de <argset><head>previsión </head></argset>ni de resolución . </example>
+        <example file="CESS-CAST-P/30_20020801_b.tbf.xml" nodepath="1.3.1.1.1.0.0" sentencenodepath="1">Cristóbal_Castro , padre de una alumna de Formación_Profesional ( FP ) de Tarragona , denunció ayer la falta de <argset><head>previsión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Ensenyament</argument></argset>por excluir por falta de plazas a_la_mitad_de los alumnos que solicitaron un puesto en el nuevo curso puente de grado medio a grado superior en el instituto Vidal_i_Barraquer . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="6.3.1.1" sentencenodepath="6">ETA ha confirmado este verano <argset><specifier>las</specifier><reference_modifiers>más macabras</reference_modifiers><head>previsiones </head><reference_modifiers>: entre julio y agosto , siete muertos , 20 heridos y varios atentados frustrados por el azar o la acción policial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/3_20020103.tbf.xml" nodepath="0.3.1.2.5.3.1.0" sentencenodepath="0">En el conjunto de España , las 89 oficinas del euro instaladas por la red de cámaras de comercio han atendido 4.000 llamadas de usuarios en las que sobre_todo se expresaron quejas porque la demanda de euros desbordó <argset><specifier>las</specifier><head>previsiones </head></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_a.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>La</specifier><head>previsión </head></argset>es llegar a los 200 a_medio_plazo . </example>
+        <example file="CESS-CAST-P/5_20010302.tbf.xml" nodepath="4.4.1.1.1.0" sentencenodepath="4">Sin_embargo , los beneficios aportados , más los generados en el resto de la región , han contribuido notablemente a cumplir <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>previsiones </head></argset>. </example>
+        <example file="CESS-CAST-P/5_20010302.tbf.xml" nodepath="5.0.2.2.2.1.0" sentencenodepath="5">" Cuando Ø necesitan plusvalías , Ø venden alguno de sus activos y Ø cumplen <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>previsiones </head></argset>" , señala un analista . </example>
+        <example file="CESS-CAST-P/60_20011101.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>previsión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de crecimiento económico</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">para el 2002</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Govern</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">, entre el 2,6% y el 2,7% ,</argument></argset>está casi al mismo nivel que el incremento del producto_interior_bruto ( PIB ) de la comunidad hasta el segundo trimestre de este año , que fue del 2,8% . </example>
+        <example file="CESS-CAST-P/60_20011101.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Los sindicatos y las patronales calificaron de demasiado optimistas <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">previsiones </head><reference_modifiers>, que incluyen una inflación del 2% y 50.000 nuevos empleos</reference_modifiers><reference_modifiers>, presentadas por Francesc_Homs , conseller de Economia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/65_20000801.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>Las</specifier><head argument="arg1" thematicrole="pat">previsiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Generalitat</argument></argset>son que la prolongación de la línea aporte más de 40.000 viajeros diarios . </example>
+        <example file="CESS-CAST-P/67_20020402.tbf.xml" nodepath="2.0.3.1.0" sentencenodepath="2">" Ø Estamos cumpliendo <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">previsiones </head></argset>" , señalaron fuentes de la compañía . </example>
+        <example file="CESS-CAST-P/69_20010201_j.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">La aerolínea belga ha incrementado <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>previsión </head><reference_modifiers>inicial</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 400 despidos en una plantilla de 11.233 empleados</argument></argset>, y Ø busca un ahorro de 115.472 millones de pesetas . </example>
+        <example file="CESS-CAST-P/82_19981101.tbf.xml" nodepath="6.2.0.2.1.3.1.1.2.1.0.2.0" sentencenodepath="6">Según el fiscal , el acusado fue avisado de la necesidad de reparar este balcón , pero éste cometió una " dejación total de los más elementales deberes de <argset>cuidado y <head>previsión </head>
+          </argset>" y Ø no ordenó , " ni Ø ejecutó , ni Ø adoptó medida alguna para restablecer las deficiencias observadas " en el balcón , el mismo que provocó al año siguiente el siniestro mortal . </example>
+        <example file="CESS-CAST-P/85_20010103.tbf.xml" nodepath="10.0.0.1.0" sentencenodepath="10"><argset><specifier>La</specifier><head>previsión </head></argset>, sin_embargo , fue insuficiente : sólo seis operarios llegaron entre la una y la 1.30 de la madrugada con dos máquinas barredoras . </example>
+        <example file="CESS-CAST-P/93_20010701.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>Las</specifier><head>previsiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de facturación</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">para este año</argument></argset>se elevan a 7.500 millones de pesetas . </example>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="1.4.2.1.0" sentencenodepath="1">La entrada de turistas en Catalunya superará la cifra récord de 18 millones de personas en 1999 , según <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">previsiones </head><reference_modifiers>que ha realizado la Conselleria_de_Indústria_,Comerç_i_Turisme_de_la_Generalitat , que calcula un incremento del 7% respecto_a la cifra de visitantes de 1998</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="5.3.2.1.0" sentencenodepath="5">Los principales destinos turísticos de Catalunya cuentan con un lleno casi absoluto en el mes_de_agosto , y entre un 80% y un 99% de ocupación hotelera en el mes_de_julio , según <argset><specifier>las</specifier><head>previsiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Generalitat</argument></argset>. </example>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="6.2.1.2.1.0.0" sentencenodepath="6">La Costa_Daurada es la zona veraniega con <argset><head>previsiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ocupación</argument><reference_modifiers>más altas</reference_modifiers><argument argument="argM" function="cn" thematicrole="tmp" type="sp">para estos próximos meses</argument></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="impersonal">
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat"/>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="15.0.1.0" sentencenodepath="15"><argset><specifier>Las</specifier><head argument="arg1" thematicrole="pat">previsiones </head><reference_modifiers>más optimistas</reference_modifiers><argument argument="arg2" function="cn" thematicrole="ben" type="sp">sobre el futuro de las tasas y de la marcha de la economía estadounidense , así_como el buen rendimiento de algunas empresas de nuevas tecnologías</argument>, </argset>permitieron que el Nasdaq cerrara en el nivel más alto de su historia . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

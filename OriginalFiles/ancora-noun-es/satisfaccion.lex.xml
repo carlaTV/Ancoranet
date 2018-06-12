@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="satisfacción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="satisfacer" originlink="verb.satisfacer.1" wordnetsynset="16:10075968">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="8" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="9" postype="possessive" type="determiner"/>
+        <constituent frequency="3" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="9" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-7.tbf.xml" nodepath="1.3.1.2.5.1.1.5.3.1.1" sentencenodepath="1">Se establecieron también tres tipos de duelo : los decretorios o a_muerte , los propugnatorios o a_primera_sangre , en los que se combatía para lavar el honor pero sin ánimo de matar y los satisfactorios , en los que se estaba dispuesto a desistir del enfrentamiento en cualquier momento si el ofensor prestaba <argset><specifier>la</specifier><reference_modifiers>debida</reference_modifiers><head>satisfacción </head></argset>. </example>
+        <example file="3LB-CAST/t3-1.tbf.xml" nodepath="14.3.1.0" sentencenodepath="14">Y en el rostro de la mulata asomaba <argset><specifier>la</specifier><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por volver a la verdad del dinero en mano</argument></argset>. </example>
+        <example file="CESS-CAST-A/16577_20000320.tbf.xml" nodepath="5.2.4.4.1.0.0.2.0" sentencenodepath="5">La decisión del CMB era algo que esperaba el campo de De_La_Hoya y su jefe de relaciones públicas , Reynaldo_Solórzano , dijo hoy a EFE que el " Golden_Boy " había recibido la noticia con <argset>gran entusiasmo y <head>satisfacción </head>
+            <argument argument="argM" function="cn" type="sp">por tener de_nuevo la corona mundial</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="4.0.1.2.4.1.1.0" sentencenodepath="4">Su colega Pérez_Roque , quien destacó en su intervención los contactos " fluidos " que mantienen Cuba y España y mostró <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head></argset>porque " las relaciones progresan " , explicó que Ø se ha entrevistado con las autoridades de Italia , el Vaticano , San_Marino , Francia , Dinamarca y Rusia para exponer el punto de vista de La_Habana sobre la situación de Elián . </example>
+        <example file="CESS-CAST-AA/24674_20001130.tbf.xml" nodepath="0.0.3.1.0" sentencenodepath="0">El secretario general del PP , Javier_Arenas , expresó hoy <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por la concesión de un crédito de 1.000 millones de pesetas a las Minas_de_Río_Tinto_Sociedad_Anónima_Laboral</argument></argset>, y Ø deseó que " igual_que ha hecho el Gobierno de España , el resto de las administraciones se impliquen a_fondo " . </example>
+        <example file="CESS-CAST-AA/24674_20001130.tbf.xml" nodepath="2.0.2.1.2" sentencenodepath="2">El secretario general del PP expresó <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument>" <reference_modifiers>gran</reference_modifiers><head>satisfacción </head>" <argument argument="arg0" function="cn" thematicrole="cau" type="sp">por esta noticia</argument></argset>y Ø dijo que esta resolución se ha producido gracias_a las gestiones llevadas_a_cabo por el alcalde de Huelva , Pedro_Rodríguez ( PP ) ; la presidenta del PP andaluz , Teófila_Martínez , y el secretario general del PP-A , Antonio_Sanz . </example>
+        <example file="CESS-CAST-AA/24674_20001130.tbf.xml" nodepath="3.2.0.1.3.4.0.3.1.0" sentencenodepath="3">" Ø Llevábamos mucho tiempo hablando con las administraciones para que esto fuera una realidad y porque Ø siempre nos hemos sentido extraordinariamente cerca de los mineros de Río_Tinto " , explicó Arenas , quien recordó que en el pasado Ø ha tenido " el honor y <argset><specifier>la</specifier><head>satisfacción </head></argset>" de acompañar a los trabajadores de la mina . </example>
+        <example file="CESS-CAST-AA/4412_20001107.tbf.xml" nodepath="6.0.2.1.0" sentencenodepath="6">La presidenta del Patronato_de_Turismo_de_Gran_Canaria , María_Concepción_de_Armas , mostró <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por la celebración del ARC`2000</argument></argset>porque Ø tiene " un gran significado e importancia para la promoción de la isla " , y Ø recordó que Ø es " la mayor regata transoceánica del mundo " . </example>
+        <example file="CESS-CAST-AA/5327_20000707.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Estados_Unidos expresó hoy <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la decisión del Gobierno español de aportar 100 millones de dólares al plan de paz de Colombia , al_igual_que por la de otros países europeos que también asistirán a las autoridades colombianas</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5327_20000707.tbf.xml" nodepath="2.3.1.0" sentencenodepath="2">Ø Expresó también <argset><specifier>la</specifier><head>satisfacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Gobierno estadounidense</argument></argset>porque " los países europeos han respondido positivamente , dado_que ellos también están comprometidos en la lucha contra el narcotráfico y con la promoción de la paz en Colombia " . </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="3.4.1.1.1.1.0.1.3.1.0" sentencenodepath="3">En el acto de firma fue seguido , ya en el salón de actos , por el discurso de Castelo , que manifestó <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por el hecho de que por primera vez desde su nacimiento hace 20 años , la Academia_de_las_Letras_y_de_las_Artes extremeña disponga de una sede fija donde trabajar y deje de ser una entidad " errante , derramada por los pueblos "</argument></argset>. </example>
+        <example file="CESS-CAST-P/101_20000401.tbf.xml" nodepath="2.3.1.2.4.2.1.0" sentencenodepath="2">Después Ø ofreció una conferencia de más de una hora en la que Ø explicó a los asistentes , en su mayoría mujeres , los problemas que Ø ha tenido con el peso durante su vida y <argset><specifier>la</specifier><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de haber conseguido solucionarlos</argument></argset>. </example>
+        <example file="CESS-CAST-P/111_20000202.tbf.xml" nodepath="4.5.4.1.0" sentencenodepath="4">Fuentes de UGT también calificaron la oferta de " insuficiente " , aunque Ø mostraron <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por el hecho de que la Administración haya empezado a negociar una propuesta que los sindicatos lanzaron en octubre</argument></argset>. </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="17.0.3.1.0.0" sentencenodepath="17">Por_último , el presidente del Barça , acogió con <argset><head>satisfacción </head></argset>el impulso definitivo que la UEFA dio ayer a la reforma de los torneos europeos : " No todos los clubs piensan lo mismo sobre el reparto de los ingresos , pero se ha escogido un modelo que debe valer para empezar " . </example>
+        <example file="CESS-CAST-P/136_20001001.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">La actriz , en una entrevista concedida a este diario el pasado martes en Barcelona , mostraba <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por haber rodado esta película con un director que había manifestado que sin ella no habría sido posible la película</argument></argset>. </example>
+        <example file="CESS-CAST-P/141_19990302.tbf.xml" nodepath="1.3.1.1.1.1.1.1.1.1.3.1.1.1" sentencenodepath="1">Gorka , nombre del joven sometido al piercing , justificó su petición en el deseo de complacer a su mujer , que esperaba lograr <argset><specifier>una</specifier><reference_modifiers>mayor</reference_modifiers><head>satisfacción </head><reference_modifiers>sexual</reference_modifiers></argset>tras la implantación de un pequeño aro en la punta del glande . </example>
+        <example file="CESS-CAST-P/169_20010401.tbf.xml" nodepath="7.2.0.1.4.1.1.1.0.0" sentencenodepath="7">" Nada ni nadie va a distraerme " , insistió Serra_Ferrer , que no evitó una mueca de <argset><head>satisfacción </head></argset>cuando Ø le preguntaron por el partido . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="52.2.1.1" sentencenodepath="52">Un mayor protagonismo de Piqué en el Gobierno_de_España es <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>satisfacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">para el Partido_Popular_de_Catalunya</argument></argset>. </example>
+        <example file="CESS-CAST-P/58_19981102.tbf.xml" nodepath="3.3.4.1.0" sentencenodepath="3">Curcoy explicó a su regreso a Lleida que " lo más importante es <argset><specifier>la</specifier><head>satisfacción </head><reference_modifiers>que produce el reconocimiento del trabajo realizado , en un certamen al que se presentan más de un centenar de documentales de todo el planeta</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/80_20000701.tbf.xml" nodepath="18.2.1.0" sentencenodepath="18">Mari_Carmen_Arévalo , presidenta de la Associació_de_Botiguers_del_Clot , muestra <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por la próxima reforma de la calle que pondrá_fin a la actual imagen degradada</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="satisfacer" originlink="verb.satisfacer.1" wordnetsynset="16:05598965">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-A/10268_20000413.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Toni , quien volvió a ser titular en la portería del Atlético_de_Madrid , expresó a Efe <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por la goleada ( 3-0 ) lograda ayer frente_al conjunto azulgrana en el partido de ida de la semifinal de la Copa_del_Rey jugado en el estadio Vicente_Calderón , donde se guardó un minuto de silencio en_memoria_del reciente fallecimiento de su padre</argument></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="satisfacer" originlink="verb.satisfacer.1" wordnetsynset="16:00694042">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <examples>
+        <example file="3LB-CAST/t4-13.tbf.xml" nodepath="2.2.2.1.1.0" sentencenodepath="2">El hambre , la sed y el frío son amenazas constantes para todos los seres vivos , pero sólo nosotros los hombres hacemos de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>satisfacción </head></argset>alarde decorativo y vano . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

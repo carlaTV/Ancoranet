@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="oleada" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="olear" originlink="verb.olear.1" wordnetsynset="16:05534547">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="src">
+        <constituent frequency="10" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/r2-4.tbf.xml" nodepath="11.2.1.1.1" sentencenodepath="11">Los expertos en la lucha contra el terrorismo estiman que <argset><specifier>la</specifier><reference_modifiers>actual</reference_modifiers><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de cartas , remitidas a comienzos del pasado mes_de_mayo y firmadas por ETA ,</argument></argset>tienen un objetivo psicológico más_que económico : - Se trataría de amedrentar y sembrar el terror en la capital del Estado y desviar la atención hacia otro centro económico para evitar las críticas fundadas que achacan a ETA la responsabilidad de la crisis económica en el País_Vasco - . </example>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="6.3.1.1.1.1.1.0" sentencenodepath="6">Portavoces del gobierno vasco niegan credibilidad a la existencia de <argset><specifier>una</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de cartas de petición de impuesto revolucionario</argument></argset>en el País_Vasco . </example>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="9.3.1.1.1.1.1.0" sentencenodepath="9">La Consejería_de_Interior supo a primeros de mayo de la existencia de <argset><specifier>una</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de cartas firmadas por ETA y enviadas a altas personalidades de la banca , las finanzas y directivos de algunas de las empresas más importantes de España</argument></argset>. </example>
+        <example file="CESS-CAST-A/10242_20000816.tbf.xml" nodepath="2.0.1.0.6.0" sentencenodepath="2">Entre <argset>vítores , aplausos , gritos y <head>oleadas </head>
+            <argument argument="arg0" function="cn" thematicrole="src" type="sp">de pancartas con el apellido Kennedy</argument>
+          </argset>, Caroline_Kennedy llegó al podium del centro Staples para devolver a las filas demócratas el recuerdo de su más adorado presidente . </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="s.a">especulativa</argument><reference_modifiers>que se ha desatado en Ecuador tras el anuncio de que se " dolarizará " la economía</reference_modifiers></argset>continúa en aumento y Ø hace pensar que los controles emprendidos por el Gobierno resultan insuficientes , según la Tribuna_Ecuatoriana_de_Consumidores_y_Usuarios . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="8.0.3.1.1.1.5.1.1.0" sentencenodepath="8">Tal_y_como Ø ocurre en otros sectores , donde la entrega del manejo de empresas locales a manos españolas se ha traducido en <argset><specifier>una</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de fuertes inversiones para mejorar los servicios</argument></argset>, en el sector financiero la entrada de los bancos españoles ha dado más seguridad a un sistema financiero muchas veces endeble . </example>
+        <example file="CESS-CAST-AA/9155_20000712.tbf.xml" nodepath="9.5.2.1.0" sentencenodepath="9">García ha solicitado repetidamente a la prensa y a la afición del país apoyo y paciencia , ante <argset><specifier>la</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de críticas y encuestas con resultados en su contra , las cuales advierten que Colombia no_sólo ha jugado de manera mezquina y ha perdido la identidad futbolística , sino_que debe cambiar de técnico si los resultados son negativos contra Perú y Ecuador</argument></argset>. </example>
+        <example file="CESS-CAST-AA/9923_20001114.tbf.xml" nodepath="1.3.1.1.3.3.1.4.1.1.1.2.2.1.1.0" sentencenodepath="1">Lagos se ha convertido en el primer jefe de Estado de Latinoamérica que visita Timor_Oriental desde que sus habitantes votaron por la independencia en un referéndum celebrado el 30_de_agosto_de_1999 , y que fue precedido por <argset><specifier>una</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de violencia y destrucción</argument><reference_modifiers>protagonizada por las milicias y soldados indonesios</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="16.0.0.0" sentencenodepath="16"><argset><head>Oleada </head></argset>a las que siguen defendiendo su labor y su proyecto de futuro . </example>
+        <example file="CESS-CAST-P/13_19990601.tbf.xml" nodepath="7.0.0.1.2.1.2.6.1.0" sentencenodepath="7">Inglaterra , el país que ha producido la minifalda , los Beatles , los hooligans y <argset><specifier>la</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de histeria</argument><reference_modifiers>más curiosa</reference_modifiers><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del siglo_XX</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sadv">después de la muerte de Lady_Di</argument></argset>, seguirá describiéndose como su avinagrado carácter flemático , inalterable y estreñido . </example>
+        <example file="CESS-CAST-P/3_19991102.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">La catedral de Barcelona y su entorno padecieron <argset><specifier>una</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de pintadas de corte satánico</argument></argset>en junio pasado . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>Otra</specifier><head>oleada </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de protestas</argument></argset>proviene de los ayuntamientos , sobre_todo los del cinturón de la Biblia , los pueblos protestantes de las zonas agrícolas . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

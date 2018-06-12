@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="subida" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="subir" originlink="verb.subir.1" wordnetsynset="16:05459005">
+    <frame appearsinplural="yes" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="10.3.1.1.1.0.1.1" sentencenodepath="10">Con estas movilizaciones los transportistas de la provincia de Valencia han expresado su protesta por <argset><specifier>las</specifier><reference_modifiers>continuas</reference_modifiers><head>subidas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del precio del gasóleo</argument></argset>y su impacto negativo en los costes del sector . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="2.3.1.0.2.1.2.1.0.1" sentencenodepath="2">Ø Acusó al Gobierno de , ante la situación actual de <argset><reference_modifiers>constantes</reference_modifiers><head>subidas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los precios de los carburantes</argument></argset>, " limitarse a endosar la responsabilidad de éstas al encarecimiento del crudo y a la debilidad del euro frente al dólar , en_vez_de analizar de forma rigurosa la estructura del mercado , el comportamiento de sus componentes y la eficacia de los órganos encargados de velar por la defensa de la competencia " . </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="1.2.0.0.1.0" sentencenodepath="1">El plan de Mejía implica <argset><specifier>una</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los impuestos al consumo</argument></argset>, una reforma arancelaria y tributaria y un gravamen considerable a los vehículos , entre otras medidas . </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="0.2.0.1" sentencenodepath="0">Los márgenes comerciales - mayoristas y minoristas - de los precios del fresón , el melocotón y la cebolla registraron <argset><reference_modifiers>fuertes</reference_modifiers><head>subidas </head></argset>en 1999 , según un informe elaborado por la empresa nacional Mercasa . </example>
+        <example file="CESS-CAST-P/107_20000202.tbf.xml" nodepath="6.2.1.0" sentencenodepath="6">La mayoría de analistas esperan <argset><specifier>una</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los tipos de interés</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sp">de un cuarto de punto</argument></argset>. </example>
+        <example file="CESS-CAST-P/55_20010103.tbf.xml" nodepath="12.1.1.1.1.1.0" sentencenodepath="12">A_juicio_de la oposición , la culpa de <argset><specifier>esta</specifier><head>subida </head></argset>es del Gobierno que ha ido permitiendo a Repsol sucesivos incrementos en el precio del butano . </example>
+        <example file="CESS-CAST-P/69_20010201_a.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">Con <argset><specifier>estas</specifier><head>subidas </head></argset>, la bolsa recupera parte de las pérdidas sufridas a_lo_largo_del 2000 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="subir" originlink="verb.subir.1" wordnetsynset="16:05459005+16:00234220">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="efi">
+        <constituent frequency="1" preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-6.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>La</specifier><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">en dos décimas</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la tasa de paro</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en EEUU</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en mayo</argument><argument argument="arg4" function="cn" thematicrole="efi" type="sp">hasta el 4,1_por_ciento</argument></argset>reforzó la tendencia al alza de los últimos días de la moneda única , que llegó a tocar la barrera de los 0,95 dólares , aunque Ø no pudo mantenerla . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="benefactive">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="18.0.2.1.1" sentencenodepath="18">Convencido de la dureza del conjunto de disposiciones económicas que Ø promueve , el presidente dominicano anunció <argset><specifier>una</specifier><reference_modifiers>próxima</reference_modifiers><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sueldos</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">para los funcionarios de la Administración , incluidos los pensionistas ,</argument></argset>y Ø reclamó de los patronos privados que Ø también mejoren los sueldos a sus empleados . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="subir" originlink="verb.subir.1" wordnetsynset="16:05459005">
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="4.3.4.2.0.2.0.1.0" sentencenodepath="4">Aun con esa revisión al alza , la organización advierte que la dinámica expansiva de la economía mundial podría conducir a ritmos de progresión superiores a los indicados , lo que favorecería <argset><specifier>la</specifier><head>subida </head><reference_modifiers>de precios</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de diversas materias primas y del petróleo</argument></argset>y el mantenimiento del " optimismo " de los mercados financieros con los consiguientes riesgos . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="6" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2484_20000704.tbf.xml" nodepath="7.4.6.2.1.1.0" sentencenodepath="7">Honduras retendrá parte de su cosecha exportable en el nuevo ciclo , como determinaron los países exportadores en Mayo pasado en Londres , para estimular <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del precio internacional del café , cuyo cultivo está en_manos_de unos 80.000 productores locales</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="12.4.2.0.3.1.0.3.1.1.3.1.0.1.1.1.2.3.1.0" sentencenodepath="12">Asimismo se asume que los sueldos deben empezar a subir , todo lo que se traduciría en mayores costos para las empresas , costos que podrían ser traspasados a los consumidores en forma de un alza de precios que traiga consigo <argset><specifier>una</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la inflación</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5808_20001108.tbf.xml" nodepath="5.3.1.3.3.3.1.0.2.1.1.1.3.1.2.1.3.2.1.0.3.1.0" sentencenodepath="5">Igualmente , desempeñaría un papel destacado la pérdida de apoyo popular del FPOE , que coinciden en apuntar todas las encuestas y que se debería al desgaste del poder de un partido que ha acostumbrado a su electorado a actuar desde la oposición en las últimas décadas y las medidas impopulares que , como integrante del Gobierno , Ø se ha visto obligado a tomar , de lo que es ejemplo <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los impuestos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="6.2.1.2.0.1.0" sentencenodepath="6">Los márgenes de las peras tuvieron un incremento del 62_por_ciento , para los mayoristas y un seis_por_ciento del minorista ; las uvas , con <argset><specifier>una</specifier><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 5,5_por_ciento</argument><argument argument="arg0" function="cn" thematicrole="cau" type="sp">para el mayorista</argument></argset>y un avance del 85_por_ciento del minorista ; en las manzanas , el porcentaje mayorista cayó el 31_por_ciento y pero el detallista subió el 14_por_ciento . </example>
+        <example file="CESS-CAST-AA/8222_20000310.tbf.xml" nodepath="7.0.2.1.0" sentencenodepath="7">Las cotizaciones del pimiento verde supusieron <argset><specifier>una</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del 30_por_ciento del margen mayorista y del tres_por_ciento del porcentaje para el minorista</argument></argset>; las de la zanahoria dejaron un incremento del 65_por_ciento del margen para el mayorista y del 12_por_ciento más para el detallista . </example>
+        <example file="CESS-CAST-P/69_20010201_a.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">El Ibex_35 ha acumulado <argset><specifier>una</specifier><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 11,05%</argument></argset>, lo que le ha llevado por_encima_de los 10.000 puntos , concretamente hasta 10.116 puntos . </example>
+        <example file="CESS-CAST-P/71_20001002_a.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">Correos ha previsto <argset><specifier>una</specifier><head>subida </head><reference_modifiers>media</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sus tarifas</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 4,7%</argument></argset>para el 2000 , que le reportará unos ingresos de unos 10.000 millones de pesetas . </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="2.4.0.1.1.1.2.1.1.1.0" sentencenodepath="2">El presidente del Gobierno , José_María_Aznar , se mostró ayer contrario a una rebaja del impuesto especial sobre hidrocarburos para compensar <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del precio del petróleo y de los carburantes</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="15.0.0.4.1.1.0" sentencenodepath="15">Mas Ø restó gravedad a <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los carburantes</argument></argset>y Ø dijo que " la escalada de precios es claramente negativa y perjudicial para algunos sectores económicos como la pesca o la agricultura , pero , más allá de los sectores económicos , la subida no es preocupante , aunque sí molesta y causante de nerviosismo entre los ciudadanos por el desconocimiento y la incomprensión de los motivos de la subida " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="subir" originlink="verb.subir.2" wordnetsynset="16:05459005+16:05518283">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg3" thematicrole="ori">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="des">
+        <constituent frequency="1" preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="2.4.2.2.1.0" sentencenodepath="2">Las exportaciones totales pasaron de los 12,3 millones de dólares en 1999 a los 14,8 millones en el presente año , lo que supone <argset><specifier>una</specifier><head>subida </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">del 20,47_por_ciento</argument></argset>. </example>
+        <example file="3LB-CAST/a1-1.tbf.xml" nodepath="7.1.0.3.2.3.1.1.2.1.2.1.0.0" sentencenodepath="7">En el relato el léxico se rebaja desde abstracciones posibles a realidades vitales y el conjunto tiene un aire de feria ( - Livia y Druso bajaron de las alturas como Dios les dio a entender , pero tratando de no caerse ni hacer el ridículo , porque Ø ya no eran cortesanos , sino reyes . A mitad del monte , el centurión , que aspiraba a ser generalísimo de Nerodia , puso a disposición de los monarcas a dos soldados fornidos para llevarlos en brazos y así Ø entraron en su nuevo reino que , por <argset><specifier>las</specifier><head>subidas </head>y bajadas </argset>, más parecía un tobogán - ) . </example>
+        <example file="3LB-CAST/d2-1.tbf.xml" nodepath="11.4.0.0.1.1.1.0" sentencenodepath="11">Ø Nos los imaginamos juntitos en <argset><specifier>las</specifier><head>subidas </head></argset>, arañándose recíproca y alternativamente unos segundos en esos finales en los que se echa el resto " en persecución de Rominger " y acatando el juicio sumarísimo de la contrarreloj de Segovia . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="0.6.0.1.1.1.2.1.0.1.3.1.1.0.1.2.1.1" sentencenodepath="0">Unos 500 camiones realizaron esta mañana cortes intermitentes de la circulación en la autopista A-7 Barcelona-Valencia , en la circunvalación de Valencia , dentro de la segunda jornada de protestas que mantienen los transportistas para reclamar medidas que compensen <argset><specifier>las</specifier><reference_modifiers>continuas</reference_modifiers><head>subidas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del precio del gasóleo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="6.2.1.2.3.2.1.0.1.2.2.1.0" sentencenodepath="6">El BSCH fue el segundo valor por volumen de negociación y en la sesión Ø movió 75.124 millones de pesetas y Ø subió un 0,29_por_ciento , seguido de Terra , con 33.367 millones negociados y <argset><specifier>una</specifier><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 6,28_por_ciento</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="12.0.3.1.0.2.0.1.1.0" sentencenodepath="12">En la bolsa de Madrid , el sector de comunicaciones fue el más beneficiado por <argset><specifier>las</specifier><head>subidas </head></argset>, por el tirón de Telefónica , y Ø ganó un 4,70_por_ciento ; seguido de nuevas tecnologías , que subió un 3,49_por_ciento ; bancos , un 1,54_por_ciento , y alimentación , un 0,49_por_ciento . </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="14.0.2.3.1.0.0" sentencenodepath="14">A las 17.30 horas el índice estadounidense Dow_Jones ganaba un 0,71_por_ciento y las principales bolsas europeas también cerraron con <argset><head>subidas </head></argset>, siendo la del mercado de Fráncfort el que más ganó , un 2,35_por_ciento ; seguido de Londres , con un 1,03_por_ciento , mientras_que París avanzaba un 0,74_por_ciento . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="9.2.5.1.3.1.0.0.0" sentencenodepath="9">El Gobierno espera mantener la vida media de la deuda en los niveles actuales el próximo año , en_línea con los del resto de Europa , teniendo_en_cuenta que las previsiones de tipos para el 2001 descontadas por los mercados apuntan a <argset><head>subidas </head><reference_modifiers>adicionales</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los tipos</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">a corto</argument>y algo menores a medio y largo plazo </argset>. </example>
+        <example file="CESS-CAST-P/102_19990202.tbf.xml" nodepath="11.0.3.1.1.0" sentencenodepath="11">El índice de la bolsa de Sao_Paulo ( Bovespa ) cerró ayer con <argset><specifier>una</specifier><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 8,80%</argument></argset>y Ø quedó en 8.891 puntos . </example>
+        <example file="CESS-CAST-P/105_19990601.tbf.xml" nodepath="2.4.1.1.1" sentencenodepath="2">En la última media hora , Madrid cambió su tendencia a la baja por <argset><specifier>una</specifier><reference_modifiers>ligera</reference_modifiers><head>subida </head><argument argument="arg3" function="cn" thematicrole="ori" type="sp">de 3,16 puntos , el 0,36% ,</argument><argument argument="arg4" function="cn" thematicrole="des" type="sp">hasta los 892,58 puntos</argument></argset>. </example>
+        <example file="CESS-CAST-P/105_19990601.tbf.xml" nodepath="3.0.0.1.1.1.1" sentencenodepath="3">Una de <argset><specifier>las</specifier><reference_modifiers>mayores</reference_modifiers><head>subidas </head></argset>fue para Iberdrola , que ganó el 2,62% , tras anunciar la compra del 3,5% de Repsol . </example>
+        <example file="CESS-CAST-P/105_19990601.tbf.xml" nodepath="4.3.1.0.1" sentencenodepath="4">París y Milán también cerraron con <argset><reference_modifiers>leves</reference_modifiers><head>subidas </head></argset>. </example>
+        <example file="CESS-CAST-P/111_19981202.tbf.xml" nodepath="0.4.1.1.1.1.1.1.0.1.1.0.0" sentencenodepath="0">Las bolsas españolas registraron ayer una sesión marcada por las ventas y las recogidas de beneficios , después de varias jornadas con predominio de <argset><head>subidas </head></argset>. </example>
+        <example file="CESS-CAST-P/133_20000702.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>subida </head></argset>se produjo después de siete días consecutivos de retrocesos . </example>
+        <example file="CESS-CAST-P/3_20020103.tbf.xml" nodepath="2.1.3.0.0" sentencenodepath="2">Antonino_Joya , portavoz de la Organización_de_Consumidores_y_Usuarios ( OCU ) , mostró su queja por el tipo de redondeo que se ha aplicado en algunos servicios y productos : " Ha habido <argset><head>subidas </head><reference_modifiers>importantes</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en panadería , juegos de azar , cines , buses , metros , revistas y periódicos</argument></argset>" . </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="9.3.1.0.0" sentencenodepath="9">Los mercados recibieron los resultados de Telefónica con <argset><head>subidas </head></argset>, ya_que Ø habían previsto una reducción de los beneficios de hasta el 6% . </example>
+        <example file="CESS-CAST-P/69_20010201_a.tbf.xml" nodepath="5.3.1.0.0" sentencenodepath="5">Ayer , la bolsa celebró con <argset><head>subidas </head></argset>las malas noticias que llegaron de EEUU . </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="15.2.1.1.0" sentencenodepath="15">Mas Ø restó gravedad a la subida de los carburantes y Ø dijo que " la escalada de precios es claramente negativa y perjudicial para algunos sectores económicos como la pesca o la agricultura , pero , más allá de los sectores económicos , <argset><specifier>la</specifier><head>subida </head></argset>no es preocupante , aunque sí molesta y causante de nerviosismo entre los ciudadanos por el desconocimiento y la incomprensión de los motivos de la subida " . </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="15.2.5.3.0.2.2.1.2.1.1.1.1.1.1.1.0" sentencenodepath="15">Mas Ø restó gravedad a la subida de los carburantes y Ø dijo que " la escalada de precios es claramente negativa y perjudicial para algunos sectores económicos como la pesca o la agricultura , pero , más allá de los sectores económicos , la subida no es preocupante , aunque sí molesta y causante de nerviosismo entre los ciudadanos por el desconocimiento y la incomprensión de los motivos de <argset><specifier>la</specifier><head>subida </head></argset>" . </example>
+        <example file="CESS-CAST-P/81_20001001.tbf.xml" nodepath="2.0.0.1" sentencenodepath="2"><argset><reference_modifiers>Idéntica</reference_modifiers><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 10%</argument></argset>han experimentado los delitos de impago de pensiones compensatorias a los EX cónyuges y por cuidado de los hijos ( 9.101 casos ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="5" lexicalized="no" originlemma="subir" originlink="verb.subir.2" wordnetsynset="16:00234220+16:00209737">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <argument argument="arg4" thematicrole="des">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="3.2.1.1.2.2.2.1.1.2.1.1.1.1" sentencenodepath="3">Mendizábal señaló que la rebaja de los impuestos solicitada por las petroleras y su patronal y presentada por éstas como la única solución para frenar <argset><specifier>la</specifier><reference_modifiers>constante</reference_modifiers><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los carburantes</argument></argset>, es una medida que " tiene poco sentido " , ya_que en España la fiscalidad que afecta a estos productos es una de las menores de la Unión_Europea . </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="11.3.0.4.1.2.2.1.2.1.1.1" sentencenodepath="11">En el lado opuesto se encontraban Banco_Herrero , que cedía un 6,15_por_ciento , Aumar , un 5,17_por_ciento , y Corporación_Mapfre , un 4,14_por_ciento , por la recogida de beneficios de los inversores tras <argset><specifier>la</specifier><reference_modifiers>espectacular</reference_modifiers><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 17_por_ciento</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de anteayer</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4723_20001006.tbf.xml" nodepath="2.0.1.2.2.1.1.1.1.2.4.1.0" sentencenodepath="2">Una sinuosa etapa , con seis vueltas a un duro circuito , en el que la gran dificultad representaba <argset><specifier>la</specifier><head>subida </head><argument argument="arg4" function="cn" thematicrole="des" type="sp">a San_Martino_in_Vignola</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Vignola</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sn">( 4,1 kilómetros al 4_por_ciento desnivel )</argument><reference_modifiers>, que resultó muy movida , con continuos intentos de escapada y donde se dejó ver en varias ocasiones el español Manuel_Beltrán , del Mapei</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="6" lexicalized="no" originlemma="subir" originlink="verb.subir.2" wordnetsynset="16:05459005">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="des">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-1.tbf.xml" nodepath="5.0.1.1.2.1.1.0" sentencenodepath="5">En los últimos kilómetros de <argset><specifier>la</specifier><head>subida </head><argument argument="arg4" function="cn" thematicrole="des" type="sp">a Ordino-Arcalís</argument></argset>, todos aguantaban mientras él se refrenaba . </example>
+        <example file="CESS-CAST-P/105_20000401.tbf.xml" nodepath="0.0.1.2.1.0.1.1.1.0" sentencenodepath="0">Una primera lectura del frenazo a <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los peajes</argument></argset>hace presuponer que el beneficiado es el usuario de la vía de pago . </example>
+        <example file="CESS-CAST-P/105_20000401.tbf.xml" nodepath="4.2.2.1.2.1.1.0" sentencenodepath="4">El Gobierno de Aznar y el de Pujol - - que en este asunto practica desde hace meses una política de claqué : pisotón sonoro y dos pasos atrás - - están obligados por ley a compensar a las concesionarias por <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los precios</argument><reference_modifiers>que se registra cada año</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/16_20001002_a.tbf.xml" nodepath="0.0.0.1.1.1.0.1.0" sentencenodepath="0">Las movilizaciones por <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del precio del gasóleo</argument></argset>y la negativa del Gobierno de Aznar a rebajar los impuestos que gravan los carburantes pese_al incremento del precio del petróleo no amainan , sino_que Ø aumentan . </example>
+        <example file="CESS-CAST-P/69_20010201_a.tbf.xml" nodepath="7.3.1.0.1.3.1.1.0" sentencenodepath="7">Todo ello llevó el optimismo al mercado , que cerró con <argset><specifier>una</specifier><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">de 79,80 puntos ( el 0,80% ) en el Ibex_35 y de 7,66 puntos ( también del 0,80% ) en el índice general</argument></argset>. </example>
+        <example file="CESS-CAST-P/7_19990901.tbf.xml" nodepath="13.0.2.3.1.1.0" sentencenodepath="13">No rectificar a_tiempo o no apostar en_serio por <argset><specifier>una</specifier><head>subida </head><reference_modifiers>efectiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las pensiones</argument></argset>, encaja poco con su veteranía política , en la que hasta ahora solía primar la sensatez sobre el aventurismo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="7" lexicalized="no" originlemma="subir" originlink="verb.subir.3" wordnetsynset="16:06725562">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="6.3.1.1.1.1.0.3.4.1.0.2.1.0" sentencenodepath="6">El burgomaestre ( alcalde ) de Gante , Frank_Becke , pronunció un discurso en la Sala_de_la_Pacificación del espléndido palacio municipal , levantado en 1518 " como el mayor ayuntamiento del mundo " con_ocasión_de la mayoría de edad y <argset><specifier>la</specifier><head>subida </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">al trono</argument></argset>de Carlos_V . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="8" lexicalized="no" originlemma="subir" originlink="verb.subir.4" wordnetsynset="16:05459005">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/35_20000202_c.tbf.xml" nodepath="1.4.1.1.1.0" sentencenodepath="1">El presidente checo , de 63 años y con una salud muy frágil desde que Ø fue operado de cáncer de pulmón en 1996 , fue ingresado ayer en el Hospital_de_Praga tras sufrir <argset><specifier>una</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la fiebre</argument></argset>durante la noche . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="9" lexicalized="no" originlemma="subir" originlink="verb.subir.5" wordnetsynset="16:05459005">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20551_20000128.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">Entre las iniciativas aprobadas destaca <argset><specifier>la</specifier><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">de un 34,4_por_ciento de las prestaciones anuales por hijo a_cargo_de la Seguridad_Social , así_como dos nuevas prestaciones familiares por nacimiento de hijo , a_partir_del tercero , y por parto múltiple</argument></argset>. </example>
+        <example file="CESS-CAST-AA/22739_20001027.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Repsol_YPF , principal petrolera que opera en España con una cuota de mercado del 45_por_ciento , aplicó , a las 0:00 horas de hoy , <argset><specifier>una</specifier><head>subida </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">de 4 pesetas</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en todos sus carburantes</argument><reference_modifiers>que ha situado el precio máximo de su gasóleo de automoción en las 128,9 pesetas , el de la eurosúper en las 144,9 pesetas y el de la gasolina súper en las 154,9 pesetas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="8.2.1.3.1.1.0" sentencenodepath="8">Pujol recalcó que no se trata de <argset><specifier>una</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de pensiones</argument></argset>, sino de una " compensación " por la pérdida de poder adquisitivo de las pensiones catalanas a_causa_del diferencial de inflación con la media española . </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="17.2.1.3.1.0" sentencenodepath="17">El presidente explicó que CiU defenderá en la reunión del Pacto_de_Toledo <argset><specifier>una</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de todas las pensiones mínimas</argument></argset>e Ø intentará que se establezca un mecanismo para compensar las diferencias territoriales de inflación , para que las autonomías no tengan que volver a aprobar nuevas ayudas complementarias , recalcó Pujol . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="10" lexicalized="no" originlemma="subir" originlink="verb.subir.5" wordnetsynset="16:00234220">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="1.0.4.1.3.1.2.1.1.1.0" sentencenodepath="1">Mientras la Organización_de_Países_Exportadores_de_Petróleo ( OPEP ) se dispone a celebrar hoy en Viena una reunión crucial para tratar de contener <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los precios del crudo</argument></argset>, transportistas y agricultores británicos se manifiestan en_contra_de los elevados precios del carburante . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="11" lexicalized="no" originlemma="subir" originlink="verb.subir.5" wordnetsynset="16:00234220+16:05459005">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="5.3.1.0" sentencenodepath="5">Asimismo Ø destacaron <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las exportaciones a América_del_Norte , que suponen un 30_por_ciento , en_tanto_que las destinadas a América_del_Sur representaron un 20 , con un importante alza de las exportaciones a Brasil , que aumentaron un 180_por_ciento</argument></argset>. </example>
+        <example file="CESS-CAST-A/17887_20000622.tbf.xml" nodepath="4.0.1.1.1.3.1.1" sentencenodepath="4">En_cuanto_a la incidencia que tendrá para la Caja_Rural <argset><specifier>la</specifier><reference_modifiers>reciente</reference_modifiers><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de tipos</argument><reference_modifiers>aprobada por el Banco_Central_Europeo</reference_modifiers></argset>, Ø señaló que en el futuro Ø oscilarán entre el 5 y el 6_por_ciento y que rebajarlos por_debajo_de esas cifras provoca " una situación artificial " que supone " consciente o inconscientemente , una manipulación de la economía " . </example>
+        <example file="CESS-CAST-AA/20120_20000525.tbf.xml" nodepath="8.3.1.3.2.2.1.1.1.1.1.1" sentencenodepath="8">Asimismo , fuentes financieras advertían de que un nuevo encarecimiento hoy del dinero podría asfixiar la todavía modesta recuperación económica de la eurozona y ofrecer una impresión de nerviosismo del BCE , a tan_sólo cuatro semanas de <argset><specifier>la</specifier><reference_modifiers>última</reference_modifiers><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los tipos</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en abril</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="0.0.0.1.2.4.1.0.1.1.1.0" sentencenodepath="0">Los estudiantes de la Universidad estatal de San_Carlos ( USAC ) de Guatemala que se mantenían en huelga de hambre en protesta por <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del boleto del transporte de pasajeros de la capital</argument></argset>depusieron hoy su actitud y Ø se declararon victoriosos . </example>
+        <example file="CESS-CAST-AA/25451_20000531.tbf.xml" nodepath="2.3.0.1" sentencenodepath="2">Por ello , el experto rechaza <argset><reference_modifiers>nuevas</reference_modifiers><head>subidas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los tipos de interés , actualmente en el 6_por_ciento en el Reino_Unido , que fortalecerían aún más la libra</argument></argset>. </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="2.4.1.1.1.1.3.0.2.1.1.3.1.1.2.1.1.0" sentencenodepath="2">El presidente de la Generalitat , Jordi_Pujol , respondió ayer a todas las críticas a la paga extra para los perceptores de pensiones no contributivas con el argumento de que lo importante de esta medida no era la cantidad , sino su impacto político y el cambio que Ø ha provocado en la actitud del Gobierno de José_María_Aznar sobre <argset><specifier>la</specifier><head>subida </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de todas las pensiones mínimas</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

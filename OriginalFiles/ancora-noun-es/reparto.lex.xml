@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reparto" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="repartir" originlink="verb.repartir.1" wordnetsynset="16:00205135+16:06114774">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="1.5.1.1.2.1.1.1.2.1.0" sentencenodepath="1">A_expensas_de la reducción del déficit público , Jospin se plegó anoche a las crecientes presiones de los franceses que reclamaban <argset><specifier>un</specifier><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del pastel económico</argument></argset>con la promesa de recortes fiscales adicionales este año por valor de 6.097,9 millones de euros . </example>
+        <example file="CESS-CAST-A/15839_20000123.tbf.xml" nodepath="2.2.1.1.1.1.1.2.1.1.0" sentencenodepath="2">Rato defiende el sistema de Oferta_Pública_de_Venta utilizado por el Gobierno del PP frente_a la política de fomento de " núcleos estables " practicada por el Ejecutivo del PSOE , además_de mostrarse muy crítico sobre los ataques de los socialistas hacia <argset><specifier>el</specifier><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las opciones sobre acciones</argument><reference_modifiers>aprobado por Telefónica</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="1.2.2.3.1.1.0" sentencenodepath="1">Pla dijo a los periodistas que Zaplana " esconde la realidad " del PHN , y Ø reclamó que en una cuestión " tan importante " haya " <argset><specifier>un</specifier><head>reparto </head></argset>y una responsabilidad por_parte_de todas las Comunidades " , dado_que " este Plan y esas posiciones lo único que hacen es enfrentar a unas Comunidades con otras , lo que no es positivo ni es bueno " . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="8.2.4.1.1.2.3.2.2.3.1.1.0" sentencenodepath="8">Un miembro de la ejecutiva de CDC dijo que la postura de Esteve se sitúa en una línea , concertada desde hace tiempo , con la que se quiere hacer patente que " Artur_Mas , como futuro líder , es quien manda en el partido , y que Esteve debe obedecer en <argset><specifier>este</specifier><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de papeles</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/2938_20000303.tbf.xml" nodepath="6.1.2.4.1.0.0" sentencenodepath="6">Según él , después del trabajo hecho , el Partido_Popular tiene crédito , y " los otros , los que son incapaces de hacerlo , lo máximo que pueden hablar es del <argset><head>reparto </head></argset>" . </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="17.1.2.4.1.1.0" sentencenodepath="17">Por_último , el presidente del Barça , acogió con satisfacción el impulso definitivo que la UEFA dio ayer a la reforma de los torneos europeos : " No todos los clubs piensan lo mismo sobre <argset><specifier>el</specifier><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los ingresos</argument></argset>, pero se ha escogido un modelo que debe valer para empezar " . </example>
+        <example file="CESS-CAST-P/118_20011202.tbf.xml" nodepath="9.0.0.1.1.1.0.0" sentencenodepath="9">Un camión de <argset><head>reparto </head></argset>apuró el giro en la calle de la Cadena y Ø se los cargó . </example>
+        <example file="CESS-CAST-P/135_20020501.tbf.xml" nodepath="2.2.1.1" sentencenodepath="2">Ingrid_Rubio y Roberto_Enríquez encabezan <argset><specifier>un</specifier><reference_modifiers>amplio</reference_modifiers><head>reparto </head><reference_modifiers>en el que están Chete_Lera ( que ayer hizo doblete en Málaga ) , Adriana_Ozores , Miguel_Ángel_Solá y Jordi_Dauder</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/17_19990201.tbf.xml" nodepath="4.4.1.1.0" sentencenodepath="4">Inmersa en el área presupuestaria - - la Gran_Manzana destinó 55.000 millones de pesetas a los sin_techo el pasado año - - , Ø lidió con <argset><specifier>un</specifier><head>reparto </head><reference_modifiers>que canalizan diversas asociaciones para devolver la esperanza a los que ya no tienen nada</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/44_20000902.tbf.xml" nodepath="8.0.1.0.1.0" sentencenodepath="8">Porque <argset><specifier>el</specifier><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del agua</argument></argset>es cuestión de solidaridad , no de dinero . </example>
+        <example file="CESS-CAST-P/80_20020401.tbf.xml" nodepath="4.5.1.1.2.2.0.1.1.1.0" sentencenodepath="4">Al año siguiente , la compañía de Madrid volvió al teatro de Montjuïc ( Festivales_de_España ) con dos obras : Medida_por_Medida , de Shakespeare , y Las_mocedades_del_Cid , de Guillén_de_Castro , con Ana_Belén en <argset><specifier>el</specifier><head>reparto </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="repartir" originlink="verb.repartir.1" wordnetsynset="16:00205135">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="8.3.3.1.1.0" sentencenodepath="8">Para que sea posible la ampliación , Ø sostiene , hay que resolver también los mecanismos de toma de decisión en la UE y definir <argset><specifier>el</specifier><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de competencias a largo plazo</argument><reference_modifiers>, que debe ser entre Europa , las naciones y las regiones</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="0.2.1.1.1.0" sentencenodepath="0">La reforma del Tratado_de_Amsterdam continúa estancada por <argset><specifier>el</specifier><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los votos</argument><reference_modifiers>que tendrá cada país en una UE con treinta países</reference_modifiers></argset>, a_la_espera_de que dentro de cuatro días en la cumbre europea de Biarritz los Quince den alguna indicación que permita avanzar en las negociaciones . </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="4.4.1.1.1.0.2.2.0" sentencenodepath="4">Presididos por el ministro francés de Asuntos_Europeos , Pierre_Moscovici , los Quince no lograron hoy ningún avance en uno de los tres puntos claves de la reforma <argset>, <specifier>el</specifier>
+            <head>reparto </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de votos</argument>
+            <reference_modifiers>que tendrá cada país en el Consejo de ministros</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="8.0.1.1.1.1.1.0" sentencenodepath="8">Con la negociación sobre <argset><specifier>el</specifier><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de votos</argument></argset>estancada , los Quince aprovecharon el encuentro de hoy para debatir la reforma del artículo que dispone las sanciones que se pueden adoptar contra aquellos Estados que violen " los principios fundamentales de la UE " y la organización de las denominadas " cooperaciones reforzadas " . </example>
+        <example file="CESS-CAST-P/130_19990701.tbf.xml" nodepath="6.2.0.1.1.1.2.1.0.1" sentencenodepath="6">El grupo radiofónico del todavía editor y presentador del informativo del mediodía de TV-3 fue uno de los grandes beneficiados del <argset><reference_modifiers>polémico</reference_modifiers><head>reparto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las 33 licencias ( 21 nuevas y 12 renovaciones )</argument><reference_modifiers>efectuado a_principios_del pasado mes_de_mayo por el Consell_Executiu_de_la_Generalitat</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

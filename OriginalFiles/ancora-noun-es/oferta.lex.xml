@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="oferta" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ofertar" originlink="verb.ofertar.1" wordnetsynset="16:05358049">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="11" preposition="de" type="sp"/>
+        <constituent frequency="8" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="11" preposition="de" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="28" postype="article" type="determiner"/>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+        <constituent frequency="10" type="void"/>
+        <constituent frequency="8" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="9" type="S"/>
+        <constituent frequency="13" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="1.0.1.1.0" sentencenodepath="1">Sobre <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de interconexión con Telefónica</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de otros operadores</argument><reference_modifiers>que acaba de aprobar la CMT</reference_modifiers></argset>, Vázquez_Quintana dijo que para desarrollarla Ø han escuchado a los operadores actuales y a otros que pronto darán servicios y que al tener que aunar tantos intereses es imposible dejar satisfechos a todos . </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="0.0.1.2.1.1.3.1.0.1.1.1.1.2.1.0" sentencenodepath="0">Un acuerdo entre la patronal y los sindicatos franceses sobre una profunda reforma del subsidio de paro con sanciones a los parados que rechacen <argset><specifier>una</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de trabajo</argument></argset>está al_alcance_de_la_mano tras romperse la unidad sindical . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="4.1.1.0.1.1.0.1.1.1.1.1.1.1.1.0" sentencenodepath="4">Sin_embargo , para estudios de formación de la construcción , sector donde <argset><specifier>más</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de empleo</argument></argset>existe , sólo hay 172 alumnos matriculados en la CAV . </example>
+        <example file="3LB-CAST/a2-0.tbf.xml" nodepath="1.0.2.0.1.1.1.1.1.1.0" sentencenodepath="1">Entusiasmado por la irrupción de las nuevas cadenas de televisión y absorto ante el despliegue de <argset><specifier>la</specifier><head>oferta </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">visual</argument></argset>, Ø había decidido cambiar su hábitat tradicional y trasladarse , en_cuerpo_y_alma , al cuarto_de_estar . </example>
+        <example file="3LB-CAST/dc1-4.tbf.xml" nodepath="1.2.4.1.1.1.0" sentencenodepath="1">El resultado será que todas ellas se encontrarán compitiendo por <argset><specifier>una</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de machos</argument><reference_modifiers>cada vez más reducida</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/r2-7.tbf.xml" nodepath="8.0.0.0" sentencenodepath="8"><argset><head argument="arg1" thematicrole="pat">Ofertas </head></argset>. </example>
+        <example file="3LB-CAST/r2-7.tbf.xml" nodepath="9.2.1.0.2.2.1.0.3.0.2.0.4.0.1" sentencenodepath="9">En esa retirada ha habido algunas decepciones personales , pero también cartas inesperadas , como la que le envió Ramón_Jáuregui , secretario general del PSE-PSOE , quien ya le ha hecho <argset><reference_modifiers>nuevas</reference_modifiers><head argument="arg1" thematicrole="pat">ofertas </head></argset>y que , - por_supuesto - , en las próximas elecciones generales le ve como candidato por Vizcaya . </example>
+        <example file="CESS-CAST-A/10376_20001114.tbf.xml" nodepath="9.2.1.1.1.0" sentencenodepath="9">Todo apunta a que <argset><specifier>la</specifier><head>oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Baker</argument></argset>será rechazada por los demócratas , ya_que Ø están a_la_espera_de la decisión de un juez sobre la demanda que pide ampliar el plazo de las 22.00 GMT de hoy para la entrega oficial de los resultados de los condados . </example>
+        <example file="CESS-CAST-A/11714_20000314.tbf.xml" nodepath="6.0.3.1.1.0" sentencenodepath="6">El dirigente popular ha evitado , no_obstante , plantear <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de diálogo</argument></argset>a CiU en el Parlament en forma de ultimátum y Ø ha asegurado que el PP " no se precipitará " y que Ø espera a ver " qué ficha mueve " la coalición que lidera Jordi_Pujol . </example>
+        <example file="CESS-CAST-A/12432_20000416.tbf.xml" nodepath="5.0.2.1.0.0.0" sentencenodepath="5">Cada operador participante de Iber-X publica <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>oferta </head>o demanda , con el precio mínimo o máximo que Ø está dispuesto a aceptar o pagar </argset>, y el sistema realiza una búsqueda automática entre las diferentes posiciones . </example>
+        <example file="CESS-CAST-A/12432_20000416.tbf.xml" nodepath="6.0.2.0.1.0" sentencenodepath="6">Una vez casadas <argset><specifier>la</specifier><head>oferta </head></argset>y la demanda , el sistema envía la orden al Sistema_Transaccional_Bancario - ubicado en el centro de proceso de datos de Banesto - , que se encarga de comprobar que el comprador puede abonar el servicio , de cobrarlo y pagarlo al vendedor . </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="1.0.1.0.1.1.1.0.2.1.0.0" sentencenodepath="1">" Los procesos de privatización de grandes empresas estatales mediante <argset><head>ofertas </head><reference_modifiers>públicas</reference_modifiers></argset>pueden dar un impulso al mercado bursátil y popularizar significativamente la inversión " , afirmó el también ex presidente de la Comisión_Nacional_de_Valores de España . </example>
+        <example file="CESS-CAST-A/12633_20000315.tbf.xml" nodepath="2.2.4.1.1.0.0" sentencenodepath="2">La escasa presencia de interesados provocó que en algunos puestos el material de difusión no se distribuyera por_completo y hoy varios operadores de turismo pasaron varios minutos sin poder hacer <argset><head>ofertas </head></argset>en_medio_de la música , danzas y artesanías típicas . </example>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="1.4.6.2.1.0" sentencenodepath="1">El ministro brasileño de Agricultura , Marcus_Vinicios_Pratini_de_Moraes , aseguró hoy en la ciudad de Vitoria que a Brasil no le queda otra_salida_que respetar el acuerdo para impedir una mayor caída en los precios del producto , ya_que <argset><specifier>la</specifier><head>oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de otros países productores , que no forman_parte de la APPC ,</argument></argset>va a provocar un caos en el mercado . </example>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="4.4.1.1.2.1.0.1.0.1.0" sentencenodepath="4">En el encuentro del miércoles entre Pratini_de_Moraes y el presidente de la Federación_de_Cafeteros_de_Colombia , Jorge_Cárdenas_Gutiérrez , Brasil y Colombia se comprometieron en una acción coordinada para reducir <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>ofertas </head></argset>y las de todos sus productores , y , de esa forma , revalorizar el producto . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="1.3.1.0.1.1" sentencenodepath="1">El consejero delegado de Iberdrola , Javier_Herrero , señaló a EFE que <argset><specifier>cualquier</specifier><reference_modifiers>posible</reference_modifiers><head>oferta </head></argset>" se analizará adecuadamente y se tomará la decisión que corresponda " , aunque , puntualizó Ø , su compañía " sólo tiene hoy la alternativa completa , estudiada y cerrada con Endesa " . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="2.2.2.3.1.2.1.1.0.0" sentencenodepath="2">El presidente de Iberdrola , Iñigo_de_Oriol , explicó que su empresa ofreció a Repsol_YPF los activos que deberá vender la compañía fusionada y que su presidente , Alfonso_Cortina , contestó con " otro tipo de <argset><head>oferta </head><reference_modifiers>que yo no la califico ni de oferta</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="2.2.2.3.1.2.1.1.0.1.5.1.1.0.0" sentencenodepath="2">El presidente de Iberdrola , Iñigo_de_Oriol , explicó que su empresa ofreció a Repsol_YPF los activos que deberá vender la compañía fusionada y que su presidente , Alfonso_Cortina , contestó con " otro tipo de oferta que yo no la califico ni de <argset><head>oferta </head></argset>" . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="3.2.2.1.1" sentencenodepath="3">El vicepresidente segundo del Gobierno y ministro de Economía , Rodrigo_Rato , dijo , sobre <argset><specifier>la</specifier><reference_modifiers>posible</reference_modifiers><head>oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la petrolera</argument></argset>, que el Ejecutivo no está para adoptar decisiones que tienen que tomar los dirigentes de las empresas " asumiendo su propia responsabilidad " . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="10.3.2.1.3.2.1.0" sentencenodepath="10">Los títulos de Repsol_YPF cedieron un 0,35_por_ciento , a_la_espera_de una posible OPA sobre Iberdrola que mejore <argset><specifier>la</specifier><head>oferta </head><reference_modifiers>hecha sobre la eléctrica por Endesa</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/1925_20001103.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>La</specifier><head argument="arg1" thematicrole="pat">oferta </head><reference_modifiers>total</reference_modifiers><reference_modifiers>final</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">por las frecuencias de la segunda fase</argument></argset>debe superar el precio mínimo oficial fijado en 25,4 millones de dólares . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="1.3.0.2.1.3.1.1.1.1.1.0" sentencenodepath="1">Según la diputada socialista , uno de los mayores errores ha sido limitar en la Ley_de_Hidrocarburos de 1998 la capacidad de actuación de los poderes públicos ante una estructura de <argset><specifier>la</specifier><head>oferta </head></argset>de carácter oligopólico " propensa a ejercer su poder sobre minoristas y consumidores " , además_de establecer un esquema de órganos de defensa de la competencia de " reducidas atribuciones " y " escasa neutralidad y transparencia " . </example>
+        <example file="CESS-CAST-AA/19771_20000127.tbf.xml" nodepath="4.2.0.2.4.1.1.2.1.1.1.1.1.1.3.1.0" sentencenodepath="4">Pimentel insistió en que " hay que ser prudente y ver cómo termina este movimiento que no ha tenido finales " , a_la_vez_que Ø reiteró que " Ø parto de un respeto profundo a la autonomía de cada partido que democráticamente puede escoger <argset><specifier>la</specifier><head>oferta </head><reference_modifiers>que le interese</reference_modifiers></argset>" y Ø añadió que " yo no voy al origen ni al fondo " . </example>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">Respecto_a <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">automovilística</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la marca</argument></argset>, el máximo responsable de Citroen explicó la implantación de una nueva estrategia , con la aparición en el Salón parisino de la nueva berlina C5 , a la que seguirán en próximos lanzamientos un pequeño C3 y un lujoso C6 . </example>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="8.2.4.1.1.0.3.1.0" sentencenodepath="8">La nueva denominación de letra y número , explicó Satinet , " será válida para berlinas y " break " y sin_embargo se mantendrán los nombres para lo que no va a ser <argset><specifier>una</specifier><head>oferta </head><reference_modifiers>estándar</reference_modifiers><reference_modifiers>, como el Picasso , que se mantendrá así o el Pluriel " , éste ahora un " concept_car " que seguirá llamándose así cuando sea realidad comercial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="10.0.2.3.1.0" sentencenodepath="10">El número de ventas de las berlinas es " fijo y constante y de_hecho ninguna marca ha reducido <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de berlinas</argument></argset>" , argumentó Claude_Satinet . </example>
+        <example file="CESS-CAST-AA/3800_20001205.tbf.xml" nodepath="6.0.2.3.1.0" sentencenodepath="6">El defensor boliviano dejó entrever que Ø tiene <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de un club " grande "</argument></argset>y Ø dijo que Ø está preparado para dar el gran salto . </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="16.4.1.1.1.2.5.1.1.1.1.0.3.1.0.1.1.0.0.0.0" sentencenodepath="16">El mercado de bonos también se vio sacudido por las cifras de empleo , que arrastraron a la baja el precio de los bonos de 30 años tras varias sesiones de fuertes alzas por factores técnicos de perspectivas de <argset><head>oferta </head>y demanda de estos bonos </argset>. </example>
+        <example file="CESS-CAST-AA/5005_20001107.tbf.xml" nodepath="0.5.1.1.3.1.0" sentencenodepath="0">Wanadoo , la filial de Internet de France_Telecom , se sumó hoy a la operadora Aló al decidir no promocionar más <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de tarifa plana</argument><reference_modifiers>de acceso a Internet</reference_modifiers></argset>debido_a los precios de interconexión fijados por el Gobierno . </example>
+        <example file="CESS-CAST-AA/5606_20000207.tbf.xml" nodepath="6.2.1.1.0" sentencenodepath="6">Tele_Centro_Sul , controlada por Telecom_Italia , aspira a comprar la parte de Telefónica y sus socios en la CRT , pero , según el consorcio TBS , <argset><specifier>la</specifier><head>oferta </head><reference_modifiers>que recibieron</reference_modifiers></argset>es inferior en unos 335 millones de dólares al valor de la compañía , que aunque Ø no ha sido revelado , se calcula en unos 1.090 millones de dólares . </example>
+        <example file="CESS-CAST-AA/7453_20000209.tbf.xml" nodepath="10.4.1.5.2.0" sentencenodepath="10">Bossano , de 60 años , ha criticado duramente en la campaña el denominado " Plan_Matutes " ( en_referencia_al ministro español de Exteriores , Abel_Matutes ) <argset>, <specifier>la</specifier>
+            <head>oferta </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="s.a">española</argument>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de reconocer una autonomía especial a Gibraltar tras una etapa de soberanía compartida entre España y el Reino_Unido</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/101_19990103.tbf.xml" nodepath="8.2.0.2.1.1" sentencenodepath="8">El delantero seguirá en el club , pero si llega <argset><specifier>una</specifier><reference_modifiers>buena</reference_modifiers><head>oferta </head></argset>Ø tendrá las puertas abiertas . </example>
+        <example file="CESS-CAST-P/108_19990501.tbf.xml" nodepath="7.3.1.0" sentencenodepath="7">Enersis mantendrá abierta <argset><specifier>la</specifier><head>oferta </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre Endesa_Chile</argument></argset>en las mismas condiciones que antes de la suspensión , es_decir , 0,74 dólares por acción , lo que suma 323.250 millones de pesetas . </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="18.4.1.1.1.1.1.2.1.0" sentencenodepath="18">" La aportación de Sasha ha sido muy positiva , pero Ø creo que se ha cumplido el ciclo previsto cuando Ø fichó " , indicó , por su parte , García_Reneses para explicar la decisión de no hacerle <argset><specifier>ninguna</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de renovación</argument></argset>. </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="19.2.2.3.0.1.1.3.1.1.1.1.1.0.1" sentencenodepath="19">El preparador barcelonista calificó la decisión como " un salto al vacío " al no tener cerrada la operación del escolta francés Antoine_Rigaudeau , su probable sustituto , pero Ø indicó que este riesgo era necesario para no perjudicar a Sasha a la hora de negociar <argset><reference_modifiers>nuevas</reference_modifiers><head>ofertas </head></argset>. </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="21.0.3.3.1.0" sentencenodepath="21">" Ø Creo que Ø hemos hecho <argset><specifier>una</specifier><head>oferta </head><reference_modifiers>competitiva</reference_modifiers><reference_modifiers>, que está dentro del nivel del mercado</reference_modifiers></argset>" , aseguró ayer el gerente del club , Antonio_Maceiras , sobre la negociación con Esteller , el capitán del equipo . </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="22.0.3.0.1.0" sentencenodepath="22">" Me gustaría quedarme , pero <argset><specifier>la</specifier><head>oferta </head><reference_modifiers>que me han hecho ,</reference_modifiers></argset>no es suficientemente competitiva " , indicó , por su parte , el jugador . </example>
+        <example file="CESS-CAST-P/108_19990602.tbf.xml" nodepath="4.2.0.0" sentencenodepath="4">Salgado ha despreciado <argset><head>ofertas </head><reference_modifiers>superiores a la del Madrid y también la del Celta</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/111_20000202.tbf.xml" nodepath="1.1.1.0" sentencenodepath="1">Según explicó el coordinador del área pública de CCOO , Juan_Carles_Gallego , <argset><specifier>la</specifier><head>oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Generalitat</argument></argset>prevé además incrementar un 0,6% el sueldo en los próximos tres años . </example>
+        <example file="CESS-CAST-P/111_20000202.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Fuentes de UGT también calificaron <argset><specifier>la</specifier><head>oferta </head></argset>de " insuficiente " , aunque Ø mostraron su satisfacción por el hecho de que la Administración haya empezado a negociar una propuesta que los sindicatos lanzaron en octubre . </example>
+        <example file="CESS-CAST-P/121_19991202_a.tbf.xml" nodepath="5.4.0.0" sentencenodepath="5">Como Ø son muy buenos , como Ø han ganado muchos rallys y más de un título , no les faltaron <argset><head>ofertas </head></argset>. </example>
+        <example file="CESS-CAST-P/125_19990701.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La película griega Cavafy , de Iannis_Smaragdis , que sigue la biografía del poeta de Alejandría Constantinos_Kavafis , será <argset><specifier>la</specifier><head>oferta </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de esta noche ( 22.30_horas )</argument></argset>en la sección oficial del festival de cine NET-99 , dedicado a los nuevos talentos europeos . </example>
+        <example file="CESS-CAST-P/132_20010102.tbf.xml" nodepath="1.3.4.0.1.2.1.1.1.3.3.1.2.3.1.1.0" sentencenodepath="1">Nats_Nus es un ejemplo de ello : tras el éxito de su primer montaje infantil , Caixes , Ø presenta Set , una obra pensada para acercar las siete artes al pequeño espectador , buscando en la fórmula el contenido pedagógico que se reclama en <argset><specifier>la</specifier><head>oferta </head><reference_modifiers>destinada al mundo infantil</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/136_20010102_b.tbf.xml" nodepath="0.2.0.1.1.1.1.0.2.1.0" sentencenodepath="0">La rumba con pedigrí de Peret , el pop alternativo de Los_Planetas y la caravana balcánica de El_tiempo_de_los_gitanos despuntan dentro de un Actual-2001 que estructura <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">musical</argument></argset>en diversas noches temáticas y que incorpora un nuevo escenario con capacidad para 2.200 personas . </example>
+        <example file="CESS-CAST-P/136_20010102_b.tbf.xml" nodepath="7.1.1.0" sentencenodepath="7">Y <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">musical</argument></argset>se desplazará el Sábado hacia los Balcanes y Asia con el multitudinario espectáculo El_tiempo_de_los_gitanos . </example>
+        <example file="CESS-CAST-P/136_20010102_b.tbf.xml" nodepath="9.0.1.2.1.1.1.0.0.1.0.1.1.1.1.1.1.0" sentencenodepath="9">Un perfil artístico radicalmente distinto al del viernes , jornada dedicada a <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">electrónica</argument><reference_modifiers>Máquinas_con_corazón</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/146_19991001.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>La</specifier><head>oferta </head></argset>no se concentrará en el público familiar , como hasta ahora . </example>
+        <example file="CESS-CAST-P/21_20000401.tbf.xml" nodepath="6.0.1.1.0" sentencenodepath="6">Si <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de IU</argument></argset>tuvo poca demanda el 12-M , los compañeros y las compañeras no tienen la culpa . </example>
+        <example file="CESS-CAST-P/32_19981202.tbf.xml" nodepath="4.3.2.1.1.0" sentencenodepath="4">Una vez anclado el frente económico , habrá que revisar los argumentos en_favor_de la independencia , para adaptar <argset><specifier>la</specifier><head>oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los separatistas</argument></argset>a los deseos populares . </example>
+        <example file="CESS-CAST-P/36_19990301.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">Los centros defienden <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head argument="arg1" thematicrole="pat">oferta </head></argset>en la víspera del inicio de las prematriculaciones . </example>
+        <example file="CESS-CAST-P/38_19990902_b.tbf.xml" nodepath="2.0.3.1.0" sentencenodepath="2">Los populares y los localistas de UPM han declinado , por ahora , <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del presidente</argument></argset>, mientras_que el PSOE está a_la_espera_de que estos dos partidos se sumen al Gobierno . </example>
+        <example file="CESS-CAST-P/41_20000601.tbf.xml" nodepath="0.4.1.0" sentencenodepath="0">La cúpula de Convergència_Democràtica_de_Catalunya ( CDC ) no ve clara <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del posible acuerdo de gobierno con Esquerra_Republicana_de_Catalunya ( ERC )</argument></argset>. </example>
+        <example file="CESS-CAST-P/45_20010302.tbf.xml" nodepath="6.1.0.2.1.0" sentencenodepath="6">Al acabar la entrevista , el anciano político rechazó <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la emisora</argument></argset>y Ø se negó a utilizar un coche para salir directamente desde el aparcamiento subterráneo . </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="17.2.5.1.1.1.0" sentencenodepath="17">Ø Dijo que , por_contra , el Ejecutivo vasco mostró más flexibilidad al subir <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>oferta </head><reference_modifiers>inicial</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del cupo</argument></argset>de 174.000 millones hasta 181.471 millones . </example>
+        <example file="CESS-CAST-P/80_20000701.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">La nueva zona de tiendas se suma a <argset><specifier>la</specifier><head>oferta </head><reference_modifiers>ya existente</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Rogent , Sèquia_Comtal y Cabanyal</argument></argset>. </example>
+        <example file="CESS-CAST-P/94_20000802.tbf.xml" nodepath="8.0.1.2.0.2.1.0" sentencenodepath="8">" Ø Era intransferible , uno de los líderes del equipo , pero Ø ha sido <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">oferta </head><reference_modifiers>interesante</reference_modifiers></argset>para él y para el club y yo no soy nadie para opinar . Ø Ha decidido salir para ir al Milan , pero Ø lo hace con la cabeza alta " , añadió el jugador . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="ofertar" originlink="verb.ofertar.1" wordnetsynset="16:09726614">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/37_20000902.tbf.xml" nodepath="6.3.0.1.1.1.1.1.0.2.1.0" sentencenodepath="6">En la reunión de la ejecutiva socialista , que ayer se centró en preparar el curso político , la dirección del partido estuvo de_acuerdo en la necesidad de plantear como prioridad <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un pacto local catalán</argument></argset>, y que éste se articule en_paralelo al que impulsa el Gobierno central . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="ofrecer" originlink="verb.ofrecer.1" wordnetsynset="16:09726614">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">El diseñador de moda orensano Roberto_Verino no descarta aceptar <argset><specifier>una</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para establecer su centro de producción en Madrid</argument></argset>, ante las dificultades que Ø encuentra en_materia_de incentivos para desarrollar nuevos proyectos . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="7.3.3.1.1.1.1.1.0" sentencenodepath="7">Teniendo_en_cuenta el futuro de su empresa y de sus trabajadores , Ø aseguró que Ø estudia la posibilidad de aceptar <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de instalarse en Madrid</argument></argset>. </example>
+        <example file="CESS-CAST-P/153_20020501.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Para los amantes de las sensaciones fuertes , se acaba de ampliar <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">gastronómica</argument><argument argument="argM" function="cn" thematicrole="loc" type="s.a">londinense</argument></argset>. </example>
+        <example file="CESS-CAST-P/53_20010802.tbf.xml" nodepath="1.4.2.1.1.0" sentencenodepath="1">El grupo Agnelli ha protagonizado recientemente una de las operaciones más importantes de la economía italiana , al lanzar <argset><specifier>una</specifier><head>oferta </head><argument argument="arg2" function="cn" thematicrole="ben" type="s.a">pública</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de adquisición</argument><reference_modifiers>( OPA )</reference_modifiers></argset>sobre el grupo industrial Montedison , con la colaboración de la francesa Electricité_de_France . </example>
+        <example file="CESS-CAST-P/55_20000903.tbf.xml" nodepath="15.0.2.1.0" sentencenodepath="15">La cadena de pequeños almacenes que Sepu aspira a tener repartidos limitarán <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>oferta </head></argset>a los artículos de confección , y de sus actuales 30 empleados sólo unos 15 proseguirán vinculados al negocio a_partir_de este mes . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="10.3.3.2.1.1.1.3.3.1.1.1.1.1.1.0" sentencenodepath="10">Enrico_Letta , ministro de Industria , al conocer la multa , dijo que Ø era " la demostración sobre la situación monstruosa en la que ha desembocado el sector de los seguros , con una semiliberalización sólo sobre los precios y con poca transparencia y competencia por_parte_de de <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">oferta </head></argset>" . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="5.3.1.1.1.1.3.1.1.2.1.0" sentencenodepath="5">El secretario general de la patronal , Miguel_Angel_Fraile , reclamó también la revisión de la ley de equipamientos comerciales de la Generalitat , normativa que gestiona y limita <argset><specifier>la</specifier><head>oferta </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">comercial</argument></argset>en Catalunya , como_consecuencia_de los cambios provocados por el nacimiento del gigante francés . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="13.3.3.1.2.1.2.1.0" sentencenodepath="13">Por esta razón , la CCC reclama que la Generalitat realice un nuevo estudio sobre el grado de concentración de grandes superficies y <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de comercios</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Catalunya</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="7.2.3.2.2.1.1.1.0.1.2.1.1.1.1.0" sentencenodepath="7">Ports_de_la_Generalitat también actuará para integrar los puertos y sus instalaciones en el entorno social y municipal en el que Ø están situados e Ø impulsará la cultura marinera , mediante el fomento y la promoción de actividades que supongan una mejora de <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">cultural , turística y social</argument></argset>. </example>
+        <example file="CESS-CAST-P/7_19990701.tbf.xml" nodepath="1.0.3.1.1.0" sentencenodepath="1">Aunque fuentes de ambos partidos evitaron cuantificar <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">oferta </head></argset>, otras consultadas por Europa_Press apuntaron que la cantidad podría superar los 500 millones . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="ofrecer" originlink="verb.ofrecer.1" wordnetsynset="16:09726614">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/11_20020402.tbf.xml" nodepath="5.1.2.1.1.0" sentencenodepath="5">Israel , en_vez_de estudiar <argset><specifier>la</specifier><head>oferta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de paz</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la cumbre de Beirut</argument></argset>, lanza su furia destructiva creyendo que con eso Ø zanjará la cuestión . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

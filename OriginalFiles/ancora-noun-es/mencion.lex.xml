@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="mención" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="mencionar" originlink="verb.mencionar.1" wordnetsynset="16:05069358">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="6.2.2.1.1.1.1" sentencenodepath="6">En Europa no dice gran cosa ese nombre , pero Ø merece más que <argset><specifier>una</specifier><reference_modifiers>pasajera</reference_modifiers><head>mención </head></argset>. </example>
+        <example file="CESS-CAST-P/124_20000102.tbf.xml" nodepath="4.0.0.1.3.3.0.0" sentencenodepath="4">La cercanía popular de Cavall_de_foc - - con <argset><head>menciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a La_dama_d'Aragó y Com_un_mirall</argument></argset>- - y el rescate de la cosecha del memorable Anells_d'aigua - - Dansa_de_la_primavera y Bir_demet_yasemen - - abrillantaron un repertorio quizá algo afectado por un superávit de mística y autocomplacencia espiritual . </example>
+        <example file="CESS-CAST-P/179_20010401.tbf.xml" nodepath="6.3.1.0.0.2.0.0.2" sentencenodepath="6">Torrente_2_Misión_en_Marbella se construye entre chistes al más puro estilo Torrente <argset>- - <head>mención </head>
+            <reference_modifiers>especial</reference_modifiers>
+            <argument argument="argM" function="cn" thematicrole="fin" type="sp">para el que tiene como víctima a la modelo Esther_Cañadas</argument>- - </argset>; persecuciones y referencias cómicas a la serie James_Bond - - con José_Luis_Moreno , al_parecer personaje reivindicable , ejerciendo de villano a lo Doctor_No - - y desfile continuado de amigos del director . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

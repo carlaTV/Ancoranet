@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="pase" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="pasar" originlink="verb.pasar.2" wordnetsynset="16:04893464+16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg4" thematicrole="des">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="8.2.5.2.1.0" sentencenodepath="8">Jane_West , director general del Comité_Organizador_de_los_Juegos_Paralímpicos_de_Sydney anunció que se han vendido ya cerca de 980.000 entradas , incluidos <argset><specifier>los 760.000</specifier><head>pases </head><reference_modifiers>de día</reference_modifiers><argument argument="arg4" function="cn" thematicrole="des" type="sp">para los distintos acontecimientos deportivos</argument></argset>. </example>
+        <example file="CESS-CAST-P/122_20020103.tbf.xml" nodepath="28.1.1.1.2.1.1.0" sentencenodepath="28">Hay muchas celebridades que acuden a <argset><specifier>los</specifier><head>pases </head><reference_modifiers>de moda</reference_modifiers></argset>, así_que me pareció apropiado incorporar a unos cuantos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="pasar" originlink="verb.pasar.3" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg4" thematicrole="efi">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10055_20000713.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Brasil buscará a_partir_de mañana , viernes , <argset><specifier>el</specifier><head>pase </head><argument argument="arg4" function="cn" thematicrole="efi" type="sp">a su primera final de la Copa_Davis</argument></argset>ante los vigentes campeones , los australianos , y sobre la incómoda hierba del ANZ_Stadium_de_Brisbane . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="pasar" originlink="verb.pasar.4" wordnetsynset="16:00366105+16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-2.tbf.xml" nodepath="3.1.1.1.0" sentencenodepath="3">Butragueño y Alfonso coexisten gozosamente en el presente , como Ø coexistieron ante el Albacete ( <argset><specifier>un</specifier><head>pase </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del 11</argument></argset>provocó el gol del 7 ) . </example>
+        <example file="3LB-CAST/d1-7.tbf.xml" nodepath="5.4.1.1.2.2.1.1.0" sentencenodepath="5">No se trató , por_añadidura , de un contraataque eléctrico por elegante o irresistible por brutal , resuelto en <argset><specifier>tres</specifier><head>pases </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de escueta y relampagueante verticalidad</argument></argset>. </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="7.0.3.0.0.1.5.2.2.1.0" sentencenodepath="7">" Queda , no_obstante , el amargor del error del portero ( Van_der_Sar ) . Mal_Del_Pierio , al que Ancelotti ( Carlo , técnico juventino ) pone en la izquierda , donde Ø falla <argset><specifier>los</specifier><head>pases </head><reference_modifiers>más simples</reference_modifiers></argset>y Ø nunca resulta incisivo " , añade Ø . </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="12.2.2.2.1.1" sentencenodepath="12">Así , el primer gol no se hizo esperar y a los siete minutos Holsen , tras <argset><specifier>un</specifier><reference_modifiers>gran</reference_modifiers><head>pase </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Lobatón</argument></argset>se colocó por delante en el marcador . </example>
+        <example file="CESS-CAST-AA/24070_20000329.tbf.xml" nodepath="7.3.1.0" sentencenodepath="7">Por su parte , Yugoslavia aplicó <argset><specifier>el</specifier><head>pase </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">corto y en profundidad</argument></argset>para poner en aprietos al meta Richard_Wright . </example>
+        <example file="CESS-CAST-AA/25617_20000929.tbf.xml" nodepath="2.2.1.1.0" sentencenodepath="2">Cuando el marcador reflejaba el 86-85 con el que finalizó el encuentro , el Guadalajara dispuso de la última posesión de balón pero a cinco segundos para la bocina final <argset><specifier>un</specifier><head>pase </head><reference_modifiers>defectuoso</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Floyd</argument></argset>dio_lugar a una pugna entre Goñi y el base Ricardo_Moraleda que finalizó con fuera_de_banda favorable al Bilbao_Basket y otorgó la victoria a los locales . </example>
+        <example file="CESS-CAST-AA/5021_20000206.tbf.xml" nodepath="7.0.5.1.1.1.0" sentencenodepath="7">En su primera intervención , el talismán del club Gremio se internó por la punta derecha del área para recibir <argset><specifier>un</specifier><head>pase </head><reference_modifiers>que no dejó caer en el césped</reference_modifiers></argset>, Ø dominó el balón con su bota hasta pasarlo por_encima_de un defensor y llegar hasta la cara del portero Renny_Vega , a quien Ø fusiló sin apelaciones . </example>
+        <example file="CESS-CAST-P/136_20010102_b.tbf.xml" nodepath="11.3.1.1.0" sentencenodepath="11">El_Laboratorio_del_circo centrará la atención del domingo con <argset><specifier>los</specifier><head>pases </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Leo_Bassi , Joan_Font , Tortell_Poltrona , Monti , Rumbaqueterumba , y Mau_Mau</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="estacionamiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="estacionar" originlink="verb.estacionar.1" wordnetsynset="16:00109535">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="17.2.3.2.1.0" sentencenodepath="17">Sánchez , quien dirigió las protestas del exilio cubano en enero para evitar la repatriación de Elián , precisó que el tránsito será lento en los alrededores del aeropuerto de Miami , uno de los de mayor tráfico aéreo en EEUU , y Ø tomarán <argset><specifier>los</specifier><head>estacionamientos </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de la terminal aérea</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="8.0.1.1.1.3.1.1.0.0" sentencenodepath="8">En su discurso , que estuvo precedido del <argset><head>estacionamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de tropas</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en los puentes de acceso a la capital</argument></argset>, Mejía señaló que , en adelante , deberán pagar impuestos los servicios de igualas " de cualquier naturaleza " , el entretenimiento y el correo . </example>
+        <example file="CESS-CAST-P/109_20010301.tbf.xml" nodepath="9.1.2.1.2.0.2.1.1.1.1.1" sentencenodepath="9">PLAZAS_EN_EL_CENTRO Las 1.500 plazas de pago de superficie ( zona azul ) de la ciudad , principalmente en el centro urbano , y las 1.893 de los párkings actuales 654 sólo en el Hospital_Parc_Taulí y 511 repartidas en <argset><specifier>tres</specifier><reference_modifiers>pequeños</reference_modifiers><head>estacionamientos </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en La_Concòrdia , Sant_Oleguer y la plaza de Mossèn_Geis</argument></argset>- - son insuficientes para la demanda . </example>
+        <example file="CESS-CAST-P/80_20000701.tbf.xml" nodepath="23.0.4.1.2.1.0.0" sentencenodepath="23">" El pasaje se humanizará cerrándolo al tráfico y al <argset><head>estacionamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de coches</argument></argset>" , explica Narváez . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

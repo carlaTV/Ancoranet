@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="exención" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="eximir" originlink="verb.eximir.1" wordnetsynset="16:10420170">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="8.3.1.1.1.1.0" sentencenodepath="8">Junto_a la reducción del impuesto a la renta , el control a la evasión , que en el caso del Impuesto al Valor_Añadido ( IVA ) puede ascender a un 40_por_ciento , y al contrabando , que según algunos estudios puede ser del_orden_de 2.000 millones de dólares anuales , se prevé la eliminación de <argset><specifier>algunas</specifier><head>exenciones </head><reference_modifiers>tributarias</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="9.0.0.1.0" sentencenodepath="9"><argset><specifier>La</specifier><head>exención </head><reference_modifiers>vigente</reference_modifiers><reference_modifiers>más importante</reference_modifiers></argset>es la que se aplica sobre el 30_por_ciento de los salarios de los trabajadores y sobre el cien_por_ciento de las prestaciones sociales y su abolición implicaría poner a tributar a todos los empleados . </example>
+        <example file="CESS-CAST-P/21_20000202_b.tbf.xml" nodepath="63.0.5.0.0.0" sentencenodepath="63">Si el 25_de_julio Ø dieran en Santiago_de_Compostela <argset><head>exenciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la contribución sobre la renta</argument></argset>en_vez_de indulgencias , no habría trenes suficientes en España para trasladar a tantos peregrinos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="eximir" originlink="verb.eximir.1" wordnetsynset="16:10420170">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4020_20000906.tbf.xml" nodepath="10.4.2.1.1.4.2.1.1.1.1.1.0" sentencenodepath="10">Hasta julio pasado , la inflación fue del 2,92_por_ciento , según la UCA , que atribuye el alza a los precios de los carburantes y de la electricidad , y a la eliminación de <argset><specifier>la</specifier><head>exención </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">del Impuesto_al_Valor_Agregado ( IVA )</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a los productos agropecuarios y a las medicinas importadas</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="combinación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="combinar" originlink="verb.combinar.1" wordnetsynset="16:00243962+16:06142606">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-0.tbf.xml" nodepath="7.0.1.0.1" sentencenodepath="7">De <argset><reference_modifiers>dicha</reference_modifiers><head>combinación </head></argset>nace una criatura con características propias . </example>
+        <example file="3LB-CAST/dc1-5.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>combinación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de adultos</argument><reference_modifiers>más frecuente</reference_modifiers></argset>es un trío constituido por una hembra y dos machos que la comparten casi por_igual . </example>
+        <example file="3LB-CAST/t3-2.tbf.xml" nodepath="2.0.4.2.3.1.1.1.1.1.0.1.1.0.1.2.0" sentencenodepath="2">Volver a la habitación , naufragar en una soledad gris a la espera del milagro del sol , deambular por una ciudad demasiado vista , sin otro objetivo que contemplar los resultados del cruce de negra e hindú , hindú y holandés , holandés y negra , español e hindú , mulata e hindú , holandesa y mulato <argset>, <specifier>todas las</specifier>
+            <head>combinaciones </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="s.a">raciales</argument>
+            <reference_modifiers>que según los prospectos turísticos convertían a Trinidad en un escaparate de la confusión de las razas tan espléndido como la playa de Copacabana</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-A/13507_20000918.tbf.xml" nodepath="7.2.3.1.1.3.1.1.1" sentencenodepath="7">Las chicas de Sergio_Vigil salieron volcadas al ataque y a los tres minutos Ø dispusieron de la primera ocasión clara en <argset><specifier>una</specifier><reference_modifiers>buena</reference_modifiers><head>combinación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre Aymar y Onetto</argument></argset>, que salió ligeramente desviada . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="5.4.3.4.5.2.0.2.1.1.1.0.1.1.1.0.0" sentencenodepath="5">Fuentes del sector automovilístico han señalado hoy a EFE que es muy probable que se mantenga el distintivo provincial aunque , con el escudo comunitario y la inicial de España en la banda azul , tal como recomienda la Comisión_Europea , sólo queda espacio para tres números con tres letras , lo que da una posibilidad de 27 millones de <argset><head>combinaciones </head></argset>, frente_a los más de 130 millones de los cuatro números y tres letras . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="6.4.2.2.0.0" sentencenodepath="6">El presidente del Parlamento_Vasco , Juan_María_Atutxa , consideró " desazonador que la clase política , en <argset><head>combinación </head><argument argument="arg2" function="cn" type="sp">con ciertos representantes de colectivos</argument></argset>, no haya sido capaz de llegar a un entendimiento para que su voz suene unívoca " en_contra_del terrorismo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="combinar" originlink="verb.combinar.1" wordnetsynset="16:00243962+16:05490939">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="8.6.2.3.1.1.0" sentencenodepath="8">Sin_embargo , la búsqueda de conductores orgánicos no se desarrolló hasta el descubrimiento del potente aceptor de electrones tetraciano-p-quinodima ( TCNQ ) en 1960 y el potente dador electrónico tetratiafulvaleno ( TTF ) en 1970 , lo que condujo en 1973 a <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>combinación </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para formar el complejo n-molecular dadoraceptor ( TTF-TCNQ ) ( fig. 3 ) , con una conductividad semejante a los metales ( véase la tabla 1 )</argument></argset>. </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="8.2.0.1.4.2.3.1.0" sentencenodepath="8">" Ø No vemos nada negativo en ello " , señaló Bezuidenhoud , quien no_obstante subrayó que " si Ø miramos <argset><specifier>la</specifier><head>combinación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de todas las leyes y las obligaciones que se imponen a los empresarios</argument></argset>, Ø podemos decir que la carga es demasiada , lo que constituye una de las razones del desempleo masivo " . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="5.2.5.2.0.1.1.1.0" sentencenodepath="5">Portillo señaló que su país afronta una difícil situación en el campo externo , como efecto de <argset><specifier>la</specifier><head>combinación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del mal uso de las políticas económicas</argument><argument argument="arg2" function="cn" type="sp">con la caída de los precios de los principales productos de exportación</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="combinar" originlink="verb.combinar.1" wordnetsynset="16:00243962">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-7.tbf.xml" nodepath="5.2.3.1.2.2.1.0" sentencenodepath="5">Quién sabe si , al_final , acabará cumpliéndose la profecía del premio Nobel de física estadounidense Isidor_Isaac_Rabi : - <argset><specifier>La</specifier><head>combinación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de técnica militar y ciencia</argument></argset>hace fácil aplicar ambas para destruir al ser humano , ya_que en_realidad no se trata de una estructura biológica muy fuerte . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="8.1.1.0" sentencenodepath="8">De_hecho , <argset><specifier>la</specifier><head>combinación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de moléculas fuertemente dadoras y aceptoras</argument></argset>no garantiza la formación del complejo , ya_que puede producirse una transferencia total de carga formando especies ( D+IA-I ) que se comportan eléctricamente como sustancias iónicas aislantes ( aislantes Mott-Hubbard ) . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

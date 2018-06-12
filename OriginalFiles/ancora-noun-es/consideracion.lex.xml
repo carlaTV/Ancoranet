@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="consideración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="considerar" originlink="verb.considerar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="10" type="void"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="cara_al" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a1-1.tbf.xml" nodepath="9.2.4.1.0.0.1" sentencenodepath="9">El narrador hace que las situaciones no sean otra_cosa_que <argset><reference_modifiers>ridículas</reference_modifiers><head>consideraciones </head></argset>o trivialidades convertidas en ideas trascendentes ... sin trascendencia porque Ø estamos ante el espejo que la vida es : vulgar , ridículo , grotesco , inhumano . </example>
+        <example file="3LB-CAST/a1-2.tbf.xml" nodepath="0.2.2.2.1.1.1.0.1.0" sentencenodepath="0">Cualquier apariencia se vacía de decoro y nos queda un monarca degradado a gañán o una reina sin <argset><specifier>más</specifier><head>consideraciones </head></argset>que la pobre ama de casa incapaz de otra_cosa_que tejer con las agujas de hacer calceta o de escribir al emperador una carta de marmota . </example>
+        <example file="3LB-CAST/dc2-4.tbf.xml" nodepath="9.0.4.1.1.0" sentencenodepath="9">Los millones de británicos que habrían sucumbido ante un ataque de estas características no deben sus vidas a <argset><specifier>ninguna</specifier><head>consideración </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">ética</argument></argset>: al_igual_que Ø ocurriera en la Primera_Guerra_Mundial con los gases asfixiantes , nadie se atrevió a ser el primero . </example>
+        <example file="3LB-CAST/r2-4.tbf.xml" nodepath="15.2.1.1.1.0.0" sentencenodepath="15">Las misivas , cuyo tono no se asemeja al de las cartas enviadas por la banda mafiosa a los empresarios vascos , incorporan una serie de <argset><head>consideraciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">políticas</argument><reference_modifiers>que han llevado a que cualificados miembros de la lucha antiterrorista alberguen ciertas dudas sobre su autenticidad</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/11977_20000215.tbf.xml" nodepath="3.0.7.0.0.0" sentencenodepath="3">" Ahora ya no existen intermediarios , ni amigos de los partidos que gobiernan , ni Filesas , ni <argset><head>consideraciones </head><reference_modifiers>de otro tipo</reference_modifiers><reference_modifiers>que afecten a las decisiones del Gobierno</reference_modifiers></argset>" , agregó Ø . </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="8.0.0.1.1.1.0" sentencenodepath="8">Al_hilo de <argset><specifier>esa</specifier><head>consideración </head></argset>Ø señaló que ante las coincidencias entre ETA y los dirigentes del PNV y con independencia del resultado de un proceso electoral , la articulación de una política de defensa de las libertades no puede estar sujeta a la duda , y esas son las decisiones políticas que se tienen que tomar en ese marco de fondo , no en cuestiones accesorias . </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="8.0.3.1.1.0.0" sentencenodepath="8">" El FMI y el BM necesitan llevar en <argset><head>consideración </head></argset>un ajuste de políticas nacionales en el que se tengan_en_cuenta las condiciones del comercio local " , agregó el representante de la UE . </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="3.4.1.1.0" sentencenodepath="3">Este , añadió Ø , " está por_encima_de <argset><specifier>otras</specifier><head argument="arg1" thematicrole="pat">consideraciones </head></argset>" , por lo que , aunque el caso de Elián sea " sensible políticamente , Ø creo que la administración norteamericana está haciendo lo que Ø tiene que hacer al_respecto " . </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="0.0.2.0.1.1.0.1" sentencenodepath="0">Al_menos 30 personas sufrieron heridas de <argset><reference_modifiers>distinta</reference_modifiers><head>consideración </head></argset>en los enfrentamientos entre manifestantes antigubernamentales y la policía en el centro de Belgrado y es posible que haya dos muertos , según los servicios de urgencia . </example>
+        <example file="CESS-CAST-P/108_20000602.tbf.xml" nodepath="3.2.1.1.0" sentencenodepath="3">Lerner indica que <argset><specifier>las</specifier><head>consideraciones </head><reference_modifiers>políticas</reference_modifiers></argset>fueron un factor importante en el caso de Evita . </example>
+        <example file="CESS-CAST-P/118_19990701.tbf.xml" nodepath="0.3.1.1.1.0.0" sentencenodepath="0">Al asturiano Yago_Lamela le ha salido otro rival de <argset><head>consideración </head><reference_modifiers>cara_al Mundial_de_Sevilla</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/119_20010401.tbf.xml" nodepath="11.2.4.1.1.1.0.1" sentencenodepath="11">Los deportistas rescatados presentaban heridas , síntomas de hipotermia y otras afecciones de <argset><reference_modifiers>diversa</reference_modifiers><head>consideración </head></argset>. </example>
+        <example file="CESS-CAST-P/125_19990501.tbf.xml" nodepath="15.2.2.4.1.1.1.0" sentencenodepath="15">Irureta sabe que en esta ocasión los números están en su contra , ya_que el equipo gallego no conoce el sabor de la victoria en el estadio azulgrana , pero Ø admite que Ø necesita un resultado de estas características para tener <argset><specifier>la</specifier><head>consideración </head><reference_modifiers>que hasta ahora no se le ha dado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/144_20010302.tbf.xml" nodepath="4.4.2.1.1.0" sentencenodepath="4">En un margen de 20 años , este deporte que nació en Uruguay en 1930 , ha crecido con una fuerza arrolladora , hasta lograr <argset><specifier>la</specifier><head>consideración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de mejor Liga del mundo , una etiqueta en la que ha tenido mucho que ver el constante goteo de técnicos y jugadores brasileños , que han ayudado a elevar el nivel</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_20020501.tbf.xml" nodepath="1.2.2.1.2.1.1.2.1" sentencenodepath="1">Ayer , en la Comisión_de_Asuntos_Exteriores_del_Senado , Ø auguró un " serio deterioro " de las relaciones bilaterales si ambas partes no logran un acuerdo y Ø reiteró el compromiso español de otorgar <argset>" <specifier>la</specifier>
+            <reference_modifiers>máxima</reference_modifiers>
+            <head>consideración </head>" </argset>a los gibraltareños , a cuyo ministro principal , Peter_Caruana , Ø invitó de_nuevo a sumarse al diálogo . </example>
+        <example file="CESS-CAST-P/71_19991201_b.tbf.xml" nodepath="2.2.3.1.0.0" sentencenodepath="2">CiU era favorable a la ley pero Ø apoyó a los populares por <argset><head>consideraciones </head><argument argument="argM" function="cn" thematicrole="adv" type="s.a">constitucionales</argument></argset>. </example>
+        <example file="CESS-CAST-P/77_20010502.tbf.xml" nodepath="0.2.2.1.1.0.1" sentencenodepath="0">Cinco personas , entre ellos tres veinteañeros y un padre y su hijo , fallecieron ayer y otras 18 resultaron heridas de <argset><reference_modifiers>diversa</reference_modifiers><head>consideración </head></argset>tras volcar el autobús en el que Ø viajaban . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="6.2.1.1.1.0.0" sentencenodepath="6">La niña Julia_B._M. , de 13 años , resultó muerta , y sus dos compañeros , Mauro_G. y Alvaro_G. , heridos de <argset><head>consideración </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="considerar" originlink="verb.considerar.2" wordnetsynset="16:03794865">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/3_20020501.tbf.xml" nodepath="9.3.1.1.1.2.1.2.4.4.1.1" sentencenodepath="9">Bajo las premisas asumidas por las partes de que la pervivencia del contencioso no tiene cabida entre dos estados amigos , y de que la situación actual es insostenible , Ø provoca dificultades y Ø no beneficia a los gibraltareños , Piqué reiteró el objetivo de " lograr un acuerdo global " que otorgará " un nuevo estatuto y el máximo respeto y <argset><specifier>la</specifier><reference_modifiers>máxima</reference_modifiers><head>consideración </head></argset>a los gibraltareños " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

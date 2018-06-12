@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="competencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="competer" originlink="verb.competer.1" wordnetsynset="16:10411732">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="en_materia_de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/11553_20000817.tbf.xml" nodepath="5.2.2.2.0.0" sentencenodepath="5">El Constitucional analiza si era procedente el recurso de amparo , si había <argset><head>competencia </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">del juez</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para admitir el caso</argument></argset>y si existían todos los requisitos para presentar un recurso de esa naturaleza . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="8.3.3.1.1.1.1.0.0" sentencenodepath="8">Para que sea posible la ampliación , Ø sostiene , hay que resolver también los mecanismos de toma de decisión en la UE y definir el reparto de <argset><head>competencias </head><reference_modifiers>a largo plazo</reference_modifiers></argset>, que debe ser entre Europa , las naciones y las regiones . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="8.4.3.0.0" sentencenodepath="8">Por su parte , la comisaria europea de Energía , Loyola_de_Palacio , dejó claro que la operación es <argset><head>competencia </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">de las autoridades españolas</argument></argset>, " siempre_que la fusión se mantenga dentro del mercado español " , a lo que Ø añadió que la Comisión_Europa deberá examinarla si la nueva entidad logra una proyección europea . </example>
+        <example file="CESS-CAST-AA/19559_20000923.tbf.xml" nodepath="0.2.1.4.1.0" sentencenodepath="0">El presidente de la Junta_de_Extremadura , Juan_Carlos_Rodríguez_Ibarra , cree que si el Gobierno vasco no cumple <argset><specifier>las</specifier><head>competencias </head><reference_modifiers>asignadas</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">en_materia_de seguridad pública</argument></argset>" alguien debería quitárselas " . </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="13.0.3.3.0.0" sentencenodepath="13">El juez federal Michael_Moore dictaminó hace dos semanas que sólo la secretaria de Justicia tiene <argset><head>competencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre el asunto</argument></argset>y ésta ya ha decidido que el niño debe regresar con su padre a la isla . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="11.4.3.0.1.1.1.3.1.0.0.0.1.4.1.1.2.3.0.1" sentencenodepath="11">Ø Fue asistente en la Facultad_de_Derecho belgradense desde 1970 hasta 1974 , año en que Ø fue despedido por nacionalista : Kostunica se había pronunciado en_contra_de los cambios constitucionales que concedían a los albaneses y otros pueblos de Yugoslavia <argset><reference_modifiers>enormes</reference_modifiers><head>competencias </head><reference_modifiers>, casi confederales</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="5.2.4.4.4.1.1.1.1.0" sentencenodepath="5">Vázquez_Raña reiteró que Segura conocía su descalificación " y a mí Ø me dijo que Ø no había violado las reglas de <argset><argument argument="arg2" thematicrole="ben" type="spec">su</argument><head>competencia </head></argset>" , tras de lo cual el dirigente mexicano realizó diversas acciones para tratar de defender la presunta victoria del atleta . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="39.2.1.1.2.1.2.0.0" sentencenodepath="39">Otro ejemplo más de este cambio es la comisión creada para atraer la inversión extranjera y que , asumiendo <argset><head>competencias </head><reference_modifiers>propias de la Administración</reference_modifiers></argset>, ha de facilitar a los empresarios las trabas burocráticas . </example>
+        <example file="CESS-CAST-P/37_20000902.tbf.xml" nodepath="7.2.1.2.0.1.1.0" sentencenodepath="7">El modelo económico que defienden los socialistas pasa por dotar a los ayuntamientos de <argset><specifier>más</specifier><head>competencias </head></argset>y de la correspondiente financiación para hacer_frente , por_ejemplo , a problemas como los generados por la inmigración o para poder desarrollar su propia política de empleo . </example>
+        <example file="CESS-CAST-P/75_19981202.tbf.xml" nodepath="0.2.0.1" sentencenodepath="0">El Ayuntamiento tendrá <argset><reference_modifiers>nuevas</reference_modifiers><head>competencias </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los terrenos de la enseñanza , los servicios sociales , la vivienda , la sanidad y la cultura</argument></argset>gracias_a la creación de consorcios en los que también participará la Generalitat que gestionarán estas áreas . </example>
+        <example file="CESS-CAST-P/75_19981202.tbf.xml" nodepath="2.3.1.1.1.3.1.0" sentencenodepath="2">La Carta también abre la posibilidad de que se asuman <argset><specifier>todas aquellas</specifier><head>competencias </head><reference_modifiers>que no detenten administraciones superiores</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="1.4.1.1.1.1.0" sentencenodepath="1">El Govern gestionará de forma conjunta , a_través_de la empresa pública Ports_de_la_Generalitat , los puertos de <argset><argument argument="arg2" thematicrole="ben" type="spec">su</argument><head>competencia </head></argset>, distribuidos a_lo_largo_del litoral . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="competir" originlink="verb.competir.1" wordnetsynset="16:00756855">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="por_parte_de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="2" preposition="para" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="46" postype="article" type="determiner"/>
+        <constituent frequency="16" type="void"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="14" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="1.3.4.1.1.1.3.3.3.1.0.2.1.0.1.1.0" sentencenodepath="1">El Departamento_de_Justicia dijo respecto_a la última comparecencia de la compañía que ésta no tiene_en_cuenta el hecho de que se ha determinado " que Microsoft ha cometido repetidamente graves violaciones legales y que es preciso aplicar remedios serios para restablecer <argset><specifier>la</specifier><head>competencia </head></argset>e impedir violaciones similares en el futuro " . </example>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="6.2.4.1.2.3.4.1.2.1.0.0" sentencenodepath="6">El letrado John_Warden considera que la propuesta del Gobierno convertiría a Microsoft en " la nica compañía del mundo que no ganará , Ø no podrá ganar , la próxima ronda de <argset><head>competencia </head></argset>" en la industria de los programas informáticos . </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="13.2.4.1.1.0" sentencenodepath="13">Ø Añadió que esta situación permitirá a España abrir <argset><specifier>la</specifier><head>competencia </head></argset>a operadores de servicios móviles que utilicen la red de otras empresas de telecomunicaciones con licencias de móvil antes que en Europa . </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="14.2.1.1.1.1.1.1.0.0" sentencenodepath="14">El presidente de la Comisión_del_Mercado_de_las_Telecomunicaciones mostró su preocupación por la falta de <argset><head>competencia </head></argset>en todo el mundo en la telefonía local , como consecuencia de que la liberalización de las telecomunicaciones se ha hecho por principios jurídicos y no técnicos y que hay que " hay que abrir este mercado como Ø sea " . </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="16.2.3.1.0" sentencenodepath="16">Ø Explicó que la puesta en marcha de las licencias de telefonía local vía radio va a suponer <argset><specifier>la</specifier><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los seis operadores que han ganado los concursos</argument></argset>. </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="17.4.0.1.1.0" sentencenodepath="17">José_María_Vázquez_Quintana explicó posteriormente a un grupo de periodistas que <argset><specifier>la</specifier><head>competencia </head><reference_modifiers>en la telefonía local vía radio que permite dar telefonía fija hasta el domicilio de los clientes con tecnologías móviles</reference_modifiers>, </argset>puede incrementarse por la llegada de nuevas tecnologías y que probablemente la evolución del UMTS permitirá a los cuatro operadores que tienen estas licencias dar telefonía local vía radio . </example>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="0.3.0.1.1.2.1.1.1.2.1.0" sentencenodepath="0">El presidente del órgano regulador de las Telecomunicaciones se mostró partidario de completar esta liberalización de las telecomunicaciones con otras medidas que incentiven <argset><specifier>la</specifier><head>competencia </head></argset>como_puede_ser abrir el acceso a la información de los clientes de Telefónica a otros operadores . </example>
+        <example file="3LB-CAST/r2-11.tbf.xml" nodepath="9.2.2.4.1.5.3.1.0.1.4.1.1.1.2.1.1.1" sentencenodepath="9">El presidente cree que en cada momento hay que aplicar una determinada política industrial y que ahora lo que corresponde es una - política industrial activa - , que debería suponer una - industrialización de la economía - , así_como la - generación de una concepción nacional de la industria instalada en España , aunque Ø no sea de propiedad española - , algo que no debe estar reñido con las reglas del libre mercado y de <argset><specifier>la</specifier><reference_modifiers>libre</reference_modifiers><head>competencia </head></argset>. </example>
+        <example file="CESS-CAST-A/10049_20001114.tbf.xml" nodepath="7.1.1.1.1.0.0" sentencenodepath="7">Tras el examen preliminar de la documentación presentada , los servicios de <argset><head>competencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de la Comisión_Europea</argument></argset>estiman que la operación podría entrar dentro del campo de aplicación de la reglamentación comunitaria sobre concentraciones . </example>
+        <example file="CESS-CAST-A/11317_20000817.tbf.xml" nodepath="6.2.1.0.1.1.4.2.1.2.2.1.1.1.1.0.1.1.1.0" sentencenodepath="6">La operación está sujeta a ciertas " condiciones suspensivas " , como la obtención de autorizaciones administrativas de_acuerdo_con el contrato de concesión y con la ley de defensa de <argset><specifier>la</specifier><head>competencia </head></argset>, y a otros requisitos como la confirmación de los vendedores que deberá ser emitida antes del 10_de_octubre próximo . </example>
+        <example file="CESS-CAST-A/11977_20000215.tbf.xml" nodepath="1.3.5.3.1.1.1.1.1.1.1.1.1.0" sentencenodepath="1">En unas declaraciones a los periodistas antes de visitar la feria de arte Arco , Rato afirmó que , en_contra_de lo que sucedía durante la Presidencia de Felipe_González , el Gobierno analiza todas las decisiones empresariales " bajo el prisma de la ley y , especialmente , bajo el prisma de la defensa de <argset><specifier>la</specifier><head>competencia </head></argset>" . </example>
+        <example file="CESS-CAST-A/11977_20000215.tbf.xml" nodepath="11.2.2.1.2.1.1.1.0.1.1.1.0" sentencenodepath="11">El Gobierno , apuntó Pimentel , se ha enterado de la operación , pero Ø no ha participado en la gestión del pacto entre el BBVA y Telefónica y lo que Ø va a hacer ahora es estudiar si él mismo vulnera o no algún tipo de reglas de <argset><specifier>la</specifier><head>competencia </head></argset>. </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="12.4.1.1.0" sentencenodepath="12">Además Ø sugirió a las autoridades mexicanas fortalecer <argset><specifier>la</specifier><head>competencia </head></argset>dentro del sistema financiero para que las instituciones bancarias reduzcan el margen de intermediación . </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="13.0.1.0.1.1.1.0.1.1.0.0" sentencenodepath="13">" El aumento del grado de <argset><head>competencia </head></argset>reduce los márgenes , Ø obliga a buscar mejoras de eficiencia y Ø conduce a la búsqueda de fórmulas de crecimiento que consuman pocos recursos propios y faciliten la rotación del activo " , concluyó Croissier . </example>
+        <example file="CESS-CAST-A/12633_20000315.tbf.xml" nodepath="1.0.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Asia , continente de " moda " en la actualidad para los turistas europeos</argument></argset>, los altos precios de los pasajes y la relación dólar-marco_alemán , fueron los obstáculos señalados por varios países para impedirles lograr todos sus objetivos . </example>
+        <example file="CESS-CAST-A/12633_20000315.tbf.xml" nodepath="6.3.1.1" sentencenodepath="6">Según la responsable del Sistema_de_Integración_Centroamericana ( SICA ) , Lucy_Valenti , los países asiáticos han generado <argset><specifier>una</specifier><reference_modifiers>fuerte</reference_modifiers><head>competencia </head></argset>con " paquetes " que cuestan la mitad que los de Latinoamérica , donde el turismo se ha convertido en una actividad vital por la cantidad de empleos que genera . </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="4.2.2.3.1.3.2.3.6.1.3.1.1.0" sentencenodepath="4">Milberg afirmó que a_partir_de ahora , BMW podrá concentrarse en su propia marca y que Ø producirá una nueva línea de pequeños automóviles , la llamada serie 2 , cuya fecha de lanzamiento Ø no quiso adelantar para no dar pistas a <argset><specifier>la</specifier><head>competencia </head></argset>. </example>
+        <example file="CESS-CAST-A/15392_20001220.tbf.xml" nodepath="2.3.1.1.1.3.1.1.1.1.1.1.2.1.1.0" sentencenodepath="2">Frente_a las críticas de una parte de los trabajadores , Ø recordó que la operación , que está sometida a la autorización de las autoridades europeas de <argset><specifier>la</specifier><head>competencia </head></argset>prevista para febrero próximo , se hizo con el beneplácito del presidente de SNET , André_Sainjon . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="13.2.8.1.1.5.1.0" sentencenodepath="13">El presidente de la Generalitat , Jordi_Pujol , reiteró que al gobierno catalán " no le gusta " el anuncio de un acuerdo de fusión entre las dos eléctricas al considerar que " Ø reduce al mínimo <argset><specifier>la</specifier><head>competencia </head></argset>" . </example>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="6.2.2.6.4.1.1.1" sentencenodepath="6">" Ø Tenemos dificultades - prosiguió Pascual - para conseguir estos permisos de operación en diferentes aeropuertos " y Ø añadió que , aunque el ministro de Fomento , Francisco_Alvarez_Cascos , ha señalado que la suma de las dos compañías no supone la adición aritmética de los permisos que poseen ambas , " Ø estaremos atentos , dado_que Ø podría atentar a <argset><specifier>la</specifier><reference_modifiers>libre</reference_modifiers><head>competencia </head></argset>" . </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="1.2.3.4.2.1.1.0.1.1.0" sentencenodepath="1">Rato , que se trasladó a Villabrázaro ( Zamora ) para inaugurar junto_con el presidente de Castilla_y_León , Juan_José_Lucas , las nuevas instalaciones del grupo Tablicia en esta localidad , afirmó que el Ejecutivo ha solicitado a las dos empresas " una copia exacta de sus planes " y , a_partir_de ello , " Ø estudiaremos cuáles son las consecuencias para <argset><specifier>la</specifier><head>competencia </head></argset>y para los ciudadanos y consumidores " . </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="2.0.3.2.2.1.1.1.1.1.1.0" sentencenodepath="2">" Ø No estamos en la época en la que para que los empresarios tomaran acuerdos o Ø decidieran fusiones o adquisiciones se pasaba por el poder político y a_veces , incluso , por la financiación del PSOE , sino_que ahora las decisiones las toman los empresarios cuando y como Ø les parece , pero Ø están sometidas a las reglas de <argset><specifier>la</specifier><head>competencia </head></argset>como el resto de los ciudadanos " , advirtió Rato . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="1.3.2.1.1.1.1.0.1.1.0.1.1.1.0" sentencenodepath="1">Según la diputada socialista , uno de los mayores errores ha sido limitar en la Ley_de_Hidrocarburos de 1998 la capacidad de actuación de los poderes públicos ante una estructura de la oferta de carácter oligopólico " propensa a ejercer su poder sobre minoristas y consumidores " , además_de establecer un esquema de órganos de defensa de <argset><specifier>la</specifier><head>competencia </head></argset>de " reducidas atribuciones " y " escasa neutralidad y transparencia " . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="2.3.1.1.3.2.4.1.1.1.1.1.1.1.1.1.1.1.1.1.0" sentencenodepath="2">Ø Acusó al Gobierno de , ante la situación actual de constantes subidas en los precios de los carburantes , " limitarse a endosar la responsabilidad de éstas al encarecimiento del crudo y a la debilidad del euro frente al dólar , en_vez_de analizar de forma rigurosa la estructura del mercado , el comportamiento de sus componentes y la eficacia de los órganos encargados de velar por la defensa de <argset><specifier>la</specifier><head>competencia </head></argset>" . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="4.3.3.1.1.1.0.1.0.3.1.3.2.1.0" sentencenodepath="4">El PSOE ha solicitado al Gobierno que Ø adopte una serie de medidas que , por un lado , aseguren una liberalización real del sector de los hidrocarburos que fomente <argset><specifier>la</specifier><head>competencia </head></argset>y que , por otro , regulen la intervención del Tribunal_de_Defensa_de_la_Competencia ( TDC ) y de la Comisión_Nacional_de_la_Energía ( CNE ) . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="5.0.1.1.2.1.0" sentencenodepath="5">Para lograr que aumente <argset><specifier>la</specifier><head>competencia </head></argset>, el PSOE pide que se garantice el acceso de terceros a las redes de almacenamiento y distribución de productos petrolíferos con el establecimiento del acceso regulado y con la atribución a la CNE de la competencia para fijar los cánones y peajes a pagar por su uso . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="5.3.4.2.1.1.2.1.1.0" sentencenodepath="5">Para lograr que aumente la competencia , el PSOE pide que se garantice el acceso de terceros a las redes de almacenamiento y distribución de productos petrolíferos con el establecimiento del acceso regulado y con la atribución a la CNE de <argset><specifier>la</specifier><head>competencia </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para fijar los cánones y peajes a pagar por su uso</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="8.3.5.1.1.1.0.1.0" sentencenodepath="8">Para asegurar el funcionamiento transparente y eficaz del TDC y de la CNE , el PSOE propone que los presidentes de ambos organismos comparezcan cada seis meses ante la Comisión_de_Economía_y_Hacienda del Congreso para informar de <argset><specifier>la</specifier><head>competencia </head><reference_modifiers>efectiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del mercado</argument></argset>y los precios de los carburantes . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="6.4.0.1.0.3.1.1.1.1.1.0" sentencenodepath="6">Respecto_a los requisitos que deberían darse para España , De_Miguel se refirió al " respeto riguroso de las reglas de <argset><specifier>la</specifier><head>competencia </head></argset>" en materia industrial y a la " plena aplicación " de la Política_Agrícola_Común a los candidatos a la adhesión . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="12.0.3.1.4.2.1.0.1.1.0.0" sentencenodepath="12">" México está en_desacuerdo_con que las inversiones " puedan escaparse " no por razones laborales o medioambientales , sino por razones de <argset><head>competencia </head></argset>" , argumentó la responsable diplomática , que añadió que eso no significa que su país no está comprometido con el cumplimiento de las reglas laborales o de respeto del medio_ambiente . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="14.3.1.1.1.0.3.2.2.1.0.0" sentencenodepath="14">El texto establece a nivel multilateral una serie de obligaciones , que no son jurídicamente vinculantes , para todas las compañías multinacionales de los Estados que las han suscrito , principalmente de carácter laboral , medioambiental , de <argset><head>competencia </head></argset>y de ética de negocios . </example>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="5.3.5.1.1.1.1.1.1.1.0" sentencenodepath="5">López_Amor pidió al empresariado español que Ø conceda a Hispasat , " en igualdad de condiciones " , cierta preferencia respecto_a otras empresas de <argset><specifier>la</specifier><head>competencia </head></argset>. </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="9.0.3.4.2.1.0.3.0" sentencenodepath="9">Por su parte , la directora de Ordenación_del_Territorio , Josefina_Cruz , reconoció que la situación es " complicada " , dado_que <argset>la " responsabilidad y <head>competencia </head>" <argument argument="arg0" function="cn" thematicrole="agt" type="sp">sobre la aprobación de la revisión del PGOU</argument>
+          </argset>reside en el Ayuntamiento y Ø subrayó que la Junta " no puede hacer de alcalde de Marbella " . </example>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="7.4.1.0.0" sentencenodepath="7">El C6 , previsto para el año_2004 , estará muy por_encima del C5 , con precios que superarán los siete millones de pesetas ( unos 37.200 dólares ) , en <argset><head>competencia </head><reference_modifiers>directa</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con berlinas de representación tipo BMW_serie_5 y Audi_A6</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4506_20000406.tbf.xml" nodepath="4.3.4.2.1.1.2.0" sentencenodepath="4">El especialista holandés consideró " vital " que los Quince establezcan una legislación para la estrategia de las pequeñas y medianas empresas ( PYMES ) en el sector de la defensa , para poder hacer_frente a <argset>" <specifier>la</specifier>
+            <head>competencia </head>" <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los fabricantes de armamento de EEUU</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/4618_20001207.tbf.xml" nodepath="0.5.2.1.1.2.1.0.0" sentencenodepath="0">El delantero colombiano Carlos_Castro que milita en Millonarios , equipo que quedó eliminado del cuadrangular final del Campeonato_Profesional_Colombiano , se afianza cada vez más como el goleador general del torneo , pues sus adversarios que están en <argset><head>competencia </head></argset>, se alejan cada vez más de la opción de alcanzarlo . </example>
+        <example file="CESS-CAST-AA/6823_20000810.tbf.xml" nodepath="3.3.5.1.1.2" sentencenodepath="3">En_cuanto_al binomio Internet-turismo , Medel aseguró que los empresarios de todos los sectores se están adaptando a las nuevas tecnologías por <argset><specifier>la</specifier>" <reference_modifiers>alta</reference_modifiers><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">internacional</argument>" <reference_modifiers>, algo que afecta tanto al turismo como a las finanzas</reference_modifiers></argset>, apostilló Ø . </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="2.0.4.2.1.0" sentencenodepath="2">" Este encuentro ha servido para que Microsoft tenga_en_cuenta que Ø puede instalar este centro en Cataluña , aunque <argset><specifier>la</specifier><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de ciudades como Berlín o Londres</argument></argset>es muy grande " , advirtió Joaquim_Triadú . </example>
+        <example file="CESS-CAST-AA/8551_20000114.tbf.xml" nodepath="5.2.7.3.1.2.1.1.2.1.0" sentencenodepath="5">Ø Consideran que estas compañías aéreas de manera se han puesto de_acuerdo en reducir la comisión , " en un esfuerzo concertado para eliminar las agencias de viajes , <argset><specifier>la</specifier><head>competencia </head></argset>y la libertad de escoger del usuario en los puntos de venta " . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="3.0.4.1.1.1" sentencenodepath="3">Asegurar la equidad económica y no claudicar en el combate contra la pobreza , fomentar la inversión privada nacional y extranjera , estimular <argset><specifier>una</specifier><reference_modifiers>real</reference_modifiers><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de mercados</argument></argset>, aumentar la competitividad de las empresas y descentralizar el Estado , son otras de las promesas del nuevo gobernante . </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>LA</specifier><head>COMPETENCIA </head></argset>. </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="4.1.2.0.1.1.2.1.0.1.4.1.1.0" sentencenodepath="4">Mas , un día después de tomar posesión del departamento , que arrebata a Treball el control de las mutualidades y aglutinará <argset><specifier>las</specifier><head>competencias </head><argument argument="arg2" function="cn" thematicrole="loc" type="s.a">autonómicas</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre seguros</argument></argset>, reclamó a la oposición una tregua los 100 primeros días de gestión , que " a cualquier gobierno se le respetan " . </example>
+        <example file="CESS-CAST-P/107_19991001.tbf.xml" nodepath="5.0.4.3.0.2.1.2.2.1.0" sentencenodepath="5">Además , España cuenta con 3.200 empresas alimentarias con más de 10 trabajadores , " lo que supone un exceso de capacidad instalada que hace <argset><specifier>la</specifier><head>competencia </head></argset>todavía más dura " , apuntó Jordana . </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="23.2.0.3.1.1.0" sentencenodepath="23">Walter_Goodefrot , su director en el Telekom , se mostraba optimista por la forma de su pupilo , pero a_la_vez Ø afirmaba que <argset><specifier>la</specifier><head>competencia </head></argset>iba a ser muy reñida : " Hay tres ciclistas que están por_encima_de los demás . Ø Son Armstrong , Pantani y Ulrich , pero las fuerzas estarán igualadas " . </example>
+        <example file="CESS-CAST-P/108_20000301_a.tbf.xml" nodepath="9.1.0.1.2.2.0.0" sentencenodepath="9">En una carrera española , como la Setmana_Catalana , que se disputa del 20 al 24 de este mes , 30 motoristas de la Guardia_Civil o de los Mossos_d'Esquadra , según <argset><head>competencias </head></argset>, 16 motos de enlaces y tres coches policiales se encargan de la seguridad de la carrera . </example>
+        <example file="CESS-CAST-P/109_19981201.tbf.xml" nodepath="10.4.1.1.1.1.1.0" sentencenodepath="10">Según la prensa británica , la operación podría tener algunas dificultades ante las autoridades de <argset><specifier>la</specifier><head>competencia </head></argset>tanto en Bruselas - - EDF es ya el mayor productor y proveedor europeo de electricidad - - como en el Reino_Unido , donde la firma francesa proporciona el 6% de la electricidad , con gran perjuicio para la industria minera , que se queja de una competencia desleal para las centrales de carbón . </example>
+        <example file="CESS-CAST-P/109_19981201.tbf.xml" nodepath="10.5.3.1.1.1.5.2.0.2.1.1.2.4.1.1.0" sentencenodepath="10">Según la prensa británica , la operación podría tener algunas dificultades ante las autoridades de la competencia tanto en Bruselas - - EDF es ya el mayor productor y proveedor europeo de electricidad - - como en el Reino_Unido , donde la firma francesa proporciona el 6% de la electricidad , con gran perjuicio para la industria minera , que se queja de <argset><specifier>una</specifier><head>competencia </head><reference_modifiers>desleal</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">para las centrales de carbón</argument></argset>. </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="6.4.1.0.1.1.1.0" sentencenodepath="6">Ø Llevan años al_servicio_de la empresa informativa dando muestras de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>competencia </head><reference_modifiers>profesional</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/144_20010302.tbf.xml" nodepath="6.0.3.1.0.1.4.1.0" sentencenodepath="6">La_Liga empezó a echar raíces en ciudades donde Ø no encontraba <argset><specifier>la</specifier><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de otros deportes</argument></argset>( Torrejón , Castellón , Segovia o Santa_Coloma ) , pero Ø ha logrado consolidarse también en plazas donde Ø comparte protagonismo con el fútbol , el baloncesto o el balonmano . </example>
+        <example file="CESS-CAST-P/158_20010501.tbf.xml" nodepath="0.3.2.1.1.1.1.1.1.2.1.1.0" sentencenodepath="0">El proyecto de fusión de las actividades de edición musical del grupo de comunicación alemán Bertelsmann ( a_través_de BMG ) y del inglés EMI ha entrado en la fase definitiva , a_la_espera_de que las condiciones exigidas por las autoridades europeas de <argset><specifier>la</specifier><head>competencia </head></argset>permitan la unión . </example>
+        <example file="CESS-CAST-P/17_20020801.tbf.xml" nodepath="6.3.1.0.3.1.0.2.1.0" sentencenodepath="6">El pacto que insinuó Rajoy se deriva del acuerdo sobre autogobierno alcanzado en el Parlamento vasco entre el PNV , EA e IU , con el beneplácito de Batasuna , para asumir más <argset><specifier>las</specifier><head>competencias </head></argset>y permitir un referendo de autodeterminación a_partir_de septiembre . </example>
+        <example file="CESS-CAST-P/17_20020801.tbf.xml" nodepath="8.3.4.1.0.1.3.1.1.4.1.1.1.0" sentencenodepath="8">Tres veces negó el líder peneuvista que su partido se vaya a " tirar_al_monte " en septiembre , cuando concluya el ultimátum que el lehendakari , Juan_José_Ibarretxe , dio a José_María_Aznar para traspasar <argset><specifier>las</specifier><head>competencias </head><reference_modifiers>pendientes</reference_modifiers></argset>a Euskadi . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="9.2.1.1.1.1.2.2.1.3.0.0.2.1.0.0" sentencenodepath="9">El estudio comparativo de dos cohortes con estas características fue el objeto de mi tesis doctoral presentada en la Universitat_de_Barcelona hace ahora seis años y cuyas conclusiones globales no sorprendieron a nadie : aquel colectivo MIR mostró mejor nivel de <argset><head>competencia </head><reference_modifiers>clínica</reference_modifiers></argset>que el resto , si_bien las diferencias fueron más destacadas en los aspectos de conocimientos que en los que analizaban más las cualidades del ejercicio profesional en sí . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="23.2.2.1.1.1.1.1.1.0.0" sentencenodepath="23">Esta reforma ha de establecer la adecuación del número y tipo de especialistas que el país necesita , la flexibilización en las áreas de <argset><head>competencia </head></argset>, el énfasis en la capacitación por_encima_de la titulación , la actualización de los programas formativos de_acuerdo_a la sociedad del siglo_XXI , la formación y motivación de los responsables de la tutorización y , por_encima_de_todo , la consolidación de un sistema de evaluación a la imagen del de las residencias de EEUU ( boards ) , que fue de donde nació el mismo sistema MIR hace más de 20 años . </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="7.2.4.1.0.2.1.0" sentencenodepath="7">El texto indica que la comisión sobre el desarme " recurrirá a la cooperación y <argset><specifier>la</specifier><head>competencia </head></argset>de la comisión especial ( la Unscom ) de la Agencia_Internacional_de_la_Energía_Atómica , del Secretariado_de_las_Naciones_Unidas y de cualquier otro órgano competente " , medida que pone_en_tela_de_juicio la preeminencia de la Unscom y limita sus potestades . </example>
+        <example file="CESS-CAST-P/26_20000802.tbf.xml" nodepath="8.2.1.2.1.0.2.3.1.1.1.1.0.0" sentencenodepath="8">Estas medidas están sujetas al restablecimiento " duradero " de una paz civil en la isla y al buen uso que haga la Asamblea corsa de las transferencias de <argset><head>competencias </head></argset>de aquí al 2002 . </example>
+        <example file="CESS-CAST-P/30_19990201.tbf.xml" nodepath="22.2.1.4.3.1.2.1.0" sentencenodepath="22">Poco después , el presidente del PP le eximió de la deuda , pero Ø le indicó por qué Ø había sido el elegido : " Ø No tienes que devolverme nada . Ø Estás ahí por tu capacidad de trabajo y <argset><argument argument="arg0" thematicrole="agt" type="spec">tu</argument><head>competencia </head></argset>. Ø No debes olvidar tu lealtad al partido , al proyecto y al país " . </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="5.2.2.3.1.1.1.1.1.0" sentencenodepath="5">Alemania recordó que ahora debe cumplirse el pacto de estabilidad y Ø reclamó que se respete el compromiso de evitar <argset><specifier>la</specifier><head>competencia </head><reference_modifiers>desleal</reference_modifiers></argset>en la fiscalidad . </example>
+        <example file="CESS-CAST-P/46_19981102.tbf.xml" nodepath="1.0.1.1.1.0.0" sentencenodepath="1">El traspaso de <argset><head>competencias </head></argset>se completó el 4_de_mayo con el relevo de la Guardia_Civil_de_Tráfico . </example>
+        <example file="CESS-CAST-P/46_20010802.tbf.xml" nodepath="4.2.0.1.1.1.0.1.1.1.3.3.1.1.1.0" sentencenodepath="4">La situación es equiparable a lo ocurrido en otros países europeos , incluido España , en que ha habido sanciones contra petroleras por restringir <argset><specifier>la</specifier><head>competencia </head></argset>. </example>
+        <example file="CESS-CAST-P/48_20000402.tbf.xml" nodepath="10.2.4.4.1.1" sentencenodepath="10">Esta cifra no_sólo ha atraído la atención de las empresas estadounidenses , sino_que Ø también ha aumentado su ansiedad , pues Ø augura <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">internacional</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">por la conquista de Cuba</argument></argset>, cuando desaparezca el embargo . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">Ø Limitaban <argset><specifier>la</specifier><head>competencia </head></argset>al pactar los precios en las pólizas del automóvil . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="10.3.3.2.1.1.1.3.3.1.1.0.2.0" sentencenodepath="10">Enrico_Letta , ministro de Industria , al conocer la multa , dijo que Ø era " la demostración sobre la situación monstruosa en la que ha desembocado el sector de los seguros , con una semiliberalización sólo sobre los precios y con <argset>poca transparencia y <head>competencia </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">por_parte_de de la oferta</argument>
+          </argset>" . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="6.2.0.1.1.1.2.1.1.0" sentencenodepath="6">El Ministerio_de_Economía ha comenzado a recoger información de los efectos que puede tener la fusión entre Carrefour y Promodès sobre <argset><specifier>la</specifier><head>competencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el sector español de la distribución</argument></argset>. </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="20.4.2.1.3.1.1.1.1.1.2.1.1.0" sentencenodepath="20">El vicepresidente de la Confederación_General_de_Medianos_y_Pequeños_Empresarios ( Copyme ) , Salvador_Bellido , mostró ayer una " gran preocupación " por la fusión , por entender que Ø supondrá la creación de un monopolio " que quita <argset><specifier>la</specifier><head>competencia </head></argset>y destruye la libertad de mercado " . </example>
+        <example file="CESS-CAST-P/83_19990701.tbf.xml" nodepath="4.1.2.0.1.1.1.0" sentencenodepath="4">También actuales cargos de RTVE como Javier_González_Ferrari y Javier_Grima , además_de la antecesora de éste en Sant_Cugat , Aurora_Catà ; colegas de <argset><specifier>la</specifier><head>competencia </head></argset>como Jordi_Vilajoana y Enric_Sopena ; el EX de la casa y abogado Ricard_Fernández_Deu ; así_como el analista político Fernando_Jáuregui , el director teatral Lluís_Pasqual y el campeón motociclista Sito_Pons . </example>
+        <example file="CESS-CAST-P/8_20010401.tbf.xml" nodepath="6.6.5.3.2.1.0.0" sentencenodepath="6">" La decisión del PP no beneficia a los intereses del país " porque " nuestros días estarán contados cuando Ø nos limitemos a trabajos de ensamblaje y Ø entremos en <argset><head>competencia </head><reference_modifiers>con mano de obra mucho más barata de Polonia o Hungría</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/94_20000802.tbf.xml" nodepath="10.0.2.1.3.3.1.0" sentencenodepath="10">" Ni Ø me lo esperaba , ni Ø me lo dejaba de esperar . Choca que un gran jugador del Barça fiche de_repente por el Madrid , pero así es el fútbol " , declaró el ex delantero del Racing , que espera <argset><specifier>una</specifier><head>competencia </head><reference_modifiers>muy dura</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="sp">para entrar en el equipo</argument></argset>: " Jugar va a estar muy complicado , pero no sólo para mí sino para todos . Cuando todos estemos en_forma , el entrenador va a tener problemas para elegir " . </example>
+        <example file="CESS-CAST-P/9_20010601_b.tbf.xml" nodepath="0.1.0.1.0" sentencenodepath="0">Después <argset><specifier>la propia</specifier><head>competencia </head></argset>y la ley de mercado acabará derivando en una rebaja de los precios o en un sistema más justo para que no paguen justos por pecadores . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="competir" originlink="verb.competir.1" wordnetsynset="16:10411732">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/5005_20001107.tbf.xml" nodepath="2.3.1.4.1.1.1.0.0" sentencenodepath="2">El motivo , según el proveedor , es que las tarifas de interconexión ( lo que tienen que pagar las empresas a Telefónica por dar acceso a la red a terceros ) limitan " sustancialmente las posibilidades de <argset><head>competencia </head><reference_modifiers>efectiva</reference_modifiers></argset>en el mercado de acceso a Internet " y " Ø ayudarán a consolidar aún más el dominio del mercado por_parte_de un solo operador " , en_referencia_a Telefónica . </example>
+        <example file="CESS-CAST-AA/5005_20001107.tbf.xml" nodepath="8.3.4.4.1.3.1.1.1.0.0" sentencenodepath="8">Retevisión ya anunció que Ø pedirá a la Comisión_del_Mercado_de_Telecomunicaciones ( CMT ) que Ø paralice estas tarifas hasta que se garantice la posibilidad de <argset><head>competencia </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">en igualdad de condiciones</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="competir" originlink="verb.competir.1" wordnetsynset="16:10411732+16:00756855+16:04014700">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="6.2.2.3.1.1.0" sentencenodepath="6">Asimismo , el NYSE cree que la CLOB disminuiría la liquidez del mercado en_vez_de acrecentarla y Ø considera que una medida de este tipo afectaría a <argset><specifier>la</specifier><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los distintos mercados</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="9.0.1.3.1.1" sentencenodepath="9">" Esta estructura de plataforma múltiple no sacrifica <argset><specifier>la</specifier><reference_modifiers>vigorosa</reference_modifiers><head>competencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los mercados</argument></argset>y Ø no tiene ninguna de las desventajas de un CLOB " , explica el informe del NYSE . </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="1.0.0.1.2.1.0.1.1.1.0" sentencenodepath="1">El decreto de medidas urgentes de intensificación de <argset><specifier>la</specifier><head>competencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en mercados de bienes y servicios</argument></argset>no_sólo incluía la libertad de horarios comerciales , sino_también , por_ejemplo , las medidas sobre el sector energético , el libre descuento de los libros , la potenciación de las mutuas laborales , etcétera . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

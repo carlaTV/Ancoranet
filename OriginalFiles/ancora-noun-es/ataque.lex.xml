@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ataque" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="atacar" originlink="verb.atacar.1" wordnetsynset="16:00494444">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="17" preposition="de" type="sp"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" preposition="contra" type="sp"/>
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+        <constituent frequency="3" preposition="a" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ins">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="32" type="void"/>
+        <constituent frequency="30" postype="article" type="determiner"/>
+        <constituent frequency="15" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="6" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="13" type="s.a"/>
+        <constituent frequency="7" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="6.4.5.1.0.1" sentencenodepath="6">Surgida en plena campaña para las elecciones municipales del próximo_domingo , esta crisis fue estimada por el Consejo_Supremo_de_Defensa_del_País como una " amenaza a la seguridad nacional " , al_tiempo_que el primer ministro , Mugur_Isarescu , la calificaba de <argset>" <head>ataque </head>
+            <reference_modifiers>concertado y especulativo</reference_modifiers>" </argset>. </example>
+        <example file="3LB-CAST/a14-3.tbf.xml" nodepath="4.4.7.1.0.1" sentencenodepath="4">Ø Iba arrastrando un_poco los pies porque Ø aún no se había repuesto del_todo del <argset><reference_modifiers>último</reference_modifiers><head>ataque </head></argset>. </example>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="4.0.2.1.1.1.1.1.0.0" sentencenodepath="4">La evolución de las defensas obligará a mejorar la calidad del <argset><head>ataque </head></argset>y esto irá en beneficio del espectáculo . </example>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="9.4.1.1.1.0.0" sentencenodepath="9">Sin_embargo , sabiendo defender se provocan más faltas de <argset><head>ataque </head></argset>con una defensa agresiva , ya_que los atacantes necesitan actuar con más velocidad y es más difícil controlar sus acciones . </example>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="8.0.0.1.1.1.0.2.2.1.0.0" sentencenodepath="8">Un equipo de férrea disciplina defensiva , fulgurante velocidad en <argset><head>ataque </head></argset>que le permite doblegar a casi todo el mundo , un banquillo rico y eficaz . </example>
+        <example file="3LB-CAST/d1-13.tbf.xml" nodepath="5.2.4.1.1.0" sentencenodepath="5">Ese hombre corre mucho y rápido , pero en_realidad Ø es un freno para <argset><specifier>el</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Madrid</argument></argset>. </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="4.0.1.0.0" sentencenodepath="4">En <argset><head>ataque </head></argset>, consiguiendo a_la_vez que todos los hombres mirasen a la canasta , que no sólo Fred_Roberts encestase sus suspensiones y triples , y que se crease algo parecido a un ataque interior para equilibrar las cosas contra Sabas y hacerle cometer faltas . </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="4.1.3.4.3.0.1.1.1.1.0" sentencenodepath="4">En ataque , consiguiendo a_la_vez que todos los hombres mirasen a la canasta , que no sólo Fred_Roberts encestase sus suspensiones y triples , y que se crease algo parecido a <argset><specifier>un</specifier><head>ataque </head><reference_modifiers>interior</reference_modifiers></argset>para equilibrar las cosas contra Sabas y hacerle cometer faltas . </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="14.0.0.2.3.4.1.2.1.0.0" sentencenodepath="14">Otra , más específica : con Norris y Savic había un verdadero juego interior en el conjunto blaugrana , pero con un Roberts que es un alero alto , pero endeble bajo los aros ( vean Ø por_ejemplo sus totales reboteadores ) , con un Massenburg potentísimo pero carente de un solo movimiento ofensivo de espaldas a la canasta , y con un Andreu de conocidas limitaciones , ya no existe ese juego interior en <argset><head>ataque </head></argset>. </example>
+        <example file="3LB-CAST/d2-1.tbf.xml" nodepath="6.1.2.1.1.1.1.0.2.1.1.2.1.0.0" sentencenodepath="6">Si Ø se lo hubiese propuesto , Ø habría alcanzado a Camargo y obtenido un botín de , al_menos , y según el origen kilométrico del <argset><head>ataque </head></argset>, otros treinta segundos sobre Zarrabeitia y Zülle , la Doble_Zeta del podio . </example>
+        <example file="3LB-CAST/d2-2.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>El</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Tony_Rominger</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">, a 500 metros de la meta ,</argument></argset>no le sirvió nada_más_que para sacar dos segundos a Alex_Zülle y a Mikel_Zarrabeitia . </example>
+        <example file="3LB-CAST/d2-2.tbf.xml" nodepath="10.2.2.3.0.1.1.0" sentencenodepath="10">Rominger sabe que Ø está a más de la mitad de carrera y que su táctica es esperar <argset><specifier>los</specifier><head>ataques </head></argset>, aguantarlos . </example>
+        <example file="3LB-CAST/d2-3.tbf.xml" nodepath="1.0.0.0" sentencenodepath="1"><argset><head>Ataques </head></argset>. - </example>
+        <example file="3LB-CAST/d2-3.tbf.xml" nodepath="7.0.1.1.1.0.0.0" sentencenodepath="7">El juego de <argset><head>ataques </head>y defensa </argset>fue ganado por el grupo de Tony_Rominger . </example>
+        <example file="3LB-CAST/d2-4.tbf.xml" nodepath="10.2.1.0" sentencenodepath="10">Pedro_Delgado recordará <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>ataque </head></argset>. </example>
+        <example file="3LB-CAST/d2-6.tbf.xml" nodepath="9.0.0.1.0" sentencenodepath="9"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head>ataque </head></argset>, sin_embargo , no perseguía atentar seriamente contra la dictadura de Rominger , sino distanciar a Zülle . </example>
+        <example file="3LB-CAST/dc10-1.tbf.xml" nodepath="3.2.0.1.1.1.2.3.1.0" sentencenodepath="3">Algunos de ellos son capaces , incluso , de sufrir mutaciones , evitando de esta forma <argset><specifier>el</specifier><head>ataque </head><reference_modifiers>directo</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los anticuerpos segregados para combatir una gripe o un catarro anterior</argument></argset>. </example>
+        <example file="3LB-CAST/dc10-3.tbf.xml" nodepath="1.2.0.1.1.4.1.2.1.2.1.1.1.0" sentencenodepath="1">Algunos son capaces de dormir en nuestro cuerpo durante largos años , sin ser advertidos por el sistema inmunológico , hasta que llega el momento propicio para desencadenar <argset><specifier>el</specifier><head>ataque </head></argset>. </example>
+        <example file="3LB-CAST/dc2-2.tbf.xml" nodepath="8.4.3.0.1.2.1.0.0" sentencenodepath="8">Al carácter imperceptible de tales armas contribuye en_gran_medida a este efecto psicológico , dado_que existen tantas formas posibles de <argset><head>ataque </head></argset>que resulta imposible prever y organizar la defensa , ni_siquiera de forma pasiva . </example>
+        <example file="3LB-CAST/dc2-4.tbf.xml" nodepath="9.0.0.1.1.1.0.1.2.1.1.0" sentencenodepath="9">Los millones de británicos que habrían sucumbido ante <argset><specifier>un</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de estas características</argument></argset>no deben sus vidas a ninguna consideración ética : al_igual_que Ø ocurriera en la Primera_Guerra_Mundial con los gases asfixiantes , nadie se atrevió a ser el primero . </example>
+        <example file="3LB-CAST/dc2-6.tbf.xml" nodepath="9.0.2.0.0" sentencenodepath="9">Los medios para conseguirlo pueden ser <argset><head>ataques </head><reference_modifiers>directos</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra la naturaleza</argument><argument argument="argM" function="cn" thematicrole="ins" type="sp">con defoliantes</argument></argset>, o_bien indirectos , mediante la propagación de plagas de insectos , pájaros , roedores u hongos . </example>
+        <example file="3LB-CAST/dc3-3.tbf.xml" nodepath="7.0.3.1.0" sentencenodepath="7">La casi desaparición de zonas amorfas impide ahora <argset><specifier>el</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del oxígeno del aire</argument></argset>, con lo que el poliacetileno dopado sintetizado por el método de Naarmann es estable al aire durante varias semanas . </example>
+        <example file="CESS-CAST-A/10044_20000313.tbf.xml" nodepath="0.4.4.5.4.1.0" sentencenodepath="0">La alcaldesa de Málaga y cabeza de lista del PP al Congreso por esta provincia , Celia_Villalobos , pidió hoy a los militantes de esta formación que Ø sepan " administrar la victoria " , porque " no vale la revancha , el insulto o <argset><specifier>el</specifier><head>ataque </head></argset>, eso es para ellos " . </example>
+        <example file="CESS-CAST-A/10209_20001114.tbf.xml" nodepath="2.2.1.1.1.1.0" sentencenodepath="2">Las navieras de Japón , de otras naciones del lejano oriente , de Oriente_Medio y de Europa han mostrado su preocupación por <argset><specifier>los</specifier><head>ataques </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra buques que navegan por el Estrecho_de_Malaca , el Mar_de_China_Meridional o las rutas entre Singapur e Indonesia</argument></argset>. </example>
+        <example file="CESS-CAST-A/13507_20000918.tbf.xml" nodepath="7.0.2.1.1.0.0" sentencenodepath="7">Las chicas de Sergio_Vigil salieron volcadas al <argset><head>ataque </head></argset>y a los tres minutos Ø dispusieron de la primera ocasión clara en una buena combinación entre Aymar y Onetto , que salió ligeramente desviada . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="6.4.1.1.1.1.0.0" sentencenodepath="6">Desde el inicio del debate , moderado por el periodista Jim_Lehrer , los dos políticos se enzarzaron en un intercambio de <argset><head>ataques </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por sus posiciones en la reforma sanitaria del país</argument></argset>. </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="11.0.2.1.1.1.2.1.0" sentencenodepath="11">El gobernador de Texas mantuvo la actitud de dejar de_lado <argset><specifier>los</specifier><head>ataques </head><reference_modifiers>específicos</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del vicepresidente de EEUU</argument></argset>, e Ø insistió en que había llegado el momento " de la unión " entre los partidos , al_tiempo_que Ø ridiculizó " la política de Washington " . </example>
+        <example file="CESS-CAST-A/14736_20000618.tbf.xml" nodepath="6.2.3.0.1.1.0" sentencenodepath="6">A_partir_de la vuelta 50 y durante las siguientes hasta su segunda detención , el piloto gerundense ha mantenido una impresionante lucha contra Dario_Franchitti ( Reynard/Honda ) , al_tiempo_que Ø defendía su séptima plaza ante <argset><specifier>los</specifier><head>ataques </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Roberto_Moreno ( Reynard/Ford )</argument></argset>y poco después de Paul_Tracy , que había superado al brasileño . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="4.0.5.2.0.1.1.0.1.1.2.1.1.1.0.0" sentencenodepath="4">" Se han visto más goles que muestras de buen juego . Una contradicción encarnada por el príncipe de la noche , Rivaldo : 3 goles . Más ímpetu que lucidez , más corazón que capacidad de rendir airosos y eficaces los esquemas de <argset><head>ataque </head></argset>" , se recoge en la crónica del partido de dicho diario . </example>
+        <example file="CESS-CAST-A/1538_20001103.tbf.xml" nodepath="9.4.1.0.2.1.0.1.4.1.1.0" sentencenodepath="9">Para el segundo tiempo el técnico local , Diego_Umaña , envió al campo a jugadores de experiencia como Carlos_Castro y Andrés_Pérez , quienes fueron fundamentales en <argset><specifier>el</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Millonarios</argument></argset>. </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="5.2.1.0.1.1.1.1.2.1.1.3.1.1.0" sentencenodepath="5">Dichas manifestaciones , las únicas permitidas por Pekín , sirvieron de vía para canalizar la ira del gobierno y de la población por los tres funcionarios muertos y 20 heridos en el incidente , interpretado por China como <argset><specifier>un</specifier><head>ataque </head><reference_modifiers>premeditado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/15839_20000123.tbf.xml" nodepath="2.2.1.1.1.1.1.0" sentencenodepath="2">Rato defiende el sistema de Oferta_Pública_de_Venta utilizado por el Gobierno del PP frente_a la política de fomento de " núcleos estables " practicada por el Ejecutivo del PSOE , además_de mostrarse muy crítico sobre <argset><specifier>los</specifier><head>ataques </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los socialistas</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">hacia el reparto de las opciones sobre acciones aprobado por Telefónica</argument></argset>. </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="15.2.3.5.1.0.0" sentencenodepath="15">El tanto dolió en las filas hondureñas y Ø pareció espolear su juego , ya_que Ø se fueron al <argset><head>ataque </head></argset>con mayor ambición de la demostrada hasta entonces . </example>
+        <example file="CESS-CAST-A/16730_20000221.tbf.xml" nodepath="5.0.3.1.1.0" sentencenodepath="5">En Michigan , el gobernador de Texas ha preferido concentrar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>ataques </head></argset>en el presidente de EEUU , Bill_Clinton , y en el vicepresidente y candidato demócrata , Al_Gore , insistiendo en que " quedan 260 días para el fin de la era Clinton-Gore " , mientras_que a McCain Ø se refirió con un " Ø espero que Ø se haya aprendido la lección " en Carolina_del_Sur . </example>
+        <example file="CESS-CAST-A/16875_20000321.tbf.xml" nodepath="3.3.1.5.2.4.1.2.1.1.1.0" sentencenodepath="3">En este sentido , Ø reconoció la " compleja situación " que se vive en su país , con la práctica sistemática de secuestros con los que " los insurgentes " quieren intimidar a la población civil de forma generalizada , el reclutamiento de niños por los paramilitares o los numerosos desplazamientos provocados por <argset><specifier>los</specifier><head>ataques </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">guerrilleros</argument></argset>. </example>
+        <example file="CESS-CAST-A/17037_20000423.tbf.xml" nodepath="11.2.4.1.0" sentencenodepath="11">Ø Aseguró que , desde el año_1989 , el PNV ha sufrido <argset><specifier>235</specifier><head>ataques </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra sus batzokis</argument></argset>, sin_contar_con otras formas de violencia contra este partido , por lo que , enfatizó Ø , " Ø no andamos de amiguetes con EH " , sino_que " Ø estamos pensando en Euskadi y en que esto ( la violencia ) hay que solucionarlo " . </example>
+        <example file="CESS-CAST-A/17992_20001022.tbf.xml" nodepath="4.2.3.2.0.1.2.1.1.0.0" sentencenodepath="4">Ø No lo hizo hoy y Ø ni_siquiera llegó a empatar , a_pesar_de nueva apuesta de Rojo - cinco jugadores de <argset><head>ataque </head></argset>acompañando a Urrutia de la defensa hacia adelante - , que sólo sirvió para provocar innumerables jugadas a balón parado , dilapidadas en ocasiones lastimosamente . </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="7.0.1.1.0" sentencenodepath="7">Ante <argset><specifier>los</specifier><head>ataques </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a una de las más destacadas figuras socialdemócratas y políticas del país</argument></argset>, el partido de Arias , el PLN , amenazó con abandonar el Congreso y paralizar su actividad . </example>
+        <example file="CESS-CAST-AA/20072_20000924.tbf.xml" nodepath="9.0.2.1.1.0" sentencenodepath="9">El Valencia intentó revitalizar <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>ataque </head></argset>con la salida de Carew pero fue el Numancia el que , a_pesar_de jugar en inferioridad numérica , llevó el peso del partido . </example>
+        <example file="CESS-CAST-AA/2061_20000803.tbf.xml" nodepath="3.0.3.1.0" sentencenodepath="3">Cuando se produjo <argset><specifier>el</specifier><head>ataque </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">cardiaco</argument></argset>, Letter estaba un kilómetro por_delante_de su esposa , Lotti , de 55 años , y de un guía peruano que les acompañaba , quienes le encontraron muerto cuando Ø llegaron hasta donde Ø estaba . </example>
+        <example file="CESS-CAST-AA/20778_20001126.tbf.xml" nodepath="9.0.3.1.0" sentencenodepath="9">Luego Elias_Chebet , Mohamed_El_Hattab e incluso el etíope Tummo_Turbo lanzaron <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>ataques </head></argset>, pero Ø fueron artificiosos , sin la chispa y potencia que requería un sostenido y solitario mando de la carrera . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="3.0.1.2.1.0" sentencenodepath="3">Al tildar de " terroristas " <argset><specifier>los</specifier><head>ataques </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Hizbulá</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra las fuerzas israelíes</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el sur del Líbano</argument></argset>, el pasado jueves en Jerusalén , Jospin ha dañado su imagen y la de Francia en Oriente_Medio al asestar una patada a la tradicional política pro árabe , institucionalizada en 1967 por Charles_de_Gaulle . </example>
+        <example file="CESS-CAST-AA/2692_20000705.tbf.xml" nodepath="8.4.1.1.0" sentencenodepath="8">Hace dos semanas , la ACNUR debió suspender sus actividades en los campamentos cercanos a Kupang tras <argset><specifier>los</specifier><head>ataques </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las milicias pro-indonesias</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">a su personal</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">, ante la presencia de los militares indonesios</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3224_20000304.tbf.xml" nodepath="13.0.3.0.0" sentencenodepath="13">Sus integrantes realizaron anteriormente <argset><head>ataques </head></argset>a otras sedes de partidos de las mismas características que los de ayer y Ø eran investigados por la policía al participar en algunas peleas de carácter racista , lo que ha provocado su rápida detención . </example>
+        <example file="CESS-CAST-AA/3900_20000906.tbf.xml" nodepath="4.0.1.1.1.0.0" sentencenodepath="4">La pareja de <argset><head>ataque </head></argset>la formarán Víctor y Marioni , aunque en el partidillo de entrenamiento el técnico alineó a ambos atacantes en el presumible equipo suplente . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="1.2.0.2.1.1.1.0.0" sentencenodepath="1">El equipo argentino jugó desde el minuto 47 con un hombre menos , por la expulsión de Leonardo_Ramos , pero la debilidad de la " U " y su falta de <argset><head>ataque </head><reference_modifiers>efectivo</reference_modifiers></argset>hicieron que la diferencia numérica casi no se notara . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="10.2.4.1.0.0" sentencenodepath="10">El técnico Gallego sacrificó a un delantero , Cardetti , por un volante , Zapata , mientras en el equipo chileno , más necesitado de puntos , César_Vaccia se sumó al <argset><head>ataque </head></argset>. </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="12.3.1.1.0" sentencenodepath="12">La " U " se fue desgastando en <argset><specifier>un</specifier><head>ataque </head><reference_modifiers>incesante pero monocorde y de pocas variantes</reference_modifiers><reference_modifiers>, que generalmente se diluía en centros que iban a_la_cabeza de los centrales argentinos o en remates que siempre encontraron bien situado al portero Bonano</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/102_19990202.tbf.xml" nodepath="16.4.2.1.0" sentencenodepath="16">Ø Calificó la crisis de Brasil de " muy grave " , por <argset><specifier>los</specifier><head>ataques </head><reference_modifiers>especulativos</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra su divisa</argument></argset>. </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="7.5.1.0" sentencenodepath="7">Ni el Valencia , ni el regreso del Piojo , ni <argset><specifier>los</specifier><head>ataques </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">externos</argument></argset>. </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="17.3.3.6.1.1.1.0.0" sentencenodepath="17">Ø Ha demostrado que Ø empieza a ser un digno aspirante porque Ø une calidad , ambición , un mecánico juego de posición que Ø ha logrado conjuntar y un potencial de <argset><head>ataque </head></argset>impresionante . </example>
+        <example file="CESS-CAST-P/11_20020902.tbf.xml" nodepath="14.0.5.3.1.0" sentencenodepath="14">" En todas Ø me decían : ' Espera Ø que Ø hagamos un estudio de mercado ' . Sony , en_cambio , lo vio al segundo . Cuando se enteraron las otras , Ø pillaron <argset><specifier>unos</specifier><head>ataques </head><reference_modifiers>de cuernos</reference_modifiers><reference_modifiers>que no veas</reference_modifiers></argset>" , dice Ø . </example>
+        <example file="CESS-CAST-P/122_19990202.tbf.xml" nodepath="5.2.1.2.2.0.0.1" sentencenodepath="5">La jornada previa al inicio de la Conferencia_Mundial sobre el Dopaje en el Deporte , cita que debía servir para magnificar el papel del COI en su lucha contra la lacra de la droga , siguió la misma tónica de los últimos días , con <argset><reference_modifiers>persistentes</reference_modifiers><head>ataques </head></argset>y una curiosa respuesta del servicio de prensa del organismo internacional , que desmanteló una_por_una las inexactitudes que los medios informativos han publicado en las últimas semanas referentes a la forma de vida y las presuntas prebendas de Samaranch . </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="1.0.3.3.1.1" sentencenodepath="1">En declaraciones a Europa_Press , Millàs consideró que las críticas del sector renovador son <argset><specifier>un</specifier>" <head>ataque </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra su persona</argument></argset>, pero , aun así , Ø dijo haber propuesto a Porta la confección de una candidatura única " siempre_y_cuando haya voluntad " por ambas partes . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="17.2.0.5.1.0.0" sentencenodepath="17">Con una agresiva defensa , los españoles anularon casi siempre las intenciones ofensivas de su rival y , cuando Ø se volcaron al <argset><head>ataque </head></argset>, Ø supieron explotar sus pocas ocasiones de gol . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="19.0.1.1.0" sentencenodepath="19">En <argset><specifier>el</specifier><head>ataque </head></argset>, la inteligencia de Estiarte y el oportunismo de Gómez fueron decisivos . </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="22.2.3.1.0.0" sentencenodepath="22">El delantero del Real_Madrid se desconectó del partido y España acusó su ausencia en <argset><head>ataque </head></argset>. </example>
+        <example file="CESS-CAST-P/135_19991201_d.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">Jean_Paul_Belmondo sufre <argset><specifier>un</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">cardiaco</argument></argset>en el escenario . </example>
+        <example file="CESS-CAST-P/135_20020301.tbf.xml" nodepath="8.2.3.4.1.0" sentencenodepath="8">Quizá pensó la vedette que un hijo la mantendría unida al productor y a su fortuna , pero Norma nunca pudo adivinar que el anuncio de embarazo produciría a Frade <argset><specifier>un</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de alergia</argument></argset>. </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="7.0.0.0" sentencenodepath="7"><argset><head>ATAQUE </head></argset>CONTRA DEFENSA . </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="8.3.1.2.1.0.0" sentencenodepath="8">El partido de hoy opone las virtudes de la defensa del Valencia , la menos goleada del continente , al alto rendimiento del <argset><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Leeds</argument><reference_modifiers>, que ha marcado 24 goles en los 14 partidos europeos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/157_20010201.tbf.xml" nodepath="3.3.0.1.1.1.0" sentencenodepath="3">Por eso , la industria discográfica es objeto de <argset><argument argument="arg1" thematicrole="pat" type="spec">sus</argument><head>ataques </head></argset>. </example>
+        <example file="CESS-CAST-P/160_20011002.tbf.xml" nodepath="9.1.0.1.0" sentencenodepath="9">Lo más formidable de esta rápida transformación es que la eficacia del Inter ha llegado sin sus dos grandes estrellas , Ronaldo y Vieri , <argset><specifier>un</specifier><head>ataque </head><reference_modifiers>con el que sueñan los interistas y que han truncado las constantes lesiones</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="12.2.1.1.2.2.1.0.0" sentencenodepath="12">César , un dominicano que da clases en Queens , vio durante la primera semana que siguió al <argset><head>ataque </head></argset>una quincena de pupitres vacíos , los de sus alumnos árabes . </example>
+        <example file="CESS-CAST-P/20_19990802.tbf.xml" nodepath="22.0.1.2.1.0.0" sentencenodepath="22">Las condenas de los partidos demócratas al <argset><head>ataque </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de ayer</argument></argset>tuvieron un tono especial por_parte_del PP y del PSOE , ya_que el atentado fue precedido por unas declaraciones de Arzalluz en las que Ø se mostraba convencido de que EH hace " todo lo posible " para acabar con la violencia callejera . </example>
+        <example file="CESS-CAST-P/20_19990802.tbf.xml" nodepath="27.0.3.1.0" sentencenodepath="27">El eurodiputado de EA Gorka_Knörr consideró " lamentable " <argset><specifier>el</specifier><head>ataque </head></argset>y Ø pidió a EH que Ø se desmarque de la violencia , aunque Ø lo haga sin " condenas rimbombantes " . </example>
+        <example file="CESS-CAST-P/20_20010702.tbf.xml" nodepath="0.4.5.2.0.1.1.1.0" sentencenodepath="0">La frontera entre Líbano e Israel vivió ayer una peligrosa escalada de violencia , cuando la aviación de este último país bombardeó una estación de radar siria situada a 60 kilómetros de Beirut , en represalia a <argset><specifier>un</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Hizbulá</argument><reference_modifiers>perpetrado el viernes</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/20_20010702.tbf.xml" nodepath="7.0.3.1.1.1.1.1.0.0" sentencenodepath="7">Tanto Damasco como Beirut se reservaron el derecho a replicar al <argset><head>ataque </head></argset>, mientras EEUU llamó a la contención . </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="16.0.1.0" sentencenodepath="16"><argset><specifier>El</specifier><head>ataque </head></argset>se produjo , según el Pentágono , cuando " aviones de guerra iraquís ingresaron en el área " . </example>
+        <example file="CESS-CAST-P/25_20000701.tbf.xml" nodepath="3.2.2.2.1.1.0" sentencenodepath="3">Copeland , un ingeniero de 24 años , había admitido ser el autor de los atentados , pero Ø intentó conseguir una rebaja en la pena alegando <argset><specifier>un</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de paranoia y esquizofrenia</argument></argset>. </example>
+        <example file="CESS-CAST-P/25_20011102.tbf.xml" nodepath="15.0.3.0.2.1.1.0" sentencenodepath="15">" No hay posible justificación para <argset><specifier>un</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">terrorista</argument></argset>, ni por ideas , ni por proyectos , ni por situaciones " , subrayó Ø . </example>
+        <example file="CESS-CAST-P/28_19990602.tbf.xml" nodepath="2.2.1.1.0" sentencenodepath="2">Shea admitió que <argset><specifier>esos</specifier><head>ataques </head></argset>" benefician indirectamente " a la guerrilla del UCK , que combate en esa zona contra los serbios en su intento de recuperar terreno . </example>
+        <example file="CESS-CAST-P/30_19990201.tbf.xml" nodepath="17.4.1.1.0" sentencenodepath="17">El nuevo secretario general no se olvidó de <argset><specifier>los</specifier><head>ataques </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">al PSOE</argument><reference_modifiers>, que arrancaron los aplausos del auditorio</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/31_19990401.tbf.xml" nodepath="5.3.4.1.1.2.3.1.1.1.1" sentencenodepath="5">Además , el Jefe_del_Estado_Mayor , Anatoli_Kvashnin , recordó que , pese_a la crisis , Rusia es un país con armas nucleares y que las utilizará para responder <argset><specifier>un</specifier><reference_modifiers>eventual</reference_modifiers><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la OTAN</argument></argset>. </example>
+        <example file="CESS-CAST-P/31_19990401.tbf.xml" nodepath="11.0.5.1.2.1.2.1.1.1.0" sentencenodepath="11">" Cuando Ø llegamos a Bonn , Ø nos dimos_cuenta de que existe una acción concertada para continuar <argset><specifier>los</specifier><head>ataques </head></argset>" , dijo Ø . </example>
+        <example file="CESS-CAST-P/31_19990401.tbf.xml" nodepath="12.1.2.1.3.1.1.1.1.1.1.0" sentencenodepath="12">Primakov , tras señalar que Ø continuará con los esfuerzos para detener <argset><specifier>el</specifier><head>ataque </head></argset>, añadió que Milosevic ha dado prueba de buena voluntad y de que la pelota está ahora en campo de la OTAN . </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="2.0.2.3.1.1.1.4.1.1.1.0.0" sentencenodepath="2">El incremento de aviones a disposición de la Alianza - - su número se ha duplicado respecto_al inicio del conflicto - - y la mejora de las condiciones meteorológicas permitieron que entre la tarde del Jueves y la madrugada del viernes salieran en total 600 vuelos , de los que la mayoría pudieron cumplir sus objetivos de <argset><head>ataque </head></argset>, informó el general Maroni . </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="5.0.2.4.1.0" sentencenodepath="5">El general Maroni señaló que en los próximos días se recrudecerán <argset><specifier>los</specifier><head>ataques </head></argset>, y Ø dirigió un mensaje admonitorio a las tropas serbias : " El tiempo mejora " . </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="7.3.4.2.0" sentencenodepath="7">El Pentágono anunció ayer que los helicópteros de combate Apache pueden lanzar pronto <argset>" <specifier>un</specifier>
+            <head>ataque </head>
+            <reference_modifiers>intenso</reference_modifiers>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra fuerzas serbias</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/35_19991202.tbf.xml" nodepath="12.3.1.0" sentencenodepath="12">Las fuerzas federales continuaron ayer <argset><specifier>los</specifier><head>ataques </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la artillería y la aviación</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre la capital , Grozni</argument></argset>. </example>
+        <example file="CESS-CAST-P/45_20020103.tbf.xml" nodepath="5.2.1.1.0" sentencenodepath="5">La acción , atribuida a separatistas musulmanes , consistió en <argset><specifier>un</specifier><head>ataque </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">con granadas</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra el Parlamento provincial de Srinagar , que se encuentra cerrado durante los meses de invierno</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000402.tbf.xml" nodepath="6.5.1.0" sentencenodepath="6">Si ETA intentó el pasado lunes matar al periodista de RNE Carlos_Herrera con un paquete bomba que no llegó a estallar por un fallo técnico , hace apenas dos semanas los padres de un redactor jefe de El_Correo también sufrieron <argset><specifier>el</specifier><head>ataque </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los violentos , que colocaron un potente artefacto ante su domicilio</argument></argset>. </example>
+        <example file="CESS-CAST-P/69_19991001.tbf.xml" nodepath="0.2.1.1.0" sentencenodepath="0">El instituto en el que estudia la víctima , de padres guineanos , asegura que <argset><specifier>los</specifier><head>ataques </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a estudiantes</argument></argset>se han incrementado . </example>
+        <example file="CESS-CAST-P/69_19991001.tbf.xml" nodepath="3.2.2.1.1.1.1.1.1.1.0" sentencenodepath="3">La dirección del Instituto_Pau_Vila , donde el adolescente estudia cuarto curso de ESO , condenó ayer el suceso y Ø mostró su preocupación por la proliferación de <argset>" <head>ataques </head>
+            <reference_modifiers>más o menos graves</reference_modifiers>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">a jóvenes</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/69_19991001.tbf.xml" nodepath="10.2.3.3.1.1.1.1.1.0.1.1.1.0" sentencenodepath="10">La directora del centro , Anna_Mas , aseguró que el acto pretende " rechazar la agresión y concienciar a los alumnos del incremento de <argset><specifier>estos</specifier><head>ataques </head></argset>" . </example>
+        <example file="CESS-CAST-P/70_20011102.tbf.xml" nodepath="2.0.3.1.2.1.1.0" sentencenodepath="2">La supresión de los vuelos de Delta_Airlines a Nueva_York y Atlanta desde Barcelona no es una consecuencia directa de <argset><specifier>los</specifier><head>ataques </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">terroristas</argument></argset>, sino un ajuste en la programación de la compañía coincidiendo con el final de la temporada alta . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="atacar" originlink="verb.atacar.1" wordnetsynset="16:00630513+16.00629246n">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="10.1.1.1.0" sentencenodepath="10">En 1941 , tras <argset><specifier>el</specifier><head>ataque </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Pearl_Harbor</argument></argset>, Franklin_Delano_Roosevelt confinó a más de 100.000 japoneses en campos de concentración . </example>
+        <example file="CESS-CAST-P/20_20010702.tbf.xml" nodepath="5.0.1.0.1.1.0.0" sentencenodepath="5">Minutos después del <argset><head>ataque </head></argset>, el Gabinete_de_Seguridad israelí emitió un comunicado en el que Ø responsabilizó a Damasco de " autorizar y apoyar las actividades de Hizbulá " contra Israel en la frontera común . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="atacar" originlink="verb.atacar.1" wordnetsynset="16:00629246+16:00291138+16:00625655">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-2.tbf.xml" nodepath="6.3.1.2.1.4.1.1.1.0" sentencenodepath="6">Así por_ejemplo , podría considerarse un tipo de arma para incapacitar temporalmente al enemigo , destruirle por_completo o doblegarle mediante <argset><specifier>el</specifier><head>ataque </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a sus recursos naturales</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="6.3.1.1.1.1.1.1.4.1.1.1.0" sentencenodepath="6">El triunfo permitió a los Marineros , líderes en la División_del_Oeste_de_la_Liga_Americana , un aviso a los Yanquis , que hoy ficharon al veterano toletero cubano José_Canseco para reforzar <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>ataque </head></argset>, pero que esta temporada no han podido con el equipo de Seattle que en las series tiene ventaja de 5-2 y podría mantenerla si ambos se enfrentasen en el Campeonato_de_División . </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="14.0.0.0" sentencenodepath="14"><argset><head>Ataque </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a las comunicaciones</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="ataque_al_corazón" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="atacar" originlink="verb.atacar.1" wordnetsynset="16:10134893">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/5253_20001207.tbf.xml" nodepath="7.0.0.1.4.1.1" sentencenodepath="7">Cheney , que el mes pasado superó <argset><specifier>un</specifier><reference_modifiers>leve</reference_modifiers><head>ataque </head><argument argument="argL" function="cn" type="sp">al corazón</argument><reference_modifiers>- el cuarto en veintiún años -</reference_modifiers></argset>, tiene a la venta su residencia de Dallas , por la cual Ø pide 3,1 millones de dólares . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="financiación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="financiar" originlink="verb.financiar.1" wordnetsynset="16:00712138">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="vía" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" type="void"/>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="6" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a15-1.tbf.xml" nodepath="4.2.1.1.1.0.0" sentencenodepath="4">El investigador que nunca descubre nada que no se populariza gracias_a algún descubrimiento suficientemente espectacular que lo haga aparecer en algún magazine televisivo , va perdiendo las fuentes de <argset><head>financiación </head></argset>. </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="28.2.2.1.1.1.1.1.1.1.1.2.6.1.1.1.1.0.0" sentencenodepath="28">Los gobernantes se comprometieron a poner_en_marcha " nuevas formas de participación " popular y Ø subrayaron la necesidad de modernizar las estructuras de los partidos políticos , a los que se les pidió transparencia en sus medios de <argset><head>financiación </head></argset>. </example>
+        <example file="CESS-CAST-A/10568_20001013.tbf.xml" nodepath="1.2.4.1.1.1.0.1.4.1.1.1.1.5.1.1.0" sentencenodepath="1">Jácome dijo que Ø ya recibió el borrador del acuerdo que le brinda a Panamá la oportunidad de una compra directa de petróleo a Venezuela ( de país a país ) con <argset><specifier>una</specifier><head>financiación </head><reference_modifiers>que permitirá el desarrollo de obras sociales</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="0.3.1.1.2" sentencenodepath="0">El Consejo_de_Seguridad_de_la_ONU abogó hoy Jueves por <argset><specifier>una</specifier>" <reference_modifiers>rápida y adecuada</reference_modifiers><head>financiación </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las operaciones de mantenimiento de paz de las Naciones_Unidas</argument></argset>, ya_que ésta es " crucial para el éxito " de los " cascos azules " . </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="3.0.1.1.1.1.1" sentencenodepath="3">La necesidad de <argset><specifier>una</specifier><reference_modifiers>rápida</reference_modifiers><head>financiación </head></argset>fue puesta_de_manifiesto asimismo por el secretario general de la ONU , Kofi_Annan , en su intervención ante ese órgano . </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="5.0.1.1.1.1.1" sentencenodepath="5">Las peticiones de <argset><specifier>una</specifier><reference_modifiers>rápida y adecuada</reference_modifiers><head>financiación </head></argset>coinciden con la apertura hoy Jueves de la revisión de la escala de cuotas que los Estados miembros de la ONU deben aportar al presupuesto de la organización para las misiones de mantenimiento de la paz . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="8.0.2.1.1.1.1.0" sentencenodepath="8">La elevación del techo competencial y la mejora de <argset><specifier>la</specifier><head>financiación </head></argset>serán , asegura Ø , condiciones sin las que CiU no dará su apoyo a ningún gobierno . </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="3.1.0.2.1.0.3.2.1.2.0.0" sentencenodepath="3">En una conferencia de prensa , Ø abogó por pactos comarcales para impulsar el empleo y el desarrollo económico liderados por los Ayuntamientos y con un compromiso del conjunto de la sociedad y <argset><head>financiación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de fondos europeos</argument></argset>y Ø puso el ejemplo del Pacto_Territorial_por_el_Empleo_de_la_Bahía_de_Cádiz . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="19.4.4.0.2.2.1.1.1.1.0.0" sentencenodepath="19">El diputado de Coalición_Canaria Luis_Mardones coincidió con De_Miguel en la exigencia de la ponderación adecuada del voto y en las prioridades de la ampliación , aunque Ø pidió " más precisión " en los costes de <argset><head>financiación </head></argset>y más poder vinculante de la Carta . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="12.0.5.1.1.1.1.0.2.2.1.1.1.1.0" sentencenodepath="12">Como en los últimos años , " el Tesoro mantendrá abierta la posibilidad de realizar emisiones oportunistas que conlleven un ahorro respecto_a <argset><specifier>la</specifier><head>financiación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">tradicional</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">vía bonos y obligaciones</argument></argset>" , apunta el Proyecto . </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="9.0.1.1.1.0.0" sentencenodepath="9">La ley de <argset><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de partidos</argument></argset>obliga a que todo donativo superior a 20.000 marcos sea declarado en la contabilidad interna con nombre y señas de los remitentes , algo que Kohl no hizo porque , argumenta Ø , Ø dio su palabra de honor de mantener a estas personas en el anonimato . </example>
+        <example file="CESS-CAST-AA/3865_20000204.tbf.xml" nodepath="9.0.3.4.1.1.1.0.0" sentencenodepath="9">Pese_a_que Ø ha reconocido que , entre 1993 y 1998 , Ø mantuvo un sistema de <argset><head>financiación </head></argset>paralelo de la CDU alimentado por donativos anónimos e ilícitos , Kohl dice " sentirse burlado " . </example>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="1.4.1.1.2.5.1.0.2.0" sentencenodepath="1">Valcárcel fue informado sobre este asunto por el presidente del Gobierno , José_María_Aznar , en la reunión que Ø mantuvieron en el Palacio_de_la_Moncloa , en la que Ø hablaron , además , sobre <argset>infraestructuras , como el tren de alta velocidad a Levante , <head>financiación </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="s.a">autonómica</argument>e inmigración </argset>. </example>
+        <example file="CESS-CAST-AA/8368_20000310.tbf.xml" nodepath="4.3.4.3.0.4.2.1.1.1.0.1.1.0.0" sentencenodepath="4">Tanto McCain como el demócrata Bill_Bradley , que también retiró su candidatura presidencial , han decidido no entregar sus delegados a Bush y Gore , pues Ø saben que sus seguidores pueden decidir asuntos programáticos controvertidos en la convención , desde la reforma del sistema de <argset><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">electoral</argument></argset>hasta el aborto . </example>
+        <example file="CESS-CAST-P/105_20000401.tbf.xml" nodepath="6.2.3.2.1.2.0.2.0.2.1.0.0" sentencenodepath="6">De poco sirve que las políticas económicas hayan contribuido a estimular el consumo - - más tráfico en los peajes - - y a bajar los tipos de interés - - menor coste de <argset><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">empresarial</argument></argset>y amortización más rápida - - . </example>
+        <example file="CESS-CAST-P/107_19991001.tbf.xml" nodepath="1.3.1.5.2.0.3.1.3.1.0.0" sentencenodepath="1">Piqué , que inauguró el segundo encuentro de la Federación_de_Industrias_de_Alimentación_y_Bebidas ( FIAB ) , instó a las empresas del sector a que Ø inviertan en el exterior para mejorar su competitividad , lo que exige en su opinión una " importante capacidad de <argset><head>financiación </head></argset>sólo asumible con un cierto tamaño " . </example>
+        <example file="CESS-CAST-P/10_20010402_b.tbf.xml" nodepath="8.3.1.1.0.2.1.0.0" sentencenodepath="8">Por_ejemplo , sólo el 2% de niños de 0 a 3 años en España están atendidos en escuelas de infancia de <argset><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">pública</argument></argset>, comparado con un 33% en Suecia , un 23% en Francia y un 30% en Bélgica . </example>
+        <example file="CESS-CAST-P/20_20000201_b.tbf.xml" nodepath="1.0.1.0.1.3.2.1.0" sentencenodepath="1">Para cuestiones que afectan a más de una autonomía ( como <argset><specifier>la</specifier><head>financiación </head></argset>) , el presidente andaluz pide menos reuniones bilaterales y más discusión de todos en_búsqueda_de amplios consensos . </example>
+        <example file="CESS-CAST-P/25_20011101.tbf.xml" nodepath="0.2.3.1.1.1.1.1.1.1.0.0" sentencenodepath="0">El Grupo_de_Acción_Financiera_Internacional ( GAFI ) ha anunciado que Ø extenderá sus acciones para perseguir las fuentes de <argset><head>financiación </head></argset>del terrorismo internacional , precisando que Ø prestará especial vigilancia a las cuentas bancarias de las ONG . </example>
+        <example file="CESS-CAST-P/35_20000202_a.tbf.xml" nodepath="1.0.1.0.2.1.1.1.0" sentencenodepath="1">El ex asesor fiscal de la Unión_Cristianodemócrata ( CDU ) y cerebro de <argset><specifier>la</specifier><head>financiación </head><reference_modifiers>irregular</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ex canciller Helmut_Kohl</argument></argset>, Horst_Weyrauch , abrió también cuentas secretas para la dirección federal del partido cristianodemócrata ( CDU ) . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="17.5.0.2.1.1.1.0" sentencenodepath="17">- - ¿ Ø Está de_acuerdo con CiU en que <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para Catalunya</argument></argset>es insuficiente ? - - </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="18.1.1.1.1.0.1.1.0.0" sentencenodepath="18">Habrá una mejora del modelo de <argset><head>financiación </head><reference_modifiers>autonómica</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para Catalunya y para el conjunto de comunidades</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="19.5.1.1.1.1.1.0.0" sentencenodepath="19">- - Según Piqué , la apuesta por el centro catalanista pasa por defender un modelo de <argset><head>financiación </head></argset>que reduzca la aportación de Catalunya . </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="20.4.1.0" sentencenodepath="20">- - Ø Proponemos <argset><specifier>una</specifier><head>financiación </head><reference_modifiers>que permita que Catalunya tenga más ingresos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/37_20000902.tbf.xml" nodepath="4.0.2.1.0" sentencenodepath="4">Aunque inicialmente <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">autonómica</argument></argset>no figuraba en esta selección de cuestiones " clave " para Catalunya , el presidente del PSC la abordará con Pujol desde esta perspectiva . </example>
+        <example file="CESS-CAST-P/37_20000902.tbf.xml" nodepath="7.2.1.2.2.1.1.1" sentencenodepath="7">El modelo económico que defienden los socialistas pasa por dotar a los ayuntamientos de más competencias y de <argset><specifier>la</specifier><reference_modifiers>correspondiente</reference_modifiers><head>financiación </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para hacer_frente , por_ejemplo , a problemas como los generados por la inmigración o para poder desarrollar su propia política de empleo</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="26.2.2.7.0.1.1.0.2.1.0.0" sentencenodepath="26">José_Gurrea , director de la clínica , y Roberto_Lertxundi , autor del estudio sobre el uso del nuevo fármaco , aseguraron que " la impotencia es una enfermedad , no un capricho " , y que , por ello , " con los controles necesarios que ya se ponen a otros fármacos , la Viagra no tiene por qué estar fuera del sistema público de <argset><head>financiación </head></argset>" . </example>
+        <example file="CESS-CAST-P/40_20000202.tbf.xml" nodepath="11.3.2.3.1.0.1.1.0.1.1.1.1.1.1.0.0" sentencenodepath="11">Precisamente la estrategia de Bradley para minar a su rival fue esgrimir el espectro del actual presidente , cuestionando la honestidad de su delfín en temas como la reforma de la ley de <argset><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">electoral</argument></argset>y el aborto . </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="9.3.1.2.1.1.1.0" sentencenodepath="9">En 1997 , Clinton decretó una moratoria de cinco años que impedía <argset><specifier>la</specifier><head>financiación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">pública</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las investigaciones</argument></argset>, pero no prohibía los trabajos privados . </example>
+        <example file="CESS-CAST-P/8_20011202.tbf.xml" nodepath="9.2.0.2.1.0" sentencenodepath="9">Las campañas exigirán una infraestructura y <argset><specifier>una</specifier><head>financiación </head></argset>que están fuera del alcance del común de los catedráticos que aspiran a la plaza . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="financiar" originlink="verb.financiar.1" wordnetsynset="16:00712138">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="10.0.3.1.0" sentencenodepath="10">Asimismo Ø defiende <argset><specifier>la</specifier><head>financiación </head><reference_modifiers>pública</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la investigación básica</argument></argset>y Ø pone de manifiesto que las empresas se centran más en la I_+_D con objetivos de mercado . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="3.4.2.2.0.1.1.0" sentencenodepath="3">Previamente , en una entrevista con el diario de Múnich " Süddeutsche_Zeitung " , Stoiber había precisado que Ø apoya la ampliación , pero que antes habrá que asegurar <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>financiación </head></argset>, reformar estructuralmente la Unión_Europea ( UE ) e informar claramente a la población de lo que se pretende . </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="0.3.5.3.1.1.3.2.2.1.1.0" sentencenodepath="0">El ministro de Economía , Rodrigo_Rato , afirmó hoy que el Ejecutivo actuará en la participación recíproca entre el BBVA y Telefónica " siempre en defensa de los intereses generales " , ya_que ha pasado la época en la que los acuerdos pasaban " por el poder político " e " incluso por <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del PSOE</argument></argset>" . </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="2.0.1.3.1.1.1.4.2.2.1.1.0" sentencenodepath="2">" Ø No estamos en la época en la que para que los empresarios tomaran acuerdos o Ø decidieran fusiones o adquisiciones se pasaba por el poder político y a_veces , incluso , por <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del PSOE</argument></argset>, sino_que ahora las decisiones las toman los empresarios cuando y como Ø les parece , pero Ø están sometidas a las reglas de la competencia como el resto de los ciudadanos " , advirtió Rato . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="5.2.1.1.1.1.2.1.1.2.1.1.2.3.1.0" sentencenodepath="5">La apuesta de Pujol obedece a su voluntad de situar como prioridad política para la próxima legislatura la negociación de un pacto autonómico que incremente el nivel del autogobierno y de un pacto fiscal que mejore sustancialmente <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>financiación </head></argset>. </example>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="8.0.1.0.2.1.0.0" sentencenodepath="8">Respecto_al próximo sistema de <argset><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">autonómica</argument></argset>, Valcárcel señaló que los planteamientos de Zaplana son " lógicos y sensatos " , aunque Ø mencionó " matices " en los que se entrará cuando se comience a negociar , en el sentido de " Ø no es tanto el poder obtener mayor porcentaje de IRPF para ser gestionado por las comunidades , cuanto el introducir nuevos impuestos de carácter especial " . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="1.3.1.1.2.1.4.1.1.0" sentencenodepath="1">El proyecto de modificación fue presentado por el Grupo_Socialista conforme_a la " necesidad de que se produzca un equilibrio económico en <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las concesiones que repercutan en el interés general de los ciudadanos</argument></argset>" . </example>
+        <example file="CESS-CAST-P/21_20020702_a.tbf.xml" nodepath="14.5.2.2.1.1.0" sentencenodepath="14">No_obstante , en 1990 se apuntaba como objetivo llegar al 4% a finales de siglo y destinar el 1% del PIB a <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>financiación </head></argset>. </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="1.3.1.1.1.0.0" sentencenodepath="1">Con cautela , para no contradecir el discurso de Josep_Piqué , Ø defiende un sistema de <argset><head>financiación </head></argset>que otorgue más ingresos a Catalunya . </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="0.0.1.1.1.1.1.1.1.1.1.1.0.0" sentencenodepath="0">La ruptura de las negociaciones para renovar el sistema de <argset><head>financiación </head></argset>de Euskadi ha abierto una profunda crisis institucional entre los Gobiernos de Madrid y Vitoria . </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="10.4.2.1.2.1.3.3.0.1.2.1.1.0" sentencenodepath="10">Según el ministro , todas las diferencias por resolver son subsanables , excepto la pretensión del Gobierno vasco de tener representación propia en la Unión_Europea cuando se discutan medidas que afecten a <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>financiación </head></argset>. </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="16.3.1.0.1.0" sentencenodepath="16">Además , Ø rehusó negociar <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la Ertzaintza</argument></argset>o la tributación de los no residentes . </example>
+        <example file="CESS-CAST-P/60_20011101.tbf.xml" nodepath="5.3.1.1.1.1.0.2.1.0.0" sentencenodepath="5">El Presupuesto crecerá el 10% por los ingresos del nuevo sistema de <argset><head>financiación </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="financiar" originlink="verb.financiar.1" wordnetsynset="16:00712138">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13108_20000120.tbf.xml" nodepath="4.2.3.1.1.0" sentencenodepath="4">La duración del programa es de seis años y la cantidad prestada por el BID se empleará en <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del primer trienio</argument></argset>. </example>
+        <example file="CESS-CAST-A/13810_20000617.tbf.xml" nodepath="7.2.2.2.2.1.1.2.1.1.0" sentencenodepath="7">Su editorial " Impulso_en_Fomento " recuerda que este es un departamento " que tiende a despertar simpatías porque , si Ø se gestiona bien , sus inversiones son muy tangibles " y Ø destaca " la apuesta de Alvarez_Cascos por la entrada de capital privado en <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las obras</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/22738_20000628.tbf.xml" nodepath="2.2.2.3.1.0" sentencenodepath="2">Ø Recordó que " hoy Estados_Unidos es de lejos el primer deudor del mundo y Ø tiene un déficit por cuenta corriente de 350.000 millones de dólares o incluso más " , y que una ralentización de su economía dificultará <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ese déficit</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="10.0.2.1.0" sentencenodepath="10">El Tesoro concentrará <argset><specifier>la</specifier><head>financiación </head><reference_modifiers>neta</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Estado</argument></argset>en bonos y obligaciones , mientras_que las emisiones en letras serán inferiores a las amortizaciones . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="8.3.1.2.2.1.1.2.1.0.0" sentencenodepath="8">2000_Enero / Febrero . - La Kneset rechaza varias mociones de censura presentadas por el Likud por un supuesto caso de <argset><head>financiación </head><reference_modifiers>irregular</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la campaña de Barak a las últimas elecciones generales</argument></argset>. </example>
+        <example file="CESS-CAST-P/37_20000902.tbf.xml" nodepath="5.3.1.1.1.1.2.3.1.1.1.1.1.1.1.1.0" sentencenodepath="5">Maragall propondrá al president la búsqueda de un consenso sobre el modelo de fiscal que incluya también una propuesta para solucionar el problema de <argset><specifier>la</specifier><head>financiación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los ayuntamientos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

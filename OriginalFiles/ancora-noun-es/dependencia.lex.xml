@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="dependencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="depender" originlink="verb.depender.1" wordnetsynset="16:10086663">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="5.4.1.1" sentencenodepath="5">En este sentido , los metales orgánicos tipo CTC muestran en_general <argset><specifier>una</specifier><reference_modifiers>acusada</reference_modifiers><head>dependencia </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de la conductividad</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">con la temperatura</argument></argset>. </example>
+        <example file="CESS-CAST-A/12547_20000119.tbf.xml" nodepath="4.2.2.3.0.3.1.2.1.1.0" sentencenodepath="4">Según Romero , la política medioambiental del Gobierno andaluz presidido por Manuel_Chaves ha sido " un desastre que Ø calificamos no con cero sino con puntos negativos " , y Ø afirmó que la última legislatura han sido " años perdidos para sacar a Andalucía de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>dependencia </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">en consumo energético</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="12.2.2.1.1.0" sentencenodepath="12">El borrador del Libro_Verde se ocupa en_general de la situación actual y el desarrollo futuro del aprovisionamiento energético de la UE , y Ø constata que <argset><specifier>la</specifier><head>dependencia </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de las importaciones</argument></argset>aumentará desde el 50_por_ciento actual al 70_por_ciento en un plazo de dos a tres décadas . </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="13.0.1.0" sentencenodepath="13"><argset><specifier>La</specifier><head>dependencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">ecuatoriana</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sp">del FMI</argument></argset>también se expresa en la necesidad del acuerdo para iniciar una reestructuración de la deuda exterior que sobrepasa los 16.000 millones de dólares y que representa el 113_por_ciento del producto interior bruto , el índice más alto de América_Latina . </example>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="3.0.2.0.1.0" sentencenodepath="3">Ø Recordó <argset><specifier>la</specifier><head>dependencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la región</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de las lluvias y del trasvase Tajo-Segura , que en este año ha superado los 500 hectómetros cúbicos</argument>, </argset>y el " agobio " para la agricultura que supone la escasez de agua , así_como riesgo de pérdida de masa forestal , además_de incidir en que Murcia necesita también agua para el consumo humano , la industria y el turismo . </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="10.1.1.1.5.1.1.0" sentencenodepath="10">Pero el England_United , como se ha bautizado a la selección inglesa debido_a <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>dependencia </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">del Manchester_United</argument></argset>- - cinco de sus jugadores fueron titulares - - , sólo contagió ilusión cuando España decidió desconectarse del partido . </example>
+        <example file="CESS-CAST-P/20_19991202.tbf.xml" nodepath="14.0.1.0" sentencenodepath="14"><argset><specifier>La</specifier><head>dependencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los partidos estatales</argument></argset>hace todavía más difícil solucionar el problema sin resolver de un gobierno más limpio en Catalunya . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

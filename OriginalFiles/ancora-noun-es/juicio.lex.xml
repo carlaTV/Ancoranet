@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="juicio" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="juzgar" originlink="verb.juzgar.1" wordnetsynset="16:00775201+16:04495853">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="26" postype="possessive" type="determiner"/>
+        <constituent frequency="9" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="4" preposition="contra" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="18" type="void"/>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="26" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="10.5.1.2.1.0" sentencenodepath="10">En este sentido , Ø instó a empresarios , sindicatos y administraciones a " cumplir la ley " de prevención de riesgos en el trabajo ya_que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, " Ø no vamos bien en lo que respecta a la siniestralidad " . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="10.0.1.1.0" sentencenodepath="10">A <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, el sistema sanitario público es " razonablemente bueno , pero con algunos riesgos " , ya_que el Sistema_Nacional_de_Salud " no se ha convertido en una de las prioridades de desarrollo del Estado_del_Bienestar " . </example>
+        <example file="3LB-CAST/a1-4.tbf.xml" nodepath="8.3.5.1.1.2.4.1.1.1.2.2.1.3.3.1.1.3.0.1" sentencenodepath="8">Pero Germán_de_Granda contempla sus muchos estudios , sus largas vigilias , la incomodidad de los infinitos viajes , y , como Ø es un hombre ingenuo ( Dios le guarde siempre la ingenuidad ) , al acabar el libro Ø se despacha en un prólogo apasionado - - Es muy posible que para algunos lectores superficiales , de los que abundan ( como en todas las especialidades científicas , Ø me temo ) en el campo de la Lingüística y se limitan , por lo regular , a echar una mirada distraída al índice o , cuando_mucho , a leer unas pocas páginas de la obra que llega a sus manos para emitir luego , con este exclusivo fundamento , <argset><reference_modifiers>sesudos y generalmente displicentes</reference_modifiers><head>juicios </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de valor</argument></argset>, etcétera - . </example>
+        <example file="3LB-CAST/a1-6.tbf.xml" nodepath="10.0.6.1.0.1.0.0" sentencenodepath="10">Por eso , al excesivo entusiasmo que produjo lo que se llamó - español atlántico - , Germán_de_Granda pone no pocos puntos sobre las es para atemperar <argset><head>juicios </head></argset>y moderar afirmaciones , pero no caigamos Ø en negaciones excesivas . </example>
+        <example file="3LB-CAST/a15-6.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">A_pesar_de esta visión quejica , en Estados_Unidos <argset><specifier>los</specifier><head>juicios </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra manifestantes que han quemado banderas americanas</argument></argset>se han resuelto a_menudo con una sentencia ejemplar : la libertad de expresión garantiza el derecho a quemar la propia bandera . </example>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="3.3.1.0.1.0.2.0" sentencenodepath="3">Más tarde la invasión de los bárbaros introdujo el denominado <argset>- duelo judiciario - o <head>juicio </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Dios</argument>
+          </argset>durante la Edad_Media , época en que los nobles y hombres libres lo utilizaron como procedimiento para zanjar sus diferencias . </example>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="10.3.1.1.1.3.1.2.3.1.1.0" sentencenodepath="10">El código del honor obligaba a los duelistas a observar unas reglas fijas establecidas : ambos contendientes habían de poseer el mismo rango social , de_lo_contrario las diferencias pasaban a solventarse en <argset><specifier>un</specifier><head>juicio </head><reference_modifiers>ordinario</reference_modifiers></argset>; Ø habían de llevar dos padrinos o testigos , encargados de determinar el grado de la ofensa , decidir la fecha , el terreno , el tipo de arma y la distancia que mediaría entre los adversarios . </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="3.2.4.1.1.0" sentencenodepath="3">Estos dos ex directivos del Sevilla están acusados por el fiscal anticorrupción , Carlos_Castresana , de tráfico de influencias , prevaricación y malversación de caudales públicos y se enfrentan cada uno de ellos a 5 años y diez meses de cárcel en <argset><specifier>el</specifier><head>juicio </head><reference_modifiers>que se sigue en Málaga por supuesto desvío de 400 millones de pesetas del consistorio marbellí al club de fútbol que preside Jesús_Gil</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="1.0.2.1.2.1.1.1.1.0.1.1.2.1.0" sentencenodepath="1">El secretario de política industrial de la Federación_del_Metal_de_CCOO , Ramón_Gorri , manifestó el malestar de su organización por la falta de transparencia con que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, se ha llevado_a_cabo la operación y Ø acusó a la Sociedad_Estatal_de_Participaciones_Industriales ( SEPI ) de haber actuado al_margen de los sindicatos . </example>
+        <example file="CESS-CAST-A/11714_20000314.tbf.xml" nodepath="5.0.1.0.0" sentencenodepath="5">A <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Alberto_Fernández</argument></argset>, el " debate real " en Cataluña está en si CiU afronta la legislatura " predeterminada por una aproximación a ERC y a planteamientos independentistas o_bien por los planteamientos de un PP que están construidos desde la moderación " . </example>
+        <example file="CESS-CAST-A/13555_20001218.tbf.xml" nodepath="4.2.0.1.3.1.1.3.1.2.1.0" sentencenodepath="4">" En aquella época todavía poca gente escalaba " ochomiles " y Ø fue una gozada " , apuntó Juanjo_San_Sebastián , quien señaló que la " industrialización " que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, ha sufrido la alta montaña en los últimos años le ha hecho perder la ilusión de participar en nuevas expediciones . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="7.0.1.1.1.1.0.0" sentencenodepath="7">Otro sector que a <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los expertos</argument></argset>ha sido clave en el desembarco de inversores españoles ha sido el bancario , donde sobresalen el BSCH y el BBVA . </example>
+        <example file="CESS-CAST-A/15931_20000320.tbf.xml" nodepath="6.0.1.0.0" sentencenodepath="6">A <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del lehendakari</argument></argset>, éste es " un principio que tendremos que aprender todos , primero el lehendakari , para recuperar uno de los elementos centrales como columna vertebral de la política que es que hay que defender los intereses generales de la sociedad y mucho menos los partidistas de cada cual " . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="2.0.1.1.2.2.1.0" sentencenodepath="2">La decisión , que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, demuestra la sintonía política con Mas ante el congreso del partido previsto para el mes_de_noviembre , favorece las opciones del portavoz del gobierno catalán y conseller de Economía en la " pugna " que Ø mantiene con el líder de UDC , Josep_Antoni_Duran_i_LLeida , por la sucesión de Jordi_Pujol en el seno de CiU . </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="8.0.0.1.0.0" sentencenodepath="8">A <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ministro de Economía</argument></argset>, el PSOE pretende " cambiar de criterio " y decir cosas distintas dependiendo de la comunidad de que se trate , y Ø subrayó que " no se puede jugar con el futuro de los españoles de esta manera " . </example>
+        <example file="CESS-CAST-A/18351_20000724.tbf.xml" nodepath="1.3.8.2.0.1.1.1.0" sentencenodepath="1">Jaime_Blanco afirmó en rueda de prensa que con la elección de Zapatero como nuevo secretario general del PSOE " se ha abierto en el partido un espacio de convivencia en el que se deben acabar las guerras de familia " , lo que a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, junto_con la " renovación de los renovadores " y el " cambio generacional " , son las razones por las que se ha elegido a este candidato . </example>
+        <example file="CESS-CAST-A/18351_20000724.tbf.xml" nodepath="6.2.2.6.0.1.1.1.4.2.2.1.0" sentencenodepath="6">Además Ø consideró que era " absolutamente necesario " que los ciudadanos visualizaran dicho cambio y Ø recordó que tras las elecciones generales , Ø ya se mostró partidario de la " renovación de los renovadores " , que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, es lo que se ha producido en el congreso . </example>
+        <example file="CESS-CAST-A/18733_20000223.tbf.xml" nodepath="11.4.1.0.2.5.6.1.1.1.1.1.0" sentencenodepath="11">El_Tribunal_Correccional de París también sentenciará hoy a Txuma_Puy_Lekumberri , presunto ex lugarteniente de Arizcuren_Ruiz , para el que la fiscal había solicitado cinco años de cárcel , ya_que se le imputan cargos menores en el sumario de <argset><specifier>este</specifier><head>juicio </head></argset>. </example>
+        <example file="CESS-CAST-A/18733_20000223.tbf.xml" nodepath="13.3.1.1.0" sentencenodepath="13">Además la fiscal había reclamado en <argset><specifier>el</specifier><head>juicio </head></argset>cinco años de cárcel para la alemana Petra_Elser , compañera de " Isuntza " , que está detenida , y para los demás juzgados en rebeldía : Juan_Carlos_Arriaran_Ibarra , Juan_Ramón_Carasatorre , María_Jesús_Elorza , Juan_Ignacio_Pérez_Aramburu y Zorion_Zamacaola . </example>
+        <example file="CESS-CAST-AA/20613_20000428.tbf.xml" nodepath="2.3.2.0.3.4.1.0" sentencenodepath="2">En conferencia de prensa que Ø ofreció hoy tras asistir a un multitudinario acto en Nueva_York , Toledo dijo que " si jueces independientes y expertos legales que trabajan con nosotros concluyen que ( Berenson ) no tuvo <argset><specifier>un</specifier><head>juicio </head><reference_modifiers>justo</reference_modifiers></argset>, Ø aguardaríamos recomendaciones para revisar el proceso , pero Ø no haremos distinciones jurídicas por cuestiones de nacionalidad " . </example>
+        <example file="CESS-CAST-AA/20613_20000428.tbf.xml" nodepath="10.3.1.1.1.1.1.0" sentencenodepath="10">" El Perú tiene que analizar esta situación " , mantuvo Ø tras insistir que en <argset><specifier>el</specifier><head>juicio </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra Berenson</argument></argset>" no hay ningún exceso " . </example>
+        <example file="CESS-CAST-AA/20613_20000428.tbf.xml" nodepath="11.3.1.0" sentencenodepath="11">" Acá hay <argset><specifier>un</specifier><head>juicio </head><reference_modifiers>justo</reference_modifiers><reference_modifiers>que se ha realizado</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/21126_20000129.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">A <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, " todo eso es posible hoy , falta la voluntad de ambas fuerzas de que , a_pesar_de haber acuerdo en candidaturas , sí lo hagamos Ø en programas , lo que supondría movilizar y multiplicar el voto de la izquierda " . </example>
+        <example file="CESS-CAST-AA/21176_20000626.tbf.xml" nodepath="0.2.4.1.1.1.1.1.1.1.0.1.2.1.1.0" sentencenodepath="0">El estadounidense Pete_Sampras ganó en su debut en Wimbledon con un 6-4 , 6-4 y 6-2 ante el checo Jiri_Vanek y en la conferencia de prensa posterior Ø se refirió a la postura tomada por los españoles Alex_Corretja y Albert_Costa , que a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>se ha comportado como niños al abandonar el torneo por discrepar del sistema de elección de los cabezas de serie . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="9.0.1.1.0" sentencenodepath="9">A <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, en esta cumbre " quedó meridianamente claro " que el " asunto crucial " de la Conferencia_Intergubernamental es " la valoración de los votos en el Consejo " . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="7.0.3.2.1.0.0" sentencenodepath="7">Miles de integristas islámicos , violentos y contrarios a la violencia , se encuentran encarcelados en Egipto sin <argset><head>juicio </head></argset>merced_a esta ley e incluso algunos destacados sindicalistas y defensores de los derechos_humanos están procesados por tribunales militares y de seguridad del Estado bajo esta legislación . </example>
+        <example file="CESS-CAST-AA/21730_20001026.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">A <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, Ø es una prueba del esfuerzo por mantener informado al Gobierno y a la sociedad de la situación del " Tireless " , no ha sido autorizada la entrada de ningún técnico español que pudiera verificar la información suministrada , queja que figura en la carta enviada ayer por Piqué a Londres . </example>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="9.0.2.2.1.0" sentencenodepath="9">Otra manera de superar las tradicionales barreras que propicia la globalización es , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, el idioma y en ese sentido Ø recordó que el español es la segunda lengua más hablada del mundo , y la segunda , asimismo , más utilizada dentro de Estados_Unidos . </example>
+        <example file="CESS-CAST-AA/23573_20001029.tbf.xml" nodepath="6.2.3.1.1.1.0.1.2.2.1.0" sentencenodepath="6">Castro expuso que las " realidades " que Ø ha visto en Venezuela en tres días son un anecdotario de calamidades , producto , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, de " siglos de politiquería y mentirosos " que han gobernado en esta " tierra privilegiada " desde 1958 , cuando cayó la dictadura de Marcos_Pérez_Jiménez , hasta que Chávez ha llegado con sus nuevas esperanzas al poder , hace 20 meses . </example>
+        <example file="CESS-CAST-AA/24092_20000928.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">A <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, " no_sólo Ø es cuestión de ver si el volumen de pasaje y de mercancías que hoy se está moviendo se corresponde con la instalación actual " , sino hacer lo necesario para que " ese incremento que se va a producir en todo el ámbito del Atlántico medio " pueda ser aprovechado por la isla . </example>
+        <example file="CESS-CAST-AA/3291_20000304.tbf.xml" nodepath="3.5.1.2.1.0" sentencenodepath="3">En este sentido , Fernández , que se reúne hoy con representantes del PP de las comarcas del Maresme , Osona , Berguedá y la Cerdanya , ha llamado al electorado del PP a movilizarse puesto_que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, " la concentración del voto " es la única vía para garantizar la continuidad del Gobierno de Aznar . </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="11.1.0.1.1.0.0" sentencenodepath="11">Con tan poco desempleo - a <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los analistas</argument></argset>un 4_por_ciento de cesantía equivale a una situación de pleno empleo - las empresas ya han empezado a ofrecer incentivos para sus empleados , como computadores gratis , gimnasios en las industrias y hasta coches deportivos para algunos ejecutivos . </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="18.0.1.0.0" sentencenodepath="18">A <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de muchos analistas</argument></argset>, la nueva política del Gobierno para con los títulos de 30 años hace pensar en que estos títulos pronto dejarán de ser el mejor indicador de las tendencias futuras de la inflación , y que en su preponderancia Ø serán reemplazados por los bonos a 10 años . </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="5.5.2.1.1.0" sentencenodepath="5">A_jucio_del NYSE no es conveniente la creación de una gran base de datos que informara sobre las órdenes pendientes de compra y venta a precios previamente determinados , pues a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>ninguno de los modelos de estas bases de datos ( conocidas en inglés como CLOB ) permitía satisfacer las necesidades de todos los agentes del mercado , institucionales e individuales . </example>
+        <example file="CESS-CAST-AA/5005_20001107.tbf.xml" nodepath="3.3.2.1.0" sentencenodepath="3">Los " altos " precios de interconexión no dejan - a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>- suficiente margen para cubrir los demás costes operativos ni , en_consecuencia , admitir más clientes de tarifa plana manteniendo el nivel de calidad del servicio . </example>
+        <example file="CESS-CAST-AA/5124_20000307.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">A <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, atentados como el de San_Sebastián " corroboran desgraciadamente que la estrategia y la espiral violenta y asesina de ETA es una amenaza que persiste en el conjunto de los ciudadanos , al_margen_de su condición y de la profesión que éstos ejerzan " . </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="2.4.1.2.5.1.1.0" sentencenodepath="2">En una entrevista con una emisora local , el presidente filipino insistió hoy en que Ø no dimitirá y que si Ø es necesario Ø se enfrentará a <argset><specifier>un</specifier><head>juicio </head></argset>en el Senado , donde Ø prometió que " habrá sorpresas " . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="0.3.1.0.1.1.2.1.0" sentencenodepath="0">El PP y el PSOE alertaron hoy del deterioro que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, se está produciendo en la sociedad vasca tras los últimos acontecimientos , especialmente el asesinato del periodista José_Luis_López_de_Lacalle y la posterior división entre los partidos en los actos de condena del mismo . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="15.4.1.4.1.2.1.0" sentencenodepath="15">El secretario general de ERC , Josep_Lluís_Carod-Rovira , ha acusado hoy al PP de haber iniciado una " cruzada " contra el nacionalismo vasco y catalán con un objetivo electoralista ya_que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, " ETA es un chollo y una fábrica de votos " para los populares . </example>
+        <example file="CESS-CAST-AA/8725_20000411.tbf.xml" nodepath="5.1.1.0.0" sentencenodepath="5">Pero a <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del almirante retirado Martínez_Busch</argument></argset>, con las reformas " Lagos sólo busca el poder total " y por eso Ø propuso " meditar largamente el tema y no precipitarse " . </example>
+        <example file="CESS-CAST-P/106_20020402.tbf.xml" nodepath="3.2.1.1.1.1.3.2.2.1.0" sentencenodepath="3">Los dirigentes del club madrileño facilitaron un vídeo con los errores arbitrales más graves , que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, han privado al equipo de tener al_menos 12 puntos más . </example>
+        <example file="CESS-CAST-P/121_19991202_a.tbf.xml" nodepath="21.7.2.3.1.0" sentencenodepath="21">Como Ø suele ser habitual en todos los campeones , Sainz también se queja , aunque con la boca pequeña , de que el motor de su Ford debe mejorar para ser candidato a la victoria : " Ø No puedo emitir <argset><specifier>un</specifier><head>juicio </head><reference_modifiers>muy ajustado</reference_modifiers></argset>pues Ø acabo de llegar , pero Ø me han comentado que en el paquete de nuevas homologaciones , utilizables ya en Montecarlo , el motor contará ya con una serie importantes de mejoras " . </example>
+        <example file="CESS-CAST-P/122_19990701.tbf.xml" nodepath="6.4.2.0.2.2.1.0" sentencenodepath="6">Dalí , afirmó Boadella , fue " un niño que nunca llegó a hacerse adulto " , lo que explica , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, su " egocentrismo y su sexualidad " . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="2.2.0.1.1.1.1.1.1.1.0" sentencenodepath="2">Esta frase de Bill_Gates en un correo electrónico enviado a varios ejecutivos de su empresa es una de las pruebas presentadas en <argset><specifier>el</specifier><head>juicio </head></argset>contra las prácticas monopolistas de Microsoft . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="21.3.0.0" sentencenodepath="21">Hoy_en_día , no hay <argset><head>juicio </head><reference_modifiers>digno de tal nombre</reference_modifiers><reference_modifiers>que no incluya varios mensajes de correo electrónico donde el culpable lo confiesa todo sin que Perry_Mason tenga tiempo a intimidarlo con una insoportable mirada a los ojos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="12.5.1.0.1.1.1.1.2.2.1.2.0.1.1.0.0" sentencenodepath="12">En_todo_caso , el tema de la violencia que rodea a este espectáculo deportivo vuelve a ser noticia - - así lo expresan las agencias de prensa - - como consecuencia de la decisión tomada por la Audiencia_Provincial_de_Madrid , en la fase procesal previa al <argset><head>juicio </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra el presunto homicida del seguidor de la Real_Sociedad , Aitor_Zabaleta , muerto como consecuencia de la agresión cometida por miembros de la banda ultra del Atlético_de_Madrid denominada Bastión</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="22.0.1.2.0.3.1.0.0" sentencenodepath="22">Una naturaleza asociativa que , naturalmente , habrá que probar en <argset><head>juicio </head></argset>, pero que ya desde ahora supone una valoración jurídica más beligerante contra las acciones violentas cometidas no_sólo por los - - permisivamente denominados - - grupos de aficionados radicales en el fútbol , sino_también por los grupos de skins que atacan a emigrantes extranjeros , a homosexuales ... </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="11.2.2.1.3.1.1.1.1.1.0" sentencenodepath="11">La sentencia pretende ser un medio de presión para que Ø abandone la idea de abrir <argset><specifier>un</specifier><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">político</argument></argset>a los magistrados , según se manifestó ayer en medios de la judicatura . </example>
+        <example file="CESS-CAST-P/18_19990602_a.tbf.xml" nodepath="1.2.0.1.1.1.1" sentencenodepath="1">¿ Hay alguien en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>sano</reference_modifiers><head>juicio </head></argset>que crea que bombardeando un país Ø puede ayudarse a su población ? . </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="6.2.1.1.0" sentencenodepath="6">La mayoría de las denuncias acaban en <argset><specifier>un</specifier><head>juicio </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de faltas</argument></argset>al no apreciarse la existencia de delito . </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="8.2.1.0" sentencenodepath="8">Los tribunales celebraron <argset><specifier>otros 19</specifier><head>juicios </head><reference_modifiers>en los que existía delito</reference_modifiers></argset>, dictando una sola sentencia absolutoria y 18 condenatorias ( en 12 se impuso la pena de alejamiento ) . </example>
+        <example file="CESS-CAST-P/26_19990701_a.tbf.xml" nodepath="2.5.0.1.1.4.0" sentencenodepath="2">Y así , con los ojos cerrados , Ø lo encuentra todo <argset>: balcones históricos , sombreros absurdos de reinas , <head>juicios </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nazis</argument>, puertos cosmopolitas en tiempos bélicos o estadistas inteligentes , que también los hubo y Ø frecuentó </argset>. </example>
+        <example file="CESS-CAST-P/36_19990901.tbf.xml" nodepath="10.0.0.1.0.0" sentencenodepath="10">A <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Ibarretxe</argument></argset>, el proceso de paz se encuentra en fase de maduración , pero sin " marcha_atrás " , porque " la sociedad no lo permitiría y Ø pediría responsabilidades " . </example>
+        <example file="CESS-CAST-P/41_20020103.tbf.xml" nodepath="7.2.1.1.0" sentencenodepath="7">La juez aceptó que <argset><specifier>el</specifier><head>juicio </head></argset>empiece el 14_de_octubre , tal como propuso el fiscal Robert_Spencer , que confirmó contra Moussaoui seis acusaciones , que incluyen la participación directa en la muerte de más de 3.000 personas : cuatro de los cargos están castigados con la pena de muerte , y dos , con la cadena_perpetua . </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="17.2.2.2.1.1.1.2.4.1.1.1.1.0.0" sentencenodepath="17">Los jueces estiman que persiste el riesgo de fuga y la posibilidad de entorpecer la labor de la justicia si el financiero obtiene la libertad provisional hasta la celebración del <argset><head>juicio </head></argset>. </example>
+        <example file="CESS-CAST-P/49_19990601_c.tbf.xml" nodepath="2.5.1.1.0" sentencenodepath="2">Este argumento Ø ya lo utilizó durante <argset><specifier>el</specifier><head>juicio </head></argset>por considerar que los magistrados no gozaban de " imparcialidad objetiva " . </example>
+        <example file="CESS-CAST-P/51_20000402.tbf.xml" nodepath="7.3.1.2.1.0" sentencenodepath="7">Algunos militantes lamentaron que , en una decisión sin precedentes , se hubiera declarado secreta la parte del consejo en la que se abordó este tema porque , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, Ø va en_contra de la transparecencia de la que hace_gala la dirección . </example>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">A <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, " no merece la pena vivir en una sociedad cruel si Ø no es para cambiarla " , por lo que Ø pidió a todos los responsables políticos un examen de conciencia " para hacer una profunda autocrítica ante la sociedad " . </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="3.3.2.1.3.1.1.1.0.0" sentencenodepath="3">La decisión del CGPJ responde al recurso presentado por el anterior presidente de la Audiencia_de_Barcelona , Gerard_Thomas , contra la orden de Béjar , al considerar que Ø provocaba la suspensión de <argset><head>juicios </head></argset>. </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="5.4.1.2.1.1.2.1.2.1.1.1.1.1.1.0" sentencenodepath="5">A este criterio se acogió Béjar para no acceder a la petición de la Sección_Séptima de buscar a un magistrado sustituto con_el_fin_de evitar la suspensión de <argset><specifier>un</specifier><head>juicio </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra un presunto violador</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="1.1.2.4.2.1.0.4.1.1.0" sentencenodepath="1">En una breve comparecencia a_puerta_cerrada en el Juzgado_de_Menores_de_Murcia , el adolescente , de 17 años , reconoció los hechos y Ø se conformó con la pena , por lo que no fue preciso celebrar <argset><specifier>el</specifier><head>juicio </head></argset>. </example>
+        <example file="CESS-CAST-P/82_19981101.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">La Audiencia_de_Barcelona celebrará el Lunes <argset><specifier>el</specifier><head>juicio </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por el primero de los tres casos de muertes provocadas por desprendimientos de fachadas en los dos últimos años en Barcelona</argument></argset>. </example>
+        <example file="CESS-CAST-P/91_20010301.tbf.xml" nodepath="1.2.1.2.4.1.1.1.1.1.2.1.0" sentencenodepath="1">Estas son las dos grandes recomendaciones que hizo ayer el Consell_de_l'Audiovisual_de_Catalunya ( CAC ) al presentar las normas que , a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juicio </head></argset>, deben prevalecer al informar de tragedias personales . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="juzgar" originlink="verb.juzgar.1" wordnetsynset="16:00775201">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="contra" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a15-5.tbf.xml" nodepath="7.2.1.1.0" sentencenodepath="7">La decisión ha tenido_lugar durante <argset><specifier>el</specifier><head>juicio </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra Soichi_Chibana , un señor de la isla de Okinawa que en octubre_de_1987 la quemó en protesta contra el militarismo japonés</argument></argset>. </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="1.3.1.3.1.1.1.1.1.1.4.1.1.1.0.0" sentencenodepath="1">El Consejo_General_del_Poder_Judicial ( CGPJ ) ha suspendido provisionalmente una orden de funcionamiento interno de la Audiencia_de_Barcelona dictada por su presidente , Francisco_Javier_Béjar , que el pasado mes_de_julio provocó la suspensión del <argset><head>juicio </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a un presunto violador</argument></argset>por falta de jueces . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="juzgar" originlink="verb.juzgar.1" wordnetsynset="16:00561563">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="contra" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-1.tbf.xml" nodepath="11.4.2.2.1.1.0" sentencenodepath="11">Ø Nos los imaginamos juntitos en las subidas , arañándose recíproca y alternativamente unos segundos en esos finales en los que se echa el resto " en persecución de Rominger " y acatando <argset><specifier>el</specifier><head>juicio </head><reference_modifiers>sumarísimo</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la contrarreloj de Segovia</argument></argset>. </example>
+        <example file="CESS-CAST-P/71_19991201_i.tbf.xml" nodepath="1.3.1.1.2.1.0.0" sentencenodepath="1">La declaración se produjo en la segunda jornada del <argset><head>juicio </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por homicidio imprudente</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra su dueño , que aparece a la izquierda de la foto</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="a_juicio_de" cousin="no" denotation="none" id="4" lexicalizationtype="prepositional" lexicalized="yes" originlemma="juzgar" originlink="verb.juzgar.1" wordnetsynset="16:04495853">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="0.0.1.0.0" sentencenodepath="0">A <argset><head>juicio </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Hernando</argument></argset>, es necesario seguir avanzando en la reforma laboral a_fin_de crear más empleo , rebajar la tasa de temporalidad y combatir la siniestralidad en el trabajo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="muela_del_juicio" cousin="no" denotation="result" id="5" lexicalizationtype="nominal" lexicalized="yes" originlemma="juzgar" originlink="verb.juzgar.1" wordnetsynset="16:04348023">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/c1-1.tbf.xml" nodepath="2.0.4.1.1.1.1.1.1.1.1.1.1.0.0" sentencenodepath="2">Eso_sí , los que regalan detalles chistosos se arriesgan a acabar con el detalle encajado entre las muelas del <argset><head>juicio </head></argset>, y además Ø quedan como lo que son : unos patosos o unos tacaños . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

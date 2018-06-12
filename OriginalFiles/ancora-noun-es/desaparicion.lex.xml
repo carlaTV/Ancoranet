@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="desaparición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="event" id="1" lexicalized="no" originlemma="desaparecer" originlink="verb.desaparecer.1" wordnetsynset="16:00029712">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="18.3.2.1.0.4.1.1.0.1.1.0" sentencenodepath="18">La investigación sigue abierta , por lo que no se descarta su participación en <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de más vehículos</argument></argset>, así_como en otros hechos delictivos pendientes de esclarecer . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="desaparecer" originlink="verb.desaparecer.1" wordnetsynset="16:00029712">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="12" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a14-2.tbf.xml" nodepath="14.2.2.1.0" sentencenodepath="14">Probablemente no ; probablemente , en la historia concreta de los suburbios limeños <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de María_Elena</argument></argset>sea tan sólo una catástrofe . </example>
+        <example file="3LB-CAST/dc3-3.tbf.xml" nodepath="7.0.0.1.1" sentencenodepath="7"><argset><specifier>La</specifier><reference_modifiers>casi</reference_modifiers><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de zonas amorfas</argument></argset>impide ahora el ataque del oxígeno del aire , con lo que el poliacetileno dopado sintetizado por el método de Naarmann es estable al aire durante varias semanas . </example>
+        <example file="CESS-CAST-AA/23719_20000629.tbf.xml" nodepath="0.0.3.3.1.0" sentencenodepath="0">La consejera andaluza de Cultura , Carmen_Calvo , dijo hoy que la liberalización de los precios de los libros de texto va a suponer <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de 2.000 librerías</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en España</argument></argset>, y Ø criticó duramente la medida anunciada por el Gobierno central . </example>
+        <example file="CESS-CAST-AA/23719_20000629.tbf.xml" nodepath="1.2.5.3.1.0" sentencenodepath="1">Calvo , que respondió en el pleno del Parlamento andaluz a una pregunta del grupo socialista sobre este asunto , señaló que dicha medida es " absolutamente destructiva porque Ø va a suponer <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de 2.000 librerías , que no son negocios puros y duros , como no lo son los libros</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="14.3.1.1.1.1.1.1.1.1.1.0" sentencenodepath="14">Kohl interpretó en su favor el hecho de que el encargado de analizar <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de este material</argument></argset>, Burkhard_Hirsch , no haya apuntado a ningún responsable en_concreto . </example>
+        <example file="CESS-CAST-AA/6697_20000910.tbf.xml" nodepath="1.3.1.1.2.1.0.1.3.1.1.0" sentencenodepath="1">La artista ecuatoriana Ana_Fernández inició la caminata de despedida con un reducido ejército de curiosos y nostálgicos que se resistían a <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la moneda sustituida por el dólar</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6697_20000910.tbf.xml" nodepath="7.2.1.3.4.1.1.0" sentencenodepath="7">Ø Fue una marcha pacífica , que comenzó escasa de participantes pero fue creciendo , que produjo risas , melancolía y hasta lágrimas por <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del sucre</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sadv">después de 116 años de vigencia</argument></argset>. </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="16.2.4.1.1.0" sentencenodepath="16">Aunque a_regañadientes , Blatter tuvo que reconocer un descubierto de 51 millones de francos suizos 5.500 millones de pesetas , 33 millones de euros - - y Ø hasta fue denunciado por fraude tras <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de 8.000 millones de pesetas que la cadena O'Globo había pagado a ISL</argument></argset>. </example>
+        <example file="CESS-CAST-P/34_20000302.tbf.xml" nodepath="5.2.1.3.4.1.1.0" sentencenodepath="5">La viuda admitió que su marido se preocupó cuando Ø se enteró de <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los jóvenes</argument></argset>y Ø adoptó medidas de seguridad después de observar " movimientos extraños " en_torno_a su domicilio . </example>
+        <example file="CESS-CAST-P/42_20010901.tbf.xml" nodepath="0.0.0.1.3.1.1.1.1.0" sentencenodepath="0">BLANCA_ESTHER_DIAZ , que instruía la causa por <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sumarios que afectan a Jesús_Gil</argument></argset>, ha decidido abstenerse por haber trabajado de sustituta en uno de los tres juzgados marbellís en que desaparecieron documentos judiciales . </example>
+        <example file="CESS-CAST-P/54_20011101.tbf.xml" nodepath="1.4.1.1.1.4.1.1.1.1.1.0.1.1.0" sentencenodepath="1">La entidad británica ha nombrado a Peter_Atkins para el cargo de presidente del HSBC en España , después de que el banco se haya visto salpicado por algunos episodios relacionados con <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del dinero de Gescartera</argument></argset>y con un crédito a la familia del vicepresidente del Gobierno Rodrigo_Rato . </example>
+        <example file="CESS-CAST-P/81_20001001.tbf.xml" nodepath="8.2.2.0.1.0" sentencenodepath="8">Ø Piden la liquidación de los bienes gananciales en el mismo momento de la separación y <argset><specifier>la</specifier><head>desaparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la pensión compensatoria</argument></argset>o mantenerla un máximo de dos años . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="gasto" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="gastar" originlink="verb.gastar.1" wordnetsynset="16:09552872">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="por" type="sp"/>
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" postype="article" type="determiner"/>
+        <constituent frequency="15" type="void"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="10" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060104_5-2.tbf.xml" nodepath="3.3.1.2.1.0.1.1.1.1.1.0" sentencenodepath="3">El presidente argentino anunció el pasado_lunes un nuevo paquete de medidas destinadas a bajar <argset><specifier>el</specifier><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">público</argument></argset>, que implica una reducción de entre el 12 y el 15_por_ciento de los salarios de los empleados públicos . </example>
+        <example file="3LB-CAST/2000060104_5-2.tbf.xml" nodepath="5.1.2.3.0.1.1.1.2.2.0.1.1.1.0.0" sentencenodepath="5">Sin_embargo , el presidente de la CIU dijo que Ø compartía algunas de las medidas adoptadas por el presidente Jorge_Batlle , como el recorte del <argset><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">público</argument></argset>y las desregulaciones , pero Ø advirtió de que el año_2000 " no muestra mejorías y la industria nacional peligra " . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="9.3.2.1.1.1.1.1.1.3.1.0" sentencenodepath="9">Por eso , Ø opinó que las listas de espera no son una " enfermedad " del sistema sanitario , sino " el síntoma de una enfermedad , que es <argset><specifier>un</specifier><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">sanitario</argument><reference_modifiers>insuficiente , mal gestionado , con objetivos no siempre priorizados con la salud de la ciudadanía</reference_modifiers></argset>" . </example>
+        <example file="3LB-CAST/dc10-8.tbf.xml" nodepath="10.3.1.4.1.1.1.2.1.3.3.0.0" sentencenodepath="10">Nada parecido ocurría en tierra hasta que , hacia fines del siglo_XVII , el físico holandés Christian_Huygens ( 1629 - 1695 ) formuló el propósito de - obtener una fuerza motriz muy importante y constante que no requiera <argset><head>gastos </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de manutención</argument></argset>como ( la ) de los hombres o de los animales - . </example>
+        <example file="3LB-CAST/dc10-9.tbf.xml" nodepath="10.2.4.1.1.1.5.2.0.1" sentencenodepath="10">El primero que obtiene éxito es un camarero luxemburgués llamado Etienne_Lenoir ( 1822 - 1900 ) , que presentó en 1860 en París una máquina de gas de alumbrado inflamado por una chispa eléctrica ; tres años después Ø montó su motor en un carrillo que le llevó a Joinville a_lo_largo_de quince kilómetros , con <argset><reference_modifiers>inmenso</reference_modifiers><head>gasto </head></argset>. </example>
+        <example file="CESS-CAST-A/12547_20000119.tbf.xml" nodepath="5.0.2.1.4.2.0.3.1.0" sentencenodepath="5">El coordinador de IU-LV-CA informó de que más del 90_por_ciento del consumo corresponde a energías no renovables e importadas , lo que supone , según sus cifras , <argset><specifier>un</specifier><head>gasto </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">anual</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">de medio billón de pesetas</argument></argset>, y Ø lamentó que España no explote más la energía solar , " cuando países con menos luz diaria como Alemania u otros como Grecia tienen esta industria mucho más avanzada " . </example>
+        <example file="CESS-CAST-A/13026_20001117.tbf.xml" nodepath="8.4.2.2.1.0" sentencenodepath="8">Los países de la UE se han comprometido también a que el total de sus reservas para dicha fuerza " sobrepasará los 100.000 soldados " y cada Estado miembro asumirá <argset><specifier>los</specifier><head>gastos </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">del mantenimiento de sus tropas</argument></argset>" sobre el teatro de crisis al_menos durante un año " . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>El</specifier><head>gasto </head><reference_modifiers>medio</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por habitante</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">en material deportivo</argument></argset>ha aumentado en España de 1993 a 1998 en un 121,6_por_ciento y , en ese último año , Ø se ha situado en 12.787 pesetas , según el Libro_Blanco_del_Sector_de_Artículos_Deportivos , que se presentará en Barcelona con_motivo_del Salón_Internacional_del_Deporte . </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="0.2.2.2.1.0.0.0" sentencenodepath="0">El primer ministro francés , el socialista Lionel_Jospin , intenta recuperar la iniciativa política y el apoyo del electorado tradicional de izquierdas destinando los frutos de la bonanza económica a <argset><head>gastos </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">públicos</argument>y recortes de impuestos </argset>. </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="3.1.1.1.1.0.0" sentencenodepath="3">El Gobierno repartirá este año el " bote " de la recaudación fiscal inesperada ( 7.622,4 millones de euros ) : 1.524,4 millones para <argset><head>gastos </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">públicos</argument></argset>, y 6.097,9 millones en recortes adicionales de impuestos , entre ellos , Vivienda y Renta - por 1.676,9 millones cada uno - y otros 2.774 millones de rebaja del impuesto al valor añadido ( IVA ) . </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="0.3.3.0.1.0.2.1.1.0" sentencenodepath="0">La Asociación_Nacional_de_Instituciones_Financieras ( ANIF ) afirmó hoy que " la solución adecuada " para los problemas fiscales de Colombia está en mayores recortes en <argset><specifier>los</specifier><head>gastos </head></argset>y no en el aumento de los tributos . </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>El</specifier><head>gasto </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">público</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Colombia</argument></argset>es considerado como poco eficiente e improductivo , dados los escasos resultados de sectores que copan una parte importante del presupuesto nacional . </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="11.2.2.3.3.1.1.1.1.0.0" sentencenodepath="11">Para el presidente de la ANIF la economía no resiste más tributos y Ø espera que , como Ø sucedió con la decisión de no duplicar el impuesto sobre las transacciones bancarias " siga primando la sensatez sobre la voracidad burocrática " y el ajuste se haga por el lado del <argset><head>gasto </head></argset>. </example>
+        <example file="CESS-CAST-AA/21342_20000526.tbf.xml" nodepath="4.4.1.3.1.2.0" sentencenodepath="4">La indemnización cubrirá por_lo_menos , según los casos , los aspectos siguientes del perjuicio <argset>: pérdida de ingresos , <head>gastos </head>
+            <reference_modifiers>médicos y de hospitalización</reference_modifiers>, gastos funerarios y cuando se trate de personas a cargo , pérdida de alimentos </argset>. </example>
+        <example file="CESS-CAST-AA/21342_20000526.tbf.xml" nodepath="4.4.1.3.1.4.0" sentencenodepath="4">La indemnización cubrirá por_lo_menos , según los casos , los aspectos siguientes del perjuicio <argset>: pérdida de ingresos , gastos médicos y de hospitalización , <head>gastos </head>
+            <reference_modifiers>funerarios</reference_modifiers>y cuando se trate de personas a cargo , pérdida de alimentos </argset>. </example>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="2.3.1.1.2.1.1.2.1.1.1.1" sentencenodepath="2">En su campaña electoral para las pasadas elecciones legislativas , Mori prometió prolongar la política económica de su antecesor , el fallecido Keizo_Obuchi , quien fomentó <argset><specifier>un</specifier><reference_modifiers>fuerte</reference_modifiers><head>gasto </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">público</argument></argset>y elevó la deuda de Japón al peor nivel entre los países industrializados . </example>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="13.1.0.2.1.1.0.2.1.0.0" sentencenodepath="13">A_juicio_de la OCDE , las reducciones de impuestos tienen que ir acompañadas de recortes paralelos del <argset><head>gasto </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">público</argument></argset>y los ingresos fiscales que se recauden por_encima_de lo previsto deben dedicarse a enjugar la deuda . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="6.3.1.1.0.1.3.1.1.2.1.1.0.2.0" sentencenodepath="6">El Centro_Carter resaltó además la necesidad de que el ente electoral cumpla con una minuciosa fiscalización de <argset>los ingresos y <head>gastos </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los partidos y sus candidatos</argument>
+          </argset>, y de que se " diseminen estas informaciones en forma pública hasta donde lo permita la ley " . </example>
+        <example file="CESS-CAST-P/102_19990202.tbf.xml" nodepath="8.4.4.1.2.2.1.2.1.0.0" sentencenodepath="8">El FMI podría adelantar unos 9.000 millones dólares - - unos 1,3 billones de pesetas al cambio actual - - del préstamo de 41.500 millones acordado en diciembre pasado - - unos 6,1 billones de pesetas - - , si Brasil acomete algunas reformas adicionales , como un mayor recorte del <argset><head>gasto </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">público</argument></argset>. </example>
+        <example file="CESS-CAST-P/102_19991001.tbf.xml" nodepath="0.2.0.2.2.1.1.1.1.0" sentencenodepath="0">El Gobierno italiano ha decidido aplicar el próximo año una rebaja de impuestos por importe de 878.518 millones de pesetas y un recorte de <argset><specifier>los</specifier><head>gastos </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">públicos</argument></argset>de 1,4 billones de pesetas , y establecer ayudas al desarrollo por valor de 6,1 billones adicionales . </example>
+        <example file="CESS-CAST-P/10_20010402_b.tbf.xml" nodepath="3.2.0.1.1.1.1.2.1.0.1" sentencenodepath="3">España es uno de los países con menor número de servicios de apoyo a la familia y con <argset><reference_modifiers>menor</reference_modifiers><head>gasto </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">social</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de apoyo a tal institución</argument></argset>. </example>
+        <example file="CESS-CAST-P/110_20000401.tbf.xml" nodepath="10.3.1.2.1.1.0" sentencenodepath="10">Las estadísticas conocidas ayer muestran también un crecimiento del 3,8% de <argset><specifier>los</specifier><head>gastos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los hogares</argument></argset>en Febrero , el primer incremento desde hace siete meses . </example>
+        <example file="CESS-CAST-P/12_20000903.tbf.xml" nodepath="7.4.1.0.2.1.1.1.1.0.0" sentencenodepath="7">De_hecho , ya Ø figura en segundo lugar en las previsiones de <argset><head>gastos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por comunidades</argument></argset>fijadas en el plan , detrás de las de Andalucía . </example>
+        <example file="CESS-CAST-P/199_20001201.tbf.xml" nodepath="2.0.4.1.0.0" sentencenodepath="2">Para celebrar este 50 aniversario no se ha escatimado en <argset><head>gastos </head></argset>: 100 jóvenes de 18 a 25 años rivalizando hasta el último minuto por un título merecen una audiencia digna de una Copa_del_Mundo de fútbol . </example>
+        <example file="CESS-CAST-P/21_20000401.tbf.xml" nodepath="2.3.2.0.2.1.1.1.0" sentencenodepath="2">Los malos resultados electorales han comportado una sustancial reducción de las subvenciones que se perciben del Estado , lo que obliga a recortar <argset><specifier>los</specifier><head>gastos </head></argset>. </example>
+        <example file="CESS-CAST-P/21_20000401.tbf.xml" nodepath="15.0.2.1.6.2.0.2.1.0" sentencenodepath="15">Ø Discrepan de que al señor Anguita se le pague el alquiler de un chalet , lo que supone <argset><specifier>un</specifier><head>gasto </head><reference_modifiers>mensual</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 318.000 pesetas mensuales</argument></argset>, y Ø no se conforman con que el recorte en gastos de la casa le obligue a prescindir de la piscina . </example>
+        <example file="CESS-CAST-P/21_20000401.tbf.xml" nodepath="15.2.4.1.1.1.1.1.0.0" sentencenodepath="15">Ø Discrepan de que al señor Anguita se le pague el alquiler de un chalet , lo que supone un gasto mensual de 318.000 pesetas mensuales , y Ø no se conforman con que el recorte en <argset><head argument="arg1" thematicrole="pat">gastos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la casa</argument></argset>le obligue a prescindir de la piscina . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="41.2.1.1.1.2.0" sentencenodepath="41">El viaje concluye con una sorpresa <argset>: <specifier>un</specifier>
+            <head>gasto </head>
+            <reference_modifiers>adicional</reference_modifiers>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de algo más de 800 pesetas</argument>
+            <argument argument="argM" function="cn" thematicrole="fin" type="sp">por la compañía de Chitsaya</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/21_20020702_a.tbf.xml" nodepath="19.3.1.1.1.1.0" sentencenodepath="19">Los alumnos aportan con sus matrículas el 10,5% de <argset><specifier>los</specifier><head>gastos </head></argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="20.3.2.1.2.1.1.1.1.0" sentencenodepath="20">Y el nuevo modelo supondrá más recursos , pero también mayores compromisos de corresponsabilidad fiscal y más rigor en <argset><specifier>el</specifier><head>gasto </head></argset>. </example>
+        <example file="CESS-CAST-P/40_20000202.tbf.xml" nodepath="9.1.1.2.4.1.1.1.1" sentencenodepath="9">Frente a esta ingente suma , los 2.560 millones de pesetas que ha logrado reunir McCain para pagar <argset><specifier>los</specifier><reference_modifiers>enormes</reference_modifiers><head argument="arg1" thematicrole="pat">gastos </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de una campaña electoral</argument></argset>auguran una lucha muy desigual . </example>
+        <example file="CESS-CAST-P/49_19990601_d.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">El ayuntamiento pagó <argset><specifier>los</specifier><head argument="arg1" thematicrole="pat">gastos </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">del funeral y del entierro</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="gastar" originlink="verb.gastar.1" wordnetsynset="16:09552872">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="6" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="5.4.1.0.1.0" sentencenodepath="5">El secretario general de CCOO , José_María_Fidalgo , opinó hoy en Calviá ( Mallorca ) que <argset><specifier>el</specifier><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">farmacéutico</argument></argset>" está parasitando " al gasto sanitario y evitando que se liberen recursos para acabar con las listas de espera en los centros hospitalarios . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="5.4.1.2.1.0.0" sentencenodepath="5">El secretario general de CCOO , José_María_Fidalgo , opinó hoy en Calviá ( Mallorca ) que el gasto farmacéutico " está parasitando " al <argset><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">sanitario</argument></argset>y evitando que se liberen recursos para acabar con las listas de espera en los centros hospitalarios . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="6.2.3.1.1.0" sentencenodepath="6">Fidalgo , quien hoy asistió a la inauguración del séptimo congreso regional de CCOO , explicó que , de los más_de cuatro billones de pesetas que el Erario público gastará este año en asistencia sanitaria , un tercio es para <argset><specifier>el</specifier><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">farmacéutico</argument><reference_modifiers>, un apartado que calificó de " altamente ineficiente "</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="8.4.1.2.1.1.1.1.1.0.0" sentencenodepath="8">En opinión de Fidalgo , " ni este Gobierno ni los anteriores han tenido el valor suficiente para atajar ese incremento del <argset><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">farmacéutico</argument><reference_modifiers>, que está parasitando el gasto sanitario y evitando que se liberen recursos para aumentar el número de camas , las dotaciones de plantillas y ampliar los servicios de atención a los pacientes</reference_modifiers></argset>" . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="8.4.1.2.1.1.1.1.1.0.2.2.1.1.0" sentencenodepath="8">En opinión de Fidalgo , " ni este Gobierno ni los anteriores han tenido el valor suficiente para atajar ese incremento del gasto farmacéutico , que está parasitando <argset><specifier>el</specifier><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">sanitario</argument></argset>y evitando que se liberen recursos para aumentar el número de camas , las dotaciones de plantillas y ampliar los servicios de atención a los pacientes " . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="11.2.0.1.4.1.1.1.1.0.0" sentencenodepath="11">" Ni Ø gasta el dinero suficiente , ni el dinero que Ø administra Ø lo gasta de la manera más conveniente " , insistió Fidalgo , quien también recordó que la tasa de <argset><head>gasto </head><argument argument="argM" function="cn" thematicrole="fin" type="s.a">sanitario</argument></argset>en España está todavía por_debajo_de la media europea . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

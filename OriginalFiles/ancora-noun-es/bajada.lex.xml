@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="bajada" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="bajar" originlink="verb.bajar.1" wordnetsynset="16:06725397+16:05483217">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a1-1.tbf.xml" nodepath="7.1.0.3.2.3.1.1.2.1.2.1.2.0" sentencenodepath="7">En el relato el léxico se rebaja desde abstracciones posibles a realidades vitales y el conjunto tiene un aire de feria ( - Livia y Druso bajaron de las alturas como Dios les dio a entender , pero tratando de no caerse ni hacer el ridículo , porque Ø ya no eran cortesanos , sino reyes . A mitad del monte , el centurión , que aspiraba a ser generalísimo de Nerodia , puso a disposición de los monarcas a dos soldados fornidos para llevarlos en brazos y así Ø entraron en su nuevo reino que , por <argset>las subidas y <head>bajadas </head>
+          </argset>, más parecía un tobogán - ) . </example>
+        <example file="CESS-CAST-AA/8195_20000812.tbf.xml" nodepath="7.4.3.1.1.0" sentencenodepath="7">El Ayuntamiento_de_Almería , en_colaboración_con la Universidad , cuenta con un Centro_Universitario_Analítico_Municipal ( CUAM ) , primer centro de España en obtener el título ENAC de acreditación y certificación , Ø realizó 10.000 análisis de multirresiduos durante la campaña y los mayores problemas se dieron con <argset><specifier>la</specifier><head>bajada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los límites</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en metamidofos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="bajar" originlink="verb.bajar.2" wordnetsynset="16:05483742">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="25.0.1.1.0" sentencenodepath="25">Incluso <argset><specifier>la</specifier><head>bajada </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de bandera del taxi</argument><reference_modifiers>, que oscila entre el equivalente a 2,05 y 3,07 euros , en_función_de la carrera ,</reference_modifiers></argset>es la más cara de todas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="bajar" originlink="verb.bajar.3" wordnetsynset="16:03985255">
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="efi">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="de_acuerdo_a" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/18375_20000922.tbf.xml" nodepath="4.4.1.1.1" sentencenodepath="4">Mientras_tanto , el principal índice de la Bolsa_de_París , el CAC-40 , abrió la sesión de hoy con <argset><specifier>una</specifier><reference_modifiers>fuerte</reference_modifiers><head>bajada </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 2,38_por_ciento</argument><argument argument="arg4" function="cn" thematicrole="efi" type="sp">a 6.105 puntos</argument><reference_modifiers>, una tendencia que continuó a_lo_largo_de gran parte de la sesión</reference_modifiers></argset>, aunque se enjugaron un_tanto las pérdidas . </example>
+        <example file="CESS-CAST-AA/2005_20000904.tbf.xml" nodepath="11.4.5.1.1.2.5.1.0" sentencenodepath="11">" Ø Queremos determinar cómo están los inventarios porque Ø podríamos tener entonces un problema serio para el próximo año " , durante cuyo segundo semestre se espera <argset><specifier>una</specifier><head>bajada </head><reference_modifiers>importante</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los precios</argument><reference_modifiers>de_acuerdo_a los cálculos de los expertos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/9690_20000412.tbf.xml" nodepath="9.5.2.1.0" sentencenodepath="9">CARACAS ( -0,58 ) Los valores negociados en la Bolsa_de_Caracas se depreciaron un 0,58_por_ciento , con <argset><specifier>una</specifier><head>bajada </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 33,06 enteros</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el índice bursátil , que cerró en 5.663,96 puntos</argument></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="16.2.0.1.1.1" sentencenodepath="16">El objetivo es lograr <argset><specifier>una</specifier><reference_modifiers>sustancial</reference_modifiers><head>bajada </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de entre 20 y 30 puntos en el índice de inflación que ronda el 80_por_ciento anual</argument></argset>y procurar un crecimiento económico del uno_por_ciento al finalizar el año , cifra que supondrá un salto del -7,5_por_ciento de 1999 . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="14.2.5.2.2.1.3.0.0" sentencenodepath="14">Fraile opina que el acuerdo entre las cadenas francesas es una " mala noticia " para los consumidores y para los pequeños y medianos comerciantes en España , al endurecer las negociaciones entre fabricantes y distribuidores sin que eso provoque <argset><head>bajadas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de precios</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

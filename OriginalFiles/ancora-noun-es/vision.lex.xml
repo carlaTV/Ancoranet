@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="visión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ver" originlink="verb.ver.1" wordnetsynset="16:04707108">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="8" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="respecto_al" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="8" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="9.5.3.1.1.2.1.0" sentencenodepath="9">Pero , por otra parte , Ø ya ha anunciado que Ø apelará cualquier dictamen que establezca <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>visión </head></argset>, lo cual prolongaría el proceso judicial muchos meses . </example>
+        <example file="3LB-CAST/a12-2.tbf.xml" nodepath="9.0.3.4.1.0" sentencenodepath="9">La imagen ( la más asquerosa que puede concebirse con tan asquerosa criatura ) me impresionó como sólo lo hacen <argset><specifier>las</specifier><head>visiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las pesadillas</argument></argset>, y alguna vez Ø me he preguntado si Ø me había impresionado lo_mismo en el caso de que no fueran ratas sino canarios los animales a los que aquel personaje arrancaba la cabeza de un mordisco . </example>
+        <example file="3LB-CAST/a15-6.tbf.xml" nodepath="1.0.1.1.0" sentencenodepath="1">A_pesar_de <argset><specifier>esta</specifier><head>visión </head><reference_modifiers>quejica</reference_modifiers></argset>, en Estados_Unidos los juicios contra manifestantes que han quemado banderas americanas se han resuelto a_menudo con una sentencia ejemplar : la libertad de expresión garantiza el derecho a quemar la propia bandera . </example>
+        <example file="3LB-CAST/d2-11.tbf.xml" nodepath="8.0.4.1.1.2.5.2.0.1.0" sentencenodepath="8">Pues_bien , ya es triste ironía que el hombre , joven y vital , que ha mantenido a_flote el baloncesto blanco a_través_de las tragedias y los desfallecimientos , con <argset><specifier>una</specifier><head>visión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de futuro</argument></argset>y un espíritu empresarial y deportivo moderno , esté ahora en una lucha terrible contra la enfermedad : como si el sino de la desdicha que desde 1989 persigue a esa sección se dirigiera ahora a una de las pocas personas que se han alzado contra él para invertir una tendencia imparable a la destrucción ... </example>
+        <example file="3LB-CAST/dc2-10.tbf.xml" nodepath="7.4.1.1.1.1.1.1.3.1.0" sentencenodepath="7">Mientras_tanto , otro investigador del mismo instituto donde trabaja Sutter , Anthony_M._Norcia , está utilizando las ondas cerebrales para intentar desvelar el misterio de cómo se desarrolla <argset><specifier>la</specifier><head>visión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los bebés</argument></argset>durante los primeros meses de vida . </example>
+        <example file="3LB-CAST/dc2-3.tbf.xml" nodepath="7.3.1.2.3.2.2.0.3.1.0.0" sentencenodepath="7">Este potente veneno gastrointestinal es en_realidad una proteína neurotóxica que , absorbida por el intestino , pasa a la sangre y alcanza el sistema nervioso , con terribles efectos para la víctima <argset>: <head>visión </head>
+            <reference_modifiers>doble o borrosa por dilatación de las pupilas</reference_modifiers>, calambres musculares y parálisis progresiva de los músculos </argset>. </example>
+        <example file="3LB-CAST/e1-4.tbf.xml" nodepath="2.3.2.1.1.3.4.0.1.1.0" sentencenodepath="2">Los momentos más crueles llegan casi hasta la traición del protagonista , sobre_todo en la segunda parte de la historia , cuando ZZNM comienza a trampear con <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head argument="arg1" thematicrole="pat">visiones </head></argset>o con el ejercicio de su valor , como si de_vez_en_cuando Ø fingiese su papel . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="2.0.0.2.2.1.1.0" sentencenodepath="2">De 93 años y privado casi totalmente de <argset><specifier>la</specifier><head>visión </head></argset>, el líder del Partido_Reformista_Social_Cristiano ( PRSC ) y siete veces presidente de la República ha sido acusado reiteradamente por sus adversarios de haber ganado los comicios por métodos fraudulentos . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="14.3.3.0.2.1.0" sentencenodepath="14">Preguntado por cómo resolvería Ø la crisis de Oriente_Medio , el gobernador de Texas dijo : " Ø Soy un líder . Ø Tengo <argset><specifier>una</specifier><head>visión </head><reference_modifiers>clara</reference_modifiers></argset>y Ø convenzo a la gente . En Estados_Unidos tiene que haber un líder que entienda que el país tiene que ser fuerte para mantener la paz " . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="3.2.1.2.1.2.1.2.4.1.1.1.0" sentencenodepath="3">La corriente de inversiones españolas encuentra unas facilidades naturales como el idioma común y la cercanía cultural , que se ha visto alentada por <argset><specifier>la</specifier><head>visión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las empresas españolas , que desde un principio se atrevieron a invertir en un mercado que para otras compañías de otras latitudes siempre fue demasiado arriesgado</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="18.0.2.4.1.0" sentencenodepath="18">La diputada del Grupo_Mixto Begoña_Lasagabaster ( EA ) consideró que " no hay <argset><specifier>una</specifier><head>visión </head><reference_modifiers>clara</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la UE</argument><reference_modifiers>a la que se quiere ir</reference_modifiers></argset>" , y Ø mostró su adhesión a aplicar el método comunitario por_encima_del intergubernamental . </example>
+        <example file="CESS-CAST-AA/2916_20000705.tbf.xml" nodepath="6.0.4.1.0" sentencenodepath="6">Por este motivo , " la programación otoño-invierno llevará <argset><specifier>una</specifier><head>visión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la explotación</argument></argset>más allá de los mercados tradicionales , con capacidades interactivas para utilizar internet , y si Ø puede ser ADSL " , explicó Alonso , quien anunció la voluntad de Telefónica_Media de unirse a grandes productoras iberoamericanas para conseguir llevar adelante los proyectos . </example>
+        <example file="CESS-CAST-P/157_20010201.tbf.xml" nodepath="8.3.1.0" sentencenodepath="8">El autor de trabajos como Yo_nací_en_Montevideo y Dequeserrie tiene muy clara <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>visión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la industria discográfica</argument></argset>. </example>
+        <example file="CESS-CAST-P/175_20000702.tbf.xml" nodepath="3.4.3.1.2.0" sentencenodepath="3">Según Jesús_González , productor ejecutivo de los documentales , no se trata sólo de una biografía de Buñuel ni de un mero estudio de su filmografía , sino_también de <argset>" <specifier>una</specifier>
+            <head>visión </head>
+            <reference_modifiers>especial</reference_modifiers>" <argument argument="arg0" function="cn" thematicrole="agt" type="sp">del cineasta</argument>
+            <reference_modifiers>, centrada en " su obsesión por los sueños "</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>Esta</specifier><head>visión </head></argset>es rotundamente falsa . </example>
+        <example file="CESS-CAST-P/190_20011002.tbf.xml" nodepath="12.0.3.2.1.0.0" sentencenodepath="12">" Ø Gustará mucho a las mujeres y Ø será de <argset><head>visión </head><reference_modifiers>obligatoria para los hombres</reference_modifiers></argset>" , aseguró el director de programas de TV-3 , Francesc_Escribano , horas antes de que se levante el telón y los espectadores empiecen a manifestarse . </example>
+        <example file="CESS-CAST-P/1_20000702.tbf.xml" nodepath="2.3.1.0" sentencenodepath="2">Los libros de texto ofrecen a los escolares <argset><specifier>una</specifier><head>visión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la historia de España</argument><reference_modifiers>equilibrada , universal y ajustada al espíritu plural y democrático inspirado en la Constitución de 1978</reference_modifiers></argset>, según concluye un examen a los manuales más vendidos realizado desde el Departamento_de_Didàctica_de_les_Ciències_Socials de la Universitat_de_Barcelona ( UB ) . </example>
+        <example file="CESS-CAST-P/1_20000702.tbf.xml" nodepath="6.0.1.1.2.3.1.0" sentencenodepath="6">" Los libros de texto que no respetan <argset><specifier>una</specifier><head>visión </head><reference_modifiers>neutra y sensata</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la historia</argument></argset>son pura excepción " , concluye este catedrático , que también presta funciones de asesor educativo en países de América_Latina . </example>
+        <example file="CESS-CAST-P/25_20011102.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>DOS</specifier><head>VISIONES </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">DEL TERROR</argument></argset>. </example>
+        <example file="CESS-CAST-P/25_20011102.tbf.xml" nodepath="10.2.1.0" sentencenodepath="10">El rais egipcio y el presidente español expresaron <argset><specifier>dos</specifier><head>visiones </head><reference_modifiers>algo diferenciadas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">respecto_al problema del terrorismo en el caso palestino</argument></argset>. </example>
+        <example file="CESS-CAST-P/59_19991001.tbf.xml" nodepath="8.3.2.1.0" sentencenodepath="8">Pero el registro de Grass no se demora en una perspectiva de intérprete privilegiado de lo que pasa , sino_que Ø configura <argset><specifier>una</specifier><head>visión </head><reference_modifiers>a_ras_de_tierra</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="ver" originlink="verb.ver.1" wordnetsynset="16:04373072">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-P/21_20000601_d.tbf.xml" nodepath="1.1.1.3.1.1.0" sentencenodepath="1">Ø Pido a Correos que Ø respete la visibilidad del abrevadero que Ø tenemos en la plaza de Vallvidrera , colocando los buzones entre el pino y el poste de la luz : así Ø podremos disfrutar de <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>visión </head></argset>con claridad y Ø podremos leer un pequeño trozo de una poesía de Joan_Maragall , que dice : " Ai_boscos_de_Vallvidrera_/_quines_sentors_m'heu_donat_... " . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

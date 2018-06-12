@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="compra" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="comprar" originlink="verb.comprar.1" wordnetsynset="16:00049855">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="src">
+        <constituent frequency="1" preposition="a_través_de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="13" postype="article" type="determiner"/>
+        <constituent frequency="13" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/t5-9.tbf.xml" nodepath="1.0.7.2.1.1.2.1.1.1.1.1.0" sentencenodepath="1">Por eso en ocasiones Ø esperaba durante horas al otro lado de la puerta , en el pasillo , provista de algún camuflaje razonable ( la bolsa de <argset><specifier>la</specifier><head>compra </head></argset>, el abrigo , el misal , el monedero ) , hasta escuchar sus pasos ; entonces Ø se precipitaba al descansillo , aturullada , fingiendo una sorpresa desmedida al encontrarle , e Ø intercambiaba con él breves disquisiciones sobre el tiempo , tema este que Antonia sacaba con tanto empeño y que Ø exponía con tanto ardor que el buen hombre debió acabar creyendo que su vecina poseía una intensa vocación meteorológica . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="16.2.1.1.1.0.4.0" sentencenodepath="16">En la historia de las elecciones dominicanas abundan las denuncias de <argset>fraudes , intromisión de los militares en los comicios , <head>compras </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de documentos de votación</argument>, uso de los fondos públicos en_favor_de los candidatos oficialistas y acciones violentas que arrojaron tristes saldos de muertos y heridos </argset>. </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="5.4.3.1.0" sentencenodepath="5">La huelga no afectará el abastecimiento debido_a_que los frigoríficos , las empresas alimentarias y las cadenas de supermercados aumentaron <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>compras </head></argset>la semana pasada en previsión de una escasez de productos . </example>
+        <example file="CESS-CAST-A/13810_20000617.tbf.xml" nodepath="0.0.0.1.3.1.1.0" sentencenodepath="0">La caída en bolsa de Telefónica por <argset><specifier>las</specifier><head>compras </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">bursátiles</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de su presidente</argument><reference_modifiers>, que recogen dos de los tres diarios económicos</reference_modifiers></argset>, las medidas de liberalización en horarios comerciales y la rebaja de los impuestos sobre los fondos de inversión ocupan hoy las primeras planas de los diarios económicos . </example>
+        <example file="CESS-CAST-A/13810_20000617.tbf.xml" nodepath="1.3.0.1.1.1.1.1.0" sentencenodepath="1">EXPANSION destaca en su portada que las sospechas sobre <argset><specifier>las</specifier><head>compras </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">bursátiles</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Villalonga</argument></argset>hunden el valor de Telefónica y que el Ejecutivo aumentará los incentivos al ahorro con importantes medidas para rebajar la presión fiscal y favorecer la movilidad de los fondos de inversión . </example>
+        <example file="CESS-CAST-A/14620_20000318.tbf.xml" nodepath="1.2.1.1.1.1.0.2.3.1.2.3.2.1.2.1.1.0.0" sentencenodepath="1">El robo fue descubierto por un técnico del sitio web en el que el pirata introdujo los datos de las tarjetas de crédito , que incluía el número , nombre y fecha de caducidad , es_decir , toda la información necesaria para realizar <argset><head>compras </head><argument argument="argM" function="cn" thematicrole="src" type="sp">a_través_de Internet</argument></argset>. </example>
+        <example file="CESS-CAST-A/14709_20000419.tbf.xml" nodepath="6.0.2.0.1.1.1.0" sentencenodepath="6">La relación de la corona con el dólar tiene importancia en <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de petróleo</argument></argset>, ya_que los pagos se hacen en dólares , aunque el encarecimiento de la moneda estadounidense se ve compensado por el bajo precio del crudo , afirma Niedermayer . </example>
+        <example file="CESS-CAST-A/1587_20000703.tbf.xml" nodepath="0.4.2.1.2.1.0" sentencenodepath="0">El delantero Ronaldo_Luiz_Nazario_de_Lima negó hoy , en una audiencia en la Policía_Federal brasileña , haber " driblado " a la Aduana de su país al no declarar <argset><specifier>una</specifier><head>compra </head><reference_modifiers>hecha en Paraguay</reference_modifiers><reference_modifiers>que habría superado el límite establecido por las autoridades</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/1587_20000703.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>compra </head></argset>se produjo en julio_de_1999 , en un día de descanso de la selección brasileña que disputaba la Copa_América en Paraguay . </example>
+        <example file="CESS-CAST-A/1587_20000703.tbf.xml" nodepath="4.4.4.1.0.1.1.0.0" sentencenodepath="4">Pero Ronaldo retornó a la concentración en un helicóptero , Ø pasó literalmente volando sobre la Aduana y con ello Ø habría burlado la fiscalización oficial al límite de <argset><head>compras </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 500 dólares</argument></argset>que rige para los brasileños que regresan al país . </example>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="0.3.5.2.1.1.1.0.0.0" sentencenodepath="0">El presidente de Spanair , Gonzalo_Pascual , dijo a EFE que Ø no contemplan la posibilidad de vender la compañía aérea , o de llevar_a_cabo alguna fusión , pese_a las coyunturas de <argset><head>compras </head>y ventas </argset>en el sector . </example>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="1.2.2.2.1.1.2.1.0.0.0.0" sentencenodepath="1">Pascual indicó que " Ø vivimos un momento de fusiones , de <argset><head>compra </head>y venta de compañías </argset>, pero pese_a los rumores que siempre hay en el mercado , Spanair nunca dejará de estar mayoritariamente en nuestras manos " . </example>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="5.0.0.1.1.1.1.0.0.0.0" sentencenodepath="5">Con_respecto_a la operación de <argset><head>compra </head>o fusión de Air_Europa e Iberia </argset>, el Presidente señaló que " Ø no tengo porqué decir nada al respecto , ya_que cada uno es muy libre de actuar como Ø quiera ; no_obstante me preocupa el tema de los " slots " ( permisos de despegue y aterrizaje ) " . </example>
+        <example file="CESS-CAST-AA/19996_20000726.tbf.xml" nodepath="4.4.1.1.0" sentencenodepath="4">El euro se fortaleció respecto_al dólar por <argset><specifier>las</specifier><head>compras </head><reference_modifiers>lanzadas por los fondos de inversión japoneses</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/2484_20000704.tbf.xml" nodepath="3.0.4.4.1.1.2.4.1.1.1.1.1.1.0.0.1.0.0" sentencenodepath="3">Las empresas sufrieron graves problemas financieros por la caída del precio internacional del café , pues Ø quedaron con mucho grano almacenado , que Ø tuvieron que vender a un valor muy inferior al de <argset><head>compra </head></argset>, explicó Echeverría . </example>
+        <example file="CESS-CAST-AA/2921_20001105.tbf.xml" nodepath="6.2.1.0.0.0" sentencenodepath="6">Se trata de <argset><head>compras </head><reference_modifiers>centralizadas en el lugar sede del organismo</reference_modifiers><reference_modifiers>que las hace independientemente de donde vayan a utilizarse</reference_modifiers>, inversiones inmateriales que no se pueden localizar en un lugar concreto y otras , especialmente del Ministerio_de_Defensa , cuyo lugar de producción o fabricación es distinto de aquel en el que se formaliza la compra y del de la utilización de los bienes </argset>. </example>
+        <example file="CESS-CAST-AA/2921_20001105.tbf.xml" nodepath="6.2.1.0.4.2.2.0.1.0.1.0.1.3.1.0" sentencenodepath="6">Se trata de compras centralizadas en el lugar sede del organismo que Ø las hace independientemente de donde Ø vayan a utilizarse , inversiones inmateriales que no se pueden localizar en un lugar concreto y otras , especialmente del Ministerio_de_Defensa , cuyo lugar de producción o fabricación es distinto de aquel en el que se formaliza <argset><specifier>la</specifier><head>compra </head></argset>y del de la utilización de los bienes . </example>
+        <example file="CESS-CAST-AA/3682_20000706.tbf.xml" nodepath="3.4.4.4.1.2.1.1.0" sentencenodepath="3">El director general de ANFAC , Luis_Valero , declaró hoy a EFE que estos resultados de Junio apuntan a un estancamiento en la demanda de particulares , ya_que se ha detectado un importante incremento de <argset><specifier>las</specifier><head>compras </head></argset>por_parte_de las empresas de alquiler ante las buenas perspectivas de la temporada turística . </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="1.2.1.1.3.1.1.1.0.0.0.0" sentencenodepath="1">El ITS es el sistema mediante el cual se interconectan las órdenes de <argset><head>compra </head>y venta de acciones </argset>entre las Bolsas establecidas oficialmente como tales en los EEUU . </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="4.2.1.1.1.1.1.2.1.2.1.1.1.1.0.0.2.0" sentencenodepath="4">El informe rechazó la aplicación de un sistema que unificara la información disponible sobre las órdenes de <argset>venta y <head>compra </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">a un precio determinado</argument>
+          </argset>( limit-orders ) , algo que querían las grandes corredoras de Wall_Street . </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="5.4.1.1.1.1.3.2.1.1.2.1.0.0.0.0" sentencenodepath="5">A_jucio_del NYSE no es conveniente la creación de una gran base de datos que informara sobre las órdenes pendientes de <argset><head>compra </head>y venta a precios previamente determinados </argset>, pues a su juicio ninguno de los modelos de estas bases de datos ( conocidas en inglés como CLOB ) permitía satisfacer las necesidades de todos los agentes del mercado , institucionales e individuales . </example>
+        <example file="CESS-CAST-AA/8934_20000912.tbf.xml" nodepath="6.2.1.0.3.1.1.1.1.0.0" sentencenodepath="6">Entre los rumores que circularon en Wall_Street respecto_al futuro de JP_Morgan destacó el que lo situaba en la esfera de <argset><head>compras </head></argset>del banco alemán Deutsche_Bank . </example>
+        <example file="CESS-CAST-P/108_19990501.tbf.xml" nodepath="10.4.3.1.1.2.1.1.0" sentencenodepath="10">Ahora Ø podría volver a intentar la operación aunque existen , al_menos , otras dos empresas interesadas también en <argset><specifier>la</specifier><head>compra </head></argset>. </example>
+        <example file="CESS-CAST-P/109_19981201.tbf.xml" nodepath="6.2.0.1.1.0" sentencenodepath="6">EDF precisó que <argset><specifier>la</specifier><head>compra </head></argset>sería efectiva " antes de final de año " y que se trataba de la " mayor inversión realizada fuera de Francia hasta ahora " . </example>
+        <example file="CESS-CAST-P/109_19981201.tbf.xml" nodepath="7.0.2.1.0" sentencenodepath="7">El grupo francés financiará <argset><specifier>la</specifier><head>compra </head></argset>con sus propios medios , gracias_a su cash_flow ( excedente de explotación ) disponible y Ø anunció que " Ø procederá después a una refinanciación parcial de la operación " . </example>
+        <example file="CESS-CAST-P/66_20011202.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>compra </head></argset>se formalizará en_breve . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="21.3.6.1.2.0.1.1.0.0" sentencenodepath="21">La Asociación_Nacional_de_Centrales_y_Grupos_de_Compra ( Anceco ) manifestó ayer que la fusión entre Carrefour y Promodès " no debe afectar negativamente a las centrales y grupos de <argset><head>compra </head></argset>españoles " . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="4.3.4.1.0" sentencenodepath="4">Todos deberán pagar sus impuestos , aunque Ø podrán desgravar <argset><specifier>las</specifier><head>compras </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de material de trabajo , como preservativos y lencería</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="comprar" originlink="verb.comprar.1" wordnetsynset="16:00049855">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="por_parte_del" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="11" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="4.2.1.2.1.0.0.0" sentencenodepath="4">Los observadores temen que las presiones políticas y <argset><specifier>la</specifier><head>compra </head>o coacción del voto </argset>, puedan incidir a_favor_del PRI , principalmente en las zonas rurales , aunque Ø admiten que " es difícil comprobarlo " . </example>
+        <example file="3LB-CAST/204_c-3.tbf.xml" nodepath="10.0.0.0.1.1.0.1.1.1.0" sentencenodepath="10">El grupo resultante de <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la empresa cárnica Navidul</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por Campofrío</argument></argset>facturará 250.000 millones de pesetas y Ø logrará un cash-flow de 20.000 millones , según un comunicado conjunto de ambas compañías . </example>
+        <example file="CESS-CAST-A/10017_20000413.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">El grupo estatal Electricité_de_France ( EDF ) anunció hoy , jueves , <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del 51_por_ciento de la empresa mexicana Electricidad_Águila_de_Altamira ( EAA ) , creada por el japonés Mitsubishi_Corporation para poner_en_marcha una central de gas de 495 megavatios</argument></argset>. </example>
+        <example file="CESS-CAST-A/10568_20001013.tbf.xml" nodepath="0.0.5.5.1.0.1.1.1.0" sentencenodepath="0">Los gobiernos de Panamá y Venezuela firmarán un acuerdo de cooperación energético , el próximo 19_de_octubre en Caracas , que le permitirá al país centroamericano tener facilidades en <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de petróleo</argument></argset>, informó hoy el Ministro_de_Comercio_e_Industrias panameño , Joaquín_Jácome , en un comunicado . </example>
+        <example file="CESS-CAST-A/10568_20001013.tbf.xml" nodepath="5.3.3.4.1.0" sentencenodepath="5">En esa ocasión , Chávez señaló que el convenio servirá no_sólo para buscar más mercado a la producción energética de Venezuela , uno de los principales miembros de la Organización_de_Países_Exportadores_de_Petróleo ( OPEP ) , sino_que también Ø facilitará a los países centroamericanos <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de hidrocarburos</argument></argset>. </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="22.0.0.1.1.1.1.1.1.0.0" sentencenodepath="22">Las alternativas a los sistemas de <argset><head>compra </head></argset>habituales , como el comercio electrónico , están ganando mucha importancia e Ø irán adquiriendo una gran relevancia . </example>
+        <example file="CESS-CAST-A/14291_20000518.tbf.xml" nodepath="2.0.3.0.2.1.2.1.0.0" sentencenodepath="2">" Este portafolio contiene sistemas de economía para la dirección de la empresa , sistemas de logística , de <argset><head>compras </head></argset>y de manejo de las relaciones con los clientes " dijo a EFE la jefa de información de Telia , Inger_Gunterberg . </example>
+        <example file="CESS-CAST-A/16786_20000221.tbf.xml" nodepath="7.0.0.3.1.0" sentencenodepath="7">La posibilidad de que la agencia de calificación de riesgo Moody's_Investors rebaje la deuda japonesa , citando problemas estructurales de esta economía , hace difícil <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del yen</argument></argset>y Ø pesará sobre esa divisa en los próximos días de negociaciones , afirman los expertos . </example>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="10.0.1.2.2.1.2.2.2.2.1.0" sentencenodepath="10">El precio interno que paga el Fondo_Nacional_del_Café ( FNC ) , un ente para-fiscal que garantiza <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la cosecha</argument></argset>a los cultivadores , está ligado diariamente a la cotización internacional y al tipo de cambio . </example>
+        <example file="CESS-CAST-A/17384_20000221.tbf.xml" nodepath="3.4.1.1.0" sentencenodepath="3">Las amas de casa mexicanas destinan cada año unos 3.000 millones de pesos ( 316 millones de dólares ) a <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de granulados en distintas presentaciones</argument></argset>. </example>
+        <example file="CESS-CAST-AA/22292_20000131.tbf.xml" nodepath="2.2.0.1.4.1.1.2.4.1.1.0" sentencenodepath="2">" Parte del actual Gobierno está bajo sospecha " , aseveró Alcaraz , quien calificó de " tapadera de la corrupción " a la empresa Saturno , que representó al Gabinete en <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los terrenos en los que está prevista la construcción del monumento , una operación " llena de absurdos y contradicciones " en la que un informe de la Audiencia_de_Cuentas ha detectado irregularidades</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23144_20001129.tbf.xml" nodepath="3.0.1.1.1.1.1.0" sentencenodepath="3">Hasta el momento de <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>compra </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por Telefónica</argument></argset>, Ceterp , que actúa únicamente en la ciudad de Ribeirao_Preto , de cerca de 500.000 habitantes , era la única operadora independiente de telefonía del estado de Sao_Paulo . </example>
+        <example file="CESS-CAST-AA/3865_20000204.tbf.xml" nodepath="18.4.1.2.2.1.5.4.1.1.0" sentencenodepath="18">Ø Mencionó también con indignación las acusaciones vertidas contra el fallecido presidente francés Francois_Mitterand , respecto_a una supuesta ayuda millonaria de aquel a las campañas electorales de Kohl que presuntamente se canalizaron a_través_de <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una refinería de la ex RDA</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por el grupo francés Elf_Aquitaine</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5606_20000207.tbf.xml" nodepath="0.0.2.1.2.2.1.1.0" sentencenodepath="0">El precio de venta de las acciones que el consorcio Tele_Brasil_Sul ( TBS ) , liderado por Telefónica , tiene en la Compañía_Riograndense_de_Telecomunicaciones ( CRT ) , será definido mediante un arbitraje , informó la empresa Tele_Centro_Sul ( TCS ) , interesada en <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>compra </head></argset>, publica hoy la prensa . </example>
+        <example file="CESS-CAST-AA/5988_20000608.tbf.xml" nodepath="5.3.2.1.0" sentencenodepath="5">Además se establece el seguimiento de los anuncios de ventas al exterior para todos los exportadores ( registros de venta ) y <argset><specifier>la</specifier><head>compra </head><reference_modifiers>directa</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por_parte_del Fondo_Nacional_del_Café</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un mínimo del 20_por_ciento del café de la cosecha que se destina a exportar</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8842_20000210.tbf.xml" nodepath="2.0.2.1.1.1.0.1.1.0.0" sentencenodepath="2">Ø Puso el ejemplo del intento de <argset><head>compra </head></argset>por_parte_del BSCH de un banco portugués y , aunque Ø reconoció que Ø se ha resuelto bien , Ø dijo que el servicio exterior español debe poder canalizar situaciones como esa , en las que se puso en riesgo la relación con un país vecino y socio de la UE . </example>
+        <example file="CESS-CAST-P/105_19990601.tbf.xml" nodepath="3.2.1.0.1.4.2.1.1.0" sentencenodepath="3">Una de las mayores subidas fue para Iberdrola , que ganó el 2,62% , tras anunciar <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del 3,5% de Repsol</argument></argset>. </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="22.2.3.1.2.1.1.1.1.1.0.0" sentencenodepath="22">El gerente del Grupo_IFA y socio de Anceco , Rafael_Rubio , opinó que esta fusión puede fomentar una mayor colaboración y unión entre las centrales de <argset><head>compra </head></argset>existentes . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="benefactive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10568_20001013.tbf.xml" nodepath="1.2.4.1.1.1.0.1.4.1.1.1.1.0" sentencenodepath="1">Jácome dijo que Ø ya recibió el borrador del acuerdo que le brinda a Panamá la oportunidad de <argset><specifier>una</specifier><head>compra </head><reference_modifiers>directa</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de petróleo</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a Venezuela</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">( de país a país )</argument><reference_modifiers>con una financiación que permitirá el desarrollo de obras sociales</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="comprar" originlink="verb.comprar.1" wordnetsynset="16:00049855">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="3.4.5.1.0.1.0" sentencenodepath="3">La campaña se ha desarrollado sin incidentes lamentables , aunque el coordinador general del Programa_de_las_Naciones_Unidas_para_la_Observación_Electoral , el vietnamita Nguyen_Huu_Dong , dijo el pasado_lunes que <argset><specifier>la</specifier><head>compra </head></argset>y los obstáculos al libre voto , son los temas que más preocupan a los observadores extranjeros . </example>
+        <example file="3LB-CAST/204_c-3.tbf.xml" nodepath="14.3.1.0" sentencenodepath="14">Campofrío materializó el pasado_mes_de_marzo <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del 87_por_ciento de OMSA_Alimentación , empresa de elaborados cárnicos con sede en Valencia</argument></argset>. </example>
+        <example file="CESS-CAST-A/11317_20000817.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">Con <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de acciones</argument><reference_modifiers>en CGO</reference_modifiers></argset>, Autopistas_Concesionaria_Española ( ACESA ) , filial del grupo financiero catalán La_Caixa y que constituye la mayor operadora de rutas con peajes de España , presente también en Portugal e Italia , pone un pie en Latinoamérica . </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="17.4.3.2.1.1.1.0.1.1.1.1.1.1.2.1.0" sentencenodepath="17">Pero , como buen experto la resolución de problemas , Ø supo salir airoso del comité ejecutivo más difícil , en_medio_de una marea de conflictos provocados por el lío de los pasaportes falsos , <argset><specifier>la</specifier><head>compra </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de partidos</argument></argset>, los brotes de racismo y la violencia en los estadios . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

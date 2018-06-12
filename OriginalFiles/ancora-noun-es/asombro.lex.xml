@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="asombro" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="asombrar" originlink="verb.asombrar.1" wordnetsynset="16:05582875">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/10_20010402_a.tbf.xml" nodepath="1.1.1.0" sentencenodepath="1">Pero <argset><specifier>el</specifier><head>asombro </head></argset>es inevitable cuando se observa la pasividad de los gobiernos españoles ante la necesidad de reducir unas flotas de pesca sobredimensionadas , con exceso de potencia , exceso de años y condiciones de seguridad bajo mínimos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="asombrar" originlink="verb.asombrar.1" wordnetsynset="16:05582358">
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/6153_20001109.tbf.xml" nodepath="1.2.4.2.1.0" sentencenodepath="1">Castro se desplazó a la localidad de Santa_María_del_Mar , situada a poco más de 20 kilómetros al este de La_Habana , y Ø apareció en la playa , vestido con su tradicional uniforme verde olivo , ante <argset><specifier>el</specifier><head>asombro </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los turistas que se encontraban en ella</argument></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/9_20010601_b.tbf.xml" nodepath="14.4.1.1.1.2.2.1.0" sentencenodepath="14">Al otro día se desempolvan sonoros clarines para lanzar un plan para Lejano_Oriente que será <argset><specifier>el</specifier><head>asombro </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Damasco o de Shanghái</argument></argset>ante la sorpresa de los empresarios y de los representantes , héroes anónimos del catálogo y la comisión , inventores geniales del Chupa-Chups y de la fregona Vileda . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

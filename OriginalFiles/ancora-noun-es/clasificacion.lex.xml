@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="clasificación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="clasificar" originlink="verb.clasificar.1" wordnetsynset="16:10352060">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="7" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="2" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="22" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-2.tbf.xml" nodepath="8.0.1.2.2.1.1.3.1.1.2.1.1.3.3.0.0" sentencenodepath="8">Este último partido , entre dos equipos que una vez más están entre los mejores clasificados de las votaciones semanales de entrenadores y periodistas especializados ( no hay <argset><head>clasificación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">oficial</argument></argset>al no existir una liga nacional universitaria ) resultó ser de los que mueven a la reflexión . </example>
+        <example file="3LB-CAST/d2-6.tbf.xml" nodepath="4.2.1.1.0.1.5.1.0" sentencenodepath="4">Ø Amenaza con ganarlo todo : la general , la montaña , <argset><specifier>la</specifier><head>clasificación </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">por puntos</argument></argset>... </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="23.2.2.1.0.2.1.1.0" sentencenodepath="23">El Espanyol goleó al Betis ( 3-0 ) , Ø ascendió al séptimo puesto de <argset><specifier>la</specifier><head>clasificación </head></argset>y Ø envió a zona de descenso a un equipo andaluz que encadena nueve jornadas sin conocer la victoria . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="26.2.3.1.1.0.1.1.1.1.0" sentencenodepath="26">El delantero del Racing Salvador_Ballesta , que fue líder de la tabla de artilleros durante muchas jornadas en la primera vuelta y que hace una semana puso_fin a una sequía goleadora que duró casi tres meses , firmó el tanto que dio el empate a su equipo ante el Valladolid ( 1-1 ) y , con 23 dianas , Ø vuelve a estar en lo más alto de <argset><specifier>esa</specifier><head>clasificación </head></argset>, junto_con Catanha y Hasselbaink . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="14.0.1.2.2.1.1.0" sentencenodepath="14">El segundo país que aparece en <argset><specifier>la</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de origen de las importaciones</argument></argset>es Italia . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="26.0.1.0" sentencenodepath="26"><argset><specifier>La</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los deportes</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">por número de clubes</argument>, </argset>también sitúa al fútbol como deporte líder , con 16.049 , que representan el 26,8_por_ciento del total . </example>
+        <example file="CESS-CAST-A/14713_20001219.tbf.xml" nodepath="1.3.4.0.1.1.1.2.1.1.0.0.2.2.1.1.1.1.1.2.1.0.0" sentencenodepath="1">Fuentes diplomáticas españolas avanzaron hoy , martes , que " no hay problemas para el acuerdo " en la primera de estas normas , la propuesta de directiva sobre las llamadas sociedades de <argset><head>clasificación </head></argset>, que son los organismos responsables de garantizar las buenas condiciones de los barcos a_través_de una serie de inspecciones periódicas . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="6.4.1.1.1.0.2.4.1.0" sentencenodepath="6">En_relación_al Deportivo-Juventus , el periódico milanés destaca como " positivo el partido del equipo turinés , que ahora tienen <argset><specifier>la</specifier><head>clasificación </head></argset>en su mano " . </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="4.2.3.0.2.1.1.0" sentencenodepath="4">Patrick_Kluivert , autor del primer tanto del equipo azulgrana , aumentó a 13 su cuenta en el presente campeonato y Ø ya es líder en solitario de <argset><specifier>la</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de goleadores del Barcelona</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Liga 1999-2000</argument></argset>, con uno de ventaja sobre Rivaldo . </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="8.3.1.1.0" sentencenodepath="8">Salva , autor de dos de los cuatro goles del Racing , se afianza al_frente_de <argset><specifier>la</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de artilleros</argument></argset>, con 25 dianas . </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="15.2.2.1.0.2.1.1.0" sentencenodepath="15">El equipo gallego encadena siete jornadas sin vencer y Ø desciende al duodécimo puesto de <argset><specifier>la</specifier><head>clasificación </head></argset>. </example>
+        <example file="CESS-CAST-AA/20667_20000128.tbf.xml" nodepath="1.3.1.2.1.1.0" sentencenodepath="1">El conjunto malagueño , que viajó hoy directamente desde Gijón hasta Vigo , buscará igualmente el tercer lugar en <argset><specifier>la</specifier><head>clasificación </head></argset>, que ahora lo ostenta el Sant_Pere_y_Sant_Pau_de_Tarragona , igualado a diez victorias con el Ivesur_PTV_de_Málaga , aunque los catalanes afrontan en esta jornada un encuentro muy complicado en Las_Palmas frente_al Guaguas . </example>
+        <example file="CESS-CAST-AA/2252_20000704.tbf.xml" nodepath="0.2.2.2.1.2.1.1" sentencenodepath="0">Beatriz_Ferrer_Salat es uno de los jinetes seleccionados para competir con el equipo español de hípica en la modalidad de doma en los Juegos_Olímpicos de Sydney , Ø confiesa , que Ø tiene " muy difícil " acercarse a una medalla , pero Ø piensa que " hacer <argset><specifier>una</specifier><reference_modifiers>buena</reference_modifiers><head>clasificación </head></argset>" será un pequeño homenaje a su padre </example>
+        <example file="CESS-CAST-AA/2252_20000704.tbf.xml" nodepath="7.2.1.1.1.1" sentencenodepath="7">Beatriz como jinete olímpico , en la modalidad de Doma , desea honrar con <argset><specifier>una</specifier><reference_modifiers>buena</reference_modifiers><head>clasificación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Sydney</argument></argset>, la memoria de su padre , Carlos_Ferrer_Salat , que fue presidente del Comité_Olímpico_Español y miembro del Comité_Olímpico_Internacional hasta su fallecimiento el año pasado . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="8.2.1.0.1.1.1.2.3.1.0.2.0" sentencenodepath="8">Ø Indicó que algunas de las modificaciones introducidas , que afectan a <argset>zonas verdes , <head>clasificación </head>y sistemas generales </argset>, " ni_siquiera están enumeradas " en el documento . </example>
+        <example file="CESS-CAST-AA/3128_20001105.tbf.xml" nodepath="0.3.1.1.1.1.0" sentencenodepath="0">Miguel_Angel_Muñoz , del Leganés , es una semana más el líder de <argset><specifier>la</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de goleadores</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Segunda</argument></argset>, aunque Ø cambia de compañero , pues el tinerfeñista Luis_García empata con él a seis tantos , gracias_a los dos que Ø marcó al Atlético . </example>
+        <example file="CESS-CAST-AA/3847_20000605.tbf.xml" nodepath="7.0.1.0.1.3.1.3.1.1.0" sentencenodepath="7">Además_de Kucera , Squillari , que ocupa el vigésimo sexto lugar en <argset><specifier>la</specifier><head>clasificación </head><reference_modifiers>mundial</reference_modifiers></argset>, había ganado en sus anteriores rondas parisienses al checo Jiri_Vanek y al alemán Alexander_Popp y Ø ha jugado un total de 14 sets . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="13.2.1.0.2.1.1.0" sentencenodepath="13">El equipo vitoriano asciende al quinto puesto de <argset><specifier>la</specifier><head>clasificación </head></argset>a_costa_de un FC_Barcelona que , después de siete jornadas sin perder , sufrió su séptima derrota en la presente Liga y la segunda en casa . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="15.3.2.1.1.2.1.1.0" sentencenodepath="15">El Athletic_de_Bilbao , gracias_a un gol en propia puerta de Pacheta en el minuto 76 , vuelve a estar en zona europea , en el sexto peldaño de <argset><specifier>la</specifier><head>clasificación </head></argset>, tras vencer por 2-1 a un Numancia que encajó su octava derrota de la Liga 1999-2000 . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="21.2.3.1.1.2.1.1.0" sentencenodepath="21">El equipo aragonés , que sólo ha sufrido cuatro derrotas en 23 jornadas , sacó un punto de un partido que Ø perdía 2-0 a_falta_de once minutos y Ø se mantiene en el segundo puesto de <argset><specifier>la</specifier><head>clasificación </head></argset>. </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="33.4.2.0.1.1.1.1.1.1.1.0.2.1.1.0" sentencenodepath="33">Un gol del uruguayo Marcelo_Zalayeta dio la cuarta victoria de la presente Liga al colista Sevilla , por 1-0 sobre un Racing_de_Santander que cae al decimoctavo puesto de <argset><specifier>la</specifier><head>clasificación </head></argset>y pasa a acompañar al equipo andaluz en la zona de descenso . </example>
+        <example file="CESS-CAST-AA/5021_20000206.tbf.xml" nodepath="0.4.0.1.0.1.1.0" sentencenodepath="0">El brasileño Ronaldo_de_Assis_Moreira , conocido como " Ronaldinho " , se coronó hoy soberano de <argset><specifier>la</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los goleadores</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">del preolímpico suramericano</argument></argset>y de los 200 futbolistas de diez países que tomaron_parte de la undécima edición de este torneo eliminatorio . </example>
+        <example file="CESS-CAST-AA/6013_20000408.tbf.xml" nodepath="9.0.0.1.1.1.0" sentencenodepath="9">Octavo en <argset><specifier>la</specifier><head>clasificación </head></argset>, el equipo catalán tiene 42 puntos a tan sólo tres de la zona que da derecho a jugar la Copa_de_la_UEFA y a ocho ya de las posiciones de descenso . </example>
+        <example file="CESS-CAST-AA/6354_20000909.tbf.xml" nodepath="3.0.3.1.2.1.1.0" sentencenodepath="3">Vincent_Spadea , que tuvo su mejor actuación en un Grand_Slam en 1999 al alcanzar los cuartos de final del Abierto_de_Australia , ocupa actualmente el puesto 119 de <argset><specifier>la</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">mundial</argument></argset>y Ø no ha tenido una buena temporada , en la que Ø sólo ha ganado dos partidos . </example>
+        <example file="CESS-CAST-AA/6635_20000409.tbf.xml" nodepath="1.2.1.1.4.1.1.0" sentencenodepath="1">Schumacher ha logrado esta victoria , que lo catapulta al_frente_de <argset><specifier>la</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Campeonato_del_Mundo_de_Fórmula_Uno</argument></argset>con 21 puntos de ventaja sobre su compañero de equipo el brasileño Rubens_Barrichello , no_solo gracias_a sus dotes de piloto , sino al excepcional trabajo de sus mecánicos en el segundo repostaje , que le permitieron incorporarse a la pista por_delante_de Hakkinen . </example>
+        <example file="CESS-CAST-AA/8656_20000813.tbf.xml" nodepath="3.3.6.1.0.3.1.1.1.0.0.1.1.1.0" sentencenodepath="3">La jugadora zaragozana en declaraciones a EFE comentó que en la presente temporada Ø se está encontrando a un nivel de juego " muy bueno " lo que le ha llevado a ser la cuarta en <argset><specifier>la</specifier><head>clasificación </head><reference_modifiers>europea</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/123_19990202.tbf.xml" nodepath="27.4.1.1.1.1.1.0.2.5.1.1.2.1.1.0" sentencenodepath="27">El tenista catalán se colocó ayer a sólo 214 puntos del estadounidense Pete_Sampras , que , pese_a no jugar en el Abierto_de_Australia , se mantuvo en el primer puesto de <argset><specifier>la</specifier><head>clasificación </head><reference_modifiers>ATP</reference_modifiers></argset>, con 3744 puntos . </example>
+        <example file="CESS-CAST-P/123_19990202.tbf.xml" nodepath="29.0.1.1.0" sentencenodepath="29">En <argset><specifier>la</specifier><head>clasificación </head><reference_modifiers>femenina</reference_modifiers></argset>, la estadounidense Lindsay_Davenport se mantiene primera , mientras Arantxa_Sánchez es quinta y Conchita_Martínez desciende hasta el puesto 16º . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="6.0.1.1.1.1.1.1.0.0" sentencenodepath="6">El cambio de las normas de <argset><head>clasificación </head></argset>provocó ayer confusión sobre la posibilidad de que España ya estuviera clasificada porque Hungría es uno de los semifinalistas y Ø ya tiene plaza olímpica por su condición de campeón europeo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="clasificar" originlink="verb.clasificar.1" wordnetsynset="16:10352060">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10585_20000213.tbf.xml" nodepath="5.0.1.3.3.0.1.1.1.1.0.0" sentencenodepath="5">El único español Eladio_Araiz , que logró superar la fase de <argset><head>clasificación </head></argset>y entrar en el cuadro , quedó al_final en la vigésima tercera posición , la última entre los finalistas , en un torneo en el que participaron las 30 primeras espadas del mundo . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="27.2.1.0.2.1.1.1.1.0.0" sentencenodepath="27">El equipo español formado por Almudena_Cid , Esther_Domínguez y Alba_Caride acabó en cuarto lugar en la fase de <argset><head>clasificación </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de los Mundiales de gimnasia rítmica que se celebran en Osaka ( Japón )</argument></argset>, lo que le asegura dos plazas , el máximo posible , para el concurso individual de los JJOO_de_Sydney . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="clasificar" originlink="verb.clasificar.2" wordnetsynset="16:10352060">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="5" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="18.2.1.1.0" sentencenodepath="18">El equipo donostiarra que dirige Javier_Clemente , socio del Athletic , supera en <argset><specifier>la</specifier><head>clasificación </head></argset>al conjunto bilbaíno después de estar por detrás durante 26 jornadas . </example>
+        <example file="CESS-CAST-A/14736_20000618.tbf.xml" nodepath="4.1.0.3.1.1.0" sentencenodepath="4">Con este resultado , que a su vez es el mejor logrado hasta ahora por el equipo PPI_Motorsport en una prueba de la Cart , Serviá ha ascendido hasta la decimotercera posición en <argset><specifier>la</specifier><head>clasificación </head><reference_modifiers>absoluta</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">del campeonato</argument></argset>y Ø se ha situado en_cabeza entre los novatos , empatado a puntos con el canadiense Alexandre_Tagliani ( Reynard/Ford ) . </example>
+        <example file="CESS-CAST-A/14736_20000618.tbf.xml" nodepath="10.1.0.0" sentencenodepath="10">- <argset><head>Clasificación </head></argset>carrera 1 . </example>
+        <example file="CESS-CAST-A/18465_20001023.tbf.xml" nodepath="19.0.1.1.2.1.1.1.1.0.0" sentencenodepath="19">En el segundo encuentro de la fase de <argset><head>clasificación </head></argset>Ø empató a uno con Brasil . </example>
+        <example file="CESS-CAST-AA/20667_20000128.tbf.xml" nodepath="6.2.5.6.1.0.1.1.1.5.1.0" sentencenodepath="6">Hervás piensa que ganar en Vigo les valdría para afrontar los siguientes compromisos " con más tranquilidad " , ya_que en las tres próximas jornadas Ø se enfrentarán al Guaguas_Las_Palmas , Numancia_de_Soria y Unicaja_Almería , partidos en los que , según el técnico , el Ivesur se jugará <argset><specifier>la</specifier><head>clasificación </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">para la fase por el título</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21333_20000326_d.tbf.xml" nodepath="1.2.2.1.2.1.1.0" sentencenodepath="1">El Zaragoza , gracias_a dos tantos del paraguayo Roberto_Miguel_`Toro`_Acuña , se hizo con tres puntos en su visita a Vitoria ( 0-2 ) y Ø arrebató el tercer puesto de <argset><specifier>la</specifier><head>clasificación </head></argset>al Alavés , que llevaba siete jornadas sin perder . </example>
+        <example file="CESS-CAST-AA/21333_20000326_h.tbf.xml" nodepath="2.0.1.2.4.1.1.1.2.1.1.0" sentencenodepath="2">Los hombres de Luis_Fernández , que al concluir la última jornada de la primera vuelta estaban situados en el cuarto peldaño de <argset><specifier>la</specifier><head>clasificación </head></argset>, en zona de Liga_de_Campeones , ocupan ahora el decimotercer puesto , a cinco puntos del descenso . </example>
+        <example file="CESS-CAST-AA/2252_20000704.tbf.xml" nodepath="2.0.1.2.1.0" sentencenodepath="2">" El equipo de Doma español consiguió <argset><specifier>la</specifier><head>clasificación </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">para los Juegos_Olímpicos de Sydney</argument></argset>tras una excelente actuación en los Juegos_Ecuestres_Mundiales_de_Roma , pero el poderío del equipo alemán es tan claro que ... " , ha comentado a Efe Beatriz_Ferrer_Salat . </example>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="7.2.2.1.1.1.1.4.1.1.1.1.0.0" sentencenodepath="7">La escudería Minardi para la que pilota Marc_Gené , fue la única que no entrenó en este circuito la semana pasada y su objetivo es encontrar el motivo de porqué Ø no consiguen en la sesión de <argset><head>clasificación </head></argset>los tiempos que luego Ø realizan en carrera . </example>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="8.0.0.1.1.1.1.2.1.1.1.1.1.0.0" sentencenodepath="8">La ausencia de un motor específico para disputar la sesión de <argset><head>clasificación </head></argset>es uno de los motivos que más penaliza a la escudería , prácticamente condenada a los últimos puestos , mientras los pilotos en carrera son sensiblemente más rápidos . </example>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="12.2.4.1.1.1.1.0.0" sentencenodepath="12">Prost corre delante de su público y Peugeot pondrá a disposición de los pilotos , el francés Jean_Alesi y el alemán Nick_Heidfeld , la cuarta evolución del motor E20 para la sesión de <argset><head>clasificación </head></argset>del Sábado , para intentar que el equipo del cuádruple campeón del mundo pueda salir del pozo en que Ø se encuentra . </example>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="13.2.4.1.0" sentencenodepath="13">Mañana , viernes , la jornada estará dedicada a los entrenamientos libres , mientras_que el Sábado , tras una nueva sesión libre se disputará <argset><specifier>la</specifier><head>clasificación </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para establecer la formación de salida de la carrera del domingo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24070_20000329.tbf.xml" nodepath="3.0.0.1.3.3.1.0" sentencenodepath="3">Comentario : Inglaterra ganó por 3-0 a Yugoslavia y con ello Ø obtuvo <argset><specifier>la</specifier><head>clasificación </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">para la Eurocopa_de_Eslovaquia , en la que jugará en el Grupo_B , junto_a Italia , Turquía y el equipo anfitrión</argument></argset>. </example>
+        <example file="CESS-CAST-AA/25491_20000331.tbf.xml" nodepath="0.6.1.0" sentencenodepath="0">El Caprabo_Igualada , actual campeón de la Liga_Europea de hockey sobre patines , se jugará mañana en la pista del Benfica_de_Lisboa , en partido de la sexta y última jornada de la liguilla de cuartos de final , <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>clasificación </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">para la final a cuatro de la competición</argument></argset>. </example>
+        <example file="CESS-CAST-AA/25491_20000331.tbf.xml" nodepath="2.4.5.0.1.5.2.1.1.0.1.1.0.0" sentencenodepath="2">El equipo catalán podría llegar a clasificarse igualmente empatando , aunque para ello deberían acabar en tablas Novara y Barcelos , que se enfrentan entre ellos en pista italiana y también con opciones de <argset><head>clasificación </head></argset>para ambos . </example>
+        <example file="CESS-CAST-AA/4810_20000306.tbf.xml" nodepath="0.0.3.1.1.1.0" sentencenodepath="0">El Ivesur-PTV_de_Málaga necesita una victoria para asegurarse <argset><specifier>la</specifier><head>clasificación </head></argset>para la fase por el título de la Superliga masculina de voleibol , a_falta_de de dos jornadas para acabar la liga regular , y Ø tiene ahora trece triunfos , al_igual_que el Sant_Pere_y_Sant_Pau_de_Tarragona , y uno más que el Pepsi_Gijón . </example>
+        <example file="CESS-CAST-AA/9408_20001113.tbf.xml" nodepath="8.4.0.1.1.0.1.1.1" sentencenodepath="8">En_cuanto_al futuro de su equipo en la Copa_Saporta , donde Ø ocupa la tercera plaza con dos triunfos y dos derrotas , Ø se mostró optimista en poder alcanzar <argset><specifier>una</specifier><reference_modifiers>buena</reference_modifiers><head>clasificación </head></argset>en su grupo y evitar cruces complicados , aunque Ø señaló que Ø tampoco deben fijarse demasiado en los posibles rivales de la siguiente ronda . </example>
+        <example file="CESS-CAST-P/115_20010901.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">La selección española sub-21 dio un paso importante en <argset><specifier>la</specifier><head>clasificación </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">para el Europeo del año que viene</argument></argset>al derrotar a Austria ( 2-0 ) en Burriana . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="4" lexicalized="no" originlemma="clasificar" originlink="verb.clasificar.2" wordnetsynset="16:10352060">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="16.2.1.1.1.1.0.0" sentencenodepath="16">Mañana se disputará por la mañana una nueva sesión libre y por la tarde la sesión de <argset><head>clasificación </head></argset>para establecer la formación de salida de esta novena prueba del mundial de Fórmula_Uno . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="5" lexicalized="no" originlemma="clasificar" originlink="verb.clasificar.2" wordnetsynset="16:10352060+16:10351976+16:09752695">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/1901_20001203.tbf.xml" nodepath="5.3.0.1.1.0.2.1.1.0" sentencenodepath="5">La histórica victoria permitió al brasileño regresar al primer lugar en <argset><specifier>la</specifier><head>clasificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de tenistas profesionales</argument></argset>, concluir este año con ese título y convertirse en el primer latinoamericano que termina una temporada en la posición . </example>
+        <example file="CESS-CAST-AA/25491_20000331.tbf.xml" nodepath="3.1.2.0.1.2.1.1.0" sentencenodepath="3">En el grupo B , con todo ya decidido tras <argset><specifier>la</specifier><head>clasificación </head><argument argument="argM" function="cn" thematicrole="tmp" type="sn">hace tres jornadas</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Oporto y FC_Barcelona</argument></argset>, los azulgrana viajan a Vic para enfrentarse al equipo catalán ya eliminado , en un encuentro con el único interés para los barcelonistas de quedar primeros o segundos de grupo . </example>
+        <example file="CESS-CAST-AA/9408_20001113.tbf.xml" nodepath="9.0.3.4.1.1.0" sentencenodepath="9">" Aún quedan bastantes jornadas como_para estar a la expectativa , cuando Ø estemos mas cerca final Ø ya veremos . Además no es bueno elegir <argset><argument argument="arg1" thematicrole="tem" type="spec">tu</argument><head>clasificación </head></argset>para que te toque un rival u otro , porque Ø tenemos el caso del Tau la pasada campaña " , explicó Ø . </example>
+        <example file="CESS-CAST-P/121_19991202_e.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">El equipo de Raúl_Lozano buscará <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>clasificación </head></argset>en el preolímpico . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

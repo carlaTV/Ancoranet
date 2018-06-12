@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="demostración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="demostrar" originlink="verb.demostrar.1" wordnetsynset="16:00336149">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-15.tbf.xml" nodepath="0.3.0.2.1.0.0" sentencenodepath="0">De_hecho , se han lanzado numerosas conjeturas sin <argset><head>demostración </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">científica</argument><specifier>alguna</specifier></argset>, ya_que la falta de recubrimiento en los anfibios ( lo cual , por otra parte , les hace muy resbaladizos para sus depredadores , faceta de gran utilidad para su supervivencia ) , y las pieles cubiertas de pelo , lana o cerdas de los mamíferos , muy especializadas y perfeccionadas y sin claros precursores en la carrera evolutiva , hacen la comparación más problemática . </example>
+        <example file="CESS-CAST-A/16577_20000320.tbf.xml" nodepath="6.0.3.0.1.1" sentencenodepath="6">" Oscar siempre dijo desde que terminó la pelea contra Trinidad que Ø no la perdió y que en ningún momento Ø dejo de pensar que Ø era el verdadero campeón del mundo , <argset><specifier>la</specifier><reference_modifiers>mejor</reference_modifiers><head>demostración </head></argset>Ø la dio en su pelea contra Shane_Mosley " , destacó Solórzano . </example>
+        <example file="CESS-CAST-AA/22459_20000927.tbf.xml" nodepath="2.0.4.1.0" sentencenodepath="2">" Cuando en el torneo individual Ø te quedas decepcionado , hacer el esfuerzo de mentalizarse para el doble , una modalidad en la que Albert y yo solo hemos jugado juntos seis o siete veces , y ser capaces de salir a la pista y dar todo lo que Ø dimos , fue <argset><specifier>una</specifier><head>demostración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de valentía y de orgullo</argument></argset>" , añadió Ø . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="9.2.2.1.5.2.1.1" sentencenodepath="9">El presidente venezolano , Hugo_Chávez , inició su campaña por la reelección el pasado miércoles viajando al interior del país en un avión comercial y trasladándose en vehículos particulares , e Ø informó de que Ø suspendió , por lo que queda de campaña , sus participaciones en inauguraciones de obras públicas , como <argset><specifier>una</specifier>" <head>demostración </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que no va a utilizar " ningún tipo de ventajas "</argument></argset>. </example>
+        <example file="CESS-CAST-P/116_19991201.tbf.xml" nodepath="4.0.0.1.1" sentencenodepath="4"><argset><specifier>La</specifier><reference_modifiers>mayor</reference_modifiers><head>demostración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que están inquietos , de que Domingo_García no las tiene todas consigo</argument>, </argset>no es que Van_Gaal diga que hay una campaña mediática contra él ( no hay peor campaña que sus cuatro derrotas consecutivas ) , sino el hecho de que Ø ya han conseguido lo que Ø querían : redactar las preguntas de Gol_a_Gol . </example>
+        <example file="CESS-CAST-P/117_19990202.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">El equipo de Sergio_Scariolo , además , hizo <argset><specifier>una</specifier><head>demostración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carácter</argument></argset>ante el Caja_San_Fernando . </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="3.4.1.0" sentencenodepath="3">Birmingham sólo fue ayer <argset><specifier>una</specifier><head>demostración </head><reference_modifiers>más</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la indefinición del proyecto de José_Antonio_Camacho desde que finalizó la Eurocopa_de_Holanda</argument></argset>. </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="10.3.3.2.0" sentencenodepath="10">Enrico_Letta , ministro de Industria , al conocer la multa , dijo que Ø era <argset>" <specifier>la</specifier>
+            <head>demostración </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre la situación monstruosa en la que ha desembocado el sector de los seguros , con una semiliberalización sólo sobre los precios y con poca transparencia y competencia por_parte_de de la oferta</argument>" </argset>. </example>
+        <example file="CESS-CAST-P/75_19990202.tbf.xml" nodepath="4.0.3.1.0" sentencenodepath="4">" Ø Es <argset><specifier>la</specifier><head>demostración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que los leridanos aprobaron la recuperación de este espacio para la ciudad</argument></argset>" , manifestó ayer García . </example>
+        <example file="CESS-CAST-P/99_20011001.tbf.xml" nodepath="2.3.1.0" sentencenodepath="2">Al_final se realizó <argset><specifier>una</specifier><head>demostración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una de estas históricas embarcaciones insumergibles que tenían como misión el salvamento de náufragos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="comunicación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="comunicar" originlink="verb.comunicar.1" wordnetsynset="16:00019671">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="21" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-16.tbf.xml" nodepath="0.1.1.0" sentencenodepath="0">También <argset><specifier>la</specifier><head>comunicación </head></argset>puede tener su vehículo en la piel de los animales . </example>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="8.3.1.1.1.1.1.1.0" sentencenodepath="8">A_diferencia_de las misivas remitidas a ciudadanos vascos , las cartas dirigidas a las personalidades con residencia y negocios en Madrid contienen una terminología poco habitual en <argset><specifier>las</specifier><head>comunicaciones </head><reference_modifiers>realizadas por los etarras hasta la desarticulación por_parte_de la Policía_Autonómica_Vasca de las redes de cobro del impuesto revolucionario</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19561_20000830.tbf.xml" nodepath="2.4.1.2.1.0" sentencenodepath="2">Sobre la ausencia de Argentina en la reunión , sólo se informó de que hubo <argset><specifier>una</specifier><head>comunicación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los servicios sanitarios de ese país</argument><reference_modifiers>en la que expresaron la imposibilidad de concurrir al encuentro</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="12.0.1.1.1.1.0.0" sentencenodepath="12">En la bolsa de Madrid , el sector de <argset><head>comunicaciones </head></argset>fue el más beneficiado por las subidas , por el tirón de Telefónica , y Ø ganó un 4,70_por_ciento ; seguido de nuevas tecnologías , que subió un 3,49_por_ciento ; bancos , un 1,54_por_ciento , y alimentación , un 0,49_por_ciento . </example>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="9.2.0.3.0.1.1.1.2.1.1.1.1.1.0" sentencenodepath="9">El conseller ha puesto_de_manifiesto la importancia de las nuevas tecnologías dentro del sector , " el turismo es fruto de la revolución tecnológica en el sector de <argset><specifier>las</specifier><head>comunicaciones </head></argset>" - ha dicho Ø - y Ø ha apostado por incorporar estas tecnologías a la estrategia empresarial del sector . </example>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="0.4.1.1.2.2.1.1.1.0.1.1.4.1.0" sentencenodepath="0">El príncipe de Asturias , don Felipe_de_Borbón , recibió anoche la Medalla_de_Oro del Spanish_Institute neoyorquino en una cena de gala a la que asistieron más de 250 invitados del mundo de los negocios , la cultura y <argset><specifier>la</specifier><head>comunicación </head></argset>. </example>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="7.5.1.2.1.0.0" sentencenodepath="7">" El mejor ejemplo de esa tendencia - dijo el Príncipe_de_Asturias en el discurso que Ø pronunció en inglés - son por_supuesto las redes instantáneas de <argset><head>comunicación </head></argset>que facilita internet , aunque hay también otros caminos para llegar a las personas " . </example>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="3.1.2.2.1.3.3.1.1.1.1.1.0" sentencenodepath="3">Para López_Amor , la compañía que Ø preside " forma_parte de la marca España y Ø constituye un medio de relaciones propio que garantiza el autogobierno en el mundo de <argset><specifier>la</specifier><head>comunicación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">internacional</argument></argset>" por lo que , en este sentido , Ø supone " una modesta protección frente a los gigantescos procesos de fusiones multimedia " . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="10.3.4.0.0.1.1.1.1.1.1.1.1.0.0" sentencenodepath="10">El documento del Centro_Carter también señaló que " Ø han detectado desigualdad en el acceso a los medios de <argset><head>comunicación </head></argset>, e incluso presiones indebidas sobre determinados medios y periodistas " . </example>
+        <example file="CESS-CAST-AA/4506_20000406.tbf.xml" nodepath="6.2.2.5.2.1.0.0" sentencenodepath="6">Smith señaló que la Fuerza_Europea_de_Intervención_Rápida debe contar con un " comando multinacional " en el teatro de operaciones , pero que el centro de los servicios secretos debe situarse " en Bruselas , disponiendo de <argset><head>comunicaciones </head><reference_modifiers>sofisticadas</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/4842_20000606.tbf.xml" nodepath="1.0.4.1.1.1.1.0" sentencenodepath="1">Los problemas que genera el envejecimiento progresivo de su población , el aislamiento en que viven muchos de sus municipios y su despoblación , o los problemas en <argset><specifier>las</specifier><head>comunicaciones </head></argset>, fueron temas que desfilaron por las tres mesas de trabajo que presidió hoy Don_Felipe , acompañado por el presidente de la Comunidad , Marcelino_Iglesias . </example>
+        <example file="CESS-CAST-AA/5005_20001107.tbf.xml" nodepath="5.2.1.2.1.1.2.1.0" sentencenodepath="5">Las citadas tarifas oscilan entre las 1.850 pesetas al mes ( si se trata de accesos a centrales locales ) y las 2.300 pesetas ( si <argset><specifier>la</specifier><head>comunicación </head></argset>es de tránsito simple - conexión a una única central por provincia - ) . </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="10.3.5.0.1.2.1.0.0" sentencenodepath="10">Asimismo , Triadú señaló que en la misma línea se impulsarán , siempre con la ayuda del sector privado , portales de temática educativa y de <argset><head>comunicación </head></argset>, que , en todos los casos , utilizarán " con_toda_normalidad el catalán , castellano e inglés " . </example>
+        <example file="CESS-CAST-AA/8193_20000511.tbf.xml" nodepath="5.0.1.2.0.1.1.1.1.1.0.0" sentencenodepath="5">Benegas , en declaraciones a los medios de <argset><head>comunicación </head></argset>en el Congreso , aseguró que Ø desconoce de dónde ha partido la noticia , y Ø explicó que desde el año_1977 Ø ha tenido " más problemas " pero Ø manifestó que no le gusta " hacer_gala de lo que me ha ocurrido , porque Ø entra dentro_de mi trabajo y de mi lucha política por la libertad y por la paz " . </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="2.3.0.3.1.0.1.1.0.2.1.1.0.0" sentencenodepath="2">Medina , apoyado de forma persistente a_lo_largo_de toda la campaña por el presidente Leonel_Fernández , se considera " víctima " de manipulaciones de encuestadoras y medios de <argset><head>comunicación </head></argset>para presentarlo en desventaja frente_a Balaguer . </example>
+        <example file="CESS-CAST-AA/9690_20000412.tbf.xml" nodepath="4.2.2.1.0.2.2.1.0.0.0.0" sentencenodepath="4">Al_término_de la sesión de hoy todos los sectores tuvieron pérdidas , la principal fue para servicios con el 5,32_por_ciento , seguido de <argset><head>comunicaciones </head>y transportes con 4,20_por_ciento </argset>. </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="6.0.2.1.1.1.1.0.0" sentencenodepath="6">Núñez responsabilizó a los medios de <argset><head>comunicación </head></argset>, con la dureza de sus críticas sistemáticas a Van_Gaal , de la respuesta negativa que han tenido los socios del Barça , y Ø mantiene su fe en el entrenador , al que Ø cree capaz de remontar la situación adversa y reconducir al equipo hacia la buena dirección . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="19.1.2.1.1.0.1.1.0.2.1.0" sentencenodepath="19">La valoración de Jordi_Pujol Ayer , de_todos_modos , el directivo responsable de la imagen y <argset><specifier>la</specifier><head>comunicación </head></argset>del club , Ramon_Fusté , negó que la continuidad del técnico esté sujeta al partido del Sábado : " El futuro de Van_Gaal no depende del resultado de La_Coruña " . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="22.2.1.1.1.1.0.0" sentencenodepath="22">Donde no_sólo hay una sencilla mayoría , sino una unanimidad casi aplastante , es en los medios de <argset><head>comunicación </head></argset>. </example>
+        <example file="CESS-CAST-P/158_20010501.tbf.xml" nodepath="0.0.1.2.0.1.0.1.1.0.0" sentencenodepath="0">El proyecto de fusión de las actividades de edición musical del grupo de <argset><head>comunicación </head></argset>alemán Bertelsmann ( a_través_de BMG ) y del inglés EMI ha entrado en la fase definitiva , a_la_espera_de que las condiciones exigidas por las autoridades europeas de la competencia permitan la unión . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>comunicación </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">por Internet</argument></argset>no garantiza la privacidad : un mensaje por correo electrónico puede ser rescatado tras ser borrado . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="24.0.1.3.1.0.2.1.0.0" sentencenodepath="24">La creciente omnipresencia del correo electrónico como ubicuo medio de <argset><head>comunicación </head></argset>abre un abanico de problemas de gran calado para los que no hay respuestas a mano . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="7.5.2.1.1.1.1.0.0" sentencenodepath="7">Pero eso que parecía lo más normal se ha visto que no lo era , porque incluso los medios de <argset><head>comunicación </head></argset>lo convirtieron en noticia . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="17.4.1.1.1.1.1.1.1.0.0" sentencenodepath="17">Ø Hicimos un esfuerzo desde los grupos de la oposición durante el debate sobre los medios de <argset><head>comunicación </head></argset>públicos para consensuar medidas que podían parecer imposibles de acordar . </example>
+        <example file="CESS-CAST-P/21_20000601_c.tbf.xml" nodepath="1.2.2.1.1.1.1.1.1.1.1.1.0.0" sentencenodepath="1">Tanto los familiares como sus amistades desean que se haga justicia , y Ø hacemos una llamada a la seriedad de los medios de <argset><head>comunicación </head></argset>para evitar deteriorar más tanto la imagen pública que se da de los detenidos como la evolución del proceso judicial . </example>
+        <example file="CESS-CAST-P/22_20000302.tbf.xml" nodepath="3.1.2.2.3.0.1.0" sentencenodepath="3">A la salida del Elíseo y contrariamente a su costumbre , Jospin intentó minimizar la advertencia presidencial y Ø subrayó : " Hubo <argset><specifier>una</specifier><head>comunicación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ministro de Asuntos_Exteriores</argument></argset>, una frase mía y una del presidente " . </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="3.3.0.2.1.1.1.1.1.2.3.0.2.0.1.1.0.0" sentencenodepath="3">Kosovo también centró buena parte de la ofensiva de la aviación aliada , que bombardeó puestos de las fuerzas especiales de la policía serbia , así_como líneas de <argset><head>comunicación </head></argset>y sistemas integrados de defensa antiaérea . </example>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="8.4.2.1.1.1.0.0" sentencenodepath="8">Además , con el objetivo de " salvaguardar la relación institucional " , ambos acordaron mantener abiertos los cauces de <argset><head>comunicación </head></argset>que les permita coordinar estrategias . </example>
+        <example file="CESS-CAST-P/4_20020601_c.tbf.xml" nodepath="10.0.1.1.3.1.2.1.3.1.1.1.1.1.0.0" sentencenodepath="10">Una decisión que sólo puede consolidar la voluntad de extranjería de quien se niega a aprender una lengua de <argset><head>comunicación </head><reference_modifiers>habitual</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la sociedad en donde se vive</argument></argset>. </example>
+        <example file="CESS-CAST-P/72_19990601.tbf.xml" nodepath="3.2.1.2.1.1.0" sentencenodepath="3">La carretera supondrá una importante mejora de <argset><specifier>las</specifier><head>comunicaciones </head></argset>en la zona del Cadí ya_que Ø enlazará el Alt_Urgell con el Berguedà y también con el Solsonès . </example>
+        <example file="CESS-CAST-P/72_19990601.tbf.xml" nodepath="8.1.1.1.1.0.0" sentencenodepath="8">Para ambos representantes municipales , la vía de <argset><head>comunicación </head></argset>" es muy necesaria , en_especial para la promoción turística de la zona " . </example>
+        <example file="CESS-CAST-P/82_20010602.tbf.xml" nodepath="0.4.0.2.1.1.1.1.0.0" sentencenodepath="0">EL MINISTRO de Defensa , Federico_Trillo , entregó ayer al director de El_Periódico_de_Aragón , Miguel_Angel_Liso , uno de los Premios_Defensa_2001 en el apartado de <argset><head>comunicación </head></argset>. </example>
+        <example file="CESS-CAST-P/83_19990701.tbf.xml" nodepath="0.0.0.8.2.1.0.1.1.0.0" sentencenodepath="0">Voces de un ayer que marcó época y estrellas de las ondas de hoy , políticos de ese centro que Ø se disputan desde todas direcciones , deportistas , artistas y altos ejecutivos de medios de <argset><head>comunicación </head></argset>se reunieron el Martes por la noche , en las Reales_Atarazanas , para celebrar el 50º aniversario de Radio_Nacional_de_España en Catalunya . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="comunicar" originlink="verb.comunicar.1" wordnetsynset="16:00019671">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="8.3.2.1.0.2.3.1.1.1.1.0.0" sentencenodepath="8">En los casi tres años del gobierno actual , el Ejecutivo y la oposición habían mantenido una tensa discrepancia sobre los asuntos de Estado , hasta situaciones de enfrentamiento verbal tanto en el Parlamento como en los medios de <argset><head>comunicación </head><reference_modifiers>social</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="15.1.4.3.1.1.1.1.0.0" sentencenodepath="15">También se ha decidido eliminar a Fiyi como objetivo turístico , por lo que se propone tanto a las compañías del ramo como a los medios de <argset><head>comunicación </head></argset>que Ø dejen de promover Fiji como destino vacacional , así_como la suspensión de las actividades deportivas entre los dos estados . </example>
+        <example file="3LB-CAST/d2-0.tbf.xml" nodepath="0.0.5.4.1.1.1.1.0.0" sentencenodepath="0">Pese_a_que Ø es rentable publicitariamente , como Ø estamos viendo en todos los medios de <argset><head>comunicación </head></argset>estos días , el ciclismo español tiene un gran problema de base . </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="2.0.4.2.1.1.2.1.1.2.1.0.0" sentencenodepath="2">La diversidad de las culturas que están en contacto se proyecta hacia el futuro , especialmente tras la creación por las innovaciones tecnológicas de los más avanzados medios de <argset><head>comunicación </head></argset>: las normas simbólicas particulares segregadas por los mass_media han planteado una cultura que oscila entre la divulgación de la cultura - culta - y una cultura en el sentido antropológico de la palabra , esto_es , definida no_tanto por parámetros tradicionalmente elitistas como por las necesidades o demandas culturales de las sociedades actuales . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="comunicar" originlink="verb.comunicar.2" wordnetsynset="16:04728675">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="8.3.1.2.2.0.1.1.3.1.0.0" sentencenodepath="8">Unos cien tractores han cortado en el condado de Northumberland , al nordeste , la autopista A1 , una de las principales vías terrestres de <argset><head>comunicación </head></argset>con Escocia . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="4" lexicalized="no" originlemma="comunicar" originlink="verb.comunicar.2" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="8.2.0.1.1.1.1.1.0" sentencenodepath="8">El creador comentó que la mejora en <argset><specifier>la</specifier><head>comunicación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por carretera</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">con la meseta</argument></argset>" no es suficiente " y que en esta Comunidad , " los equipos de trabajo se cansan y se hace difícil competir lejos de los aeropuertos y a más de cuatro horas de las áreas de consumo que son los grandes centros urbanos " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="5" lexicalized="no" originlemma="comunicar" originlink="verb.comunicar.3" wordnetsynset="16:00019671">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="14.0.0.1.1.1.0" sentencenodepath="14">Ataque a <argset><specifier>las</specifier><head>comunicaciones </head></argset>. </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="15.4.1.1.1.0.0" sentencenodepath="15">Horas más tarde , ocho aviones estadounidenses y británicos que patrullaban la zona de exclusión en el sur de Irak " atacaron dos instalaciones de <argset><head>comunicaciones </head><reference_modifiers>iraquís</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/49_19990601_c.tbf.xml" nodepath="1.2.1.1.2.4.1.1.2.1.1.1.1.0.1.1.0.0" sentencenodepath="1">Emilio_Alonso_Manglano argumentará que la sentencia de la Audiencia_Provincial_de_Madrid , que lo condenaba a seis meses de prisión por un delito de interceptación de <argset><head>comunicaciones </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">telefónicas</argument></argset>, vulnera siete de sus derechos fundamentales . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="medio_de_comunicación" cousin="no" denotation="result" id="6" lexicalizationtype="nominal" lexicalized="yes" originlemma="comunicar" originlink="verb.comunicar.1" wordnetsynset="16:00019671">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="11" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12000_20000415.tbf.xml" nodepath="8.2.2.6.1.0.1.2.3.1.1.1.0.0" sentencenodepath="8">Ø Destacó que " no ha habido el más mínimo asomo de partidismo ni de amiguismo " y Ø recordó que también se han retirado en Extremadura dos licencias a Blas_Herrero , que , según han afirmado algunos medios de <argset><head>comunicación </head></argset>, es un empresario muy afín " al PSOE , porque Ø es íntimo amigo de Alfonso_Guerra " . </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="11.0.5.1.1.3.2.0.1.1.1.1.1.1.1.0.0" sentencenodepath="11">No_obstante , Ø se refirió de_nuevo a las coincidencias " tan expresivas " entre ETA y los actuales dirigentes del PNV , entre ellas sus críticas a los medios de <argset><head>comunicación </head></argset>, y Ø dijo que Ø es una cuestión que compete explicar a los responsables de ese partido . </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="12.0.1.2.1.1.1.1.0.0" sentencenodepath="12">" Lo que más importa es que los medios de <argset><head>comunicación </head></argset>en España y en todas partes , dentro del principio de la libertad de expresión e información , se sientan absolutamente protegidos y acompañados y Ø les invito a que Ø sigan desempeñando su tarea con la misma libertad y decisión sin aguantar ningún tipo de coacción o chantaje " , añadió Ø . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="10.4.5.1.1.1.1.2.1.1.1.1.1.0.0" sentencenodepath="10">Ø También afirman que Ø están dispuestos a ayudar a Rusia en sus esfuerzos por fortalecer las instituciones democráticas , el Estado de derecho y la economía de mercado , aunque Ø recuerdan a Moscú la importancia de garantizar " la independencia de los medios de <argset><head>comunicación </head></argset>" . </example>
+        <example file="CESS-CAST-A/1687_20000503.tbf.xml" nodepath="5.0.0.1.4.1.1.1.1.1.1.1.1.0.0" sentencenodepath="5">AOL , que tiene previsto fusionarse con el gigante de los medios de <argset><head>comunicación </head></argset>Time_Warner , ha firmado en los últimos meses acuerdos de promoción con otras grandes compañías , como Sears , Wal-Mart y General_Motors . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="17.0.1.1.1.0.0" sentencenodepath="17">Los medios de <argset><head>comunicación </head></argset>, que no han perdonado de forma unánime a Jospin este patinazo , hablan hoy de crisis en la cúspide del Estado y de " fractura " en la cohabitación . </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="7.5.1.0.1.1.1.2.2.1.1.1.1.0.0" sentencenodepath="7">Al_igual_que en su declaración ante la comisión , en la posterior comparecencia ante la prensa , Kohl se presentó como víctima de una campaña difamatoria , sobre_todo de los medios de <argset><head>comunicación </head></argset>, cuyo único fin era ensuciar su trayectoria política y sus dieciséis años al_frente_del gobierno . </example>
+        <example file="CESS-CAST-AA/5786_20000407.tbf.xml" nodepath="0.5.1.1.1.1.0.0" sentencenodepath="0">El Gobierno y los opositores al referendo propuesto por el presidente colombiano , Andrés_Pastrana , que disolvería el Congreso , se dedicaron hoy acusaciones y palabras destempladas a_través_de los medios de <argset><head>comunicación </head></argset>. </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="9.5.1.1.1.1.1.1.0.0" sentencenodepath="9">Montoro se desplazó ayer por la tarde a Vitoria para explicar ante los medios de <argset><head>comunicación </head></argset>locales la posición del Gobierno . </example>
+        <example file="CESS-CAST-P/56_20000402.tbf.xml" nodepath="5.0.1.2.1.1.1.1.0.0" sentencenodepath="5">La presión de los radicales sobre los medios de <argset><head>comunicación </head></argset>se ha incrementado en los últimos días . </example>
+        <example file="CESS-CAST-P/98_19990302.tbf.xml" nodepath="2.5.1.1.1.1.1.1.1.0.0" sentencenodepath="2">Estos datos los dio_a_conocer ayer el presidente de Ercros , Antoni_Zabalza , en la presentación a los medios de <argset><head>comunicación </head></argset>de los resultados de 1998 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="vía_de_comunicación" cousin="no" denotation="result" id="7" lexicalizationtype="nominal" lexicalized="yes" originlemma="comunicar" originlink="verb.comunicar.1" wordnetsynset="16:04728675">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="2.0.0.5.1.1.1.1.0.0" sentencenodepath="2">Ø Comprometió por ello sus gestiones ante el Ejecutivo galo en_favor_de esta vía de <argset><head>comunicación </head></argset>entre la península y el continente europeo , al_igual_que las del gabinete de José_María_Aznar , y al_respecto Ø agregó que existe " plena voluntad " porque " parece muy razonable abrir otro eje distinto para atravesar los Pirineos aparte_de los canales oriental y occidental " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

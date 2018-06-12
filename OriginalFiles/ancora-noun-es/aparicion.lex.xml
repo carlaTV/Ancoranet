@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="aparición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="aparecer" originlink="verb.aparecer.1" wordnetsynset="16:00027339">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/16182_20001121.tbf.xml" nodepath="5.0.4.1.2.1.0" sentencenodepath="5">En el seno de la directiva barcelonista se ha reemplazado el silencio por el diálogo y <argset><specifier>las</specifier><head>apariciones </head><argument argument="arg2" function="cn" thematicrole="loc" type="s.a">públicas</argument></argset>, con_el_propósito_de no resquebrajar aún más el ánimo del barcelonismo , pero ello no ha escondido , a_tenor_de las críticas que se recogen en los medios , que existe un manifiesto desencanto por el futuro que pueda correr el Barcelona esta temporada , tras una planificación que no ha sido del_todo aplaudida por la masa social . </example>
+        <example file="CESS-CAST-P/38_19990902_a.tbf.xml" nodepath="2.0.4.1.0" sentencenodepath="2">El resto de candidatos a las próximas elecciones catalanas se repartieron así <argset><specifier>las</specifier><head>apariciones </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la televisión pública catalana</argument></argset>: Rafael_Ribó , de Iniciativa_per_Catalunya-Verds , acaparó 11 minutos y 29 segundos ; Alberto_Fernández_Díaz , presidenciable del PP , 11 minutos exactos , mientras_que el de ERC , Josep_Lluís_Carod-Rovira , ocupó nueve minutos de pantalla . </example>
+        <example file="CESS-CAST-P/41_20000202.tbf.xml" nodepath="4.0.4.1.1.0" sentencenodepath="4">Por_si_fuera_poco , McCain ha llevado consigo durante <argset><specifier>todas sus</specifier><head>apariciones </head><argument argument="arg2" function="cn" thematicrole="loc" type="s.a">electorales</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">en Nueva_Hampshire</argument></argset>la pluma de la suerte que le regaló un indio de Arizona , y Ø también se ha puesto los gastados zapatos que , según Ø dice , le dan buena fortuna . </example>
+        <example file="CESS-CAST-P/7_20000903.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La religiosa por cuya curación será beato Juan_XXIII rehúye <argset><specifier>las</specifier><head>apariciones </head><argument argument="arg2" function="cn" thematicrole="loc" type="s.a">públicas</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="aparecer" originlink="verb.aparecer.1" wordnetsynset="16:00027339+16:05458256">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="5" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="desde" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-3.tbf.xml" nodepath="4.2.2.1.1.1.3.3.1.1.0" sentencenodepath="4">Alonso , que hoy se desplazó a Talavera_de_la_Reina ( Toledo ) para presentar el Programa_Operativo , preguntado por la demanda que López_de_Coca ha presentado contra el presidente regional , José_Bono , a quien Ø reclama 30 millones de pesetas por lesionar su honor , dijo que " este señor , ex director general , cesado inmediatamente tras <argset><specifier>la</specifier><head>aparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del escándalo</argument></argset>por la entonces ministra , pretende reactivar el asunto del lino " . </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="5.1.1.0" sentencenodepath="5">Sin_embargo , <argset><specifier>la</specifier><head>aparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los gases asfixiantes</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la Gran_Guerra</argument></argset>produjo un aparente milagro : ninguno de los contendientes se atrevió a usarlos , temerosos de la reacción , también química , del contrario . </example>
+        <example file="CESS-CAST-A/10242_20000816.tbf.xml" nodepath="3.3.1.1.1" sentencenodepath="3">" Ø Sé que el espíritu de mi padre vive y Ø os lo agradezco " , dijo Caroline_Kennedy en <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>primera</reference_modifiers><head>aparición </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en una convención demócrata en apoyo del candidato del partido al que tradicionalmente pertenece su familia</argument></argset>. </example>
+        <example file="CESS-CAST-A/11033_20000817.tbf.xml" nodepath="0.3.4.1.0.1.4.1.1.1" sentencenodepath="0">El Partido_Demócrata aprobó hoy ofrecer oficialmente la candidatura a la presidencia de los Estados_Unidos en las elecciones del siete_de_noviembre próximo a Albert_Gore , que fue aclamado con aplausos y vítores en <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>primera</reference_modifiers><head>aparición </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">ante la convención de su partido</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="5.4.2.1.0" sentencenodepath="5">Respecto_a la oferta automovilística de la marca , el máximo responsable de Citroen explicó la implantación de una nueva estrategia , con <argset><specifier>la</specifier><head>aparición </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el Salón parisino</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la nueva berlina C5 , a la que seguirán en próximos lanzamientos un pequeño C3 y un lujoso C6</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5021_20000206.tbf.xml" nodepath="9.0.1.1.0" sentencenodepath="9">Hasta <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>aparición </head><reference_modifiers>letal</reference_modifiers><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la Copa_América</argument></argset>, Ronaldinho había destacado en las selecciones juveniles de Brasil y Ø era un promisorio alternante en la plantilla profesional del Gremio . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="25.6.1.1.0" sentencenodepath="25">El presidente de la Generalitat , Jordi_Pujol , se sumó ayer veladamente a las críticas en <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>aparición </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">, desde la Casa_dels_Canonges ,</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el programa El_Día_Después de Canal_+</argument></argset>. </example>
+        <example file="CESS-CAST-P/63_20010901.tbf.xml" nodepath="1.4.5.1.0" sentencenodepath="1">La operación se ha saldado con seis arrestados y otros cuatro imputados , aunque la policía no descarta <argset><specifier>la</specifier><head>aparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de más casos y detenciones</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="aparecer" originlink="verb.aparecer.1" wordnetsynset="16:00027339">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="9" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-2.tbf.xml" nodepath="2.2.1.1.4.1.0" sentencenodepath="2">Esto lleva a pensar que la formación de la vida , hace cuatro_mil_quinientos millones de años , llevaba implícita <argset><specifier>la</specifier><head>aparición </head><reference_modifiers>posterior</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los diferentes tipos de virus</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="4.1.1.0" sentencenodepath="4">Sin_embargo , <argset><specifier>la</specifier><head>aparición </head><reference_modifiers>reciente</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de indicadores económicos positivos , como el descenso del desempleo y el aumento de la confianza inversora de las principales empresas ,</argument></argset>le abren el camino para una nueva etapa con una política monetaria más flexible y tipos de interés más altos . </example>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="9.0.1.1.1.1.0" sentencenodepath="9">El hecho de <argset><specifier>la</specifier><head>aparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del C5</argument></argset>fue aprovechado por el máximo responsable de Citroen para asegurar que las ventas de berlinas no han caído en el mercado por el efecto de la progresión de vehículos como el monovolumen . </example>
+        <example file="CESS-CAST-P/125_20020202.tbf.xml" nodepath="1.2.1.2.1.1.1.0.2.1.3.0.1" sentencenodepath="1">El príncipe Felipe estuvo sentado junto_al escritor Ari_Behn , novio de Marta_Luisa_de_Noruega , y delante_de las princesas Magdalena_de_Suecia y Carolina_de_Borbón-Parma , hija de Carlos_Hugo e Irene_de_Grecia y <argset><reference_modifiers>última</reference_modifiers><head>aparición </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la lista de novias virtuales del heredero español</argument></argset>. </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="20.2.0.1.0" sentencenodepath="20">Ø Fue el ridículo absoluto , que culminó Javi_Moreno , al fallar un penalti en su debut , y <argset><specifier>la</specifier><head>aparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un streaker que desafió al frío para pasear su desnudez</argument></argset>. </example>
+        <example file="CESS-CAST-P/187_20010401.tbf.xml" nodepath="0.3.2.1.0.2.1.0.1.2.1.1.1.2.3.1.1" sentencenodepath="0">La red italiana de Internet quedó el viernes por la noche totalmente colapsada por 15 millones de ordenadores que intentaron entrar en el portal de Wind , que transmitió <argset><specifier>la</specifier><reference_modifiers>primera</reference_modifiers><head>aparición </head><reference_modifiers>pública</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la mítica cantante Mina</argument></argset>, tras 23 años de ausencia . </example>
+        <example file="CESS-CAST-P/23_20020102.tbf.xml" nodepath="0.3.1.1.1.2.1.0" sentencenodepath="0">Los diarios británicos hacían_hincapié en sus ediciones de ayer en las incertidumbres que conlleva <argset><specifier>la</specifier><head>aparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la nueva moneda</argument></argset>, en un momento en el que el Reino_Unido ha quedado al_margen_de este proceso . </example>
+        <example file="CESS-CAST-P/36_19990901.tbf.xml" nodepath="7.3.4.2.0.1.0" sentencenodepath="7">En cualquier caso , Ibarretxe reconoció que existen problemas en el panorama vasco , como <argset><specifier>la</specifier><head>aparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de episodios de violencia callejera , que calificó de " inaceptables " ,</argument></argset>y la ruptura de las conversaciones entre el Gobierno central y ETA . </example>
+        <example file="CESS-CAST-P/44_19981102.tbf.xml" nodepath="0.0.0.1.1.0" sentencenodepath="0">Desde <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>aparición </head><argument argument="argM" function="cn" thematicrole="tmp" type="sn">, el 1_de_octubre_de_1975</argument></argset>, y a_pesar_de_que se le ha dado por desactivado en numerosas ocasiones , el GRAPO no ha dejado de perpetrar atentados . </example>
+        <example file="CESS-CAST-P/59_19991001.tbf.xml" nodepath="1.2.1.2.1.1.1.3.1.1.0" sentencenodepath="1">Ø Es la solemne y merecida confirmación de un talento que sus lectores reconocían desde <argset><specifier>la</specifier><head>aparición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de El_tambor_de_hojalata y su protagonista enano Oskar_Matzerath , producto de una mente en estado de revisión iconoclasta sin contemplaciones ante la Alemania de su tiempo</argument></argset>. </example>
+        <example file="CESS-CAST-P/6_19990301.tbf.xml" nodepath="10.0.2.1.0" sentencenodepath="10">Ø Favorece <argset><specifier>la</specifier><head>aparición </head><reference_modifiers>legítima</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de centros privados que intentan curar a precios elevadísimos</argument></argset>, pero Ø discrimina a las pacientes con menos medios , cuando se trata de una enfermedad completamente interclasista . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

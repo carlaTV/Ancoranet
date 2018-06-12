@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="manipulación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="manipular" originlink="verb.manipular.1" wordnetsynset="16:00102995">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="11.0.4.1.1.2.1.3.0.1.1.0.0" sentencenodepath="11">La firme intervención del primer ministro , Mugur_Isarescu , quien garantizó la solidez de BCR , la estabilidad de las cotizaciones de la moneda nacional , asimismo la convicción de la gente de que Ø fueron víctimas de <argset><head>manipulaciones </head><reference_modifiers>especulativas</reference_modifiers></argset>, contribuyeron a traer de_nuevo la calma . </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="6.4.0.1.1.3.1.0.4.0.0" sentencenodepath="6">Así , al finalizar la contienda , las únicas víctimas de las armas químicas fueron los pocos soldados que sufrieron accidentes durante el traslado , almacenamiento o <argset><head>manipulación </head></argset>de estos productos , además_de los desgraciados habitantes de la ciudad italiana de Bari , en cuyo puerto fue bombardeado e incendiado un buque estadounidense repleto de proyectiles de gas mostaza . </example>
+        <example file="CESS-CAST-A/17887_20000622.tbf.xml" nodepath="4.3.2.3.2.3.4.1.0" sentencenodepath="4">En_cuanto_a la incidencia que tendrá para la Caja_Rural la reciente subida de tipos aprobada por el Banco_Central_Europeo , Ø señaló que en el futuro Ø oscilarán entre el 5 y el 6_por_ciento y que rebajarlos por_debajo_de esas cifras provoca " una situación artificial " que supone " consciente o inconscientemente , <argset><specifier>una</specifier><head>manipulación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la economía</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="3.2.1.2.1.1.1.2.1.3.2.0.2.0" sentencenodepath="3">El fallo de la comisión jurídica supone un capítulo más en un caso que asemeja una novela policiaca , donde intervienen <argset>supuestas conspiraciones criminales o <head>manipulación </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de pasta de dientes</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="2.3.0.3.1.0.0" sentencenodepath="2">Medina , apoyado de forma persistente a_lo_largo_de toda la campaña por el presidente Leonel_Fernández , se considera " víctima " de <argset><head>manipulaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de encuestadoras y medios de comunicación</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para presentarlo en desventaja frente_a Balaguer</argument></argset>. </example>
+        <example file="CESS-CAST-P/39_20010201.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La redacción de la revista Interviú ha denunciado <argset><specifier>la</specifier><head>manipulación </head><reference_modifiers>llevada_a_cabo por el diario Gara , que en su edición de ayer publicó un manifiesto en_favor_del periodista Pepe_Rei , encarcelado como presunto colaborador de ETA , en el que figuran como firmantes 27 profesionales de aquel semanario</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="manipular" originlink="verb.manipular.1" wordnetsynset="16:00091972">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="2.3.1.0.1.1.0.1.1.0.1.0.1.1.0.0" sentencenodepath="2">Durante la semana fuentes del gobierno y del sector empresario indicaron que miles de toneladas de maíz producido por <argset><head>manipulación </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">genética</argument></argset>, y no apto para el consumo humano , pueden haber sido utilizadas para fabricar una variedad de alimentos a la venta en Estados_Unidos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="manipular" originlink="verb.manipular.1" wordnetsynset="16:00102995">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="14.5.5.3.1.1.0" sentencenodepath="14">La coalición DOS no tenía diputados en el Parlamento serbio porque la mayoría de sus 18 partidos integrantes se negaron a participar en las elecciones serbias de 1997 , debido_a la desigual distribución de espacios de televisión y a <argset><specifier>la</specifier><head>manipulación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la ley electoral</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="15.4.2.1.0" sentencenodepath="15">El político liberal Hirsch había constatado la víspera ante la comisión la destrucción sistemática de dos terceras partes de los datos almacenados en los sistemas informáticos de la Cancillería , además_de <argset><specifier>la</specifier><head>manipulación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de otras muchas actas , entre ellas algunas relativas al negocio de Leuna</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

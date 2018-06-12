@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="legislatura" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="legislar" originlink="verb.legislar.1" wordnetsynset="16:10984112">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="desde" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="demonstrative" type="determiner"/>
+        <constituent frequency="17" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="numeral" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="S"/>
+        <constituent frequency="10" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="13.1.2.2.2.1.1.0" sentencenodepath="13">En su editorial , el diario analiza la situación económica del país tomando como base el informe difundido ayer de la OCDE y Ø asegura que el caballo de batalla de Aznar en <argset><specifier>esta</specifier><head>legislatura </head></argset>será " convencer a la opinión pública de los riesgos de un consumo y de un crecimiento desbocado , hacerle ver la urgencia de reformar el mercado laboral y de liberalizar la economía , escenificar los peligros de la inflación " . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="2.4.0.4.1.1.1.1.1.1.1" sentencenodepath="2">La coordinadora de Participación_y_Acción_Sectorial del PP , Ana_Mato , pidió hoy al Gobierno y a los agentes sociales que " Ø sigan profundizando en las medidas aprobadas en <argset><specifier>la</specifier><reference_modifiers>pasada</reference_modifiers><head>legislatura </head></argset>y que Ø ahonden en las reformas que están creando empleo " . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="16.3.0.4.1.1.1.1.1.1.1" sentencenodepath="16">La coordinadora de Participación_y_Acción_Sectorial del PP , Ana_Mato , pidió al Gobierno y a los agentes sociales que " Ø sigan profundizando en las medidas aprobadas en <argset><specifier>la</specifier><reference_modifiers>pasada</reference_modifiers><head>legislatura </head></argset>y que Ø ahonden en las reformas que están creando empleo " , así_como para reducir la temporalidad y luchar contra la siniestralidad laboral . </example>
+        <example file="3LB-CAST/a12-2.tbf.xml" nodepath="2.4.1.1.1.0" sentencenodepath="2">¡ gran éxito ! , ¡ despegue económico ! , ¡ durante <argset><specifier>esta</specifier><head>legislatura </head></argset>Ø hemos pasado de una rata y media a dos ratas por persona ! </example>
+        <example file="CESS-CAST-A/10664_20000117.tbf.xml" nodepath="5.3.1.1.1.1.0" sentencenodepath="5">Dólera calificó de " brillante , tanto en su aspecto cuantitativo como cualitativo " el trabajo realizado <argset><specifier>esta</specifier><head>legislatura </head></argset>en el Congreso_de_los_Diputados por Pedro_Antonio_Ríos , que repite candidatura , y de quién Ø dijo que " Ø es el diputado por excelencia de la Región_de_Murcia " . </example>
+        <example file="CESS-CAST-A/11714_20000314.tbf.xml" nodepath="5.3.1.3.1.0" sentencenodepath="5">A juicio de Alberto_Fernández , el " debate real " en Cataluña está en si CiU afronta <argset><specifier>la</specifier><head>legislatura </head><reference_modifiers>" predeterminada por una aproximación a ERC y a planteamientos independentistas o_bien por los planteamientos de un PP que están construidos desde la moderación "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/11714_20000314.tbf.xml" nodepath="8.0.0.1.1.3.0.1.1.1.0.0" sentencenodepath="8">Preguntado sobre si el PP aceptaría un acuerdo de <argset><head>legislatura </head></argset>con CiU por escrito o sólo apoyos puntuales como en los cuatro pasados años , Ø no ha descartado ninguno de los dos escenarios y Ø ha vuelto a pedir tiempo " para dejar que todo repose " , aunque Ø también ha pedido que " no se entre en debates de ciencia-ficción " . </example>
+        <example file="CESS-CAST-A/11714_20000314.tbf.xml" nodepath="9.4.1.1.2.1.1.1.1.0.0" sentencenodepath="9">En_cambio , Ø sí_que ha recordado que las condiciones del PP para cualquier pacto de <argset><head>legislatura </head></argset>serían las que Ø plantearon en el acuerdo de investidura : el respeto a la Constitución y el Estatuto y dar prioridad a las políticas sociales y económicas por delante de los " debates nacionalistas " . </example>
+        <example file="CESS-CAST-A/12547_20000119.tbf.xml" nodepath="4.2.2.1.1.1" sentencenodepath="4">Según Romero , la política medioambiental del Gobierno andaluz presidido por Manuel_Chaves ha sido " un desastre que Ø calificamos no con cero sino con puntos negativos " , y Ø afirmó que <argset><specifier>la</specifier><reference_modifiers>última</reference_modifiers><head>legislatura </head></argset>han sido " años perdidos para sacar a Andalucía de su dependencia en consumo energético " . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="3.2.1.2.5.0.1.1.3.1.1.1.0.0" sentencenodepath="3">Ésta es la primera vez que la mayoría que sustenta al Ejecutivo pierde una votación en el Parlamento después de que Ibarretxe suspendiera el pacto de <argset><head>legislatura </head></argset>con EH tras la reacción de esta coalición al último atentado . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="7.0.2.1.0.1.1.1.0.0" sentencenodepath="7">El lehendakari recordó que el pacto de <argset><head>legislatura </head></argset>con EH sigue en suspenso , y " un pacto sin vigencia no tiene existencia " , y Ø auguró que Ø seguirá así mientras EH no demuestre " con actitudes que Ø apuesta inequívocamente por las vías políticas y democráticas exclusivamente " , por_encima de documentos o manifestaciones públicas . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="2.4.2.1.0" sentencenodepath="2">El presidente catalán encargó a Trias cuestiones como las relaciones con la Casa_Real y el diálogo con los grupos de la oposición en el Parlament , en <argset><specifier>una</specifier><head>legislatura </head><reference_modifiers>marcada por la pérdida de la mayoría absoluta de CiU y la necesidad de los nacionalistas de consensuar las iniciativas parlamentarias con el máximo número de fuerzas posible para no depender totalmente del PP</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="5.2.1.1.1.1.1.1.0.2.1.1.1" sentencenodepath="5">La apuesta de Pujol obedece a su voluntad de situar como prioridad política para <argset><specifier>la</specifier><reference_modifiers>próxima</reference_modifiers><head>legislatura </head></argset>la negociación de un pacto autonómico que incremente el nivel del autogobierno y de un pacto fiscal que mejore sustancialmente su financiación . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="9.1.1.1.1" sentencenodepath="9">Según el candidato nacionalista , en <argset><specifier>la</specifier><reference_modifiers>próxima</reference_modifiers><head>legislatura </head></argset>CiU variará su estrategia , y el objetivo de la gobernabilidad que le llevó a apoyar al PSOE en 1993 y al PP en 1996 . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="11.2.2.3.3.1.2.3.1.1.0" sentencenodepath="11">Pujol , Trias o Duran han apuntado la posibilidad de que CiU se abstenga en la investidura si el candidato más votado no acepta sus demandas , y Ø no descartan apoyar al segundo en_caso_de falta de acuerdo con el ganador , pero Ø consideran poco probable que Ø vuelvan a firmar un pacto de gobernabilidad que les ate para <argset><specifier>toda la</specifier><head>legislatura </head></argset>como Ø hicieron en 1996 . </example>
+        <example file="CESS-CAST-AA/20525_20000325.tbf.xml" nodepath="8.0.3.1.2.2.1.1.4.1.1.1" sentencenodepath="8">" El que , a estas alturas , el PP no reconozca todavía la existencia de un conflicto de naturaleza política por resolver - en el País_Vasco - es un indicador bien triste " de la política que , al_parecer , realizará el Partido_Popular en <argset><specifier>la</specifier><reference_modifiers>próxima</reference_modifiers><head>legislatura </head></argset>, concluyó Egibar . </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="9.2.2.4.1.1.1.1.0" sentencenodepath="9">Ø Confió en que no se repitan en España " las dos velocidades " y Ø dijo que la vuelta del PA al Parlamento español " será la novedad de <argset><specifier>la</specifier><head>legislatura </head></argset>" . </example>
+        <example file="CESS-CAST-AA/22292_20000131.tbf.xml" nodepath="8.0.2.1.1.3.1.0.0.2.2.1.1.1" sentencenodepath="8">Ø Descartó que la reciente retirada de la política activa del ex consejero de Turismo_y_Transportes y vicepresidente del Gobierno en <argset><specifier>la</specifier><reference_modifiers>pasada</reference_modifiers><head>legislatura </head></argset>, Lorenzo_Olarte , se deba a que Ø pueda ser responsable de irregularidades en el expediente de Tindaya , y Ø achacó su marcha a " la pugna política que hay dentro de Coalición_Canaria " . </example>
+        <example file="CESS-CAST-AA/2698_20000203.tbf.xml" nodepath="3.3.3.1.1.1" sentencenodepath="3">El secretario de Comunicación del PP aseguró durante su intervención en el foro , en la que Ø expuso el programa sobre las nuevas tecnologías que el gobierno propondrá en <argset><specifier>la</specifier><reference_modifiers>próxima</reference_modifiers><head>legislatura </head></argset>que el acceso a Internet es un derecho básico y universal , por lo que no puede existir discriminación alguna . </example>
+        <example file="CESS-CAST-AA/3291_20000304.tbf.xml" nodepath="4.2.2.1.3.1.3.2.1.1.1.1.1.1.1.1.1" sentencenodepath="4">Fernández_Diaz ha anunciado que su formación seguirá " en_la_línea_de explicar lo que Ø ha conseguido en los últimos cuatro años " y Ø ha advertido de que el PP es la única fuerza política que cuenta con la credibilidad de su actuación en <argset><specifier>la</specifier><reference_modifiers>pasada</reference_modifiers><head>legislatura </head></argset>. </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="2.2.1.1.1.0.1.2.1.1" sentencenodepath="2">El presidente del Gobierno mostró su confianza en conseguir , durante <argset><specifier>la</specifier><reference_modifiers>próxima</reference_modifiers><head>legislatura </head></argset>, otros 1,8 millones de empleos , además_de sacar adelante otros proyectos como la aprobación de la Ley_de_Humanidades o la modificación de la Ley_de_Extranjería , cuyo paso por las Cortes ha demostrado , según dijo Ø , que " algunos prefieren perjudicar a su país " por " el placer " de que el Gobierno " no tenga una victoria parlamentaria " . </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="6.3.3.3.1.2.3.1.0" sentencenodepath="6">Además , el jefe del Ejecutivo indicó que " dentro de poco " Ø convocará las elecciones y , con ello , Ø demostrará a quienes aseguraron que no terminaría <argset><specifier>la</specifier><head>legislatura </head></argset>" con 156 diputados y las cosas que se decían " que Ø supondrá la más larga de la historia de la democracia española " y la mejor " . </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="13.2.5.1.1" sentencenodepath="13">" España está mejor que hace cuatro años , Ø es innegable " y , por eso , concluyó Aznar , el PP ofrece , " con seguridad y progreso " , <argset><specifier>una</specifier><reference_modifiers>próxima</reference_modifiers><head>legislatura </head><reference_modifiers>" del empleo , la educación y la innovación "</reference_modifiers></argset>para que " nuestro país dé un salto fundamental " . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="19.3.1.1.0" sentencenodepath="19">Kostunica fue diputado en el Parlamento serbio en <argset><specifier>dos</specifier><head>legislaturas </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, de 1990 a 1997 , año en que su partido boicoteó las elecciones parlamentarias</argument></argset>. </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="3.2.1.2.1.2.1.1.1" sentencenodepath="3">El presidente del Gobierno reconoció que , pese_a los avances logrados en <argset><specifier>la</specifier><reference_modifiers>pasada</reference_modifiers><head>legislatura </head></argset>, la existencia de víctimas demuestra que " queda bastante por hacer " , según el comunicado hecho público por la Secretaría_de_Estado_de_la_Comunicación . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="4.0.4.1.1.3.1.1.1" sentencenodepath="4">Aznar , a_su_vez , explicó a las representantes de las Asociaciones las medidas que el Gobierno_del_Partido_Popular seguirá impulsando en <argset><specifier>la</specifier><reference_modifiers>próxima</reference_modifiers><head>legislatura </head></argset>para prevenir y combatir la violencia de género , y Ø se comprometió a promover una ley integral que aborde la solución de los malos tratos domésticos . </example>
+        <example file="CESS-CAST-P/10_19981202.tbf.xml" nodepath="10.2.3.0.1.1.1.0" sentencenodepath="10">La cerrazón del poder federal puede generar un incremento del descontento nacionalista en Quebec , pero difícilmente Ø llegará a crear dentro de <argset><specifier>esta</specifier><head>legislatura </head></argset>las condiciones ganadoras para que haya un referendo sobre la independencia con garantías de éxito . </example>
+        <example file="CESS-CAST-P/10_20010402_b.tbf.xml" nodepath="15.0.3.1.1.1.1.1.2.3.1.1.0" sentencenodepath="15">Cuando Ø asesoré en las primarias del PSOE a Josep_Borrell , esta fuerza política aceptó la propuesta de establecer tal derecho de ciudadanía ( que debiera realizarse en <argset><specifier>dos</specifier><head>legislaturas </head></argset>) y más tarde el candidato Joaquín_Almunia la incorporó como suyas . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="1.0.1.1" sentencenodepath="1"><argset><specifier>La</specifier><reference_modifiers>sexta</reference_modifiers><head>legislatura </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">parlamentaria</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">desde el restablecimiento de la democracia</argument></argset>empezó con la esperanza y también con el convencimiento de que esta vez las actitudes de consenso y de diálogo saldrían adelante , por_encima_de otras actitudes . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="11.2.1.1.1.1.1.1.1.1.1.0.0" sentencenodepath="11">El talante abierto y predispuesto que el presidente del Parlament , Joan_Rigol , ha mostrado desde el primer momento para dignificar la vida parlamentaria contrasta con el talante que sólo en dos meses de <argset><head>legislatura </head></argset>ha expresado en ocasiones reiteradas el president de la Generalitat . </example>
+        <example file="CESS-CAST-P/20_20010102.tbf.xml" nodepath="3.1.3.1.1.0" sentencenodepath="3">Formado en Princeton , donde Ø fue capitán de los equipos de fútbol y de lucha , Ø fue miembro de la Cámara_de_Representantes en <argset><specifier>tres</specifier><head>legislaturas </head></argset>, Ø dirigió la Oficina_de_Oportunidades_Económicas y Ø luego se puso al_frente_de la que calcula el coste de la vida . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="13.0.1.0" sentencenodepath="13"><argset><specifier>Una</specifier><head>legislatura </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">nacionalista</argument></argset>es incompatible con el acuerdo con el PP . </example>
+        <example file="CESS-CAST-P/49_19990601_a.tbf.xml" nodepath="6.2.4.5.3.1.1.1.1.1.0" sentencenodepath="6">El presidente andaluz , Manuel_Chaves , sin_embargo , no lo ve con buenos ojos y ayer Ø recordó a Bono que " si Ø se presenta como candidato a las autonómicas Ø es porque Ø adquiere el compromiso de agotar <argset><specifier>toda esta</specifier><head>legislatura </head></argset>" . </example>
+        <example file="CESS-CAST-P/52_19990901.tbf.xml" nodepath="1.3.2.0.5.4.1.1.0" sentencenodepath="1">Ø Recordó que la ministra de Medio_Ambiente , Isabel_Tocino , ha incumplido su promesa de llevar al Congreso antes de junio un proyecto de plan , lo que " hará imposible " que la ley salga a la luz en <argset><specifier>esta</specifier><head>legislatura </head></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="10.2.6.2.1.1.1.1" sentencenodepath="10">El secretario de la CCC , Miguel_Angel_Fraile , señaló : " Ø nos sentimos traicionados y defraudados , porque el Gobierno durante <argset><specifier>la</specifier><reference_modifiers>anterior</reference_modifiers><head>legislatura </head></argset>había logrado conectar con la mayoría de los pequeños comerciantes , con medidas como la reforma fiscal y , ahora , Ø se opone a los principales grupos en el Congreso votando una medida que perjudica tanto al sector " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

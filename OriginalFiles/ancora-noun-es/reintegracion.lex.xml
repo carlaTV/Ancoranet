@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reintegración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="event" id="1" lexicalized="no" originlemma="integrar" originlink="verb.integrar.2" wordnetsynset="16:10048209">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/3_20020501.tbf.xml" nodepath="2.0.1.1.1.2.1.1.1.1.0" sentencenodepath="2">El deseo de lograr un avance en la negociación sobre el futuro del Peñón sin renunciar a <argset><specifier>la</specifier><head>reintegración </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a la soberanía española</argument></argset>es tan fuerte por_parte_del Ejecutivo de José_María_Aznar que el jefe de la diplomacia se mostró dispuesto a aceptar un acuerdo " duradero " o " perdurable " aunque no " definitivo " , tal_como anticipó el pasado Lunes el secretario de Estado británico para Europa , Peter_Hain . </example>
+        <example file="CESS-CAST-P/3_20020501.tbf.xml" nodepath="6.3.2.3.1.1.0" sentencenodepath="6">Ø También quiso dejar claro que " este Gobierno ni ningún Gobierno " renunciará a <argset><specifier>la</specifier><head>reintegración </head><reference_modifiers>plena</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Gibraltar</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a la soberanía española</argument></argset>" en algún momento " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="reintegrar" originlink="verb.reintegrar.1" wordnetsynset="16:10048209">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="9.2.4.0.1.1.1.2.2.1.1.1.1.0" sentencenodepath="9">La declaración presidencial destaca que " la ayuda internacional es necesaria para un desarrollo económico y social que facilite el éxito de <argset><specifier>la</specifier><head>reintegración </head></argset>" . </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="11.3.3.1.2.1.4.1.0" sentencenodepath="11">Para lograr esos objetivos , los quince miembros del Consejo_de_Seguridad opinan que los mandatos dados a los " cascos azules " deben contener una provisión concreta sobre la desmovilización , el desarme y <argset><specifier>la</specifier><head>reintegración </head></argset>. </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="12.4.1.3.2.1.1.0.3.1.1.0.0.2.0" sentencenodepath="12">En ese proceso , las agencias humanitarias de la ONU también deben tener un mandato del Consejo_de_Seguridad al_respecto , especialmente en lo que se refiere a <argset>la desmovilización y <head>reintegración </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los niños soldados</argument>
+            <reference_modifiers>, meta en la que el Fondo_de_Naciones_Unidas_para_la_Infancia ( UNICEF ) debe representar un papel destacado</reference_modifiers>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="reintegrar" originlink="verb.reintegrar.1" wordnetsynset="16:10048209">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="1.3.1.1.3.1.1.2.1.1.1.1.0.4.0" sentencenodepath="1">Esa afirmación fue hecha por el presidente de turno del Consejo_de_Seguridad_de_la_ONU , Karim_Chowdhry , tras una sesión abierta celebrada hoy en Nueva_York sobre el papel de los " cascos azules " en el proceso de <argset>desmovilización , desarme y <head>reintegración </head>
+          </argset>de los combatientes . </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="10.0.1.1.1.0.4.0" sentencenodepath="10">El proceso de <argset>desmovilización , desarme y <head>reintegración </head>
+          </argset>debe hacerse de una forma integrada para que los " cascos azules " puedan facilitar la transición del proceso de mantenimiento de la paz al de construcción de la paz . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

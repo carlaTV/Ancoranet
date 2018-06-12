@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="licitación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="licitar" originlink="verb.licitar.1" wordnetsynset="16:05049880">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="10.5.2.1.2.3.1.0" sentencenodepath="10">Enersis dejó en diciembre pasado sin efecto una anunciada venta de la sanitaria Aguas_Cordillera , a_raíz_de un fallo de la comisión resolutiva de la Fiscalía_Antimonopolios que ya había paralizado <argset><specifier>la</specifier><head>licitación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la sanitaria</argument></argset>el 21_de_octubre del año pasado . </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="13.0.1.1.1.1.1.0" sentencenodepath="13">" La paralización de <argset><specifier>la</specifier><head>licitación </head><reference_modifiers>decidida por la comisión resolutiva</reference_modifiers></argset>supone un trato discriminatorio contra quien legítimamente opta por licitar , respecto_de quien decide realizar una venta directa , así_como un grave menoscabo del derecho de propiedad " , afirma la filial de Endesa_España . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="licitar" originlink="verb.licitar.1" wordnetsynset="16:05049880">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10017_20000413.tbf.xml" nodepath="4.0.3.1.1.0" sentencenodepath="4">EDF y Mitsubishi participaron en 1998 en <argset><specifier>la</specifier><head>licitación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de licencias para construir centrales eléctricas en México</argument></argset>y Ø se quedaron con dos cada una : Río_Bravo y Saltillo para la compañía francesa y Altamira y Tuxpán para la japonesa . </example>
+        <example file="CESS-CAST-A/11317_20000817.tbf.xml" nodepath="7.2.1.0" sentencenodepath="7">Las empresas que conforman CGO ganaron <argset><specifier>la</specifier><head>licitación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la carretera , uno de los accesos principales a la capital argentina</argument></argset>, en 1993 . </example>
+        <example file="CESS-CAST-A/18485_20000724.tbf.xml" nodepath="5.2.1.4.1.1.0" sentencenodepath="5">La consejera aseguró que una vez Medio_Ambiente acepte el informe de la Junta se podría proceder " con carácter inmediato " a <argset><specifier>la</specifier><head>licitación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los seis primeros tramos en los que se divide el proyecto</argument></argset>, en_tanto_que los seis restantes representan una complejidad mayor . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

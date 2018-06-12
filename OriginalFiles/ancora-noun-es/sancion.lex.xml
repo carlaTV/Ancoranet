@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="sanción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="sancionar" originlink="verb.sancionar.1" wordnetsynset="16:00738216+16:04023017">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" preposition="contra" type="sp"/>
+        <constituent frequency="4" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="2" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="27" postype="article" type="determiner"/>
+        <constituent frequency="26" type="void"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="13" type="S"/>
+        <constituent frequency="14" type="s.a"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="9.0.2.1.0" sentencenodepath="9">El carácter obligatorio del CARE y <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>que comporta su incumplimiento</reference_modifiers></argset>son algunos de los puntos más contestados por los sindicatos . </example>
+        <example file="3LB-CAST/111_C-1.tbf.xml" nodepath="12.2.2.1.1.2.1.1.0.0" sentencenodepath="12">Por su parte , la comunidad internacional ha condenado desde el principio la intentona golpista que encabeza Speight y países como Australia y Nueva_Zelanda , entre otros , están a la espera de que los rehenes sean liberados para adoptar <argset><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra Fiyi</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">por abandonar la senda de la democracia</argument></argset>. </example>
+        <example file="3LB-CAST/2000060111_5-1.tbf.xml" nodepath="9.4.1.1.1.1.0.0" sentencenodepath="9">Los países latinoamericanos evitaron hoy en la reunión de Washington iniciar el proceso de <argset><head>sanción </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">oficial</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a Perú</argument></argset>al rechazar la propuesta de Estados_Unidos que pretendía invocar la Resolución_1080 , el máximo instrumento que la OEA tiene para preservar la democracia representativa en el continente . </example>
+        <example file="3LB-CAST/2000060111_5-2.tbf.xml" nodepath="6.3.5.1.1" sentencenodepath="6">El coronel quiere concluir su brillante carrera militar , aunque Ø aún debe esperar <argset><specifier>las</specifier><reference_modifiers>posibles</reference_modifiers><head>sanciones </head><reference_modifiers>disciplinarias</reference_modifiers><reference_modifiers>que le podría imponer el mando militar</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/2000060111_5-2.tbf.xml" nodepath="7.4.3.0.0" sentencenodepath="7">La amnistía , según opiniones de diputados , no impide que las autoridades militares impongan <argset><head>sanciones </head><reference_modifiers>disciplinarias</reference_modifiers></argset>a los oficiales involucrados , pues el recurso político sólo establece la suspensión de procesos penales civiles y los seguidos en la Corte_de_Justicia_Militar . </example>
+        <example file="3LB-CAST/2000060111_5-2.tbf.xml" nodepath="8.0.0.3.1.1.3.0.0" sentencenodepath="8">Los frentes populares no están dispuestos a que las Fuerzas_Armadas impongan <argset><head>sanciones </head></argset>y si , acaso , Ø las aplican , Ø convocarán a protestas contra los mandos militares , según lo aseguró el dirigente de la Coordinadora_de_Movimientos_Sociales , Napoleón_Saltos . </example>
+        <example file="3LB-CAST/2000060111_5-2.tbf.xml" nodepath="9.0.3.0.1.1.2.6.1.0.1.1.1.0" sentencenodepath="9">" Ø Vamos a estar vigilantes de que se cumpla la Constitución y que la amnistía sea total , es que luego no se tomen retaliaciones o venganzas contra los militares a pretexto de <argset><specifier>una</specifier><head>sanción </head><reference_modifiers>disciplinaria</reference_modifiers></argset>" , indicó el dirigente . </example>
+        <example file="3LB-CAST/2000060111_5-2.tbf.xml" nodepath="10.2.1.3.2.0.0" sentencenodepath="10">Ø Agregó que si los mandos militares no acatan a plenitud la amnistía , " que es una posición de la mayoría de la población " , e Ø imponen <argset><head>sanciones </head><reference_modifiers>disciplinarias</reference_modifiers><reference_modifiers>que podrían llegar hasta la separación de los rebeldes de las filas castrenses</reference_modifiers></argset>, los grupos sociales retomarán las movilizaciones y se podría llegar " a una convulsión mayor " . </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="0.0.1.2.1.1.3.1.0.0" sentencenodepath="0">Un acuerdo entre la patronal y los sindicatos franceses sobre una profunda reforma del subsidio de paro con <argset><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a los parados que rechacen una oferta de trabajo</argument></argset>está al_alcance_de_la_mano tras romperse la unidad sindical . </example>
+        <example file="3LB-CAST/2000060211_6-1.tbf.xml" nodepath="1.0.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>sanción </head></argset>fue impuesta por el Departamento_Administrativo_del_Medio_Ambiente de esta capital del norte colombiano y tras un proceso de siete años que obligaba a la empresa a cumplir con medidas sobre descontaminación . </example>
+        <example file="CESS-CAST-A/10583_20000714.tbf.xml" nodepath="2.3.1.1.1.1.1.1.1.1.1.1.0" sentencenodepath="2">En la presentación de su programa político ante la Cámara_de_Representantes jordana , que le apoyó con 74 votos a favor y 6 abstenciones , Abul_Ragheb manifestó su intención de trabajar para conseguir el levantamiento de <argset><specifier>las</specifier><head>sanciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">internacionales</argument><reference_modifiers>impuestas a Irak hace diez años , cuando sus tropas invadieron Kuwait</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/11011_20000914.tbf.xml" nodepath="3.4.0.0" sentencenodepath="3">A una aerolínea estadounidense , cuyo nombre Leiva no precisó , y a la local Isleña_Airlines se les impuso <argset><head>sanciones </head><reference_modifiers>similares</reference_modifiers></argset>por la misma causa . </example>
+        <example file="CESS-CAST-A/12967_20000417.tbf.xml" nodepath="3.3.0.0" sentencenodepath="3">De_acuerdo_con esta decisión , se aplicarán <argset><head>sanciones </head><reference_modifiers>administrativas o incluso penales</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para los transportes que no tengan los destinos autorizados</argument></argset>. </example>
+        <example file="CESS-CAST-A/12967_20000417.tbf.xml" nodepath="6.2.0.1.3.1.1.1.0" sentencenodepath="6">" El embargo , que Ø hemos tardado en levantar un año después del fin de la guerra en Yugoslavia , nos produjo pérdidas de aproximadamente mil millones de lei " , precisó Ionescu , quien mencionó que a_causa_de <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>impuestas a Yugoslavia</reference_modifiers></argset>, Rumanía no pudo procesar 3,5 millones de toneladas de crudo de Serbia . </example>
+        <example file="CESS-CAST-A/13241_20000216.tbf.xml" nodepath="10.1.2.2.1.3.0.0" sentencenodepath="10">En el debate , varios diputados socialdemócratas defendieron la actitud contra Austria , y el responsable de política exterior , Gernot_Erler , recordó que no se han adoptado <argset><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra ese país</argument></argset>, sino_que simplemente se han reducido los contactos a nivel bilateral . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="30.0.4.1.0" sentencenodepath="30">La IAAF le perdonó el 2_de_agosto <argset><specifier>la mitad de la</specifier><head>sanción </head><argument argument="arg2" function="cn" type="sp">de dos años</argument><reference_modifiers>que cumplía por haber dado positivo de cocaína en el control de dopaje de los Juegos_Panamericanos_de_Winnipeg'99</reference_modifiers></argset>, y Ø no quiere desperdiciar esta oportunidad . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="0.2.1.1.1.1.1.1.1.0" sentencenodepath="0">La Unión_Europea ( UE ) está dispuesta a reconsiderar la aplicación de <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>económicas</reference_modifiers><reference_modifiers>decididas contra Rusia por la guerra en Chechenia</reference_modifiers></argset>, aunque Ø insiste en que Moscú debe encontrar una solución política al conflicto . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="13.3.1.1.0.1" sentencenodepath="13">Pese_al malestar provocado por la actuación del Ejército ruso en Chechenia , condenada en varias ocasiones por la UE , los Quince optaron sólo por <argset><reference_modifiers>tibias</reference_modifiers><head>sanciones </head><reference_modifiers>de castigo</reference_modifiers><reference_modifiers>, mucho más testimoniales que efectivas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="1.3.0.1.1.1.0.0" sentencenodepath="1">Al_mismo_tiempo , Canadá pidió autorización para imponer <argset><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra Brasil</argument><argument argument="arg2" function="cn" type="sp">por valor de 476 millones de dólares anuales</argument></argset>durante los próximos siete años como compensación por el daño causado a su industria aeronáutica por los subsidios brasileños a la empresa Embraer . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="2.0.0.2.1.1.3.1.1.0.0" sentencenodepath="2">Brasil denunció la cantidad que Canadá quiere imponer como <argset><head>sanción </head></argset>y Ø cuestionó el procedimiento utilizado para ello , antes de que se conozcan los fallos de la nueva apelación brasileña . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="7.5.1.2.1.1.0" sentencenodepath="7">Transcurrido un tiempo , los dos gobiernos se denunciaron mutuamente por no cumplir las recomendaciones y mantener <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>ilegales</reference_modifiers></argset>por lo que la OMC estudió nuevamente el caso . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="10.3.1.1.1.0.1.1.1.0.0" sentencenodepath="10">Dado el nivel distinto de las ayudas concedidas , 3.700 millones de dólares en el caso de Embraer ( Empresa_Brasileira_de_Aeronáutica ) , y 94 millones en el caso de la canadiense Bombardier , Canadá decidió apresurarse a pedir autorización para aplicar <argset><head>sanciones </head></argset>al considerar que sus perjuicios son mayores y al temer que Brasil no cumpla con la resolución de la nueva comisión de arbitraje . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="16.2.0.0" sentencenodepath="16">¿ Puede un país pedir <argset><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra otro</argument></argset>antes de que se resuelva una apelación de este último sobre el contencioso objeto de la sanción ? . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="16.3.0.1.1.3.1.2.1.1.1.0.1.1.1.0" sentencenodepath="16">¿ Puede un país pedir sanciones contra otro antes de que se resuelva una apelación de este último sobre el contencioso objeto de <argset><specifier>la</specifier><head>sanción </head></argset>? . </example>
+        <example file="CESS-CAST-A/18886_20000323.tbf.xml" nodepath="1.0.3.1.0" sentencenodepath="1">El ariete , sancionado con dos partidos por una acción que el colegiado Medina_Cantalejo consideró " agresión al contrario " durante el pasado sábado en el Nou_Camp , consideró " injusta " <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>sanción </head></argset>e Ø ironizó al añadir : " si Ø es preciso Ø lucharemos también contra policías y contra periodistas " . </example>
+        <example file="CESS-CAST-A/18886_20000323.tbf.xml" nodepath="2.1.0.3.1.4.0.2.1.1.1.0" sentencenodepath="2">Tras el entrenamiento que hoy tuvo la plantilla deportivista en las instalaciones de Acea_da_Ama , Pauleta insistió ante los periodistas en que Ø no hizo " nada para merecer <argset><specifier>una</specifier><head>sanción </head><argument argument="arg2" function="cn" type="sp">de dos partidos</argument></argset>" y Ø se mostró convencido de que eso mismo " lo hubiera hecho un jugador del Real_Madrid o del Barcelona Ø no le habrían castigado " . </example>
+        <example file="CESS-CAST-A/18886_20000323.tbf.xml" nodepath="6.0.0.1.1.1.1.0.0" sentencenodepath="6">A la ausencia por <argset><head>sanción </head></argset>de Pauleta se unen , por idéntico motivo , las de Mauro_Silva y Flavio , mientras_que Djalminha , Bassir y , probablemente , Naybet , serán bajas por lesión . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="4.5.1.1.1.1.1.0" sentencenodepath="4">Sin_embargo , la reincorporación de Baumann como máxima estrella del mitin del domingo no pone punto final a su lucha contra <argset><specifier>la</specifier><head>sanción </head></argset>, puesto_que para ello es necesaria la ratificación de la instancia superior internacional , la IAAF . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="13.0.1.1.1.1.1.1.0" sentencenodepath="13">A_la_espera_de que se oficialice o no el levantamiento de <argset><specifier>la</specifier><head>sanción </head></argset>, la prueba de confianza dada hoy por la Federación germana ha levantado las primeras críticas . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="11.3.1.2.1.3.1.0" sentencenodepath="11">El viernes , Izquierda_Unida y diversos colectivos leyeron un manifiesto de protesta contra " la guerra , <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>económicas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a Yugoslavia</argument></argset>, la OTAN y el intervencionismo de los Estados_Unidos " frente_a la embajada de este país , con_motivo_del primer aniversario de los bombardeos aliados en los Balcanes . </example>
+        <example file="CESS-CAST-AA/20613_20000428.tbf.xml" nodepath="12.0.3.1.1.0" sentencenodepath="12">" Todos los terroristas peruanos y extranjeros que fueron juzgados en el fuero militar están perfectamente bien condenados y por_lo_tanto <argset><specifier>las</specifier><head>sanciones </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de esta naturaleza</argument></argset>tienen que respetarse hoy , mañana y siempre " , subrayó Ø . </example>
+        <example file="CESS-CAST-AA/21729_20000225.tbf.xml" nodepath="4.2.3.1.0" sentencenodepath="4">Strawberry , ocho veces elegido para el Partido_de_las_Estrellas , ha sido suspendido dos veces por consumo de cocaína y , según algunas fuentes dentro de la oficina del comisionado , Ø puede recibir <argset><specifier>otra</specifier><head>sanción </head><argument argument="arg2" function="cn" type="sp">de por_lo_menos un año</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24478_20000330.tbf.xml" nodepath="3.1.2.0.1.1.0.0" sentencenodepath="3">Antes de la reunión de ministros de los once países de la OPEP , celebrada los tres primeros días de esta semana en Viena , EEUU había insistido ante sus principales aliados en el Golfo_Pérsico y grandes productores de petróleo , Arabia_Saudí y Kuwait , para que Ø aumentaran las exportaciones , además_de amenazar con <argset><head>sanciones </head></argset>a los países que se negaran a hacerlo . </example>
+        <example file="CESS-CAST-AA/24478_20000330.tbf.xml" nodepath="4.4.2.1.1.1.0.2.1.4.1.1.0" sentencenodepath="4">Nueve países de la OPEP alcanzaron ayer un acuerdo para incrementar su producción en 1,45 millones de barriles de crudo diarios , con la oposición de Irán e Irak , este último excluido del sistema de cuotas de la organización por <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>impuestas por la ONU a Bagdad desde 1990 , tras su invasión de Kuwait</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24844_20000929.tbf.xml" nodepath="12.1.2.2.2.1.1.1.0" sentencenodepath="12">En su opinión , el resultado del referéndum danés " es un paso atrás en la integración europea " que " muestra el miedo de la población de un país pequeño " a ese proceso y Ø es " la consecuencia de <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>bilaterales</reference_modifiers><reference_modifiers>que se impusieron a Austria</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/24844_20000929.tbf.xml" nodepath="13.2.0.1.1.0.4.2.2.1.1.1.1.0" sentencenodepath="13">Grasser es miembro del ultranacionalista Partido_Liberal austriaco ( FPOe ) que lidera Joerg_Haider y cuya entrada en el gobierno austríaco motivó la aplicación de <argset><specifier>las</specifier><head>sanciones </head></argset>entre Febrero y el mes pasado . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="15.0.1.1.4.0.2.1.0.0" sentencenodepath="15">Los dos hombres que no pudieron saltar a Mendizorroza por problemas físicos y por <argset><head>sanción </head></argset>, respectivamente , la pasada jornada ante el Real_Valladolid , como Hermes_Desio y Nan_Ribera , regresarán al equipo en el Santiago_Bernabéu . </example>
+        <example file="CESS-CAST-AA/3589_20000405.tbf.xml" nodepath="10.1.0.2.1.1.1.1.1.0.0" sentencenodepath="10">Respecto_a la situación actual , Fischer abogó por revisar la política de <argset><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra Serbia</argument></argset>y Ø se mostró partidario de suavizarlas con el fin de reforzar a la población civil y a la oposición . </example>
+        <example file="CESS-CAST-AA/4287_20000306.tbf.xml" nodepath="4.3.3.7.3.1.1.1.0.0" sentencenodepath="4">Sin_embargo , Galloway comentó que Ø sospechaba que " cuando la noticia se hizo pública el jueves , alguien , en algún lugar , quizás con mayor agudeza para las relaciones públicas que el Ministerio , sugirió que la acción aliviaría la política de <argset><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra Irak</argument></argset>, que provoca la muerte de 7.000 niños al mes " . </example>
+        <example file="CESS-CAST-AA/4287_20000306.tbf.xml" nodepath="12.0.3.0.2.3.1.0.1.1.1.0" sentencenodepath="12">También figuraba entre los pasajeros Dennis_Halliday , ex vicesecretario general de Naciones_Unidas , que renunció a ese cargo en protesta por <argset><specifier>las</specifier><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra Irak</argument><reference_modifiers>, " que están provocando que 7.000 niños mueran al mes</reference_modifiers></argset>" , manifestó Galloway . </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="8.4.1.1.1.1.1.0.1.2.0.1.0" sentencenodepath="8">Con la negociación sobre el reparto de votos estancada , los Quince aprovecharon el encuentro de hoy para debatir la reforma del artículo que dispone <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>que se pueden adoptar contra aquellos Estados que violen " los principios fundamentales de la UE "</reference_modifiers></argset>y la organización de las denominadas " cooperaciones reforzadas " . </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="9.0.2.1.2.1.1.3.1.1.3.1.1.0" sentencenodepath="9">Sobre la reforma del artículo séptimo del Tratado_de_Amsterdam hay un consenso básico para evitar que se repita la situación que se produjo durante <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>bilaterales</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al gobierno de Viena</argument></argset>, pero está pendiente cuál será la formulación . </example>
+        <example file="CESS-CAST-AA/6013_20000408.tbf.xml" nodepath="11.3.1.5.1.0.0" sentencenodepath="11">Flores recupera para este partido al central Fernando_Muñoz ` Nando ` y al centrocampista Sergio_González , que no pudieron jugar contra el Mallorca por <argset><head>sanción </head></argset>. </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="4.0.3.0.1.1.1.1.0.0" sentencenodepath="4">" Ø Vamos a esperar que transcurran estos sesenta días . Anticiparnos a hablar de <argset><head>sanciones </head></argset>es inconveniente . Nosotros no hemos querido que este sea el escenario en que se mueva nuestra relación con Venezuela " , dijo la ministra . </example>
+        <example file="CESS-CAST-P/142_20010302.tbf.xml" nodepath="8.3.4.0.1.0" sentencenodepath="8">Según Competición , se espera que antes de un mes el juez instructor proponga <argset><specifier>una</specifier><head>sanción </head></argset>o el sobreseimiento del caso . </example>
+        <example file="CESS-CAST-P/143_20010601.tbf.xml" nodepath="4.0.5.2.0.2.1.0" sentencenodepath="4">" Las alineaciones indebidas deben denunciarse en 48 horas , si no , se puede hipotecar la competición durante años . La actitud de estos clubs ahora es intolerable . Ø Intentan hacer ruido para pescar algo pero , al_margen_de <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>que el Comité_de_Competición impondrá por la falsedad de documentación</reference_modifiers></argset>, quien no haya ganado los partidos en el terreno de juego , no tiene nada que hacer " , remarcó ayer a EL_PERIODICO Gerardo_González , secretario general de la RFEF . </example>
+        <example file="CESS-CAST-P/169_20010401.tbf.xml" nodepath="10.3.0.1.5.1.0.0" sentencenodepath="10">También volvió a ella Sergi , que no jugó en Soria por <argset><head>sanción </head></argset>. </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="1.2.3.1.1.1.1.1.0" sentencenodepath="1">Irak rechazó ayer una iniciativa del Consejo_de_Seguridad_de_la_ONU que atenúa el papel de la comisión especial encargada del desarme , la Unscom , y Ø le ofrece la oportunidad de aligerar <argset><specifier>las</specifier><head>sanciones </head></argset>. </example>
+        <example file="CESS-CAST-P/24_19981201.tbf.xml" nodepath="19.2.1.2.1.0" sentencenodepath="19">Insulza descartó que la ruptura de relaciones o <argset><specifier>las</specifier><head>sanciones </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">económicas</argument></argset>sean el camino adecuado . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="0.2.1.2.1.0.1" sentencenodepath="0">La UE aprovechó la referencia de Clinton a <argset><reference_modifiers>posibles</reference_modifiers><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">comerciales</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">por motivos laborales</argument></argset>para ganar el apoyo de esos países . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="1.2.2.1.1.1.0.0" sentencenodepath="1">Los Quince sólo defienden crear un foro de trabajo permanente entre la OMC y la Organización_Internacional_de_Trabajo para reforzar el respeto de los derechos laborales y Ø excluye la posibilidad de <argset><head>sanciones </head></argset>. </example>
+        <example file="CESS-CAST-P/46_20010802.tbf.xml" nodepath="4.2.0.1.1.1.0.1.1.1.3.2.0.0" sentencenodepath="4">La situación es equiparable a lo ocurrido en otros países europeos , incluido España , en que ha habido <argset><head>sanciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra petroleras</argument></argset>por restringir la competencia . </example>
+        <example file="CESS-CAST-P/4_20020302.tbf.xml" nodepath="1.3.1.2.1.1.0" sentencenodepath="1">La anterior legislación obligaba a los agentes a perseguir al infractor y comunicarle <argset><specifier>la</specifier><head>sanción </head></argset>al_momento . </example>
+        <example file="CESS-CAST-P/4_20020302.tbf.xml" nodepath="2.4.1.1.0" sentencenodepath="2">Pero la actual ley permite a la Administración enviar <argset><specifier>la</specifier><head>sanción </head></argset>a casa con la fotografía . </example>
+        <example file="CESS-CAST-P/4_20020302.tbf.xml" nodepath="4.1.1.0" sentencenodepath="4">Ahora , cuando el conductor sobrepasa en más de un 50% la velocidad permitida , <argset><specifier>la</specifier><head>sanción </head></argset>es muy grave . </example>
+        <example file="CESS-CAST-P/57_20010801.tbf.xml" nodepath="5.2.3.3.0.1.1.1.0" sentencenodepath="5">Otro magistrado explicó que la decisión del fiscal de no acusar de desobediencia al vocal del CGPJ excluye el delito doloso ( intencionado ) , lo que supondría , en_caso_de una condena , la expulsión de José_María_Bento de la carrera judicial , mientras_que la imprudencia sólo sería objeto de <argset><specifier>una</specifier><head>sanción </head><reference_modifiers>penal</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/73_20000201_a.tbf.xml" nodepath="7.3.1.2.2.3.1.0" sentencenodepath="7">La Asociación_en_Defensa_de_los_Derechos_del_Animal ( ADDA ) , la primera que denunció los hechos , ha empezado a recoger firmas para exigir a la Generalitat que Ø elabore el reglamento de la ley de protección de animales y que se apliquen <argset><specifier>las</specifier><head>sanciones </head></argset>. </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="12.2.2.1.1.0" sentencenodepath="12">Un comunicado emitido ayer_noche afirmaba que " en_el_caso_de_que <argset><specifier>las</specifier><head>sanciones </head><reference_modifiers>aplicadas</reference_modifiers></argset>tuvieran algún fundamento , Ø se referiría solamente al intercambio de informaciones sobre algunos datos normalmente disponibles y que pueden ser conocidos por cualquiera " . </example>
+        <example file="CESS-CAST-P/79_19981101.tbf.xml" nodepath="9.3.0.0" sentencenodepath="9">Además_del cierre , estos establecimientos pueden recibir <argset><head>sanciones </head><argument argument="arg2" function="cn" type="sp">de hasta un millón de pesetas de multa</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="sancionar" originlink="verb.sancionar.1" wordnetsynset="16:04023017+16:00728675">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13853_20000918.tbf.xml" nodepath="5.0.3.3.1.0" sentencenodepath="5">Djalminha no puede jugar porque Ø cumplirá <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>sanción </head><argument argument="arg2" function="cn" type="sp">de dos partidos</argument></argset>y el centrocampista yugoslavo Jokanovic aún no está recuperado de su lesión . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="0.3.1.1.1.1.0.0" sentencenodepath="0">El alemán Dieter_Baumann , medalla de oro de 5.000 metros en los Juegos_Olímpicos de Barcelona , volverá a competir este domingo tras siete meses de <argset><head>sanción </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por dopaje</argument></argset>, a_pesar_de persistir el suspense sobre el denominado " caso del dentífrico " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

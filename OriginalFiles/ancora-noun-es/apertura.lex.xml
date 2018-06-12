@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="apertura" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="underspecified" id="1" lexicalized="no" originlemma="abrir" originlink="verb.abrir.1" wordnetsynset="16:00246048+16:00153241">
+    <frame appearsinplural="no" type="passive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12633_20000315.tbf.xml" nodepath="8.1.1.1" sentencenodepath="8">Si la situación política y económica de Paraguay y Ecuador perjudica el flujo de turistas , <argset><specifier>la</specifier><reference_modifiers>paulatina</reference_modifiers><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Cuba</argument></argset>sigue siendo motivo de atractivo especial para que muchos europeos busquen sus playas y su historia . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="5.2.1.1.0" sentencenodepath="5">Las peticiones de una rápida y adecuada financiación coinciden con <argset><specifier>la</specifier><head>apertura </head><argument argument="argM" function="cn" thematicrole="tmp" type="sadv">hoy Jueves</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la revisión de la escala de cuotas que los Estados miembros de la ONU deben aportar al presupuesto de la organización para las misiones de mantenimiento de la paz</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="abrir" originlink="verb.abrir.2" wordnetsynset="16:00246048">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/77_20000801.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>apertura </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">al alza</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Nueva_York</argument>, </argset>hizo que los descensos fueran más moderados al final del día . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="abrir" originlink="verb.abrir.2" wordnetsynset="16:00153241">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/50_19991101.tbf.xml" nodepath="3.3.1.1.1.1.2.1.0" sentencenodepath="3">En esta zona de Manresa se están realizando otras actuaciones para mejorar la circulación y <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la ciudad</argument><argument argument="arg2" function="cn" type="sp">al Eix_Transversal</argument></argset>, como la prolongación de la calle de la Pau , el camino del Aigua y la mejora de la calle de la Concòrdia , que podría abrirse al tráfico este mes . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="abrir" originlink="verb.abrir.2" wordnetsynset="16:00246048">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="20.2.3.1.1.0" sentencenodepath="20">Mladénov entró en el Gabinete_del_Gobierno comunista a la edad de 35 años y Ø se esforzó en <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del país</argument><argument argument="arg2" function="cn" type="sp">hacia el mundo</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="5" lexicalized="no" originlemma="abrir" originlink="verb.abrir.3" wordnetsynset="16:00246048">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="11" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-4.tbf.xml" nodepath="0.3.2.1.1.2.2.1.1.0.0" sentencenodepath="0">Por lo que respecta al problema de la baja solubilidad , que dificulta el proceso , Grubbs ha logrado llegar a poliacetilenos solubles mediante un enfoque químico distinto : la polimerización con <argset><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ciclo de ciclooctatetraenos sustituidos</argument></argset>. </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="7.2.1.0.1.1.1.1.2.1.1.1.1.1.1.1.0.1.1.1.0.1.1.0.0" sentencenodepath="7">El cuadro universitario que dirige el holandés Wim_Rijssberden quedó en deuda con sus seguidores quienes vieron que su equipo , uno de los más poderosos del campeonato de <argset><head>apertura </head></argset>chileno , apenas pudo vencer a un Santiago_Morning , damnificado por la expulsión de dos de sus mejores jugadores , Marco_Muñoz y Patricio_Avila , a_partir_de los 52 minutos . </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="14.0.1.1.1.1.2.1.0.1.1.0.0" sentencenodepath="14">La sorpresa de la primera fecha del campeonato de <argset><head>apertura </head></argset>, la ofreció el Everton_de_Viña_del_Mar , equipo recién ascendido a la primera división del fútbol chileno , al vencer en su propio feudo al equipo minero de Cobreloa por 2-1 . </example>
+        <example file="CESS-CAST-A/16786_20000221.tbf.xml" nodepath="1.5.2.1.1.1.1.0" sentencenodepath="1">A última hora del día el dólar se cotizaba a 110,57 yenes , frente_a los 110,68 yenes de <argset><specifier>la</specifier><head>apertura </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en la mañana</argument></argset>. </example>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="6.2.1.2.1.1.0" sentencenodepath="6">Las gradas del Estadio_Olímpico han mantenido el extraordinario aspecto de <argset><specifier>la</specifier><head>apertura </head></argset>a_pesar_de no alcanzar el lleno de la inauguración , sobre_todo en las pruebas vespertinas . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="0.2.1.1.2.1.0.1.1.0.0" sentencenodepath="0">La goleada del Universidad_de_Chile , flamante campeón de la temporada pasada , destacó en la segunda jornada del torneo de <argset><head>apertura </head></argset>del fútbol chileno al vencer al O`Higgins_de_Rancagua , por 4-0 . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="3.2.1.3.1.1.1.1.0.0" sentencenodepath="3">Este es el primer triunfo del conjunto universitario que dirige el técnico César_Vaccia en el torneo de <argset><head>apertura </head></argset>del fútbol chileno , ya_que en la primera fecha Ø empató 0-0 con Deportes_Concepción . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="9.4.1.2.3.1.1.1.1.0.0" sentencenodepath="9">El conjunto que dirige Jorge_Aravena ratificó en su feudo , ante unas 6.000 personas , el buen comienzo que Ø tuvo en este torneo de <argset><head>apertura </head></argset>cuando hace una semana Ø viajó a Calama , a 1.584 kilómetros al norte de Santiago , donde Ø le encajó 2-1 al Cobreloa , uno de los equipos poderosos de este torneo . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="13.5.1.1.1.5.1.1.2.1.0.1.1.0.0" sentencenodepath="13">A 942 kilómetros al sur de Santiago , el Osorno se desquitó este fin de semana de la derrota que le infligió el Puerto_Montt ( 1-0 ) en la primera rueda del torneo de <argset><head>apertura </head></argset>, al vencer al Huachipato , por 2-0 . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="17.2.3.1.2.1.0.1.1.0.0" sentencenodepath="17">El Unión_Española , en_tanto , que el fin de semana pasado ofreció la primera sorpresa del torneo de <argset><head>apertura </head></argset>al golear por 5-2 al O`Higgins_de_Rancagua , logró sacar este fin de semana un empate dramático ( 2-2 ) frente al Deportes_Concepción . </example>
+        <example file="CESS-CAST-AA/3121_20000605.tbf.xml" nodepath="5.2.1.1.0" sentencenodepath="5">AVUI destaca en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>apertura </head></argset>que " ETA retoma la ofensiva contra el PP asesinando a un concejal de Durango " , " Putin deja la puerta abierta a un futuro pacto con EEUU sobre defensa antimisiles " y " las empresas aplazan la salida a Bolsa a_causa_de la inestabilidad de los mercados " . </example>
+        <example file="CESS-CAST-AA/9690_20000412.tbf.xml" nodepath="11.1.1.3.3.1.1.1.2.1.1.0.1.1.0.0" sentencenodepath="11">Destacaron las 57 operaciones por 1.014.630.448,55 bolívares ( 1,5 millones de dólares ) con títulos de la Electricidad_de_Caracas , que cerraron en 185,00 bolívares , un 0,54_por_ciento por_debajo_del precio de <argset><head>apertura </head></argset>. </example>
+        <example file="CESS-CAST-AA/9690_20000412.tbf.xml" nodepath="12.3.1.3.3.1.1.1.2.1.1.0.1.1.0.0" sentencenodepath="12">También se registraron 27 operaciones por 39.025.287,00 bolívares ( 58.000 dólares ) con papeles de la Compañía_Anónima_Nacional_Teléfonos_de_Venezuela ( CANTV ) , que cerraron en 2.915,00 bolívares , un 0,85_por_ciento por_debajo_del precio de <argset><head>apertura </head></argset>. </example>
+        <example file="CESS-CAST-P/18_19990602_c.tbf.xml" nodepath="5.2.2.5.0.1.1.1.1.1.0.0" sentencenodepath="5">El motivo de esta carta es sugerir a los responsables de organizar las visitas de las autoridades , que Ø se realicen fuera de los horarios de <argset><head>apertura </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">al público</argument></argset>para evitar molestias a los visitantes . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="5.4.2.1.2.2.1.1.2.2.1.1.0" sentencenodepath="5">Seattle amaneció ayer bajo un estricto control policial , tras los violentos incidentes protagonizados en la tarde y la noche del Martes ( madrugada de ayer en España ) por diversos grupos radicales que lograron bloquear <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la conferencia ministerial de la Organización_Mundial_de_Comercio ( OMC )</argument></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="7.3.1.1.2.1.4.3.1.1" sentencenodepath="7">Además , Ø confían en el compromiso asumido por el conseller de Economia , Artur_Mas , para aplicar el decreto en Catalunya de la manera más beneficiosa para el pequeño comercio , concentrando en agosto <argset><specifier>las</specifier><reference_modifiers>nuevas</reference_modifiers><head>aperturas </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de festivos</argument></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="15.4.3.1.1.3.1.2.1.0" sentencenodepath="15">Ø También lo lamentó porque Convergència_i_Unió había logrado suavizar la intención inicial del Gobierno de ampliar a 20 festivos <argset><specifier>la</specifier><head>apertura </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="6" lexicalized="no" originlemma="abrir" originlink="verb.abrir.3" wordnetsynset="16:00153241+16:cs1">
+    <frame appearsinplural="no" type="benefactive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="15.0.1.1.0" sentencenodepath="15">Para Vázquez_Quintana <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la red de telefonía local de Telefónica</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a otros operadores</argument></argset>no es la solución total ya_que Ø podría hacer que la empresa dominante dejara de invertir en la red por no considerarla como una inversión atractiva , y el Gobierno debe incentivar estas inversiones . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por_parte_de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="10" preposition="de" type="sp"/>
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="2" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="9" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="1.4.1.1.1.1.0.0" sentencenodepath="1">Stoiber mencionó hoy , sábado , el asunto de la ampliación en su discurso de <argset><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la feria agrícola que se celebra durante la Fiesta_de_la_Cerveza_de_Múnich</argument></argset>, en el que Ø se congratuló de que el comisario europeo alemán , el socialdemócrata Günter_Verheugen , haya lanzado el debate sobre la necesidad de una especie de referendo . </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="6.0.0.1.1.1.0" sentencenodepath="6">Antes de <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la bolsa</argument></argset>el gobierno de los EEUU informó de las esperadas cifras del mercado laboral en enero . </example>
+        <example file="CESS-CAST-AA/6552_20000810.tbf.xml" nodepath="7.3.3.4.1.1.0" sentencenodepath="7">Los rumores amenazadores de que los 700 miembros del Parlamento someterían a Wahid a una moción de censura forzaron al presidente que Ø admitiera sus faltas y Ø pidiera perdón el Lunes pasado durante <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la reunión anual del MPR</argument></argset>. </example>
+        <example file="CESS-CAST-P/104_20020502.tbf.xml" nodepath="1.3.1.1.1.1.0.1.1.1.0" sentencenodepath="1">Actualmente se procede a la cimentación del mercado , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuya</argument><head>apertura </head></argset>está prevista para mitad del 2003 tras una inversión de 18 millones de euros ( 2.995 millones de pesetas ) . </example>
+        <example file="CESS-CAST-P/123_19990202.tbf.xml" nodepath="0.0.3.1.0" sentencenodepath="0">Juan_Antonio_Samaranch no ha ordenado <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una investigación sobre Sydney-2000 en_relación_con un supuesto caso de corrupción</argument></argset>, pero Ø ha pedido a la ciudad australiana que Ø le suministre ciertas informaciones , al_igual_que a todas las ciudades candidatas de 1996 al 2006 , según informó ayer un portavoz del Comité_Olímpico_Internacional ( COI ) . </example>
+        <example file="CESS-CAST-P/38_19990902_f.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">El Ejecutivo de José_María_Aznar considera que <argset><specifier>la</specifier><head>apertura </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">, por_parte_de la Audiencia_Nacional ,</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una investigación para aclarar si hubo alguna irregularidad en la venta de la petrolera Ertoil , filial de Ercros , a Cepsa</argument>, </argset>es la " segunda parte " de la " campaña " que el PSOE inició contra el ministro de Industria , que , en el momento de la venta , ocupaba un cargo ejecutivo en Ercros . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Los vecinos del distrito de Sant_Martí acogen con ilusión <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del último tramo de la Diagonal</argument></argset>, aunque Ø admiten que todavía quedan cosas por hacer . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="19.2.1.0" sentencenodepath="19">Tanto Francisco como muchísimos de sus vecinos han aprovechado <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del último tramo de la avenida</argument></argset>para recorrerla en automóvil o a_pie . </example>
+        <example file="CESS-CAST-P/57_20000702.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">Desde <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de estos procesos</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">el 5_de_junio</argument></argset>, el Tribunal_Militar ha juzgado a 575 EX milicianos del Ejército_del_Sur_del_Líbano ( ELS ) . </example>
+        <example file="CESS-CAST-P/66_20000601.tbf.xml" nodepath="4.2.3.1.0" sentencenodepath="4">Ø Anunciaron que Ø pedirán <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una investigación judicial</argument></argset>por considerar que " ha habido una dejadez asistencial " . </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las sucursales bancarias</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">los sábados</argument></argset>se ha convertido en el elemento negociador que mantiene bloqueado el convenio colectivo del sector bancario . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="7" lexicalized="no" originlemma="abrir" originlink="verb.abrir.3" wordnetsynset="16:00153241+16:00246048">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="10.2.3.1.2.1.4.3.1.1.0" sentencenodepath="10">Green explicó que el veto que mantenía su país tenía su razón de ser en que " México es uno de los países del mundo más abiertos en términos de inversión y de comercio , y Ø no queremos hacer peligrar <argset><specifier>esa</specifier><head>apertura </head></argset>" . </example>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="17.0.1.1.5.1.1.1.1.0.0" sentencenodepath="17">El Príncipe_de_Asturias , que el martes asistió como invitado de honor a la ceremonia de <argset><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del llamado Año_Internacional_del_Voluntariado_2001</argument></argset>en la ONU , tiene previsto viajar hoy a México para asistir a la toma de posesión de Vicente_Fox como presidente de ese país . </example>
+        <example file="CESS-CAST-P/142_20010302.tbf.xml" nodepath="2.0.0.1.1.2.1.0" sentencenodepath="2">Los hechos que motivaron <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del expediente al jugador del Espanyol</argument></argset>, así_como las actuaciones realizadas ante las sospechas de que el pasaporte de Delio_Toledo sea ilegal , se encuentran desde ayer en la Fiscalía_de_Madrid . </example>
+        <example file="CESS-CAST-P/72_19990601.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una carretera asfaltada de cinco metros de ancho</argument></argset>es una reivindicación pendiente desde hace más de 15 años de las poblaciones de esta zona pirenaica . </example>
+        <example file="CESS-CAST-P/91_19990701.tbf.xml" nodepath="5.3.2.1.1.0" sentencenodepath="5">Bangemann asesorará a Telefónica en su proceso de reestructuración , en <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de mercados</argument></argset>y en la selección de nuevos socios locales . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="11.0.4.1.0" sentencenodepath="11">La nueva regulación de los horarios comerciales amplía de 72 a 90 horas semanales <argset><specifier>la</specifier><head>apertura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los establecimientos</argument></argset>; Ø incrementa de 8 a 12 el número de domingos y festivos en los que se puede abrir ( a_razón_de uno por año a_partir_del 2001 ) , y Ø liberaliza plenamente el régimen para los establecimientos de menos de 300 metros_cuadrados . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

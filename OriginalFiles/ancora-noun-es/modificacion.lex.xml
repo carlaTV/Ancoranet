@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="modificación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="modificar" originlink="verb.modificar.1" wordnetsynset="16:00131083">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="7" preposition="de" type="sp"/>
+        <constituent frequency="3" preposition="sobre" type="sp"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="8" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="13.2.3.1.1" sentencenodepath="13">Nada está aun firmado , pero el proyecto prevé también <argset><specifier>una</specifier><reference_modifiers>profunda</reference_modifiers><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del actual baremo de descuentos que reduce automáticamente - del 8 al 17_por_ciento , según los casos - el monto del subsidio cada seis meses</argument></argset>. </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="12.3.3.1.0" sentencenodepath="12">La Organización_Internacional_del_Trabajo ( OIT ) ha pedido a Myanmar que Ø realice <argset><specifier>las</specifier><head>modificaciones </head><reference_modifiers>necesarias</reference_modifiers></argset>para acabar de forma eficaz con el trabajo forzoso . </example>
+        <example file="3LB-CAST/dc3-0.tbf.xml" nodepath="2.0.3.1.1.0.0" sentencenodepath="2">Poco_a_poco Ø aprendió a efectuar <argset><head>modificaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre ellos</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">, como en las aleaciones metálicas</argument></argset>, pero sólo recientemente se ha producido una auténtica revolución con la creación de nuevos materiales , cada vez mejores , en mayor número y más adaptados a las propiedades específicas que en cada caso se les demandan . </example>
+        <example file="CESS-CAST-A/10952_20000714.tbf.xml" nodepath="1.4.2.1.2.3.1.0" sentencenodepath="1">Burlotti fue excluido de las dos mangas en el Circuit_de_Catalunya , tras un informe de los comisarios técnicos en el que se constataba <argset><specifier>una</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los anclajes de seguridad de las llantas</argument><reference_modifiers>, que permite ganar un poco de tiempo en la maniobra de cambio de ruedas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/1508_20000403.tbf.xml" nodepath="1.2.1.2.1.0.2.2.2.1.0" sentencenodepath="1">El Consejo_de_la_IAAF aceptó esta innovadora propuesta de Jack_Agrios , presidente del Comité_Organizador_de_Edmonton_2001 , quien argumentó que " <argset><specifier>esta</specifier><head>modificación </head></argset>será un aperitivo inolvidable para los Mundiales " . </example>
+        <example file="CESS-CAST-A/15839_20000123.tbf.xml" nodepath="6.3.0.3.0.0" sentencenodepath="6">Rato afirma en la entrevista que el Gobierno introducirá <argset><head>modificaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la política de vivienda</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para fomentar la movilidad geográfica</argument></argset>y que " Ø hemos bajado las cotizaciones sociales lo que Ø hemos podido " . </example>
+        <example file="CESS-CAST-A/16807_20000522.tbf.xml" nodepath="3.2.1.1.1.0.2.3.3.3.6.2.1.3.1.1.1.0.0" sentencenodepath="3">No concurrió ningún representante del partido Perú_Posible , cuyo líder , Alejandro_Toledo , ha decidido no participar en la segunda vuelta si Ø es que esta no se pospone hasta el 18_de_junio , para permitir que se implementen una serie de <argset><head>modificaciones </head><reference_modifiers>que permitan que el proceso sea considerado legítimo y transparente</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17784_20000125.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>Estas tres</specifier><head>modificaciones </head></argset>son las mínimas que deben hacerse para evitar que se paralice el funcionamiento de las instituciones cuando la UE tenga 20 ó 25 Estados miembros , cifra que hará muy difícil adoptar decisiones por_unanimidad . </example>
+        <example file="CESS-CAST-A/18701_20000922.tbf.xml" nodepath="7.2.1.1.3.1.1.1" sentencenodepath="7">" Ø No veo a ninguno de esos dos países bloqueando hasta el final la directiva " , comentó el diplomático , quien explicó que <argset><specifier>las</specifier><reference_modifiers>últimas</reference_modifiers><head>modificaciones </head><reference_modifiers>introducidas en el borrador</reference_modifiers></argset>han satisfecho ya a otra delegación reticente , Holanda . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="11.3.1.2.1.1.1.1" sentencenodepath="11">De_Miguel expresó también la disposición del Gobierno a aceptar <argset><specifier>una</specifier><reference_modifiers>posible</reference_modifiers><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del artículo 7 del Tratado , que recoge la opción de expulsar a un Estado por deficiencias democráticas , y al que calificó como " una bomba nuclear que no se utiliza "</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="2.2.2.3.0.0" sentencenodepath="2">La ministra mexicana de Asuntos_Exteriores , Rosario_Green , se felicitó en rueda de prensa por el compromiso y Ø subrayó que el acuerdo final implica <argset><head>modificaciones </head><reference_modifiers>que " no son irrelevantes "</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre el texto que estuvo bloqueando hasta primera hora de la mañana</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="7.0.0.1.1.1.0" sentencenodepath="7">Otra de <argset><specifier>las</specifier><head>modificaciones </head><reference_modifiers>de última hora</reference_modifiers></argset>concierne al mecanismo de control de las obligaciones y el ámbito de arbitraje de las eventuales controversias de las empresas , que será realizado siempre en primer lugar por los llamados Puntos_de_Contacto_Nacionales ( PCN ) y no podrá realizarse desde el exterior , como contemplaba el texto que apoyaban todos los países a_excepción_de México . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="3.2.3.0.0.2.0" sentencenodepath="3">La Comisión establece que la documentación aportada por el Ayuntamiento que preside Jesús_Gil no es un texto refundido , e " Ø introduce <argset>cambios y <head>modificaciones </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre el expediente conocido " por este órgano</argument>
+            <reference_modifiers>que no se mencionan ni quedan justificadas y que , al no haber sido tramitadas , carecen de los informes preceptivos</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="8.2.1.0.1.1.1.0" sentencenodepath="8">Ø Indicó que algunas de <argset><specifier>las</specifier><head>modificaciones </head><reference_modifiers>introducidas</reference_modifiers><reference_modifiers>, que afectan a zonas verdes , clasificación y sistemas generales ,</reference_modifiers></argset>" ni_siquiera están enumeradas " en el documento . </example>
+        <example file="CESS-CAST-AA/5145_20000207.tbf.xml" nodepath="2.4.1.1.0" sentencenodepath="2">La compañía del grupo especializada en recursos humanos , Umano , aumentó sus ventas en un 60_por_ciento ( un 13_por_ciento si se descuenta la aportación de la empresa BCS recientemente adquirida ) a_pesar_de <argset><specifier>las</specifier><head>modificaciones </head><reference_modifiers>que en agosto_de_1999 sufrió la normativa sobre el trabajo temporal</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="3.4.1.3.1.1.0" sentencenodepath="3">Bondevik presentó anoche su dimisión y la de su Gobierno al quedar en minoría en el Storting frente_a <argset><specifier>una</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la Ley_de_Protección_Ambiental</argument><reference_modifiers>presentada por la oposición laborista</reference_modifiers><reference_modifiers>, que pretendía elevar los límites permitidos de las emisiones de dióxido de carbono ( CO2 )</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="0.0.1.1.1.1.0" sentencenodepath="0">La Proposición_de_Ley sobre <argset><specifier>la</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las normas relativas al régimen de concesión y explotación de autopistas de peaje</argument></argset>, presentada por el Partido_Socialista , fue rechazada por el Pleno_del_Congreso por 171 votos en_contra y 123 a_favor . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="1.0.1.1.1.0.0" sentencenodepath="1">El proyecto de <argset><head>modificación </head></argset>fue presentado por el Grupo_Socialista conforme_a la " necesidad de que se produzca un equilibrio económico en la financiación de las concesiones que repercutan en el interés general de los ciudadanos " . </example>
+        <example file="CESS-CAST-P/28_20010102.tbf.xml" nodepath="0.3.3.2.1.1.1.2.1.1.3.4.1.0" sentencenodepath="0">El presidente palestino , Yasir_Arafat , tenía previsto viajar anoche a Washington , con la intención de reunirse hoy con el presidente estadounidense , Bill_Clinton , quien probablemente le presente <argset><specifier>algunas</specifier><head>modificaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en su propuesta de paz</argument></argset>. </example>
+        <example file="CESS-CAST-P/41_19991002.tbf.xml" nodepath="8.3.1.1" sentencenodepath="8">El Gobierno añadió en la ley de acompañamiento de los Presupuestos_Generales_del_Estado para el año_2000 <argset><specifier>una</specifier><reference_modifiers>nueva</reference_modifiers><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la ley del suelo de 1998</argument></argset>para que no_sólo los planes generales de ordenación urbana , sino_tambien los planes parciales en ambas ciudades , queden bajo el control del Ministerio_de_Fomento . </example>
+        <example file="CESS-CAST-P/41_20000903.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">En primer lugar , la mundialización no implica sólo la interconexión económica sino más_bien <argset><specifier>la</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la escala de los problemas</argument></argset>. </example>
+        <example file="CESS-CAST-P/65_19991001.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>Las</specifier><head>modificaciones </head></argset>han rebajado las garantías de respeto a la intimidad que ofrecía la anterior legislación , según el PSOE y NI . </example>
+        <example file="CESS-CAST-P/71_20000903.tbf.xml" nodepath="0.2.2.3.1.0" sentencenodepath="0">Todavía no ha empezado la temporada y Joan_Gaspart , el presidente del Barça , avisa que la estructura de la plantilla puede sufrir <argset><specifier>alguna</specifier><head>modificación </head></argset>en un futuro inmediato . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="modificar" originlink="verb.modificar.1" wordnetsynset="16:00255854">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="6.2.2.1.1.1.0" sentencenodepath="6">Preguntada por EFE sobre la naturaleza de los cambios introducidos en este punto , Green insistió en que no se trata únicamente de un cambio semántico y Ø señaló que con <argset><specifier>la</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del texto</argument></argset>" se ha especificado " el marco de cobertura del código . </example>
+        <example file="CESS-CAST-AA/8725_20000411.tbf.xml" nodepath="10.2.4.1.1.1.1.2.1.1.1.1.1.1.1.2.3.1.0" sentencenodepath="10">El senador democristiano informó que Ø continuará recogiendo las opiniones de los distintos sectores para formular una agenda que contenga las bases de un acuerdo en_torno_a la reforma de la Carta_Fundamental , que incluiría <argset><specifier>la</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Consejo_de_Seguridad_Nacional y del Tribunal_Constitucional</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="modificar" originlink="verb.modificar.1" wordnetsynset="16.00131083n">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-15.tbf.xml" nodepath="15.2.1.1.2.5.1.1.0" sentencenodepath="15">Ø Son como esos campesinos de Chiapas que , secularmente desheredados , ya no creen en <argset><specifier>la</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del sistema</argument></argset>, aunque , en su desesperación , Ø se vean obligados a combatirlo con las armas . </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="2.2.1.1.1.2.2.1.1.1.2.1.0" sentencenodepath="2">El presidente del Gobierno mostró su confianza en conseguir , durante la próxima legislatura , otros 1,8 millones de empleos , además_de sacar adelante otros proyectos como la aprobación de la Ley_de_Humanidades o <argset><specifier>la</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la Ley_de_Extranjería , cuyo paso por las Cortes ha demostrado , según dijo , que " algunos prefieren perjudicar a su país " por " el placer " de que el Gobierno " no tenga una victoria parlamentaria "</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="5.0.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las leyes</argument></argset>elimina los límites permitidos hasta ahora del CO2 proveniente del gas natural , y con ello las trabas jurídicas para construir la central de gas , un controvertido proyecto que viene debatiéndose desde 1994 . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="4.2.1.0" sentencenodepath="4">La Proposición_de_Ley presenta <argset><specifier>la</specifier><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la 8/1972 de 10 de mayo , de " construcción , conservación y explotación de las autopistas en régimen de concesión " ,</argument><reference_modifiers>añadiendo un artículo 15 bis sobre ajustes en las concesiones y tarifas que " pueden llegar a la reducción de las tarifas a pagar por los usuarios " , o a repercutir en las inversiones en mejoras viarias</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="5.4.1.1.1.0.0" sentencenodepath="5">Asimismo , también se incluye la solicitud de <argset><head>modificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del apartado 2 del artículo 24 de la citada Ley de 1972</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">, para que sean compensados " el interés general y el interés de la empresa explotadora " , con un equilibrio que no perjudique a ninguna de las dos partes</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

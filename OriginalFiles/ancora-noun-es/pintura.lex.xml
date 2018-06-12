@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="pintura" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="pintar" originlink="verb.pintar.1" wordnetsynset="16:03079051">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c1-5.tbf.xml" nodepath="8.1.3.2.1.0" sentencenodepath="8">Francamente : cualquiera que me conozca un_poco sabe que yo solita <argset>, <head>pintura </head>
+            <reference_modifiers>incluida</reference_modifiers>, </argset>soy un teatro lírico . </example>
+        <example file="3LB-CAST/n1-15.tbf.xml" nodepath="15.2.3.1.1.5.5.2.1.1.2.1.0.0" sentencenodepath="15">Albert tiene 23 años y Ø se autodefine como un - vendedor de hachís - , que se ha establecido en Christiania desde hace cuatro años - como cualquier otro comerciante de vino o de <argset><head>pintura </head></argset>del barrio - y , por eso , Ø asegura que Ø ya no soporta el seguir siendo - criminalizado - . </example>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="9.2.3.1.1.1.1.1.1.1.1.1.1.2.3.1.4.1.2.1.1.0" sentencenodepath="9">En San_Bavón , monseñor Luysterman , obispo de Gante , les dio la bienvenida y Ø les acompañó en un recorrido por el interior de esta catedral , famosa especialmente porque Ø alberga el retablo de Huberto y Juan_Van_Eyck " El_cordero_místico " , de 1432 , una obra maestra de <argset><specifier>la</specifier><head>pintura </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">flamenca</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del siglo_XV</argument></argset>. </example>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="10.0.4.1.2.1.1.1.3.0.0" sentencenodepath="10">En su recorrido , los Reyes pudieron admirar también la arquitectura gótica de este templo , que alberga <argset><head>pinturas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de grandes maestros como Rubens</argument></argset>, y Ø se detuvieron ante los escudos de caballeros de la Orden_del_Toisón_de_Oro , una institución que preside actualmente el Rey_Juan_Carlos . </example>
+        <example file="CESS-CAST-A/16532_20001020.tbf.xml" nodepath="3.0.1.2.2.1.1.0.1.0.0" sentencenodepath="3">Los artistas y trabajadores de la cultura , en distintos campos , <argset><head>pintura </head></argset>, literatura , teatro , ópera y el cine , entre otros , indican en el manifiesto que " Ø asumimos el deber de manifestarnos sobre las circunstancias que mantienen en_vilo la vida y obra de los colombianos " . </example>
+        <example file="CESS-CAST-A/17249_20001021.tbf.xml" nodepath="2.3.1.1.0" sentencenodepath="2">Además , el Viceministerio asegura haber hallado <argset><specifier>la</specifier><head>pintura </head><reference_modifiers>" Obispo_Remigio "</reference_modifiers><reference_modifiers>, correspondiente al siglo_XVIII colonial boliviano</reference_modifiers></argset>, en poder del diplomático . </example>
+        <example file="CESS-CAST-AA/5830_20000307.tbf.xml" nodepath="2.3.4.1.3.2.1.0.0.1.2.1.1.1.0.0" sentencenodepath="2">En la inauguración estuvieron presentes el ministro de Cultura , Mariano_Rajoy , el secretario de Estado_de_Cultura , Miguel_Angel_Cortés , y el vicepresidente de la Caja_de_Ahorros_del_Mediterráneo , Javier_Guillamón , que patrocina esta antológica que recoge cincuenta años de <argset><head>pintura </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Tápies</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6438_20000608.tbf.xml" nodepath="5.2.3.1.1.1.1.1.1.2.1.0.1" sentencenodepath="5">La esposa del jefe del Ejecutivo recorrió a_continuación las principales calles de Chillón y Ø se detuvo especialmente en la Iglesia_Parroquial , un antiguo castillo con <argset><reference_modifiers>notables</reference_modifiers><head>pinturas </head><reference_modifiers>murales</reference_modifiers></argset>y cuya planta es una de las más grandes de la provincia ciudadrealeña . </example>
+        <example file="CESS-CAST-P/132_20010102.tbf.xml" nodepath="5.2.2.1.1.0.2.1.1.0.1.1.0.1.0" sentencenodepath="5">Set se desarrolla con una sucesión de imágenes que corresponden a las siete artes , pero Ø naufraga a_pesar_de tener escenas aplaudibles como las dedicadas a <argset><specifier>la</specifier><head>pintura </head></argset>y la escultura . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

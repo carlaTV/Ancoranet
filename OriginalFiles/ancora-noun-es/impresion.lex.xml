@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="impresión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="impresionar" originlink="verb.impresionar.1" wordnetsynset="16:04544110">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="atr">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12375_20000119.tbf.xml" nodepath="5.0.1.1.1.0.1.6.1.1.0" sentencenodepath="5">La espontaneidad de Mesic - quien siempre está dispuesto a bromear , parece más cálido y relajado y da <argset><specifier>la</specifier><head>impresión </head><argument argument="argM" function="cn" thematicrole="atr" type="sp">de persona capaz de cumplir lo prometido</argument></argset>- ha hecho que Ø también superara a su principal rival , Budisa , que hace sólo unas semanas era el favorito para las presidenciales . </example>
+        <example file="CESS-CAST-A/17928_20000622.tbf.xml" nodepath="0.2.2.1.0" sentencenodepath="0">El portavoz del PSOE en la Comisión_de_Interior_del_Congreso , Ramón_Jáuregui , aseguró que aunque su partido desea que de la cita entre el presidente del Gobierno , José_María_Aznar , y el lehendakari , Juan_José_Ibarretxe , salgan " avances " , <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>impresión </head></argset>es que se producirá un " desencuentro profundo " . </example>
+        <example file="CESS-CAST-A/17928_20000622.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">" <argset><argument argument="arg1" thematicrole="tem" type="spec">Mi</argument><head>impresión </head></argset>es que va a haber un desencuentro profundo ( entre Aznar e Ibarretxe ) " , aseguró el portavoz socialista , quien puso_de_manifiesto que la política vasca " está colapsada y polarizada por dos posiciones políticas enfrentadas , que justamente corresponden a ambos Gobiernos , al vasco y al central " . </example>
+        <example file="CESS-CAST-AA/20120_20000525.tbf.xml" nodepath="8.3.1.3.1.1.0" sentencenodepath="8">Asimismo , fuentes financieras advertían de que un nuevo encarecimiento hoy del dinero podría asfixiar la todavía modesta recuperación económica de la eurozona y ofrecer <argset><specifier>una</specifier><head>impresión </head><argument argument="argM" function="cn" thematicrole="atr" type="sp">de nerviosismo del BCE</argument></argset>, a tan_sólo cuatro semanas de la última subida de los tipos en abril . </example>
+        <example file="CESS-CAST-P/16_19990901.tbf.xml" nodepath="19.2.1.0" sentencenodepath="19">Ø Da <argset><specifier>la</specifier><head>impresión </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de ser auténtico</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20020801.tbf.xml" nodepath="2.3.2.1.0" sentencenodepath="2">" No_sólo Ø nos insultan , sino_que Ø mienten y Ø lo saben . Ø Da <argset><specifier>la</specifier><head>impresión </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de que desean que ETA actúe</argument></argset>" . </example>
+        <example file="CESS-CAST-P/2_19981101.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">Aunque el ensayo clínico que se está llevando_a_cabo en el Hospital_Nacional_de_Parapléjicos en 12 personas con lesiones medulares no terminará hasta mediados_de noviembre , De_Pinto adelantó que <argset><specifier>la</specifier><head>impresión </head><reference_modifiers>que tiene de sus resultados</reference_modifiers></argset>es " buenísima , porque Ø solventará muchos problemas " . </example>
+        <example file="CESS-CAST-P/91_19991002.tbf.xml" nodepath="5.0.1.2.1.0" sentencenodepath="5">" Me dio <argset><specifier>la</specifier><head>impresión </head><argument argument="argM" function="cn" thematicrole="atr" type="sp">de que podía estar detrás_de las amenazas que he recibido , como instigador de esas maniobras intimidatorias</argument></argset>. que no dude Ø de que Ø estaré en la asamblea para mantener mis denuncias " , dijo el líder de la oposición , que no ha aceptado la protección que le ha ofrecido la Delegación_del_Gobierno en Madrid . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="imprimir" originlink="verb.imprimir.1" wordnetsynset="16:04544110">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/e3-3.tbf.xml" nodepath="2.0.3.0.3.1.1.2.0.1.0.0" sentencenodepath="2">Tomar en_serio la heterogeneidad entre la fuente del conocimiento sensible y la del intelectual hacía indispensable no relegar lo empírico a un insignificante caos de <argset><head>impresiones </head></argset>y de impulsos , sino reconocer la materialidad en lo a_priori , y Ø es el paso que dará el Uebergang al sostener que el acto por el cual el sujeto se afecta a sí mismo en la percepción contiene el Principio_de_posibilidad_de_la_experiencia - . </example>
+        <example file="CESS-CAST-P/18_19981102.tbf.xml" nodepath="7.3.1.0" sentencenodepath="7">Demasiado a_menudo , sus dirigentes dan <argset><specifier>la</specifier><head>impresión </head><argument argument="argM" function="cn" thematicrole="pat" type="sp">de que la unidad sólo se puede alcanzar bajo sus condiciones olvidando que fue Canterbury quien se alejó de Roma en el reinado de Enrique_VIII ( el de las seis esposas ) y no al_revés</argument></argset>. </example>
+        <example file="CESS-CAST-P/1_20000702.tbf.xml" nodepath="7.3.2.0" sentencenodepath="7">La academia lamenta , en el cuarto epígrafe del informe , <argset>" <specifier>la</specifier>
+            <head>impresión </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que la vieja historia de España se fragmenta en múltiples historias regionales " , pese_a los criterios comunes y mínimos dictados por el Ministerio_de_Educación</argument>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

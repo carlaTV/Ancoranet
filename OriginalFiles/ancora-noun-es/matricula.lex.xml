@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="matrícula" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="matricular" originlink="verb.matricular.1" wordnetsynset="16:04842460+16:00810945+16:09592315">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="3.4.1.7.0.1.1.0.0" sentencenodepath="3">En su petición contra " Olga " , sobre la que el Tribunal parisiense dictará sentencia el próximo 15_de_marzo , la Audiencia_Nacional reclama su extradición por " asesinato terrorista , 24 intentos de asesinato terrorista , destrozos y falsificación de <argset><head>matrículas </head></argset>" . </example>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="4.3.2.0.0" sentencenodepath="4">Las autoridades de Madrid reprochan a Martínez_García , de 31 años , haber entregado al " comando Andalucía " de ETA <argset><head>matrículas </head><reference_modifiers>para dos coches-bomba , cargados con 200 kilos de explosivos , destinados a un atentado en Córdoba el 20_de_mayo_de_1996</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="8.2.3.3.2.1.1.2.0.1.1.1.1" sentencenodepath="8">El juez recuerda que " según la ley " , las autoescuelas " deben proporcionar a los futuros conductores un mínimo de horas de formación teórica , pero ni se les exige simultáneamente ninguna prueba de capacitación práctica en el manejo del cuadriciclo o ciclomotor ni parece arriesgado afirmar que , a_cambio_del pago de <argset><specifier>la</specifier><reference_modifiers>correspondiente</reference_modifiers><head>matrícula </head></argset>, el control real sobre el resultado de suficiencia del examen teórico sea ilusorio " . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="0.4.1.1.1" sentencenodepath="0">El vicepresidente primero del Gobierno y ministro de la Presidencia , Mariano_Rajoy , anunció hoy en la rueda de prensa posterior al Consejo_de_Ministros que <argset><specifier>las</specifier><reference_modifiers>nuevas</reference_modifiers><head>matrículas </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">automovilísticas</argument></argset>incluirán la " E " de España . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="1.2.1.0.1.2.1.1.0" sentencenodepath="1">Rajoy , manifestó que la inclusión de la inicial española en <argset><specifier>las</specifier><head>matrículas </head></argset>" es un hecho objetivo y las matrículas tienen que reflejar los hechos objetivos , por lo que se recogerá la " E " de España " . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="1.2.3.0.1.0" sentencenodepath="1">Rajoy , manifestó que la inclusión de la inicial española en las matrículas " es un hecho objetivo y <argset><specifier>las</specifier><head>matrículas </head></argset>tienen que reflejar los hechos objetivos , por lo que se recogerá la " E " de España " . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="2.3.0.1.1.1.1.1.1.1.1" sentencenodepath="2">El ministro no concretó más aspectos sobre los contenidos de <argset><specifier>la</specifier><reference_modifiers>futura</reference_modifiers><head>matrícula </head></argset>, ni si se ha rechazado la propuesta del Ministerio_del_Interior de conservar el distintivo provincial , la secuencia de cuatro números ( del 0000 al 9999 ) y de tres letras ( de la BBB a la ZZZ ) , que supone continuar con el sistema actual . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="3.2.3.1.1.0" sentencenodepath="3">El vicepresidente del Gobierno recordó que los países comunitarios recogen en <argset><specifier>sus</specifier><head>matrículas </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">automovilísticas</argument></argset>el símbolo de la Unión_Europea y la inicial del país , por lo que este asunto " es una obviedad " . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="4.0.2.3.1.2.1.1.1" sentencenodepath="4">Rajoy rechazó que haya habido presiones de los grupos políticos nacionalistas para eliminar la " E " de España en <argset><specifier>la</specifier><reference_modifiers>nuevas</reference_modifiers><head>matrículas </head></argset>y Ø se reafirmó en que " no ha habido ningún debate , ni polémica , pues nadie duda de que se debe poner la letra de España y Ø no conozco a nadie que se oponga " . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="8.2.1.1.1.1.1.1" sentencenodepath="8">El director general de Tráfico , Carlos_Muñoz_Repiso , dijo que la normativa sobre <argset><specifier>las</specifier><reference_modifiers>nuevas</reference_modifiers><head>matrículas </head></argset>deberá conocerse antes de cinco o seis semanas , el tiempo que , en su opinión , tardará Madrid en agotar los aproximadamente 30.000 números que le quedan con el sistema de matriculación vigente . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="10.1.1.1.1.1.1.1.0.1.1.0.0" sentencenodepath="10">Por_su_parte , un portavoz de la asociación de fabricantes de <argset><head>matrículas </head></argset>, AFAPIVE , reconoció que con la decisión del Gobierno se resarce en_parte las pérdidas ocasionadas a este sector , conformado por pequeñas y medianas empresas . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="11.2.2.3.1.0" sentencenodepath="11">AFAPIVE había valorado en más de 2.000 millones de pesetas las inversiones acometidas para la maquinaria encargada de producir la placa comunitaria y el utillaje y en 600 millones el " stock " de un millón de placas producidas imposibles de reutilizar si se mantenía <argset><specifier>la</specifier><head>matrícula </head><reference_modifiers>actual</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/21_20020702_a.tbf.xml" nodepath="18.0.1.0" sentencenodepath="18"><argset><specifier>LAS</specifier><head>MATRÍCULAS </head></argset>. </example>
+        <example file="CESS-CAST-P/21_20020702_a.tbf.xml" nodepath="19.2.1.1.0" sentencenodepath="19">Los alumnos aportan con <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>matrículas </head></argset>el 10,5% de los gastos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="matricular" originlink="verb.matricular.1" wordnetsynset="16:00810945">
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/5315_20000207.tbf.xml" nodepath="10.4.0.1.4.0.1.1.0" sentencenodepath="10">" Juanjo es una parte importantísima de todo lo que me está sucediendo . Ø Es un gran conocedor de la disciplina y Ø conoce muy bien a las personas . Ø Es un buen psicólogo . Ø Es una persona muy segura de sí misma que confía mucho en mí " , explicó a Efe Lamela , que este año seguirá entrenándose en las instalaciones ovetenses de San_Lázaro , pero ha cambiado <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>matrícula </head><reference_modifiers>universitaria</reference_modifiers></argset>y en_lugar_de estudiar informática en Gijón , lo hará en Oviedo . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

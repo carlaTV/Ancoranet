@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="pecado" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="pecar" originlink="verb.pecar.1" wordnetsynset="16:00488251">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="p" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a12-2.tbf.xml" nodepath="7.0.0.3.1.1.1.1.1.0" sentencenodepath="7">Las ratas conviven con nosotros como la sombra de <argset><specifier>un</specifier><head>pecado </head><reference_modifiers>antiguo</reference_modifiers></argset>, y las ciudades se las arreglan para mantenerlas recluidas en esos intestinos de su subconsciente que son las cloacas : nada nos repugnará tanto como encontrárnoslas en_mitad_de la calle a plena luz del día . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="6.3.7.1.1.1.5.1.1.2.1.0.0" sentencenodepath="6">El cardenal Sin , que dirigió el rezo del rosario antes de los discursos , pidió a Estrada que " Ø no siga ni un día más " en la Presidencia , que se ha convertido para él en una " ocasión de <argset><head>pecado </head></argset>" . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="9.3.0.4.1.1.0.1.2.1.1.0.1.2.0" sentencenodepath="9">Nacido en Belgrado , Ø es doctor en Derecho , brillante profesor e intelectual de verbo fácil y desprovisto de charlatanería <argset>, <specifier>ese</specifier>
+            <head>pecado </head>
+            <reference_modifiers>frecuente</reference_modifiers>
+            <argument argument="argM" function="cn" thematicrole="loc" type="sp">en la vida política serbia</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/123_19990202.tbf.xml" nodepath="16.2.1.2.3.4.1.1.0" sentencenodepath="16">The_Times había publicado unas manifestaciones del seleccionador inglés en las que Ø decía que " los discapacitados físicos y mentales pagan por <argset><specifier>los</specifier><head>pecados </head><reference_modifiers>que cometieron en una vida anterior</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="9.2.2.2.3.0.1.1" sentencenodepath="9">Ø Apuntó que Ø asume las críticas de la oposición " deportivamente " y Ø agregó : " Ø No sé <argset><specifier>qué</specifier><reference_modifiers>gran</reference_modifiers><head>pecado </head></argset>Ø he hecho para merecer todo esto y Ø puede ser que me decapite yo mismo ; así , trabajo hecho " . </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="16.3.3.5.1.1.0" sentencenodepath="16">Ø Añadió también que el Ejecutivo_de_Vitoria es " débil , incapaz de liderar una situación sin precedentes y con <argset><specifier>el</specifier><head>pecado </head><reference_modifiers>original</reference_modifiers><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de haber sido votado por EH</argument></argset>" . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="23.4.1.0.1.5.1.1.0" sentencenodepath="23">Primero Ø permitió volver sin condiciones a Abraham_Serfaty , a quien su padre convirtió en el preso político más longevo de Africa después de Nelson_Mandela por <argset><specifier>el</specifier><head>pecado </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de defender el derecho a la autodeterminación de los saharauis</argument></argset>. </example>
+        <example file="CESS-CAST-P/69_20000701.tbf.xml" nodepath="3.2.1.2.3.0.3.2.0.0" sentencenodepath="3">El sacerdote de la parroquia de Boiro , Marcelino_Barrios , discípulo fiel del obispo de Mondoñedo-Ferrol , monseñor José_Gea_Escolano , ofreció la eucaristía a la niña y ésta comulgó , pero cuando la madre abrió la boca para recibir la hostia , el cura puso la mano y Ø le recordó que Ø estaba " en <argset><head>pecado </head></argset>" y que Ø , además , no se había arrepentido de ello . </example>
+        <example file="CESS-CAST-P/7_20000903.tbf.xml" nodepath="18.0.3.3.1.0.1.1.0" sentencenodepath="18">" Yo no pedía un favor celestial , un milagro . Ø Me preocupaba sólo de <argset><argument argument="arg0" thematicrole="agt" type="spec">mis</argument><head>pecados </head></argset>y de mi poca fe " , ha añadido Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="pecado_original" cousin="no" denotation="result" id="2" lexicalizationtype="nominal" lexicalized="yes" originlemma="pecar" originlink="verb.pecar.1" wordnetsynset="16:00488251">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/5_20000903.tbf.xml" nodepath="10.3.2.3.1.0.0" sentencenodepath="10">En 1854 , Pío_IX proclamó el dogma ( verdad indiscutible ) de la Inmaculada_Concepción , o_sea que la virgen_María habría nacido sin <argset><head>pecado </head><argument argument="argL" function="cn" type="s.a">original</argument></argset>, en_contra de la opinión de los teólogos católicos hasta el siglo_XII . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="afirmación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="afirmar" originlink="verb.afirmar.1" wordnetsynset="16:05040541+16:05046939">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a1-6.tbf.xml" nodepath="10.0.6.1.2.1.0.0" sentencenodepath="10">Por eso , al excesivo entusiasmo que produjo lo que se llamó - español atlántico - , Germán_de_Granda pone no pocos puntos sobre las es para atemperar juicios y moderar <argset><head>afirmaciones </head></argset>, pero no caigamos Ø en negaciones excesivas . </example>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="10.3.1.0.1.1.1.1.0" sentencenodepath="10">Además , el ideal de debilitar al_máximo nuestras inclinaciones sería lo más contrario a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>afirmación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que las disposiciones racionales del hombre quedarían dormidas para siempre - en su germen sin la tensión de fuerzas de la ambición , codicia , de la vanidad que rivaliza en la envidia , del apetito insaciable de posesión o de dominación</argument></argset>. </example>
+        <example file="3LB-CAST/n1-14.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>afirmación </head></argset>no procede de un severo crítico de cine , sino de un chico de 16 años , llegado desde Miami . </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="11.0.1.1.0" sentencenodepath="11">Ante <argset><specifier>esta</specifier><head>afirmación </head></argset>, el abogado José_Luis_Sierra , que se defiende a sí mismo , le preguntó que si Ø podía demostrar esa relación jerárquica , a lo que el ex gerente admitió que no aunque Ø aseguró que había " un sentir general y total en el Atlético de que todo se le preguntaba a usted " . </example>
+        <example file="CESS-CAST-A/10938_20000214.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>Las</specifier><head>afirmaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Musa , a quien cita hoy , lunes , la prensa local ,</argument></argset>coinciden con la presencia estos días en Egipto de una delegación de especialistas de las Naciones_Unidas para tratar con las autoridades de este país sobre las posibilidades de eliminar esos artefactos en el territorio egipcio . </example>
+        <example file="CESS-CAST-A/16545_20000620.tbf.xml" nodepath="1.3.2.1.1.0" sentencenodepath="1">Chávez no quiso responder , por desconocerlas , a <argset><specifier>las</specifier><head>afirmaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de estadounidenses</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que su decisión de prohibir el sobrevuelo en su territorio de aeronaves norteamericanas en las acciones antidrogas habría creado un " agujero negro " en la vigilancia regional que los traficantes sabrían aprovechar</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>Esa</specifier><head argument="arg1" thematicrole="pat">afirmación </head></argset>fue hecha por el presidente de turno del Consejo_de_Seguridad_de_la_ONU , Karim_Chowdhry , tras una sesión abierta celebrada hoy en Nueva_York sobre el papel de los " cascos azules " en el proceso de desmovilización , desarme y reintegración de los combatientes . </example>
+        <example file="CESS-CAST-AA/8552_20000310.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">El sindicato apoyó <argset><specifier>esa</specifier><head>afirmación </head></argset>con el argumento de que en 1996 de cada diez jóvenes activos cuatro eran parados y otros cuatro tenían contrato temporal , frente_a 1999 , donde la proporción es de tres parados y cinco contratados temporales . </example>
+        <example file="CESS-CAST-AA/8725_20000411.tbf.xml" nodepath="8.0.0.1.3.1.1.1.0" sentencenodepath="8">El ministro de Defensa , Mario_Fernández , preguntado sobre <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">afirmaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Martínez_Busch</argument></argset>, dijo que se trataba sólo de " una opinión " y Ø agregó que " el hecho que la discusión esté radicada en el Congreso corresponde a lo que debe ocurrir en democracia " . </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="37.4.1.0.0" sentencenodepath="37">Ante este panorama , Josep_Lluís_Núñez ha entrado en escena con <argset><head>afirmaciones </head><reference_modifiers>contradictorias</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/18_19990602_a.tbf.xml" nodepath="3.0.5.1.1.0" sentencenodepath="3">En nuestra estúpida candidez , nosotros sí creemos profundamente en <argset><specifier>esas</specifier><head argument="arg1" thematicrole="pat">afirmaciones </head></argset>y Ø seguiremos luchando por medios pacíficos y mediante soluciones dialogadas contra la guerra y las limpiezas étnicas " Ø vengan de donde Ø vengan " . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head>afirmación </head></argset>retrata el nuevo paisaje político marroquí , donde un monarca joven y modernista ha forjado una unión con las fuerzas políticas que parece ir más allá de las contingencias electorales . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>La</specifier><head>afirmación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del titular de Interior</argument></argset>obedece a la convicción , compartida por José_María_Aznar , de que la organización terrorista ETA no desaparecerá jamás mientras Ø cuente con la complicidad , siquiera por omisión , de un Gobierno vasco controlado por el nacionalismo . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

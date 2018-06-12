@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="cohesión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="cohesionar" originlink="verb.cohesionar.1" wordnetsynset="16:10346799">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="cot">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="0.0.4.1.1.1.1.1.1.1.0.0" sentencenodepath="0">El jefe del Gobierno bávaro , Edmund_Stoiber , se pronunció hoy por una suspensión de los fondos de <argset><head>cohesión </head></argset>para países como España , a_fin_de poder financiar la ampliación de la UE al Este , y Ø reiteró que convendría consultar al pueblo sobre dicha ampliación . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="5.5.1.1.1.1.1.0.0" sentencenodepath="5">Para que la ampliación sea posible pronto , es necesario en primer lugar , según Stpiber , renunciar a los fondos de <argset><head>cohesión </head></argset>que reciben ahora España , Portugal , Irlanda o Grecia , que son países económicamente más fuertes que los candidatos a la adhesión ( Polonia , Hungría y República_Checa ) . </example>
+        <example file="CESS-CAST-A/1329_20000703.tbf.xml" nodepath="0.2.2.1.1.1.1.0" sentencenodepath="0">El empresario catalán Joan_Castells , precandidato en las elecciones del FC_Barcelona , sostiene que la división que existe actualmente en la masa social del club podría repararse si sale elegido él presidente , pero Ø está convencido de que <argset><specifier>la</specifier><head>cohesión </head></argset>no será posible si los vencedores en las urnas son sus oponentes Joan_Gaspart o Lluís_Bassat . </example>
+        <example file="CESS-CAST-A/18351_20000724.tbf.xml" nodepath="10.2.2.4.1.1" sentencenodepath="10">Además , Ø resaltó las resoluciones sobre limitación de mandatos públicos y de incompatibilidades y Ø consideró que " la nueva forma de vida interna del partido posibilita <argset><specifier>una</specifier><reference_modifiers>mayor</reference_modifiers><head>cohesión </head><argument argument="arg2" function="cn" thematicrole="cot" type="sp">con el ciudadano</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="9.3.5.1.1.1.1.1.1.1.2.1.1.1" sentencenodepath="9">El episodio supone el traspié más grave de Jospin desde su ascenso al poder , ya_que hasta ahora Ø había demostrado ser un maestro y equilibrista en el arte de esquivar adversidades y mantener <argset><specifier>una</specifier><reference_modifiers>difícil</reference_modifiers><head>cohesión </head></argset>en el Ejecutivo de coalición de izquierdas que Ø encabeza , manteniéndose en la cresta de la popularidad . </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="14.3.2.0.3.4.1.0.1.1.4.1.1.1.0.0" sentencenodepath="14">Al_igual_que España , tanto Italia como Alemania rechazan que la fórmula conduzca hacia una " Europa a la carta " que diera_lugar a " iniciativas paralelas , descoordinadas y aleatorias " , lo que en_principio supondría que no deberían formarse este tipo de vanguardias en políticas como el mercado interior , la agricultura o los fondos de <argset><head>cohesión </head></argset>, que Forman_parte del acervo de la UE . </example>
+        <example file="CESS-CAST-P/113_19990501_a.tbf.xml" nodepath="6.4.1.1.0.1.0" sentencenodepath="6">Gutiérrez y Méndez pedirán a las instituciones europeas un papel más activo en la construcción de una Unión_Económica_y_Monetaria para reforzar <argset><specifier>la</specifier><head>cohesión </head></argset>y la solidaridad . </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="6.2.1.1.2.1.0" sentencenodepath="6">Portugal aprovechó para defender la solidaridad y <argset><specifier>la</specifier><head>cohesión </head></argset>dentro de la UE , amenazados por el plan de los países ricos de recortar las ayudas . </example>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="9.2.0.3.1.1.1.2.1.1.2.1.0" sentencenodepath="9">Ø Argumentó que Ø confía en la capacidad del País_Vasco para progresar afrontando las dificultades , y Ø se preguntó si una sociedad solidaria , preocupada por la integración y <argset><specifier>la</specifier><head>cohesión </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">social</argument></argset>, que está superando el reto de la revolución tecnológica , no va a poder resolver su principal problema : " ¿ Ø Es que Ø no vamos a tener el coraje y el nervio suficiente para erradicar la violencia ? " . </example>
+        <example file="CESS-CAST-P/9_20010601_b.tbf.xml" nodepath="2.6.6.2.1.1.1.1.1.1.1.1.2.1.0.0" sentencenodepath="2">Han fallado las formas diplomáticas y hay que cambiarlas una retirada a_tiempo no siempre es una victoria , máxime cuando se estuvo predicando durante meses la guerra santa contra la pérfida Alemania y su manía de resistirse a mantener los fondos estructurales y de <argset><head>cohesión </head></argset>para España hasta pasado el 2006 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="cohesionar" originlink="verb.cohesionar.1" wordnetsynset="16:10346799">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-2.tbf.xml" nodepath="7.3.1.2.2.3.1.0" sentencenodepath="7">El presidente estadounidense tomó buena nota de las preocupaciones europeas reiteradas por Schroeder , es_decir , que el sistema antimisiles pone en peligro <argset><specifier>la</specifier><head>cohesión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la Alianza</argument></argset>y Ø puede dar_lugar a una nueva carrera armamentista . </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="13.0.0.0.1.1.0.1.0" sentencenodepath="13">Alertado por <argset><specifier>la</specifier><head>cohesión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Valencia</argument></argset>y su regularidad en las dos últimas temporadas , O'Leary dijo que el Leeds lo combatirá " con calidad , disciplina e ilusión " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

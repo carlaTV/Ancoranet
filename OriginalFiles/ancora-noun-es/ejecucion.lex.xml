@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ejecución" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ejecutar" originlink="verb.ejecutar.1" wordnetsynset="16:00061811+16:00729882+16:00061322+16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/16529_20001121.tbf.xml" nodepath="4.2.3.1.0.3.3.1.1.1.0.2.0" sentencenodepath="4">El objetivo del programa es que el SINA cuente con información básica y fiable para la gestión ambiental y la toma de decisiones , que facilite los procesos de <argset>planificación y <head>ejecución </head>
+          </argset>en el marco de la Política_Nacional_Ambiental </example>
+        <example file="CESS-CAST-P/117_20010801.tbf.xml" nodepath="2.3.1.1.2.0.0" sentencenodepath="2">Representantes de la Generalitat y del consistorio presentaron ayer el plan , de <argset><head>ejecución </head><reference_modifiers>inmediata</reference_modifiers></argset>, que se combina con otra intervención importante : el derribo del antiguo instituto Joaquim_Bau , muy cercano , para convertir una parte en jardín , bajo el que se construirá un párking , y otra en oficinas de las delegaciones del Ejecutivo , creadas en su mayoría durante los últimos meses . </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="4.4.1.1.1.3.2.1.0.1.5.1.1.0" sentencenodepath="4">Y , desde_luego , Turquía estará sometida a una fuerte presión de los países europeos , sobre_todo del Consejo_de_Europa , que la puede expulsar de su seno si <argset><specifier>la</specifier><head>ejecución </head></argset>se lleva_a_cabo . </example>
+        <example file="CESS-CAST-P/25_20010102.tbf.xml" nodepath="8.4.3.1.1.2.3.2.0.1.1.1.1.1.0.0" sentencenodepath="8">Fuentes de seguridad no descartaban ayer que se pudiera tratar de un primer atentado realizado por el movimiento palestino Al_Fatah en el interior de Israel , en represalia por la cadena de <argset><head>ejecuciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de líderes de este movimiento</argument><reference_modifiers>realizadas en las últimas semanas</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="ejecutar" originlink="verb.ejecutar.1" wordnetsynset="16:00729882">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="0.4.2.4.1.1.0" sentencenodepath="0">La vicepresidenta de la Comisión_Europea y comisaria de Transportes , Loyola_de_Palacio , confirmó hoy en Pamplona " el apoyo pleno " del Gobierno central a <argset><specifier>la</specifier><head>ejecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una vía de gran capacidad que una España con Francia a_través_del Pirineo navarro</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="7.3.1.1.1.1.2.0.1.1.0" sentencenodepath="7">El NYSE continuará asimismo con sus esfuerzos para desarrollar sistemas para <argset><specifier>la</specifier><head>ejecución </head><reference_modifiers>electrónica</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las órdenes</argument></argset>y para entregar la información que se genera en el lado de la venta de acciones . </example>
+        <example file="CESS-CAST-P/30_20000103.tbf.xml" nodepath="0.4.0.1.1.1.1.0" sentencenodepath="0">El primer ministro de Turquía , Bulent_Ecevit , se mostró ayer favorable a suspender <argset><specifier>la</specifier><head>ejecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del líder kurdo Abdulá_Ocalan</argument></argset>. </example>
+        <example file="CESS-CAST-P/87_20020501.tbf.xml" nodepath="1.2.0.1.0" sentencenodepath="1">El arrestado , M._C._S. , ya fue condenado por idéntico motivo a dos años de cárcel , pero <argset><specifier>la</specifier><head>ejecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la sentencia</argument></argset>se halla suspendida . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="autorización" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="autorizar" originlink="verb.autorizar.1" wordnetsynset="16:05013621+16:04922001">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-3.tbf.xml" nodepath="8.3.1.1.3.1.2.4.1.0" sentencenodepath="8">Familiares de López_de_Coca tienen participación en la empresa Colisur_2000 , ubicada en Picón ( Ciudad_Real ) , una planta transformadora a la que la Consejería le retiró <argset><specifier>la</specifier><head>autorización </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">para emitir certificados de transformación para el cobro de las ayudas comunitarias que existen para esta actividad</argument></argset>. </example>
+        <example file="CESS-CAST-A/11317_20000817.tbf.xml" nodepath="6.2.1.0.1.1.4.2.1.1.1.0.0" sentencenodepath="6">La operación está sujeta a ciertas " condiciones suspensivas " , como la obtención de <argset><head>autorizaciones </head><reference_modifiers>administrativas</reference_modifiers></argset>de_acuerdo_con el contrato de concesión y con la ley de defensa de la competencia , y a otros requisitos como la confirmación de los vendedores que deberá ser emitida antes del 10_de_octubre próximo . </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="3.0.3.1.1.1.0" sentencenodepath="3">" Hay una preocupación muy grande porque con <argset><specifier>la</specifier><head>autorización </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nuevos cupos de pesca</argument></argset>, la sensación es que el recurso está casi colapsado después de años en los que se ha pescado más de medio millón de toneladas de merluza al año " , indicó Bein . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="0.3.1.1.2.1.1.3.2.0.0" sentencenodepath="0">El Parlamento_Europeo aprobó hoy , jueves , dos directivas que amplían las condiciones en las que los fondos de inversión podrán tener un " pasaporte europeo " o <argset><head>autorización </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para comercializarse en otros Estados</argument></argset>. </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="2.3.1.3.0.0" sentencenodepath="2">El " pasaporte europeo " , que ya existe desde 1985 , permite la comercialización de los fondos de inversión fuera del país de emisión sin que sean necesarias <argset><head>autorizaciones </head><reference_modifiers>adicionales</reference_modifiers></argset>, aunque la evolución de los mercados financieros y la extensión de Internet han impuesto una revisión de la normativa . </example>
+        <example file="CESS-CAST-A/15392_20001220.tbf.xml" nodepath="2.3.1.1.1.3.1.1.1.0" sentencenodepath="2">Frente_a las críticas de una parte de los trabajadores , Ø recordó que la operación , que está sometida a <argset><specifier>la</specifier><head>autorización </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las autoridades europeas de la competencia</argument><reference_modifiers>prevista para febrero próximo</reference_modifiers></argset>, se hizo con el beneplácito del presidente de SNET , André_Sainjon . </example>
+        <example file="CESS-CAST-AA/8203_20000210.tbf.xml" nodepath="0.4.1.1.0.1.1.4.1.1.1" sentencenodepath="0">La Comisión_Nacional_del_Mercado_de_Valores ( CNMV ) ha incoado un expediente sancionador a la sociedad " Port_Kenny_Holding " y a su apoderado , Fernando_Heras_Castán , por tener indicios de que Ø está captando ahorro de inversores sin <argset><specifier>la</specifier><reference_modifiers>preceptiva</reference_modifiers><head>autorización </head></argset>. </example>
+        <example file="CESS-CAST-AA/8203_20000210.tbf.xml" nodepath="1.3.3.0.1.1.1.1" sentencenodepath="1">El organismo supervisor considera en un comunicado que esta empresa podría estar recibiendo y transmitiendo órdenes de inversores sin haber obtenido <argset><specifier>la</specifier><reference_modifiers>preceptiva</reference_modifiers><head>autorización </head></argset>y sin haberse inscrito en los registros administrativos correspondientes , lo que está tipificado como una infracción " muy grave " . </example>
+        <example file="CESS-CAST-AA/8815_20000114.tbf.xml" nodepath="1.2.3.2.4.1.0" sentencenodepath="1">Unión_Fenosa_Redes_de_Telecomunicación_S.L. ya tiene una licencia de telecomunicaciones tipo B pero la Comisión_del_Mercado_de_las_Telecomunicaciones le había indicado que esa licencia sólo le servía para explotar de forma privada su red y que si Ø quería dar servicios a terceros Ø tendría que pedir <argset><specifier>la</specifier><head>autorización </head><reference_modifiers>tipo C</reference_modifiers><reference_modifiers>que ahora le ha sido concedida</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/51_20000402.tbf.xml" nodepath="2.2.4.0.1.1.2.3.1.0" sentencenodepath="2">Duran_Lleida dijo que Ø tomaría una decisión después de consultar a firmantes de la misiva si Ø habían dado <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>autorización </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para que el contenido de la misma se hiciera público</argument></argset>. </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="7.1.0.3.1.0" sentencenodepath="7">" Si los científicos tuvieran <argset><specifier>la</specifier><head>autorización </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">para clonar embriones</argument></argset>, éstos podrían ser vendidos y comercializados en_masa - - había advertido el republicano Jame_Sensenbrenner , que preside la Comisión_Judicial_de_la_Cámara - - . Ø Es una cuestión ética " . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="10.2.1.0.1.2.1.0.0.2.0" sentencenodepath="10">Entre sus funciones destacan la de autorizar la inscripción en el censo de la entidad portuaria de consignatarios de empresas de estiba y de los comercializadores de pescado , además_de otorgar <argset>concesiones y <head>autorizaciones </head>
+            <argument argument="argM" function="cn" thematicrole="fin" type="sp">para la ocupación de la superficie pública y de las instalaciones</argument>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="autorizar" originlink="verb.autorizar.2" wordnetsynset="16:05013621">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/17012_20000221.tbf.xml" nodepath="0.0.3.1.1.0" sentencenodepath="0">El Banco_Urquijo , uno de los más antiguos de España , cuenta desde hoy con <argset><specifier>la</specifier><head>autorización </head><reference_modifiers>definitiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para operar en Argentina como entidad bancaria comercial</argument></argset>, informaron el Banco_Central y fuentes del banco . </example>
+        <example file="CESS-CAST-A/17012_20000221.tbf.xml" nodepath="3.2.3.1.0" sentencenodepath="3">El Banco_Urquijo , fundado a_fines_del siglo_XIX , inició en 1998 los trámites para poder entrar en el sistema financiero argentino y el pasado enero Ø recibió <argset><specifier>una</specifier><head>autorización </head><reference_modifiers>preliminar</reference_modifiers><reference_modifiers>, que se hizo ahora definitiva con la emisión de la llamada " Comunicación_B " del Banco_Central</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="1.3.0.0" sentencenodepath="1">Al_mismo_tiempo , Canadá pidió <argset><head>autorización </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para imponer sanciones contra Brasil por valor de 476 millones de dólares anuales durante los próximos siete años como compensación por el daño causado a su industria aeronáutica por los subsidios brasileños a la empresa Embraer</argument></argset>. </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="10.3.1.1.1.0.0" sentencenodepath="10">Dado el nivel distinto de las ayudas concedidas , 3.700 millones de dólares en el caso de Embraer ( Empresa_Brasileira_de_Aeronáutica ) , y 94 millones en el caso de la canadiense Bombardier , Canadá decidió apresurarse a pedir <argset><head>autorización </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para aplicar sanciones</argument></argset>al considerar que sus perjuicios son mayores y al temer que Brasil no cumpla con la resolución de la nueva comisión de arbitraje . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

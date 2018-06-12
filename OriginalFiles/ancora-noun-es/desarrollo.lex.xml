@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="desarrollo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="desarrollar" originlink="verb.desarrollar.1" wordnetsynset="16:09724860+16:09725434+16:00160202">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" type="void"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="12" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="4.3.0.4.1.0.0" sentencenodepath="4">Sin mencionarlos , el jefe del Estado indicó que unos asuntos " están en <argset><head>desarrollo </head></argset>" por propia decisión gubernamental y que otros serán analizados por la coalición para dar respuesta conjunta " lo antes posible " . </example>
+        <example file="3LB-CAST/dc2-5.tbf.xml" nodepath="5.5.1.0.1.1.0.1.1.0.0" sentencenodepath="5">Además , la tecnología de los misiles balísticos ya se encuentra al alcance de países en_vías_de <argset><head>desarrollo </head></argset>, como no hace tanto han demostrado iraníes e iraquíes . </example>
+        <example file="3LB-CAST/e2-0.tbf.xml" nodepath="8.2.2.0.1.0.1.1.0" sentencenodepath="8">La cultura adquiere entidad propia , Ø es objeto de <argset><specifier>un</specifier><head>desarrollo </head><reference_modifiers>especial</reference_modifiers></argset>y de una atención cada vez más globalizadora de las actividades y valores humanos . </example>
+        <example file="3LB-CAST/e2-0.tbf.xml" nodepath="11.4.1.2.1.0.1.0" sentencenodepath="11">Marx y sus seguidores , poderosamente influidos por la idea germánica de Kultur , añadieron a ésta , de_acuerdo_con los principios del materialismo histórico , la relación causal entre <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">socioeconómico</argument></argset>y la creación de una cuna igualitarista universal . </example>
+        <example file="3LB-CAST/e2-3.tbf.xml" nodepath="6.1.1.4.1.0" sentencenodepath="6">- Claro que en 1930 nadie imaginaba <argset><specifier>un</specifier><head>desarrollo </head><reference_modifiers>tan brutal</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la sociedad de consumo</argument></argset>; pero el hecho es que veinte años más tarde en Europa el tiempo libre se convertía en un encadenamiento de servidumbres donde no cabía el perfeccionamiento personal a_través_de la liberación espiritual de la persona , a_pesar_de_que la idea de cultura avanzaba en este sentido . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="20.3.1.1.1.0.2.1.2.1.2.1.1.0" sentencenodepath="20">Con el lema " La educación como base para el desarrollo " , se aprobaron trece programas de cooperación educativa , materia esencial para consolidar la democracia y lograr <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">social</argument></argset>. </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="37.5.2.1.1.1.0.0" sentencenodepath="37">Con el tema " Iberoamérica y la situación internacional en una economía globalizada " , la Declaración_de_La_Habana comprometió a los países firmantes a fortalecer el funcionamiento de sus instituciones democráticas , el pluralismo político , el Estado_de_Derecho y el respeto de los derechos_humanos y las libertades fundamentales , incluido el derecho al <argset><head>desarrollo </head></argset>. </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="5.2.5.1.0.3.1.1.2.1.0.0" sentencenodepath="5">Los ministros subrayaron que , si se tiene_en_cuenta las disparidades en tamaño y fase de desarrollo económico entre los países del continente , " son los países pequeños y en_vías_de desarrollo los que tienen que hacer mejoras en la infraestructura de transporte al <argset><head>desarrollo </head></argset>" . </example>
+        <example file="CESS-CAST-A/10664_20000117.tbf.xml" nodepath="4.2.6.4.1.1.1.2.2.1.0" sentencenodepath="4">El coordinador regional de IU en Murcia , Joaquín_Dólera , destacó que las listas " representan gráficamente las señas de identidad de IU , ya_que están representados el mundo del trabajo , el medio_ambiente y <argset><specifier>el</specifier><head>desarrollo </head><reference_modifiers>sostenible</reference_modifiers></argset>y la igualdad de derechos entre hombres y mujeres " . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">Entre el resto de modalidades , <argset><specifier>el</specifier><head>desarrollo </head></argset>será moderado , y los que perderán aficionados son el patinaje , artes marciales y el squash . </example>
+        <example file="CESS-CAST-A/14498_20000121.tbf.xml" nodepath="0.3.1.2.1.1.1.1.1.1.1.1.1.0.0" sentencenodepath="0">La Organización_de_las_Naciones_Unidas_para_la_Agricultura_y_la_Alimentación ( FAO ) insta a los institutos de investigación a profundizar en el estudio del almidón como una forma de ayudar a los países en <argset><head>desarrollo </head></argset>, según un comunicado de su sede central en Roma . </example>
+        <example file="CESS-CAST-A/15786_20001220.tbf.xml" nodepath="5.4.1.0.3.1.1.0" sentencenodepath="5">A_juicio_del ex ponente de la Constitución , " la gran asignatura pendiente , el gran reto , es el ahormar todo el sistema de las autonomías " en <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la Carta_Magna</argument></argset>. </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="4.2.3.1.1.1.0.0" sentencenodepath="4">Ø Afirmó que en determinadas zonas de la Comunidad_Valenciana existe un nivel de <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">urbanístico</argument></argset>" que claramente marca un uso y abuso del agua " , por lo que " es muy difícil hacer una petición de solidaridad a otras regiones cuando desde el Gobierno no se están haciendo acciones concretas " para mejorar el uso del agua . </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="5.0.3.1.5.1.1.0" sentencenodepath="5">" Es evidente que , aunque Zaplana pone por excusa que <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">urbanístico</argument></argset>viene marcado por nuestras leyes , las reformas que ellos han hecho últimamente de las leyes han favorecido el nivel de especulación y la proliferación de masas urbanísticas incontroladas que hacen que el agua sea más escasa y limitada " , señaló Ø . </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="1.2.5.1.3.0.0" sentencenodepath="1">El funcionario europeo , que se encuentra de visita en Brasil con_el_objetivo_de fomentar las relaciones políticas y económicas entre la UE y el gigante suramericano , aseguró que los beneficios producidos por el comercio deben ser distribuidos con justicia en el mundo para que Ø generen <argset><head>desarrollo </head></argset>. </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="2.0.1.2.1.0.0" sentencenodepath="2">" El comercio puede contribuir al <argset><head>desarrollo </head></argset>, pero Ø no lo produce , y mucho menos Ø produce el desarrollo sostenible " , apuntó Lamy en una conferencia en la Universidad_de_Sao_Paulo . </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="2.0.3.2.3.1.0" sentencenodepath="2">" El comercio puede contribuir al desarrollo , pero Ø no lo produce , y mucho menos Ø produce <argset><specifier>el</specifier><head>desarrollo </head><reference_modifiers>sostenible</reference_modifiers></argset>" , apuntó Lamy en una conferencia en la Universidad_de_Sao_Paulo . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="6.2.4.0.1.1.1.0" sentencenodepath="6">Loyola_de_Palacio señaló que el fomento de las energías verdes " es clave en <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">europeo</argument></argset>en una apuesta por que este desarrollo sea duradero , respetuoso con el medio_ambiente , generador de empleo de calidad y que Ø permita una solidaridad con las generaciones futuras " . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="6.2.4.0.2.1.1.1.1.0.1.1.0" sentencenodepath="6">Loyola_de_Palacio señaló que el fomento de las energías verdes " es clave en el desarrollo europeo en una apuesta por que <argset><specifier>este</specifier><head>desarrollo </head></argset>sea duradero , respetuoso con el medio_ambiente , generador de empleo de calidad y que Ø permita una solidaridad con las generaciones futuras " . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="13.3.5.1.1.1.0.1.0.1.1.1.1.0.0" sentencenodepath="13">Brasil también dijo que en su forma actual " los informes ( de las comisiones de arbitraje ) suponen un desequilibrio entre lo que un país en_vías_de <argset><head>desarrollo </head></argset>puede hacer y lo que un país desarrollado puede hacer " . </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="7.3.4.0.1.2.1.0.2.0.0.1.0" sentencenodepath="7">Gerrie_Bezuidenhoud , experto laborista de la Cámara_Sudafricana_de_Comercio ( SACOB según sus siglas en inglés ) , apunta por su parte que " la idea que subyace detrás_de todas las recientes leyes laborales es correcta , como las que determinan <argset><specifier>el</specifier><head>desarrollo </head></argset>y la capacitación de cada empleado , así_como la igualdad en los lugares de trabajo " . </example>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="9.2.4.0.1.1.1.0" sentencenodepath="9">La declaración presidencial destaca que " la ayuda internacional es necesaria para <argset><specifier>un</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">económico y social</argument><reference_modifiers>que facilite el éxito de la reintegración</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/23573_20001029.tbf.xml" nodepath="8.0.0.1.0.1.1.0.0" sentencenodepath="8">Como ejemplo de <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">cultural</argument></argset>Ø puso a Cuba , que , dijo Ø , pasó de la ignorancia absoluta a ser un país desarrollado en_materia_de educación , por_encima_de muchas naciones desarrolladas , y Ø pronosticó que en cinco o diez años Ø será el país más culto del mundo . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="5.0.3.1.0" sentencenodepath="5">" El hombre debe buscar <argset><specifier>un</specifier><head>desarrollo </head><reference_modifiers>sostenible</reference_modifiers></argset>para que con la tecnología y con el uso de los recursos Ø no estemos poniendo continuamente al mundo en peligro , porque se trata de trabajar , sobre_todo , para la prevención " , indicó el parlamentario . </example>
+        <example file="CESS-CAST-AA/4958_20000606.tbf.xml" nodepath="6.3.1.1.1.3.2.0.0.2.0" sentencenodepath="6">En una primera instancia Ø fue contratado para supervisar los asuntos relacionados con el baloncesto dentro de la NBA , incluyendo <argset>perspectiva y <head>desarrollo </head>, </argset>así_como los eventos internacionales . </example>
+        <example file="CESS-CAST-P/113_20000201.tbf.xml" nodepath="5.2.1.3.1.1.2.1.1.1.0" sentencenodepath="5">El objetivo es evitar que la especulación vaya contra el propósito de los sindicatos de favorecer <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de países pobres</argument></argset>. </example>
+        <example file="CESS-CAST-P/6_19990301.tbf.xml" nodepath="7.3.1.1.2.3.0.1.1.1.1.1.0.0.0" sentencenodepath="7">Ø Nos encontramos ante una enfermedad moderna de la que se desconocen muchos de los mecanismos de <argset><head>desarrollo </head>, tratamiento y curación </argset>. </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="9.2.1.0" sentencenodepath="9">Este sistema , muy extendido en EEUU , ha permitido <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de empresas de Internet y biotecnología</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="10.4.1.3.1.2.1" sentencenodepath="10">Además , Ø apeló a la responsabilidad de los empresarios del sector servicios y turísticos para que Ø reflexionen sobre <argset>" <specifier>el</specifier>
+            <reference_modifiers>espectacular</reference_modifiers>
+            <head>desarrollo </head>" <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sus beneficios y sus precios</argument>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="desarrollar" originlink="verb.desarrollar.1" wordnetsynset="16:09725434">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="5.2.1.4.1.2.1.0.0" sentencenodepath="5">Los ministros subrayaron que , si se tiene_en_cuenta las disparidades en tamaño y fase de <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">económico</argument></argset>entre los países del continente , " son los países pequeños y en_vías_de desarrollo los que tienen que hacer mejoras en la infraestructura de transporte al desarrollo " . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="5.2.4.1.1.2.1.0.0" sentencenodepath="5">Los ministros subrayaron que , si se tiene_en_cuenta las disparidades en tamaño y fase de desarrollo económico entre los países del continente , " son los países pequeños y en_vías_de <argset><head>desarrollo </head></argset>los que tienen que hacer mejoras en la infraestructura de transporte al desarrollo " . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="2.3.1.1.1.1.0.0" sentencenodepath="2">Esta fórmula sería aceptable para los países en <argset><head>desarrollo </head></argset>, ya_que Ø no establece compromisos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="desarrollar" originlink="verb.desarrollar.1" wordnetsynset="16:00160202+16:09725434">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="12" preposition="de" type="sp"/>
+        <constituent frequency="7" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="14" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-0.tbf.xml" nodepath="4.3.1.2.1.1.1.0" sentencenodepath="4">Tampoco los equipos profesionales , a_excepción_de Banesto , tiene un equipo cantera donde observar <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los jóvenes</argument></argset>y proyectarles hacia la élite . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="12.3.1.1.1.6.1.1.0" sentencenodepath="12">Bajo el lema " Un programa para el desarrollo " , el texto de la Declaración resaltó la necesidad de impulsar el diálogo Norte-Sur , acabar con el proteccionismo y dar prioridad a las negociaciones del Acuerdo_General_sobre_Aranceles_Aduaneros_y_Comercio ( GATT ) , así_como conjugar <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">social</argument></argset>con el progreso económico . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="41.3.1.1.1.1.0.1.0.1.1.0.1.0" sentencenodepath="41">Ø Reafirmó el papel del Estado en la adopción de políticas para fomentar <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">humano</argument></argset>y la igualdad , y para dar prioridad a la educación , la salud y conservación del medio_ambiente . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="10.4.1.1.2.2.1.0" sentencenodepath="10">Durante su intervención , Iglesias destacó la importancia de la seguridad de la navegación aérea a_efectos_de incrementar el turismo y el comercio , la inversión extranjera y <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">económico</argument></argset>a largo plazo . </example>
+        <example file="CESS-CAST-A/10656_20001214.tbf.xml" nodepath="4.3.1.2.1.1.0" sentencenodepath="4">Abdel_Aziz consideró la reunión del comité de coordinación un primer paso en <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la cooperación entre los dos países</argument></argset>, aunque Ø advirtió de que no deben esperarse resultados inmediatos . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="11.0.1.1.0" sentencenodepath="11">" <argset><specifier>El</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la región</argument></argset>sería impensable sin el interés , el apoyo , que el capital español le brindó " a los países latinoamericanos , concluyó Ø . </example>
+        <example file="CESS-CAST-A/15801_20000123.tbf.xml" nodepath="10.0.2.1.2.1.0" sentencenodepath="10">El jugador de Johannesburgo consiguió quince saques directos y 64 golpes ganadores que marcaron <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del partido</argument></argset>, y Clavet demasiado incómodo con el viento , no pudo desarrollar el tenis con el que Ø se impuso al croata Goran_Ivanisevic . </example>
+        <example file="CESS-CAST-A/16572_20000320.tbf.xml" nodepath="3.2.3.1.0.1.2.1.0.0" sentencenodepath="3">El comisario de la UE destacó que el acceso a los mercados que reclaman los países del tercer mundo debe complementarse con medidas que contribuyan al <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">humano</argument></argset>. </example>
+        <example file="CESS-CAST-A/18485_20000724.tbf.xml" nodepath="2.2.4.1.2.1.2.1.1.1.1.1.2.3.2.1.0.4.1.1.0" sentencenodepath="2">La consejera dijo que en el encuentro se puso_de_manifiesto la voluntad de ambas administraciones de establecer una " relación fluida " para el tratamiento de todos los asuntos planteados , que son " absolutamente prioritarios " y de " vital importancia " para <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Andalucía</argument></argset>, aunque no hubo compromisos concretos respecto_a plazos . </example>
+        <example file="CESS-CAST-A/1925_20001103.tbf.xml" nodepath="5.4.1.1.1.2.1.1.0" sentencenodepath="5">El comienzo de la segunda parte será comunicado oficialmente hoy por la Comisión_de_Control que verifica que <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la subasta</argument></argset>ha sido correcto hasta ahora . </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="3.1.0.2.1.0.2.1.1.2.1.0" sentencenodepath="3">En una conferencia de prensa , Ø abogó por pactos comarcales para impulsar el empleo y <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">económico</argument></argset>liderados por los Ayuntamientos y con un compromiso del conjunto de la sociedad y financiación de fondos europeos y Ø puso el ejemplo del Pacto_Territorial_por_el_Empleo_de_la_Bahía_de_Cádiz . </example>
+        <example file="CESS-CAST-AA/24092_20000928.tbf.xml" nodepath="1.0.2.3.4.1.1.1.0" sentencenodepath="1">Soria consideró que la ampliación de las pistas es " no_sólo importante , sino vital e incluso esencial para <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Gran_Canaria</argument></argset>" , y Ø consideró que la inclusión de 26.000 millones de pesetas en el plan para efectuar obras de reforma en el aeropuerto es " totalmente insuficiente " . </example>
+        <example file="CESS-CAST-AA/24092_20000928.tbf.xml" nodepath="2.0.3.0.1.2.1.1.1.0.0" sentencenodepath="2">" No puede haber nada ni nadie que pueda cercenar las posibilidades de <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">" del aeródromo de la isla</argument></argset>, subrayó Soria . </example>
+        <example file="CESS-CAST-AA/5694_20000908.tbf.xml" nodepath="6.2.2.3.2.1.2.1.1.0.0" sentencenodepath="6">El presidente boliviano abogó por la libertad de comercio y Ø afirmó que " la ciencia y la tecnología no pueden convertirse en un bien excluyente " y Ø debe constituirse en " un patrimonio del <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">humano</argument></argset>en todos los confines de la Tierra " . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="7.3.4.1.0.1.1.1.2.1.1" sentencenodepath="7">Ø También afirmó que Ø impulsará acciones para conseguir las condiciones que garanticen <argset><specifier>el</specifier><reference_modifiers>pleno</reference_modifiers><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los indígenas</argument></argset>, atender la demanda de tierras y dar participación a las mujeres en las decisiones políticas . </example>
+        <example file="CESS-CAST-P/105_20000401.tbf.xml" nodepath="1.3.1.1.4.1.1.2.2.1.1.1.1.1.1.1.2.0.0" sentencenodepath="1">En Catalunya Ø estamos habituados a que la clase política nos recuerde el acierto que fue ceder al sector privado la construcción de esas autopistas que con tanta prosperidad y <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">económico</argument><argument argument="argM" function="cn" thematicrole="loc" type="s.a">- - europeo y diferencial , dicen - -</argument></argset>nos han obsequiado muchos años a_cambio_de unas insignificantes pesetas cada_vez_que Ø movemos el coche que esa misma prosperidad nos permite malpagar . </example>
+        <example file="CESS-CAST-P/44_20000902.tbf.xml" nodepath="6.1.4.0.1.1.1.0" sentencenodepath="6">Pero , si el agua del Ebro es imprescindible para <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las comunidades que riega</argument></argset>, ¿ cómo conciliar los legítimos y comprensibles derechos del Gobierno aragonés con los de las otras autonomías sedientas ? . </example>
+        <example file="CESS-CAST-P/54_20010802_a.tbf.xml" nodepath="3.2.1.2.2.1.1.0.3.4.1.0.1.3.3.0.2.1.1.0" sentencenodepath="3">El fuego de Cazorla devoró 836 hectáreas de pino , muy cercanas al núcleo turístico de Arroyo_Frío , en el que un 15% de los visitantes proceden de Catalunya , " un mercado creciente y clave " en <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del ocio de este lugar que tiene 2.000 plazas hoteleras de las 9.000 distribuidas por la reserva , según explicó el presidente de la Federación_de_Hoteleros_de_Jaén , Luis_Carlos_García</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_g.tbf.xml" nodepath="2.3.1.0.5.1.1.1.2.1.0.0" sentencenodepath="2">La patronal y el sindicato se quejan de que el consistorio no les tiene_en_cuenta en los temas que afectan al <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la ciudad</argument></argset>y que Ø son informados de los mismos con muy poco tiempo para su análisis y estudio . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="desarrollar" originlink="verb.desarrollar.2" wordnetsynset="16:09725434">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="15" type="void"/>
+        <constituent frequency="11" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="2" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="6.4.2.1.1.3.1.1.1.1.2.0.0" sentencenodepath="6">En este sentido Ø se refirió a la reciente creación del Ministerio_de_Ciencia_y_Tecnología y a las primeras declaraciones de su titular , Anna_Birulés , sobre el impulso de la investigación , <argset><head>desarrollo </head></argset>e innovación . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="10.4.7.1.0.1.1.1.1.1.0.0" sentencenodepath="10">A su juicio , el sistema sanitario público es " razonablemente bueno , pero con algunos riesgos " , ya_que el Sistema_Nacional_de_Salud " no se ha convertido en una de las prioridades de <argset><head>desarrollo </head></argset>del Estado_del_Bienestar " . </example>
+        <example file="3LB-CAST/dc10-10.tbf.xml" nodepath="4.2.1.3.1.3.1.0.1.0" sentencenodepath="4">Aunque rigurosamente sería un ingeniero de Mecklenburgo llamado Sigfried_Marcus el que presentaría en Viena el primer automóvil conocido movido por un motor de gas , es a Gottlieb_Daimler ( 1834 - 1900 ) y a su fiel colaborador Maybach a quien se deben los primeros esfuerzos continuados para <argset><specifier>el</specifier><head>desarrollo </head></argset>y producción de vehículos a motor . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="5.2.2.5.0.0" sentencenodepath="5">Ø Reconoce que la deuda exterior es el principal obstáculo para el crecimiento y la estabilidad de la región , y Ø agrega que " mediante un compromiso serio de políticas económicas y financieras se pueden alcanzar <argset><head>desarrollos </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">sociales</argument></argset>" . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="12.0.1.1.1.2.1.1.1.0" sentencenodepath="12">Bajo el lema " Un programa para <argset><specifier>el</specifier><head>desarrollo </head></argset>" , el texto de la Declaración resaltó la necesidad de impulsar el diálogo Norte-Sur , acabar con el proteccionismo y dar prioridad a las negociaciones del Acuerdo_General_sobre_Aranceles_Aduaneros_y_Comercio ( GATT ) , así_como conjugar el desarrollo social con el progreso económico . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="15.0.0.1.0" sentencenodepath="15"><argset><specifier>El</specifier><head>desarrollo </head></argset>, la integración y la cooperación fueron los asuntos protagonistas de esta reunión . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="16.2.2.1.1.1.1.0" sentencenodepath="16">Ø Resaltó la firma de un acuerdo entre el Grupo_de_los_Tres ( G-3 ) , integrado por Venezuela , Colombia y México , y la Asociación_Latinoamericana_de_Integración ( ALADI ) , formada por 11 países latinoamericanos , así_como la propuesta para <argset><specifier>un</specifier><head>desarrollo </head><reference_modifiers>sostenible</reference_modifiers></argset>, presentada por Centroamérica . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="20.0.1.1.1.2.1.1.0.1.1.1.0" sentencenodepath="20">Con el lema " La educación como base para <argset><specifier>el</specifier><head>desarrollo </head></argset>" , se aprobaron trece programas de cooperación educativa , materia esencial para consolidar la democracia y lograr el desarrollo social . </example>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="3.2.2.1.2.1.1.1.1.1.0.2.0" sentencenodepath="3">El dirigente de CCOO admitió que hace_falta un socio tecnológico que aumente las inversiones en <argset>investigación y <head>desarrollo </head>
+          </argset>y ayude a la compañía a acceder a nuevos mercados . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="0.0.2.1.2.1.0.0.1.0" sentencenodepath="0">Las inversiones de empresas españolas tuvieron un papel clave en <argset><specifier>el</specifier><head>desarrollo </head></argset>y liberalización económica de América_Latina en la década pasada y , a_comienzos_del nuevo año , Ø se perfilan como un actor principal en el futuro de la región , según analistas y economistas de Wall_Street . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="4.3.1.1.1.1.1.0.0" sentencenodepath="4">Estos fondos se emplean para respaldar diversos proyectos de <argset><head>desarrollo </head></argset>en las antiguas repúblicas soviéticas , incluida la Federación_Rusa . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="6.0.2.3.4.1.1.0.0" sentencenodepath="6">Verino recordó que Ø ha demostrado que " en el rural se puede construir y contribuir al <argset><head>desarrollo </head></argset>, con una actividad tan compleja como la moda " , pero Ø agregó que Ø considera muy difícil " ejercer liderazgos aquí " . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="0.0.2.1.0" sentencenodepath="0">El pleno empleo para Europa dentro_de diez años y <argset><specifier>el</specifier><head>desarrollo </head><reference_modifiers>masivo</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Internet</argument></argset>exigen cambios y esfuerzos que el presidente del Gobierno , José_María_Aznar , y sus 14 homólogos europeos acordaron en la Cumbre_Europea_de_Lisboa , marcada por un incidente en el que un joven activista vasco trató de alcanzar a Aznar lanzándole un huevo relleno de tinta roja . </example>
+        <example file="CESS-CAST-AA/20809_20000428.tbf.xml" nodepath="3.0.2.4.5.0.1.1.1.0.2.1.0.0" sentencenodepath="3">Eraso anunció que Caja_Cantabria pretende incrementar la partida destinada a reservas , de_modo_que se refuerce su " músculo financiero " antes de afrontar nuevos planes de <argset><head>desarrollo </head></argset>a_partir_de 2002 , y además Ø ha dado por cerrada la etapa en la que una de sus estrategias principales pasaba por la inversión en Bolsa . </example>
+        <example file="CESS-CAST-AA/21126_20000129.tbf.xml" nodepath="1.2.3.0.1.1.3.6.1.1.1.0.0" sentencenodepath="1">Llamazares apuntó que en " estos momentos hay condiciones para que el acuerdo incluya una política social de izquierdas , una reorientación de la política económica , una política ambiental de la que ha carecido España en los últimos años y un compromiso de <argset><head>desarrollo </head><reference_modifiers>federal</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Estado español</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/22738_20000628.tbf.xml" nodepath="1.0.0.1.5.1.2.1.0" sentencenodepath="1">Mundell , que pronunció un discurso en la Conferencia_del_Banco_Mundial sobre la globalización y <argset><specifier>el</specifier><head>desarrollo </head></argset>, advirtió que " llegará un momento en que el BCE querrá evitar ( que el euro ) suba demasiado " , y para tratar de impedirlo y luchar contra la depreciación de la moneda única , Ø tendría que actuar ahora . </example>
+        <example file="CESS-CAST-AA/23019_20000328.tbf.xml" nodepath="1.4.1.1.1.1.1.0.0" sentencenodepath="1">El presidente y el secretario general de la RFEF , Angel_María_Villar y Gerardo_González , respectivamente , visitaron hoy el centro de producción que Media_Park tiene en Sant_Just_Desvern ( Barcelona ) para conocer el estado de <argset><head>desarrollo </head></argset>de la web . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="10.2.1.4.1.0" sentencenodepath="10">Las áreas definidas por el diplomático venezolano tienen que ver con el saneamiento ambiental y ecológico , sobre_todo las cabeceras de las cuencas hidrográficas ; la reconstrucción estructural , y <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">socioeconómico</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Vargas</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5694_20000908.tbf.xml" nodepath="2.0.1.1.6.0.2.1.1.1.1.0.0" sentencenodepath="2">Tras señalar que el fin de la " guerra_fría " entre Occidente y el bloque comunista del este no " trajo en el plano económico beneficios sustanciales para los países en <argset><head>desarrollo </head></argset>" , Ø estimó que el conflicto " ha sido sustituido por una_especie_de antagonismo entre el Norte y el Sur " , es_decir entre las potencias económicas y los países en crecimiento o pobres . </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="14.0.1.2.1.0.0.2.0" sentencenodepath="14">El presupuesto conjunto de <argset>investigación y <head>desarrollo </head>
+            <reference_modifiers>( I_+_D )</reference_modifiers>
+          </argset>de las dos divisiones fusionadas asciende a 429.000 millones de pesetas . </example>
+        <example file="CESS-CAST-P/102_19991001.tbf.xml" nodepath="0.2.2.1.0.1.1.0.0" sentencenodepath="0">El Gobierno italiano ha decidido aplicar el próximo año una rebaja de impuestos por importe de 878.518 millones de pesetas y un recorte de los gastos públicos de 1,4 billones de pesetas , y establecer ayudas al <argset><head>desarrollo </head></argset>por valor de 6,1 billones adicionales . </example>
+        <example file="CESS-CAST-P/12_20000903.tbf.xml" nodepath="5.2.1.2.1.3.1.1.2.4.1.1.0" sentencenodepath="5">Ø Es un arma de presión política para no quedar marginada cara_a las inversiones públicas a las que Ø justamente aspira para <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>desarrollo </head></argset>. </example>
+        <example file="CESS-CAST-P/37_19990901.tbf.xml" nodepath="2.3.1.2.1.0.0.1.1.1.1.0" sentencenodepath="2">El líder de EA fue muy crítico con el Gobierno central por " hacer lo imposible para evitar <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del proceso de paz</argument></argset>" . </example>
+        <example file="CESS-CAST-P/63_19990201.tbf.xml" nodepath="0.2.1.2.1.1.1.1.0.0" sentencenodepath="0">El presidente de Egipto , Hosni_Mubarak , propugna una mayor participación de los países en_vías_de <argset><head>desarrollo </head></argset>en la economía . </example>
+        <example file="CESS-CAST-P/68_19990302.tbf.xml" nodepath="3.0.1.1.1.1.1.1.0.0.2.0" sentencenodepath="3">El diagnóstico sobre el sistema de <argset>investigación y <head>desarrollo </head>
+            <reference_modifiers>( I+D )</reference_modifiers>
+          </argset>en España y Catalunya no fue nada optimista . </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="5.3.5.1.0.2.1.0" sentencenodepath="5">El objetivo que Ø se fijan es , según anunció la ministra de Ciencia_y_Tecnología , Anna_Birulés , " que los países de la UE destinen el 3% del producto_interior_bruto a la investigación y <argset><specifier>el</specifier><head>desarrollo </head></argset>( I+D ) " . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="10.0.1.0.1.1.1.1.1.0" sentencenodepath="10">" Durante las investigaciones para <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nuevos principios activos para cosmética</argument></argset>, dos de los colaboradores consiguieron resultados espectaculares , y Ø decidimos poner_en_marcha la empresa " , explica Ø . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="5.3.1.1.1.1.2.1.0.0" sentencenodepath="5">El organismo también servirá para optimizar las campañas de promoción y de <argset><head>desarrollo </head></argset>ante los potenciales usuarios . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="5" lexicalized="no" originlemma="desarrollar" originlink="verb.desarrollar.2" wordnetsynset="16:09725434">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="9" preposition="de" type="sp"/>
+        <constituent frequency="2" type="relatiu"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="7" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="2.3.1.0.0" sentencenodepath="2">La investigación nuclear ha dado_lugar en los últimos tiempos al <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un verdadero arsenal de aparatos de radiodiagnóstico y tratamiento terapéutico , como la tomografía axial computerizada , la bomba de cobalto , las gammagrafías o la más reciente resonancia magnética nuclear , que han transformado por_completo la forma de afrontar la identificación y el tratamiento de numerosas enfermedades</argument></argset>. </example>
+        <example file="3LB-CAST/dc1-12.tbf.xml" nodepath="5.0.0.1.0" sentencenodepath="5"><argset><specifier>El</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la energía nuclear</argument></argset>comenzó siendo militar y , lógicamente , por ese camino Ø continuó . </example>
+        <example file="3LB-CAST/dc10-9.tbf.xml" nodepath="4.2.0.1.1.4.1.0.0" sentencenodepath="4">Durante algún tiempo la idea de una diligencia a vapor persistió entre los inventores , y el propio Richard_Trevithick , que tanto contribuiría al <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del tren</argument></argset>, presentó en 1801 el primer coche de vapor que circuló realmente por las calles de Londres . </example>
+        <example file="3LB-CAST/dc10-9.tbf.xml" nodepath="6.0.0.2.1.0" sentencenodepath="6">Los carriles y <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la ingeniería civil</argument></argset>alumbraron el vehículo de vapor libre y , aunque hasta 1878 hubo Ómnibus de tal clase , la idea fue abandonada y hubo de buscarse otra fuerza motriz más ligera y flexible para el caso . </example>
+        <example file="3LB-CAST/dc2-3.tbf.xml" nodepath="6.1.2.0.1.1.1.2.1.1.1.0" sentencenodepath="6">En 1943 , como alternativa a la bomba atómica - en <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyo</argument><head>desarrollo </head></argset>ya se había comenzado a investigar - , los Estados_Unidos se dispusieron a fabricar bombas de carbunco y más adelante de toxinas botulímicas . </example>
+        <example file="3LB-CAST/dc2-5.tbf.xml" nodepath="9.3.1.1.1.1.3.1.1.1.1.0.0.0.0" sentencenodepath="9">En 1972 , el clima de distensión creado por las conversaciones de desarme SALT entre Estados_Unidos y la Unión_Soviética favoreció la firma de un nuevo acuerdo internacional para la prohibición del <argset><head>desarrollo </head>, producción y almacenamiento de armas biológicas </argset>. </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="1.1.3.1.2.1.1.1.1.1.0" sentencenodepath="1">Según ellos , el historicismo aporta creatividad e innovación a las sociedades modernas : el determinismo histórico frena la evolución espontánea y creadora de las sociedades , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyo</argument><head>desarrollo </head></argset>no es impuesto por el pasado sino_que se va conformando según las necesidades culturales - en su más amplio sentido - de cada sociedad en cada momento . </example>
+        <example file="CESS-CAST-A/10568_20001013.tbf.xml" nodepath="1.2.4.1.1.1.0.1.4.1.1.1.1.5.1.1.1.2.1.0" sentencenodepath="1">Jácome dijo que Ø ya recibió el borrador del acuerdo que le brinda a Panamá la oportunidad de una compra directa de petróleo a Venezuela ( de país a país ) con una financiación que permitirá <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de obras sociales</argument></argset>. </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="0.4.1.2.1.1.0" sentencenodepath="0">Los ministros de Transporte_de_América subrayaron hoy en Washington la importancia " vital " que <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las infraestructuras de transportes</argument></argset>tienen para el crecimiento económico de los países pequeños del continente . </example>
+        <example file="CESS-CAST-A/13108_20000120.tbf.xml" nodepath="2.0.0.4.2.1.0" sentencenodepath="2">Se reforzarán los recursos educativos , se fortalecerá la gestión escolar y se apoyará <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un plan piloto de formación profesional</argument></argset>, bajo un nuevo esquema de gestión institucional . </example>
+        <example file="CESS-CAST-A/14149_20001118.tbf.xml" nodepath="4.3.4.1.1.0" sentencenodepath="4">Clinton anunció también que EEUU trabajará con Vietnam en <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una base de datos computerizada con información de entonces , con la que se tratará de localizar las minas y explosivos de origen norteamericano</argument></argset>. </example>
+        <example file="CESS-CAST-A/1687_20000503.tbf.xml" nodepath="0.2.1.1.1.1.0" sentencenodepath="0">El fabricante de refrescos Coca-Cola y la empresa de internet American_Online han acordado una alianza para <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de programas de comercialización de sus productos y marcas</argument></argset>durante varios años . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="6" lexicalized="no" originlemma="desarrollar" originlink="verb.desarrollar.2" wordnetsynset="16:09724860+16:09725434">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="3.2.4.0.5.1.1.0" sentencenodepath="3">El diseñador gallego manifestó que Ø no está encontrando " agilidad de respuesta " por_parte_de la Administración gallega para <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su proyecto que , Según explicó , pasa por " dar respuestas rápidas al mercado y competir mejor "</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="12.0.4.1.2.1.0" sentencenodepath="12">El borrador del Libro_Verde se ocupa en_general de la situación actual y <argset><specifier>el</specifier><head>desarrollo </head><reference_modifiers>futuro</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del aprovisionamiento energético de la UE</argument></argset>, y Ø constata que la dependencia de las importaciones aumentará desde el 50_por_ciento actual al 70_por_ciento en un plazo de dos a tres décadas . </example>
+        <example file="CESS-CAST-P/113_20000201.tbf.xml" nodepath="12.2.1.3.1.2.0.0" sentencenodepath="12">El presidente de Microsoft , Bill_Gates , atribuyó el retraso de Europa respecto_a Estados_Unidos en la implantación y <argset><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Internet</argument></argset>al monopolio en las llamadas telefónicas locales que todavía existe en muchos países , entre ellos España . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="6.2.1.1.0" sentencenodepath="6">El resultado influirá en <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la junta</argument></argset>pese_a_que oficialmente la continuidad de Van_Gaal está , de_momento , a_prueba_de derrotas . </example>
+        <example file="CESS-CAST-P/69_20010201_f.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">La alianza prevé <argset><specifier>el</specifier><head>desarrollo </head><reference_modifiers>conjunto</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de servicios y aplicaciones de redes de telefonía_móvil</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="7" lexicalized="no" originlemma="desarrollar" originlink="verb.desarrollar.3" wordnetsynset="16:09724860+16:10348212">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3224_20000304.tbf.xml" nodepath="3.0.3.1.1.0" sentencenodepath="3">Este grupo , al que se le ha incautado armas blancas y símbolos nazis , tenía como objetivo entorpecer <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la campaña electoral</argument></argset>y Ø pensaba seguir cometiendo atentados similares a los ocurridos hasta el día de las elecciones . </example>
+        <example file="CESS-CAST-P/103_20000502.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">Su pasado juega un papel vital en <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los acontecimientos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="8" lexicalized="no" originlemma="desarrollar" originlink="verb.desarrollar.3" wordnetsynset="16:10348212">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="0.2.1.2.1.1.2.5.1.1.1.0" sentencenodepath="0">Los Juegos_Paralímpicos_de_Sydney han levantado un gran interés entre los ciudadanos de la ciudad australiana que día tras día acuden masivamente al Parque_Olímpico para comprobar <argset><specifier>el</specifier><head>desarrollo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las competiciones</argument></argset>en los distintos escenarios . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

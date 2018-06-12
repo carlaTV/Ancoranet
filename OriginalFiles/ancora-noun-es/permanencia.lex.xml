@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="permanencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="permanecer" originlink="verb.permanecer.3" wordnetsynset="16:10859737+16:00682063">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="9" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="durante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-11.tbf.xml" nodepath="11.0.0.0.2.2.1.0.1.0.0.1.0" sentencenodepath="11">A_veces sorprendido en su buena fe ( la saga / fuga lamentable de Ricardo_Peral ) , a_veces defraudado por hombres <argset><argument argument="arg1" thematicrole="tem" type="relatiu">cuya</argument><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el equipo</argument></argset>estaba más que cuestionada y que él ha defendido por un concepto muy clásicamente madridista de fidelidad a los veteranos y los colores , Mariano ha ido aprendiendo las lecciones tanto de los triunfos como de los reveses . </example>
+        <example file="CESS-CAST-A/10055_20000713.tbf.xml" nodepath="6.2.4.1.1.1.1.0" sentencenodepath="6">La otra semifinal enfrentará a España con Estados_Unidos en Santander sobre tierra batida del 21 al 23_de_julio , pero este fin de semana también se disputarán tres eliminatorias para <argset><specifier>la</specifier><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el Grupo_Mundial</argument></argset>. </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="8.4.1.0" sentencenodepath="8">El equipo rojiblanco cada vez tiene más difícil <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Primera_División</argument><reference_modifiers>, un objetivo que parece imposible de alcanzar para el colista Sevilla y que también se complica para el Betis , ahora tercero por la cola</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="20.2.2.1.3.2.1.0" sentencenodepath="20">Henrique_da_Silva 'Catanha' ganó la partida a Jimmy_Hasselbaink en el estadio Vicente_Calderón y su equipo , el Málaga , consiguió un empate ante el Atlético_de_Madrid ( 2-2 ) que complica <argset><specifier>la</specifier><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Primera</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un conjunto madrileño que lleva once jornadas sin vencer</argument></argset>. </example>
+        <example file="CESS-CAST-A/14819_20000121.tbf.xml" nodepath="0.4.1.1.1.0" sentencenodepath="0">El Famadesa_Málaga_Costa_del_Sol de balonmano buscará mañana la victoria ante el Cajacantabria para asegurarse <argset><specifier>la</specifier><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la segunda jornada de esta fase</argument></argset>, tras vencer hace dos semanas en su feudo al Porriño_de_Pontevedra . </example>
+        <example file="CESS-CAST-A/14819_20000121.tbf.xml" nodepath="3.2.1.1.1.1.0" sentencenodepath="3">El Cajacantabria comenzó la fase por <argset><specifier>la</specifier><head>permanencia </head></argset>con cinco puntos , dos más que el Famadesa , al que también le valdría el empate para continuar con sus aspiraciones y mantenerse en la categoría . </example>
+        <example file="CESS-CAST-A/14819_20000121.tbf.xml" nodepath="6.0.2.1.1.1.1.1.1.0" sentencenodepath="6">Carrasco insiste en que la clave de <argset><specifier>la</specifier><head>permanencia </head></argset>está en ganar en casa , y si se da esta circunstancia y las malagueñas vencen al Maritim y al Gijón , " Ø estamos salvados " , apuntó el técnico . </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="11.5.1.1.2.3.1.1.1.1.1.1.2.1.0" sentencenodepath="11">El Valencia empujó un_poco más al Atlético_de_Madrid hacia el abismo de la Segunda_División con una victoria por 2-0 que deja al equipo de Radomir_Antic a cinco puntos de la zona que asegura <argset><specifier>la</specifier><head>permanencia </head></argset>. </example>
+        <example file="CESS-CAST-A/17124_20001122.tbf.xml" nodepath="7.1.2.3.0.0.1.1.0.2.0" sentencenodepath="7">Para Aznar , la Monarquía_Parlamentaria " no_solamente es la expresión de la España moderna , sino_que además Ø es símbolo de <argset>estabilidad y <head>permanencia </head>
+          </argset>y una garantía de futuro para las aspiraciones de los ciudadanos españoles " . </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="6.0.0.1.3.1.0" sentencenodepath="6">Comentario : El Getafe confirmó <argset><specifier>la</specifier><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Segunda_División</argument></argset>al derrotar a_domicilio al Albacete , tras ocho partidos sin conocer la victoria , gracias_a un golazo de Parrado , desde fuera del área , en un choque en el que los locales estuvieron más pendientes de homenajear a los futbolistas que no van a continuar en el club . </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="18.5.1.2.1.1" sentencenodepath="18">Al final del choque , la afición del Getafe se lanzó al terreno de juego para celebrar junto_a los jugadores de Martín_Prado <argset><specifier>una</specifier><reference_modifiers>más_que sufrida</reference_modifiers><head>permanencia </head><reference_modifiers>, que certificó el golazo de Parrado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/4810_20000306.tbf.xml" nodepath="3.7.2.5.2.1.1.1.2.3.1.1.1.1.1.1.0" sentencenodepath="3">El Ivesur-PTV , no_obstante , no lo tendrá fácil en Granada , ya_que el Universidad también se juega mucho , al estar en una delicada situación que le puede llevar a jugar la fase por <argset><specifier>la</specifier><head>permanencia </head></argset>, además_de que el pabellón universitario de Fuentenueva no es una cancha tradicionalmente propicia para los malagueños , que la pasada campaña sufrieron mucho en ella para ganar por un apretado 2-3 . </example>
+        <example file="CESS-CAST-AA/6013_20000408.tbf.xml" nodepath="8.3.1.1.1.1.1.1.1.4.1.1.1.0" sentencenodepath="8">El Espanyol viaja a Mendizorroza con la intención de sumar los tres puntos que , según su entrenador , Paco_Flores , le faltan para asegurarse <argset><specifier>la</specifier><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Primera_División</argument></argset>la temporada que viene . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="23.4.1.1.1.1.0.1.3.2.1.1.1.1.0.0" sentencenodepath="23">De esta forma , el Estado puede responder de forma más contundente contra la acción de grupos que no se constituyen de forma episódica u ocasional , sino_que se organizan con una cierta voluntad de <argset><head>permanencia </head></argset>para ejercer , entre otras actividades , una sobre la que el Estado no puede transigir : el culto a la violencia . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="4.0.3.1.1.2.4.1.0.0" sentencenodepath="4">Ø Me refiero a los denominados premios de jubilación , de fidelización , de <argset><head>permanencia </head></argset>... una sola vez , equivalente a dos , tres o cuatro mensualidades de su salario . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="6.0.0.2.1.0" sentencenodepath="6">Ø Viene a premiar <argset><specifier>la</specifier><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la empresa</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">durante unos determinados años</argument></argset>o , en otros casos , a incentivar el cese por jubilación , pero en ningún caso Ø tiene el carácter de una prestación derivada de un plan de pensiones que complemente las que en su día puede reconocer la Seguridad_Social . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="10.1.1.1.3.1.1.1.1.0.4.0" sentencenodepath="10">Ahora_bien , extender una obligatoriedad legal de tal entidad con_respecto_a los premios de <argset>fidelización , jubilación o <head>permanencia </head>
+          </argset>- - cualquiera que sea su denominación - - con un claro carácter retroactivo , ya_que en el momento de su concesión no se contemplaba su externalización , repercutirá negativamente no_sólo para la concesión de otros premios similares , sino incluso para el incremento de los ya existentes en futuras negociaciones de convenios colectivos . </example>
+        <example file="CESS-CAST-P/30_19990102.tbf.xml" nodepath="1.4.1.1.1" sentencenodepath="1">" Resulta muy difícil llegar hasta Radovan , incluso para aquellos que van con buenas intenciones , y mucho más para los que las tienen malas " , explicó Biljana al rotativo durante <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>breve</reference_modifiers><head>permanencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Belgrado</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para recibir un premio literario en_nombre_de su marido</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

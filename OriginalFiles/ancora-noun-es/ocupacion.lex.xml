@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ocupación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ocupar" originlink="verb.ocupar.1" wordnetsynset="16.00052883n+16:00156789">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="11.2.0.0.1.0" sentencenodepath="11">Por otra parte , Subirá ha confirmado que durante la pasada Semana_Santa Cataluña ha incrementado en un 29% el número de turistas recibidos respecto_del año anterior , mientras_que <argset><specifier>la</specifier><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">hotelera</argument></argset>ha alcanzado el 90% y , en algunas zonas , hasta el 95% . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="3.2.1.1.0" sentencenodepath="3">Los veteranos de guerra intentan justificar <argset><specifier>las</specifier><head>ocupaciones </head><reference_modifiers>impulsadas por el presidente de Zimbabue</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">" <argset><specifier>La</specifier><head>ocupación </head></argset>es un conflicto entre ricos y pobres " , explica Ø . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="31.0.0.1.1.1.1.0" sentencenodepath="31">La retórica de <argset><specifier>la</specifier><head>ocupación </head></argset>continúa : " Ø Queremos tierra y Ø no pagaremos por una tierra que es nuestra " . </example>
+        <example file="CESS-CAST-P/73_20020301.tbf.xml" nodepath="0.3.1.1.1.1.1.0.1.1.0.2.1.0.1" sentencenodepath="0">LA NUEVA NORMATIVA obliga a los ayuntamientos a reservar un mínimo del 20% del suelo urbano y residencial de <argset><reference_modifiers>nueva</reference_modifiers><head>ocupación </head></argset>para viviendas de protección oficial . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="ocupar" originlink="verb.ocupar.1" wordnetsynset="16:00156789+16:00052883+16.00052883n">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24822_20001030.tbf.xml" nodepath="3.3.2.1.2.2.1.0.0" sentencenodepath="3">También recoge el plan ordenar los usos productivos del suelo ante " el crecimiento espontáneo de <argset><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de masa forestal</argument></argset>" en el cultivo de la fresa en la zona de Huelva . </example>
+        <example file="CESS-CAST-AA/4239_20000706.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esos bienes expropiados , entre ellos edificios , lotes urbanos , fincas , locales comerciales , oficinas y casas , entre otros ,</argument></argset>fue realizada por las autoridades militares y policiales en el marco de la operación " Cali_II " , que se hizo en esa ciudad y en la región suroccidental del país . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="4.3.1.1.1.0.1.0" sentencenodepath="4">Goromonzi_Emmanuel_Chitsaya , vicesecretario del comisariado en los cuarteles generales de la Unión_Nacional_Africana ( ZANU-PF ) , el partido en el poder en Zimbabue desde hace 20 años , se afana por demostrar que <argset><specifier>la</specifier><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las tierras</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por los veteranos de guerra</argument></argset>no es una cuestión de blancos contra negros y menos un episodio de la batalla entre la ZANU y el opositor Movimiento_Democrático_para_el_Cambio ( MDC ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="ocupar" originlink="verb.ocupar.1" wordnetsynset="16:00156789">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="0.2.3.1.0" sentencenodepath="0">A la sombra de las musasas , los hombres de Mugabe veneran a su presidente y Ø consideran justa <argset><specifier>la</specifier><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las tierras de los hacendados blancos</argument></argset>. </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="8.0.3.2.1.1.1.2.1.0" sentencenodepath="8">" Los granjeros que nos entienden no han tenido problemas . Las disputas han aparecido con los propietarios que rechazaban <argset><specifier>la</specifier><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una tierra que es nuestra</argument></argset>" , sermonea Ø ante un control policial instalado en la carretera , que parece obsesionado en parar a las furgonetas de transporte público por si Ø ocultan a simpatizantes de la oposición . </example>
+        <example file="CESS-CAST-P/47_20000402.tbf.xml" nodepath="10.2.1.0" sentencenodepath="10">Los veteranos de guerra justificaron <argset><specifier>la</specifier><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de parcelas de granjeros blancos</argument></argset>en el hecho de que la Constitución rechazada - - autocrática , según los críticos - - hubiera dado a Mugabe el derecho de nacionalizar tierras y redistribuirlas entre la población negra , despojada de muchos de sus derechos durante la colonia británica . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="10.2.1.0.1.2.1.0.1.1.1.0" sentencenodepath="10">Entre sus funciones destacan la de autorizar la inscripción en el censo de la entidad portuaria de consignatarios de empresas de estiba y de los comercializadores de pescado , además_de otorgar concesiones y autorizaciones para <argset><specifier>la</specifier><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la superficie pública y de las instalaciones</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="ocupar" originlink="verb.ocupar.2" wordnetsynset="16:00156789">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="5.2.1.2.1.1.0.0" sentencenodepath="5">Los principales destinos turísticos de Catalunya cuentan con un lleno casi absoluto en el mes_de_agosto , y entre un 80% y un 99% de <argset><head>ocupación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">hotelera</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en el mes_de_julio</argument></argset>, según las previsiones de la Generalitat . </example>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="6.2.1.2.1.0.1.1.0.0" sentencenodepath="6">La Costa_Daurada es la zona veraniega con previsiones de <argset><head>ocupación </head></argset>más altas para estos próximos meses . </example>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="8.2.1.1.1.0.0" sentencenodepath="8">Barcelona mantiene unas expectativas de <argset><head>ocupación </head></argset>relativamente bajas ( entre el 75% y el 81% ) , datos que Indústria atribuye a la voluntad del sector de no querer alarmar con la falta de camas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="5" lexicalized="no" originlemma="ocupar" originlink="verb.ocupar.3" wordnetsynset="16:00052883+16:10063469+16:00381958">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" foundincorporated="yes" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="17.4.0.1.1.1.1.1.0.0.2.0" sentencenodepath="17">La DOS fue acusada por radicales y socialistas de " golpismo " por propiciar una marea de <argset>paros y <head>ocupaciones </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de empresas vitales</argument>
+          </argset>y por amenazar con nuevas protestas si la coalición socialista-radical en el poder no accedía a sus exigencias . </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="5.2.1.4.2.3.2.0.1.1.0.0" sentencenodepath="5">Ø Insistió en que para que Andalucía converja con Europa , es necesario que se reduzca la tasa de desempleo , además_de que se solucionen los déficit en infraestructura , tasa de <argset><head>ocupación </head></argset>, renta_per_cápita y PIB . </example>
+        <example file="CESS-CAST-AA/24886_20000330.tbf.xml" nodepath="5.3.6.1.1.1.2.1.1.1" sentencenodepath="5">Ø Indica asimismo que en repetidas ocasiones Sabariz le manifestó al presidente de la FGB su intención de dejar el cargo debido_a <argset><specifier>las</specifier><reference_modifiers>múltiples</reference_modifiers><head argument="arg1" thematicrole="tem">ocupaciones </head></argset>, por lo que se iniciaron conversaciones con diferentes personas para que , una_vez_que concluya la presente temporada , Ø se pudieran hacer_cargo del colectivo arbitral . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="retraso" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="retrasar" originlink="verb.retrasar.1" wordnetsynset="16:00689955">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="12.3.1.0" sentencenodepath="12">Para el viaje hacia el Este se estimó <argset><specifier>un</specifier><head>retraso </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de 40 nanosegundos</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en 41 horas de vuelo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/25185_20000630.tbf.xml" nodepath="2.0.1.2.4.1.1.0.0" sentencenodepath="2">El avión en el que los chicos partieron de Valencia , que ya sufría tres horas y media de <argset><head>retraso </head></argset>cuando Ø despegó de la capital levantina a las 1.30 horas , volvió a ser puesto en circulación en otras líneas después de ser reparado . </example>
+        <example file="CESS-CAST-P/108_20000301_a.tbf.xml" nodepath="2.4.4.0.0" sentencenodepath="2">El cadáver de Saúl_Morales , del conjunto español del Relax_Fuenlabrada , llegará hoy a Madrid , si no hay <argset><head>retrasos </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">aéreos</argument></argset>, junto_a todos sus compañeros , que optaron por abandonar la carrera argentina en_señal_de duelo . </example>
+        <example file="CESS-CAST-P/166_20001202.tbf.xml" nodepath="5.0.2.1.0.0" sentencenodepath="5">Los ensayos empezaron con <argset><head>retraso </head></argset>pero Claret está satisfecho con los resultados . </example>
+        <example file="CESS-CAST-P/27_20020801_c.tbf.xml" nodepath="9.3.1.2.1.1.0" sentencenodepath="9">Tras 12 horas de espera , el grupo tuvo un nuevo sobresalto : <argset><specifier>un</specifier><head>retraso </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de dos horas</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el avión</argument></argset>y el temor a un overbooking . </example>
+        <example file="CESS-CAST-P/27_20020801_c.tbf.xml" nodepath="11.3.1.1.1.1.0.0" sentencenodepath="11">El desastre de Turbocat supuso a Joel y sus dos amigos " 29 horas de <argset><head>retraso </head></argset>, perder un día de trabajo y gastar más de 300 euros " ( 50.000 pesetas , entre hotel y manutención ) que nadie les abonará . </example>
+        <example file="CESS-CAST-P/67_20020402.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>Los</specifier><head>retrasos </head></argset>oscilaron entre una y dos horas . </example>
+        <example file="CESS-CAST-P/70_20011102.tbf.xml" nodepath="9.1.2.3.0.2.0" sentencenodepath="9">Según fuentes aeroportuarias , la actividad aérea en las terminales fue muy similar a la de un día normal y no se registraron <argset>incidentes ni <head>retrasos </head>
+            <reference_modifiers>importantes</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/77_20010502.tbf.xml" nodepath="9.3.2.1.1.1.1.1.3.3.1.1.1.1.0.0" sentencenodepath="9">El bus , matrícula M-9958-TK y ocupado por 36 viajeros , fue " el peor " y " el más viejo " de todos los que salieron en la noche del Lunes de la estación de Madrid , según la versión de los pasajeros , que destacaron que el vehículo partió con 20 minutos de <argset><head>retraso </head></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="7.0.1.1.1.3.0.2.0.1.1.0" sentencenodepath="7">Tras la tragedia , que provocó preocupación internacional por <argset><specifier>el</specifier><head>retraso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las autoridades rusas</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">en intentar el rescate de los tripulantes</argument></argset>y por el secretismo inicial , Moscú proclamó que un submarino británico o norteamericano chocó con el " Kursk " . </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="11.4.3.1.0.1.1.1.1.0.1.4.1.1.0" sentencenodepath="11">La rusa Alla_Epyfanova acabó cuarta en la prueba , a 1:21 y por delante de la canadiense Alison_Sydor , que cruzó la meta con <argset><specifier>un</specifier><head>retraso </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 2:54</argument></argset>, en una prueba en la que la catalana Silvia_Rovira entró la decimocuarta , a 9:43 . </example>
+        <example file="CESS-CAST-P/21_20000601_b.tbf.xml" nodepath="6.3.0.3.3.1.0" sentencenodepath="6">Yo creo que lo que Ø tendríamos que tener ya sería una red más extensa y amplia de metros ( Ø Creo que Ø llevamos <argset><specifier>un</specifier><head>retraso </head><reference_modifiers>comparado con otras ciudades europeas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de unos 20 años</argument></argset>) . </example>
+        <example file="CESS-CAST-P/57_20000601_c.tbf.xml" nodepath="2.2.3.1.0.0" sentencenodepath="2">El CGPJ argumenta que Ruiz-Mateos contribuyó al <argset><head>retraso </head></argset>. </example>
+        <example file="CESS-CAST-P/85_20000401.tbf.xml" nodepath="17.0.4.0.0" sentencenodepath="17">Pero el tráfico entre Baleares y El_Prat acumuló ayer <argset><head>retrasos </head><reference_modifiers>considerables</reference_modifiers></argset>y la pieza tardó . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="retrasar" originlink="verb.retrasar.1" wordnetsynset="16:03940522+16:03940125+16:00689955">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="respecto_a" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12547_20000119.tbf.xml" nodepath="1.2.2.6.1.1.3.1.0" sentencenodepath="1">El coordinador andaluz de IU y candidato a la presidencia de la Junta , Antonio_Romero , aseguró en Málaga que Ø remitirá sendos escritos a Cardenal y al fiscal jefe de la Audiencia_Provincial_de_Sevilla , Alfredo_Flores , para que Ø investiguen si procede el pago de las ayudas , y Ø recordó que Ø ya se dirigió a ellos para pedir que se aclarara <argset><specifier>el</specifier><head>retraso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el dictamen pericial por la rotura de la balsa que propició el desastre ecológico</argument></argset>. </example>
+        <example file="CESS-CAST-P/113_20000201.tbf.xml" nodepath="12.2.1.0" sentencenodepath="12">El presidente de Microsoft , Bill_Gates , atribuyó <argset><specifier>el</specifier><head>retraso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Europa</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">respecto_a Estados_Unidos</argument><argument argument="argM" function="cn" type="sp">en la implantación y desarrollo de Internet</argument></argset>al monopolio en las llamadas telefónicas locales que todavía existe en muchos países , entre ellos España . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/86_20000401.tbf.xml" nodepath="0.3.1.1.1.0.0" sentencenodepath="0">Un problema con el diseño no puede ser el responsable del <argset><head>retraso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la renovación de los paneles informativos con la nueva distribución de las terminales del aeropuerto de El_Prat</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="celebración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="celebrar" originlink="verb.celebrar.1" wordnetsynset="16:00328496+16:05539623">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="8.2.3.1.3.1.1.1" sentencenodepath="8">Alrededor_de 2.500 policías y otros numerosos agentes de seguridad nacionales y extranjeros deberán velar por la seguridad de los líderes y al tiempo facilitar el tránsito de los ciudadanos para que Ø puedan gozar de <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><reference_modifiers>propias</reference_modifiers><head>celebraciones </head><reference_modifiers>, como las numerosas fiestas infantiles organizadas por su Día_Mundial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/4361_20000109.tbf.xml" nodepath="1.4.1.1.0" sentencenodepath="1">Las negociaciones entre ambos países , enemigos desde hace más de 50 años , se interrumpieron durante toda la jornada de hoy debido_a <argset><specifier>las</specifier><head>celebraciones </head><reference_modifiers>religiosas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Ramadán árabe y el Sabbath judío</argument></argset>. </example>
+        <example file="CESS-CAST-P/105_19990401.tbf.xml" nodepath="5.2.1.0" sentencenodepath="5">Sasha vivió <argset><specifier>una</specifier><head>celebración </head><reference_modifiers>particular</reference_modifiers></argset>, mientras sus compañeros se bañaban en cava poco antes de recibir la copa de_manos_de Ernesto_Segura_de_Luna , presidente de la Federación_Española . </example>
+        <example file="CESS-CAST-P/105_19990401.tbf.xml" nodepath="16.4.1.1.0" sentencenodepath="16">Josep_Lluis_Núñez , mientras , asistía con una amplia sonrisa a <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de todos los jugadores</argument></argset>. </example>
+        <example file="CESS-CAST-P/135_19991201_e.tbf.xml" nodepath="1.3.1.3.1.1.3.1.1.0" sentencenodepath="1">La película ha logrado un hito histórico al recaudar 80,8 millones de dólares ( unos 13.000 millones de pesetas ) desde su estreno , el pasado miércoles , durante el fin de semana más taquillero en Estados_Unidos dada <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del día de Acción_de_Gracias</argument></argset>. </example>
+        <example file="CESS-CAST-P/18_20011202.tbf.xml" nodepath="4.3.1.1.1.0" sentencenodepath="4">Pero el comité de la federación ha decidido intervenir en <argset><specifier>la</specifier><head>celebración </head><reference_modifiers>buco-genital</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del gol del Sevilla</argument></argset>. </example>
+        <example file="CESS-CAST-P/21_20001002.tbf.xml" nodepath="0.6.4.1.0" sentencenodepath="0">Pocas horas después de que el canciller alemán asegurara que el presidente Putin reconocía a Vojislav_Kostunica como presidente legítimo de Yugoslavia , el secretario del Consejo_de_Seguridad ruso , Serguei_Ivanov , daba a entender todo lo contrario en Moscú : que Putin apoyaba <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una segunda vuelta</argument></argset>. </example>
+        <example file="CESS-CAST-P/94_19990901.tbf.xml" nodepath="21.4.1.0" sentencenodepath="21">¿ El año que Ø pases una ronda , Ø será <argset><specifier>una</specifier><head>celebración </head></argset>? . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="celebrar" originlink="verb.celebrar.1" wordnetsynset="16:00328496">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="13" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="14" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/16532_20001020.tbf.xml" nodepath="1.2.1.0.1.0.1.1.0.1.1.1.0" sentencenodepath="1">El " Manifiesto de la cultura por la paz " fue presentado de manera simultánea al anuncio de <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una " Jornada_por_la_Paz "</argument><reference_modifiers>que tendrá_lugar el próximo 2_de_diciembre</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17278_20000321.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">Hasta <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ese congreso</argument></argset>, el jefe del Ejecutivo asturiano considera que debe elegirse una dirección política " que no condicione para_nada el proceso congresual " y que se limite a cumplir el papel de conducir el partido en estos meses . </example>
+        <example file="CESS-CAST-A/17715_20001022.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La vicecanciller federal austriaca y sucesora del ultranacionalista Joerg_Haider en la Presidencia_del_Partido_Liberal ( FPOE ) , Susanne_Riess-Passer , defiende <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un referéndum entre los ciudadanos de la Unión_Europea ( UE ) para decidir sobre su ampliación al Este</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="3.3.2.5.1.1.0" sentencenodepath="3">El presidente del Frente_Patriótico ( FP ) , Luis_Villacís , indicó a EFE que las protestas crecerán en intensidad pero que el grueso de las manifestaciones se dejarán sentir el próximo Lunes durante <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Día_Internacional_del_Trabajo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="11.2.1.1.4.1.1.0" sentencenodepath="11">" Unidad_contra_el_hambre_,_por_la_vida_y_la_libertad " , es el nombre que los frentes sociales le han puesto a <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Día_del_Trabajo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19771_20000127.tbf.xml" nodepath="1.0.0.1.3.1.1.0" sentencenodepath="1">Pimentel , que participó en <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del quince aniversario de la revista " Relaciones_Laborales "</argument></argset>, declaró a los periodistas que " una operación política siempre es legítima , pero habrá que estudiar los contenidos " . </example>
+        <example file="CESS-CAST-AA/3784_20000806.tbf.xml" nodepath="7.2.1.0.2.3.1.3.1.1.2.3.1.1.0" sentencenodepath="7">En ocasiones Ø da la sensación de que Wahid controla sólo toda Indonesia , pero aparecen periodos de desconcierto en los que se siente como si el enorme archipiélago retornara hacia el caos de los meses anteriores a la caída del ex presidente Suharto , en mayo_de_1998 , y que amainó tras <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las elecciones legislativas de Junio del año pasado</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="7.3.1.3.1.0.1.0" sentencenodepath="7">Desde entonces , el trabajo de la institución consiste en " revitalizar las más diversas disciplinas de la cultura regional mediante <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de congresos y seminarios</argument></argset>, la publicación de libros y el rescate de joyas perdidas de nuestra bibliografía , la edición de memorias y boletines , y la atención meticulosa a todas aquellas consultas que se nos hacen desde los pueblos y ciudades de Extremadura " . </example>
+        <example file="CESS-CAST-AA/8907_20000114.tbf.xml" nodepath="0.4.1.0" sentencenodepath="0">El ex presidente de Costa_de_Marfil Henri_Konan_Bédié , destituido el pasado 24_de_diciembre por un golpe de Estado militar , reclamó hoy en París <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de elecciones " libres y transparentes "</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en su país</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sadv">antes de Junio próximo</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="20.3.2.1.2.2.1.1.0" sentencenodepath="20">Los condicionantes que Convergència_i_Unió tiene con el Partido_Popular , como Ø ya se ha visto de_sobras , han hecho que se rompieran o bloquearan en las últimas semanas otros posibles acuerdos , como por_ejemplo <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del pleno del Parlament que tenía que nombrar a los miembros del consejo de administración de la CCRTV y encarrilar la discusión del Presupuesto para el 2000</argument></argset>. </example>
+        <example file="CESS-CAST-P/182_20010701.tbf.xml" nodepath="2.3.1.1.2.1.0.3.2.1.1.0" sentencenodepath="2">La decisión dejó satisfechos a los colombianos , especialmente al presidente del país , Andrés_Pastrana , que había asegurado que <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del torneo</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en su país</argument></argset>" no estaba en discusión " . </example>
+        <example file="CESS-CAST-P/25_19990401.tbf.xml" nodepath="8.4.1.0" sentencenodepath="8">Por su parte , el presidente francés , Jacques_Chirac , reclamó ayer <argset><specifier>la</specifier><head>celebración </head><reference_modifiers>urgente</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una " reunión ministerial europea " , bajo presidencia alemana , para " decidir la puesta_en_marcha urgente de una acción coordinada y de gran magnitud " de ayuda a los refugiados</argument></argset>. </example>
+        <example file="CESS-CAST-P/32_19981202.tbf.xml" nodepath="1.1.1.2.2.1.1.0" sentencenodepath="1">No_obstante , las condiciones ganadoras que había estipulado para <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>celebración </head></argset>el primer ministro separatista , Lucien_Bouchard , han comenzado ya a materializarse , pues la primera de ellas era la victoria electoral . </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="8.3.2.1.1.2.1.1.0" sentencenodepath="8">El delegado del Gobierno en Melilla dijo ayer que ya se han importado más de 2.000 corderos de la Península y que el abastecimiento para la comunidad musulmana para <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su fiesta</argument></argset>" está asegurada " . </example>
+        <example file="CESS-CAST-P/85_20010103.tbf.xml" nodepath="1.0.1.1.1.1.1.0" sentencenodepath="1">Los robos y altercados registrados durante <argset><specifier>la</specifier><head>celebración </head></argset>retrasaron el operativo de limpieza de la plaza , cubierta de botellas rotas utilizadas como arma en algunas trifulcas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="celebrar" originlink="verb.celebrar.1" wordnetsynset="16:00328496+16:00332566">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="4.3.1.1.1.1.1.0" sentencenodepath="4">Más_de 1.200 candidatos se presentarán a las elecciones , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuya</argument><head>celebración </head></argset>coincidirá con los 63 años de edad que cumpliría el ex primer ministro Keizo_Obuchi , fallecido el 14_de_mayo víctima de una hemorragia cerebral . </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="7.4.1.1.3.1.1.1.4.1.1.0" sentencenodepath="7">Por_otro_lado , ambos dirigentes se refirieron a la reciente detención en Cuba de varios disidentes que se habían entrevistado con el presidente del Gobierno José_María_Aznar con_motivo_de <argset><specifier>la</specifier><head>celebración </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la isla</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la Cumbre_Iberoamericana</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4412_20001107.tbf.xml" nodepath="6.0.2.1.1.1.1.0" sentencenodepath="6">La presidenta del Patronato_de_Turismo_de_Gran_Canaria , María_Concepción_de_Armas , mostró su satisfacción por <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del ARC`2000</argument></argset>porque Ø tiene " un gran significado e importancia para la promoción de la isla " , y Ø recordó que Ø es " la mayor regata transoceánica del mundo " . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="passive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="17.2.2.2.1.1.1.2.4.1.1.0" sentencenodepath="17">Los jueces estiman que persiste el riesgo de fuga y la posibilidad de entorpecer la labor de la justicia si el financiero obtiene la libertad provisional hasta <argset><specifier>la</specifier><head>celebración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del juicio</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

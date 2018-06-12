@@ -42,15 +42,13 @@ class Sense(object):
 
 
 class Frame(object):
-    def __init__(self, appearsinplural, type):
-        self.appearsinplural = appearsinplural
+    def __init__(self, type):
         self.type = type
         self.arguments = []
         self.specifiers = []
 
     def __str__(self):
-        output = "\tplural = \"%s\"\n" % self.appearsinplural
-        output += "\ttype = \"%s\"\n" % self.type
+        output = "\ttype = \"%s\"\n" % self.type
 
         for argument in self.arguments:
             output += "%s" %argument
@@ -79,19 +77,23 @@ class Argument(object):
         return output
 
 class Constituent(object):
-    def __init__(self, prep, type):
+    def __init__(self, prep):
         self.prep = prep
-        self.type = type
+        # self.type = type
+        # self.postype = postype
     def __str__(self):
-        output = "\t\t\tconstituents = \"%s(%s)\"\n" %(self.type, self.prep)
+        output = "\t\t\tanc_prep = \"%s\"\n" %self.prep
+        # if self.postype is not None:
+        #     output += "\t\t\tpostype = \" %s \"\n" %self.postype
         return output
 
 class Specifiers(object):
     def __init__(self):
         self.constituents= []
     def __str__(self):
+        output = ""
         for constituent in self.constituents:
-            output = "%s" % constituent
+            output += "%s" % constituent
         output += "\t\t}\n"
         return output
 
@@ -139,9 +141,8 @@ def getSenses(root_lex):
             verb_, sense_obj.verb_lemma, sense_obj.verb_sense = origin.split('.')
 
         for frame_node in sense_node:
-            plural = frame_node.get('appearsinplural')
             frame_type = frame_node.get('type')
-            frame_obj = Frame(plural, frame_type)
+            frame_obj = Frame(frame_type)
             count = 0
 
             if frame_type == 'default':
@@ -162,19 +163,21 @@ def getSenses(root_lex):
 
                             for constituent_node in argument_node.iter('constituent'):
                                 prep = constituent_node.get('preposition')
-                                type = constituent_node.get('type')
+                                # type = constituent_node.get('type')
+                                # postype = constituent_node.get('postype')
                                 if prep is not None:
-                                    constituent_obj = Constituent(prep, type)
+                                    constituent_obj = Constituent(prep)
                                     argument_obj.constituents.append(constituent_obj)
+
                 for specifier_node in frame_node.iter('specifiers'):
                     specifier_obj = Specifiers()
+                    frame_obj.specifiers.append(specifier_obj)
                     for constituent_node in specifier_node.iter('constituent'):
                         postype = constituent_node.get('postype')
                         type_spec = constituent_node.get('type')
 
                         constituent_spec_obj = Constituents_Specifiers(postype, type_spec)
                         specifier_obj.constituents.append(constituent_spec_obj)
-                    frame_obj.specifiers.append(specifier_obj)
 
                 sense_obj.frames.append(frame_obj)
 

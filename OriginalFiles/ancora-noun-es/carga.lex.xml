@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="carga" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="cargar" originlink="verb.cargar.1" wordnetsynset="16:09580808">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="8.5.3.1.2.1.0.0" sentencenodepath="8">De_hecho , la combinación de moléculas fuertemente dadoras y aceptoras no garantiza la formación del complejo , ya_que puede producirse una transferencia total de <argset><head>carga </head></argset>formando especies ( D+IA-I ) que se comportan eléctricamente como sustancias iónicas aislantes ( aislantes Mott-Hubbard ) . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="9.1.1.1.4.2.1.1.1.0.1.1.0.0" sentencenodepath="9">En_consecuencia , en los compuestos orgánicos conductores conocidos en los que ha sido evaluado el grado de transferencia de <argset><head>carga </head></argset>( ) , se ha encontrado que ésta es menor de la unidad , y generalmente en_torno_a 0,5 . </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="1.0.1.0.2.1.0.1.1.0.0" sentencenodepath="1">Además_del grado fraccional de transferencia de <argset><head>carga </head></argset>, ésta tiene que estar deslocalizada a_lo_largo_del apilamiento . </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="2.2.3.1.1.1.1.0" sentencenodepath="2">Cuanto más próximas se encuentren las moléculas en el apilamiento , mayor será el solapamiento de los orbitales entre ellos y , en_consecuencia , mayor será la deslocalización de <argset><specifier>la</specifier><head>carga </head></argset>. </example>
+        <example file="CESS-CAST-A/18451_20000425.tbf.xml" nodepath="2.0.4.1.1.0" sentencenodepath="2">El barco en el que Ø viajaron como polizones , " Wuarta " , con bandera de Bahamas , había zarpado de Guayaquil ( Ecuador ) el pasado día_15 con <argset><specifier>una</specifier><head>carga </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de diversos productos</argument><reference_modifiers>con destino a Estados_Unidos</reference_modifiers></argset>, e Ø hizo el pasado fin de semana una escala de reabastecimiento en el puerto caribeño de Colón . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="7.4.1.1.3.3.1.1.1.1.1.0.1.0" sentencenodepath="7">Estas previsiones " se basan en unos supuestos de emisión continuistas con lo realizado este año " que intentan compatibilizar los objetivos de minimizar <argset><specifier>la</specifier><head>carga </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">financiera</argument></argset>y el riesgo de refinanciación . </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="13.2.4.1.1.1.0" sentencenodepath="13">Ø Recordó que el Govern fijará una partida extra de fondos propios de , " como_mínimo " , 15.000 millones ( 90,15 millones de euros ) para enjugar <argset><specifier>la</specifier><head>carga </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">financiera</argument><reference_modifiers>sanitaria</reference_modifiers></argset>, como Ø hizo en 1999 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="cargar" originlink="verb.cargar.2" wordnetsynset="16:02388459+16:02934345+16:00458391">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="20" type="void"/>
+        <constituent frequency="13" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-6.tbf.xml" nodepath="5.0.4.1.0" sentencenodepath="5">De_hecho , llevar una sola cría comporta ya <argset><specifier>una</specifier><head>carga </head><reference_modifiers>significativa</reference_modifiers></argset>; tanto , que el mono que la traslada rara_vez puede alimentarla o buscar comida . </example>
+        <example file="3LB-CAST/dc1-7.tbf.xml" nodepath="6.3.0.0" sentencenodepath="6">En algunas zonas se colocan <argset><head>cargas </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">explosivas</argument></argset>para provocar aludes intencionados allí donde la nieve se comienza a desestabilizar . </example>
+        <example file="3LB-CAST/dc10-8.tbf.xml" nodepath="11.2.2.2.1.1.2.2.1.3.1.0" sentencenodepath="11">A_la_sazón en París , Huygens se puso a trabajar con su ayudante Denis_Papin , y Ø comenzaron con un peligroso aparato : un cilindro en cuyo seno Ø hacían explotar <argset><specifier>una</specifier><head>carga </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de pólvora</argument><reference_modifiers>que impulsaba un émbolo</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc2-4.tbf.xml" nodepath="4.1.1.0.1.1.0.2.2.1.0" sentencenodepath="4">No en_vano los japoneses ya habían hecho sus pinitos con bombas bacteriológicas en la guerra contra China , y el continente americano se encontraba al alcance de algunos de sus medios tecnológicos : cientos de globos autómatas , sin <argset><specifier>otra</specifier><head>carga </head><reference_modifiers>que folletos de propaganda o pequeñas bombas incendiarias</reference_modifiers></argset>, llegaron a caer sobre la costa oeste de Estados_Unidos . </example>
+        <example file="3LB-CAST/dc3-0.tbf.xml" nodepath="10.4.1.1.3.5.1.1.1.0.1.1.0.0" sentencenodepath="10">Con propósito de claridad y sistematización , Ø clasificaremos los - metales orgánicos - en los tres tipos fundamentales que actualmente se conocen : a Polímeros orgánicos covalentes ; b Metalomacrociclos poliméricos ; c Complejos de transferencia de <argset><head>carga </head></argset>. </example>
+        <example file="3LB-CAST/dc3-1.tbf.xml" nodepath="5.2.1.1.0.1.1.0.1.1.0.0" sentencenodepath="5">El tercer tipo ( c ) de materiales orgánicos conductores , en los que se encuadra la labor investigadora de los autores , son los llamados complejos de transferencia de <argset><head>carga </head></argset>o , abreviadamente , C . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="0.5.1.2.1.2.1.0.2.1.1.0.0" sentencenodepath="0">Así , la alta conductividad de - metal orgánico - en CTC sólo se produce cuando , de las tres situaciones posibles de empaquetamiento y transferencia de <argset><head>carga </head></argset>( fig. 4B ) , los apilamientos segregados van acompañados de transferencia parcial de carga , lo que implica la existencia de moléculas neutras junto_con otras ionizadas . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="0.5.4.1.1.0.2.1.0.0" sentencenodepath="0">Así , la alta conductividad de - metal orgánico - en CTC sólo se produce cuando , de las tres situaciones posibles de empaquetamiento y transferencia de carga ( fig. 4B ) , los apilamientos segregados van acompañados de transferencia parcial de <argset><head>carga </head></argset>, lo que implica la existencia de moléculas neutras junto_con otras ionizadas . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="1.0.1.1.1.1.0.0" sentencenodepath="1">Si la transferencia de <argset><head>carga </head></argset>es total ( 1 electrón por pareja dador-aceptor ) , todas las moléculas están ionizadas y , como máximo , pueden lograrse semiconductores , ya_que el movimiento electrónico entre moléculas a_lo_largo_del apilamiento supondría la formación de especies doblemente cargadas en el dador o el aceptor , lo que implica una barrera energética a_causa_de repulsión electrónica . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="7.4.2.1.1.1.0.0" sentencenodepath="7">Por_último , un pequeño grupo de sustancias , como el complejo CNQ-ITF , presentan una conductividad eléctrica comparable a la de los metales , de la deslocalización de <argset><head>carga </head></argset>a una norma canónica aromática por resonancia en el anión-radical del TCNQ y del catión-radical del TTF . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="8.3.1.0.2.1.1.1.1.0.0" sentencenodepath="8">Es justamente el valor relativo del potencial de oxidación del dador y del potencial de reducción del aceptor lo que garantiza que la transferencia de <argset><head>carga </head></argset>no sea total . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="9.3.1.1.1.0.1.1.0.1.1.0.0" sentencenodepath="9">Se cumple con ello el requisito de conductividad por movimiento de <argset><head>carga </head></argset>de molécula cargada a molécula neutra a_lo_largo_del apilamiento . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="10.3.3.1.1.1.0.2.2.0.2.1.0.2.1.1.1.2.1.0.0" sentencenodepath="10">Es obvio , por_tanto , que un camino apropiado para mejorar la conductividad sería el empleo de moléculas dador y aceptor que tuviesen valores de potenciales lo más apropiados para lograr la transferencia parcial de <argset><head>carga </head></argset>en el grado óptimo . </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="0.0.3.1.2.1.1.1.1.1.0.1.1.0.0" sentencenodepath="0">Se trata , pues , de modificar los potenciales redox de dador y aceptor para modular el grado de transferencia de <argset><head>carga </head></argset>, y con este propósito se ha sintetizado un considerable número de moléculas dadoras y aceptoras con estructuras - diseñadas - para lograr mejores CTC conductores . </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="1.3.1.1.1.0.3.1.0.0" sentencenodepath="1">En_particular , son tres los objetivos : - - Transferencia de <argset><head>carga </head><reference_modifiers>D-A</reference_modifiers></argset>entre 0 - - Interacciones entre apilamientos segregados que impidan cambios de fase capaces de provocar la transición de estructura conductora a aislante . </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="8.2.4.1.0.2.1.1.1.0.1.1.0.1.1.0.0" sentencenodepath="8">De estudios teóricos pudo concluirse que la extensión del sistema 11 en estos compuestos conduce a una disminución de la repulsión intramolecular de tipo Coulomb lo que habría de favorecer la formación de complejos de transferencia de <argset><head>carga </head></argset>. </example>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="9.3.1.0.3.0.1.1.1.1.0" sentencenodepath="9">Una alternativa para lograr moléculas aceptoras eficaces se refiere al fragmento electronegativo de la molécula capaz de deslocalizar <argset><specifier>la</specifier><head>carga </head></argset>. </example>
+        <example file="3LB-CAST/dc3-2.tbf.xml" nodepath="8.2.1.1.2.3.1.1.1.0.0" sentencenodepath="8">La pérdida de electrones producida en el - dopado - daría_lugar a una banda parcialmente llena en la que sería posible el movimiento de <argset><head>cargas </head></argset>. </example>
+        <example file="3LB-CAST/dc3-3.tbf.xml" nodepath="1.3.1.1.1.0.2.1.1.1.0.1.0" sentencenodepath="1">En aquellos polímeros conductores para los que no es posible la formación de solitones se ha propuesto la formación de polarones ( iones-radical ) y bipolarones ( dicationes <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuyas</argument><head>cargas </head></argset>se hallan en una misma región del polímero ) . </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="3.3.2.1.1.1.0.0" sentencenodepath="3">Esta disposición incrementa la interacción metal-metal o_bien entre orbitales n de los distintos macrociclos , facilitando el transporte de <argset><head>carga </head></argset>. </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="9.2.0.1.1.1.3.3.1.1.1.0.3.1.0.1.1.0.0" sentencenodepath="9">Este descubrimiento clave fue origen de un gran esfuerzo investigador , que provocó la búsqueda de nuevos complejos orgánicos de transferencia de <argset><head>carga </head></argset>( CTC ) que pudieran igualar o incluso mejorar al TCNQ-TTF . </example>
+        <example file="3LB-CAST/e2-0.tbf.xml" nodepath="6.0.0.2.1.3.3.1.1.1" sentencenodepath="6">El Renacimiento tiende a identificar la cultura con la literatura y las artes , liberándolas en_parte de <argset><specifier>la</specifier><reference_modifiers>pesada</reference_modifiers><head>carga </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la religión</argument></argset>; pero hasta los siglos XV y XVI no se avanza sustancialmente en el concepto de cultura como - cultivo del pensamiento - y reflexión abierta sobre la vida : se trata del humanismo de los moralistas , del gusto literario y artístico , del patrimonio de los hombres sumamente civilizados . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="7.3.3.2.1.1.1.1.0.0.0.0" sentencenodepath="7">Por su parte , fuentes de la Asociación_de_Transportistas_Autónomos_de_Contenedores ( Transcont ) señalaron que los Puertos de Valencia , Sagunto y Alicante siguen paralizados por segundo día en la actividad de <argset><head>carga </head>y descarga de mercancía , tanto a_granel como en contenedores </argset>. </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="8.2.0.1.4.5.1.1.0" sentencenodepath="8">" Ø No vemos nada negativo en ello " , señaló Bezuidenhoud , quien no_obstante subrayó que " si Ø miramos la combinación de todas las leyes y las obligaciones que se imponen a los empresarios , Ø podemos decir que <argset><specifier>la</specifier><head>carga </head></argset>es demasiada , lo que constituye una de las razones del desempleo masivo " . </example>
+        <example file="CESS-CAST-AA/2005_20000904.tbf.xml" nodepath="0.3.1.1.1.1" sentencenodepath="0">El presidente de la OPEP y ministro de Energía_de_Venezuela , Alí_Rodríguez , propondrá lanzar una " campaña mundial de información " para tratar de reducir <argset><specifier>la</specifier><reference_modifiers>elevada</reference_modifiers><head>carga </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">tributaria</argument><reference_modifiers>que aplican los países de mayor consumo a los hidrocarburos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="0.0.1.2.1.1.1.2.3.1.1.3.1.1.1.2.1.0.0" sentencenodepath="0">La renuncia del Gobierno_de_Caracas a acatar el fallo del Tribunal_Andino_de_Justicia que declaró ilegal la decisión que Venezuela adoptó para restringir el transporte internacional de <argset><head>carga </head></argset>por carretera , podría llevar a Colombia , en dos meses , a adoptar medidas contra los productos venezolanos . </example>
+        <example file="CESS-CAST-P/117_20010103.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>carga </head></argset>fue trasvasada a otra cisterna bajo la supervisión de técnicos y bomberos de la Generalitat . </example>
+        <example file="CESS-CAST-P/16_20001002_a.tbf.xml" nodepath="1.1.1.4.1.1.0" sentencenodepath="1">Miles de payeses hicieron ayer en Lleida una exhibición de fuerza en plena Fira_de_Sant_Miquel : Ø declararon persona_non_grata al conseller Mas por <argset><specifier>las</specifier><head>cargas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los Mossos</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del viernes</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para romper el bloqueo de los centros de distribución de hidrocarburos</argument></argset>, y Ø ratificaron que el alza del gasóleo es la gota que colma el vaso en un sector deprimido . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="27.0.2.1.0" sentencenodepath="27">El Govern debe empezar a asumir <argset><specifier>las</specifier><head>cargas </head></argset>y no sólo los beneficios de su capacidad para impulsar una política fiscal . </example>
+        <example file="CESS-CAST-P/39_20000903.tbf.xml" nodepath="17.0.3.3.4.1.0.1.1.1.1.0" sentencenodepath="17">" Hasta ahora todo son especulaciones . El registro y el recuento será largo , no_sólo por las dimensiones del buque sino_también por la cantidad de <argset><specifier>la</specifier><head>carga </head></argset>y la forma de ocultación . Si se confirma la información policial , la cantidad puede superar las cinco toneladas " , aseguró Robles . </example>
+        <example file="CESS-CAST-P/39_20000903.tbf.xml" nodepath="19.2.3.0.1.1.1.0" sentencenodepath="19">El máximo responsable de la operación , el comisario Jesús_Espigares , recordó que el barco , que tiene 120 metros de eslora , porta contenedores con <argset><specifier>una</specifier><head>carga </head><reference_modifiers>legal</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 5.000 toneladas de acero enrolladas en bobinas y 1.000 toneladas de asfalto distribuidos en bidones</argument></argset>. </example>
+        <example file="CESS-CAST-P/39_20000903.tbf.xml" nodepath="20.0.1.0.0.1.1.0" sentencenodepath="20">" En <argset><specifier>la</specifier><head>carga </head></argset>o en cualquier compartimento camuflado puede venir la cocaína . Hace unos años Ø cogimos en Valencia cocaína escondida en bidones de asfalto y , recientemente en Galicia , escondida en el eje de las bobinas de acero " , recordó Espigares . </example>
+        <example file="CESS-CAST-P/48_20000402.tbf.xml" nodepath="7.4.1.1.1.3.1.0.0" sentencenodepath="7">Tejas y Houston se disputarán los contratos para renovar los numerosos puertos cubanos de <argset><head>carga </head></argset>. </example>
+        <example file="CESS-CAST-P/60_19991001.tbf.xml" nodepath="2.0.3.0.4.2.0" sentencenodepath="2">Algunos de sus pronósticos se cumplieron - - la RDA pagó <argset>" <specifier>las</specifier>
+            <head>cargas </head>
+            <reference_modifiers>principales</reference_modifiers>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la segunda guerra mundial perdida por todos los alemanes</argument>" </argset>- - ; otros , como éste , no : " una Alemania reunificada sería un coloso portador de una carga tan compleja que Ø supondría un lastre para sí misma y para la unificación europea " . </example>
+        <example file="CESS-CAST-P/60_19991001.tbf.xml" nodepath="2.2.1.4.1.1.0.1.1.1.0" sentencenodepath="2">Algunos de sus pronósticos se cumplieron - - la RDA pagó " las cargas principales de la segunda guerra mundial perdida por todos los alemanes " - - ; otros , como éste , no : " una Alemania reunificada sería un coloso portador de <argset><specifier>una</specifier><head>carga </head><reference_modifiers>tan compleja que supondría un lastre para sí misma y para la unificación europea</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/69_20010201_k.tbf.xml" nodepath="1.3.0.1.0" sentencenodepath="1">El beneficio no incluye <argset><specifier>las</specifier><head>cargas </head><reference_modifiers>excepcionales</reference_modifiers><reference_modifiers>relacionadas con el accidente del petrolero Erika</reference_modifiers><reference_modifiers>, por valor de 183.024 millones de pesetas ,</reference_modifiers></argset>ni ingresos por plusvalías de 49.915 millones . </example>
+        <example file="CESS-CAST-P/73_20000201_h.tbf.xml" nodepath="1.2.1.0.1.0" sentencenodepath="1">La investigación , realizada por técnicos independientes , indica que <argset><specifier>la</specifier><head>carga </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del buque siniestrado frente_a las costas francesas</argument></argset>no era fuel , sino una mezcla tóxica y cancerígena de aceites minerales . </example>
+        <example file="CESS-CAST-P/80_20000701.tbf.xml" nodepath="15.2.1.1.1.1.2.1.0.0" sentencenodepath="15">Entre la Meridiana y la calle del Coronel_Sanfeliu habrá dos carriles reservados para la circulación - - en las circunstancias en que Ø esté permitida - - y <argset><specifier>la</specifier><head>carga </head>y descarga </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="cargar" originlink="verb.cargar.3" wordnetsynset="16:02934345">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="9.2.2.5.0.0" sentencenodepath="9">El dirigente sindical manifestó el " rechazo " de los trabajadores a la operación y Ø sostuvo que " los americanos no vienen a aportar <argset><head>carga </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de trabajo</argument></argset>porque Santa_Bárbara ya tiene firmados contratos con varios clientes y únicamente Ø se harán_cargo de los trabajadores y de la cartera de clientes " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="4" lexicalized="no" originlemma="cargar" originlink="verb.cargar.3" wordnetsynset="16:02934345">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ben">
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/23278_20001129.tbf.xml" nodepath="3.4.3.2.1.1" sentencenodepath="3">José_Manuel_Muñiz explicó además a Franz_Fischler que es necesario " mitigar <argset><specifier>la</specifier><reference_modifiers>creciente</reference_modifiers><head>carga </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de escepticismo e incluso de negatividad</argument><reference_modifiers>que se nota en el sector pesquero</reference_modifiers><argument argument="argM" function="cn" thematicrole="ben" type="sp">hacia la administración comunitaria</argument></argset>" , por lo que Ø abogó por crear instrumentos de colaboración entre las autoridades y las organizaciones pesqueras profesionales . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="5" lexicalized="no" originlemma="cargar" originlink="verb.cargar.4" wordnetsynset="16:09580808">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/7_20010302.tbf.xml" nodepath="3.0.3.1.1.0" sentencenodepath="3">" Altadis , Telepizza y Picking_Pack han intentado dejar <argset><specifier>las</specifier><head>cargas </head><reference_modifiers>negativas</reference_modifiers></argset>a cero en el último ejercicio " , dice Natalia_Aguirre , de Renta_4 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="6" lexicalized="no" originlemma="cargar" originlink="verb.cargar.6" wordnetsynset="16:00627257">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/n1-3.tbf.xml" nodepath="15.0.3.1.2.1.1.0" sentencenodepath="15">Desde fuera , el Rancho_Criollo parece un fuerte apache esperando <argset><specifier>la</specifier><head>carga </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del quinto de caballería</argument></argset>aunque el Sur_Bronx no se parece mucho al Cañón_del_Colorado : montañas de escoria y escombros , casas quemadas y coches desguazados , calles como páramos por donde no pasa un alma , tiendas desvencijadas que sirven de tapadera a camellos y maleantes . </example>
+        <example file="CESS-CAST-A/17037_20000423.tbf.xml" nodepath="9.0.3.1.5.1.1.1" sentencenodepath="9">Ø Exhortó a la militancia del PNV a que Ø no se deje " asustar " por <argset><specifier>la</specifier>" <head>carga </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">mediática y política</argument>" <reference_modifiers>dirigida contra este partido</reference_modifiers></argset>, porque , según dijo Ø , " si Ø les hacemos caso y Ø nos vamos de Estella , luego Ø vendrán por otra cosa " , ante lo cual , subrayó Ø , " cuanto más chillan Ø , nosotros más quietos , y cuando Ø dejen de hablar , Ø veremos qué hacemos Ø " . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="14.2.3.1.3.1.0.2.1" sentencenodepath="14">La policía logró recuperar el control del centro de la ciudad alrededor de las 7 de la tarde del martes ( 4 de la madrugada hora española ) tras desalojar calle por calle a los grupos radicales con <argset>gases lacrimógenos y <reference_modifiers>contundentes</reference_modifiers>
+            <head>cargas </head>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="volver_a_la_carga" cousin="no" denotation="none" id="7" lexicalizationtype="verbal" lexicalized="yes" originlemma="cargar" originlink="verb.cargar.2" wordnetsynset="16:00627257">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/22_20000302.tbf.xml" nodepath="5.1.2.0.1.1.0" sentencenodepath="5">Pero Jospin volvió a <argset><specifier>la</specifier><head>carga </head></argset>y Ø reivindicó de_nuevo su libertad de expresión en política exterior como lo hizo Chirac durante su cohabitación con François_Mitterrand , entre 1986 y 1988 . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

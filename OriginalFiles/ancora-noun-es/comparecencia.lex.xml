@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="comparecencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="comparecer" originlink="verb.comparecer.1" wordnetsynset="16:00800661">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+        <constituent frequency="3" preposition="ante" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="1.2.1.1.1" sentencenodepath="1">El Departamento_de_Justicia dijo respecto_a <argset><specifier>la</specifier><reference_modifiers>última</reference_modifiers><head>comparecencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la compañía</argument></argset>que ésta no tiene_en_cuenta el hecho de que se ha determinado " que Microsoft ha cometido repetidamente graves violaciones legales y que es preciso aplicar remedios serios para restablecer la competencia e impedir violaciones similares en el futuro " . </example>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="2.2.0.1.2.1.0" sentencenodepath="2">" Ø No es falta de información , Ø es ocultación de información " , dijo Zenarruzabeitia , para quien <argset><specifier>la</specifier><head>comparecencia </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de ayer</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Mayor_Oreja</argument></argset>" no fue de recibo " porque en_vez_de " responder detalladamente " a la interpelación del PNV Ø se dedicó a " la descalificación de un grupo político y a hablar de cuestiones que no tienen nada que ver , Ø utilizó la política del chipirón de responder atacando " . </example>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="7.2.1.0" sentencenodepath="7">El senador del PSOE por Cuenca y viceportavoz socialista de la Comisión_de_Peticiones_del_Senado , Luis_Ayllón , ha solicitado <argset><specifier>la</specifier><head>comparecencia </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Cámara_Alta</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ministro de Fomento , Francisco_Alvarez_Cascos ,</argument></argset>con el fin de que Ø informe sobre el proyecto de línea de AVE_Madrid-Levante . </example>
+        <example file="3LB-CAST/d2-5.tbf.xml" nodepath="8.4.1.0" sentencenodepath="8">Cuando se tuvo la certeza del secuestro y se anunció una rueda de prensa de Joan_Gaspar y de Bakero , Felipe_González retrasó en una hora <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>comparecencia </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">ante la prensa</argument></argset>, a_sabiendas_de que si Ø hablaba al_mismo_tiempo_que el vicepresidente del Barça y el jugador , la Cataluña de Pujol no le haría el menor caso . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="1.2.0.2.1.0" sentencenodepath="1">Durante una visita a la comunidad foral para conocer la Ciudad_del_Transporte y el parque eólico de Guerinda , en la que Ø rehusó opinar sobre la dimisión del ministro Pimentel , De_Palacio fue recibida por el presidente Miguel_Sanz y , en <argset><specifier>una</specifier><head>comparecencia </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">ante los medios</argument></argset>, Ø comentó que en_todo_caso esta nueva vía no podrá incorporarse a las previsiones de las redes transeuropeas hasta_tanto no se pronuncie el Gobierno francés . </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="7.1.1.1.1" sentencenodepath="7">Al_igual_que en su declaración ante la comisión , en <argset><specifier>la</specifier><reference_modifiers>posterior</reference_modifiers><head>comparecencia </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">ante la prensa</argument></argset>, Kohl se presentó como víctima de una campaña difamatoria , sobre_todo de los medios de comunicación , cuyo único fin era ensuciar su trayectoria política y sus dieciséis años al_frente_del gobierno . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="8.0.5.2.1.0" sentencenodepath="8">El ministro del Interior , Jaime_Mayor_Oreja , lo reconoció sin_ambages el pasado julio , en <argset><specifier>una</specifier><head>comparecencia </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">parlamentaria</argument></argset>: " Neutralizar la ofensiva soberanista del nacionalismo vasco es una política de Estado " . </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="12.2.1.1.0" sentencenodepath="12">Valenzuela , que fue quien captó como cliente al arzobispado , dijo en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>comparecencia </head></argset>que él aconsejó en marzo_de_1999 a Peralta que Ø retirase su inversión de Gescartera dado_que Ø había dimitido como delegado . </example>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="1.0.1.1.1" sentencenodepath="1">En <argset><specifier>una</specifier><reference_modifiers>breve</reference_modifiers><head>comparecencia </head><argument argument="argM" function="cn" thematicrole="mnr" type="sadv">a_puerta_cerrada</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Juzgado_de_Menores_de_Murcia</argument></argset>, el adolescente , de 17 años , reconoció los hechos y Ø se conformó con la pena , por lo que no fue preciso celebrar el juicio . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

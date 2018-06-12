@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reducción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="reducir" originlink="verb.reducir.1" wordnetsynset="16:00229061+16:00227536">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="9" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="13" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="8.2.1.0.0" sentencenodepath="8">El incumplimiento de esos compromisos sería penalizado con <argset><head>reducciones </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el subsidio de desempleo</argument></argset>. </example>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="11.3.1.0" sentencenodepath="11">También el Banco_Comercial_Checoslovaco ( CSOB ) , adquirido por el banco belga KBC y el Banco_de_Inversiones_y_Postal ( IPB ) ( de Nomura ) preparan <argset><specifier>una</specifier><head>reducción </head><reference_modifiers>moderada</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sus plantillas</argument></argset>. </example>
+        <example file="3LB-CAST/2000060104_5-2.tbf.xml" nodepath="3.3.1.3.3.1.0" sentencenodepath="3">El presidente argentino anunció el pasado_lunes un nuevo paquete de medidas destinadas a bajar el gasto público , que implica <argset><specifier>una</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de entre el 12 y el 15_por_ciento de los salarios de los empleados públicos</argument></argset>. </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="12.2.1.0.0" sentencenodepath="12">El incumplimiento de esos compromisos sería penalizado con <argset><head>reducciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el subsidio de desempleo , uno de los puntos esenciales que deberán concretarse el lunes</argument></argset>. </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="10.2.3.0.1.0" sentencenodepath="10">La central ugetista señaló que las cifras del desempleo en el mes_de_mayo muestran <argset><specifier>una</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del paro</argument><reference_modifiers>menor que en años anteriores</reference_modifiers></argset>y un crecimiento " escandaloso " de la contratación temporal , que ha supuesto el 91,2_por_ciento de todos los contratos . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="16.3.1.1.2.0" sentencenodepath="16">El paro registrado en las oficinas del Instituto_Nacional_de_Empleo ( INEM ) bajó en mayo_pasado en 47.689 personas <argset>, <specifier>una</specifier>
+            <head>reducción </head>
+            <argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 3,02_por_ciento</argument>, </argset>lo que situó el total de desempleados en 1.531.169 , el 9,16_por_ciento de la población activa . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="1.3.1.1.1.2.0" sentencenodepath="1">El paro registrado en las oficinas del Instituto_Nacional_de_Empleo ( INEM ) bajó en mayo_pasado en 47.689 personas <argset>, <specifier>una</specifier>
+            <head>reducción </head>
+            <argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 3,02_por_ciento</argument>, </argset>lo que situó el total de desempleados en 1.531.169 , el 9,16 de la población activa . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="3.2.3.1.0" sentencenodepath="3">El descenso medio del paro en mayo en los quince años anteriores fue de 56.665 desempleados , y en el mismo mes de 1999 el desempleo tuvo <argset><specifier>una</specifier><head>reducción </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">de 58.880 personas</argument></argset>, mientras_que en los últimos doce meses Ø bajó en 117.951 personas , un 7,15_por_ciento . </example>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="4.0.3.1.0.1.1.0.2.1.0.0" sentencenodepath="4">En_consecuencia , la presencia de anillos aromáticos fusionados con el anillo de TCNQ conduce a valores del primer potencial de <argset><head>reducción </head></argset>menores y , con ello , a una menor capacidad para la formación de CTC conductores . </example>
+        <example file="3LB-CAST/n1-7.tbf.xml" nodepath="15.1.1.1.0" sentencenodepath="15">- Con <argset><specifier>la</specifier><head>reducción </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 30_%</argument></argset>, Ø sólo cabremos a cuatro o cinco . </example>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="13.1.0.0.1.0" sentencenodepath="13">A_juicio_de la OCDE , <argset><specifier>las</specifier><head>reducciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de impuestos</argument></argset>tienen que ir acompañadas de recortes paralelos del gasto público y los ingresos fiscales que se recauden por_encima_de lo previsto deben dedicarse a enjugar la deuda . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="0.4.2.0.2.1.0" sentencenodepath="0">El Tesoro emitirá el próximo año deuda por importe de 10,3 billones de pesetas , lo que supone <argset><specifier>una</specifier><head>reducción </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">de tres billones</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sadv">frente a lo que colocará este año</argument></argset>, según el Proyecto_de_Ley_de_Presupuestos_Generales_del_Estado para el 2001 . </example>
+        <example file="CESS-CAST-AA/4018_20000706.tbf.xml" nodepath="6.2.2.0.0" sentencenodepath="6">Ø Recomiendan un recorte del 30_por_ciento de las capturas de " maruca " y " brosmio " y <argset><head>reducciones </head><reference_modifiers>aún mayores</reference_modifiers><reference_modifiers>para otras especies de profundidad</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8195_20000812.tbf.xml" nodepath="3.2.2.1.0.1.0" sentencenodepath="3">Los agricultores almerienses están de_acuerdo_en reducir los niveles de residuos , que por_otra_parte nunca han dado problemas en la producción hortofrutícola de la zona , pero Ø consideran que <argset><specifier>esa</specifier><head>reducción </head></argset>debe ser paulatina y anunciarse con tiempo antes de la prohibición definitiva de los productos . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="10.1.1.1.1.1.2.3.3.3.1.1.0" sentencenodepath="10">De ahí la postura de los laboristas , conservadores y derechistas que formaban hasta ahora la oposición , quienes sostenían que con una central eléctrica propia se reduciría la necesidad de importar energía y con ello se contribuiría a <argset><specifier>una</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">mundial , y no local , de los vertidos de CO2</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="4.2.1.2.1.1.2.1.0.2.3.0.1.1.0" sentencenodepath="4">La Proposición_de_Ley presenta la modificación de la 8/1972 de 10 de mayo , de " construcción , conservación y explotación de las autopistas en régimen de concesión " , añadiendo un artículo 15 bis sobre ajustes en las concesiones y tarifas que " pueden llegar a <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las tarifas a pagar por los usuarios</argument></argset>" , o a repercutir en las inversiones en mejoras viarias . </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="6.2.1.0" sentencenodepath="6">Al_menos una cuarentena de docentes , un 10% de los empleados en los institutos catalanes , han sufrido <argset><specifier>una</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su jornada laboral</argument></argset>, lo que implica un recorte salarial , según los datos facilitados por la Asociación_de_Profesores_de_Religión_de_Catalunya , que han sido corroborados por fuentes eclesiásticas . </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="9.2.1.1" sentencenodepath="9">El consumo experimentará <argset><specifier>una</specifier><reference_modifiers>ligera</reference_modifiers><head>reducción </head></argset>, lo que permitirá bajar la inflación al 2,2% . </example>
+        <example file="CESS-CAST-P/27_20000701.tbf.xml" nodepath="3.3.2.4.2.2.1" sentencenodepath="3">Por esta razón , Ø solicita " un gesto simbólico de indulgencia " , como <argset>" <specifier>una</specifier>
+            <reference_modifiers>modesta</reference_modifiers>
+            <head>reducción </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la pena</argument>" </argset>. </example>
+        <example file="CESS-CAST-P/58_20010301.tbf.xml" nodepath="0.2.2.1.1.0" sentencenodepath="0">El decreto_ley incluirá una indemnización por despido para los contratos temporales y los indefinidos disfrutarán de <argset><specifier>una</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de cuotas sociales</argument></argset>. </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="9.4.4.1.0" sentencenodepath="9">Los mercados recibieron los resultados de Telefónica con subidas , ya_que Ø habían previsto <argset><specifier>una</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los beneficios</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sp">de hasta el 6%</argument></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="efi">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ein">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="4.2.2.0.1.1.0.2.0.0" sentencenodepath="4">Ø Promueve los procesos de negociación que permitan acabar con los conflictos regionales , y se apoya iniciativas sobre el control , <argset><head>reducción </head></argset>y tráfico de armamento . </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="9.2.4.1.0" sentencenodepath="9">Machinea destacó que en el proyecto del Presupuesto_Nacional_2001 " hay <argset><specifier>una</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del impuesto</argument><argument argument="argM" function="cn" thematicrole="efi" type="sp">a los intereses de los créditos que ellos piden</argument></argset>" . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="7.2.1.0" sentencenodepath="7">Entre esas enmiendas figura <argset><specifier>una</specifier><head>reducción </head><argument argument="argM" function="cn" thematicrole="ein" type="sp">del 35</argument><argument argument="argM" function="cn" thematicrole="efi" type="sp">al 20_por_ciento</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del límite máximo para inversión en instrumentos vinculados a índices bursátiles</argument></argset>. </example>
+        <example file="CESS-CAST-A/14827_20000719.tbf.xml" nodepath="1.0.0.1.0" sentencenodepath="1"><argset><specifier>Esta</specifier><head>reducción </head></argset>ya ha repercutido en los precios del grano en los mercados internacionales y en el mercado de Nueva_York Ø alcanzaba el martes 116,5 centavos de dólar la libra para los suaves centroamericanos , el más alto desde el 13_de_enero de este año . </example>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="8.5.2.3.0.1.1.0.0" sentencenodepath="8">Brasil al parecer no tendrá inconvenientes para cumplir el acuerdo de retención de embarques de este año debido_a_que la cosecha no se prevé tan buena como la anterior y a_que las exportaciones comienzan a dar señales de <argset><head>reducción </head></argset>. </example>
+        <example file="CESS-CAST-A/15311_20001220.tbf.xml" nodepath="1.2.2.1.0" sentencenodepath="1">Estas letras se emitirán el próximo 21_de_diciembre y Ø conllevan <argset><specifier>una</specifier><head>reducción </head></argset>con_respecto_a la última subasta , en la que se adjudicaron letras a un año al 4,826_por_ciento , y letras a 18 meses al 4,832_por_ciento . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="reducir" originlink="verb.reducir.1" wordnetsynset="16:00229061">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="2.2.3.1.1.1.0" sentencenodepath="2">El director del banco , Radovan_Vrava , señaló que el motivo principal es la reestructuración del banco y no sólo <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los costes</argument></argset>. </example>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="9.3.1.1.0" sentencenodepath="9">La reestructuración de los otros bancos checos se está acompañando por <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del personal</argument></argset>. </example>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="12.0.0.1.0" sentencenodepath="12"><argset><specifier>La</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de plantilla</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en los últimos dos años</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en estos cuatro bancos</argument></argset>ha sido de alrededor_de 8.000 funcionarios , pero Ø siguen teniendo un_poco_menos_de 50.000 empleados . </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="8.0.0.1.0.1.0" sentencenodepath="8">Junto_a <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del impuesto</argument><reference_modifiers>a la renta</reference_modifiers></argset>, el control a la evasión , que en el caso del Impuesto al Valor_Añadido ( IVA ) puede ascender a un 40_por_ciento , y al contrabando , que según algunos estudios puede ser del_orden_de 2.000 millones de dólares anuales , se prevé la eliminación de algunas exenciones tributarias . </example>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="2.0.2.1.0" sentencenodepath="2">Una de las consecuencias de ese acelerado ritmo de crecimiento será <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del paro</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sp">en más de dos millones de personas</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">entre 1999 y el 2001</argument><reference_modifiers>, que quedará en el 6_por_ciento , en el conjunto de los 29 países miembros</reference_modifiers></argset>, señala Ø . </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="3.1.0.1.0" sentencenodepath="3">para Méndez <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la jornada laboral</argument><argument argument="argM" function="cn" thematicrole="ext" type="sp">a 35 horas semanales</argument></argset>, el cumplimiento de la Ley_de_Prevención_de_Riesgos_Laborales por_parte_de los empresarios y " mejorar los mecanismos de coordinación entre las administraciones autonómicas y el Gobierno " son fines prioritarios para tratar en esta negociación . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/14827_20000719.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">En esa línea Ø indicó que <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la cosecha brasileña</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sn">, entre 3 y 5 millones de sacos ( 60 kilos ) ,</argument></argset>incrementará los ingresos de cerca de 350.000 familias campesinas colombianas que viven del producto . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="reducir" originlink="verb.reducir.1" wordnetsynset="16:00229061">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="11" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg3" thematicrole="ein">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="efi">
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="13.0.2.1.0" sentencenodepath="13">CCOO valoró <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del paro</argument></argset>pero Ø reiteró la necesidad de que el diálogo social aborde con carácter prioritario una mejor redistribución de la riqueza que se está generando . </example>
+        <example file="3LB-CAST/d2-0.tbf.xml" nodepath="1.0.1.1.0" sentencenodepath="1">Con <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de equipos profesionales</argument></argset>Ø vemos que este año la Vuelta la están corriendo 58 corredores españoles , 39 italianos , 20 portugueses y el resto , en menor medida , suizos , belgas , holandeses , colombianos , hasta llegar a los 169 que salieron en Valladolid . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="8.2.1.2.2.1.0.1.1.0.0" sentencenodepath="8">Es justamente el valor relativo del potencial de oxidación del dador y del potencial de <argset><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del aceptor</argument></argset>lo que garantiza que la transferencia de carga no sea total . </example>
+        <example file="3LB-CAST/n1-6.tbf.xml" nodepath="0.3.1.1.1.2.1.0" sentencenodepath="0">Se trata ahora de luchar contra el recorte del dinero del PER y <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del salario de los trabajadores contratados</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="2.1.0.2.3.1.1.0" sentencenodepath="2">En ese documento , Bruselas considera que la opción nuclear contribuye a <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de emisiones de gases de efecto invernadero</argument></argset>y Ø garantiza el suministro energético de la Unión . </example>
+        <example file="CESS-CAST-AA/8551_20000114.tbf.xml" nodepath="9.0.0.1.0" sentencenodepath="9"><argset><specifier>La</specifier><head>reducción </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en los próximos días</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las comisiones</argument><reference_modifiers>, que regirá para Centroamérica , Belice y Panamá ,</reference_modifiers></argset>fue comunicada por las aerolíneas el pasado 27_de_diciembre y Ø obedece a una medida adoptada por la Asociación_de_Transporte_Aéreo_Internacional ( IATA ) durante una conferencia celebrada en Canadá en julio pasado . </example>
+        <example file="CESS-CAST-P/102_19991001.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de impuestos</argument><reference_modifiers>, que se concretará en un extenso decreto fiscal que será aprobado antes de fin de año ,</reference_modifiers></argset>beneficiará sobre_todo a las familias con ingresos inferiores a los 2.600.000 pesetas anuales . </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="1.3.1.2.3.1.1.0" sentencenodepath="1">A la deserción de unos 10.000 escolares en los últimos tres años , por_efecto_de la caída demográfica y la menor elección de la materia confesional , se añade la fuga de alumnos que se registra por <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">horaria</argument><reference_modifiers>que Ensenyament ha introducido en la franja dedicada a las enseñanzas opcionales</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/113_19990501_a.tbf.xml" nodepath="8.3.4.5.1.0" sentencenodepath="8">Ambos líderes recordarán al Ejecutivo que España sufre la tasa más alta de paro de toda la UE , que el empleo sigue siendo precario , que Ø aún no ha impulsado <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del tiempo de trabajo</argument><argument argument="arg4" function="cn" thematicrole="efi" type="sp">hacia las 35 horas semanales</argument></argset>y que la siniestralidad laboral sigue creciendo año tras año , más de un 11% en 1998 . </example>
+        <example file="CESS-CAST-P/113_19990501_b.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">En este resultado influyó <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las dotaciones para insolvencias , que cayeron el 50,3% , pasando de 1.510 millones en el primer trimestre de 1998 a 751 millones en el mismo periodo de 1999</argument></argset>. </example>
+        <example file="CESS-CAST-P/21_20000401.tbf.xml" nodepath="2.2.1.1" sentencenodepath="2">Los malos resultados electorales han comportado <argset><specifier>una</specifier><reference_modifiers>sustancial</reference_modifiers><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las subvenciones que se perciben del Estado</argument></argset>, lo que obliga a recortar los gastos . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de plantilla</argument><argument argument="arg3" function="cn" thematicrole="ein" type="sp">de los 54.000 empleos actuales</argument><argument argument="arg4" function="cn" thematicrole="efi" type="sp">a 44.000</argument></argset>se enmarca en el programa Energy_21 , que tiene como objetivo una disminución de los costes del 30% en tres años . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="9.4.2.2.0.1.1.0" sentencenodepath="9">Por_otro_lado , Ø recomendó a las autoridades mexicanas fortalecer el marco económico , para garantizar <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las tasas de interés reales</argument></argset>e impulsar el mercado de valores . </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="1.0.1.1.0" sentencenodepath="1">A_expensas_de <argset><specifier>la</specifier><head>reducción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del déficit público</argument></argset>, Jospin se plegó anoche a las crecientes presiones de los franceses que reclamaban un reparto del pastel económico con la promesa de recortes fiscales adicionales este año por valor de 6.097,9 millones de euros . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

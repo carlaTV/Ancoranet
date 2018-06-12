@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="funcionamiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="funcionar" originlink="verb.funcionar.1" wordnetsynset="16:10091362">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="8" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="0.0.3.2.1.1.0" sentencenodepath="0">En otras palabras , el corrimiento al rojo afecta a todos los relojes y a <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>funcionamiento </head></argset>, lo_mismo si Ø son mecánicos , biológicos o atómicos . </example>
+        <example file="3LB-CAST/dc2-13.tbf.xml" nodepath="7.2.1.1.1.2.1.1.1.1.0.0" sentencenodepath="7">El desplazamiento medido fue de casi un herzio ( una oscilación por segundo ) sobre una frecuencia de <argset><head>funcionamiento </head></argset>de 1.420 megaherzios , lo que equivale a cuatro partes sobre 10.000 millones . </example>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="0.1.3.1.1.1.0.0" sentencenodepath="0">En el Juicio determinante Ø hemos de reconocer un don o talento natural cuya carencia ninguna educación puede suplir únicamente la Naturaleza posee los secretos del <argset><head>funcionamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del arte escondido que es el esquematismo</argument></argset>. </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="37.4.1.1.0.1.0" sentencenodepath="37">Con el tema " Iberoamérica y la situación internacional en una economía globalizada " , la Declaración_de_La_Habana comprometió a los países firmantes a fortalecer <argset><specifier>el</specifier><head>funcionamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sus instituciones democráticas</argument></argset>, el pluralismo político , el Estado_de_Derecho y el respeto de los derechos_humanos y las libertades fundamentales , incluido el derecho al desarrollo . </example>
+        <example file="CESS-CAST-A/12432_20000416.tbf.xml" nodepath="0.0.2.1.1.1.1.0.0" sentencenodepath="0">La empresa Iber-X , que ha implantado en España una " bolsa " de telecomunicaciones a_través_de Internet , ha logrado tras cinco meses de <argset><head>funcionamiento </head></argset>un volumen de contratación mensual en_torno_a 78 millones de pesetas , informó hoy a Efe el promotor de este mercado , Jenaro_García . </example>
+        <example file="CESS-CAST-A/17784_20000125.tbf.xml" nodepath="3.0.0.1.1.2.1.1.1.1.0" sentencenodepath="3">Más_que una propuesta concreta sobre cómo cambiar <argset><specifier>el</specifier><head>funcionamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las instituciones</argument></argset>, la contribución de la Comisión_Europea " marcará las pistas a seguir para la reforma " , señalaron hoy fuentes del Ejecutivo . </example>
+        <example file="CESS-CAST-A/17784_20000125.tbf.xml" nodepath="10.2.1.1.2.1.1.3.1.0" sentencenodepath="10">Estas tres modificaciones son las mínimas que deben hacerse para evitar que se paralice <argset><specifier>el</specifier><head>funcionamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las instituciones</argument></argset>cuando la UE tenga 20 ó 25 Estados miembros , cifra que hará muy difícil adoptar decisiones por_unanimidad . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="8.0.1.1.1.0" sentencenodepath="8">Para asegurar <argset><specifier>el</specifier><head>funcionamiento </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">transparente y eficaz</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del TDC y de la CNE</argument></argset>, el PSOE propone que los presidentes de ambos organismos comparezcan cada seis meses ante la Comisión_de_Economía_y_Hacienda del Congreso para informar de la competencia efectiva del mercado y los precios de los carburantes . </example>
+        <example file="CESS-CAST-AA/21460_20000526.tbf.xml" nodepath="5.3.1.1.1.1.1.0" sentencenodepath="5">Llamazares planteó además la necesidad de reformar <argset><specifier>el</specifier><head>funcionamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Tribunal_de_Defensa_de_la_Competencia , organismo que , en su opinión , ha recuperado parcialmente su credibilidad al haber sido oído hoy por el Gobierno , pero que debe pasar a ser un órgano independiente que tome decisiones vinculantes</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="8.2.0.1.0" sentencenodepath="8">Noruega vierte a la atmósfera unos 43 millones de toneladas de CO2 anuales , y <argset><specifier>el</specifier><head>funcionamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la polémica central eléctrica</argument></argset>elevaría esa cantidad , según la postura de la coalición centrista dimisionaria . </example>
+        <example file="CESS-CAST-AA/8633_20000114.tbf.xml" nodepath="2.0.2.1.0" sentencenodepath="2">El combustible salido de la refinería de Altona , en el estado de Victoria , dificulta <argset><specifier>el</specifier><head>funcionamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los motores</argument></argset>y , en ocasiones , Ø llega a causar que Ø dejen de funcionar . </example>
+        <example file="CESS-CAST-P/20_20000201_c.tbf.xml" nodepath="3.2.3.1.1.3.0.1.1.0" sentencenodepath="3">Pero debe resaltarse que la seguridad de las cárceles tiene dos planos : impedir que los presos escapen es estrictamente policial , y garantizar <argset><specifier>el</specifier><head>funcionamiento </head><reference_modifiers>ordinario</reference_modifiers></argset>corresponde a funcionarios civiles . </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="1.3.1.1.1.0.0" sentencenodepath="1">El Consejo_General_del_Poder_Judicial ( CGPJ ) ha suspendido provisionalmente una orden de <argset><head>funcionamiento </head><reference_modifiers>interno</reference_modifiers></argset>de la Audiencia_de_Barcelona dictada por su presidente , Francisco_Javier_Béjar , que el pasado mes_de_julio provocó la suspensión del juicio a un presunto violador por falta de jueces . </example>
+        <example file="CESS-CAST-P/97_19990602.tbf.xml" nodepath="3.0.1.1.1.1.0.0" sentencenodepath="3">Según Industria , las ayudas al <argset><head>funcionamiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las minas</argument></argset>superan anualmente los 80.000 millones y en un año y medio se han aprobado proyectos de infraestructuras por 125.000 millones . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

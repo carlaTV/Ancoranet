@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="entrenamiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="entrenar" originlink="verb.entrenar.1" wordnetsynset="16:00411620">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="14" postype="article" type="determiner"/>
+        <constituent frequency="15" type="void"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10080_20000914.tbf.xml" nodepath="1.0.3.0.0.1.0" sentencenodepath="1">" Ø Ha hecho muy pocas competiciones porque la IAAF tomó muy tarde la decisión de levantarle la suspensión , pero <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>entrenamientos </head></argset>han sido buenos aunque sus últimas marcas no lo hayan sido y Ø está en condiciones de ganar aquí " , comentó De_la_Torre . </example>
+        <example file="CESS-CAST-A/10952_20000714.tbf.xml" nodepath="6.3.1.1.0" sentencenodepath="6">El estado de la pista , muy mojada , favoreció a los pilotos en <argset><specifier>los</specifier><head>entrenamientos </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para la primera carrera</argument></argset>. </example>
+        <example file="CESS-CAST-A/10952_20000714.tbf.xml" nodepath="7.0.1.1.1.2.1.0.0" sentencenodepath="7">Por_contra , en la segunda sesión de <argset><head>entrenamientos </head></argset>, para la parrilla de la segunda carrera , que se disputará en domingo , la pista estaba ya seca y la situación varió sustancialmente , siendo los españoles Antonio_García y Angel_Burgueño los que coparon la primera fila , por_delante_del portugués Aguas y del italiano Burlotti . </example>
+        <example file="CESS-CAST-A/13853_20000918.tbf.xml" nodepath="3.0.3.1.1" sentencenodepath="3">Irureta dirigió hoy <argset><specifier>un</specifier><reference_modifiers>último</reference_modifiers><head>entrenamiento </head><argument argument="argM" function="cn" thematicrole="adv" type="sadv">a_puerta_cerrada</argument></argset>en Riazor y Ø anunció la lista de 19 convocados : Songo'o , Molina , Manuel_Pablo , Donato , Naybet , Hélder , Romero , Scaloni , Mauro_Silva , César_Sampaio , Emerson , Duscher , Fernando , Fran , Víctor , Valerón , Tristán , Pandiani y " Turu " Flores . </example>
+        <example file="CESS-CAST-A/13853_20000918.tbf.xml" nodepath="9.3.1.1.0" sentencenodepath="9">Irureta destacó en conferencia de prensa tras <argset><specifier>el</specifier><head>entrenamiento </head></argset>que " hay que apelar , como siempre , a nuestra afición para que Ø venga y Ø apoye al_máximo , que Ø nos anime " . </example>
+        <example file="CESS-CAST-A/15287_20001120.tbf.xml" nodepath="5.2.0.4.1.0.1.1.0.1.3.1.0" sentencenodepath="5">Celades estuvo hoy tocando balón junto_al preparador físico del equipo , Javier_Miñano , pero en ningún momento Ø se integró al trabajo del grupo , que realizó <argset><specifier>un</specifier><head>entrenamiento </head><reference_modifiers>de recuperación</reference_modifiers></argset>para los que jugaron en Villarreal , mientras_que los suplentes alargaron la sesión hasta los ochenta minutos de trabajo con un pequeño partido jugado en dimensiones reducidas . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="12.2.3.1.1.1.1.1.0" sentencenodepath="12">La vida de Freeman se ha visto alterada por la fama , las cámaras y las entrevistas por su estelar participación en la Ceremonia_Inaugural ; la de Perec se ha mantenido en el anonimato de <argset><specifier>los</specifier><head>entrenamientos </head></argset>. </example>
+        <example file="CESS-CAST-A/17070_20000321.tbf.xml" nodepath="4.4.1.0.2.4.1.2.1.1.0" sentencenodepath="4">En el estadio Olímpico_de_Villahermosa , cuyo césped luce descuidado , según la prensa , México tendrá en la banca al técnico Gustavo_Vargas , en quien el seleccionador oficial Manuel_Lapuente ha relegado la responsabilidad directa de <argset><specifier>los</specifier><head>entrenamientos </head></argset>. </example>
+        <example file="CESS-CAST-A/17231_20001122.tbf.xml" nodepath="6.2.3.4.1.1.1.1.2.1.0.0" sentencenodepath="6">Jirasek aseguró que Zatopek era una persona excepcionalmente inteligente , un gran observador de la naturaleza y un pionero de los métodos más modernos de <argset><head>entrenamiento </head></argset>para deportistas de alta competición : " todo lo que Ø emprendía Ø hacía con gran entusiasmo y poniendo toda la carne en el asador " . </example>
+        <example file="CESS-CAST-A/17638_20000322.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">Los hermanos Osa efectuarán <argset><specifier>el</specifier><head>entrenamiento </head></argset>junto_con sus compañeros Piépoli y Mancebo , con la esperanza de que el trabajo realizado les sirva " para estar adelante a la hora de la verdad " , según declaró a Efe Aitor . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="0.5.2.1.1.1.0.0" sentencenodepath="0">Los dobles campeones de la Serie_Mundial , los Yanquis_de_Nueva_York , no han podido dar la mejor imagen en su primera cita de la temporada , en el campo de <argset><head>entrenamiento </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de primavera</argument></argset>, donde Ø han estado fuera de control y con el peor récord de todos . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="3.1.1.1.4.1.1.0.2.1.2.2.1.1.1.0.0" sentencenodepath="3">Con sólo 10 días para que dé comienzo la nueva temporada , el equipo que , en_teoría , los expertos consideran está en mejor posición para defender el título de campeón , en el campo de <argset><head>entrenamiento </head></argset>no lo ha demostrado al haber conseguido sólo cinco triunfos . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="4.3.1.6.1.1.1.1.0.0" sentencenodepath="4">Sin_embargp , el manejador de los Yanquis , Joe_Torre , dijo que , aunque el equipo no ganase ni un solo partido más en el campo de <argset><head>entrenamiento </head></argset>, su confianza en los jugadores es completa . </example>
+        <example file="CESS-CAST-A/18886_20000323.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">Tras <argset><specifier>el</specifier><head>entrenamiento </head><reference_modifiers>que hoy tuvo la plantilla deportivista en las instalaciones de Acea_da_Ama</reference_modifiers></argset>, Pauleta insistió ante los periodistas en que Ø no hizo " nada para merecer una sanción de dos partidos " y Ø se mostró convencido de que eso mismo " lo hubiera hecho un jugador del Real_Madrid o del Barcelona Ø no le habrían castigado " . </example>
+        <example file="CESS-CAST-A/18968_20000223.tbf.xml" nodepath="8.0.1.2.1.0.0" sentencenodepath="8">La nota negativa del <argset><head>entrenamiento </head></argset>la protagonizó José_María_Gutiérrez 'Guti' , que se tuvo que retirar a la media hora de iniciarse la sesión por culpa de los golpes que Ø ha recibido en los últimos partidos en la zona costal y que le molestaban e impedían respirar con normalidad . </example>
+        <example file="CESS-CAST-A/18968_20000223.tbf.xml" nodepath="9.0.0.1.2.1.0.0" sentencenodepath="9">La salida de Guti del <argset><head>entrenamiento </head></argset>fue más una medida de precaución que otra cosa y se cuenta con su concurso el sábado en el estadio Santiago_Bernabéu . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="5.3.2.2.1.1.2.2.1.1.0" sentencenodepath="5">El caso Baumann empezó el otoño pasado , al dar positivo de nandralona en dos controles consecutivos , realizados en <argset><specifier>sendos</specifier><head>entrenamientos </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de octubre y noviembre_de_1999</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2252_20000704.tbf.xml" nodepath="1.3.1.4.2.0.1.1.0.0" sentencenodepath="1">Beatriz_Ferrer_Salat se prepara para competir , con su mejor caballo , " Robert_Beauvalais " , en el Concurso_de_Doma de Aquisgrán ( Alemania ) los días 15 y 16_de_julio , como base de <argset><head>entrenamiento </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para los Juegos</argument><reference_modifiers>antes de poner en cuarentena su monta a_primeros_de agosto</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/23199_20000927.tbf.xml" nodepath="0.4.1.1.4.1.1.0" sentencenodepath="0">El jugador del equipo de Primera_División de fútbol de la UD_Las_Palmas , Francisco_Ortíz " Paquito " , calificó hoy de " lamentable " la pelea que ayer protagonizaron sus compañeros Vincent_Samways ( inglés ) y Oktay_Derelioglu ( turco ) en <argset><specifier>un</specifier><head>entrenamiento </head></argset>. </example>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="13.0.3.1.1.1.0" sentencenodepath="13">Mañana , viernes , la jornada estará dedicada a <argset><specifier>los</specifier><head>entrenamientos </head><reference_modifiers>libres</reference_modifiers></argset>, mientras_que el Sábado , tras una nueva sesión libre se disputará la clasificación para establecer la formación de salida de la carrera del domingo . </example>
+        <example file="CESS-CAST-AA/24052_20000229.tbf.xml" nodepath="9.4.1.1.0" sentencenodepath="9">Por_otra_parte , la plantilla antoniana regresa esta tarde a <argset><specifier>los</specifier><head>entrenamientos </head><reference_modifiers>donde la principal preocupación es recuperar a los hombres lesionados para el partido del próximo Jueves ante el Airtel_Valencia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="0.2.1.2.1.0.0" sentencenodepath="0">El británico David_Coulthard ( McLaren_MP4/15_Mercedes ) ha dominado una jornada anodina de <argset><head>entrenamientos </head><reference_modifiers>libres</reference_modifiers></argset>del Gran_Premio_de_Francia , en la que tan_solo Ø ha rodado nueve vueltas , que le han sido suficientes para dejar al alemán Michael_Schumacher ( Ferrari_F1-2000 ) a dos décimas de segundo . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="2.0.0.1.1.0" sentencenodepath="2">Tras <argset><specifier>el</specifier><head>entrenamiento </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de hoy</argument></argset>, el técnico madridista dio las razones del descanso a dos jugadores básicos : " Ø tenemos que proteger a jugadores de la plantilla que están muy castigados " . </example>
+        <example file="CESS-CAST-AA/3900_20000906.tbf.xml" nodepath="0.2.1.1.0" sentencenodepath="0">Víctor_Muñoz , entrenador del Villarreal , mostró en <argset><specifier>el</specifier><head>entrenamiento </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">vespertino</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de hoy</argument></argset>el once inicial que probablemente debute en la liga el próximo domingo , en el estadio de El_Madrigal ante el Rayo_Vallecano , a_partir_de las 20:00_horas . </example>
+        <example file="CESS-CAST-AA/3900_20000906.tbf.xml" nodepath="4.4.2.1.1.1.1.0.0" sentencenodepath="4">La pareja de ataque la formarán Víctor y Marioni , aunque en el partidillo de <argset><head>entrenamiento </head></argset>el técnico alineó a ambos atacantes en el presumible equipo suplente . </example>
+        <example file="CESS-CAST-AA/6627_20000509.tbf.xml" nodepath="1.0.1.0.0.1.1.1.1.1.0.0" sentencenodepath="1">La primera de las tres jornadas de <argset><head>entrenamiento </head></argset>previstas en el trazado andaluz , después de la disputa el pasado domingo del Gran_Premio_de_España en Barcelona , estuvo marcada por la inestabilidad atmosférica , ya_que los pilotos tuvieron ocasión de rodar primero en_seco , luego en mojado y posteriormente de_nuevo en_seco . </example>
+        <example file="CESS-CAST-AA/6635_20000409.tbf.xml" nodepath="4.0.0.0.1.4.1.1.0" sentencenodepath="4">Marc_Gené , que había logrado el séptimo mejor tiempo en <argset><specifier>los</specifier><head>entrenamientos </head><reference_modifiers>libres</reference_modifiers><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de la mañana</argument></argset>, había realizado una buena salida en la que Ø había ganado tres posiciones , pero Ø tuvo la desgracia de que Jenson_Button rompió el motor de su coche justo delante suyo , Ø no pudo evitar pisar el aceite derramado en la pista y Ø terminó atrapado en el banco de arena de la variante del Tambuerello . </example>
+        <example file="CESS-CAST-AA/6773_20000112.tbf.xml" nodepath="1.2.3.0.1.0.1.1.0.0" sentencenodepath="1">Según un portavoz de las llamadas Fuerzas_de_Autodefensa , Japón posee 1.000.089 minas antipersonales y el remanente se conservará para cursos de <argset><head>entrenamiento </head></argset>de localización de minas y para las pruebas de equipo para destruir esas armas . </example>
+        <example file="CESS-CAST-AA/7642_20000309.tbf.xml" nodepath="0.3.2.1.1.1.0.0" sentencenodepath="0">El defensa del Valencia Joachim_Bjorklund ha asegurado hoy , a la conclusión del <argset><head>entrenamiento </head></argset>, que Ø prefiere que el Valencia continúe con su racha de victorias , aunque eso le cueste a él no jugar más de lo que le gustaría . </example>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="3.0.1.2.1.4.1.1" sentencenodepath="3">" Ø He oído decir que , según Golota , su combate conmigo será <argset><specifier>un</specifier><reference_modifiers>simple</reference_modifiers><head>entrenamiento </head></argset>, pero Ø juro que Ø está muy equivocado , que Ø me preparo con gran intensidad en Florida para darle una lección y que Ø se la daré " , informó Saleta en su página oficial de Internet . </example>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="11.0.1.2.1.1.0" sentencenodepath="11">" Ø Decidí reanudar <argset><specifier>los</specifier><head>entrenamientos </head></argset>para poder saltar nuevamente al ring , solamente para enfrentarme a Golota que es , para mí , el único adversario que me merece respeto en el boxeo mundial y Ø quiero dejar bien claro que , independientemente de cuál sea el resultado del combate , Ø me retiraré para siempre del boxeo " , declaró Saleta . </example>
+        <example file="CESS-CAST-AA/9155_20000712.tbf.xml" nodepath="4.0.1.1.2.1.2.1.0.0" sentencenodepath="4">Este miércoles , en el sexto día de <argset><head>entrenamiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del combinado colombiano</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la ciudad de Cali</argument></argset>, García volvió a practicar con cuatro defensores siendo Gonzalo_Martínez y Gerardo_Bedoya los dos laterales e Iván_Córdoba el líbero . </example>
+        <example file="CESS-CAST-AA/9246_20000713.tbf.xml" nodepath="3.5.2.1.1.1.0" sentencenodepath="3">El goleador se refirió al asunto durante un breve encuentro con los periodistas , poco antes de <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>entrenamientos </head><reference_modifiers>con la selección panameña que se prepara para su partido con México el próximo domingo , en Panamá , en las eliminatorias de la confederación de Fútbol ( antigua CONCACAF ) para el Mundial_de_Japón_y_Corea_del_Sur_2002</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/101_19990103.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Hiddink sigue atentamente <argset><specifier>el</specifier><head>entrenamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de sus jugadores</argument></argset>. </example>
+        <example file="CESS-CAST-P/143_20011101.tbf.xml" nodepath="2.2.1.4.3.1.2.0.0" sentencenodepath="2">Cavagnoud es la undécima víctima desde 1959 , entre campeones mundiales , que han fallecido en la pista durante una carrera o <argset><head>entrenamiento </head></argset>. </example>
+        <example file="CESS-CAST-P/74_20000903.tbf.xml" nodepath="2.5.4.1.1.0" sentencenodepath="2">Flores , sin_embargo , vio alterados sus planes ya_que Cristóbal y De_Lucas se lesionaron en <argset><specifier>el</specifier><head>entrenamiento </head><reference_modifiers>que la plantilla realizó ayer antes de partir hacia Grecia</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="entrenar" originlink="verb.entrenar.1" wordnetsynset="16:00411620">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19350_20001024.tbf.xml" nodepath="0.2.1.1.0" sentencenodepath="0">El centrocampista del Atlético_de_Madrid Juan_Gómez declaró tras <argset><specifier>el</specifier><head>entrenamiento </head><reference_modifiers>vespertino</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Cerro_del_Espino de Majadahonda , en Madrid ,</argument></argset>que Ø no ha rendido nada hasta la fecha con la camiseta rojiblanca . </example>
+        <example file="CESS-CAST-P/120_20010103.tbf.xml" nodepath="8.4.1.1.1.3.1.1.0" sentencenodepath="8">De_la_Peña , en_cambio , es baja por una lesión que Ø sufrió en <argset><specifier>el</specifier><head>entrenamiento </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de ayer</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

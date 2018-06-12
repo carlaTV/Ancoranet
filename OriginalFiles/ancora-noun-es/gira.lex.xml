@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="gira" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="girar" originlink="verb.girar.1" wordnetsynset="16:cs2">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="2" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">Por la Cancillería se sabe que <argset><specifier>la</specifier><head>gira </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">presidencial</argument><reference_modifiers>prevista entre el 16 y el 25_de_junio por varios países de la Organización_de_Países_Exportadores_de_Petróleo ( OPEP ) , con el fin de afinar detalles de_cara_a la II_Cumbre de ese cartel petrolero en Caracas ,</reference_modifiers></argset>está en el alero hasta que se fijen los comicios . </example>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="16.4.1.1.3.5.6.1.1.0" sentencenodepath="16">Pero la opinión de Vargas_Llosa fue considerada como una intromisión en los asuntos políticos internos de México por un sector radical del PRI , que incluso solicitó su expulsión del país , cuando el escritor ya había viajado a Costa_Rica en <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>gira </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para presentar su más reciente libro , " La_fiesta_del_chivo "</argument></argset>. </example>
+        <example file="CESS-CAST-AA/9923_20001114.tbf.xml" nodepath="12.3.1.0" sentencenodepath="12">El jefe de Estado chileno comenzó el pasado 10_de_noviembre <argset><specifier>una</specifier><head>gira </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">por nueve países de Oceanía , Asia y América</argument></argset>, acompañado por su ministro de Economía , José_de_Gregorio , y por el subsecretario de Relaciones_Exteriores , Heraldo_Muñoz , además_de otros asesores en materia económica . </example>
+        <example file="CESS-CAST-P/135_20000202.tbf.xml" nodepath="1.0.1.1.3.1.1.0" sentencenodepath="1">Un concierto que se encuadra en <argset><specifier>una</specifier><head>gira </head><reference_modifiers>que pasará por Francia , país donde el año pasado consiguió un Disco_de_Oro</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/135_20000202.tbf.xml" nodepath="2.3.1.1" sentencenodepath="2">A_punto para celebrar el 20º aniversario de su primer sencillo , El_ascensor , Luz brinda <argset><specifier>una</specifier><reference_modifiers>nueva</reference_modifiers><head>gira </head></argset>a las texturas adultas de su nuevo disco , Un_mar_de_confianza . </example>
+        <example file="CESS-CAST-P/149_20020501.tbf.xml" nodepath="4.2.2.2.0.1.1.1.0" sentencenodepath="4">Ø Sigue las pautas del que inventó Sega en Space_Channel con el personaje de Ulala , una chica mona con coletas azules que bailaba al son del jugador , e Ø incluye fotos de la diva y vídeos de <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>giras </head></argset>. </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="25.4.1.0" sentencenodepath="25">Además , en un gesto que ha permitido una auténtica reconciliación nacional , Mohamed_VI realizó <argset><specifier>una</specifier><head>gira </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">por el norte del país</argument><reference_modifiers>en la que prometió a los bereberes del Rif que , con él , se habían terminado las cuatro décadas de abandono oficial a las que les condenó Hassan_II por sus tendencias rebeldes</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="100.2.2.1.0.0" sentencenodepath="100">Sí , seguro , Ø saldrán de <argset><head>gira </head></argset>, Ø no lo pueden evitar y Ø lo respeto . </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="101.1.8.0.0" sentencenodepath="101">Ultimamente todos ellos me dejan mensajes en el contestador : ' ¡ Hey , Bill , si te hace_falta trabajo , el año que viene Ø tenemos <argset><head>gira </head></argset>! ' </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="causative">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="19.2.1.1.0" sentencenodepath="19">Todos estos movimientos coinciden con <argset><specifier>la</specifier><head>gira </head><reference_modifiers>que realiza por la región del Golfo una delegación del Departamento_de_Estado norteamericano que tiene como objetivo aunar fuerzas para derrocar a Sadam_Husein</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="girar" originlink="verb.girar.1" wordnetsynset="16:cs2">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="4" preposition="por" type="sp"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/11598_20000715.tbf.xml" nodepath="0.4.1.2.2.2.1.2.1.1.0" sentencenodepath="0">Los Reyes_de_España , Juan_Carlos y Sofía , experimentaron hoy un abrupto cambio de clima al dejar la calurosa región amazónica brasileña y llegar a la fría zona andina , en la segunda etapa de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>gira </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">por Suramérica</argument></argset>. </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="1.2.0.1.1.2.1.1.0" sentencenodepath="1">Los Lakers han sido el centro de atención durante toda la liga por sus triunfos , pero en las dos últimas jornadas en <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>gira </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">por tierras tejanas</argument></argset>Ø han sufrido dos derrotas muy significativas en_vísperas de comenzar la primera ronda de la fase final contra los Kings_de_Sacramento . </example>
+        <example file="CESS-CAST-AA/2005_20000904.tbf.xml" nodepath="4.3.1.1.1" sentencenodepath="4">La idea de que la voracidad fiscal de los mayores consumidores es la principal responsable de los altos precios internacionales de las gasolinas y otros derivados del crudo la lanzó durante <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>reciente</reference_modifiers><head>gira </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">por los países de la OPEP</argument></argset>el presidente de Venezuela , Hugo_Chávez , quien dijo que los productores sólo quieren un precio " justo " para el petróleo . </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="1.3.1.1.2.1.1.0.3.4.1.1.0" sentencenodepath="1">Matutes hizo estas declaraciones en una conferencia de prensa celebrada junto_al canciller cubano , Felipe_Pérez_Roque , que hizo escala en España dentro_de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>gira </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">por diversos países europeos</argument></argset>para explicar , según dijo Ø , el " drama " que vive Elián en los Estados_Unidos , " retenido por la fuerza e impedido de reunirse con su padre y su verdadera familia en Cuba " . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="girar" originlink="verb.girar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/16_20020601_c.tbf.xml" nodepath="1.3.1.2.1.2.3.1.1.0" sentencenodepath="1">EL CANDIDATO socialista cuenta desde ayer con una nueva web ( www.araMaragall.com ) y un boletín de campaña , que será repartido en <argset><specifier>la</specifier><head>gira </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">por Catalunya</argument><reference_modifiers>que ayer inició en Lleida</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="girar" originlink="verb.girar.2" wordnetsynset="16:cs2">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="2" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="7.0.1.2.2.1.1" sentencenodepath="7">La visita oficial , en <argset><specifier>la</specifier><reference_modifiers>primera</reference_modifiers><head>gira </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del nuevo presidente de Rusia</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">al extranjero</argument></argset>, tendrá_lugar los próximos días 13 y 14 , de_acuerdo_con el comunicado oficial . </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="3.4.1.1.0" sentencenodepath="3">Pérez_Roque , portador de un mensaje personal del presidente Fidel_Castro al jefe de Estado interino y primer ministro de Rusia , Vladímir_Putin , llegó anoche a Rusia tras <argset><specifier>una</specifier><head>gira </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">por Italia , Francia y Dinamarca</argument></argset>. </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="0.6.0.1.1.1.1" sentencenodepath="0">- - Ahora que Ø tiene su propio grupo , los modestos The_Rhythm_Kings , ¿ echa_de_menos Ø algo de <argset><specifier>las</specifier><reference_modifiers>grandes</reference_modifiers><head>giras </head><reference_modifiers>con los Rolling_Stones</reference_modifiers></argset>? - - . </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="97.7.3.1.0.0" sentencenodepath="97">- - Hablando de grandezas , ¿ cree usted que los Rolling_Stones volverán a salir de <argset><head>gira </head></argset>otra vez ? - - . </example>
+        <example file="CESS-CAST-P/45_20020103.tbf.xml" nodepath="12.4.1.0" sentencenodepath="12">Con la intención de avanzar en esa senda , el primer ministro británico , Tony_Blair , empezará mañana <argset><specifier>una</specifier><head>gira </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">por Pakistán y la India</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

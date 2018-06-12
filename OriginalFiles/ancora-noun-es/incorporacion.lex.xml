@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="incorporación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="event" id="1" lexicalized="no" originlemma="incorporar" originlink="verb.incorporar.1" wordnetsynset="16:00239807">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-AA/6498_20000409.tbf.xml" nodepath="2.2.1.1.1.0.1.1.2.4.1.2.1.1.3.1.1.0" sentencenodepath="2">En esta lista , aprobada el pasado viernes por la Comisión_Nacional_del_Mercado_de_Valores ( CNMV , órgano regulador ) , destaca la ausencia de Sogecable , compañía candidata que no estará presente al no haber completado los requisitos que Ø debe reunir para <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>incorporación </head></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="incorporar" originlink="verb.incorporar.2" wordnetsynset="16:00239807">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="4" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="0.4.1.1.2.1.1.2.1.1.1.1.1.1.0.3.1.1.0" sentencenodepath="0">La patronal vasca , Confebask , llamó hoy la atención sobre la existencia en la Comunidad_Autónoma_Vasca de 18.000 puestos de trabajo sin cubrir debido_a la falta de mano de obra adecuada , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuya</argument><head>incorporación </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">al mercado laboral</argument></argset>reduciría las previsiones sobre la tasa de paro para el año_2003 en dos puntos . </example>
+        <example file="3LB-CAST/d2-0.tbf.xml" nodepath="5.0.2.1.1" sentencenodepath="5">David_García , Casero y López_Uriarte son <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><reference_modifiers>últimas</reference_modifiers><head>incorporaciones </head></argset>y ya lo fueron el año pasado Arrieta y Jiménez . </example>
+        <example file="CESS-CAST-A/13026_20001117.tbf.xml" nodepath="6.3.1.2.1.1.1.4.1.1.0" sentencenodepath="6">Para participar en los planes de defensa común europea el gobierno danés tendría que celebrar un referéndum para consultar a la población , similar al que Ø hizo el pasado septiembre sobre <argset><specifier>la</specifier><head>incorporación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del euro</argument></argset>. </example>
+        <example file="CESS-CAST-A/14423_20000317.tbf.xml" nodepath="3.4.2.1.1.1" sentencenodepath="3">Según Carmen_Quintanilla , " esa desventaja en el mundo laboral es consecuencia de la reticencia de las empresas españolas a contratar mujeres y por <argset><specifier>la</specifier><reference_modifiers>tardía</reference_modifiers><head>incorporación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la mujer</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">al trabajo</argument></argset>" . </example>
+        <example file="CESS-CAST-A/15386_20000720.tbf.xml" nodepath="0.4.1.1.0" sentencenodepath="0">La productora audiovisual Media_Park entrará en el mercado latinoamericano de canales temáticos en el 2001 tras <argset><specifier>la</specifier><head>incorporación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Telefónica</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a su accionariado</argument></argset>, según los planes de la sociedad detallados a EFE por su director de expansión corporativa , Francisco_Fernández_Ontiveros . </example>
+        <example file="CESS-CAST-AA/7600_20001010.tbf.xml" nodepath="2.4.1.1.0" sentencenodepath="2">" Para mí es un honor formar_parte de esta organización . Ø Es un orgullo que Ø no lo puedo describir y Ø quiero decirles a ustedes que Ø deben mantener los corazones puros para entregar lo mejor en cualquier situación de sus vidas " , dijo Aguinaga durante <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>incorporación </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a los Scouts</argument></argset>. </example>
+        <example file="CESS-CAST-P/125_20020202.tbf.xml" nodepath="7.0.0.1.2.3.1.1.1.1.0.1.1.1.1" sentencenodepath="7">Este clima de frialdad , motivado principalmente por la diversidad de origen de <argset><specifier>las</specifier><reference_modifiers>nuevas</reference_modifiers><head>incorporaciones </head></argset>, se notó en la boda de Haakon y Mette-Marit y Ø se ha puesto de_nuevo de_evidencia en Holanda , donde la generación joven parece aburrirse bastante . </example>
+        <example file="CESS-CAST-P/71_20000903.tbf.xml" nodepath="2.0.3.3.2.1.0" sentencenodepath="2">" La plantilla está cerrada , pero Ø no descarto que haya <argset><specifier>alguna</specifier><head>incorporación </head></argset>en diciembre " , anunció Gaspart en la madrugada del viernes , tras cenar con Lluís_Bassat , el candidato derrotado en las elecciones , en la peña barcelonista de Sant_Andreu_de_Llavaneres . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="passive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17070_20000321.tbf.xml" nodepath="8.4.0.1.0" sentencenodepath="8">El cuadro venezolano presentará como novedades ante México <argset><specifier>la</specifier><head>incorporación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del delantero Juan_Arango , quien juega en el club Saltillo de la división de ascenso del fútbol mexicano ,</argument></argset>y a Ruberth_Morán , quien milita en el Córdoba de la segunda división española . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="14.3.2.1.0" sentencenodepath="14">" Con el tiempo , ese paso le ha dado otra personalidad a la empresa " , asegura Ø , junto_con <argset><specifier>las</specifier><head>incorporaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la segunda generación</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la empresa familiar</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="incorporar" originlink="verb.incorporar.2" wordnetsynset="16:00239807">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="4" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="15.2.1.0.1.1.0.0" sentencenodepath="15">Spanair está en fase de <argset><head>incorporación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nuevos Airbus del modelo 321</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a su flota</argument></argset>, a los que Ø va dando el nombre de personajes famosos españoles actuales . </example>
+        <example file="CESS-CAST-AA/24699_20000229.tbf.xml" nodepath="1.3.1.1.1.2.3.1.1.1.0" sentencenodepath="1">Botella ha animado a las leridanas a aprovechar las medidas económicas y sociales que ha promovido el Ejecutivo del PP para impulsar <argset><specifier>la</specifier><head>incorporación </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">al mundo laboral</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la mujer</argument></argset>. </example>
+        <example file="CESS-CAST-P/176_20010301.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">Esto es posible gracias_a <argset><specifier>la</specifier><head>incorporación </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">al box</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un disco duro de 30 gigabits de capacidad , que permitirán al usuario guardar 16 horas con la máxima calidad del sistema ( lo que equivale a ocho películas de dos horas ) o 20 horas , con una definición media</argument></argset>. </example>
+        <example file="CESS-CAST-P/38_19990902_b.tbf.xml" nodepath="1.2.2.1.1.0" sentencenodepath="1">El presidente de Melilla , que ayer formalizó el pacto con el PIM de Enrique_Palacios , apeló a la responsabilidad de populares y socialistas , y Ø destacó que <argset><specifier>la</specifier><head>incorporación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de éstos</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a su Gobierno</argument></argset>supondría un hecho histórico en la democracia española " porque Ø sería la primera vez que las dos fuerzas se unirían en un Ejecutivo autonómico " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="incorporar" originlink="verb.incorporar.2" wordnetsynset="16:00239807">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/14943_20001019.tbf.xml" nodepath="7.2.1.2.3.2.1.0.1.1.2.1.0" sentencenodepath="7">" Croacia cambió rápido , las cosas pueden cambiar rápido " , destacó la fuente de la OTAN , que sostuvo que en los miembros de la ASP " son todos países democráticos " y que rehusó hacer predicciones sobre cuándo puede producirse <argset><specifier>la</specifier><head>incorporación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Yugoslavia</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="56.0.1.0" sentencenodepath="56"><argset><specifier>La</specifier><head>incorporación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Anna_Birulés</argument></argset>también lo será . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

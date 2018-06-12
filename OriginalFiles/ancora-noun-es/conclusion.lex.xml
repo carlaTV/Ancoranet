@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="conclusión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="concluir" originlink="verb.concluir.1" wordnetsynset="16:04456658+16:05059980">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="11" postype="article" type="determiner"/>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="11" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="relatiu"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="5.2.1.0" sentencenodepath="5">Supone esto <argset><specifier>una</specifier><head>conclusión </head><reference_modifiers>importante</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">en el sentido de que , a_pesar_de la ventaja electroquímica que supone , la fusión de sus anillos aromáticos origina una excesiva distorsión de la planaridad molecular</argument></argset>. </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="7.5.1.1.0" sentencenodepath="7">Finalmente , a la vista de la variedad de enfoques y de la intensidad del interés despertado por la cultura en nuestro siglo , se podría llegar con Morin a <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que aquello que diferencia entre sí a las diversas ideas de cultura es - la amplitud del sistema , la extensión del saber , el campo de la experiencia existencial y las normas y modelos de ellos extraídos por el punto de vista antropológico . etnográfico , sociológico o culturalista -</argument></argset>. </example>
+        <example file="3LB-CAST/r2-3.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>Las</specifier><head>conclusiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la comisión Ibercorp , que ampliará el plazo de trabajo ,</argument></argset>quedan para después del verano . </example>
+        <example file="3LB-CAST/t5-9.tbf.xml" nodepath="18.3.0.0" sentencenodepath="18">De aquella breve pero intensa experiencia Antonia extrajo <argset><head>conclusiones </head><reference_modifiers>importantes</reference_modifiers><reference_modifiers>, a_saber : Que a Rafael le gustaba fumar puros</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="0.0.3.1.1.0" sentencenodepath="0">Rusia llegó hoy a <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que no hay conclusiones definitivas sobre el naufragio del submarino nuclear " Kursk "</argument></argset>, pero Ø se aferró sin pruebas a su tesis sobre la colisión con otro buque extranjero . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="0.0.3.1.1.1.1.3.0.0" sentencenodepath="0">Rusia llegó hoy a la conclusión de que no hay <argset><head>conclusiones </head><reference_modifiers>definitivas</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre el naufragio del submarino nuclear " Kursk "</argument></argset>, pero Ø se aferró sin pruebas a su tesis sobre la colisión con otro buque extranjero . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">Iliá_Klebánov , viceprimer ministro y presidente de la comisión gubernamental , anunció <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>conclusiones </head><reference_modifiers>finales</reference_modifiers></argset>tras dos meses de trabajo en_torno_al naufragio y a la muerte de sus 118 tripulantes , la mayor catástrofe en la historia de la Armada rusa . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="3.2.1.1" sentencenodepath="3">Pero tras cuatro horas de reunión en la sede de la empresa Rubin , que diseñó el submarino , <argset><specifier>la</specifier><reference_modifiers>principal</reference_modifiers><head>conclusión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la comisión</argument></argset>fue que no hay conclusiones definitivas . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="3.4.3.0.0" sentencenodepath="3">Pero tras cuatro horas de reunión en la sede de la empresa Rubin , que diseñó el submarino , la principal conclusión de la comisión fue que no hay <argset><head>conclusiones </head><reference_modifiers>definitivas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="1.0.3.1.1.1.1.0" sentencenodepath="1">La decisión fue tomada por el Ministerio_de_Economía tras llegar a <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que el incremento en el volumen de captura de la merluza , " a_partir_de un posible exceso de licencias para la pesca " , está poniendo en riesgo ese recurso natural</argument></argset>, informó el secretario de Programación_Macroeconómica_y_Regional , Miguel_Bein . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="1.0.1.1.1.1.0.0" sentencenodepath="1">En el borrador de <argset><head>conclusiones </head></argset>del Consejo_Europeo que los líderes de la UE examinan hoy en Feira ( Portugal ) , la UE se declara dispuesta a revisar en julio , bajo la nueva presidencia francesa , la situación de la cooperación con Rusia . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="8.0.1.1.1.1.0.0" sentencenodepath="8">En el borrador de <argset><head>conclusiones </head></argset>del Consejo_Europeo de Feira los Quince insisten en que la UE debe mantener una relación fuerte y saludable con Rusia , basada en los valores comunes como el respeto de los derechos humanos y las libertades fundamentales . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="2.1.0.3.1.1.1.0" sentencenodepath="2">Al término de la Cumbre_de_Lisboa , Aznar se felicitó de que <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">conclusiones </head><reference_modifiers>de la reunión</reference_modifiers></argset>hayan recogido " de forma mayoritaria " sus iniciativas de reforma económica y Ø consideró " asumibles " para España todos los objetivos fijados en esta cumbre . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="3.2.4.1.1.1.1.1.0.0" sentencenodepath="3">Aznar reconoció que a él le habría gustado " ir más rápido " en la liberalización de determinados sectores , pero Ø consideró " positivo " el resultado logrado hoy en esta materia , en_la_medida_que el documento de <argset><head argument="arg1" thematicrole="pat">conclusiones </head></argset>compromete a los Quince a acelerar la integración de mercados como los transportes y la energía y que la UE ha emprendido en Lisboa un camino " irreversible " . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="8.2.0.5.0.0" sentencenodepath="8">El secretario de Estado para Asuntos Europeos admitió que en el último Consejo_Europeo_de_Biarritz no se extrajeron <argset><head>conclusiones </head><reference_modifiers>definitivas</reference_modifiers></argset>, pero que su resultado fue " plenamente satisfactorio " . </example>
+        <example file="CESS-CAST-AA/2531_20000303.tbf.xml" nodepath="4.3.1.1.0" sentencenodepath="4">En su estudio , el Hospital llegó a <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que más de la mitad de las prostitutas sufría la explotación por_parte_de terceros y que cerca de un veinte_por_ciento eran menores de edad</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4738_20001107.tbf.xml" nodepath="3.1.3.1.0.0" sentencenodepath="3">" Para Portela , el texto de la respuesta de la comisaria Diamantoupoulou lleva a <argset><head argument="arg1" thematicrole="pat">conclusiones </head><reference_modifiers>muy claras</reference_modifiers></argset>. Los jugadores afectados tienen derecho a las mismas condiciones laborales que los jugadores nacionales , por lo que si a un jugador nacional se le tramita la licencia y a uno de estos jugadores no , es evidente que no se les está dando el mismo trato " . </example>
+        <example file="CESS-CAST-P/139_20010103.tbf.xml" nodepath="2.2.1.1" sentencenodepath="2">Esa es <argset><specifier>la</specifier><reference_modifiers>principal</reference_modifiers><head>conclusión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del último informe publicado por la consultora DBK</argument></argset>. </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="9.2.1.1.1.1.2.2.0.0.1.0" sentencenodepath="9">El estudio comparativo de dos cohortes con estas características fue el objeto de mi tesis doctoral presentada en la Universitat_de_Barcelona hace ahora seis años y <argset><reference_modifiers>cuyas</reference_modifiers><head>conclusiones </head><reference_modifiers>globales</reference_modifiers></argset>no sorprendieron a nadie : aquel colectivo MIR mostró mejor nivel de competencia clínica que el resto , si_bien las diferencias fueron más destacadas en los aspectos de conocimientos que en los que analizaban más las cualidades del ejercicio profesional en sí . </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="4.2.1.0" sentencenodepath="4">Las comisiones deberán presentar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>conclusiones </head></argset>al Consejo_de_Seguridad antes del 15_de_abril . </example>
+        <example file="CESS-CAST-P/26_19981201.tbf.xml" nodepath="4.0.3.4.1.0" sentencenodepath="4">" Ø Creemos que si como Ø ha ocurrido en Chile , los ciudadanos de un estado democrático están luchando por compaginar la necesidad de equilibrio y la exigencia de justicia con los requisitos de la reconciliación , se deben respetar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>conclusiones </head></argset>" , dijo Ø . </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="124.3.1.1.0" sentencenodepath="124">Con la edad uno llega a <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que es imposible cambiar las cosas importantes</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="15.2.1.1" sentencenodepath="15">Esta es <argset><specifier>la</specifier><reference_modifiers>principal</reference_modifiers><head>conclusión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los diferentes ensayos clínicos que se desarrollan en España sobre la eficacia de la píldora contra la impotencia</argument></argset>. </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="3.2.1.1.1.1.0" sentencenodepath="3">La policía y la Guardia_Civil deberán hacer un informe con <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head argument="arg1" thematicrole="pat">conclusiones </head></argset>. </example>
+        <example file="CESS-CAST-P/67_19990901.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">El centro médico de la Universidad_Duke_de_Carolina_del_Norte ( EEUU ) ha llegado a <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que las articulaciones de Barbie , fabricada por la casa Mattel en California , pueden utilizarse como nudillos para dedos artificiales</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="concluir" originlink="verb.concluir.3" wordnetsynset="16:05438121+16:00137299+16:10966461+16:00035222">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="0.2.3.1.3.1.1.1.1.1.0" sentencenodepath="0">El Rayo_Vallecano derrotó por primera vez al Deportivo_de_La_Coruña ( 2-0 ) en partido liguero de la máxima categoría del fútbol español y Ø privó al equipo gallego de asegurarse virtualmente el título a_falta_de cinco jornadas para <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del campeonato</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="1.0.0.1.4.1.3.1.1.1.2.1.1.1.1.1.0" sentencenodepath="1">Comentario : El Valencia logró conservar por segunda jornada consecutiva el liderato liguero al imponerse a_domicilio a Osasuna , que sigue sin ganar en El_Sadar en la presente temporada , en un encuentro resuelto por los de Héctor_Cúper a_falta_de cinco minutos para <argset><specifier>la</specifier><head>conclusión </head></argset>con un gol del noruego Carew . </example>
+        <example file="CESS-CAST-AA/7642_20000309.tbf.xml" nodepath="0.3.2.1.0" sentencenodepath="0">El defensa del Valencia Joachim_Bjorklund ha asegurado hoy , a <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del entrenamiento</argument></argset>, que Ø prefiere que el Valencia continúe con su racha de victorias , aunque eso le cueste a él no jugar más de lo que le gustaría . </example>
+        <example file="CESS-CAST-P/30_20020801_a.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Tras la firma del convenio , el secretario de Estado de Infraestructuras , Benigno_Blanco , anunció <argset><specifier>la</specifier><head>conclusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la negociación que mantenía Renfe con su homóloga alemana para alquilar dos trenes AVE_IC3 de Siemens</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

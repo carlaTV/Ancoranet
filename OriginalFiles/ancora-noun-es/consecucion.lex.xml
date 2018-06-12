@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="consecución" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="event" id="1" lexicalized="no" originlemma="conseguir" originlink="verb.conseguir.1" wordnetsynset="16:00020977+16:00025788">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="7.2.3.1.1.0" sentencenodepath="7">El representante de los empresarios madrileños aseguró que " el siglo_XXI será el siglo de la ciencia y la tecnología " , y Ø ofreció el apoyo " activo " de la CEIM en <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los retos fijados por el Gobierno en esta materia</argument></argset>. </example>
+        <example file="CESS-CAST-A/16875_20000321.tbf.xml" nodepath="2.2.7.2.1.0.3.3.1.1.1.1.1.4.1.1.0.2.1.1.1.0" sentencenodepath="2">Bell afirmó que la democracia de Colombia " es hoy una democracia amenazada " , por lo que Ø aseguró que la lucha contra la violencia y el narcotráfico es la prioridad de las autoridades , que se esfuerzan en hacer mejoras legislativas y políticas encaminadas a <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la paz</argument></argset>. </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">En_cuanto_a <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un empleo de más calidad</argument></argset>, Méndez apuntó que " los problemas del mercado laboral no tienen relación con las garantías económicas y con los derechos de los trabajadores con contrato indefinido , ya_que esta situación está adecuadamente resuelta , sino con los trabajadores contratados " . </example>
+        <example file="CESS-CAST-P/86_20000401.tbf.xml" nodepath="13.2.3.1.1.1.0" sentencenodepath="13">Con la reorganización de las terminales se persigue una mejora de la calidad del servicio , pero el olvido de la señalización no colabora precisamente en <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del objetivo</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="conseguir" originlink="verb.conseguir.1" wordnetsynset="16:00025788">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20070_20000525.tbf.xml" nodepath="6.1.1.1.1.1.0" sentencenodepath="6">Precisamente , la dificultad para <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las firmas</argument></argset>fue una de las razones fundamentales que llevaron a la fusión de todos los aspirantes a desbancar a Núñez en una sola lista . </example>
+        <example file="CESS-CAST-AA/20525_20000325.tbf.xml" nodepath="4.3.1.1.0" sentencenodepath="4">A este respecto , Ø comentó que <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de otra tregua</argument></argset>no depende del PNV , EH o EA , partidos que , en su opinión , son los que " más directamente están acusando los efectos " de la " no distensión " cuando Ø han sido quienes " más han invertido " para que Ø se produjera . </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="4.0.2.1.1.0" sentencenodepath="4">Ø Explicó que <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de este logro</argument></argset>se debe a " la generosa donación del marqués de Lorenzana " , y Ø dijo que la restauración " piedra_a_piedra " y la remodelación del palacio ha sido una labor en la que la Junta extremeña , " con su presidente a_la_cabeza " , ha invertido 61 millones de pesetas y Ø ha provocado " desvelos , sinsabores y esperanzas " . </example>
+        <example file="CESS-CAST-P/68_19991201.tbf.xml" nodepath="9.4.1.0" sentencenodepath="9">El juego , añadió Ø , promociona " <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del éxito</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">a cualquier precio</argument></argset>, incluso drogándose " . </example>
+        <example file="CESS-CAST-P/74_20000903.tbf.xml" nodepath="11.2.1.2.1.1.2.3.1.1.0" sentencenodepath="11">Flores recordó el agradecimiento que Ø hizo a los aficionados por el apoyo decisivo que Ø protagonizaron en <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del título de Copa</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="14.3.4.3.2.1.1.1.0" sentencenodepath="14">No_obstante , Ø añadió que en el debate sobre los Presupuestos_del_Estado se estudiará si es posible bajar el impuesto sin perjudicar <argset><specifier>la</specifier><head>consecución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ese objetivo</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="oscilación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="oscilar" originlink="verb.oscilar.1" wordnetsynset="16:05472915">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-13.tbf.xml" nodepath="2.2.1.4.2.2.1.1.1.0.0" sentencenodepath="2">La idea consistía en lanzar , con un cohete Scout-D , un reloj máser de hidrógeno , por_aquel_entonces el más exacto del mundo , a 10.000 kilómetros de altura , con_objeto_de comparar por telemetría su frecuencia de <argset><head>oscilación </head></argset>con la de otro reloj idéntico situado en tierra . </example>
+        <example file="3LB-CAST/dc2-13.tbf.xml" nodepath="4.3.1.1.1.0.0" sentencenodepath="4">Por_fin , en el punto más alto de la trayectoria balística del cohete , cuando la velocidad quedó igualada a cero , la frecuencia de <argset><head>oscilación </head></argset>del reloj volante resultó ser más alta que la del reloj situado en tierra . </example>
+        <example file="3LB-CAST/dc2-13.tbf.xml" nodepath="7.2.1.1.1.1.2.0" sentencenodepath="7">El desplazamiento medido fue de casi un herzio <argset>( <specifier>una</specifier>
+            <head>oscilación </head>
+            <argument argument="argM" function="cn" thematicrole="mnr" type="sp">por segundo</argument>) </argset>sobre una frecuencia de funcionamiento de 1.420 megaherzios , lo que equivale a cuatro partes sobre 10.000 millones . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

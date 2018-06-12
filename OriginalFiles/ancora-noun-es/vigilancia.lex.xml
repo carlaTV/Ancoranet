@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="vigilancia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="vigilar" originlink="verb.vigilar.1" wordnetsynset="16:00428474">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="durante" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14013_20000120.tbf.xml" nodepath="11.4.2.1.0.0" sentencenodepath="11">En tres de ellos fueron hallados nueve cadáveres y un laboratorio para procesar cocaína , se incautaron armas de fuego y cinco personas están bajo <argset><head>vigilancia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">policial</argument></argset>mientras concluye la investigación . </example>
+        <example file="CESS-CAST-A/17937_20000723.tbf.xml" nodepath="5.4.1.1.1.0" sentencenodepath="5">Así , Ø han emitido varios reglamentos para reforzar <argset><specifier>la</specifier><head>vigilancia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">monetaria</argument></argset>en las instituciones financieras y bancarias . </example>
+        <example file="CESS-CAST-AA/2692_20000705.tbf.xml" nodepath="6.2.1.1.0" sentencenodepath="6">Entre estas demandas destacan " <argset><specifier>la</specifier><head>vigilancia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">policial</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">durante las 24 horas del día</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los campamentos de refugiados</argument></argset>y la separación de los malos elementos que viven en las instalaciones " , según la ACNUR . </example>
+        <example file="CESS-CAST-AA/2735_20000504.tbf.xml" nodepath="7.2.2.4.1.1.0" sentencenodepath="7">Sin_embargo , el pasado abril , el magistrado le restituyó como presidente y Ø le devolvió la gestión del club bajo <argset><specifier>la</specifier><head>vigilancia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de dos interventores del Estado</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="4.2.1.3.3.1.1.0.6.0" sentencenodepath="4">El mandatario anunció un incremento del Impuesto_a_las_Transferencias_de_Bienes_Industriales ( ITBIS ) del 8 al 12_por_ciento , que afectará , entre otros , a <argset>seguros , publicidad , pasajes aéreos , <head>vigilancia </head>, alquiler de locales y juegos de azar </argset>. </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="5.1.4.2.1.4.1.0.0" sentencenodepath="5">Según otro sondeo de CNN , USA_Today y Gallup , el 58% de los estadounidenses quiere que se les someta a más controles , el 49% pide para ellos carnets de identificación especiales y el 32% apuesta por que se les coloque bajo <argset><head>vigilancia </head><reference_modifiers>especial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="18.4.1.1.1.1.2.1.0.0.0" sentencenodepath="18">En 13 supuestos se acordó el año pasado el establecimiento de un servicio policial de <argset><head>vigilancia </head>y protección personal de la víctima </argset>. </example>
+        <example file="CESS-CAST-P/25_20011101.tbf.xml" nodepath="0.2.4.2.3.0.1" sentencenodepath="0">El Grupo_de_Acción_Financiera_Internacional ( GAFI ) ha anunciado que Ø extenderá sus acciones para perseguir las fuentes de financiación del terrorismo internacional , precisando que Ø prestará <argset><reference_modifiers>especial</reference_modifiers><head>vigilancia </head></argset>a las cuentas bancarias de las ONG . </example>
+        <example file="CESS-CAST-P/2_20020302.tbf.xml" nodepath="2.2.1.1.0.1" sentencenodepath="2">El objetivo es tener bajo <argset><reference_modifiers>permanente</reference_modifiers><head>vigilancia </head></argset>los principales puntos negros de la ciudad , aunque , tal_y_como admiten los responsables de Vía_Pública , en todos los casos no será posible instalar una cámara . </example>
+        <example file="CESS-CAST-P/37_19990301.tbf.xml" nodepath="8.0.4.1.2.1.0" sentencenodepath="8">Ø También se queja de que existe <argset><specifier>poca</specifier><head>vigilancia </head></argset>: " Ø Es un rincón muy solitario " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="vigilar" originlink="verb.vigilar.1" wordnetsynset="16:00428474+16:03676672+16:04408435">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/16545_20000620.tbf.xml" nodepath="1.3.2.1.1.2.1.4.1.1.0" sentencenodepath="1">Chávez no quiso responder , por desconocerlas , a las afirmaciones de estadounidenses de que su decisión de prohibir el sobrevuelo en su territorio de aeronaves norteamericanas en las acciones antidrogas habría creado un " agujero negro " en <argset><specifier>la</specifier><head>vigilancia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">regional</argument></argset>que los traficantes sabrían aprovechar . </example>
+        <example file="CESS-CAST-A/16545_20000620.tbf.xml" nodepath="7.3.1.2.5.1.2.1.1.4.1.1.0" sentencenodepath="7">Los medios locales divulgaron hoy , martes , unas declaraciones del zar antidrogas estadounidense Barry_McCaffrey , en las que Ø calificó como un " problema inmenso " la prohibición del sobrevuelo norteamericano a territorio venezolano , decisión que , aseguró Ø , habría creado un " agujero negro " en <argset><specifier>la</specifier><head>vigilancia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">regional</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para la lucha antidrogas</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19561_20000830.tbf.xml" nodepath="3.4.1.2.1.2.1.1.1.0.2.0" sentencenodepath="3">En el documento final , de nueve puntos , se reconoció " la urgente necesidad de que los países miembros utilicen plenamente y Ø fortalezcan los sistemas de <argset>prevención , <head>vigilancia </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="s.a">epidemiológica</argument>, información , coordinación y cooperación </argset>" disponibles en los numerosos acuerdos regionales . </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="20.0.1.3.0.1.0" sentencenodepath="20">" En casos muy graves , se puede acordar <argset><specifier>la</specifier><head>vigilancia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la víctima</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">todo el día</argument></argset>o acompañarle a comprar al trabajo o a la escuela de su hijo . Hay otros sistemas de control , como la contravigilancia o el contacto telefónico con los agentes " , afirman los Mossos_d'Esquadra . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="salto" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="saltar" originlink="verb.saltar.1" wordnetsynset="16:05481281">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="des">
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="hasta" type="sp"/>
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-2.tbf.xml" nodepath="14.4.3.2.1.0.1.2.2.3.1.2.1.1.4.1.0" sentencenodepath="14">Pero Ø sigue ganando , aunque sus partidos ya no sean sinfonías que exaltan el genio táctico de su entrenador , Mike_Kryzewski , porque hay suficiente talento en Grant_Hill y en Cherokee_Parks , ese hijo de - hippies - californianos que devuelve a Duke la presencia interior perdida desde que , a su vez , Christian_Laettner diera <argset><specifier>el</specifier><head>salto </head><argument argument="arg4" function="cn" thematicrole="des" type="sp">a la NBA</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="5.0.3.1.1.0" sentencenodepath="5">Si las bandas están totalmente llenas y hay <argset><specifier>un</specifier><head>salto </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de energía</argument><argument argument="arg4" function="cn" thematicrole="des" type="sp">hasta la siguiente banda vacía</argument></argset>, sería necesario un gran aporte energético para que los electrones pudiesen desplazarse y dar_lugar a conducción eléctrica ( fig. 4A ) . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="18.3.2.2.1.0.3.1.1.0" sentencenodepath="18">Ausente la española de origen cubano Niurka_Montalvo , actual campeona mundial , Jones y May intentarán demostrar al mundo quién es la que llega más lejos de <argset><specifier>un</specifier><head>salto </head></argset>. </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="24.3.1.1.0" sentencenodepath="24">Vyacheslav_Voronin y Javier_Sotomayor representan las dos caras de la moneda en <argset><specifier>el</specifier><head>salto </head><reference_modifiers>de altura</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/3800_20001205.tbf.xml" nodepath="6.2.2.3.1.1.1.1.1" sentencenodepath="6">El defensor boliviano dejó entrever que Ø tiene una oferta de un club " grande " y Ø dijo que Ø está preparado para dar <argset><specifier>el</specifier><reference_modifiers>gran</reference_modifiers><head>salto </head></argset>. </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="13.2.6.1.4.1.0" sentencenodepath="13">" España está mejor que hace cuatro años , Ø es innegable " y , por eso , concluyó Aznar , el PP ofrece , " con seguridad y progreso " , una próxima legislatura " del empleo , la educación y la innovación " para que " nuestro país dé <argset><specifier>un</specifier><head>salto </head><reference_modifiers>fundamental</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/7054_20000309.tbf.xml" nodepath="10.3.1.2.2.1.0.1.4.2.1.0" sentencenodepath="10">Quizá el primer aspirante sea el alemán Heinz-Harald_Frentzen que dispondrá del Jordan-Mugen_Honda , que ya el pasado año estuvo a_punto_de conseguirlo y en esta ocasión puede dar <argset><specifier>el</specifier><head>salto </head><reference_modifiers>definitivo</reference_modifiers><argument argument="argM" function="cn" thematicrole="mnr" type="sp">al volante de un coche muy fiable y competitivo</argument></argset>. </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="19.0.3.1.2.0" sentencenodepath="19">El preparador barcelonista calificó la decisión como <argset>" <specifier>un</specifier>
+            <head>salto </head>
+            <argument argument="arg4" function="cn" thematicrole="des" type="sp">al vacío</argument>" </argset>al no tener cerrada la operación del escolta francés Antoine_Rigaudeau , su probable sustituto , pero Ø indicó que este riesgo era necesario para no perjudicar a Sasha a la hora de negociar nuevas ofertas . </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="2.4.0.1.1.0" sentencenodepath="2">No en_vano , el dirigente suizo - - polifacético y cultivado , con una gran capacidad negociadora y dominio de cinco idiomas - - decidió , tras acompañar a Joao_Havelange durante 23 años con una fidelidad incuestionable como secretario general , dar <argset><specifier>el</specifier><head>salto </head></argset>, exigirse un_poco más y elevarse hasta el trono de la FIFA . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="17.3.1.0" sentencenodepath="17">Desde un punto de vista cualitativo , el cambio en el tipo delictivo aplicado a la acción punible constituye <argset><specifier>un</specifier><head>salto </head><argument argument="arg4" function="cn" thematicrole="des" type="sadv">adelante</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la represión legal de la violencia organizada</argument></argset>, porque Ø entiende que la acción del apuñalamiento de una persona , mediando un acorralamiento previo de la víctima , por_parte_de un grupo organizado de hinchas radicales conocidos por un nombre que los identifica más . </example>
+        <example file="CESS-CAST-P/26_19990701_a.tbf.xml" nodepath="15.1.1.1.0" sentencenodepath="15">Y dando <argset><specifier>un</specifier><head>salto </head></argset>en la historia , ellos , los ingleses , son los únicos - - ellos y los norteamericanos - - que han bombardeado Yugoslavia . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="saltar" originlink="verb.saltar.1" wordnetsynset="16:00076072">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="20.2.4.1.1.1" sentencenodepath="20">La estadounidense , que comenzó como una brillante jugadora de baloncesto , vio cortada su racha en 1998 cuando , tras 38 pruebas invicta , Ø cayó en la última competición del año ante la alemana Heike_Drechsler ; y la italiana perdió el oro en Sevilla'99 por <argset><specifier>un</specifier><reference_modifiers>polémico</reference_modifiers><head>salto </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Montalvo</argument><reference_modifiers>, que incluso provocó la reclamación de la delegación de su país</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="saltar" originlink="verb.saltar.2" wordnetsynset="16:05481281+16:00076714+16:03969685">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="16.2.2.3.1.1.2.1.0" sentencenodepath="16">El objetivo es lograr una sustancial bajada de entre 20 y 30 puntos en el índice de inflación que ronda el 80_por_ciento anual y procurar un crecimiento económico del uno_por_ciento al finalizar el año , cifra que supondrá <argset><specifier>un</specifier><head>salto </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">del -7,5_por_ciento de 1999</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="2.0.1.3.1.2.2.1.1.0" sentencenodepath="2">" España recibió de la UE una enorme ayuda que ha permitido dar <argset><specifier>un</specifier><head>salto </head><reference_modifiers>cualitativo</reference_modifiers></argset>. Sería muy ruin negar esa misma oportunidad a otros países que por razones históricas se han visto cruelmente separados de estar dentro del flujo de la Europa_Occidental " , opinó Ø . </example>
+        <example file="CESS-CAST-AA/2252_20000704.tbf.xml" nodepath="6.0.0.2.1.2.0.0" sentencenodepath="6">Beatriz_Ferrer_Salat , en la modalidad doma , Pilar_Cordón , en <argset><head>saltos </head></argset>, y Natalia_Valdés , en concurso completo , son las tres amazonas que defenderán los colores de España con su participación en las distintas modalidades de hípica para los Juegos_Olímpicos de Sydney . </example>
+        <example file="CESS-CAST-AA/5315_20000207.tbf.xml" nodepath="7.0.1.2.1.1.1.0" sentencenodepath="7">" Ø Creo que con <argset><specifier>un</specifier><head>salto </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 8,40</argument></argset>se podrá optar a medalla en Sydney . Lo más difícil es decir qué marca te puede dar el oro " , comentó Lamela , que comenzó a saltar " a los siete años " y cuyo ídolo fue el supercampeón estadounidense Carl_Lewis . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="saltar" originlink="verb.saltar.4" wordnetsynset="16:00076714+16:03969685">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/5315_20000207.tbf.xml" nodepath="0.0.1.2.1.2.1.0.0" sentencenodepath="0">El asturiano Yago_Lamela , subcampeón mundial de <argset><head>salto </head><reference_modifiers>de longitud</reference_modifiers></argset>- al aire libre ( Sevilla`99 ) y en pista cubierta ( Maebeashi`99 ) - , manifestó hoy , lunes , que su deseo para esta temporada es el de " batir el récord de España " que él mismo posee ( 8,56 metros ) y acercarse a la plusmarca mundial . </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="0.0.1.2.1.2.1.0.0" sentencenodepath="0">El cubano Javier_Sotomayor , plusmarquista mundial de <argset><head>salto </head><reference_modifiers>de altura</reference_modifiers></argset>, afirmó a Efe que Ø " de_seguro " irá a por la medalla de oro en los Juegos_Olímpicos de Sydney , su tercera y última de estas competiciones en las que Ø intervendrá . </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="5.2.1.2.1.0.0" sentencenodepath="5">" Sin_duda mis intenciones son las de ganar la medalla de oro y Ø creo que Ø realmente tengo posibilidades de lograrlo " , apostilló el plusmarquista mundial de <argset><head>salto </head><reference_modifiers>alto</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

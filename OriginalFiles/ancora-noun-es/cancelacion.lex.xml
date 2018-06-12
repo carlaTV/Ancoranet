@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="cancelación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="cancelar" originlink="verb.cancelar.1" wordnetsynset="16:00151154">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="19.4.1.2.1.1.0.1.1.1.1.1.0.4.0" sentencenodepath="19">Sin_embargo , como la Generalitat ya ha abierto expediente sancionador , Ø pueden optar por solicitar una mediación o un arbitraje con_objeto_de pactar daños y perjuicios por los costes de <argset>manutención , hotel y <head>cancelaciones </head>
+          </argset>que Ø están teniendo que asumir . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="cancelar" originlink="verb.cancelar.1" wordnetsynset="16:00151154">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/11011_20000914.tbf.xml" nodepath="4.2.9.2.0.4.0.0" sentencenodepath="4">Leiva afirmó que Aeronáutica_Civil " está vigilando estrechamente a las líneas aéreas " ante las continuas quejas de los pasajeros , especialmente de TACA , por el constante extravío de equipaje , suspensión abrupta de vuelos o <argset><head>cancelación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de cupos</argument></argset>, aunque el usuario haya comprado su billete . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>cancelación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los viajes del ferry de Naviera_Universal</argument></argset>desató una frenética contrarreloj de pasajeros frustrados que intentaban recuperar su dinero y conseguir plaza en aviones o barcos de otras compañías en_medio_de un gran caos . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

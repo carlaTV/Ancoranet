@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="transición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="transitar" originlink="verb.transitar.2" wordnetsynset="16:05480908+16:00131763">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ein">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg3" thematicrole="efi">
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="1.3.1.1.1.1.4.2.0.2.0.1.1.1.1.0" sentencenodepath="1">En_particular , son tres los objetivos : - - Transferencia de carga D-A entre 0 - - Interacciones entre apilamientos segregados que impidan cambios de fase capaces de provocar <argset><specifier>la</specifier><head>transición </head><argument argument="arg2" function="cn" thematicrole="ein" type="sp">de estructura conductora</argument><argument argument="arg3" function="cn" thematicrole="efi" type="sp">a aislante</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="4.5.3.1.2.1.2.1.0" sentencenodepath="4">De_otro_lado , las propiedades conductoras de los materiales moleculares se ven muy afectadas por las interacciones entre los sistemas electrónicos y las vibraciones del retículo cristalino , llegando en el caso extremo a producirse a bajas temperaturas ( próximas al cero absoluto ) una distorsión del retículo <argset>( <head>transición </head>
+            <reference_modifiers>de Peierls</reference_modifiers>) </argset>acompañada de una transición del comportamiento metálico a aislante . </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="4.5.3.1.2.1.3.1.1.1.0" sentencenodepath="4">De_otro_lado , las propiedades conductoras de los materiales moleculares se ven muy afectadas por las interacciones entre los sistemas electrónicos y las vibraciones del retículo cristalino , llegando en el caso extremo a producirse a bajas temperaturas ( próximas al cero absoluto ) una distorsión del retículo ( transición de Peierls ) acompañada de <argset><specifier>una</specifier><head>transición </head><argument argument="arg2" function="cn" thematicrole="ein" type="sp">del comportamiento metálico</argument><argument argument="arg3" function="cn" thematicrole="efi" type="sp">a aislante</argument></argset>. </example>
+        <example file="CESS-CAST-A/17278_20000321.tbf.xml" nodepath="5.1.1.1.2.1.0.0" sentencenodepath="5">En su opinión , ante la " situación de <argset><head>transición </head></argset>" que ha generado la dimisión de Joaquín_Almunia y la Ejecutiva , la reunión del Comité_Federal , máximo órgano entre congresos , debe servir para que , aunque haya un debate muy abierto , el partido " salga unido " . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="0.0.3.1.0.2.1.0.0" sentencenodepath="0">El presidente de Serbia , Milan_Milutinovic , ha convocado para las 13.00_GMT de hoy al nuevo Gobierno de <argset><head>transición </head></argset>pactado el Martes por las tres principales fuerzas políticas serbias , y se espera que Ø publique el decreto de elecciones anticipadas para el 23_de_diciembre . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="4.0.0.1.1.1.0.0" sentencenodepath="4">Este Gobierno de <argset><head>transición </head></argset>y las elecciones que hoy se convocarán son fruto de un pacto del SPS con la Oposición_Democrática_de_Serbia ( DOS ) de Kostunica y el populista Movimiento_de_Renovación_Serbio ( SPO ) . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="18.2.4.0.1.1.1.0.1.1.0.0" sentencenodepath="18">El SPS explicó que " por el bien del pueblo " Ø aceptaría la formación del Gobierno de <argset><head>transición </head></argset>y el adelanto de las elecciones , seguros los socialistas de que su esperanza de voto no supera hoy el diez_por_ciento . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="19.3.0.1.2.1.1.0" sentencenodepath="19">Según los observadores , los comicios de diciembre marcarán el inicio definitivo de <argset><specifier>la</specifier><head>transición </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Serbia</argument></argset>y el fin de la era de Milosevic , que gobernó los últimos trece años . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="20.5.2.1.1.1.3.1.0.0.1.1.1.1.1.1.0" sentencenodepath="20">Las elecciones parlamentarias serbias se celebrarán por Primera vez según un sistema estrictamente proporcional , con todo Serbia como una circunscripción , modelo que de_acuerdo_con los expertos es el idóneo para el comienzo de <argset><specifier>la</specifier><head>transición </head></argset>. </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="62.2.5.0.1.0" sentencenodepath="62">Ø Supongo que aquí Ø hemos vivido a_la_vez <argset><specifier>la</specifier><head>transición </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">política</argument><argument argument="argM" function="cn" thematicrole="loc" type="s.a">española</argument></argset>y la consolidación en Catalunya del Gobierno autonómico . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="64.0.1.1.1.1.1.0" sentencenodepath="64">En los años de <argset><specifier>la</specifier><head>transición </head></argset>hubo una oposición muy activa por_parte_de los periodistas , que en estos momentos no existe . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="36.3.4.1.1.3.1.2.1.1.0" sentencenodepath="36">Algunos combatientes quizá sepan que Ø sólo son un instrumento que el presidente ha activado aprovechándose de la pobreza y de <argset><specifier>una</specifier><head>transición </head><reference_modifiers>inacabada</reference_modifiers><reference_modifiers>, de la que él es el máximo responsable</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/27_19981202.tbf.xml" nodepath="8.3.6.1.1.1.3.1.1.1.1.0.0" sentencenodepath="8">El presidente chileno , Eduardo_Frei , dijo ayer : " A_pesar_de las diferencias que separan a los chilenos , Ø hemos dado nuestra solución a la tensión , siempre presente en los periodos de <argset><head>transición </head></argset>, entre la necesidad de justicia y la necesidad de reconciliación " . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="10.2.1.0" sentencenodepath="10">Esta alianza diseña <argset><specifier>una</specifier><head>transición </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">política</argument><reference_modifiers>que se limita por ahora a instaurar valores democráticos en una sociedad que , a_causa_de la situación de pobreza y el analfabetismo que padecen el 70% de sus habitantes , aún no estaría preparada para una democracia auténtica</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="13.3.1.1.2.1.0.0" sentencenodepath="13">En opinión de Alí_Buabid , estas carencias de la clase política hacen que el modelo español de <argset><head>transición </head><argument argument="arg3" function="cn" thematicrole="efi" type="s.a">democrática</argument></argset>quede descartado . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="16.3.1.0.2.0.1.1.1.1.1.1.1.1.1.0.0" sentencenodepath="16">Estas disfunciones internas han convertido a los partidos políticos en dinosaurios de papel incapaces de ser la locomotora de este proceso de <argset><head>transición </head></argset>. </example>
+        <example file="CESS-CAST-P/48_20000402.tbf.xml" nodepath="16.3.6.1.1.1.2.1.1.0" sentencenodepath="16">Raúl_Castro , hermano de Fidel , podría asumir el mando , aunque no se le considera suficientemente carismático para conducir a Cuba a <argset><specifier>una</specifier><head>transición </head><reference_modifiers>pacífica</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/71_19991201_g.tbf.xml" nodepath="2.2.2.3.1.1.0" sentencenodepath="2">El jurado valoró la " importante y larga trayectoria " de Tusell como articulista y Ø destacó que el texto premiado trata de <argset><specifier>la</specifier><head>transición </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Cuba</argument></argset>, " con un estilo muy personal basado en una argumentación sólida y documentada " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="transitar" originlink="verb.transitar.2" wordnetsynset="16:05480908">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="ein">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg3" thematicrole="efi">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19377_20000323.tbf.xml" nodepath="10.3.1.3.1.0" sentencenodepath="10">El proceso de desmovilización , desarme y reintegración debe hacerse de una forma integrada para que los " cascos azules " puedan facilitar <argset><specifier>la</specifier><head>transición </head><argument argument="arg2" function="cn" thematicrole="ein" type="sp">del proceso de mantenimiento de la paz</argument><argument argument="arg3" function="cn" thematicrole="efi" type="sp">al de construcción de la paz</argument></argset>. </example>
+        <example file="CESS-CAST-P/24_19981201.tbf.xml" nodepath="15.3.1.2.1.1.1.1.0.0" sentencenodepath="15">Según Insulza , Chile es un Estado democrático con un proceso de <argset><head>transición </head></argset>que dura ocho años y que " ha sido escrupuloso con el respeto a los derechos_humanos y a la ley " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="metal_de_transición" cousin="no" denotation="result" id="3" lexicalizationtype="nominal" lexicalized="yes" originlemma="transitar" originlink="verb.transitar.2" wordnetsynset="16:05480908">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-5.tbf.xml" nodepath="7.2.2.1.2.2.1.3.2.1.1.1.1.0.0" sentencenodepath="7">Una clase de compuestos comparativamente más estables son los metalomacrociclos , es_decir , complejos metálicos que contienen un sistema macrocíclico como ftalocianinas o tetrabenzoporfirinas , coordinado con un metal de <argset><head>transición </head></argset>capaz de dar hexacoordinación , como por_ejemplo Fe , Co , Cr o Ru . </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="9.3.1.1.2.0.1.1.0.0" sentencenodepath="9">Por_otro_lado , Hanack y sus colaboradores , en Alemania , han demostrado que si se utilizan metales de <argset><head>transición </head></argset>como Fe , Ru , Os , Co , Rh , Mn o Cr , que imponen una configuración octaédrica , y se utilizan moléculas orgánicas con sistemas n como ligandos , es posible una conducción adicional a_lo_largo_del eje central en estos polímeros . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

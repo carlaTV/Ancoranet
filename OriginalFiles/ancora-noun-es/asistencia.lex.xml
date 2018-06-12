@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="asistencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="asistir" originlink="verb.asistir.1" wordnetsynset="16:00782440">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" type="void"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="numeral" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="6.2.1.0.2.1.2.4.1.0.0" sentencenodepath="6">Fidalgo , quien hoy asistió a la inauguración del séptimo congreso regional de CCOO , explicó que , de los más_de cuatro billones de pesetas que el Erario público gastará este año en <argset><head>asistencia </head><reference_modifiers>sanitaria</reference_modifiers></argset>, un tercio es para el gasto farmacéutico , un apartado que Ø calificó de " altamente ineficiente " . </example>
+        <example file="3LB-CAST/d1-2.tbf.xml" nodepath="11.4.1.1.1.1.1.2.3.1.0.0.1.1.0.0" sentencenodepath="11">A Duke , el otro día , le faltaba el base : Bobby_Hurley el chico flacucho , bajito , pálido , ojeroso e inexpresivo que creció de curiosidad étnica ( un blanco procedente del gueto negro de Jersey_City , donde su padre es legendario entrenador ) a recordman de <argset><head>asistencias </head></argset>en el baloncesto universitario y alma de los dobles campeones nacionales . </example>
+        <example file="3LB-CAST/t4-8.tbf.xml" nodepath="1.3.1.1.0.1.2.0.1.2.1.0.0" sentencenodepath="1">Si Ø es así la tecnología que nos ha llevado a la luna y podría llevarnos allí es una religión más positiva y merecedora de fe y de <argset><head>asistencia </head></argset>que todas las conocidas hasta hoy . </example>
+        <example file="CESS-CAST-A/11177_20000817.tbf.xml" nodepath="1.0.4.2.0.1.1.0.0" sentencenodepath="1">Esta ayuda , que será gestionada por la Oficina_de_Ayuda_Humanitaria_de_la_Unión_Europea ( ECHO ) , " permitirá a la Cruz_Roja y las Organizaciones no Gubernamentales ( ONG ) poner_en_marcha , durante los próximos seis meses , programas de <argset><head>asistencia </head></argset>destinados a más de 200.000 desplazados y refugiados " , precisó la Comisión en un comunicado . </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="4.2.2.2.1.2.1.1.0" sentencenodepath="4">Malik_Rose consiguió 14 puntos y nueve rebotes , el veterano Terry_Porter contribuyó con 13 tantos , mientras_que Jerome_Kersey capturó nueve balones debajo de los tableros y Antonio_Daniels estableció su mejor marca de <argset><specifier>10</specifier><head>asistencias </head></argset>. </example>
+        <example file="CESS-CAST-A/18701_20000922.tbf.xml" nodepath="11.3.1.2.1.1.1.1.0.2.0" sentencenodepath="11">Los últimos borradores presentados por la presidencia francesa de la UE distinguen , por un lado , entre las operaciones financieras , inmobiliarias y económicas en_general y , por otro , las misiones de <argset>representación judicial y <head>asistencia </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="s.a">jurídica</argument>
+          </argset>, que quedarían protegidas , según otras fuentes comunitarias . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="7.3.1.4.3.4.1.1.2.1.0.0.0" sentencenodepath="7">Xavier_Trias insiste en su discurso en que Cataluña necesita más recursos porque el trato fiscal que Ø recibe en la actualidad es " injusto " y Ø puede acabar dañando su competitividad , y además Ø impide al gobierno de la Generalitat ofrecer los mismos servicios que otras autonomías en_materia_de <argset><head>asistencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">sanitaria</argument>, atención a la tercera edad o construcción de guarderías </argset>. </example>
+        <example file="CESS-CAST-AA/21342_20000526.tbf.xml" nodepath="6.1.2.2.1.1.1.1.1.1.2.1.0.0" sentencenodepath="6">Por_último , se prevé en este Convenio la cooperación internacional en esta materia y se establece que sin_perjuicio_de la aplicación de los acuerdos bilaterales o multilaterales de <argset><head>asistencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">mutua</argument></argset>, las autoridades competentes de cada país deberán prestarse mutuamente , cuando así lo pida otro , la máxima asistencia posible en las cuestiones reguladas por el presente Convenio . </example>
+        <example file="CESS-CAST-AA/21342_20000526.tbf.xml" nodepath="6.1.2.2.6.1.1" sentencenodepath="6">Por_último , se prevé en este Convenio la cooperación internacional en esta materia y se establece que sin_perjuicio_de la aplicación de los acuerdos bilaterales o multilaterales de asistencia mutua , las autoridades competentes de cada país deberán prestarse mutuamente , cuando así lo pida otro , <argset><specifier>la</specifier><reference_modifiers>máxima</reference_modifiers><head>asistencia </head><reference_modifiers>posible</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en las cuestiones reguladas por el presente Convenio</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="9.2.3.1.1.2.1.0.0" sentencenodepath="9">Ø Subrayó que Venezuela intenta crear un sistema coordinado de <argset><head>asistencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">internacional</argument></argset>para la fase de reconstrucción , para la cual una misión de alto nivel técnico visitará la sede de la Unión_Europea en Bruselas , a_fin_de presentar proyectos concretos en las distintas áreas compatibles con las prioridades europeas . </example>
+        <example file="CESS-CAST-AA/2531_20000303.tbf.xml" nodepath="2.0.1.0.1.1.0.0" sentencenodepath="2">A_través_de redes de <argset><head>asistencia </head></argset>se intentará dar oportunidades a estas mujeres para que Ø puedan desarrollar otras tareas y que Ø dejen de ser explotadas sexualmente , fenómeno que es creciente en el caso de muchas extranjeras que llegan a Italia procedentes de países del este de Europa . </example>
+        <example file="CESS-CAST-AA/4287_20000306.tbf.xml" nodepath="9.2.2.4.1.8.1.1.1.0.0.2.0" sentencenodepath="9">Galloway anunció que Ø tomará medidas contra el bloqueo del vuelo , que Ø tenía previsto llevar medicinas , médicos , abogados , psiquiatras y otro personal de <argset>ayuda y <head>asistencia </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">a la población</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="2.2.4.1.0" sentencenodepath="2">La nueva estrella de los Warriors , que en los últimos cuatro partidos ha conseguido 122 puntos , logró 21 canastas de 29 tiros de campo con 7_de_8 desde la línea de personal , 13 rebotes y <argset><specifier>cinco</specifier><head>asistencias </head></argset>. </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="3.4.1.1.2.1.0" sentencenodepath="3">El base Larry_Hughes lo apoyó con otro partido sólido al conseguir 24 puntos ( 9_de_22 y 6_de_9 ) , <argset><specifier>nueve</specifier><head>asistencias </head></argset>y cinco rebotes para permitir a los Warriors romper una racha de dos derrotas consecutivas y dejar su marca en 6-13 . </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="6.4.2.1.0" sentencenodepath="6">El escolta de los Lakers terminó con 18 canastas de 34 tiros de campo , Ø estuvo perfecto 13_de_13 desde la línea de personal , Ø dio <argset><specifier>ocho</specifier><head>asistencias </head></argset>y Ø capturó siete rebotes , que no fueron suficientes para evitar la derrota de los Lakers . </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="7.0.0.1.3.5.1.4.1.0" sentencenodepath="7">Los actuales campeones de liga , que también tuvieron el apoyo del pívot Shaquille_O`Neal con 25 puntos ( 11 de 18 tiros de campo y 3_de_6 desde la línea de personal ) , 10 rebotes y <argset><specifier>dos</specifier><head>asistencias </head></argset>, rompieron una racha de cuatro triunfos consecutivos , Ø se quedaron con marca de 14-6 y sin poder subir al primer lugar de la División_del_Pacífico . </example>
+        <example file="CESS-CAST-AA/5671_20000708.tbf.xml" nodepath="2.2.2.1.0.2.1.1.1.0.4.0" sentencenodepath="2">Unos 2,5 millones de personas residen en Puerto_Príncipe , pero la mayoría de ellas carece de servicios básicos , tales como <argset>luz , agua potable o <head>asistencia </head>
+            <reference_modifiers>hospitalaria</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/7301_20000609.tbf.xml" nodepath="1.3.1.1.1.1.1.1.0.2.0" sentencenodepath="1">El Consejo_de_Ministros autorizó hoy la firma de un convenio de <argset>cooperación y <head>asistencia </head>
+          </argset>en_materia_de protección civil con la Federación_de_Rusia para mejorar la prevención de catástrofes y garantizar la asistencia mutua en situaciones de emergencia por causas naturales o tecnológicas . </example>
+        <example file="CESS-CAST-AA/7301_20000609.tbf.xml" nodepath="1.3.1.1.1.1.4.1.2.1.1.0" sentencenodepath="1">El Consejo_de_Ministros autorizó hoy la firma de un convenio de cooperación y asistencia en_materia_de protección civil con la Federación_de_Rusia para mejorar la prevención de catástrofes y garantizar <argset><specifier>la</specifier><head>asistencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">mutua</argument></argset>en situaciones de emergencia por causas naturales o tecnológicas . </example>
+        <example file="CESS-CAST-AA/7301_20000609.tbf.xml" nodepath="4.4.1.0.1.1.1.0.0" sentencenodepath="4">Además , el Convenio se refiere a la prestación de <argset><head>asistencia </head></argset>, dotación de los equipos de asistencia y el paso de éstos por las fronteras . </example>
+        <example file="CESS-CAST-AA/7301_20000609.tbf.xml" nodepath="4.4.1.2.0.1.1.1.1.1.0.0" sentencenodepath="4">Además , el Convenio se refiere a la prestación de asistencia , dotación de los equipos de <argset><head>asistencia </head></argset>y el paso de éstos por las fronteras . </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="1.2.4.1.2.1.0" sentencenodepath="1">Un repaso a las estadísticas revela que el descenso de la cifra total se debe a que han disminuido <argset><specifier>las</specifier><head>asistencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">técnicas</argument><reference_modifiers>que en 1999 se desbordaron por las revisiones de fachadas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="17.0.1.1.1.1.1.3.2.1.1.1.2.1.1.1.0.1.3.1.1.1" sentencenodepath="17">Muy poco para una selección que sólo disparó una vez a portería en la Primera parte ( Iván_Helguera , m.18 ) y perdió la posición en defensa en dos jugadas que fueron el preámbulo del 1-0 , que llegó en <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>asistencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Owen</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a Barmby</argument></argset>( m.37 ) . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="21.4.2.1.1.0.1.4.1.1.1.0.0" sentencenodepath="21">El servicio del 061 , informó Sanitat , pudo disponer este fin de semana " del triple " de personal que en Navidad , cuando Ø batió su récord de <argset><head>asistencia </head></argset>. </example>
+        <example file="CESS-CAST-P/61_19991001.tbf.xml" nodepath="3.3.4.1.0" sentencenodepath="3">Durante tres días Ø debatirán la pasantía , los honorarios , <argset><specifier>la</specifier><head>asistencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">jurídica</argument><reference_modifiers>gratuita</reference_modifiers></argset>, la normalización del catalán y otros temas del mundo del derecho . </example>
+        <example file="CESS-CAST-P/71_19991201_a.tbf.xml" nodepath="1.2.1.0.2.3.0.2.0" sentencenodepath="1">El proyecto pretende abrir centros para heroinómanos en los que se faciliten <argset>jeringuillas , <head>asistencia </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="s.a">médica y social</argument>
+            <reference_modifiers>( alimentación , vestido e higiene )</reference_modifiers>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="asistir" originlink="verb.asistir.1" wordnetsynset="16:00782440">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/61_19991001.tbf.xml" nodepath="0.5.1.1.2.2.1.0" sentencenodepath="0">Jaume_Alonso-Cuevillas , decano del Col.legi_d'Advocats de Barcelona y presidente del Consell_de_Col.legis_d'Advocats de Catalunya , reclamó ayer a Jordi_Pujol entre 5.000 y 6.000 millones de pesetas para los letrados del turno de oficio que ejercen <argset><specifier>la</specifier><head>asistencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de justicia</argument><reference_modifiers>gratuita</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="asistir" originlink="verb.asistir.2" wordnetsynset="16:00800467">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="2" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-2.tbf.xml" nodepath="21.3.1.0" sentencenodepath="21">Hasta el momento tienen prevista <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>asistencia </head></argset>siete jefes de Estado , nueve primeros ministros , cuatro presidentes de cámaras Legislativas , cinco viceprimer ministros y once ministros de diferentes países , la mayoría del Pacífico asiático . </example>
+        <example file="3LB-CAST/211_C-3.tbf.xml" nodepath="1.4.1.0" sentencenodepath="1">Hasta el momento , de Europa sólo han comunicado <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>asistencia </head></argset>Esperanza_Aguirre y el ministro del Asuntos_Exteriores de Gran_Bretaña , John_Battle , además_del viceprimer ministro ruso , Viktor_Khristenko . </example>
+        <example file="CESS-CAST-P/125_20020202.tbf.xml" nodepath="3.2.4.2.1.2.4.1.1.0" sentencenodepath="3">La jornada de ayer , víspera de la boda real , tuvo carácter musical y Ø se cerró , por la noche , con un concierto pop que se celebró en el estadio del Ajax con <argset><specifier>la</specifier><head>asistencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los novios y de 50.000 personas que contribuyeron , con los 45 euros ( 7.487 pesetas ) de la entrada , a los fondos de la Fundación_Príncipes_de_Orange , destinada a financiar proyectos de cooperación humanitaria</argument></argset>. </example>
+        <example file="CESS-CAST-P/135_19981201_c.tbf.xml" nodepath="4.2.2.1.0" sentencenodepath="4">La gala de entrega de los premios se celebrará el próximo viernes en Londres y está confirmada <argset><specifier>la</specifier><head>asistencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Almodóvar , Bardem , Penélope_Cruz y Carmelo_Gómez</argument></argset>. </example>
+        <example file="CESS-CAST-P/40_20000202.tbf.xml" nodepath="13.2.4.2.1.1.1.0.0" sentencenodepath="13">Los recuentos iniciales revelaron que Bradley atrajo a un gran volumen de independientes 37% de los votantes de Nueva_Hampshire - - , en un récord de <argset><head>asistencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a las urnas</argument></argset>que se cifró en más del 80% de todos los inscritos para votar . </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="4.0.2.5.1.2.1.0.1.1.0.2.0" sentencenodepath="4">La polémica orden sobre los criterios para cubrir las vacantes de magistrados indicaba que " en ningún caso " se designarían magistrados para completar ninguna plaza en casos de <argset>permisos , <head>asistencia </head>
+            <argument argument="arg2" function="cn" thematicrole="loc" type="sp">a cursos</argument>, funciones asociativas o supuestos similares </argset>, y Ø señalaba que estas circunstancias deberían solventarse mediante " la adecuada coordinación interna del tribunal " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

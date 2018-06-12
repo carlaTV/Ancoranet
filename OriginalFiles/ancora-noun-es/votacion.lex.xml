@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="votación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="votar" originlink="verb.votar.1" wordnetsynset="16:00120305">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="11" postype="article" type="determiner"/>
+        <constituent frequency="11" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="3.2.0.2.1.2.3.1.1.0" sentencenodepath="3">Nadie sabe cuál es la nueva fecha que Ø propone para <argset><specifier>las</specifier><head>votaciones </head></argset>, ni si Ø las quiere juntas o separadas , ni cuando Ø va a reanudar la campaña . </example>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="8.4.1.1.1.2.1.0.1.1.1.0" sentencenodepath="8">El CNE fue acusado hace unos días por la generalidad de las fuerzas políticas venezolanas de ser el verdadero y nico causante del aplazamiento de <argset><specifier>las</specifier><head>votaciones </head></argset>debido_a la " incompetencia " de sus cinco miembros , que complicaron las ya de_por_sí complejas elecciones múltiples con continuas rectificaciones en las bases de datos del proceso automatizado . </example>
+        <example file="3LB-CAST/211_C-2.tbf.xml" nodepath="3.4.3.1.0.0" sentencenodepath="3">El Gobierno de Estados_Unidos pidió hoy al Senado que Ø someta a <argset><head>votación </head></argset>a_mediados_de este mes el acuerdo que otorga beneficios comerciales permanentes a China . </example>
+        <example file="3LB-CAST/211_C-2.tbf.xml" nodepath="5.0.3.3.3.1.0.0" sentencenodepath="5">" Ø Esperamos que el Senado actúe rápidamente e Ø inicie el debate el 12_de_junio y si Ø es posible Ø someta a <argset><head>votación </head></argset>el proyecto esa misma semana " , expresó Ø ante el Consejo_Comercial_Chino-estadounidense . </example>
+        <example file="3LB-CAST/d1-2.tbf.xml" nodepath="8.0.1.2.2.1.1.3.1.1.2.1.1.0" sentencenodepath="8">Este último partido , entre dos equipos que una vez más están entre los mejores clasificados de <argset><specifier>las</specifier><head>votaciones </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">semanales</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de entrenadores y periodistas especializados</argument><reference_modifiers>( no hay clasificación oficial al no existir una liga nacional universitaria )</reference_modifiers></argset>resultó ser de los que mueven a la reflexión . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="1.3.3.1.1.1.0.2.6.2.0.2.4.1.0.1.1.0.0" sentencenodepath="1">La Junta_Central_Electoral ( JCE ) , encargada de organizar las elecciones , aseguró hoy que el Gobierno ha multiplicado las detenciones de ciudadanos negros , muchos de los cuales " parecen haitianos " según aseguran testigos de detenciones , a los que Ø despoja del documento de <argset><head>votación </head></argset>. </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="7.0.1.1.1.0" sentencenodepath="7">Para facilitar <argset><specifier>las</specifier><head>votaciones </head></argset>a las personas en los lugares donde Ø están empadronadas , el Gobierno dispuso hoy el cierre de todas las dependencias públicas a_partir_de las 12:00 horas locales ( 16:00 GMT ) , hasta la mañana del miércoles . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="12.0.1.3.4.1.1.1.0.2.1.0.0" sentencenodepath="12">La legislación electoral dominicana , que desde 1996 dispone la modalidad de colegios cerrados de <argset><head>votación </head></argset>, establece que las mujeres votan en las primeras horas de la mañana y los hombres lo hacen por la tarde . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="13.2.1.1.2.1.4.1.0.2.2.0.1.0.1.1.1.0" sentencenodepath="13">La inclusión en la ley electoral de esa modalidad obedeció a una decisión del Congreso , integrado mayoritariamente por hombres , de " proteger a las mujeres " de eventuales incidentes que pudieran producirse al cierre de <argset><specifier>las</specifier><head>votaciones </head></argset>y con el inicio de los escrutinios . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="16.2.1.1.1.0.4.1.1.0.1.1.0.0" sentencenodepath="16">En la historia de las elecciones dominicanas abundan las denuncias de fraudes , intromisión de los militares en los comicios , compras de documentos de <argset><head>votación </head></argset>, uso de los fondos públicos en_favor_de los candidatos oficialistas y acciones violentas que arrojaron tristes saldos de muertos y heridos . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="15.0.1.3.4.1.1.1.0.2.1.0.0" sentencenodepath="15">La legislación electoral dominicana , que desde 1996 dispone la modalidad de colegios cerrados de <argset><head>votación </head></argset>, establece que las mujeres votan en las primeras horas de la mañana y los hombres lo hacen por la tarde . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="16.2.1.1.2.1.4.1.0.2.2.0.1.0.1.1.1.0" sentencenodepath="16">La inclusión en la ley electoral de esa modalidad obedeció a una decisión del Congreso , integrado mayoritariamente por hombres , de " proteger a las mujeres " de eventuales incidentes que pudieran producirse al cierre de <argset><specifier>las</specifier><head>votaciones </head></argset>y con el inicio de los escrutinios . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="2.5.0.2.1.1.1.1.0" sentencenodepath="2">La Cámara también aprobó hoy , con los votos de los grupos de la oposición , el rechazo del PNV y EA y la ausencia en <argset><specifier>las</specifier><head>votaciones </head><reference_modifiers>de EH</reference_modifiers></argset>, una iniciativa socialista en la que Ø instan al Ejecutivo autónomo a " extremar " su actuación en la lucha contra la violencia callejera . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="3.2.1.2.3.1.0" sentencenodepath="3">Ésta es la primera vez que la mayoría que sustenta al Ejecutivo pierde <argset><specifier>una</specifier><head>votación </head></argset>en el Parlamento después de que Ibarretxe suspendiera el pacto de legislatura con EH tras la reacción de esta coalición al último atentado . </example>
+        <example file="CESS-CAST-AA/24215_20001030.tbf.xml" nodepath="14.4.4.1.1.1.1.0.0" sentencenodepath="14">" Ø Hemos dado una lección al mundo " , afirmó a los periodistas el ministro del Interior , el liberal independiente Humberto_de_la_Calle , una_vez_que la Organización_Electoral puso_fin a la jornada de <argset><head>votación </head></argset>, que duró ocho horas . </example>
+        <example file="CESS-CAST-AA/25330_20000331.tbf.xml" nodepath="2.0.0.1.1.3.1.1.1.1.0" sentencenodepath="2">El senador , quien festejó los resultados de <argset><specifier>la</specifier><head>votación </head></argset>ante unos 500 simpatizantes socialistas en un restaurante abierto por un grupo de parados y decorado con materiales reciclados , dijo sentirse " orgulloso " del PS parisiense y Ø abogó por la unión de todas las fuerzas de izquierda . </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="6.2.3.3.1.0.2.1.1.0.1.1.4.1.0" sentencenodepath="6">La Comisión electoral estatal aseguró que Kostunica rozó pero Ø no llegó al 50_por_ciento de los votos , límite necesario para que no se repita <argset><specifier>la</specifier><head>votación </head></argset>, aunque Ø admitió que Ø ganó la primera ronda con unos doce puntos de diferencia sobre Milosevic . </example>
+        <example file="CESS-CAST-AA/6434_20000710.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>Esta</specifier><head>votación </head><reference_modifiers>, decidida por el Parlamento el pasado 25_de_junio ,</reference_modifiers></argset>es vista como un mero trámite constitucional para culminar la ascensión al poder de Bachar_Asad , de 34 años , como jefe de Estado sirio para los próximos siete años . </example>
+        <example file="CESS-CAST-AA/8368_20000310.tbf.xml" nodepath="2.4.1.1.1.1.0.0" sentencenodepath="2">Aunque John_McCain puso_fin a su candidatura presidencial , su nombre figura aún en la hoja de <argset><head>votación </head></argset>de esos estados , por lo que , en teoría , puede aumentar el número de delegados que Ø tiene ante la convención republicana de finales de julio en Filadelfia . </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="3.4.1.1.1.1.1.1.1.1.0" sentencenodepath="3">El candidato del PLD ha manifestado también su temor por un posible fraude después_de asegurar que unas 603.000 personas convocadas para <argset><specifier>las</specifier><head>votaciones </head></argset>no saben aún en qué mesa Ø deberán depositar su papeleta . </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="6.3.1.1.2.1.0.0" sentencenodepath="6">En_caso_de_que ninguno de los candidatos obtenga esa puntuación , los dos más votados tendrían que presentarse a una segunda ronda de <argset><head>votaciones </head></argset>45 días más tarde . </example>
+        <example file="CESS-CAST-P/204_20010701.tbf.xml" nodepath="1.3.4.1.1.2.3.1.1.1.1.1" sentencenodepath="1">Hace 15 días se acordó que Miquel_Porter_Moix sustituyera a Castellet , decisión que éste no aceptó y que Ø trató de impedir forzando <argset><specifier>una</specifier><reference_modifiers>nueva</reference_modifiers><head>votación </head></argset>. </example>
+        <example file="CESS-CAST-P/34_19981202.tbf.xml" nodepath="10.2.4.3.1.0.0" sentencenodepath="10">El republicano Lindsey_Graham dijo que la ampliación de la investigación contra Clinton no impedirá que el comité lleve a <argset><head>votación </head></argset>la semana próxima la continuación del proceso contra el presidente . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="20.1.5.2.1.0" sentencenodepath="20">Desde el palacio de Ajuria_Enea , el lehendakari Juan_José_Ibarretxe se ve obligado a hacer toda clase de malabarismos para intentar salvar su compleja situación : desprovisto ya de la muleta de Euskal_Herritarrok ( EH ) , la marca electoral de HB , en las próximas semanas Ø debe afrontar un debate de política general en el Parlamento_de_Vitoria y <argset><specifier>una</specifier><head>votación </head><reference_modifiers>presupuestaria</reference_modifiers><reference_modifiers>que a_buen_seguro perderá</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="3.0.1.1.1.1.0" sentencenodepath="3">El resultado de <argset><specifier>la</specifier><head>votación </head></argset>representa una victoria para el presidente George_Bush , que había pedido públicamente la prohibición , y un duro revés para la mayoría de los científicos , que defendían las investigaciones controladas como herramienta para la fabricación de células_madre , una herramienta terapéutica de posibilidades infinitas . </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="0.3.5.2.1.1.0.0" sentencenodepath="0">El consejero de Comercio del Gobierno Vasco , Josu_Jon_Imaz , explicó ayer que el apoyo del PNV en el Congreso_de_los_Diputados a las medidas liberalizadoras de los horarios comerciales se debió a " una confusión de procedimiento " , al haberse sometido a <argset><head>votación </head></argset>" varios decretos en un mismo paquete " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

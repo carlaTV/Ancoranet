@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="grito" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="gritar" originlink="verb.gritar.1" wordnetsynset="16:05328790">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="src">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="en_busca_de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-3.tbf.xml" nodepath="2.3.1.0.0.0" sentencenodepath="2">El gobernador , que se caracteriza por su fuerte temperamento , respondió a las agresiones con <argset><head>gritos </head>y empujones </argset>, mientras sus guardaespaldas trataban penosamente de conducirlo hacia su automóvil oficial . </example>
+        <example file="3LB-CAST/t5-1.tbf.xml" nodepath="0.0.2.1.0" sentencenodepath="0">Esto , y <argset><specifier>los</specifier><head>gritos </head><reference_modifiers>que se oían</reference_modifiers></argset>, alarmaron a doña MPG , vecina de la víctima , quien salió de la_suya y pudo seguir los acontecimientos desde el descansillo , a_través_de una rendija . </example>
+        <example file="3LB-CAST/t5-1.tbf.xml" nodepath="5.0.3.1.1.0.1" sentencenodepath="5">La mujerona zarandeaba a la víctima insultándole a <argset><reference_modifiers>grandes</reference_modifiers><head>gritos </head></argset>: Ø parecía estar fuera de sí , y de su boca soez sólo salían maldiciones llenas de rabia . </example>
+        <example file="CESS-CAST-A/10242_20000816.tbf.xml" nodepath="2.0.1.0.4.0" sentencenodepath="2">Entre <argset>vítores , aplausos , <head>gritos </head>y oleadas de pancartas con el apellido Kennedy </argset>, Caroline_Kennedy llegó al podium del centro Staples para devolver a las filas demócratas el recuerdo de su más adorado presidente . </example>
+        <example file="CESS-CAST-A/10242_20000816.tbf.xml" nodepath="16.0.0.2.0" sentencenodepath="16"><argset>Aplausos y <head>gritos </head>
+          </argset>recibieron esta noche en Los_Angeles a Joseph_Lieberman , que mañana , miércoles , será proclamado el primer judío candidato a la vicepresidencia de los Estados_Unidos . </example>
+        <example file="CESS-CAST-AA/23573_20001029.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">" Cuba_sí_,_yanquis_no " , fue <argset><specifier>el</specifier><head>grito </head><reference_modifiers>más coreado hoy por miles de campesinos , estudiantes y venezolanos que acompañaron en varios actos de masas a Castro y Chávez , vestidos con uniformes militares de campaña , en tres estados de Venezuela ( Barinas , Portuguesa y Lara ) , en la jornada más populista de los cinco días de visitas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/9405_20000115.tbf.xml" nodepath="0.3.1.1.0.0" sentencenodepath="0">Las hinchadas del Corinthians y del Vasco_da_Gama condimentaron hoy con <argset><argument argument="arg0" thematicrole="src" type="spec">sus</argument><head>gritos </head>y cantos </argset>la fiesta de la final del primer Mundial_de_Clubes_de_la_FIFA . </example>
+        <example file="CESS-CAST-AA/9405_20000115.tbf.xml" nodepath="7.0.2.1.0.1" sentencenodepath="7">Los cerca_de 48.000 " torcedores " del Vasco_da_Gama respondieron con <argset><reference_modifiers>vehementes</reference_modifiers><head>gritos </head></argset>a la osadía de sus rivales e Ø hicieron del Maracaná una verdadera Torre_de_Babel . </example>
+        <example file="CESS-CAST-P/125_19990701.tbf.xml" nodepath="3.3.1.2.0" sentencenodepath="3">Partidario de un cine que huye de la narración y de la convencionalidad , Nunes define su próximo trabajo como <argset>" <specifier>un</specifier>
+            <head>grito </head>
+            <reference_modifiers>en_busca_de un receptor</reference_modifiers>" </argset>. </example>
+        <example file="CESS-CAST-P/131_20000602.tbf.xml" nodepath="6.0.3.1.0.0" sentencenodepath="6">Algunos nos reímos a <argset><head>gritos </head></argset>y Ø señalamos al técnico mallorquín como artífice de la operación . </example>
+        <example file="CESS-CAST-P/25_20000701.tbf.xml" nodepath="2.2.2.1.0.0.0" sentencenodepath="2">Algunos de ellos , que sufrieron la amputación de brazos y piernas , acudieron en silla de ruedas al tribunal del Old_Baily y Ø recibieron con <argset><head>gritos </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de júbilo</argument>y aplausos </argset>la implacable sentencia . </example>
+        <example file="CESS-CAST-P/45_20010302.tbf.xml" nodepath="1.4.3.1.1.1.1.0.1.0" sentencenodepath="1">El ex presidente del Parlament y de ERC , desoyendo la recomendación de la policía , protagonizó un recorrido a_pie Rambla arriba , escoltado por las fuerzas de seguridad y con el telón_de_fondo de <argset><specifier>los</specifier><head>gritos </head></argset>y los insultos lanzados por los inmigrantes que le esperaban a la puerta de Ràdio_Barcelona , a los que se sumaron un gran número de transeúntes catalanes . </example>
+        <example file="CESS-CAST-P/68_20000402.tbf.xml" nodepath="12.0.1.1.3.1.0" sentencenodepath="12">Un vecino que escuchó por la mañana <argset><specifier>los</specifier><head>gritos </head><argument argument="arg0" function="cn" thematicrole="src" type="sp">de la pequeña</argument></argset>fue quien alertó a la policía . </example>
+        <example file="CESS-CAST-P/94_19990901.tbf.xml" nodepath="7.2.4.1.0" sentencenodepath="7">El problema para Costa es que Ø ya ha tenido que pegar <argset><specifier>estos</specifier><head>gritos </head></argset>demasiado a_menudo en Flushing_Meadow . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="gritar" originlink="verb.gritar.2" wordnetsynset="16:05328790">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c4-0.tbf.xml" nodepath="5.4.5.1.1.1.1.1.3.2.1.7.1.1.1.0.0" sentencenodepath="5">No es de extrañar , pues , que hoy , rotas las cadenas que durante tanto tiempo me mantuvieron escayolado al bien común , harto ya de renunciar a la degustación de pajaritos fritos , Ø haya sucumbido a la fascinación de los auténticos motores del progreso : los pelotaris que compran , venden , agarran la comisión o plusvalía y salen corriendo al <argset><head>grito </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de maricón el último</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24699_20000229.tbf.xml" nodepath="5.0.0.1.3.1.1.0" sentencenodepath="5">Ana_Botella , que ha sido recibida por <argset><specifier>los</specifier><head argument="arg1" thematicrole="pat">gritos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de una docena de jóvenes de Alternativa_Estel</argument></argset>, ha asegurado en Lleida que Ø no quiere dedicarse a la política activa y que Ø apoya al Partido_Popular como una militante más , " porque en las campañas todos debemos luchar por lo que Ø creemos " . </example>
+        <example file="CESS-CAST-P/41_20011001.tbf.xml" nodepath="6.4.1.1.1.2.1.1" sentencenodepath="6">Personalmente , me ha parecido de una especial significación que el hombre que lanzó <argset><specifier>el</specifier><reference_modifiers>simpático</reference_modifiers><head>grito </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de " Muera_la_inteligencia "</argument></argset>, sea recordado en momentos tan trágicos justamente para la ilustración y la inteligencia . </example>
+        <example file="CESS-CAST-P/41_20011001.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">" Muera_la_inteligencia " es <argset><specifier>el</specifier><head>grito </head><reference_modifiers>más imbécil</reference_modifiers><reference_modifiers>de la historia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/44_20011001.tbf.xml" nodepath="5.2.0.2.1.0.4.0" sentencenodepath="5">El resto era territorio salvaje de <argset>líquidos , bacinillas y <head>gritos </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ¡agua_va!</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/45_20000802.tbf.xml" nodepath="3.0.0.1.1.2.0" sentencenodepath="3">Tras <argset>varios forcejeos y <head>gritos </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de auxilio</argument>
+            <argument argument="argM" function="cn" thematicrole="loc" type="sp">por la ventana</argument>
+          </argset>, y presas del miedo , las dos jóvenes saltaron en marcha pensando que el vehículo no iba excesivamente rápido . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="a_gritos" cousin="no" denotation="none" id="3" lexicalizationtype="adverbial" lexicalized="yes" originlemma="gritar" originlink="verb.gritar.1" wordnetsynset="16:05328790">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/45_20010302.tbf.xml" nodepath="11.4.6.1.0.0" sentencenodepath="11">Pero esta operación no impidió que muchos transeúntes , al identificarlo , se dirigieran a él a <argset><head>gritos </head><reference_modifiers>, en su abrumadora mayoría insultantes</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="último_grito" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="gritar" originlink="verb.gritar.1" wordnetsynset="16:05329225">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/5_20000903.tbf.xml" nodepath="2.0.3.3.3.1.1" sentencenodepath="2">Ø Empezó su pontificado introduciendo el gas_ciudad en Roma , que era <argset><specifier>el</specifier><reference_modifiers>último</reference_modifiers><head>grito </head><reference_modifiers>del progreso</reference_modifiers></argset>, y Ø acabó condenando todas las ideas liberales y modernas , cuya lista Ø puso en un famoso documento llamado Syllabus . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="cita" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="citar" originlink="verb.citar.1" wordnetsynset="16:04960176">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/8105_20000310.tbf.xml" nodepath="9.3.1.1.0" sentencenodepath="9">En Baleares , Aznar recurre a <argset><specifier>una</specifier><head>cita </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Conde_de_Romanones</argument><reference_modifiers>- " joder_,_qué_tropa " -</reference_modifiers></argset>para criticar la variedad de proyectos del PSOE . </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="8.0.10.1.1.2.1.0.0.0" sentencenodepath="8">Asesinado un sij en Arizona , asesinado un pakistaní en Dallas , 300 personas intentan atacar una mezquita en Chicago , una mujer y su hijo , apedreados en Wyoming , un hombre intenta atropellar a una mujer paquistaní , hallado un paquete sospechoso con <argset><head>citas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Bin_Laden</argument></argset>y una oreja de cerdo en la misión de Afganistán en Nueva_York ... y más . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="citar" originlink="verb.citar.2" wordnetsynset="16:00799534">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="4" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13774_20000718.tbf.xml" nodepath="7.0.0.0.1.1.0.1.1.1.0" sentencenodepath="7">Magnus_Norman , finalista de <argset><specifier>la</specifier><head>cita </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">francesa</argument></argset>y primer cabeza_de_serie en Stuttgart , se impuso al alemán Bjoern_Phau por un doble 6-2 , mientras_que el argentino Franco_Squillari , semifinalista en París y quinto favorito en Alemania , accedió a la segunda ronda al ganar al chileno Fernando_González por 6-1 y 6-3 . </example>
+        <example file="CESS-CAST-AA/21391_20000129.tbf.xml" nodepath="1.2.3.1.1.0" sentencenodepath="1">Balaguer , que sufre serias dificultades para caminar , dijo que Ø irá a <argset><specifier>la</specifier><head>cita </head></argset>" si Dios me lo permite " . </example>
+        <example file="CESS-CAST-AA/21634_20000627.tbf.xml" nodepath="2.3.1.1.1.1.1.1.0" sentencenodepath="2">El " kaiser " del fútbol germano trata con ello de calmar el nerviosismo ante <argset><specifier>la</specifier><head>cita </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del 6_de_julio</argument><reference_modifiers>, en que la FIFA anunciará su decisión acerca_de los Mundiales , por cuya candidatura compiten también Brasil , Inglaterra , Marruecos y Sudáfrica</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="1.4.2.0.3.2.1.1.0" sentencenodepath="1">El pasado 2_de_agosto el Consejo_Directivo de la Federación_Internacional_de_Atletismo ( IAAF ) decidió reducir de dos años a uno la suspensión de Sotomayor , lo cual le ha permitido estar presente en <argset><specifier>la</specifier><head>cita </head><reference_modifiers>olímpica</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">de la ciudad australiana</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6354_20000909.tbf.xml" nodepath="0.5.1.1.1.4.1.1.0" sentencenodepath="0">Vincet_Spadea será el sustituto de Andre_Agassi en el equipo olímpico estadounidense en los Juegos_de_Sydney , después de que el campeón en Atlanta`96 renunciara esta semana a <argset><specifier>la</specifier><head>cita </head><reference_modifiers>olímpica</reference_modifiers></argset>por el mal estado de salud de su madre y hermana , aquejadas de cáncer de mama . </example>
+        <example file="CESS-CAST-AA/8551_20000114.tbf.xml" nodepath="3.3.5.1.1.0" sentencenodepath="3">APAVIT decidió presentar la denuncia porque las representantes de esas compañías aéreas no asistieron ayer a <argset><specifier>una</specifier><head>cita </head><reference_modifiers>acordada en el Centro_de_Conciliación_de_la_Cámara_de_Comercio_de_Panamá</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/9405_20000115.tbf.xml" nodepath="1.3.0.0" sentencenodepath="1">Las aficiones , dos de las más numerosas de Brasil , se dieron <argset><head>cita </head></argset>en el estadio Maracaná para el asalto final de una lucha cargada de nervios y esperanza que Ø libraron en Río_de_Janeiro y Sao_Paulo durante toda la semana . </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="0.0.1.1" sentencenodepath="0"><argset><specifier>La</specifier><reference_modifiers>primera</reference_modifiers><head>cita </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de un mes decisivo</argument></argset>. </example>
+        <example file="CESS-CAST-P/115_20011001.tbf.xml" nodepath="1.0.1.1.0" sentencenodepath="1">A <argset><specifier>la</specifier><head>cita </head></argset>acuden 16 empresas y 39 conferenciantes . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="22.0.0.1.1.3.0.0" sentencenodepath="22">Los pocos aficionados que se dieron <argset><head>cita </head></argset>en el Camp_d'Esports se llevaron un susto de muerte y , al_final , el empate supo mejor de lo que cabía esperar . </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="10.3.1.1" sentencenodepath="10">No_obstante , los representantes de trabajadores y empresa han convocado <argset><specifier>una</specifier><reference_modifiers>próxima</reference_modifiers><head>cita </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la mesa de negociación</argument></argset>para el próximo 8_de_junio . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="passive">
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/43_19990902.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La Cumbre_de_La_Habana y las elecciones catalanas centraron <argset><specifier>la</specifier><head>cita </head></argset>. </example>
+        <example file="CESS-CAST-P/43_19990902.tbf.xml" nodepath="1.5.1.1.0" sentencenodepath="1">El rey Juan_Carlos recibió ayer en el Palacio_de_Marivent al presidente del Gobierno , José_María_Aznar , en <argset><specifier>la</specifier><head>cita </head><reference_modifiers>que tradicionalmente pone_fin a las vacaciones oficiales</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="citar" originlink="verb.citar.3" wordnetsynset="16:00799534">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="11" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="13.4.4.1.1.0" sentencenodepath="13">El portavoz del PP , Rafael_Hernando , dijo hoy a EFE que los agentes sociales deben acudir con mentalidad " abierta " y sin planteamientos " preconcebidos " a <argset><specifier>la</specifier><head>cita </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de esta tarde</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con el presidente del Gobierno , José_María_Aznar</argument></argset>. </example>
+        <example file="3LB-CAST/111_C-1.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">A <argset><specifier>esa</specifier><head>cita </head></argset>, Ø indicó , acudirán además los presidentes Hugo_Banzer , de Bolivia , Andrés_Pastrana , de Colombia , Hugo_Chávez , de Venezuela y Alberto_Fujimori , de Perú , que es el anfitrión . </example>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="10.0.1.1.1.0" sentencenodepath="10">Aunque a <argset><specifier>la</specifier><head>cita </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">política</argument></argset>acuden jefes de gobierno y de Estado de casi una quincena de países , entre ellos el primer ministro francés , Lionel_Jospin , o los presidentes de Chile y de Argentina , Ricardo_Lagos y Fernando_de_la_Rua , la mirada de los berlineses estará puesta , cómo no , en las actividades de Clinton . </example>
+        <example file="3LB-CAST/n1-13.tbf.xml" nodepath="10.3.1.1.0" sentencenodepath="10">La Marcha_de_los_Supervivientes cumple desde hace ocho años con <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>cita </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Auschwitz</argument></argset>puntualmente . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="6.0.1.1.2.1.1.0.1.1.1.0" sentencenodepath="6">Otra nota que empañó el proceso previo a <argset><specifier>la</specifier><head>cita </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con las urnas</argument></argset>ha sido la denuncia en las últimas horas de la propia Junta_Central_Electoral ( JCE ) de la detención de ciudadanos por el único delito de ser negros , pensando que se trataba de haitianos camuflados , para arrebatarles su cédula de identidad . </example>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="4.3.1.1.1.1.1.1.0" sentencenodepath="4">Chávez , en ese sentido , reveló que durante los cuatro días de <argset><specifier>la</specifier><head>cita </head><reference_modifiers>cubana</reference_modifiers></argset>, Ø consiguió avances en algunos aspectos de las relaciones bilaterales que Ø sostiene con Guyana , nación con la que Venezuela sostiene una disputa territorial desde hace más de 100 años . </example>
+        <example file="CESS-CAST-A/17638_20000322.tbf.xml" nodepath="5.0.0.1.1.1.0" sentencenodepath="5">Antes de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>cita </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con País_Vasco</argument></argset>, Aitor_Osa afrontará el Criterium_Internacional francés , donde Ø tiene sus miras puestas en la segunda de las tres etapas que se disputarán , " que tiene cuatro puertos de cuarta categoría , y luego un final con llegada al Alto_de_Gourette , de 11 ó 12 kilómetros , que son bastante duros " . </example>
+        <example file="CESS-CAST-A/17928_20000622.tbf.xml" nodepath="0.2.1.3.1.1.1.0" sentencenodepath="0">El portavoz del PSOE en la Comisión_de_Interior_del_Congreso , Ramón_Jáuregui , aseguró que aunque su partido desea que de <argset><specifier>la</specifier><head>cita </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre el presidente del Gobierno , José_María_Aznar , y el lehendakari , Juan_José_Ibarretxe ,</argument></argset>salgan " avances " , su impresión es que se producirá un " desencuentro profundo " . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="0.4.1.1.1" sentencenodepath="0">Los dobles campeones de la Serie_Mundial , los Yanquis_de_Nueva_York , no han podido dar la mejor imagen en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>primera</reference_modifiers><head>cita </head><reference_modifiers>de la temporada</reference_modifiers></argset>, en el campo de entrenamiento de primavera , donde Ø han estado fuera de control y con el peor récord de todos . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="13.0.1.2.5.1.1.0" sentencenodepath="13">El año pasado , en que tampoco Ø brillaron en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>cita </head><reference_modifiers>de primavera</reference_modifiers></argset>, al_menos Ø consiguieron una marca de 14 triunfos y 19 derrotas para confirmar luego al inicio de la temporada que Ø no estaban en forma , lo que a_punto_estuvo_de costarle el puesto a Torre . </example>
+        <example file="CESS-CAST-A/18733_20000223.tbf.xml" nodepath="15.2.1.1.1.1.1.0" sentencenodepath="15">Ambos están acusados de haber acudido a <argset><specifier>varias</specifier><head>citas </head></argset>con Asier_Oiarzabal_Chapartegui , " Baltza " , considerado jefe del aparato de captación y presunto lugarteniente de " Anboto " , quien fue condenado en rebeldía el pasado lunes a cinco años . </example>
+        <example file="CESS-CAST-AA/21730_20001026.tbf.xml" nodepath="2.5.2.1.0.1.1.1.4.2.1.0" sentencenodepath="2">Esa carta se ha recibido hoy en Londres , un día antes de la visita de trabajo del primer ministro británico , Tony_Blair , a Madrid , en <argset><specifier>una</specifier><head>cita </head><reference_modifiers>fijada el pasado mes_de_julio y que el Reino_Unido no quiere que protagonice el caso " Tireless "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="2.3.0.2.1.4.1.0.1.4.0.0" sentencenodepath="2">Las conversaciones se producen una semana después de que Chávez asistiera en la capital española al Foro_de_Madrid , donde se dieron <argset><head>cita </head></argset>representantes de 30 países y 30 organismos multilaterales financieros para ver la forma de ayudar a la reconstrucción planificada de Venezuela . </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="19.1.5.1.1.1" sentencenodepath="19">Su figura , como Ø suele suceder siempre en <argset><specifier>las</specifier><reference_modifiers>grandes</reference_modifiers><head>citas </head></argset>, no ofrecía ningún rastro de grasa . </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="12.4.1.0" sentencenodepath="12">Pero ahora el Barça afronta <argset><specifier>la</specifier><head>cita </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con su gran bestia negra</argument></argset>sin mirar atrás . </example>
+        <example file="CESS-CAST-P/120_20010103.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">En <argset><specifier>una</specifier><head>cita </head><reference_modifiers>llena de trampas</reference_modifiers></argset>, Serra_Ferrer apeló a la necesidad de ser " humildes " para evitar un descalabro como el que sufrió el Madrid en Toledo . </example>
+        <example file="CESS-CAST-P/122_19990202.tbf.xml" nodepath="5.0.1.1.0.1.1.0.1.1.1.2.1.0" sentencenodepath="5">La jornada previa al inicio de la Conferencia_Mundial sobre el Dopaje en el Deporte <argset>, <head>cita </head>
+            <reference_modifiers>que debía servir para magnificar el papel del COI en su lucha contra la lacra de la droga</reference_modifiers>, </argset>siguió la misma tónica de los últimos días , con persistentes ataques y una curiosa respuesta del servicio de prensa del organismo internacional , que desmanteló una_por_una las inexactitudes que los medios informativos han publicado en las últimas semanas referentes a la forma de vida y las presuntas prebendas de Samaranch . </example>
+        <example file="CESS-CAST-P/124_20000102.tbf.xml" nodepath="2.4.1.0.1.2.1.1.0" sentencenodepath="2">Bonet no desvió su actuación del trayecto ya descrito en <argset><argument argument="arg0" thematicrole="agt" type="spec">sus otras</argument><head>citas </head><reference_modifiers>barcelonesas</reference_modifiers><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de este año</argument><reference_modifiers>( Auditori y Plaza_del_Rei )</reference_modifiers></argset>: una mirada al este que sobrevuela el Mediterráneo ( Mallorca , Italia , Túnez , Grecia ) y avista costas indias de la mano de Shyam_Sunder . </example>
+        <example file="CESS-CAST-P/134_20000701.tbf.xml" nodepath="7.4.2.1.2.3.1.1.1" sentencenodepath="7">Algunos niños lloraron , algunas personas se desmayaron , y fueron muchos los representantes de la cultura que , pensativos , acudieron a <argset><specifier>la</specifier><reference_modifiers>última</reference_modifiers><head>cita </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con il_mattatore , el protagonista absoluto del escenario</argument></argset>. </example>
+        <example file="CESS-CAST-P/135_20020301.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>cita </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">veraniega</argument></argset>coincidió con alguna de las muchas guerras que , a_lo_largo_de los últimos años , han azotado los territorios de la antigua Yugoslavia . </example>
+        <example file="CESS-CAST-P/136_20010102_b.tbf.xml" nodepath="1.1.1.0" sentencenodepath="1">A_partir_de hoy y hasta el domingo , <argset><specifier>la</specifier><head>cita </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">anual</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Logroño</argument></argset>acogerá también sesiones dedicadas a la fusión étnica y la música electrónica , además_del Laboratorio_del_circo y un nutrido apartado cinematográfico . </example>
+        <example file="CESS-CAST-P/13_20000802.tbf.xml" nodepath="2.0.2.0.0" sentencenodepath="2">Gestiones de todo tipo , <argset><head>citas </head></argset>, planes , proyectos , iniciativas , almuerzos , hasta ligues ... </example>
+        <example file="CESS-CAST-P/169_20010202.tbf.xml" nodepath="0.3.0.0" sentencenodepath="0">Los más destacados luthiers ( constructores de violines ) del mundo se dan <argset><head>cita </head></argset>desde ayer en Valencia para rendir tributo a los instrumentos de cuerda . </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="16.3.0.1.1.1.1.0.1.1.1.1.1.0" sentencenodepath="16">" Teniendo_en_cuenta el día que es y el tiempo que ha hecho , Ø estamos muy contentos " , resumía al final del día Esteve_Batlle , director de Wocom_Events , promotora de <argset><specifier>la</specifier><head>cita </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="darse_cita" cousin="no" denotation="none" id="4" lexicalizationtype="verbal" lexicalized="yes" originlemma="citar" originlink="verb.citar.3" wordnetsynset="16:00799534">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="3.0.3.0.0" sentencenodepath="3">Al mismo tiempo , se dan <argset><head>cita </head></argset>miles de especialistas en distintas materias : los abogados alemanes celebran su encuentro anual , otro tanto sucede con los médicos , y expertos internacionales preparan a_partir_del viernes la cumbre de líderes reformistas . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

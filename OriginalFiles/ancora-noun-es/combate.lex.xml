@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="combate" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="combatir" originlink="verb.combatir.1" wordnetsynset="16:00610417+16:00619159">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" preposition="entre" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ins">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="3" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="18" type="void"/>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="9" type="s.a"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="0.3.1.2.1.0.0" sentencenodepath="0">De todas formas , entre griegos y romanos existió una forma peculiar de <argset><head>combate </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">, no para dirimir agravios personales sino para decidir la victoria entre dos pueblos en discordia y evitar el choque de los dos ejércitos enemigos</argument></argset>. </example>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">Tal carácter revistieron <argset><specifier>los</specifier><head>combates </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre David y Goliat , Héctor y Aquiles</argument></argset>... </example>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="2.3.4.1.0.0" sentencenodepath="2">Cuentan Tácito y César en sus libros que las tribus germanas solían resolver sus batallas en <argset><head>combates </head><reference_modifiers>singulares</reference_modifiers><argument argument="arg2" function="cn" thematicrole="ins" type="sp">a espada</argument></argset>. </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="4.1.1.0.1.1.1.1.0" sentencenodepath="4">El estallido de la Primera_Guerra_Mundial , en 1914 , llevó muy poco después a que la humanidad contemplara con sus propios ojos los efectos combinados de ciencia y guerra : los espantos de <argset><specifier>los</specifier><head>combates </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de trincheras</argument></argset>y los bombardeos aéreos de ciudades quedaron ensombrecidos por un nuevo fantasma , el de las armas químicas . </example>
+        <example file="3LB-CAST/n1-15.tbf.xml" nodepath="5.0.1.3.1.1.1.1.1.1.1.0.0" sentencenodepath="5">Después_de que la madre de Enrique_Buendía ( uno de los líderes de la Corriente ) recogiera el fusil de su hijo muerto en <argset><head>combate </head></argset>, los discursos comenzaron y se enumeraron los logros del acuerdo : ayudas para créditos , becas para estudios , subsidio de paro durante dos años e indulto para los presos por delitos relacionados con la revolución - un punto en el que algunos no estaban del_todo de_acuerdo porque Ø no se extiende a delitos relacionados con el secuestro , para los que hay una pena de 60 años - . </example>
+        <example file="CESS-CAST-A/10585_20000213.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>El</specifier><head>combate </head><reference_modifiers>decisivo</reference_modifiers></argset>enfrentó al vencedor con el húngaro Ivan_Kovacs al que Ø venció por 15 tocados a 5 después de eliminar al cubano Ivan_Trejero , en los cuartos de final y al estonio Kaido_Kaberma en semifinales . </example>
+        <example file="CESS-CAST-A/10872_20001214.tbf.xml" nodepath="5.3.1.2.3.0.1.1.1.1.1.0.0" sentencenodepath="5">Los militantes del MTP tomaron en 1989 el cuartel de La_Tablada , que fue recuperado después de 30 horas de <argset><head>combates </head></argset>con el resultado de 40 muertos entre militares , policías y asaltantes . </example>
+        <example file="CESS-CAST-A/13026_20001117.tbf.xml" nodepath="7.2.3.1.1.1.0.0" sentencenodepath="7">La fuerza que proyecta la UE y cuya composición y capacidades serán aprobadas el lunes tendrá " más de 60.000 soldados , 400 aviones de <argset><head>combate </head></argset>y 100 barcos de guerra " , según fuentes comunitarias . </example>
+        <example file="CESS-CAST-A/14013_20000120.tbf.xml" nodepath="8.2.3.4.1.1.1.0.0" sentencenodepath="8">En su reunión con senadores , Madrazo ofreció explicaciones sobre el operativo y el apoyo que Ø recibió por_parte_de los ministerios de Gobernación y Defensa , además Ø informó que durante la operación se cumplieron los acuerdos bilaterales y convenios internacionales en_materia_de <argset><head>combate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al narcotráfico</argument></argset>. </example>
+        <example file="CESS-CAST-A/14699_20001018.tbf.xml" nodepath="4.0.0.2.1.1.0" sentencenodepath="4">Pocas semanas antes de <argset><specifier>ese</specifier><head>combate </head></argset>, Cermeño estuvo involucrado en una riña en una discoteca que lo mantuvo bajo custodia policial , y Adams tuvo que exponer su título ante Andrés_Fernández , que Ø mantuvo en su poder . </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="10.4.1.1.1.2.1.1.1.1.0.0" sentencenodepath="10">De_hecho , y a_pesar_del mutismo absoluto de Pekín desde que se conociera el resultado de las elecciones , la prensa de Hong_Kong informa hoy de las maniobras llevadas_a_cabo el domingo pasado por un centenar de aviones de <argset><head>combate </head></argset>chinos a pocos kilómetros de las costas de Taiwán , donde las autoridades militares permanecen en situación de alerta . </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="6.1.3.1.1.1.0.0" sentencenodepath="6">" Desde el inicio de la campana del primer asalto hasta el final del <argset><head>combate </head></argset>, ambos nos entregamos por_completo en el cuadrilátero " . </example>
+        <example file="CESS-CAST-AA/22039_20000926.tbf.xml" nodepath="5.2.2.1.2.0.3.1.0" sentencenodepath="5">Isabel_Fernández rememoró el combate frente a la cubana Dryuslis_González y Ø admitió que los últimos segundos de la final " fueron los más intensos de mi vida deportiva . Cuando se acabó <argset><specifier>el</specifier><head>combate </head></argset>Ø no me lo creía , porque Ø era algo que Ø había soñado tantas veces que me costaba pensar que Ø fuera realidad . Según pasaban los días Ø iba tocando la medalla y Ø me decía : pues sí , Ø ya es mía " . </example>
+        <example file="CESS-CAST-AA/22039_20000926.tbf.xml" nodepath="8.1.2.1.2.2.1.2.1.4.1.1.0" sentencenodepath="8">Fernández afirmó que una parte importante del éxito obtenido corresponde a su marido y entrenador , Javier_Alonso , " él tiene que ver mucho en esta medalla porque Ø me ha ayudado y apoyado en los momentos difíciles " , indicó la campeona olímpica que agradeció la colaboración de la Federación_Española_de_Judo para que su entrenador pudiera estar cerca de ella durante <argset><specifier>los</specifier><head>combates </head></argset>. </example>
+        <example file="CESS-CAST-AA/24407_20000731.tbf.xml" nodepath="3.4.1.0.1.5.2.1.0.1.1.0.1.1.1.1.0.0" sentencenodepath="3">Arambulet , tras culminar parte de su preparación , viajará el 13_de_agosto a Tokio , donde Ø llegará después de dos días de viaje , para seguir rumbo a Nagoya , sede del <argset><head>combate </head><reference_modifiers>por el cinturón mundial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/3645_20000305.tbf.xml" nodepath="3.4.2.1.1" sentencenodepath="3">Cermeño , muy superior ante un desconcertado Diaz , aseguró a EFE tras finalizar el compromiso , que <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>próximo</reference_modifiers><head>combate </head></argset>será por el título oficial ante el mexicano Néstor_Garza . </example>
+        <example file="CESS-CAST-AA/3645_20000305.tbf.xml" nodepath="7.2.0.1.1.1.1.4.0.1.3.1.0" sentencenodepath="7">Ortíz fue superior ante un Herrera , que apenas Ø subió al cuadrilátero , comenzó a recibir golpes que liquidaron tempranamente <argset><specifier>el</specifier><head>combate </head></argset>a_favor_del local . </example>
+        <example file="CESS-CAST-AA/4464_20001206.tbf.xml" nodepath="1.4.3.1.0" sentencenodepath="1">Gilberto_Jesús_Mendoza , Director_Ejecutivo de la AMB , señaló hoy a EFE que están ya confirmados <argset><specifier>los</specifier><head>combates </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">por los títulos mundiales</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en las categorías supergallo y supermosca</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4464_20001206.tbf.xml" nodepath="3.0.1.1" sentencenodepath="3"><argset><specifier>El</specifier><reference_modifiers>primer</reference_modifiers><head>combate </head></argset>será el próximo 24_de_febrero en Las_Vegas , Estados_Unidos , donde Clarence_Adams , actual titular supergallo , enfrentará a Yober_Ortega , que ganó la corona interina el pasado 23_de_noviembre en Tokio ante el japonés Kozo_Ishii . </example>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="11.0.3.2.2.1.1.1.1.2.1.1.1.0.0" sentencenodepath="11">" Ø Decidí reanudar los entrenamientos para poder saltar nuevamente al ring , solamente para enfrentarme a Golota que es , para mí , el único adversario que me merece respeto en el boxeo mundial y Ø quiero dejar bien claro que , independientemente de cuál sea el resultado del <argset><head>combate </head></argset>, Ø me retiraré para siempre del boxeo " , declaró Saleta . </example>
+        <example file="CESS-CAST-AA/8697_20001011.tbf.xml" nodepath="0.3.2.1.1.1.1.0.0" sentencenodepath="0">El promotor Francisco_García_Montoya , apoderado del púgil Xavi_Moya , ha pedido a la Federación_Española_de_Boxeo ( FEB ) la descalificación del púgil Amadeo_Peña por conducta antideportiva y , a_su_vez , la invalidez del <argset><head>combate </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">por el título nacional del peso medio</argument><reference_modifiers>, en el que Peña retuvo la corona al vencer por K.O. técnico ( abandono ) a Moya en el noveno asalto</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8697_20001011.tbf.xml" nodepath="1.5.1.0.1.1.2.1.1.1.0.1.1.0.2.1.0.1" sentencenodepath="1">Según la carta remitida por García_Montoya a Rubén_Martínez , presidente de la FEB , Amadeo_Peña golpeó con un directo de izquierda a Xavi_Moya cinco segundos después de que sonara la campana de finalización del octavo asalto de <argset><reference_modifiers>dicho</reference_modifiers><head>combate </head></argset>. </example>
+        <example file="CESS-CAST-AA/8697_20001011.tbf.xml" nodepath="4.0.4.2.1.1.1" sentencenodepath="4">" Ø Es la segunda vez que Peña reincide en su conducta antideportiva frente_a Moya , ya_que en <argset><specifier>el</specifier><reference_modifiers>primer</reference_modifiers><head>combate </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre ambos</argument><reference_modifiers>, disputado en Mayo ,</reference_modifiers></argset>Peña también le pegó fuera de tiempo " , aseguró García_Montoya . </example>
+        <example file="CESS-CAST-AA/8697_20001011.tbf.xml" nodepath="5.0.3.2.1.0" sentencenodepath="5">Si_bien el artículo 25 del reglamento de la FEB , decreta la descalificación directa del agresor sin amonestación alguna , en_relación_a la gravedad de la conducta antideportiva , y se declararía <argset><specifier>el</specifier><head>combate </head></argset>sin validez , el promotor exige en su carta que la próxima defensa del título por_parte_de Peña " Ø la realice frente_a Xavi_Moya , aún_cuando de haberse aplicado el reglamento vigente , lo justo habría sido su descalificación " . </example>
+        <example file="CESS-CAST-AA/8697_20001011.tbf.xml" nodepath="6.3.0.1.1.1.0.0" sentencenodepath="6">Francisco_García_Montoya también ha adjuntado un vídeo del <argset><head>combate </head></argset>y los informes realizados por el presidente del Comité_Profesional de la FEB , Martín_Galán , y del árbitro principal de la pelea , García_Montserrat . </example>
+        <example file="CESS-CAST-P/117_19990202.tbf.xml" nodepath="6.3.1.1.0" sentencenodepath="6">La final se planteó como <argset><specifier>un</specifier><head>combate </head><reference_modifiers>de resistencia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/28_19990602.tbf.xml" nodepath="0.0.4.1.1.1.1.1.2.4.0.1" sentencenodepath="0">La OTAN bombardeó ayer a las fuerzas serbias en la zona de la frontera con Albania , donde se registran <argset><reference_modifiers>fuertes</reference_modifiers><head>combates </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los soldados yugoslavos y la guerrilla del Ejército_de_Liberación_de_Kosovo ( UCK )</argument></argset>, señaló el portavoz de la Alianza , Jamie_Shea . </example>
+        <example file="CESS-CAST-P/28_19990602.tbf.xml" nodepath="4.4.0.1" sentencenodepath="4">Según Shea , el UCK libra " <argset><reference_modifiers>fuertes</reference_modifiers><head>combates </head><argument argument="arg2" function="cn" thematicrole="ins" type="sp">con tropas del Ejército y de la policía serbia</argument></argset>a_lo_largo_de la frontera " para intentar mantener el corredor existente en_torno_a Kazari . </example>
+        <example file="CESS-CAST-P/28_19990602.tbf.xml" nodepath="5.2.2.1.1" sentencenodepath="5">De_momento , y , aunque Ø han tenido " algún éxito " , las fuerzas serbias siguen en la zona y se registran <argset>" <reference_modifiers>fieros</reference_modifiers>
+            <head>combates </head>" </argset>. </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="7.3.1.1.1.1.0.0" sentencenodepath="7">El Pentágono anunció ayer que los helicópteros de <argset><head>combate </head></argset>Apache pueden lanzar pronto " un ataque intenso " contra fuerzas serbias . </example>
+        <example file="CESS-CAST-P/35_20000202_f.tbf.xml" nodepath="3.4.1.0.1" sentencenodepath="3">La región de Orahovac fue escenario el año pasado de <argset><reference_modifiers>violentos</reference_modifiers><head>combates </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre las fuerzas serbias y la guerrilla albanokosovar</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="combatir" originlink="verb.combatir.1" wordnetsynset="16:00283141+16:00758807">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="contra" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="1.0.4.3.3.2.0.1.1.0.0" sentencenodepath="1">" Me parece absurdo que Golota haya aceptado medir sus fuerzas con Tyson apenas unas semanas después del <argset><head>combate </head><reference_modifiers>que libraremos el 23_de_septiembre en Wroclaw</reference_modifiers></argset>" , declaró hoy , Sábado , Saleta . </example>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="3.0.1.2.1.2.1.0" sentencenodepath="3">" Ø He oído decir que , según Golota , <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>combate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sn">conmigo</argument></argset>será un simple entrenamiento , pero Ø juro que Ø está muy equivocado , que Ø me preparo con gran intensidad en Florida para darle una lección y que Ø se la daré " , informó Saleta en su página oficial de Internet . </example>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="10.4.2.1.1" sentencenodepath="10">Saleta perdió el título de campeón en_favor_del holandés Fred_Westgeesc , en <argset><specifier>el</specifier><reference_modifiers>último</reference_modifiers><head>combate </head><reference_modifiers>que libró hasta ahora el 18_de_septiembre_de_1999</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="3.0.0.2.2.1.1.0" sentencenodepath="3">Asegurar la equidad económica y no claudicar en <argset><specifier>el</specifier><head>combate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra la pobreza</argument></argset>, fomentar la inversión privada nacional y extranjera , estimular una real competencia de mercados , aumentar la competitividad de las empresas y descentralizar el Estado , son otras de las promesas del nuevo gobernante . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="combatir" originlink="verb.combatir.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="1" preposition="frente_a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/22039_20000926.tbf.xml" nodepath="5.0.2.1.0" sentencenodepath="5">Isabel_Fernández rememoró <argset><specifier>el</specifier><head>combate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sadv">frente a la cubana Dryuslis_González</argument></argset>y Ø admitió que los últimos segundos de la final " fueron los más intensos de mi vida deportiva . Cuando se acabó el combate Ø no me lo creía , porque Ø era algo que Ø había soñado tantas veces que me costaba pensar que Ø fuera realidad . Según pasaban los días Ø iba tocando la medalla y Ø me decía : pues sí , Ø ya es mía " . </example>
+        <example file="CESS-CAST-AA/24407_20000731.tbf.xml" nodepath="1.5.1.1.1" sentencenodepath="1">Arambulet se prepara en la capital venezolana junto_a su compatriota José_Bonilla para <argset><specifier>el</specifier><reference_modifiers>crucial</reference_modifiers><head>combate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">frente_a Gamboa</argument><reference_modifiers>, que se celebrará en la ciudad japonesa de Nagoya</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="carro_de_combate" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="combatir" originlink="verb.combatir.1" wordnetsynset="16:00758807">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-4.tbf.xml" nodepath="2.4.1.1.1.2.1.1.1.0.0" sentencenodepath="2">Después_del triunfo electoral de los socialistas ( ex comunistas ) en las primeras elecciones democráticas del 10_de_junio_de_1990 , la derechista Unión_de_Fuerzas_Democráticas ( SDS ) acusó a Mladénov de haber amenazado con " sacar los carros de <argset><head>combate </head></argset>" el 14_de_diciembre_de_1989 . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

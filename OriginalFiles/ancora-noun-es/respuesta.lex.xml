@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="respuesta" lng="es" origin="deverbal" type="noun">
+  <sense alternativelemma="dar_respuesta" cousin="no" denotation="none" id="1" lexicalizationtype="verbal" lexicalized="yes" originlemma="dar_respuesta" originlink="verb.dar_respuesta.1" wordnetsynset="16:05053336">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="14.5.3.1.0.0" sentencenodepath="14">" Ø Parece una situación perversa , pero en España existe la mentalidad de que el hospital está para todo . Cambiar esa cultura y conseguir que el usuario confíe en un centro de barrio costará dos o tres años . Nuestra obligación , mientras , es dar <argset><head>respuesta </head></argset>en los hospitales , tanta como Ø haga_falta y de_inmediato " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="responder" originlink="verb.responder.1" wordnetsynset="16:07769123">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" foundincorporated="yes" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/117_19990202.tbf.xml" nodepath="18.3.2.1.0.1.1.0.0" sentencenodepath="18">En esa racha inspirada de los vitorianos , el Caja_San_Fernando apareció como un juguete roto , sin capacidad de <argset><head>respuesta </head></argset>. </example>
+        <example file="CESS-CAST-P/121_19991202_a.tbf.xml" nodepath="19.0.3.2.1.0" sentencenodepath="19">" El nuevo Córdoba goza de un buen potencial y Ø acabaremos haciendo de él un coche ganador . Ø Debemos mejorar <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del motor</argument></argset>en bajos " , afirmó Auriol tras comprobar el comportamiento de su coche en la pequeña pista de tierra que posee Seat en su Centro_Técnico_de_Martorell . </example>
+        <example file="CESS-CAST-P/33_19990802.tbf.xml" nodepath="0.0.4.2.1.1.1.3.1.0.0" sentencenodepath="0">La carne de vacuno británica puede volver a comercializarse en los países de la Unión_Europea desde ayer , tras levantarse el veto impuesto hace 40 meses por la Comisión_Europea como <argset><head>respuesta </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">a la detección del denominado mal de las vacas locas</argument></argset>, pero la desconfianza que despierta su consumo va a seguir penalizando las exportaciones por un largo periodo de tiempo . </example>
+        <example file="CESS-CAST-P/47_19990401.tbf.xml" nodepath="4.2.2.3.1.1.1" sentencenodepath="4">De nada sirvió que los dos etarras se preguntaran en_alto si esa lucha popular puede entorpecer el " proceso de construcción " ( nacional ) , ni que Arnaldo_Otegi , líder de Euskal_Herritarrok , subrayara que <argset><specifier>la</specifier><reference_modifiers>Mejor</reference_modifiers><head argument="arg1" thematicrole="tem">respuesta </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">a las " agresiones " del Estado</argument></argset>será el paro convocado por Lizarra . </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="15.3.2.1.1.0" sentencenodepath="15">La organización del torneo , en el que colabora EL_PERIÓDICO , se mostraba muy satisfecha de <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del público</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="responder" originlink="verb.responder.2" wordnetsynset="16:05055491">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/17_20020801.tbf.xml" nodepath="1.3.2.0.0" sentencenodepath="1">" Ø Es mentira " , dijo Ø , en <argset><head>respuesta </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">al vicepresidente Mariano_Rajoy , quien sugirió que la inactividad de la organización terrorista se explica por un pacto entre la banda y los nacionalistas</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="responder" originlink="verb.responder.3" wordnetsynset="16:05055491">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="por_parte_de" type="sp"/>
+        <constituent frequency="16" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="de_parte_del" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="8" preposition="a" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" foundincorporated="yes" thematicrole="pat"/>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="21" type="void"/>
+        <constituent frequency="30" postype="article" type="determiner"/>
+        <constituent frequency="11" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="11" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="5" type="S"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="3.3.4.5.0.0" sentencenodepath="3">Sin_embargo , la Confederación_General_del_Trabajo ( CGT ) consideró que el proyecto elaborado por el Movimiento de empresas francesas ( Medef ) supone " un retroceso social importante " ya_que Ø " no da <argset><head argument="arg1" thematicrole="pat">respuesta </head></argset>" , entre otras cuestiones , al problema de los parados que no cobran una indemnización ( cuatro_de_cada_diez ) . </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="7.3.4.3.4.0.0" sentencenodepath="7">Por_el_contrario , la Confederación_General_del_Trabajo ( CGT ) consideró que el proyecto elaborado por el Medef supone " un retroceso social importante " ya_que Ø trata a los desempleados como a " delincuentes " y " Ø no da <argset><head>respuesta </head></argset>" , entre otras cuestiones , al problema de los parados sin cobertura social ( cuatro_de_cada_diez ) . </example>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="4.3.2.4.1.1.0.0" sentencenodepath="4">Sin mencionarlos , el jefe del Estado indicó que unos asuntos " están en desarrollo " por propia decisión gubernamental y que otros serán analizados por la coalición para dar <argset><head>respuesta </head><reference_modifiers>conjunta</reference_modifiers></argset>" lo antes posible " . </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="10.0.3.1.0" sentencenodepath="10">Ø Nunca sabremos <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>, pero sí que ahí se acabó el partido de ayer . </example>
+        <example file="3LB-CAST/dc10-2.tbf.xml" nodepath="8.0.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>vino de la mano de un grupo de investigadores del departamento de Medicina_experimental del instituto Max_Planck de Gottingen ( República_Federal_Alemana ) : lógicamente , las moléculas de los anticuerpos no están almacenadas o dispuestas para su producción en serie en el mismo instante en que Ø se precisan ; sino_que la información necesaria para su fabricación se encuentra grabada de_antemano en lo que algunos llaman memoria genética . </example>
+        <example file="3LB-CAST/dc10-5.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">Si , como en el caso de Alejandro_Pushkin , se encontraba en juego el honor de la persona , <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>era inmediata : se arrojaba el guante y sólo había que concertar fecha y hora , escoger el terreno y las armas , y nombrar los padrinos . </example>
+        <example file="3LB-CAST/dc2-0.tbf.xml" nodepath="9.0.2.4.0.0" sentencenodepath="9">Lo más probable es que Ø nunca obtengamos <argset><head argument="argM" thematicrole="pat">respuestas </head><reference_modifiers>concretas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a estas y otras preguntas similares</argument></argset>, pero desde_luego existen indicios , razonables y suficientes , de que en ciertos laboratorios se están cocinando recetas para poner los pelos de punta . </example>
+        <example file="3LB-CAST/dc2-8.tbf.xml" nodepath="3.2.1.1.1.4.2.3.0.1.0" sentencenodepath="3">Sutter y sus colegas han aprendido a dar_caza y reconocer unas determinadas ondas cerebrales generadas ante distintos estímulos visuales - lo que ellos llaman <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">cerebral</argument><reference_modifiers>de interfase</reference_modifiers></argset>o BRI - para luego jugar con el sofisticado programa de ordenador . </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="10.3.1.1.1.1.0" sentencenodepath="10">Los políticos se han visto obligados a dar <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>a la demanda comunitaria . </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="11.0.1.1.0" sentencenodepath="11">En muchos casos <argset><specifier>esta</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>ha sido más ambigua y confusionista que la propia exigencia de los pueblos , y ello a_pesar_de los esfuerzos que han hecho en los últimos veinticinco años algunas organizaciones internacionales ( UNESCO , Consejo_de_Europa , CEE ) por llevar a los gobiernos interesados a plantearse e intentar resolver un problema que , considerado en_profundidad , era políticamente nuevo . </example>
+        <example file="3LB-CAST/t3-2.tbf.xml" nodepath="10.3.1.0" sentencenodepath="10">Ø No esperó <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head argument="arg1" thematicrole="pat">respuesta </head></argset>. </example>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="5.3.4.1.0" sentencenodepath="5">En declaraciones a EFE , el secretario regional de la Federación_del_Metal_de_UGT , Ricardo_Jiménez , dijo que la operación " tendrá <argset><specifier>una</specifier><head>respuesta </head><reference_modifiers>adecuada</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">" por_parte_de los sindicatos</argument></argset>una_vez_que Ø conozcan el contenido del acuerdo . </example>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="7.4.1.0.1.1.1.1.0" sentencenodepath="7">Una_vez_que Ø conozcan el contenido del acuerdo de venta , señaló Ø , los sindicatos estarán en disposición de dar <argset><specifier>una</specifier><head>respuesta </head></argset>. </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="4.0.1.0.1.0" sentencenodepath="4">" <argset><specifier>La</specifier><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Migración</argument></argset>ha sido contundente : justo al día de hoy Ø triplicaron el operativo de quitar la cédula a los ciudadanos de tez oscura " , dijo hoy Morel_Cerda . </example>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="9.2.2.4.4.5.1.0" sentencenodepath="9">Con_respecto_al rechazo de la propuesta hecha por el gobernante cubano , Fidel_Castro , Chávez aclaró que la negativa obedeció a que los países de la OPEP no la sintieron viable , y Ø destacó que Ø declaró sobre ese asunto porque Ø consideró " adecuado " que antes de que Ø se marcharan de La_Habana Ø le dieran <argset><specifier>una</specifier><head>respuesta </head></argset>al anfitrión de la Cumbre . </example>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="10.0.1.4.1.0" sentencenodepath="10">" Pero esta no es <argset><specifier>una</specifier><head>respuesta </head><reference_modifiers>totalmente negativa</reference_modifiers></argset>, por ello Ø también planteamos otras alternativas compensatorias , como la ampliación del Pacto_de_San_José , con lo que Ø podemos subsidiar el 20_por_ciento " , indicó el mandatario . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="10.4.1.0.1.4.1.0" sentencenodepath="10">De_nuevo , como en los anteriores debates de Boston ( Massachusetts ) y de Winston-Salem ( Carolina_del_Norte ) , los planes de recorte de impuestos de Bush fueron criticados por Gore , que cuando Ø señaló que esos planes benefician a los ricos , obtuvo <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de " desde_luego que sí "</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">, de_parte_del gobernador de Texas</argument></argset>. </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="15.4.4.1.2.1.1.1.1.1.3.3.1.3.1.1.0.0" sentencenodepath="15">Pero los consumidores están preocupados pues Ø no acaban de entender las bondades promocionadas por el Ejecutivo sobre el sistema de la " dolarización " , cuyo proceso de aplicación es tan incierto aún que Ø ha generado más preguntas que <argset><head>respuestas </head></argset>, pues Ø fue presentado como uno de los mecanismos para salir de la crisis . </example>
+        <example file="CESS-CAST-A/15931_20000320.tbf.xml" nodepath="4.3.3.2.2.0.1.1.0.2.4.1.2.3.1.1.1.1.1.0.2.1.0.1.1.0.0" sentencenodepath="4">Junto_a esta situación , el lehendakari denunció que también hay " un discurso político lleno de arrogancia " , con la que se trata de " circunscribir el diálogo a unos ámbitos y no a otros , tratando de impulsar las soluciones que debemos dar todos los demás pero nunca las de uno mismo e incluso tratando de negar la existencia del diálogo a nivel institucional como elemento de <argset><head>respuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a cualquier problema</argument></argset>" . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">En_espera_de <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno francés</argument></argset>, queda también por definir el trazado definitivo que tendría esta vía transpirenaica dado_que existen varias alternativas , en las que Loyola_de_Palacio destacó la necesidad de tener_en_cuenta que se trata de una zona que requiere " especial sensibilidad medioambiental y también histórica " por albergar por_ejemplo rutas del Camino_de_Santiago . </example>
+        <example file="CESS-CAST-AA/19811_20000427.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Para el presidente gallego fue " brillante " <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Aznar</argument></argset>al definir como " terrorífico " el discurso del Bloque , ya_que , agregó Ø en_referencia_a esta formación , " algunos creyeron que un cierto tipo de tensión les iba a llevar muy lejos y Ø no les llevó a ninguna parte " e incluso " Ø les chocó " en la Cámara baja . </example>
+        <example file="CESS-CAST-AA/20072_20000924.tbf.xml" nodepath="2.2.0.1.0" sentencenodepath="2">El Valencia quiso dar primero con un potente disparo de Vicente que detuvo Núñez , pero <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Numancia</argument></argset>no se hizo esperar , ya_que , en el minuto siete , Ojeda remató al lateral de la red un balón procedente de un córner botado por Iñaki . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="3.2.4.0.2.1.0.0" sentencenodepath="3">El diseñador gallego manifestó que Ø no está encontrando " agilidad de <argset><head>respuesta </head></argset>" por_parte_de la Administración gallega para el desarrollo de su proyecto que , Según explicó Ø , pasa por " dar respuestas rápidas al mercado y competir mejor " . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="3.2.4.0.5.1.1.1.1.1.1.3.1.1.1.0.0" sentencenodepath="3">El diseñador gallego manifestó que Ø no está encontrando " agilidad de respuesta " por_parte_de la Administración gallega para el desarrollo de su proyecto que , Según explicó Ø , pasa por " dar <argset><head>respuestas </head><reference_modifiers>rápidas</reference_modifiers></argset>al mercado y competir mejor " . </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="6.2.1.1.1.0" sentencenodepath="6">Ø Eludió referirse a <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head><reference_modifiers>concreta</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Vaticano</argument></argset>, aunque Ø se mostró satisfecho " por la acogida y la cordialidad " del Papa_Juan_Pablo_II , en una visita que Ø calificó de " provechosa y útil " para explicar la " situación dramática del pueblo cubano " y recordar a Su_Santidad que su llamamiento para que finalizara el bloqueo estadounidense no ha sido escuchado porque , dijo Ø , " Ø se ha recrudecido " . </example>
+        <example file="CESS-CAST-AA/20525_20000325.tbf.xml" nodepath="5.3.1.0" sentencenodepath="5">Egibar criticó también <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del presidente del Gobierno , José_María_Aznar ,</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a la propuesta realizada en Madrid por el lehendakari , quien defendió una nueva relación entre Euskadi y el Estado , basada en la " libre adhesión " y ratificada en una consulta popular</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20525_20000325.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">Para el dirigente nacionalista , el que Aznar tache de " irreal " y " estrategia equivocada " la propuesta de Ibarretxe supone <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">respuesta </head><reference_modifiers>" pobre "</reference_modifiers><reference_modifiers>que hace " pensar hasta qué punto va a haber profundidad y perspectiva de Estado - por_parte_del PP - a la hora de encarar un conflicto como el vasco "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20778_20001126.tbf.xml" nodepath="2.5.0.0" sentencenodepath="2">Si a Turbo le faltó alguien que tirase de él , que le provocara , después_del km.24 , a su compatriota Edato_Gadisse nadie le dio <argset><head argument="arg1" thematicrole="pat">respuesta </head><reference_modifiers>adecuada</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/22163_20000527.tbf.xml" nodepath="3.2.0.1.1" sentencenodepath="3">Bolivia pidió a Chile el desentierro de las minas , calculadas en más de medio millón en la frontera , en cumplimiento de los acuerdos internacionales , pero <argset><specifier>la</specifier><reference_modifiers>última</reference_modifiers><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno de Santiago</argument></argset>fue que Ø no tenían los recursos necesarios para realizar esa tarea . </example>
+        <example file="CESS-CAST-AA/2232_20001103.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head argument="arg1" thematicrole="pat">respuesta </head></argset>fue : " Después de 1968 , no " , según publica hoy el diario en la primera página . </example>
+        <example file="CESS-CAST-AA/2232_20001103.tbf.xml" nodepath="4.4.4.1.1.0" sentencenodepath="4">La portavoz de Bush , Karen_Hughes , declaró hoy al periódico que el aspirante a la presidencia no recuerda haber dado <argset><specifier>esa</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>durante la entrevista , realizada en Austin , capital de Texas . </example>
+        <example file="CESS-CAST-AA/2519_20000203.tbf.xml" nodepath="6.2.2.5.0.0" sentencenodepath="6">Romaní manifestó que el escrito fue enviado ayer , miércoles , a la Cancillería y Ø señaló que Ø todavía no ha recibido <argset><head argument="arg1" thematicrole="pat">respuesta </head></argset>de ese despacho . </example>
+        <example file="CESS-CAST-AA/4738_20001107.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">Portela considera que <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Diamantoupoulou , cuyo escrito señala que " los trabajadores de los países candidatos con un empleo legal en un Estado miembro deben recibir el mismo trato que los nacionales de este Estado miembro por lo que se refiere a las condiciones laborales , la remuneración y el despido " ,</argument></argset>avala las tesis defendidas por la Asociación_de_Clubes . </example>
+        <example file="CESS-CAST-AA/4738_20001107.tbf.xml" nodepath="3.1.1.1.1.1.1.0" sentencenodepath="3">" Para Portela , el texto de <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la comisaria Diamantoupoulou</argument></argset>lleva a conclusiones muy claras . Los jugadores afectados tienen derecho a las mismas condiciones laborales que los jugadores nacionales , por lo que si a un jugador nacional se le tramita la licencia y a uno de estos jugadores no , es evidente que no se les está dando el mismo trato " . </example>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="6.4.2.0.0" sentencenodepath="6">Valcárcel se refirió al Libro_Blanco_del_Agua , donde se indica " la necesidad de traspasar agua " a las cuencas deficitarias y se cita en_concreto un " trasvase externo " para el Segura , como <argset><head>respuesta </head><reference_modifiers>al ser preguntado por si Aznar es partidario o no de las derivaciones de agua , algo que Valcárcel no precisó</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/101_20020402.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>respuesta </head></argset>la tienen los jugadores de los cuatro equipos españoles - - Deportivo , Valencia , Mallorca y Real_Madrid - - que han viajado a Grecia en las dos últimas ediciones de la Liga_de_Campeones . </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="5.0.1.1.2.0" sentencenodepath="5">La fusión <argset>, <specifier>la</specifier>
+            <head>respuesta </head>
+            <argument argument="arg2" function="cn" thematicrole="tem" type="sp">a la concentración de las suizas Ciba y Sandoz en Novartis</argument>, </argset>costará unos 286.000 millones de pesetas , según el responsable financiero del nuevo conglomerado , Patrick_Langlois . </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="6.0.3.1.1.0" sentencenodepath="6">Núñez responsabilizó a los medios de comunicación , con la dureza de sus críticas sistemáticas a Van_Gaal , de <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">negativa</argument><reference_modifiers>que han tenido los socios del Barça</reference_modifiers></argset>, y Ø mantiene su fe en el entrenador , al que Ø cree capaz de remontar la situación adversa y reconducir al equipo hacia la buena dirección . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>La</specifier><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Camp_Nou</argument></argset>les ha dado más argumentos para justificar la necesidad de un cambio . </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="2.3.2.1.1.1.1.0.0" sentencenodepath="2">Probablemente , ésta hubiera sido aceptar sin_ambages la superioridad del Arsenal y reconocer la falta de <argset><head>respuestas </head><argument argument="arg2" function="cn" thematicrole="tem" type="s.a">técnicas y tácticas</argument></argset>que ofreció el Barça en una decepcionante Segunda mitad . </example>
+        <example file="CESS-CAST-P/122_19990202.tbf.xml" nodepath="5.2.1.2.2.2.1.1" sentencenodepath="5">La jornada previa al inicio de la Conferencia_Mundial sobre el Dopaje en el Deporte , cita que debía servir para magnificar el papel del COI en su lucha contra la lacra de la droga , siguió la misma tónica de los últimos días , con persistentes ataques y <argset><specifier>una</specifier><reference_modifiers>curiosa</reference_modifiers><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del servicio de prensa del organismo internacional , que desmanteló una_por_una las inexactitudes que los medios informativos han publicado en las últimas semanas referentes a la forma de vida y las presuntas prebendas de Samaranch</argument></argset>. </example>
+        <example file="CESS-CAST-P/135_19981202.tbf.xml" nodepath="6.0.2.1.1.1.0" sentencenodepath="6">Abiertas a la improvisación y condicionadas por <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los que normalmente sólo observamos</argument></argset>, Ø tienen a su favor la presencia de las dos auténticas perlas del espectáculo : los actores Jesús_Roche y Txema_Pérez . </example>
+        <example file="CESS-CAST-P/158_20010502.tbf.xml" nodepath="4.4.0.0" sentencenodepath="4">" Ø Ya tengo <argset><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a eso</argument><reference_modifiers>: si estoy loco , es porque todo lo que nos están haciendo los árbitros me ha provocado esa locura</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/169_20010401.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>Las</specifier><head>respuestas </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del entrenador</argument></argset>fueron unidireccionales . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="24.2.1.1.1.0.2.3.0.0" sentencenodepath="24">La creciente omnipresencia del correo electrónico como ubicuo medio de comunicación abre un abanico de problemas de gran calado para los que no hay <argset><head argument="arg1" thematicrole="pat">respuestas </head></argset>a mano . </example>
+        <example file="CESS-CAST-P/199_20001201.tbf.xml" nodepath="15.0.1.0" sentencenodepath="15"><argset><specifier>La</specifier><head>respuesta </head></argset>aún espera . </example>
+        <example file="CESS-CAST-P/20_20010102.tbf.xml" nodepath="6.1.7.1.0.2.1.1.0" sentencenodepath="6">En_pocas_palabras : Ø deberá desprenderse de lo viejo , hallar dónde guardarlo sin peligro , tener más capacidad en la contención y ser más eficaz en <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>. </example>
+        <example file="CESS-CAST-P/20_20010702.tbf.xml" nodepath="1.0.1.0.0" sentencenodepath="1">Como <argset><head argument="arg1" thematicrole="pat">respuesta </head></argset>, la milicia chií lanzó más de 80 proyectiles antitanque y de mortero contra posiciones al otro lado de la frontera . </example>
+        <example file="CESS-CAST-P/20_20010702.tbf.xml" nodepath="6.2.1.1.1.0.2.2.1.0.1.5.1.1.1.0" sentencenodepath="6">El bombardeo israelí provocó la indignación del mundo árabe , especialmente de Siria y Líbano , cuyos ministros de Asuntos_Exteriores se pusieron en contacto telefónico para estudiar <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>. </example>
+        <example file="CESS-CAST-P/23_20000201_c.tbf.xml" nodepath="1.2.2.1.0" sentencenodepath="1">Frutos ya le ha tratado de convencer de que IU tendría una cara más moderna si Ø prescindiera de esa barba , y todo lo que Ø ha conseguido de Ríos ha sido <argset><specifier>la</specifier><head>respuesta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que por_ahora ... nada</argument></argset>. </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">Una vez allí , Ø recibieron <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">respuesta </head><reference_modifiers>similar</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/30_20010701.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">El silencio fue <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>. </example>
+        <example file="CESS-CAST-P/31_19990401.tbf.xml" nodepath="3.2.4.1.1.1.1.2.2.0.0" sentencenodepath="3">Rusia desempolva la retórica de la guerra_fría y Ø se adentra cada vez más en la estrategia de incrementar la tensión , como <argset><head>respuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a lo que en el país se considera una " agresión " contra un " Estado soberano "</argument></argset>. </example>
+        <example file="CESS-CAST-P/35_20000202_a.tbf.xml" nodepath="11.3.4.1.1.0" sentencenodepath="11">No_obstante , Ø agregó que la CDU está todavía a_la_espera_de <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">respuestas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Weyrauch</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a un extenso cuestionario , relativo también a todos sus viajes y a los movimientos de medios en cuentas de la CDU en el extranjero , del 1_de_enero_de_1989 al 31_de_diciembre_de_1999</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="17.2.1.1.0" sentencenodepath="17">Uno de los responsables de este ensayo en el servicio de Urología del Hospital General de Alicante , Juan_José_Lobato , sostiene que <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la investigación</argument></argset>" está siendo satisfactoria en términos generales " . </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="0.0.1.2.1.0" sentencenodepath="0">" El euro representa <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">europea</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para conseguir el objetivo de un mayor nivel de empleo y bienestar de nuestros ciudadanos</argument></argset>. El euro es la mejor base para crear empleo " , insistió Ø . </example>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="16.4.0.0" sentencenodepath="16">Pero Ø no recibió <argset><head argument="arg1" thematicrole="pat">respuesta </head></argset>. </example>
+        <example file="CESS-CAST-P/45_20000802.tbf.xml" nodepath="2.2.2.2.0.0" sentencenodepath="2">Cuando el vehículo sobrepasó la capital granadina , las dos turistas comenzaron a inquietarse y , cuando Ø pidieron explicaciones al conductor , éste , como <argset><head argument="arg1" thematicrole="pat">respuesta </head></argset>, intentó tocarles las piernas . </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="11.3.1.0.0" sentencenodepath="11">" Ø Obtuve como <argset><head argument="arg1" thematicrole="pat">respuesta </head></argset>la negativa " . </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="19.2.2.2.3.1.0" sentencenodepath="19">La vicelehendakari , Idoia_Zenarruzabeitia , alegó que Ø no había podido desplazarse ayer a Madrid para terminar de negociar el concierto porque Ø debía intervenir en un pleno parlamentario en Vitoria , pero que Ø había expresado a Montoro su disposición a viajar una vez concluyera el debate y que Ø recibió <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head></argset>por fax . </example>
+        <example file="CESS-CAST-P/61_19991001.tbf.xml" nodepath="18.3.5.1.0.0" sentencenodepath="18">Ø Reconoció que en el texto de esta última normativa hay " algunos anzuelos " en temas que benefician al Govern , aunque Ø avisó : " Ø No nos pueden acusar de desleales " , en <argset><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a unas declaraciones efectuadas por el portavoz del Gobierno , Josep_Piqué</argument></argset>. </example>
+        <example file="CESS-CAST-P/68_19991201.tbf.xml" nodepath="5.0.1.1.1.0" sentencenodepath="5">Al recibir <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la empresa Konami</argument></argset>, la UCE ha pedido la retirada del videojuego al comisario Europeo de Política_de_los_Consumidores_y_Salud , David_Byrne . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="8.4.1.1.1.0" sentencenodepath="8">Los representantes sindicales de los 12 países afectados por la reestructuración del grupo se reunieron ayer para coordinar <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">al plan</argument></argset>. </example>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="11.2.2.1.1" sentencenodepath="11">El argentino se revolvió en el área y Ø encontró <argset><specifier>una</specifier><reference_modifiers>buena</reference_modifiers><head>respuesta </head></argset>en Cañizares , que desvió un remate a córner ( m.6 ) . </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="11.3.5.2.4.0.1" sentencenodepath="11">La AEB ha recordado , por su parte , que desde el inicio de las negociaciones Ø han presentado diferentes propuestas para " conseguir una mayor flexibilidad en la gestión de las empresas bancarias " , sin que hasta el momento Ø haya obtenido <argset>" <head>respuesta </head>
+            <reference_modifiers>positiva</reference_modifiers>
+            <reference_modifiers>alguna</reference_modifiers>" </argset>. </example>
+        <example file="CESS-CAST-P/9_20010601_a.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">Si <argset><specifier>la</specifier><head argument="arg1" thematicrole="pat">respuesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de un potencial cliente</argument></argset>es el No aseguramiento , Ø deberíamos apelar a su sentido de la responsabilidad frente_a los terceros perjudicados , pero en ningún caso culpar al asegurador . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="5" lexicalized="no" originlemma="responder" originlink="verb.responder.3" wordnetsynset="16:07769123">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="3" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="13.2.1.0.0" sentencenodepath="13">La decisión surge en <argset><head>respuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a la intentona golpista que intenta consolidar el empresario fiyiano George_Speight , quien hace dos semanas entró con seis hombres armados en el Parlamento y secuestró al Gobierno y varios diputados</argument></argset>. </example>
+        <example file="CESS-CAST-P/176_20001201.tbf.xml" nodepath="6.2.1.1.4.2.0.0" sentencenodepath="6">El equipo de Maljkovic fue el primero que rompió el equilibrio con una excepcional racha de cinco triples seguidos en el segundo cuarto , en <argset><head>respuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a una defensa en zona del Barça</argument></argset>( 26-39 ) . </example>
+        <example file="CESS-CAST-P/39_20010202.tbf.xml" nodepath="1.4.5.1.0.0" sentencenodepath="1">En su despacho , el vicefiscal general de Rusia reconoce en esta entrevista a EL_PERIODICO que su oficina filtró deliberadamente información judicial sobre los profesionales de NTV como <argset><head>respuesta </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a las acusaciones que lanzaban los informadores desde la cadena de televisión contra la Fiscalía rusa</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

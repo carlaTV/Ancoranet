@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="tanteo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="tantear" originlink="verb.tantear.1" wordnetsynset="16:cs2">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="11.6.3.3.0.0" sentencenodepath="11">Según el presidente , hasta hace unos días no se había perfilado la posibilidad de vender Rover al grupo inversor británico , que se encargará de la producción y distribución , aunque Ø admitió que ya hubo <argset><head>tanteos </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para esta operación</argument></argset>en octubre del año pasado . </example>
+        <example file="CESS-CAST-AA/20751_20000128.tbf.xml" nodepath="0.4.1.1.1.1.1.0.0" sentencenodepath="0">El ayuntamiento de Barcelona , de_acuerdo_con el ministerio de Trabajo_y_Seguridad_Social , ha pasado a ser el propietario del parque de atracciones del Tibidabo al ejercer el derecho de <argset><head>tanteo </head><reference_modifiers>sobre este equipamiento y sus terrenos</reference_modifiers></argset>, arrebatándoselo a la empresa Chupa_Chups , que lo adquirió ayer en subasta . </example>
+        <example file="CESS-CAST-AA/20751_20000128.tbf.xml" nodepath="3.2.4.5.1.1.1.1.1.0.0" sentencenodepath="3">Chupa_Chups anunció esta mañana que la reserva a terceros efectuada ayer por el subastero José_Guindulaín suponía que la empresa pasaba a ser de su propiedad , pero poco después el alcalde de Barcelona , Joan_Clos , hizo público que el consistorio , de_acuerdo_con el ministerio de Trabajo_y_Seguridad_Social , pasará a ser propietario del parque de atracciones del Tibidabo al ejercer el derecho de <argset><head>tanteo </head></argset>sobre este equipamiento y sus terrenos . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

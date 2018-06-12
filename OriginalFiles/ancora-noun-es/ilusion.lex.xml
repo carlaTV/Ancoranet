@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ilusión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ilusionar" originlink="verb.ilusionar.1" wordnetsynset="16:05596218+16:05596105">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a1-0.tbf.xml" nodepath="2.2.4.1.1.4.1.1.1.1.1.0" sentencenodepath="2">Resulta entonces que Ø no practica las historias del espejo , del tomavistas o de todos esos inventos que <argset><specifier>tan poca</specifier><head>ilusión </head></argset>nos producen ya . </example>
+        <example file="3LB-CAST/a12-0.tbf.xml" nodepath="3.0.4.1.0.1" sentencenodepath="3">Los espejismos , según el diccionario , no son más_que <argset><reference_modifiers>meras</reference_modifiers><head>ilusiones </head><reference_modifiers>ópticas</reference_modifiers></argset>, pero yo , que nunca he sido personaje de novela ni compañero de aventuras de Lawrence_de_Arabia , lo más parecido a un espejismo que Ø he visto son esos bichitos blancos con forma de paramecio que culebrean sobre el forro oscuro de los párpados . </example>
+        <example file="3LB-CAST/c1-0.tbf.xml" nodepath="0.1.4.3.0.0" sentencenodepath="0">Como mi amiga la Susi no se anda con chiquitas , cuando Ø le pregunté qué le haría <argset><head>ilusión </head></argset>como regalo de Reyes Ø me dijo : Algo caro y que me dé mucho gusto . </example>
+        <example file="3LB-CAST/c5-2.tbf.xml" nodepath="10.0.3.1.0" sentencenodepath="10">No me hace <argset><specifier>ninguna</specifier><head>ilusión </head></argset>que los EEUU asuman el papel al que Ø nunca han renunciado de - sheriff - del planeta ; el problema es que se trata , como en algunas películas , de un - sheriff - corrupto que sólo se preocupa de poner orden en los pleitos que afectan a sus intereses . </example>
+        <example file="3LB-CAST/d1-6.tbf.xml" nodepath="7.4.2.1.1.1.0.0" sentencenodepath="7">Ø Seguirás arriba , Ø no te preocupes , pero Ø habrás rescatado un trozo de <argset><head>ilusión </head></argset>para los domingos . </example>
+        <example file="3LB-CAST/d2-0.tbf.xml" nodepath="6.2.0.1.2.1.3.1.1.0" sentencenodepath="6">Anteriormente subieron Uriarte y Garmendia , una inversión que da sus frutos y mantiene <argset><specifier>la</specifier><head>ilusión </head></argset>en los amateur . </example>
+        <example file="3LB-CAST/d2-5.tbf.xml" nodepath="3.2.1.1.1.1.0" sentencenodepath="3">Ese hubiera sido el fin de <argset><specifier>las</specifier><head>ilusiones </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de victoria</argument></argset>para Camargo . </example>
+        <example file="3LB-CAST/d2-9.tbf.xml" nodepath="5.4.3.1.1.1.0" sentencenodepath="5">Esta presión se suma al abrumador cansancio físico , minando o acabando con <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>ilusiones </head></argset>. </example>
+        <example file="3LB-CAST/dc2-8.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>Todas las</specifier><head>ilusiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del doctor Meagher</argument></argset>se hubiesen derrumbado como un castillo de naipes , de no ser por la máquina de Sutter . </example>
+        <example file="3LB-CAST/t1-4.tbf.xml" nodepath="4.0.1.0.4.1.1" sentencenodepath="4">Lo que hasta entonces había sido para él <argset><specifier>una</specifier><reference_modifiers>mera</reference_modifiers><head>ilusión </head></argset>se convirtió gracias_a ellas en una posibilidad que se podía coger con las manos . </example>
+        <example file="CESS-CAST-A/10268_20000413.tbf.xml" nodepath="2.0.3.2.0.1.3.1.0" sentencenodepath="2">" Ø Nunca había ganado al Barcelona . Ø Era algo que me hacía <argset><specifier>mucha</specifier><head>ilusión </head></argset>porque son clásicos , sobre_todo los derbis entre el Espanyol y el Barcelona . En los últimos días , Ø he vivido instantes muy emotivos " , confesó a Efe Toni . </example>
+        <example file="CESS-CAST-A/11084_20001014.tbf.xml" nodepath="11.2.4.1.0" sentencenodepath="11">El duro golpe recibido con el descubrimiento que su madre y hermana mayor sufrían de cáncer de mama , afectó a su rendimiento deportivo , incluida la ausencia de los Juegos_Olímpicos de Sydney , donde Ø esperaba defender la medalla de oro conseguida en Atlanta'96, pero en_absoluto Ø le han quitado <argset><specifier>la</specifier><head>ilusión </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de seguir en la competición activa</argument></argset>. </example>
+        <example file="CESS-CAST-A/12221_20000215.tbf.xml" nodepath="2.3.4.2.1.1.1.1.1.0" sentencenodepath="2">Sobre el emparejamiento en cuartos_de_final ante el Airtel_Valencia , el técnico del Ademar , Manolo_Cadenas , considera que " Ø es un equipo novato en esta competición , pero Ø cuenta con la ventaja de <argset><specifier>la</specifier><head>ilusión </head><reference_modifiers>que supone el haber logrado uno de los objetivos de la temporada</reference_modifiers></argset>" , dijo Ø . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="4.2.4.2.3.0.0" sentencenodepath="4">Esteve , que hace 15 días indicó que su previsión era presentarse a la reelección , ha puntualizado que Ø está dispuesto a volver a optar al cargo " porque Ø me hace <argset><head>ilusión </head></argset>y no hay ninguna razón para no hacerlo si se da el caso de que Mas no optase al cargo " . </example>
+        <example file="CESS-CAST-A/18213_20000828.tbf.xml" nodepath="6.2.0.1.2.4.0.1.1.0.0.1.0" sentencenodepath="6">" Ahora , más_que desanimarse y desilusionarse , Sevilla tiene que dar otro paso para empezar a preparar la candidatura del 2012 " dijo Hurtado quien subrayó que " habrá que ver qué aspectos técnicos hay que mejorar y presentarse con <argset><specifier>la misma</specifier><head>ilusión </head></argset>y entusiasmo que para el 2004 y el 2008 " además_de asegurar que " desde la consejería y desde el ayuntamiento Ø seguiremos apostando por la candidatura " . </example>
+        <example file="CESS-CAST-AA/21126_20000129.tbf.xml" nodepath="8.3.3.1.1.1.0.0" sentencenodepath="8">A_juicio_de Llamazares , su coalición antepone que tanto PSOE como IU respondan a <argset><specifier>la</specifier>" <head>ilusión </head>, demanda y expectativa social que se ha creado en la izquierda con la posibilidad de este acuerdo " </argset>. </example>
+        <example file="CESS-CAST-AA/5332_20000207.tbf.xml" nodepath="3.0.5.0.2.1.0" sentencenodepath="3">" Es difícil dormir cuando Ø has jugado un partido en el que nada salió bien . Se ha cortado una excelente racha positiva , pero alguna vez Ø tenía que llegar . Ø Teníamos <argset><specifier>mucha</specifier><head>ilusión </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">en derrotar al líder</argument></argset>y Ø somos conscientes de que Ø hemos perdido una gran oportunidad " , dijo Michel . </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="38.2.0.5.1.1.0" sentencenodepath="38">Por un lado , Ø ha intentado contener la euforia ( " me preocupa que la gente está muy segura de ganar los títulos " ) ; por otro , Ø ha dado también rienda_suelta a <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>ilusiones </head></argset>: " Ø Podemos ganar las cuatro Copas_de_Europa " . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="14.1.1.2.2.1.1.1.1.1.1.0" sentencenodepath="14">En este sentido , las palabras de Joan_Gaspart responsabilizando al entrenador de la necesidad de devolver <argset><specifier>la</specifier><head>ilusión </head></argset>a la afición son significativas . </example>
+        <example file="CESS-CAST-P/129_20020502.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">El Raúl más ambicioso e inspirado destrozó <argset><specifier>las</specifier><head>ilusiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Barcelona</argument><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de dar la vuelta al resultado del Camp_Nou</argument></argset>. </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="10.4.0.0" sentencenodepath="10">Pero el England_United , como se ha bautizado a la selección inglesa debido_a su dependencia del Manchester_United - - cinco de sus jugadores fueron titulares - - , sólo contagió <argset><head>ilusión </head></argset>cuando España decidió desconectarse del partido . </example>
+        <example file="CESS-CAST-P/141_19991001.tbf.xml" nodepath="15.3.1.1" sentencenodepath="15">Este debut le produce <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>ilusión </head></argset>. </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="13.2.4.2.0.4.0" sentencenodepath="13">Alertado por la cohesión del Valencia y su regularidad en las dos últimas temporadas , O'Leary dijo que el Leeds lo combatirá " con <argset>calidad , disciplina e <head>ilusión </head>
+          </argset>" . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="1.2.1.0.0" sentencenodepath="1">Los vecinos del distrito de Sant_Martí acogen con <argset><head>ilusión </head></argset>la apertura del último tramo de la Diagonal , aunque Ø admiten que todavía quedan cosas por hacer . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="3.2.0.0" sentencenodepath="3">Josep y Angel_Ortiz desbordan <argset><head>ilusión </head></argset>en su mirada . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="14.4.2.0.0" sentencenodepath="14">Y Ø se dejan llevar , con <argset><head>ilusión </head></argset>, por la marea humana que les empuja Diagonal arriba , en la mayor manifestación que ha conocido el barrio , para conocer de_cerca las promesas de futuro que Ø les van a dibujar en el acto de inauguración . </example>
+        <example file="CESS-CAST-P/67_19990901.tbf.xml" nodepath="7.0.3.1.0" sentencenodepath="7">" Nos hizo <argset><specifier>mucha</specifier><head>ilusión </head></argset>que Barbie no_sólo haya servido de diversión a las niñas , sino_que Ø pueda ayudar a los adultos que hayan sufrido un accidente " , indicó un portavoz de la casa Mattel . </example>
+        <example file="CESS-CAST-P/85_20020501.tbf.xml" nodepath="13.3.1.1.0" sentencenodepath="13">Ø Luchó por cada trabajo con <argset><specifier>una</specifier><head>ilusión </head><reference_modifiers>de primer día</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="ilusionar" originlink="verb.ilusionar.1" wordnetsynset="16:05596218+16:05596105+16:04449762">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13555_20001218.tbf.xml" nodepath="4.2.0.1.3.4.1.0" sentencenodepath="4">" En aquella época todavía poca gente escalaba " ochomiles " y Ø fue una gozada " , apuntó Juanjo_San_Sebastián , quien señaló que la " industrialización " que , a su juicio , ha sufrido la alta montaña en los últimos años le ha hecho perder <argset><specifier>la</specifier><head>ilusión </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de participar en nuevas expediciones</argument></argset>. </example>
+        <example file="CESS-CAST-P/141_19990302.tbf.xml" nodepath="4.0.4.1.1.1.1.3.1.1" sentencenodepath="4">Jordi_González , director y presentador del programa , justificó ayer plenamente la decisión de permitir que se cumpliera <argset><specifier>la</specifier><reference_modifiers>gran</reference_modifiers><head>ilusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Gorka</argument></argset>y Ø afirmó no haber recibido crítica alguna de la dirección de TV-3 por haber accedido a satisfacer un capricho tan peculiar con el dinero de una tele pública . </example>
+        <example file="CESS-CAST-P/17_19981201.tbf.xml" nodepath="2.0.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>ilusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del progreso</argument></argset>no cesa de apabullarnos con sueños de un futuro mejor , mientras la tozuda realidad del presente nos mata a desengaños . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

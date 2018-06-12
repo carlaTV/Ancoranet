@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="agradecimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="agradecer" originlink="verb.agradecer.1" wordnetsynset="16:10341471+16:05578355+16:05397866">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-1.tbf.xml" nodepath="3.0.0.1.4.1.2.1.0.2.0" sentencenodepath="3">Alguien que , en nombre del pasado y el presente . todavía levanta unas últimas pasiones de <argset>admiración y <head>agradecimiento </head>
+          </argset>. </example>
+        <example file="CESS-CAST-P/157_20011202.tbf.xml" nodepath="0.4.1.0" sentencenodepath="0">El Gobierno y los artistas de Bangladesh hicieron público ayer <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>agradecimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a George_Harrison , que en 1971 organizó el primer concierto benéfico de la historia para ayudar a los habitantes de aquel país , víctimas del hambre y las inundaciones</argument></argset>. </example>
+        <example file="CESS-CAST-P/23_20001001.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">Ø Mostró <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>agradecimiento </head></argset>con sonidos que estaban más cerca de los bufidos que de las palabras . </example>
+        <example file="CESS-CAST-P/74_20000903.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">Flores recordó <argset><specifier>el</specifier><head>agradecimiento </head><reference_modifiers>que hizo a los aficionados</reference_modifiers><argument argument="argM" function="cn" thematicrole="cau" type="sp">por el apoyo decisivo que protagonizaron en la consecución del título de Copa</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

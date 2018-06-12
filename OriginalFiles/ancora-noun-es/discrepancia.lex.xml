@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="discrepancia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="discrepar" originlink="verb.discrepar.1" wordnetsynset="16:03731730">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="12.0.1.1" sentencenodepath="12"><argset><specifier>La</specifier><reference_modifiers>lógica</reference_modifiers><head>discrepancia </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">política</argument></argset>no está reñida con el consenso y el diálogo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="discrepar" originlink="verb.discrepar.1" wordnetsynset="16:03731730">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="8.3.0.1.1" sentencenodepath="8">En los casi tres años del gobierno actual , el Ejecutivo y la oposición habían mantenido <argset><specifier>una</specifier><reference_modifiers>tensa</reference_modifiers><head>discrepancia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre los asuntos de Estado</argument></argset>, hasta situaciones de enfrentamiento verbal tanto en el Parlamento como en los medios de comunicación social . </example>
+        <example file="3LB-CAST/r2-8.tbf.xml" nodepath="6.2.0.1.0" sentencenodepath="6">Ø Era el sustituto natural de Redondo , pero <argset><specifier>las</specifier><head>discrepancias </head></argset>acabaron con su unión - . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="0.5.1.1.1" sentencenodepath="0">Los candidatos demócrata , Albert_Gore , y republicano , George_W._Bush , tuvieron hoy un tenso enfrentamiento en su último debate presidencial por <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><reference_modifiers>significativas</reference_modifiers><head>discrepancias </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los temas claves de la campaña electoral : reforma sanitaria , educación e impuestos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Hasta en su propio partido , la Democracia_Popular , han surgido evidentes <argset><specifier>las</specifier><head>discrepancias </head></argset>, pues varios de sus correligionarios han criticado algunas decisiones del Ejecutivo y Ø le han entregado una lista de peticiones para continuar con su respaldo . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="17.2.4.1.1.0" sentencenodepath="17">11-25_de_julio . - Barak y Arafat se reúnen en Camp_David , con la mediación de Clinton y Madeleine_Albright , pero Ø no logran ningún acuerdo ante <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>discrepancias </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre la cuestión clave de la soberanía sobre Jerusalén</argument></argset>. </example>
+        <example file="CESS-CAST-P/105_20020301.tbf.xml" nodepath="7.0.0.1.1.2.4.1.0.0" sentencenodepath="7">Martínez_Rovira , uno de los seis directivos que abandonó la directiva el año pasado por <argset><head>discrepancias </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con la gestión de Gaspart</argument></argset>, criticó la mala elección de los siete fichajes realizados . </example>
+        <example file="CESS-CAST-P/15_19990202.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>La</specifier><head>discrepancia </head><reference_modifiers>dentro de un orden</reference_modifiers></argset>es un lujo de los partidos que intentan la convivencia en su seno de lo que se llaman diferentes sensibilidades . </example>
+        <example file="CESS-CAST-P/31_20000802.tbf.xml" nodepath="3.5.3.2.1.0" sentencenodepath="3">El líder de los socialistas vascos y el lehendakari mantuvieron ayer una reunión de dos horas en Vitoria en la que Ø analizaron la situación política vasca y Ø constataron <argset><specifier>las</specifier><head>discrepancias </head><reference_modifiers>que mantienen al_respecto</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

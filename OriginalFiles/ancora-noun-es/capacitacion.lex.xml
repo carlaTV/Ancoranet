@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="capacitación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="capacitar" originlink="verb.capacitar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="resultative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="7.3.4.0.1.2.1.0.2.0.2.1.0" sentencenodepath="7">Gerrie_Bezuidenhoud , experto laborista de la Cámara_Sudafricana_de_Comercio ( SACOB según sus siglas en inglés ) , apunta por su parte que " la idea que subyace detrás_de todas las recientes leyes laborales es correcta , como las que determinan el desarrollo y <argset><specifier>la</specifier><head>capacitación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de cada empleado</argument></argset>, así_como la igualdad en los lugares de trabajo " . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="por_encima_de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="6.0.3.1.4.1.1.2.1.0.1.1.0.0" sentencenodepath="6">En su sentencia , a la que ha tenido acceso EFE , el juez critica la " falta de previsión del legislador por la inexistente exigencia de requisitos de <argset><head>capacitación </head><argument argument="arg0" function="cn" thematicrole="cau" type="s.a">teórica y práctica</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para conducir " vehículos como ciclomotores o cuadriciclos</argument></argset>y ello " pese_a ser un instrumento potencialmente peligroso para la integridad física de personas totalmente inexpertas en su correcto manejo , desconocedoras además de las normas de seguridad vial básicas " . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="7.2.6.1.1.1.1.1.1.0.0" sentencenodepath="7">Santiago_Vidal lamenta que " no se exija al ciudadano que pretende conducir tal clase de vehículos la superación de ninguna prueba de <argset><head>capacitación </head></argset>teórico/práctica reglada , más allá de la simple expedición de la licencia de ciclomotores " . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="8.2.3.1.4.1.1.1.0.0" sentencenodepath="8">El juez recuerda que " según la ley " , las autoescuelas " deben proporcionar a los futuros conductores un mínimo de horas de formación teórica , pero ni se les exige simultáneamente ninguna prueba de <argset><head>capacitación </head><reference_modifiers>práctica</reference_modifiers></argset>en el manejo del cuadriciclo o ciclomotor ni parece arriesgado afirmar que , a_cambio_del pago de la correspondiente matrícula , el control real sobre el resultado de suficiencia del examen teórico sea ilusorio " . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="23.2.4.1.1.1.1.0" sentencenodepath="23">Esta reforma ha de establecer la adecuación del número y tipo de especialistas que el país necesita , la flexibilización en las áreas de competencia , el énfasis en <argset><specifier>la</specifier><head>capacitación </head><reference_modifiers>por_encima_de la titulación</reference_modifiers></argset>, la actualización de los programas formativos de_acuerdo_a la sociedad del siglo_XXI , la formación y motivación de los responsables de la tutorización y , por_encima_de_todo , la consolidación de un sistema de evaluación a la imagen del de las residencias de EEUU ( boards ) , que fue de donde nació el mismo sistema MIR hace más de 20 años . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

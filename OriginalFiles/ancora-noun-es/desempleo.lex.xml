@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="desempleo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="emplear" originlink="verb.emplear.1" wordnetsynset="16:10063667">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="11" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="1.0.2.1.1.1.0.1.3.1.0.0" sentencenodepath="1">El " proyecto de protocolo de acuerdo " de nueve puntos , que los agentes sociales volverán a abordar el próximo_lunes , reafirma la relación entre la " indemnización " de <argset><head>desempleo </head></argset>y la " ayuda " para volver a encontrar un trabajo , muy contestada por los sindicatos , pero su aplicación sería progresiva . </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="6.3.3.1.1.2.1.1.1.0.1.1.1.3.1.1.1.0.0" sentencenodepath="6">De esta forma , el Medef confirma que para los patronos es la firma del Care lo que da derecho al cobro de subsidios y no el simple hecho de haber cotizado al UNEDIC ( organismo que administra en Francia el seguro de <argset><head>desempleo </head></argset>) . </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="8.2.1.0.1.1.1.1.1.0.0" sentencenodepath="8">El incumplimiento de esos compromisos sería penalizado con reducciones en el subsidio de <argset><head>desempleo </head></argset>. </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="10.3.2.1.3.1.0.3.1.1.1.1.1.0.0" sentencenodepath="10">Por otra parte , el texto de la patronal contempla la creación de nuevos contratos de trabajo enfocados a la reinserción laboral de una duración que podrá oscilar de 18 meses a cinco años y la ampliación de ocho a doce meses del periodo de referencia ( durante el cual se exige haber trabajado cuatro meses ) para poder solicitar el subsidio de <argset><head>desempleo </head></argset>. </example>
+        <example file="3LB-CAST/2000060204_5-2.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>El</specifier><head>desempleo </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">masculino</argument></argset>se situó en 607.810 parados al haber disminuido en 23.398 , un 3,71_por_ciento , por lo que la tasa de paro entre los hombres se situó en mayo en el 6,08_por_ciento , frente_al 6,90 del mismo mes del año anterior . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="10.2.1.1.1.1.0.0" sentencenodepath="10">La central ugetista señaló que las cifras del <argset><head>desempleo </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en el mes_de_mayo</argument></argset>muestran una reducción del paro menor que en años anteriores y un crecimiento " escandaloso " de la contratación temporal , que ha supuesto el 91,2_por_ciento de todos los contratos . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="18.2.2.1.1.2.1.0.0" sentencenodepath="18">El secretario general de UGT , Cándido_Méndez , criticó que la " brutalidad " de la temporalidad de los contratos impide la caída del paro y Ø lamentó que los últimos datos del <argset><head>desempleo </head><reference_modifiers>registrado</reference_modifiers></argset>siguen siendo " desfavorables " . </example>
+        <example file="3LB-CAST/204_c-6.tbf.xml" nodepath="0.2.5.1.1.1.1.0.0" sentencenodepath="0">El secretario general de CCOO , José_María_Fidalgo , señaló que Ø no puede estar contento con las cifras del <argset><head>desempleo </head></argset>porque , aunque el número de parados se ha reducido en España en los últimos cuatro años , la tasa de paro sigue estando " muy por_encima_de la media europea " . </example>
+        <example file="CESS-CAST-A/14423_20000317.tbf.xml" nodepath="2.3.3.1.1.1.0.0" sentencenodepath="2">En este sentido , Ø señaló que " pese_al empeño de la mujer por conseguir la igualdad de oportunidades en el empleo " , la tasa de <argset><head>desempleo </head></argset>femenina en España ( un 22_por_ciento ) duplica a la masculina . </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="5.2.1.4.0.3.1.1.1.0.0" sentencenodepath="5">Ø Insistió en que para que Andalucía converja con Europa , es necesario que se reduzca la tasa de <argset><head>desempleo </head></argset>, además_de que se solucionen los déficit en infraestructura , tasa de ocupación , renta_per_cápita y PIB . </example>
+        <example file="CESS-CAST-P/108_20000601_b.tbf.xml" nodepath="1.0.1.1.1.0.0" sentencenodepath="1">La tasa de <argset><head>desempleo </head></argset>se situó en el 9,8% . </example>
+        <example file="CESS-CAST-P/110_20000401.tbf.xml" nodepath="0.0.1.1.1.0.0" sentencenodepath="0">La tasa de <argset><head>desempleo </head></argset>llega al 4,9% , la más alta desde 1945 . </example>
+        <example file="CESS-CAST-P/32_19981202.tbf.xml" nodepath="3.3.0.1.1.0" sentencenodepath="3">También sería indispensable continuar reduciendo <argset><specifier>el</specifier><head>desempleo </head><reference_modifiers>, que por primera vez en ocho años acaba de bajar del 10%</reference_modifiers></argset>, y un acuerdo con los 275.000 funcionarios , que amenazan con un enfrentamiento por temas laborales . </example>
+        <example file="CESS-CAST-P/94_19990502.tbf.xml" nodepath="1.3.1.3.1.1.1.1.0" sentencenodepath="1">Los manifestantes centraron sus consignas en exigir al Gobierno medidas para luchar contra <argset><specifier>el</specifier><head>desempleo </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="emplear" originlink="verb.emplear.1" wordnetsynset="16:10063667">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-2.tbf.xml" nodepath="2.0.0.1.0" sentencenodepath="2"><argset><specifier>El</specifier><head>desempleo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los jóvenes menores de 25 años</argument></argset>se redujo en mayo en 12.463 personas , un 4,61_por_ciento , y su tasa de paro es del 10,41_por_ciento . </example>
+        <example file="3LB-CAST/2000060204_5-2.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">También disminuyó <argset><specifier>el</specifier><head>desempleo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre los parados mayores de esa edad</argument></argset>en 35.226 personas , un 2,69_por_ciento . </example>
+        <example file="CESS-CAST-P/10_20020501.tbf.xml" nodepath="24.3.1.1.1.1.1.0.1.1.0.0" sentencenodepath="24">Por_otro_lado , todos sabemos que en el sistema de beneficios por <argset><head>desempleo </head></argset>se cometen abusos . </example>
+        <example file="CESS-CAST-P/10_20020501.tbf.xml" nodepath="26.3.1.1.1.1.1.1.1.0.0" sentencenodepath="26">Cuando Ø solucionen esto Ø podrán ocuparse de los abusos de los beneficios por <argset><head>desempleo </head></argset>. </example>
+        <example file="CESS-CAST-P/110_20000401.tbf.xml" nodepath="1.2.0.1.1.1.0.0" sentencenodepath="1">El paro japonés alcanzó un nuevo récord histórico en Febrero y la tasa de <argset><head>desempleo </head></argset>se elevó hasta el 4,9% de la población activa . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="emplear" originlink="verb.emplear.2" wordnetsynset="16:10063667">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="17" type="void"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="4" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="0.4.1.2.1.1.1.1.0.1.1.0.0" sentencenodepath="0">La patronal francesa presentó hoy , tras una maratoniana negociación de trece horas , un nuevo texto sobre la reforma del seguro de <argset><head>desempleo </head></argset>que ha despertado el interés de cuatro de las cinco grandes centrales sindicales . </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="1.1.1.3.1.0.1.1.0.0" sentencenodepath="1">A sus 52 años , el actual sistema regulador del seguro de <argset><head>desempleo </head></argset>en Francia tiene los días contados . </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="5.0.2.1.2.1.0.1.3.1.0.0" sentencenodepath="5">El " proyecto de protocolo de acuerdo " , de nueve puntos , establece un nexo de unión entre la " indemnización " de <argset><head>desempleo </head></argset>y una " ayuda " condicionada para volver a encontrar un trabajo , muy contestada por los sindicatos , pero su aplicación sería progresiva . </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="10.3.3.1.1.2.1.1.1.0.1.1.1.3.1.1.1.0.0" sentencenodepath="10">De esta forma , el Medef confirma que para los patronos es la firma del Care lo que da_derecho al cobro de subsidios y no el simple hecho de haber cotizado al UNEDIC ( organismo que administra en Francia el seguro de <argset><head>desempleo </head></argset>) . </example>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="12.2.1.0.1.1.1.1.1.0.0" sentencenodepath="12">El incumplimiento de esos compromisos sería penalizado con reducciones en el subsidio de <argset><head>desempleo </head></argset>, uno de los puntos esenciales que deberán concretarse el lunes . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="14.3.3.2.1.1.1.1.0.0" sentencenodepath="14">Ø También consideró que es preciso mejorar la calidad del empleo , aumentar la cobertura por <argset><head>desempleo </head></argset>, perfeccionar la protección social y frenar la siniestralidad laboral . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="15.2.2.1.1.2.1.0.0" sentencenodepath="15">El secretario general de UGT , Cándido_Méndez , criticó que la " brutalidad " de la temporalidad de los contratos impide la caída del paro y Ø lamentó que los últimos datos de <argset><head>desempleo </head><reference_modifiers>registrado</reference_modifiers></argset>siguen siendo " desfavorables " . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="3.2.1.1.0" sentencenodepath="3">El descenso medio del paro en mayo en los quince años anteriores fue de 56.665 desempleados , y en el mismo mes de 1999 <argset><specifier>el</specifier><head>desempleo </head></argset>tuvo una reducción de 58.880 personas , mientras_que en los últimos doce meses Ø bajó en 117.951 personas , un 7,15_por_ciento . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>El</specifier><head>desempleo </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">masculino</argument></argset>se situó en 607.810 parados al haber disminuido en 23.398 , por lo que la tasa de paro entre los hombres se situó en mayo en el 6,08_por_ciento , frente_al 6,90 del mismo mes del año anterior . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="7.0.0.0.1.0" sentencenodepath="7"><argset><specifier>El</specifier><head>desempleo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los jóvenes menores de 25 años</argument></argset>se redujo en 12.463 personas y su tasa de paro se situó en el 10,41_por_ciento ; también disminuyó el desempleo entre los parados mayores de esa edad en 35.226 personas . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="7.2.2.1.0" sentencenodepath="7">El desempleo de los jóvenes menores de 25 años se redujo en 12.463 personas y su tasa de paro se situó en el 10,41_por_ciento ; también disminuyó <argset><specifier>el</specifier><head>desempleo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre los parados mayores de esa edad</argument></argset>en 35.226 personas . </example>
+        <example file="3LB-CAST/204_c-6.tbf.xml" nodepath="2.0.1.1.1.0.1.1.0.0" sentencenodepath="2">El aumento del índice de <argset><head>desempleo </head><reference_modifiers>estadounidense</reference_modifiers></argset>fortaleció hoy considerablemente al euro , que a las 15.35 GMT se cotizaba en el mercado de divisas de Fráncfort a 0,9452 dólares , frente_a los 0,9349 dólares de esta mañana . </example>
+        <example file="3LB-CAST/204_c-6.tbf.xml" nodepath="18.3.1.0.2.1.2.1.0.0" sentencenodepath="18">Según Morales , la traslación al registro del INEM del incremento de población activa detectado para Canarias en la Encuesta_de_Población_Activa del primer trimestre del año y la finalización de la zafra agrícola es lo que ha producido un importante incremento del <argset><head>desempleo </head></argset>. </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="4.0.2.1.0" sentencenodepath="4">Sin_embargo y contra toda previsión de la administración , en los últimos seis años <argset><specifier>el</specifier><head>desempleo </head></argset>ha crecido de manera alarmante y hoy Ø alcanza a más del 30_por_ciento de la población activa . </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="6.3.2.1.0.0" sentencenodepath="6">No_obstante , Lunsche afirmó que " respecto_al <argset><head>desempleo </head><reference_modifiers>, que es la mayor causa del crimen , la pobreza y la marginación social ,</reference_modifiers></argset>no se ha logrado progreso alguno , lo que constituye una gran pesadilla para el Gobierno " . </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="8.2.0.1.4.6.2.0.2.0.1.1.1.1.1.0.0" sentencenodepath="8">" Ø No vemos nada negativo en ello " , señaló Bezuidenhoud , quien no_obstante subrayó que " si Ø miramos la combinación de todas las leyes y las obligaciones que se imponen a los empresarios , Ø podemos decir que la carga es demasiada , lo que constituye una de las razones del <argset><head>desempleo </head><reference_modifiers>masivo</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="4.1.1.2.1.0.3.2.0.1.1.1.0.0" sentencenodepath="4">Sin_embargo , la aparición reciente de indicadores económicos positivos , como el descenso del <argset><head>desempleo </head></argset>y el aumento de la confianza inversora de las principales empresas , le abren el camino para una nueva etapa con una política monetaria más flexible y tipos de interés más altos . </example>
+        <example file="CESS-CAST-AA/24699_20000229.tbf.xml" nodepath="3.2.2.5.3.2.1.0" sentencenodepath="3">Botella ha descrito la situación laboral en España y Ø ha asegurado que " aún considerando que los avances pueden , como_mínimo , calificarse de notables , las estadísticas ponen_de_manifiesto que hay que continuar apostando por esta línea , puesto_que <argset><specifier>el</specifier><head>desempleo </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">femenino</argument></argset>supera en más del doble al masculino " . </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="8.2.1.1.1.0.0" sentencenodepath="8">Esta fuerte creación de empleos llevó la tasa de <argset><head>desempleo </head></argset>en los EEUU al 4_por_ciento , el nivel más bajo desde enero_de_1970 , desde el 4,1_por_ciento de diciembre . </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="11.0.1.0.1" sentencenodepath="11">Con <argset><reference_modifiers>tan poco</reference_modifiers><head>desempleo </head></argset>- a juicio de los analistas un 4_por_ciento de cesantía equivale a una situación de pleno empleo - las empresas ya han empezado a ofrecer incentivos para sus empleados , como computadores gratis , gimnasios en las industrias y hasta coches deportivos para algunos ejecutivos . </example>
+        <example file="CESS-CAST-AA/4020_20000906.tbf.xml" nodepath="3.0.3.3.2.3.1.2.1.1.0" sentencenodepath="3">" La pobreza no es algo así como el dengue que está ahí , sino_que Ø es parte del componente de la economía . Si la mitad de la población vive en situación de pobreza y de ella 1,3 millones en extrema pobreza Ø significa que simplemente estas personas no pueden comprar y que las empresas no venden y si estas no venden se produce menos y hay <argset><specifier>más</specifier><head>desempleo </head></argset>" , indicó Ø . </example>
+        <example file="CESS-CAST-AA/8551_20000114.tbf.xml" nodepath="7.3.1.1.2.4.2.0.3.1.0" sentencenodepath="7">De_acuerdo_con APAVIT , la medida afecta a los usuarios del transporte aéreo que verán aumentado sus costos , lo que también aumentaría <argset><specifier>el</specifier><head>desempleo </head></argset>con el posible cierre de algunas agencias de viajes . </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="0.4.1.2.1.1.1.0.2.1.0.0" sentencenodepath="0">El secretario general de UGT , Cándido_Méndez , pidió hoy " hablar " con el Gobierno para " cambiar las normas en_materia_de protección social por <argset><head>desempleo </head></argset>para mejorarlas " ya_que , matizó Ø , éstas son " duras , injustas y excluyentes con los parados de larga duración y con los jóvenes " . </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="1.1.2.2.3.1.1.1.1.1.1.1.0.0" sentencenodepath="1">En una conferencia de prensa convocada en Alicante con_motivo_de la clausura de un seminario sobre los modelos de relación entre el sindicato y la sociedad organizado por UGT , Méndez apostó por un " cambio en la legislación " y Ø resaltó que hay que " conectar la buena situación económica con un avance en la protección por <argset><head>desempleo </head></argset>" . </example>
+        <example file="CESS-CAST-P/107_20000202.tbf.xml" nodepath="4.2.1.0.1.1.3.2.1.1.3.2.1.0.0.0.2.0" sentencenodepath="4">El encuentro de la Reserva_Federal sigue al anuncio de que EEUU ha entrado en su 107 mes de crecimiento económico ininterrumpido , en la expansión más prolongada de su historia , acompañada de <argset>inflación y <head>desempleo </head>
+            <reference_modifiers>bajos</reference_modifiers>y entusiasmo en los mercados financieros </argset>. </example>
+        <example file="CESS-CAST-P/113_19990501_c.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>desempleo </head></argset>se ha convertido en un serio e inédito problema en Japón por los cada vez mayores reajustes empresariales de plantillas que han llevado el índice del paro en marzo hasta un nuevo máximo histórico . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

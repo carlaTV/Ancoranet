@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="exigencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="exigir" originlink="verb.exigir.1" wordnetsynset="16:04528955">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="8" postype="possessive" type="determiner"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="9" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="15" postype="article" type="determiner"/>
+        <constituent frequency="8" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-6.tbf.xml" nodepath="6.2.5.1.1.1.3.1.3.4.2.1.1.0" sentencenodepath="6">Fuentes políticas israelíes indicaron que Barak se quejará ante Clinton de la actitud que mantiene en las negociaciones el líder palestino , Yasser_Arafat , a quien Israel culpa del bloqueo , en_parte_por aumentar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>exigencias </head></argset>tras la retirada israelí del Líbano . </example>
+        <example file="3LB-CAST/a14-2.tbf.xml" nodepath="5.1.5.3.1.1.1.1.4.1.0.0" sentencenodepath="5">La verdadera heroicidad no es un acto nico : el soldado que se inmola para salvar a sus compañeros , el hombre que entra en un edificio en llamas a rescatar a un niño , son sin_duda personas admirables porque Ø supieron responder a un instante de gloria , de generosidad y de <argset><head>exigencia </head></argset>. </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="7.0.0.1.1.1.0" sentencenodepath="7">Parte de <argset><specifier>esta</specifier><head>exigencia </head></argset>es análoga a la norma clásica de que en un metal , la banda ocupada más alta tiene que estar sólo parcialmente llena , lo que corresponde en los CTC a una transferencia electrónica dador-aceptor parcial . </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="9.4.1.1.0" sentencenodepath="9">En las sociedades avanzadas , y entendida la cultura de modo ambiguo y confuso , el interés por la misma ha ido más allá de los círculos intelectuales llegando a ser <argset><specifier>una</specifier><head>exigencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">social</argument></argset>. </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="11.0.3.1.1.1.1" sentencenodepath="11">En muchos casos esta respuesta ha sido más ambigua y confusionista que <argset><specifier>la</specifier><reference_modifiers>propia</reference_modifiers><head>exigencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los pueblos</argument></argset>, y ello a_pesar_de los esfuerzos que han hecho en los últimos veinticinco años algunas organizaciones internacionales ( UNESCO , Consejo_de_Europa , CEE ) por llevar a los gobiernos interesados a plantearse e intentar resolver un problema que , considerado en_profundidad , era políticamente nuevo . </example>
+        <example file="3LB-CAST/r2-2.tbf.xml" nodepath="10.0.2.1.0" sentencenodepath="10">Esa será <argset><specifier>la</specifier><head>exigencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de IU</argument></argset>, pero , mientras_tanto , algunos diputados socialistas se quejan de que el Gobierno haya perdido la ocasión de forzar la mano al PP cuando ha tocado cubrir la vacante de Abel_Matutes en la Comisión_de_la_Unión_Europea . </example>
+        <example file="3LB-CAST/r2-4.tbf.xml" nodepath="3.0.1.0.1.3.2.1.0" sentencenodepath="3">Frente_al riesgo que supone para los propios terroristas hacer efectivas <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>exigencias </head></argset>, los etarras han realizado secuestros en diferentes puntos de la geografía española que han afectado a apellidos ilustres de las finanzas españolas , entre los que cabe destacar a Diego_Prado y Colón_de_Carvajal , Emiliano_Revilla , Luis_Súñer , el padre del cantante Julio_Iglesias y el industrial catalán José_Serra_Santamans . </example>
+        <example file="CESS-CAST-A/11456_20000715.tbf.xml" nodepath="7.0.3.2.4.4.1.0" sentencenodepath="7">" El equipo llegará bien ; motivado que es lo más importante ; con mucha confianza y creyendo en sus propias posibilidades pero Ø sabemos que cada partido será más difícil que el anterior , porque se incrementan <argset><specifier>las</specifier><head>exigencias </head></argset>" , aseguró Agustín_Delgado . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="8.2.0.1" sentencenodepath="8">Otra serie de enmiendas impone <argset><reference_modifiers>mayores</reference_modifiers><head>exigencias </head></argset>a las sociedades de gestión de fondos de inversión . </example>
+        <example file="CESS-CAST-A/17116_20000722.tbf.xml" nodepath="1.0.3.4.1.0" sentencenodepath="1">Este colectivo de trabajadores pretendía cumplir su amenaza mañana , domingo , si la dirección no aceptaba <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>exigencias </head></argset>, pero hoy Ø decidieron dejarla en_suspenso a_la_espera_de los resultados de la reunión que las partes celebrarán el 25_de_julio en Estrasburgo . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="17.4.2.1.2.4.1.1.0" sentencenodepath="17">La DOS fue acusada por radicales y socialistas de " golpismo " por propiciar una marea de paros y ocupaciones de empresas vitales y por amenazar con nuevas protestas si la coalición socialista-radical en el poder no accedía a <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>exigencias </head></argset>. </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="19.3.0.1.1.0" sentencenodepath="19">El diputado de Coalición_Canaria Luis_Mardones coincidió con De_Miguel en <argset><specifier>la</specifier><head>exigencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la ponderación adecuada del voto</argument></argset>y en las prioridades de la ampliación , aunque Ø pidió " más precisión " en los costes de financiación y más poder vinculante de la Carta . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="11.4.1.1.1.0" sentencenodepath="11">22_de_junio . - Barak salva su Gobierno al aceptar <argset><specifier>las</specifier><head>exigencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Shas</argument><reference_modifiers>, entre ellas fondos adicionales para la red educativa religiosa del partido ultraortodoxo , cuyos cuatro ministros dimisionarios vuelven a la coalición</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8039_20000610.tbf.xml" nodepath="8.2.3.1.1.1" sentencenodepath="8">El líder de la oposición , Lee_Hoi_Chang , rival del presidente Kim en las elecciones de 1997 , pidió andar con_pies_de_plomo para no comprometer la seguridad nacional y Ø se opuso a <argset><specifier>la</specifier><reference_modifiers>reiterada</reference_modifiers><head>exigencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">norcoreana</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de desmantelar el contingente militar estadounidense estacionado en Corea_del_Sur</argument></argset>. </example>
+        <example file="CESS-CAST-AA/9155_20000712.tbf.xml" nodepath="8.0.1.1.1.3.1.0" sentencenodepath="8">Además_de la presión que le supuso <argset><specifier>la</specifier><head>exigencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Córdoba</argument></argset>, el técnico colombiano tendrá que vérselas con Bermúdez , quien comentó en Buenos_Aires que la selección de su país no tenía un sistema de juego claro ni eficiente . </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="25.2.1.1.0" sentencenodepath="25">Todos parten de <argset><specifier>la misma</specifier><head>exigencia </head><reference_modifiers>: ganar los cinco partidos del Camp_Nou</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/120_20000102.tbf.xml" nodepath="3.1.3.4.1.1.0.1" sentencenodepath="3">Y Ø lo hace con acierto : el resultado es una versión estilizada , conservadora en el mejor sentido del término , y Ø permite a los cantantes concentrarse en el plano vocal sin pedirles <argset><reference_modifiers>grandes</reference_modifiers><head>exigencias </head><reference_modifiers>dramáticas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/133_20011001.tbf.xml" nodepath="8.5.1.1.1.0" sentencenodepath="8">Ø Fue pintado por primera vez en los planos por los técnicos municipales casi como <argset><specifier>una</specifier><head>exigencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del diseño del conjunto de la Ciutat_del_Teatre</argument></argset>, para cerrar la plaza de Margarida_Xirgu que circundan el Mercat_de_les_Flors , el Teatre_Lliure ( Palau_de_l'Agricultura ) , el Institut_del_Teatre y unas 80 viviendas construidas hace 50 años , pero en un estado de conservación aceptable . </example>
+        <example file="CESS-CAST-P/140_20011102.tbf.xml" nodepath="14.0.3.3.1.1.1.1.0" sentencenodepath="14">A_modo_de balance Ø dice no haber bajado jamás el listón de <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>exigencias </head></argset>y Ø pone como prueba la dificultosa ambición de sus proyectos . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="16.4.1.1.1.1.0.1.1.0" sentencenodepath="16">En mi primera intervención en el Parlament , el día del debate de investidura , Ø ofrecí al president de la Generalitat Jordi_Pujol mi disponibilidad a entendernos desde <argset><specifier>la</specifier><head>exigencia </head><reference_modifiers>mutua</reference_modifiers></argset>, desde la diferencia y desde la mutua oposición . </example>
+        <example file="CESS-CAST-P/26_19981201.tbf.xml" nodepath="4.0.3.1.4.1.1.2.1.0" sentencenodepath="4">" Ø Creemos que si como Ø ha ocurrido en Chile , los ciudadanos de un estado democrático están luchando por compaginar la necesidad de equilibrio y <argset><specifier>la</specifier><head>exigencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de justicia</argument></argset>con los requisitos de la reconciliación , se deben respetar sus conclusiones " , dijo Ø . </example>
+        <example file="CESS-CAST-P/29_19990502.tbf.xml" nodepath="0.3.1.2.2.1.1.1.1.1.1.2.1.1.0" sentencenodepath="0">Un portavoz del Pentágono rechazó ayer el plan de seis puntos propuesto por el presidente de Yugoslavia , Slobodan_Milosevic , para acabar con los bombardeos por no responder a <argset><specifier>las</specifier><head>exigencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la OTAN</argument></argset>. </example>
+        <example file="CESS-CAST-P/29_19990502.tbf.xml" nodepath="1.2.6.1.1.0" sentencenodepath="1">Kenneth_Bacon precisó que el plan " no se atiene a <argset><specifier>las</specifier><head>exigencias </head><reference_modifiers>fundamentales</reference_modifiers>" <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Alianza</argument></argset>. </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="12.0.2.4.2.1.1" sentencenodepath="12">Ø Anunció que Ø trasladará al lehendakari la posición del PSOE y <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument>" <head>exigencia </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que " se garantice la seguridad y libertad de todos los ciudadanos "</argument></argset>, pero Ø evitó pronunciarse sobre el nuevo foro de partidos que Ibarretxe quiere impulsar . </example>
+        <example file="CESS-CAST-P/58_20010602.tbf.xml" nodepath="1.2.0.1.1.1.0" sentencenodepath="1">La aportación de 16 millones de dólares ( 3.120 millones de pesetas ) para abonar los sueldos del mes_de_abril era una de <argset><specifier>las</specifier><head>exigencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del sindicato aeronáutico más reacio al plan de saneamiento propuesto por la Sociedad_Estatal_de_Participaciones_Industriales ( SEPI )</argument></argset>. </example>
+        <example file="CESS-CAST-P/64_20000401.tbf.xml" nodepath="8.0.1.0.1.1" sentencenodepath="8">Ante <argset><specifier>la</specifier><reference_modifiers>repetida</reference_modifiers><head>exigencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del policía</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que le entregara la documentación</argument></argset>y la amenaza de detenerla , la joven replicó que Ø tenía legalmente 48 horas para presentarla . </example>
+        <example file="CESS-CAST-P/65_20000602.tbf.xml" nodepath="18.3.0.3.2.2.1.0" sentencenodepath="18">Durante toda la noche , el secuestrador mantuvo contactos telefónicos con la policía , en los que Ø repitió <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>exigencias </head></argset>y Ø fijó un ultimátum para las 8.30 de la mañana . </example>
+        <example file="CESS-CAST-P/65_20000602.tbf.xml" nodepath="20.2.2.1.0" sentencenodepath="20">Tras expirar el ultimátum , el secuestrador fue liberando en cuentagotas a otros cuatro niños a_lo_largo_de la mañana de ayer y Ø rebajó <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>exigencias </head></argset>. </example>
+        <example file="CESS-CAST-P/79_19981101.tbf.xml" nodepath="10.2.1.5.1.1.0" sentencenodepath="10">Los propietarios de los bares argumentan que , aunque Ø se adecúen a <argset><specifier>las</specifier><head>exigencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">municipales</argument></argset>, el Ayuntamiento_de_Barcelona no puede comprobarlo , porque Ø no tiene inspectores suficientes para hacerlo , cuestión que desmiente rotundamente el gerente del distrito de Sant_Martí . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="21.3.1.1.2.1.0.2.2.1.0" sentencenodepath="21">Además , sus establecimientos deben cumplir con una larga lista de condiciones sobre higiene , tamaño y seguridad , entre <argset><specifier>otras</specifier><head>exigencias </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="exigir" originlink="verb.exigir.1" wordnetsynset="16:04528955">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="6.0.3.1.4.1.1.1" sentencenodepath="6">En su sentencia , a la que ha tenido acceso EFE , el juez critica la " falta de previsión del legislador por <argset><specifier>la</specifier><reference_modifiers>inexistente</reference_modifiers><head>exigencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de requisitos de capacitación teórica y práctica para conducir " vehículos como ciclomotores o cuadriciclos</argument></argset>y ello " pese_a ser un instrumento potencialmente peligroso para la integridad física de personas totalmente inexpertas en su correcto manejo , desconocedoras además de las normas de seguridad vial básicas " . </example>
+        <example file="CESS-CAST-P/9_20010601_b.tbf.xml" nodepath="8.0.2.1.0" sentencenodepath="8">El tono prepotente , a_veces agresivo con que se gestionaron las ambiciones españolas y <argset><specifier>la</specifier><head>exigencia </head><reference_modifiers>abierta</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un cambalache por la moratoria de siete años que Alemania exigía en la circulación de personas</argument></argset>envenenó el asunto . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="exigir" originlink="verb.exigir.1" wordnetsynset="16:04528955">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/r2-3.tbf.xml" nodepath="12.1.4.2.1.0" sentencenodepath="12">El chantaje de los terroristas ha causado conmoción en la élite financiera española : la banda no había traspasado , en <argset><specifier>la</specifier><head>exigencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del impuesto revolucionario</argument></argset>, los límites del País_Vasco y de Navarra . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="evaluación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="evaluar" originlink="verb.evaluar.1" wordnetsynset="16:00561563">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="8.2.1.1.2.1.1.1.1.1.0.0" sentencenodepath="8">Es evidente que quienes se preparan para pasar una prueba de <argset><head>evaluación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de conocimientos</argument><reference_modifiers>( examen MIR )</reference_modifiers></argset>y al superarla siguen una formación reglada de varios años ( entre tres y cinco , según la especialidad ) tienen mejores condiciones para capacitarse como especialistas cualificados que quienes siguieron otros caminos . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="18.3.3.1.1.1.1.1.0" sentencenodepath="18">Si el detonante del conflicto , como así Ø parece , ha sido esta normativa , parecería lógico que se hubieran facilitado las fórmulas para hacer <argset><specifier>esa</specifier><head>evaluación </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="evaluar" originlink="verb.evaluar.1" wordnetsynset="16:00561563">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="23.2.10.1.1.1.1.1.1.1.0.0" sentencenodepath="23">Esta reforma ha de establecer la adecuación del número y tipo de especialistas que el país necesita , la flexibilización en las áreas de competencia , el énfasis en la capacitación por_encima_de la titulación , la actualización de los programas formativos de_acuerdo_a la sociedad del siglo_XXI , la formación y motivación de los responsables de la tutorización y , por_encima_de_todo , la consolidación de un sistema de <argset><head>evaluación </head></argset>a la imagen del de las residencias de EEUU ( boards ) , que fue de donde nació el mismo sistema MIR hace más de 20 años . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

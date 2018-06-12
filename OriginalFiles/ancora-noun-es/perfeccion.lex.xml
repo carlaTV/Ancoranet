@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="perfección" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="perfeccionar" originlink="verb.perfeccionar.1" wordnetsynset="16:10374214">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="6.0.1.1.0.2.1.1.1.0.0" sentencenodepath="6">De lo que pueda ser una tal ganancia de <argset><head>perfección </head></argset>, el Ensayo_sobre_las_magnitudes_negativas había ofrecido estas dos pistas , seguramente insuficientes : a Un crecimiento natural de la realidad en_general es posible , y es en el conflicto de los principios reales opuestos donde reside la perfección del mundo en sus cambios no mecánicos , lo_mismo que su parte material debe al conflicto de las fuerzas motrices la regularidad de su curso ; b Eso no quiere_decir que la suma de la realidad sea lo_mismo que la magnitud de la perfección , pues el displacer es tan real como el placer , pero nadie lo llamaría una perfección . </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="6.3.1.2.1.3.1.1.1.2.2.1.0" sentencenodepath="6">De lo que pueda ser una tal ganancia de perfección , el Ensayo_sobre_las_magnitudes_negativas había ofrecido estas dos pistas , seguramente insuficientes : a Un crecimiento natural de la realidad en_general es posible , y es en el conflicto de los principios reales opuestos donde reside <argset><specifier>la</specifier><head>perfección </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del mundo</argument></argset>en sus cambios no mecánicos , lo_mismo que su parte material debe al conflicto de las fuerzas motrices la regularidad de su curso ; b Eso no quiere_decir que la suma de la realidad sea lo_mismo que la magnitud de la perfección , pues el displacer es tan real como el placer , pero nadie lo llamaría una perfección . </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="6.3.1.2.3.4.3.1.1.1.1.1.1.0" sentencenodepath="6">De lo que pueda ser una tal ganancia de perfección , el Ensayo_sobre_las_magnitudes_negativas había ofrecido estas dos pistas , seguramente insuficientes : a Un crecimiento natural de la realidad en_general es posible , y es en el conflicto de los principios reales opuestos donde reside la perfección del mundo en sus cambios no mecánicos , lo_mismo que su parte material debe al conflicto de las fuerzas motrices la regularidad de su curso ; b Eso no quiere_decir que la suma de la realidad sea lo_mismo que la magnitud de <argset><specifier>la</specifier><head>perfección </head></argset>, pues el displacer es tan real como el placer , pero nadie lo llamaría una perfección . </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="6.3.1.2.3.5.4.3.1.0" sentencenodepath="6">De lo que pueda ser una tal ganancia de perfección , el Ensayo_sobre_las_magnitudes_negativas había ofrecido estas dos pistas , seguramente insuficientes : a Un crecimiento natural de la realidad en_general es posible , y es en el conflicto de los principios reales opuestos donde reside la perfección del mundo en sus cambios no mecánicos , lo_mismo que su parte material debe al conflicto de las fuerzas motrices la regularidad de su curso ; b Eso no quiere_decir que la suma de la realidad sea lo_mismo que la magnitud de la perfección , pues el displacer es tan real como el placer , pero nadie lo llamaría <argset><specifier>una</specifier><head>perfección </head></argset>. </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>perfección </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del orden o equilibrio biológico</argument></argset>la reconocerá el Opus_Postumum inseparable del conflicto por el que la vida del individuo de una especie es la muerte del individuo de otra especie . </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="9.3.1.0.3.1.0.1.1.1.0" sentencenodepath="9">A la escala del individuo humano es la salud lo que Kant propone como modelo de <argset><specifier>una</specifier><head>perfección </head><reference_modifiers>en oposición real</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/t4-0.tbf.xml" nodepath="6.1.0.1.2.2.3.1.1.1" sentencenodepath="6">La verdad es que nadie aprende aunque no se puede negar que cuando llega el turno todos mueren esa muerte ejemplar que nunca crea adeptos ni adictos ( excepto los suicidas ) pero que todos , incluidos los suicidas , llevan_a_cabo con <argset><specifier>la</specifier><reference_modifiers>mayor</reference_modifiers><head>perfección </head></argset>. </example>
+        <example file="3LB-CAST/t4-0.tbf.xml" nodepath="7.2.1.3.1.3.1.1.1.1.1.0.0" sentencenodepath="7">Es curioso que a_pesar_de_que lo único que nos salva ante nosotros mismos y tal_vez ante el orden supremo del universo es nuestro deseo consciente o no de lograr alguna clase de <argset><head>perfección </head></argset>nadie piensa que la única indiscutible y total está en la muerte . </example>
+        <example file="3LB-CAST/t4-0.tbf.xml" nodepath="9.3.1.1.1.1.1.0.0" sentencenodepath="9">Una convicción axiomática no es lo_mismo que una ambición de <argset><head>perfecciones </head><reference_modifiers>vitalistas y gozaderas</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

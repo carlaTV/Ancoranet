@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="dimisión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="dimitir" originlink="verb.dimitir.1" wordnetsynset="16:05414101+16:04887366">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="16" preposition="de" type="sp"/>
+        <constituent frequency="16" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="21" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="16" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="15.2.2.1.0" sentencenodepath="15">La oposición tachó las palabras de " indignas " y comprometedoras de la separación entre religión y Estado , y Ø pidió <argset><specifier>la</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Mori</argument></argset>con la moción de censura , al considerarle incapacitado para gobernar el país . </example>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="14.5.2.3.1.1.1.0" sentencenodepath="14">El mes_pasado Mori provocó una tormenta política al decir en una fiesta de parlamentarios sintoístas que " Japón es un país divino con el emperador en el centro " , lo que llevó a la oposición a pedir <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>al considerarle incapacitado para gobernar el país . </example>
+        <example file="3LB-CAST/211_C-6.tbf.xml" nodepath="0.0.1.1" sentencenodepath="0"><argset><specifier>La</specifier><reference_modifiers>anunciada</reference_modifiers><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Weizman , de 76 años ,</argument></argset>se formalizó después de que la Fiscalía_General_del_Estado criticara con dureza el hecho de que el presidente recibiera cientos de miles de dólares de regalo de amigos , mientras Ø ocupaba cargos públicos , que Ø no declaró . </example>
+        <example file="3LB-CAST/r2-7.tbf.xml" nodepath="13.1.5.2.2.1.1.0" sentencenodepath="13">Jáuregui entiende que Corcuera tiene motivos para estar deprimido : - A finales del 93 Ø estaba en la cresta de la ola , muy feliz incluso por <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>. </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="1.0.0.1.1.3.4.1.1.1.0" sentencenodepath="1">Durante una visita a la comunidad foral para conocer la Ciudad_del_Transporte y el parque eólico de Guerinda , en la que Ø rehusó opinar sobre <argset><specifier>la</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ministro Pimentel</argument></argset>, De_Palacio fue recibida por el presidente Miguel_Sanz y , en una comparecencia ante los medios , Ø comentó que en_todo_caso esta nueva vía no podrá incorporarse a las previsiones de las redes transeuropeas hasta_tanto no se pronuncie el Gobierno francés . </example>
+        <example file="CESS-CAST-A/17278_20000321.tbf.xml" nodepath="5.1.1.1.4.2.1.0" sentencenodepath="5">En su opinión , ante la " situación de transición " que ha generado <argset><specifier>la</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Joaquín_Almunia y la Ejecutiva</argument></argset>, la reunión del Comité_Federal , máximo órgano entre congresos , debe servir para que , aunque haya un debate muy abierto , el partido " salga unido " . </example>
+        <example file="CESS-CAST-A/19111_20000923.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">El jefe de la Oficina_de_Seguridad_Nacional y ministro de la Presidencia polaca , Marek_Siwiec , presentó hoy <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de todos los cargos</argument></argset>después de que varias cadenas de televisión locales transmitieran anoche un vídeo con imágenes en las que Ø se burla del papa Juan_Pablo_II , imitando los gestos del Sumo_Pontífice cuando Ø llega a un país en peregrinación . </example>
+        <example file="CESS-CAST-A/19111_20000923.tbf.xml" nodepath="1.0.1.2.1.0" sentencenodepath="1">" Ø Presento <argset><argument argument="arg0" thematicrole="agt" type="spec">mi</argument><head>dimisión </head></argset>, porque como político Ø he perdido todo el prestigio que Ø tenía y Ø pido perdón a todos aquellos a los que Ø ofendí con mi irresponsable e irrespetuoso comportamiento " , dijo el ministro Siwiec en un comunicado entregado a los medios . </example>
+        <example file="CESS-CAST-A/19111_20000923.tbf.xml" nodepath="8.0.0.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Siwiec</argument></argset>y sus ruegos de perdón por su broma de mal gusto no significarán el final del asunto : las imágenes que han provocado el revuelo han sido incorporadas a un anuncio electoral del candidato Krzaklewski . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="10.4.1.1.0" sentencenodepath="10">Sin_embargo , Diego_Maciá , ex presidente de la gestora , reiteró desde Valencia que <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>es " irrevocable " . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="1.0.3.0.1.0" sentencenodepath="1">" La presidencia no es buena para usted porque Ø no tiene capacidad para dirigir el país y <argset><specifier>la</specifier><head>dimisión </head></argset>será buena para su alma " , afirmó el arzobispo de Manila , cardenal Jaime_Sin . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="2.0.1.0.2.1.3.1.0" sentencenodepath="2">Con banderas y pancartas en las que se pedía <argset><specifier>la</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Estrada</argument></argset>, unas 100.000 personas se concentraron hoy , convocadas por el cardenal Sin , en Edsa , la zona de la capital filipina donde las protestas populares precipitaron en 1986 la caída del dictador Ferdinan_Marcos . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="3.2.1.3.5.1.1.1.0" sentencenodepath="3">" Usted no estuvo aquí con nosotros en la revolución de Edsa " , afirmó la ex presidenta Corazón_Aquino , que instó también a Estrada a presentar <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head><reference_modifiers>inmediata</reference_modifiers></argset>por el bien de la economía y de la sociedad filipinas . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="8.3.0.0.1.0" sentencenodepath="8">Entretanto , parecen imparables <argset><specifier>las</specifier><head>dimisiones </head></argset>y las condenas públicas de muchos de los antiguos colaboradores del Presidente . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="9.0.3.1.0" sentencenodepath="9">Varios senadores y congresistas habían presentado ya <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>, pero la de Macapagal-Arroyo , que renunció a su cargo de ministra de Bienestar_Social el pasado 12_de_Octubre , provocó una serie de deserciones en cadena . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="12.0.0.1.1" sentencenodepath="12"><argset><specifier>Estas</specifier><reference_modifiers>últimas</reference_modifiers><head>dimisiones </head></argset>suponen el colapso de la coalición gubernamental , Lucha_de_las_Masas_Nacionalistas_Filipinas ( LAMP ) , y Ø aumentan las posibilidades de éxito del proceso para la presentación de una moción de censura iniciado el mes pasado por 54 legisladores . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="14.0.0.1.0" sentencenodepath="14"><argset><specifier>Las</specifier><head>dimisiones </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Senado</argument></argset>elevan a once el número de opositores a Estrada , y en el Congreso suman ya 95 los diputados que estarían dispuestos a presentar una moción de censura . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="15.3.2.1.0" sentencenodepath="15">Pero el proceso sería largo , entre uno y seis años , y las voces que se elevan cada vez con más fuerza en las calles y entre la oposición exigen <argset><specifier>una</specifier><head>dimisión </head><reference_modifiers>inmediata</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Estrada , elegido presidente en 1998 por un periodo de seis años</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="16.0.2.0.0" sentencenodepath="16">Moción de censura , <argset><head>dimisión </head></argset>, elecciones anticipadas o algún tipo de intervención militar son las cuatro posibilidades más barajadas para salir de la crisis política . </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="0.2.1.1.1.1.3.3.1.1.2.3.1.1.1.1.0.1.2.1.1.1.1.0.0" sentencenodepath="0">El presidente ecuatoriano , Jamil_Mahuad , ha recibido el apoyo de su colega estadounidense , Bill_Clinton , quien se mostró dispuesto a solicitar a los organismos multilaterales que Ø agilicen las ayudas ofrecidas al gobernante , acosado por las peticiones de <argset><head>dimisión </head></argset>. </example>
+        <example file="CESS-CAST-AA/5498_20000307.tbf.xml" nodepath="1.0.1.1" sentencenodepath="1"><argset><specifier>La</specifier><reference_modifiers>reciente</reference_modifiers><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ministro de Trabajo , Manuel_Pimentel , que se comprometió a agilizar la tramitación de los fondos ,</argument></argset>ha dejado sin interlocutores en la administración central a los responsables de MRT , que temen una nueva paralización en la concesión del crédito , según declaró el presidente del comité de empresa , Ricardo_Gallego . </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="5.3.1.1.2.1.0.1.5.1.0" sentencenodepath="5">Las declaraciones de Estrada se producen en un momento de máxima tensión política en Filipinas , donde la oposición , encabezada por Macapagal-Arroyo , que tiene el apoyo de la Iglesia_Católica y los ex presidentes Corazón_Aquino y Fidel_Ramos , pide de forma insistente <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>. </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="9.3.2.1.2.3.1.0" sentencenodepath="9">El Sábado pasado fue la oposición y el influyente arzobispo de Manila , cardenal Jaime_Sin , quienes convocaron una manifestación multitudinaria en la que miles de filipinos pidieron <argset><specifier>la</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Estrada</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="10.4.1.2.1.0" sentencenodepath="10">Durante la semana , el presidente ha ido perdiendo el apoyo del sector económico al pedir públicamente <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>tanto la Cámara_de_Comercio_e_Industria_de_Filipinas , con más de 20.000 miembros , como la Asociación_de_Analistas_Financieros , por considerar que sólo su renuncia sacará al país de la crisis . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del primer ministro israelí , Ehud_Barak ,</argument></argset>pone_fin al Gobierno más corto y accidentado de la historia del país . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="25.3.1.0" sentencenodepath="25">9_de_diciembre . - Barak presenta <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>en una rueda de prensa en Jerusalén . </example>
+        <example file="CESS-CAST-AA/6594_20000308.tbf.xml" nodepath="3.0.2.1.1.0" sentencenodepath="3">El portavoz socialista aludió a <argset><specifier>la</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Josep_Borrell</argument><reference_modifiers>como candidato socialista a la presidencia del Gobierno</reference_modifiers></argset>, y Ø afirmó que " es irritante que haya habido personas que vieron alterada su trayectoria política simplemente por su amistad con Aguiar y Huguet , mientras_que Piqué , que fue el brazo derecho de quien indujo la corrupción de los inspectores , hable y Ø hable en_nombre_del Gobierno_de_España como_si_tal_cosa " . </example>
+        <example file="CESS-CAST-AA/6740_20000710.tbf.xml" nodepath="4.0.1.0.2.2.1.0.1.0" sentencenodepath="4">Pese_al duro revés sufrido por el Ejecutivo de coalición de Barak con <argset><specifier>la</specifier><head>dimisión </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">entre ayer y hoy</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de seis de sus ministros</argument></argset>y la consiguiente pérdida de apoyos parlamentarios , no se espera que los partidarios de la moción de censura puedan obtener los 61 votos necesarios para que Ø se apruebe ( la mitad más uno de los escaños parlamentarios ) . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="0.3.1.2.1.2.2.1.0" sentencenodepath="0">El líder del grupo parlamentario laborista en Noruega , Jens_Stoltenberg , aceptó hoy el encargo del Rey_Harald_V para formar un nuevo gobierno , tras <argset><specifier>la</specifier><head>dimisión </head><argument argument="argM" function="cn" thematicrole="tmp" type="sadv">anoche</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del gabinete que encabezaba el democristiano Kjell_Magne_Bondevik</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="3.3.0.1.0" sentencenodepath="3">Bondevik presentó anoche <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>y la de su Gobierno al quedar en minoría en el Storting frente_a una modificación de la Ley_de_Protección_Ambiental presentada por la oposición laborista , que pretendía elevar los límites permitidos de las emisiones de dióxido de carbono ( CO2 ) . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="6.0.1.1.1.4.1.0" sentencenodepath="6">Al_término_de la audiencia en la que Ø presentó hoy <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>al Rey , Bondevik subrayó que Ø había basado la renuncia de su gabinete en el rechazo de la oposición a su propuesta para evitar que las severas leyes ambientales quedaran debilitadas . </example>
+        <example file="CESS-CAST-P/122_19990202.tbf.xml" nodepath="3.2.3.1.1.1.2.3.2.1.1.2.3.1.0" sentencenodepath="3">El cerco sobre Juan_Antonio_Samaranch es cada vez más insistente , y el presidente del Comité_Olímpico_Internacional ( COI ) recurre a todas las armas a su alcance para rebatir las persistentes críticas que le llegan , sobre_todo desde los medios anglosajones , que exigen <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>. </example>
+        <example file="CESS-CAST-P/174_20001201.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Fernando_Martín_Vicente presentó ayer <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>como presidente de la Federación_Española_de_Discapacitados_Intelectuales ( FEDDI ) y vicepresidente del Comité_Paralímpico_Español ( CPE ) . </example>
+        <example file="CESS-CAST-P/174_20001201.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">" <argset><specifier>La</specifier><head>dimisión </head></argset>es consecuencia de errores que han tenido su origen en disfunciones administrativas y operativas , sin intencionalidad " , afirmó ayer Martín . </example>
+        <example file="CESS-CAST-P/174_20001201.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>dimisión </head><reference_modifiers>, de carácter irrevocable ,</reference_modifiers></argset>vino acompañada del reconocimiento de " errores en la valoración psicológica de alguno de los componentes de la selección de baloncesto " . </example>
+        <example file="CESS-CAST-P/174_20001201.tbf.xml" nodepath="9.0.3.1.1.2.1.0.3.1.1.1.0" sentencenodepath="9">" A estas alturas de las investigaciones empiezan a apreciarse ciertas cosas que son las que han llevado al presidente de la FEDDI a presentar <argset><specifier>la</specifier><head>dimisión </head></argset>" , puntualizó Jofre , quien añadió que la investigación afecta a otros miembros de la selección de disminuidos psíquicos que acudió a Sydney , aparte_de a los integrantes del equipo de baloncesto . </example>
+        <example file="CESS-CAST-P/28_20010102.tbf.xml" nodepath="15.0.1.0.4.1.1.1.2.2.1.0" sentencenodepath="15">" Cuando la ley se refiere a que un jefe de Gobierno que presentó <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>tiene plenos poderes , Ø lo hace para impedir un vacío de poder , no para que el primer ministro llegue en esta época al acuerdo más trascendental de la historia del Estado " , escribió Rubinstein en su misiva . </example>
+        <example file="CESS-CAST-P/35_19991101.tbf.xml" nodepath="3.3.1.1.2.1.2.1.3.2.1.0" sentencenodepath="3">El fracaso de la alianza formada para hacerse con el gobierno de las tres capitales vascas y el control de las diputaciones forales ya desembocó en un agrio enfrentamiento entre el presidente de EA , Carlos_Garaikoetxea , y el secretario general , Inazio_Oliveri , que presentó <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>dimisión </head></argset>. </example>
+        <example file="CESS-CAST-P/47_20000102.tbf.xml" nodepath="1.0.3.1.0" sentencenodepath="1">El 58% de los moscovitas consultados por Radio_Eco_de_Moscú ha recibido favorablemente <argset><specifier>la</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del jefe del Estado</argument></argset>, mientras_que el 42% manifestó una opinión negativa . </example>
+        <example file="CESS-CAST-P/47_20000102.tbf.xml" nodepath="4.2.2.1.0" sentencenodepath="4">Mijail , publicista también de 20 años , considera que " <argset><specifier>la</specifier><head>dimisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Yeltsin</argument></argset>amenaza con aislar a Rusia " . </example>
+        <example file="CESS-CAST-P/67_20000201.tbf.xml" nodepath="6.2.1.0.1.1.0" sentencenodepath="6">Su campaña electoral consistió en reclamar <argset><specifier>las</specifier><head>dimisiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los máximos responsables de la Conselleria_de_Justícia</argument></argset>y boicotear actos de CiU . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

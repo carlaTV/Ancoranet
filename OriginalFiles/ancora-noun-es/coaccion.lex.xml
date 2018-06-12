@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="coacción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="coaccionar" originlink="verb.coaccionar.1" wordnetsynset="16:00729766">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13476_20000120.tbf.xml" nodepath="1.3.2.5.1.0.0.0" sentencenodepath="1">Anasagasti , que ha reiterado su solidaridad hacia los afectados , ha afirmado en rueda de prensa sentirse " sorprendido " porque el PP y el PSOE denuncian públicamente " <argset><specifier>cada</specifier><head>coacción </head>, insulto o ultraje " que padecen sus representantes </argset>. </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="12.0.3.3.1.5.1.1.1.1.1.0.0.0" sentencenodepath="12">" Lo que más importa es que los medios de comunicación en España y en todas partes , dentro del principio de la libertad de expresión e información , se sientan absolutamente protegidos y acompañados y Ø les invito a que Ø sigan desempeñando su tarea con la misma libertad y decisión sin aguantar ningún tipo de <argset><head>coacción </head>o chantaje </argset>" , añadió Ø . </example>
+        <example file="CESS-CAST-P/143_20010601.tbf.xml" nodepath="11.3.1.1.0.3.1.1.0" sentencenodepath="11">El club navarro , que dice tener el apoyo de otras entidades , como el Athletic o la Real_Sociedad , pedirá los puntos de los partidos Osasuna-Espanyol y Las_Palmas-Osasuna por alineación indebida , situación que González interpreta como <argset><specifier>una</specifier><head>coacción </head></argset>: " Se está llevando la situación al caos para que la Liga_Profesional pueda plantearse la revisión del número de equipos en las ligas o replantearse incluso los descensos " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="event" id="2" lexicalized="no" originlemma="coaccionar" originlink="verb.coaccionar.1" wordnetsynset="16:00729766">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="4.2.1.2.1.0.2.0" sentencenodepath="4">Los observadores temen que las presiones políticas y <argset>la compra o <head>coacción </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">del voto</argument>
+          </argset>, puedan incidir a_favor_del PRI , principalmente en las zonas rurales , aunque Ø admiten que " es difícil comprobarlo " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

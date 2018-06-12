@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="repatriación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="repatriar" originlink="verb.repatriar.1" wordnetsynset="16:00028092">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="5.3.2.2.1.1.1.0.0" sentencenodepath="5">El INS ha amenazado con suspender el permiso provisional de estancia en EEUU de Elián este Jueves , para iniciar inmediatamente los trámites de <argset><head>repatriación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">a Cuba , donde lo reclama su padre , Juan_Miguel_González</argument></argset>. </example>
+        <example file="CESS-CAST-P/16_20000202.tbf.xml" nodepath="8.0.4.1.1.0.1.1.1.1" sentencenodepath="8">Si Ø ponen atención en lo que se dice y se escribe sobre <argset><specifier>una</specifier><reference_modifiers>posible</reference_modifiers><head>repatriación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Eliancito</argument></argset>, los que se fueron al exilio han de estar desesperanzados . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="repatriar" originlink="verb.repatriar.1" wordnetsynset="16:00028092">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/14149_20001118.tbf.xml" nodepath="0.0.0.1.1.1.0.0" sentencenodepath="0">Una ceremonia de <argset><head>repatriación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de restos de tres militares estadounidenses</argument></argset>y otra en_recuerdo_de las víctimas de las minas cerraron hoy , sábado , la estancia de Bill_Clinton en Hanoi , la capital de Vietnam . </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="17.0.0.1.3.1.3.1.1.1.0" sentencenodepath="17">Sánchez , quien dirigió las protestas del exilio cubano en enero para evitar <argset><specifier>la</specifier><head>repatriación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Elián</argument></argset>, precisó que el tránsito será lento en los alrededores del aeropuerto de Miami , uno de los de mayor tráfico aéreo en EEUU , y Ø tomarán los estacionamientos de la terminal aérea . </example>
+        <example file="CESS-CAST-AA/2692_20000705.tbf.xml" nodepath="0.2.3.1.1.1.0.0" sentencenodepath="0">Cientos de personas armadas con arcos y flechas impidieron que la Alta_Comisaría_de_las_Naciones_Unidas_para_los_Refugiados ( ACNUR ) reanudara sus actividades de <argset><head>repatriación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de timorenses</argument></argset>en tres campamentos de refugiados de Nussa_Tengara ( Timor_Occidentel ) . </example>
+        <example file="CESS-CAST-P/16_20000202.tbf.xml" nodepath="0.2.1.1.1.1.0" sentencenodepath="0">Algún anticastrista con cerebro debería frenar la campaña para <argset><specifier>la</specifier><head>repatriación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Eliancito , el niño balsero</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

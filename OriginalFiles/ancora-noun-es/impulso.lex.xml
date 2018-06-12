@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="impulso" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="impulsar" originlink="verb.impulsar.1" wordnetsynset="16:06660712">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e3-3.tbf.xml" nodepath="2.0.3.0.3.1.1.2.2.1.0.0" sentencenodepath="2">Tomar en_serio la heterogeneidad entre la fuente del conocimiento sensible y la del intelectual hacía indispensable no relegar lo empírico a un insignificante caos de impresiones y de <argset><head>impulsos </head></argset>, sino reconocer la materialidad en lo a_priori , y Ø es el paso que dará el Uebergang al sostener que el acto por el cual el sujeto se afecta a sí mismo en la percepción contiene el Principio_de_posibilidad_de_la_experiencia - . </example>
+        <example file="3LB-CAST/t3-0.tbf.xml" nodepath="3.4.4.0.0" sentencenodepath="3">Ø Se dijo con resignación mientras Ø se daba <argset><head>impulso </head></argset>para saltar de la cama y quedar sentado , sorprendido por sus propias piernas desnudas , esperando órdenes , con la huesuda proa rotular apuntando la maleta abierta , semillena , manteniendo desde hacía días el mismo equilibrio sobre un pequeño butacón . </example>
+        <example file="3LB-CAST/t6-4.tbf.xml" nodepath="6.2.2.5.4.3.2.1.1.2.2.1" sentencenodepath="6">Ø Le dijo a Auri que Ø se iba al fútbol , ella le miró con Los ojos fuera de las órbitas , Ø nunca había ido al fútbol antes , Ø nunca iría después , sus escapadas futuras se convertirían en un hermoso trabajo de precisión , un riesgo inexistente pero siempre milimétricamente calculado , Barcelona , Vigo , Valencia , incluso Frankfurt , pero aquella tarde Ø no tenía tiempo para pensar , Ø no sabía exactamente lo que Ø iba a hacer , así_que Ø cogió el coche , nuevo también , y Ø deshizo el camino , regocijándose por su previa astucia <argset>, <specifier>el</specifier>
+            <reference_modifiers>repentino</reference_modifiers>
+            <head>impulso </head>
+            <reference_modifiers>que le había inducido a conservar su vieja casa de alquiler ocultándoselo a su socia en gananciales</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="1.0.1.2.1.0" sentencenodepath="1">" Los procesos de privatización de grandes empresas estatales mediante ofertas públicas pueden dar <argset><specifier>un</specifier><head>impulso </head></argset>al mercado bursátil y popularizar significativamente la inversión " , afirmó el también ex presidente de la Comisión_Nacional_de_Valores de España . </example>
+        <example file="CESS-CAST-A/18485_20000724.tbf.xml" nodepath="4.2.1.0.1.3.1.4.1.0" sentencenodepath="4">La petición de la consejera de que el Ministerio_de_Medio_Ambiente convalide el estudio de la Junta fue bien acogido por Alvarez_Cascos , quien coincidió en que de esta forma se daría <argset><specifier>un</specifier><head>impulso </head><reference_modifiers>" sustancial "</reference_modifiers></argset>a esta infraestructura ferroviaria . </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="5.3.1.3.6.1.1.3.1.2.0" sentencenodepath="5">El presidente de la Academia centró su intervención en agradecer la existencia misma de la institución a los Reyes , porque , argumentó Ø , en 1979 Doña_Sofía presidió el Congreso_de_Estudios_Extremeños , en el que " <argset>vuestra gracia e <head>impulso </head>
+          </argset>hizo posible que el viejo sueño de los años 40 de crear la Academia cuajara " . </example>
+        <example file="CESS-CAST-AA/8934_20000912.tbf.xml" nodepath="9.4.2.0.2.1.1" sentencenodepath="9">La noticia del inminente acuerdo entre Chase y JP_Morgan fue publicado en la página de internet del diario minutos antes de que cerrara la bolsa , lo que dio <argset><specifier>un</specifier><reference_modifiers>último</reference_modifiers><head>impulso </head></argset>a las acciones de JP_Morgan , que cerraron con un alza de 15 dólares a 184 dólares . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="14.2.3.1.2.1.1" sentencenodepath="14">Ø También apostó por la integración de Guatemala al mundo como democracia y como Estado , y en ese sentido Ø anunció que Ø dará <argset><specifier>un</specifier><reference_modifiers>nuevo</reference_modifiers><head>impulso </head></argset>a la zona de libre comercio entre Centroamérica y México , y Ø apoyará la consolidación de la Asociación_de_Estados_del_Caribe como parte del proceso de ingreso del área al Tratado_de_Libre_Comercio_de_Norteamérica . </example>
+        <example file="CESS-CAST-P/101_19990103.tbf.xml" nodepath="6.3.1.1.3.6.1.0" sentencenodepath="6">" Ø Debemos recuperar el terreno perdido . Si Ø ganamos dos partidos seguidos Ø volveremos a estar arriba , pero para ello hay que vencer con contundencia y dominar desde el primer minuto " , dijo el holandés , que recordó que cuando llega un nuevo técnico , como Ø ha ocurrido en Tenerife , " siempre hay <argset><specifier>un</specifier><head>impulso </head></argset>" . </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="1.2.0.1.0.1.0" sentencenodepath="1">Catalunya crecerá en el 2000 igual que en el año en curso , el 3,9% , pero con <argset><specifier>menos</specifier><head>impulso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del consumo</argument></argset>y más peso de las exportaciones . </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="17.0.4.1.0" sentencenodepath="17">Por_último , el presidente del Barça , acogió con satisfacción <argset><specifier>el</specifier><head>impulso </head><reference_modifiers>definitivo</reference_modifiers><reference_modifiers>que la UEFA dio ayer a la reforma de los torneos europeos</reference_modifiers></argset>: " No todos los clubs piensan lo mismo sobre el reparto de los ingresos , pero se ha escogido un modelo que debe valer para empezar " . </example>
+        <example file="CESS-CAST-P/151_20010202.tbf.xml" nodepath="1.4.1.1.1.3.1.1.2.0" sentencenodepath="1">Los tres comisarios europeos responsables de Competencia ( Mario_Monti ) , Deportes ( Viviane_Reding ) y Asuntos_Sociales ( Anna_Diamantopoulou ) comunicaron por escrito a los dos organismos del fútbol su voluntad de celebrar una reunión , antes de la cumbre del 16_de_febrero , para dar <argset>" <specifier>un</specifier>
+            <head>impulso </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="s.a">político</argument>" <reference_modifiers>decisivo</reference_modifiers>
+          </argset>a las discusiones , por la inquietud ante el bloqueo actual . </example>
+        <example file="CESS-CAST-P/16_20020601_b.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">EL MINISTRO_DE_EXTERIORES ruso , Igor_Ivanov , agradeció al presidente de la Xunta <argset><specifier>el</specifier><head>impulso </head><reference_modifiers>que dio , en los años_70 , a las relaciones entre España y la entonces URSS</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/30_20020801_c.tbf.xml" nodepath="2.2.2.1.2.0" sentencenodepath="2">La conselleria anunció ayer que Ø adoptará " medidas complementarias " para " mejorar la integración de la ronda " en el entramado urbano de la zona y Ø calificó como <argset>" <specifier>un</specifier>
+            <head>impulso </head>
+            <reference_modifiers>definitivo</reference_modifiers>" </argset>la aprobación del proyecto de obras . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="impulsar" originlink="verb.impulsar.1" wordnetsynset="16:06660712">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="6.4.2.1.1.3.1.1.0" sentencenodepath="6">En este sentido Ø se refirió a la reciente creación del Ministerio_de_Ciencia_y_Tecnología y a las primeras declaraciones de su titular , Anna_Birulés , sobre <argset><specifier>el</specifier><head>impulso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la investigación , desarrollo e innovación</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="impulsar" originlink="verb.impulsar.1" wordnetsynset="16:06660712">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/r2-2.tbf.xml" nodepath="8.0.1.1" sentencenodepath="8"><argset><specifier>El</specifier><reference_modifiers>denominado</reference_modifiers><head>impulso </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">democrático</argument></argset>parece dormir el sueño de los justos , según reconocen sus señorías de todos los grupos y colores . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="impulsar" originlink="verb.impulsar.2" wordnetsynset="16:06660712">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/35_20000301.tbf.xml" nodepath="5.2.2.1.0" sentencenodepath="5">Washington y Dakota_del_Norte también celebraron ayer primarias y caucuses ( asambleas ) , respectivamente , pero ni Bush ni McCain recibirán <argset><specifier>el</specifier><head>impulso </head><reference_modifiers>definitivo</reference_modifiers><argument argument="arg2" function="cn" thematicrole="tem" type="sp">hacia la nominación</argument></argset>hasta el próximo martes , cuando 16 estados celebran primarias . </example>
+        <example file="CESS-CAST-P/80_20000701.tbf.xml" nodepath="2.2.1.1" sentencenodepath="2">El Ayuntamiento_de_Barcelona dará <argset><specifier>un</specifier><reference_modifiers>nuevo</reference_modifiers><head>impulso </head></argset>al eje comercial del Clot con la transformación en peatonal del tramo de la calle del mismo nombre comprendido entre Aragó y la avenida de la Meridiana . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

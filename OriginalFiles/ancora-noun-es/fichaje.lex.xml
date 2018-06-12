@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="fichaje" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="fichar" originlink="verb.fichar.1" wordnetsynset="16:07522867">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/6315_20001209.tbf.xml" nodepath="5.3.1.2" sentencenodepath="5">Fernández resaltó también <argset><specifier>los</specifier>" <reference_modifiers>grandes</reference_modifiers><head>fichajes </head>" <reference_modifiers>hechos por el conjunto madrileño esta temporada</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6315_20001209.tbf.xml" nodepath="6.1.0.2.2.2.1.1" sentencenodepath="6">" Jugadores que les están aportando mucho en su dinámica , como Makelele o Figo , y <argset><specifier>otro</specifier><reference_modifiers>gran</reference_modifiers><head>fichaje </head><reference_modifiers>que ha sido la recuperación de Hierro , un hombre vital en la salida desde atrás con el balón</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/105_20020301.tbf.xml" nodepath="7.2.1.2.1.1.0" sentencenodepath="7">Martínez_Rovira , uno de los seis directivos que abandonó la directiva el año pasado por discrepancias con la gestión de Gaspart , criticó la mala elección de <argset><specifier>los siete</specifier><head>fichajes </head><reference_modifiers>realizados</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/108_20000301_b.tbf.xml" nodepath="0.2.1.1" sentencenodepath="0">El Espanyol desmiente <argset><specifier>el</specifier><reference_modifiers>posible</reference_modifiers><head>fichaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Cruyff y Vlaovic</argument></argset>. </example>
+        <example file="CESS-CAST-P/116_19991201.tbf.xml" nodepath="1.0.1.2.1.1.4.1.0.0" sentencenodepath="1">Porque , a_pesar_de sus cientos de títulos , de victorias , de <argset><head>fichajes </head></argset>, de millones , Ø no acaban de cautivar a la afición . </example>
+        <example file="CESS-CAST-P/131_20000602.tbf.xml" nodepath="2.0.4.1.1.1.0" sentencenodepath="2">" Ø No quiso opinar sobre <argset><specifier>esos</specifier><head>fichajes </head></argset>pues Ø no los conocía " , dijo orgulloso el presidente sin darse_cuenta de la puñalada que Ø le estaba dando al técnico al llamarle ignorante . </example>
+        <example file="CESS-CAST-P/160_20011002.tbf.xml" nodepath="12.3.1.1.2.1.1.1.2.1.1.3.1.1" sentencenodepath="12">Kallon , de 21 años , y Ventola , de 23 , son hoy el exponente de la renovación de Cúper y de la confianza que muestra un equipo que ha debido asimilar , otra vez , <argset><specifier>17</specifier><reference_modifiers>nuevos</reference_modifiers><head>fichajes </head><reference_modifiers>, entre ellos el portugués Conceiçao ( Parma ) , los argentinos Guglielminpietro ( Milan ) y Vivas ( Arsenal ) , los turcos Emre y Okan ( Galatasaray ) , los italianos Toldo ( Fiorentina ) y Materazzi ( Perugia ) , el brasileño Adriano ( Flamengo ) o el propio Kallon ( Vicenza )</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/169_20010401.tbf.xml" nodepath="4.2.0.1.4.1.1.2.1.1.1" sentencenodepath="4">" Importa más el Las_Palmas que Riquelme " , dijo Serra_Ferrer , que acudió a la sala de prensa preparado para recibir un alud de preguntas sobre <argset><specifier>el</specifier><reference_modifiers>primer</reference_modifiers><head>fichaje </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para la próxima temporada</argument></argset>. </example>
+        <example file="CESS-CAST-P/91_19990701.tbf.xml" nodepath="7.0.3.1.0" sentencenodepath="7">También el ministro de Fomento , Rafael_Arias_Salgado , aplaudió <argset><specifier>este</specifier><head>fichaje </head></argset>y Ø defendió la autonomía de Telefónica . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="fichar" originlink="verb.fichar.1" wordnetsynset="16:07522867">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="1.2.2.1.1.0.1.1.1.1.0" sentencenodepath="1">Ambos admiten que sólo hubo una diferencia de dos días pero que las negociaciones fueron diferentes , las relativas con <argset><specifier>el</specifier><head>fichaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del jugador argentino</argument></argset>fueron con el hijo del alcalde marbellí Miguel_Angel_Gil_Marín , y el patrocinio de las camisetas con el logotipo de Marbella fueron con el regidor . </example>
+        <example file="CESS-CAST-A/11476_20000614.tbf.xml" nodepath="1.2.4.4.1.0" sentencenodepath="1">El jefe de prensa del CD_Toledo , Jesús_Espada , indicó que " nos sorprende que se dé por hecho <argset><specifier>el</specifier><head>fichaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Pinillos</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por la UD_Levante</argument></argset>, salvo que Ø haya firmado un segundo contrato , por_cuanto Ø tiene un año más con nosotros y , por_tanto , Ø tendría que negociar la posible rescisión del año que le resta " . </example>
+        <example file="CESS-CAST-P/91_19990701.tbf.xml" nodepath="11.4.1.0" sentencenodepath="11">El portavoz de CIU en la Comisión_Mixta_para_la_UE , Ignacio_Guardans , tachó ayer de " vergonzoso " <argset><specifier>el</specifier><head>fichaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Bangemann</argument></argset>, porque , en su opinión , esta decisión es una forma de " desprestigio " de la CE . </example>
+        <example file="CESS-CAST-P/94_20000802.tbf.xml" nodepath="9.2.1.1.0" sentencenodepath="9">Pedro_Munitis admitió que <argset><specifier>el</specifier><head>fichaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Figo</argument></argset>le sorprendió un_poco . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="fichar" originlink="verb.fichar.1" wordnetsynset="16:07522867">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/91_19990701.tbf.xml" nodepath="1.3.1.1.1.1.0" sentencenodepath="1">El presidente de Telefónica , Juan_Villalonga , estaba ayer muy orgulloso por <argset><specifier>el</specifier><head>fichaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del comisario europeo Martin_Bangemann , al que denominó " nuestro Ronaldo "</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

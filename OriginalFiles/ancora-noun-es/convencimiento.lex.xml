@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="convencimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="convencer" originlink="verb.convencer.1" wordnetsynset="16:04562849">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c4-0.tbf.xml" nodepath="6.0.0.1.1.1.1.1.1.0" sentencenodepath="6">Después_de tantos años perdidos en <argset><specifier>el</specifier><head>convencimiento </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de que sólo merecen riqueza individual quienes generan riqueza colectiva</argument></argset>Ø he descubierto al_fin , gracias_a la llamada cultura del pelotazo , que Ø estaba equivocado : lo que realmente conviene a los pueblos es mantener el caldo de cultivo donde se cuecen hazañosos pelotaris capaces de sentir el más completo desdén hacia sus semejantes . </example>
+        <example file="CESS-CAST-P/120_20000102.tbf.xml" nodepath="6.3.0.1.0.1" sentencenodepath="6">Anderson la cantó con <argset><reference_modifiers>enorme</reference_modifiers><head>convencimiento </head></argset>, con la voz subrayando el perfil psicológico de Lucia , sin que las complejas vocalidades y la ornamentación final aparecieran por allá como fuegos fatuos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="convencer" originlink="verb.convencer.1" wordnetsynset="16:04564824+16:04562849">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="78.2.1.1.0" sentencenodepath="78">Ø Queremos separar <argset><argument argument="arg1" thematicrole="pat" type="spec">nuestro</argument><head>convencimiento </head></argset>en la victoria de los sueños . </example>
+        <example file="CESS-CAST-P/24_19981201.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">En sus primeras declaraciones en Madrid , el ministro de Exteriores chileno expresó <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>convencimiento </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de que el ambiente político en España " no es favorable " a Pinochet</argument></argset>, lo que , en su opinión , puede condicionar la decisión judicial , a_pesar_de la " voluntad de imparcialidad " . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="convencer" originlink="verb.convencer.1" wordnetsynset="16:04564824+16:05408552+16:04042883+16:04562849">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17037_20000423.tbf.xml" nodepath="20.2.2.7.2.1.0.5.2.1.0" sentencenodepath="20">El lehendakari subrayó que ETA y la violencia callejera " tienen que desaparecer " y Ø estimó que " no es suficiente condenar la violencia " , por lo que el PNV seguirá " haciendo lo posible y lo imposible para que esto definitivamente se acabe " , con <argset><specifier>el</specifier><head>convencimiento </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de que " sólo hay una manera de resolver los problemas : sentarse y hablar "</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="0.1.2.1.4.1.1.0" sentencenodepath="0">Nuestra alternativa es y Ø será contundente , pero basada en la responsabilidad , en la propuesta constructiva y en <argset><specifier>el</specifier><head>convencimiento </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de la necesidad de un cambio de estilo que beneficiará a todos</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="1.2.2.1.1.1.0" sentencenodepath="1">La sexta legislatura parlamentaria desde el restablecimiento de la democracia empezó con la esperanza y también con <argset><specifier>el</specifier><head>convencimiento </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de que esta vez las actitudes de consenso y de diálogo saldrían adelante , por_encima_de otras actitudes</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="26.1.2.1.4.1.1.0" sentencenodepath="26">Nuestra alternativa es y Ø será contundente , pero basada en la responsabilidad , en la propuesta constructiva y en <argset><specifier>el</specifier><head>convencimiento </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de la necesidad de un cambio de estilo que beneficiará a todos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="convencer" originlink="verb.convencer.2" wordnetsynset="16:04562849">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/11_20000302.tbf.xml" nodepath="9.5.1.2.1.0.0" sentencenodepath="9">Quizá el Alcoyano ya no sea la máxima expresión del <argset><head>convencimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en las propias fuerzas</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para vencer cualquier obstáculo</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

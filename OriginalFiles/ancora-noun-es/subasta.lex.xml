@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="subasta" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="subastar" originlink="verb.subastar.1" wordnetsynset="16:00057368">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="4" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="12.2.2.1.1.0.1.0.1.0.3.3.1.1.0.0" sentencenodepath="12">Vázquez_Quintana intervino hoy en unas jornadas sobre "_Acceso_radio_en_el_bucle_local_de_abonado_" , organizadas por APD ( Asociación_para_el_Progreso_de_la_Dirección ) y Ø dijo que las del modelo concesión de licencias español , por concurso y no por <argset><head>subasta </head></argset>, hace que el Estado ingrese menos pero a_cambio los operadores pueden desarrollar su red más deprisa y amortizar antes sus inversiones . </example>
+        <example file="CESS-CAST-A/12469_20001216.tbf.xml" nodepath="0.0.0.1.2.4.1.1.1.2.1.0.2.1.0.0" sentencenodepath="0">La firma Phillips , que desde hace un año intenta hacerse con una cuota importante del mercado mundial de <argset><head>subastas </head></argset>, prevé una fusión con De_Pury_&amp;_Luxembourg , informa hoy el diario " The_New_York_Times " . </example>
+        <example file="CESS-CAST-A/12469_20001216.tbf.xml" nodepath="1.2.2.1.1.0.1.2.4.3.2.1.0" sentencenodepath="1">La nueva empresa se llamaría " Phillips_De_Pury_&amp;_Luxembourg " y Ø estaría presidida por Simon_de_Pury , el ex presidente de la firma Sotheby's en Europa , que fue quien dirigió <argset><specifier>las</specifier><head>subastas </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de arte impresionista , contemporáneo y moderno</argument><reference_modifiers>celebradas por Phillips en noviembre pasado en Nueva_York</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/12469_20001216.tbf.xml" nodepath="6.2.1.1.0.1.2.1.2.1.1.1.0.0" sentencenodepath="6">Su deseo es diferenciarse de Sotheby's y Christie's , las dos firmas que controlan casi todo el mercado de <argset><head>subastas </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de arte</argument></argset>, con un negocio limitado pero concentrado en las áreas más rentables , que significaría dejar de_lado objetos coleccionables , vinos y manuscritos , entre otros productos . </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="2.3.1.0.0" sentencenodepath="2">En el Mercado_de_Hacienda de Liniers , en la zona sur de Buenos_Aires y el mayor del país , salieron hoy a <argset><head>subasta </head></argset>unas 600 cabezas de ganado vacuno frente_al promedio de 10.000 que suelen comerciarse normalmente . </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="3.2.1.1.1.1.0" sentencenodepath="3">La mayor parte del ganado ofrecido hoy había quedado sin vender en <argset><specifier>las</specifier><head>subastas </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del viernes pasado</argument></argset>. </example>
+        <example file="CESS-CAST-A/15311_20001220.tbf.xml" nodepath="1.2.3.1.1.1" sentencenodepath="1">Estas letras se emitirán el próximo 21_de_diciembre y Ø conllevan una reducción con_respecto_a <argset><specifier>la</specifier><reference_modifiers>última</reference_modifiers><head>subasta </head><reference_modifiers>, en la que se adjudicaron letras a un año al 4,826_por_ciento , y letras a 18 meses al 4,832_por_ciento</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/1925_20001103.tbf.xml" nodepath="0.4.1.1.2.1.1.0" sentencenodepath="0">La compañía española Telefónica logró , al_igual_que los restantes cinco competidores , una licencia de tercera generación de telefonía móvil ( UMTS ) con dos bandas de frecuencias en la primera parte de <argset><specifier>la</specifier><head>subasta </head><reference_modifiers>austriaca</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/1925_20001103.tbf.xml" nodepath="5.4.1.1.1.2.1.1.1.1.1.0" sentencenodepath="5">El comienzo de la segunda parte será comunicado oficialmente hoy por la Comisión_de_Control que verifica que el desarrollo de <argset><specifier>la</specifier><head>subasta </head></argset>ha sido correcto hasta ahora . </example>
+        <example file="CESS-CAST-AA/20751_20000128.tbf.xml" nodepath="0.4.1.2.2.1.1.2.5.1.0.0" sentencenodepath="0">El ayuntamiento de Barcelona , de_acuerdo_con el ministerio de Trabajo_y_Seguridad_Social , ha pasado a ser el propietario del parque de atracciones del Tibidabo al ejercer el derecho de tanteo sobre este equipamiento y sus terrenos , arrebatándoselo a la empresa Chupa_Chups , que lo adquirió ayer en <argset><head>subasta </head></argset>. </example>
+        <example file="CESS-CAST-AA/20751_20000128.tbf.xml" nodepath="1.7.1.1.0" sentencenodepath="1">Chupa_Chups se adjudicó ayer , a_través_de un subastero de Barcelona , la propiedad de prácticamente todos los terrenos del parque por 791 millones de pesetas , frente_a los 1.600 millones de salida , en <argset><specifier>la</specifier><head>subasta </head><reference_modifiers>celebrada en un juzgado de Barcelona a_instancias_de la Seguridad_Social</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/23144_20001129.tbf.xml" nodepath="2.2.1.1.2.2.2.3.1.0.0" sentencenodepath="2">La empresa vendida formaba_parte de las Centrales_Telefónicas_de_Ribeirao_Preto ( Ceterp ) , una pequeña compañía comprada en diciembre del año pasado por Telefónica en <argset><head>subasta </head><reference_modifiers>pública</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/56_20011201.tbf.xml" nodepath="1.3.1.1.0.0" sentencenodepath="1">La Audiencia , que impuso una pena de 28 años de cárcel a Luis_Roldán por enriquecimiento ilícito , acordó en septiembre sacar a <argset><head>subasta </head></argset>la finca , de 448 metros_cuadrados y situada en la urbanización Cambrils-Puerto . </example>
+        <example file="CESS-CAST-P/65_19990401.tbf.xml" nodepath="2.0.1.1.1.0.0" sentencenodepath="2">Las casas de <argset><head>subastas </head></argset>afincadas en aquel país tampoco son ajenas al mercadeo de obras de arte , según sostienen los expertos policiales . </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="19.4.2.5.1.1.1" sentencenodepath="19">Para todo ello , Pujol reclamó a PP y PSOE que Ø hagan " un gran esfuerzo de consenso , y que Ø no conviertan la discusión sobre pensiones en <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>subasta </head></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="subastar" originlink="verb.subastar.1" wordnetsynset="16:00057368">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2484_20000704.tbf.xml" nodepath="1.3.1.1.2.2.4.1.1.1.0" sentencenodepath="1">El cierre de esas empresas también afectó a varios bancos privados que les habían concedido créditos y que en algunos casos no pudieron recuperar ni mediante <argset><specifier>la</specifier><head>subasta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de bienes</argument></argset>. </example>
+        <example file="CESS-CAST-P/66_20011202.tbf.xml" nodepath="1.0.0.2.1.0" sentencenodepath="1">El Deutsche_Bank ha ganado <argset><specifier>la</specifier><head>subasta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Hotel_Arts</argument></argset>y Ø se lo ha adjudicado por un importe de 48.000 millones de pesetas ( 288,4 millones de euros ) , según informó ayer la agencia Efe , que cita fuentes del sector conocedoras de la operación . </example>
+        <example file="CESS-CAST-P/66_20011202.tbf.xml" nodepath="14.0.1.0" sentencenodepath="14"><argset><specifier>La</specifier><head>subasta </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del mayor rascacielos de Barcelona - - supera los 160 metros de altitud - -</argument></argset>se ha producido tras el atentado contra las Torres_Gemelas del pasado 11_de_septiembre en Estados_Unidos , lo que según fuentes inmobiliarias , presionó a_la_baja las expectativas de venta de los japoneses . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

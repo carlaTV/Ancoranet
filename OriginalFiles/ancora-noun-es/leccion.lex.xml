@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="lección" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="aleccionar" originlink="verb.aleccionar.1" wordnetsynset="16:04955371">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="1" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="1.2.3.1.0.0" sentencenodepath="1">Chávez dijo que el aplazamiento de las elecciones ha servido de <argset><head>lección </head></argset>a los venezolanos , " porque Ø aprendimos que las instituciones han funcionado , también por la reacción madura de nuestro pueblo y porque Ø ha abierto el compás a la mayor participación de la sociedad civil " . </example>
+        <example file="3LB-CAST/a1-6.tbf.xml" nodepath="0.3.0.1.1.1.0.1" sentencenodepath="0">Si no , ahí están las silvas de <argset><reference_modifiers>varia</reference_modifiers><head>lección </head></argset>o aquellas tentativas a las que Montaigne llamó sencillamente - ensayos - . </example>
+        <example file="3LB-CAST/c1-2.tbf.xml" nodepath="5.2.1.2.2.1.0" sentencenodepath="5">El Madrid se encontró con un adversario acalambrado y descoyuntado , y frente_a un Atlético así el Madrid de los buenos tiempos , aquel Madrid al que Ø quisimos tanto , habría hecho virguerías , Ø habría desplegado <argset><specifier>una</specifier><head>lección </head><reference_modifiers>de poderío y clase</reference_modifiers></argset>, Ø se habría puesto antipático como sólo un señor puede ponerse . </example>
+        <example file="3LB-CAST/d1-13.tbf.xml" nodepath="10.3.1.0" sentencenodepath="10">Y ahí está <argset><specifier>la</specifier><head>lección </head><reference_modifiers>: Barça 5 , Real_Madrid 0</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/d2-11.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">A_veces sorprendido en su buena fe ( la saga / fuga lamentable de Ricardo_Peral ) , a_veces defraudado por hombres cuya permanencia en el equipo estaba más que cuestionada y que él ha defendido por un concepto muy clásicamente madridista de fidelidad a los veteranos y los colores , Mariano ha ido aprendiendo <argset><specifier>las</specifier><head>lecciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">tanto de los triunfos como de los reveses</argument></argset>. </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="2.5.1.0" sentencenodepath="2">Los Spurs sin el alero titular Tim_Duncan les dieron a los Lakers <argset><specifier>una</specifier><head>lección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de baloncesto</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de equipo</argument></argset>al remontar una desventaja de 17 puntos con la que Ø llegaron al cuarto periodo . </example>
+        <example file="CESS-CAST-A/16730_20000221.tbf.xml" nodepath="5.2.4.1.1.0.3.4.1.0" sentencenodepath="5">En Michigan , el gobernador de Texas ha preferido concentrar sus ataques en el presidente de EEUU , Bill_Clinton , y en el vicepresidente y candidato demócrata , Al_Gore , insistiendo en que " quedan 260 días para el fin de la era Clinton-Gore " , mientras_que a McCain Ø se refirió con un " Ø espero que Ø se haya aprendido <argset><specifier>la</specifier><head>lección </head></argset>" en Carolina_del_Sur . </example>
+        <example file="CESS-CAST-A/17037_20000423.tbf.xml" nodepath="16.2.2.5.2.1.0.5.0.0" sentencenodepath="16">Ø Manifestó que " la gran aportación del PNV en los últimos veinte años " es la de haber " generado un país moderno " , y que este partido se siente " orgulloso " de lo conseguido , por lo que " Ø no acepta <argset><head>lecciones </head><reference_modifiers>" ni de quienes " han tardado 30 años en incorporarse " a la construcción del País_Vasco , ni de la " nueva derecha , defensora del pensamiento único "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17865_20001223.tbf.xml" nodepath="13.2.1.1.2.2.1.1.0.1.4.0.0" sentencenodepath="13">Ø Fue el hombre que rivalizó con Fausto_Coppi y cuyos duelos dividieron a Italia , pero no a ellos , que incluso dieron <argset><head>lecciones </head></argset>al mundo ayudándose , aunque sin dirigirse la palabra . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="13.0.3.3.1.1.0.0" sentencenodepath="13">" Pan bendito para el Elíseo . Chirac aprovechará la ocasión para dar <argset><head>lecciones </head></argset>" , subraya un comentarista de " Liberation " . </example>
+        <example file="CESS-CAST-AA/24215_20001030.tbf.xml" nodepath="14.0.3.1.0" sentencenodepath="14">" Ø Hemos dado <argset><specifier>una</specifier><head>lección </head></argset>al mundo " , afirmó a los periodistas el ministro del Interior , el liberal independiente Humberto_de_la_Calle , una_vez_que la Organización_Electoral puso_fin a la jornada de votación , que duró ocho horas . </example>
+        <example file="CESS-CAST-AA/24407_20000731.tbf.xml" nodepath="2.0.1.2.1.1" sentencenodepath="2">" Ø Voy a darle <argset><specifier>una</specifier><reference_modifiers>merecida</reference_modifiers><head>lección </head></argset>a Gamboa , y Ø creo que Ø volveré nuevamente con el título en el bolsillo " , aseveró el campeón mundial . </example>
+        <example file="CESS-CAST-AA/6036_20001108.tbf.xml" nodepath="4.0.4.1.1.0" sentencenodepath="4">España se marchó al descanso con <argset><specifier>la</specifier><head>lección </head><reference_modifiers>bien aprendida</reference_modifiers></argset>, y a los cuatro minutos de la reanudación el centrocampista Roberto culminó una buena jugada de Elías por banda derecha para inaugurar el marcador . </example>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="3.0.3.2.2.0.6.1.1.1.0" sentencenodepath="3">" Ø He oído decir que , según Golota , su combate conmigo será un simple entrenamiento , pero Ø juro que Ø está muy equivocado , que Ø me preparo con gran intensidad en Florida para darle <argset><specifier>una</specifier><head>lección </head></argset>y que Ø se la daré " , informó Saleta en su página oficial de Internet . </example>
+        <example file="CESS-CAST-P/17_20000602_c.tbf.xml" nodepath="6.3.1.0.0" sentencenodepath="6">Ojalá esto sirva de <argset><head>lección </head></argset>a los elegidos para representar al pueblo español . </example>
+        <example file="CESS-CAST-P/21_20000202_b.tbf.xml" nodepath="2.2.0.0" sentencenodepath="2">Todo es <argset><head>lección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de vida aprendida y puntualmente saboreada</argument></argset>en este hombre cálido , activo y cercano , que no parece ni economista ni académico , esa postura tan sentada de sillón . </example>
+        <example file="CESS-CAST-P/30_19990201.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">De esa experiencia Ø extrajo <argset><specifier>una</specifier><head>lección </head><reference_modifiers>: " Nunca podemos dejarnos adormecer por el triunfalismo y la autocomplacencia "</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

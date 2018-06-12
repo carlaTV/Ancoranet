@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="inyección" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="inyectar" originlink="verb.inyectar.1" wordnetsynset="16:00208372">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="2" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-10.tbf.xml" nodepath="11.4.1.1.2.1.3.3.0.1.1.0.0" sentencenodepath="11">Al borde del siglo_XX , en el año_1900 , crean Daimler , su hijo Paul y Wilhelm_Maybach , un automóvil que reunía todos los adelantos técnicos del momento : 35 CV de potencia , carburador de <argset><head>inyección </head></argset>y neumáticos , un invento reciente de los hermanos Michelín de París . </example>
+        <example file="CESS-CAST-A/13150_20000316.tbf.xml" nodepath="2.2.3.2.0" sentencenodepath="2">El jugador baskonista consideró que una victoria ante la escuadra azulgrana que adiestra Aíto_García_Reneses supondría <argset>" <specifier>una</specifier>
+            <head>inyección </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de moral</argument>
+            <reference_modifiers>bastante grande</reference_modifiers>" <argument argument="argM" function="cn" thematicrole="fin" type="sp">para mejorar la deficiente imagen ofrecida en los últimos partidos , así_como para volver a superarle en la tabla clasificatoria</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-A/15386_20000720.tbf.xml" nodepath="1.3.1.1.1" sentencenodepath="1">La entrada de Telefónica en Media_Park al tomar un 25% del capital permitirá a la productora no_sólo <argset><specifier>una</specifier><reference_modifiers>significativa</reference_modifiers><head>inyección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ingresos</argument><reference_modifiers>, que ha situado los fondos propios de la sociedad en unos 16.000 millones de pesetas ,</reference_modifiers></argset>sino_también un socio que le abrirá las puertas del amplio mercado latinoamericano . </example>
+        <example file="CESS-CAST-AA/22653_20000227.tbf.xml" nodepath="0.3.5.1.1.0" sentencenodepath="0">El entrenador del Espanyol , Paco_Flores , ha aplaudido el triunfo de su equipo ( 5-1 ) ante el Rayo_Vallecano , porque Ø lo interpreta como <argset><specifier>una</specifier><head>inyección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de moral y de credibilidad</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">para la recta final del campeonato</argument></argset>. </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="5.2.1.2.1.1.1.2.4.1.1" sentencenodepath="5">Scariolo es la apuesta de la directiva que preside Lorenzo_Sanz para reconstruir el proyecto del básquet blanco , que la próxima temporada recibirá <argset><specifier>una</specifier><reference_modifiers>fuerte</reference_modifiers><head>inyección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">económica</argument></argset>, para competir con posibilidades tanto en la Liga_ACB como en la Euroliga . </example>
+        <example file="CESS-CAST-P/136_20001001.tbf.xml" nodepath="5.1.1.1.4.1.0" sentencenodepath="5">" Este premio , que me da <argset><specifier>una</specifier><head>inyección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de energía</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para seguir</argument></argset>, me reconcilia con un festival con el que Ø he tenido una relación de amor y odio " . </example>
+        <example file="CESS-CAST-P/73_20000201_a.tbf.xml" nodepath="2.2.5.1.0.0" sentencenodepath="2">El concejal indicó que los sacrificios , que ahora se han suspendido cautelarmente , se harán en el futuro por <argset><head>inyección </head><reference_modifiers>letal</reference_modifiers><reference_modifiers>, el método que la mayor parte de veterinarios reconoce como el de menor sufrimiento para el animal</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="7.0.0.1.1" sentencenodepath="7"><argset><specifier>La</specifier><reference_modifiers>fuerte</reference_modifiers><head>inyección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 88.800 millones de fondos procedentes de la Unión_Europea</argument></argset>y la mejoría del capítulo de rentas explican el dato de marzo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="inyectar" originlink="verb.inyectar.1" wordnetsynset="16:00208372">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/69_20010201_e.tbf.xml" nodepath="5.4.1.0.1.1.1.1.1.0.0" sentencenodepath="5">Mitsubishi llamará a revisión 385 camiones por defectos en el sistema de <argset><head>inyección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de gas natural</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">al motor</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

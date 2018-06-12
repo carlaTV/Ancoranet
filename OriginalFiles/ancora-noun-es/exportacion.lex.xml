@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="exportación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="exportar" originlink="verb.exportar.1" wordnetsynset="16:00721409+16:02653164">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="9" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="des">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="25" postype="article" type="determiner"/>
+        <constituent frequency="12" type="void"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>Las</specifier><head>exportaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de vinos chilenos</argument></argset>registraron un aumento del 23,3_por_ciento en abril_pasado en comparación con el mismo mes de 1999 , hasta los 164,4 millones de dólares , informaron hoy fuentes del sector . </example>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>Las</specifier><head>exportaciones </head><reference_modifiers>totales</reference_modifiers></argset>pasaron de los 12,3 millones de dólares en 1999 a los 14,8 millones en el presente año , lo que supone una subida del 20,47_por_ciento . </example>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="4.0.1.2.2.1.0" sentencenodepath="4">El aumento sostenido que ha experimentado <argset><specifier>la</specifier><head>exportación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">vitivinícola</argument></argset>durante los últimos cuatro meses fue valorado por los productores y exportadores como " un logro muy significativo " . </example>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="5.3.1.1.1.1.0" sentencenodepath="5">Asimismo Ø destacaron la subida de <argset><specifier>las</specifier><head>exportaciones </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">a América_del_Norte</argument><reference_modifiers>, que suponen un 30_por_ciento , en_tanto_que las destinadas a América_del_Sur representaron un 20 , con un importante alza de las exportaciones a Brasil , que aumentaron un 180_por_ciento</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="5.3.1.1.1.1.2.4.5.2.1.2.1.1.0" sentencenodepath="5">Asimismo Ø destacaron la subida de las exportaciones a América_del_Norte , que suponen un 30_por_ciento , en_tanto_que las destinadas a América_del_Sur representaron un 20 , con un importante alza de <argset><specifier>las</specifier><head>exportaciones </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">a Brasil</argument><reference_modifiers>, que aumentaron un 180_por_ciento</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="7.5.1.2.1.0.0" sentencenodepath="7">Según proyecciones de Chilevid , comparando el comportamiento de los últimos cuatro años en el año_2000 se debería alcanzar los 600 millones de dólares de <argset><head>exportación </head></argset>. </example>
+        <example file="3LB-CAST/2000060104_5-2.tbf.xml" nodepath="1.0.1.1.1.1.1.0" sentencenodepath="1">En este contexto , el volumen de <argset><specifier>las</specifier><head>exportaciones </head><reference_modifiers>que Uruguay vende a Argentina</reference_modifiers></argset>se verá disminuido , Ø señaló . </example>
+        <example file="3LB-CAST/2000060104_5-2.tbf.xml" nodepath="6.4.1.2.1.0.0" sentencenodepath="6">En la asamblea también se criticó la elevada cifra de <argset><head>exportaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">brasileñas</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de contrabando</argument><reference_modifiers>que llegan a Uruguay</reference_modifiers></argset>por las grandes diferencias de precios . </example>
+        <example file="3LB-CAST/2000060104_5-2.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>Las</specifier><head>exportaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Uruguay</argument><argument argument="argM" function="cn" thematicrole="des" type="sp">a Brasil</argument></argset>se redujeron en un 40_por_ciento durante 1999 . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="17.0.1.1.1.0.1.1.1.0" sentencenodepath="17">En_cuanto_a los países destino de <argset><specifier>las</specifier><head>exportaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">españolas</argument><reference_modifiers>del sector del deporte</reference_modifiers></argset>, el principal cliente es Francia , que absorbe el 18_por_ciento del total de las exportaciones . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="17.3.0.1.3.1.1.1.0.1.1.1.0" sentencenodepath="17">En_cuanto_a los países destino de las exportaciones españolas del sector del deporte , el principal cliente es Francia , que absorbe el 18_por_ciento del total de <argset><specifier>las</specifier><head>exportaciones </head></argset>. </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="6.2.6.1.1.1.1.1.1.0" sentencenodepath="6">Ø Recordó que sólo en 1999 la alta cotización de la libra generó pérdidas adicionales de unos 350 millones de euros a Rover en una industria dirigida hacia <argset><specifier>la</specifier><head>exportación </head></argset>. </example>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="2.0.4.1.1.0" sentencenodepath="2">Pese_a_que Brasil cerró el año pasado con <argset><specifier>una</specifier><head>exportación </head><reference_modifiers>récord</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 21 millones de sacas del grano , de 60 kilos cada una ,</argument></argset>el gobierno se comprometió a no realizar embarques por_encima_de la cuota de 17 millones de sacas entre julio_del_2000 y junio_del_2001 . </example>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="8.5.2.1.1.0" sentencenodepath="8">Brasil al parecer no tendrá inconvenientes para cumplir el acuerdo de retención de embarques de este año debido_a_que la cosecha no se prevé tan buena como la anterior y a_que <argset><specifier>las</specifier><head>exportaciones </head></argset>comienzan a dar señales de reducción . </example>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>Las</specifier><head>exportaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">brasileñas</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de café</argument></argset>cayeron en casi un 30_por_ciento entre febrero_de_1999 y el mes pasado , según un boletín del Consejo_de_los_Exportadores_de_Café_Verde_de_Brasil ( Cecafé ) . </example>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="12.0.4.1.0.1.4.1.0" sentencenodepath="12">El país no lograba un volumen de embarques de ese tamaño desde 1991 , cuando Ø consiguió <argset><specifier>una</specifier><head>exportación </head><reference_modifiers>cercana a los 18 millones de sacas</reference_modifiers></argset>, y al excelente resultado contribuyeron tanto la devaluación del real , en enero_de_1999 , como la elevada cosecha del período 1998-1999 , 35 millones de sacas , la mayor de la década . </example>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="4.2.3.1.1.1.1.1.1.1.0.2.1.1.0" sentencenodepath="4">Santos reiteró que Colombia mantendrá la decisión de aplicar el acuerdo de retención , de hasta un 20_por_ciento del grano , para <argset><specifier>la</specifier><head>exportación </head></argset>, pactado por los miembros de la Asociación_de_Países_Productores_de_Café ( APPC ) y otros cultivadores el pasado mayo en Londres . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="8.3.2.4.1.2.1.1.0" sentencenodepath="8">El tribunal correspondiente de la OMC dictaminó , en una resolución ahora apelada por Brasil , que este país seguía incumpliendo sus compromisos y que por_tanto sus ayudas a la empresa local , son un subsidio ilegal a <argset><specifier>la</specifier><head>exportación </head></argset>. </example>
+        <example file="CESS-CAST-AA/20428_20000525.tbf.xml" nodepath="0.0.1.1.1.0.1.1.0.0" sentencenodepath="0">El acuerdo de retención de <argset><head>exportaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de café</argument></argset>aprobado por los miembros de la Asociación_de_Países_Productores_de_Café ( APC ) puede ser perjudicial para Brasil , el mayor productor y exportador mundial del grano , según el presidente de la Sociedad_Rural_Brasileña ( SRB ) , Luis_Haffers . </example>
+        <example file="CESS-CAST-AA/20428_20000525.tbf.xml" nodepath="1.3.3.0.2.1.1.0.0.0" sentencenodepath="1">En una entrevista publicada hoy por el diario económico Gazeta_Mercantil , el dirigente gremial aseguró que Brasil va a perder divisas , volumen de <argset><head>exportaciones </head>y mercado </argset>con el acuerdo al que llegaron los productores para aumentar las cotizaciones internacionales del grano . </example>
+        <example file="CESS-CAST-AA/20428_20000525.tbf.xml" nodepath="2.3.1.1.2.2.2.0.1.1.1.1.1.1.0" sentencenodepath="2">" Peor que vender barato es no vender o vender caro " , aseguró el productor rural al indicar que siempre_que Brasil acordó retenciones para regular el mercado cafetero Ø terminó vendiendo menos y Ø perdió participación en el total de <argset><specifier>las</specifier><head>exportaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">mundiales</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del grano</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20428_20000525.tbf.xml" nodepath="9.1.1.1.1.1.2.1.1.0.0" sentencenodepath="9">Según Samico , además_de reformar las herramientas utilizadas por el país para registrar y autorizar <argset><head>exportaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de café</argument></argset>- para aumentar el control oficial sobre los embarques - , el Gobierno creará un nuevo papel financiero con el que se pagará el café retenido . </example>
+        <example file="CESS-CAST-AA/24478_20000330.tbf.xml" nodepath="0.4.1.2.1.1.2.1.0.3.1.0" sentencenodepath="0">Irán acusó hoy , Jueves , a Estados_Unidos de violar las normas del comercio internacional con sus " presiones y amenazas " a los países productores de petróleo para que Ø aumentaran <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>exportaciones </head></argset>y bajar así los precios del crudo . </example>
+        <example file="CESS-CAST-AA/24478_20000330.tbf.xml" nodepath="3.1.0.3.1.3.1.0" sentencenodepath="3">Antes de la reunión de ministros de los once países de la OPEP , celebrada los tres primeros días de esta semana en Viena , EEUU había insistido ante sus principales aliados en el Golfo_Pérsico y grandes productores de petróleo , Arabia_Saudí y Kuwait , para que Ø aumentaran <argset><specifier>las</specifier><head>exportaciones </head></argset>, además_de amenazar con sanciones a los países que se negaran a hacerlo . </example>
+        <example file="CESS-CAST-AA/2484_20000704.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>Las</specifier><head>exportaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de café hondureño</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en la cosecha 1999-2000</argument><reference_modifiers>, de unos 3,5 millones de sacos de 46 kilos ,</reference_modifiers></argset>alcanzaron unos 300 millones de dólares hasta Junio pasado . </example>
+        <example file="CESS-CAST-AA/5988_20000608.tbf.xml" nodepath="4.2.0.0" sentencenodepath="4">Colombia , segundo cultivador y exportador de café después de Brasil , calculaba <argset><head>exportaciones </head></argset>para los dos años de retención de cerca de 20 millones de sacas de 60 kilos , de los que Ø guardará un máximo de 4 millones de sacas , que Ø no destinará ni_siquiera para consumo interno . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="5.2.5.2.0.1.1.1.2.1.1.2.1.1.2.1.0.0" sentencenodepath="5">Portillo señaló que su país afronta una difícil situación en el campo externo , como efecto de la combinación del mal uso de las políticas económicas con la caída de los precios de los principales productos de <argset><head>exportación </head></argset>. </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="1.2.0.1.2.1.1.1.1.0" sentencenodepath="1">Catalunya crecerá en el 2000 igual que en el año en curso , el 3,9% , pero con menos impulso del consumo y más peso de <argset><specifier>las</specifier><head>exportaciones </head></argset>. </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="11.1.1.0" sentencenodepath="11">Además , <argset><specifier>las</specifier><head>exportaciones </head><reference_modifiers>, que se ralentizaron ,</reference_modifiers></argset>recuperarán mayor dinamismo industrial . </example>
+        <example file="CESS-CAST-P/108_20000402.tbf.xml" nodepath="0.2.1.2.1.3.1.1.1.1.1.0.0" sentencenodepath="0">El director general del grupo que fabrica las prendas Lois y Cimarron , Vicente_Sáez-Merino , ha anunciado la decisión de la firma de invertir 700 millones este año para poder incrementar la producción para <argset><head>exportación </head></argset>, que ya representa el 62% del total de facturación del grupo . </example>
+        <example file="CESS-CAST-P/12_20000903.tbf.xml" nodepath="1.2.0.2.3.1.2.1.0.0" sentencenodepath="1">Ø Son regiones deficitarias en recursos hídricos que curiosamente alcanzan un alto volumen de <argset><head>exportación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de productos agrarios</argument></argset>. </example>
+        <example file="CESS-CAST-P/33_19990802.tbf.xml" nodepath="0.2.2.1.0" sentencenodepath="0">La carne de vacuno británica puede volver a comercializarse en los países de la Unión_Europea desde ayer , tras levantarse el veto impuesto hace 40 meses por la Comisión_Europea como respuesta a la detección del denominado mal de las vacas locas , pero la desconfianza que despierta su consumo va a seguir penalizando <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">exportaciones </head></argset>por un largo periodo de tiempo . </example>
+        <example file="CESS-CAST-P/33_19990802.tbf.xml" nodepath="7.0.1.1.1.1.1.0" sentencenodepath="7">La prohibición impuesta a <argset><specifier>las</specifier><head>exportaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ganado vivo</argument></argset>continúa vigente . </example>
+        <example file="CESS-CAST-P/43_20010702.tbf.xml" nodepath="8.2.2.1.1.4.1.1.1.1.1" sentencenodepath="8">Para el Gobierno español , su relación política con México es " excelente " , pero no así la comercial , que apenas representa el 1% de <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><reference_modifiers>respectivas</reference_modifiers><head>exportaciones </head></argset>. </example>
+        <example file="CESS-CAST-P/43_20010702.tbf.xml" nodepath="9.2.0.1.0" sentencenodepath="9">El pasado año las importaciones españolas de México se cifraron en 280.000 millones de pesetas - - el 60% en petróleo - - , y <argset><specifier>la</specifier><head>exportación </head></argset>rozó los 250.000 millones . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="15.2.1.1.1.0.0" sentencenodepath="15">Sus hijas copan la dirección de <argset><head>exportación </head></argset>- - las ventas al exterior suponen más de la mitad de la facturación - - y la gerencia . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="2.0.1.1.1.1.0" sentencenodepath="2">El estancamiento de <argset><specifier>la</specifier><head>exportación </head></argset>restará 1,6 puntos al PIB español . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="3.3.1.1.1.1.2.1.0" sentencenodepath="3">Ni el fuerte tirón del turismo durante el primer trimestre del año resulta suficiente para cubrir el desplome que sufren <argset><specifier>las</specifier><head>exportaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">españolas</argument></argset>. </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="5.0.1.1.2.0.2.1.0.0.0" sentencenodepath="5">Mientras_que la balanza comercial ( diferencia entre <argset><head>exportaciones </head>e importaciones </argset>) del primer trimestre empeoró en 245.800 millones respecto_al mismo periodo de 1998 , los ingresos netos por turismo sólo han subido en 93.400 millones . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="12.1.0.1.2.1.1.0" sentencenodepath="12">Durante el primer trimestre del año , el virtual estancamiento de <argset><specifier>las</specifier><head>exportaciones </head></argset>y el incremento en un 5% de las importaciones han hecho que el déficit comercial ( diferencia entre exportaciones e importaciones ) se sitúe en 795.800 millones . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="12.3.1.1.2.0.2.1.0.0.0" sentencenodepath="12">Durante el primer trimestre del año , el virtual estancamiento de las exportaciones y el incremento en un 5% de las importaciones han hecho que el déficit comercial ( diferencia entre <argset><head>exportaciones </head>e importaciones </argset>) se sitúe en 795.800 millones . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="exportar" originlink="verb.exportar.1" wordnetsynset="16:00721409">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="des">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12812_20001116.tbf.xml" nodepath="8.2.0.2.1.0" sentencenodepath="8">La organización añadió que Washington no fabrica este tipo de minas desde hace dos años y Ø ha prohibido <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>exportación </head></argset>, pero Ø se reserva el derecho a retomar la producción en cualquier momento . </example>
+        <example file="CESS-CAST-A/12812_20001116.tbf.xml" nodepath="10.0.0.1.1.1.0.2.2.0.1.1.1.2.3.1.0" sentencenodepath="10">El número de minas antipersonas que posee Vietnam , país que sigue fabricándolas aunque Ø ha prohibido <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>exportación </head></argset>, se desconoce , concluye la organización . </example>
+        <example file="CESS-CAST-A/12967_20000417.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">La decisión del Gobierno permite <argset><specifier>la</specifier><head>exportación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de petróleo</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">con fines humanitarios</argument><argument argument="argM" function="cn" thematicrole="des" type="sp">para las fuerzas de mantenimiento de la paz , así_como para cubrir las necesidades de combustible de las representaciones diplomáticas</argument></argset>. </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="1.4.1.1.2.2.2.1.0.0" sentencenodepath="1">Al cumplirse hoy la segunda jornada de la protesta , que durará toda la semana , no hubo ninguna actividad en los puertos de Bahía_Blanca y Rosario , las principales vías de <argset><head>exportación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de granos y cereales argentinos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

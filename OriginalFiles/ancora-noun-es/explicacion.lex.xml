@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="explicación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="explicar" originlink="verb.explicar.1" wordnetsynset="16:05050688">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="12" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="8" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a22-1.tbf.xml" nodepath="4.2.3.1.2.3.1.1.0" sentencenodepath="4">Ø Entendí que la blasfemia acechaba al belén , y Ø opté entonces por sacarles tarjeta roja a mis hijos y declarar cerrado el caso con <argset><specifier>la</specifier><head>explicación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de un descuido de fábrica</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">Estas interesantes y peculiares propiedades electrónicas del TCNQ-TTF encuentran <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>explicación </head></argset>en una situación electrónica y cristalina que cumple los necesarios requisitos . </example>
+        <example file="3LB-CAST/t1-6.tbf.xml" nodepath="0.0.1.1" sentencenodepath="0"><argset><specifier>La</specifier><reference_modifiers>única</reference_modifiers><head>explicación </head><reference_modifiers>posible</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su degradación</argument></argset>era el rencor de que el esposo se hubiera sacrificado a conciencia por una montonera de negros , como ella decía , cuando el único sacrificio justo hubiera sido el de sobrevivir para ella . </example>
+        <example file="3LB-CAST/t6-2.tbf.xml" nodepath="4.4.3.2.1.1.1.0" sentencenodepath="4">Ø Permaneció así mucho tiempo , dejándose aniquilar plácidamente por el inesperado preludio de su propia decrepitud , negándose ya a encontrar <argset><specifier>cualquier</specifier><head>explicación </head><reference_modifiers>amable</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a lo que no era otra_cosa_que reúma , o artrosis , el simple cansancio de unos huesos que enfilaban la recta de la vejez , el único destino cierto</argument></argset>. </example>
+        <example file="CESS-CAST-A/14013_20000120.tbf.xml" nodepath="8.0.3.0.0" sentencenodepath="8">En su reunión con senadores , Madrazo ofreció <argset><head>explicaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre el operativo y el apoyo que recibió por_parte_de los ministerios de Gobernación y Defensa</argument></argset>, además Ø informó que durante la operación se cumplieron los acuerdos bilaterales y convenios internacionales en_materia_de combate al narcotráfico . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="8.0.1.3.0.0" sentencenodepath="8">" Ø No tengo <argset><head>explicación </head></argset>; simplemente Ø no estoy haciendo bien las cosas y Ø me siento frustrado " , dijo el joven lanzador , a quien , con toda seguridad , le tocará irse a las ligas menores para mejorar su rendimiento . </example>
+        <example file="CESS-CAST-AA/21460_20000526.tbf.xml" nodepath="1.2.4.0.0" sentencenodepath="1">Ø Añadió que , ante esta decisión , tanto el ministro de Fomento y diputado por Asturias , Francisco_Alvarez-Cascos , como el presidente del PP en el Principado , Ovidio_Sánchez , deben dar <argset><head>explicaciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de " por qué se erigieron en los principales valedores " de la OPA presentada por Unión_Fenosa sobre HC</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8105_20000310.tbf.xml" nodepath="23.2.5.0.0" sentencenodepath="23">Lo que no se sabe es si Ø también le ofrece <argset><head argument="arg1" thematicrole="pat">explicaciones </head></argset>al_respecto al ministro de Economía , Rodrigo_Rato , con quien Ø coincide en la clase turista de un vuelo a Asturias . </example>
+        <example file="CESS-CAST-P/139_20010103.tbf.xml" nodepath="6.3.1.1" sentencenodepath="6">Si_bien la demanda de las familias en productos de ocio y entretenimiento mantuvo un comportamiento altamente dinámico , el fuerte auge de la reproducción ilegal ( a_causa_de la difusión del disco compacto grabable ) durante el último ejercicio constituyó <argset><specifier>la</specifier><reference_modifiers>principal</reference_modifiers><head>explicación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a este estancamiento</argument></argset>. </example>
+        <example file="CESS-CAST-P/13_19990601.tbf.xml" nodepath="8.3.2.1.1.1.1.0.3.1.0.1" sentencenodepath="8">Contra los tópicos nacionales sólo cabe la paciencia , y el ridículo de los que los utilizan como <argset><reference_modifiers>facilonga</reference_modifiers><head>explicación </head></argset>. </example>
+        <example file="CESS-CAST-P/18_19990602_c.tbf.xml" nodepath="1.2.3.1.1.1.0.0.1.1.4.4.1.0.0" sentencenodepath="1">Ø Compré la entrada y Ø fui recorriendo estands y palacios hasta llegar al de una conocida marca alemana de automóviles que me denegó el acceso sin <argset><head>explicación </head><reference_modifiers>alguna</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="24.4.1.0.1" sentencenodepath="24">Algunos vecinos ya revelaron esos problemas como <argset><reference_modifiers>posible</reference_modifiers><head>explicación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del suceso</argument></argset>. </example>
+        <example file="CESS-CAST-P/24_19981201.tbf.xml" nodepath="9.0.0.0" sentencenodepath="9"><argset><head>Explicaciones </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">oficiales</argument></argset>. </example>
+        <example file="CESS-CAST-P/34_20000302.tbf.xml" nodepath="10.2.0.0" sentencenodepath="10">El testigo ofreció <argset><head>explicaciones </head><reference_modifiers>confusas</reference_modifiers><reference_modifiers>en las que confirmó detalles declarados por Felipe_Bayo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/45_20000802.tbf.xml" nodepath="2.2.0.4.0.0" sentencenodepath="2">Cuando el vehículo sobrepasó la capital granadina , las dos turistas comenzaron a inquietarse y , cuando Ø pidieron <argset><head argument="arg1" thematicrole="pat">explicaciones </head></argset>al conductor , éste , como respuesta , intentó tocarles las piernas . </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="6.2.1.1.1" sentencenodepath="6">El portavoz del Gobierno vasco , Josu_Jon_Imaz , que ha solicitado ya dos veces a Mayor_Oreja que Ø aclare las circunstancias que rodearon el asesinato de Buesa , concluyó que <argset><specifier>las</specifier><reference_modifiers>parcas</reference_modifiers><head>explicaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ministro</argument></argset>confirman que " se ocultó " información . </example>
+        <example file="CESS-CAST-P/68_19991201.tbf.xml" nodepath="4.0.3.1.0" sentencenodepath="4">El presidente de la UCE en Asturias , Dacio_Alonso , consideró " burda " <argset><specifier>esa</specifier><head>explicación </head></argset>y Ø criticó a la Fiscalía_General_del_Estado por no haber actuado de_oficio cuando se formularon las primeras denuncias del caso hace dos semanas . </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="4.0.0.0" sentencenodepath="4"><argset><head>EXPLICACIONES </head></argset>. </example>
+        <example file="CESS-CAST-P/96_20020302.tbf.xml" nodepath="1.2.1.1.0.0" sentencenodepath="1">Ø Creen que pedir <argset><head>explicaciones </head></argset>a Carlos_Armengol es desafiar al ayuntamiento . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

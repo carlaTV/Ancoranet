@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="renovación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="renovar" originlink="verb.renovar.1" wordnetsynset="16:00811153+16:00170245">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12000_20000415.tbf.xml" nodepath="4.2.0.1.3.1.1.1" sentencenodepath="4">" Nada de eso " , agregó Morales_Bruque , quien reiteró que <argset><specifier>la</specifier>no <head>renovación </head><reference_modifiers>en este caso concreto</reference_modifiers></argset>está motivada porque el alcalde de Mérida , a quien se le adjudicó la frecuencia en 1989 , cuando Ø aún no era regidor municipal , no ha explotado directamente la emisora de la que hace_uso la frecuencia que se le concedió , tal_y_como estipula la ley . </example>
+        <example file="CESS-CAST-A/1329_20000703.tbf.xml" nodepath="3.1.2.3.1.2.0.1.0.1.1.0.0" sentencenodepath="3">Castells ha diseñado el espacio electoral de la siguiente forma : " En un extremo se encuentra un continuismo puro con voluntad de <argset><head>renovación </head></argset>pero insuficiente y poco creíble como tal . Y en el otro extremo , existe un puzzle de personajes y grupos que aparentan un equipo pero que no son más_que un conjunto de individualidades " . </example>
+        <example file="CESS-CAST-A/1329_20000703.tbf.xml" nodepath="4.0.1.0.1.1.1.0.0" sentencenodepath="4">" Las propuestas de <argset><head>renovación </head></argset>de esta otra parte del extremo coinciden con las_nuestras , pero sus actitudes y formas son inflexibles y excesivamente radicales " , ha añadido Castells . </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="18.4.1.1.1.1.1.2.1.1.1.0.0" sentencenodepath="18">" La aportación de Sasha ha sido muy positiva , pero Ø creo que se ha cumplido el ciclo previsto cuando Ø fichó " , indicó , por su parte , García_Reneses para explicar la decisión de no hacerle ninguna oferta de <argset><head>renovación </head></argset>. </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="20.2.2.1.1.1.2.1.0" sentencenodepath="20">Aíto comentó que le ha costado mucho dar este paso - - " Ø son decisiones muy difíciles y Ø no soy insensible como muchos se creen " - - y Ø mostró su deseo de cerrar cuanto_antes <argset><specifier>la</specifier><head>renovación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Roger_Esteller , uno de los jugadores con los que el club negocia un nuevo contrato , junto_al estadounidense Derrick_Alston</argument></argset>. </example>
+        <example file="CESS-CAST-P/130_19990701.tbf.xml" nodepath="6.2.0.1.1.1.2.1.0.2.1.1.1.3.1.0" sentencenodepath="6">El grupo radiofónico del todavía editor y presentador del informativo del mediodía de TV-3 fue uno de los grandes beneficiados del polémico reparto de las 33 licencias ( 21 nuevas y <argset><specifier>12</specifier><head>renovaciones </head></argset>) efectuado a_principios_del pasado mes_de_mayo por el Consell_Executiu_de_la_Generalitat . </example>
+        <example file="CESS-CAST-P/130_19990701.tbf.xml" nodepath="7.4.2.1.0" sentencenodepath="7">La cadena catalana , capitaneada por el empresario gerundense Bartomeu_Espadalé - - próximo a Convergència - - y Puigbó , consiguió entonces , bien directamente o_bien a_través_de empresas participadas , siete nuevas explotaciones de frecuencias ( en Figueres , Gandesa , Tortosa , El_Vendrell , Vic , Vielha y Pont_de_Suert ) y <argset><specifier>una</specifier><head>renovación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">( en Palamós )</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="47.1.2.1.0" sentencenodepath="47">¿ Se puede esperar <argset><specifier>una</specifier><head>renovación </head></argset>o sólo continuidad ? - - . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="48.0.1.1.1" sentencenodepath="48">Habrá <argset><specifier>una</specifier><reference_modifiers>importante</reference_modifiers><head>renovación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de personas</argument></argset>y también se reiterará la línea moderada que Ø hemos imprimido desde 1996 . </example>
+        <example file="CESS-CAST-P/57_20000601_a.tbf.xml" nodepath="2.3.1.3.1.2.1.0.1.4.1.1.1.1.1.1.0" sentencenodepath="2">Maragall argumentó aquella abstención en que Ø era un gesto de advertencia al Govern , al que Ø acusaba de haber incumplido sus compromisos sobre <argset><specifier>la</specifier><head>renovación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en los cargos de la Corporació_Catalana_de_Ràdio_i_Televisió ( CCRTV )</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="renovar" originlink="verb.renovar.1" wordnetsynset="16:00811153+16:00170245">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="9.2.2.5.1.3.1.1.1.0.1.1.0.0" sentencenodepath="9">La producción de café colombiano está calculada entre 9,5 y 10 millones de sacas de 60 kilos , en el año cafetero octubre_de_1999 a septiembre_de_2000 , y en cerca de 11,5 millones de sacas en el actual año civil , porque para el último trimestre de 2000 se espera un importante aumento en la producción , resultado del plan de <argset><head>renovación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de cultivos</argument></argset>iniciado hace varios años . </example>
+        <example file="CESS-CAST-A/18351_20000724.tbf.xml" nodepath="1.3.8.2.0.2.2.0.1.1" sentencenodepath="1">Jaime_Blanco afirmó en rueda de prensa que con la elección de Zapatero como nuevo secretario general del PSOE " se ha abierto en el partido un espacio de convivencia en el que se deben acabar las guerras de familia " , lo que a su juicio , junto_con <argset><specifier>la</specifier>" <head>renovación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los renovadores</argument>" </argset>y el " cambio generacional " , son las razones por las que se ha elegido a este candidato . </example>
+        <example file="CESS-CAST-P/160_20011002.tbf.xml" nodepath="12.3.1.1.0.1.1.0" sentencenodepath="12">Kallon , de 21 años , y Ventola , de 23 , son hoy el exponente de <argset><specifier>la</specifier><head>renovación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Cúper</argument></argset>y de la confianza que muestra un equipo que ha debido asimilar , otra vez , 17 nuevos fichajes , entre ellos el portugués Conceiçao ( Parma ) , los argentinos Guglielminpietro ( Milan ) y Vivas ( Arsenal ) , los turcos Emre y Okan ( Galatasaray ) , los italianos Toldo ( Fiorentina ) y Materazzi ( Perugia ) , el brasileño Adriano ( Flamengo ) o el propio Kallon ( Vicenza ) . </example>
+        <example file="CESS-CAST-P/86_20000401.tbf.xml" nodepath="0.3.1.1.1.0.1.1.1.0" sentencenodepath="0">Un problema con el diseño no puede ser el responsable del retraso en <argset><specifier>la</specifier><head>renovación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los paneles informativos con la nueva distribución de las terminales del aeropuerto de El_Prat</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="renovar" originlink="verb.renovar.1" wordnetsynset="16:00170245+16:00172698">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="6.0.4.1.1.1.1.0" sentencenodepath="6">En este contexto , Ø vio " difíciles " las negociaciones para <argset><specifier>la</specifier><head>renovación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Concierto_Económico</argument></argset>, que se deben abordar antes de que acabe el próximo año , y Ø dijo que " todos los gestos y pasos " del PP evidencian una " nula voluntad de transferir las materias pendientes recogidas en el Estatuto " de Gernika . </example>
+        <example file="CESS-CAST-A/18351_20000724.tbf.xml" nodepath="6.2.2.6.0.1.1.1.1" sentencenodepath="6">Además Ø consideró que era " absolutamente necesario " que los ciudadanos visualizaran dicho cambio y Ø recordó que tras las elecciones generales , Ø ya se mostró partidario de <argset><specifier>la</specifier>" <head>renovación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los renovadores</argument>" <reference_modifiers>, que , a su juicio , es lo que se ha producido en el congreso</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

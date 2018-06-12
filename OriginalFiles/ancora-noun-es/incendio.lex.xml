@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="incendio" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="incendiar" originlink="verb.incendiar.1" wordnetsynset="16:05445176">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="6" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="17" postype="article" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="numeral" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="11" type="S"/>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-3.tbf.xml" nodepath="5.2.3.3.2.0.1.0" sentencenodepath="5">Alejandro_Alonso indicó que López_de_Coca pretende " echar un_poco leña y volver a recordar otra vez <argset><specifier>los</specifier><head>incendios </head></argset>y el lino que se quedaba en la carretera tirado " , mientras_que " mucha gente nos habíamos propuesto que el desgraciado asunto del lino pasara a la historia " . </example>
+        <example file="CESS-CAST-AA/3224_20000304.tbf.xml" nodepath="0.3.2.0.2.1.1.0" sentencenodepath="0">La Policía_Nacional ha detenido a trece jóvenes de entre 18 y 25 años , relacionados con grupos de ultraderecha de Italia y Croacia , como presuntos autores de <argset><specifier>los</specifier><head>incendios </head><reference_modifiers>provocados la madrugada de ayer a distintas sedes locales del Partido_Popular , PSOE y Esquerra_Unida</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/3224_20000304.tbf.xml" nodepath="2.2.2.1.1.1.0.1.0" sentencenodepath="2">El Jefe_Superior_de_Policía de la comunidad valenciana , Segundo_Martinez , descartó que exista alguna relación entre <argset><specifier>los</specifier><head>incendios </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Valencia</argument></argset>y los artefactos que estallaron hoy en la sede del PSC catalán y del Instituto_Nacional_de_Estadística , de Barcelona . </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="3.2.1.1.1" sentencenodepath="3">Cinco vehículos de bomberos intentan apagar <argset><specifier>el</specifier><reference_modifiers>gran</reference_modifiers><head>incendio </head><reference_modifiers>que se extiende por el edificio de la televisión estatal , controlada hasta ahora por las autoridades serbias</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>El</specifier><head>incendio </head></argset>empezó tras irrumpir los manifestantes en_masa . </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="9.2.2.1.0" sentencenodepath="9">La funcionaria lamentó el asesinato , la semana pasada , de un conductor venezolano y <argset><specifier>el</specifier><head>incendio </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su vehículo</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en territorio colombiano</argument></argset>en un hecho que fue atribuido a rebeldes del Ejército_de_Liberación_Nacional ( ELN ) . </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="2.2.3.1.1.1.1.0" sentencenodepath="2">Los actos vandálicos en la vía pública se mantienen con un ligero incremento y Ø ya representan la mitad de <argset><specifier>los</specifier><head>incendios </head><reference_modifiers>que se producen en la ciudad</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="3.0.2.1.1.1.1.0" sentencenodepath="3">Tanta es la incidencia de <argset><specifier>los</specifier><head>incendios </head></argset>en la vía pública que , desglosando los servicios por día de la semana , los sábados son los días que acumulan más salidas de los bomberos . </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">" <argset><specifier>Los</specifier><head>incendios </head><reference_modifiers>provocados en contenedores , coches y motos</reference_modifiers></argset>se producen mayoritariamente las noches del fin_de_semana " , explica el jefe de los bomberos , Jordi_Murtra . </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="6.3.1.0.0" sentencenodepath="6">En el 2000 ardieron 1.078 contenedores y 493 vehículos en <argset><head>incendios </head><reference_modifiers>provocados</reference_modifiers><reference_modifiers>que , a_juicio_de Murtra , ya no pueden ser calificados de simples gamberradas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="7.0.2.1.0" sentencenodepath="7">" Además de cuantiosos daños económicos , <argset><specifier>estos</specifier><head>incendios </head></argset>crean mucha alarma y situaciones de riesgo " , apunta el jefe de bomberos . </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="9.3.1.0" sentencenodepath="9">En el mismo periodo se declararon <argset><specifier>1.299</specifier><head>incendios </head></argset>en viviendas . </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="13.2.1.1.1.1.1.1.1.1.1.0" sentencenodepath="13">Murtra destaca que en el 95% de los servicios <argset>, tanto <head>incendios </head>como salvamentos , </argset>los bomberos llegaron al lugar antes de 10 minutos . </example>
+        <example file="CESS-CAST-P/131_20010502.tbf.xml" nodepath="0.3.3.0.1.1.0.1.1.0.0" sentencenodepath="0">El diputado Joan_Boada ( IC-V ) ha pedido a la Conselleria_de_Justícia que Ø instale medidas de seguridad contra <argset><head>incendios </head></argset>en el edificio de los juzgados de Mollet , tras el reciente fuego que destruyó las oficinas de una empresa de la primera planta . </example>
+        <example file="CESS-CAST-P/20_19990802.tbf.xml" nodepath="14.3.5.1.1.0" sentencenodepath="14">Algunas botellas estallaron en el interior , aunque Ø no lograron provocar <argset><specifier>ningún</specifier><head>incendio </head></argset>. </example>
+        <example file="CESS-CAST-P/20_19991202.tbf.xml" nodepath="26.2.1.2.2.1.1.1.1.1.2.0.1.1.1.2.4.1.2.1.1.3.1.1.2.0.4.2.1.0" sentencenodepath="26">Este es el monumento al futuro del sexto ganador del Tour : dejarnos un país tan limpio en su gobierno como el cielo claro después de las tormentas mediterráneas , que inundan nuestras obras públicas sin encontrar nunca ni un solo responsable político de tanta mala gestión , Ø ya sea la plaza de Cerdà socialista o <argset><specifier>los</specifier><head>incendios </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">forestales</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">de la Generalitat</argument></argset>. </example>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="26.3.0.1.1.0.0" sentencenodepath="26">En algunos municipios costeros , los rayos produjeron conatos de <argset><head>incendio </head></argset>que la propia lluvia se encargó de extinguir . </example>
+        <example file="CESS-CAST-P/40_20020502.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>UN</specifier><head>INCENDIO </head></argset>se desató el martes por la noche cuando un grupo de presos quemó sus colchones para protestar contra los guardias de la prisión , tras un incidente con un recluso que había intentado suicidarse . </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>El</specifier><head>incendio </head><reference_modifiers>declarado el sábado en la isla de La_Palma , en Canarias ,</reference_modifiers></argset>quedó ayer totalmente controlado después de haber afectado a unas 5.000 hectáreas de pino canario y cultivos , lo que supone un 7% del total insular y un porcentaje muy superior de las tierras con vegetación . </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="10.3.1.1.1.1.1.2" sentencenodepath="10">La superficie afectada supera ampliamente las 3.000 hectáreas dañadas por <argset><specifier>el</specifier><reference_modifiers>último</reference_modifiers><reference_modifiers>gran</reference_modifiers><head>incendio </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la isla</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, en 1994</argument></argset>. </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="11.0.1.0" sentencenodepath="11"><argset><specifier>Un</specifier><head>incendio </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Maçanet_de_la_Selva</argument></argset>obliga al desalojo de 40 chalets . </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="12.1.1.0" sentencenodepath="12">En Catalunya , <argset><specifier>un</specifier><head>incendio </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la zona boscosa del Turó_de_la_Dona_Morta , en Maçanet_de_la_Selva ,</argument></argset>obligó ayer a evacuar una cuarentena de viviendas de la urbanización Mas_Altaba . </example>
+        <example file="CESS-CAST-P/54_20010802_a.tbf.xml" nodepath="0.3.0.1.1.1.1" sentencenodepath="0">El Parque_Natural de Cazorla , Segura y Las_Villas , en la provincia de Jaén , sufrió entre el mediodía del martes y la tarde de ayer uno de <argset><specifier>los</specifier><reference_modifiers>mayores</reference_modifiers><head>incendios </head></argset>que ha afectado a la reserva desde 1986 , en el que han llegado a trabajar cerca de un millar de personas que aún continúan refrescando la zona . </example>
+        <example file="CESS-CAST-P/54_20010802_b.tbf.xml" nodepath="1.0.1.1" sentencenodepath="1"><argset><specifier>Un</specifier><reference_modifiers>virulento</reference_modifiers><head>incendio </head><reference_modifiers>registrado a última hora de ayer entre los municipios oscenses de Linás_de_Marcuello - - pedáneo de Loarre - - y Riglos</reference_modifiers></argset>obligó a evacuar a varias decenas de vecinos , que han pasado la noche en el polideportivo de Ayerbe y en casas particulares de Loarre . </example>
+        <example file="CESS-CAST-P/54_20010802_b.tbf.xml" nodepath="3.0.1.1" sentencenodepath="3"><argset><specifier>Otro</specifier><reference_modifiers>gran</reference_modifiers><head>incendio </head></argset>arrasó 2.130 hectáreas desde el martes en Los_Arribes_del_Duero ( Salamanca ) . </example>
+        <example file="CESS-CAST-P/54_20010802_b.tbf.xml" nodepath="5.1.1.0" sentencenodepath="5">Al_parecer , <argset><specifier>el</specifier><head>incendio </head></argset>pudo deberse a la chispa de un camión y que se propagó debido_al fuerte viento . </example>
+        <example file="CESS-CAST-P/54_20010802_b.tbf.xml" nodepath="8.1.1.0" sentencenodepath="8">Por_otro_lado , <argset><specifier>dos</specifier><head>incendios </head><reference_modifiers>registrados en Viana_do_Bolo ( Orense )</reference_modifiers></argset>seguían anoche activos , aunque controlados . </example>
+        <example file="CESS-CAST-P/69_19991001.tbf.xml" nodepath="14.2.2.1.1.0" sentencenodepath="14">En los últimos meses Ø han atacado dos veces con cócteles_molotov la casa okupada en la calle de Arimon y un joven fue detenido a_raíz_de <argset><specifier>un</specifier><head>incendio </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el inmueble</argument><reference_modifiers>mientras los squatters dormían</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/6_20010702.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">La peste porcina , <argset><specifier>los</specifier><head>incendios </head></argset>o el malestar por la aprobación del trasvase del Ebro son problemas graves que el Govern tiene ahora mismo encima de la mesa . </example>
+        <example file="CESS-CAST-P/76_20010103.tbf.xml" nodepath="0.4.1.1.1.1.0.1.1.1.1.0" sentencenodepath="0">El pueblo holandés de Volendam se encontraba ayer bajo los efectos del shock producido por <argset><specifier>el</specifier><head>incendio </head><reference_modifiers>que costó la vida a nueve jóvenes que celebraban la Nochevieja en un bar</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/76_20010103.tbf.xml" nodepath="2.2.2.1.1.1.1.1.1.0.0" sentencenodepath="2">La policía espera concluir esta semana su investigación sobre las causas del <argset><head>incendio </head></argset>. </example>
+        <example file="CESS-CAST-P/76_20010103.tbf.xml" nodepath="3.4.1.1.1.0.1.1.0.0" sentencenodepath="3">El bar afectado seguramente no cumplió las normativas de prevención de <argset><head>incendios </head></argset>. </example>
+        <example file="CESS-CAST-P/76_20010103.tbf.xml" nodepath="4.2.1.1.1.1.1.1.0" sentencenodepath="4">Escolares del colegio Don_Bosco_de_Volendam recuerdan a los dos alumnos fallecidos en <argset><specifier>el</specifier><head>incendio </head></argset>. </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="19.5.1.0" sentencenodepath="19">A los detenidos también se les imputan <argset><specifier>algunos</specifier><head>incendios </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de coches estacionados en la vía pública</argument></argset>. </example>
+        <example file="CESS-CAST-P/86_19990702.tbf.xml" nodepath="1.0.1.4.1.1.0" sentencenodepath="1">Los seis niños y una mujer que el miércoles por la noche resultaron intoxicados en <argset><specifier>un</specifier><head>incendio </head><reference_modifiers>declarado en un centro de acogida de mujeres maltratadas de Gràcia</reference_modifiers></argset>fueron dados de_alta ayer después de pasar varias horas ingresados en observación . </example>
+        <example file="CESS-CAST-P/91_20010901.tbf.xml" nodepath="0.4.1.0.3.3.1.0.2.1.1.0" sentencenodepath="0">La juez dejó en libertad el Jueves por la noche al vecino de Calonge Xavier_C.R. , detenido el Martes como presunto autor de <argset><specifier>cuatro</specifier><head>incendios </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la zona</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

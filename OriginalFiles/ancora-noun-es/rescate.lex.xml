@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="rescate" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="rescatar" originlink="verb.rescatar.1" wordnetsynset="16:09560583">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="22.4.1.1.1.0" sentencenodepath="22">Moscú ha firmado un contrato con la filial noruega de la empresa norteamericana Halliburton para intentar <argset><specifier>el</specifier><head>rescate </head></argset>, aunque altos mandos de la Armada creen que en_todo_caso sólo podrá recuperarse entre el 20 y el 30_por_ciento de los cuerpos . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="24.0.7.2.1.1.1.0.0" sentencenodepath="24">" Puesto_que Dios , el Destino y la Naturaleza han decidido la suerte de esos marinos , ¿ no será una blasfemia llevar adelante la operación de <argset><head>rescate </head></argset>? " , Ø manifestó . </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="17.3.1.1.1.1.0.0" sentencenodepath="17">Mijaíl_Motsak , jefe del Estado_Mayor_de_la_Flota_del_Norte , dijo a la prensa que la operación de <argset><head>rescate </head></argset>seguirá esta noche si Ø no se ve paralizada por una nueva tormenta traída por el ciclón que azota la zona del naufragio . </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="18.2.1.3.3.1.1.3.1.1.1.1.2.2.1.1.0" sentencenodepath="18">Al caer la noche en la zona había una tempestad de fuerza 4 , con vientos de 15 metros por segundo y olas de 5 metros , resistida sin problemas por la plataforma nodriza " Regalia " , propiedad de la empresa Halliburton ( EEUU ) contratada por Moscú para <argset><specifier>el</specifier><head>rescate </head></argset>. </example>
+        <example file="CESS-CAST-AA/2519_20000203.tbf.xml" nodepath="4.4.1.1.1.1.1.1.0.0.0" sentencenodepath="4">Cuba envió varias brigadas de socorristas a Venezuela para colaborar en las labores de <argset><head>rescate </head>y atención a los miles de damnificados que dejaron las catastróficas lluvias caídas en diciembre </argset>. </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="0.0.3.1.0" sentencenodepath="0">Rusia concluyó hoy <argset><specifier>el</specifier><head>rescate </head></argset>en el trágico submarino " Kursk " y Ø dejó en el fondo del mar los cuerpos de 106 de sus tripulantes , dos reactores nucleares y el misterio de por qué naufragó la joya de la Armada . </example>
+        <example file="CESS-CAST-P/119_20010401.tbf.xml" nodepath="7.0.1.1.1.0.0" sentencenodepath="7">Un grupo de <argset><head>rescate </head></argset>de Benasque se encargó de las operaciones , provistos de sondas y acompañados de perros adiestrados . </example>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="2.2.1.1.1.0" sentencenodepath="2">El desbordamiento del Júcar obligó a efectuar <argset><specifier>varios</specifier><head>rescates </head></argset>en Albacete . </example>
+        <example file="CESS-CAST-P/65_20000602.tbf.xml" nodepath="14.2.2.2.1.0" sentencenodepath="14">El secuestrador pidió hablar con su psiquiatra y un minibús para conducirlo al aeropuerto junto_a un grupo de niños , un avión para llevarlo a Libia y <argset><specifier>un</specifier><head>rescate </head><reference_modifiers>de 1,5 millones de euros ( 250 millones de pesetas )</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/65_20000602.tbf.xml" nodepath="21.2.0.1.1.1.0" sentencenodepath="21">Bejaoui renunció a pedir <argset><specifier>un</specifier><head>rescate </head></argset>y a exigir que un grupo de niños le acompañara al aeropuerto . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="rescatar" originlink="verb.rescatar.1" wordnetsynset="16:00060540">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="7" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-3.tbf.xml" nodepath="4.3.1.1.1.1.1" sentencenodepath="4">El candidato opositor Alejandro_Toledo continuó hoy su campaña por <argset><specifier>el</specifier>" <head>rescate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la democracia</argument>" </argset>con un multitudinario mitin en la ciudad de Cañete , 148 kilómetros al sur de Lima , ante unas cinco_mil personas que exigían nuevas elecciones . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="7.0.1.1.1.3.0.2.0.1.1.2.1.1.1.0" sentencenodepath="7">Tras la tragedia , que provocó preocupación internacional por el retraso de las autoridades rusas en intentar <argset><specifier>el</specifier><head>rescate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los tripulantes</argument></argset>y por el secretismo inicial , Moscú proclamó que un submarino británico o norteamericano chocó con el " Kursk " . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="21.3.1.1.0" sentencenodepath="21">Tras las inmersiones del batiscafo " Mir " , los responsables de la Armada dijeron que <argset><specifier>el</specifier><head>rescate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los cadáveres de los tripulantes</argument></argset>será " muy complicado " . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="23.0.3.0.1.1.1.1.1.0.0" sentencenodepath="23">El comandante de la Armada rusa , almirante Vladímir_Kuroyédov , se mostró contrario a la operación de <argset><head>rescate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los cadáveres</argument></argset>y Ø abogó más_bien por el intento de izar el " Kursk " entero . </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="0.0.0.1.1.1.1.1.0" sentencenodepath="0">Los buzos ocupados en <argset><specifier>el</specifier><head>rescate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los marinos muertos en el naufragado submarino nuclear " Kursk "</argument></argset>rescataron hoy los primeros tres cadáveres de tripulantes , informó la Armada rusa . </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="9.2.1.1.1.1.1.3.1.1.0" sentencenodepath="9">Esta cámara fue la primera en la que los submarinistas , que participan en <argset><specifier>el</specifier><head>rescate </head></argset>a 108 metros de profundidad en el fondo del mar , abrieron la primera de las siete " ventanas " que Ø tienen previsto perforar en el casco del sumergible naufragado . </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="3.0.3.1.1.1.1.0.0" sentencenodepath="3">" Ø Parece que la operación de <argset><head>rescate </head></argset>toca a su fin " , declaró el almirante Vladímir_Kuroyédov , comandante en jefe de la Armada , poco después de que zarpara de vuelta rumbo a Noruega el buque-plataforma " Regalia " , contratada para los trabajos . </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="7.3.1.3.1.2.2.1.0" sentencenodepath="7">Desde entonces , el trabajo de la institución consiste en " revitalizar las más diversas disciplinas de la cultura regional mediante la celebración de congresos y seminarios , la publicación de libros y <argset><specifier>el</specifier><head>rescate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de joyas perdidas de nuestra bibliografía</argument></argset>, la edición de memorias y boletines , y la atención meticulosa a todas aquellas consultas que se nos hacen desde los pueblos y ciudades de Extremadura " . </example>
+        <example file="CESS-CAST-P/124_20000102.tbf.xml" nodepath="4.0.2.1.0" sentencenodepath="4">La cercanía popular de Cavall_de_foc - - con menciones a La_dama_d'Aragó y Com_un_mirall - - y <argset><specifier>el</specifier><head>rescate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la cosecha del memorable Anells_d'aigua - - Dansa_de_la_primavera y Bir_demet_yasemen - -</argument></argset>abrillantaron un repertorio quizá algo afectado por un superávit de mística y autocomplacencia espiritual . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="rescatar" originlink="verb.rescatar.1" wordnetsynset="16:00060540">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="6.2.4.2.1.1.0" sentencenodepath="6">Los servicios de emergencia recibieron 81 llamadas de auxilio y los bomberos se emplearon a_fondo en achicar agua y en <argset><specifier>el</specifier><head>rescate </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 10 personas que quedaron atrapadas dentro de sus vehículos a_causa_de la tromba</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

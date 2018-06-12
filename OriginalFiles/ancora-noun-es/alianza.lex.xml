@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="alianza" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="aliar" originlink="verb.aliar.1" wordnetsynset="16:00700029+16:05075069">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" type="sn"/>
+        <constituent frequency="3" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="cot">
+        <constituent frequency="7" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="durante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" postype="indefinite" type="determiner"/>
+        <constituent frequency="11" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="demonstrative" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="8.6.3.2.5.4.1.0" sentencenodepath="8">Según analistas locales , nunca antes el PRI había sentido el fantasma de la oposición rondando la residencia de Los_Pinos , aunque hay quienes aseguran que Fox sólo podrá vencer a Labastida , si Ø logra <argset><specifier>una</specifier><head>alianza </head><reference_modifiers>sólida</reference_modifiers><argument argument="arg2" function="cn" thematicrole="cot" type="sp">con el PRD</argument></argset>. </example>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="9.4.4.1.0" sentencenodepath="9">Pero Cárdenas , candidato del PRD , ha reiterado esta semana que Ø no hará <argset><specifier>ninguna</specifier><head>alianza </head></argset>con Fox , con quien Ø ha intercambiado frases duras en los últimos días . </example>
+        <example file="CESS-CAST-A/11977_20000215.tbf.xml" nodepath="0.0.3.4.1.2.1.1.1.0" sentencenodepath="0">El vicepresidente segundo y ministro de Economía_y_Hacienda , Rodrigo_Rato , reconoció hoy que el Gobierno conocía " hace tiempo " los planes del BBVA y Telefónica de firmar <argset><specifier>una</specifier><head>alianza </head><reference_modifiers>estratégica</reference_modifiers></argset>, pero Ø aseguró que Ø no impulsó la operación . </example>
+        <example file="CESS-CAST-A/11977_20000215.tbf.xml" nodepath="4.2.3.1.2.1.1.1.0.1.0" sentencenodepath="4">Rato anunció que el Servicio_de_Defensa_de_la_Competencia , dependiente del Ministerio_de_Economía_y_Hacienda , ha abierto un expediente informativo para determinar si <argset><specifier>la</specifier><head>alianza </head><argument argument="arg1" function="cn" thematicrole="tem" type="sn">BBVA-Telefónica</argument></argset>cumple las normas del libre mercado y Ø no perjudica a los consumidores , especialmente en los sectores del cable e internet . </example>
+        <example file="CESS-CAST-A/11977_20000215.tbf.xml" nodepath="5.3.1.1.1.2.1.0.1.4.1.1.0" sentencenodepath="5">A preguntas de los periodistas , Rato respondió a unas declaraciones efectuadas ayer por González , quien afirmó en Magaz_del_Pisuerga ( Palencia ) que <argset><specifier>la</specifier><head>alianza </head><argument argument="arg1" function="cn" thematicrole="tem" type="sn">BBVA-Telefónica</argument></argset>" está diseñada por el poder político para llevarla adelante " . </example>
+        <example file="CESS-CAST-A/12375_20000119.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">En esos comicios venció <argset><specifier>la</specifier><head>alianza </head><argument argument="arg1" function="cn" thematicrole="tem" type="sn">SDP-HSLS</argument></argset>, con el 41_por_ciento de los votos , que ha anunciado la formación de un Gobierno de coalición postelectoral con otras cuatro fuerzas políticas , que cuentan con el 16_por_ciento de los sufragios y que han presentado en estas presidenciales la candidatura de Mesic . </example>
+        <example file="CESS-CAST-A/12469_20001216.tbf.xml" nodepath="7.0.3.1.0" sentencenodepath="7">De_Pury y Luxembourg habían anunciado en junio <argset><specifier>una</specifier><head>alianza </head><argument argument="argM" function="cn" thematicrole="adv" type="s.a">comercial</argument><argument argument="arg2" function="cn" thematicrole="cot" type="sp">con otros dos antiguos expertos de Sotheby's , Lucy_Mitchell_Innes y David_Nash , considerados como dos de los más importantes intermediarios de arte en Estados_Unidos</argument></argset>, pero la fusión obligaría a poner_fin a esa relación . </example>
+        <example file="CESS-CAST-A/14291_20000518.tbf.xml" nodepath="6.2.1.1.0" sentencenodepath="6">La estructura de Telia_Iberia fue creada por <argset><specifier>la</specifier><head>alianza </head><reference_modifiers>Unisource</reference_modifiers><reference_modifiers>, hoy disuelta , y anteriormente integrada por la holandesa KPN , la sueca Telia y la suiza Swisscom</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/1687_20000503.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">El fabricante de refrescos Coca-Cola y la empresa de internet American_Online han acordado <argset><specifier>una</specifier><head>alianza </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para el desarrollo de programas de comercialización de sus productos y marcas</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">durante varios años</argument></argset>. </example>
+        <example file="CESS-CAST-A/1687_20000503.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">En_virtud_de <argset><specifier>esta</specifier><head>alianza </head></argset>, Coca-Cola pondrá a disposición de sus clientes a_través_de sus canales de distribución en todo el mundo los servicios y productos de American_Online . </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">El directorio del " holding " eléctrico Enersis , participado mayoritariamente por Endesa_España , aseguró hoy que <argset><specifier>la</specifier><head>alianza </head><reference_modifiers>estratégica</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre la Sociedad_General_de_Aguas_de_Barcelona y Endesa_España</argument></argset>no es válida para Chile . </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="1.2.1.0.2.2.1.0.2.0.0" sentencenodepath="1">Enersis salió así al_paso de informaciones periodísticas que apuntaban a un pacto o <argset><head>alianza </head><reference_modifiers>estratégica</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre ambas</argument></argset>para adquirir y operar empresas de servicios públicos ( principalmente agua potable ) en España y en varios países latinoamericanos , incluido Chile . </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="5.0.1.2.1.1" sentencenodepath="5">Tras conocerse públicamente <argset><specifier>la</specifier><reference_modifiers>supuesta</reference_modifiers><head>alianza </head></argset>, el superintendente de Servicios_Sanitarios , Juan_Eduardo_Saldivia , informó el pasado Martes que Ø solicitará datos a Aguas_Barcelona respecto_de la existencia y contenido de dicho trato . </example>
+        <example file="CESS-CAST-AA/2916_20000705.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">El director general de Telefónica_Media , Eduardo_Alonso , dijo hoy que <argset><specifier>la</specifier><head>alianza </head><argument argument="arg2" function="cn" thematicrole="cot" type="sp">con la productora Endemol</argument></argset>ha beneficiado más a la empresa holandesa que a Telefónica . </example>
+        <example file="CESS-CAST-AA/2916_20000705.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">Alonso , que asistió a la tercera jornada del curso de verano " Media_,_el_negocio_del_futuro " que se celebra en El_Escorial hasta el próximo viernes , dijo que <argset><specifier>esta</specifier><head>alianza </head></argset>ha beneficiado más a " John_de_Mol y a los socios de Endemol " , productora del programa " Gran_Hermano " , absorbida por Telefónica a_través_de una operación de intercambio de acciones , que finalizará el próximo 24_de_julio . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="1.2.3.1.0" sentencenodepath="1">Stoltenberg , de 41 años , iniciará los contactos la próxima semana y mientras_tanto permanecerá en funciones <argset><specifier>la</specifier><head>alianza </head><reference_modifiers>dimisionaria</reference_modifiers><reference_modifiers>, compuesta por democristianos , centristas y liberales , que reúnen 42 de los 165 escaños del Storting ( Parlamento )</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="9.2.0.5.0.2.1.1.1" sentencenodepath="9">Peynado ha declarado que " Ø no tendría preferencia " entre <argset><specifier>una</specifier><reference_modifiers>posible</reference_modifiers><head>alianza </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del PRSC</argument><argument argument="arg2" function="cn" thematicrole="cot" type="sp">con el PRD o el PLD</argument></argset>para alcanzar el poder y que , ante la eventualidad de que su formación quede tercera en la primera vuelta , Ø puede asumir la decisión que tome Balaguer pero que él personalmente sería partidario de retirarse del proceso . </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="4.6.1.1.1.1.1.1.1.0.0" sentencenodepath="4">Gracias_a este carácter pactista Ø derrotó a Lennart_Johansson en París , en las elecciones de junio_de_1998 , con la ayuda de todo tipo de <argset><head>alianzas </head><reference_modifiers>, como la que firmó con Michel_Platini</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="6.2.2.2.1.0" sentencenodepath="6">Por eso , cuando aún no se había disipado la espuma de su descorche como rey , Ø ya estaba manos a la obra y Ø sellaba <argset><specifier>una</specifier><head>alianza </head><argument argument="arg2" function="cn" thematicrole="cot" type="sp">con los partidos democráticos y la élite progresista</argument></argset>con un único fin : salvar Marruecos . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>Esta</specifier><head>alianza </head></argset>diseña una transición política que se limita por ahora a instaurar valores democráticos en una sociedad que , a_causa_de la situación de pobreza y el analfabetismo que padecen el 70% de sus habitantes , aún no estaría preparada para una democracia auténtica . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="44.2.1.0.2.1.0" sentencenodepath="44">Es este necesario giro social el que concreta <argset><specifier>la</specifier><head>alianza </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre el rey y los partidos democráticos</argument></argset>. </example>
+        <example file="CESS-CAST-P/35_19991101.tbf.xml" nodepath="3.0.1.1.1.1.0" sentencenodepath="3">El fracaso de <argset><specifier>la</specifier><head>alianza </head><reference_modifiers>formada para hacerse con el gobierno de las tres capitales vascas y el control de las diputaciones forales</reference_modifiers></argset>ya desembocó en un agrio enfrentamiento entre el presidente de EA , Carlos_Garaikoetxea , y el secretario general , Inazio_Oliveri , que presentó su dimisión . </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="23.7.1.1.0" sentencenodepath="23">- - ¿ El PP vería reforzada su estrategia con <argset><specifier>una</specifier><head>alianza </head><argument argument="arg2" function="cn" thematicrole="cot" type="sp">con una fuerza como Unió</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">al estilo de la UPN en Navarra</argument></argset>? - - </example>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="11.3.1.1.1.1.1.1.0" sentencenodepath="11">Su propuesta se sostiene sobre dos pilares : mantener <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>alianza </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">parlamentaria</argument><argument argument="arg2" function="cn" thematicrole="cot" type="sp">con EH</argument></argset>para que la coalición aberzale refuerce su compromiso con las vías políticas y crear una mesa vasca de partidos que supere los foros de Ajuria_Enea y Lizarra . </example>
+        <example file="CESS-CAST-P/57_20000401_a.tbf.xml" nodepath="1.2.4.1.1.1.1.3.1.0.1.0.1" sentencenodepath="1">Manuel_Chaves aseguró que los resultados del 12-M en esta comunidad facultan a los socialistas a contar con un amplio margen de maniobra y respaldo social para decidir <argset><reference_modifiers>hipotéticas</reference_modifiers><head>alianzas </head></argset>o_bien optar por un Gobierno monocolor con acuerdos puntuales en el Parlamento . </example>
+        <example file="CESS-CAST-P/69_20010201_f.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>alianza </head></argset>prevé el desarrollo conjunto de servicios y aplicaciones de redes de telefonía_móvil . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

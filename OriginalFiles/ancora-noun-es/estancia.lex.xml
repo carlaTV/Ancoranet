@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="estancia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="estar" originlink="verb.estar.1" wordnetsynset="16:00682063+16:00683061">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="5" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="8.2.1.1.1.1.1.1.0" sentencenodepath="8">La nota informó de que el programa de <argset><specifier>la</specifier><head>estancia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Putin</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Madrid</argument></argset>incluirá una audiencia con el Rey y negociaciones con el presidente del Gobierno , José_María_Aznar , " sobre la problemática internacional y las relaciones bilaterales " . </example>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="1.1.1.2.1.0.0" sentencenodepath="1">Acompañados por la Reina_Paola , esta tercera jornada de <argset><head>estancia </head><reference_modifiers>oficial</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los Reyes_de_España</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Bélgica</argument></argset>se abrió con la inauguración de la exposición " Tapicerías_de_la_Corona_de_España " en la Catedral_de_San_Miguel_y_Santa_Gúdula , en Bruselas . </example>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="13.0.1.0" sentencenodepath="13"><argset><specifier>La</specifier><head>estancia </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Gante</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los Reyes</argument></argset>se cerró en la Diputación_Provincial , en donde el gobernador de la Provincia_de_Flandes_Oriental , Hermann_Balthazar , recordó la primera visita de Estado que hicieron Don_Juan_Carlos y Doña_Sofía a Bélgica en 1977 . </example>
+        <example file="CESS-CAST-A/14149_20001118.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Una ceremonia de repatriación de restos de tres militares estadounidenses y otra en_recuerdo_de las víctimas de las minas cerraron hoy , sábado , <argset><specifier>la</specifier><head>estancia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Bill_Clinton</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Hanoi , la capital de Vietnam</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="1.3.3.0.2.1.1.1.1.2.1.2.1.0.0" sentencenodepath="1">La portavoz del Servicio_de_Inmigración_y_Naturalización ( INS ) , de Miami ( sureste de EEUU ) , María_Elena_García , dijo en una conferencia de prensa que las leyes estadounidenses requieren garantías por_escrito de que la persona que tiene un permiso provisional de <argset><head>estancia </head></argset>, cumplirá con los términos del mismo . </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="5.2.1.1.1.2.1.0.0" sentencenodepath="5">El INS ha amenazado con suspender el permiso provisional de <argset><head>estancia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en EEUU</argument></argset>de Elián este Jueves , para iniciar inmediatamente los trámites de repatriación a Cuba , donde lo reclama su padre , Juan_Miguel_González . </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="15.0.1.1.2.1.2.1.1.1.0.0" sentencenodepath="15">Ante la amenaza del INS de revocar a Elián el permiso de <argset><head>estancia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en EEUU</argument></argset>, un grupo del exilio cubano anunció que Ø planea paralizar el tráfico del puerto y aeropuerto internacional de Miami el Jueves . </example>
+        <example file="CESS-CAST-AA/4842_20000606.tbf.xml" nodepath="0.2.1.2.1.0.0" sentencenodepath="0">El Príncipe dedicó su segundo día de <argset><head>estancia </head><reference_modifiers>oficial</reference_modifiers><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Aragón</argument></argset>a la provincia de Teruel , en donde Ø conoció las vías abiertas por sus habitantes para superar el desequilibrio económico y social que sufre la provincia . </example>
+        <example file="CESS-CAST-AA/8058_20000912.tbf.xml" nodepath="2.0.1.1.2.4.1.1.0" sentencenodepath="2">En el palacio de Queluz , en donde están residiendo los Reyes durante <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>estancia </head></argset>en Lisboa , don Juan_Carlos conocerá por los propios directivos de empresas españolas las actuales actividades y las iniciativas y los proyectos que Ø tienen de_cara_al futuro . </example>
+        <example file="CESS-CAST-P/34_20000302.tbf.xml" nodepath="12.2.1.1.1.1.1.1.0.2.3.2.1.0" sentencenodepath="12">Fariños desmintió algunos extremos de la versión del policía Angel_López_Carrillo , que confesó haber marcado con un número <argset><specifier>las</specifier><head>estancias </head><reference_modifiers>donde estuvieron los presuntos etarras</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="estar" originlink="verb.estar.1" wordnetsynset="16:00683061+16:00682063">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="12.0.2.2.1.0" sentencenodepath="12">" Hay que ordenar la llegada y <argset><specifier>la</specifier><head>estancia </head></argset>para conseguir la integración y la mayor dignidad para quienes vienen a trabajar " , dijo el presidente autonómico . </example>
+        <example file="CESS-CAST-P/11_20000302.tbf.xml" nodepath="17.2.4.1.1" sentencenodepath="17">La política impone muchos sacrificios y para doña Ana seguramente lo ha sido <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>breve</reference_modifiers><head>estancia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">entre gente tan rara , que no vota al PP y que no quiere que su marido sea presidente del Gobierno</argument></argset>. </example>
+        <example file="CESS-CAST-P/26_19990701_c.tbf.xml" nodepath="3.2.1.1.1.1.1.1.2.2.2.1.1.0" sentencenodepath="3">La sorpresa fue el trato recibido por_parte_de los dueños , que nos hicieron sentir como intrusos durante <argset><specifier>la</specifier><head>estancia </head></argset>y , para_colmo , no cumplieron con lo pactado , ya_que Ø incrementaron la factura en 40.000 pesetas en_concepto_de extras absurdos : aceite aliño , 600 pesetas ; un ajo , 300 ; leche biberón niño , 200 , etcétera . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="19.1.4.1.1.0" sentencenodepath="19">Para evitar que Ø caigan en la tentación , los agentes nunca podrán entrar solos en un local , tomar una bebida , alargar <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>estancia </head></argset>ni inspeccionar varias veces un mismo burdel . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

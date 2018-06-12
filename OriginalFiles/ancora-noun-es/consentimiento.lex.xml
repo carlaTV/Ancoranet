@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="consentimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="consentir" originlink="verb.consentir.1" wordnetsynset="16:05013621">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/113_20000201.tbf.xml" nodepath="6.4.1.1.1.1.1.1.0" sentencenodepath="6">Tras la presión ejercida por los sindicatos y las organizaciones no gubernamentales contra la mundialización de la economía , " las multinacionales han adoptado un discurso más social , pero Ø siguen actuando de forma brutal " , afirmó ayer Philip_Jennings , secretario general de Union_Network_International , en una rueda_de_prensa convocada con <argset><specifier>el</specifier><head>consentimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Foro_de_Davos</argument></argset>. </example>
+        <example file="CESS-CAST-P/65_19991001.tbf.xml" nodepath="3.0.1.1.1.1.0.2.1.4.4.1.1" sentencenodepath="3">Lo contrario de lo que piensan el PP , CiU e IU , que argumentaron , entre otras cuestiones , que a_partir_de ahora será necesario <argset><specifier>el</specifier>" <head>consentimiento </head><reference_modifiers>inequívoco</reference_modifiers>" <argument argument="arg0" function="cn" thematicrole="agt" type="sp">del interesado</argument></argset>para figurar en el fichero de cualquier empresa . </example>
+        <example file="CESS-CAST-P/91_20010301.tbf.xml" nodepath="11.4.0.1.1.0.2.1.1.0" sentencenodepath="11">El CAC , por_último , se muestra en_contra de ofrecer imágenes de funerales o de situaciones similares sin <argset><specifier>el</specifier><head>consentimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los familiares</argument></argset>, y que cuando se emitan escenas duras se avise a los telespectadores con suficiente antelación . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

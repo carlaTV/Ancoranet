@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="batalla" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="batallar" originlink="verb.batallar.1" wordnetsynset="16:00614914">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1">
+        <constituent frequency="3" preposition="contra" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="bajo" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="13" postype="article" type="determiner"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="6" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a1-2.tbf.xml" nodepath="3.0.0.0.0" sentencenodepath="3"><argset><head>Batallas </head>y condecoraciones </argset>están ridiculizadas con un cruel sarcasmo . </example>
+        <example file="3LB-CAST/dc10-0.tbf.xml" nodepath="4.3.1.1.1" sentencenodepath="4">Verdaderas legiones de anticuerpos específicos , adaptados a las características de cada tipo de virus , se han preparado para <argset><specifier>la</specifier><reference_modifiers>gran</reference_modifiers><head>batalla </head></argset>. </example>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="2.3.3.1.0" sentencenodepath="2">Cuentan Tácito y César en sus libros que las tribus germanas solían resolver <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>batallas </head></argset>en combates singulares a espada . </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="10.4.0.3.2.2.0.1.1.1.1.1.0.0" sentencenodepath="10">Más tarde , durante la Segunda_Guerra_Mundial , tanto aliados como alemanes realizaron numerosos experimentos en ese terreno , la mayoría de ellos fuera de los frentes de <argset><head>batalla </head></argset>. </example>
+        <example file="3LB-CAST/r2-0.tbf.xml" nodepath="9.4.1.0" sentencenodepath="9">Pero el nombre de Pilar ya había ganado <argset><specifier>otra</specifier><head>batalla </head></argset>en Madrid , en el centro del poder . </example>
+        <example file="3LB-CAST/t3-5.tbf.xml" nodepath="9.4.1.2.1.0" sentencenodepath="9">Pero al levantar los ojos Ø comprobó que el cielo azul había perdido <argset><specifier>la</specifier><head>batalla </head><argument argument="arg1" function="cn" type="sp">contra las nubes</argument></argset>y todo el mundo , él mismo quedaba a_cubierto de un toldo gris desesperante . </example>
+        <example file="3LB-CAST/t3-5.tbf.xml" nodepath="10.4.1.1.1.3.2.1.1.2.2.0.2.2.2.1.1.1.0" sentencenodepath="10">Y además , sonó el trueno como un aviso que llega desde el oeste convertido casi sin tregua en una lluvia caliente , primero blanda , luego furiosa , como hilos de piedra que quisieran clavarle , ensimismarle en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>batalla </head><reference_modifiers>perdida</reference_modifiers><argument argument="arg1" function="cn" type="sp">contra los elementos</argument></argset>. </example>
+        <example file="CESS-CAST-A/10168_20000212.tbf.xml" nodepath="5.0.4.1.1.1.1.1.1.0" sentencenodepath="5">El Cairo ha solicitado reiteradamente ayuda a los países implicados en <argset><specifier>la</specifier><head>batalla </head></argset>para desactivar estas minas , pero tanto Alemania como el Reino_Unido no se han mostrado dispuestos a financiar una operación costosa , donde eliminar cada mina cuesta unos 100 dólares . </example>
+        <example file="CESS-CAST-A/13789_20000317.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">El triunfo era vital para los Bucks en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>batalla </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">por recuperar el camino de asegurarse un puesto en la fase final del campeonato de liga que se les ha complicado después de haber perdido 13 de los últimos 18 partidos que han disputado</argument></argset>. </example>
+        <example file="CESS-CAST-A/14353_20000618.tbf.xml" nodepath="2.4.1.2.1.1.0.1.1.0.2.2.1.0" sentencenodepath="2">La primera victoria de los ingleses contra los alemanes en 34 años quedó en un segundo plano , según este dominical , por " el comportamiento de cientos de 'hooligans' borrachos que libraron <argset><specifier>una</specifier><head>batalla </head><argument argument="arg1" function="cn" type="sp">con seguidores rivales</argument></argset>" . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="10.0.3.1.2.1" sentencenodepath="10">El diario turinés de información general " La_Stampa " califica el enfrentamiento entre gallegos y piamonteses como <argset>" <specifier>una</specifier>
+            <reference_modifiers>dura</reference_modifiers>
+            <head>batalla </head>
+            <argument argument="argM" function="cn" thematicrole="loc" type="sp">bajo la lluvia</argument>" </argset>, Ø considera el empate como " importantísimo " para el Juventus e Ø indica que en el primer tiempo el " Deportivo era una furia que recuperaba balones en el centro del campo " . </example>
+        <example file="CESS-CAST-A/15209_20001220.tbf.xml" nodepath="2.3.2.1.1.1.1.1.2.4.1.1.1" sentencenodepath="2">" Ya no es una cuestión de mapas el saber dónde están Ø y cuál es el estado de las minas " , añadió Ø , al recordar los millones de estos artefactos explosivos que alemanes y británicos colocaron en el desierto occidental egipcio durante <argset><specifier>las</specifier><reference_modifiers>grandes</reference_modifiers><head>batallas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de blindados</argument><reference_modifiers>que libraron en esa zona en la Segunda_Guerra_Mundial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16730_20000221.tbf.xml" nodepath="0.4.1.0.1.1.0.0" sentencenodepath="0">Aunque con el tiempo en su contra , el candidato republicano John_McCain llegó a Michigan dispuesto a presentar <argset><head>batalla </head></argset>a su correligionario George_W._Bush y a arrebatarle la victoria en unas primarias vitales para su campaña . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="8.2.2.0.0" sentencenodepath="8">Baumann puso_en_acción a detectives y Ø presentó <argset><head>batalla </head></argset>durante meses , en los que algunos medios le han tratado de esquizofrénico afectado de manía persecutoria . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="20.3.1.4.1.1.0" sentencenodepath="20">" Esta agresión ha demostrado que el primer ministro francés no_sólo ha perdido un tanto en <argset><specifier>la</specifier><head>batalla </head><reference_modifiers>que le enfrenta a Chirac</reference_modifiers></argset>, sino_que Ø se ha visto desbordado por las consecuencias de su propia acción " . </example>
+        <example file="CESS-CAST-AA/6697_20000910.tbf.xml" nodepath="0.4.1.1.2.4.2.4.1.0.1.3.1.0" sentencenodepath="0">Un grupo de artistas ecuatorianos despidió hoy a la moneda nacional , el sucre , en un homenaje por las calles de Quito en el que Ø resucitaron al libertador Simón_Bolívar , para que Ø acompañe al más_allá al Mariscal_Antonio_José_de_Sucre con quien Ø organizó <argset><specifier>las</specifier><head>batallas </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">de independencia americana</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6697_20000910.tbf.xml" nodepath="6.5.5.3.1.2.1.1.3.1.0.2.2.1.1.0" sentencenodepath="6">Muchos paseantes se sumaron voluntariamente a la marcha , mientras unos pocos gritaban desde las aceras y los balcones " que viva el sucre " , nombre que heredó la moneda local del joven militar que ayudó en <argset><specifier>las</specifier><head>batallas </head><argument argument="argM" function="cn" thematicrole="pat" type="sp">de independencia de España</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6697_20000910.tbf.xml" nodepath="12.0.2.1.1.1.1.0.0" sentencenodepath="12">El Libertados entregó a su compañero de <argset><head>batallas </head></argset>un billete del sucre y Ø le pidió " disculpa ( al Gobierno ) porque Ø no sabe lo que Ø hace " . </example>
+        <example file="CESS-CAST-P/117_19990202.tbf.xml" nodepath="15.0.0.0.1.2.1.1.0" sentencenodepath="15">Rusconi , bregado en <argset><specifier>mil</specifier><head>batallas </head></argset>en la Liga italiana , se hizo dueño de la canasta sevillana , y Bennett se comió a Turner y a quien se puso por delante . </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="11.2.4.1.1.0" sentencenodepath="11">Turquía , por_ejemplo , es un aliado fundamental de Estados_Unidos en la confrontación militar con Irak , pero los kurdos que habitan el norte de Irak , y periódicamente se pelean a_muerte entre ellos mismos , también colaboran con Estados_Unidos en <argset><specifier>la misma</specifier><head>batalla </head><argument argument="arg1" function="cn" type="sp">contra Sadam_Husein</argument></argset>. </example>
+        <example file="CESS-CAST-P/14_20020402.tbf.xml" nodepath="0.1.1.4.1.1.0" sentencenodepath="0">Cuesta entender que el asunto Òmnium se haya convertido en <argset><specifier>una</specifier><head>batalla </head><reference_modifiers>en la que hasta el president Pujol ha tenido que intervenir</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="4.3.1.1.3.1.1.1.1.1.0" sentencenodepath="4">Goromonzi_Emmanuel_Chitsaya , vicesecretario del comisariado en los cuarteles generales de la Unión_Nacional_Africana ( ZANU-PF ) , el partido en el poder en Zimbabue desde hace 20 años , se afana por demostrar que la ocupación de las tierras por los veteranos de guerra no es una cuestión de blancos contra negros y menos un episodio de <argset><specifier>la</specifier><head>batalla </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre la ZANU y el opositor Movimiento_Democrático_para_el_Cambio ( MDC )</argument></argset>. </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="6.4.3.3.1.1.0.2" sentencenodepath="6">Tras los graves incidentes del martes , en los que una lluvia de piedras provocó que la policía tuviera que abandonar el lugar de los sucesos , la autoridad gubernativa decidió ayer que los efectivos policiales se mantuvieran " expectantes " y Ø no actuaran para evitar <argset><reference_modifiers>nuevas</reference_modifiers>" <head>batallas </head><reference_modifiers>campales</reference_modifiers>" </argset>. </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>La</specifier><head>batalla </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">judicial</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Suiza</argument></argset>continúa . </example>
+        <example file="CESS-CAST-P/51_20020601.tbf.xml" nodepath="7.0.1.1.1.1.1.1.1.1" sentencenodepath="7">Si la FIFA , convaleciente de <argset><specifier>una</specifier><reference_modifiers>cruenta</reference_modifiers><head>batalla </head><reference_modifiers>interna</reference_modifiers><reference_modifiers>, salpicada por la plaga de la corrupción ,</reference_modifiers></argset>hubiera buscado un escenario mejor Ø no lo habría encontrado . </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>La</specifier><head>batalla </head><reference_modifiers>actual</reference_modifiers></argset>no ha concluido porque aún debe pronunciarse el Senado , controlado por los demócratas . </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="12.0.1.1.0" sentencenodepath="12">En <argset><specifier>la</specifier><head>batalla </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los impuestos de los carburantes</argument></argset>, Aznar tiene a su favor a CiU y , en_contra , a PSOE e IU . </example>
+        <example file="CESS-CAST-P/9_20010601_b.tbf.xml" nodepath="3.3.1.1.2.1.1.0" sentencenodepath="3">El Gobierno español no ha tenido más remedio que rendirse a la evidencia y cancelar <argset><specifier>la</specifier><head>batalla </head><reference_modifiers>que le enfrentaba a casi todos los países de la Unión_Europea , excepción hecha de Grecia y Portugal ,</reference_modifiers><argument argument="argM" function="cn" thematicrole="cau" type="sp">por un asunto que nadie deseaba plantear con antelación y que tampoco se sabía muy bien por qué habría de resolverse ahora y no dentro de cuatro años</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="caballo_de_batalla" cousin="no" denotation="result" id="2" lexicalizationtype="nominal" lexicalized="yes" originlemma="batallar" originlink="verb.batallar.1" wordnetsynset="16:00505798">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="13.1.2.2.1.1.1.1.0.0" sentencenodepath="13">En su editorial , el diario analiza la situación económica del país tomando como base el informe difundido ayer de la OCDE y Ø asegura que el caballo de <argset><head>batalla </head></argset>de Aznar en esta legislatura será " convencer a la opinión pública de los riesgos de un consumo y de un crecimiento desbocado , hacerle ver la urgencia de reformar el mercado laboral y de liberalizar la economía , escenificar los peligros de la inflación " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="campo_de_batalla" cousin="no" denotation="result" id="3" lexicalizationtype="nominal" lexicalized="yes" originlemma="batallar" originlink="verb.batallar.1" wordnetsynset="16:00614914">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/n1-2.tbf.xml" nodepath="3.2.1.1.1.1.1.2.1.0.0" sentencenodepath="3">Mientras , en Durban , a_poco_más_de 15 minutos de los - campos de <argset><head>batalla </head></argset>- de los - townships - la vida continúa sin sobresaltos . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

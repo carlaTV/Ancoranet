@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="fallo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="fallar" originlink="verb.fallar.1" wordnetsynset="16:10377620">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>Un</specifier><head>fallo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el mando a distancia</argument></argset>hizo fracasar el atentado planeado por ese comando , que pretendía volar un furgón ocupado por 24 militares , según la justicia española . </example>
+        <example file="CESS-CAST-P/20_20010301.tbf.xml" nodepath="4.5.0.1.0" sentencenodepath="4">En esta ocasión , sin_embargo , la causa no fue <argset><specifier>un</specifier><head>fallo </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la señalización</argument></argset>ni el mal estado de los raíles , que acababan de ser reparados . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="2.2.4.2.1.4.1.1.1.1" sentencenodepath="2">La Organització_de_Consumidors_i_Usuaris_de_Catalunya ( OCUC ) destacó que los afectados pueden recurrir a la vía penal , al considerar que la empresa vendió billetes pese_a conocer <argset><specifier>los</specifier><reference_modifiers>continuos</reference_modifiers><head>fallos </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del catamarán</argument></argset>. </example>
+        <example file="CESS-CAST-P/66_20000601.tbf.xml" nodepath="3.2.4.1.1.0" sentencenodepath="3">Los hijos de Carlos_Rico_Azorín explicaron que su padre falleció hace dos semanas por <argset><specifier>un</specifier><head>fallo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">cardiaco</argument></argset>después de estar esperando desde hace un año una intervención quirúrgica . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="9.3.3.1.0" sentencenodepath="9">La sentencia señala también que no existió <argset><specifier>ningún</specifier><head>fallo </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">mecánico</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">en el coche</argument><reference_modifiers>susceptible de haber provocado el trágico suceso</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="fallar" originlink="verb.fallar.2" wordnetsynset="16:00768711+16:00042411+16:10377620">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="1.1.1.2.1.1.1.0" sentencenodepath="1">Es mucho más espectacular defender para tratar de provocar el error en el equipo rival que hacerlo sólo para buscar <argset><specifier>un</specifier><head>fallo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">en el tiro</argument></argset>. </example>
+        <example file="3LB-CAST/d2-1.tbf.xml" nodepath="10.3.3.1.0.0" sentencenodepath="10">O mucho Ø nos equivocamos , o ambos se van a jugar al <argset><head>fallo </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">ajeno</argument></argset>el segundo puesto de la general . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="0.4.1.1.1.1.1.0" sentencenodepath="0">Brasil anunció hoy , lunes , en el Organo_de_Solución_de_Disputas_de_la_Organización_Mundial_del_Comercio ( OMC ) su decisión de apelar <argset><specifier>dos</specifier><head>fallos </head><reference_modifiers>que declaran ilegales sus subsidios a la industria aeronáutica</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="2.1.1.1.1.3.1.0" sentencenodepath="2">Brasil denunció la cantidad que Canadá quiere imponer como sanción y Ø cuestionó el procedimiento utilizado para ello , antes de que se conozcan <argset><specifier>los</specifier><head>fallos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la nueva apelación brasileña</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21730_20001026.tbf.xml" nodepath="9.3.1.3.1.0" sentencenodepath="9">Los primeros datos señalan la necesidad de proceder de forma distinta y con un equipamiento distinto para la reparación ya_que Ø no es <argset><specifier>un</specifier><head>fallo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de soldadura</argument></argset>sino fatiga de material , aunque Ø sigue sin afectar al sistema de seguridad del reactor . </example>
+        <example file="CESS-CAST-P/106_20020402.tbf.xml" nodepath="4.0.1.3.0.1" sentencenodepath="4">" Todo eso no pueden ser <argset><reference_modifiers>simples</reference_modifiers><head>fallos </head></argset>. Si así fuera Ø , estos árbitros no podrían dirigir la mejor liga del mundo porque Ø no están preparados . Lo único que tiene lógica es que Ø reciben consignas de arriba , más allá de la propia Federación_Española_de_Fútbol " , manifestó Álvaro_Ruiz-Mateos . </example>
+        <example file="CESS-CAST-P/143_20010601.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>El</specifier><head>fallo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Comité_de_Competición</argument><reference_modifiers>que otorgó al Compostela los tres puntos que perdió en el campo ante el Getafe , por alineación indebida de cuatro extranjeros durante cinco minutos del equipo madrileño ,</reference_modifiers></argset>ha abierto la veda para que algunos clubs en situación crítica en la Liga intenten ganar puntos en los despachos . </example>
+        <example file="CESS-CAST-P/56_20000402.tbf.xml" nodepath="6.0.4.2.1.1.2.3.1.1.0" sentencenodepath="6">Si ETA intentó el pasado lunes matar al periodista de RNE Carlos_Herrera con un paquete bomba que no llegó a estallar por <argset><specifier>un</specifier><head>fallo </head><reference_modifiers>técnico</reference_modifiers></argset>, hace apenas dos semanas los padres de un redactor jefe de El_Correo también sufrieron el ataque de los violentos , que colocaron un potente artefacto ante su domicilio . </example>
+        <example file="CESS-CAST-P/85_20000401.tbf.xml" nodepath="15.2.2.1.1.1.1.1.2.1.0" sentencenodepath="15">La solución fue mandar desde Palma_de_Mallorca un avión con la pieza que subsanaba <argset><specifier>el</specifier><head>fallo </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="fallar" originlink="verb.fallar.3" wordnetsynset="16:00768711">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="11" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/t1-0.tbf.xml" nodepath="3.1.0.1.0" sentencenodepath="3">Pero <argset><specifier>el</specifier><head>fallo </head></argset>fue justo , y la unanimidad del jurado tenía una justificación en la excelencia del soneto . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>El</specifier><head>fallo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la comisión jurídica</argument></argset>supone un capítulo más en un caso que asemeja una novela policiaca , donde intervienen supuestas conspiraciones criminales o manipulación de pasta de dientes . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="10.2.0.1.0" sentencenodepath="10">La Federación Ø parece que cree ahora en la versión de Baumann y <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>fallo </head></argset>le faculta para tomar la salida el domingo , en un mitin del que Ø espera conseguir la calificación para los Juegos_de_Sydney . </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="9.5.1.1.1.1.1.0" sentencenodepath="9">Tras esta derrota en la Asamblea_Legislativa , Oscar_Arias se juega su última oportunidad en la Sala_Constitucional , <argset><argument argument="arg0" thematicrole="agt" type="relatiu">cuyos</argument><head>fallos </head></argset>son inapelables , que debe resolver en fecha sin determinar sobre varios recursos al_respecto . </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="10.5.2.1.0" sentencenodepath="10">Enersis dejó en diciembre pasado sin efecto una anunciada venta de la sanitaria Aguas_Cordillera , a_raíz_de <argset><specifier>un</specifier><head>fallo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la comisión resolutiva de la Fiscalía_Antimonopolios</argument><reference_modifiers>que ya había paralizado la licitación de la sanitaria el 21_de_octubre del año pasado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/7327_20000209.tbf.xml" nodepath="1.4.2.1.0.1.1.0" sentencenodepath="1">Según los magistrados del TRE , el cambio del registro del título electoral de Collor_de_Maceió , capital del estado de Alagoas , a Sao_Paulo , fue aprobado por un juez al que no le correspondía el caso , por lo que <argset><specifier>el</specifier><head>fallo </head></argset>carece de validez . </example>
+        <example file="CESS-CAST-AA/7327_20000209.tbf.xml" nodepath="6.0.2.5.1.1.0" sentencenodepath="6">La abogada del ex mandatario , que calificó de " burocrática " la decisión del TRE , anunció que Ø no la apelará porque <argset><specifier>el</specifier><head>fallo </head></argset>devuelve el proceso a la fase inicial y la solicitud de inscripción de Collor será analizada ahora por el juez al que realmente corresponde el caso . </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="0.0.1.2.1.1.1.0" sentencenodepath="0">La renuncia del Gobierno_de_Caracas a acatar <argset><specifier>el</specifier><head>fallo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Tribunal_Andino_de_Justicia</argument><reference_modifiers>que declaró ilegal la decisión que Venezuela adoptó para restringir el transporte internacional de carga por carretera</reference_modifiers></argset>, podría llevar a Colombia , en dos meses , a adoptar medidas contra los productos venezolanos . </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="1.3.1.1.3.2.3.1.1.3.1.1.1.0" sentencenodepath="1">El anuncio fue hecho hoy , Lunes , por la ministra de Comercio_Exterior_de_Colombia , Marta_Lucía_Ramírez , quien señaló que su país esperará los 90 días con los que cuenta Venezuela para acatar <argset><specifier>el</specifier><head>fallo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del máximo tribunal regional</argument><reference_modifiers>, que vence a_mediados_de noviembre</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="5.2.2.5.2.0" sentencenodepath="5">Ramírez advirtió que " si vencido el tiempo no se acata <argset>( <specifier>el</specifier>
+            <head>fallo </head>) </argset>por_parte_del país que está violando la norma , el Tribunal nos da derecho a aplicarle restricciones comerciales como , por_ejemplo , la imposición de aranceles " . </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">Tras <argset><specifier>el</specifier><head>fallo </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">judicial</argument></argset>, Duhalde y Lenicov celebraron una reunión a_puerta_cerrada en la residencia presidencial de Los_Olivos . </example>
+        <example file="CESS-CAST-P/63_20010501.tbf.xml" nodepath="1.4.4.1.0" sentencenodepath="1">Orefici sólo pide que su traslado se efectúe " cuando haya una sentencia firme " , ya_que sus abogados han recurrido <argset><specifier>el</specifier><head>fallo </head></argset>. </example>
+        <example file="CESS-CAST-P/6_20020501.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">Según <argset><specifier>el</specifier><head>fallo </head></argset>, el derecho a la vida no supone el derecho de cada persona a disponer libremente de la_suya propia . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="14.0.1.0" sentencenodepath="14"><argset><specifier>El</specifier><head>fallo </head></argset>añade que el conductor debe ser el " garante del riesgo emprendido , exigiéndosele la anticipación del instante , en los parámetros del denominado hombre medio " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="resbalón" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="resbalar" originlink="verb.resbalar.1" wordnetsynset="16:00212160">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20077_20001125.tbf.xml" nodepath="6.2.0.0.1.0" sentencenodepath="6">" La Liga " , puntualizó sin_embargo Gutiérrez , " sigue estando muy complicada y <argset><specifier>cualquier</specifier><head>resbalón </head></argset>se nota muchísimo , como Ø nos pasó a nosotros con el primer partido ante el Bidasoa que Ø deberíamos haber ganado y llevar ahora cinco puntos en_lugar_de tres " . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="7.2.0.2.1.1" sentencenodepath="7">Jospin intenta justificar así <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument>" <head>resbalón </head>" </argset>ante la opinión pública y quitar hierro al incidente con el mundo árabe , donde sus palabras han desencadenado una ola de ira , antes de deber rendir cuentas el miércoles a Chirac , quien le convocó y llamó al orden . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

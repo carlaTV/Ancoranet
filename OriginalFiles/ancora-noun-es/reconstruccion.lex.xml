@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reconstrucción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="reconstruir" originlink="verb.reconstruir.1" wordnetsynset="16:00173090+16:05363145">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c1-4.tbf.xml" nodepath="5.2.4.4.1.0" sentencenodepath="5">Un soldador que no deje de la Susi ni una pata de gallo y así Ø podré pedirle a doña Carmen_Alborch que Ø me financie <argset><specifier>una</specifier><head>reconstrucción </head><reference_modifiers>completa , rápida y divina</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="11.3.1.1.2.3.1.1.1.0.1.2.2.3.1.2.0.1.0.0" sentencenodepath="11">Del arte , los Reyes pasaron a la investigación científica que se practica en los laboratorios Innogenetics , una empresa puntera que desarrolla vacunas contra la hepatitis C , trabaja en desórdenes genéticos , así_como en <argset><head>reconstrucciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de tejido</argument></argset>y en la detección de enfermedades neurodegenerativas como el Alzheimer . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="0.5.2.1.1.1.1.1.2.1.0.0" sentencenodepath="0">Una delegación del Parlamento_Europeo recibió hoy de las autoridades venezolanas información de primera mano sobre el desastre natural de diciembre pasado , con el fin de orientar los futuros proyectos de <argset><head>reconstrucción </head></argset>. </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="9.2.3.2.1.1.1.1.0.0" sentencenodepath="9">Ø Subrayó que Venezuela intenta crear un sistema coordinado de asistencia internacional para la fase de <argset><head>reconstrucción </head></argset>, para la cual una misión de alto nivel técnico visitará la sede de la Unión_Europea en Bruselas , a_fin_de presentar proyectos concretos en las distintas áreas compatibles con las prioridades europeas . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="10.2.1.2.1.0" sentencenodepath="10">Las áreas definidas por el diplomático venezolano tienen que ver con el saneamiento ambiental y ecológico , sobre_todo las cabeceras de las cuencas hidrográficas ; <argset><specifier>la</specifier><head>reconstrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">estructural</argument>, </argset>y el desarrollo socioeconómico de Vargas . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="26.5.0.2.2.0.1.1.1.2.1.0.0" sentencenodepath="26">Finalmente , de esta manera , Ø evitaremos en el futuro normativas como la originaria del actual conflicto que son sintomáticas de una vieja Europa en <argset><head>reconstrucción </head></argset>. </example>
+        <example file="CESS-CAST-P/79_20010602.tbf.xml" nodepath="2.3.2.1.2.1.3.1.0" sentencenodepath="2">La titular del Juzgado_de_Instrucción_número_3 de Vic , Gladis_López , cursó ayer las citaciones de los tres monitores y una orden a los Mossos_d'Esquadra para que Ø efectúen <argset><specifier>una</specifier><head>reconstrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los hechos</argument></argset>, también la próxima semana , según fuentes judiciales . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="reconstruir" originlink="verb.reconstruir.1" wordnetsynset="16:00173090">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/9923_20001114.tbf.xml" nodepath="0.2.3.3.1.1.0" sentencenodepath="0">El presidente de Chile , Ricardo_Lagos , visitó hoy Martes a las tropas de su país desplegadas en Timor_Oriental y Ø aseguró en Dili , la capital , que su Gobierno colaborará en <argset><specifier>la</specifier><head>reconstrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esta pequeña nación</argument></argset>. </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="26.3.1.4.1.1.1.0" sentencenodepath="26">El alcalde , Joan_Clos , prometió a los afectados la " máxima presión " para activar <argset><specifier>la</specifier><head>reconstrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del edificio</argument></argset>, en una visita al lugar de la explosión . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="reconstruir" originlink="verb.reconstruir.1" wordnetsynset="16:00173090">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-12.tbf.xml" nodepath="6.3.1.0.1" sentencenodepath="6">Tras la triple graduación todos hablaron de <argset>- <head>reconstrucción </head>- <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Arkansas</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="2.3.0.2.1.4.1.0.1.6.1.1.1.1.1.1.1.1.0" sentencenodepath="2">Las conversaciones se producen una semana después de que Chávez asistiera en la capital española al Foro_de_Madrid , donde se dieron cita representantes de 30 países y 30 organismos multilaterales financieros para ver la forma de ayudar a <argset><specifier>la</specifier><head>reconstrucción </head><reference_modifiers>planificada</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Venezuela</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="4.4.1.1.1.1.1.0.1.1.1.1.0" sentencenodepath="4">El grupo de parlamentarios , según informó la Cancillería en un comunicado , acopiará información para instrumentar la forma de ayuda requerida para <argset><specifier>la</specifier><head>reconstrucción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las zonas más afectadas por el fenómeno natural</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>
