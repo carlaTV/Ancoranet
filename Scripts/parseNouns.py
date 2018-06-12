@@ -114,7 +114,7 @@ def getRoot():
     return root_lex
 
 
-arg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d", "arrgM": "M%d",
+arg_map = {"arg0": "I", "arg1": "I", "arg2": "II", "arg3": "III", "arg4": "IV", "argM": "M%d", "arrgM": "M%d",
            "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
 
 def getSenses(root_lex):
@@ -195,7 +195,7 @@ def writeSenses(filename,senses):
 
 
 def main():
-    filename = "../OutputFiles/AncoraDict_names.dic"
+    filename = "../OutputFiles/AncoraDict_nouns.dic"
     writeOpening(filename)
     root_lex = getRoot()
     for root in root_lex:
