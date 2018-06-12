@@ -9,34 +9,33 @@ import glob
 class Sense(object):
     def __init__(self):
         self.lemma = None
-        self.type = None
+        # self.type = None
         self.id = None
         self.denotation = None
         self.lexicalized = None
-        self.origin = None
+        self.verb_lemma = None
+        self.verb_sense = None
         self.synset = None
-        self.parent = None
         self.frames = []
         self.unaxifra = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
     def __str__(self):
         if self.id in self.unaxifra:
-            output = "\"%s_NN_0%s\":_%s_{\n" %(self.lemma, self.id, self.parent)
+            output = "\"%s_NN_0%s\":_noun_{\n" %(self.lemma, self.id)
         else:
-            output = "\"%s_NN_%s\":_%s_{\n" % (self.lemma, self.id, self.parent)
+            output = "\"%s_NN_%s\":_noun_{\n" % (self.lemma, self.id)
 
         output += "\tanc_sense = \"%s\"\n" % self.id
         output += "\tlemma = \"%s\"\n" % self.lemma
-        output += "\tanc_vtype = \"%s\"\n" % self.type
+        # output += "\tanc_type = \"%s\"\n" % self.type
         output += "\tdenotation = \"%s\"\n" % self.denotation
         output += "\tlexicalized = \"%s\"\n" % self.lexicalized
 
-        verb, verb_lemma, verb_sense = self.origin.split('.')
-
-        output += "\torigin = \"%s_VB_0%s\"\n" % (verb_lemma, verb_sense)
+        output += "\torigin = \"%s_VB_0%s\"\n" % (self.verb_lemma, self.verb_sense)
         output += "\tsynset = \"%s\"\n" % self.synset
         for frame in self.frames:
             output += "%s\n" % frame
+        output += "}\n\n"
 
         return output.encode("utf8")
 
@@ -84,17 +83,16 @@ class Constituent(object):
         self.prep = prep
         self.type = type
     def __str__(self):
-        output = "\t\t\tanc_prep  = \"%s\"\n" % self.prep
-        output += "\t\t\tanc_type  = \"%s\"\n" % self.type
+        output = "\t\t\tconstituents = \"%s(%s)\"\n" %(self.type, self.prep)
         return output
 
 class Specifiers(object):
     def __init__(self):
         self.constituents= []
     def __str__(self):
-        output = ""
         for constituent in self.constituents:
-            output += "%s" % constituent
+            output = "%s" % constituent
+        output += "\t\t}\n"
         return output
 
 class Constituents_Specifiers(object):
@@ -102,8 +100,9 @@ class Constituents_Specifiers(object):
         self.postype = postype
         self.type = type
     def __str__(self):
-        output = "\t\t\tpostype = %s \n" %self.postype
-        output += "\t\t\ttype = %s\n" %self.type
+        output = ""
+        if self.postype is not None:
+            output = "\t\t\tspecifiers = \"%s(%s)\" \n" % (self.type, self.postype)
         return output
 
 
@@ -128,40 +127,45 @@ def getSenses(root_lex):
         id = sense_node.get('id')
         sense_obj = Sense()
         sense_obj.lemma = lemma
-        sense_obj.type = type
+        # sense_obj.type = type
         sense_obj.id = id
         sense_obj.denotation = sense_node.get('denotation')
         sense_obj.lexicalized = sense_node.get('lexicalized')
-        sense_obj.origin = sense_node.get('originlink')
         sense_obj.synset = sense_node.get('wordnetsynset')
 
-        for frame_node in sense_node.iter('frame'):
+        origin = sense_node.get('originlink')
+
+        if origin is not None:
+            verb_, sense_obj.verb_lemma, sense_obj.verb_sense = origin.split('.')
+
+        for frame_node in sense_node:
             plural = frame_node.get('appearsinplural')
             frame_type = frame_node.get('type')
             frame_obj = Frame(plural, frame_type)
             count = 0
 
             if frame_type == 'default':
-                for argument_node in frame_node.iter('argument'):
-                    arg = argument_node.get('argument')
-                    role = argument_node.get('thematicrole')
+                for argument_node in frame_node:
+                    if argument_node.tag == 'argument':
+                        arg = argument_node.get('argument')
+                        role = argument_node.get('thematicrole')
 
-                    if arg is not None:
-                        arg_name = arg_map[arg]
-                        if arg_name.startswith("M"):
-                            arg_name = arg_name % count
-                            count += 1
+                        if arg is not None:
+                            arg_name = arg_map[arg]
+                            if arg_name.startswith("M"):
+                                arg_name = arg_name % count
+                                count += 1
 
-                        argument_obj = Argument(arg_name, role)
+                            argument_obj = Argument(arg_name, role)
 
-                        frame_obj.arguments.append(argument_obj)
+                            frame_obj.arguments.append(argument_obj)
 
-                        for constituent_node in argument_node.iter('constituent'):
-                            prep = constituent_node.get('preposition')
-                            const_type = constituent_node.get('type')
-                            constituent_obj = Constituent(prep, const_type)
-
-                            argument_obj.constituents.append(constituent_obj)
+                            for constituent_node in argument_node.iter('constituent'):
+                                prep = constituent_node.get('preposition')
+                                type = constituent_node.get('type')
+                                if prep is not None:
+                                    constituent_obj = Constituent(prep, type)
+                                    argument_obj.constituents.append(constituent_obj)
                 for specifier_node in frame_node.iter('specifiers'):
                     specifier_obj = Specifiers()
                     for constituent_node in specifier_node.iter('constituent'):
