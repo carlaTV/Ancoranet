@@ -22,7 +22,7 @@ class Sense(object):
             output = "\"%s_VB_%s\":_%s_{\n" % (self.lemma, self.id, self.parent)
         output += "\tanc_sense = \"%s\"\n" % self.id
         output += "\tlemma = \"%s\"\n" % self.lemma
-        output += "\tanc_vtype = \"%s\"\n" % self.type
+        output += "\tanc_type = \"%s\"\n" % self.type
         for frame in self.frames:
             output += "%s\n" % frame
 
@@ -48,9 +48,9 @@ class Frame(object):
                 output += "\t\tpbId = \"%s\" \n" % pbId
                 output += "\t}\n"
             output += "\t gp = { \n"
-            for argument in self.arguments:
-                output += "%s" % argument
-            output += "\t } \n"
+        for argument in self.arguments:
+            output += "%s" % argument
+        output += "\t } \n"
         output += "}\n"
 
         return output
@@ -116,10 +116,15 @@ def getPropbankarg(root_ancoranet):
         iszero = False
     return map_propbankarg
 
+lss_list = ["A21.transitive-agentive-patient","A22.transitive-agentive-theme", "A23.transitive-agentive-extension", "A31.ditransitive-patient-locative", "A32.ditransitive-patient-benefactive",
+            "A33.ditransitive-theme-locative", "A34.ditransitive-patient-theme", "A35.ditransitive-theme-cotheme", "D11.inergative-agentive"]
+
+
 def getPb(root_ancoranet):
     mapping = {}
     propbank = []
-    map = "aclarar_VB_01"
+    # map = "aclarar_VB_01"
+    map = ""
     for link in root_ancoranet.findall('link'):
         ancoralex_item = link.get('ancoralexid')
         verb_, lemma, sense, type = ancoralex_item.split('.')
@@ -139,12 +144,15 @@ def getPb(root_ancoranet):
     return mapping
 
 
-def getExtrArg(title, map_propbank):
+def getExtrArg(title, map_propbank, lss):
     try:
-        if map_propbank[str(title)] is True:
+        if lss in lss_list:
+            parent = "verbExtrArg"
+
+        elif map_propbank[str(title)] is True:
             parent = "VerbExtrArg"
         else:
-            parent = "verb_else"
+            parent = "verb"
     except:
         parent = "verb"
 
@@ -156,30 +164,46 @@ arg_map = {"arg0": "I", "arg1": "I", "arg2": "II", "arg3": "III", "arg4": "IV", 
 
 def getSenses(root_lex, map_propbank, map_pb):
     lemma = root_lex.get('lemma')
+    print lemma
     type = root_lex.get('type')
     senses = []
     for sense_node in root_lex.findall('sense'):
-        id = sense_node.get('id')
-        sense_obj = Sense()
-        sense_obj.lemma = lemma
-        sense_obj.type = type
-        sense_obj.id = id
-
-        title = "%s_VB_0%s" % (lemma, id)
-        sense_obj.parent = getExtrArg(title, map_propbank)
+        # id = sense_node.get('id')
+        # sense_obj = Sense()
+        # sense_obj.lemma = lemma
+        # sense_obj.type = type
+        # sense_obj.id = id
+        # #
+        # title = "%s_VB_0%s" % (lemma, id)
+        # sense_obj.parent = getExtrArg(title, map_propbank)
 
         for frame_node in sense_node.iter('frame'):
+
+
             lss = frame_node.get('lss')
             frame_type = frame_node.get('type')
-            frame_obj = Frame(lss, frame_type)
-            count = 0
-
             if frame_type == 'default':
+
+                id = sense_node.get('id')
+                sense_obj = Sense()
+                sense_obj.lemma = lemma
+                sense_obj.type = type
+                sense_obj.id = id
+
+                title = "%s_VB_0%s" % (lemma, id)
+
+                sense_obj.parent = getExtrArg(title, map_propbank, lss)
+
+                frame_obj = Frame(lss, frame_type)
+                count = 0
+
+
                 try:
                     # frame_obj.pb.append(map_pb[title])
                     frame_obj.pb = map_pb[title]
                 except:
-                    pass
+                    # pass
+                    frame_obj.pb = None
                 for argument_node in frame_node:
                     arg = argument_node.get('argument')
                     role = argument_node.get('thematicrole')
@@ -203,7 +227,8 @@ def getSenses(root_lex, map_propbank, map_pb):
 
                 sense_obj.frames.append(frame_obj)
 
-        senses.append(sense_obj)
+            senses.append(sense_obj)
+            sense_obj = None
 
     return senses
 
@@ -220,8 +245,9 @@ def writeEnding(filename):
 def writeSenses(filename,senses):
     with codecs.open(filename, 'a', encoding="utf8") as fd:
         for sense in senses:
-            sense_str = str(sense)
-            fd.write(sense_str.decode("utf8"))
+            if sense is not None:
+                sense_str = str(sense)
+                fd.write(sense_str.decode("utf8"))
     fd.close()
 
 
