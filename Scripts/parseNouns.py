@@ -30,7 +30,10 @@ class Sense(object):
         output += "\tanc_vtype = \"%s\"\n" % self.type
         output += "\tdenotation = \"%s\"\n" % self.denotation
         output += "\tlexicalized = \"%s\"\n" % self.lexicalized
-        output += "\torigin = \"%s\"\n" % self.origin
+
+        verb, verb_lemma, verb_sense = self.origin.split('.')
+
+        output += "\torigin = \"%s_VB_0%s\"\n" % (verb_lemma, verb_sense)
         output += "\tsynset = \"%s\"\n" % self.synset
         for frame in self.frames:
             output += "%s\n" % frame
@@ -129,7 +132,7 @@ def getSenses(root_lex):
         sense_obj.id = id
         sense_obj.denotation = sense_node.get('denotation')
         sense_obj.lexicalized = sense_node.get('lexicalized')
-        sense_obj.origin = sense_node.get('originlemma')
+        sense_obj.origin = sense_node.get('originlink')
         sense_obj.synset = sense_node.get('wordnetsynset')
 
         for frame_node in sense_node.iter('frame'):
@@ -202,4 +205,6 @@ def main():
         senses = getSenses(root)
         writeSenses(filename, senses)
     writeEnding(filename)
-main()
+
+if __name__ == "__main__":
+    main()
