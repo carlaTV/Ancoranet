@@ -114,7 +114,8 @@ def getPropbankarg(root_ancoranet):
     return map_propbankarg
 
 lss_list = ["A21.transitive-agentive-patient","A22.transitive-agentive-theme", "A23.transitive-agentive-extension", "A31.ditransitive-patient-locative", "A32.ditransitive-patient-benefactive",
-            "A33.ditransitive-theme-locative", "A34.ditransitive-patient-theme", "A35.ditransitive-theme-cotheme", "D11.inergative-agentive"]
+            "A33.ditransitive-theme-locative", "A34.ditransitive-patient-theme", "A35.ditransitive-theme-cotheme", "D11.inergative-agentive", "A11.transitive-causative",
+            "A12.ditransitive-causative-state","A13.ditransitive-causative-instrumental"]
 
 def getPb(root_ancoranet):
     mapping = {}
@@ -142,10 +143,10 @@ def getPb(root_ancoranet):
 def getExtrArg(title, map_propbank, lss):
     try:
         if lss in lss_list:
-            parent = "verbExtrArg"
+            parent = "verbExtArg"
 
         elif map_propbank[str(title)] is True:
-            parent = "VerbExtrArg"
+            parent = "VerbExtArg"
         else:
             parent = "verb"
     except:
@@ -158,19 +159,9 @@ arg_map = {"arg0": "I", "arg1": "I", "arg2": "II", "arg3": "III", "arg4": "IV", 
 
 def getSenses(root_lex, map_propbank, map_pb):
     lemma = root_lex.get('lemma')
-    print lemma
     type = root_lex.get('type')
     senses = []
     for sense_node in root_lex.findall('sense'):
-        # id = sense_node.get('id')
-        # sense_obj = Sense()
-        # sense_obj.lemma = lemma
-        # sense_obj.type = type
-        # sense_obj.id = id
-        # #
-        # title = "%s_VB_0%s" % (lemma, id)
-        # sense_obj.parent = getExtrArg(title, map_propbank)
-
         for frame_node in sense_node.iter('frame'):
 
 
