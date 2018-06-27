@@ -60,6 +60,8 @@ class Argument(object):
         self.funct = funct
         self.constituents = []
         self.count = 0
+        # self.ancoralexarg = None
+        # self.propbankarg = None
 
 
     def __str__(self):
@@ -154,14 +156,47 @@ def getExtrArg(title, map_propbank, lss):
 
     return parent
 
+def getArgLink(root_ancoranet):
+    mapping = {}
+    for link in root_ancoranet:
+        ancoralexid = link.get('ancoralexid')
+        verb, name, identifier, type_verb = ancoralexid.split('.')
+        title = "%s_VB_0%s" %(name, identifier)
+        arguments = {}
+        if type_verb == 'default':
+            for arglink in link:
+                ancoralexarg = arglink.get('ancoralexarg') #mateix argument que verb.lex.xml
+                # arguments.append(ancoralexarg)
+                propbankarg = arglink.get('propbankarg')   #s'ha de passar a numeros romans
+                # arguments.append(propbankarg)
+                if ancoralexarg is not None:
+                    dict_arguments = {ancoralexarg:propbankarg}
+                    arguments.update(dict_arguments)
+            if arguments:
+                dict1 = {title:arguments}
+                mapping.update(dict1)
+    return mapping
+
+
+
+
 arg_map = {"arg0": "I", "arg1": "I", "arg2": "II", "arg3": "III", "arg4": "IV", "argM": "M%d", "arrgM": "M%d",
            "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
 
-def getSenses(root_lex, map_propbank, map_pb):
+def getSenses(root_lex, map_propbank, map_pb, map_arguments):
     lemma = root_lex.get('lemma')
     type = root_lex.get('type')
     senses = []
     for sense_node in root_lex.findall('sense'):
+        # id = sense_node.get('id')
+        # sense_obj = Sense()
+        # sense_obj.lemma = lemma
+        # sense_obj.type = type
+        # sense_obj.id = id
+        # #
+        # title = "%s_VB_0%s" % (lemma, id)
+        # sense_obj.parent = getExtrArg(title, map_propbank)
+
         for frame_node in sense_node.iter('frame'):
 
 
@@ -240,11 +275,13 @@ def main():
     root_ancoranet = ancoranet.getroot()
     map_propbank = getPropbankarg(root_ancoranet)
     map_pb = getPb(root_ancoranet)
-    filename = "../OutputFiles/AncoraDict_verbs.dic"
+    map_arguments = getArgLink(root_ancoranet)
+    print map_arguments
+    filename = "../OutputFiles/AncoraDict_verbs_test.dic"
     writeOpening(filename)
     root_lex = getRoot()
     for root in root_lex:
-        senses = getSenses(root, map_propbank, map_pb)
+        senses = getSenses(root, map_propbank, map_pb, map_arguments)
         writeSenses(filename, senses)
     writeEnding(filename)
 
