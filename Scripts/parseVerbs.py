@@ -33,6 +33,8 @@ class Frame(object):
         self.type = type
         self.arguments = []
         self.pb = []
+        self.ancoralexarg = []
+        self.propbankarg = []
 
     def __str__(self):
         output = "\tlss = \"%s\"\n" % self.lss
@@ -46,6 +48,8 @@ class Frame(object):
                 output += "\t\tpbId = \"%s\" \n" % pbId
                 output += "\t}\n"
             output += "\t gp = { \n"
+            for i in range(0,len(self.ancoralexarg)):
+                output += "\t\t %s = %s \n" %(self.ancoralexarg[i], self.propbankarg[i])
         for argument in self.arguments:
             output += "%s" % argument
         output += "\t } \n"
@@ -60,13 +64,11 @@ class Argument(object):
         self.funct = funct
         self.constituents = []
         self.count = 0
-        # self.ancoralexarg = None
-        # self.propbankarg = None
 
 
     def __str__(self):
 
-        output = "\t\targ = \"%s\"{\n" % self.arg
+        output = "\t\t \"%s\" = {\n" % self.arg
         output += "\t\t\tanc_theme = \"%s\"\n" % self.role
         output += "\t\t\tanc_funct = \"%s\"\n" % self.funct
 
@@ -180,8 +182,8 @@ def getArgLink(root_ancoranet):
 
 
 
-arg_map = {"arg0": "I", "arg1": "I", "arg2": "II", "arg3": "III", "arg4": "IV", "argM": "M%d", "arrgM": "M%d",
-           "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
+romans = {"arg0": "I", "0": "I" , "arg1": "I", "1": "I", "arg2": "II", "2": "II", "arg3": "III", "3": "III", "arg4": "IV", "argM": "M", "arrgM": "M",
+           "arm": "M", "argL": "argL", "aer2": "aer2", "arg": "arg"}
 
 def getSenses(root_lex, map_propbank, map_pb, map_arguments):
     lemma = root_lex.get('lemma')
@@ -215,8 +217,17 @@ def getSenses(root_lex, map_propbank, map_pb, map_arguments):
                 sense_obj.parent = getExtrArg(title, map_propbank, lss)
 
                 frame_obj = Frame(lss, frame_type)
-                count = 0
 
+                if title in map_arguments.keys():
+                    correspondencies = map_arguments[title]
+
+                    for corr in correspondencies:
+                        frame_obj.ancoralexarg.append(corr)
+                        if correspondencies[corr] in romans.keys():
+                            corr_number = romans[correspondencies[corr]]
+                        else:
+                            corr_number = "M"
+                        frame_obj.propbankarg.append(corr_number)
 
                 try:
                     # frame_obj.pb.append(map_pb[title])
@@ -225,15 +236,15 @@ def getSenses(root_lex, map_propbank, map_pb, map_arguments):
                     # pass
                     frame_obj.pb = None
                 for argument_node in frame_node:
+
+
+
                     arg = argument_node.get('argument')
                     role = argument_node.get('thematicrole')
                     funct = argument_node.get('function')
 
                     if arg is not None:
-                        arg_name = arg_map[arg]
-                        if arg_name.startswith("M"):
-                            arg_name = arg_name % count
-                            count += 1
+                        arg_name = romans[arg]
 
                         argument_obj = Argument(arg_name, role, funct)
 
@@ -277,7 +288,7 @@ def main():
     map_pb = getPb(root_ancoranet)
     map_arguments = getArgLink(root_ancoranet)
     print map_arguments
-    filename = "../OutputFiles/AncoraDict_verbs_test.dic"
+    filename = "../OutputFiles/AncoraDict_verbs.dic"
     writeOpening(filename)
     root_lex = getRoot()
     for root in root_lex:
