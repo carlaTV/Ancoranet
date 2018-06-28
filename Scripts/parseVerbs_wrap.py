@@ -15,7 +15,7 @@ def getTitle(link):
     verb_info.append(type)
     return verb_info
 
-def getEnglishSenses(root):
+def getAncoraInfo(root):
     english_senses = []
     wrapping = []
     map = {}
@@ -33,6 +33,7 @@ def getEnglishSenses(root):
             key = title
 
             propbankid  = link.get('propbankid')
+
             english_senses.append(propbankid)
             arguments = getAncoraArguments(link)
             wrapping.append(english_senses)
@@ -45,15 +46,29 @@ def getEnglishSenses(root):
 
 def getAncoraArguments(link):
     arguments = {}
+    isZero = True
+    map = []
     for arglink in link:
         ancoralexarg = arglink.get('ancoralexarg')
         propbankarg = arglink.get('propbankarg')
 
         if ancoralexarg:
+            if propbankarg == "0" and isZero == True:
+                isZero = True
+                map.append(isZero)
+
+            if propbankarg != "0" and isZero == False:
+                isZero = False
+                map.append(isZero)
+
             dict_arguments = {ancoralexarg:propbankarg}
             arguments.update(dict_arguments)
+            if arguments not in map:
+                map.append(arguments)
 
-    return arguments
+
+
+    return map
 
 
 
@@ -61,7 +76,8 @@ def getAncoraArguments(link):
 def main():
     ancoranet = ET.parse("../OriginalFiles/ancoranet-es_sufrir.xml")
     root_ancoranet = ancoranet.getroot()
-    mappings = getEnglishSenses(root_ancoranet)
+    mappings = getAncoraInfo(root_ancoranet)
+    print mappings
 
 
 
