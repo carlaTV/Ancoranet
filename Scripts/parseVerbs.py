@@ -184,13 +184,13 @@ def writeSenses(filename,senses):
 
 lss_list = ["A21.transitive-agentive-patient","A22.transitive-agentive-theme", "A23.transitive-agentive-extension", "A31.ditransitive-patient-locative", "A32.ditransitive-patient-benefactive",
             "A33.ditransitive-theme-locative", "A34.ditransitive-patient-theme", "A35.ditransitive-theme-cotheme", "D11.inergative-agentive", "A11.transitive-causative",
-            "A12.ditransitive-causative-state","A13.ditransitive-causative-instrumental"]
+            "A12.ditransitive-causative-state","A13.ditransitive-causative-instrumental","D21.inergative-experiencer","D31.inergative-source"]
 
-romans_zero = {"arg0": "I", "0": "I" , "arg1": "II", "1": "II", "arg2": "III", "2": "III", "arg3": "IV", "3": "IV", "arg4": "V", "argM": "M", "arrgM": "M",
-           "arm": "M", "argL": "argL", "aer2": "aer2", "arg": "arg"}
+romans_zero = {"arg0": "I", "0": "I" , "arg1": "II", "1": "II", "arg2": "III", "2": "III", "arg3": "IV", "3": "IV", "arg4": "V", "argM": "M%d", "arrgM": "M%d",
+           "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
 
-romans_one = {"arg1": "I", "1": "I", "arg2": "II", "2": "II", "arg3": "III", "3": "III", "arg4": "IV", "argM": "M", "arrgM": "M",
-           "arm": "M", "argL": "argL", "aer2": "aer2", "arg": "arg"}
+romans_one = {"arg1": "I", "1": "I", "arg2": "II", "2": "II", "arg3": "III", "3": "III", "arg4": "IV", "argM": "M%d", "arrgM": "M%d",
+           "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
 
 def getSenses(root_lex, map):
     lemma = root_lex.get('lemma')
@@ -217,41 +217,29 @@ def getSenses(root_lex, map):
                         ancora_arguments = other_info[0]
                         if len(other_info) > 1:
                             verb_class = other_info[1]
-
                             sense_obj.parent = getExtArg(verb_class, lss)
+                        else:
+                            if lss in lss_list:
+                                sense_obj.parent = "verbExtArg"
+                            else:
+                                sense_obj.parent = "verb"
+                    else:
+                        ancora_arguments = []
+                        # verb_class = []
+                        if lss in lss_list:
+                            sense_obj.parent = "verbExtArg"
+                        else:
+                            sense_obj.parent = "verb"
+
                 except:
-                    sense_obj.parent = "verb"
+                    english_senses = []
+                    if lss in lss_list:
+                        sense_obj.parent = "verbExtArg"
+                    else:
+                        sense_obj.parent = "verb"
 
                 frame_obj = Frame(lss, frame_type)
                 i = 0
-
-                # if title in map.keys() and ancora_arguments != []:
-                #
-                #         for corr in ancora_arguments:
-                #             if corr == "arg0":
-                #                 i = 1
-                #             if i == 1:
-                #                 try:
-                #                     corr_name = romans_zero[corr]
-                #                 except:
-                #                     corr_name = corr
-                #             else:
-                #                 try:
-                #                     corr_name = romans_one[corr]
-                #                 except:
-                #                     corr_name = corr
-                #             frame_obj.ancoralexarg.append(corr_name)
-                #             prop_num = "A%s" %ancora_arguments[corr]
-                #             frame_obj.propbankarg.append(prop_num)
-                #             # try:
-                            #     if sense_obj.parent == "verbExtArg":
-                            #         corr_number = romans_zero[ancora_arguments[corr]]
-                            #     else:
-                            #         corr_number = romans_one[ancora_arguments[corr]]
-                            # except:
-                            #     corr_number = "M"
-                            # frame_obj.propbankarg.append(corr_number)
-
                 try:
                     # frame_obj.pb.append(map_pb[title])
                     frame_obj.pb = english_senses
@@ -259,34 +247,32 @@ def getSenses(root_lex, map):
                     # pass
                     frame_obj.pb = None
                 # i = 0
+                counter = 1
                 for argument_node in frame_node.findall('argument'):
                     arg = argument_node.get('argument')
                     role = argument_node.get('thematicrole')
                     funct = argument_node.get('function')
-
-
                     if arg == "arg0":
                         i = 1
-
                     if arg is not None:
                         if i == 1:
                             arg_name = romans_zero[arg]
+                            # if arg_name.startswith("M"):
+                            #     arg_name = arg_name %counter
+                            #     counter += 1
                         else:
                             arg_name = romans_one[arg]
-
-
+                    if arg_name.startswith("M"):
+                        arg_name = arg_name % counter
+                        counter += 1
                     argument_obj = Argument(arg_name, role, funct)
-
                     frame_obj.arguments.append(argument_obj)
-
                     for constituent_node in argument_node.iter('constituent'):
                         prep = constituent_node.get('preposition')
                         constituent_obj = Constituent(prep)
-
                         argument_obj.constituents.append(constituent_obj)
-
                 if title in map.keys() and ancora_arguments != []:
-
+                    counter = 1
                     for corr in ancora_arguments:
                         if corr == "arg0" and i == 0:
                             i = 1
@@ -294,21 +280,32 @@ def getSenses(root_lex, map):
                             try:
                                 corr_name = romans_zero[corr]
                             except:
-                                corr_name = corr
+                                if corr.startswith("argM"):
+                                    corr_name = "M%d" %counter
+                                    # corr_name = romans_zero[corr]
+                                else:
+                                    corr_name = corr
                         else:
                             try:
                                 corr_name = romans_one[corr]
                             except:
-                                corr_name = corr
+
+                                if corr.startswith("argM"):
+                                    corr_name = "M%d" %counter
+                                    # corr_name = romans_zero[corr]
+                                else:
+                                    corr_name = corr
+                        # if corr.startswith("M"):
+                        #
                         frame_obj.ancoralexarg.append(corr_name)
-                        prop_num = "A%s" % ancora_arguments[corr]
+                        if ancora_arguments[corr].startswith("M"):
+                            prop_num = "arg%s" %ancora_arguments[corr]
+                        else:
+                            prop_num = "A%s" % ancora_arguments[corr]
                         frame_obj.propbankarg.append(prop_num)
-
                 sense_obj.frames.append(frame_obj)
-
             senses.append(sense_obj)
             sense_obj = None
-
     return senses
 
 
@@ -317,7 +314,7 @@ def main():
     root_ancoranet = ancoranet.getroot()
     mappings = getAncoraInfo(root_ancoranet)
     root_lex = getRoot()
-    filename = "../OutputFiles/AncoraDict_verbs_test.dic"
+    filename = "../OutputFiles/AncoraDict_verbs.dic"
     writeOpening(filename)
     for root in root_lex:
         senses = getSenses(root, mappings)
