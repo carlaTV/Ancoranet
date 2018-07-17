@@ -4,6 +4,7 @@
 import xml.etree.ElementTree as ET
 import codecs
 import glob
+import os
 
 class Sense(object):
     def __init__(self):
@@ -37,22 +38,24 @@ class Frame(object):
         self.propbankarg = []
 
     def __str__(self):
-        output = "\tlss = \"%s\"\n" % self.lss
-        output += "\ttype = \"%s\"\n" % self.type
-
+        output = "\tanc_lss = \"%s\"\n" % self.lss
+        output += "\tanc_diathesis = \"%s\"\n" % self.type
+        output += "\tgp = { \n"
         if self.pb:
+            output += "\t\tpb = { \n"
             for p in self.pb:
                 pbcls, pbId = str(p).split('.')
-                output += "\t\"%s_VB_%s\"= {\n" %(pbcls, pbId)
-                output += "\t\tpbcls = \"%s\" \n" %pbcls
-                output += "\t\tpbId = \"%s\" \n" % pbId
-                output += "\t}\n"
-            output += "\t gp = { \n"
+                output += "\t\t\t\"%s_VB_%s\"= {\n" %(pbcls, pbId)
+                output += "\t\t\t\tpbcls = \"%s\" \n" %pbcls
+                output += "\t\t\t\tpbId = \"%s\" \n" % pbId
+                output += "\t\t\t}\n"
+            output += "\t\t}\n"
+            # output += "\t gp = { \n"
             for i in range(0,len(self.ancoralexarg)):
                 output += "\t\t %s = %s \n" %(self.propbankarg[i],self.ancoralexarg[i])
         for argument in self.arguments:
             output += "%s" % argument
-        output += "\t } \n"
+        output += "\t} \n"
         output += "}\n"
 
         return output
@@ -68,12 +71,12 @@ class Argument(object):
 
     def __str__(self):
 
-        output = "\t\t \"%s\" = {\n" % self.arg
+        output = "\t\t %s = {\n" % self.arg
         output += "\t\t\tanc_theme = \"%s\"\n" % self.role
         output += "\t\t\tanc_funct = \"%s\"\n" % self.funct
 
         for constituent in self.constituents:
-            output += "\t\t\tanc_prep  = \"%s\"\n" % constituent
+            output += "\t\t\tprep  = \"%s\"\n" % constituent
 
         output += "\t\t}\n"
         return output
@@ -150,7 +153,7 @@ def getRoot():
     path = '../OriginalFiles/ancora-verb-es/*.lex.xml'
     files = glob.glob(path)
     root_lex = []
-    for name in files:
+    for name in sorted(files):
         verb_lex = ET.parse(name)
         root_lex.append(verb_lex.getroot())
     return root_lex
@@ -197,6 +200,7 @@ def getSenses(root_lex, map):
     type = root_lex.get('type')
     senses = []
     ancora_arguments = []
+    arg_pointers = {}
     for sense_node in root_lex.findall('sense'):
         for frame_node in sense_node.iter('frame'):
             lss = frame_node.get('lss')
@@ -252,6 +256,8 @@ def getSenses(root_lex, map):
                     arg = argument_node.get('argument')
                     role = argument_node.get('thematicrole')
                     funct = argument_node.get('function')
+                    arg_pointer = "%s/%s" %(arg,role)
+                    # arg_pointers.append(arg_pointer)
                     if arg == "arg0":
                         i = 1
                     if arg is not None:
@@ -265,6 +271,8 @@ def getSenses(root_lex, map):
                     if arg_name.startswith("M"):
                         arg_name = arg_name % counter
                         counter += 1
+                    aux_dict = {arg_pointer:arg_name}
+                    arg_pointers.update(aux_dict)
                     argument_obj = Argument(arg_name, role, funct)
                     frame_obj.arguments.append(argument_obj)
                     for constituent_node in argument_node.iter('constituent'):
@@ -280,8 +288,9 @@ def getSenses(root_lex, map):
                             try:
                                 corr_name = romans_zero[corr]
                             except:
-                                if corr.startswith("argM"):
-                                    corr_name = "M%d" %counter
+                                if corr.startswith("argM") and corr in arg_pointers.keys():
+                                    # corr_name = "M%d" %counter
+                                    corr_name = arg_pointers[corr]
                                     # corr_name = romans_zero[corr]
                                 else:
                                     corr_name = corr
