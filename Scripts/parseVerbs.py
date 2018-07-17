@@ -12,6 +12,7 @@ class Sense(object):
         self.id = None
         self.type = None
         self.parent = None
+        self.lightverb = None
         self.frames = []
         self.unaxifra = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
@@ -23,6 +24,8 @@ class Sense(object):
         output += "\tanc_sense = \"%s\"\n" % self.id
         output += "\tlemma = \"%s\"\n" % self.lemma
         output += "\tanc_type = \"%s\"\n" % self.type
+        if self.lightverb:
+            output += "\tanc_lightVerb = \"%s\"\n" % self.lightverb
         for frame in self.frames:
             output += "%s\n" % frame
 
@@ -36,6 +39,7 @@ class Frame(object):
         self.pb = []
         self.ancoralexarg = []
         self.propbankarg = []
+        self.examples = []
 
     def __str__(self):
         output = "\tanc_lss = \"%s\"\n" % self.lss
@@ -56,9 +60,12 @@ class Frame(object):
         for argument in self.arguments:
             output += "%s" % argument
         output += "\t} \n"
+        if self.examples:
+            for ex in self.examples:
+                output += "\texample = {\"%s\"}\n" % ex
         output += "}\n"
-
         return output
+
 
 class Argument(object):
     def __init__(self, arg, role, funct):
@@ -190,10 +197,10 @@ lss_list = ["A21.transitive-agentive-patient","A22.transitive-agentive-theme", "
             "A12.ditransitive-causative-state","A13.ditransitive-causative-instrumental","D21.inergative-experiencer","D31.inergative-source"]
 
 romans_zero = {"arg0": "I", "0": "I" , "arg1": "II", "1": "II", "arg2": "III", "2": "III", "arg3": "IV", "3": "IV", "arg4": "V", "argM": "M%d", "arrgM": "M%d",
-           "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
+           "arm": "M%d", "argL": "L", "aer2": "aer2", "arg": "M%d"}
 
 romans_one = {"arg1": "I", "1": "I", "arg2": "II", "2": "II", "arg3": "III", "3": "III", "arg4": "IV", "argM": "M%d", "arrgM": "M%d",
-           "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
+           "arm": "M%d", "argL": "L", "aer2": "aer2", "arg": "M%d"}
 
 def getSenses(root_lex, map):
     lemma = root_lex.get('lemma')
@@ -258,7 +265,7 @@ def getSenses(root_lex, map):
                     funct = argument_node.get('function')
                     arg_pointer = "%s/%s" %(arg,role)
                     # arg_pointers.append(arg_pointer)
-                    if arg == "arg0":
+                    if arg == "arg0" or lemma == 'repatriar':
                         i = 1
                     if arg is not None:
                         if i == 1:
@@ -271,6 +278,10 @@ def getSenses(root_lex, map):
                     if arg_name.startswith("M"):
                         arg_name = arg_name % counter
                         counter += 1
+                        if lemma == 'repatriar':
+                            arg_name = 'I'
+                    if arg_name == 'argL':
+                        sense_obj.lightverb = 'yes'
                     aux_dict = {arg_pointer:arg_name}
                     arg_pointers.update(aux_dict)
                     argument_obj = Argument(arg_name, role, funct)
@@ -279,7 +290,7 @@ def getSenses(root_lex, map):
                         prep = constituent_node.get('preposition')
                         constituent_obj = Constituent(prep)
                         argument_obj.constituents.append(constituent_obj)
-                if title in map.keys() and ancora_arguments != []:
+                if title in map.keys() and ancora_arguments != [] and lemma != 'repatriar':
                     counter = 1
                     for corr in ancora_arguments:
                         if corr == "arg0" and i == 0:
@@ -309,10 +320,24 @@ def getSenses(root_lex, map):
                         frame_obj.ancoralexarg.append(corr_name)
                         if ancora_arguments[corr].startswith("M"):
                             prop_num = "arg%s" %ancora_arguments[corr]
+                            if prop_num == 'argM/LOC':
+                                prop_num = 'LOC'
                         else:
                             prop_num = "A%s" % ancora_arguments[corr]
                         frame_obj.propbankarg.append(prop_num)
+                count_ex = 0
+                for example_node in frame_node.findall('examples'):
+                    if example_node is not None:
+                        for ex in example_node.findall('example'):
+                            example = ex.text.strip()
+                            count_ex += 1
+                            frame_obj.examples.append(example)
+                            if count_ex == 10:
+                                break
+
                 sense_obj.frames.append(frame_obj)
+
+
             senses.append(sense_obj)
             sense_obj = None
     return senses
