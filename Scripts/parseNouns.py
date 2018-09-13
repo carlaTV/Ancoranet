@@ -18,23 +18,36 @@ class Sense(object):
         self.synset = None
         self.frames = []
         self.unaxifra = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        self.examples = []
+        self.extArg = None
 
     def __str__(self):
         if self.id in self.unaxifra:
-            output = "\"%s_NN_0%s\":_noun_{\n" %(self.lemma, self.id)
+            if self.extArg == True:
+                output = "\"%s_NN_0%s\":_nounExtArg_{\n" %(self.lemma, self.id)
+            else:
+                output = "\"%s_NN_0%s\":_noun_{\n" %(self.lemma, self.id)
         else:
-            output = "\"%s_NN_%s\":_noun_{\n" % (self.lemma, self.id)
-
+            if self.extArg == True:
+                output = "\"%s_NN_%s\":_nounExtArg_{\n" % (self.lemma, self.id)
+            else:
+                output = "\"%s_NN_%s\":_noun_{\n" % (self.lemma, self.id)
         output += "\tanc_sense = \"%s\"\n" % self.id
         output += "\tlemma = \"%s\"\n" % self.lemma
         # output += "\tanc_type = \"%s\"\n" % self.type
-        output += "\tdenotation = \"%s\"\n" % self.denotation
-        output += "\tlexicalized = \"%s\"\n" % self.lexicalized
+        output += "\tanc_denotation = \"%s\"\n" % self.denotation
+        output += "\tanc_lexicalized = \"%s\"\n" % self.lexicalized
 
-        output += "\torigin = \"%s_VB_0%s\"\n" % (self.verb_lemma, self.verb_sense)
-        output += "\tsynset = \"%s\"\n" % self.synset
+        output += "\tanc_originalVerb = \"%s_VB_0%s\"\n" % (self.verb_lemma, self.verb_sense)
+        if '+' in self.synset:
+            a = self.synset.replace('+','\"\n\t\t   \"')
+            output += "\twnet = \"%s\"\n" % a
+        else:
+            output += "\twnet = \"%s\"\n" % self.synset
         for frame in self.frames:
             output += "%s\n" % frame
+        for example in self.examples:
+            output += "%s" % example
         output += "}\n\n"
 
         return output.encode("utf8")
@@ -46,15 +59,18 @@ class Frame(object):
         self.type = type
         self.arguments = []
         self.specifiers = []
-
     def __str__(self):
-        output = "\ttype = \"%s\"\n" % self.type
-
-        for argument in self.arguments:
-            output += "%s" %argument
-        for specifier in self.specifiers:
-            output += "%s" %specifier
-
+        # output = "\ttype = \"%s\"\n" % self.type
+        if self.arguments:
+            output = "\tgp = { \n"
+            for argument in self.arguments:
+                output += "%s" %argument
+        # if self.specifiers:
+            for specifier in self.specifiers:
+                output += "%s" %specifier
+            output += "\t} \n"
+        else:
+            output = ""
         return output
 
 class Argument(object):
@@ -63,16 +79,11 @@ class Argument(object):
         self.role = role
         self.constituents = []
         self.count = 0
-
-
     def __str__(self):
-
-        output = "\t\targ = \"%s\"{\n" % self.arg
+        output = "\t\t%s = {\n" % self.arg
         output += "\t\t\tanc_theme = \"%s\"\n" % self.role
-
         for constituent in self.constituents:
             output += "%s" % constituent
-
         output += "\t\t}\n"
         return output
 
@@ -107,18 +118,29 @@ class Constituents_Specifiers(object):
             output = "\t\t\tspecifiers = \"%s(%s)\" \n" % (self.type, self.postype)
         return output
 
+class Examples(object):
+    def __init__(self):
+        self.examples = []
+    def __str__(self):
+        # if self.examples:
+        output = ""
+        for ex in self.examples:
+            output += "\texample = {\"%s\"}\n" % ex
+        return output
+
 
 def getRoot():
     path = '../OriginalFiles/ancora-noun-es/*.lex.xml'
     files = glob.glob(path)
     root_lex = []
-    for name in files:
+    for name in sorted(files):
         verb_lex = ET.parse(name)
         root_lex.append(verb_lex.getroot())
     return root_lex
 
-
-arg_map = {"arg0": "I", "arg1": "I", "arg2": "II", "arg3": "III", "arg4": "IV", "argM": "M%d", "arrgM": "M%d",
+extarg_map = {"arg0": "I", "arg1": "II", "arg2": "III", "arg3": "IV", "arg4": "V", "argM": "M%d", "arrgM": "M%d",
+           "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
+arg_map = {"arg1": "I", "arg2": "II", "arg3": "III", "arg4": "IV", "argM": "M%d", "arrgM": "M%d",
            "arm": "M%d", "argL": "argL", "aer2": "aer2", "arg": "arg"}
 
 def getSenses(root_lex):
@@ -126,6 +148,7 @@ def getSenses(root_lex):
     type = root_lex.get('type')
     senses = []
     for sense_node in root_lex.findall('sense'):
+        count_sense_iter = 0
         id = sense_node.get('id')
         sense_obj = Sense()
         sense_obj.lemma = lemma
@@ -150,14 +173,32 @@ def getSenses(root_lex):
                     if argument_node.tag == 'argument':
                         arg = argument_node.get('argument')
                         role = argument_node.get('thematicrole')
-
                         if arg is not None:
-                            arg_name = arg_map[arg]
+                            if count_sense_iter == 0:
+                                if arg == 'arg0':
+                                    extArg = True
+                                    sense_obj.extArg = True
+                                else:
+                                    extArg = False
+                                    sense_obj.extArg = False
+                            if count_sense_iter > 1:
+                                pass
+                            # else:
+                            #     if extArg is not True:
+                            #         extArg = False
+                            #         sense_obj.extArg = False
+                            #     else:
+                            #         extArg
+                            if extArg == True:
+                                arg_name = extarg_map[arg]
+                            else:
+                                arg_name = arg_map[arg]
                             if arg_name.startswith("M"):
                                 arg_name = arg_name % count
                                 count += 1
 
                             argument_obj = Argument(arg_name, role)
+                            count_sense_iter += 1
 
                             frame_obj.arguments.append(argument_obj)
 
@@ -179,7 +220,35 @@ def getSenses(root_lex):
                         constituent_spec_obj = Constituents_Specifiers(postype, type_spec)
                         specifier_obj.constituents.append(constituent_spec_obj)
 
+                count_ex = 0
+                example_obj = Examples()
+                for example_node in frame_node.findall('examples'):
+                    # if example_node is not None:
+                    for ex in example_node.findall('example'):
+                        if ex.text is not None:
+                            example1 = ex.text.strip()
+                            arg = ex.find('argset')
+                            try:
+                                spec = arg.find('specifier').text
+                            except:
+                                spec = ''
+                            try:
+                                head = arg.find('head').text
+                            except:
+                                head = ''
+                            try:
+                                argument = arg.find('argument').text
+                            except:
+                                argument = ''
+                            example3 = arg.tail
+                            example = example1+" "+spec+" "+head+" "+argument+" "+example3
+                            count_ex += 1
+                            example_obj.examples.append(example)
+                            if count_ex == 10:
+                                break
+
                 sense_obj.frames.append(frame_obj)
+                sense_obj.examples.append(example_obj)
 
         senses.append(sense_obj)
 

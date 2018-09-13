@@ -41,42 +41,42 @@
 
 -->
 
-<lexentry lemma="envidiar" lng="es" type="verb">
-  <sense id="1">
-    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
-      <argument argument="arg0" function="suj" thematicrole="agt"/>
-      <argument argument="arg1" function="cd" thematicrole="pat">
-        <constituent preposition="a" type="sp"/>
-      </argument>
-      <argument argument="argM" function="cc" thematicrole="adv">
-        <constituent preposition="en" type="sp"/>
-      </argument>
-      <argument argument="argM" function="cc" thematicrole="cau"/>
-      <examples>
-        <example>
-Todos los pintores envidian a Picasso en su muerte porque ahora - - desde la sepultura - - *0* parece más vivo que nunca
-        </example>
-      </examples>
-    </frame>
-    <frame lss="B22.unaccusative-passive-transitive" type="passive">
-      <argument argument="arg1" function="suj" thematicrole="pat"/>
-      <examples>
-        <example>
-ese mundo difamado , ensalzado , envidiado
-        </example>
-      </examples>
-    </frame>
-    <frame lss="A21.transitive-agentive-patient" type="benefactive">
-      <argument argument="arg0" function="suj" thematicrole="agt"/>
-      <argument argument="arg1" function="cd" thematicrole="pat">
-        <constituent preposition="a" type="sp"/>
-      </argument>
-      <argument argument="arg2" function="ci" thematicrole="ben"/>
-      <examples>
-        <example>
-una miseria que nada tiene que envidiar a la de la época zarista
-        </example>
-      </examples>
-    </frame>
-  </sense>
-</lexentry>
+    <lexentry lemma="envidiar" lng="es" type="verb">
+      <sense id="1">
+        <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+          <argument argument="arg0" function="suj" thematicrole="agt"/>
+          <argument argument="arg1" function="cd" thematicrole="pat">
+            <constituent preposition="a" type="sp"/>
+          </argument>
+          <argument argument="argM" function="cc" thematicrole="adv">
+            <constituent preposition="en" type="sp"/>
+          </argument>
+          <argument argument="argM" function="cc" thematicrole="cau"/>
+          <examples>
+            <example>
+    Todos los pintores envidian a Picasso en su muerte porque ahora - - desde la sepultura - - *0* parece más vivo que nunca
+            </example>
+          </examples>
+        </frame>
+        <frame lss="B22.unaccusative-passive-transitive" type="passive">
+          <argument argument="arg1" function="suj" thematicrole="pat"/>
+          <examples>
+            <example>
+    ese mundo difamado , ensalzado , envidiado
+            </example>
+          </examples>
+        </frame>
+        <frame lss="A21.transitive-agentive-patient" type="benefactive">
+          <argument argument="arg0" function="suj" thematicrole="agt"/>
+          <argument argument="arg1" function="cd" thematicrole="pat">
+            <constituent preposition="a" type="sp"/>
+          </argument>
+          <argument argument="arg2" function="ci" thematicrole="ben"/>
+          <examples>
+            <example>
+    una miseria que nada tiene que envidiar a la de la época zarista
+            </example>
+          </examples>
+        </frame>
+      </sense>
+    </lexentry>

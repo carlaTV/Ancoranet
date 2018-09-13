@@ -42,7 +42,7 @@ class Frame(object):
         self.pb = []
         self.ancoralexarg = []
         self.propbankarg = []
-        self.examples = []
+        # self.examples = []
 
     def __str__(self):
         output = "\tanc_lss = \"%s\"\n" % self.lss
