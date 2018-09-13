@@ -14,6 +14,7 @@ class Sense(object):
         self.parent = None
         self.lightverb = None
         self.frames = []
+        self.examples = []
         self.unaxifra = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
     def __str__(self):
@@ -21,6 +22,8 @@ class Sense(object):
             output = "\"%s_VB_0%s\":_%s_{\n" %(self.lemma, self.id, self.parent)
         else:
             output = "\"%s_VB_%s\":_%s_{\n" % (self.lemma, self.id, self.parent)
+        for example in self.examples:
+            output += "%s" %example
         output += "\tanc_sense = \"%s\"\n" % self.id
         output += "\tlemma = \"%s\"\n" % self.lemma
         output += "\tanc_type = \"%s\"\n" % self.type
@@ -60,12 +63,19 @@ class Frame(object):
         for argument in self.arguments:
             output += "%s" % argument
         output += "\t} \n"
-        if self.examples:
-            for ex in self.examples:
-                output += "\texample = {\"%s\"}\n" % ex
+
         output += "}\n"
         return output
 
+class Examples(object):
+    def __init__(self):
+        self.examples = []
+    def __str__(self):
+        # if self.examples:
+        output = ""
+        for ex in self.examples:
+            output += "\texample = {\"%s\"}\n" % ex
+        return output
 
 class Argument(object):
     def __init__(self, arg, role, funct):
@@ -326,17 +336,18 @@ def getSenses(root_lex, map):
                             prop_num = "A%s" % ancora_arguments[corr]
                         frame_obj.propbankarg.append(prop_num)
                 count_ex = 0
+                example_obj = Examples()
                 for example_node in frame_node.findall('examples'):
                     if example_node is not None:
                         for ex in example_node.findall('example'):
                             example = ex.text.strip()
                             count_ex += 1
-                            frame_obj.examples.append(example)
-                            if count_ex == 10:
-                                break
+                            example_obj.examples.append(example)
+                            # if count_ex == 10:
+                            #     break
 
                 sense_obj.frames.append(frame_obj)
-
+                sense_obj.examples.append(example_obj)
 
             senses.append(sense_obj)
             sense_obj = None
@@ -348,7 +359,7 @@ def main():
     root_ancoranet = ancoranet.getroot()
     mappings = getAncoraInfo(root_ancoranet)
     root_lex = getRoot()
-    filename = "../OutputFiles/AncoraDict_verbs.dic"
+    filename = "../OutputFiles/AncoraDict_verbs_TODOSlosejemplos.dic"
     writeOpening(filename)
     for root in root_lex:
         senses = getSenses(root, mappings)
