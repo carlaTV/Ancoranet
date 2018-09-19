@@ -11,6 +11,7 @@ class Sense(object):
         self.lemma = None
         # self.type = None
         self.id = None
+        self.cousin = None
         self.denotation = None
         self.lexicalized = None
         self.verb_lemma = None
@@ -33,6 +34,7 @@ class Sense(object):
             else:
                 output = "\"%s_NN_%s\":_noun_{\n" % (self.lemma, self.id)
         output += "\tanc_sense = \"%s\"\n" % self.id
+        output += "\tanc_cousin = \"%s\"\n" % self.cousin
         output += "\tlemma = \"%s\"\n" % self.lemma
         # output += "\tanc_type = \"%s\"\n" % self.type
         output += "\tanc_denotation = \"%s\"\n" % self.denotation
@@ -57,15 +59,16 @@ class Sense(object):
 class Frame(object):
     def __init__(self, type):
         self.type = type
+        self.plural = None
         self.arguments = []
         self.specifiers = []
     def __str__(self):
-        # output = "\ttype = \"%s\"\n" % self.type
+        output = "\tanc_diathesis = \"%s\"\n" % self.type
+        output += "\tanc_plural = \"%s\"\n" % self.plural
         if self.arguments:
-            output = "\tgp = { \n"
+            output += "\tgp = { \n"
             for argument in self.arguments:
                 output += "%s" %argument
-        # if self.specifiers:
             for specifier in self.specifiers:
                 output += "%s" %specifier
             output += "\t} \n"
@@ -93,7 +96,7 @@ class Constituent(object):
         # self.type = type
         # self.postype = postype
     def __str__(self):
-        output = "\t\t\tanc_prep = \"%s\"\n" %self.prep
+        output = "\t\t\tprep = \"%s\"\n" %self.prep
         # if self.postype is not None:
         #     output += "\t\t\tpostype = \" %s \"\n" %self.postype
         return output
@@ -103,9 +106,10 @@ class Specifiers(object):
         self.constituents= []
     def __str__(self):
         output = ""
-        for constituent in self.constituents:
-            output += "%s" % constituent
-        output += "\t\t}\n"
+        if self.constituents:
+            for constituent in self.constituents:
+                output += "%s" % constituent
+            # output += "\t\t}\n"
         return output
 
 class Constituents_Specifiers(object):
@@ -115,7 +119,7 @@ class Constituents_Specifiers(object):
     def __str__(self):
         output = ""
         if self.postype is not None:
-            output = "\t\t\tspecifiers = \"%s(%s)\" \n" % (self.type, self.postype)
+            output = "\t\tspecifiers = \"%s(%s)\" \n" % (self.type, self.postype)
         return output
 
 class Examples(object):
@@ -125,7 +129,7 @@ class Examples(object):
         # if self.examples:
         output = ""
         for ex in self.examples:
-            output += "\texample = {\"%s\"}\n" % ex
+            output += "\texample = \"%s\"\n" % ex
         return output
 
 
@@ -154,6 +158,7 @@ def getSenses(root_lex):
         sense_obj.lemma = lemma
         # sense_obj.type = type
         sense_obj.id = id
+        sense_obj.cousin = sense_node.get('cousin')
         sense_obj.denotation = sense_node.get('denotation')
         sense_obj.lexicalized = sense_node.get('lexicalized')
         sense_obj.synset = sense_node.get('wordnetsynset')
@@ -166,6 +171,7 @@ def getSenses(root_lex):
         for frame_node in sense_node:
             frame_type = frame_node.get('type')
             frame_obj = Frame(frame_type)
+            frame_obj.plural = frame_node.get('appearsinplural')
             count = 0
 
             if frame_type == 'default':
