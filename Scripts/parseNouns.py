@@ -4,6 +4,7 @@
 import xml.etree.ElementTree as ET
 import codecs
 import glob
+import string
 
 
 class Sense(object):
@@ -21,6 +22,8 @@ class Sense(object):
         self.unaxifra = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
         self.examples = []
         self.extArg = None
+        self.lextype = None
+        self.collocation = None
 
     def __str__(self):
         if self.id in self.unaxifra:
@@ -39,11 +42,14 @@ class Sense(object):
         # output += "\tanc_type = \"%s\"\n" % self.type
         output += "\tanc_denotation = \"%s\"\n" % self.denotation
         output += "\tanc_lexicalized = \"%s\"\n" % self.lexicalized
-
+        if self.collocation:
+            output += "\tanc_lextype = \"%s\"\n" % self.lextype
+            output += "\tcollocation = \"%s\"\n" % self.collocation
         output += "\tanc_originalVerb = \"%s_VB_0%s\"\n" % (self.verb_lemma, self.verb_sense)
         if '+' in self.synset:
-            a = self.synset.replace('+','\"\n\t\t   \"')
-            output += "\twnet = \"%s\"\n" % a
+            synsets = self.synset.split('+')
+            for syn in synsets:
+                output += "\twnet = \"%s\"\n" % syn
         else:
             output += "\twnet = \"%s\"\n" % self.synset
         for frame in self.frames:
@@ -69,11 +75,18 @@ class Frame(object):
             output += "\tgp = { \n"
             for argument in self.arguments:
                 output += "%s" %argument
-            for specifier in self.specifiers:
-                output += "%s" %specifier
-            output += "\t} \n"
+            if self.specifiers:
+                for specifier in self.specifiers:
+                    output += "%s" %specifier
+                output += "\t} \n"
+            else:
+                output += "\t} \n"
         else:
-            output = ""
+             if self.specifiers:
+                 for specifier in self.specifiers:
+                     output += "%s" % specifier
+             else:
+                output += ""
         return output
 
 class Argument(object):
@@ -90,7 +103,7 @@ class Argument(object):
         output += "\t\t}\n"
         return output
 
-class Constituent(object):
+class Constituent_Argument(object):
     def __init__(self, prep):
         self.prep = prep
         # self.type = type
@@ -120,6 +133,8 @@ class Constituents_Specifiers(object):
         output = ""
         if self.postype is not None:
             output = "\t\tspecifiers = \"%s(%s)\" \n" % (self.type, self.postype)
+        else:
+            output = "\t\tspecifiers = \"%s\" \n" % self.type
         return output
 
 class Examples(object):
@@ -161,8 +176,10 @@ def getSenses(root_lex):
         sense_obj.cousin = sense_node.get('cousin')
         sense_obj.denotation = sense_node.get('denotation')
         sense_obj.lexicalized = sense_node.get('lexicalized')
+        if sense_obj.lexicalized == 'yes':
+            sense_obj.lextype = sense_node.get('lexicalizationtype')
+            sense_obj.collocation = sense_node.get('alternativelemma')
         sense_obj.synset = sense_node.get('wordnetsynset')
-
         origin = sense_node.get('originlink')
 
         if origin is not None:
@@ -172,10 +189,11 @@ def getSenses(root_lex):
             frame_type = frame_node.get('type')
             frame_obj = Frame(frame_type)
             frame_obj.plural = frame_node.get('appearsinplural')
-            count = 0
+
 
             if frame_type == 'default':
                 for argument_node in frame_node:
+                    count = 0
                     if argument_node.tag == 'argument':
                         arg = argument_node.get('argument')
                         role = argument_node.get('thematicrole')
@@ -213,7 +231,7 @@ def getSenses(root_lex):
                                 # type = constituent_node.get('type')
                                 # postype = constituent_node.get('postype')
                                 if prep is not None:
-                                    constituent_obj = Constituent(prep)
+                                    constituent_obj = Constituent_Argument(prep)
                                     argument_obj.constituents.append(constituent_obj)
 
                 for specifier_node in frame_node.iter('specifiers'):
@@ -248,6 +266,7 @@ def getSenses(root_lex):
                                 argument = ''
                             example3 = arg.tail
                             example = example1+" "+spec+" "+head+" "+argument+" "+example3
+                            example = example.replace('"','\\"')
                             count_ex += 1
                             example_obj.examples.append(example)
                             if count_ex == 10:
