@@ -1,107 +1,28 @@
 lexiconAncora{
-"adaptación_NN_01":_noun_{
-	anc_sense = "1"
-	anc_cousin = "no"
-	lemma = "adaptación"
-	anc_denotation = "event"
-	anc_lexicalized = "no"
-	anc_originalVerb = "adaptar_VB_01"
-	wnet = "16:04830233"
-	anc_diathesis = "default"
-	anc_plural = "no"
-	gp = { 
-		I = {
-			anc_theme = "pat"
-			prep = "de"
-		}
-		specifiers = "determiner(article)" 
-	} 
-
-	example = "El proyecto americano es la adaptación  de la novela The_paper_boy . "
-}
-
-"adaptación_NN_02":_noun_{
+"descenso_NN_02_a":_noun_{
 	anc_sense = "2"
 	anc_cousin = "no"
-	lemma = "adaptación"
-	anc_denotation = "result"
-	anc_lexicalized = "no"
-	anc_originalVerb = "adaptar_VB_02"
-	wnet = "16:04830233"
-	anc_diathesis = "default"
-	anc_plural = "yes"
-	gp = { 
-		I = {
-			anc_theme = "tem"
-			prep = "de"
-		}
-		II = {
-			anc_theme = "efi"
-		}
-		M0 = {
-			anc_theme = "None"
-			prep = "a"
-		}
-		specifiers = "determiner(article)" 
-		specifiers = "void" 
-		specifiers = "determiner(indefinite)" 
-	} 
-
-	example = "Lo que sucede es que las adaptaciones   tenían más miga que el retoque defensivo madridista ( que , por_otra_parte , funcionó bien ) . "
-	example = "Considerada como el mayor y más extenso órgano del cuerpo humano , Ø hace posible la adaptación  al frío o al calor mediante sus mecanismos de regulación de la temperatura ( mayor o menor circulación sanguínea , pigmentación , sudoración , etcétera ) . "
-	example = "- La capacidad de  adaptación   es prácticamente ilimitada . "
-	example = "Cuando el sistema soviético se derrumbó , Occidente también adoptó esa postura ambivalente : por un lado todo eran ruinas y miseria y por el otro esperanza en una adaptación  de la nueva Rusia . "
-	example = "Aun_cuando estaba programado que esta medida fuera obligatoria a_partir_de 1_de_enero_del_2001 , transcurrido el período transitorio de  adaptación   , la dificultad de su puesta_en_práctica - - denunciada tanto por las centrales sindicales como por la patronal - - ha llevado a reconsiderar la postura del legislador , concediendo una moratoria hasta el 26_de_noviembre_del_año_2002 , sin que ello suponga un cambio del criterio sostenido ; o_sea , que se atrasa el cumplimiento de la obligación , pero no ésta desaparece . "
-	example = "Alguien debería estudiar el fenómeno , que es ampliable a otros casos de asimilación popular de adelantos tecnológicos que aquí han tenido una adaptación   . "
-	example = "La directora de la adaptación  cinematográfica ha elegido los Alcázares_de_Sevilla por su belleza . "
-}
-
-"adaptación_NN_03":_noun_{
-	anc_sense = "3"
-	anc_cousin = "no"
-	lemma = "adaptación"
+	lemma = "descenso"
 	anc_denotation = "event"
 	anc_lexicalized = "no"
-	anc_originalVerb = "adaptar_VB_02"
-	wnet = "16:09743067"
-	anc_diathesis = "default"
+	anc_originalVerb = "descender_VB_01"
+	wnet = "16:00130362"
+	anc_diathesis = "causative"
 	anc_plural = "no"
-	gp = { 
-		I = {
-			anc_theme = "tem"
-			prep = "de"
-		}
-		II = {
-			anc_theme = "efi"
-			prep = "a"
-		}
-		specifiers = "void" 
-		specifiers = "determiner(article)" 
-	} 
 
-	example = "Y en los procesos de  adaptación   , de adopción y de creación de estos quinientos años transcurridos . "
-	example = "La corrupción en la época postsoviética es la adaptación  a un capitalismo primitivo y las redes que se hicieron con el poder y constituyeron los grupos de intereses que degeneraron rápidamente en mafias tenían sus raíces en los grupos que controlaban en la época anterior los contactos con el extranjero . "
 }
 
-"adaptación_NN_04":_noun_{
-	anc_sense = "4"
+"descenso_NN_02_b":_noun_{
+	anc_sense = "2"
 	anc_cousin = "no"
-	lemma = "adaptación"
-	anc_denotation = "underspecified"
+	lemma = "descenso"
+	anc_denotation = "event"
 	anc_lexicalized = "no"
-	anc_originalVerb = "adaptar_VB_02"
-	wnet = "16:09743067"
+	anc_originalVerb = "descender_VB_01"
+	wnet = "16:00130362"
 	anc_diathesis = "default"
 	anc_plural = "no"
-	gp = { 
-		I = {
-			anc_theme = "tem"
-			prep = "de"
-		}
-		specifiers = "determiner(article)" 
-	} 
 
-	example = "\" La prueba permite dar a conocer las excelencias de nuestro clima , la adaptación  de nuestras infraestructuras para la vela , la calidad del servicio hotelero y la hospitalidad del canario \" , enfatizó Ø . "
 }
 
 }
