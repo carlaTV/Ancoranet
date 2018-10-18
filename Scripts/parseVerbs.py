@@ -59,7 +59,12 @@ class Frame(object):
             output += "\t\t}\n"
             # output += "\t gp = { \n"
             for i in range(0,len(self.ancoralexarg)):
-                output += "\t\t %s = %s \n" %(self.propbankarg[i],self.ancoralexarg[i])
+                if "/" in self.propbankarg[i]:
+                    propbank,xxx = self.propbankarg[i].split('/')
+                    # output += "\t\t %s = %s \n" %(self.propbankarg[i],self.ancoralexarg[i])
+                    output += "\t\t %s = %s \n" %(xxx,self.ancoralexarg[i])
+                else:
+                    output += "\t\t %s = %s \n" %(self.propbankarg[i],self.ancoralexarg[i])
         for argument in self.arguments:
             output += "%s" % argument
         output += "\t} \n"
@@ -74,7 +79,7 @@ class Examples(object):
         # if self.examples:
         output = ""
         for ex in self.examples:
-            output += "\texample = {\"%s\"}\n" % ex
+            output += "\texample = \"%s\"\n" % ex
         return output
 
 class Argument(object):
@@ -84,17 +89,12 @@ class Argument(object):
         self.funct = funct
         self.constituents = []
         self.count = 0
-
-
     def __str__(self):
-
         output = "\t\t %s = {\n" % self.arg
         output += "\t\t\tanc_theme = \"%s\"\n" % self.role
         output += "\t\t\tanc_funct = \"%s\"\n" % self.funct
-
         for constituent in self.constituents:
             output += "\t\t\tprep  = \"%s\"\n" % constituent
-
         output += "\t\t}\n"
         return output
 
@@ -103,7 +103,6 @@ class Constituent(object):
         self.prep = prep
     def __str__(self):
         output = "%s" % self.prep
-
         return output
 
 
@@ -149,6 +148,7 @@ def getAncoraArguments(link):
     for arglink in link:
         ancoralexarg = arglink.get('ancoralexarg')
         propbankarg = arglink.get('propbankarg')
+
 
         if ancoralexarg:
             dict_arguments = {ancoralexarg:propbankarg}
@@ -343,8 +343,8 @@ def getSenses(root_lex, map):
                             example = ex.text.strip()
                             count_ex += 1
                             example_obj.examples.append(example)
-                            # if count_ex == 10:
-                            #     break
+                            if count_ex == 10:
+                                break
 
                 sense_obj.frames.append(frame_obj)
                 sense_obj.examples.append(example_obj)
@@ -359,7 +359,7 @@ def main():
     root_ancoranet = ancoranet.getroot()
     mappings = getAncoraInfo(root_ancoranet)
     root_lex = getRoot()
-    filename = "../OutputFiles/AncoraDict_verbs_TODOSlosejemplos.dic"
+    filename = "../OutputFiles/AncoraDict_verbs_xxx.dic"
     writeOpening(filename)
     for root in root_lex:
         senses = getSenses(root, mappings)

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ancoranet lng="es">
+ <link ancoralexid="verb.actuar.1.default" propbankid="act.02">
+    <arglink ancoralexarg="argM/adv" propbankarg="1"/>
+  </link>
+  <link ancoralexid="verb.acumular.1.default" propbankid="accumulate.01">
+    <arglink ancoralexarg="argM/fin" propbankarg="M/PNC"/>
+    <verbnet file="obtain-13.5.2" class="13.5.2" member="accumulate">
+      <framenet>NA</framenet>
+      <wordnet/>
+    </verbnet>
+  </link>
+</ancoranet>

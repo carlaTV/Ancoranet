@@ -56,7 +56,7 @@ class Sense(object):
         output += "\tanc_lexicalized = \"%s\"\n" % self.lexicalized
         if self.collocation:
             output += "\tanc_lextype = \"%s\"\n" % self.lextype
-            output += "\tcollocation = \"%s\"\n" % self.collocation
+            output += "\tanc_alternativelemma = \"%s\"\n" % self.collocation
         output += "\tanc_originalVerb = \"%s_VB_0%s\"\n" % (self.verb_lemma, self.verb_sense)
         if '+' in self.synset:
             synsets = self.synset.split('+')
