@@ -116,7 +116,9 @@
       <specifiers>
         <constituent frequency="1" postype="indefinite" type="determiner"/>
       </specifiers>
-      <example file="3LB-CAST/e3-2.tbf.xml" nodepath="6.5.2.0.1.0" sentencenodepath="6">Sin_embargo , la dicotomía del a_priori formal y la materia empírica le impide , en la Critica_de_la_razón_pura , reconocer entre lo sensible y lo intelectual <argset><specifier>otra</specifier><head>distinción</head></argset> que la correspondiente a dos clases de representaciones , de_modo_que el mundo corpóreo en su totalidad no sería más_que el fenómeno en la sensibilidad del sujeto ( A,383 ) , lo que vuelve vanos sus intentos de disipar la anfibología de los conceptos de reflexión y de justificar que , en el fenómeno , las categorías subsumen efectiva realidad exterior , puesto_que la materia misma no es más_que - pura representación del psiquismo , dice ( A , 387 y 391 ) , e incluso no es más_que ¡ mera forma ! ( Die_Materie_ist_nicht_anders_-LSB- ) ( A,385 ) . </example>
+      <examples>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="6.5.2.0.1.0" sentencenodepath="6">Sin_embargo , la dicotomía del a_priori formal y la materia empírica le impide , en la Critica_de_la_razón_pura , reconocer entre lo sensible y lo intelectual <argset><specifier>otra</specifier><head>distinción</head></argset> que la correspondiente a dos clases de representaciones , de_modo_que el mundo corpóreo en su totalidad no sería más_que el fenómeno en la sensibilidad del sujeto ( A,383 ) , lo que vuelve vanos sus intentos de disipar la anfibología de los conceptos de reflexión y de justificar que , en el fenómeno , las categorías subsumen efectiva realidad exterior , puesto_que la materia misma no es más_que - pura representación del psiquismo , dice ( A , 387 y 391 ) , e incluso no es más_que ¡ mera forma ! ( Die_Materie_ist_nicht_anders_-LSB- ) ( A,385 ) . </example>
+      </examples>
     </frame>
   </sense>
 </lexentry>

@@ -146,9 +146,10 @@ class Examples(object):
     def __init__(self):
         self.examples = []
     def __str__(self):
-        output = ""
+        output = "\texamples = {\n"
         for ex in self.examples:
-            output += "\texample = \"%s\"\n" % ex
+            output += "\t\texample = \"%s\"\n" % ex
+        output += '\t}\n'
         return output
 
 
@@ -247,30 +248,28 @@ def getFrames(frame_node,count_sense_iter,sense_obj):
 def getExamples(frame_node):
     example_obj = Examples()
     count_ex = 0
-    for example_node in frame_node.findall('examples'):
-        for ex in example_node.findall('example'):
-            if ex.text is not None:
-                example1 = ex.text.strip()
-                arg = ex.find('argset')
-                try:
-                    spec = arg.find('specifier').text
-                except:
-                    spec = ''
-                try:
-                    head = arg.find('head').text
-                except:
-                    head = ''
-                try:
-                    argument = arg.find('argument').text
-                except:
-                    argument = ''
-                example3 = arg.tail
-                example = example1 + " " + spec + " " + head + " " + argument + " " + example3
-                example = example.replace('"', '\\"')
-                count_ex += 1
-                example_obj.examples.append(example)
-                if count_ex == 10:
-                    break
+    ex = ''
+    for example in frame_node.find('examples'):
+        if example.text is not None:
+            ex += example.text
+        else:
+            ex += ''
+        argset = example.find('argset')
+        for arg in argset:
+            if arg.tag == 'argument' and 'thematicrole' in arg.attrib:
+                them_role = arg.attrib['thematicrole']
+                ex += '[' + arg.text + ']-' + them_role.upper() + ' '
+            else:
+                ex += arg.text + ' '
+                if arg.tail:
+                    ex += arg.tail + ''
+        ex += argset.tail
+        example = ex.replace('"', '\\"')
+        count_ex += 1
+        example_obj.examples.append(example)
+        ex = ''
+        if count_ex == 10:
+            break
     return example_obj
 
 def parseXML(root_lex):
@@ -287,6 +286,7 @@ def parseXML(root_lex):
         for frame_node in sense_node:
             sense_obj = getSenses(sense_node, lemma)
             frame_obj = getFrames(frame_node,count_sense_iter,sense_obj)
+            print lemma
             example_obj = getExamples(frame_node)
             if countframes is not None:
                 countframes += 1
