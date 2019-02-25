@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ancoranet.iml" filepath="$PROJECT_DIR$/.idea/ancoranet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TXTfromXML.iml" filepath="$PROJECT_DIR$/.idea/TXTfromXML.iml" />
     </modules>
   </component>
 </project>
