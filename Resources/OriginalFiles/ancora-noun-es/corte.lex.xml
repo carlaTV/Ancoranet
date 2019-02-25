@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="corte" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="cortar" originlink="verb.cortar.1" wordnetsynset="16:10258725">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="7" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="S"/>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060104_5-2.tbf.xml" nodepath="0.0.2.2.1.0" sentencenodepath="0">Ruocco opinó que " <argset><specifier>un</specifier><head>corte </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">económico</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">del tamaño</argument><reference_modifiers>que está irritando a Argentina</reference_modifiers></argset>debe ser muy necesario para ellos " , pero Ø consideró que a Uruguay Ø lo va a afectar porque ese país entrará en un período recesivo . </example>
+        <example file="3LB-CAST/n1-4.tbf.xml" nodepath="1.2.4.1.0.1.1.1.1.1.1.0.0.0" sentencenodepath="1">Ø Estaban al solecito , haciendo crochet , con las páginas de una revista de <argset><head>corte </head>y confección </argset>en el bolso y las piernas , ay , varices , sobre cajas de refrescos . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="0.3.0.0" sentencenodepath="0">Unos 500 camiones realizaron esta mañana <argset><head>cortes </head><reference_modifiers>intermitentes</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la circulación</argument></argset>en la autopista A-7 Barcelona-Valencia , en la circunvalación de Valencia , dentro de la segunda jornada de protestas que mantienen los transportistas para reclamar medidas que compensen las continuas subidas del precio del gasóleo . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="3.2.4.1.0" sentencenodepath="3">Fuentes de Tráfico señalaron que a primeras horas de la mañana se produjeron <argset><specifier>dos</specifier><head>cortes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de tráfico</argument><reference_modifiers>, que provocaron retenciones de hasta 4 kilómetros en_dirección_a Alicante y de 3 kilómetros en_dirección_a Barcelona</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="7.2.2.1.0" sentencenodepath="7">Al final de los 12 asaltos , Morales y Barrera mostraban en sus respectivos rostros los efectos de la encarnizada pelea que dejó al campeón invicto con el ojo derecho semitapado y sangrando , mientras_que Barrera tenía <argset><specifier>un</specifier><head>corte </head><reference_modifiers>profundo</reference_modifiers></argset>en el pómulo izquierdo . </example>
+        <example file="CESS-CAST-A/18213_20000828.tbf.xml" nodepath="1.3.2.2.0.3.1.1.1.1.0.1.3.2.1.1.1.1.1.1.0" sentencenodepath="1">La eliminación de la candidatura española era , en opinión del Consejero , " una decisión previsible " después " de las manifestaciones de Juan_Antonio_Samaranch que calificaba la candidatura técnicamente muy buena , pero con muchas dificultades para pasar <argset><specifier>el</specifier><head>corte </head></argset>" . </example>
+        <example file="CESS-CAST-AA/2505_20001004.tbf.xml" nodepath="3.4.4.1.0" sentencenodepath="3">La policía intenta poner_en_marcha la producción de carbón en el tajo abierto de Kolubara para que no se paralice la central termo-eléctrica de Obrenovac , ya_que en buena parte de Serbia han comenzado <argset><specifier>los</specifier><head>cortes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de electricidad</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2505_20001004.tbf.xml" nodepath="4.2.0.1.1.0" sentencenodepath="4">La oposición objeta que <argset><specifier>estos</specifier><head>cortes </head></argset>no serían necesarios pero que el régimen los provoca para desprestigiar a la coalición Oposición_Democrática_de_Serbia ( DOS ) , que insiste en la victoria por mayoría absoluta de Kostunica . </example>
+        <example file="CESS-CAST-P/127_19990602.tbf.xml" nodepath="12.1.1.2.0.1.1.1.0" sentencenodepath="12">Ojo al dato : Ø tocaron 10 de <argset><specifier>los 12</specifier><head>cortes </head></argset>de su único disco y el show no se resintió . </example>
+        <example file="CESS-CAST-P/135_19991201_c.tbf.xml" nodepath="2.2.0.0" sentencenodepath="2">La cinta , estrenada el viernes , ha sufrido <argset><head>cortes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de más de dos minutos de metraje</argument></argset>. </example>
+        <example file="CESS-CAST-P/135_20000202.tbf.xml" nodepath="21.0.2.4.1.0" sentencenodepath="21">Ø Es que Ø no podría hacer <argset><specifier>un</specifier><head>corte </head><reference_modifiers>como Sumisa</reference_modifiers></argset>de otra manera ; Ø sería seguir un tópico sólo por mantener lo que se espera de mí . </example>
+        <example file="CESS-CAST-P/168_20011002.tbf.xml" nodepath="6.4.0.1.1.1.1.0" sentencenodepath="6">El espeso líquido del vino color sangre que Ø consumen se derrama , una copa se rompe y la sangre de <argset><specifier>los</specifier><head>cortes </head><reference_modifiers>producidos con el cristal</reference_modifiers></argset>se confunde con el vino por el suelo . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="4.2.1.0" sentencenodepath="4">Los expertos de la Policía_Científica han descubierto <argset><specifier>varios</specifier><head>cortes </head></argset>en la goma de la cocina del 2°_1ª del número 92 de la calle de Eduard_Toda , que propiciaron una gran fuga de gas y la posterior explosión . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="5.2.3.1.0.0" sentencenodepath="5">Los especialistas de la policía sostienen que se trata de <argset><head>cortes </head><reference_modifiers>hechos de manera " deliberada " y " recientemente "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="4.4.2.0.4.0" sentencenodepath="4">Los 128 litros que dejó el temporal entre el domingo por la mañana y la madrugada de ayer provocaron numerosos problemas en la ciudad , como <argset>inundaciones de túneles , garajes anegados y <head>cortes </head>
+            <argument argument="argM" function="cn" thematicrole="loc" type="sp">en el metro</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="42.0.0.4.1.1.1.0.0" sentencenodepath="42">La desorientación del PSC , las contradicciones con el PSOE y las iniciativas de <argset><head>corte </head><reference_modifiers>nacionalista</reference_modifiers></argset>de Pasqual_Maragall harán que éste pierda protagonismo , y Ø contrastarán con la actitud coherente del PP . </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="2.4.3.1.3.1.1.0.0.0" sentencenodepath="2">Aunque los disturbios se repitieron en los barrios habitados mayoritariamente por musulmanes , como Cañada_de_Hidum , Reina_Regente , Cabrerizas y Monte_María_Cristina , los vecinos manifestaron a este diario que no fueron atendidas sus reiteradas llamadas a comisaría para denunciar <argset><head>cortes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de carreteras</argument>y quema de contenedores </argset>. </example>
+        <example file="CESS-CAST-P/3_19991102.tbf.xml" nodepath="3.2.1.1.1.0.1.1.0.0" sentencenodepath="3">La catedral de Barcelona y su entorno padecieron una oleada de pintadas de <argset><head>corte </head><reference_modifiers>satánico</reference_modifiers></argset>en junio pasado . </example>
+        <example file="CESS-CAST-P/56_20000801_d.tbf.xml" nodepath="0.4.1.1.0" sentencenodepath="0">Calafell se queja a Fecsa por <argset><specifier>los</specifier><head>cortes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de luz</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_d.tbf.xml" nodepath="1.3.5.1.1.2.1.1" sentencenodepath="1">La asociación de empresarios y profesionales Fòrum_Calafell anunció ayer que Ø ha enviado una carta a la compañía eléctrica Fecsa-Enher para protestar " por <argset><specifier>los</specifier><reference_modifiers>reiterados</reference_modifiers><head>cortes </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de fluido</argument><reference_modifiers>que se están produciendo este verano en la localidad</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="8.3.4.1.0" sentencenodepath="8">No hubo daños personales ni materiales , aunque los médicos tuvieron que curar <argset><specifier>los</specifier><head>cortes </head><reference_modifiers>que dos pasajeros sufrieron en las manos al romper el cristal que guarda el freno de emergencia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/71_19991201_c.tbf.xml" nodepath="4.2.1.0" sentencenodepath="4">El herido , que fue atendido en el mismo centro , tenía <argset><specifier>un</specifier><head>corte </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de 12 centímetros</argument></argset>en el cuello . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="cortar" originlink="verb.cortar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="11.2.1.1.1.0.0" sentencenodepath="11">La tromba de agua fue la causa del <argset><head>corte </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de algunas carreteras locales , como la que une Alcàsser y Albal en la comarca de l'Horta_Sud y , hacia el interior , la que comunica Olocau y Bétera , que estuvo impracticable hasta el mediodía de ayer</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="hacer_la_corte" cousin="no" denotation="none" id="3" lexicalizationtype="verbal" lexicalized="yes" originlemma="cortar" originlink="verb.cortar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-4.tbf.xml" nodepath="6.3.1.0.2.1.0" sentencenodepath="6">La hembra es , por_lo_tanto , la que hace <argset><specifier>la</specifier><head>corte </head></argset>, al_contrario_de lo que sucede habitualmente . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

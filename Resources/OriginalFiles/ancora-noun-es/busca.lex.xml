@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="busca" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="buscar" originlink="verb.buscar.1" wordnetsynset="16:00604336">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="1.2.6.2.1.1.1.0.0.0" sentencenodepath="1">La defensa del financiero alega que a éste no le conviene fugarse porque existe una orden de <argset><head>busca </head>y captura </argset>de Kuwait . </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="5.3.1.4.1.3.0.1.1.0.0.0.0" sentencenodepath="5">En su escrito de apelación , los letrados Francesc_Jufresa y Antonio_Hernández-Gil destacan la " altísima probabilidad " de que se hayan adoptado órdenes de <argset><head>busca </head>y captura internacional </argset>contra De_la_Rosa por la causa penal que se le instruye en Kuwait , por lo que no le interesa salir al extranjero . </example>
+        <example file="CESS-CAST-P/63_20010501.tbf.xml" nodepath="0.0.0.1.3.3.1.0.0.0" sentencenodepath="0">GIOVANNI_OREFICI , condenado a 17 años de prisión por el caso Intelhorce y que se encuentra en <argset><head>busca </head>y captura </argset>desde el pasado viernes , está dispuesto a viajar de Italia a España , según un familiar del industrial . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="en_busca_de" cousin="no" denotation="underspecified" id="2" lexicalizationtype="prepositional" lexicalized="yes" originlemma="buscar" originlink="verb.buscar.1" wordnetsynset="16:00604336">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a22-3.tbf.xml" nodepath="4.3.1.0.0" sentencenodepath="4">Sin esperar a vestirme , Ø bajé en <argset><head>busca </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del portero del edificio , un chulo sin escrúpulos que es capaz de romperle la cabeza a quien ponga su coche en doble parada</argument></argset>. </example>
+        <example file="3LB-CAST/t3-3.tbf.xml" nodepath="12.3.1.4.1.1.1.2.3.1.0.0" sentencenodepath="12">Avisó el taxista , como cada mañana , como si Ginés conservara los ojos del primer día ante aquel estanque cotidianamente repetido cuando Ø iba en <argset><head>busca </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las migajas de sol de Maracas_Bay</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="1.0.5.2.0.0" sentencenodepath="1">Un submarinista ruso entró hoy por primera vez en el interior del " Kursk " , hundido en el Artico el 12_de_agosto pasado con 118 marinos a_bordo , en <argset><head>busca </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de restos de los tripulantes</argument></argset>, y Ø halló tres cadáveres , que ya fueron extraídos a la superficie . </example>
+        <example file="CESS-CAST-AA/21176_20000626.tbf.xml" nodepath="1.4.1.0.0" sentencenodepath="1">Sampras regresó hoy a la pista central de Wimbledon , prácticamente su hogar en los últimos años , en <argset><head>busca </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su séptimo triunfo en el All_England_Tennis_Club</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="en_busca_de" cousin="no" denotation="none" id="3" lexicalizationtype="prepositional" lexicalized="yes" originlemma="buscar" originlink="verb.buscar.1" wordnetsynset="16:00604336">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argL">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c1-4.tbf.xml" nodepath="0.0.3.5.1.0.0" sentencenodepath="0">Como el Mendicutti , superciclotímico , anda samzin deprimido desde que Ø le regañaron por su columna del pasado sándei y , para ventilarse , Ø se ha echado al monte en <argset><head>busca </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de joulin estones ( en cristiano , piedras con agujeros ) para las macetas de su livinrum</argument></argset>, yo aprovecho y Ø me pido un soldador . </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="4.0.1.0.0" sentencenodepath="4">En <argset><head>busca </head><argument argument="argL" function="cn" type="sp">de la solución a este problema</argument></argset>, desde hace algunos años se han desarrollado los polímeros metalomacrocíclicos denominados - Chich_Kebabo - o - Schaschlik - , que en castellano Ø podríamos traducir por - brocheta - . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="17.0.4.1.0.0" sentencenodepath="17">La estadounidense Marion_Jones , reina del atletismo femenino , acude a Sydney con aires de grandeza en <argset><head>busca </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de cinco oros , incluido el de longitud ,</argument></argset>pero para ello Ø tendrá la dura oposición de la otra gran aspirante , la italiana Fiona_May . </example>
+        <example file="CESS-CAST-P/141_19981202.tbf.xml" nodepath="5.2.1.1.1.1.2.3.1.0.0" sentencenodepath="5">La película narra la historia de un joven parisiense que marcha a Rumanía en <argset><head>busca </head><argument argument="argL" function="cn" type="sp">de una cantante zíngara</argument></argset>, ya_que su fallecido padre escuchaba siempre sus canciones . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="18.4.1.0.0" sentencenodepath="18">Además , Ø ha precintado todos los escombros en <argset><head>busca </head><argument argument="argL" function="cn" type="sp">de más pruebas</argument></argset>. </example>
+        <example file="CESS-CAST-P/39_20000903.tbf.xml" nodepath="5.6.1.0.0" sentencenodepath="5">La policía registra desde ayer minuciosamente en el puerto de Las_Palmas la estructura , los recovecos y las mercancías del barco en <argset><head>busca </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del alijo que supuestamente transportaba</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_a.tbf.xml" nodepath="10.2.2.1.2.1.0.0" sentencenodepath="10">Mari_Carmen_Soler , portavoz de los trabajadores , afirmó que " el papel de los empleados en <argset><head>busca </head><reference_modifiers>de soluciones</reference_modifiers></argset>ha sido fundamental " . </example>
+        <example file="CESS-CAST-P/86_20000102.tbf.xml" nodepath="9.2.4.1.1.3.1.1.2.1.0.0" sentencenodepath="9">Hay que reconocer , sin_embargo , que el ejemplo de los famosos adoptando hijos ha creado escuela , algo de lo que se beneficiarán algunos niños que andan en <argset><head>busca </head><argument argument="argL" function="cn" type="sp">de padres</argument></argset>, aunque Ø sean de los que no salen en las revistas . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

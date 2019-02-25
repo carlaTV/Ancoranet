@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="alteración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="alterar" originlink="verb.alterar.1" wordnetsynset="16:00361221">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="8.2.1.0.0.0" sentencenodepath="8">Muchas de estas reacciones químicas y cambios moleculares desembocan en <argset><head>alteraciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">metabólicas</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la célula</argument>, cambios genéticos , inhibiciones en determinadas funciones e incluso muerte celular </argset>. </example>
+        <example file="3LB-CAST/dc1-12.tbf.xml" nodepath="0.4.7.1.0.0" sentencenodepath="0">Los primeros se manifiestan en forma de lesiones apreciables en el propio individuo irradiado , mientras_que los segundos , al afectar a su material genético , se manifiestan únicamente como <argset><head>alteraciones </head><reference_modifiers>hereditarias</reference_modifiers></argset>a_través_de su descendencia . </example>
+        <example file="3LB-CAST/n1-15.tbf.xml" nodepath="10.1.4.2.1.0.1.2.3.4.0.0" sentencenodepath="10">A la entrada de - Pushestreet - , la - calle de los camellos - de Christiania , un cartel advertía a los consumidores : los fumadores de porros y de hachís tienen que ir a aprovisionarse a otra parte , concretamente a Istedgade , otro barrio de Copenhague , situado al_lado_de la estación central , donde el comercio de la - hierba - no ha sufrido <argset><head>alteración </head><specifier>alguna</specifier></argset>. </example>
+        <example file="CESS-CAST-P/104_20001201.tbf.xml" nodepath="2.3.1.2.2.1.0" sentencenodepath="2">Los autores confían en la médula como fuente potencial para tratar en humanos el Parkinson y <argset><specifier>otras</specifier><head>alteraciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">neurológicas</argument></argset>. </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="3.3.0.1.1.4.1.4.1.1.3.4.1.4.2.1.1.0" sentencenodepath="3">Esta propuesta , que debería ser refrendada por los miembros de la junta directiva de la entidad , se produce después de que la lista de Porta acusara a Millàs de " hacer trampa " por el envío de una carta a los 16.000 socios en la que se les insta a remitir la delegación de voto directamente al propio Millàs " para evitar <argset><specifier>una</specifier><head>alteración </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la línea seguida por Òmnium_Cultural desde sus inicios</argument></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="alterar" originlink="verb.alterar.1" wordnetsynset="16:00361221">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="7.0.3.0.4.2.1.1.0" sentencenodepath="7">" La tarea de mejorar y componer al país es una tarea de todos , pero si Ø apostamos desgraciadamente a la incertidumbre , a <argset><specifier>la</specifier><head>alteración </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del orden</argument></argset>, a crear sobresaltos en el trabajo , Ø me parece que estamos , los ecuatorianos , equivocados " , subrayó Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

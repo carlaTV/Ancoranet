@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reclamación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="reclamar" originlink="verb.reclamar.1" wordnetsynset="16:00686953+16:05374854">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="contra" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10242_20000816.tbf.xml" nodepath="11.3.1.1.1.4.1.1.2.2.1" sentencenodepath="11">Kennedy lanzó críticas contra los republicanos que en el Congreso se oponen a la extensión del servicio de salud para todos los estadounidenses <argset>, <specifier>una</specifier>
+            <reference_modifiers>vieja</reference_modifiers>
+            <head>reclamación </head>
+            <argument argument="arg0" thematicrole="agt" type="spec">suya</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="7.3.4.5.1.0" sentencenodepath="7">El presidente de Confederaciones_Rurales_Argentinas ( CRA ) , Manuel_Cabanellas , advirtió hoy que la huelga puede alargarse hasta la semana próxima " si el gobierno no atiende <argset><specifier>las</specifier><head>reclamaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del campo</argument></argset>" . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="20.2.4.1.1.3.4.1.0" sentencenodepath="20">La estadounidense , que comenzó como una brillante jugadora de baloncesto , vio cortada su racha en 1998 cuando , tras 38 pruebas invicta , Ø cayó en la última competición del año ante la alemana Heike_Drechsler ; y la italiana perdió el oro en Sevilla'99 por un polémico salto de Montalvo , que incluso provocó <argset><specifier>la</specifier><head>reclamación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la delegación de su país</argument></argset>. </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="8.5.2.1.1.3.2.1.1.2.3.0.1.1.0" sentencenodepath="8">En un descenso con piso muy irregular , la italiana superó a Fullana tras chocar con ella y derribarla , en una maniobra que no estuvo bien vista por la delegación española , que quiso presentar <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">reclamación </head></argset>, algo que descarta el reglamento olímpico del " mountain-bike " . </example>
+        <example file="CESS-CAST-AA/25185_20000630.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">Los 240 niños y sus monitores firmaron <argset><specifier>una</specifier><head>reclamación </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">contra Spanair</argument><reference_modifiers>en la que piden compensaciones por los perjuicios y el trato recibido</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/25185_20000630.tbf.xml" nodepath="6.0.3.1.0" sentencenodepath="6">" Los monitores hemos firmado <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">reclamación </head><reference_modifiers>conjunta</reference_modifiers><reference_modifiers>, que también firmaron los chicos y que presentaremos a abogados para estudiar una posible denuncia</reference_modifiers></argset>" , confirmó Jarabo . </example>
+        <example file="CESS-CAST-AA/5253_20001207.tbf.xml" nodepath="2.2.1.2.1.1.2.2.1.0" sentencenodepath="2">Tres jueces del foro judicial , que tiene jurisdicción sobre los casos federales de Texas , mantuvieron un dictamen previo de un tribunal de Dallas que desestimó <argset><specifier>la</specifier><head>reclamación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que Cheney no es legalmente residente del estado de Wyoming</argument></argset>. </example>
+        <example file="CESS-CAST-AA/7453_20000209.tbf.xml" nodepath="3.4.1.1.2.3.1.1.1.0" sentencenodepath="3">Puerta entre el océano Atlántico y el mar Mediterráneo , y puente entre Europa y Africa , su paso a_manos_de la corona británica " para siempre " se plasmó en el Tratado_de_Utrecht ( 1713 ) que puso_fin a la guerra , pero no a <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">reclamaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">españolas</argument></argset>. </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="17.2.0.0" sentencenodepath="17">Muchos han presentado <argset><head>reclamaciones </head></argset>ante la Conselleria_d'Indústria . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="18.3.1.1.1.1.0.0" sentencenodepath="18">La OCUC recomienda a los afectados rellenar la hoja de <argset><head>reclamaciones </head></argset>para denunciar la infracción . </example>
+        <example file="CESS-CAST-P/41_19991002.tbf.xml" nodepath="0.3.1.1" sentencenodepath="0">Marruecos ha vuelto a poner sobre la mesa <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>vieja</reference_modifiers><head>reclamación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de discutir con España la soberanía de Ceuta y Melilla</argument></argset>. </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>La</specifier><head argument="arg1" thematicrole="pat">reclamación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Kuwait</argument></argset>se fundamenta en la supuesta malversación y uso fraudulento de fondos públicos en la gestión del grupo Kuwait_Investment_Office ( KIO ) . </example>
+        <example file="CESS-CAST-P/85_20000401.tbf.xml" nodepath="12.3.2.1.1.1.0.0" sentencenodepath="12">" Ø Nos han engañado " , clamó Jordi_Ripoll , esgrimiendo el centenar de <argset><head>reclamaciones </head><reference_modifiers>cursadas por el pasaje</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="reclamar" originlink="verb.reclamar.1" wordnetsynset="16:00686953">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10242_20000816.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>La</specifier><head>reclamación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de unos servicios sanitarios que no dejen a 44 millones de personas sin cobertura</argument></argset>fue una de las reivindicaciones lanzadas esta noche por Bill_Bradley , que luchó sin éxito por la candidatura demócrata a la presidencia . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

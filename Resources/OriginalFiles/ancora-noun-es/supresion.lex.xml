@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="supresión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="suprimir" originlink="verb.suprimir.1" wordnetsynset="16:00744204">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="10.3.5.4.1.1.0" sentencenodepath="10">El sindicato alemán del sector químico IG_BCE declaró ayer que Ø aceptaría la fusión sólo si ésta no conduce a <argset><specifier>una</specifier><head>supresión </head><reference_modifiers>masiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de empleo</argument></argset>. </example>
+        <example file="CESS-CAST-P/65_20000801.tbf.xml" nodepath="5.0.1.3.3.0.4.0" sentencenodepath="5">El importe total de las obras , que suma <argset>expropiaciones , servicios y <head>supresión </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de barreras arquitectónicas</argument>
+            <argument argument="argM" function="cn" thematicrole="loc" type="sp">en la estación de Horta</argument>
+          </argset>, asciende a más de 23.000 millones de pesetas . </example>
+        <example file="CESS-CAST-P/70_20011102.tbf.xml" nodepath="2.0.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>supresión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los vuelos de Delta_Airlines a Nueva_York y Atlanta desde Barcelona</argument></argset>no es una consecuencia directa de los ataques terroristas , sino un ajuste en la programación de la compañía coincidiendo con el final de la temporada alta . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="4.2.1.0.1.0" sentencenodepath="4">La delegada de CGT , Francine_Blanche , aseguró que <argset><specifier>las</specifier><head>supresiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de empleo</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Europa</argument></argset>afectarán a 1.500 personas en Francia , 1.360 en Alemania , 549 en el Reino_Unido , 479 en Suecia , 385 en Polonia , 273 en la República_Checa , 230 en Italia , 227 en Bélgica , 219 en Suiza , 104 en Noruega , 84 en Polonia y 20 en España . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="suprimir" originlink="verb.suprimir.1" wordnetsynset="16:00744204">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="17.6.1.1.2.1.1.0" sentencenodepath="17">En los comicios , la Cámara_de_Diputados reducirá de 500 a 480 el número de escaños tras la aprobación en febrero de este año de <argset><specifier>la</specifier><head>supresión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 20 asientos de representación proporcional , uno de los dos que componen el sistema electoral nipón</argument></argset>. </example>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="3.6.1.2.1.0" sentencenodepath="3">En las próximas elecciones el hemiciclo reducirá de 500 a 480 el número de asientos tras aprobarse , en febrero , <argset><specifier>la</specifier><head>supresión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 20 escaños de representación proporcional , uno de los dos que componen el sistema electoral japonés</argument></argset>. </example>
+        <example file="CESS-CAST-A/13026_20001117.tbf.xml" nodepath="9.4.1.1.1.2.1.2.2.1.0.0.1.2.1.0.0" sentencenodepath="9">Además , Ø se comprometerán a realizar los esfuerzos necesarios para dotarse en los próximos años de medios de transporte estratégico , armas guiadas , de medios de abastecimiento de combustible en vuelo , de <argset><head>supresión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de defensas aéreas</argument></argset>, medios de defensa contra misiles tierra-tierra , y medios humanos , aéreos y satélites de espionaje . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="15.1.0.2.0.1.1.1.0" sentencenodepath="15">En la revisión del texto ahora consensuado se incluyen recomendaciones sobre <argset><specifier>la</specifier><head>supresión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del trabajo infantil y del trabajo forzado</argument></argset>y se incluyen las normas laborales fundamentales reconocidas por la Organización_Internacional_del_Trabajo ( OIT ) . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">Por_último , esta Proposición pide <argset><specifier>la</specifier><head>supresión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una serie de artículos referidos a los peajes y a las ampliaciones de los plazos de las concesiones dadas a las empresas que explotan las autopistas de peaje en España</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="suprimir" originlink="verb.suprimir.1" wordnetsynset="16:00744204">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/56_20000801_i.tbf.xml" nodepath="2.2.1.2.1.0" sentencenodepath="2">Bordes , que se ha entrevistado con representantes de hoteles , comercios , restaurantes y gasolineras , recordó que la puesta_en_marcha de la variante de la carretera N-2 , en Febrero , y <argset><specifier>la</specifier><head>supresión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de peajes para camiones</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la A-2</argument></argset>dejaron al comercio de Cervera en estado " crítico " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

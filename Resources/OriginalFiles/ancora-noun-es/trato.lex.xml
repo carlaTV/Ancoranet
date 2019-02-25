@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="trato" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="tratar" originlink="verb.tratar.4" wordnetsynset="16:05073174+16:00735754">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="contra" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="respecto_de" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="5" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="11.3.1.1.1.5.2.1.1.1.1.1.1.1.0.0" sentencenodepath="11">Por ello , Ø indicó la necesidad de que mediante el diálogo social se afronte ese problema del mercado de trabajo , partiendo de la base de una igualdad de <argset><head>trato </head></argset>entre contratos temporales e indefinidos en lo que se refiere a regulación , indemnización y coste para la empresa . </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="13.0.3.0.1.0" sentencenodepath="13">" La paralización de la licitación decidida por la comisión resolutiva supone <argset><specifier>un</specifier><head>trato </head><argument argument="argM" function="cn" thematicrole="adv" type="s.a">discriminatorio</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra quien legítimamente opta por licitar</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">, respecto_de quien decide realizar una venta directa ,</argument></argset>así_como un grave menoscabo del derecho de propiedad " , afirma la filial de Endesa_España . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="7.3.1.4.1.0.0.1.0" sentencenodepath="7">Xavier_Trias insiste en su discurso en que Cataluña necesita más recursos porque <argset><specifier>el</specifier><head>trato </head><reference_modifiers>fiscal</reference_modifiers><reference_modifiers>que recibe en la actualidad</reference_modifiers></argset>es " injusto " y Ø puede acabar dañando su competitividad , y además Ø impide al gobierno de la Generalitat ofrecer los mismos servicios que otras autonomías en_materia_de asistencia sanitaria , atención a la tercera edad o construcción de guarderías . </example>
+        <example file="CESS-CAST-AA/25185_20000630.tbf.xml" nodepath="3.2.1.2.3.0.1.1.2.1.0" sentencenodepath="3">Los 240 niños y sus monitores firmaron una reclamación contra Spanair en la que Ø piden compensaciones por los perjuicios y <argset><specifier>el</specifier><head>trato </head><reference_modifiers>recibido</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/4738_20001107.tbf.xml" nodepath="1.2.1.1.1.1.0.1.3.4.0.1.0" sentencenodepath="1">Portela considera que la respuesta de Diamantoupoulou , cuyo escrito señala que " los trabajadores de los países candidatos con un empleo legal en un Estado miembro deben recibir <argset><specifier>el mismo</specifier><head>trato </head></argset>que los nacionales de este Estado miembro por lo que se refiere a las condiciones laborales , la remuneración y el despido " , avala las tesis defendidas por la Asociación_de_Clubes . </example>
+        <example file="CESS-CAST-AA/4738_20001107.tbf.xml" nodepath="3.3.3.2.1.0.4.5.1.0" sentencenodepath="3">" Para Portela , el texto de la respuesta de la comisaria Diamantoupoulou lleva a conclusiones muy claras . Los jugadores afectados tienen derecho a las mismas condiciones laborales que los jugadores nacionales , por lo que si a un jugador nacional se le tramita la licencia y a uno de estos jugadores no , es evidente que no se les está dando <argset><specifier>el mismo</specifier><head>trato </head></argset>" . </example>
+        <example file="CESS-CAST-AA/4738_20001107.tbf.xml" nodepath="5.1.0.3.1.1.0" sentencenodepath="5">" Ellos mismos reconocen implícitamente que <argset><specifier>el</specifier><head>trato </head></argset>no es el mismo y automáticamente Ø incurren en la discriminación " , añadió el directivo catalán . </example>
+        <example file="CESS-CAST-AA/5694_20000908.tbf.xml" nodepath="8.2.1.1.1" sentencenodepath="8">Los países ricos , añadió Ø , deben aliviar las " deudas asfixiantes " de los pobres y brindar <argset><specifier>un</specifier>" <head>trato </head><argument argument="argM" function="cn" thematicrole="adv" type="s.a">preferencial y diferenciado</argument>" </argset>a los que tienen " débiles estructuras institucionales para que Ø lleven adelante reformas , como lo hizo Bolivia " a_fin_de atraer inversionistas y un mayor flujo de capitales . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="0.4.0.1.2.1.1.1" sentencenodepath="0">El presidente del Gobierno , José_María_Aznar , se comprometió hoy a promover " una ley integral " contra <argset><specifier>los</specifier><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">malos</argument><head>tratos </head></argset>y a impulsar " unidades específicas " de Policía y Guardia_Civil para atender " a mujeres , niños y adolescentes víctimas de agresiones sexuales " , que estarán integradas " principalmente por mujeres " . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="4.2.3.1.1.1.2.2.1.1.1.1.1" sentencenodepath="4">Aznar , a_su_vez , explicó a las representantes de las Asociaciones las medidas que el Gobierno_del_Partido_Popular seguirá impulsando en la próxima legislatura para prevenir y combatir la violencia de género , y Ø se comprometió a promover una ley integral que aborde la solución de <argset><specifier>los</specifier><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">malos</argument><head>tratos </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">domésticos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="5.2.1.1.1.2.0.3.3.1.0.1.0.1.1.0.1" sentencenodepath="5">El presidente anunció su disposición a establecer , en_colaboración_con las Comunidades_Autónomas , nuevas líneas de apoyo que proporcionen información , formación y asesoramiento a mujeres víctimas de <argset><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">malos</argument><head>tratos </head></argset>. </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="6.3.3.2.2.3.1.0.1.1.0.1.0.1.1.0.2.1" sentencenodepath="6">Asimismo , Aznar afirmó que el Gobierno " trabajará para adecuar a las necesidades reales las plazas en Centros_de_Acogida y en pisos tutelados " , e Ø impulsará " las unidades específicas en las Comisarías y servicios de la Guardia_Civil de atención a mujeres , niños y adolescentes víctimas de <argset>agresiones sexuales o <argument argument="argM" function="cn" thematicrole="mnr" type="s.a">malos</argument>
+            <head>tratos </head>
+          </argset>, unidades que estarán integradas principalmente por mujeres " . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="11.0.3.1.1.1.2.1.1.3.1.0.1.1.0.1" sentencenodepath="11">En la reunión , José_María_Aznar destacó el hecho de que haya muchas mujeres que no denuncian ser víctimas de <argset><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">malos</argument><head>tratos </head></argset>porque Ø no son autosuficientes e Ø insistió en que , por eso , el esfuerzo fundamental de su Gobierno está dirigido a impulsar la autonomía de las mujeres y su reinserción laboral , objetivo por el cual se han vinculado , por primera vez , las casas de acogida con la formación ocupacional . </example>
+        <example file="CESS-CAST-P/132_20010602.tbf.xml" nodepath="2.4.5.1.1.1.1" sentencenodepath="2">Anguera ofreció a Ferrer colaborar con la nueva junta , aunque éste se negó dolido por <argset><specifier>el</specifier>" <head>trato </head><reference_modifiers>duro</reference_modifiers>" <reference_modifiers>recibido de su rival</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="9.0.1.2.2.1.1.1.0.1" sentencenodepath="9">Los jueces de instrucción que investigan las denuncias por <argset><reference_modifiers>malos</reference_modifiers><head>tratos </head></argset>también aplican con mayor asiduidad y de forma cautelar la prohibición de acercamiento a la víctima . </example>
+        <example file="CESS-CAST-P/61_19991001.tbf.xml" nodepath="9.3.1.1" sentencenodepath="9">Alonso-Cuevillas también reivindicó <argset><specifier>un</specifier><reference_modifiers>mejor</reference_modifiers><head>trato </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">fiscal</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para los abogados , a quienes se les retiene el 20% de los ingresos</argument></argset>. </example>
+        <example file="CESS-CAST-P/61_19991001.tbf.xml" nodepath="13.0.0.3.1.0" sentencenodepath="13">" Ø Es <argset><specifier>un</specifier><head>trato </head><reference_modifiers>confiscatorio</reference_modifiers></argset>" , afirmó Ø , y Ø apuntó la necesidad de un pacto de Estado sobre Justicia . </example>
+        <example file="CESS-CAST-P/98_19990302.tbf.xml" nodepath="4.2.2.1.0.0" sentencenodepath="4">El pacto se firmó cuando Josep_Piqué , ex presidente de Ercros , ya era ministro y Ø ha sido calificado de <argset><head>trato </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de favor</argument></argset>por la oposición parlamentaria . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="tratar" originlink="verb.tratar.5" wordnetsynset="16:09924828">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/39_20010202.tbf.xml" nodepath="7.4.1.0" sentencenodepath="7">Pero Ø también investigamos <argset><specifier>los</specifier><head>tratos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Vladimir_Gusisnki</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">con la alcaldía de Moscú y con el Banco_Central</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="tratar" originlink="verb.tratar.6" wordnetsynset="16:00735754">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="2.0.1.1.2.1.0.0" sentencenodepath="2">A_pesar_de la teórica igualdad de <argset><head>trato </head></argset>de su compañero de equipo , el brasileño Rubens_Barrichello , que quedó demostrado en Canadá que no es así , al recibir órdenes del equipo para que Ø se mantuviera a la espalda del alemán . </example>
+        <example file="CESS-CAST-P/139_20010601.tbf.xml" nodepath="2.2.2.4.1.0" sentencenodepath="2">La medida reduce el plazo de un año y Ø busca que " Ø tengan <argset><specifier>el mismo</specifier><head>trato </head></argset>si Ø venden a una cooperativa o a cualquier empresa " , según Francesc_Reverté , presidente de la entidad . </example>
+        <example file="CESS-CAST-P/17_20000602_b.tbf.xml" nodepath="8.4.1.4.1.0" sentencenodepath="8">¿ Qué más tiene que hacer el judo para que las televisiones le den <argset><specifier>el</specifier><head>trato </head><reference_modifiers>que se merece un deporte que es y será uno de los más aclamados</reference_modifiers></argset>? . </example>
+        <example file="CESS-CAST-P/26_19990701_c.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">La sorpresa fue <argset><specifier>el</specifier><head>trato </head><reference_modifiers>recibido por_parte_de los dueños , que nos hicieron sentir como intrusos durante la estancia y , para_colmo , no cumplieron con lo pactado , ya_que incrementaron la factura en 40.000 pesetas en_concepto_de extras absurdos : aceite aliño , 600 pesetas ; un ajo , 300 ; leche biberón niño , 200 , etcétera</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/91_20010301.tbf.xml" nodepath="5.4.3.1.0" sentencenodepath="5">A las autoridades les Ø pide que Ø tengan <argset><specifier>un</specifier><head>trato </head><reference_modifiers>diligente e igualitario</reference_modifiers></argset>a la hora de informar sobre una tragedia , sin protagonismos y renunciando a declaraciones rutinarias . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="tratar" originlink="verb.tratar.8" wordnetsynset="16:05073898+16:09924828">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="5.4.5.1.2.0.1.1.0.1" sentencenodepath="5">Tras conocerse públicamente la supuesta alianza , el superintendente de Servicios_Sanitarios , Juan_Eduardo_Saldivia , informó el pasado Martes que Ø solicitará datos a Aguas_Barcelona respecto_de la existencia y contenido de <argset><reference_modifiers>dicho</reference_modifiers><head>trato </head></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="25.3.5.2.2.1.0" sentencenodepath="25">Asimismo , Ø apuntaron que , " en personas sanas sin problemas de erección , no es significativa la mejoría de la erección , pero sí la recuperación posterior , facilitando <argset><specifier>el</specifier><head>trato </head><reference_modifiers>sexual</reference_modifiers></argset>durante un periodo de tiempo muy prolongado " . </example>
+        <example file="CESS-CAST-P/85_20000401.tbf.xml" nodepath="2.2.2.0.1.0.0" sentencenodepath="2">Parte del pasaje volaba por placer , pero otros pretendían cerrar <argset><head>tratos </head><reference_modifiers>millonarios</reference_modifiers></argset>, trabajar o ser testigos en una boda . </example>
+        <example file="CESS-CAST-P/85_20000401.tbf.xml" nodepath="4.2.2.1.1" sentencenodepath="4">Así_que ni se cerró <argset><specifier>el</specifier><reference_modifiers>suculento</reference_modifiers><head>trato </head></argset>ni la testigo entregó los anillos . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

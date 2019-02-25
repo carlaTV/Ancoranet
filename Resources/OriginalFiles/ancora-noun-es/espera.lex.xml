@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="espera" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="esperar" originlink="verb.esperar.1" wordnetsynset="16:00688424">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" type="void"/>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="5.4.3.1.3.0.1.1.1.1.1.1.1.0.0" sentencenodepath="5">El secretario general de CCOO , José_María_Fidalgo , opinó hoy en Calviá ( Mallorca ) que el gasto farmacéutico " está parasitando " al gasto sanitario y evitando que se liberen recursos para acabar con las listas de <argset><head>espera </head></argset>en los centros hospitalarios . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="9.3.0.1.1.1.1.0.0" sentencenodepath="9">Por eso , Ø opinó que las listas de <argset><head>espera </head></argset>no son una " enfermedad " del sistema sanitario , sino " el síntoma de una enfermedad , que es un gasto sanitario insuficiente , mal gestionado , con objetivos no siempre priorizados con la salud de la ciudadanía " . </example>
+        <example file="3LB-CAST/d2-8.tbf.xml" nodepath="6.0.0.1.0" sentencenodepath="6"><argset><specifier>La</specifier><head>espera </head></argset>es dura y , además_de asomar la tensión de ser el líder de la carrera , le viene la idea de que Ø será atacado cuando Ø baje_la_guardia . </example>
+        <example file="3LB-CAST/t3-2.tbf.xml" nodepath="2.0.2.2.1.1.0" sentencenodepath="2">Volver a la habitación , naufragar en una soledad gris a <argset><specifier>la</specifier><head>espera </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del milagro del sol</argument></argset>, deambular por una ciudad demasiado vista , sin otro objetivo que contemplar los resultados del cruce de negra e hindú , hindú y holandés , holandés y negra , español e hindú , mulata e hindú , holandesa y mulato , todas las combinaciones raciales que según los prospectos turísticos convertían a Trinidad en un escaparate de la confusión de las razas tan espléndido como la playa de Copacabana . </example>
+        <example file="CESS-CAST-A/14353_20000618.tbf.xml" nodepath="7.2.2.2.1.1" sentencenodepath="7">" El espíritu de Inglaterra acaba con la herida que duró 34 años " , titula The_Independent , mientras_que The_Observer apunta que " <argset><specifier>la</specifier><reference_modifiers>larga</reference_modifiers><head>espera </head></argset>ha terminado " . </example>
+        <example file="CESS-CAST-AA/5498_20000307.tbf.xml" nodepath="4.0.0.7.1.1.1.0" sentencenodepath="4">El PSOE , dijo Gallego en_referencia_a la Junta , " ha aportado los fondos tarde " después de <argset><specifier>una</specifier><head>espera </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de un año</argument></argset>mientras_que el PP " aún no ha cumplido su promesa " , y Ø añadió que la situación de MRT es similar a la de Ercross , a la que el ICO le concedió 10.000 millones de pesetas para afrontar su crisis . </example>
+        <example file="CESS-CAST-P/132_20001202.tbf.xml" nodepath="4.0.1.1" sentencenodepath="4"><argset><specifier>La</specifier><reference_modifiers>larga</reference_modifiers><head>espera </head></argset>causó un gran atasco y la impaciencia de vecinos que vieron entorpecido el tráfico . </example>
+        <example file="CESS-CAST-P/21_20000601_a.tbf.xml" nodepath="6.2.1.0.1.1.0.0" sentencenodepath="6">IU está en lista de <argset><head>espera </head></argset>suspirando por un corazón nuevo . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="15.2.1.1.2.1.0.0" sentencenodepath="15">A media mañana el dinero en_efectivo se acabó y hubo un largo rato de <argset><head>espera </head></argset>. </example>
+        <example file="CESS-CAST-P/27_20020801_c.tbf.xml" nodepath="0.0.1.1.1.0.0" sentencenodepath="0">14 horas de <argset><head>espera </head></argset>en el aeropuerto de Maó . </example>
+        <example file="CESS-CAST-P/27_20020801_c.tbf.xml" nodepath="2.2.1.1.1.0.0" sentencenodepath="2">Su colofón fueron 14 horas de <argset><head>espera </head></argset>en el aeropuerto de Maó ( Menorca ) . </example>
+        <example file="CESS-CAST-P/27_20020801_c.tbf.xml" nodepath="9.0.1.1.1.1.0.0" sentencenodepath="9">Tras 12 horas de <argset><head>espera </head></argset>, el grupo tuvo un nuevo sobresalto : un retraso de dos horas en el avión y el temor a un overbooking . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="15.2.5.1.1.2.2.0.1" sentencenodepath="15">La idea de Sanitat es que , desde la puerta de acceso a urgencias , se diferencie lo que son las emergencias clásicas en un hospital - - infartos , insuficiencia coronaria , etcétera - - de las patologías respiratorias que generan <argset><reference_modifiers>largas</reference_modifiers><head>esperas </head></argset>. </example>
+        <example file="CESS-CAST-P/48_20000402.tbf.xml" nodepath="13.1.1.0" sentencenodepath="13">Sin_embargo , <argset><specifier>la</specifier><head>espera </head></argset>puede ser larga , pues la opinión generalizada entre los exiliados y expertos en temas cubanos es que sólo la muerte de Fidel_Castro desbloqueará las relaciones comerciales entre Cuba y Estados_Unidos . </example>
+        <example file="CESS-CAST-P/66_20000601.tbf.xml" nodepath="0.3.1.1.1.1.2.3.1.0.1.1.0.0" sentencenodepath="0">El PSOE denunció ayer la muerte de seis enfermos del corazón que se encontraban en lista de <argset><head>espera </head></argset>desde 1999 en el Hospital_General_de_Alicante . </example>
+        <example file="CESS-CAST-P/66_20000601.tbf.xml" nodepath="6.2.2.1.1.1.1.1.1.1.0.0" sentencenodepath="6">La ministra de Sanidad , Celia_Villalobos , recalcó ayer que la denuncia partía del PSOE y Ø lamentó que el problema de las listas de <argset><head>espera </head></argset>se utilice políticamente como arma arrojadiza entre partidos . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="14.4.1.1.1.1.2.5.1.1.0" sentencenodepath="14">Esta última , acogiendo el recurso de las compañías aseguradoras , ya había abierto un expediente contra el Gobierno italiano , que el pasado mayo había decretado la congelación de las tarifas a <argset><specifier>la</specifier><head>espera </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del veredicto de la Autoridad_Antimonopolios</argument></argset>. </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="12.0.1.1.1.1.0.0" sentencenodepath="12">Tras varios días de <argset><head>espera </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">policial</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el parque de Los_Tres_Turons</argument></argset>, aparecieron los delincuentes con uno de los automóviles denunciados . </example>
+        <example file="CESS-CAST-P/80_20000701.tbf.xml" nodepath="24.4.1.2.1.0.2.4.1.2.3.1.2.1.1.1.0.0" sentencenodepath="24">" La peatonalización - - añade Ø - - complementará el uso lúdico del pasaje " , en el que se encuentra el polideportivo Vintró , que cuenta con 3.000 abonados y una lista de <argset><head>espera </head></argset>de 2.000 . </example>
+        <example file="CESS-CAST-P/86_20000401.tbf.xml" nodepath="6.2.0.1.0" sentencenodepath="6">Las distancias son largas ; <argset><specifier>las</specifier><head>esperas </head></argset>, desesperantes . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="esperar" originlink="verb.esperar.1" wordnetsynset="16:00688424">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-1.tbf.xml" nodepath="12.2.2.1.1.0" sentencenodepath="12">Por su parte , la comunidad internacional ha condenado desde el principio la intentona golpista que encabeza Speight y países como Australia y Nueva_Zelanda , entre otros , están a <argset><specifier>la</specifier><head>espera </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que los rehenes sean liberados</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para adoptar sanciones contra Fiyi por abandonar la senda de la democracia</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

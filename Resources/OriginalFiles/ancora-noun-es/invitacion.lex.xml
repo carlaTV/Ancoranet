@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="invitación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="invitar" originlink="verb.invitar.1" wordnetsynset="16:05371036">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="1.0.0.1.1.0.0" sentencenodepath="1">Reunidos a <argset><head>invitación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del secretario de Transporte_de_EEUU , Rodney_Slater ,</argument></argset>los ministros participaron en una mesa redonda en la sede del Banco_Interamericano_de_Desarrollo ( BID ) en Washington . </example>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="6.2.4.1.3.2.1.0.1.1.1.3.4.2.0.0" sentencenodepath="6">El gobernante destacó que Ø también sostuvo otros " interesantes " encuentros en La_Habana , uno de ellos el realizado con el presidente de la Autoridad_Nacional_Palestina , Yaser_Arafat , quien podría visitar Venezuela en unos dos meses , según <argset><head>invitación </head><reference_modifiers>extendida por Chávez</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19378_20001024.tbf.xml" nodepath="0.4.1.1.2.1.0.4.1.2.0.0" sentencenodepath="0">El Príncipe_de_Asturias recibió hoy en el Palacio_de_la_Zarzuela a una nutrida representación de estudiantes de Derecho de la Universidad_de_Deusto , a los que Ø explicó el desempeño diario de sus funciones y quienes , por <argset><head>invitación </head><argument argument="arg0" thematicrole="agt" type="spec">suya</argument></argset>, visitaron a_continuación el Palacio_Real_de_Madrid . </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="2.0.4.1.0.2.5.2.3.1.0" sentencenodepath="2">" El año pasado Ø derrotamos a ejércitos extranjeros que no se atreverán a volver a atacar , excepto si Ø traen <argset><specifier>una</specifier><head>invitación </head><reference_modifiers>firmada por los enemigos internos con el pretexto de que sería la única forma de salvar nuestras vidas , cuando en_realidad sería la mejor forma de perderlas</reference_modifiers></argset>" , manifestó Milosevic , aludiendo a la oposición . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="1.4.2.1.0" sentencenodepath="1">Pese_a su nacionalismo , que pueblos vecinos de Yugoslavia consideran más peligroso que el de Slobodan_Milosevic , por ser de convicción y no de conveniencia , hoy le llueven las felicitaciones internacionales y <argset><specifier>las</specifier><head>invitaciones </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a cumbres</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6354_20000909.tbf.xml" nodepath="5.3.1.1.1.1.0.1.3.1.0" sentencenodepath="5">Tarango fue incluido en el equipo de Estados_Unidos tras la renuncia de Pete_Sampras , siete veces campeón de Wimbledon , y Jean_Michael_Gambill , que declinaron <argset><specifier>la</specifier><head>invitación </head></argset>. </example>
+        <example file="CESS-CAST-AA/8484_20000210.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">El centrocampista del Ajax Brian_Laudrup no ha aceptado <argset><specifier>la</specifier><head>invitación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del técnico de la selección danesa , el sueco Bo_Johansson ,</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">para que dispute la fase final de la Eurocopa_2000</argument></argset>. </example>
+        <example file="CESS-CAST-P/108_20000301_c.tbf.xml" nodepath="1.4.1.1.2.1.0.1.3.1.1.0" sentencenodepath="1">El tenista catalán fue eliminado por el argentino Mariano_Hood ( 7-6 , 6-4 ) en la primera ronda del torneo en el que el bicampeón de Roland_Garros jugaba con <argset><specifier>una</specifier><head>invitación </head><reference_modifiers>especial</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/25_19991202.tbf.xml" nodepath="26.3.1.1.1.0" sentencenodepath="26">Pero tantos millones pueden tener más fuerza que <argset><specifier>una</specifier><head>invitación </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a cenar</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para convencer a alguien de las virtudes del silencio</argument></argset>. </example>
+        <example file="CESS-CAST-P/25_20011102.tbf.xml" nodepath="7.0.0.1.3.1.0" sentencenodepath="7">Mubarak , que agradeció <argset><specifier>la</specifier><head>invitación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de su " hermano " Aznar</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para visitar España</argument></argset>, advirtió de que dejar por mucho tiempo el proceso de paz en su actual estado de estancamiento pude tener " gravísimas repercusiones " y " acarrear peligros para toda la región que pueden repercutir en otras regiones " . </example>
+        <example file="CESS-CAST-P/43_19990902.tbf.xml" nodepath="8.3.1.1.2.1.0.1.6.1.1.1.0" sentencenodepath="8">El Rey regresó el jueves de un viaje privado a Namibia , donde , durante dos semanas , Ø recorrió reservas animales atendiendo a <argset><specifier>una</specifier><head>invitación </head><reference_modifiers>personal</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del presidente , Sam_Nujoma</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="invitar" originlink="verb.invitar.1" wordnetsynset="16:00103904">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/15989_20001221.tbf.xml" nodepath="7.2.1.1" sentencenodepath="7">Reynolds ganó <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>primera</reference_modifiers><head>invitación </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">para participar en el " Partido_de_las_Estrellas "</argument></argset>la campaña anterior , después de obtener una marca de cinco triunfos por cero derrotas en sus primeros diez inicios como abridor . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

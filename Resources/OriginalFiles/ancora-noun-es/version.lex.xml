@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="versión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="versionar" originlink="verb.versionar.1" wordnetsynset="16:05362628+16:04497422">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="7" preposition="de" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="7" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="efi">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="17" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="demonstrative" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="2" postype="numeral" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="S"/>
+        <constituent frequency="9" type="s.a"/>
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="2.4.1.0" sentencenodepath="2">La semana pasada el Departamento_de_Justicia y los gobiernos de 17 de los 19 estados que demandaron a Microsoft en 1998 presentaron al juez <argset><specifier>una</specifier><head>versión </head><reference_modifiers>ajustada</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de sus propuestas de solución judicial , entre las que figura la división de la firma en dos compañías</argument></argset>. </example>
+        <example file="3LB-CAST/111_C-6.tbf.xml" nodepath="11.0.0.1.7.1.1.1.0" sentencenodepath="11">Guterres , quien también habló el miércoles por teléfono con Arafat para conocer <argset><specifier>la</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las dos partes</argument></argset>, manifestó a Barak que la UE quiere cooperar para relanzar el proceso de paz sobre bases fuertes , no_sólo entre Israel y los palestinos , sino_también con Siria . </example>
+        <example file="3LB-CAST/a14-2.tbf.xml" nodepath="13.3.1.0" sentencenodepath="13">- Es cierta <argset><specifier>esa</specifier><head>versión </head><reference_modifiers>cristiana y consoladora</reference_modifiers><reference_modifiers>que asegura que los sacrificios no son inútiles</reference_modifiers></argset>? </example>
+        <example file="3LB-CAST/n1-2.tbf.xml" nodepath="13.2.0.1.3.1.0" sentencenodepath="13">Diecisiete años han pasado desde entonces , y las - casitas - <argset>( <head>versión </head>
+            <reference_modifiers>caribeña</reference_modifiers>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las casas del pueblo</argument>) </argset>han ido creciendo espontáneamente en las zonas más lumpen de Nueva_York . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="5.2.2.0.1.1.1.0" sentencenodepath="5">El viceprimer ministro afirmó que " ninguna de <argset><specifier>las tres</specifier><head>versiones </head></argset>es más verosímil que la otra " , aunque así Ø descartó aparentemente hasta diez hipótesis más barajadas por la comisión , entre ellas el disparo de un torpedo por error de un buque ruso y un sabotaje . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="13.3.4.2.0" sentencenodepath="13">El almirante Vladímir_Kuroyédov , comandante de la Armada rusa , dijo antes de la reunión que aunque la hipótesis de la colisión era la más probable , la comisión analizaba <argset>" <specifier>tres</specifier>
+            <head>versiones </head>" <reference_modifiers>más</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-A/14013_20000120.tbf.xml" nodepath="2.0.3.1.0" sentencenodepath="2">Al inicio de las excavaciones se manejó <argset><specifier>la</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">periodística</argument><reference_modifiers>de que en esos ranchos podrían estar enterradas más de un centenar de personas , entre ellas 22 estadounidenses , que desaparecieron en Ciudad_Juárez entre 1993 y 1999</reference_modifiers></argset>, sin_embargo sólo fueron localizados los restos de nueve personas vinculadas con el narcotráfico . </example>
+        <example file="CESS-CAST-A/15362_20001120.tbf.xml" nodepath="2.2.1.1" sentencenodepath="2">La producción será <argset><specifier>una</specifier><reference_modifiers>nueva</reference_modifiers><head>versión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la telenovela " Vale_Todo " , de gran éxito en 1988 en Brasil y en los diferentes países en los que fue emitida con traducciones al español</argument></argset>. </example>
+        <example file="CESS-CAST-A/1587_20000703.tbf.xml" nodepath="1.0.1.1.0.4.2.0.0" sentencenodepath="1">Un reloj por el que Ronaldo habría pagado 20.000 dólares , según <argset><head>versiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">periodísticas</argument></argset>, pero que el futbolista asegura haber adquirido por 130 dólares , constituye el objeto de la investigación de la Policía_Federal . </example>
+        <example file="CESS-CAST-A/16577_20000320.tbf.xml" nodepath="0.0.3.1.1.1.1.1.1.0" sentencenodepath="0">El estadounidense , de origen mexicano , Oscar_De_La_Hoya , perdió en decisión polémica la corona de los pesos_wélter <argset>, <head>versión </head>
+            <reference_modifiers>Consejo_Mundial_de_Boxeo</reference_modifiers>, </argset>ante el puertorriqueño Félix " Tito " Trinidad y desde ayer , domingo , Ø la recuperó porque el hombre que lo derrotó dijo que Ø ya no la quería . </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="1.3.1.0.0" sentencenodepath="1">Pero Ø eludió comentar <argset><head>versiones </head><reference_modifiers>oficiosas</reference_modifiers><reference_modifiers>rusas</reference_modifiers><reference_modifiers>que vincularon su visita con negociaciones sobre la deuda de Cuba con la antigua Unión_Soviética , estimada en 22.000 millones de dólares</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="10.0.3.3.1.1.0" sentencenodepath="10">La Federación Ø parece que cree ahora en <argset><specifier>la</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Baumann</argument></argset>y su fallo le faculta para tomar la salida el domingo , en un mitin del que Ø espera conseguir la calificación para los Juegos_de_Sydney . </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">Vladímir_Navrotski , portavoz de la Flota_del_Norte , aportó <argset><specifier>otra</specifier><head>versión </head><reference_modifiers>, según la cual el buzo tuvo que detenerse , tras adentrarse seis metros , a_causa_de la insuficiente longitud del conducto que le suministraba aire</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="12.1.1.0" sentencenodepath="12">Pero <argset><specifier>ambas</specifier><head>versiones </head></argset>coincidieron inicialmente en que en la parte explorada del octavo compartimento no se hallaron restos humanos , cuando según la lista oficial en el momento de la catástrofe allí debían encontrarse siete personas , un oficial y seis marinos . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">En <argset><specifier>la</specifier><head>versión </head><reference_modifiers>final</reference_modifiers></argset>se afirma que los países se comprometen a que las empresas respeten las " materias cubiertas por las directrices " . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="8.3.1.1.1.1" sentencenodepath="8">El secretario mexicano de Comercio_e_Industria , Herminio_Blanco , advirtió , en declaraciones a la prensa que en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>anterior</reference_modifiers><head>versión </head></argset>las directrices planteaban para su país un peligro , porque Ø podían ser utilizadas por agentes exteriores para desviar las potenciales inversiones dirigidas a México hacia otros países . </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="4.0.1.0.0" sentencenodepath="4">Según <argset><head>versiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de prensa</argument></argset>, en el Palacio presidencial de Carondelet han circulado varios rumores que advierten la posibilidad de que Mahuad supuestamente renunciaría en los próximos días y Ø entregaría el poder a su vicepresidente , Gustavo_Noboa . </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="2.5.2.1.0" sentencenodepath="2">El " Kursk " , orgullo de la Flota_del_Norte , se hundió por causas no aclaradas el pasado 12_de_agosto , aunque <argset><specifier>la</specifier><head>versión </head><reference_modifiers>más verosímil</reference_modifiers><reference_modifiers>para las autoridades rusas</reference_modifiers></argset>es que el hundimiento se debió a la colisión con un submarino " asesino " extranjero . </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="9.4.1.0" sentencenodepath="9">Pese_a informes sismológicos sobre dos explosiones en el interior del " Kursk " , las autoridades rusas han mantenido firmemente <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>versión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre la colisión con un submarino extranjero</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="15.3.3.3.3.0.1.1.1.0" sentencenodepath="15">Los aparatos de detección no determinaron si hubo impacto con el casco externo o Ø fueron explosiones a_bordo , como alegó una de <argset><specifier>las</specifier><head>versiones </head><reference_modifiers>circuladas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/102_20000802.tbf.xml" nodepath="1.2.1.1.1.1.0.1.3.1.0" sentencenodepath="1">El programa de Angel_Casas cuenta con la colaboración de Andreu_Buenafuente , que hace <argset><specifier>una</specifier><head>versión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del monólogo de Joan_Capri El_casament</argument></argset>. </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">oficial</argument></argset>es que el entrenador continuará aunque se pierda en Riazor . </example>
+        <example file="CESS-CAST-P/11_20020902.tbf.xml" nodepath="3.2.0.1.0" sentencenodepath="3">Ø Arrasa ya en casi toda Europa , Latinoamérica y parte de Asia , y <argset><specifier>una</specifier><head>versión </head><argument argument="argM" function="cn" thematicrole="efi" type="s.a">spanglish</argument></argset>amenaza con convertirla en Estados_Unidos en la nueva Macarena . </example>
+        <example file="CESS-CAST-P/120_20000102.tbf.xml" nodepath="0.3.0.1.1.1.2.1.1.1.2.1.1.0" sentencenodepath="0">Un roble devastado y una inmensa luna - - el personaje principal , Lucia , es el arquetipo de la locura operística - - son dos de los elementos capitales de la escenografía imaginada por Paul_Brown para <argset><specifier>esta</specifier><head>versión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la ópera de Donizetti_Lucia_di_Lammermoor firmada por Graham_Vick</argument></argset>. </example>
+        <example file="CESS-CAST-P/120_20000102.tbf.xml" nodepath="3.1.1.2.1.0" sentencenodepath="3">Y Ø lo hace con acierto : el resultado es <argset><specifier>una</specifier><head>versión </head><reference_modifiers>estilizada , conservadora en el mejor sentido del término</reference_modifiers></argset>, y Ø permite a los cantantes concentrarse en el plano vocal sin pedirles grandes exigencias dramáticas . </example>
+        <example file="CESS-CAST-P/120_20000102.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">En <argset><specifier>esta</specifier><head>versión </head></argset>Ø , además , cuenta con una June_Anderson en plena forma que sirvió una ejemplar escena de la locura , la más esperada por los aficionados . </example>
+        <example file="CESS-CAST-P/125_19990701.tbf.xml" nodepath="2.2.2.2.1.1.1.3.1.0" sentencenodepath="2">Nunes , director experimental , que acaba de salir de un parón profesional de 16 años , ha terminado recientemente el rodaje en vídeo del largometraje Amigogima y Ø espera encontrar distribución para su película , que tendrá <argset><specifier>una</specifier><head>versión </head></argset>en 35_mm , a_partir_del próximo mes_de_septiembre . </example>
+        <example file="CESS-CAST-P/146_20001001.tbf.xml" nodepath="0.2.1.1.1.1.0" sentencenodepath="0">Eddie_McGee , un apuesto universitario de 21 años minusválido ( de niño Ø sufrió la amputación de una pierna al detectársele un tumor maligno ) , ha sido el vencedor de <argset><specifier>la</specifier><head>versión </head><reference_modifiers>para EEUU</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Big_Brother , show que durante tres meses ha emitido la CBS , aunque sin lograr crear la expectación que el concurso ha obtenido en Europa</argument></argset>. </example>
+        <example file="CESS-CAST-P/1_20000702.tbf.xml" nodepath="10.0.1.1.3.1.1" sentencenodepath="10">Este manual , del que existe <argset><specifier>la</specifier><reference_modifiers>correspondiente</reference_modifiers><head>versión </head><argument argument="argM" function="cn" thematicrole="efi" type="sp">en euskera</argument></argset>, incluye un amplio bloque donde se tratan extensamente las " raíces históricas " que la academia asegura no encontrar en los libros de texto . </example>
+        <example file="CESS-CAST-P/34_20000302.tbf.xml" nodepath="12.2.1.1.1.1.0" sentencenodepath="12">Fariños desmintió algunos extremos de <argset><specifier>la</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del policía Angel_López_Carrillo , que confesó haber marcado con un número las estancias donde estuvieron los presuntos etarras</argument></argset>. </example>
+        <example file="CESS-CAST-P/34_20000302.tbf.xml" nodepath="13.3.1.0" sentencenodepath="13">Tres guardias civiles y un policía ratificaron punto_por_punto <argset><specifier>la</specifier><head>versión </head><reference_modifiers>ofrecida por los acusados</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/64_20000401.tbf.xml" nodepath="6.0.1.1.0" sentencenodepath="6">Según <argset><specifier>la</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la agredida</argument></argset>, ella no cedió el paso a los policías porque le pareció que el coche patrulla estaba detenido . </example>
+        <example file="CESS-CAST-P/64_20000401.tbf.xml" nodepath="9.0.0.1.1.0" sentencenodepath="9">De_acuerdo_con <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>versión </head></argset>, el agente la insultó aludiendo a sus orígenes étnicos , e incluso en la grabación se le oye gritar en tono indignado : " ¿ Qué es este zoco ? Todo el mundo contra el coche " . </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="14.0.1.0" sentencenodepath="14"><argset><specifier>La</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la dirección del metro</argument></argset>es bastante más suave . </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="10.2.2.1.0" sentencenodepath="10">Peralta se encogió de hombros y Ø reiteró <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>versión </head></argset>. </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="11.3.1.1.0" sentencenodepath="11">El testimonio del ecónomo chocó en varios puntos con <argset><specifier>la</specifier><head>versión </head><reference_modifiers>que ofreció la semana pasada Javier_Valenzuela , ex delegado de Gescartera en Valladolid y ex director de Economía en la Junta_de_Castilla_y_León cuando la presidía José_María_Aznar</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/77_20010502.tbf.xml" nodepath="9.3.2.1.0" sentencenodepath="9">El bus , matrícula M-9958-TK y ocupado por 36 viajeros , fue " el peor " y " el más viejo " de todos los que salieron en la noche del Lunes de la estación de Madrid , según <argset><specifier>la</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los pasajeros , que destacaron que el vehículo partió con 20 minutos de retraso</argument></argset>. </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">Según <argset><specifier>la</specifier><head>versión </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">policial</argument></argset>, Ø ofrecieron una gran resistencia e , incluso , Ø trataron de atropellar a los policías que les cercaban . </example>
+        <example file="CESS-CAST-P/81_19991101.tbf.xml" nodepath="4.2.1.2.1.2.1.1.0" sentencenodepath="4">Ø Ha realizado dos filmes en esta línea , Oleanna , que adaptaba una de sus obras , y El_caso_Winslow <argset>, <head>versión </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una sugerente pieza del británico Terence_Rattigan</argument>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="event" id="2" lexicalized="no" originlemma="versionar" originlink="verb.versionar.1" wordnetsynset="16:04497422">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="13.0.0.1.2.1.1.1.1.0.1.1.1.1" sentencenodepath="13">La última revisión de las directrices del código - <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuya</argument><reference_modifiers>primera</reference_modifiers><head>versión </head></argset>data de 1976 - comenzó en 1998 y en ella han participado , además_de los países de la OCDE , Argentina , Brasil y Chile y Eslovaquia . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

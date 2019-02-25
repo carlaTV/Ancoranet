@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="introducción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="event" id="1" lexicalized="no" originlemma="introducir" originlink="verb.introducir.1" wordnetsynset="16:00155548+16:00153747+16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="a_partir_del" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-11.tbf.xml" nodepath="2.1.0.2.1.1.0" sentencenodepath="2">Hubo fuertes resistencias a <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>introducción </head></argset>, algunas tan pintorescas como la ley británica que exigía que delante de cada auto debía marchar un hombre con una bandera roja , si Ø era de día , o una luz del mismo color , si Ø era de noche . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="1.3.1.1.2.1.2.1.1.2.0.1.1.1.0" sentencenodepath="1">Por lo que se refiere al tipo de disciplinas que se practican en España con mayor frecuencia , el fútbol continúa siendo la principal , seguida de la natación y el ciclismo , en auge con <argset><specifier>la</specifier><head>introducción </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en los últimos años</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la bicicleta de montaña</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4018_20000706.tbf.xml" nodepath="0.3.1.1.1.1.1.0" sentencenodepath="0">La Comisión_Europea anunció hoy , jueves , su intención de proponer <argset><specifier>la</specifier><head>introducción </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, a_partir_del 2001 ,</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Totales_Admisibles_de_Capturas ( TAC )</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en las especies de profundidad</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="introducir" originlink="verb.introducir.1" wordnetsynset="16:00155548+16:05356118+16:00153747">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="13.2.2.1.0" sentencenodepath="13">Además , Subirá ha dicho que la Generalitat prevé una buena temporada turística para el próximo verano y Ø ha resaltado <argset><specifier>la</specifier><head>introducción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nuevos productos que se complementan a los ya existentes</argument></argset>. </example>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="8.3.5.2.1.0" sentencenodepath="8">En ese sentido , don Felipe_de_Borbón resaltó que en otras épocas este cometido lo realizó el arte y <argset><specifier>la</specifier><head>introducción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las corrientes artísticas que traspasaron fronteras y continentes</argument></argset>. </example>
+        <example file="CESS-CAST-P/18_19990302.tbf.xml" nodepath="7.4.4.1.0" sentencenodepath="7">¿ Ø Se imaginan a un concejal , a un diputado , a un militante de un partido expedientado por ser infiel a su mujer ? ¿ O <argset><specifier>la</specifier><head>introducción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la figura de un confesor laico</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para perdonar nuestras faltas contra el reglamento</argument></argset>? . </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="3.4.4.0.1.1.1.0" sentencenodepath="3">En su última actuación como presidente del Consejo_de_Economía , el ministro austriaco , Rudolf_Edlinger , resaltó el jueves que " el momento es idóneo para <argset><specifier>la</specifier><head>introducción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del euro</argument></argset>" , con un crecimiento sostenido , las cuentas públicas saneadas y una inflación muy baja . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

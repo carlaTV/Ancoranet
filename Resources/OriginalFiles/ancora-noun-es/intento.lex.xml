@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="intento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="intentar" originlink="verb.intentar.1" wordnetsynset="16:00503611">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+        <constituent frequency="7" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="26" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="z" type="determiner"/>
+        <constituent frequency="10" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="spec" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="5" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="6.6.7.2.3.1.0" sentencenodepath="6">Sin_embargo , la dicotomía del a_priori formal y la materia empírica le impide , en la Critica_de_la_razón_pura , reconocer entre lo sensible y lo intelectual otra distinción que la correspondiente a dos clases de representaciones , de_modo_que el mundo corpóreo en su totalidad no sería más_que el fenómeno en la sensibilidad del sujeto ( A,383 ) , lo que vuelve vanos <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>intentos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de disipar la anfibología de los conceptos de reflexión y de justificar que , en el fenómeno , las categorías subsumen efectiva realidad exterior</argument></argset>, puesto_que la materia misma no es más_que - pura representación del psiquismo , Ø dice ( A , 387 y 391 ) , e incluso no es más_que ¡ mera forma ! ( Die_Materie_ist_nicht_anders_-LSB- ) ( A,385 ) . </example>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="3.4.1.3.1.0" sentencenodepath="3">En su petición contra " Olga " , sobre la que el Tribunal parisiense dictará sentencia el próximo 15_de_marzo , la Audiencia_Nacional reclama su extradición por " asesinato terrorista , <argset><specifier>24</specifier><head>intentos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de asesinato terrorista</argument></argset>, destrozos y falsificación de matrículas " . </example>
+        <example file="CESS-CAST-A/16545_20000620.tbf.xml" nodepath="3.2.3.1.1.1.2.1.1.0" sentencenodepath="3">El jefe del Estado aseguró que la Fuerza_Aérea_Venezolana cuenta con las estrategias y medios necesarios para combatir con eficiencia al narcotráfico y frustrar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>intentos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de navegar el espacio aéreo nacional</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="5.3.2.1.0.3.1.1.2.2.1.1" sentencenodepath="5">El dirigente sostuvo que la única forma como el Gobierno puede aplicar las políticas de ajuste es con la represión , por lo que Ø coincidió con los dirigentes indígenas que denunciaron <argset><specifier>un</specifier><reference_modifiers>supuesto</reference_modifiers><head>intento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Ejecutivo</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dar un " autogolpe " de Estado</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="13.5.4.4.1.1.1" sentencenodepath="13">En_cambio , el buzo sí consiguió entreabrir la compuerta entre el octavo y noveno compartimentos , aunque algún obstáculo impidió que Ø pasara adentro en <argset><specifier>este</specifier><reference_modifiers>primer</reference_modifiers><head>intento </head></argset>, además_del mismo problema con la longitud del cable de oxígeno . </example>
+        <example file="CESS-CAST-AA/20778_20001126.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Así_pues , la falta de rivales , de atletas que les pusieran en tensión , invalidó <argset><specifier>el</specifier><head>intento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los organizadores</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de conseguir un relanzamiento del maratón de San_Sebastián a_través_de marcas de calidad</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="1.0.1.1" sentencenodepath="1"><argset><specifier>El</specifier><reference_modifiers>fallido</reference_modifiers><head>intento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del socialista Jospin</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de desmarcarse del presidente , el neogaullista Jacques_Chirac , y marcar su personalidad en la escena internacional - arena reservada al " número uno " del Estado -</argument></argset>ha hundido al primer ministro en un terreno minado . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="15.3.1.1.2.5.1.1.1" sentencenodepath="15">El incidente también beneficia a la derecha francesa , que no pierde baza en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>desesperado</reference_modifiers><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">por mejorar su imagen después del desgarro sufrido en sus filas a_raíz_de los reveses electorales</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4723_20001006.tbf.xml" nodepath="2.0.1.2.2.1.1.1.1.2.4.1.4.0.4.2.0.1" sentencenodepath="2">Una sinuosa etapa , con seis vueltas a un duro circuito , en el que la gran dificultad representaba la subida a San_Martino_in_Vignola en Vignola ( 4,1 kilómetros al 4_por_ciento desnivel ) , que resultó muy movida , con <argset><reference_modifiers>continuos</reference_modifiers><head>intentos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de escapada</argument></argset>y donde se dejó ver en varias ocasiones el español Manuel_Beltrán , del Mapei . </example>
+        <example file="CESS-CAST-AA/5671_20000708.tbf.xml" nodepath="6.0.0.1.1.0" sentencenodepath="6">Pese_a <argset><specifier>los</specifier><head>intentos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los principales ideólogos de la independencia , como Toussaint_Louverture ,</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">por construir un Estado</argument></argset>, éste se ha hecho esperar y hoy las denuncias internacionales apuntan a la existencia de un " narcoestado " en_manos_de carteles de la droga de Colombia . </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="7.6.1.1.0" sentencenodepath="7">Para contrarrestar esta campaña , Estrada ha convocado para el próximo Sábado al pueblo filipino en el parque de Rizal , el mayor de Manila , en <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de hacer_frente a las críticas</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8193_20000511.tbf.xml" nodepath="0.0.3.1.1.1.1.3.1.0" sentencenodepath="0">El diputado socialista Txiqui_Benegas confirmó hoy que las noticias respecto_a que Ø sufrió <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de atentado</argument></argset>por_parte_de ETA el pasado Lunes son ciertas , pero Ø consideró una imprudencia su difusión . </example>
+        <example file="CESS-CAST-AA/8193_20000511.tbf.xml" nodepath="2.3.1.0" sentencenodepath="2">Según informó hoy la Cadena_Ser , Benegas sufrió <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de atentado</argument></argset>por_parte_de ETA en la portería de su vivienda el pasado lunes , un día después de que la organización terrorista asesinara en Andoain a José_Luis_López_de_Lacalle . </example>
+        <example file="CESS-CAST-AA/8193_20000511.tbf.xml" nodepath="3.0.2.1.1.1.1.1.1.0" sentencenodepath="3">El diputado socialista eludió referirse a más detalles de <argset><specifier>este</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de atentado</argument></argset>, pero Ø sí admitió que uno de sus escoltas reconoció en fotografías entre los sospechosos a un presunto miembro de ETA . </example>
+        <example file="CESS-CAST-P/102_20020202.tbf.xml" nodepath="0.2.2.1.1.0" sentencenodepath="0">Gaspart y Rexach siguen hablando , tal_vez en <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de disimular su preocupación</argument></argset>, un día antes de jugarse otro gran duelo en la cumbre en Tenerife . </example>
+        <example file="CESS-CAST-P/117_19990202.tbf.xml" nodepath="24.0.2.1.0" sentencenodepath="24">Turner falló <argset><argument argument="arg0" thematicrole="agt" type="spec">sus ocho</argument><head>intentos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de triples</argument></argset>, y Scott , el otro líder del equipo , se veía impotente tras el descanso ante Anthony_Bonner , un rocoso pívot forjado en la escuela de los Knicks que dota al Tau de una terrible fuerza bajo canasta . </example>
+        <example file="CESS-CAST-P/136_20010501.tbf.xml" nodepath="1.4.1.1.0" sentencenodepath="1">El más carismático jugador rojiblanco hasta hace unos meses fue objeto el sábado por la noche de <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de agresión</argument></argset>a la salida del estadio , después de la humillante derrota ante el Murcia . </example>
+        <example file="CESS-CAST-P/179_20010401.tbf.xml" nodepath="1.0.1.0.3.1.1.0" sentencenodepath="1">Los que no comulgan con el personaje , pero agradecieron <argset><specifier>el</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de farsa costumbrista</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Torrente_,_el_brazo_tonto_de_la_ley</argument></argset>, puede que se sientan decepcionados . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">Fuentes de la investigación han señalado a este diario que <argset><specifier>el</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de suicidio</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de una vecina</argument></argset>es la causa más probable de la tragedia . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="21.0.1.0" sentencenodepath="21"><argset><specifier>OTROS</specifier><head>INTENTOS </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">DE SUICIDIO</argument></argset>. </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="22.3.1.4.1.0.0" sentencenodepath="22">Los expertos policiales han informado al juez de que la presunta responsable de la explosión tiene " bastantes antecedentes " por <argset><head>intentos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de suicidios</argument></argset>. </example>
+        <example file="CESS-CAST-P/20_20010302.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">Según los sindicatos , Juan_Jiménez_Aguilar ha fracasado en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de meter cizaña entre CCOO y UGT</argument></argset>. </example>
+        <example file="CESS-CAST-P/28_20010102.tbf.xml" nodepath="11.0.1.1.0" sentencenodepath="11">En <argset><specifier>un</specifier><head>intento </head><reference_modifiers>mediador</reference_modifiers></argset>, el representante de la política exterior y de seguridad de la Unión_Europea ( UE ) , Javier_Solana , se reunió por_separado con Barak y Arafat . </example>
+        <example file="CESS-CAST-P/35_20020501.tbf.xml" nodepath="2.4.1.2.1.1.0" sentencenodepath="2">Basayev perdió la pierna derecha en el invierno del 2000 al cruzar un campo de minas en <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de burlar el cerco de Grozni por las tropas federales rusas</argument></argset>. </example>
+        <example file="CESS-CAST-P/38_20020502.tbf.xml" nodepath="6.4.1.1.0" sentencenodepath="6">Según un comunicado de la oficina del portavoz del Ejército , los soldados rastrearon la zona ante <argset><specifier>el</specifier><head>intento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de dos palestinos</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de colocar una bomba en la cuneta para que hiciera explosión al paso de una patrulla militar</argument></argset>. </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="7.2.4.1.2.2.5.1.1" sentencenodepath="7">Los abogados de De_la_Rosa destacan : " Nuestro país es el ámbito geográfico y social donde nuestro representado está arraigado personal y familiarmente y de donde nunca , en ningún momento y situación , Ø ha hecho <argset><specifier>el</specifier><reference_modifiers>menor</reference_modifiers><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de evadirse</argument></argset>" . </example>
+        <example file="CESS-CAST-P/57_20000401_d.tbf.xml" nodepath="1.1.2.1.0" sentencenodepath="1">La Audiencia_Nacional condenó ayer a 32 años de prisión a José_Luis_Barrios y a 34 años a sus compañeros del comando Andalucía de ETA Maite_Pedrosa y Mikel_Azurmendi , por <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de atentado</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Granada</argument></argset>. </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="11.0.0.1" sentencenodepath="11"><argset><reference_modifiers>Vano</reference_modifiers><head>intento </head></argset>. </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="1.4.4.2.0.3.1.1.3.1.1.0" sentencenodepath="1">Peralta se negó a aclarar si el fondo ascendía a 30 o a 1.050 millones de pesetas , puesto_que había dos documentos que recogían cifras distintas , lo que llevó al entonces director de supervisión de la CNMV a afirmar que el arzobispado colaboraba con <argset><specifier>el</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de engaño de Gescartera</argument></argset>. </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="14.0.4.2.1.0" sentencenodepath="14">Así las cosas , el Lleida , efectivamente , tuvo el balón en su poder , Ø trianguló y Ø realizó <argset><specifier>mil y un</specifier><head>intentos </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para ganar el partido</argument></argset>, pero la realidad es que Ø dispuso de muy pocas ocasiones de gol . </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="14.4.1.1.1.1.0" sentencenodepath="14">" Ø Es demasiado difícil y hace mucho viento " , se justificó Carlos_Noguer , un experto jugador tras errar en <argset><specifier>dos</specifier><head>intentos </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="intentar" originlink="verb.intentar.1" wordnetsynset="16:00503611">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por_parte_de" type="sp"/>
+        <constituent frequency="1" preposition="por_parte_del" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-6.tbf.xml" nodepath="4.5.2.1.1" sentencenodepath="4">Clinton y Barak se reunieron hoy jueves en el hotel lisboeta donde se hospeda el primero de ellos , en <argset><specifier>un</specifier><reference_modifiers>nuevo</reference_modifiers><head>intento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por_parte_de Washington</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de hacer avanzar el proceso y lograr un acuerdo marco sobre el estatuto final de los territorios palestinos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="10.0.1.1.1" sentencenodepath="10">En <argset><specifier>el</specifier><reference_modifiers>primer</reference_modifiers><head>intento </head></argset>el buzo no logró adentrarse más de cinco metros porque su voluminosa escafandra resultó más ancha que el pasillo , al_parecer desfigurado por efectos de las misteriosas explosiones que hundieron el " Kursk " durante unas maniobras navales . </example>
+        <example file="CESS-CAST-AA/24092_20000928.tbf.xml" nodepath="4.0.3.4.1.1.0" sentencenodepath="4">" El planteamiento de la segunda pista no_sólo es un planteamiento con fundamento , sino con rigor y esencial , y ninguno de los grupos políticos vamos a bajar la guardia " en <argset><specifier>el</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que se ejecute</argument></argset>, enfatizó Ø . </example>
+        <example file="CESS-CAST-AA/8842_20000210.tbf.xml" nodepath="2.0.2.1.1.1.0.0" sentencenodepath="2">Ø Puso el ejemplo del <argset><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de compra</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por_parte_del BSCH</argument><argument argument="argM" function="cn" type="sp">de un banco portugués</argument></argset>y , aunque Ø reconoció que Ø se ha resuelto bien , Ø dijo que el servicio exterior español debe poder canalizar situaciones como esa , en las que se puso en riesgo la relación con un país vecino y socio de la UE . </example>
+        <example file="CESS-CAST-P/34_20000401.tbf.xml" nodepath="3.2.1.2.1.1.0" sentencenodepath="3">Gelman , que se entrevistó con el presidente uruguayo antes de que éste hiciera pública la noticia , ha recibido el apoyo de más de 160 intelectuales de 70 países en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de seguir las huellas de la joven</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="intentar" originlink="verb.intentar.1" wordnetsynset="16:00503611">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="8.2.1.0.0" sentencenodepath="8">La quiebra del Fondo_Nacional_de_Inversores , mayor fondo mutuo privado , que desencadenó el pánico la semana pasada a 300.000 personas , fue seguida por <argset><head>intentos </head><reference_modifiers>desestabilizadores</reference_modifiers><reference_modifiers>en el Banco_Comercial_Rumano ( BCR ) , el mayor del Estado , y en el CEC , entidad en la que seis millones de rumanos colocaron sus ahorros</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/d2-9.tbf.xml" nodepath="9.1.1.0" sentencenodepath="9">De ahí <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>intento </head><reference_modifiers>, que ya es una realidad ,</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del cambio de fechas para la disputa de la próxima edición de la Vuelta</argument></argset>. </example>
+        <example file="3LB-CAST/t3-2.tbf.xml" nodepath="1.3.1.1.2.5.1.1.1" sentencenodepath="1">Ginés volvió la cabeza hacia la recepción del hotel donde la mulata se besaba a sí misma en <argset><specifier>un</specifier><reference_modifiers>eficaz</reference_modifiers><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de repartirse el rouge de los labios , en aquella penumbra de naturaleza oscurecida que no conseguía paliar ni una entristecida luz eléctrica mañanera</argument></argset>. </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="23.2.3.1.1.0" sentencenodepath="23">El comandante de la Armada rusa , almirante Vladímir_Kuroyédov , se mostró contrario a la operación de rescate de los cadáveres y Ø abogó más_bien por <argset><specifier>el</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de izar el " Kursk " entero</argument></argset>. </example>
+        <example file="CESS-CAST-A/18733_20000223.tbf.xml" nodepath="10.5.1.1.4.1.1.2.1.1.0" sentencenodepath="10">Ese mismo día , Le_Vert también leyó a " Kantauri " las preguntas que el juez español Baltasar_Garzón le había remitido sobre los sumarios que Ø investiga , entre ellos , <argset><specifier>el</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de atentado contra el rey Juan_Carlos</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Palma_de_Mallorca</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en 1995</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="7.0.1.1.0" sentencenodepath="7">En <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">por demostrar que no se dopó</argument></argset>, Ø presentó denuncia contra desconocidos , aportando como " cuerpo del delito " varios tubos dentífricos presuntamente manipulados para que Ø diera positivo . </example>
+        <example file="CESS-CAST-AA/19996_20000726.tbf.xml" nodepath="7.2.0.1.1.1.1.1.1.1.1.0.3.3.1.1.0" sentencenodepath="7">En el mercado circularon rumores acerca_de la posibilidad de una renuncia del gobernador del Banco_de_Japón ( BOJ ) , Masaru_Hayami , muy presionado en las últimas semanas por <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de elevar ya los tipos de interés</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4216_20001107.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">En <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de humillar a sus rivales arrebatándoles su propio territorio</argument></argset>, Bush visitó en su última jornada los estados natales de Gore y el presidente Bill_Clinton - Tennessee y Arkansas , respectivamente - , en los que el resultado no está decidido . </example>
+        <example file="CESS-CAST-AA/4216_20001107.tbf.xml" nodepath="13.3.0.2.2.1.2.2.1.1.0" sentencenodepath="13">" Esta ciudad es una isla progresista en una Texas que es muy conservadora " , explicó a EFE Travis , un médico de Austin , quien duda entre votar a Al_Gore , en un sufragio que no serviría para nada , o apoyar a Ralph_Nader en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de lograr el cinco_por_ciento de votos a nivel nacional</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6552_20000810.tbf.xml" nodepath="0.4.2.1.1.3.1.1.0" sentencenodepath="0">El presidente de Indonesia , Abdurrahman_Wahid , acordó anoche traspasar sus funciones de Gobierno cotidianas a la vicepresidenta Megawati_Sukarnoputri , en una acción que los analistas consideran como <argset><specifier>un</specifier><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para defenderse del Parlamento que pretende expulsarlo del cargo</argument></argset>. </example>
+        <example file="CESS-CAST-P/28_19990602.tbf.xml" nodepath="2.2.6.1.1.2.5.1.1.0" sentencenodepath="2">Shea admitió que esos ataques " benefician indirectamente " a la guerrilla del UCK , que combate en esa zona contra los serbios en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>intento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de recuperar terreno</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

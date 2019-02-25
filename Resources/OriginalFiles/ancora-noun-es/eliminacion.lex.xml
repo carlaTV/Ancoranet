@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="eliminación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="eliminar" originlink="verb.eliminar.1" wordnetsynset="16:00251311">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/21634_20000627.tbf.xml" nodepath="4.4.1.0.1.4.1.0.1.1" sentencenodepath="4">La federación alemana , de la que él es vicepresidente , está buscando ahora un sucesor a Erich_Ribbeck , quien dimitió como seleccionador tras <argset><specifier>la</specifier><reference_modifiers>humillante</reference_modifiers><head>eliminación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de la Eurocopa</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la ronda preliminar</argument></argset>y escaso juego ofrecido por su conjunto . </example>
+        <example file="CESS-CAST-P/109_19990103.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">La sorpresa fue <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Nottingham_Forest</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">al perder en su terreno frente_al modesto Portsmouth ( 0-1 )</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="eliminar" originlink="verb.eliminar.1" wordnetsynset="16:00251311">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="contra" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="16" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="1" preposition="durante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="con_el_fin_de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="15" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13774_20000718.tbf.xml" nodepath="0.0.1.3.2.1.1.0" sentencenodepath="0">Las derrotas de Fernando_Vicente y Jacobo_Díaz en los partidos de primera ronda del torneo de Stuttgart disputados hoy , sumadas a <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Francisco_Clavet</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en la jornada anterior</argument></argset>, han dejado a la competición sin representantes españoles . </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="13.4.1.1.2.4.1.1.1.1.1.1.1" sentencenodepath="13">Sin_embargo , el tiempo pasa , los costes siguen subiendo y con ellos el malestar de la población , que el Gobierno intenta aplacar con el análisis de <argset><specifier>la</specifier><reference_modifiers>posible</reference_modifiers><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de aranceles</argument><reference_modifiers>a productos básicos</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="sp">con_el_fin_de abrir paso a la importación</argument></argset>. </example>
+        <example file="CESS-CAST-A/14713_20001219.tbf.xml" nodepath="5.3.1.3.3.1.0.0.1.1.0.1.0" sentencenodepath="5">Los ministros de Transportes también debatirán la tercera directiva de este paquete , que es la relativa a <argset><specifier>la</specifier><head>eliminación </head><reference_modifiers>progresiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los petroleros de casco único como el Erika</argument></argset>y su eliminación definitiva para el año_2015 , aunque se trata de una iniciativa que se discute todavía en el seno de la Organización_Marítima_Internacional ( OMI ) . </example>
+        <example file="CESS-CAST-A/14713_20001219.tbf.xml" nodepath="5.3.1.3.3.1.0.0.1.1.2.1.0" sentencenodepath="5">Los ministros de Transportes también debatirán la tercera directiva de este paquete , que es la relativa a la eliminación progresiva de los petroleros de casco único como el Erika y <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>eliminación </head><reference_modifiers>definitiva</reference_modifiers><argument argument="argM" function="cn" thematicrole="tmp" type="sp">para el año_2015</argument></argset>, aunque se trata de una iniciativa que se discute todavía en el seno de la Organización_Marítima_Internacional ( OMI ) . </example>
+        <example file="CESS-CAST-A/14713_20001219.tbf.xml" nodepath="6.4.1.4.2.1.0.0.1.1.1.0" sentencenodepath="6">Durante la pasada Cumbre_de_Niza , los jefes de estado o de gobierno de la UE instaron al Parlamento_Europeo y al Consejo a que Ø adoptaran , en el plazo más breve posible , las dos primeras disposiciones , así_como la relativa a <argset><specifier>la</specifier><head>eliminación </head><reference_modifiers>acelerada</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los petroleros de casco único</argument></argset>" buscando , en lo posible un acuerdo en el seno de la OMI " . </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="8.3.1.0" sentencenodepath="8">Junto_a la reducción del impuesto a la renta , el control a la evasión , que en el caso del Impuesto al Valor_Añadido ( IVA ) puede ascender a un 40_por_ciento , y al contrabando , que según algunos estudios puede ser del_orden_de 2.000 millones de dólares anuales , se prevé <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de algunas exenciones tributarias</argument></argset>. </example>
+        <example file="CESS-CAST-A/18213_20000828.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">José_Hurtado , Consejero_de_Turismo_y_Deporte de la Junta_de_Andalucía , comparó <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la candidatura de Sevilla a los JJ.00. del 2008</argument><reference_modifiers>, decidida hoy por el COI en Lausana ( Suiza )</reference_modifiers></argset>, con una carrera de fondo " en la que Ø no hemos superado ni los 400 ni los 800 metros , pero aún nos quedan los 1.500 " en_alusión_a los del 2012 . </example>
+        <example file="CESS-CAST-A/18213_20000828.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la candidatura española</argument></argset>era , en opinión del Consejero , " una decisión previsible " después " de las manifestaciones de Juan_Antonio_Samaranch que calificaba la candidatura técnicamente muy buena , pero con muchas dificultades para pasar el corte " . </example>
+        <example file="CESS-CAST-A/18213_20000828.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la candidatura española</argument></argset>, según Hurtado , " nos debe de servir de acicate , porque los Juegos_Olímpicos son un deporte y Ø tenemos que ser deportistas en pleno sentido " por lo que " Ø debemos de plantearnos este reto como una carrera de fondo , en la que la constancia , la perseverancia y el buen fondo físico es fundamental " . </example>
+        <example file="CESS-CAST-AA/21634_20000627.tbf.xml" nodepath="0.2.1.1.0" sentencenodepath="0">Franz_Beckenbauer , máximo responsable federativo para la candidatura alemana al Mundial_2006 , considera que <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su selección</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">de la Eurocopa_2000</argument></argset>no perjudica las aspiraciones de su país como posible sede de ese campeonato . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="9.0.4.3.1.1.0" sentencenodepath="9">En la misma línea , el representante de la patronal mexicana en el Comité_Consultivo_Económico_e_Industrial ( BIAC ) , Francisco_Garza , se mostró " muy satisfecho por <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ambigüedades</argument></argset>" y Ø estimó que se ha evitado el riesgo de que sindicatos estadounidenses hagan presiones desde su país para impedir que las empresas se instalen en México . </example>
+        <example file="CESS-CAST-AA/22163_20000527.tbf.xml" nodepath="4.3.3.1.3.1.1.2.2.0.0" sentencenodepath="4">El canciller boliviano , Javier_Murillo , declaró hace una semana que Ø confía en que Chile cumplirá con los acuerdos de Ottawa , de <argset><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de este tipo de minas</argument></argset>, para ratificar una voluntad de integración entre los dos países . </example>
+        <example file="CESS-CAST-AA/24699_20000229.tbf.xml" nodepath="4.3.0.1.0" sentencenodepath="4">Ana_Botella ha destacado , entre las propuestas del PP , <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las cotizaciones sociales</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">durante un periodo de dos años</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">por razón de maternidad</argument>, </argset>así_como el programa nacional de guarderías y escuelas infantiles . </example>
+        <example file="CESS-CAST-AA/3847_20000605.tbf.xml" nodepath="4.3.1.1.0" sentencenodepath="4">Squillari , que este año ha ganado el torneo de Múnich y disputado la semifinal de México , es el único argentino en liza en esta 70 edición de los internacionales de Francia tras <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de sus otros doce compatriotas</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4020_20000906.tbf.xml" nodepath="10.4.2.1.1.4.2.1.1.0" sentencenodepath="10">Hasta julio pasado , la inflación fue del 2,92_por_ciento , según la UCA , que atribuye el alza a los precios de los carburantes y de la electricidad , y a <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la exención del Impuesto_al_Valor_Agregado ( IVA ) a los productos agropecuarios y a las medicinas importadas</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8484_20000210.tbf.xml" nodepath="1.4.1.1.0" sentencenodepath="1">Brian_Laudrup renunció , junto_a su hermano Michael , a volver a jugar con la selección danesa después_de <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ésta</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">contra Brasil</argument><argument argument="argM" function="cn" thematicrole="ext" type="sn">( 3-2 )</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">, en los cuartos de final del Campeonato_del_Mundo_de_Francia`98</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8725_20000411.tbf.xml" nodepath="11.2.1.1.1.1.2.4.2.0.3.1.1.1.2.1.0" sentencenodepath="11">La Constitución aprobada bajo el régimen militar , estableció las figuras de los senadores designados y vitalicios , que representan el 22_por_ciento del total de 47 senadores que integran la Cámara_Alta , lo que es considerado " antidemocrático " por los sectores que propugnan <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>eliminación </head></argset>. </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="8.0.2.1.1.2.1.0" sentencenodepath="8">El máximo dirigente azulgrana admite la desilusión que ha supuesto <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del equipo</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Liga_de_Campeones</argument></argset>y Ø considera que la afición " tiene el derecho moral de quejarse , pero ni el club ni el presidente pueden perder la calma " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="eliminar" originlink="verb.eliminar.1" wordnetsynset="16:00251311">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/32_19981202.tbf.xml" nodepath="2.2.2.1.1.0" sentencenodepath="2">Bouchard no ha revelado cuáles son las otras , pero la lista de los politólogos comienza por <argset><specifier>la</specifier><head>eliminación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del déficit público</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">, para reforzar la confianza de los quebequeses , mayoritariamente opuestos a la secesión , en que un estado soberano resultaría viable económicamente</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

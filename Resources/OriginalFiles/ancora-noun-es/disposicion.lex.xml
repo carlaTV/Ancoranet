@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="disposición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="disponer" originlink="verb.disponer.1" wordnetsynset="16:00736489">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a1-1.tbf.xml" nodepath="7.1.0.3.0.3.1.0.0" sentencenodepath="7">En el relato el léxico se rebaja desde abstracciones posibles a realidades vitales y el conjunto tiene un aire de feria ( - Livia y Druso bajaron de las alturas como Dios les dio a entender , pero tratando de no caerse ni hacer el ridículo , porque Ø ya no eran cortesanos , sino reyes . A mitad del monte , el centurión , que aspiraba a ser generalísimo de Nerodia , puso a <argset><head>disposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los monarcas</argument></argset>a dos soldados fornidos para llevarlos en brazos y así Ø entraron en su nuevo reino que , por las subidas y bajadas , más parecía un tobogán - ) . </example>
+        <example file="3LB-CAST/dc10-2.tbf.xml" nodepath="6.3.3.1.1.0" sentencenodepath="6">Lo curioso , por otra parte , es que el sistema inmunológico humano tiene a <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>disposición </head></argset>aproximadamente un millón de tipos de anticuerpos diferentes , un gigantesco arsenal de armas , cada una de ellas específicamente adecuada para un invasor diferente . </example>
+        <example file="CESS-CAST-A/1687_20000503.tbf.xml" nodepath="2.3.1.0.0" sentencenodepath="2">En_virtud_de esta alianza , Coca-Cola pondrá a <argset><head>disposición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sus clientes</argument></argset>a_través_de sus canales de distribución en todo el mundo los servicios y productos de American_Online . </example>
+        <example file="CESS-CAST-AA/20077_20001125.tbf.xml" nodepath="1.2.2.1.1.0" sentencenodepath="1">El lateral Marc_Amargant , que está siendo una de las piezas claves en el equipo de esta temporada , será baja en este encuentro a_raíz_del golpe que Ø sufrió en la nariz en el pasado partido ante el Barcelona , mientras el resto de efectivos vallesanos estarán a <argset><specifier>la</specifier><head>disposición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Hasanefendic</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23101_20000927.tbf.xml" nodepath="2.2.2.2.0.1.1.2.1.1.0" sentencenodepath="2">" Aunque Ø todavía tengo un poco de dolor - añadió Ø - Ø lo aguanto y Ø estoy listo para ponerme este fin de semana a <argset><specifier>la</specifier><head>disposición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del entrenador</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="12.2.2.1.0.0" sentencenodepath="12">Prost corre delante de su público y Peugeot pondrá a <argset><head>disposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los pilotos , el francés Jean_Alesi y el alemán Nick_Heidfeld ,</argument></argset>la cuarta evolución del motor E20 para la sesión de clasificación del Sábado , para intentar que el equipo del cuádruple campeón del mundo pueda salir del pozo en que Ø se encuentra . </example>
+        <example file="CESS-CAST-AA/9405_20000115.tbf.xml" nodepath="8.3.1.1.4.1.1.1.1.1.0" sentencenodepath="8">Si en las tribunas Ø quedaron empatados , en el fútbol ganaron los paulistas , que tras la definición del duelo en la tanda de penaltis , quedaron con el Maracaná a <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>disposición </head></argset>pues a_la_redonda yacían vacíos los espacios que poco antes llenaron los locales . </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="2.0.0.0.1.1.1.0.1.1.0.0" sentencenodepath="2">El incremento de aviones a <argset><head>disposición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la Alianza</argument></argset>- - su número se ha duplicado respecto_al inicio del conflicto - - y la mejora de las condiciones meteorológicas permitieron que entre la tarde del Jueves y la madrugada del viernes salieran en total 600 vuelos , de los que la mayoría pudieron cumplir sus objetivos de ataque , informó el general Maroni . </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="21.2.1.0.0" sentencenodepath="21">Los tres jóvenes han pasado a <argset><head>disposición </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">judicial</argument></argset>con las pruebas recogidas en Los_Tres_Turons y el testimonio de las víctimas . </example>
+        <example file="CESS-CAST-P/78_20010201.tbf.xml" nodepath="7.3.1.1.1.4.3.2.1.0.0" sentencenodepath="7">La Delegación_del_Gobierno respondió a estas amenazas con un comunicado en el que , además_de recordar que la desobediencia es delito , Ø anuncia que Ø informará a la Fiscalía_del_Estado y Ø pondrá a <argset><head>disposición </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">judicial</argument></argset>a los instigadores de esos delitos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="disponer" originlink="verb.disponer.2" wordnetsynset="16:04423455+16:03648054">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="1.3.1.2.1.1.1.0" sentencenodepath="1">Recientemente , J._Simons ha descrito un procedimiento alternativo para conseguir <argset><specifier>una</specifier><head>disposición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de macrociclos de ftalocianinas</argument></argset>en apilamientos sin necesidad de ligandos puente . </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>Esta</specifier><head>disposición </head></argset>incrementa la interacción metal-metal o_bien entre orbitales n de los distintos macrociclos , facilitando el transporte de carga . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="0.2.1.0.1.1.1.1.0.1.1.2.1.1.0" sentencenodepath="0">Este estudio ha permitido determinar algunos de los requisitos necesarios para convertir una colección de moléculas desorganizadas en <argset><specifier>una</specifier><head>disposición </head><reference_modifiers>eléctricamente conductora</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="10.3.1.0.1.1.1.1.1.1.1.1.0" sentencenodepath="10">Además , el ideal de debilitar al_máximo nuestras inclinaciones sería lo más contrario a su afirmación de que <argset><specifier>las</specifier><head>disposiciones </head><reference_modifiers>racionales</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del hombre</argument></argset>quedarían dormidas para siempre - en su germen sin la tensión de fuerzas de la ambición , codicia , de la vanidad que rivaliza en la envidia , del apetito insaciable de posesión o de dominación . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="disponer" originlink="verb.disponer.3" wordnetsynset="16:04696462+16:00736489">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="6" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="8" preposition="a" type="sp"/>
+        <constituent frequency="2" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="6" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="11.2.3.1.0" sentencenodepath="11">Por su parte , la ministra Anna_Birulés animó a las pymes a invertir en Investigación_y_Desarrollo y Ø mostró a los empresarios presentes <argset><specifier>la</specifier><head>disposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a facilitar este camino</argument></argset>. </example>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="7.0.1.1.1.2.1.0.1.1.2.0.0" sentencenodepath="7">Las frases de que " la crisis exige una actitud positiva " y la de estar " a <argset><head>disposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del presidente Banzer</argument></argset>" , expresadas por Sánchez_de_Lozada , dieron a entender que el MNR y la coalición de Banzer entrarán en una nueva etapa de relaciones . </example>
+        <example file="3LB-CAST/c4-2.tbf.xml" nodepath="5.0.0.1.0" sentencenodepath="5"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head>disposición </head><reference_modifiers>constante</reference_modifiers><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a hacer el bien</argument></argset>, su pajolero empeño en cumplir todo tipo de normas y deberes , su respeto a la ley moral , su integridad de ánimo y recto proceder , hacen del virtuoso un lobo para el hombre . </example>
+        <example file="CESS-CAST-A/14713_20001219.tbf.xml" nodepath="6.4.1.4.0.1.1" sentencenodepath="6">Durante la pasada Cumbre_de_Niza , los jefes de estado o de gobierno de la UE instaron al Parlamento_Europeo y al Consejo a que Ø adoptaran , en el plazo más breve posible , <argset><specifier>las dos</specifier><reference_modifiers>primeras</reference_modifiers><head>disposiciones </head>, </argset>así_como la relativa a la eliminación acelerada de los petroleros de casco único " buscando , en lo posible un acuerdo en el seno de la OMI " . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="5.0.3.2.1.0.0" sentencenodepath="5">" Si en los próximos días Mas presenta su candidatura a secretario general , Ø le daré pleno apoyo y Ø estoy a <argset><head>disposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del presidente Pujol y de Mas</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">para trabajar a su lado</argument></argset>" ha afirmado Esteve . </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Rodríguez , según Arias , expresó <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>disposición </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a aprobar la legislación necesaria para permitir la reelección presidencial , prohibida desde 1969</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="11.3.1.0" sentencenodepath="11">De_Miguel expresó también <argset><specifier>la</specifier><head>disposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a aceptar una posible modificación del artículo 7 del Tratado , que recoge la opción de expulsar a un Estado por deficiencias democráticas , y al que calificó como " una bomba nuclear que no se utiliza "</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="10.0.1.1.1.0" sentencenodepath="10">Tras mostrar <argset><specifier>la</specifier><head>disposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Junta</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a crear una comisión conjunta con el consistorio para que " haya claridad en el proceso de redacción " del documento</argument></argset>, Ø refirió que los técnicos han tenido que " jugar a las siete diferencias " y Ø han encontrado cambios incluso en la parte suspendida hasta la aprobación definitiva del plan . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="5.2.1.0" sentencenodepath="5">El presidente anunció <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>disposición </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a establecer , en_colaboración_con las Comunidades_Autónomas , nuevas líneas de apoyo que proporcionen información , formación y asesoramiento a mujeres víctimas de malos tratos</argument></argset>. </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="32.3.1.1.1" sentencenodepath="32">Ø Ha llegado al momento clave en <argset><specifier>la</specifier><reference_modifiers>mejor</reference_modifiers><head>disposición </head><reference_modifiers>posible</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/118_20011202.tbf.xml" nodepath="21.3.5.1.1.0" sentencenodepath="21">" Ø Creo que Ø van a restaurar la parte de arriba que también está dañada . En_todo_caso , y aunque Ø no soy restaurador , Ø me pongo a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>disposición </head></argset>" . </example>
+        <example file="CESS-CAST-P/34_20010502.tbf.xml" nodepath="5.2.4.4.1.1.1" sentencenodepath="5">El diputado Roberto_Fuentes aseguró : " todas las leyes son perfeccionables y , si hay algún vacío , Ø estaremos en <argset><specifier>la</specifier><reference_modifiers>Mejor</reference_modifiers><head>disposición </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">para hacer los cambios necesarios</argument></argset>" . </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="19.2.2.0.4.1.0" sentencenodepath="19">La vicelehendakari , Idoia_Zenarruzabeitia , alegó que Ø no había podido desplazarse ayer a Madrid para terminar de negociar el concierto porque Ø debía intervenir en un pleno parlamentario en Vitoria , pero que Ø había expresado a Montoro <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>disposición </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a viajar una vez concluyera el debate</argument></argset>y que Ø recibió la respuesta por fax . </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="7.3.1.0" sentencenodepath="7">CCOO también mostró <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>disposición </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a flexibilizar el horario laboral</argument></argset>de_forma_que se abran las oficinas por las tardes - - iniciativa que Ø consiguió pactar con la dirección del Deutsche_Bank en España - - . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="4" lexicalized="no" originlemma="disponer" originlink="verb.disponer.3" wordnetsynset="16:03866867">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-P/46_19991202.tbf.xml" nodepath="0.2.1.2.3.1.0" sentencenodepath="0">Los obispos de Navarra y el País_Vasco han redactado un comunicado conjunto en el que Ø reiteran <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>disposición </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">a hacer cuanto esté en su mano para facilitar una salida " justa " al problema del terrorismo</argument></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="5" lexicalized="no" originlemma="disponer" originlink="verb.disponer.4" wordnetsynset="16:04919548">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="respecto_a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19811_20000427.tbf.xml" nodepath="2.2.2.5.1.1.2.0.0" sentencenodepath="2">En este sentido Ø agregó que " no parece " que el Ejecutivo vasco reaccione y Ø sugirió que al tratarse de un asunto grave " Ø puede llevar incluso a tener que considerar de aplicación <argset><head>disposiciones </head><reference_modifiers>constitucionales</reference_modifiers></argset>cuando un Gobierno autónomo no cumple con sus obligaciones " . </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="12.2.2.1.0" sentencenodepath="12">Enersis recalcó en su comunicado que Ø ha proporcionado a la comisión resolutiva toda la información que ese tribunal ha requerido y Ø manifiesta <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>disposición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a seguir colaborando en los trabajos de dicha comisión</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21717_20000327.tbf.xml" nodepath="4.2.1.1.1.0" sentencenodepath="4">El presidente explicó que con <argset><specifier>esta</specifier><head>disposición </head></argset>la directiva realista " da por finalizadas todo tipo de polémicas " para " evitar un clima de crispación en estos momentos tan complicados " . </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="4.2.1.2.1.1.0" sentencenodepath="4">El Grupo_Socialista ha presentado una enmienda específica a <argset><specifier>la</specifier><head>disposición </head><reference_modifiers>adicional</reference_modifiers><reference_modifiers>primera</reference_modifiers></argset>, que se refiere al seguimiento de las actuaciones , porque Ø no incluye a entes públicos dependientes del Ministerio_de_Fomento como el Gestor_de_Infraestructuras_Ferroviarias ( GIF ) , Aeropuertos_Españoles_y_Navegación_Aérea ( AENA ) o Puertos_del_Estado . </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="8.0.1.2.6.1.2.1.0" sentencenodepath="8">" Ø Lamentamos que la guerrilla colombiana le esté dando argumentos al gobierno de Venezuela para no aplicar <argset><specifier>una</specifier><head>disposición </head><reference_modifiers>a la que está obligado</reference_modifiers></argset>. Lo sucedido no es más_que un pretexto para mantener el incumplimiento que , en_todo_caso , Ø no ha dado señales de querer corregir " , comentó Ramírez . </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="8.3.2.1.0" sentencenodepath="8">Sus males comenzaron a aflorar en 1999 , al_tiempo_que <argset><specifier>las</specifier><head>disposiciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Conselleria_d_'_Ensenyament</argument></argset>promovían el aumento del tiempo invertido en ampliar o reforzar los contenidos de Lengua_y_Literatura , Idioma_Extranjero , Ciencias_Sociales y Matemáticas . </example>
+        <example file="CESS-CAST-P/27_19981202.tbf.xml" nodepath="5.3.3.2.0.1.1.2.0" sentencenodepath="5">El subsecretario del Interior , Belisario_Velasco , anunció ayer que cualquier reorganización de Patria_y_Libertad estaría " fuera de la ley " y Ø sería objeto de <argset>" <specifier>todas las</specifier>
+            <head>disposiciones </head>
+            <reference_modifiers>legales</reference_modifiers>" </argset>. </example>
+        <example file="CESS-CAST-P/87_19990701.tbf.xml" nodepath="1.4.1.1.2.3.1.1.2.1.1.1.0" sentencenodepath="1">En caso de desestimarse esas demandas , el sumario de instrucción será comunicado por los jueces a la fiscalía de París , que dispone de un plazo de tres meses para tomar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>disposiciones </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">respecto_a un eventual proceso ante el Tribunal_Correccional_de_París</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="a_disposición_de" cousin="no" denotation="none" id="6" lexicalizationtype="prepositional" lexicalized="yes" originlemma="disponer" originlink="verb.disponer.3" wordnetsynset="16:04046475">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/11099_20000915.tbf.xml" nodepath="7.2.1.1.1.0.2.4.2.2.2.1.1.0.0" sentencenodepath="7">Mikako_Kotani , medallista olímpica y componente de la Ejecutiva_del_OBC , natural de Tokio pero cuya madre es de Osaka , ensalzó la amabilidad del pueblo de esta ciudad , que " adora el deporte " y tiene " un gran deseo de amistad " , al_margen_de " mucha energía a <argset><head>disposición </head><argument argument="argL" function="cn" type="sp">de los Juegos</argument></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="estar_a_disposición" cousin="no" denotation="none" id="7" lexicalizationtype="verbal" lexicalized="yes" originlemma="disponer" originlink="verb.disponer.3" wordnetsynset="16:04046475">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="7.4.1.0.0" sentencenodepath="7">Una_vez_que Ø conozcan el contenido del acuerdo de venta , señaló Ø , los sindicatos estarán en <argset><head>disposición </head><argument argument="argL" function="cn" type="sp">de dar una respuesta</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="poner_a_disposición_de" cousin="no" denotation="none" id="8" lexicalizationtype="verbal" lexicalized="yes" originlemma="disponer" originlink="verb.disponer.3" wordnetsynset="16:04046475">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/118_20011202.tbf.xml" nodepath="2.2.3.1.0.0" sentencenodepath="2">Oliveras guarda los plafones inferiores de la placa , perdidos en el laberinto de la burocracia municipal , y Ø los pone a <argset><head>disposición </head><argument argument="argL" function="cn" type="sp">de los justicieros</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="suspensión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="suspender" originlink="verb.suspender.1" wordnetsynset="16:10969750">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="a_fin_de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="11" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="4.1.3.2.4.1.0.0" sentencenodepath="4">En ataque , consiguiendo a_la_vez que todos los hombres mirasen a la canasta , que no sólo Fred_Roberts encestase <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>suspensiones </head>y triples </argset>, y que se crease algo parecido a un ataque interior para equilibrar las cosas contra Sabas y hacerle cometer faltas . </example>
+        <example file="CESS-CAST-A/10080_20000914.tbf.xml" nodepath="1.0.1.3.4.1.1.1.1.1.0" sentencenodepath="1">" Ø Ha hecho muy pocas competiciones porque la IAAF tomó muy tarde la decisión de levantarle <argset><specifier>la</specifier><head>suspensión </head></argset>, pero sus entrenamientos han sido buenos aunque sus últimas marcas no lo hayan sido y Ø está en condiciones de ganar aquí " , comentó De_la_Torre . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="0.0.4.1.1.0" sentencenodepath="0">El jefe del Gobierno bávaro , Edmund_Stoiber , se pronunció hoy por <argset><specifier>una</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los fondos de cohesión para países como España</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">, a_fin_de poder financiar la ampliación de la UE al Este</argument></argset>, y Ø reiteró que convendría consultar al pueblo sobre dicha ampliación . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="11.0.1.1.4.1.0" sentencenodepath="11">Sin_embargo , para que se le levante <argset><specifier>la</specifier><head>suspensión </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">por dos años</argument><reference_modifiers>que se le dictaminó hace siete meses</reference_modifiers></argset>debe actuar aún la IAAF y su decisión podría demorarse aún varias semanas . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="12.3.4.4.1.0.1.4.1.0" sentencenodepath="12">Tampoco se descarta que el veredicto de la instancia internacional sea contrario a los deseos de Baumann , como Ø ocurrió con Marlene_Ottey , a quien la IAAF mantuvo <argset><specifier>la</specifier><head>suspensión </head></argset>a_pesar_de haber sido absuelta por la Federación_Jamaicana . </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="6.0.0.0.1.1.1.1.0" sentencenodepath="6">Lejos de aceptar <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la sesión , que calificó de un paso en el " plan de arruinarme "</argument></argset>, Kohl aseguró que él había dejado patente su interés en responder a todas las preguntas y Ø calificó de " poco serio " que no se le haya dado tiempo a ello y que el próximo Jueves no se le haya citado hasta las dos del mediodía . </example>
+        <example file="CESS-CAST-AA/2765_20000303.tbf.xml" nodepath="1.2.2.1.1.1.1.0.0" sentencenodepath="1">Además , el organismo federativo ha impuesto una multa de 30.000 pesetas al club fuengiroleño y Ø ha sancionado con quince partidos de <argset><head>suspensión </head></argset>a dos jugadores del conjunto local , José_Antonio_González_Mérida y Rafael_Cortés_Trujillo , por su supuesta participación en las agresiones sufridas por los futbolistas del equipo veleño . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="18.2.4.2.1.0.3.1.1.1.1.0.0" sentencenodepath="18">El noruego formó_parte de la alineación titular del Alavés ante el equipo vallisoletano , pero Ø fue expulsado por el colegiado Arturo_Daudén_Ibánez en la segunda parte , por lo que Ø ha sido sancionado con un partido de <argset><head>suspensión </head></argset>. </example>
+        <example file="CESS-CAST-AA/5498_20000307.tbf.xml" nodepath="3.0.1.2.3.1.1.0" sentencenodepath="3">La producción del cobre , paralizada durante año y medio por <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de pagos</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la empresa</argument></argset>, se reabrirá en el plazo de un mes o mes y medio aval de 1.000 millones concedido por la Junta_de_Andalucía , que se hizo efectivo ayer tras cerrar un acuerdo con el Banco_de_Andalucía . </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="1.3.3.1.0" sentencenodepath="1">El pasado 2_de_agosto el Consejo_Directivo de la Federación_Internacional_de_Atletismo ( IAAF ) decidió reducir de dos años a uno <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Sotomayor</argument></argset>, lo cual le ha permitido estar presente en la cita olímpica de la ciudad australiana . </example>
+        <example file="CESS-CAST-P/108_19990501.tbf.xml" nodepath="6.2.3.1.0" sentencenodepath="6">Endesa_España , propietaria de un 64% de Enersis , ha anunciado que Ø recurrirá <argset><specifier>esta</specifier><head>suspensión </head></argset>ante los tribunales de Chile y de Estados_Unidos , ya_que la operación había de desarrollarse en ambos países . </example>
+        <example file="CESS-CAST-P/108_19990501.tbf.xml" nodepath="7.4.1.0.1.1.0.1.1.1.0" sentencenodepath="7">Enersis mantendrá abierta la oferta sobre Endesa_Chile en las mismas condiciones que antes de <argset><specifier>la</specifier><head>suspensión </head></argset>, es_decir , 0,74 dólares por acción , lo que suma 323.250 millones de pesetas . </example>
+        <example file="CESS-CAST-P/112_20011101.tbf.xml" nodepath="0.2.1.1.1.1.0.0" sentencenodepath="0">La Direcció_General_de_Seguretat_Ciutadana ha sancionado con 16 días de <argset><head>suspensión </head></argset>de empleo y sueldo a un mosso que se refirió a una agente como " mi churri " , por considerarlo una falta de respeto . </example>
+        <example file="CESS-CAST-P/30_20000103.tbf.xml" nodepath="3.0.1.3.1.1.1.0.0" sentencenodepath="3">" Si Ø respetamos la petición de <argset><head>suspensión </head></argset>formulada por el Tribunal , las reacciones del público podrían atenuarse con el tiempo y podría llegarse a una solución positiva para Turquía " , añadió Ø . </example>
+        <example file="CESS-CAST-P/34_20010502.tbf.xml" nodepath="3.0.0.0.0.2.1.1.0" sentencenodepath="3">Visiblemente preocupado por <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">zapatista</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del incipiente diálogo</argument></argset>, Fox se reunió enseguida con el Grupo_Chiapas - - formado por los miembros de su Gobierno relacionados con el conflicto - - y después con diputados y senadores priístas del estado sureño , a quienes Ø reprochó las insuficiencias de la ley . </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="1.3.1.3.1.1.1.1.1.1.4.1.0" sentencenodepath="1">El Consejo_General_del_Poder_Judicial ( CGPJ ) ha suspendido provisionalmente una orden de funcionamiento interno de la Audiencia_de_Barcelona dictada por su presidente , Francisco_Javier_Béjar , que el pasado mes_de_julio provocó <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del juicio a un presunto violador</argument></argset>por falta de jueces . </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="3.3.2.1.3.1.0" sentencenodepath="3">La decisión del CGPJ responde al recurso presentado por el anterior presidente de la Audiencia_de_Barcelona , Gerard_Thomas , contra la orden de Béjar , al considerar que Ø provocaba <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de juicios</argument></argset>. </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="5.4.1.2.1.1.2.1.2.1.1.1.0" sentencenodepath="5">A este criterio se acogió Béjar para no acceder a la petición de la Sección_Séptima de buscar a un magistrado sustituto con_el_fin_de evitar <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un juicio contra un presunto violador</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="suspender" originlink="verb.suspender.1" wordnetsynset="16:00660117">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por_parte_del" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="17" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060111_5-2.tbf.xml" nodepath="7.5.5.1.0" sentencenodepath="7">La amnistía , según opiniones de diputados , no impide que las autoridades militares impongan sanciones disciplinarias a los oficiales involucrados , pues el recurso político sólo establece <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de procesos penales civiles y los seguidos en la Corte_de_Justicia_Militar</argument></argset>. </example>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="14.2.0.1.0" sentencenodepath="14">Entre las propuestas de la CTU destacan <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del transporte de productos entre ambos países</argument></argset>y que se paralice la actividad comercial que las empresas neozelandesas mantienen con Fiyi . </example>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="15.1.5.2.1.0" sentencenodepath="15">También se ha decidido eliminar a Fiyi como objetivo turístico , por lo que se propone tanto a las compañías del ramo como a los medios de comunicación que Ø dejen de promover Fiji como destino vacacional , así_como <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las actividades deportivas entre los dos estados</argument></argset>. </example>
+        <example file="CESS-CAST-A/11011_20000914.tbf.xml" nodepath="4.2.9.2.0.2.0.0" sentencenodepath="4">Leiva afirmó que Aeronáutica_Civil " está vigilando estrechamente a las líneas aéreas " ante las continuas quejas de los pasajeros , especialmente de TACA , por el constante extravío de equipaje , <argset><head>suspensión </head><reference_modifiers>abrupta</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de vuelos</argument></argset>o cancelación de cupos , aunque el usuario haya comprado su billete . </example>
+        <example file="CESS-CAST-A/12000_20000415.tbf.xml" nodepath="6.2.2.5.3.1.0" sentencenodepath="6">La Junta considera , según Ø dijo , que esta circunstancia supone una causa de incumplimiento grave de las condiciones estipuladas en la concesión de la licencia y Ø agregó que ahora son los tribunales los que tienen que decidir al_respecto , ya_que , a_diferencia_de lo manifestado por Acedo , <argset><specifier>la</specifier><head>suspensión </head><reference_modifiers>provisional</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del acuerdo del Gobierno extremeño</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por_parte_del TSJEX</argument></argset>no supone que el alcalde de Mérida tenga la razón . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="4.2.4.1.4.3.5.1.1.0" sentencenodepath="4">El lehendakari , durante sus intervenciones , fue muy crítico con socialistas y populares , especialmente con estos últimos , a los que Ø acusó de no haber dado " ni un sólo minuto de oportunidad a la paz " , y a los primeros Ø les retó a que Ø presenten una moción de censura contra él si Ø consideran que Ø no cuenta con el apoyo suficiente en el Parlamento tras <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del pacto con EH</argument></argset>. </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="6.0.3.1.1.0" sentencenodepath="6">El portavoz del PP vasco , Leopoldo_Barreda , que dijo que quien presentó dicha denuncia no fue su partido sino el Foro_de_Ermua , se refirió a <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del pacto con EH</argument></argset>y Ø preguntó al lehendakari si " Ø tiene permiso para romper " definitivamente con esta coalición , porque con su actitud Ø ha dejado " en sus manos ( de EH ) su continuidad " . </example>
+        <example file="CESS-CAST-AA/21729_20000225.tbf.xml" nodepath="0.0.3.1.1.1.1.1" sentencenodepath="0">Las Grandes_Ligas no tomarán una decisión sobre <argset><specifier>la</specifier><reference_modifiers>posible</reference_modifiers><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del toletero Darryl_Strawberry</argument></argset>hasta la semana próxima , dijo hoy el piloto de los Yanquis_de_Nueva_York , Joe Torre . </example>
+        <example file="CESS-CAST-AA/21729_20000225.tbf.xml" nodepath="5.3.4.1.1.1.1.1.0" sentencenodepath="5">Torre vio como positivo que los directivos de las Grandes_Ligas no hayan llegado a un acuerdo sobre <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Strawberry</argument></argset>. </example>
+        <example file="CESS-CAST-AA/22459_20000927.tbf.xml" nodepath="10.0.0.1.6.4.0.1.1.1.0" sentencenodepath="10">Costa , que hoy rubricó con un excelente resto el ` break ` que encarriló el triunfo español nada_más reanudarse el juego esta mañana después de <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del partido</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">el Martes</argument></argset>, afirmó que ese golpe de derecha " ha salido gracias_a la motivación " de ambos y a que Ø estaban " muy unidos " . </example>
+        <example file="CESS-CAST-AA/3847_20000605.tbf.xml" nodepath="1.0.3.3.1.0" sentencenodepath="1">Las malas condiciones meteorológicas que habían ralentizado mucho la pista motivaron en más de una ocasión que Squillari pidiese <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del partido</argument></argset>, pero fue finalmente el marroquí , cuando Ø perdía por 6-4 , 6-1 y 3-3 , el que decidió dejar la pista . </example>
+        <example file="CESS-CAST-AA/5498_20000307.tbf.xml" nodepath="6.4.1.3.1.1.0" sentencenodepath="6">El crédito ICO es imprescindible , según los mineros , para que la empresa , de la cual los trabajadores son también accionistas , salga de <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de pagos</argument><reference_modifiers>en la que se encuentra</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/182_20010701.tbf.xml" nodepath="1.4.1.0.1.0" sentencenodepath="1">Después de largas conversaciones y una gran presión política del país , entusiasmado con la organización del torneo , la CSF se decantó por <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del torneo</argument></argset>y el mantenimiento de la sede . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="0.0.1.0.1.1.1.0.1.1.1.0" sentencenodepath="0">Sólo 1.500 de los 15.000 afectados por <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del servicio del catamarán Turbocat</argument></argset>lograron ayer recuperar el importe de los pasajes que Ø ya habían pagado . </example>
+        <example file="CESS-CAST-P/36_19990901.tbf.xml" nodepath="8.0.1.1.0" sentencenodepath="8">Respecto_a <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del diálogo , al que aludió con el término " apagón "</argument></argset>, Ibarretxe recomendó " no cerrar puertas " , porque el futuro del proceso está en " reconocer como válidos parte de los argumentos de los demás " . </example>
+        <example file="CESS-CAST-P/45_20010302.tbf.xml" nodepath="4.0.1.2.1.1.0" sentencenodepath="4">Al ser informados por la editorial de <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del acto</argument></argset>, Ø decidieron ir a la puerta de los estudios provisionales de Ràdio_Barcelona , que se encuentran a muy poca distancia de la iglesia . </example>
+        <example file="CESS-CAST-P/6_20020501.tbf.xml" nodepath="1.4.2.1.0" sentencenodepath="1">El tribunal de Estrasburgo mantiene así claramente diferenciadas la eutanasia activa , despenalizada únicamente en Holanda , y <argset><specifier>la</specifier><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los tratamientos que mantienen a una persona artificialmente con vida , vía aceptada con más o menos restricciones administrativas según los países y de la que el mismo Lunes se beneficiaba otra enferma británica</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="suspender" originlink="verb.suspender.1" wordnetsynset="16:10969750">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/102_19990202.tbf.xml" nodepath="21.2.1.0.1.0.3.4.3.1.0.0" sentencenodepath="21">Otra opinión influyente es la del director del Instituto_de_Harvard_para_el_Desarrollo_Internacional , Jeffrey_Sachs , quien pronosticó ayer en Davos que Brasil podría incluso entrar en <argset><head>suspensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del pagos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

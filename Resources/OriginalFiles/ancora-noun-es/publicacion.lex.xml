@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="publicación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="publicar" originlink="verb.publicar.1" wordnetsynset="16:04944010+16:00715056">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="5.0.0.1.1.2.1.1.1.0" sentencenodepath="5">Sven_Lunsche , economista y editor de <argset><specifier>varias</specifier><head>publicaciones </head><reference_modifiers>económicas</reference_modifiers></argset>, dijo a EFE que " el CNA ha logrado crear , para los sudafricanos menos privilegiados , una vida mejor - eslogan electoral del partido - y hoy muchos más cuentan con electricidad , agua corriente , y acceso a la vivienda " . </example>
+        <example file="CESS-CAST-A/17784_20000125.tbf.xml" nodepath="0.3.1.1.1.2.1.1.0" sentencenodepath="0">La Comisión_Europea abrirá mañana , miércoles , el debate para reformar los tratados comunitarios con <argset><specifier>la</specifier><head>publicación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su dictámen sobre los cambios que deben introducirse para adaptar las instituciones europeas al ingreso de otros 13 países en la Unión</argument></argset>. </example>
+        <example file="CESS-CAST-AA/7301_20000609.tbf.xml" nodepath="3.3.2.1.1.1.0.0.0" sentencenodepath="3">Ø También propone establecer mecanismos oficiales para el " intercambio eficaz " de información sobre catástrofes naturales o tecnológicas que se produzcan en uno de los dos países , así_como la realización de <argset><head argument="arg1" thematicrole="pat">publicaciones </head>e informes conjuntos </argset>. </example>
+        <example file="CESS-CAST-P/126_20010301.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>publicación </head></argset>recuerda también las fechas de pago de impuestos . </example>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="8.3.1.2.2.1.2.1.1.0" sentencenodepath="8">Encima de las fotografías ampliadas de las cuatro caras , Cuixart dibujó unos grafismos en tinta china que potenciaban el mensaje vanguardista de <argset><specifier>la</specifier><head>publicación </head></argset>. </example>
+        <example file="CESS-CAST-P/44_19981102.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">En <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">publicación </head><reference_modifiers>clandestina</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del PCE-R</argument></argset>, Arenas señaló recientemente : " El Estado ha ensayado con nosotros la negociación con ETA " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="publicar" originlink="verb.publicar.1" wordnetsynset="16:00715056">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="14.4.1.0.2.2.1.2.1.0" sentencenodepath="14">Durante la visita , los expertos se entrevistaron con responsables políticos que aseguraron que , tras <argset><specifier>la</specifier><head>publicación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un decreto</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">el pasado año</argument></argset>, la imposición de trabajos forzosos u obligatorios ha sido suspendida en la práctica y ninguna queja ha llegado al conocimiento de los órganos de aplicación de la ley . </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="7.3.1.3.1.2.0.1.0" sentencenodepath="7">Desde entonces , el trabajo de la institución consiste en " revitalizar las más diversas disciplinas de la cultura regional mediante la celebración de congresos y seminarios , <argset><specifier>la</specifier><head>publicación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de libros</argument></argset>y el rescate de joyas perdidas de nuestra bibliografía , la edición de memorias y boletines , y la atención meticulosa a todas aquellas consultas que se nos hacen desde los pueblos y ciudades de Extremadura " . </example>
+        <example file="CESS-CAST-P/92_19990601.tbf.xml" nodepath="1.3.0.1.1.3.2.1.0" sentencenodepath="1">La decisión se ha producido después de que la familia Versace lograse bloquear , la semana pasada , <argset><specifier>la</specifier><head>publicación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en EEUU</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esta misma biografía no autorizada , titulada Desnudo_:_la_vida_y_la_época_de_Gianni_Versace , escrita por Christopher_Mason</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="publicar" originlink="verb.publicar.1" wordnetsynset="16:00715056">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="5.0.0.1.1.1.1.0" sentencenodepath="5">Confusión acrecentada por <argset><specifier>la</specifier><head>publicación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la noticia de que varios empresarios de Durango y Eibar han sido extorsionados en las últimas semanas</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_20000903.tbf.xml" nodepath="5.2.1.0" sentencenodepath="5">Y , en_medio , <argset><specifier>la</specifier><head>publicación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de unas cartas de su época como nuncio , que ponían_en_duda que fuera antifascista ,</argument></argset>demoró el momento . </example>
+        <example file="CESS-CAST-P/69_20010201_a.tbf.xml" nodepath="10.1.1.0" sentencenodepath="10">En la bolsa española , <argset><specifier>la</specifier><head>publicación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los datos estadounidenses</argument></argset>benefició principalmente a los dos grandes bancos españoles , BBVA y BSCH , que cerraron con alzas del 2,38% y 1,55% , respectivamente . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

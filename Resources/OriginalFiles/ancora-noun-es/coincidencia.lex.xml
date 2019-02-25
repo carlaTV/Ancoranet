@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="coincidencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="coincidir" originlink="verb.coincidir.1" wordnetsynset="16:03730389+16:05443380+16:03940813">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="3" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="3.2.2.4.1.0" sentencenodepath="3">El mandatario indicó que Ø comparte la inquietud de sus opositores sobre el régimen electoral y Ø dijo que Ø ha comprometido " <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>coincidencia </head></argset>con la búsqueda de los caminos más convenientes para_que las elecciones ( generales del año_2002 ) se hagan con absoluta transparencia " . </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="8.3.1.0.0.1.1.0" sentencenodepath="8">Al_hilo de esa consideración Ø señaló que ante <argset><specifier>las</specifier><head>coincidencias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre ETA y los dirigentes del PNV</argument></argset>y con independencia del resultado de un proceso electoral , la articulación de una política de defensa de las libertades no puede estar sujeta a la duda , y esas son las decisiones políticas que se tienen que tomar en ese marco de fondo , no en cuestiones accesorias . </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="11.0.5.1.1.0" sentencenodepath="11">No_obstante , Ø se refirió de_nuevo a <argset><specifier>las</specifier><head>coincidencias </head><reference_modifiers>" tan expresivas "</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre ETA y los actuales dirigentes del PNV</argument><reference_modifiers>, entre ellas sus críticas a los medios de comunicación ,</reference_modifiers></argset>y Ø dijo que Ø es una cuestión que compete explicar a los responsables de ese partido . </example>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="14.3.1.0" sentencenodepath="14">Ø Resaltó también <argset><specifier>la</specifier><head>coincidencia </head><reference_modifiers>, en_líneas_generales ,</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los gobiernos central y autonómico</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para mejorar la integración de los inmigrantes</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20000302.tbf.xml" nodepath="7.2.3.2.1.0" sentencenodepath="7">El diario estadounidense resalta que el principal interés de Deutsche_Telekom por Telefónica es la posición de la firma española en Latinoamérica y <argset><specifier>la</specifier><head>coincidencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de planes para el mercado de EEUU</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="coincidir" originlink="verb.coincidir.2" wordnetsynset="16:03730389+16:03940813">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="3" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="1.3.3.1.0.2.1.0" sentencenodepath="1">Aznar , quien hizo estas declaraciones en Costa_Rica en una rueda de prensa conjunta con el presidente Miguel_Angel_Rodríguez , consideró además que los dirigentes del PNV son los que tienen que explicar <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>coincidencias </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">con la banda terrorista ETA</argument></argset>. </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="7.2.1.2.3.1.0" sentencenodepath="7">" Una Rusia fuerte y unida está llamada a desempeñar un papel importante en un mundo multipolar y en la palestra internacional " , dijo el canciller cubano , quien destacó <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>coincidencia </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">con Ivanov</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre " importantes problemas internacionales "</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20121_20000427.tbf.xml" nodepath="15.0.1.0" sentencenodepath="15"><argset><specifier>La</specifier><head>coincidencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la final de Copa</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sp">con el primer partido de España en la fase final de la Eurocopa_sub`21 contra la República_Checa</argument>, </argset>salió a relucir en la junta . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="coincidir" originlink="verb.coincidir.3" wordnetsynset="16:05443380">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">Pero antes de eso , habrá <argset><specifier>otras</specifier><head>coincidencias </head><reference_modifiers>: cuando Clinton , esté llegando esta tarde al Palacio_de_Bellevue , donde será recibido con honores militares por el presidente alemán , Johannes_Rau , a pocos metros de distancia , en la Avenida_17_de_Junio , los corredores de la Vuelta_Ciclista a Alemania darán los últimos golpes de pedal de su entrada triunfal a la capital</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="7.1.1.0" sentencenodepath="7">Para los responsables de la ciudad , <argset><specifier>la</specifier><head>coincidencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los diversos eventos , especialmente la visita de Clinton ,</argument></argset>se convertirá desde el punto de vista logístico en una de las mayores pruebas de fuerza desde el Puente_Aéreo de 1948 , cuando los norteamericanos abastecieron Berlín desde el aire durante el bloqueo soviético . </example>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="0.2.2.1.2.2.1.0" sentencenodepath="0">El presidente boliviano , Hugo_Banzer , y el jefe del principal partido de oposición , Gonzalo_Sánchez_de_Lozada , se reunieron hoy por espacio de cuatro horas y Ø discutieron una amplia agenda en la que hubo <argset>" <head>coincidencias </head>" </argset>, según dijeron ambos al final de su encuentro . </example>
+        <example file="3LB-CAST/t4-2.tbf.xml" nodepath="1.3.1.2.1.1.0.2.0" sentencenodepath="1">Ø Es tal_vez el mejor ejemplo de <argset>la identidad y <head>coincidencia </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los tres factores de eternidad : vacío , materia y movimiento</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-A/18485_20000724.tbf.xml" nodepath="1.5.1.0.1.1.1.1.4.1.1.1.4.1.2.1.0.2.4.0.0" sentencenodepath="1">Así lo aseguró la consejera en conferencia de prensa al término de la reunión que durante más de dos horas Ø mantuvo con el ministro , al que Ø expuso las prioridades de la Junta_de_Andalucía en_cuanto_a infraestructuras de carreteras y ferroviarias , sobre las que también hubo <argset><head>coincidencia </head></argset>. </example>
+        <example file="CESS-CAST-P/13_19990601.tbf.xml" nodepath="4.4.1.1" sentencenodepath="4">En Barcelona se ha producido además <argset><specifier>una</specifier><reference_modifiers>magnífica</reference_modifiers><head>coincidencia </head></argset>para matar_dos_pájaros_de_un_tiro : los escandalosos y bamboleantes bebedores de cerveza eran los seguidores ingleses , mientras los alemanes no se comportaban tampoco conforme al tópico que les corresponde . </example>
+        <example file="CESS-CAST-P/20_20010301.tbf.xml" nodepath="0.0.1.2.1.0.0" sentencenodepath="0">Un increíble cúmulo de <argset><head>coincidencias </head></argset>provocó ayer una nueva tragedia ferroviaria en el Reino_Unido . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

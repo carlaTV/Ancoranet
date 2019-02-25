@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="emergencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="emerger" originlink="verb.emerger.1" wordnetsynset="16:10368281">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="20" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/t4-7.tbf.xml" nodepath="5.2.2.1.2.1.0" sentencenodepath="5">Las guerras destructoras nacen del odio y la codicia y Ø prosperan por el aburrimiento y <argset><specifier>las</specifier><head>emergencias </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de rivalidad doctrinaria social y política entre lo propio y lo ajeno</argument></argset>. </example>
+        <example file="3LB-CAST/t5-9.tbf.xml" nodepath="10.0.2.0.1.1.0.0" sentencenodepath="10">La magnitud de la catástrofe exigía medidas de <argset><head>emergencia </head></argset>y Antonia llamó al vecino en su socorro . </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="10.2.4.0.1.0" sentencenodepath="10">Los centros de enseñanza , públicos y privados , también han dado vacaciones hasta el jueves a sus alumnos y sólo se mantienen operativas <argset><specifier>las</specifier><head>emergencias </head><reference_modifiers>hospitalarias</reference_modifiers></argset>, policía , bomberos y demás servicios imprescindibles . </example>
+        <example file="CESS-CAST-A/16986_20000621.tbf.xml" nodepath="3.2.1.1.1.0.4.1.1.0.0" sentencenodepath="3">La página de turismo ofrecerá un servicio de alerta de tarifas , entrega de pasajes y línea de <argset><head>emergencia </head></argset>para pasajeros que deben viajar de urgencia . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="0.2.1.2.1.0.1.1.0.0" sentencenodepath="0">El ministro egipcio del Interior , general Habib_Al_Adli , justificó la ampliación por otros tres años del estado de <argset><head>emergencia </head></argset>, vigente en el país desde 1981 , al considerar que Ø es necesario para luchar contra el terrorismo . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="1.0.1.1.1.1.0.0" sentencenodepath="1">" El estado de <argset><head>emergencia </head></argset>se amplió como medida para asegurar lo conseguido en los últimos años , incluido el mantenimiento de la estabilidad y la limitación de los efectos de la violencia y el crimen organizado " , afirma Al_Adli , en una entrevista publicada hoy , viernes , por el diario egipcio de propiedad estatal " Al_Ahram " . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="4.3.2.1.1.1.0.0" sentencenodepath="4">El Parlamento egipcio , en el que más del 95_por_ciento de los diputados pertenece al gobernante Partido_Nacional_Democrático ( PND ) , decidió la semana pasada ampliar otros tres años el estado de <argset><head>emergencia </head></argset>en todo el país , vigente desde que hace 19 años fue asesinado el anterior presidente , Anuar_Sadat . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="5.0.3.1.1.1.1.1.0.0" sentencenodepath="5">Pese_a_que Adli insiste en que el estado de <argset><head>emergencia </head></argset>" no supone una limitación para las libertades públicas , la democracia y la libertad de expresión " , los partidos opositores , las organizaciones de defensa de los derechos_humanos y otros grupos comprometidos con las libertades públicas han recurrido la ley ante los tribunales . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="6.2.1.1.1.1.0.0" sentencenodepath="6">Estas organizaciones consideran que el estado de <argset><head>emergencia </head></argset>es utilizado por el régimen , que encabeza el presidente , Hosni_Mubarak , como arma para combatir a la oposición y reprimir a los defensores de los derechos_humanos , al conceder a las autoridades el derecho a actuar y practicar detenciones indefinidas sin control judicial . </example>
+        <example file="CESS-CAST-AA/3365_20000405.tbf.xml" nodepath="3.4.3.1.1.1.0.0" sentencenodepath="3">Ø También solicitó a la Comisión_Europea que se declare la situación de <argset><head>emergencia </head></argset>en Andalucía como_consecuencia_del nuevo período de sequía , ya_que - argumentó Ø - la UE concede esa declaración cuando se produce una merma del veinte_por_ciento de la producción para las regiones objetivo uno , como Ø es la andaluza . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="22.3.4.1.1.1.0.0" sentencenodepath="22">12_de_Octubre . - Barak anuncia que en los próximos días Ø formará un Gobierno de <argset><head>emergencia </head></argset>con los principales partidos de la oposición para hacer_frente a la crisis con los palestinos . </example>
+        <example file="CESS-CAST-AA/7301_20000609.tbf.xml" nodepath="1.3.1.1.1.1.4.1.2.2.1.0.1.1.0.0" sentencenodepath="1">El Consejo_de_Ministros autorizó hoy la firma de un convenio de cooperación y asistencia en_materia_de protección civil con la Federación_de_Rusia para mejorar la prevención de catástrofes y garantizar la asistencia mutua en situaciones de <argset><head>emergencia </head></argset>por causas naturales o tecnológicas . </example>
+        <example file="CESS-CAST-P/102_19990202.tbf.xml" nodepath="13.5.4.1.1.0.2.1.0.0" sentencenodepath="13">Mientras , el financiero norteamericano George_Soros señaló ayer en el Foro_Económico_Mundial en Davos ( Suiza ) que el momento es oportuno para conceder nuevas ayudas de <argset><head>emergencia </head></argset>a Brasil . </example>
+        <example file="CESS-CAST-P/10_20010103.tbf.xml" nodepath="0.1.5.1.1.1.1.0.0" sentencenodepath="0">Una nueva borrasca cruzará España a_partir_de hoy y Ø afectará principalmente a Galicia y el oeste de la Península , aunque la mejoría del tiempo generalizado de ayer en la mayor parte del país permitió a Protección_Civil retirar todos los avisos de <argset><head>emergencia </head></argset>. </example>
+        <example file="CESS-CAST-P/119_20010401.tbf.xml" nodepath="6.3.1.1.1.1.0.1.1.0.0" sentencenodepath="6">Los montañeros accidentados pudieron pedir auxilio con una llamada al teléfono de <argset><head>emergencias </head></argset>112 desde un aparato particular de otro excursionista que vio la caída de la avalancha sobre la expedición y alertó a la Guardia_Civil de Huesca . </example>
+        <example file="CESS-CAST-P/119_20010401.tbf.xml" nodepath="8.3.1.2.0.1.1.0.1.1.0.0" sentencenodepath="8">El equipo se completó con un helicóptero de la Guardia_Civil de Panticosa y otro del servicio de <argset><head>emergencia </head></argset>112 . </example>
+        <example file="CESS-CAST-P/128_20010202.tbf.xml" nodepath="0.4.4.2.2.1.0.1.1.0.0.0" sentencenodepath="0">El sindicato ha denunciado a la Administración central ante la Conselleria_de_Treball porque ninguno de sus 64 centros en Girona cumple la ley de prevención de riesgos laborales , al no contar con planes de <argset><head>emergencia </head>y evacuación </argset>para funcionarios y usuarios . </example>
+        <example file="CESS-CAST-P/166_20001202.tbf.xml" nodepath="6.0.1.1.1.1.1.1.1.1.0.0" sentencenodepath="6">" Dadas las circunstancias de esta situación de <argset><head>emergencia </head></argset>, las cosas han salido muy bien " , declaró el violonchelista , el Jueves , a la salida de su primer ensayo con la orquesta . </example>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="6.0.0.1.1.1.0.0" sentencenodepath="6">Los servicios de <argset><head>emergencia </head></argset>recibieron 81 llamadas de auxilio y los bomberos se emplearon a_fondo en achicar agua y en el rescate de 10 personas que quedaron atrapadas dentro de sus vehículos a_causa_de la tromba . </example>
+        <example file="CESS-CAST-P/30_20020801_h.tbf.xml" nodepath="2.3.1.1.1.0.0" sentencenodepath="2">Este local y un bar de Ripoll tenían también obstruidas las salidas de <argset><head>emergencia </head></argset>. </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="15.2.4.1.0.2.1.0" sentencenodepath="15">La idea de Sanitat es que , desde la puerta de acceso a urgencias , se diferencie lo que son <argset><specifier>las</specifier><head>emergencias </head><reference_modifiers>clásicas</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en un hospital</argument><reference_modifiers>- - infartos , insuficiencia coronaria , etcétera - -</reference_modifiers></argset>de las patologías respiratorias que generan largas esperas . </example>
+        <example file="CESS-CAST-P/58_20010602.tbf.xml" nodepath="7.2.1.0.1" sentencenodepath="7">La situación de Aerolíneas_Argentinas es de <argset><reference_modifiers>dramática</reference_modifiers><head>emergencia </head></argset>, aunque según el superministro de Economía argentino , Domingo_Cavallo , la SEPI se comprometió a hacer una nueva aportación de capital de 350 millones de dólares ( 68.000 millones de pesetas ) bajo el compromiso de renegociar los contratos laborales . </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="2.0.3.1.1.1.1.0.0" sentencenodepath="2">Al_final , uno de ellos consiguió accionar el freno de <argset><head>emergencia </head></argset>y Ø puso_fin a la pesadilla . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="emerger" originlink="verb.emerger.1" wordnetsynset="16:10368281">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="17.1.0.3.1.1.1.0.0" sentencenodepath="17">Tras la disolución de la masiva y pacífica manifestación convocada por sindicatos , asociaciones ecologistas y organizaciones no gubernamentales ( ONG ) contra la OMC y la " mundialización de las multinacionales " , Paul_Schell , alcalde de Seattle , declaró a media tarde del Martes el estado de <argset><head>emergencia </head></argset>y Ø decretó el toque de queda en el centro de la ciudad . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="21.1.2.1.1.1.0.0" sentencenodepath="21">En_principio , el toque de queda y el estado de <argset><head>emergencia </head></argset>se mantendrán hasta el final de la reunión . </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="8.3.4.1.1.4.1.1.1.1.2.1.1.1.0.0" sentencenodepath="8">No hubo daños personales ni materiales , aunque los médicos tuvieron que curar los cortes que dos pasajeros sufrieron en las manos al romper el cristal que guarda el freno de <argset><head>emergencia </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

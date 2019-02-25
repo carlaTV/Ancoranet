@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="choque" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="chocar" originlink="verb.chocar.1" wordnetsynset="16:05468378+16:05444467+16:05468143+16:05369518">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-1.tbf.xml" nodepath="9.3.1.2.1.1.0.0" sentencenodepath="9">Además , Ø reúne más fuelle y resistencia al <argset><head>choque </head></argset>, aunque la inestabilidad de Butragueño , tan cerca de la picardía como de la fragilidad , era y Ø es fuente de faltas peligrosas que hoy nadie aprovecha . </example>
+        <example file="CESS-CAST-A/13853_20000918.tbf.xml" nodepath="18.4.4.1.2.1.1.1.2.1.0.0" sentencenodepath="18">La clave del partido , según Irureta , es " acertar " con la portería contraria porque , dijo Ø , " si Ø lo hacemos Ø podemos ganar " , aunque Ø incidió en que " en el fútbol de contacto directo , de <argset><head>choque </head></argset>, de agresividad , el Hamburgo es bastante fuerte " . </example>
+        <example file="CESS-CAST-AA/20131_20000224.tbf.xml" nodepath="7.2.5.1.0.0" sentencenodepath="7">Roberto aseguró que Ø no ha hablado con Rivaldo del <argset><head>choque </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre eternos rivales</argument><reference_modifiers>que Real_Madrid y Barcelona disputarán el Sábado en el estadio Santiago_Bernabéu</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="7.2.2.1.0" sentencenodepath="7">El once " rojillo " notó negativamente el autogol del defensa navarro y el Valencia pasó a liderar <argset><specifier>el</specifier><head>choque </head></argset>, explotando el pasillo de la banda derecha de Mendieta , lo que se plasmó en las ocasiones protagonizadas por Zahovic ( m.22 ) , Carew ( m.42 ) y , sobre_todo , un nuevo disparo de Zahovic ( m.28 ) que tras rebotar en Vidakovic a_punto estuvo de meterse en la portería de Nuno . </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="6.0.0.1.7.1.1.0" sentencenodepath="6">Comentario : El Getafe confirmó la permanencia en Segunda_División al derrotar a_domicilio al Albacete , tras ocho partidos sin conocer la victoria , gracias_a un golazo de Parrado , desde fuera del área , en <argset><specifier>un</specifier><head>choque </head><reference_modifiers>en el que los locales estuvieron más pendientes de homenajear a los futbolistas que no van a continuar en el club</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="18.0.1.0.1.1.0.0" sentencenodepath="18">Al final del <argset><head>choque </head></argset>, la afición del Getafe se lanzó al terreno de juego para celebrar junto_a los jugadores de Martín_Prado una más_que sufrida permanencia , que certificó el golazo de Parrado . </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="1.4.2.3.1.1.0" sentencenodepath="1">El servicio médico de urgencia no ha desmentido la existencia de víctimas mortales , ya_que se usaron armas en <argset><specifier>los</specifier><head>choques </head></argset>y muchos tienen heridas de bala , entre ellos un reportero griego . </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="7.4.1.2.0.1.0.0" sentencenodepath="7">Expertos noruegos tacharon hoy de " absurda " la tesis rusa del <argset><head>choque </head></argset>y de un supuesto " acuerdo " entre el presidente norteamericano Bill_Clinton y su homólogo ruso , Vladímir_Putin , para ocultar las causas hasta después de las elecciones en Estados_Unidos . </example>
+        <example file="CESS-CAST-AA/7642_20000309.tbf.xml" nodepath="5.0.1.0.1.1.0.1" sentencenodepath="5">En referencia al <argset><reference_modifiers>trascendental</reference_modifiers><head>choque </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">ante el equipo de Javier_Irureta</argument></argset>, el central sueco tiene claro que sólo les vale la victoria si Ø quieren seguir con opciones al título de liga . </example>
+        <example file="CESS-CAST-P/107_20010802.tbf.xml" nodepath="1.3.1.1.1.1.0.0" sentencenodepath="1">La inversión se incluye en un plan de <argset><head>choque </head></argset>de la Generalitat que prevé habilitar 96 hectáreas de terrenos para fomentar la implantación de industrias en las seis comarcas pirenaicas y que creará 15.000 puestos de trabajo . </example>
+        <example file="CESS-CAST-P/159_20011002.tbf.xml" nodepath="0.4.1.1.1.4.1.2.1.1.0" sentencenodepath="0">Manuel_Pablo se recupera con normalidad de la operación a que Ø fue sometido el domingo por la noche tras fracturarse la tibia y el peroné de la pierna derecha en <argset><specifier>un</specifier><head>choque </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">con Giovanella</argument></argset>, durante el derbi gallego entre el Deportivo y el Celta en Riazor . </example>
+        <example file="CESS-CAST-P/21_20000202_b.tbf.xml" nodepath="47.6.4.1.0" sentencenodepath="47">- - Ya_que Ø estamos entre santos Ø le diré que para mí la guerra fue <argset><specifier>un</specifier><head>choque </head><reference_modifiers>tremendo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/29_19990802.tbf.xml" nodepath="3.0.0.1.1.0.0" sentencenodepath="3">Fruto del <argset><head>choque </head></argset>murieron dos jóvenes de 22 años y otras dos personas resultaron heridas . </example>
+        <example file="CESS-CAST-P/39_20011102.tbf.xml" nodepath="0.0.0.1.2.4.1.1.0" sentencenodepath="0">EL AEROPUERTO milanés , en el que murieron 118 personas por <argset><specifier>un</specifier><head>choque </head></argset>a_principios_de octubre , incumple varias normas de la Organización_Internacional_de_la_Aviación_Civil , informó ayer El_Corriere_della_Sera citando un informe del Gobierno en el que se critica al organismo italiano encargado del control aéreo  . </example>
+        <example file="CESS-CAST-P/47_20000402.tbf.xml" nodepath="2.3.1.1.0" sentencenodepath="2">Dos personas resultaron gravemente heridas en <argset><specifier>los</specifier><head>choques </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="chocar" originlink="verb.chocar.1" wordnetsynset="16:05468143">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/26_20000302.tbf.xml" nodepath="10.0.0.1.1.0" sentencenodepath="10">Tras <argset><specifier>el</specifier><head>choque </head></argset>, el conductor se dio a la fuga y actualmente Ø es buscado por la policía . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="chocar" originlink="verb.chocar.1" wordnetsynset="16:05369518+16:05468143">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="0.3.1.2.1.0.1.3.1.2.1.1.0" sentencenodepath="0">De todas formas , entre griegos y romanos existió una forma peculiar de combate , no para dirimir agravios personales sino para decidir la victoria entre dos pueblos en discordia y evitar <argset><specifier>el</specifier><head>choque </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los dos ejércitos enemigos</argument></argset>. </example>
+        <example file="3LB-CAST/e1-2.tbf.xml" nodepath="1.2.2.1.0" sentencenodepath="1">Los protagonistas de la tragedia representan una contradicción efectiva entre leyes opuestas , <argset><specifier>el</specifier><head>choque </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de intereses o tradiciones difícilmente reconciliables en la paz de la ciudad</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

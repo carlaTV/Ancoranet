@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="falta" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="faltar" originlink="verb.faltar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="62" preposition="de" type="sp"/>
+        <constituent frequency="2" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="5" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="bajo" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="hasta" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="39" postype="article" type="determiner"/>
+        <constituent frequency="18" type="void"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="S"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="4.4.1.1.1.1.0" sentencenodepath="4">El presidente de la Generalitat , Jordi_Pujol , cree necesario que el Gobierno agilice los permisos de residencia a los inmigrantes para poder responder a <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de mano de obra</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Cataluña</argument><reference_modifiers>que , según cálculos del Departamento_de_Trabajo , impide cubrir unos 23.000 empleos en diversos sectores</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="6.6.2.1.1.1.0.0" sentencenodepath="6">Según Pujol , " no puede ser que se tarde ocho meses para dar un permiso de residencia de trabajo a un ciudadano polaco " , en un momento de <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de mano de obra</argument><reference_modifiers>que actúa , en su opinión , como freno al crecimiento económico</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="7.2.1.1.3.2.1.0.1.0" sentencenodepath="7">Esta opinión fue corroborada por el presidente de Pimec-Sefes , Josep_González , quien subrayó que <argset><specifier>esta</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de mano de obra , tanto cualificada como no ,</argument></argset>comenzó en las comarcas de Lérida pero Ø ya ha llegado a todas las provincias catalanas . </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="14.2.1.1.1.1.0" sentencenodepath="14">El presidente de la Comisión_del_Mercado_de_las_Telecomunicaciones mostró su preocupación por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de competencia</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en todo el mundo</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la telefonía local</argument><reference_modifiers>, como consecuencia de que la liberalización de las telecomunicaciones se ha hecho por principios jurídicos y no técnicos y que hay que " hay que abrir este mercado como sea "</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="9.0.4.1.1.1.1.1.0.1.1.1.1" sentencenodepath="9">El anterior CNE , elegido también por Miquilena , dimitió en pleno el pasado_lunes tras soportar una lluvia de críticas por <argset><argument argument="arg2" thematicrole="ben" type="spec">su</argument>" <head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de experiencia</argument>" </argset>y a sus cinco miembros se les ha prohibido la salida del país , mientras Ø son investigados judicialmente por su comportamiento . </example>
+        <example file="3LB-CAST/111_C-4.tbf.xml" nodepath="3.0.0.0.0.1.1.1.0" sentencenodepath="3">Descontento por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de apoyo del Partido_Socialista_Búlgaro ( BSP , ex_comunista )</argument></argset>, Mladénov , que desde hacía tiempo sufría problemas cardíacos , dimitió el 6_de_julio_de_1990 y , por decisión del Parlamento Ø fue sustituido en la Presidencia por Yeliu_Yélev , entonces líder de la SDS . </example>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="2.0.1.3.0.0" sentencenodepath="2">" Ø No es <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de información</argument></argset>, Ø es ocultación de información " , dijo Zenarruzabeitia , para quien la comparecencia de ayer de Mayor_Oreja " no fue de recibo " porque en_vez_de " responder detalladamente " a la interpelación del PNV Ø se dedicó a " la descalificación de un grupo político y a hablar de cuestiones que no tienen nada que ver , Ø utilizó la política del chipirón de responder atacando " . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="0.4.1.1.2.1.1.2.1.1.1.1.0" sentencenodepath="0">La patronal vasca , Confebask , llamó hoy la atención sobre la existencia en la Comunidad_Autónoma_Vasca de 18.000 puestos de trabajo sin cubrir debido_a <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de mano de obra adecuada , cuya incorporación al mercado laboral reduciría las previsiones sobre la tasa de paro para el año_2003 en dos puntos</argument></argset>. </example>
+        <example file="3LB-CAST/211_C-6.tbf.xml" nodepath="1.2.1.2.5.2.0.1.0.0" sentencenodepath="1">La Fiscalía_General presentó su informe al_respecto , en el que no_obstante se decidía cerrar el expediente por <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de pruebas suficientes</argument></argset>y por prescripción de los presuntos delitos , el pasado_jueves_25 , después de una investigación policial a la que es sometido un presidente por primera vez en la historia de Israel . </example>
+        <example file="3LB-CAST/d1-1.tbf.xml" nodepath="9.4.1.0.1.1.0.0" sentencenodepath="9">Además , Ø reúne más fuelle y resistencia al choque , aunque la inestabilidad de Butragueño , tan cerca de la picardía como de la fragilidad , era y Ø es fuente de <argset><head>faltas </head><reference_modifiers>peligrosas</reference_modifiers></argset>que hoy nadie aprovecha . </example>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="10.0.2.1.1.1.3.1.1.1.0" sentencenodepath="10">El colmo llega con los detractores que sin hacer una defensa agresiva acusan de hacer <argset><specifier>muchas</specifier><head>faltas </head></argset>a los que las practican diciendo que Ø usan mucho las manos para parar las acciones ofensivas y ellos las usan con defensas en flotación donde Ø es mucho más difícil de apreciar por los árbitros porque hay muchos jugadores en poco espacio . </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="13.0.0.2.2.0" sentencenodepath="13">Una , general <argset>: <specifier>la</specifier>
+            <head>falta </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de jugadores decisivos</argument>
+            <reference_modifiers>, hoy que Epi , ¡ ay ! , ya sólo puede ser un recurso táctico</reference_modifiers>
+          </argset>. </example>
+        <example file="3LB-CAST/d1-2.tbf.xml" nodepath="16.0.2.1.0" sentencenodepath="16">Y , entre dos equipos que se han quedado incompletos , <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un intimidador</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">bajo los aros</argument></argset>le pesa más a Michigan que la de un base a Duke . </example>
+        <example file="3LB-CAST/d2-4.tbf.xml" nodepath="12.3.1.0.0" sentencenodepath="12">Camargo se escapó a <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de siete kilómetros</argument></argset>. </example>
+        <example file="3LB-CAST/d2-8.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del entorno familiar</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en situaciones difíciles</argument></argset>, sobre_todo cuando profesionalmente no van bien las cosas , llevan al ciclista a un estado depresivo . </example>
+        <example file="3LB-CAST/dc1-15.tbf.xml" nodepath="0.4.2.0.1.0" sentencenodepath="0">De_hecho , se han lanzado numerosas conjeturas sin demostración científica alguna , ya_que <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de recubrimiento</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">en los anfibios</argument><reference_modifiers>( lo cual , por otra parte , les hace muy resbaladizos para sus depredadores , faceta de gran utilidad para su supervivencia )</reference_modifiers>, </argset>y las pieles cubiertas de pelo , lana o cerdas de los mamíferos , muy especializadas y perfeccionadas y sin claros precursores en la carrera evolutiva , hacen la comparación más problemática . </example>
+        <example file="3LB-CAST/dc3-0.tbf.xml" nodepath="6.2.1.1.1.0" sentencenodepath="6">Esto es debido fundamentalmente a <argset><specifier>la</specifier><head>falta </head><reference_modifiers>, en las sustancias orgánicas ,</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la banda electrónica parcialmente llena que caracteriza a los metales</argument></argset>. </example>
+        <example file="3LB-CAST/n1-9.tbf.xml" nodepath="10.0.0.1.1.1.0" sentencenodepath="10">Aburrido por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de vida nocturna</argument></argset>Ø dejó la compañía y Ø abrió una taberna en la Plaza_Mayor . </example>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="1.0.2.1.2.1.1.0" sentencenodepath="1">El secretario de política industrial de la Federación_del_Metal_de_CCOO , Ramón_Gorri , manifestó el malestar de su organización por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de transparencia con que , a su juicio , se ha llevado_a_cabo la operación</argument></argset>y Ø acusó a la Sociedad_Estatal_de_Participaciones_Industriales ( SEPI ) de haber actuado al_margen de los sindicatos . </example>
+        <example file="CESS-CAST-A/10920_20001115.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de inversión en equipos de seguridad</argument></argset>se une a la actitud de los directivos , que obligan a los obreros a trabajar hasta 12 ó 14 horas diarias por salarios de miseria y ocultan a las autoridades los accidentes que se producen . </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="10.2.5.3.5.4.1.0" sentencenodepath="10">Preguntado por el reciente comunicado de ETA en el que Ø asume los diecisiete atentados cometidos desde el pasado 31_de_julio , Aznar manifestó que él no va a comentar ningún comunicado de la banda terrorista porque Ø dijo que " ya se sabe lo que Ø hace , cómo Ø suele justificar esas cosas y <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de respeto</argument><reference_modifiers>que tiene a todo</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="2.2.0.0.1.0" sentencenodepath="2">La mallorquina , de 28 años , doble campeona del mundo de la especialidad ( 1999 y 2000 ) , aspiraba al oro , pero <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un mayor desnivel en el circuito</argument></argset>y una caída que Ø sufrió en la cuarta vuelta tras chocar con Pezzo en un rocoso descenso la obligaron a conformarse con un bronce olímpico que , en cualquiera de los casos , pone broche a una sensacional temporada . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="6.0.3.1.1" sentencenodepath="6">En su sentencia , a la que ha tenido acceso EFE , el juez critica <argset><specifier>la</specifier>" <head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de previsión</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">del legislador</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">por la inexistente exigencia de requisitos de capacitación teórica y práctica para conducir " vehículos como ciclomotores o cuadriciclos</argument></argset>y ello " pese_a ser un instrumento potencialmente peligroso para la integridad física de personas totalmente inexpertas en su correcto manejo , desconocedoras además de las normas de seguridad vial básicas " . </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="11.2.0.3.2.1.0.0" sentencenodepath="11">Pujol , Trias o Duran han apuntado la posibilidad de que CiU se abstenga en la investidura si el candidato más votado no acepta sus demandas , y Ø no descartan apoyar al segundo en_caso_de <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de acuerdo</argument><reference_modifiers>con el ganador</reference_modifiers></argset>, pero Ø consideran poco probable que Ø vuelvan a firmar un pacto de gobernabilidad que les ate para toda la legislatura como Ø hicieron en 1996 . </example>
+        <example file="CESS-CAST-AA/20778_20001126.tbf.xml" nodepath="4.1.1.0" sentencenodepath="4">Así_pues , <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de rivales , de atletas que les pusieran en tensión</argument>, </argset>invalidó el intento de los organizadores de conseguir un relanzamiento del maratón de San_Sebastián a_través_de marcas de calidad . </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="1.3.1.1.5.1.1.3.1.0" sentencenodepath="1">El portavoz socialista de Infraestructuras , José_Segura , justificó hoy esta medida , que se completa con enmiendas parciales , por " la ausencia de información y <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de planificación "</argument><reference_modifiers>de las obras previstas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="7.0.3.1.1" sentencenodepath="7">El portavoz socialista criticó también <argset><specifier>la</specifier>" <head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de planificación</argument>" <reference_modifiers>del capítulo de infraestructuras</reference_modifiers></argset>y Ø se preguntó cómo es posible diseñar un programa de actuaciones en carreteras sin debatir antes un Plan_Nacional_de_Seguridad_Vial o cómo se puede abordar un plan ferroviario sin_contar_con un nuevo contrato-programa de Renfe . </example>
+        <example file="CESS-CAST-AA/3847_20000605.tbf.xml" nodepath="12.4.1.3.1.0.0" sentencenodepath="12">Este partido que se desarrollaba al_mismo_tiempo_que el de Squillari-El_Aynaoui sí continuó a_pesar_de la lluvia que caía casi ininterrumpidamente sobre el estadio parisiense hasta que Ø fue interrumpido por <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de luz</argument></argset>, con Albert_Costa con ventaja de 6-3 y 4-4 . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="1.2.0.2.1.0" sentencenodepath="1">El equipo argentino jugó desde el minuto 47 con un hombre menos , por la expulsión de Leonardo_Ramos , pero la debilidad de la " U " y <argset><argument argument="arg2" thematicrole="ben" type="spec">su</argument><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ataque efectivo</argument></argset>hicieron que la diferencia numérica casi no se notara . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="22.3.2.1.1.2" sentencenodepath="22">Muchos le critican por ser demasiado intelectual y por <argset><argument argument="arg2" thematicrole="ben" type="spec">su</argument><reference_modifiers>, como dicen ,</reference_modifiers>" <head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de flexibilidad</argument>" , léase , de oportunismo </argset>. </example>
+        <example file="CESS-CAST-AA/5671_20000708.tbf.xml" nodepath="7.1.2.1.0" sentencenodepath="7">Las dos terceras partes de la población , como_consecuencia_de <argset><specifier>esa</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de estructura orgánica de poder</argument></argset>, viven dispersos en colectividades sin medios de producción , sujetos a una deficiente economía agraria que casi nunca proporciona una subsistencia digna . </example>
+        <example file="CESS-CAST-AA/5671_20000708.tbf.xml" nodepath="8.0.0.0.0.1.1.1.0" sentencenodepath="8">Fruto de <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de planificación</argument></argset>, y como_consecuencia_de costumbres ancestrales , sólo el 3_por_ciento del suelo se considera cultivable , mientras_que el resto está semi o totalmente desertizado y sin posibilidades de regeneración . </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="8.0.1.1.0" sentencenodepath="8">Ante <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de apoyo de la Iglesia_Católica , muy influyente en las decisiones del pueblo filipino , el único que profesa esta religión en toda Asia</argument></argset>, el presidente contará con el respaldo de sectas cristianas y movimientos protestantes , lo que ha levantado aun más las iras de la oposición . </example>
+        <example file="CESS-CAST-AA/7054_20000309.tbf.xml" nodepath="11.2.4.2.1.0" sentencenodepath="11">Una nueva escudería , Jaguar , que ha heredado toda la infraestructura de Stewart_Grand_Prix , es la punta de lanza de Ford para conseguir el título en el plazo más corto posible , para ello Ø cuenta con Eddie_Irvine y el británico Johnny_Herbert , aunque <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de fiabilidad</argument><reference_modifiers>que ha demostrado en las pruebas invernales ,</reference_modifiers></argset>pueden dar esta temporada al_traste con sus esperanzas . </example>
+        <example file="CESS-CAST-AA/8105_20000310.tbf.xml" nodepath="20.2.1.2.5.1.0.1.0.6.1.1.0" sentencenodepath="20">Ø Debe de ser la erótica de la política , que el propio candidato llevó al extremo en Murcia , donde , ironizando sobre la manera con la que Aznar denomina al pacto PSOE-IU ( la " cosa " ) , Almunia defendió la transparencia de ese acuerdo frente_a <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de concreción</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">de los aliados de Aznar</argument></argset>: " ¿ Cómo es su cosa ? , ¿ dónde Ø tienen su cosa ? ... " , fue preguntando el candidato socialista a un auditorio cada vez más divertido . </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="10.0.1.2.1.0.1.0" sentencenodepath="10">" El 90% fueron por_culpa_de <argset>imprudencias , <head>falta </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de prevención y de medidas de seguridad</argument>
+          </argset>. Estos fuegos se podían haber evitado " , añade Murtra . </example>
+        <example file="CESS-CAST-P/110_20010502.tbf.xml" nodepath="2.1.1.1.1.0.0" sentencenodepath="2">Como sólo la mitad de los efectivos trabaja en tareas de seguridad , la sensación de <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de agentes</argument></argset>es todavía mayor . </example>
+        <example file="CESS-CAST-P/112_20011101.tbf.xml" nodepath="0.4.1.1.1.0" sentencenodepath="0">La Direcció_General_de_Seguretat_Ciutadana ha sancionado con 16 días de suspensión de empleo y sueldo a un mosso que se refirió a una agente como " mi churri " , por considerarlo <argset><specifier>una</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de respeto</argument></argset>. </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="18.0.2.1.0" sentencenodepath="18">El poder que el técnico ejerce en diversos ámbitos del club y <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de protagonismo de casi todos los directivos</argument></argset>han erosionado el ambiente interno . </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="2.3.2.1.1.0" sentencenodepath="2">Probablemente , ésta hubiera sido aceptar sin_ambages la superioridad del Arsenal y reconocer <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de respuestas técnicas y tácticas</argument><reference_modifiers>que ofreció el Barça en una decepcionante Segunda mitad</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="21.4.8.1.0" sentencenodepath="21">Y ahora_mismo , las más evidentes , son el cansancio de algunos jugadores clave , como Rivaldo ; el mal momento de Frank_de_Boer ; el decreciente rendimiento de Hesp ; los problemas de Guardiola en las segundas partes y <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de confianza de Kluivert , suplente de lujo ,</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">ante el gol</argument></argset>. </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="20.7.1.1.0" sentencenodepath="20">Después Ø nos meten el miedo en el cuerpo con el futuro de las pensiones por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de recursos</argument></argset>. </example>
+        <example file="CESS-CAST-P/124_20000102.tbf.xml" nodepath="10.3.1.1.1.2.1.1.0" sentencenodepath="10">El capítulo más frágil del doble concierto recayó , en_fin , en unas colaboraciones probablemente resentidas por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de rodaje</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20000602_a.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Eso explicaría también <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de teléfono o domicilio de contacto</argument></argset>. </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="4.3.1.1.0.2.0" sentencenodepath="4">El origen de la actual situación no es otra_que <argset>la improvisación y <head>falta </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de coordinación</argument>
+            <argument argument="arg2" function="cn" thematicrole="ben" type="sp">a la hora de planificar con suficiente adelanto las necesidades de nuestra sociedad , tanto de médicos en general ( somos el país europeo con mayor proporción de estos profesionales por número de habitantes ) como del exceso de especialidades médicas existentes ( somos después de Italia el que tiene mayor número ) y también del número de especialistas en algunas de ellas ,</argument>
+          </argset>si_bien es cierto que en algunos periodos han existido déficits . </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="6.2.1.1.1.1.0.0" sentencenodepath="6">La mayoría de las denuncias acaban en un juicio de <argset><head>faltas </head></argset>al no apreciarse la existencia de delito . </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="7.3.0.1.1.1.0.0" sentencenodepath="7">En el 2001 se dictaron 91 sentencias de <argset><head>faltas </head></argset>absolutorias y 56 condenatorias ( 20 prohibían al agresor acercarse a la víctima ) . </example>
+        <example file="CESS-CAST-P/25_20011102.tbf.xml" nodepath="8.2.1.1.1.1.1.0.1.0" sentencenodepath="8">Ø Citó en_concreto la posibilidad de que <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de una salida al conflicto</argument></argset>dé alas a las facciones radicales y Ø contribuya a que se produzca un incremento en la acción de los terroristas . </example>
+        <example file="CESS-CAST-P/30_19990201.tbf.xml" nodepath="18.2.1.1.3.1.1.0" sentencenodepath="18">Arenas ironizó sobre los comentarios críticos de los socialistas sobre <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de liderazgo</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">del PP</argument></argset>. </example>
+        <example file="CESS-CAST-P/30_20020801_b.tbf.xml" nodepath="0.0.0.1.1.1.0" sentencenodepath="0">Denuncia por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de plazas de FP</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Tarragona</argument></argset>. </example>
+        <example file="CESS-CAST-P/30_20020801_b.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Cristóbal_Castro , padre de una alumna de Formación_Profesional ( FP ) de Tarragona , denunció ayer <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de previsión de Ensenyament</argument></argset>por excluir por falta de plazas a_la_mitad_de los alumnos que solicitaron un puesto en el nuevo curso puente de grado medio a grado superior en el instituto Vidal_i_Barraquer . </example>
+        <example file="CESS-CAST-P/30_20020801_b.tbf.xml" nodepath="1.4.1.1.1.0.0" sentencenodepath="1">Cristóbal_Castro , padre de una alumna de Formación_Profesional ( FP ) de Tarragona , denunció ayer la falta de previsión de Ensenyament por excluir por <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de plazas</argument></argset>a_la_mitad_de los alumnos que solicitaron un puesto en el nuevo curso puente de grado medio a grado superior en el instituto Vidal_i_Barraquer . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="1.0.0.0.1.2.1.1.0" sentencenodepath="1">Encorsetados por su presencia en el Pacto_de_Lizarra y por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de apoyo parlamentario</argument></argset>, los nacionalistas vascos no abjuran del diálogo con HB , pero Ø buscan una salida que el PP procura cegar . </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="4.0.3.1.0" sentencenodepath="4">Los socialistas calificaron de " escándalo " <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de relación institucional entre los responsables de Interior español y vasco</argument></argset>, y Jaime_Mayor volvió a atacar al PNV y Ø lo acusó de orquestar una " campaña política infame " . </example>
+        <example file="CESS-CAST-P/52_19990901.tbf.xml" nodepath="0.4.0.1.0.1" sentencenodepath="0">La portavoz socialista de Medio_Ambiente en el Congreso_de_los_Diputados , Cristina_Narbona , acusó ayer al Gobierno de <argset>" <head>falta </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de respeto</argument>
+            <argument argument="argM" function="cn" thematicrole="loc" type="sp">en política del agua</argument>" </argset>y de dilatar de manera intencionada la aprobación del Plan_Hidrológico_Nacional . </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="5.2.3.0.1" sentencenodepath="5">El ministro de Hacienda , Cristóbal_Montoro , también expresó su deseo de seguir negociando y Ø achacó a la parte vasca <argset>" <head>falta </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de voluntad política</argument>" <argument argument="argM" function="cn" thematicrole="fin" type="sp">para pactar el nuevo modelo , que debe entrar en vigor este 1_de_enero</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="0.4.1.0.0" sentencenodepath="0">La vista no se celebró por <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de jueces</argument></argset>. </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="1.3.1.3.1.1.1.1.1.1.5.1.0.0" sentencenodepath="1">El Consejo_General_del_Poder_Judicial ( CGPJ ) ha suspendido provisionalmente una orden de funcionamiento interno de la Audiencia_de_Barcelona dictada por su presidente , Francisco_Javier_Béjar , que el pasado mes_de_julio provocó la suspensión del juicio a un presunto violador por <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de jueces</argument></argset>. </example>
+        <example file="CESS-CAST-P/6_20010702.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">A <argset><argument argument="arg2" thematicrole="ben" type="spec">su</argument><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de dominio del ritmo parlamentario</argument></argset>- - el miércoles Ø perdió un debate cuerpo_a_cuerpo con Pujol simplemente porque Ø no calculó el tiempo que Ø tenía para intervenir - - Ø añadió luego otra dosis de desconcierto a su estrategia de oposición al pronunciarse a_favor_del adelanto electoral en Catalunya . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="28.0.3.1.0.0" sentencenodepath="28">" Lo mejor ha sido la actitud y lo peor <argset><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de profundidad</argument></argset>" , añadió Ø . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La juez reprocha <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de atención</argument></argset>al conductor , al que Ø retira un año el carnet . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="3.4.4.1.1.0" sentencenodepath="3">La simbólica pena no ha causado sorpresa , ya_que el conductor ha sido condenado por <argset><specifier>una</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de imprudencia</argument><reference_modifiers>leve</reference_modifiers></argset>, después de que la Audiencia_de_Barcelona desestimara el recurso del fiscal , que insistió en que el atropello mortal debía ser considerado un delito de homicidio por imprudencia . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="13.3.1.0" sentencenodepath="13">La sentencia reprocha al acusado <argset><argument argument="arg2" thematicrole="ben" type="spec">su</argument><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de cuidado</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">al volante</argument></argset>. </example>
+        <example file="CESS-CAST-P/7_19991102.tbf.xml" nodepath="2.3.1.1.0" sentencenodepath="2">Los formidables éxitos , este año , de Crivillé y Emilio_Alzamora , en 500cc y 125cc , demuestran , sin_embargo , que <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de títulos de los últimos tiempos</argument></argset>no era sinónimo de decadencia en una actividad con fortísimas raíces - - deportivas e industriales - - en España , y en_especial en Catalunya . </example>
+        <example file="CESS-CAST-P/81_20000201.tbf.xml" nodepath="2.2.0.2.2.1.1.0" sentencenodepath="2">Algunas de las mejoras que introduce la nueva norma tendrán dificultades para ser aplicadas de modo inmediato , especialmente por <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de medios humanos y materiales de las oficinas de extranjería del Ministerio_del_Interior , responsables de tramitar la mayoría de permisos</argument></argset>. </example>
+        <example file="CESS-CAST-P/85_20010103.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de agentes</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">hasta última hora</argument></argset>propició disputas y agresiones entre grupos de ladrones y víctimas . </example>
+        <example file="CESS-CAST-P/91_19990701.tbf.xml" nodepath="13.3.4.1.2" sentencenodepath="13">Además , Ø señaló que , aunque Ø se ajuste a la legalidad , Ø demuestra <argset><specifier>una</specifier>" <reference_modifiers>escandalosa</reference_modifiers><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ética</argument>" <reference_modifiers>por su parte</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="8.2.1.4.1.1.3.1.1.2.1.2.1.1.1.0" sentencenodepath="8">Barcelona mantiene unas expectativas de ocupación relativamente bajas ( entre el 75% y el 81% ) , datos que Indústria atribuye a la voluntad del sector de no querer alarmar con <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de camas</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="faltar" originlink="verb.faltar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="10.2.3.1.1.0" sentencenodepath="10">Pero los indígenas no comprenden esto y así Ø tienen en <argset><specifier>la</specifier><head>falta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de acciones gubernamentales más firmes contra la especulación</argument></argset>otra justificación para el levantamiento nacional que Ø adelantan para esta semana , principalmente en_demanda_de la renuncia de los tres poderes del Estado . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="faltar" originlink="verb.faltar.2" wordnetsynset="16:00474548+16:00042411">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1">
+        <constituent frequency="1" preposition="contra" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="r" type="determiner"/>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="2" postype="z" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="6.0.1.0.2.1.0" sentencenodepath="6">Diciendo que cometen <argset><specifier>muchas</specifier><head>faltas </head><reference_modifiers>personales</reference_modifiers></argset>los que las practican y que eso afea el espectáculo . </example>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="7.0.2.1.0" sentencenodepath="7">Realmente hacen <argset><specifier>más</specifier><head>faltas </head></argset>los que defienden que los que no defienden . </example>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="8.2.1.0" sentencenodepath="8">También hacen <argset><specifier>más</specifier><head>faltas </head></argset>los que sin saber defender intentan ser más agresivos . </example>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="9.4.1.0" sentencenodepath="9">Sin_embargo , sabiendo defender se provocan <argset><specifier>más</specifier><head>faltas </head><reference_modifiers>de ataque</reference_modifiers></argset>con una defensa agresiva , ya_que los atacantes necesitan actuar con más velocidad y es más difícil controlar sus acciones . </example>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="0.0.2.2.1.2.1.0.0" sentencenodepath="0">Es más ético trabajar en defensa intentando recuperar el balón sin <argset><head>falta </head></argset>que tratar de evitar una canasta de los rivales aunque Ø sea con falta . </example>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="0.1.1.2.3.1.0.0" sentencenodepath="0">Es más ético trabajar en defensa intentando recuperar el balón sin falta que tratar de evitar una canasta de los rivales aunque Ø sea con <argset><head>falta </head></argset>. </example>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="2.0.4.1.4.0.0" sentencenodepath="2">Con esto Ø no quiero decir que nosotros no hagamos <argset><head>faltas </head><reference_modifiers>personales</reference_modifiers></argset>, ya_que Ø aún no lo hacemos todo lo bien que me gustaría , pero Ø quiero hacer reflexionar a algunos con unos simples datos estadísticos : en los 17 partidos de la Liga_ACB Ø nos han señalado 396 faltas personales , mientras_que a nuestros rivales ( en los partidos que Ø han jugado contra nosotros ) Ø les han señalado 437 , a_pesar_de_que se habla bastante a_menudo de que nuestra defensa , como_mínimo , roza la ilegalidad . </example>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="2.2.2.2.1.1.3.5.1.0" sentencenodepath="2">Con esto Ø no quiero decir que nosotros no hagamos faltas personales , ya_que Ø aún no lo hacemos todo lo bien que me gustaría , pero Ø quiero hacer reflexionar a algunos con unos simples datos estadísticos : en los 17 partidos de la Liga_ACB Ø nos han señalado <argset><specifier>396</specifier><head>faltas </head><reference_modifiers>personales</reference_modifiers></argset>, mientras_que a nuestros rivales ( en los partidos que Ø han jugado contra nosotros ) Ø les han señalado 437 , a_pesar_de_que se habla bastante a_menudo de que nuestra defensa , como_mínimo , roza la ilegalidad . </example>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="3.2.1.1.2.6.0.1.0" sentencenodepath="3">Ocurre algo parecido en la Liga europea en donde de todos los partidos que Ø llevamos jugados sólo en uno ( Benetton ) Ø nos han señalado <argset><specifier>más</specifier><head>faltas </head></argset>que a nuestros rivales . </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="4.1.3.4.4.1.2.1.0.0" sentencenodepath="4">En ataque , consiguiendo a_la_vez que todos los hombres mirasen a la canasta , que no sólo Fred_Roberts encestase sus suspensiones y triples , y que se crease algo parecido a un ataque interior para equilibrar las cosas contra Sabas y hacerle cometer <argset><head>faltas </head></argset>. </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="8.5.4.2.4.1.1.1.1.1.0.0" sentencenodepath="8">El diario deportivo romano " Corriere_dello_Sport_Stadio " , en su crónica , califica los inicios del partido Milán-Barcelona como de " confuso , casi caótico , pues milanistas y catalanes fatigan para entrar en el área rival y parece inevitable que todo , o casi todo , se debe resolver sólo con los saques de <argset><head>falta </head></argset>" . </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="13.2.3.1.0.0" sentencenodepath="13">Lejos de echarse atrás y defender su ventaja , la selección continuó presionando y cuando Soto se iba derecho a la portería hondureña Ø fue agarrado en <argset><head>falta </head></argset>por Lagos . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="19.5.1.0.0" sentencenodepath="19">Según el rotativo de izquierdas " Liberation " , " las piedras de Biz_Zeit han transformado la metedura de pata de Jospin en <argset><head>falta </head><reference_modifiers>grave</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/24070_20000329.tbf.xml" nodepath="9.2.0.1.1.1.0.0" sentencenodepath="9">El mismo jugador yugoslavo dispuso de una inmejorable oportunidad para empatar el partido a los dos minutos de la segunda parte , pero su lanzamiento de <argset><head>falta </head><reference_modifiers>directa</reference_modifiers></argset>salió rozando el larguero . </example>
+        <example file="CESS-CAST-AA/4958_20000606.tbf.xml" nodepath="1.3.1.2.1.2.1.1.0.1.2.1.1.0" sentencenodepath="1">Jakson , quien recientemente regresó a la organización de la NBA para ocupar la presidencia de operaciones , tendrá a su cargo la difícil tarea de imponer la disciplina dentro de la liga y sancionar a jugadores y entrenadores que incurran en <argset><specifier>alguna</specifier><head>falta </head></argset>. </example>
+        <example file="CESS-CAST-AA/6552_20000810.tbf.xml" nodepath="7.3.1.2.1.0" sentencenodepath="7">Los rumores amenazadores de que los 700 miembros del Parlamento someterían a Wahid a una moción de censura forzaron al presidente que Ø admitiera <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>faltas </head></argset>y Ø pidiera perdón el Lunes pasado durante la apertura de la reunión anual del MPR . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="20.0.5.2.4.1.0" sentencenodepath="20">" Ø Fue un partido dificilísimo y , para nosotros , un encuentro a_vida_o_muerte . Ø Se nos complicó al principio cuando los australianos se pusieron 3-1 . Ø No nos dejaban llegar a portería y , a_la_vez , Ø nos pitaron <argset><specifier>14</specifier><head>faltas </head><reference_modifiers>ofensivas</reference_modifiers></argset>, algo insólito que nunca Ø viví en mi carrera como seleccionador " , afirmó a Efe el técnico Joan_Jané . </example>
+        <example file="CESS-CAST-P/176_20001201.tbf.xml" nodepath="15.0.4.1.1.1" sentencenodepath="15">La comisión jurídica del club había abierto dos expedientes a Seikaly por <argset><specifier>seis</specifier><reference_modifiers>supuestas</reference_modifiers><head>faltas </head><reference_modifiers>graves</reference_modifiers></argset>y Ø lo había suspendido de empleo . </example>
+        <example file="CESS-CAST-P/18_19990302.tbf.xml" nodepath="7.4.4.1.2.1.1.1.0" sentencenodepath="7">¿ Ø Se imaginan a un concejal , a un diputado , a un militante de un partido expedientado por ser infiel a su mujer ? ¿ O la introducción de la figura de un confesor laico para perdonar <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestras</argument><head>faltas </head><argument argument="arg1" function="cn" type="sp">contra el reglamento</argument></argset>? . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="13.1.4.1.2.1.0" sentencenodepath="13">Es_decir , encerrarse en su zona del campo para proteger la portería , ceder la posesión del balón al contrario y esperar algún contragolpe o <argset><specifier>una</specifier><head>falta </head></argset>para ver si Ø podía conseguir algo más que el empate . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="17.0.2.1.1.1.0.0" sentencenodepath="17">Ø Fue un lanzamiento de <argset><head>falta </head></argset>a_cargo_de Alonso , pero Busquets estuvo ágil para desviar el balón ( m.65 ) . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="20.2.0.1.1.1" sentencenodepath="20">Nada del otro mundo , pero además_de <argset><specifier>la</specifier><reference_modifiers>mencionada</reference_modifiers><head>falta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Alonso</argument></argset>, el mismo jugador pudo aguar del todo la fiesta en Lleida . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="benefactive">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="14.0.0.1.1.2.1.4.2.0.0" sentencenodepath="14">Goles : 0-1 , m.24 , Pereyra cabecea en el área universitaria , el balón rebota en el pecho de Olarra y Ø se va adentro ; 1-1 , m.36 , Pedro_González , de penalti , tras <argset><head>falta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Sarabia</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">sobre Arancibia</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="echar_en_falta" cousin="no" denotation="none" id="4" lexicalizationtype="verbal" lexicalized="yes" originlemma="faltar" originlink="verb.faltar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/t5-6.tbf.xml" nodepath="3.4.1.0.0" sentencenodepath="3">Pero Ø le echaba en <argset><head>falta </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

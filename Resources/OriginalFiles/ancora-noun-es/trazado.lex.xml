@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="trazado" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="trazar" originlink="verb.trazar.1" wordnetsynset="16:04494752">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="8.0.2.1.2.2.1.2.1.2.2.1.1.1.2.1.0" sentencenodepath="8">Ayllón ha presentado un escrito con esta petición , firmado por él mismo y otros senadores del PSOE que pertenecen a las circunscripciones por las que discurrirá <argset><specifier>el</specifier><head>trazado </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del futuro AVE</argument></argset>, informó hoy en una nota de prensa el Grupo_Socialista en el Senado . </example>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="9.4.2.3.2.0.2.1.0" sentencenodepath="9">Tras la presentación de este escrito , el titular de Fomento deberá comparecer ante la comisión competente del Senado , lo que permitirá a los firmantes conocer a_través_de Alvárez_Cascos cuál será <argset><specifier>el</specifier><head>trazado </head><reference_modifiers>definitivo</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la futura red</argument></argset>y las perspectivas que sobre esta tiene el responsable de este departamento ministerial . </example>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="10.3.0.5.1.2.1.1.0" sentencenodepath="10">En este sentido , los senadores socialistas recuerdan que ya hace un mes que terminaron los plazos de alegaciones públicas de <argset><specifier>los distintos</specifier><head>trazados </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del futuro AVE</argument></argset>, por lo que Ø desean saber si el estado actual del proyecto se corresponde con las numerosas manifestaciones y promesas que el PP realizó durante la pasada campaña electoral . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="4.4.1.0" sentencenodepath="4">En_espera_de la respuesta del Gobierno francés , queda también por definir <argset><specifier>el</specifier><head>trazado </head><reference_modifiers>definitivo</reference_modifiers><reference_modifiers>que tendría esta vía transpirenaica</reference_modifiers></argset>dado_que existen varias alternativas , en las que Loyola_de_Palacio destacó la necesidad de tener_en_cuenta que se trata de una zona que requiere " especial sensibilidad medioambiental y también histórica " por albergar por_ejemplo rutas del Camino_de_Santiago . </example>
+        <example file="CESS-CAST-A/17638_20000322.tbf.xml" nodepath="6.4.1.1.1" sentencenodepath="6">Su primer triunfo como profesional le llegó también sobre <argset><specifier>un</specifier><reference_modifiers>empinado</reference_modifiers><head>trazado </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Alto_a_Penhas_de_Saúde , en Portugal ,</argument></argset>lo que le dio " confianza para los próximos compromisos " . </example>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="4.2.2.1.1.1.0.1.5.1.1.0" sentencenodepath="4">El circuito de Magny-Cours , que cuenta con la curva más larga del mundial , una de las más lentas y la más difícil para entrar en meta , que no gusta a casi ningún piloto , favorece las aspiraciones de Ferrari y Ø enfría los ánimos de McLaren , que no ha logrado la victoria en <argset><specifier>este</specifier><head>trazado </head></argset>desde que en 1991 Ø sustituyó al de Paul_Ricard . </example>
+        <example file="CESS-CAST-AA/6627_20000509.tbf.xml" nodepath="1.0.1.0.0.1.1.1.2.1.1.1.0" sentencenodepath="1">La primera de las tres jornadas de entrenamiento previstas en <argset><specifier>el</specifier><head>trazado </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">andaluz</argument></argset>, después de la disputa el pasado domingo del Gran_Premio_de_España en Barcelona , estuvo marcada por la inestabilidad atmosférica , ya_que los pilotos tuvieron ocasión de rodar primero en_seco , luego en mojado y posteriormente de_nuevo en_seco . </example>
+        <example file="CESS-CAST-AA/6627_20000509.tbf.xml" nodepath="4.4.7.3.1.0" sentencenodepath="4">La gran novedad la protagonizó el piloto español de Arrows Pedro_Martínez_de_la_Rosa , que se estrenó en Jerez con un Fórmula_Uno , ya_que Ø no corría en el circuito gaditano desde 1991 en una prueba de Fórmula_Renault , aunque entonces <argset><specifier>el</specifier><head>trazado </head></argset>era distinto del actual . </example>
+        <example file="CESS-CAST-P/72_19990601.tbf.xml" nodepath="10.5.1.0.1.1.1.1.2.2.1.0.0" sentencenodepath="10">Para trasladarse de un municipio a otro se tardan en la actualidad unos 45 minutos con vehículos adaptados a las duras condiciones del firme y del <argset><head>trazado </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="trazar" originlink="verb.trazar.1" wordnetsynset="16:06390488">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17638_20000322.tbf.xml" nodepath="3.0.2.1.1.1.0" sentencenodepath="3">Su esperanza radica en que <argset><specifier>el</specifier><head>trazado </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la ronda vasca</argument></argset>es " bastante duro este año porque casi todos los puertos están al final " , y eso le beneficia . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="trazar" originlink="verb.trazar.1" wordnetsynset="16:06390488">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3589_20000405.tbf.xml" nodepath="3.2.2.1.4.1.0" sentencenodepath="3">El político cristianodemócrata consideró que " la separación es la condición para la reconciliación " y Ø apuntó a que Occidente también había aceptado <argset><specifier>el</specifier><head>trazado </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nuevas fronteras</argument></argset>en el caso de Croacia y Eslovenia . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

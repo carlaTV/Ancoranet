@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="rodaje" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="rodar" originlink="verb.rodar.2" wordnetsynset="16:00582602+16:cs1">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="21.5.2.1.1.1.1.5.4.0.1.1.0.0" sentencenodepath="21">En otro de los partidos de esta jornada del fútbol local , el Palestino que dirige el argentino Ricardo_Dabrowski , venció por 1-0 al cuadro de Coquimbo_Unido , en un partido para olvidar , ya_que después del gol convertido por Nelson_Lizana a los 38 minutos , ambos equipos demostraron que sus jugadores aún están faltos de <argset><head>rodaje </head></argset>. </example>
+        <example file="CESS-CAST-P/124_20000102.tbf.xml" nodepath="10.3.1.1.1.2.1.1.1.1.0.0" sentencenodepath="10">El capítulo más frágil del doble concierto recayó , en_fin , en unas colaboraciones probablemente resentidas por la falta de <argset><head>rodaje </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="rodar" originlink="verb.rodar.3" wordnetsynset="16:00582602">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/141_19981202.tbf.xml" nodepath="13.0.1.0.1.0" sentencenodepath="13">" <argset><specifier>El</specifier><head>rodaje </head></argset>era cada día un peligro . El alcalde del lugar era un fascista que no quería que se rodara una película sobre zíngaros ; pensaba que Ø desprestigiaba a Rumanía . Ø Intentó constantemente paralizar el rodaje " , recordó Gatlif . </example>
+        <example file="CESS-CAST-P/141_19981202.tbf.xml" nodepath="13.0.5.3.1.1.0" sentencenodepath="13">" El rodaje era cada día un peligro . El alcalde del lugar era un fascista que no quería que se rodara una película sobre zíngaros ; pensaba que Ø desprestigiaba a Rumanía . Ø Intentó constantemente paralizar <argset><specifier>el</specifier><head>rodaje </head></argset>" , recordó Gatlif . </example>
+        <example file="CESS-CAST-P/155_20010302.tbf.xml" nodepath="6.0.1.2.1.0.1.1.0.0" sentencenodepath="6">" En tres ocasiones y con fecha de <argset><head>rodaje </head></argset>fijada se han caído tres proyectos en los que Ø iba a trabajar " , comentó Ø . </example>
+        <example file="CESS-CAST-P/155_20010302.tbf.xml" nodepath="11.3.1.1.1.0" sentencenodepath="11">Ø Dijo también que durante <argset><specifier>el</specifier><head>rodaje </head></argset>Ø hizo " continuos cambios en el guión " . </example>
+        <example file="CESS-CAST-P/179_20010401.tbf.xml" nodepath="4.3.8.1.1.1.0.0" sentencenodepath="4">Segura ha conseguido ahora más dinero , más medios , más coches para destrozar , mejores efectos especiales y el permiso de <argset><head>rodaje </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Marbella</argument></argset>, con lo que la película resulta más espectacular . </example>
+        <example file="CESS-CAST-P/193_20010701.tbf.xml" nodepath="25.2.0.1.0" sentencenodepath="25">El presupuesto de esta producción de Sogecine es de 850 millones de pesetas y <argset><specifier>el</specifier><head>rodaje </head></argset>se ha llevado_a_cabo en Portugal , Huesca , Asturias , Navarra , Andalucía y Madrid . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="rodar" originlink="verb.rodar.3" wordnetsynset="16:00582602">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/125_19990701.tbf.xml" nodepath="2.0.3.1.0" sentencenodepath="2">Nunes , director experimental , que acaba de salir de un parón profesional de 16 años , ha terminado recientemente <argset><specifier>el</specifier><head>rodaje </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">en vídeo</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del largometraje Amigogima</argument></argset>y Ø espera encontrar distribución para su película , que tendrá una versión en 35_mm , a_partir_del próximo mes_de_septiembre . </example>
+        <example file="CESS-CAST-P/136_20001001.tbf.xml" nodepath="15.1.1.0" sentencenodepath="15">A_pesar_del miedo y la dificultad de la historia , <argset><specifier>el</specifier><head>rodaje </head></argset>fue una diversión . </example>
+        <example file="CESS-CAST-P/193_20010701.tbf.xml" nodepath="4.5.1.0" sentencenodepath="4">Antón_Reixa , por su parte , también inicia estos días <argset><specifier>el</specifier><head>rodaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de lo que será su debut en el largometraje , El_lápiz_del_carpintero , a_partir_de la novela del gallego Manuel_Rivas</argument></argset>. </example>
+        <example file="CESS-CAST-P/193_20010701.tbf.xml" nodepath="26.3.1.0" sentencenodepath="26">El director gallego Antón_Reixa empieza ahora <argset><specifier>el</specifier><head>rodaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de El_lápiz_del_carpintero</argument></argset>. </example>
+        <example file="CESS-CAST-P/70_20000501.tbf.xml" nodepath="6.0.1.0.1" sentencenodepath="6">En <argset><reference_modifiers>pleno</reference_modifiers><head>rodaje </head></argset>, admite Ø , Ø se llegó a preguntar " si no habría sido mejor participar en un filme donde Ø hubiese tenido el papel de un tranquilo conductor de autobuses " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

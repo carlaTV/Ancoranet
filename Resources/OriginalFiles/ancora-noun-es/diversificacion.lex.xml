@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="diversificación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="diversificar" originlink="verb.diversificar.1" wordnetsynset="16:00128403">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="4.3.1.2.2.1.0" sentencenodepath="4">La normativa define el porcentaje máximo de participación de cada activo en el fondo para limitar el riesgo de los inversores , a_través_de <argset><specifier>la</specifier><head>diversificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la cartera</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20751_20000128.tbf.xml" nodepath="4.2.0.3.0.1.1.0.0" sentencenodepath="4">Portavoces de Chupa_Chups aseguraron que la compañía tenía proyectos de <argset><head>diversificación </head></argset>en ocio y que adquirir el parque a tan buen precio era una oportunidad para apostar por esta línea de negocios . </example>
+        <example file="CESS-CAST-P/133_20000702.tbf.xml" nodepath="3.3.1.1.1.0.0" sentencenodepath="3">FCC ha llevado_a_cabo durante los últimos cinco años , una estrategia de <argset><head>diversificación </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="diversificar" originlink="verb.diversificar.1" wordnetsynset="16:00128403">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/93_20010701.tbf.xml" nodepath="10.0.3.1.1.4.1.1.1.1.1.0.0" sentencenodepath="10">Ese precisamente es el mercado en el que se ha fijado Metales_y_Derivados para poner_en_marcha un proceso de <argset><head>diversificación </head></argset>: la empresa ha iniciado la comercialización de aparatos de aire_acondicionado de la marca tailandesa Polar_Air . </example>
+        <example file="CESS-CAST-P/93_20010701.tbf.xml" nodepath="13.0.0.1.1.0" sentencenodepath="13">Al_margen_de <argset><specifier>la</specifier><head>diversificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de productos</argument></argset>, la compañía ha optado también por ampliar sus canales de distribución a la venta telefónica , y Ø ha puesto_en_marcha una web para operar también a_través_de Internet . </example>
+        <example file="CESS-CAST-P/98_19990302.tbf.xml" nodepath="6.3.5.2.1.1.1.0" sentencenodepath="6">Entre los planes de futuro de Ercros , Zabalza explicó que se realizará un plan de inversiones de casi 18.000 millones en los próximos tres años , destinado a reorientar <argset><specifier>la</specifier><head>diversificación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del grupo</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

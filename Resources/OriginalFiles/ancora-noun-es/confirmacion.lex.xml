@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="confirmación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="confirmar" originlink="verb.confirmar.1" wordnetsynset="16:04486906">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/11317_20000817.tbf.xml" nodepath="6.2.1.2.1.1.1.1.1.0" sentencenodepath="6">La operación está sujeta a ciertas " condiciones suspensivas " , como la obtención de autorizaciones administrativas de_acuerdo_con el contrato de concesión y con la ley de defensa de la competencia , y a otros requisitos como <argset><specifier>la</specifier><head>confirmación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los vendedores</argument><reference_modifiers>que deberá ser emitida antes del 10_de_octubre próximo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17451_20000522.tbf.xml" nodepath="9.2.2.2.2.3.1.1.5.4.1.0" sentencenodepath="9">María_Antonia_Alvarez destacó la " tranquilidad y transparencia " con la que se ha desarrollado este proceso , que el PSdeG da por cerrado , aunque Ø necesitará <argset><specifier>la</specifier><head>confirmación </head><reference_modifiers>oficial</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Comité_Nacional_Gallego</argument></argset>. </example>
+        <example file="CESS-CAST-P/59_19991001.tbf.xml" nodepath="1.2.1.1" sentencenodepath="1">Ø Es <argset><specifier>la</specifier><reference_modifiers>solemne y merecida</reference_modifiers><head>confirmación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un talento que sus lectores reconocían desde la aparición de El_tambor_de_hojalata y su protagonista enano Oskar_Matzerath , producto de una mente en estado de revisión iconoclasta sin contemplaciones ante la Alemania de su tiempo</argument></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="benefactive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">El nombramiento de Miyazawa , ex primer ministro de 80 años , que repite por tercera vez en su carrera la cartera de Finanzas , fue <argset><specifier>una</specifier><head>confirmación </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">para los analistas</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que la política económica de Mori depara pocas sorpresas</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="confirmar" originlink="verb.confirmar.1" wordnetsynset="16:05367196">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="atr">
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/107_20000202.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">El Comité_de_Asuntos_Bancarios_del_Senado aprobó ayer <argset><specifier>la</specifier><head>confirmación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Greenspan</argument><argument argument="argM" function="cn" thematicrole="atr" type="sp">como presidente de la Reserva_Federal para un cuarto mandato</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="confirmar" originlink="verb.confirmar.1" wordnetsynset="16:04986937">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="10.2.3.1.0" sentencenodepath="10">Pero la cabellera es la misma que Ø lucirá casi toda la vida , y los símbolos que Cuixart le dibujó alrededor de la cabeza - - lunas , flechas , triángulos , montañas ... - - eran ya <argset><specifier>la</specifier><head>confirmación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su potencialidad creadora</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

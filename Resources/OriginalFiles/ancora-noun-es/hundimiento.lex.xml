@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="hundimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="hundir" originlink="verb.hundir.1" wordnetsynset="16:05483331">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="1.0.1.1.1.2.1.1.1.0.0" sentencenodepath="1">En un anuncio sorprendente , la comisión que ha investigado las causas del <argset><head>hundimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del " Kursk "</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">el pasado 12_de_agosto</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en aguas árticas del mar de Bárents</argument></argset>reconoció que " hasta ahora " no se han hallado pruebas de la colisión , pero Ø mantuvo abierta la hipótesis . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="hundir" originlink="verb.hundir.1" wordnetsynset="16:05483331+16:05482753">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="6.2.1.0.0.1.1.2.1.0.1.1.1.1.1.0" sentencenodepath="6">El ruso Serguéi_Shmiga fue el primero en asomarse dentro del " Kursk " para explorar los enigmas de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>hundimiento </head></argset>y buscar los cuerpos , asesorado desde fuera por otro buzo ruso y uno noruego , en_medio_de una tempestad que amenaza con frustrar los trabajos . </example>
+        <example file="CESS-CAST-P/30_20020801_f.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>hundimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del tejado , arreglado hace un mes ,</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">sobre el tercer piso</argument></argset>provocó importantes grietas en el inmueble situado en la Riera . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="hundir" originlink="verb.hundir.2" wordnetsynset="16:05483331">
+    <frame appearsinplural="no" type="anticausative">
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="1.4.5.1.1.1.1.2.1.1.0" sentencenodepath="1">Pero la incógnita que atormenta a los rusos y tiene perplejos a marinos y científicos de todo el mundo podría despejarse en_menos_de 24 horas , cuando según Ø está anunciado se divulguen los resultados de la investigación oficial sobre <argset><specifier>el</specifier><head>hundimiento </head></argset>. </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="2.5.4.1.1.0" sentencenodepath="2">El " Kursk " , orgullo de la Flota_del_Norte , se hundió por causas no aclaradas el pasado 12_de_agosto , aunque la versión más verosímil para las autoridades rusas es que <argset><specifier>el</specifier><head>hundimiento </head></argset>se debió a la colisión con un submarino " asesino " extranjero . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="hundir" originlink="verb.hundir.2" wordnetsynset="16:05483331">
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="18.0.2.1.1.1.1.5.1.1.0" sentencenodepath="18">La Armada y el Servicio_Federal_de_Seguridad ( FSB , antiguo KGB ) abrieron un expediente sobre una presunta " huella chechena " en <argset><specifier>el</specifier><head>hundimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del submarino nuclear</argument></argset>, pero los posibles resultados de la investigación no se hicieron públicos . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="obligación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="obligar" originlink="verb.obligar.1" wordnetsynset="16:00731811+16:05074715">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" foundincorporated="yes" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <argument argument="arg2" thematicrole="efi">
+        <constituent frequency="1" preposition="en_favor_de" type="sp"/>
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="13" postype="article" type="determiner"/>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="1" postype="interrogative" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="S"/>
+        <constituent frequency="1" preposition="en_relación_con" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-1.tbf.xml" nodepath="4.3.1.1.0" sentencenodepath="4">El director del Departamento_del_Medio_Ambiente de esta ciudad , Manuel_Herrera , dijo a los periodistas que <argset><specifier>las</specifier><head>obligaciones </head><argument argument="arg2" function="cn" thematicrole="efi" type="sp">en_favor_de la ecología</argument><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por parte de la empresa</argument></argset>fueron confirmadas en 1995 . </example>
+        <example file="3LB-CAST/2000060211_6-1.tbf.xml" nodepath="5.0.1.0.1" sentencenodepath="5">Cuatro años después , <argset><reference_modifiers>dichas</reference_modifiers><head>obligaciones </head></argset>estaban por cumplir , agregó Herrera , quien observó que la compañía recibió una multa de 1.872 millones de pesos ( 892,7 millones de dólares ) . </example>
+        <example file="3LB-CAST/d2-15.tbf.xml" nodepath="5.2.3.2.1.1.2.3.1.2.1.1.0" sentencenodepath="5">Con un único gol , de un solo golpe , el Barcelona acabó con su maleficio del Bernabéu y Ø arrinconó al Deportivo contra la jornada postrera , contra el deber de ganar , que puede ser la más dura de <argset><specifier>las</specifier><head>obligaciones </head></argset>. </example>
+        <example file="3LB-CAST/dc10-7.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Después_del lance Ø tenían <argset><specifier>la</specifier><head>obligación </head><argument argument="arg2" function="cn" thematicrole="efi" type="sp">de redactar un protocolo escrito , esencial sobre_todo en el caso en que uno de los duelistas cayera herido mortalmente</argument></argset>, ya_que sobre el otro recaería la responsabilidad penal . </example>
+        <example file="CESS-CAST-A/10477_20001114.tbf.xml" nodepath="2.3.3.1.3.4.1.0.1.1.1.0" sentencenodepath="2">En su misiva , Zarrías destaca que un acuerdo de 1997 indica que cuando una comunidad autónoma desee que el Reino_de_España demande a otro Estado miembro por incumplimiento de <argset><specifier>las</specifier><head>obligaciones </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de los tratados</argument></argset>, Ø lo pondrá en conocimiento del presidente de la Comisión_de_Seguimiento motivando su petición . </example>
+        <example file="CESS-CAST-A/10477_20001114.tbf.xml" nodepath="6.3.3.0.1.1.1.0.2.0" sentencenodepath="6">Según Zarrías , no consta que el Gobierno británico haya cumplido ninguna de <argset>las garantías ni <head>obligaciones </head>
+            <reference_modifiers>que en_virtud_de los tratados comunitarios le afectan y que son exigibles no_sólo en situación de daño efectivo , sino " ante la simple contemplación de riesgo de producción del mismo "</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="9.3.4.1.0" sentencenodepath="9">El tribunal también declaró que Canadá solo cumple <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>obligaciones </head></argset>parcialmente . </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="8.2.0.1.4.2.3.1.1.1.2.1.0" sentencenodepath="8">" Ø No vemos nada negativo en ello " , señaló Bezuidenhoud , quien no_obstante subrayó que " si Ø miramos la combinación de todas las leyes y <argset><specifier>las</specifier><head>obligaciones </head><reference_modifiers>que se imponen a los empresarios</reference_modifiers></argset>, Ø podemos decir que la carga es demasiada , lo que constituye una de las razones del desempleo masivo " . </example>
+        <example file="CESS-CAST-A/18701_20000922.tbf.xml" nodepath="9.2.2.1.0" sentencenodepath="9">La nueva directiva pretende extender a abogados y contables , incluidos los asesores fiscales , agentes inmobiliarios , marchantes de arte , anticuarios y casinos <argset><specifier>las mismas</specifier><head>obligaciones </head><reference_modifiers>que ahora tienen las instituciones financieras y de crédito</reference_modifiers><reference_modifiers>en_relación_con la lucha contra el blanqueo de capitales</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19811_20000427.tbf.xml" nodepath="2.2.2.5.1.1.3.4.1.1.0" sentencenodepath="2">En este sentido Ø agregó que " no parece " que el Ejecutivo vasco reaccione y Ø sugirió que al tratarse de un asunto grave " Ø puede llevar incluso a tener que considerar de aplicación disposiciones constitucionales cuando un Gobierno autónomo no cumple con <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>obligaciones </head></argset>" . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="4.2.3.3.0.1.0" sentencenodepath="4">México consideraba que esa redacción era muy ambigua y Ø no concretaba <argset><specifier>qué</specifier><head>obligaciones </head></argset>Ø tendría que imponer a las multinacionales que operan en su territorio , por lo que Ø podía ser utilizado , en_particular por sindicatos de otros países , para impedir que una empresa se implantara en el país latinoamericano . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="7.2.1.0.0.1.1.0.1.1.1.0" sentencenodepath="7">Otra de las modificaciones de última hora concierne al mecanismo de control de <argset><specifier>las</specifier><head>obligaciones </head></argset>y el ámbito de arbitraje de las eventuales controversias de las empresas , que será realizado siempre en primer lugar por los llamados Puntos_de_Contacto_Nacionales ( PCN ) y no podrá realizarse desde el exterior , como contemplaba el texto que apoyaban todos los países a_excepción_de México . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="14.3.1.1.1.0.0" sentencenodepath="14">El texto establece a nivel multilateral una serie de <argset><head>obligaciones </head><reference_modifiers>, que no son jurídicamente vinculantes ,</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">para todas las compañías multinacionales de los Estados que las han suscrito</argument><reference_modifiers>, principalmente de carácter laboral , medioambiental , de competencia y de ética de negocios</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="10.0.3.1.0.2.0" sentencenodepath="10">El Tesoro concentrará la financiación neta del Estado en <argset>bonos y <head>obligaciones </head>
+          </argset>, mientras_que las emisiones en letras serán inferiores a las amortizaciones . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="12.0.5.1.1.1.1.0.2.2.1.1.1.1.2.1.0.2.0" sentencenodepath="12">Como en los últimos años , " el Tesoro mantendrá abierta la posibilidad de realizar emisiones oportunistas que conlleven un ahorro respecto_a la financiación tradicional vía <argset>bonos y <head>obligaciones </head>
+          </argset>" , apunta el Proyecto . </example>
+        <example file="CESS-CAST-AA/4216_20001107.tbf.xml" nodepath="5.0.1.0.2.1.1.2.1.0" sentencenodepath="5">A_pesar_del entusiasmo que el gobernador de Texas exhibió en todo momento , algo que tienen <argset><specifier>la</specifier><head>obligación </head><argument argument="arg2" function="cn" thematicrole="efi" type="sp">de mostrar</argument></argset>los candidatos , sus asesores mantienen la prudencia ante lo igualado de las encuestas . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="2.2.2.3.1.1.0" sentencenodepath="2">El campeón chileno necesitaba la victoria para mantener sus posibilidades de avanzar en el torneo , pero Ø dejó_ir la oportunidad en mayor medida por sus propias flaquezas que por méritos del rival y ahora Ø está en <argset><specifier>la</specifier><head>obligación </head><argument argument="arg2" function="cn" thematicrole="efi" type="sp">de vencer por tres goles de diferencia como_mínimo al Atlas mexicano en su último partido</argument></argset>para mantenerse en carrera . </example>
+        <example file="CESS-CAST-AA/6498_20000409.tbf.xml" nodepath="4.3.3.1.1.0.0.1" sentencenodepath="4">La CNMV y una posterior regulación de la Sociedad_de_Bolsas establece , entre otros asuntos , que las compañías que coticen en este segmento estarán sometidas a <argset><reference_modifiers>mayores</reference_modifiers><head>obligaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de transparencia</argument><reference_modifiers>que las que actualmente actúan en la bolsa española</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="4.3.2.1.2.1.1.2.3.1.0" sentencenodepath="4">Triadú definió este eje " como un nuevo Silicon_Valley , algo difícil de conseguir pero que la Generalitat tiene <argset><specifier>la</specifier><head>obligación </head><argument argument="arg2" function="cn" thematicrole="efi" type="sp">de intentar</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/9690_20000412.tbf.xml" nodepath="7.0.1.1.3.1.2.1.1.0" sentencenodepath="7">El ION , que marca la tendencia del mercado de <argset><specifier>las</specifier><head>obligaciones </head><reference_modifiers>negociables</reference_modifiers></argset>de las empresas privadas , culminó sin cambios a 124,21 puntos . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="12.2.0.4.1.1.1.1.0" sentencenodepath="12">Aun_cuando estaba programado que esta medida fuera obligatoria a_partir_de 1_de_enero_del_2001 , transcurrido el período transitorio de adaptación , la dificultad de su puesta_en_práctica - - denunciada tanto por las centrales sindicales como por la patronal - - ha llevado a reconsiderar la postura del legislador , concediendo una moratoria hasta el 26_de_noviembre_del_año_2002 , sin que ello suponga un cambio del criterio sostenido ; o_sea , que se atrasa el cumplimiento de <argset><specifier>la</specifier><head>obligación </head></argset>, pero no ésta desaparece . </example>
+        <example file="CESS-CAST-P/18_19990602_b.tbf.xml" nodepath="4.3.0.1.1.4.1.1.3.1.1.1.1.1.3.0.2.1.0" sentencenodepath="4">Ya Ø es hora de que los políticos , todos en_general y sin excepción , sientan en lo más profundo de su ser la responsabilidad que Ø adquieren al representar a todo un país que ha puesto en sus manos , entre <argset><specifier>otras</specifier><head>obligaciones </head></argset>, la defensa de su honor y el derecho a ser respetados . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="14.5.0.1.0" sentencenodepath="14">" Ø Parece una situación perversa , pero en España existe la mentalidad de que el hospital está para todo . Cambiar esa cultura y conseguir que el usuario confíe en un centro de barrio costará dos o tres años . <argset><argument argument="arg1" thematicrole="tem" type="spec">Nuestra</argument><head>obligación </head></argset>, mientras , es dar respuesta en los hospitales , tanta como Ø haga_falta y de_inmediato " . </example>
+        <example file="CESS-CAST-P/6_20010702.tbf.xml" nodepath="6.4.2.1.1.1.2.1.0.3.1.1.1.0" sentencenodepath="6">Pero Ø lo hace desde la improvisación y sin asumir el sofisticado papel de cabeza visible de la oposición , entre <argset><argument argument="arg1" thematicrole="tem" type="relatiu">cuyas</argument><head argument="arg0" thematicrole="cau">obligaciones </head></argset>está transmitir con claridad sus ideas alternativas para derrotar a CiU cuando toquen elecciones , que de_momento es en el otoño del 2003 . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="11.3.1.1.4.1.0" sentencenodepath="11">La CGT estudia la presentación de un recurso judicial contra el plan de ABB_Alstom_Power al considerar que la compañía no ha respetado <argset><specifier>la</specifier><head>obligación </head><argument argument="arg2" function="cn" thematicrole="efi" type="sp">de informar con antelación a los trabajadores</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="obligar" originlink="verb.obligar.1" wordnetsynset="16:00731811">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="efi">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/18701_20000922.tbf.xml" nodepath="3.3.1.1.1.0.1.1.1.2.1.1.0" sentencenodepath="3">Sus objeciones se centran en el punto relativo a la extensión a las profesiones jurídicas y contables de <argset><specifier>la</specifier><head>obligación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de declarar cualquier operación sospechosa que llegue a su conocimiento</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23144_20001129.tbf.xml" nodepath="6.3.1.1.0" sentencenodepath="6">Telefónica se vio en <argset><specifier>la</specifier><head>obligación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de vender la operadora móvil de Ceterp</argument></argset>porque las leyes brasileñas no permiten que una compañía gestione empresas de telefonía fija y móvil celular en la misma área geográfica . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="8.4.5.1.1.1.0.1.3.1.0" sentencenodepath="8">La Subdirección_General_del_Ministerio_de_Trabajo se ha manifestado en sentido contrario a dicha interpretación , si_bien Ø no ha hecho cambiar el criterio de aquella , que mantiene <argset><specifier>la</specifier><head>obligación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de exteriorizar dichos pagos mediante la suscripción de un contrato de seguro o un plan de pensiones</argument></argset>. </example>
+        <example file="CESS-CAST-P/4_20020601_c.tbf.xml" nodepath="12.0.2.1.0" sentencenodepath="12">Nadie tiene <argset><specifier>la</specifier><head>obligación </head><argument argument="arg2" function="cn" thematicrole="efi" type="sp">de renunciar a la lengua propia</argument></argset>, pero todo el mundo debería sentir la necesidad de conocer las lenguas que le rodean . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="intermediación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="intermediar" originlink="verb.intermediar.1" wordnetsynset="16:cs1+16:cs2">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="12.4.3.1.3.1.1.1.0.0" sentencenodepath="12">Además Ø sugirió a las autoridades mexicanas fortalecer la competencia dentro del sistema financiero para que las instituciones bancarias reduzcan el margen de <argset><head>intermediación </head></argset>. </example>
+        <example file="CESS-CAST-A/18549_20000922.tbf.xml" nodepath="6.2.0.1.1.1.1.0.0" sentencenodepath="6">Otros objetivos de la " chauchera " son reducir el nivel de <argset><head>intermediación </head></argset>al que está expuesto el pequeño empresario y facilitar uniones con_el_fin_de generar grandes volúmenes de demanda para que Ø consigan productos a precio de mayoristas . </example>
+        <example file="CESS-CAST-AA/20809_20000428.tbf.xml" nodepath="7.0.0.1.1.1.0.0" sentencenodepath="7">El margen de <argset><head>intermediación </head></argset>aumentó un 8,7_por_ciento hasta alcanzar los 16.719 millones , el ordinario se redujo un 15,1_por_ciento y Ø se situó en 17.827 millones y el de explotación disminuyó un 33,5_por_ciento hasta quedar en 4.716 millones . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="giro" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="girar" originlink="verb.girar.1" wordnetsynset="16:00220762+16:05524229">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="5.0.2.1.1.0.3.1.1.1" sentencenodepath="5">Blatter abrió un hueco que fue de 17 segundos tras <argset><specifier>el</specifier><reference_modifiers>segundo</reference_modifiers><head>giro </head></argset>y que llegó a rozar el medio minuto en su amplitud máxima , pero a_falta_de dos kilómetros para completar la tercera vuelta , la ciclista balear enlazó con la suiza y Ø la superó colocándose al_frente_de la prueba . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="44.1.1.1" sentencenodepath="44">Es <argset><specifier>este</specifier><reference_modifiers>necesario</reference_modifiers><head>giro </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">social</argument></argset>el que concreta la alianza entre el rey y los partidos democráticos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="girar" originlink="verb.girar.2" wordnetsynset="16:00224643+16:00220762+16:05524229+16:09573530">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="a_favor_de" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-7.tbf.xml" nodepath="8.4.1.0" sentencenodepath="8">Pero desde el verano pasado la vida del doctor Meagher experimentó <argset><specifier>un</specifier><head>giro </head><reference_modifiers>total</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/12375_20000119.tbf.xml" nodepath="4.2.1.1.0" sentencenodepath="4">Los analistas resaltan que <argset><specifier>el</specifier><head>giro </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">en la opinión pública</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">a_favor_de " Stipe " ( Mesic )</argument></argset>se debe , precisamente , al marcado contraste entre su actitud y la del que fuera presidente desde la independencia de Croacia de la antigua Yugoslavia_Socialista_Federal en 1991 , el general jubilado Franjo_Tudjman , conocido por su mal humor , sus frecuentes declaraciones xenófobas y su poca tolerancia . </example>
+        <example file="CESS-CAST-A/18549_20000922.tbf.xml" nodepath="3.3.2.1.2.3.2.1.0.0" sentencenodepath="3">Con la " chauchera " , nombre popular con el que se conoce al monedero en algunos sectores de Ecuador , el pequeño empresario podrá adquirir , mediante una línea de crédito directo que otorga el Banco_Solidario a_través_de una cuenta y sobre <argset><head>giro </head><reference_modifiers>contratado</reference_modifiers></argset>, la materia prima que Ø requiere para su negocio . </example>
+        <example file="CESS-CAST-AA/3121_20000605.tbf.xml" nodepath="2.1.2.2.1.6.1.1.0" sentencenodepath="2">En su editorial , Ø comenta que el atentado de Durango debería ser " un revulsivo para que los partidos demócratas recapacitaran sobre la necesidad de recuperar la unidad " y Ø opina que el anuncio del Gobierno vasco de apoyar todas las iniciativas convocadas por PP , el sindicato ELA o el Ayuntamiento_de_Durango para honrar la memoria de Pedrosa aunque " no se trata de <argset><specifier>un</specifier><head>giro </head></argset>, Euskadi necesita que este anuncio sea un paso hacia el principio del fin de un error " . </example>
+        <example file="CESS-CAST-AA/6627_20000509.tbf.xml" nodepath="3.2.2.1.2.2.2.1.0" sentencenodepath="3">Hakkinen completó treinta vueltas al circuito jerezano y el que más se acercó a su mejor tiempo fue el italiano Jarno_Trulli ( Jordan ) , que , tras <argset><specifier>41</specifier><head>giros </head></argset>, fue el segundo más rápido con 1:25.67 . </example>
+        <example file="CESS-CAST-AA/8105_20000310.tbf.xml" nodepath="26.3.5.1.1.1.1.0" sentencenodepath="26">Aznar asegura que Ø todavía está en forma cuando en Málaga Ø se ve obligado a hacer <argset><specifier>un</specifier><head>giro </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de cintura</argument></argset>para poder ver a todo el público que le rodea . </example>
+        <example file="CESS-CAST-P/101_19990103.tbf.xml" nodepath="5.2.2.1.1.0" sentencenodepath="5">Hiddink y sus jugadores son conscientes de ello y Ø quieren dar <argset><specifier>un</specifier><head>giro </head></argset>a la situación . </example>
+        <example file="CESS-CAST-P/105_19990601.tbf.xml" nodepath="0.3.0.1.1.0" sentencenodepath="0">Las noticias sobre el plan de paz en Yugoslavia permitieron a los mercados bursátiles europeos dar <argset><specifier>un</specifier><head>giro </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de última hora</argument></argset>y cerrar al alza . </example>
+        <example file="CESS-CAST-P/113_19990501_a.tbf.xml" nodepath="7.3.1.2.1.0" sentencenodepath="7">El Primero_de_Mayo servirá también para pedir al Gobierno <argset><specifier>un</specifier><head>giro </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">en su política social y económica</argument></argset>. </example>
+        <example file="CESS-CAST-P/118_20011202.tbf.xml" nodepath="9.0.2.1.0" sentencenodepath="9">Un camión de reparto apuró <argset><specifier>el</specifier><head>giro </head></argset>en la calle de la Cadena y Ø se los cargó . </example>
+        <example file="CESS-CAST-P/135_20000202.tbf.xml" nodepath="26.3.6.2.1.0.0" sentencenodepath="26">Me gusta pensar que Ø avanzo , aunque a_veces Ø no sea hacia adelante sino dando <argset><head>giros </head></argset>. </example>
+        <example file="CESS-CAST-P/81_19991101.tbf.xml" nodepath="9.0.1.1.1.0.2.1.2.1.1.1.0" sentencenodepath="9">El caso del pequeño Winslow , acusado injustamente de haber robado <argset><specifier>un</specifier><head>giro </head><reference_modifiers>telegráfico</reference_modifiers></argset>, y por ello expulsado del colegio naval , es sólo el detonante de diversas relaciones entre los miembros de su familia , el prometido de su hermana y el abogado conservador que acepta el caso como un desafío que puede reportarle publicidad . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

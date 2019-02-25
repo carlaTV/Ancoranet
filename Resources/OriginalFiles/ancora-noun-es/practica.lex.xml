@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="práctica" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="practicar" originlink="verb.practicar.1" wordnetsynset="16:00574902+16:00263204">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="11" postype="article" type="determiner"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="4" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="4.0.1.1.1.4.3.1.0.0" sentencenodepath="4">Pero el juez , que el 3_de_abril dictaminó que Microsoft incurrió en <argset><head>prácticas </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de monopolio</argument></argset>, opinó que las medidas exigidas por el Gobierno no son bastante severas y Ø se manifestó en_favor_de otro planteamiento que dividiría a la empresa en tres compañías . </example>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="8.0.5.1.1.1.0" sentencenodepath="8">No_obstante , Ø ya se ha resignado a alterar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>prácticas </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">comerciales</argument></argset>y Ø ha propuesto dar a los fabricantes de ordenadores mayor flexibilidad en la elección del sistema de operación y a los consumidores más opciones para el uso de programas que no funcionen con Windows . </example>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="14.4.1.0.2.2.2.0.2.1.1.0" sentencenodepath="14">Durante la visita , los expertos se entrevistaron con responsables políticos que aseguraron que , tras la publicación de un decreto el pasado año , la imposición de trabajos forzosos u obligatorios ha sido suspendida en <argset><specifier>la</specifier><head>práctica </head></argset>y ninguna queja ha llegado al conocimiento de los órganos de aplicación de la ley . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="0.4.1.1" sentencenodepath="0">Según aquella comisión , en ese país el empleo de la mano de obra forzosa es <argset><specifier>una</specifier>" <head>práctica </head><reference_modifiers>sistemática</reference_modifiers><reference_modifiers>que ignora por_completo la dignidad humana , la seguridad y la salud de la población</reference_modifiers>" </argset>. </example>
+        <example file="3LB-CAST/d2-10.tbf.xml" nodepath="7.0.3.2.1.0" sentencenodepath="7">Cuando hace días dimitía , por <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>prácticas </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">fiscales</argument><reference_modifiers>, digamos , atípicas ( cada vez menos atípicas , es_cierto , a la vista de la que está cayendo ... )</reference_modifiers></argset>, el " conselleiro " del Gobierno gallego Juan_Fernández , el lector medio de periódicos no cayó sin_duda en_la_cuenta de que se trataba del mismo Juan_Fernández que hizo a_pulso el OAR_Ferrol , tarea por la que Ø es universalmente aplaudido ... pero en la que Ø ya lució una reprobable afición a jugar con ventaja . </example>
+        <example file="3LB-CAST/dc10-5.tbf.xml" nodepath="9.3.1.0" sentencenodepath="9">El duelo como reparación de ofensas no fue <argset><specifier>una</specifier><head>práctica </head><reference_modifiers>habitual</reference_modifiers></argset>en el mundo antiguo . </example>
+        <example file="3LB-CAST/dc2-2.tbf.xml" nodepath="3.1.1.1.0" sentencenodepath="3">Sin_embargo , en <argset><specifier>la</specifier><head>práctica </head></argset>Ø resultó no ser tan sencillo . </example>
+        <example file="3LB-CAST/dc2-7.tbf.xml" nodepath="1.5.1.0" sentencenodepath="1">Y si alguna potencia estuviese experimentando con ello , - dónde realizaría <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>prácticas </head></argset>Ø ? </example>
+        <example file="3LB-CAST/e2-1.tbf.xml" nodepath="9.1.7.2.1.2.0.1.0.0.0" sentencenodepath="9">La primera se refiere a la lengua : - Por mi parte yo veo como indicador más característico de la unidad tribal la comunidad de lenguaje , pues una tradición común de <argset><head argument="arg1" thematicrole="pat">prácticas </head>y conocimientos </argset>, de costumbres y creencias , sólo puede ser compartida por personas que utilicen la misma lengua - . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="7.2.2.3.1.0" sentencenodepath="7">El Gobierno admitió ayer que Ø realizó detenciones de ciudadanos de tez oscura , lo que les impedirá votar porque ya no hay tiempo para restituirles sus cédulas , y Ø prometió que Ø suspenderá <argset><specifier>esa</specifier><head>práctica </head></argset>hasta que se evalúen las consecuencias de esa medida . </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="15.2.4.1.0.0.0" sentencenodepath="15">El jefe de Estado anunció que , con el paquete de disposiciones económicas que Ø anunció , Ø eliminará <argset>" <head>prácticas </head>y concepciones que han estimulado la evasión y el escondite de los patrimonios en el país " </argset>, por lo que Ø ha decidido " transparentar " y hacer más eficiente el cobro del impuesto sobre la renta . </example>
+        <example file="CESS-CAST-AA/5394_20001207.tbf.xml" nodepath="5.2.3.1.0.0" sentencenodepath="5">La justicia mexicana considera que esa operación incurriría en <argset><head>prácticas </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de monopolio</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6315_20001209.tbf.xml" nodepath="10.3.1.1.1.0" sentencenodepath="10">" Esa es la teoría , luego en <argset><specifier>la</specifier><head>práctica </head></argset>Ø no será tan fácil " . </example>
+        <example file="CESS-CAST-AA/8195_20000812.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">En este sentido , Antonio_Marruecos , agricultor formado en una Escuela_de_Capacitación_Agraria , subraya <argset><specifier>una</specifier><head>práctica </head><reference_modifiers>habitual</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la zona</argument><reference_modifiers>basado en la lucha biológica con insectos que atacan a las plagas , como es el caso de " abejorros para la polinización de tomates y pimientos , y de abejas para melón y sandía , con lo cual tenemos que usar insecticidas de bajo impacto " pese_al calor</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8551_20000114.tbf.xml" nodepath="0.0.2.1.0.1" sentencenodepath="0">Las agencias de viajes de Panamá denunciaron por <argset><reference_modifiers>supuestas</reference_modifiers><head>prácticas </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">monopolísticas</argument></argset>a las aerolíneas que se dedican al transporte internacional de pasajeros , ante la Comisión_de_Libre_Competencia panameña , informó hoy una fuente vinculada a estas pequeñas empresas . </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="3.3.2.1.0" sentencenodepath="3">De esa cifra , al_menos dos tercios renuncian , en <argset><specifier>la</specifier><head>práctica </head></argset>, a su pretensión inicial ante la imposibilidad de hallarle un aposento en el horario que sea compatible con el resto de sus intereses , según fuentes docentes y eclesiásticas . </example>
+        <example file="CESS-CAST-P/108_20000601_a.tbf.xml" nodepath="11.4.1.1.1.0" sentencenodepath="11">Pese_a sus argumentaciones , Microsoft se ha resignado a alterar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>prácticas </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">comerciales</argument></argset>. </example>
+        <example file="CESS-CAST-P/14_19981202.tbf.xml" nodepath="10.0.0.1.0" sentencenodepath="10"><argset><specifier>La</specifier><head>práctica </head></argset>nos demuestra que la realidad es totalmente distinta : si los pueblos fuesen siempre dueños de sus propios destinos , o_sea libres , no surgirían gobiernos autoritarios , porque como dijo Sócrates " la libertad no consiste en escoger amo , sino en no tenerlo " . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="2.2.0.1.1.1.1.2.1.1.0" sentencenodepath="2">Esta frase de Bill_Gates en un correo electrónico enviado a varios ejecutivos de su empresa es una de las pruebas presentadas en el juicio contra <argset><specifier>las</specifier><head>prácticas </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">monopolistas</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Microsoft</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_19990201.tbf.xml" nodepath="3.2.3.1.1.0" sentencenodepath="3">Una beca la catapultó hasta el departamento del ayuntamiento neoyorquino que se ocupa de los sin_techo , y de la teoría Ø pasó a <argset><specifier>una</specifier><head>práctica </head><reference_modifiers>que la absorbió durante un año y medio</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="11.4.5.3.1.1.0" sentencenodepath="11">De ello no debe inferirse automáticamente que Ø van a ser siempre los mejores futuros especialistas cuando Ø deban aplicarlos a <argset><specifier>la</specifier><head>práctica </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">médica</argument></argset>. </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="56.3.1.0.1.1.1.0" sentencenodepath="56">- - Y en mucha de <argset><specifier>la</specifier><head>práctica </head></argset>. </example>
+        <example file="CESS-CAST-P/27_20020801_b.tbf.xml" nodepath="3.3.4.0.1.1.0" sentencenodepath="3">El portavoz del sindicato , Jaume_Collboni , explicó ayer que el paro se ha convocado por <argset><specifier>las</specifier><head>prácticas </head><reference_modifiers>" antisindicales "</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la concesionaria del servicio de guías turísticos del bus , Professional_Staff_Human_Resources ,</argument></argset>así_como por el despido " improcedente " de uno de los trabajadores . </example>
+        <example file="CESS-CAST-P/55_20000903.tbf.xml" nodepath="6.1.2.1.0" sentencenodepath="6">Su reflexión , en <argset><specifier>la</specifier><head>práctica </head></argset>, abre la incógnita sobre qué sucederá a_partir_del 16_de_septiembre con el solar del 120 de la Rambla . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="18.3.1.3.3.2.1.1.1.1.2.2.1.0" sentencenodepath="18">En este sentido , Ø subrayó los largos plazos de pago que sufren los proveedores de algunas grandes superficies , pese_a la existencia de la ley de comercio que prohíbe <argset><specifier>esas</specifier><head>prácticas </head></argset>. </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="8.2.0.1.2.2.4.1.1.1.1.0.0" sentencenodepath="8">" Lo importante al_principio no es tanto darle a la pelota sino saber adoptar la buena posición de golpeo , flexionar las rodillas pero sin llegar a agacharse " , alecciona Esmeralda_Hurtado , una joven jugadora que enseña a los noveles los secretos del golf en los dos espacios de <argset><head>prácticas </head></argset>habilitados por la Federación_Catalana_de_Golf . </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="10.3.0.1.1.0.2.1.0" sentencenodepath="10">" Actualmente hay campos públicos con entradas asequibles y si Ø no quieres comprarte un buen equipo Ø se puede alquilar " , aseguraba Ø antes de recomendar vivamente <argset><specifier>la</specifier><head>práctica </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de este deporte</argument></argset>: " Ø Es un deporte muy relajante y para todas las edades " . </example>
+        <example file="CESS-CAST-P/85_20020501.tbf.xml" nodepath="19.0.0.2.1.0.0" sentencenodepath="19">" Conserje en <argset><head>prácticas </head></argset>" , como Ø matizaba con su humor saludable . </example>
+        <example file="CESS-CAST-P/99_20020301.tbf.xml" nodepath="2.2.3.0.2.2.0" sentencenodepath="2">La sospecha del COI , que tuvo conocimiento del hallazgo cuando el sheriff del condado de Wasatch trasladó todo el material a las oficinas del organismo deportivo , sospecha que en esa casa pudieron realizarse transfusiones de sangre <argset>, <specifier>una</specifier>
+            <head>práctica </head>
+            <reference_modifiers>prohibida y , a_la_vez , extremadamente peligrosa</reference_modifiers>
+          </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="practicar" originlink="verb.practicar.1" wordnetsynset="16:00263204+16:00574902+16:00263789">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/16875_20000321.tbf.xml" nodepath="3.3.1.5.2.0.1.0" sentencenodepath="3">En este sentido , Ø reconoció la " compleja situación " que se vive en su país , con <argset><specifier>la</specifier><head>práctica </head><reference_modifiers>sistemática</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de secuestros con los que " los insurgentes " quieren intimidar a la población civil de forma generalizada</argument></argset>, el reclutamiento de niños por los paramilitares o los numerosos desplazamientos provocados por los ataques guerrilleros . </example>
+        <example file="CESS-CAST-AA/2735_20000504.tbf.xml" nodepath="4.2.4.1.2.1.1.0" sentencenodepath="4">Ø Argumenta que están " pendientes las presentes actuaciones de <argset><specifier>la</specifier><head>práctica </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de diligencias esenciales para determinar la verdadera naturaleza " del caso y su participación en los hechos</argument></argset>. </example>
+        <example file="CESS-CAST-P/144_20010302.tbf.xml" nodepath="9.3.1.1.1.1.0" sentencenodepath="9">Pero también ha influido la facilidad para <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>práctica </head></argset>. </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="5.3.1.0" sentencenodepath="5">Precisamente , la juez ordena <argset><specifier>la</specifier><head>práctica </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esta investigación</argument></argset>en la misma resolución por la que se rebaja la fianza que en su día Ø impuso a Javier_de_la_Rosa para recuperar su libertad y salir de la prisión . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="practicar" originlink="verb.practicar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="12.4.1.0.1.1.6.1.0" sentencenodepath="12">Y en ese terreno de juego , que ha menguado a la mitad , la religión ha de competir con rivales como la Informática , la iniciación al vídeo , los experimentos de química , <argset><specifier>la</specifier><head>práctica </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de deportes americanos</argument></argset>o las experiencias musicales . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="en_la_práctica" cousin="no" denotation="none" id="4" lexicalizationtype="adverbial" lexicalized="yes" originlemma="practicar" originlink="verb.practicar.1" wordnetsynset="16:00263789">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10242_20000816.tbf.xml" nodepath="15.5.5.1.1.0" sentencenodepath="15">" Los demócratas hemos sido compasivos durante décadas ... No lean Ø nuestros labios , miren Ø nuestros actos " , Ø señaló en_referencia_a la conocida frase de George_Bush padre " Lean Ø mis labios , no más impuestos " , que finalmente no fue aplicada en <argset><specifier>la</specifier><head>práctica </head></argset>. </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="13.0.0.1.1.0" sentencenodepath="13">En <argset><specifier>la</specifier><head>práctica </head></argset>, el acuerdo supuso la ampliación de la flota pesquera , como demuestra el hecho de que en 1992 había 60 buques congeladores de todo tipo en el país y hoy hay 300 , dijo hoy a EFE Juan_Villalonga , de Greenpeace . </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="1.1.1.1.0" sentencenodepath="1">Aunque la sentencia es sólo de aplicación inmediata para el recurrente , identificado como Smith en el pliego judicial , en <argset><specifier>la</specifier><head>práctica </head></argset>Ø abre la puerta a que todos los ciudadanos argentinos reclamen ante un juez el libre acceso a sus cuentas bancarias . </example>
+        <example file="CESS-CAST-P/19_20010901.tbf.xml" nodepath="7.0.1.1.0" sentencenodepath="7">En <argset><specifier>la</specifier><head>práctica </head></argset>, Ø justifica la creación y expansión del Estado_de_Israel a_costa_de los derechos políticos y culturales de los palestinos . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

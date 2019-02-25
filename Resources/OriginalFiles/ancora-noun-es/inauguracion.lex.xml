@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="inauguración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="inaugurar" originlink="verb.inaugurar.1" wordnetsynset="16:05540966">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="6.3.1.2.1.0.0.1.1.1.0" sentencenodepath="6">Las gradas del Estadio_Olímpico han mantenido el extraordinario aspecto de la apertura a_pesar_de no alcanzar el lleno de <argset><specifier>la</specifier><head>inauguración </head></argset>, sobre_todo en las pruebas vespertinas . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="9.2.2.1.4.1.1.1.0.0" sentencenodepath="9">El presidente venezolano , Hugo_Chávez , inició su campaña por la reelección el pasado miércoles viajando al interior del país en un avión comercial y trasladándose en vehículos particulares , e Ø informó de que Ø suspendió , por lo que queda de campaña , sus participaciones en <argset><head>inauguraciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de obras públicas</argument></argset>, como una " demostración " de que Ø no va a utilizar " ningún tipo de ventajas " . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="14.5.1.1.2.4.2.1.3.2.2.1.2.4.1.1.1.1.0.0" sentencenodepath="14">Y Ø se dejan llevar , con ilusión , por la marea humana que les empuja Diagonal arriba , en la mayor manifestación que ha conocido el barrio , para conocer de_cerca las promesas de futuro que Ø les van a dibujar en el acto de <argset><head>inauguración </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="inaugurar" originlink="verb.inaugurar.1" wordnetsynset="16:05540966">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="7" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="1.4.1.1.0" sentencenodepath="1">Acompañados por la Reina_Paola , esta tercera jornada de estancia oficial de los Reyes_de_España en Bélgica se abrió con <argset><specifier>la</specifier><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la exposición " Tapicerías_de_la_Corona_de_España "</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Catedral_de_San_Miguel_y_Santa_Gúdula , en Bruselas</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="0.4.5.1.1.0" sentencenodepath="0">Más de 170.000 personas visitarán este año el Salón_Internacional_del_Turismo_de_Cataluña ( SITC ) , según ha dicho hoy el conseller de Turismo , Antoni_Subirá , durante <argset><specifier>la</specifier><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esta feria , en la que participan más de 46 países y que estará abierta hasta el próximo domingo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="10.0.1.1.0" sentencenodepath="10">A <argset><specifier>la</specifier><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del SITC</argument></argset>han asistido también el presidente de la Feria_de_Barcelona , Antoni_Negre , el director general de Turismo_de_Cataluña , Xavier_Civit , y el concejal de Turismo_del_Ayuntamiento_de_Barcelona , Jordi_Portabella . </example>
+        <example file="CESS-CAST-AA/5830_20000307.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">En <argset><specifier>la</specifier><head>inauguración </head></argset>estuvieron presentes el ministro de Cultura , Mariano_Rajoy , el secretario de Estado_de_Cultura , Miguel_Angel_Cortés , y el vicepresidente de la Caja_de_Ahorros_del_Mediterráneo , Javier_Guillamón , que patrocina esta antológica que recoge cincuenta años de pintura de Tápies . </example>
+        <example file="CESS-CAST-P/133_20011001.tbf.xml" nodepath="0.0.1.1.0" sentencenodepath="0">Con <argset><specifier>la</specifier><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la nueva sede del Teatre_Lliure</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Montjuïc</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">, el 22_de_noviembre próximo ,</argument></argset>el Fòrum será el único edificio pendiente de los previstos en el proyecto de la Ciutat_del_Teatre que el Ayuntamiento_de_Barcelona encargó al director Lluís_Pasqual . </example>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="18.2.1.1.0" sentencenodepath="18">Ø Está en <argset><specifier>la</specifier><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Museu_de_Joguets_de_Figueres</argument></argset>. </example>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="23.0.1.0" sentencenodepath="23"><argset><specifier>La</specifier><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del poema corpóreo</argument></argset>coincidirá con una exposición de homenaje al artista , que ahora será póstumo . </example>
+        <example file="CESS-CAST-P/3_20000602.tbf.xml" nodepath="2.0.0.1.6.1.0.1.1.1.0" sentencenodepath="2">Clos , que hoy coincidirá con Cascos en Barcelona con motivo de <argset><specifier>la</specifier><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del puente levadizo del puerto</argument></argset>, reclamará al ministro que el Gobierno cumpla su compromiso de hacer llegar el AVE a la capital catalana en el 2004 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="inaugurar" originlink="verb.inaugurar.1" wordnetsynset="16:05540966">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="6.0.0.1.4.1.1.0" sentencenodepath="6">Fidalgo , quien hoy asistió a <argset><specifier>la</specifier><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del séptimo congreso regional de CCOO</argument></argset>, explicó que , de los más_de cuatro billones de pesetas que el Erario público gastará este año en asistencia sanitaria , un tercio es para el gasto farmacéutico , un apartado que Ø calificó de " altamente ineficiente " . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="8.2.4.1.2.1.2.1.1.1.0.1.1.0.0" sentencenodepath="8">Lacalle destacó que , en ese sentido , Ø aplauden la decisión del presidente de la República de " suspender su participación en actos de <argset><head>inauguración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de obras públicas</argument></argset>por voluntad propia " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

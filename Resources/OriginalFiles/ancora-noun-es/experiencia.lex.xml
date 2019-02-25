@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="experiencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="experimentar" originlink="verb.experimentar.1" wordnetsynset="16:05434281">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="7.5.1.1.1.1.3.5.1.1.1.1.0" sentencenodepath="7">Finalmente , a la vista de la variedad de enfoques y de la intensidad del interés despertado por la cultura en nuestro siglo , se podría llegar con Morin a la conclusión de que aquello que diferencia entre sí a las diversas ideas de cultura es - la amplitud del sistema , la extensión del saber , el campo de <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">existencial</argument></argset>y las normas y modelos de ellos extraídos por el punto de vista antropológico . etnográfico , sociológico o culturalista - . </example>
+        <example file="CESS-CAST-A/11099_20000915.tbf.xml" nodepath="5.4.0.1.0" sentencenodepath="5">Ø También resaltó como hechos clave para el futuro de la candidatura <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">organizativa</argument><reference_modifiers>de torneos deportivos y culturales ( Exposición_Mundial de 1970 )</reference_modifiers></argset>, la estabilidad política y la fuerza financiera . </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="3.3.0.1.0" sentencenodepath="3">El ex ministro explicó a autoridades , empresarios e inversores <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del mercado de valores de España</argument></argset>y las enseñanzas válidas en otros países , concretamente en América_Latina . </example>
+        <example file="CESS-CAST-A/12633_20000315.tbf.xml" nodepath="13.5.4.1.2.1.0.0" sentencenodepath="13">La representante de Costa_Rica , Claudia_Fernández , se mostró optimista con_respecto_a que la situación mejore , ya_que Latinoamérica tiene un caudal inagotable de <argset><head>experiencias </head><reference_modifiers>novedosas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">para quienes buscan disfrutar la paz de una playa , la aventura de la selva o la sensación salvaje de cavernas milenarias</argument></argset>. </example>
+        <example file="CESS-CAST-P/82_19991202.tbf.xml" nodepath="11.0.1.1" sentencenodepath="11"><argset><specifier>La</specifier><reference_modifiers>insólita</reference_modifiers><head>experiencia </head><reference_modifiers>promovida por Parcs_i_Jardins</reference_modifiers></argset>ha tenido un éxito insospechado , ya_que Ø genera frutas y verduras suficientes para abastecer a más de 30 familias . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="result" id="2" lexicalized="no" originlemma="experimentar" originlink="verb.experimentar.2" wordnetsynset="16:04589992+16:05434281">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="12" postype="possessive" type="determiner"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="3" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="13" type="void"/>
+        <constituent frequency="5" postype="demonstrative" type="determiner"/>
+        <constituent frequency="20" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="12" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="9" type="s.a"/>
+        <constituent frequency="9" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="9.0.4.1.1.1.1.1.0.1.1.1.2.1.0.0" sentencenodepath="9">El anterior CNE , elegido también por Miquilena , dimitió en pleno el pasado_lunes tras soportar una lluvia de críticas por su " falta de <argset><head>experiencia </head></argset>" y a sus cinco miembros se les ha prohibido la salida del país , mientras Ø son investigados judicialmente por su comportamiento . </example>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="11.2.1.2.0.0" sentencenodepath="11">Elías_Jaua , miembro del Congresillo , considera que los nuevos miembros del CNE deben tener <argset><head>experiencia </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para " dirigir procesos complejos "</argument></argset>, y Ø deben ser personas con independencia y equilibrio , respetabilidad y reconocida solvencia moral , algo que fue puesto en_entredicho con la anterior directiva . </example>
+        <example file="3LB-CAST/d1-12.tbf.xml" nodepath="7.2.0.2.1.1.1.1.0.1.1.0.2.1" sentencenodepath="7">Richardson no se inmutó , Ø trajo a un grupo de adolescentes de <argset>buena reputación pero <reference_modifiers>nula</reference_modifiers>
+            <head>experiencia </head>
+          </argset>, y de_entrada el equipo jugó al_menos tan bien como el de los famosos : Ø llegaron hasta los - Sweet_16 - del torneo de la NCAA y en ellos Ø perdieron - in_extremis - con North_Carolina . </example>
+        <example file="3LB-CAST/d2-11.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>Esa</specifier><head>experiencia </head><reference_modifiers>valiosísima</reference_modifiers></argset>debe servirle para dar más pasos adelante . </example>
+        <example file="3LB-CAST/d2-12.tbf.xml" nodepath="0.1.5.2.1.1.1.0.0" sentencenodepath="0">Es_decir , que Mariano puede , felizmente , tener aún la oportunidad de seguir adelante con su pasión , aprovechando ese caudal de <argset><head>experiencia </head><reference_modifiers>enormemente enriquecido por esta dura temporada</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc1-3.tbf.xml" nodepath="4.2.1.1.1.1.1.3.1.1.0" sentencenodepath="4">Al_igual_que en las parejas humanas , parece ser que a las aves que han logrado una relación armoniosa gracias_a <argset><specifier>la</specifier><head>experiencia </head></argset>Ø les va mejor en la crianza que a los recién casados . </example>
+        <example file="3LB-CAST/dc10-12.tbf.xml" nodepath="2.3.1.0" sentencenodepath="2">De toda la serie sacó Ford <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su vida</argument><reference_modifiers>: la gente prefería autos sólidos y baratos</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc10-12.tbf.xml" nodepath="3.2.0.1.1.1.1.0" sentencenodepath="3">El Modelo sería el resultado de <argset><specifier>esa</specifier><head>experiencia </head></argset>, un coche del que , de 1908 a 1928 , se vendieron 15.800.000 , récord del siglo hasta la llegada del escarabajo de Volkswagen . </example>
+        <example file="3LB-CAST/dc2-6.tbf.xml" nodepath="6.4.0.0" sentencenodepath="6">De_hecho , ya se han realizado <argset><head>experiencias </head></argset>con estas enfermedades a medida . </example>
+        <example file="3LB-CAST/e3-1.tbf.xml" nodepath="9.1.2.1.3.2.1.1.1.1.1.0" sentencenodepath="9">Por eso , porque la misma actividad legisladora del entendimiento que da a lo diverso de <argset><specifier>la</specifier><head>experiencia </head></argset>su orden y regularidad resulta del poder de la libertad , que es el de iniciar series de fenómenos , como dice la tesis de la tercera antinomia , no hay ningún producto racional que pueda sobreponerse a la libertad . </example>
+        <example file="3LB-CAST/n1-5.tbf.xml" nodepath="9.0.2.1.1.1.1.1.1.1.0.1.1.0.0" sentencenodepath="9">Ø Es un pueblo con casi un 80_% de parados con <argset><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de lucha sindical</argument></argset>y Ø están orgullosos de que se les conozca en España por su tenacidad y su pacifismo . </example>
+        <example file="3LB-CAST/n1-6.tbf.xml" nodepath="14.0.1.0" sentencenodepath="14"><argset><argument argument="arg0" thematicrole="agt" type="spec">Nuestra</argument><head>experiencia </head></argset>es que si no se lucha no se consigue nada . </example>
+        <example file="3LB-CAST/r2-1.tbf.xml" nodepath="0.3.0.0" sentencenodepath="0">Los estetas del partido ya tenían <argset><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">en ello</argument></argset>porque lo mismo Ø habían hecho antes con Angel_Colom , que pasó de los vaqueros y barba desaliñada a su cuidado aspecto actual . </example>
+        <example file="3LB-CAST/t4-0.tbf.xml" nodepath="5.4.1.1.0" sentencenodepath="5">Con ese crepúsculo diario la naturaleza nos adiestra para <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">mortal</argument></argset>trescientas_sesenta_y_cinco veces cada año y sesenta u ochenta años , uno tras otro . </example>
+        <example file="3LB-CAST/t4-8.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><argument argument="arg0" thematicrole="agt" type="spec">Nuestra</argument><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">vital</argument></argset>está basada en percepciones físicas - - ver , oír , oler , gustar y tocar - - y en simulacros . </example>
+        <example file="3LB-CAST/t5-9.tbf.xml" nodepath="18.0.1.1.1" sentencenodepath="18">De <argset><specifier>aquella</specifier><reference_modifiers>breve pero intensa</reference_modifiers><head>experiencia </head></argset>Antonia extrajo conclusiones importantes , a_saber : Que a Rafael le gustaba fumar puros . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="29.2.0.1.0.0" sentencenodepath="29">Sotomayor , plusmarquista mundial con 2,45 , campeón olímpico en Barcelona'92 , del mundo en Stuttgart'93 y Atenas'97 y segundo en Tokio'91 y Gotemburgo'95 , es una incógnita , pero <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>experiencia </head>, competitividad y ganas por poner un colofón brillante a su dilatada carrera </argset>le colocan en la parrilla de salida entre los grandes aspirantes . </example>
+        <example file="CESS-CAST-A/16712_20000825.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">Aranzubía se plantea <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Sydney</argument></argset>como " algo que pocos deportistas tienen la oportunidad de vivir , porque Ø representas a tu país y Ø además convives con personas de otros lugares " , aunque Ø reconoce que el interés por los Juegos_Olímpicos " es mayor porque Ø vamos allí con opciones de ganar medalla " . </example>
+        <example file="CESS-CAST-AA/20070_20000525.tbf.xml" nodepath="23.3.0.1.1.0" sentencenodepath="23">Angel_Fernández dispone a su favor de <argset><specifier>la</specifier><head>experiencia </head><reference_modifiers>que tuvo en las elecciones de 1997</reference_modifiers></argset>y de la red de oficinas de Don_Piso . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="12.6.1.1" sentencenodepath="12">Mientras , el secretario general del PCE , Francisco_Frutos , le presentó en Marsella al líder del Partido_Comunista_Francés ( PCF ) , Robert_Hue , <argset><specifier>la</specifier>" <head>experiencia </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">del acuerdo entre IU y PSOE</argument></argset>como " una oportunidad de trascendencia en_relación_con la Unidad_de_Acción_de_la_Izquierda , para frenar las políticas de derechas " . </example>
+        <example file="CESS-CAST-AA/22459_20000927.tbf.xml" nodepath="12.2.2.4.1.0" sentencenodepath="12">" Ø Ya dijimos antes de venir que Ø aspirábamos a ganar una medalla , Ø fuera en individual o en dobles . Lo importante en unos Juegos_Olímpicos es conseguir una medalla " , dijo Costa , y Ø aseguró que Ø repetiría " dos_mil veces " <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de participar en unos Juegos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24052_20000229.tbf.xml" nodepath="4.2.3.4.1.3.2.0.2.1.1.0.0.0" sentencenodepath="4">Las referencias que tiene el equipo navarro sobre el conjunto esloveno son escasas y , en este sentido , el entrenador destacó que " Ø es el típico equipo de la ex Yugoslavia , con oficio y jugadores de <argset><head>experiencia </head>y calidad </argset>" . </example>
+        <example file="CESS-CAST-AA/24289_20000731.tbf.xml" nodepath="2.0.5.2.4.3.1.0" sentencenodepath="2">" Ø Estoy triste porque Colombia no contagia , Ø no gusta . Y fue precisamente por eso que surgió la idea de mi posible regreso al equipo nacional después de dos años de ausencia . Ø Consideré que Ø podría aportarle al equipo no_sólo mi juego sino_también <argset><argument argument="arg0" thematicrole="agt" type="spec">mi</argument><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">internacional</argument></argset>" , agrega " El_Pibe " en su columna . </example>
+        <example file="CESS-CAST-AA/25330_20000331.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">Considerado próximo al primer ministro francés , Lionel_Jospin , Delanoe cuenta en su haber con <argset><specifier>una</specifier><head>experiencia </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de 23 años</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">en la política municipal parisiense</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2790_20001104.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>experiencia </head><reference_modifiers>que han dado a Shaquille_O`Neal los siete años jugados en el baloncesto profesional</reference_modifiers></argset>llevó a los Lakers_de_Los_Angeles a la segunda victoria de la temporada al derrotar 98-89 a los Grizzlies_de_Vancouver . </example>
+        <example file="CESS-CAST-AA/6823_20000810.tbf.xml" nodepath="0.3.2.1.0" sentencenodepath="0">El presidente de Unicaja , Braulio_Medel afirmó hoy que " <argset><specifier>la</specifier><head>experiencia </head></argset>ha demostrado que Internet es un canal bancario complementario a las sucursales en la atención que las entidades bancarias podemos ofrecer al cliente " , ya_que , según indicó Ø es " imprescindible " un soporte físico . </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="10.3.1.1.0.3.0.2.1.0" sentencenodepath="10">El presidente del Gobierno señaló que éste es " un problema que afecta a toda la sociedad y no sólo a las víctimas " , por lo que resulta indispensable aprovechar al_máximo <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las ONGs que trabajan en este ámbito</argument></argset>y unir los esfuerzos de los sectores implicados : la Administración , el Consejo_General_del_Poder_Judicial , la Fiscalía_General_del_Estado y los Colegios_Profesionales . </example>
+        <example file="CESS-CAST-P/10_20020501.tbf.xml" nodepath="5.0.4.1.1.1.1.0.2.0" sentencenodepath="5">Gracias_a la tecnología , a la división y organización del trabajo , a la acumulación de <argset>conocimientos y <head>experiencias </head>
+          </argset>, el trabajo se ha ido humanizando y perdiendo el carácter de maldición divina . </example>
+        <example file="CESS-CAST-P/122_20020103.tbf.xml" nodepath="46.2.1.0" sentencenodepath="46">¿ Qué_tal <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dirigir a la familia</argument></argset>? - - . </example>
+        <example file="CESS-CAST-P/125_19990501.tbf.xml" nodepath="1.0.1.1.0.2.0" sentencenodepath="1">Además_de <argset>la sabiduría y <head>experiencia </head>
+            <reference_modifiers>que se le presupone al técnico que más partidos ha dirigido en Primera_División</reference_modifiers>
+          </argset>, se dice que Javier_Irureta es un entrenador con suerte . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="36.2.6.1.1.1.1.1.1.1.0.0" sentencenodepath="36">Valero_Rivera prescindió de Mateo_Garralda durante la pretemporada y ayer , en el primer partido en el que Iñaki_Urdangarín no pudo jugar a_causa_del nacimiento de su hijo , el bloque azulgrana se resintió en el lateral derecho ante la ausencia de un zurdo con <argset><head>experiencia </head></argset>. </example>
+        <example file="CESS-CAST-P/145_20011202_b.tbf.xml" nodepath="2.3.1.0" sentencenodepath="2">Ø Tiene , además , <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de haber disputado la Eurocopa_2000 , donde a España ya le costó derribarla</argument></argset>. </example>
+        <example file="CESS-CAST-P/146_19991001.tbf.xml" nodepath="16.0.1.1.1.1.1" sentencenodepath="16">Un avance de <argset><specifier>esta</specifier><reference_modifiers>nueva</reference_modifiers><head>experiencia </head><reference_modifiers>, que se pondrá_en_marcha en el 2000 ,</reference_modifiers></argset>se realizará el próximo viernes_12_de_noviembre , a las nueve de la noche . </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="10.2.1.1.2.1.1.1" sentencenodepath="10">" Nosotros tenemos que demostrar que Ø somos mejores que ellos y Ø creo que Ø lo haremos " , agregó el técnico , confiado en <argset><specifier>la</specifier><reference_modifiers>mayor</reference_modifiers><head>experiencia </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en partidos de máxima tensión</argument><reference_modifiers>que tiene su equipo en Europa</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/14_20000903.tbf.xml" nodepath="1.6.1.1.1" sentencenodepath="1">Porque él , Borau , ya la conocía bien de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>anterior</reference_modifiers><head>experiencia </head><reference_modifiers>( comercialmente fallida )</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">con Niño_nadie ( 1996 )</argument></argset>. </example>
+        <example file="CESS-CAST-P/155_20020502.tbf.xml" nodepath="5.3.1.0" sentencenodepath="5">Ø No volvió a repetir <argset><specifier>la</specifier><head>experiencia </head></argset>. </example>
+        <example file="CESS-CAST-P/16_19990901.tbf.xml" nodepath="12.2.1.1.0" sentencenodepath="12">Ø Dicen que <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>experiencia </head><reference_modifiers>filmando la miseria humana en Centroamérica o escribiendo sobre el amor en Sarajevo</reference_modifiers></argset>se nota en sus boletines . </example>
+        <example file="CESS-CAST-P/16_20010901.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">De <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>experiencia </head></argset>Ø ha escrito un libro , El_manual_del_inventor , editado por Planeta , que pretende orientar a los neófitos en el arte de promocionar sus ingenios y congraciarles con la idea de que " si Ø no sale bien , no pasa nada " . </example>
+        <example file="CESS-CAST-P/16_20020601_b.tbf.xml" nodepath="2.3.1.2.1.0.1.4.1.1.1.1.0" sentencenodepath="2">El mandatario gallego inició ayer una visita oficial a Moscú , donde Ø ofreció una conferencia sobre <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>experiencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">política</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_19981201.tbf.xml" nodepath="11.1.1.0" sentencenodepath="11">Mañana <argset><specifier>la</specifier><head>experiencia </head></argset>puede ser retazos de vidas imaginadas , falseadas , no tocadas . </example>
+        <example file="CESS-CAST-P/17_19990201.tbf.xml" nodepath="9.4.1.1.1.0" sentencenodepath="9">Pese_al anhelo de volcarse en Catalunya , la experta no dudará en exportar <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>experiencia </head></argset>a Bruselas , en busca de auditorio . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="36.2.1.0" sentencenodepath="36">- - <argset><specifier>La</specifier><head>experiencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los partidos políticos</argument></argset>es muy necesaria . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="81.4.5.1.0" sentencenodepath="81">Y Ø lo sabemos porque así nos lo demuestra <argset><specifier>la</specifier><head>experiencia </head><reference_modifiers>reciente</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/20_20010102.tbf.xml" nodepath="1.0.0.1.0" sentencenodepath="1"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head>experiencia </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el puesto</argument></argset>se produjo durante el mandato de Gerald_Ford , entre 1975 y 1977 , pero Ø también fue jefe de gabinete con Nixon , Reagan y el primer Bush , padre del electo George_Bush , que ahora le ha designado para un puesto en el que Ø da prioridad a la defensa antimisiles . </example>
+        <example file="CESS-CAST-P/26_19990701_a.tbf.xml" nodepath="27.2.1.1" sentencenodepath="27">Los franceses tienen <argset><specifier>una</specifier><reference_modifiers>triste</reference_modifiers><head>experiencia </head></argset>en este tema . </example>
+        <example file="CESS-CAST-P/30_19990201.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">De <argset><specifier>esa</specifier><head>experiencia </head></argset>Ø extrajo una lección : " Ø Nunca podemos dejarnos adormecer por el triunfalismo y la autocomplacencia " . </example>
+        <example file="CESS-CAST-P/33_19990802.tbf.xml" nodepath="3.2.1.1.0" sentencenodepath="3">Las manifestaciones de Brown remiten a <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Irlanda_del_Norte</argument></argset>. </example>
+        <example file="CESS-CAST-P/38_19990902_e.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">El ex secretario general de la Presidència explica en L'ombra_del_poder <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>experiencias </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Generalitat</argument><reference_modifiers>, de las que recuerda que en muchas actuaciones actuó de " pararrayos " de Jordi_Pujol</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="3.0.2.1.1.0" sentencenodepath="3">El presidente del Parlamento vasco , Juan_María_Atutxa , confirmó que <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>experiencia </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">personal</argument></argset>avala que el ministerio no informa a la Ertzaintza de los objetivos de ETA , y el presidente del PP vasco , Carlos_Iturgaiz , emplazó al PNV a preguntar " a sus colegas de ETA " si Ø quiere datos sobre el asesinato de Fernando_Buesa y Ø acusó al partido de Arzalluz de " hipócrita y fariseo " . </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="8.2.1.0.0" sentencenodepath="8">El ex consejero de Interior Juan_María_Atutxa confirmó por <argset><head>experiencia </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">personal</argument></argset>que el ministerio no facilita a la Ertzaintza la información que Ø posee sobre objetivos de ETA . </example>
+        <example file="CESS-CAST-P/60_19991001.tbf.xml" nodepath="8.0.2.1.0.0" sentencenodepath="8">Grass habla por <argset><head>experiencia </head><reference_modifiers>propia</reference_modifiers></argset>: " Yo perdí en 1945 una parte irreparable de mis orígenes , mi ciudad natal , Dánzig " . </example>
+        <example file="CESS-CAST-P/71_19991201_a.tbf.xml" nodepath="4.4.1.1.0" sentencenodepath="4">CiU pidió al Gobierno que Ø no ponga trabas para extender estos centros donde Ø sean necesarios si <argset><specifier>la</specifier><head>experiencia </head></argset>es positiva . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="result" id="3" lexicalized="no" originlemma="experimentar" originlink="verb.experimentar.3" wordnetsynset="16:04589992">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg2" thematicrole="ins">
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="9.3.5.0.0" sentencenodepath="9">Hoy Ø sabemos que , junto_al uso de iperita y lewisita - dos de las más conocidas armas químicas - , las tropas japonesas también llevaron_a_cabo <argset><head>experiencias </head><argument argument="arg2" function="cn" thematicrole="ins" type="sp">con armas bacteriológicas</argument></argset>, aunque afortunadamente de forma limitada . </example>
+        <example file="CESS-CAST-A/1538_20001103.tbf.xml" nodepath="9.4.1.0.1.1.0.0" sentencenodepath="9">Para el segundo tiempo el técnico local , Diego_Umaña , envió al campo a jugadores de <argset><head>experiencia </head></argset>como Carlos_Castro y Andrés_Pérez , quienes fueron fundamentales en el ataque de Millonarios . </example>
+        <example file="CESS-CAST-A/15801_20000123.tbf.xml" nodepath="21.0.4.1.1" sentencenodepath="21">" Obviamente Ø tiene <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>experiencia </head></argset>" , dijo Philippoussis sobre su verdugo , " con 29 años Ø está jugando el mejor tenis de su vida , Ø es algo increíble " . </example>
+        <example file="CESS-CAST-A/18213_20000828.tbf.xml" nodepath="9.2.0.1.2.7.4.3.1.1.2.4.1.0" sentencenodepath="9">" Ø Creo que el Gobierno de la nación , cual sea el partido , no puede optar por otra ciudad que no sea Sevilla " dijo Hurtado quien aseguró que " Ø exigiremos al gobierno que esté en ese momento que Ø siga apostando por Sevilla " ya_que " Ø creo que difícilmente haya otra ciudad que tenga la infraestructura , la capacidad y <argset><specifier>la</specifier><head>experiencia </head><argument argument="arg2" function="cn" thematicrole="ins" type="sp">en acontecimientos deportivos mundiales como Sevilla</argument></argset>" , apostilló Ø </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="12.4.1.0.1.1.8.1.0" sentencenodepath="12">Y en ese terreno de juego , que ha menguado a la mitad , la religión ha de competir con rivales como la Informática , la iniciación al vídeo , los experimentos de química , la práctica de deportes americanos o <argset><specifier>las</specifier><head>experiencias </head><argument argument="arg2" function="cn" thematicrole="ins" type="s.a">musicales</argument></argset>. </example>
+        <example file="CESS-CAST-P/42_19990301.tbf.xml" nodepath="8.3.0.0" sentencenodepath="8">Durante sus seis días en la estación orbital , Ivan_Bella realizó <argset><head>experiencias </head><reference_modifiers>científicas</reference_modifiers><reference_modifiers>que tienen por objeto contribuir a la preparación de sus compatriotas cosmonautas en futuros viajes al espacio de más larga duración</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

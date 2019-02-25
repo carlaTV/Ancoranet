@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="protesta" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="protestar" originlink="verb.protestar.1" wordnetsynset="16:00762587">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+        <constituent frequency="5" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="contra" type="sp"/>
+        <constituent frequency="12" preposition="por" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+        <constituent frequency="4" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="29" type="void"/>
+        <constituent frequency="33" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="s.a"/>
+        <constituent frequency="7" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060111_5-2.tbf.xml" nodepath="8.0.2.3.1.0.0" sentencenodepath="8">Los frentes populares no están dispuestos a que las Fuerzas_Armadas impongan sanciones y si , acaso , Ø las aplican , Ø convocarán a <argset><head>protestas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">contra los mandos militares</argument></argset>, según lo aseguró el dirigente de la Coordinadora_de_Movimientos_Sociales , Napoleón_Saltos . </example>
+        <example file="3LB-CAST/2000060211_6-3.tbf.xml" nodepath="3.2.3.5.2.1.1.1.1.0" sentencenodepath="3">Los profesores se irritaron con el gobernador porque Ø ingresó en la Secretaría_de_Educación por la entrada principal del edificio , en cuyo frente Ø estaban acampados , y Ø decidieron esperar su salida para agredirlo porque Ø consideraron el acto de Covas como una provocación , según algunos líderes de <argset><specifier>la</specifier><head>protesta </head></argset>. </example>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="6.2.3.0.2.2.2.1.1.1.2.3.1.0" sentencenodepath="6">Ø Confesó que Ø ha atendido asuntos internacionales , como " una conversación con el secretario general de la Organización_de_Estados_Americanos ( OEA ) , César_Gaviria evaluando la pretensión de EEUU de sancionar a Perú por el triunfo de Alberto_Fujimori , que nosotros combatimos " , y también con el conflicto planteado con Guayana , que produjo <argset><specifier>una</specifier><head>protesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Cancillería_de_Caracas</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la instalación de una base espacial en un territorio reclamado por Venezuela</argument></argset>. </example>
+        <example file="3LB-CAST/a4-0.tbf.xml" nodepath="3.2.0.2.1.0" sentencenodepath="3">Existía entonces un vacío intelectual , <argset><specifier>una</specifier><head>protesta </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">en ciernes</argument></argset>y una previsión de cambio que hacían precisa una tarea de reflexión política sin la que hubiera sido mucho más difícil la posterior construcción de la democracia . </example>
+        <example file="3LB-CAST/c2-1.tbf.xml" nodepath="7.2.1.1.1.0.0" sentencenodepath="7">Derribar papeleras que son cortesía y provocar las llamas destructoras de Hécate y Kali , es un acto de <argset><head>protesta </head></argset>. </example>
+        <example file="3LB-CAST/d2-12.tbf.xml" nodepath="7.0.1.2.0.1.0.0" sentencenodepath="7">Una forma lícita y pacífica de <argset><head>protesta </head></argset>y de aprovechar la resonancia de la carrera para atraer la atención pública hacia esos lamentables casos de desamparo obrero . </example>
+        <example file="CESS-CAST-A/10226_20000714.tbf.xml" nodepath="3.0.3.1.1" sentencenodepath="3">" Esta Cancillería está formulando <argset><specifier>la</specifier><reference_modifiers>correspondiente</reference_modifiers><head>protesta </head></argset>al Gobierno británico por esa violación del espacio aéreo argentino " , agrega la declaración . </example>
+        <example file="CESS-CAST-A/10226_20000714.tbf.xml" nodepath="5.3.1.0.1.1.0.0" sentencenodepath="5">Los barcos argentinos operaban en esa zona como forma de <argset><head>protesta </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">ante la decisión del Gobierno argentino</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por las limitaciones impuestas a la captura de merluza</argument></argset>. </example>
+        <example file="CESS-CAST-A/10242_20000816.tbf.xml" nodepath="20.5.1.1.0" sentencenodepath="20">Mientras el centro Staples aclamaba a los Kennedy , la ciudad de Los_Angeles volvió a ser escenario hoy de <argset><specifier>diversas</specifier><head>protestas </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la calle</argument><reference_modifiers>convocadas contra diversas causas , como los bombardeos en Iraq y la globalización ,</reference_modifiers></argset>aunque no se informó de altercados similares a los producidos el lunes_pasado . </example>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="1.0.1.2.1.2.1.1.0" sentencenodepath="1">Al cumplirse hoy la segunda jornada de <argset><specifier>la</specifier><head>protesta </head><reference_modifiers>, que durará toda la semana ,</reference_modifiers></argset>no hubo ninguna actividad en los puertos de Bahía_Blanca y Rosario , las principales vías de exportación de granos y cereales argentinos . </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="8.3.1.0.1.3.1.0.0" sentencenodepath="8">Ø También cedió al envite lanzado ayer por los actores de la enseñanza pública con <argset><head>protestas </head><reference_modifiers>masivas</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en toda Francia</argument></argset>, al anunciar el desbloqueo " urgente " de 152,45 millones de euros y un plan plurianual para la gestión de los medios de la Educación nacional . </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="9.2.0.2.1.0" sentencenodepath="9">Con regocijo , el primer ministro desmenuzó ante las cámaras los méritos económicos de su gestión y Ø tildó <argset><specifier>las</specifier><head>protestas </head></argset>de " fenómenos de impaciencia " , al_tiempo_que Ø justificó la situación : " Ø prefiero ser responsable de un " bote " que de un agujero en las arcas del Estado " . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="0.6.0.1.1.1.2.1.0.0" sentencenodepath="0">Unos 500 camiones realizaron esta mañana cortes intermitentes de la circulación en la autopista A-7 Barcelona-Valencia , en la circunvalación de Valencia , dentro de la segunda jornada de <argset><head>protestas </head><reference_modifiers>que mantienen los transportistas para reclamar medidas que compensen las continuas subidas del precio del gasóleo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="1.0.0.1.1.1.2.1.1.1.1.0" sentencenodepath="1">Fuentes de la Asociación_de_Empresarios_Transportistas_de_Valencia ( Asetraval ) , convocante de <argset><specifier>la</specifier><head>protesta </head></argset>, manifestaron a EFE que la participación de vehículos pesados en el bloqueo de la circunvalación de Valencia ha sido hoy algo inferior a la de ayer , pues " hay menos camiones circulando al darse_cuenta de la conveniencia de esta protesta " . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="1.3.5.5.1.1.1.1.1.1.1.0" sentencenodepath="1">Fuentes de la Asociación_de_Empresarios_Transportistas_de_Valencia ( Asetraval ) , convocante de la protesta , manifestaron a EFE que la participación de vehículos pesados en el bloqueo de la circunvalación de Valencia ha sido hoy algo inferior a la de ayer , pues " hay menos camiones circulando al darse_cuenta de la conveniencia de <argset><specifier>esta</specifier><head>protesta </head></argset>" . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>protesta </head></argset>se extendió también , a_lo_largo_de la mañana , a la conexión de la A-7 con la pista de Ademuz y a algunos polígonos industriales , sobre_todo en la autovía A-3 Madrid-Valencia , según fuentes de Asetraval . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head>protesta </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en los puertos</argument></argset>se traduce en una ausencia de actividad del transporte , ya_que Transcont considera que no se deben realizar concentraciones " para no molestar a la sociedad " . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="9.4.4.1.0" sentencenodepath="9">Toda la flota de camiones se encuentra estacionada en sus lugares de aparcamiento , ya_que el cien_por_cien de los transportistas han secundado <argset><specifier>la</specifier><head>protesta </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Puerto_de_Valencia</argument></argset>, por lo que apenas hay actividad en los viales . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="10.3.1.0" sentencenodepath="10">Con estas movilizaciones los transportistas de la provincia de Valencia han expresado <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por las continuas subidas del precio del gasóleo y su impacto negativo en los costes del sector</argument></argset>. </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="0.0.3.4.1.0.1.1.0.0" sentencenodepath="0">El Gobierno chino evitó en las últimas horas que Pekín se convirtiera en escenario de <argset><head>protestas </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">estudiantiles</argument></argset>por la victoria del independentista Chen_Shui-bian en las elecciones presidenciales celebradas en Taiwán el sábado , se informó hoy en la capital china . </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="4.1.0.1" sentencenodepath="4">Según la circular interna distribuida entre las autoridades de los centros universitarios , <argset><reference_modifiers>dichas</reference_modifiers><head>protestas </head></argset>podrían haber dado_lugar a brotes de inestabilidad social no_sólo en Pekín , sino_también en otras grandes ciudades , como Ø ocurrió en mayo pasado tras el bombardeo de la OTAN que destruyó la Embajada china en Belgrado durante la crisis de Kosovo . </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>Las</specifier><head>protestas </head><reference_modifiers>, que se extendieron de Pekín a ciudades como Shanghai ( este ) y Cantón ( sur ) ,</reference_modifiers></argset>causaron daños importantes tanto en la Embajada de Estados_Unidos en Pekín como en el resto de los edificios consulares que mantiene ese país en territorio chino . </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="7.3.0.1.1.1.0.0" sentencenodepath="7">Según el experto en asuntos de Taiwán Li_Jiaquan , los estudiantes habían pedido permiso para organizar <argset><head>protestas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la actitud de rechazo del nuevo presidente de la política de " una sola China " y de la teoría de " un país , dos sistemas " que Pekín plantea como requisito previo para concluir con el proceso de reunificación pacífica de la " madre patria "</argument></argset>. </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="2.5.1.4.2.1.1.3.1.3.1.0.0" sentencenodepath="2">Perú se clasificó esta noche para las semifinales de la Copa_de_Oro al vencer a Honduras por cinco a tres goles en el estadio Orange_Bowl de Miami , en un partido que terminó dos minutos antes al invadir el campo seguidores hondureños en <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por un gol anulado a su equipo</argument></argset>. </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="5.2.1.2.1.1.0.0" sentencenodepath="5">Inmediatamente el árbitro expulsó a Pavón y poco después , por empujarlo en <argset><head>protesta </head></argset>, al también hondureño Milton_Reyes . </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="7.4.1.0.0" sentencenodepath="7">Segundos después , se producía la invasión al campo en <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por lo que consideraban que era un " robo " del partido</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="0.0.2.1.1.1.1.1.0" sentencenodepath="0">Los frentes sociales de Ecuador han decidido subir el tono de <argset><specifier>las</specifier><head>protestas </head></argset>y Ø preparan la manifestación del próximo 1_de_mayo que será el inicio de un levantamiento popular contra el Gobierno . </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="1.2.1.0.2.1.2.1.0.0" sentencenodepath="1">Los estudiantes y los empleados estatales han anunciado que hoy Jueves , segunda jornada de <argset><head>protestas </head></argset>, Ø efectuarán movilizaciones en todo el país , con el cierre de carreteras y marchas en las principales ciudades . </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="3.3.0.1.1.0" sentencenodepath="3">El presidente del Frente_Patriótico ( FP ) , Luis_Villacís , indicó a EFE que <argset><specifier>las</specifier><head>protestas </head></argset>crecerán en intensidad pero que el grueso de las manifestaciones se dejarán sentir el próximo Lunes durante la celebración del Día_Internacional_del_Trabajo . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="17.4.2.1.1.1.0.1" sentencenodepath="17">La DOS fue acusada por radicales y socialistas de " golpismo " por propiciar una marea de paros y ocupaciones de empresas vitales y por amenazar con <argset><reference_modifiers>nuevas</reference_modifiers><head>protestas </head></argset>si la coalición socialista-radical en el poder no accedía a sus exigencias . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="11.3.1.1.1.0.0" sentencenodepath="11">El viernes , Izquierda_Unida y diversos colectivos leyeron un manifiesto de <argset><head>protesta </head></argset>contra " la guerra , las sanciones económicas a Yugoslavia , la OTAN y el intervencionismo de los Estados_Unidos " frente_a la embajada de este país , con_motivo_del primer aniversario de los bombardeos aliados en los Balcanes . </example>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="0.0.0.1.2.4.1.0.0" sentencenodepath="0">Los estudiantes de la Universidad estatal de San_Carlos ( USAC ) de Guatemala que se mantenían en huelga de hambre en <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la subida del boleto del transporte de pasajeros de la capital</argument></argset>depusieron hoy su actitud y Ø se declararon victoriosos . </example>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="1.3.1.1.1.1.1.1.1.0" sentencenodepath="1">El presidente de la Asociación_de_Estudiantes_la_Facultad_de_Derecho , de la USAC , Vidal_Marroquín , se mostró satisfecho de haber logrado el objetivo de <argset><specifier>la</specifier><head>protesta </head><reference_modifiers>pacífica</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>Las</specifier><head>protestas </head></argset>estallaron un día después de la entrada en vigor de un aumento del 33_por_ciento de las tarifas para las categorías preferencial y popular de transporte colectivo . </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="17.0.0.1.3.1.0" sentencenodepath="17">Sánchez , quien dirigió <argset><specifier>las</specifier><head>protestas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del exilio cubano</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en enero</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para evitar la repatriación de Elián</argument></argset>, precisó que el tránsito será lento en los alrededores del aeropuerto de Miami , uno de los de mayor tráfico aéreo en EEUU , y Ø tomarán los estacionamientos de la terminal aérea . </example>
+        <example file="CESS-CAST-AA/24024_20000731.tbf.xml" nodepath="1.3.1.0.0" sentencenodepath="1">El espectador , de 47 años , invadió la pista como <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">contra el fabricante de coches Mercedes-Benz , que le despidió por razones de salud</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="0.5.2.1.0.0.1.1.1.1.1.0.0" sentencenodepath="0">La Iglesia filipina instó hoy Sábado al presidente Joseph_Estrada a " volver a la gracia de Dios " y renunciar a su cargo , durante la mayor de las concentraciones de <argset><head>protesta </head></argset>celebradas hasta ahora en Manila contra el jefe del Estado . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="2.5.3.2.0.1.2.2.1.1.0" sentencenodepath="2">Con banderas y pancartas en las que se pedía la dimisión de Estrada , unas 100.000 personas se concentraron hoy , convocadas por el cardenal Sin , en Edsa , la zona de la capital filipina donde <argset><specifier>las</specifier><head>protestas </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">populares</argument></argset>precipitaron en 1986 la caída del dictador Ferdinan_Marcos . </example>
+        <example file="CESS-CAST-AA/2505_20001004.tbf.xml" nodepath="10.3.0.1.1.1.1.1.1.0.0.0" sentencenodepath="10">Los líderes de la oposición serbia se manifiestan seguros de que su campaña de <argset><head>protestas </head>y desobediencia civil </argset>acabará por presionar a Milosevic para que Ø abandone el poder que Ø perdió en las urnas . </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="15.0.0.1.1.1.0" sentencenodepath="15">Dentro de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>protesta </head></argset>, los líderes opositores también pedirán a los órganos estatales que Ø les permitan presentar sus pruebas electorales , consistentes en copias de las actas de las mesas electorales , firmadas y selladas e irrefutables , según ellos , en más del 98_por_ciento de los casos . </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="7.3.4.1.0.1.1.1.1" sentencenodepath="7">Los enfrentamientos se produjeron cuando una muchedumbre que protestaba por el fraude electoral irrumpió en el céntrico Parlamento federal yugoslavo al inicio de <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>protesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la oposición</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="15.4.2.3.1.2.0" sentencenodepath="15">Mahuad tendrá este fin de semana una tregua de los movimientos sociales y de la oposición que han anunciado que Ø centrarán <argset>sus críticas y <head>protestas </head>
+          </argset>a_partir_de la próxima semana . </example>
+        <example file="CESS-CAST-AA/4287_20000306.tbf.xml" nodepath="12.0.3.0.2.3.1.0.0" sentencenodepath="12">También figuraba entre los pasajeros Dennis_Halliday , ex vicesecretario general de Naciones_Unidas , que renunció a ese cargo en <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por las sanciones contra Irak , " que están provocando que 7.000 niños mueran al mes</argument></argset>" , manifestó Galloway . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="15.5.1.1.4.1.0.0" sentencenodepath="15">7_julio . - Los líderes espirituales del partido ultraortodoxo Shas se reúnen en casa del rabino Ovadia_Yosef , máxima figura del grupo , para decidir si sus ministros deben abandonar el Gobierno_de_Barak en <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la cumbre de Camp_David con el líder palestino , Yaser_Arafat , que iba a comenzar cinco días después en esa ciudad estadounidense</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="16.4.1.0.0" sentencenodepath="16">9_de_julio . - Seis ministros de Israel , entre ellos cuatro del poderoso partido ultraortodoxo Shas , abandonan el Gobierno en <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la política de paz de Barak</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="0.0.3.1.0" sentencenodepath="0">Los camioneros británicos intensificaron hoy <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>protestas </head></argset>y Ø continuaron con el bloqueo de refinerías y depósitos de combustible , pese_a la negativa del ministro británico de Economía , Gordon_Brown , a bajar los impuestos del carburante . </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="11.0.0.1.1.1.1.1.0" sentencenodepath="11">Aunque la gravedad de <argset><specifier>las</specifier><head>protestas </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">británicas</argument></argset>no pueden compararse a las manifestaciones de Francia , los bloqueos han mermado las reservas de las gasolineras y Ø han dificultado la distribución del carburante . </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="6.2.5.1.2.1.0.1.1.0.0" sentencenodepath="6">El dirigente de la Organización_Deportiva_Panamericana ( ODEPA ) y de la Asociación_de_Comités_Olímpicos_Nacionales ( ACNO ) , recordó que Ø incluso se negó a participar en la ceremonia de premiación de la marcha 20 kilómetros como señal de <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la descalificación del mexicano</argument></argset>. </example>
+        <example file="CESS-CAST-P/106_20011201.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">Ayer Ø decidieron suspender <argset><specifier>la</specifier><head>protesta </head></argset>porque el ayuntamiento ha empezado a adecentar el barrio . </example>
+        <example file="CESS-CAST-P/14_20011202.tbf.xml" nodepath="3.2.2.8.4.1.0" sentencenodepath="3">Umbral no la mentaba en El_Mundo , pero Ø recordaba que a su antecesora , Esperanza_Aguirre , " nunca le hicieron una huelga " , si_bien Ø atribuía <argset><specifier>la</specifier><head>protesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">universitaria</argument></argset>a que " esta generación necesitaba desvirgarse " contestatariamente . </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="9.5.1.1" sentencenodepath="9">Una digna excepción la constituyó ya hace unos años , <argset><specifier>la</specifier><reference_modifiers>cívica</reference_modifiers><head>protesta </head><reference_modifiers>realizada por el entonces entrenador del Valencia , el holandés Guus_Hiddink</reference_modifiers></argset>, frente_a la exhibición de banderas nazis en el graderío . </example>
+        <example file="CESS-CAST-P/187_20010401.tbf.xml" nodepath="5.4.2.0.2.0.0.1.0" sentencenodepath="5">El alud de contactos obligó a los organizadores a retrasar durante una hora el concierto anunciado , lo cual multiplicó <argset><specifier>las</specifier><head>protestas </head></argset>e insultos que llovieron sobre la dirección electrónica del portal . </example>
+        <example file="CESS-CAST-P/32_20000801.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>protesta </head></argset>también reunió a un centenar de ciudadanos en la plaza de la Villa , en Madrid . </example>
+        <example file="CESS-CAST-P/35_19991202.tbf.xml" nodepath="9.5.1.1.1.0.0" sentencenodepath="9">Paralelamente , el Ministerio_de_Exteriores ruso entregó ayer a la embajada de EEUU una nota de <argset><head>protesta </head></argset>tras la detención de la diplomática norteamericana Cheri_Leberknight bajo acusación de espionaje . </example>
+        <example file="CESS-CAST-P/37_20020602.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">Los manifestantes finalizaron <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>protesta </head></argset>en la plaza de Sant_Jaume . </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="1.0.0.0.1" sentencenodepath="1"><argset><reference_modifiers>Violentas</reference_modifiers><head>protestas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">contra la prohibición de importar cordero</argument></argset>sacudieron nuevamente ayer la ciudad de Melilla , pero en esta ocasión la policía no intervino " para evitar 20 heridos - - como justificó el delegado del Gobierno en la ciudad , Enrique_Beamud - - y para que no se diga que Ø actúa salvajemente " . </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="4.1.1.0" sentencenodepath="4">Si_bien durante las mañanas y las tardes la normalidad reina en la ciudad norteafricana , <argset><specifier>las</specifier><head>protestas </head></argset>arrecian por la noche . </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="7.3.1.1.0" sentencenodepath="7">La prohibición de traer borregos marroquís para celebrar la Pascua_Grande musulmana , debido_a la epidemia de fiebre_aftosa detectada en el país vecino , se mantendrá pese_a <argset><specifier>las</specifier><head>protestas </head></argset>. </example>
+        <example file="CESS-CAST-P/44_20020102.tbf.xml" nodepath="3.0.2.1.1.2.1.0" sentencenodepath="3">El ex futbolista lamentó las 28 muertes que dejaron <argset><specifier>las</specifier><head>protestas </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del 20_de_diciembre</argument></argset>, Ø se manifestó en_contra de la violencia de los últimos días y Ø pidió a los argentinos que " Ø no se confundan y Ø eviten desmanes como el del pasado sábado , cuando una turba entró al Parlamento y Ø realizó destrozos " , dijo Ø . </example>
+        <example file="CESS-CAST-P/47_20000402.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>La</specifier><head>protesta </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de ayer</argument></argset>fue la más grave erupción de violencia en el país africano desde que , a_principios_de año , los veteranos de guerra ocuparon más de 600 granjas agrícolas de propietarios blancos con la intención de apoyar los planes de Mugabe de nacionalizar tierras . </example>
+        <example file="CESS-CAST-P/53_19990901.tbf.xml" nodepath="7.3.1.1.1.0.0" sentencenodepath="7">Miembros de Greenpeace realizaron ayer una manifestación de <argset><head>protesta </head></argset>ante la sede de la OEP , en Múnich . </example>
+        <example file="CESS-CAST-P/69_19991001.tbf.xml" nodepath="9.0.5.1.0.0" sentencenodepath="9">Los alumnos y profesores del instituto harán hoy , a las 10.20_horas , una sentada silenciosa de cinco minutos en el patio como <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por la agresión xenófoba a su compañero</argument></argset>y se prepara otra acción para el fin de semana . </example>
+        <example file="CESS-CAST-P/6_20010501.tbf.xml" nodepath="1.1.6.2.0.1.0" sentencenodepath="1">Les separa el grado de sintonía con el Gobierno en la reforma laboral , que ha contado con un calendario de negociación diseñado con toda la astucia por el Ejecutivo : en Febrero se impuso por ley la regulación de los nuevos contratos , con <argset><specifier>la</specifier><head>protesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">sindical</argument></argset>y el silencio de la patronal . </example>
+        <example file="CESS-CAST-P/71_20010702.tbf.xml" nodepath="2.3.1.0.1.1.3.3.1.2.1.1.0" sentencenodepath="2">Las fotografías más vistas , sin_embargo , eran las de tres supuestos policías camuflados a los que los manifestantes acusan de haber provocado los incidentes violentos durante <argset><specifier>la</specifier><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">antimundialización</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del pasado domingo</argument></argset>. </example>
+        <example file="CESS-CAST-P/71_20010702.tbf.xml" nodepath="6.3.1.1.0" sentencenodepath="6">Otros miembros de Esquerra_Republicana , de Esquerra_Unida_i_Alternativa , la UGT , la CNT y el Sindicat_de_Periodistes se sumaron a <argset><specifier>la</specifier><head>protesta </head></argset>con pancarta propia . </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="10.0.1.2.5.1.1.0" sentencenodepath="10">La presidencia española , que ayer sólo tuvo que hacer_frente a <argset><specifier>las</specifier><head>protestas </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de una treintena de miembros de un sindicato del Cuerpo_Nacional_de_Policía que reclamaba mejoras salariales</argument></argset>, se estrena también con una apuesta por las patentes comunitarias y nuevas mejoras para proteger las marcas " ante las nuevas circunstancias " derivadas de Internet . </example>
+        <example file="CESS-CAST-P/79_20020301.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Así definió el vicepresidente de la asociación de vecinos , Joan_Maria_Soler , <argset><specifier>la</specifier><head>protesta </head><reference_modifiers>que ayer reunió a cerca de 3.000 personas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="17.0.1.0" sentencenodepath="17"><argset><specifier>La</specifier><head>protesta </head></argset>también arrecia en Castilla_y_León , donde los sindicatos propondrán a la patronal regional Conferco una huelga general y un cierre de establecimientos el 13_de_julio . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="12.0.1.1.1.0.0" sentencenodepath="12">Otra oleada de <argset><head>protestas </head></argset>proviene de los ayuntamientos , sobre_todo los del cinturón de la Biblia , los pueblos protestantes de las zonas agrícolas . </example>
+        <example file="CESS-CAST-P/93_20010602.tbf.xml" nodepath="3.1.0.1.5.1.0" sentencenodepath="3">Mientras CCOO sostiene que el paro fue seguido por el 80% de la plantilla , UGT - - que no apoya <argset><specifier>la</specifier><head>protesta </head></argset>- - redujo la participación al 30% . </example>
+        <example file="CESS-CAST-P/93_20010602.tbf.xml" nodepath="9.2.1.1.1.0" sentencenodepath="9">Huerga insistió en que <argset><specifier>la</specifier><head>protesta </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los empleados de la limpieza</argument></argset>" no pretende perjudicar a los usuarios " , sino conseguir que se reconozcan los derechos de los trabajadores . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="protestar" originlink="verb.protestar.1" wordnetsynset="16:00762587">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="S"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/6740_20000710.tbf.xml" nodepath="8.4.1.1.1.1.1.4.1.2.1.1.5.1.0.0" sentencenodepath="8">Barak viajará esta noche a EEUU para asistir a la cumbre , en la que no participará el ministro de Exteriores , David_Levy , que se ha negado a acompañarle en <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="S">porque el primer ministro no ha definido las " líneas rojas " que no traspasará en sus concesiones a Arafat</argument></argset>. </example>
+        <example file="CESS-CAST-P/16_20020601_a.tbf.xml" nodepath="0.4.1.1.1.1.0" sentencenodepath="0">UN JUEZ ha castigado a José_Carlos_Balaguer_Paredes a seis meses de cárcel por tirar piedras a la policía y levantar barricadas durante <argset><specifier>la</specifier><head>protesta </head><reference_modifiers>convocada contra la Cumbre_de_Barcelona el 16_de_marzo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="18.5.1.1.0.1.1.0.0" sentencenodepath="18">En Madrid , la Mesa_del_Comercio se reunirá el Martes para acordar medidas de <argset><head>protesta </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="protestar" originlink="verb.protestar.1" wordnetsynset="16:00762587">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="contra" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a15-5.tbf.xml" nodepath="7.2.1.1.1.1.0.1.2.2.4.1.0.0" sentencenodepath="7">La decisión ha tenido_lugar durante el juicio contra Soichi_Chibana , un señor de la isla de Okinawa que en octubre_de_1987 la quemó en <argset><head>protesta </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">contra el militarismo japonés</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

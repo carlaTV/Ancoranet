@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="pesca" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="pescar" originlink="verb.pescar.1" wordnetsynset="16:00288265">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="0.3.3.1.1.1.0.0" sentencenodepath="0">El Gobierno argentino anunció hoy que Ø revisará los permisos de <argset><head>pesca </head></argset>otorgados " de un modo poco claro " durante la presidencia de Carlos_Menem , quien firmó un acuerdo con la Unión_Europea por el que se incorporaron a la flota argentina barcos de empresas mixtas , en su mayoría de capital español . </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="1.0.3.1.1.1.1.1.1.1.1.2.3.1.2.1.0.1.1.1.0" sentencenodepath="1">La decisión fue tomada por el Ministerio_de_Economía tras llegar a la conclusión de que el incremento en el volumen de captura de la merluza , " a_partir_de un posible exceso de licencias para <argset><specifier>la</specifier><head>pesca </head></argset>" , está poniendo en riesgo ese recurso natural , informó el secretario de Programación_Macroeconómica_y_Regional , Miguel_Bein . </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="2.0.2.4.1.0.1.4.1.1.1.2.1.1.1.0.0" sentencenodepath="2">El funcionario sostuvo que la disminución del número de capturas de merluza " tiene que ver con situaciones que se han dado en los últimos años en este país , en donde los permisos de <argset><head>pesca </head></argset>se dieron , como_mínimo , de un modo poco claro " y Ø aseguró que esta situación será investigada . </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="3.0.3.1.1.1.1.1.0.2.1.0.0" sentencenodepath="3">" Hay una preocupación muy grande porque con la autorización de nuevos cupos de <argset><head>pesca </head></argset>, la sensación es que el recurso está casi colapsado después de años en los que se ha pescado más de medio millón de toneladas de merluza al año " , indicó Bein . </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="8.3.0.1.1.1.1.0.0" sentencenodepath="8">En septiembre_de_1999 , la organización ecologista Greenpeace denunció que el cupo de <argset><head>pesca </head></argset>para ese año ya había sido alcanzado y que las empresas pesqueras estaban depredando la merluza . </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="11.0.0.1.0" sentencenodepath="11"><argset><specifier>La</specifier><head>pesca </head></argset>da empleo directo en Argentina a unas 20.000 personas y empleo indirecto a otras 150.000 , muchas de las cuales trabajan en empresas pesqueras de capitales hispano-argentinos creadas a_partir_del acuerdo suscrito por Argentina y la Unión_Europea ( UE ) en 1992 y que caducó en mayo_de_1999 . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="10.4.1.1.1.0.1.2.4.0.1.1.0.2.0" sentencenodepath="10">Por_último , también es destacable el peso del grupo que integran el material duro de montaña , material de golf , material de <argset>caza y <head>pesca </head>
+          </argset>o bicicletas . </example>
+        <example file="CESS-CAST-AA/23278_20001129.tbf.xml" nodepath="1.1.1.1.1.0.2.1.0.0" sentencenodepath="1">Para Muñiz , que se reunió esta semana en Bruselas con el Comisario_de_Pesca_de_la_UE , Franz_Fischler , la recuperación de caladeros propios de <argset><head>pesca </head></argset>" sería una forma de mantener el empleo en las regiones pesqueras europeas " . </example>
+        <example file="CESS-CAST-AA/4018_20000706.tbf.xml" nodepath="5.2.0.1.0.2.1.0" sentencenodepath="5">Los científicos aconsejan medidas que impidan <argset><specifier>la</specifier><head>pesca </head><reference_modifiers>orientada directamente a la " maruca azul "</reference_modifiers></argset>y que reduzcan las capturas accesorias de esa especie . </example>
+        <example file="CESS-CAST-P/101_20010601.tbf.xml" nodepath="0.4.2.0.2.2.0.1.1.0.2.0" sentencenodepath="0">EL PROYECTO municipal , avanzado ayer por L'Informatiu de TVE_Catalunya , recuperaría la fauna y la flora subacuáticas en el fondo marino del litoral de la ciudad , lo que permitiría regular posteriormente actividades de <argset>submarinismo y <head>pesca </head>
+          </argset>entre el Besòs y el Llobregat mediante un plan de usos . </example>
+        <example file="CESS-CAST-P/10_20010402_a.tbf.xml" nodepath="1.4.3.1.2.1.1.1.1.1.1.1.1.0.0" sentencenodepath="1">Pero el asombro es inevitable cuando se observa la pasividad de los gobiernos españoles ante la necesidad de reducir unas flotas de <argset><head>pesca </head></argset>sobredimensionadas , con exceso de potencia , exceso de años y condiciones de seguridad bajo mínimos . </example>
+        <example file="CESS-CAST-P/10_20010402_a.tbf.xml" nodepath="13.1.1.1.0" sentencenodepath="13">EN_CONTRA Limitar <argset><specifier>la</specifier><head>pesca </head></argset>es vallar un sueño . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="8.0.0.2.2.0" sentencenodepath="8"><argset>Fábricas y personas , industria y <head>pesca </head>, historia y , ahora , futuro </argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="15.0.2.2.4.1.1.1.2.1.0.1.0" sentencenodepath="15">Mas Ø restó gravedad a la subida de los carburantes y Ø dijo que " la escalada de precios es claramente negativa y perjudicial para algunos sectores económicos como <argset><specifier>la</specifier><head>pesca </head></argset>o la agricultura , pero , más allá de los sectores económicos , la subida no es preocupante , aunque sí molesta y causante de nerviosismo entre los ciudadanos por el desconocimiento y la incomprensión de los motivos de la subida " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="pescar" originlink="verb.pescar.1" wordnetsynset="16:00288265">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="7.0.1.1.1.1.0.0" sentencenodepath="7">Aunque el cupo de <argset><head>pesca </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la merluza</argument></argset>se limitó a 238.000 toneladas el año pasado , el Parlamento argentino debió sancionar en junio pasado una Ley_de_Emergencia_Pesquera para frenar la sobreexplotación . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="retroceso" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="retroceder" originlink="verb.retroceder.1" wordnetsynset="16:00811593">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="7.3.3.2.0" sentencenodepath="7">Por_el_contrario , la Confederación_General_del_Trabajo ( CGT ) consideró que el proyecto elaborado por el Medef supone <argset>" <specifier>un</specifier>
+            <head>retroceso </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="s.a">social</argument>
+            <reference_modifiers>importante</reference_modifiers>" </argset>ya_que Ø trata a los desempleados como a " delincuentes " y " Ø no da respuesta " , entre otras cuestiones , al problema de los parados sin cobertura social ( cuatro_de_cada_diez ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="retroceder" originlink="verb.retroceder.2" wordnetsynset="16:00811593+16:05475914">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="3.3.3.2.0" sentencenodepath="3">Sin_embargo , la Confederación_General_del_Trabajo ( CGT ) consideró que el proyecto elaborado por el Movimiento de empresas francesas ( Medef ) supone <argset>" <specifier>un</specifier>
+            <head>retroceso </head>
+            <reference_modifiers>social</reference_modifiers>
+            <reference_modifiers>importante</reference_modifiers>" </argset>ya_que Ø " no da respuesta " , entre otras cuestiones , al problema de los parados que no cobran una indemnización ( cuatro_de_cada_diez ) . </example>
+        <example file="3LB-CAST/2000060204_5-2.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">Pese_al aumento del total de contratos , los de carácter fijo han sufrido <argset><specifier>un</specifier><head>retroceso </head></argset>en comparación con mayo_de_1999 , cuando se firmaron 147.587 , lo que representó el 13,07_por_ciento del total y significa que la temporalidad ha crecido . </example>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="10.3.1.0" sentencenodepath="10">Pese_al aumento del total de contratos , los de carácter fijo han sufrido <argset><specifier>un</specifier><head>retroceso </head></argset>en comparación con mayo_de_1999 , cuando se firmaron 147.587 , lo que representó el 13,07_por_ciento del total y significa que la temporalidad ha crecido . </example>
+        <example file="3LB-CAST/204_c-6.tbf.xml" nodepath="6.4.1.1.1.0.1.2.2.3.2.1.1.0" sentencenodepath="6">Aún_así , cada vez son más los agentes de divisas que creen que lo peor para la divisa europea ya ha pasado y que su apreciación puede continuar , aunque con <argset><specifier>algunos</specifier><head>retrocesos </head><reference_modifiers>provisionales</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24215_20001030.tbf.xml" nodepath="0.2.1.1" sentencenodepath="0">El partido en el Gobierno_de_Colombia con el presidente Andrés_Pastrana , el Conservador , sufrió <argset><specifier>un</specifier><reference_modifiers>gran</reference_modifiers><head>retroceso </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en los comicios regionales del domingo</argument></argset>con el triunfo del opositor Liberal y los movimientos independientes en la mayoría de gobernaciones y alcaldías de las principales ciudades del país . </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="0.2.3.2.1.1.0.0" sentencenodepath="0">El presidente del Gobierno y del PP , José_María_Aznar , dijo que el " único riesgo " para la prosperidad de España son " las políticas de <argset><head>retroceso </head></argset>" del PSOE , ya_que esta formación no puede hacer " ni un partido , ni un proyecto , ni una idea " porque Ø es " sólo un barullo imposible e indeseable " para el futuro . </example>
+        <example file="CESS-CAST-P/10_19981202.tbf.xml" nodepath="4.3.0.4.1.0.0" sentencenodepath="4">Pero Ø es que , además , la formación de Bouchard está en <argset><head>retroceso </head></argset>y Ø consiguió 25.000 votos menos que el federalista Partido_Liberal . </example>
+        <example file="CESS-CAST-P/133_20000702.tbf.xml" nodepath="2.3.0.1.1.1.2.1.0.0" sentencenodepath="2">La subida se produjo después de siete días consecutivos de <argset><head>retrocesos </head></argset>. </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="22.1.1.0" sentencenodepath="22">Pese_a acciones como la del presidente George_Bush , que lanzó una llamada a la tolerancia y el respeto desde una mezquita de Washington , pese_a los discursos de los líderes políticos y religiosos explicando que el amor y la paz son la base del islam , pese_a las intervenciones pacíficas de famosos musulmanes como Mohamed_Alí o el cantante Cat_Stevens - - Yusuf_Islam - - , <argset><specifier>el</specifier><head>retroceso </head></argset>es innegable . </example>
+        <example file="CESS-CAST-P/77_20000801.tbf.xml" nodepath="1.1.2.0.2.1.0" sentencenodepath="1">El Ibex_35 cedió un 0,3% en su última sesión , y Ø cerró en 10.531,60 puntos , lo que supone <argset><specifier>un</specifier><head>retroceso </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">de 49,7 puntos</argument><argument argument="argM" function="cn" thematicrole="adv" type="sadv">frente a los 10.581,30 de principios de julio</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

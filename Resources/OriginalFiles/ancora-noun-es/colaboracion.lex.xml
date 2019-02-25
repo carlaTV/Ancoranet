@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="colaboración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="colaborar" originlink="verb.colaborar.1" wordnetsynset="16:00780822">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="6" preposition="entre" type="sp"/>
+        <constituent frequency="7" preposition="de" type="sp"/>
+        <constituent frequency="2" type="sp"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="3" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="15" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="8.2.2.1.0" sentencenodepath="8">El embajador estadounidense en España , Edward_Romero , aseguró que la inversión en investigación básica contribuye a la prosperidad económica y Ø destacó <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre España y Estados_Unidos</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en este campo</argument><reference_modifiers>, materializada en diversos acuerdos</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="12.3.2.2.1.0" sentencenodepath="12">Para el director general de Investigación_de_la_CAM , Francisco_José_Rubia , es necesario apoyar a_fondo la investigación de calidad e incentivar con diferentes medidas <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los científicos y técnicos y el sector productivo</argument></argset>. </example>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="17.0.3.1.0.0" sentencenodepath="17">" Ø Trabajamos en <argset><head>colaboración </head><reference_modifiers>con la FTU , la comunidad fiyiana en Nueva_Zelanda y con otras organizaciones sindicales internacionales</reference_modifiers></argset>para ejercer una presión que implique el regreso de la democracia a Fiyi " , dijo el presidente de la CTU , Ross_Wilson . </example>
+        <example file="3LB-CAST/dc10-10.tbf.xml" nodepath="3.0.1.0.0" sentencenodepath="3">En <argset><head>colaboración </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con Otto</argument></argset>Ø desarrollaron el que se llamaría motor de cuatro tiempos , por las cuatro carreras sucesivas del émbolo ( aspiración , compresión , explosión y expulsión ) y que obtuvo un arrollador triunfo en la Exposición_Universal_de_París de 1878 . </example>
+        <example file="CESS-CAST-A/10656_20001214.tbf.xml" nodepath="5.0.3.1.1.1.0" sentencenodepath="5">En su encuentro de ayer , los representantes saudíes y yemeníes trataron principalmente sobre <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del sector privado</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en futuras inversiones conjuntas</argument></argset>, " por las amplias oportunidades que Ø ofrece " , dijo Ariani . </example>
+        <example file="CESS-CAST-A/12863_20001116.tbf.xml" nodepath="5.0.2.1.0" sentencenodepath="5">La operación para capturar a Castillo por primera vez permitió <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de varios países</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">, para proteger a inmigrantes ilegales que son víctimas de organizaciones criminales</argument></argset>, añade la nota . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="14.1.2.0.2.1.0" sentencenodepath="14">En ese lapso del partido , Gancedo se adueñó de la zona media del campo y , con <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Ledesma</argument></argset>, Ø se dedicó a tocar el balón a los habilidosos delanteros , custodiados con excesivo celo por la defensa visitante . </example>
+        <example file="CESS-CAST-A/15209_20001220.tbf.xml" nodepath="5.4.1.1.0" sentencenodepath="5">Egipto se ha quejado reiteradamente de <argset><specifier>la poca</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Alemania y del Reino_Unido</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para retirar estas minas , de las que no se sabe la situación exacta ni la profundidad a que pueden encontrarse bajo la superficie de la tierra debido_al movimiento de las arenas del desierto</argument></argset>. </example>
+        <example file="CESS-CAST-A/16875_20000321.tbf.xml" nodepath="5.4.2.1.1.0" sentencenodepath="5">Pero todo esto , explicó el vicepresidente , debe hacerse en el ámbito regional y con <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la comunidad internacional</argument></argset>, " de_acuerdo_con los principios de no interferencia en asuntos internos " . </example>
+        <example file="CESS-CAST-AA/22039_20000926.tbf.xml" nodepath="8.1.2.1.2.2.1.0" sentencenodepath="8">Fernández afirmó que una parte importante del éxito obtenido corresponde a su marido y entrenador , Javier_Alonso , " él tiene que ver mucho en esta medalla porque Ø me ha ayudado y apoyado en los momentos difíciles " , indicó la campeona olímpica que agradeció <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Federación_Española_de_Judo</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para que su entrenador pudiera estar cerca de ella durante los combates</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23278_20001129.tbf.xml" nodepath="3.5.2.1.0.3.1.1.0.1.1.0.0" sentencenodepath="3">José_Manuel_Muñiz explicó además a Franz_Fischler que es necesario " mitigar la creciente carga de escepticismo e incluso de negatividad que se nota en el sector pesquero hacia la administración comunitaria " , por lo que Ø abogó por crear instrumentos de <argset><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre las autoridades y las organizaciones pesqueras profesionales</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8842_20000210.tbf.xml" nodepath="3.3.1.1" sentencenodepath="3">En_general , Ø defendió <argset><specifier>una</specifier><reference_modifiers>mayor</reference_modifiers><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre el sector público y el sector privado</argument><argument argument="argM" function="cn" type="sp">en este campo</argument></argset>, ya_que Ø dijo que esto se está aprendiendo en otros sectores , pero en política exterior " Ø estamos en mantillas " . </example>
+        <example file="CESS-CAST-P/102_20000802.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">El programa de Angel_Casas cuenta con <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Andreu_Buenafuente , que hace una versión del monólogo de Joan_Capri El_casament</argument></argset>. </example>
+        <example file="CESS-CAST-P/124_20000102.tbf.xml" nodepath="10.3.1.1.0" sentencenodepath="10">El capítulo más frágil del doble concierto recayó , en_fin , en <argset><specifier>unas</specifier><head>colaboraciones </head><reference_modifiers>probablemente resentidas por la falta de rodaje</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/135_19981202.tbf.xml" nodepath="3.0.2.1.3.5.1.1" sentencenodepath="3">El humor y la diversión - - que les permite plantear con frivolidad algunos de los temas que más preocupan a la sociedad actual - - , y el contacto directo con el público - - del que se requiere <argset><specifier>una</specifier><reference_modifiers>activa</reference_modifiers><head>colaboración </head></argset>tanto en el escenario como en el patio de butacas - - , son los pilares que sustentan unos espectáculos dramatúrgicamente poco ambiciosos que aspiran a entretener dignamente humor , la improvisación y la participación . </example>
+        <example file="CESS-CAST-P/135_20000202.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>La</specifier><head>colaboración </head></argset>partió de estar juntos en mi casa , relajados y tocando . </example>
+        <example file="CESS-CAST-P/34_20000401.tbf.xml" nodepath="6.3.4.1.0" sentencenodepath="6">Gelman había intentado en_vano que el predecesor de Batlle , Julio_Maria_Sanguinetti , le brindara <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>colaboración </head></argset>para encontrar a su nieta . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="16.2.3.1.2.1.0" sentencenodepath="16">Ø Sabe que el futuro de Catalunya está en la moderación y <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre la Generalitat y el Gobierno de España</argument></argset>. </example>
+        <example file="CESS-CAST-P/46_19981102.tbf.xml" nodepath="4.2.0.1.1.0.0" sentencenodepath="4">La policía autonómica ha firmado convenios de <argset><head>colaboración </head></argset>con el 90% de los cuerpos de policía municipal de las comarcas de Girona . </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="6.2.2.1.0" sentencenodepath="6">El presidente del Cabildo agradeció la ayuda prestada por todos los municipios y <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los cabildos de Tenerife , Gomera y Hierro , así_como de los voluntarios llegados de todos los puntos de la isla</argument></argset>. </example>
+        <example file="CESS-CAST-P/53_20010802.tbf.xml" nodepath="1.5.2.1.0" sentencenodepath="1">El grupo Agnelli ha protagonizado recientemente una de las operaciones más importantes de la economía italiana , al lanzar una oferta pública de adquisición ( OPA ) sobre el grupo industrial Montedison , con <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la francesa Electricité_de_France</argument></argset>. </example>
+        <example file="CESS-CAST-P/61_19991001.tbf.xml" nodepath="16.2.3.3.1.2.0.0" sentencenodepath="16">El president recalcó que " el progreso de un país depende de la calidad de sus instituciones jurídicas " y Ø dijo a los abogados que Ø pueden contar con <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument>" <head>colaboración </head>y disponibilidad " </argset>. </example>
+        <example file="CESS-CAST-P/63_19990201.tbf.xml" nodepath="1.3.1.0.1.0" sentencenodepath="1">Según Mubarak es necesario incentivar <argset><specifier>la</specifier><head>colaboración </head></argset>y el diálogo porque los problemas del mundo son responsabilidad de todo tipo de países . </example>
+        <example file="CESS-CAST-P/65_20010701.tbf.xml" nodepath="10.3.1.1.0" sentencenodepath="10">Su detención fue posible gracias_a <argset><specifier>la</specifier><head>colaboración </head><reference_modifiers>policial</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre España e Italia</argument></argset>. </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="22.2.3.1.0.1" sentencenodepath="22">El gerente del Grupo_IFA y socio de Anceco , Rafael_Rubio , opinó que esta fusión puede fomentar <argset><specifier>una</specifier><reference_modifiers>mayor</reference_modifiers><head>colaboración </head>y unión entre las centrales de compra existentes </argset>. </example>
+        <example file="CESS-CAST-P/75_20020102.tbf.xml" nodepath="2.2.2.2.1.0" sentencenodepath="2">La cifra - - puntualizó Trànsit - - continúa siendo elevada , pero los responsables autonómicos de la gestión de las carreteras quisieron agradecer a los conductores <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>colaboración </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a la hora de lograr ese descenso del 11%</argument></argset>. </example>
+        <example file="CESS-CAST-P/82_19991202.tbf.xml" nodepath="4.2.1.4.1.0.2.2.1.1.1.0.0" sentencenodepath="4">Las alternativas al abeto que propone el Instituto_de_Parques_y_Jardines son el durillo , el laurel_alejandrino , y el madroño , que estarán a la venta en numerosos establecimientos que han suscrito un acuerdo de <argset><head>colaboración </head></argset>con el ayuntamiento . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="colaborar" originlink="verb.colaborar.1" wordnetsynset="16:00780822">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="desde" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/55_20000903.tbf.xml" nodepath="7.2.1.1.1.2.6.2.3.1.0.0" sentencenodepath="7">Se trata de una pieza excelentemente situada , junto_a uno de los edificios más bellos del paseo , el Palau_Moja , y sobre la que el grupo municipal de IC-V ya ha planteado una propuesta a Joan_Clos : que el Ayuntamiento_de_Barcelona la compre en <argset><head>colaboración </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con la Generalitat</argument></argset>para poder derribar así el primer piso , que oculta parcialmente el Palau_Moja , y se devuelva al lugar el diseño de balcón sobre la Rambla que Ø tenía antes de 1935 . </example>
+        <example file="CESS-CAST-P/57_20000702.tbf.xml" nodepath="0.0.1.1.5.1.1.1.1.1.0.1.1.0.1" sentencenodepath="0">El Tribunal_Militar_de_Beirut , que celebra sesiones maratonianas tres veces por semana para juzgar a más de 2.200 libaneses sospechosos de <argset>" <head>colaboración </head>" <argument argument="arg1" function="cn" thematicrole="tem" type="sp">con Israel</argument>
+          </argset>, condenó ayer a 42 personas . </example>
+        <example file="CESS-CAST-P/57_20000702.tbf.xml" nodepath="4.3.1.0.1" sentencenodepath="4">Naser fue condenado a 12 penas de 10 años cada una por <argset>" <head>colaboración </head>
+            <reference_modifiers>, desde un puesto de responsabilidad ,</reference_modifiers>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">con el enemigo israelí</argument>" </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="colaborar" originlink="verb.colaborar.1" wordnetsynset="16:00780822">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/34_20010801.tbf.xml" nodepath="0.3.1.2.2.1.1.1.0.2.0" sentencenodepath="0">El juez de la Audiencia_Nacional Baltasar_Garzón ordenó ayer el procesamiento de 31 miembros de Ekin , el supuesto aparato político de ETA , por los delitos de <argset>pertenencia o <head>colaboración </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">con banda armada</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/44_20000202.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">Además , Ø quiere garantizar <argset><specifier>la</specifier><head>colaboración </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con los socialistas</argument></argset>situándose él mismo en la candidatura . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="aventura" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="aventurar" originlink="verb.aventurar.1" wordnetsynset="16:cs1+16:00509169+16:10038885">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a12-0.tbf.xml" nodepath="2.0.1.1.1.1.0.0" sentencenodepath="2">En las novelas de <argset><head>aventuras </head></argset>el que engaña es el sentido de la vista , que hace que el explorador desorientado descubra un oasis donde sólo hay una duna y los restos de un camello muerto . </example>
+        <example file="3LB-CAST/a12-0.tbf.xml" nodepath="3.2.0.0.1.4.0.2.1.1.0.0" sentencenodepath="3">Los espejismos , según el diccionario , no son más_que meras ilusiones ópticas , pero yo , que nunca he sido personaje de novela ni compañero de <argset><head>aventuras </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Lawrence_de_Arabia</argument></argset>, lo más parecido a un espejismo que Ø he visto son esos bichitos blancos con forma de paramecio que culebrean sobre el forro oscuro de los párpados . </example>
+        <example file="3LB-CAST/e1-3.tbf.xml" nodepath="5.2.4.3.3.1.1.0" sentencenodepath="5">Dentro de la propia novela los personajes suelen correrse grandes juergas a_costa_de los sufrimientos de ZZNM , y cierto rey ZZT , como si desde una ventana de palacio Ø viera a un estudiante riendo a carcajadas con un libro en las manos , comentó a sus próximos : " Ese joven o está loco o lee <argset><specifier>las</specifier><head>aventuras </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de ZZTO</argument></argset>" . </example>
+        <example file="3LB-CAST/t4-12.tbf.xml" nodepath="7.0.2.1.2.1.1.1.0" sentencenodepath="7">La buena ciudadanía consiste en cultivar la prudencia y preferirla a <argset><specifier>la</specifier><head>aventura </head></argset>, pero pensándolo dos veces la ciudadanía razonable nos lleva al caos con tres o cuatro guerras cada siglo . </example>
+        <example file="CESS-CAST-A/12633_20000315.tbf.xml" nodepath="13.5.4.1.2.1.0.2.1.2.1.2.1.0" sentencenodepath="13">La representante de Costa_Rica , Claudia_Fernández , se mostró optimista con_respecto_a que la situación mejore , ya_que Latinoamérica tiene un caudal inagotable de experiencias novedosas para quienes buscan disfrutar la paz de una playa , <argset><specifier>la</specifier><head>aventura </head><reference_modifiers>de la selva</reference_modifiers></argset>o la sensación salvaje de cavernas milenarias . </example>
+        <example file="CESS-CAST-AA/2061_20000803.tbf.xml" nodepath="1.0.3.4.1.1.1.0.0" sentencenodepath="1">Martin_Letter , de 69 años , pereció víctima de un paro cardiaco " fulminante " , cuando Ø practicaba su deporte de <argset><head>aventura </head></argset>favorito en un paraje de la zona de Recres , a 4.400 metros sobre el nivel del mar y unos 470 kilómetros al noreste de Lima , precisó la fuente . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="25.2.1.0" sentencenodepath="25">Termina así <argset><specifier>la</specifier><head>aventura </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Bakero</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el banquillo</argument></argset>ya_que en los 13 partidos que Ø ha dirigido al Puebla , cinco del torneo anterior y ocho del actual , Ø sólo ha ganado dos encuentros , Ø ha empatado cuatro y Ø ha encajado siete derrotas . </example>
+        <example file="CESS-CAST-P/134_20000701.tbf.xml" nodepath="15.0.0.0.1.1.1.2.1.0.0" sentencenodepath="15">Stefania_Sandrelli , compañera de plató y de <argset><head>aventuras </head></argset>de Gassman , tocó el féretro y Ø cayó casi desvanecida al suelo , estallando en sollozos . </example>
+        <example file="CESS-CAST-P/139_19991201.tbf.xml" nodepath="9.0.4.1.1.1.1" sentencenodepath="9">Así , Sebastián_Alvaro , director de Al_filo_de_lo_imposible , se ocupará de contar <argset><specifier>las</specifier><reference_modifiers>grandes</reference_modifiers><head>aventuras </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del siglo</argument></argset>, y Manuel_Serrano , ex director de programas culturales de TVE , hará lo propio con los avances culturales , políticos y científicos de la centuria . </example>
+        <example file="CESS-CAST-P/155_20010302.tbf.xml" nodepath="3.2.1.1.0" sentencenodepath="3">El actor , el realizador Vicente_Pérez_Herrero , el productor Rodolfo_Montero y los actores Miguel_Molina , Momoyo_Miya y Alicia_Martínez , hablaron de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>aventura </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">cinematográfica</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en San_Martín_de_Elines , un pequeño pueblo de 27 habitantes de Cantabria - - en el que nació el productor - - , donde rodaron esta producción</argument></argset>. </example>
+        <example file="CESS-CAST-P/176_20010201.tbf.xml" nodepath="0.4.1.1" sentencenodepath="0">El actor y humorista Millán_Salcedo , antiguo componente del popular dúo Martes_y_Trece , presentó el Martes por la noche , en un local de Madrid , <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>nueva</reference_modifiers><head>aventura </head><reference_modifiers>literaria</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/189_20010701.tbf.xml" nodepath="0.4.5.4.3.3.1.2.1.1.1.0" sentencenodepath="0">Pau_Gasol dijo ayer , a su regreso de EEUU , que no será fácil que el Barcelona rebaje la cláusula de 500 millones de pesetas que Ø deberá abonar si Ø quiere ir la próxima temporada a la NBA , tras ser elegido el número 3 del draft por Vancouver , aunque Ø espera que el club acceda si Ø pacta su vuelta a volver al acabar <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>aventura </head><reference_modifiers>americana</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/7_19981102.tbf.xml" nodepath="1.2.2.1.1.3.1.1.0" sentencenodepath="1">Ninguno de los anuncios menciona directamente a Monica_Lewinsky o la posibilidad de un impeachment del presidente Bill_Clinton , pero Ø ponen_de_manifiesto las mentiras y tergiversaciones con las que el actual inquilino de la Casa_Blanca intentó encubrir <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>aventura </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con la becaria</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="aventurar" originlink="verb.aventurar.1" wordnetsynset="16:00509169">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="16.0.1.1.2.1.1.0" sentencenodepath="16">Los empresarios que fracasen en <argset><specifier>la</specifier><head>aventura </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de lanzar un negocio</argument></argset>también podrán beneficiarse del Care . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="13.4.1.1.1.0" sentencenodepath="13">Kostunica trata hoy en Skopje de conseguir ayuda internacional en una cumbre balcánica para que <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>aventura </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">democrática</argument></argset>no zozobre , con Milosevic dirigiendo los movimientos de su SPS hasta el congreso que en noviembre celebrarán los socialistas . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

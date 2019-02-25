@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="disparo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="disparar" originlink="verb.disparar.1" wordnetsynset="16:00077986">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="6" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-13.tbf.xml" nodepath="7.3.4.1.1.1.2.1.1.1.6.1.0" sentencenodepath="7">Y lo restante del equipo , es sencillamente mediocre , con un esquema de juego - démodé - , pasado de moda , aburrido , sin más aliciente para el aficionado que algún alocado remate de cabeza de Zamorano y el temor a que , de_repente , le salga bien a Hierro <argset><specifier>un</specifier><head>disparo </head></argset>desde lejos . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="5.3.5.1.1.1.3.0.1.0" sentencenodepath="5">El viceprimer ministro afirmó que " ninguna de las tres versiones es más verosímil que la otra " , aunque así Ø descartó aparentemente hasta diez hipótesis más barajadas por la comisión , entre ellas <argset><specifier>el</specifier><head>disparo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un torpedo</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">por error</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de un buque ruso</argument></argset>y un sabotaje . </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="16.5.1.0.1" sentencenodepath="16">El gol que acortaba distancias lo consiguió Clavasquin en el minuto 32 de <argset><reference_modifiers>fuerte</reference_modifiers><head>disparo </head><reference_modifiers>que dejó al meta peruano sin posibilidades de atajarlo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20072_20000924.tbf.xml" nodepath="2.0.2.2.1.1.1" sentencenodepath="2">El Valencia quiso dar primero con <argset><specifier>un</specifier><reference_modifiers>potente</reference_modifiers><head>disparo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Vicente</argument><reference_modifiers>que detuvo Núñez</reference_modifiers></argset>, pero la respuesta del Numancia no se hizo esperar , ya_que , en el minuto siete , Ojeda remató al lateral de la red un balón procedente de un córner botado por Iñaki . </example>
+        <example file="CESS-CAST-AA/24070_20000329.tbf.xml" nodepath="8.3.4.1.2.1.2.1.3.1.1" sentencenodepath="8">Este panorama de relativa igualdad se rompió cuando Campbell aprovechó una indecisión de la defensa para marcar el primer gol , pocos minutos después de que Stankovic lanzara <argset><specifier>un</specifier><reference_modifiers>duro</reference_modifiers><head>disparo </head><reference_modifiers>que acabó con el balón en el lateral de la red de la meta inglesa</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="7.2.3.3.2.0.3.1.1.1.1.1.4.1.1.1" sentencenodepath="7">El once " rojillo " notó negativamente el autogol del defensa navarro y el Valencia pasó a liderar el choque , explotando el pasillo de la banda derecha de Mendieta , lo que se plasmó en las ocasiones protagonizadas por Zahovic ( m.22 ) , Carew ( m.42 ) y , sobre_todo , <argset><specifier>un</specifier><reference_modifiers>nuevo</reference_modifiers><head>disparo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Zahovic ( m.28 )</argument><reference_modifiers>que tras rebotar en Vidakovic a_punto estuvo de meterse en la portería de Nuno</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="8.2.2.5.1.1.1" sentencenodepath="8">El Valencia desapareció en el segundo periodo y Osasuna arrolló a su rival , siendo acreedor a algo positivo , pero el conjunto de Héctor_Cúper , explotó la suerte de los campeones y Ø se hizo con el partido a_falta_de cinco minutos en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>único</reference_modifiers><head>disparo </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">entre los tres palos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="12.1.2.2.1.0" sentencenodepath="12">En una acción aislada , Carew recogió un balón suelto dentro del área y Ø agarró <argset><specifier>un</specifier><head>disparo </head></argset>con la derecha que se coló a media altura de la portería de Nuno ( m.85 ) . </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="12.2.1.1.3.1.2.1.0.0" sentencenodepath="12">La segunda parte comenzó con dos claras ocasiones para los de Pedro_Parada , una de ellas con <argset><head>disparo </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">al larguero</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Javi_Guerrero</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="11.2.1.1.0" sentencenodepath="11">El submarino más moderno de la Flota rusa , que participaba en un simulacro bélico el día del naufragio , fue alcanzado por <argset><specifier>un</specifier><head>disparo </head><reference_modifiers>hecho desde el buque-insignia " Pedro_el_Grande "</reference_modifiers></argset>, según las fuentes . </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="1.0.1.1.2.1.6.1.0" sentencenodepath="1">Como si ser tocado , recibir una paliza , una pedrada , un golpe o <argset><specifier>un</specifier><head>disparo </head></argset>fuera algo que se puede esperar . </example>
+        <example file="CESS-CAST-P/20_19990802.tbf.xml" nodepath="11.3.1.0.0" sentencenodepath="11">Los agentes repelieron la agresión con <argset><head>disparos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al aire</argument></argset>. </example>
+        <example file="CESS-CAST-P/25_20010102.tbf.xml" nodepath="20.3.1.2.1.1.1.0" sentencenodepath="20">En Jizme , al norte de Jerusalén , ayer murió un joven de 22 años abatido por <argset><specifier>los</specifier><head>disparos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de colonos judíos que penetraron en esta localidad</argument></argset>. </example>
+        <example file="CESS-CAST-P/65_20000602.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">Un tirador de élite de las fuerzas especiales logró alcanzarlo con <argset><specifier>un</specifier><head>disparo </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la cabeza</argument></argset>, lo que desencadenó la operación . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="21.1.0.0.1.0" sentencenodepath="21">A_falta_de un minuto para el final del partido , <argset><specifier>un</specifier><head>disparo </head><reference_modifiers>lejano</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del centrocampista vasco</argument></argset>superó a Busquets y Ø se estrelló en el larguero . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

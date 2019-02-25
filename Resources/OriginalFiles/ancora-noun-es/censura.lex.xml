@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="censura" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="censurar" originlink="verb.censurar.1" wordnetsynset="16:05034573+16:00254803+16:05035217+16:00525511">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="21" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="13.3.1.1.1.1.0.0" sentencenodepath="13">La celeridad en tramitar la disolución , que fue decidida por el primer ministro esta mañana , impidió al pleno debatir la moción de <argset><head>censura </head></argset>que presentó el jueves la oposición que atacó de anticonstitucional recientes comentarios de Mori sobre el emperador y la presunta divinidad de Japón . </example>
+        <example file="3LB-CAST/a27-0.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>censura </head></argset>se encargaba de acallar cualquier voz altisonante que pudiera dañar el régimen de Franco y sus instituciones , salvo Radio_Pirenaica , que era seguida con gran atención por los más concienciados políticamente . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="4.2.4.1.3.1.1.1.0.0" sentencenodepath="4">El lehendakari , durante sus intervenciones , fue muy crítico con socialistas y populares , especialmente con estos últimos , a los que Ø acusó de no haber dado " ni un sólo minuto de oportunidad a la paz " , y a los primeros Ø les retó a que Ø presenten una moción de <argset><head>censura </head></argset>contra él si Ø consideran que Ø no cuenta con el apoyo suficiente en el Parlamento tras la suspensión del pacto con EH . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="10.3.1.3.1.1.1.0.0" sentencenodepath="10">Ibarretxe retó a los socialistas a que Ø presenten una moción de <argset><head>censura </head></argset>, que reglamentariamente debe llevar consigo la presentación de un candidato alternativo . </example>
+        <example file="CESS-CAST-AA/20070_20000525.tbf.xml" nodepath="19.3.3.3.1.0.2.1.1.1.0.0" sentencenodepath="19">El siguiente grupo mejor posicionado es el que integre finalmente a El_Elefante_Azul , ya_que este grupo opositor lleva tiempo trabajando y Ø tiene a su favor el haber presentado en 1998 una moción de <argset><head>censura </head></argset>contra Núñez , que fue avalada por 6.014 firmas . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="12.2.2.1.2.1.0.1.1.1.1.1.1.1.1.0.0" sentencenodepath="12">Estas últimas dimisiones suponen el colapso de la coalición gubernamental , Lucha_de_las_Masas_Nacionalistas_Filipinas ( LAMP ) , y Ø aumentan las posibilidades de éxito del proceso para la presentación de una moción de <argset><head>censura </head></argset>iniciado el mes pasado por 54 legisladores . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="13.1.1.1.1.1.1.1.1.1.1.0.0" sentencenodepath="13">Según la Constitución filipina , inspirada en la de Estados_Unidos , el proceso para la presentación de la moción de <argset><head>censura </head></argset>debe iniciarse en la Cámara baja con el voto de al_menos un tercio de los 218 diputados , para ser posteriormente aprobada por 15 de los 22 miembros del Senado . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="14.2.4.1.1.2.1.1.1.1.1.1.0.0" sentencenodepath="14">Las dimisiones en el Senado elevan a once el número de opositores a Estrada , y en el Congreso suman ya 95 los diputados que estarían dispuestos a presentar una moción de <argset><head>censura </head></argset>. </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="16.0.0.0.1.1.0.0" sentencenodepath="16">Moción de <argset><head>censura </head></argset>, dimisión , elecciones anticipadas o algún tipo de intervención militar son las cuatro posibilidades más barajadas para salir de la crisis política . </example>
+        <example file="CESS-CAST-AA/25091_20000929.tbf.xml" nodepath="3.0.1.1.1.1.0.0" sentencenodepath="3">En_cuanto_a la moción de <argset><head>censura </head></argset>presentada por los socialistas en el País_Vasco , Frutos aseguró que Ø estaría dispuesto a apoyarla " siempre_que el acuerdo para gobernar se pactara entre ambos grupos " y Ø destacó que " cuando no hay otra alternativa se deben convocar elecciones " . </example>
+        <example file="CESS-CAST-AA/3784_20000806.tbf.xml" nodepath="11.2.1.3.1.1.1.2.1.1.1.1.0.0" sentencenodepath="11">Las disputas políticas , los alegatos de corrupción contra el Gobierno y la persistencia de los problemas económicos y sociales , llevaron a que la Asamblea_Consultiva_del_Pueblo considerara la posibilidad de someter a Wahid a una moción de <argset><head>censura </head></argset>, poder que de_momento no tiene este órgano legislativo . </example>
+        <example file="CESS-CAST-AA/6552_20000810.tbf.xml" nodepath="7.0.1.2.1.4.1.1.1.1.0.0" sentencenodepath="7">Los rumores amenazadores de que los 700 miembros del Parlamento someterían a Wahid a una moción de <argset><head>censura </head></argset>forzaron al presidente que Ø admitiera sus faltas y Ø pidiera perdón el Lunes pasado durante la apertura de la reunión anual del MPR . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="4.3.1.2.1.0.0" sentencenodepath="4">12_de_julio . - El Parlamento israelí rechaza la primera moción de <argset><head>censura </head></argset>presentada por el Likud contra Barak por su decisión de ampliar el Ejecutivo de 18 a 24 ministros . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="5.3.1.1.1.0.0" sentencenodepath="5">26_de_julio . - El líder laborista supera tres mociones de <argset><head>censura </head></argset>de la oposición de_derechas , una de ellas por la admisión de un diputado de la minoría árabe en la comisión más importante del Parlamento . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="6.3.1.1.1.0.0" sentencenodepath="6">11_de_octubre . - El líder laborista supera una moción de <argset><head>censura </head></argset>del Likud contra su política de paz con los palestinos . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="7.2.1.1.1.0.0" sentencenodepath="7">18_de_octubre . - Fracasa una moción de <argset><head>censura </head></argset>de la oposición derechista por la decisión del Gobierno de evacuar doce de los 42 asentamientos judíos ilegales construidos por colonos en el último año . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="8.3.1.1.1.0.0" sentencenodepath="8">2000_Enero / Febrero . - La Kneset rechaza varias mociones de <argset><head>censura </head></argset>presentadas por el Likud por un supuesto caso de financiación irregular de la campaña de Barak a las últimas elecciones generales . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="18.0.3.1.1.1.0.0" sentencenodepath="18">31_de_julio . - La oposición presenta tres mociones de <argset><head>censura </head></argset>contra Barak , pero Ø no logra los 61 votos necesarios para hacer caer al primer ministro . </example>
+        <example file="CESS-CAST-AA/6740_20000710.tbf.xml" nodepath="0.4.1.3.2.2.1.1.1.0.0" sentencenodepath="0">El líder del bloque opositor derechista Likud , Ariel_Sharon , acusó hoy , Lunes , al primer ministro israelí , Ehud_Barak , de estar conduciendo al país a un " proceso peligroso e irreversible " , al presentar en el Parlamento una moción de <argset><head>censura </head></argset>contra el Gobierno por su política de paz . </example>
+        <example file="CESS-CAST-AA/6740_20000710.tbf.xml" nodepath="4.4.1.1.1.1.1.1.1.0.0" sentencenodepath="4">Pese_al duro revés sufrido por el Ejecutivo de coalición de Barak con la dimisión entre ayer y hoy de seis de sus ministros y la consiguiente pérdida de apoyos parlamentarios , no se espera que los partidarios de la moción de <argset><head>censura </head></argset>puedan obtener los 61 votos necesarios para que Ø se apruebe ( la mitad más uno de los escaños parlamentarios ) . </example>
+        <example file="CESS-CAST-P/135_19991201_c.tbf.xml" nodepath="0.1.3.1.1.0" sentencenodepath="0">La película ' La_humanidad ' , retirada en Italia por <argset><specifier>la</specifier><head>censura </head></argset>. </example>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="10.0.0.0" sentencenodepath="10"><argset><head>CENSURA </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">DE LA OPOSICION</argument></argset>. </example>
+        <example file="CESS-CAST-P/6_20010702.tbf.xml" nodepath="4.3.2.0.1.1.2.1.1.1.1.1.1.1.1.0.0" sentencenodepath="4">Ø Lo hizo a remolque del presidente de Iniciativa , Joan_Saura , y después de llevar meses amagando con la presentación de una moción de <argset><head>censura </head></argset>que nunca llega . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="censurar" originlink="verb.censurar.1" wordnetsynset="16:00793932">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/99_20020301.tbf.xml" nodepath="12.3.2.1.1.0" sentencenodepath="12">Gómez-Angulo también quiso ser contundente en <argset><specifier>la</specifier><head>censura </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del esquiador</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="censurar" originlink="verb.censurar.1" wordnetsynset="16:00254803">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="13.3.1.1.1.1.0.0" sentencenodepath="13">La celeridad en tramitar la disolución impedirá al pleno debatir la moción de <argset><head>censura </head></argset>que presentaron el pasado_martes los cuatro partidos de la oposición , al considerar anticonstitucional los comentarios de Mori sobre el emperador y la presunta divinidad de Japón . </example>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="15.2.3.1.1.1.1.0.0" sentencenodepath="15">La oposición tachó las palabras de " indignas " y comprometedoras de la separación entre religión y Estado , y Ø pidió la dimisión de Mori con la moción de <argset><head>censura </head></argset>, al considerarle incapacitado para gobernar el país . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

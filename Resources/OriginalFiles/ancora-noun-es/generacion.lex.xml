@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="generación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="generar" originlink="verb.generar.1" wordnetsynset="16:06196326">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="en_vías_de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="17" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="sn"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c2-2.tbf.xml" nodepath="9.2.2.1.1.1.1.0" sentencenodepath="9">Porque Rosa_Regás , para los chicos de <argset><specifier>mi</specifier><head>generación </head></argset>, era la editora catalana y la novia de Benet . </example>
+        <example file="3LB-CAST/d2-0.tbf.xml" nodepath="7.2.4.2.1.0" sentencenodepath="7">Hoy Ø tenemos al mejor ciclista mundial , Miguel_Indurain , y sin_embargo los cimientos se desmoronan , con <argset><specifier>una</specifier><head>generación </head><reference_modifiers>nueva</reference_modifiers><reference_modifiers>que cuando se acabe nos puede hacer volver a crisis como las del período de 1977 a 1993</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/d2-14.tbf.xml" nodepath="9.1.1.1.2.1.1.1.1.0" sentencenodepath="9">Hubo un grupo que formamos unos cuantos corredores de <argset><specifier>una</specifier><head>generación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">en_vías_de extinción</argument></argset>, llamado " sindicato " por algunos directores que nos veían siempre reunidos en los puntos de encuentro previo a la salida de las tres grandes rondas . </example>
+        <example file="3LB-CAST/d2-15.tbf.xml" nodepath="3.2.1.1.1" sentencenodepath="3">Esta amistad ha ido cesando en <argset><specifier>las</specifier><reference_modifiers>nuevas</reference_modifiers><head>generaciones </head></argset>. </example>
+        <example file="3LB-CAST/dc1-0.tbf.xml" nodepath="8.0.1.0.1" sentencenodepath="8">Tras <argset><reference_modifiers>sucesivas</reference_modifiers><head>generaciones </head></argset>, los individuos de una especie pueden extinguirse o evolucionar a una estirpe mejor adaptada al medio . </example>
+        <example file="3LB-CAST/dc2-6.tbf.xml" nodepath="3.4.1.1.0.1.1.3.3.1.1.1" sentencenodepath="3">Ø Incluso pueden fijar en estos genes la información necesaria para que sus estructuras se reproduzcan y Ø se transmitan a <argset><specifier>las</specifier><reference_modifiers>siguientes</reference_modifiers><head>generaciones </head><reference_modifiers>del microorganismo manipulado</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/r2-1.tbf.xml" nodepath="1.2.1.2.2.3.1.2.0.1.8.1.2.1.1.1" sentencenodepath="1">Atrás había quedado una etapa de la vida de Pilar caracterizada por el trabajo constante y que la llevó de militar en la CNT - " pero cuando Ø era muy joven , - eh ? , porque Ø fui de <argset><specifier>la</specifier><reference_modifiers>última</reference_modifiers><head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">antifranquista</argument></argset>y Ø no bebí en las fuentes comunistas sino en las anarquistas " , Ø dice - a ser considerada la musa ideológica del pujolismo por excelencia . </example>
+        <example file="3LB-CAST/r2-11.tbf.xml" nodepath="9.2.2.4.1.5.3.0.2.1.1" sentencenodepath="9">El presidente cree que en cada momento hay que aplicar una determinada política industrial y que ahora lo que corresponde es una - política industrial activa - , que debería suponer una - industrialización de la economía - , así_como <argset><specifier>la</specifier>- <head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una concepción nacional de la industria instalada en España , aunque no sea de propiedad española</argument>- , </argset>algo que no debe estar reñido con las reglas del libre mercado y de la libre competencia . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="18.1.2.3.4.2.1.1.0" sentencenodepath="18">Para ello , Ø dijo , " hay que mantener fuerte a nuestro ejército " , que por_ahora es " el más fuerte del mundo " y mejorar su capacidad de reacción , y además Ø aseguró que Ø apoyaba la modernización de las armas estratégicas y tácticas , " mientras_que el gobernador Bush propone saltarse <argset><specifier>una</specifier><head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de tecnología</argument></argset>" . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="6.2.4.0.2.1.1.1.1.2.3.1.1.1.1.0" sentencenodepath="6">Loyola_de_Palacio señaló que el fomento de las energías verdes " es clave en el desarrollo europeo en una apuesta por que este desarrollo sea duradero , respetuoso con el medio_ambiente , generador de empleo de calidad y que Ø permita una solidaridad con <argset><specifier>las</specifier><head>generaciones </head><reference_modifiers>futuras</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-A/1925_20001103.tbf.xml" nodepath="0.3.1.1.1.0.1" sentencenodepath="0">La compañía española Telefónica logró , al_igual_que los restantes cinco competidores , una licencia de <argset><reference_modifiers>tercera</reference_modifiers><head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de telefonía móvil</argument><reference_modifiers>( UMTS )</reference_modifiers><reference_modifiers>con dos bandas de frecuencias</reference_modifiers></argset>en la primera parte de la subasta austriaca . </example>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="6.2.1.1" sentencenodepath="6">Con la construcción y lanzamiento del satélite 1C finaliza <argset><specifier>la</specifier><reference_modifiers>primera</reference_modifiers><head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de satélites Hispasat</argument><reference_modifiers>, en la que la participación de la industria española aeroespacial ha sido del 33_por_ciento</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/4901_20001107.tbf.xml" nodepath="4.2.4.1.1.1.1.0.2.3.4.1.0.2.1.0" sentencenodepath="4">Las indemnizaciones fueron anunciadas en la Cámara_de_los_Comunes y posteriormente Ø se reunió con un grupo de ex combatientes a los que Ø expresó que " esto es para mí y <argset><specifier>mi</specifier><head>generación </head></argset>y los más jóvenes una forma pequeña pero importante de decir gracias por su valentía , gracias por lo que Ø hicieron " . </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="6.0.2.1.0.2.1.0.1" sentencenodepath="6">El posible centro que Microsoft estudia desarrollar en Barcelona sería para telefonía móvil de <argset><reference_modifiers>tercera</reference_modifiers><head>generación </head></argset>UMTS y en él podrían colaborar Telefónica y la propia UPC . </example>
+        <example file="CESS-CAST-P/10_20020102.tbf.xml" nodepath="2.3.2.1.1.1.1.0" sentencenodepath="2">El Ejecutivo portugués quería también saludar de esta forma el nacimiento de <argset><specifier>una</specifier><head>generación </head><reference_modifiers>euro</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/122_20010502.tbf.xml" nodepath="3.2.1.1.3.2.0" sentencenodepath="3">La obra presentará a los intelectuales de_principios_de siglo que en 1918 crearon la Colla_de_Sabadell o Grup_La_Mirada <argset>, <specifier>una</specifier>
+            <head>generación </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de escritores con un humor absurdo y provocativo y un ideal de modernidad cosmopolita frente_a la cerrada sociedad sabadellense</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/125_20020202.tbf.xml" nodepath="4.3.1.1.3.2.1.2.1.1.3.1.0.1.1.1.1.0" sentencenodepath="4">La boda de Guillermo_de_Holanda y Máxima_Zorreguieta ha reunido en Amsterdam a los miembros más destacados de la realeza europea , empeñados en mantener una especie de solidaridad monárquica ante las cada vez más evidentes diferencias existentes entre los representantes de <argset><specifier>la</specifier><head>generación </head><reference_modifiers>reinante</reference_modifiers></argset>y sus herederos . </example>
+        <example file="CESS-CAST-P/125_20020202.tbf.xml" nodepath="7.2.5.1.0.1.2.1.0" sentencenodepath="7">Este clima de frialdad , motivado principalmente por la diversidad de origen de las nuevas incorporaciones , se notó en la boda de Haakon y Mette-Marit y Ø se ha puesto de_nuevo de_evidencia en Holanda , donde <argset><specifier>la</specifier><head>generación </head><reference_modifiers>joven</reference_modifiers></argset>parece aburrirse bastante . </example>
+        <example file="CESS-CAST-P/14_20011202.tbf.xml" nodepath="3.2.2.8.5.1.2.1.0" sentencenodepath="3">Umbral no la mentaba en El_Mundo , pero Ø recordaba que a su antecesora , Esperanza_Aguirre , " nunca le hicieron una huelga " , si_bien Ø atribuía la protesta universitaria a que " <argset><specifier>esta</specifier><head>generación </head></argset>necesitaba desvirgarse " contestatariamente . </example>
+        <example file="CESS-CAST-P/176_20010301.tbf.xml" nodepath="3.0.1.3.1.1.1.0.1" sentencenodepath="3">" En estos momentos se están fabricando 25.000 descodificadores de <argset><reference_modifiers>última</reference_modifiers><head>generación </head></argset>, y la comercialización empezará en el segundo semestre del año " , adelantó ayer en Barcelona Pedro_Vignau , director de recursos de Vía_Digital , quien no quiso precisar datos que Ø consideró estratégicos : la inversión en la nueva tecnología y la fórmula de comercialización ( venta o alquiler ) de los nuevos ingenios , diseñados por Open_TV ( compañía norteamericana cuyo software utilizan unos 14 millones de descodificadores en todo el mundo ) . </example>
+        <example file="CESS-CAST-P/26_19990701_a.tbf.xml" nodepath="81.1.1.1.0" sentencenodepath="81">Bueno , pues <argset><specifier>dos</specifier><head>generaciones </head><reference_modifiers>anteriores a la_suya</reference_modifiers></argset>, vuelve a surgir en su familia el payés . </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="122.0.0.1.0" sentencenodepath="122"><argset><specifier>Todas las</specifier><head>generaciones </head></argset>tienen el deseo de cambiar las cosas , pero luego nunca pasa nada . </example>
+        <example file="CESS-CAST-P/69_20000902.tbf.xml" nodepath="0.3.1.1.1.1.1.1.0.1.1.0.1" sentencenodepath="0">Telefónica presentó ayer su candidatura para el concurso de telefonía_móvil de <argset><reference_modifiers>tercera</reference_modifiers><head>generación </head><reference_modifiers>UMTS</reference_modifiers></argset>en Suecia , de la mano del operador finlandés Sonera y el fondo de inversión sueco Industri_Kapital . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="14.3.2.1.1.1.1.1" sentencenodepath="14">" Con el tiempo , ese paso le ha dado otra personalidad a la empresa " , asegura Ø , junto_con las incorporaciones de <argset><specifier>la</specifier><reference_modifiers>segunda</reference_modifiers><head>generación </head></argset>en la empresa familiar . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="17.8.2.2.1.1.1" sentencenodepath="17">" Y siguiendo con el símil , en un par de años Ø estaré ya en la cabina de pasajeros , para dejar paso a <argset><specifier>la</specifier><reference_modifiers>nueva</reference_modifiers><head>generación </head></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="generar" originlink="verb.generar.1" wordnetsynset="16:00546392+16:06196326">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13026_20001117.tbf.xml" nodepath="2.4.1.1.1.0.1" sentencenodepath="2">Los ministros de Defensa de la Unión_Europea ( UE ) celebrarán el próximo lunes en Bruselas una conferencia de <argset>" <head>generación </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de fuerzas</argument>" </argset>, en la que cada socio comunicará formalmente la aportación de su país a la Fuerza militar europea , que contará con más de 60.000 soldados . </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="72.5.1.1.1.1.1.0" sentencenodepath="72">- - ¿ Usted cree que mucha gente de <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>generación </head></argset>, incluidos los Stones , se dedica a vivir del pasado ? - - . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="generar" originlink="verb.generar.1" wordnetsynset="16:cs1+16:06196326">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="7.3.1.1.1.2.4.1.1.2.1.0" sentencenodepath="7">Además , Ø subrayó la necesidad de fomentar la formación ocupacional y , si esta tendencia sigue , recurrir a la política de inmigración " en un buen número de casos " para evitar el " estrangulamiento del crecimiento de ciertas empresas y <argset><specifier>la</specifier><head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nuevos puestos de trabajo</argument>" </argset>. </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="16.1.1.2.1.1.1.1.0.1" sentencenodepath="16">De_acuerdo_con esa hipótesis , la explosión fortuita de un torpedo de <argset><reference_modifiers>nueva</reference_modifiers><head>generación </head></argset>, bautizado con el nombre de " Shkvual " y capaz de alcanzar 360 kilómetros , fue lo que echó a_pique al " Kursk " . </example>
+        <example file="CESS-CAST-P/157_20010201.tbf.xml" nodepath="10.0.1.1.0" sentencenodepath="10">De <argset><specifier>la</specifier><head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la Nueva_Trova_Cubana</argument></argset>ha quedado un Silvio_Rodríguez " que tiene algo de estrella pop pero que mantiene la dignidad política y el pulso del cantautor " . </example>
+        <example file="CESS-CAST-P/176_20010301.tbf.xml" nodepath="0.3.1.1" sentencenodepath="0">Vía_Digital comercializará a_mediados_de año <argset><specifier>la</specifier><reference_modifiers>última</reference_modifiers><head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de descodificadores</argument><reference_modifiers>, cuya principal novedad es la posibilidad de ser utilizados como vídeo : grabarán y reproducirán la señal de TV , en formato digital</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/21_20000701.tbf.xml" nodepath="6.2.3.4.1.1" sentencenodepath="6">Nissan , según Ø dijo , no tiene intención de cerrar la planta de Sunderland , la más productiva de Europa - - con 5.000 trabajadores - - , pero Ø decidirá a finales de año si Ø construye allí <argset><specifier>la</specifier><reference_modifiers>nueva</reference_modifiers><head>generación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de coches Micra</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

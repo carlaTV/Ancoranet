@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="regulación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="regular" originlink="verb.regular.1" wordnetsynset="16:00514820+16:00736489">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="7" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="11.3.1.1.1.5.2.1.1.1.1.1.3.1.1.0.3.1.0.0.0.0" sentencenodepath="11">Por ello , Ø indicó la necesidad de que mediante el diálogo social se afronte ese problema del mercado de trabajo , partiendo de la base de una igualdad de trato entre contratos temporales e indefinidos en lo que se refiere a <argset><head>regulación </head>, indemnización y coste para la empresa </argset>. </example>
+        <example file="3LB-CAST/dc1-13.tbf.xml" nodepath="9.0.1.1.0" sentencenodepath="9">Con <argset><specifier>la</specifier><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la temperatura interna</argument><reference_modifiers>como cometido básico para garantizar su supervivencia</reference_modifiers></argset>, la piel que presentan hoy_día los animales , ya sea gruesa , áspera , fina , delicada , vistosa ; compuesta de pelo , lana , plumas , cerdas , escamas , caparazones , etcétera , no es tan completa ni evolucionada como la del ser humano . </example>
+        <example file="3LB-CAST/dc1-16.tbf.xml" nodepath="3.5.1.1.1.1.0.0" sentencenodepath="3">Considerada como el mayor y más extenso órgano del cuerpo humano , Ø hace posible la adaptación inmediata al frío o al calor mediante sus mecanismos de <argset><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la temperatura</argument></argset>( mayor o menor circulación sanguínea , pigmentación , sudoración , etcétera ) . </example>
+        <example file="3LB-CAST/dc10-2.tbf.xml" nodepath="3.2.1.6.2.1.2.1.0.0" sentencenodepath="3">Ø Es como si , desde el principio , la vida se pusiera sus propios frenos , estableciendo unos sutiles mecanismos de <argset><head>regulación </head></argset>, los virus , que actuarían como factores correctores en esa especie de juego que Ø llamamos equilibrio ecológico . </example>
+        <example file="CESS-CAST-A/10920_20001115.tbf.xml" nodepath="2.0.4.2.1.0" sentencenodepath="2">" Aquellos que no cumplan esta normativa serán juzgados e incluso Ø podrían sufrir un castigo penal " , según <argset><specifier>la</specifier><head>regulación </head><reference_modifiers>aprobada por el primer ministro Zhu_Rongji</reference_modifiers><reference_modifiers>, que entrará en vigor el primero de diciembre</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6498_20000409.tbf.xml" nodepath="4.0.2.1.1" sentencenodepath="4">La CNMV y <argset><specifier>una</specifier><reference_modifiers>posterior</reference_modifiers><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la Sociedad_de_Bolsas</argument></argset>establece , entre otros asuntos , que las compañías que coticen en este segmento estarán sometidas a mayores obligaciones de transparencia que las que actualmente actúan en la bolsa española . </example>
+        <example file="CESS-CAST-P/12_20010302.tbf.xml" nodepath="1.2.1.2.1.0" sentencenodepath="1">Y de_paso , de cómo ha funcionado <argset><specifier>la</specifier><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los mercados liberalizados donde operan esas compañías</argument></argset>. </example>
+        <example file="CESS-CAST-P/21_20000401.tbf.xml" nodepath="0.2.4.1.0" sentencenodepath="0">Lo peor de la pérdida de votos y de escaños de Izquierda_Unida es que ahora los dirigentes han de afrontar <argset><specifier>una</specifier><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de empleo</argument></argset>como si Ø fueran empresarios . </example>
+        <example file="CESS-CAST-P/71_19991201_b.tbf.xml" nodepath="0.2.3.1.0" sentencenodepath="0">CiU impide que el Congreso apruebe <argset><specifier>una</specifier><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las parejas de hecho</argument></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="11.0.0.1.1" sentencenodepath="11"><argset><specifier>La</specifier><reference_modifiers>nueva</reference_modifiers><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los horarios comerciales</argument></argset>amplía de 72 a 90 horas semanales la apertura de los establecimientos ; Ø incrementa de 8 a 12 el número de domingos y festivos en los que se puede abrir ( a_razón_de uno por año a_partir_del 2001 ) , y Ø liberaliza plenamente el régimen para los establecimientos de menos de 300 metros_cuadrados . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="12.0.1.1" sentencenodepath="12"><argset><specifier>La</specifier><reference_modifiers>nueva</reference_modifiers><head>regulación </head></argset>fue aprobada , el Jueves , en el Congreso_de_los_Diputados , con los votos de PP , CC y PNV . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="regular" originlink="verb.regular.1" wordnetsynset="16:00514820+16:00736489">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="2.3.1.2.1.1.2.0" sentencenodepath="2">Portillo se comprometió a revisar los procesos de privatización que realizó su antecesor , Alvaro_Arzú , y garantizar <argset>el efectivo control y <head>regulación </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Estado</argument>
+          </argset>en defensa de los intereses y los derechos de los consumidores . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="4.3.1.1.1.2.1.1.1" sentencenodepath="4">Representantes de las asociaciones de comerciantes de Catalunya expresaron ayer su sentimiento de haber sido " traicionados y defraudados " por el Gobierno del PP tras <argset><specifier>la</specifier><reference_modifiers>nueva</reference_modifiers><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los horarios comerciales</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="regular" originlink="verb.regular.1" wordnetsynset="16:00514820">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4842_20000606.tbf.xml" nodepath="6.3.2.1.1.1.1.1.1.0" sentencenodepath="6">Con representantes de todos los sectores relacionados con esta fuente de riqueza , Don_Felipe conversó acerca_de la escasez de mano de obra , de la necesidad de favorecer <argset><specifier>la</specifier><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los inmigrantes</argument></argset>, y de los problemas que genera la despoblación . </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="3.2.1.1.1.0" sentencenodepath="3">Unos 200 trabajadores de Efe , la agencia estatal de información , están amenazados por <argset><specifier>la</specifier><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de empleo</argument></argset>. </example>
+        <example file="CESS-CAST-P/65_19991001.tbf.xml" nodepath="0.3.1.1.1.1.2.1.0.0" sentencenodepath="0">La nueva ley de datos es en_realidad una reforma de la ley de 1992 de <argset><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del tratamiento automatizado de los datos de carácter personal</argument></argset>. </example>
+        <example file="CESS-CAST-P/6_20010501.tbf.xml" nodepath="1.1.5.1.0" sentencenodepath="1">Les separa el grado de sintonía con el Gobierno en la reforma laboral , que ha contado con un calendario de negociación diseñado con toda la astucia por el Ejecutivo : en Febrero se impuso por ley <argset><specifier>la</specifier><head>regulación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los nuevos contratos</argument></argset>, con la protesta sindical y el silencio de la patronal . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="expediente_de_regulación_de_empleo" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="regular" originlink="verb.regular.1" wordnetsynset="16:00514820">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="18.2.2.1.1.1.1.0.0" sentencenodepath="18">Los periodistas de Efe que han cumplido 57 años están directamente amenazados por el expediente de <argset><head>regulación </head></argset>de empleo . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

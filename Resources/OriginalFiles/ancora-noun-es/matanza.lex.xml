@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="matanza" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="matar" originlink="verb.matar.1" wordnetsynset="16:00145676+16:00808655">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/n1-13.tbf.xml" nodepath="3.3.4.1.0" sentencenodepath="3">- En Birkenau fue donde realmente se consumó <argset><specifier>la</specifier><head>matanza </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">en masa</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3589_20000405.tbf.xml" nodepath="9.1.2.3.1.1.2.0.1.1.1.2.2.0.1.0" sentencenodepath="9">Durante el debate , el ministro de Exteriores volvió a defender los bombardeos de la OTAN contra Serbia y Ø calificó de mitos todas las informaciones que han puesto_en_duda algunas de las operaciones urdidas por el gobierno de Belgrado , como <argset><specifier>la</specifier><head>matanza </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Radzack</argument></argset>o la llamada " operación herradura " , mediante la que el ejército serbio tenía previsto expulsar de la provincia de Kosovo a la población albanesa . </example>
+        <example file="CESS-CAST-P/35_20000202_d.tbf.xml" nodepath="3.4.1.1.1.1.1.4.1.1.1.1.1.0" sentencenodepath="3">Wahid retiró su apoyo a su ministro el lunes , después de que la Comisión_Nacional_sobre_Derechos_Humanos le acusara de estar implicado en <argset><specifier>las</specifier><head>matanzas </head><reference_modifiers>perpetradas por los paramilitares en Timor_Oriental el año pasado , cuando Wiranto era jefe del Estado_Mayor</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

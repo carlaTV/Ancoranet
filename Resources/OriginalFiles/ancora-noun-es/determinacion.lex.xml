@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="determinación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="determinar" originlink="verb.determinar.1" wordnetsynset="16:00105760">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat"/>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="9.3.6.1.0.1.0" sentencenodepath="9">Además , Ø señaló que " ójala , todos estuviesen facilitando la situación con <argset><specifier>la misma</specifier><head>determinación </head></argset>, claridad y conocimiento de las cosas " como él está haciendo . </example>
+        <example file="CESS-CAST-A/16210_20000520.tbf.xml" nodepath="6.3.1.1.1.3.1.1.0" sentencenodepath="6">Fujimori ha rechazado un aplazamiento de la fecha de los próximos comicios al afirmar que no le corresponde tomar <argset><specifier>esa</specifier><head>determinación </head></argset>a ninguno de los candidatos , ni a los observadores , sino al JNE . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="2.7.1.0" sentencenodepath="2">El texto , explicó Ø , " no cumplimenta en gran parte " <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">determinaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la resolución de fecha 20_de_julio_de_1998 por la que se paralizó una parte del plan y suspendió la otra hasta su aprobación definitiva</argument></argset>, por lo que se reitera la decisión adoptada hace más de dos años y sigue vigente el PGOU de 1986 . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="16.2.0.1.0.2.1.0.2.0" sentencenodepath="16">La selección se recuperó de la derrota sufrida un día antes frente a Rusia , y con gran espíritu de <argset>lucha y <head>determinación </head>
+          </argset>Ø logró un triunfo imprescindible . </example>
+        <example file="CESS-CAST-P/34_20010502.tbf.xml" nodepath="2.0.4.1.1.0.2.2.0.2.1.1" sentencenodepath="2">" Sin_duda , se requiere profundizar en aspectos centrales , como la autonomía y <argset><specifier>la</specifier><reference_modifiers>libre</reference_modifiers><head>determinación </head></argset>, los pueblos y comunidades indígenas como sujetos de derecho público , el uso de los recursos naturales como tierras y territorios , por citar algunos " , explicaba el comunicado presidencial que finalmente leyó la coordinadora para el Desarrollo_de_los_Pueblos_Indígenas , Xóchitl_Gálvez , la única funcionaria que había criticado la iniciativa . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="determinar" originlink="verb.determinar.1" wordnetsynset="16:00105760">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="efi">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="3.1.0.1.1.3.3.0.1.0" sentencenodepath="3">Es a la tercera fórmula de la Fundamentación , que integra <argset><specifier>la</specifier><head>determinación </head><reference_modifiers>formal</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la universalizabilidad de las máximas</argument></argset>y la material que obliga a tratar a todo hombre como fin , a la que corresponde la ley fundamental de la Crítica_de_la_razón_práctica , como observa acertadamente Jose_Gomez_Caffarena , puesto_que una y otra apelan a la legislación ( Gesetzgebung ) universal que la Grundlegung había referido al todo de todos los fines , tanto de los seres racionales como fines en sí , cuanto de los propios fines que cada cual puede proponerse , es_decir , al enlace sistemático de los seres racionales en el - reino - ( - desde_luego que solo un ideal - , precisa Kant ) del que cada persona debe obrar como miembro colegislador . </example>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="9.4.1.1.2.1.1.4.1.0" sentencenodepath="9">La mutua exteriorización de lo a_priori y lo empírico aleja aquí a Kant de su verdadero pensamiento de que si Ø hubiera de poner en mis inclinaciones naturales <argset><specifier>la</specifier><head>determinación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de mi voluntad</argument><argument argument="argM" function="cn" thematicrole="efi" type="sp">al mal</argument></argset>, yo no me imputaría mis actos malos puesto_que Ø no soy el autor de mi naturaleza sino_que Ø me la encuentro dada . </example>
+        <example file="CESS-CAST-A/11714_20000314.tbf.xml" nodepath="7.4.1.1.0" sentencenodepath="7">En el marco de esta estrategia marcada por la prudencia , el PP esperará a los movimientos que haga el consejero de Economía , Artur_Mas , desde <argset><specifier>la</specifier><head>determinación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que cualquier apoyo popular dependerá de la " capacidad de diálogo y de llegar a acuerdos " que muestre CiU y de " la aceptación de nuestra capacidad de influencia "</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20070_20000525.tbf.xml" nodepath="15.4.1.1.1.1.0" sentencenodepath="15">En las elecciones del año_2000 , teniendo_en_cuenta que Ø también se celebrarán a_finales_de julio , la recogida de firmas puede ser por_lo_tanto decisiva para <argset><specifier>la</specifier><head>determinación </head><reference_modifiers>final</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las candidaturas</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

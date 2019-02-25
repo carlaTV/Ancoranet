@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="comprensión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="comprender" originlink="verb.comprender.1" wordnetsynset="16:04473430">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="15.3.2.3.4.2.0.2.0" sentencenodepath="15">Antes de reunirse con Ivanov , el canciller cubano declaró que La_Habana estaba dispuesta a discutir el asunto y que Ø sabía que Rusia lo abordaría " con <argset>sinceridad y <head>comprensión </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">hacia la precaria economía de la isla</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/108_20000601_a.tbf.xml" nodepath="3.0.1.3.1.3.1.0" sentencenodepath="3">" Cuando un requerimiento judicial es tan ambiguo que Ø desafía <argset><specifier>toda</specifier><head>comprensión </head></argset>, éste es nulo e inaplicable " , dice el documento de Microsoft presentado al juez . </example>
+        <example file="CESS-CAST-P/16_19990501_b.tbf.xml" nodepath="4.2.0.0.0" sentencenodepath="4">Ø Pedimos <argset><head>comprensión </head>, </argset>y que Ø acepten que Ø no podemos mantener correspondencia o contacto telefónico sobre ellas ni tampoco devolverlas . </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="19.5.2.0.0.0" sentencenodepath="19">" Aquí la gente ha ido junta a la escuela y sus niños han nacido a_la_vez . La tensión es mucho menor que en zonas como Queens o el Bronx . Se ve <argset><head>comprensión </head>, solidaridad y apoyo </argset>" . </example>
+        <example file="CESS-CAST-P/20_19990802.tbf.xml" nodepath="2.3.1.1.0" sentencenodepath="2">El PP y el PSOE critican a Arzalluz por <argset><specifier>la</specifier><head>comprensión </head><reference_modifiers>que demuestra hacia EH</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/20_19991202.tbf.xml" nodepath="11.1.4.5.0.1.0.2.1.0" sentencenodepath="11">Jordi_Pujol quiere contentar a todos , incluso a la familia : " Ø Estoy al_servicio_de Catalunya desde que Ø tenía 16 años . No se puede estar 53 años al_pie_del_cañón sin el apoyo , <argset><specifier>la</specifier><head>comprensión </head></argset>y el afecto de los tuyos , y sin compartir momentos buenos pero también malos " . </example>
+        <example file="CESS-CAST-P/21_20000601_a.tbf.xml" nodepath="3.0.3.0.0" sentencenodepath="3">Y Ø pide <argset><head>comprensión </head></argset>y , pese_a estar molesto , Ø copreside el montaje de fuerza y armas que se organiza en las fuentes de Montjuïc . </example>
+        <example file="CESS-CAST-P/36_19990301.tbf.xml" nodepath="7.4.1.1.1.2.1.1.0.2.0.0.2.0" sentencenodepath="7">" La escuela pública - - dijo Soler - - tiene el objetivo de formar personas cultas , equilibradas y felices para que , a_partir_del <argset>conocimiento y <head>comprensión </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su propia realidad</argument>
+          </argset>, Ø tengan recursos para entender el mundo en que Ø viven , Ø se integren en el mercado laboral y Ø puedan trabajar en la transformación de la sociedad a_partir_del diálogo " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="comprender" originlink="verb.comprender.1" wordnetsynset="16:04473430">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por_parte_de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/56_20000801_a.tbf.xml" nodepath="8.0.2.0.0" sentencenodepath="8">" Ha existido <argset><head>comprensión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por_parte_de las administraciones</argument></argset>, lo que ha facilitado que no se destruyeran unos empleos muy importantes en la zona " , destacó ayer Raül_Navarro , subdelegado del Gobierno en Tarragona , durante la firma del acuerdo que permitirá la reapertura . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

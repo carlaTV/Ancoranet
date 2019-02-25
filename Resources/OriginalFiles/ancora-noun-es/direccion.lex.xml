@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="dirección" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="dirigir" originlink="verb.dirigir.1" wordnetsynset="16:00737011">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="9" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="26" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="48" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="interrogative" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="7" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="7.2.0.4.2.2.1.1.1.1.0" sentencenodepath="7">Ese escándalo provocó amplios cambios de directivos a todos los niveles , desde su director general y presidente Jan_Kollert y otros miembros de <argset><specifier>la</specifier><head>dirección </head></argset>hasta personal medio . </example>
+        <example file="3LB-CAST/d1-12.tbf.xml" nodepath="19.3.4.1.1.0" sentencenodepath="19">En_tanto_que culé , yo debiera desear que esa pareja perdurara años y años en <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del único equipo de fútbol que hace vibrar permanentemente al Barça</argument></argset>. </example>
+        <example file="3LB-CAST/dc10-10.tbf.xml" nodepath="9.0.4.1.1.1.1.0" sentencenodepath="9">Le faltaba por resolver , sin_embargo , el mecanismo de <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dos ruedas</argument></argset>; por eso Ø era todavía un triciclo . </example>
+        <example file="3LB-CAST/dc3-1.tbf.xml" nodepath="4.3.2.1.1.0" sentencenodepath="4">Su carácter quasi-unidimensional les permite conducir electrones a_lo_largo_de <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su eje</argument></argset>. </example>
+        <example file="3LB-CAST/e1-1.tbf.xml" nodepath="8.3.0.1.2.1.1.0" sentencenodepath="8">No faltan , sin_duda , similitudes que apuntan en <argset><specifier>esta</specifier><head>dirección </head></argset>. </example>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="1.3.1.1.2.1.2.1.0.1.1.0" sentencenodepath="1">También es un don de naturaleza el talento para hacer las preguntas certeras , para rastrear la verdad y barruntar en <argset><specifier>qué</specifier><head>dirección </head></argset>Ø ha de buscarse . </example>
+        <example file="CESS-CAST-A/14291_20000518.tbf.xml" nodepath="2.0.3.0.0.2.1.1.0" sentencenodepath="2">" Este portafolio contiene sistemas de economía para <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la empresa</argument></argset>, sistemas de logística , de compras y de manejo de las relaciones con los clientes " dijo a EFE la jefa de información de Telia , Inger_Gunterberg . </example>
+        <example file="CESS-CAST-A/17116_20000722.tbf.xml" nodepath="0.3.1.1.1.1.1.0" sentencenodepath="0">Los obreros de la fábrica de cerveza Adelshoffen_de_Schiltigheim , en un suburbio de Estrasburgo ( este ) , suspendieron hoy el ultimátum dado a <argset><specifier>la</specifier><head>dirección </head></argset>para explotar las bombonas de gas que alimentan la planta si se cierran las instalaciones , a_la_espera_de una reunión el martes próximo . </example>
+        <example file="CESS-CAST-A/17116_20000722.tbf.xml" nodepath="1.0.3.1.1.0" sentencenodepath="1">Este colectivo de trabajadores pretendía cumplir su amenaza mañana , domingo , si <argset><specifier>la</specifier><head>dirección </head></argset>no aceptaba sus exigencias , pero hoy Ø decidieron dejarla en_suspenso a_la_espera_de los resultados de la reunión que las partes celebrarán el 25_de_julio en Estrasburgo . </example>
+        <example file="CESS-CAST-A/17278_20000321.tbf.xml" nodepath="1.3.4.1.0" sentencenodepath="1">En declaraciones a Televisión_Española , Alvarez_Areces dijo que de la reunión que celebrará mañana el Comité_Federal " debe surgir <argset><specifier>una</specifier><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">política</argument><reference_modifiers>que tenga , como gran objetivo , preparar el congreso , que tendría que ser antes del verano , para no dilatar demasiado el proceso</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-A/17278_20000321.tbf.xml" nodepath="4.3.2.1.0" sentencenodepath="4">Hasta la celebración de ese congreso , el jefe del Ejecutivo asturiano considera que debe elegirse <argset><specifier>una</specifier><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">política</argument><reference_modifiers>" que no condicione para_nada el proceso congresual " y que se limite a cumplir el papel de conducir el partido en estos meses</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17451_20000522.tbf.xml" nodepath="10.3.3.1.4.3.2.1.1.1.1.0.1.1.0.0" sentencenodepath="10">Asimismo , Ø subrayó que Pérez_Touriño es el primer candidato a la Presidencia_de_la_Xunta de entre los partidos que concurrirán a las elecciones autonómicas el año que viene , avalado " por un importante número de militantes " y por la mayoría de los miembros del órgano de <argset><head>dirección </head></argset>del PSdeG . </example>
+        <example file="CESS-CAST-A/19134_20000426.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la Televisión_de_Catalunya ( TV3 )</argument></argset>ha asegurado hoy que Ø ha puesto todos los medios para que toda la audiencia española pueda seguir el Gran_Premio_de_España_de_Fórmula_Uno , así_como el resto de carreras de esta temporada . </example>
+        <example file="CESS-CAST-AA/19561_20000830.tbf.xml" nodepath="4.3.1.0.1.2.1.0" sentencenodepath="4">En la reunión de Montevideo se facultó al Grupo_de_la_Cuenca_del_Plata , bajo <argset><specifier>la</specifier><head>dirección </head><reference_modifiers>ejecutiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Centro_Panamericano_Especializado_en_Fiebre_Aftosa ( PANAFTOSA )</argument></argset>, a que Ø ejecute los estudios e investigaciones necesarios para definir integralmente las áreas de frontera , " en los aspectos que inciden en la situación de riesgo epidemiológico " y " la proposición de programas especiales acordes a esa caracterización " . </example>
+        <example file="CESS-CAST-AA/21196_20000129.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>dirección </head><reference_modifiers>regional</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del polémico partido</argument></argset>fue aún más original al presentar con_motivo_del homenaje una nueva serie de artículos deportivos con el eslogan " Powered_by_Joerg " , que llevan como emblema una zarpa de oso . </example>
+        <example file="CESS-CAST-AA/25091_20000929.tbf.xml" nodepath="1.2.2.1.2.0" sentencenodepath="1">Frutos , en declaraciones a Antena_3 recogidas por EFE , afirmó además que " el hiperliderazgo es malo cuando la situación del partido es negativa " , y Ø abogó por <argset>" <specifier>una</specifier>
+            <head>dirección </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="s.a">colectiva y colegiada</argument>
+            <argument argument="argM" function="cn" thematicrole="fin" type="sp">para salir de este hiperliderazgo de muchos años</argument>" </argset>. </example>
+        <example file="CESS-CAST-AA/25330_20000331.tbf.xml" nodepath="3.3.5.1.1.0" sentencenodepath="3">En este sentido , Ø aseguró que desde hoy Ø propondrá " a <argset><specifier>las</specifier><head>direcciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los partidos políticos de la izquierda plural</argument></argset>debatir sobre el futuro de los parisienses con los militantes Verdes , comunistas , Movimiento_de_los_Ciudadanos y Radicales_de_Izquierda " . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="10.3.5.4.2.2.1.0" sentencenodepath="10">En un desayuno del Club_Diálogos_para_la_Democracia , Egibar señaló que una de las claves para salir de la situación actual es saber si la izquierda abertzale consigue tener una " personalidad propia " al_margen_de ETA , ya_que en el momento actual HB " está missing " y es la banda terrorista quien ostenta <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">política</argument></argset>dentro del Movimiento_de_Liberación_Nacional_Vasco ( MLNV ) . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="2.3.1.1.0" sentencenodepath="2">El jefe del partido laborista , Thorbjorn_Jagland , convocó hoy a <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del partido</argument></argset>para " decidir si Ø asumimos la tarea " , aunque parece seguro que los laboristas , el mayor partido del Storting , gobernarán en solitario con sus 65 diputados . </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="4.0.0.1.1.1.0" sentencenodepath="4">Fuentes de <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del PLD</argument></argset>cuestionaron también la credibilidad de los sondeos de " algunas firmas encuestadoras norteamericanas " , cuyos vaticinios " nunca " se han correspondido con la realidad y que acostumbran a manipular los resultados de sus investigaciones , " para favorecer a determinados sectores políticos del país " . </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="6.2.3.1.1.1.4.0.1.1.2.2.1.1.1" sentencenodepath="6">Núñez responsabilizó a los medios de comunicación , con la dureza de sus críticas sistemáticas a Van_Gaal , de la respuesta negativa que han tenido los socios del Barça , y Ø mantiene su fe en el entrenador , al que Ø cree capaz de remontar la situación adversa y reconducir al equipo hacia <argset><specifier>la</specifier><reference_modifiers>buena</reference_modifiers><head>dirección </head></argset>. </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="7.3.1.1.0" sentencenodepath="7">La convicción que le Ø imprimió al Arsenal en el descanso ; la forma de cambiar su ubicación en el campo adelantando sus líneas ; la contundencia física en los duelos individuales o la presión ejercida sobre la salida del balón de los defensas del Barça hablaron muy bien de <argset><specifier>la</specifier><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Wenger</argument></argset>. </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="8.0.1.2.0.1.1.0.0" sentencenodepath="8">Unos han ejercido la jefatura de delegaciones en el extranjero , otros han desempeñado puestos de <argset><head>dirección </head></argset>en nuestro país informando con rigor y objetividad . </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="5.4.1.1.0.1.1.1.0.2.3.0.1.1.0" sentencenodepath="5">Con la excepción de los islamistas , todas las fuerzas políticas turcas , desde la derecha extrema hasta la izquierda radical , se sienten heredadas del kemalismo , es_decir , del golpe militar que en el primer tercio de este siglo acabó con el viejo y decadente imperio islámico y bajo <argset><specifier>la</specifier><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los propios militares</argument></argset>se propuso convertir a la vieja Turquía en un país laico , moderno y centralizado por la vía del autoritarismo . </example>
+        <example file="CESS-CAST-P/120_20000102.tbf.xml" nodepath="9.0.1.1.0" sentencenodepath="9">Bajo <argset><specifier>la</specifier><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Bertrand_de_Billy</argument></argset>, la función dominada por la excepcional Anderson tuvo en Josep_Bros , Edgardo , otro brillante jalón . </example>
+        <example file="CESS-CAST-P/121_20020202.tbf.xml" nodepath="1.5.2.1.0" sentencenodepath="1">A tan compleja tarea se entregan con un guión bien pautado , una interpretación ajustada de John_Cusack y Kate_Beckinsale y <argset><specifier>una</specifier><head>dirección </head><reference_modifiers>en exceso fría</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Peter_Chelson</argument></argset>. </example>
+        <example file="CESS-CAST-P/130_19990701.tbf.xml" nodepath="0.2.1.1.0" sentencenodepath="0">Josep_Puigbó , editor del Telenotícies_migdia de TV-3 , noticiario que Ø copresenta con Montse_Jené , está negociando con <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Televisió_de_Catalunya</argument></argset>su salida de los TN para dedicarse de_lleno a la cadena de radio Ona_Catalana , de la que Ø es uno de sus directivos . </example>
+        <example file="CESS-CAST-P/135_19991201_a.tbf.xml" nodepath="5.0.3.1.0" sentencenodepath="5">Ahora , sin tocar una coma , asume <argset><specifier>la</specifier><head>dirección </head></argset>Carlo_Battistoni : " Si cambia algo Ø es por culpa nuestra " , explicó , humilde , el asistente de dirección durante décadas de Strehler , fallecido hace dos años . </example>
+        <example file="CESS-CAST-P/135_19991201_a.tbf.xml" nodepath="5.1.4.1.1.1.0.0" sentencenodepath="5">Ahora , sin tocar una coma , asume la dirección Carlo_Battistoni : " Si cambia algo Ø es por culpa nuestra " , explicó , humilde , el asistente de <argset><head>dirección </head></argset>durante décadas de Strehler , fallecido hace dos años . </example>
+        <example file="CESS-CAST-P/136_20010102_a.tbf.xml" nodepath="1.4.1.2.1.1.3.3.1.1.0" sentencenodepath="1">Cien años después , Viena sigue ofreciendo al mundo una doble imagen : el alegre concierto de Año_Nuevo , tocado por una de las mejores orquestas bajo <argset><specifier>la</specifier><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de un vigoroso Nikolaus_Harnoncourt</argument></argset>, y la tristeza de un siglo que empieza con los mismos temores e injusticias que el anterior . </example>
+        <example file="CESS-CAST-P/141_19991001.tbf.xml" nodepath="18.0.0.1.1.1.1.1.0" sentencenodepath="18">Entre sus ídolos de <argset><specifier>la</specifier><head>dirección </head></argset>, Ø cita en primer lugar a Carlos_Kleiber , junto_a Karajan , Mehta , Maazel y Barenboim : " Kleiber tiene fama de excéntrico , pero Ø lo encuentro genial . Ø Dirige poquísimo . Por eso Ø tiene tiempo para preparar a_fondo sus conciertos " . </example>
+        <example file="CESS-CAST-P/143_20010302.tbf.xml" nodepath="2.0.4.2.1.1" sentencenodepath="2">Ø Controló el partido desde el inicio , gracias_a <argset><specifier>la</specifier><reference_modifiers>inteligente</reference_modifiers><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Djordjevic</argument></argset>, y Ø se ganó la posibilidad en este play-off de luchar por entrar en las semifinales , para las que ya están clasificados el Tau_Vitoria y el Kinder_Bolonia . </example>
+        <example file="CESS-CAST-P/15_19990202.tbf.xml" nodepath="8.1.1.0" sentencenodepath="8">Cuando Ø se consigue , <argset><specifier>la</specifier><head>dirección </head></argset>queda muy acreditada . </example>
+        <example file="CESS-CAST-P/167_20010202.tbf.xml" nodepath="4.3.1.2.3.1.2.1.0" sentencenodepath="4">El público que asistió al estreno oficial el Martes acogió con discreción la obra de Sanchis_Sinisterra , que cuenta con la escenografía de Montse_Amenós y <argset><specifier>la</specifier><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Daniel_Bohr</argument></argset>. </example>
+        <example file="CESS-CAST-P/190_20011002.tbf.xml" nodepath="9.2.0.1.0" sentencenodepath="9">Los guiones de Jet_lag son de Cesc_Gay y <argset><specifier>la</specifier><head>dirección </head></argset>corre a_cargo_de Jordi_Frades . </example>
+        <example file="CESS-CAST-P/21_20000701.tbf.xml" nodepath="12.3.1.1.1.1.0" sentencenodepath="12">El líder de la oposición conservadora , William_Hague , radicalmente opuesto al euro , quiere hacer del contencioso el tema central de la campaña electoral del próximo año , algo que <argset><specifier>la</specifier><head>dirección </head><reference_modifiers>laborista</reference_modifiers></argset>desea evitar . </example>
+        <example file="CESS-CAST-P/31_20000802.tbf.xml" nodepath="2.4.1.1.1.1.1.1.2.1.0" sentencenodepath="2">Redondo se movió así en el filo de la postura que mantiene <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su partido</argument></argset>en este asunto , ya_que el PSOE , contrariamente al PP , ha decidido no exigir un adelanto electoral en Euskadi . </example>
+        <example file="CESS-CAST-P/35_19991101.tbf.xml" nodepath="4.0.0.1.2.3.1.1.1.1.1.1.0" sentencenodepath="4">Las voces críticas que se alzaron contra la estrategia diseñada por <argset><specifier>la</specifier><head>dirección </head></argset>tomaron entonces el acuerdo de plantar_cara en el congreso del partido y el pasado Sábado Ø se presentaron en_público , con nombres y apellidos , durante una rueda de prensa celebrada en la capital vizcaína . </example>
+        <example file="CESS-CAST-P/35_20000202_a.tbf.xml" nodepath="1.3.0.2.1.1.0" sentencenodepath="1">El ex asesor fiscal de la Unión_Cristianodemócrata ( CDU ) y cerebro de la financiación irregular del ex canciller Helmut_Kohl , Horst_Weyrauch , abrió también cuentas secretas para <argset><specifier>la</specifier><head>dirección </head><reference_modifiers>federal</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del partido cristianodemócrata ( CDU )</argument></argset>. </example>
+        <example file="CESS-CAST-P/35_20000202_a.tbf.xml" nodepath="5.4.1.1.0" sentencenodepath="5">Sólo entre 1991 y 1992 Ø estuvo siete veces por_cuenta_de <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la CDU</argument></argset>en Zúrich y Vaduz . </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="0.3.1.3.1.2.1.1.0" sentencenodepath="0">El presidente del PP de Catalunya pone rumbo al centro catalanista afirmando que el noveno congreso del partido , que se celebrará los próximos días 16 y 17 en Barcelona , reforzará la independencia de la formación respecto_a <argset><specifier>la</specifier><head>dirección </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Madrid</argument></argset>. </example>
+        <example file="CESS-CAST-P/37_20000902.tbf.xml" nodepath="6.1.1.0" sentencenodepath="6">En la reunión de la ejecutiva socialista , que ayer se centró en preparar el curso político , <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del partido</argument></argset>estuvo de_acuerdo en la necesidad de plantear como prioridad la oferta de un pacto local catalán , y que éste se articule en_paralelo al que impulsa el Gobierno central . </example>
+        <example file="CESS-CAST-P/38_19990902_a.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">El candidato socialista , a_través_de su oficina de campaña , y el PSC han reclamado en las últimas semanas a <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de TV-3</argument></argset>que Ø corrija su política informativa por considerar que Ø promociona de forma " sistemática " al president y Ø margina al resto de aspirantes a la presidencia de la Generalitat . </example>
+        <example file="CESS-CAST-P/44_20000202.tbf.xml" nodepath="2.2.2.3.3.2.1.0.3.1.0" sentencenodepath="2">Pérez quería ratificar así el triunfo de su línea colaboracionista con los socialistas y , sobre_todo , demostrar al sector más ortodoxo del PCE de Madrid que su línea es la válida y Ø es la que ahora apoya <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del PCE y de IU</argument></argset>. </example>
+        <example file="CESS-CAST-P/51_20000402.tbf.xml" nodepath="7.3.4.0.1.1.1.1.2.1.0" sentencenodepath="7">Algunos militantes lamentaron que , en una decisión sin precedentes , se hubiera declarado secreta la parte del consejo en la que se abordó este tema porque , a su juicio , Ø va en_contra de la transparecencia de la que hace_gala <argset><specifier>la</specifier><head>dirección </head></argset>. </example>
+        <example file="CESS-CAST-P/54_20011101.tbf.xml" nodepath="4.2.5.4.1.1.1.0" sentencenodepath="4">Las mismas fuentes precisaron que tanto Galobart como Pastor seguirán ocupándose , respectivamente , de la banca corporativa y personal y de la banca de inversión , aunque Ø estarán sometidos a <argset><specifier>la</specifier><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Atkins</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20010102.tbf.xml" nodepath="1.0.4.1.1.0" sentencenodepath="1">ERC , además , incorporará a mujeres en <argset><specifier>la</specifier><head>dirección </head></argset>y Ø creará la figura del portavoz del partido . </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="14.0.1.1.1.1.0" sentencenodepath="14">La versión de <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del metro</argument></argset>es bastante más suave . </example>
+        <example file="CESS-CAST-P/66_20011202.tbf.xml" nodepath="16.0.0.1.1.1.0" sentencenodepath="16">Fuentes de <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del establecimiento</argument></argset>desconocían ayer los cambios que se habían producido en la propiedad del inmueble . </example>
+        <example file="CESS-CAST-P/69_19991001.tbf.xml" nodepath="3.0.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Instituto_Pau_Vila , donde el adolescente estudia cuarto curso de ESO ,</argument></argset>condenó ayer el suceso y Ø mostró su preocupación por la proliferación de " ataques más o menos graves " a jóvenes . </example>
+        <example file="CESS-CAST-P/69_20010201_c.tbf.xml" nodepath="3.1.1.0" sentencenodepath="3">Para este año , <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del centro</argument></argset>espera 14 millones de visitantes . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="15.2.1.0" sentencenodepath="15">Sus hijas copan <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de exportación</argument></argset>- - las ventas al exterior suponen más de la mitad de la facturación - - y la gerencia . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="23.0.1.1.1.1.0.0" sentencenodepath="23">Sobre su estilo de <argset><head>dirección </head></argset>, Ø tiene claro que al empresario se le reconoce " por su capacidad para crear equipos " . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="19.4.0.1.0" sentencenodepath="19">Además_de la distracción del conductor , el coche , en_lugar_de frenar , aceleró , se reventó una rueda del vehículo y <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de éste</argument></argset>resultó afectada . </example>
+        <example file="CESS-CAST-P/79_20020401.tbf.xml" nodepath="1.4.0.1.2.3.4.2.1.0.0" sentencenodepath="1">El próximo 2_de_mayo Ø estrenará en el Romea Defensa_de_dama , un drama sobre las mujeres maltratadas , escrito por Joaquín_Hinojosa e Isabel_Carmona , que ahora se representa , junto_con Juan_José_Otegui y Antonio_Valero , y con <argset><head>dirección </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de José_Luis_Gómez</argument></argset>, en el Teatro_de_La_Abadía de Madrid . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>La</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la compañía</argument></argset>explicó que su intención es " negociar con los representantes sindicales locales , conforme_a la legislación en vigor en cada país " , para reducir " al máximo posible las consecuencias sociales " de los despidos . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="7.3.2.1.0" sentencenodepath="7">El plan de ajuste es la única salida posible , según <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ABB_Alstom_Power</argument></argset>, a la sobrecapacidad , los precios a la baja y a la concentración de la producción en Europa cuando los mercados están fuera del continente . </example>
+        <example file="CESS-CAST-P/93_20010602.tbf.xml" nodepath="6.3.2.1.0.4.1.1.0" sentencenodepath="6">Un portavoz del sindicato criticó que los policías destacados en el aeropuerto presenciaron todos los actos vandálicos , " pero Ø no intervinieron " , por lo que Ø presentaron una queja ante <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de El_Prat</argument></argset>. </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="7.4.5.2.1.3.1.1.1.0" sentencenodepath="7">CCOO también mostró su disposición a flexibilizar el horario laboral de_forma_que se abran las oficinas por las tardes - - iniciativa que Ø consiguió pactar con <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Deutsche_Bank</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en España</argument></argset>- - . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="dirigir" originlink="verb.dirigir.1" wordnetsynset="16:00734610">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/57_20000401_f.tbf.xml" nodepath="1.3.1.1.1.1.1.1.2.1.1.0" sentencenodepath="1">El presidente del Partido_Andalucista declaró ayer su deseo de integrar en una sola candidatura para <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su formación</argument></argset>a los tres sectores que coexisten en la misma : el oficial , encabezado por él mismo ; el renovador , dirigido por Julián_Alvarez , alcalde de Ecija , y el regeneracionista , capitaneado por Mar_Calderón y Pedro_Pacheco . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="dirigir" originlink="verb.dirigir.1" wordnetsynset="16:00734610+16:06200783+16:06201293+16:00737011">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="6.0.1.1" sentencenodepath="6"><argset><specifier>La</specifier><reference_modifiers>nueva</reference_modifiers><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del banco</argument></argset>está trabajando en recuperar el prestigio de la institución debido_al escándalo por la violación de los límites de crédito en sus negocios con las empresas austriacas C._L._Tradung y otras , que supusieron pérdidas al banco de unos 200 millones de dólares el año_pasado . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="8.3.1.2.1.1.2.2.1.2.1.0.0" sentencenodepath="8">Por_otro_lado , el PSOE celebró la Primera reunión de la Comisión_Gestora , el órgano de 15 miembros - nueve hombres y seis mujeres - que forma el órgano provisional de <argset><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del partido</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20809_20000428.tbf.xml" nodepath="1.0.0.0.1.3.1.0" sentencenodepath="1">Eraso , que asumió <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Caja_Cantabria</argument></argset>el 30_de_diciembre , en sustitución de José_María_Pérez_Alvarez , dio a conocer a la asamblea general de la entidad los resultados correspondientes al ejercicio pasado y Ø anunció los planes que su equipo tiene en mente para reorientar su actividad entre este año y 2001 . </example>
+        <example file="CESS-CAST-P/141_19990302.tbf.xml" nodepath="4.2.2.2.0.2.1.1.0" sentencenodepath="4">Jordi_González , director y presentador del programa , justificó ayer plenamente la decisión de permitir que se cumpliera la gran ilusión de Gorka y Ø afirmó no haber recibido crítica alguna de <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de TV-3</argument></argset>por haber accedido a satisfacer un capricho tan peculiar con el dinero de una tele pública . </example>
+        <example file="CESS-CAST-P/20_19990802.tbf.xml" nodepath="6.3.1.0.1.1.3.3.1.1.0" sentencenodepath="6">Esta nueva acción de los violentos se produjo pocas horas después de que el presidente del PNV , Xabier_Arzalluz , atribuyera la responsabilidad de la violencia callejera a grupos incontrolados y Ø reafirmase su voto de confianza en <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la coalición aberzale Euskal_Herritarrok ( EH ) , la marca electoral de HB</argument><reference_modifiers>, de la que dijo que está haciendo todo lo posible por acabar con la violencia en el País_Vasco</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/25_19991202.tbf.xml" nodepath="12.0.1.1.0" sentencenodepath="12">Si <argset><specifier>la</specifier><head>dirección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de EL_PERIODICO</argument></argset>decidiese prescindir de mis servicios , Ø estoy seguro de que Ø no me ofrecería ni un duro por mi silencio . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="dirigir" originlink="verb.dirigir.2" wordnetsynset="16:04698475+16:06709272+16:06263815">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="7.2.5.3.1.1.0" sentencenodepath="7">Ø Ha probado nuevas relaciones de la caja de cambios y con el problema que representan los neumáticos , hasta mañana Ø no podrá comprobar si todas las mejoras introducidas marchan en <argset><specifier>la</specifier><head>dirección </head><reference_modifiers>correcta</reference_modifiers></argset>para volver a situarse entre los diez primeros en la formación de salida . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="6.2.1.2.2.1.0.0" sentencenodepath="6">Alrededor del minuto 24 , un centro inocuo tras un tiro de esquina corto por la izquierda sobre el área universitaria lo ganó Pereyra por arriba de cabeza , pero medio de_espaldas al pórtico y sin precisión ; para su fortuna , el balón dio en el pecho de Rafael_Olarra , Ø cambió de <argset><head>dirección </head></argset>y Ø se introdujo en el pórtico de Vargas , que sólo atinó a mirar . </example>
+        <example file="CESS-CAST-AA/7327_20000209.tbf.xml" nodepath="4.0.3.1.0" sentencenodepath="4">Collor , que se afilió al minúsculo Partido_Renovador_Trabalhista_Brasileiro ( PRTB ) , presentó como su domicilio <argset><specifier>la</specifier><head>dirección </head><reference_modifiers>de un amigo suyo</reference_modifiers></argset>y , según su abogada , Regina_Prado_Manssur , Ø entregó como pruebas la correspondencia recibida , los recibos de servicios prestados y pasajes aéreos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="5" lexicalized="no" originlemma="dirigir" originlink="verb.dirigir.3" wordnetsynset="16:06389665+16:06200783">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="1.2.4.1.1.0" sentencenodepath="1">La planaridad de las moléculas hace que Ø puedan aproximarse mucho en <argset><specifier>la</specifier><head>dirección </head><reference_modifiers>perpendicular a su plano molecular</reference_modifiers></argset>, tanto en el apilamiento segregado de moléculas de TNCQ como en la columna paralela de moléculas de TTF , a_lo_largo_de cuyos ejes se produce el movimiento electrónico responsable de la conductividad . </example>
+        <example file="CESS-CAST-P/187_20010401.tbf.xml" nodepath="5.4.2.0.2.1.2.1.1.0" sentencenodepath="5">El alud de contactos obligó a los organizadores a retrasar durante una hora el concierto anunciado , lo cual multiplicó las protestas e insultos que llovieron sobre <argset><specifier>la</specifier><head>dirección </head><reference_modifiers>electrónica</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del portal</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="6" lexicalized="no" originlemma="dirigir" originlink="verb.dirigir.4" wordnetsynset="16:04698475+16:06389665">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg4" foundincorporated="yes" thematicrole="des"/>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/n1-8.tbf.xml" nodepath="3.3.1.1.4.0.3.1.0.0" sentencenodepath="3">Sin_embargo , nadie habla de un pequeño grupo de pioneros , unos 250.000 , que ha cruzado la frontera en <argset><head>dirección </head><reference_modifiers>contraria</reference_modifiers></argset>, que ha marchado al - salvaje Este - , como se dice medio en_serio medio en_broma . </example>
+        <example file="CESS-CAST-A/16182_20001121.tbf.xml" nodepath="3.2.2.3.5.1.1.0" sentencenodepath="3">El técnico barcelonista ha asegurado que la visita de Gaspart ha contribuido a " sumar " , y Ø ha argumentado que el encuentro con el presidente significa que en el Barcelona " todos van en <argset><specifier>la misma</specifier><head>dirección </head></argset>" . </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="8.2.2.4.1.1.0" sentencenodepath="8">Ivanov tampoco se refirió directamente a la cuestión de la deuda cubana , aunque Ø expresó que la profundización y ampliación ( de las relaciones La_Habana-Moscú ) responde a los intereses de Rusia y Ø aseguró que " se va a continuar en <argset><specifier>esa</specifier><head>dirección </head></argset>" . </example>
+        <example file="CESS-CAST-P/108_20000301_a.tbf.xml" nodepath="4.4.1.1.0" sentencenodepath="4">Al_menos , hace un año , los camiones circulaban en <argset><specifier>la misma</specifier><head>dirección </head></argset>. </example>
+        <example file="CESS-CAST-P/121_20020202.tbf.xml" nodepath="5.2.1.2.0" sentencenodepath="5">Ø Escribe <argset>su nombre y <head argument="arg4" thematicrole="des">dirección </head>
+          </argset>en la primera página de un ejemplar de El_amor_en_los_tiempos_del_cólera , la novela de García_Márquez , diciéndole a Cusack que Ø lo venderá en una librería de_segunda_mano . </example>
+        <example file="CESS-CAST-P/46_20010802.tbf.xml" nodepath="16.3.2.1.2.1.1.0" sentencenodepath="16">Para Wallander , esto es " una tendencia a largo plazo y en <argset><specifier>todas las</specifier><head>direcciones </head></argset>" . </example>
+        <example file="CESS-CAST-P/83_19990701.tbf.xml" nodepath="0.0.0.2.1.1.1.1.4.1.1.0" sentencenodepath="0">Voces de un ayer que marcó época y estrellas de las ondas de hoy , políticos de ese centro que Ø se disputan desde <argset><specifier>todas</specifier><head>direcciones </head></argset>, deportistas , artistas y altos ejecutivos de medios de comunicación se reunieron el Martes por la noche , en las Reales_Atarazanas , para celebrar el 50º aniversario de Radio_Nacional_de_España en Catalunya . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

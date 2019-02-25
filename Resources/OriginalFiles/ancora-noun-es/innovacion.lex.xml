@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="innovación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="innovar" originlink="verb.innovar.1" wordnetsynset="16:02865563">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="3.3.1.3.1.1.2.1.2.1.1.0" sentencenodepath="3">La inversión en investigación básica es el camino para el crecimiento y la prosperidad económica , afirmaron hoy empresarios , el embajador de EEUU y el director de investigación de la Comunidad_de_Madrid , quienes abogaron por elevar la " cultura científica " de los ciudadanos y la " cultura de <argset><specifier>la</specifier><head>innovación </head></argset>" de los empresarios . </example>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="4.3.1.1.2.1.0.1.1.0.0" sentencenodepath="4">Durante la presentación del libro " La_prosperidad_por_medio_de_la_investigación_._La_investigación_básica_en_EEUU " , editado por la Comunidad_de_Madrid , el secretario general de la Confederación_Empresarial_de_Madrid-CEOE ( CEIM ) , Alejandro_Couceiro , abogó por la formación de los investigadores en temas de <argset><head>innovación </head><reference_modifiers>tecnológica</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="5.3.3.2.1.1.0.1.1.1.0" sentencenodepath="5">Tras indicar que la inversión media en investigación en la Unión_Europea se sitúa en el 1,8_por_ciento del PIB , frente_al 2,8_por_ciento en Japón y EEUU , Couceiro dijo que España está en " el buen camino " y se está creando un entorno propicio para <argset><specifier>la</specifier><head>innovación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">empresarial</argument></argset>. </example>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="6.4.2.1.1.3.1.1.1.1.4.0.0" sentencenodepath="6">En este sentido Ø se refirió a la reciente creación del Ministerio_de_Ciencia_y_Tecnología y a las primeras declaraciones de su titular , Anna_Birulés , sobre el impulso de la investigación , desarrollo e <argset><head>innovación </head></argset>. </example>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="11.2.1.2.4.1.0.0" sentencenodepath="11">Este documento , que ha tomado como referencia la Comunidad_de_Madrid , hace_hincapié en que los retornos económicos de las inversiones en investigación básica son " muy elevados " , y que " el conocimiento básico tiende a ser explotado en <argset><head>innovaciones </head><reference_modifiers>que producen sustanciales beneficios durante un largo periodo</reference_modifiers></argset>" . </example>
+        <example file="3LB-CAST/a1-6.tbf.xml" nodepath="11.2.1.1.1.1.0" sentencenodepath="11">Hablar del español de América como un subdialecto del andaluz no deja de ser excesivo , por_más_que haya muchísimos rasgos andaluces en el español de América , cuya presencia cada vez se siente más amplia , pero habrá que pensar que si <argset><specifier>las</specifier><head>innovaciones </head></argset>salen de una base andaluza , la historia deberá explicarnos la evolución a_partir_de ellas . </example>
+        <example file="3LB-CAST/d1-9.tbf.xml" nodepath="7.4.3.1.0" sentencenodepath="7">En otros casos Ø se puede criticar porque Ø es <argset><specifier>una</specifier><head>innovación </head><reference_modifiers>que no están acostumbrados a ver</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="1.0.3.0.2.0" sentencenodepath="1">Según ellos , el historicismo aporta <argset>creatividad e <head>innovación </head>
+          </argset>a las sociedades modernas : el determinismo histórico frena la evolución espontánea y creadora de las sociedades , cuyo desarrollo no es impuesto por el pasado sino_que se va conformando según las necesidades culturales - en su más amplio sentido - de cada sociedad en cada momento . </example>
+        <example file="3LB-CAST/e2-2.tbf.xml" nodepath="2.0.4.2.1.1.1.1.1.0" sentencenodepath="2">La diversidad de las culturas que están en contacto se proyecta hacia el futuro , especialmente tras la creación por <argset><specifier>las</specifier><head>innovaciones </head><argument argument="argM" function="cn" thematicrole="adv" type="s.a">tecnológicas</argument></argset>de los más avanzados medios de comunicación : las normas simbólicas particulares segregadas por los mass_media han planteado una cultura que oscila entre la divulgación de la cultura - culta - y una cultura en el sentido antropológico de la palabra , esto_es , definida no_tanto por parámetros tradicionalmente elitistas como por las necesidades o demandas culturales de las sociedades actuales . </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="13.2.5.1.2.2.4.1.0" sentencenodepath="13">" España está mejor que hace cuatro años , Ø es innegable " y , por eso , concluyó Aznar , el PP ofrece , " con seguridad y progreso " , una próxima legislatura " del empleo , la educación y <argset><specifier>la</specifier><head>innovación </head></argset>" para que " nuestro país dé un salto fundamental " . </example>
+        <example file="CESS-CAST-P/68_19990302.tbf.xml" nodepath="2.5.1.3.2.1.1.0" sentencenodepath="2">Durante una conferencia en el foro Tribuna_de_Barcelona , Rodés apeló ayer a los gestores de la universidad y la empresa para que Ø , respectivamente , acaben con el " sistema anacrónico y endogámico " y Ø apuesten por <argset><specifier>la</specifier><head>innovación </head></argset>para " sobrevivir " . </example>
+        <example file="CESS-CAST-P/68_19990302.tbf.xml" nodepath="8.3.4.2.1.2.1.0.0" sentencenodepath="8">En_cuanto_al sector industrial , Ø dijo : " Las empresas sólo piensan en el ahora , pero Ø olvidan que no invertir en <argset><head>innovación </head></argset>puede suponer cerrar en un futuro " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

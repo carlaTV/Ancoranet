@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="imaginación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="imaginar" originlink="verb.imaginar.1" wordnetsynset="16:04356524">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-2.tbf.xml" nodepath="5.0.3.1.1.3.1.1.0" sentencenodepath="5">El usuario puede generar en estos las criaturas que le vengan a <argset><specifier>la</specifier><head>imaginación </head></argset>, y llevar_a_cabo con ellas fascinantes experimentos . </example>
+        <example file="CESS-CAST-P/124_20000102.tbf.xml" nodepath="3.2.1.1.1.1.0" sentencenodepath="3">Tres conciertos singulares en un mismo año han supuesto un reto a <argset><specifier>la</specifier><head>imaginación </head></argset>que Bonet resolvió apelando al oficio , a su exuberancia vocal y a su proverbial sensibilidad transcultural . </example>
+        <example file="CESS-CAST-P/132_20010102.tbf.xml" nodepath="4.2.0.1.2.2.0.1.0.1.1.1.1.0.0" sentencenodepath="4">El montaje de Nats_Nus resulta irregular , con fragmentos de acierto y otros denunciables por <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>escasa</reference_modifiers><head>imaginación </head>y realización </argset>. </example>
+        <example file="CESS-CAST-P/135_19981202.tbf.xml" nodepath="7.4.1.1.1.2.0.1.1.0.0.1.0.0.0.0" sentencenodepath="7">La estupenda vis cómica de Txema y el savoir_faire que ambos intérpretes demuestran a la hora de involucrar a un público a_veces demasiado tímido sin ejercer la violencia psicológica ni llegar a incomodarlo , constituyen , sin_duda , el gran atractivo - - y también el gran riesgo - - de un espectáculo cuyo grado de diversión es proporcional al de <argset><head>imaginación </head>y participación de los espectadores </argset>. </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="13.4.3.1.1.2.1.0.0" sentencenodepath="13">Si Ø se está refiriendo a la campaña electoral , Ø sólo puedo decirle que Ø estamos haciendo un esfuerzo de creatividad , de <argset><head>imaginación </head></argset>, con_objeto_de transmitir la realidad de un cambio . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="34.1.3.1.1.0" sentencenodepath="34">El director de campaña sabe o Ø debe saber que es decisivo estimular <argset><specifier>la</specifier><head>imaginación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de sus colaboradores</argument></argset>. </example>
+        <example file="CESS-CAST-P/21_20000202_b.tbf.xml" nodepath="67.1.0.1.1.0.0" sentencenodepath="67">Y nada de <argset><head>imaginación </head></argset>, porque la imaginación , que es la libertad , pone_en_tela_de_juicio las demás cosas . </example>
+        <example file="CESS-CAST-P/21_20000202_b.tbf.xml" nodepath="67.2.2.1.0" sentencenodepath="67">Y nada de imaginación , porque <argset><specifier>la</specifier><head>imaginación </head><reference_modifiers>, que es la libertad ,</reference_modifiers></argset>pone_en_tela_de_juicio las demás cosas . </example>
+        <example file="CESS-CAST-P/97_19991102.tbf.xml" nodepath="10.3.1.1.2.1.0.0" sentencenodepath="10">Para este nuevo cometido , Comediants cuentan con los elementos que Ø mejor manejan <argset>: <head>imaginación </head>, espectacularidad en la puesta_en_escena , escenarios poco habituales , percusión , fuego , acrobacia y circo </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

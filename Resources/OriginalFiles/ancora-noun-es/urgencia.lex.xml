@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="urgencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="urgir" originlink="verb.urgir.1" wordnetsynset="16:10368281">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="21" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="13.1.2.2.4.3.1.1.0" sentencenodepath="13">En su editorial , el diario analiza la situación económica del país tomando como base el informe difundido ayer de la OCDE y Ø asegura que el caballo de batalla de Aznar en esta legislatura será " convencer a la opinión pública de los riesgos de un consumo y de un crecimiento desbocado , hacerle ver <argset><specifier>la</specifier><head>urgencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de reformar el mercado laboral y de liberalizar la economía</argument></argset>, escenificar los peligros de la inflación " . </example>
+        <example file="3LB-CAST/a22-1.tbf.xml" nodepath="9.1.3.1.0.0" sentencenodepath="9">Pero Ø partió a_la_carrera alegando <argset><head>urgencia </head><reference_modifiers>biológica</reference_modifiers></argset>y Ø no me obedeció . </example>
+        <example file="3LB-CAST/t3-4.tbf.xml" nodepath="23.0.1.1.0" sentencenodepath="23">Con <argset><specifier>la</specifier><head>urgencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de un animal nocturno al que se le escapa el sol</argument></argset>, Ginés saltó del vehículo y Ø se fue hacia la mesa de recepción de los vestuarios . </example>
+        <example file="CESS-CAST-A/15355_20001120.tbf.xml" nodepath="1.3.1.1.1.0.0" sentencenodepath="1">Un juez estatal negó el domingo una solicitud de <argset><head>urgencia </head></argset>interpuesta por los republicanos para suspender este nuevo escrutinio , que puede prolongarse hasta el próximo 1_de_diciembre , según las autoridades electorales del condado . </example>
+        <example file="CESS-CAST-A/16986_20000621.tbf.xml" nodepath="3.2.1.1.1.0.4.2.1.0.1.2.1.0.0" sentencenodepath="3">La página de turismo ofrecerá un servicio de alerta de tarifas , entrega de pasajes y línea de emergencia para pasajeros que deben viajar de <argset><head>urgencia </head></argset>. </example>
+        <example file="CESS-CAST-AA/19561_20000830.tbf.xml" nodepath="1.3.1.1.1.1.1.2.1.1.1.1.1.0.0" sentencenodepath="1">También se acordó gestionar la posibilidad de una cooperación extraordinaria para financiar las acciones de <argset><head>urgencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">sanitaria</argument></argset>ante el Banco_Interamericano_de_Desarrollo ( BID ) y otros organismos internacionales . </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="0.2.3.2.1.1.1.0.0" sentencenodepath="0">Al_menos 30 personas sufrieron heridas de distinta consideración en los enfrentamientos entre manifestantes antigubernamentales y la policía en el centro de Belgrado y es posible que haya dos muertos , según los servicios de <argset><head>urgencia </head></argset>. </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="1.0.1.2.1.0.0" sentencenodepath="1">El servicio médico de <argset><head>urgencia </head></argset>no ha desmentido la existencia de víctimas mortales , ya_que se usaron armas en los choques y muchos tienen heridas de bala , entre ellos un reportero griego . </example>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="0.2.3.3.1.0.3.0" sentencenodepath="0">El presidente de la Región_de_Murcia , Ramón_Luis_Valcárcel , anunció hoy que el borrador del Plan_Hidrológico_Nacional ( PHN ) entrará en el Consejo_Nacional_del_Agua ( CNA ) a_primeros_de julio para ser debatido , y Ø pidió a los componentes de este órgano que Ø actúen con <argset>" diligencia y <head>urgencia </head>" </argset>, pues Murcia y media España " no pueden esperar más " . </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="24.2.1.0.0" sentencenodepath="24">El seleccionador debe encontrar con <argset><head>urgencia </head></argset>un modelo de juego que implique a los jugadores . </example>
+        <example file="CESS-CAST-P/144_20020502.tbf.xml" nodepath="1.3.1.1.3.1.0.0" sentencenodepath="1">La soprano catalana abandonó ayer la clínica donde Ø había ingresado de <argset><head>urgencias </head></argset>el 27_de_abril aquejada de gastroenteritis aguda . </example>
+        <example file="CESS-CAST-P/17_19990201.tbf.xml" nodepath="8.2.3.1.1.1.1.1.0.0" sentencenodepath="8">Pero el fenómeno , aunque menor , no ha dejado de crecer en los últimos años y su tratamiento , opina Ø , requerirá más medidas que los parches de <argset><head>urgencia </head></argset>. </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="3.2.2.1.2.1.1.1.1.1.0.0" sentencenodepath="3">El conseller de Sanitat , Eduard_Rius , ha asumido como " una realidad " el hecho de que los usuarios no confían , de_momento , en los centros de atención continuada ( CAC ) de los barrios , y Ø ha optado por volcar sus medios técnicos y económicos en reforzar los servicios de <argset><head>urgencias </head></argset>de los hospitales . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="5.3.1.1.1.4.1.1.1.1.1.1.0.0" sentencenodepath="5">El conseller se muestra decidido a conseguir que nadie deba esperar cinco horas - - " ni dos , tampoco " - - para ser atendido en el servicio de <argset><head>urgencias </head></argset>de un hospital catalán , aunque el caso no sea muy grave y al_margen_de que exista un CAC junto_a su casa . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="6.3.3.1.1.1.1.0.0" sentencenodepath="6">Rius ha pedido a todos los hospitales que Ø establezcan junto_a las áreas de <argset><head>urgencias </head></argset>unas consultas que atiendan de forma inmediata a las personas que sufran gripe u otros procesos leves . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="10.1.1.1.1.0.0" sentencenodepath="10">Como Ø ocurrió en los últimos años , los servicios de <argset><head>urgencias </head></argset>recibieron anteayer casi un 40% más de demanda que hace dos semanas , a_consecuencia_de la gripe . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="15.2.1.2.1.1.1.0.1.1.0.0" sentencenodepath="15">La idea de Sanitat es que , desde la puerta de acceso a <argset><head>urgencias </head></argset>, se diferencie lo que son las emergencias clásicas en un hospital - - infartos , insuficiencia coronaria , etcétera - - de las patologías respiratorias que generan largas esperas . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="18.2.2.0.1.1.1.0.0" sentencenodepath="18">De_momento , dos hospitales de Barcelona - - Sant_Pau y Vall_d'Hebron - - han recogido ese mensaje y Ø han establecido consultorios adosados a <argset><head>urgencias </head></argset>en los que Ø atienden de_inmediato , o antes de 24 horas , a las personas con patologías leves , que suponen casi un 20% de la demanda de urgencias . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="18.2.2.0.2.4.1.1.2.3.1.1.1.1.1.1.1.0.0" sentencenodepath="18">De_momento , dos hospitales de Barcelona - - Sant_Pau y Vall_d'Hebron - - han recogido ese mensaje y Ø han establecido consultorios adosados a urgencias en los que Ø atienden de_inmediato , o antes de 24 horas , a las personas con patologías leves , que suponen casi un 20% de la demanda de <argset><head>urgencias </head></argset>. </example>
+        <example file="CESS-CAST-P/35_20020501.tbf.xml" nodepath="3.0.1.1.1.0.0" sentencenodepath="3">Tras ser operado de <argset><head>urgencia </head></argset>, Ø logró escapar . </example>
+        <example file="CESS-CAST-P/52_19990901.tbf.xml" nodepath="3.2.4.0.1.2.1.0.0" sentencenodepath="3">Ø Aseguró que ni_siquiera se han licitado obras aprobadas hace año y medio con_carácter_de <argset><head>urgencia </head></argset>. </example>
+        <example file="CESS-CAST-P/69_20000602.tbf.xml" nodepath="1.3.1.0.2.1.0.0" sentencenodepath="1">La Federación_de_Asociaciones_de_Asistencia_a_Mujeres_Violadas ( FAAMV ) acusó ayer al servicio ginecológico de <argset><head>urgencias </head></argset>del Hospital_La_Paz de Madrid de negarse a atender a una mujer que había sido violada analmente por su pareja . </example>
+        <example file="CESS-CAST-P/81_20000201.tbf.xml" nodepath="11.2.3.2.1.1.1.1.0.0" sentencenodepath="11">Onega anunció que el Gobierno quiere tramitar el real_decreto por la vía de <argset><head>urgencia </head></argset>para que Ø pueda ser aprobado por el Consejo_de_Ministros antes del 22_de_febrero . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="de_urgencia" cousin="no" denotation="none" id="2" lexicalizationtype="adverbial" lexicalized="yes" originlemma="urgir" originlink="verb.urgir.1" wordnetsynset="16:10368281">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="0.3.1.0.0" sentencenodepath="0">Una delegación del organismo se reúne de <argset><head>urgencia </head></argset>con el Gobierno brasileño en Brasilia . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

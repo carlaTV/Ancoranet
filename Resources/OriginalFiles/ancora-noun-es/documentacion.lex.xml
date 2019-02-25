@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="documentación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="documentar" originlink="verb.documentar.1" wordnetsynset="16:04859637">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="9" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="7" type="S"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/r2-3.tbf.xml" nodepath="13.3.2.1.1" sentencenodepath="13">De cualquier manera , las policías española y francesa detectaron , entre <argset><specifier>la</specifier><reference_modifiers>ya abundante</reference_modifiers><head>documentación </head><reference_modifiers>intervenida a ETA</reference_modifiers></argset>, que la organización terrorista tenía un amplio fichero en el que constaban datos de personalidades esenciales en el entramado financiero y empresarial de España . </example>
+        <example file="CESS-CAST-A/10049_20001114.tbf.xml" nodepath="7.0.1.1.2.1.1.0" sentencenodepath="7">Tras el examen preliminar de <argset><specifier>la</specifier><head>documentación </head><reference_modifiers>presentada</reference_modifiers></argset>, los servicios de competencia de la Comisión_Europea estiman que la operación podría entrar dentro del campo de aplicación de la reglamentación comunitaria sobre concentraciones . </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="20.3.1.0" sentencenodepath="20">En la reunión de hoy de la comisión , sus miembros examinaron <argset><specifier>toda la</specifier><head>documentación </head><reference_modifiers>material , técnica y gráfica</reference_modifiers><reference_modifiers>recogida los últimos días por el buque científico " Akademik_Mstislav_Keldish " en el lugar del accidente</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="8.3.4.1.2.4.4.1.0" sentencenodepath="8">El ex auditor reconoció que él no tuvo conocimiento de los contratos de patrocinio de las camisetas de las temporadas 91-92 y 92-93 hasta junio_de_1993, aunque Ø restó importancia al explicar a la Sala que " es habitual que las empresas no entreguen <argset><specifier>toda la</specifier><head>documentación </head></argset>hasta el cierre del ejercicio " . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="6.2.5.1.0" sentencenodepath="6">El presidente de la Comisión_Nacional_de_la_Energía ( CNE ) , Pedro_Meroño , señaló que mañana o , a_más_tardar , el próximo lunes , el Servicio_de_Defensa_de_la_Competencia les remitirá <argset><specifier>la</specifier><head>documentación </head><reference_modifiers>sobre la fusión</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24155_20000629.tbf.xml" nodepath="13.2.6.5.0.0" sentencenodepath="13">Ø Adelantó que no se encontraría nada respecto_a la entrega de los tanques a Arabia_Saudí , simplemente porque nunca hubo <argset><head>documentación </head><reference_modifiers>al_respecto</reference_modifiers></argset>, al_menos no respecto_a los trámites previos a la decisión . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="3.0.2.1.1.0" sentencenodepath="3">La Comisión establece que <argset><specifier>la</specifier><head>documentación </head><reference_modifiers>aportada por el Ayuntamiento que preside Jesús_Gil</reference_modifiers></argset>no es un texto refundido , e " Ø introduce cambios y modificaciones sobre el expediente conocido " por este órgano que no se mencionan ni quedan justificadas y que , al no haber sido tramitadas , carecen de los informes preceptivos . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="6.6.2.1.1.0" sentencenodepath="6">Según explicó el delegado de la Consejería_de_Obras_Públicas en Málaga , Enrique_Salvo , los técnicos han elaborado dos anexos de " contradicciones no exhaustivas " , pues el examen pormenorizado " podría llevar a una lista extensa " - precisó Ø - , encontradas en <argset><specifier>la</specifier><head>documentación </head><reference_modifiers>remitida por el Ayuntamiento</reference_modifiers></argset>el 19_de_mayo_de_2000 . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="7.0.0.1" sentencenodepath="7"><argset><reference_modifiers>Dicha</reference_modifiers><head>documentación </head></argset>, añadió Ø , corresponde a los acuerdos adoptados en plenos municipales del Ayuntamiento_de_Marbella celebrados el 17_de_agosto y 22_de_noviembre de 1999 y el 12_de_mayo de este año , con " tres sellos " y planos que " en muchos casos obedecen a un mismo territorio y usos distintos " . </example>
+        <example file="CESS-CAST-AA/3865_20000204.tbf.xml" nodepath="14.2.1.2.1.1.1.0.3.0.0.0" sentencenodepath="14">Los únicos bienes del partido en Suiza de los que Kohl dice tener conocimiento son unas cajas fuertes de un banco donde no se depositaba dinero , sino <argset><head>documentación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre las " actividades del partido en el extranjero "</argument></argset>, entre otros en España . </example>
+        <example file="CESS-CAST-AA/5671_20000708.tbf.xml" nodepath="9.3.2.4.1.1.2.5.5.1.0.0" sentencenodepath="9">Ante este panorama , muchos haitianos intentan salir del país , bien por mar hacia la costa de EEUU con riesgo de naufragar o de ser devorados por los tiburones , bien hacia la vecina República_Dominicana , donde Ø son bien considerados debido_a su gran capacidad de trabajo y seriedad , aunque Ø son explotados vilmente por_falta_de <argset><head>documentación </head></argset>. </example>
+        <example file="CESS-CAST-P/142_20010302.tbf.xml" nodepath="0.4.1.0" sentencenodepath="0">La Federación_Española_de_Fútbol envió ayer a la Fiscalía_de_Madrid <argset><specifier>la</specifier><head>documentación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del caso Toledo , jugador del Espanyol que está suspendido cautelarmente por el Comité_de_Competición al no haber acreditado de forma conveniente su condición de comunitario</argument></argset>. </example>
+        <example file="CESS-CAST-P/143_20010601.tbf.xml" nodepath="4.0.5.2.0.2.1.1.3.1.1.1.1.0.0" sentencenodepath="4">" Las alineaciones indebidas deben denunciarse en 48 horas , si no , se puede hipotecar la competición durante años . La actitud de estos clubs ahora es intolerable . Ø Intentan hacer ruido para pescar algo pero , al_margen_de las sanciones que el Comité_de_Competición impondrá por la falsedad de <argset><head>documentación </head></argset>, quien no haya ganado los partidos en el terreno de juego , no tiene nada que hacer " , remarcó ayer a EL_PERIODICO Gerardo_González , secretario general de la RFEF . </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="9.2.4.1.2.4.3.1.0.0" sentencenodepath="9">Ø Explicó que nada_más acceder a la presidencia del Parlamento vasco Ø recibió una llamada de Mayor en la que Ø le informaba que su nombre aparecía en <argset><head>documentación </head><reference_modifiers>incautada a ETA</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="10.3.3.0.2.0.0" sentencenodepath="10">La instructora del caso_KIO , además , ha pedido que se recojan todos los datos y <argset><head>documentación </head></argset>de los avales ahora cancelados . </example>
+        <example file="CESS-CAST-P/64_20000401.tbf.xml" nodepath="8.0.1.0.1.3.1.4.1.0" sentencenodepath="8">Ante la repetida exigencia del policía de que Ø le entregara <argset><specifier>la</specifier><head>documentación </head></argset>y la amenaza de detenerla , la joven replicó que Ø tenía legalmente 48 horas para presentarla . </example>
+        <example file="CESS-CAST-P/65_20010701.tbf.xml" nodepath="4.3.0.0" sentencenodepath="4">Al ser detenido Ø portaba <argset><head>documentación </head><reference_modifiers>falsa</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/81_20000201.tbf.xml" nodepath="10.2.5.3.4.1.1.1.1.1.1.0.0.0" sentencenodepath="10">Las entidades sociales piden que el periodo se alargue a un mínimo de tres meses y un máximo de seis porque Ø consideran que el tiempo previsto " es muy poco para la cantidad de <argset><head>documentación </head>y trámites que hay que realizar </argset>" , según Abdelhamid_Beyuki , presidente de la Asociación_de_Trabajadores_Inmigrantes_Marroquís_en_España ( ATIME ) . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="prohibición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="prohibir" originlink="verb.prohibir.1" wordnetsynset="16:04911144">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="durante" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-11.tbf.xml" nodepath="3.1.0.2.0.0" sentencenodepath="3">En los Estados_Unidos no había <argset><head>prohibiciones </head></argset>pero sí gran alarma del público por las espantadas que Ø producían en los caballos . </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="8.6.1.1.1.1.1.1.0" sentencenodepath="8">Pero pocos años después , en 1937 , el conflicto chino-japonés de Manchuria se encargó de evidenciar la fragilidad de <argset><specifier>las</specifier><head>prohibiciones </head><reference_modifiers>internacionales</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc2-5.tbf.xml" nodepath="9.3.1.1.1.1.3.1.1.0" sentencenodepath="9">En 1972 , el clima de distensión creado por las conversaciones de desarme SALT entre Estados_Unidos y la Unión_Soviética favoreció la firma de un nuevo acuerdo internacional para <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del desarrollo , producción y almacenamiento de armas biológicas</argument></argset>. </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="1.0.0.3.1.0" sentencenodepath="1">El Gobierno emitió para ello <argset><specifier>una</specifier><head>prohibición </head><reference_modifiers>negando todas las solicitudes presentadas por los universitarios para echarse a las calles a demostrar el rechazo de Pekín al presidente electo en la isla</reference_modifiers></argset>, e Ø instó a los responsables de los diversos campus a mantener el orden en sus respectivos recintos , señala el diario " Hong_Kong_Standard " . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="3.0.1.2.2.1.1.2.0" sentencenodepath="3">El conductor , Antonio_Muñoz_Serrano , que ha sido condenado a <argset>una multa de 120.000 pesetas y <head>prohibición </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la licencia de circulación</argument>
+            <argument argument="argM" function="cn" thematicrole="tmp" type="sp">durante un año</argument>
+          </argset>, sufrió el accidente la mañana del 5_de_junio del pasado año cuando Ø conducía su cuadriciclo - cuyo uso requiere solo de la licencia de circulación - , por una travesía de Sant_Boi_de_Llobregat ( Barcelona ) . </example>
+        <example file="CESS-CAST-AA/4287_20000306.tbf.xml" nodepath="10.0.3.2.0.0" sentencenodepath="10">" Ø Iremos a los tribunales para insistir en nuestros derechos como ciudadanos británicos para poder volar a Irak . No existen <argset><head>prohibiciones </head></argset>en la resolución de Naciones_Unidas para volar a Irak " , aseguró el diputado laborista a Radio_4 . </example>
+        <example file="CESS-CAST-P/11_20001202.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Todos ellos verán extinguidas <argset><specifier>esas</specifier><head>prohibiciones </head></argset>. </example>
+        <example file="CESS-CAST-P/33_19990802.tbf.xml" nodepath="1.0.3.1.1.1.1.0" sentencenodepath="1">De_entrada , Alemania ha retrasado el levantamiento de <argset><specifier>la</specifier><head>prohibición </head></argset>hasta finales de septiembre y , en Francia , el ministro de Agricultura , Jean_Glavany , ya ha advertido de que Ø tomará medidas " para tener informados a los consumidores y decirles qué carne Ø están comprando " . </example>
+        <example file="CESS-CAST-P/33_19990802.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>prohibición </head><reference_modifiers>impuesta a las exportaciones de ganado vivo</reference_modifiers></argset>continúa vigente . </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="3.2.0.1.1.1.1.2.4.1.0" sentencenodepath="3">El resultado de la votación representa una victoria para el presidente George_Bush , que había pedido públicamente <argset><specifier>la</specifier><head>prohibición </head></argset>, y un duro revés para la mayoría de los científicos , que defendían las investigaciones controladas como herramienta para la fabricación de células_madre , una herramienta terapéutica de posibilidades infinitas . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="6.4.1.0" sentencenodepath="6">Después de un largo periodo de debates parlamentarios y discusiones populares , el Gobierno holandés - - una curiosa mezcla de socialdemócratas , liberales y conservadores , que se conoce con el apodo de Violeta_II - - levantará hoy <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre los burdeles</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="prohibir" originlink="verb.prohibir.1" wordnetsynset="16:04911144">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="9" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="debido_a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12812_20001116.tbf.xml" nodepath="4.0.5.5.2.1.3.1.1.0" sentencenodepath="4">Pero " este loable esfuerzo tendría mayor sentido si Ø se acompañase de la búsqueda de una solución definitiva " al problema , con un compromiso claro de los gobiernos respectivos en_favor_de <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>prohibición </head></argset>, afirmó HI . </example>
+        <example file="CESS-CAST-A/16545_20000620.tbf.xml" nodepath="7.3.1.2.5.1.0" sentencenodepath="7">Los medios locales divulgaron hoy , martes , unas declaraciones del zar antidrogas estadounidense Barry_McCaffrey , en las que Ø calificó como un " problema inmenso " <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del sobrevuelo norteamericano a territorio venezolano</argument><reference_modifiers>, decisión que , aseguró , habría creado un " agujero negro " en la vigilancia regional para la lucha antidrogas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8195_20000812.tbf.xml" nodepath="3.2.2.3.2.0.1.1.1.0" sentencenodepath="3">Los agricultores almerienses están de_acuerdo_en reducir los niveles de residuos , que por_otra_parte nunca han dado problemas en la producción hortofrutícola de la zona , pero Ø consideran que esa reducción debe ser paulatina y anunciarse con tiempo antes de <argset><specifier>la</specifier><head>prohibición </head><reference_modifiers>definitiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los productos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8873_20000412.tbf.xml" nodepath="6.0.2.1.0" sentencenodepath="6">Una directiva comunitaria de 13_de_octubre_de_1998 establecía <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de comercializar gasolinas con plomo</argument></argset>a_partir_de enero_de_2000 , pero Ø contemplaba la posibilidad de autorizar a un estado miembro , previa solicitud a la Comisión_Europea , a continuar comercializando este combustible hasta el 1_de_enero_de_2005 . </example>
+        <example file="CESS-CAST-AA/8873_20000412.tbf.xml" nodepath="10.3.1.1.1.0.1.1.1.0" sentencenodepath="10">El Real_Decreto publicado hoy completa la transposición de la directiva comunitaria en la parte relativa a <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la distribución de gasolinas con plomo</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el territorio nacional</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="2.5.2.0.2.1.0" sentencenodepath="2">Para evitar esa contingencia , se estableció legalmente la necesidad de externalizar dichos compromisos , lo que supone <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que la empresa administre las dotaciones económicas efectuadas y sea una entidad externa - - ya sea financiera o aseguradora - - la que se encargue de gestionar y en su día abonar los complementos de las prestaciones , bien a_través_de un plan de pensiones , bien a_través_de un contrato de seguro</argument></argset>. </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="9.4.1.0" sentencenodepath="9">Los jueces de instrucción que investigan las denuncias por malos tratos también aplican con mayor asiduidad y de forma cautelar <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de acercamiento a la víctima</argument></argset>. </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="1.0.0.0.2.1.1.0" sentencenodepath="1">Violentas protestas contra <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de importar cordero</argument></argset>sacudieron nuevamente ayer la ciudad de Melilla , pero en esta ocasión la policía no intervino " para evitar 20 heridos - - como justificó el delegado del Gobierno en la ciudad , Enrique_Beamud - - y para que no se diga que Ø actúa salvajemente " . </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de traer borregos marroquís para celebrar la Pascua_Grande musulmana</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">, debido_a la epidemia de fiebre_aftosa detectada en el país vecino ,</argument></argset>se mantendrá pese_a las protestas . </example>
+        <example file="CESS-CAST-P/57_20000702.tbf.xml" nodepath="2.2.0.1.1.0" sentencenodepath="2">Las multas impuestas oscilan entre las 42.000 y las 482.000 pesetas , además_de añadir <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de residir en la antigua zona ocupada por Israel en el sur de Líbano por periodos de uno a siete años</argument></argset>. </example>
+        <example file="CESS-CAST-P/91_20020501.tbf.xml" nodepath="0.3.0.1.2.1.0" sentencenodepath="0">También ha sorprendido que tres_de_cada_cuatro jóvenes consultados se muestre partidario de penalizar el consumo de drogas ( un 44% pide <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>prohibición </head></argset>y el 33% sólo las duras ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="prohibir" originlink="verb.prohibir.1" wordnetsynset="16:04911144">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a27-0.tbf.xml" nodepath="17.3.1.0" sentencenodepath="17">Entre las muchas lindezas con las que se descolgó el edil , la más comentada fue <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de besos , caricias y arrumacos</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">entre las parejas que circulaban por la vía pública</argument></argset>. </example>
+        <example file="CESS-CAST-P/78_20010201.tbf.xml" nodepath="4.2.2.5.1.1.1.0" sentencenodepath="4">Badr aseguró que los imanes darán este mensaje a sus fieles de forma reiterada desde las 12 mezquitas de Melilla y que Ø también les instarán a incumplir <argset><specifier>la</specifier><head>prohibición </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">comunitaria</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de importar borregos de Marruecos</argument></argset>debido_a un brote de fiebre_aftosa que podría propagarse a la cabaña española . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

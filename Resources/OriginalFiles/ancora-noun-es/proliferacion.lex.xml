@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="proliferación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="proliferar" originlink="verb.proliferar.1" wordnetsynset="16:09711339">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="3.6.2.2.1.1.1.1.1.1.0" sentencenodepath="3">En menor medida , las radiaciones ionizantes se han empleado también como medio de esterilización para hacer_frente a determinadas plagas de insectos , y en la conservación de alimentos , dada su gran capacidad para actuar sobre el material genético y con ello , la posibilidad de inhibir <argset><specifier>la</specifier><head>proliferación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de bacterias y gérmenes</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="proliferar" originlink="verb.proliferar.1" wordnetsynset="16:09711339+16:04010354">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a12-2.tbf.xml" nodepath="6.2.0.1.1" sentencenodepath="6">Las ratas son como la mala conciencia de las sociedades desarrolladas , y <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>sucia</reference_modifiers><head>proliferación </head></argset>será siempre un negro pero preciso reflejo de nuestro bienestar material . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="20.0.3.3.2.1.0" sentencenodepath="20">" Nuestras fuerzas se diseñaron para la confrontación con la Unión_Soviética , para los grandes desafíos militares , pero ahora las amenazas son el terrorismo , y el terrorismo vinculado al tráfico de drogas , o <argset><specifier>la</specifier><head>proliferación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de armamentos de destrucción masiva</argument></argset>" , indicó Ø . </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="5.0.3.4.2.1.0" sentencenodepath="5">" Es evidente que , aunque Zaplana pone por excusa que el desarrollo urbanístico viene marcado por nuestras leyes , las reformas que ellos han hecho últimamente de las leyes han favorecido el nivel de especulación y <argset><specifier>la</specifier><head>proliferación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de masas urbanísticas incontroladas que hacen que el agua sea más escasa y limitada</argument></argset>" , señaló Ø . </example>
+        <example file="CESS-CAST-P/69_19991001.tbf.xml" nodepath="3.2.2.1.1.1.1.0" sentencenodepath="3">La dirección del Instituto_Pau_Vila , donde el adolescente estudia cuarto curso de ESO , condenó ayer el suceso y Ø mostró su preocupación por <argset><specifier>la</specifier><head>proliferación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de " ataques más o menos graves " a jóvenes</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

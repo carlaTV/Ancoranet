@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="tensión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="tensionar" originlink="verb.tensionar.1" wordnetsynset="16:10340571">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="11" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="12.2.1.1.0" sentencenodepath="12">La salud de las 31 personas retenidas en el Parlamento desde el 19_de_mayo por un grupo de hombres armados que intentan consolidar una intentona golpista ha comenzado a resentirse por <argset><specifier>la</specifier><head>tensión </head><reference_modifiers>en la que viven</reference_modifiers></argset>, según un equipo de médicos que los pudo visitar hoy jueves . </example>
+        <example file="3LB-CAST/a20-1.tbf.xml" nodepath="3.0.2.1.1.1.0.2.0.1.0" sentencenodepath="3">Ø Tiene más casta de lo que indica <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>tensión </head><reference_modifiers>baja</reference_modifiers></argset>y su conversación irónica , al_fin_y_al_cabo , si Ø no nació en un bombardeo , Ø sí creció en el de Londres , cuando su papá era medio espía inglés y la reina de Inglaterra jugaba con ella a las enfermeras y los aviadores de la RAF . </example>
+        <example file="3LB-CAST/d2-8.tbf.xml" nodepath="6.2.0.2.1.1.0" sentencenodepath="6">La espera es dura y , además_de asomar <argset><specifier>la</specifier><head>tensión </head><reference_modifiers>de ser el líder de la carrera</reference_modifiers></argset>, le viene la idea de que Ø será atacado cuando Ø baje_la_guardia . </example>
+        <example file="CESS-CAST-A/17384_20000221.tbf.xml" nodepath="1.2.1.4.1.3.4.1.1.0" sentencenodepath="1">El presidente de AMEDEC , Arturo_Lomelí , advirtió de que " el consumo excesivo de granulados causa el llamado 'síndrome del restaurante chino' , que se caracteriza por <argset><specifier>una</specifier><head>tensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los músculos de cara y cuello</argument></argset>, acompañado de dolor de cabeza , náuseas y vahído " . </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="9.0.3.1.1.0.2.1.1.0" sentencenodepath="9">En la zona de meta se vivieron unos instantes no exentos de <argset><specifier>cierta</specifier><head>tensión </head></argset>, pero los jueces , que , al_parecer , visionaron el vídeo del adelantamiento , no apreciaron la necesidad de alterar el desenlace de la prueba . </example>
+        <example file="CESS-CAST-AA/19811_20000427.tbf.xml" nodepath="4.5.6.1.0.1.2.1.0.0" sentencenodepath="4">Para el presidente gallego fue " brillante " la respuesta de Aznar al definir como " terrorífico " el discurso del Bloque , ya_que , agregó Ø en_referencia_a esta formación , " algunos creyeron que un cierto tipo de <argset><head>tensión </head></argset>les iba a llevar muy lejos y Ø no les llevó a ninguna parte " e incluso " Ø les chocó " en la Cámara baja . </example>
+        <example file="CESS-CAST-AA/20778_20001126.tbf.xml" nodepath="4.1.1.1.2.1.0.1.3.1.0.0" sentencenodepath="4">Así_pues , la falta de rivales , de atletas que les pusieran en <argset><head>tensión </head></argset>, invalidó el intento de los organizadores de conseguir un relanzamiento del maratón de San_Sebastián a_través_de marcas de calidad . </example>
+        <example file="CESS-CAST-AA/23896_20000530.tbf.xml" nodepath="7.2.2.2.1.0.0" sentencenodepath="7">Los autores del informe advierten que " el vigor reciente de la actividad interior ( estadounidense ) no parece sostenible y comienzan a aparecer <argset><head>tensiones </head><reference_modifiers>inflacionistas</reference_modifiers></argset>, mientras el déficit de la balanza de operaciones corrientes se ha aumentado fuertemente y Ø supera el cuatro_por_ciento " . </example>
+        <example file="CESS-CAST-AA/25451_20000531.tbf.xml" nodepath="1.5.2.0.3.0.0" sentencenodepath="1">Según Sushil_Wadhwani , que participó en un seminario sobre economía en el Centro_de_Gestión_Económica en Londres , la moneda británica se devaluará en algún momento , lo que inevitablemente provocará <argset><head>tensiones </head></argset>sobre el Indice_de_Precios_al_Consumo ( IPC ) . </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="8.3.3.1.0.1.1.1.1" sentencenodepath="8">Kostunica ha pedido a los países extranjeros , sobre_todo a Grecia , el país más próximo a Serbia de la Unión_Europea ( UE ) , que Ø ayude al cese de <argset><specifier>las</specifier><reference_modifiers>peligrosas</reference_modifiers><head>tensiones </head><reference_modifiers>que pueden desestabilizar los Balcanes</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="10.1.1.0" sentencenodepath="10">A_partir_de ahí , <argset><specifier>la</specifier><head>tensión </head></argset>se apoderó del cuadro getafeño , que apretó el acelerador de forma casi suicida . </example>
+        <example file="CESS-CAST-AA/3784_20000806.tbf.xml" nodepath="12.6.1.1.1.1.0.0" sentencenodepath="12">Precisamente , ante este órgano Ø tendrá que rendir mañana , Lunes , cuentas sobre sus diez meses de turbulento mandato en un ambiente de <argset><head>tensión </head></argset>dada la presión a la que le someterán sus detractores . </example>
+        <example file="CESS-CAST-AA/5694_20000908.tbf.xml" nodepath="3.0.2.1.1.0" sentencenodepath="3">Las Naciones_Unidas han cumplido un papel relevante pero " <argset><specifier>las</specifier><head>tensiones </head></argset>subsisten bajo otras características generadas en_esencia por el atraso , la pobreza y las desigualdades que se acentúan peligrosamente " , dijo Banzer , quien tiene previsto entrevistarse a última hora de hoy con su colega estadounidense , Bill_Clinton . </example>
+        <example file="CESS-CAST-AA/5808_20001108.tbf.xml" nodepath="3.3.1.1.1.1.3.3.1.1.0" sentencenodepath="3">Esa posibilidad , aunque remota , podría estar originada por las turbulencias que sufre el partido no_sólo por el escándalo de los datos policiales , sino_también por <argset><specifier>las</specifier><head>tensiones </head><reference_modifiers>internas</reference_modifiers><reference_modifiers>que crea este conflicto</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="5.3.1.1.1.1.0.1" sentencenodepath="5">Las declaraciones de Estrada se producen en un momento de <argset><reference_modifiers>máxima</reference_modifiers><head>tensión </head><reference_modifiers>política</reference_modifiers></argset>en Filipinas , donde la oposición , encabezada por Macapagal-Arroyo , que tiene el apoyo de la Iglesia_Católica y los ex presidentes Corazón_Aquino y Fidel_Ramos , pide de forma insistente su dimisión . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="2.0.2.3.2.1.1.0" sentencenodepath="2">El presidente del PP del País_Vasco , Carlos_Iturgaiz , dijo que el País_Vasco atraviesa un momento " grave y preocupante " y es necesario rebajar <argset><specifier>la</specifier><head>tensión </head><reference_modifiers>política</reference_modifiers></argset>para evitar la división social , pero Ø consideró que corresponde al PNV y al Gobierno_Vasco hacerlo porque Ø fueron quienes rompieron " el pacto donde estaba el 90_por_ciento de la sociedad , la Mesa_de_Ajuria_Enea , para enrolarse en Estella , donde está el 45_por_ciento y que no busca la paz , sino la construcción nacional " . </example>
+        <example file="CESS-CAST-AA/8039_20000610.tbf.xml" nodepath="6.5.4.3.1.1.1.1.2.1.0" sentencenodepath="6">El contenido de la agenda de los dos Kim no se publicó por razones de seguridad nacional , aunque fuentes surcoreanas dijeron que sería natural tratar de todo lo que en más de medio siglo no se ha podido hablar , desde <argset><specifier>las</specifier><head>tensiones </head><reference_modifiers>militares</reference_modifiers></argset>hasta las separaciones familiares forzosas y la ayuda económica . </example>
+        <example file="CESS-CAST-P/103_20000502.tbf.xml" nodepath="1.2.4.1.0" sentencenodepath="1">En ambas películas Ø encontramos un personaje central de actitud ambigua - - allí Ø era el picapleitos encarnado por Ian_Holm , aquí un experto en caterings con el que Bob_Hoskins ha conseguido uno de los papeles de su vida - - , y en los dos filmes la atmósfera , pese_a la cotidianidad de los personajes y el trazo dramático , genera <argset><specifier>una</specifier><head>tensión </head><reference_modifiers>insostenible</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="19.2.0.2.1.0" sentencenodepath="19">Es evidente que , a_la_corta o a_la_larga , <argset><specifier>esta</specifier><head>tensión </head><reference_modifiers>insoportable</reference_modifiers></argset>tendrá que desembocar en una solución política y que ésta sólo podrá consistir en el otorgamiento de una amplia autonomía a la población kurda . </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="10.2.1.1.2.1.1.2.1.0.1.1.0.1" sentencenodepath="10">" Nosotros tenemos que demostrar que Ø somos mejores que ellos y Ø creo que Ø lo haremos " , agregó el técnico , confiado en la mayor experiencia en partidos de <argset><reference_modifiers>máxima</reference_modifiers><head>tensión </head></argset>que tiene su equipo en Europa . </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="19.3.0.1.0" sentencenodepath="19">" Aquí la gente ha ido junta a la escuela y sus niños han nacido a_la_vez . <argset><specifier>La</specifier><head>tensión </head></argset>es mucho menor que en zonas como Queens o el Bronx . Se ve comprensión , solidaridad y apoyo " . </example>
+        <example file="CESS-CAST-P/27_19981202.tbf.xml" nodepath="8.3.6.1.1.0" sentencenodepath="8">El presidente chileno , Eduardo_Frei , dijo ayer : " A_pesar_de las diferencias que separan a los chilenos , Ø hemos dado nuestra solución a <argset><specifier>la</specifier><head>tensión </head><reference_modifiers>, siempre presente en los periodos de transición ,</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre la necesidad de justicia y la necesidad de reconciliación</argument></argset>" . </example>
+        <example file="CESS-CAST-P/31_19990401.tbf.xml" nodepath="3.2.4.1.1.1.1.1.1.0" sentencenodepath="3">Rusia desempolva la retórica de la guerra_fría y Ø se adentra cada vez más en la estrategia de incrementar <argset><specifier>la</specifier><head>tensión </head></argset>, como respuesta a lo que en el país se considera una " agresión " contra un " Estado soberano " . </example>
+        <example file="CESS-CAST-P/38_20020502.tbf.xml" nodepath="0.0.1.1.0" sentencenodepath="0">Sobre el terreno , <argset><specifier>la</specifier><head>tensión </head></argset>se disparó y hubo más víctimas . </example>
+        <example file="CESS-CAST-P/45_20010302.tbf.xml" nodepath="9.5.2.0.1.0" sentencenodepath="9">Pero Barrera , saboreando unos peculiares 15 minutos de orgullo , se empeñó en subir a_pie por la Rambla hasta la plaza de Catalunya , pese_a_que <argset><specifier>la</specifier><head>tensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">ambiental</argument></argset>era máxima , y el riesgo de agresión , evidente . </example>
+        <example file="CESS-CAST-P/45_20020103.tbf.xml" nodepath="1.1.1.0" sentencenodepath="1">A_pesar_de ello , <argset><specifier>la</specifier><head>tensión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los dos países</argument></argset>sigue siendo excepcional . </example>
+        <example file="CESS-CAST-P/45_20020103.tbf.xml" nodepath="10.2.1.2.1.0" sentencenodepath="10">El ministro de Defensa , George_Fernandes , explicó que , pese_a_que <argset><specifier>la</specifier><head>tensión </head></argset>se mantiene , se están haciendo " esfuerzos a otra escala " para que las disputas entre los dos países sean resueltas en el terreno diplomático . </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>tensión </head><reference_modifiers>que enfrenta al PNV y al PP</reference_modifiers></argset>se disparó ayer con otro cruce de acusaciones a_cuenta_de la actuación del Ministerio_del_Interior . </example>
+        <example file="CESS-CAST-P/79_20020301.tbf.xml" nodepath="3.3.2.0.3.0" sentencenodepath="3">Pero fueron los jóvenes quienes dieron <argset>color ( y <head>tensión </head>) </argset>a la marcha con tambores , bengalas y un arrojo algo imprudente que les llevó a cortar la Gran_Vía 15 minutos y a lanzar huevos contra el distrito . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="underspecified" id="2" lexicalized="no" originlemma="tensionar" originlink="verb.tensionar.1" wordnetsynset="16:10340571">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/e3-2.tbf.xml" nodepath="10.3.1.0.1.1.1.1.1.1.7.1.1.0" sentencenodepath="10">Además , el ideal de debilitar al_máximo nuestras inclinaciones sería lo más contrario a su afirmación de que las disposiciones racionales del hombre quedarían dormidas para siempre - en su germen sin <argset><specifier>la</specifier><head>tensión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de fuerzas de la ambición , codicia , de la vanidad que rivaliza en la envidia , del apetito insaciable de posesión o de dominación</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

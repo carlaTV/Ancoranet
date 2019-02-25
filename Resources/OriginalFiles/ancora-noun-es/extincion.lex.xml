@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="extinción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="extinguir" originlink="verb.extinguir.1" wordnetsynset="16:00149317">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-14.tbf.xml" nodepath="9.1.1.1.2.1.1.1.1.1.1.0.0" sentencenodepath="9">Hubo un grupo que formamos unos cuantos corredores de una generación en_vías_de <argset><head>extinción </head></argset>, llamado " sindicato " por algunos directores que nos veían siempre reunidos en los puntos de encuentro previo a la salida de las tres grandes rondas . </example>
+        <example file="3LB-CAST/t6-6.tbf.xml" nodepath="3.2.4.2.2.1.1.1" sentencenodepath="3">Ella , cómplice en aquel juego inocente que su marido desaprobaba con energía , iba recogiendo luego las plumas que se desprendían a su paso y Ø las guardaba para él , para compensarle quizá de <argset><specifier>la</specifier><reference_modifiers>previsible</reference_modifiers><head>extinción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del pequeño placer que compartían</argument></argset>, consciente ya de que en poco tiempo sólo quedaría el recuerdo de las plumas sobre una sucia franja desmochada , la degradada frontera entre su piel y esa piel tan fina y arrugada , teñida de azul celeste , hasta que el cambio de estación se encarnara en pretexto suficiente para estrenar otro par , siempre el mismo modelo . </example>
+        <example file="CESS-CAST-AA/4239_20000706.tbf.xml" nodepath="2.2.1.1.1.2.2.1.2.1.0.0.0" sentencenodepath="2">Una fuente judicial calculó que los bienes decomisados por orden de la Fiscalía_General , en_virtud_de la " ley de <argset><head>extinción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de dominio</argument>" o confiscación definitiva </argset>, pueden tener un valor de unos 10.000 millones de pesos ( alrededor de cinco millones de dólares ) . </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="4.2.0.1.1.1.0.0" sentencenodepath="4">Las llamas avanzaron por la zona de El_Time y Ø se dirigieron a los núcleos de población cercanos , pero los trabajos de <argset><head>extinción </head></argset>, que contaron con la ayuda de dos nuevos hidroaviones , consiguieron controlar definitivamente el fuego . </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="7.2.1.1.0" sentencenodepath="7">En_total , han trabajado en <argset><specifier>la</specifier><head>extinción </head></argset>más de 500 personas . </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="16.0.1.1.1.1.0.0" sentencenodepath="16">En los trabajos de <argset><head>extinción </head></argset>participaron 12 medios aéreos , además_de 34 dotaciones terrestres , llegados de parques de bomberos de Girona y Barcelona , ya_que la zona afectada es muy cercana al municipio de Tordera ( Maresme ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="extinguir" originlink="verb.extinguir.1" wordnetsynset="16:00149317">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/54_20010802_b.tbf.xml" nodepath="9.4.1.0" sentencenodepath="9">En la Comunidad_de_Madrid , los bomberos continuaban ayer <argset><specifier>la</specifier><head>extinción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del fuego originado en el término municipal de Los_Molinos , y que ha afectado a 64 hectáreas de la sierra de Guadarrama</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="extinguir" originlink="verb.extinguir.1" wordnetsynset="16:05464067">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="11.1.1.1.1.3.1.1.1.0" sentencenodepath="11">Puede incluso llegar a darse el caso de que sea más ventajoso económicamente proceder a <argset><specifier>la</specifier><head>extinción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los contratos de trabajo de trabajadores con una determinada antigüedad</argument></argset>que capitalizar el dinero para la obtención de dicha cantidad , lo cual no está en el ánimo del legislador . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="inspección" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="inspeccionar" originlink="verb.inspeccionar.1" wordnetsynset="16:00564770+16:00419850">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-6.tbf.xml" nodepath="13.0.1.1.1" sentencenodepath="13">Según <argset><specifier>las</specifier><reference_modifiers>primeras</reference_modifiers><head>inspecciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los delegados sindicales</argument></argset>, " las obras carecían de las más elementales medidas de protección tanto colectivas como individuales " , apuntaron las citadas fuentes de CCOO . </example>
+        <example file="CESS-CAST-A/14713_20001219.tbf.xml" nodepath="1.3.4.0.1.1.1.2.1.1.0.0.2.2.1.1.1.1.1.3.3.1.1.0.1.1.2.1.1.1.1.0.0" sentencenodepath="1">Fuentes diplomáticas españolas avanzaron hoy , martes , que " no hay problemas para el acuerdo " en la primera de estas normas , la propuesta de directiva sobre las llamadas sociedades de clasificación , que son los organismos responsables de garantizar las buenas condiciones de los barcos a_través_de una serie de <argset><head>inspecciones </head><reference_modifiers>periódicas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="7.2.2.3.1.4.0.1.1.0" sentencenodepath="7">Mejía anunció también una reforma del impuesto sobre la renta y Ø advirtió que habrá una amnistía fiscal , " la última en los cuatro próximos años " , para quienes se sometan voluntariamente a <argset><specifier>las</specifier><head>inspecciones </head><reference_modifiers>tributarias</reference_modifiers></argset>y a la disciplina del fisco . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="14.0.0.1.1.1.1.0.0" sentencenodepath="14">Tras un paseo de <argset><head>inspección </head></argset>y después de descartar un campamento , que señala su presencia con un gran cartel del presidente Robert_Mugabe , el vehículo se detiene en un paraje poblado de árboles . </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="13.2.2.5.1.1.3.1.1.0.0" sentencenodepath="13">El ecónomo dijo que nadie le recomendó retirar el dinero , y que lo hizo él por iniciativa propia al saber que la entidad estaba sometida a <argset><head>inspecciones </head></argset>. </example>
+        <example file="CESS-CAST-P/79_19981101.tbf.xml" nodepath="7.4.1.1.1.0.0" sentencenodepath="7">Además_de los locales ya cerrados , hay actualmente en marcha otros 17 procedimientos de <argset><head>inspección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de establecimientos que no tienen los permisos en_regla y que están a_la_espera_de resolución</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="inspeccionar" originlink="verb.inspeccionar.1" wordnetsynset="16:00564770">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/14713_20001219.tbf.xml" nodepath="0.2.2.1.1.1.0.1.2.2.1.1.1.1.1.0" sentencenodepath="0">Los ministros de Transportes de la UE intentarán alcanzar mañana , miércoles , un acuerdo sobre la futura norma que regulará los organismos encargados de <argset><specifier>la</specifier><head>inspección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los buques</argument></argset>y la relativa al control de los barcos en los puertos europeos . </example>
+        <example file="CESS-CAST-P/57_20010801.tbf.xml" nodepath="1.2.0.1.1.1.1.4.1.1.1.1.2.1.1.1.1.1.0" sentencenodepath="1">" Injustificable " y " muy benévola " fueron algunos de los calificativos que varios jueces utilizaron ayer para referirse a la petición del fiscal para el jefe de <argset><specifier>la</specifier><head>inspección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Consejo_General_del_Poder_Judicial ( CGPJ )</argument></argset>, José_María_Bento . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="18.2.0.2.1.1.0" sentencenodepath="18">El Gobierno ha establecido normas para sus agentes sobre <argset><specifier>la</specifier><head>inspección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de prostíbulos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

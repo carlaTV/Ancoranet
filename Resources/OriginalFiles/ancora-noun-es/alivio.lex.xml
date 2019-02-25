@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="alivio" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="aliviar" originlink="verb.aliviar.1" wordnetsynset="16:10364817">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/c5-2.tbf.xml" nodepath="6.3.0.1.0.3.1.1.1.0.0" sentencenodepath="6">Para el comentarista de Antena_3_TV es un drama lo que para mí sería un suspiro de <argset><head>alivio </head></argset>, si de_verdad Ø lo creyera : que los EEUU no quieren dirigir el mundo . </example>
+        <example file="3LB-CAST/t1-6.tbf.xml" nodepath="2.0.3.2.1.1.0" sentencenodepath="2">Ella lo había sentido salir de su cuerpo con <argset><specifier>el</specifier><head>alivio </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de liberarse de algo que no era suyo</argument></argset>, y Ø había sufrido el espanto de sí misma al comprobar que Ø no sentía el menor afecto por aquel repente a los quince días , y Ø siguió por varios años con el músico mayor del seminario , cuyo aliento de sepulturero distorsionaba los arpegios . </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="7.0.0.0.1.0" sentencenodepath="7"><argset><specifier>El</specifier><head>alivio </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">fiscal</argument></argset>beneficiará sobre_todo a los hogares más modestos , un componente esencial de los votantes de izquierdas , mientras_que las clases medias deberán , de_momento , esperar , según explicó el primer ministro en su primera intervención televisada en seis meses , seguida por 13 millones de telespectadores . </example>
+        <example file="CESS-CAST-P/56_20000801_i.tbf.xml" nodepath="1.3.4.2.1.0.4.0.2.1.0.0" sentencenodepath="1">El alcalde de Cervera , Salvador_Bordes ( CiU ) , aseguró ayer que los establecimientos de servicios de carretera de la población han recuperado el 50% de su volumen de negocio , por lo que el sector ha dado de_nuevo " muestras de <argset><head>alivio </head></argset>" . </example>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="7.2.4.2.0.0" sentencenodepath="7">El abogado del menor , Pedro_López_Graña , dijo que Rabadán recibió la sentencia " con <argset><head>alivio </head></argset>" porque , de no haberse llegado a la conformidad , " podría haber pasado mucho tiempo hasta que se aclarase su situación " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="aliviar" originlink="verb.aliviar.1" wordnetsynset="16:10364817">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="6.0.0.0" sentencenodepath="6"><argset><head>ALIVIO </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">DEL MENOR</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

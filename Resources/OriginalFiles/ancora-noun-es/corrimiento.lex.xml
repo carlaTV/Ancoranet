@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="corrimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="correr" originlink="verb.correr.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg4" thematicrole="des">
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+        <constituent frequency="6" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-11.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">En nuestro experimento imaginario se ha verificado <argset><specifier>un</specifier><head>corrimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la luz</argument><argument argument="arg4" function="cn" thematicrole="des" type="sp">hacia frecuencias más altas - - hacia el extremo azul del espectro visible - -</argument></argset>porque el laboratorio en caída libre se movía hacia el receptor . </example>
+        <example file="3LB-CAST/dc2-11.tbf.xml" nodepath="4.1.1.0" sentencenodepath="4">Si el emisor hubiera estado en el suelo y el receptor en lo alto de la torre , <argset><specifier>el</specifier><head>corrimiento </head></argset>hubiera tenido_lugar hacia frecuencias más bajas - - el extremo rojo del espectro - - , pues en el instante en que la luz hubiera llegado al receptor , el laboratorio se estaría alejando de él . </example>
+        <example file="3LB-CAST/dc2-11.tbf.xml" nodepath="5.3.2.1.0" sentencenodepath="5">Ø Vemos , pues , que puede existir <argset><specifier>un</specifier><head>corrimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de frecuencias</argument><argument argument="arg4" function="cn" thematicrole="des" type="sp">tanto al rojo como al azul</argument></argset>, aunque el efecto se conoce comúnmente por corrimiento gravitacional al rojo . </example>
+        <example file="3LB-CAST/dc2-11.tbf.xml" nodepath="5.3.3.6.1.0.0" sentencenodepath="5">Ø Vemos , pues , que puede existir un corrimiento de frecuencias tanto al rojo como al azul , aunque el efecto se conoce comúnmente por <argset><head>corrimiento </head><reference_modifiers>gravitacional</reference_modifiers><argument argument="arg4" function="cn" thematicrole="des" type="sp">al rojo</argument></argset>. </example>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="0.0.1.1.0" sentencenodepath="0">En otras palabras , <argset><specifier>el</specifier><head>corrimiento </head><argument argument="arg4" function="cn" thematicrole="des" type="sp">al rojo</argument></argset>afecta a todos los relojes y a su funcionamiento , lo_mismo si Ø son mecánicos , biológicos o atómicos . </example>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="5.4.1.1.1.1.0.0" sentencenodepath="5">Once años después , en otoño de 1971 los científicos J._C._Hafele , de la Universidad_Washington_de_St.Louis , y Richard_Keating , del Observatorio_de_la_Marina_de_EE.UU. , decidieron comprobar el efecto del <argset><head>corrimiento </head><reference_modifiers>gravitacional</reference_modifiers><argument argument="arg4" function="cn" thematicrole="des" type="sp">al rojo</argument></argset>con ayuda de relojes . </example>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="9.1.1.0" sentencenodepath="9">Como los aviones a reacción se encuentran a gran altura durante la mayor parte de su vuelo , <argset><specifier>el</specifier><head>corrimiento </head><reference_modifiers>gravitacional</reference_modifiers></argset>se encarga de que los relojes de a_bordo funcionen un_poco más deprisa que los situados en tierra . </example>
+        <example file="3LB-CAST/dc2-13.tbf.xml" nodepath="0.1.1.3.1.1.1.0" sentencenodepath="0">Pero el test más preciso realizado hasta la fecha para verificar <argset><specifier>el</specifier><head>corrimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">gravitacional</argument><argument argument="arg4" function="cn" thematicrole="des" type="sp">al rojo</argument></argset>tuvo_lugar en 1976 . </example>
+        <example file="3LB-CAST/dc2-13.tbf.xml" nodepath="3.2.0.0.1.0" sentencenodepath="3">Durante la etapa de aceleración del cohete , los científicos pudieron medir un desfase entre ambas frecuencias , pero <argset><specifier>este</specifier><head>corrimiento </head></argset>se debía a la dilatación del tiempo causada por la velocidad , y no por la gravitación , efecto que por_otro_lado todavía no se manifestaba por no encontrarse el reloj a una altura suficiente . </example>
+        <example file="3LB-CAST/dc2-13.tbf.xml" nodepath="5.3.1.0" sentencenodepath="5">Tal_y_como había predicho Einstein , Vessot y Lavine verificaron <argset><specifier>un</specifier><head>corrimiento </head><argument argument="arg4" function="cn" thematicrole="des" type="sp">al azul</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

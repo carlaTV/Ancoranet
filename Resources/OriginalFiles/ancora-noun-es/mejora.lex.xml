@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="mejora" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="mejorar" originlink="verb.mejorar.1" wordnetsynset="16:05480347+16:00159157+16:03733220">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="en_materia_de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="14" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="13" type="void"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="8" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="8.2.1.2.1.1.2.6.1.1.2.1.0" sentencenodepath="8">El documento propone que el Care afecte a las personas que engrosen las listas del paro " a_partir_de 1_de_enero_del_2001 " , a las cuales se les ofrecerá una ayuda personalizada para encontrar trabajo y <argset><specifier>una</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del subsidio</argument></argset>, pero Ø serán sancionados económicamente si Ø no respetan los compromisos adquiridos . </example>
+        <example file="3LB-CAST/d1-1.tbf.xml" nodepath="7.5.2.1.2.2.0.0" sentencenodepath="7">En aquel chaval de regate prodigioso se vio reflejado Emilio , con algunas peculiaridades actuales que podrían considerarse <argset><head>mejoras </head></argset>. </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="5.2.5.1.0.2.0.0" sentencenodepath="5">Los ministros subrayaron que , si se tiene_en_cuenta las disparidades en tamaño y fase de desarrollo económico entre los países del continente , " son los países pequeños y en_vías_de desarrollo los que tienen que hacer <argset><head>mejoras </head></argset>en la infraestructura de transporte al desarrollo " . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="9.2.1.1.1.1.1.2.1.1.0.0" sentencenodepath="9">Los participantes asistieron a la firma de un Memorándum de cooperación entre el Departamento_de_Transporte_de_EEUU y el BID para promover <argset><head>mejoras </head><reference_modifiers>sostenibles</reference_modifiers></argset>en el transporte del continente . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="12.1.0.0.0" sentencenodepath="12">Esa asociación , que deberá tener_en_consideración el papel de la OACI , promoverá y Ø reforzará <argset><head>mejoras </head><reference_modifiers>sostenibles</reference_modifiers><argument argument="arg0" function="cn" thematicrole="cau" type="sp">en_materia_de seguridad de la aeronavegación</argument>, así_como mejoras en las condiciones de fortalecimiento de los sistemas de aviación civil de la región </argset>. </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="12.1.0.2.0" sentencenodepath="12">Esa asociación , que deberá tener_en_consideración el papel de la OACI , promoverá y Ø reforzará <argset>mejoras sostenibles en_materia_de seguridad de la aeronavegación , así_como <head>mejoras </head>
+            <argument argument="arg0" function="cn" thematicrole="cau" type="sp">en las condiciones de fortalecimiento de los sistemas de aviación civil de la región</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="13.0.3.2.1.1.0.0" sentencenodepath="13">" El aumento del grado de competencia reduce los márgenes , Ø obliga a buscar <argset><head>mejoras </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de eficiencia</argument></argset>y Ø conduce a la búsqueda de fórmulas de crecimiento que consuman pocos recursos propios y faciliten la rotación del activo " , concluyó Croissier . </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="3.2.3.1.3.2.0.1.1.2.0.1.1.0.0" sentencenodepath="3">Pla incidió en que ese trasvase es " necesario " , pero también lo es la mejor utilización y el aprovechamiento de " la poca agua que Ø tenemos " , y Ø acusó al Gobierno valenciano de no haber actuado en esta cuestión , con iniciativas como el riego localizado o por goteo , o programas de <argset><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la utilización de este recurso</argument></argset>. </example>
+        <example file="CESS-CAST-A/16875_20000321.tbf.xml" nodepath="2.2.7.2.1.0.3.3.1.1.1.1.1.4.1.1.0.0" sentencenodepath="2">Bell afirmó que la democracia de Colombia " es hoy una democracia amenazada " , por lo que Ø aseguró que la lucha contra la violencia y el narcotráfico es la prioridad de las autoridades , que se esfuerzan en hacer <argset><head>mejoras </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">legislativas y políticas</argument><reference_modifiers>encaminadas a la consecución de la paz</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="8.0.2.1.0" sentencenodepath="8">La elevación del techo competencial y <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la financiación</argument></argset>serán , asegura Ø , condiciones sin las que CiU no dará su apoyo a ningún gobierno . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="8.2.0.1.1.0" sentencenodepath="8">El creador comentó que <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la comunicación por carretera con la meseta</argument></argset>" no es suficiente " y que en esta Comunidad , " los equipos de trabajo se cansan y se hace difícil competir lejos de los aeropuertos y a más de cuatro horas de las áreas de consumo que son los grandes centros urbanos " . </example>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="7.2.5.1.1.0" sentencenodepath="7">Ø Ha probado nuevas relaciones de la caja de cambios y con el problema que representan los neumáticos , hasta mañana Ø no podrá comprobar si <argset><specifier>todas las</specifier><head>mejoras </head><reference_modifiers>introducidas</reference_modifiers></argset>marchan en la dirección correcta para volver a situarse entre los diez primeros en la formación de salida . </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="13.3.5.4.4.1.1.0" sentencenodepath="13">Sin_embargo , muchos analistas explican que el hecho de que la economía crezca tanto no implica un aumento de la inflación , pues Ø argumentan que el aumento de la actividad se debe a <argset><specifier>las</specifier><head>mejoras </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la productividad de los trabajadores</argument><reference_modifiers>, derivadas del cambio tecnológico</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6438_20000608.tbf.xml" nodepath="4.4.1.1.3.1.1.2.4.4.1.1.1.1.0" sentencenodepath="4">Después , Ø mantuvo un encuentro con la junta directiva local de la Asociación_de_Mujeres_y_Familias_del_Ambito_Rural ( AMFAR ) , cuya presidenta Mercedes_Mateo le pidió que Ø traslade al Gobierno su aspiración de <argset><specifier>una</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las infraestructuras</argument><reference_modifiers>, " como medio para lograr una mayor integración laboral de las mujeres de esta zona "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="4.2.1.2.1.1.2.1.0.2.3.2.1.1.1.1.1.1.0.0" sentencenodepath="4">La Proposición_de_Ley presenta la modificación de la 8/1972 de 10 de mayo , de " construcción , conservación y explotación de las autopistas en régimen de concesión " , añadiendo un artículo 15 bis sobre ajustes en las concesiones y tarifas que " pueden llegar a la reducción de las tarifas a pagar por los usuarios " , o a repercutir en las inversiones en <argset><head>mejoras </head><reference_modifiers>viarias</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/10_20010402_b.tbf.xml" nodepath="18.2.3.4.2.1.2.1.1.1.3.0.1.1.4.2.1.2.1.1.0" sentencenodepath="18">Ø Creo que Ø debiera iniciarse , porque una condición para que tales servicios se desarrollen es que exista una presión popular , resultado de que la ciudadanía sea consciente de que Ø tiene el derecho de tener tales servicios , exigiéndolos con igual contundencia que ahora se exige la mejora de la sanidad o de la educación , forzando una presencia mediática semejante a la que tiene el AVE o el cuarto cinturón de Barcelona , puesto_que la incidencia de estos servicios profamilia en <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la calidad de vida de nuestra ciudadanía</argument></argset>es mayor que la de aquellas intervenciones públicas . </example>
+        <example file="CESS-CAST-P/121_19991202_a.tbf.xml" nodepath="21.7.4.3.5.1.1.2.1.0.0" sentencenodepath="21">Como Ø suele ser habitual en todos los campeones , Sainz también se queja , aunque con la boca pequeña , de que el motor de su Ford debe mejorar para ser candidato a la victoria : " Ø No puedo emitir un juicio muy ajustado pues Ø acabo de llegar , pero Ø me han comentado que en el paquete de nuevas homologaciones , utilizables ya en Montecarlo , el motor contará ya con una serie importantes de <argset><head>mejoras </head></argset>" . </example>
+        <example file="CESS-CAST-P/13_19991201.tbf.xml" nodepath="4.3.0.1.2.1.3.1.0" sentencenodepath="4">Pero el nuevo presidente del Joventut tiene deseos de dinamizar la Penya y de que salgan bien <argset><specifier>las</specifier><head>mejoras </head><reference_modifiers>que planifica con los demás directivos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="1.1.1.1.4.2.0.0" sentencenodepath="1">En su origen , y de forma mayoritaria , las empresas que tenían establecidos planes de pensiones , como <argset><head>mejora </head><reference_modifiers>voluntaria</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las prestaciones de Seguridad_Social</argument></argset>, cubrían dichos compromisos mediante fondos internos , limitándose en algunos casos a simples apuntes contables , lo que podía crear una inseguridad jurídica de futuro a sus beneficiarios , en el supuesto de que la empresa deviniera insolvente , tal_como Ø ha ocurrido en algunos casos . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="18.1.1.0" sentencenodepath="18">Habrá <argset><specifier>una</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del modelo de financiación autonómica para Catalunya y para el conjunto de comunidades</argument></argset>. </example>
+        <example file="CESS-CAST-P/64_19990102.tbf.xml" nodepath="4.2.1.1.0" sentencenodepath="4">Alcober promete que <argset><specifier>las</specifier><head>mejoras </head><reference_modifiers>concretas</reference_modifiers><reference_modifiers>que el ayuntamiento lleva_a_cabo en la zona</reference_modifiers></argset>cambiarán el aspecto de las calles de Antoni_de_Capmany y Jocs_Floras y su entorno inmediato . </example>
+        <example file="CESS-CAST-P/72_19990601.tbf.xml" nodepath="3.2.1.1" sentencenodepath="3">La carretera supondrá <argset><specifier>una</specifier><reference_modifiers>importante</reference_modifiers><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las comunicaciones</argument></argset>en la zona del Cadí ya_que Ø enlazará el Alt_Urgell con el Berguedà y también con el Solsonès . </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="10.0.1.2.5.1.1.1.1.1.1.1.1.2.2.0.0" sentencenodepath="10">La presidencia española , que ayer sólo tuvo que hacer_frente a las protestas de una treintena de miembros de un sindicato del Cuerpo_Nacional_de_Policía que reclamaba <argset><head>mejoras </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">salariales</argument></argset>, se estrena también con una apuesta por las patentes comunitarias y nuevas mejoras para proteger las marcas " ante las nuevas circunstancias " derivadas de Internet . </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="10.4.1.1.1.1.2.0.1" sentencenodepath="10">La presidencia española , que ayer sólo tuvo que hacer_frente a las protestas de una treintena de miembros de un sindicato del Cuerpo_Nacional_de_Policía que reclamaba mejoras salariales , se estrena también con una apuesta por las patentes comunitarias y <argset><reference_modifiers>nuevas</reference_modifiers><head>mejoras </head></argset>para proteger las marcas " ante las nuevas circunstancias " derivadas de Internet . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="7.2.3.2.2.1.1.1.0.1.2.1.0" sentencenodepath="7">Ports_de_la_Generalitat también actuará para integrar los puertos y sus instalaciones en el entorno social y municipal en el que Ø están situados e Ø impulsará la cultura marinera , mediante el fomento y la promoción de actividades que supongan <argset><specifier>una</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la oferta cultural , turística y social</argument></argset>. </example>
+        <example file="CESS-CAST-P/7_19990901.tbf.xml" nodepath="11.1.4.1.0.1.6.1.2.1.1.0" sentencenodepath="11">Y tal_como Ø se ha llevado desde CiU - - que dentro de pocas semanas apoyará los Presupuestos_del_Estado sin condicionar su voto a <argset><specifier>una</specifier><head>mejora </head><reference_modifiers>real</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">para los pensionistas</argument></argset>- - Ø se traducirá en un nuevo recelo anticatalán en otros puntos de España . </example>
+        <example file="CESS-CAST-P/81_20000201.tbf.xml" nodepath="2.0.0.1.1.1.0" sentencenodepath="2">Algunas de <argset><specifier>las</specifier><head>mejoras </head></argset>que introduce la nueva norma tendrán dificultades para ser aplicadas de modo inmediato , especialmente por la falta de medios humanos y materiales de las oficinas de extranjería del Ministerio_del_Interior , responsables de tramitar la mayoría de permisos . </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="12.3.2.1.1.1.3.1.1.0" sentencenodepath="12">" Lo más importante - - recalcó Ø - - no son las 7.800 pesetas , sino_que se vuelva a plantear que los beneficios que España_SA obtiene de <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la situación económica</argument></argset>se dediquen en_parte a hacer justicia social a los más necesitados " . </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="16.2.3.1.2.1.1.1.0" sentencenodepath="16">Pujol dio ayer por zanjado el asunto de la torna de las pensiones catalanas y Ø puso el acento en dedicar los esfuerzos futuros en este campo en conseguir <argset><specifier>una</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de todos los subsidios más bajos</argument></argset>. </example>
+        <example file="CESS-CAST-P/86_20000401.tbf.xml" nodepath="13.0.3.1.0" sentencenodepath="13">Con la reorganización de las terminales se persigue <argset><specifier>una</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la calidad del servicio</argument></argset>, pero el olvido de la señalización no colabora precisamente en la consecución del objetivo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="mejorar" originlink="verb.mejorar.1" wordnetsynset="16:00159157">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10664_20000117.tbf.xml" nodepath="6.3.1.1.1.4.2.0.1.1.2.1.0" sentencenodepath="6">En la conferencia de prensa Pedro_Antonio_Ríos expresó su deseo de que durante el periodo que falta para las elecciones se hable de alternativas y se hagan propuestas sobre el empleo , <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las condiciones laborales</argument></argset>y el modelo de Estado . </example>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="2.3.3.2.1.4.1.3.4.1.0" sentencenodepath="2">En un resumen sobre las actividades que Ø realizó en la isla , el gobernante venezolano dijo que la Cumbre sirvió para que los representantes de los diversos países se conocieran personalmente y para que Ø se plantearan un plan común de una década , que tiene como objetivo fundamental <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las relaciones sur-sur</argument></argset>. </example>
+        <example file="CESS-CAST-A/13108_20000120.tbf.xml" nodepath="0.4.1.0.1.1.1.1.1.0.0" sentencenodepath="0">El Banco_Interamericano_de_Desarrollo ( BID ) prestará a Perú 120 millones de dólares como apoyo a un programa de <argset><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la calidad y cobertura de la educación secundaria en el país andino</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="mejorar" originlink="verb.mejorar.1" wordnetsynset="16:05480347">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="6" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20551_20000128.tbf.xml" nodepath="0.4.1.1.1.2.1.0.2.1.0.2.1.0.0" sentencenodepath="0">El pleno de la Diputación_Permanente_del_Congreso se reunirá el próximo Martes para debatir la convalidación o no del Real_Decreto aprobado el pasado día_14_de_enero por el Consejo_de_Ministros sobre determinadas medidas de <argset><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la protección familiar de la Seguridad_Social</argument></argset>. </example>
+        <example file="CESS-CAST-P/10_20010402_b.tbf.xml" nodepath="18.2.3.4.2.1.2.1.1.1.3.0.1.1.3.1.1.1.2.1.1.1.1.4.1.0" sentencenodepath="18">Ø Creo que Ø debiera iniciarse , porque una condición para que tales servicios se desarrollen es que exista una presión popular , resultado de que la ciudadanía sea consciente de que Ø tiene el derecho de tener tales servicios , exigiéndolos con igual contundencia que ahora se exige <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la sanidad o de la educación</argument></argset>, forzando una presencia mediática semejante a la que tiene el AVE o el cuarto cinturón de Barcelona , puesto_que la incidencia de estos servicios profamilia en la mejora de la calidad de vida de nuestra ciudadanía es mayor que la de aquellas intervenciones públicas . </example>
+        <example file="CESS-CAST-P/30_20020801_d.tbf.xml" nodepath="2.2.1.1.1.1.0.0" sentencenodepath="2">La tala forma_parte de las obras de <argset><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del club , que prevé plantar otros 150 ejemplares</argument></argset>. </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="2.0.0.2.1.0" sentencenodepath="2">El incremento de aviones a disposición de la Alianza - - su número se ha duplicado respecto_al inicio del conflicto - - y <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las condiciones meteorológicas</argument></argset>permitieron que entre la tarde del Jueves y la madrugada del viernes salieran en total 600 vuelos , de los que la mayoría pudieron cumplir sus objetivos de ataque , informó el general Maroni . </example>
+        <example file="CESS-CAST-P/50_19991101.tbf.xml" nodepath="3.3.1.2.2.4.1.0" sentencenodepath="3">En esta zona de Manresa se están realizando otras actuaciones para mejorar la circulación y la apertura de la ciudad al Eix_Transversal , como la prolongación de la calle de la Pau , el camino del Aigua y <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la calle de la Concòrdia , que podría abrirse al tráfico este mes</argument></argset>. </example>
+        <example file="CESS-CAST-P/75_20020102.tbf.xml" nodepath="4.3.1.1.0" sentencenodepath="4">A_través_de un comunicado , Trànsit apuntó que <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las estadísticas</argument></argset>hay que atribuirla en_especial a que los conductores han asumido la necesidad de adoptar una actitud más prudente al volante . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="6.2.1.0" sentencenodepath="6">Otra de las cuestiones a las que Ø dedicará especial atención será <argset><specifier>la</specifier><head>mejora </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las infraestructuras , instalaciones y servicios portuarios</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">, para rentabilizar mejor las inversiones y para capitalizar los beneficios</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="herencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="heredar" originlink="verb.heredar.1" wordnetsynset="16:03850874+16:00051119">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="4" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e2-1.tbf.xml" nodepath="3.3.2.2.1" sentencenodepath="3">Por_otra_parte la cultura podía ser una adquisición acumulativa , esto_es <argset>, <specifier>una</specifier>- <head>herencia </head>
+            <argument argument="arg2" function="cn" thematicrole="tem" type="s.a">social</argument>- </argset>. </example>
+        <example file="3LB-CAST/e2-1.tbf.xml" nodepath="4.1.1.1" sentencenodepath="4">Es_más , <argset><specifier>la</specifier>- <head>herencia </head><argument argument="arg2" function="cn" thematicrole="tem" type="s.a">social</argument>- </argset>llegaría a ser una - herencia histórica - común a toda la humanidad . </example>
+        <example file="3LB-CAST/e2-1.tbf.xml" nodepath="4.3.1.1" sentencenodepath="4">Es_más , la - herencia social - llegaría a ser <argset><specifier>una</specifier>- <head>herencia </head><argument argument="arg2" function="cn" thematicrole="tem" type="s.a">histórica</argument>- <reference_modifiers>común a toda la humanidad</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/e2-1.tbf.xml" nodepath="5.0.4.1.2.1.0.0" sentencenodepath="5">De_todos_modos , vistas las pluralidades sociales y la evolución diferenciada de las diversas sociedades , - una - cultura designa un tipo particular de <argset><head>herencia </head><argument argument="arg2" function="cn" thematicrole="tem" type="s.a">social</argument></argset>: según Linton la cultura en su conjunto se compone de gran número de culturas , cada una de las cuales es característica de un grupo determinado de individuos . </example>
+        <example file="CESS-CAST-AA/6736_20000208.tbf.xml" nodepath="0.5.1.0.1.1.1.0" sentencenodepath="0">Los funcionarios del Gobierno_de_Estados_Unidos no podrán ser discriminados en sus puestos de trabajo por razón de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>herencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">genética</argument></argset>, según una orden firmada hoy por el presidente Bill_Clinton . </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="7.1.3.1.1.1.0" sentencenodepath="7">Sin_embargo , tanto en_lo_concerniente_a la URSS como a la supuesta nueva Rusia , se utilizaron unos extremos que no se conforman a la realidad histórica : no podía enfocarse el futuro de aquel país , como de_hecho de ningún otro , haciendo tabla_rasa de la herencia del pasado y es precisamente <argset><specifier>esa</specifier><head>herencia </head><reference_modifiers>, más viva de lo que muchos quisieran ,</reference_modifiers></argset>lo que ha producido la actual situación de descomposición del Estado ruso . </example>
+        <example file="CESS-CAST-P/1_20000702.tbf.xml" nodepath="11.2.1.1.3.0.1.0" sentencenodepath="11">La fabulosa herencia de Carlos_V , la monarquía hispánica y Reyes Poderosos son tres apartados donde se explican <argset><specifier>la</specifier><head>herencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">territorial</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del primer monarca de la Casa_de_Austria , " que tenía en España su núcleo de poder "</argument></argset>; la defensa de la unidad católica y de la " hegemonía de España " llevada_a_cabo por su hijo Felipe_II , y la " epopeya americana " que supuso la colonización de las Indias . </example>
+        <example file="CESS-CAST-P/20_19991202.tbf.xml" nodepath="0.0.0.1.2.1.0.0" sentencenodepath="0">Antes de hablar de herederos y de <argset><head>herencia </head></argset>, el Govern de CiU debe enfrentarse a la cuestión largamente ocultada de los intereses económicos y familiares incrustados en la política catalana . </example>
+        <example file="CESS-CAST-P/20_19991202.tbf.xml" nodepath="25.0.0.1.1.1.2.1.0.0" sentencenodepath="25">Antes de hablar de herederos y de <argset><head>herencia </head></argset>, por_favor , hagamos Ø que Ø podamos vivir en una casa limpia . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="31.2.1.0.0" sentencenodepath="31">Hassan_II dejó en <argset><head>herencia </head></argset>a su primogénito un Parlamento totalmente balcanizado , con infinidad de grupos políticos creados artificialmente y sin ninguna representatividad popular . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="heredar" originlink="verb.heredar.1" wordnetsynset="16:00051119">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="7.1.1.3.2.1.1.0" sentencenodepath="7">Sin_embargo , tanto en_lo_concerniente_a la URSS como a la supuesta nueva Rusia , se utilizaron unos extremos que no se conforman a la realidad histórica : no podía enfocarse el futuro de aquel país , como de_hecho de ningún otro , haciendo tabla_rasa de <argset><specifier>la</specifier><head>herencia </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">del pasado</argument></argset>y es precisamente esa herencia , más viva de lo que muchos quisieran , lo que ha producido la actual situación de descomposición del Estado ruso . </example>
+        <example file="CESS-CAST-P/1_20000702.tbf.xml" nodepath="11.0.0.1.1" sentencenodepath="11"><argset><specifier>La</specifier><reference_modifiers>fabulosa</reference_modifiers><head>herencia </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de Carlos_V</argument></argset>, la monarquía hispánica y Reyes Poderosos son tres apartados donde se explican la herencia territorial del primer monarca de la Casa_de_Austria , " que tenía en España su núcleo de poder " ; la defensa de la unidad católica y de la " hegemonía de España " llevada_a_cabo por su hijo Felipe_II , y la " epopeya americana " que supuso la colonización de las Indias . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

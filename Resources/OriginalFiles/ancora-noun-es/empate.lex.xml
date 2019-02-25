@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="empate" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="empatar" originlink="verb.empatar.1" wordnetsynset="16:10087349">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="2" preposition="sin" type="sp"/>
+        <constituent frequency="4" type="sn"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="frente_a" type="sp"/>
+        <constituent frequency="1" preposition="ante" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="atr">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="3" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" postype="article" type="determiner"/>
+        <constituent frequency="7" postype="numeral" type="determiner"/>
+        <constituent frequency="13" postype="indefinite" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-6.tbf.xml" nodepath="9.0.0.1.0" sentencenodepath="9"><argset><specifier>El</specifier><head>empate </head></argset>resultó correcto geográficamente , pero futbolísticamente Ø ofreció sólo una apariencia de justicia . </example>
+        <example file="3LB-CAST/d1-8.tbf.xml" nodepath="9.0.0.1.0" sentencenodepath="9"><argset><specifier>El</specifier><head>empate </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">a dos</argument></argset>convierte el partido de vuelta en una amenaza , pero no en una sentencia , para el Madrid . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="1.6.2.1.1.1.2.1.0" sentencenodepath="1">Hasta ahora , Rayo y Deportivo se habían enfrentado ocho veces en Primera_División , con un saldo de tres victorias del conjunto coruñés y <argset><specifier>cinco</specifier><head>empates </head></argset>. </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="17.3.1.0.1.0" sentencenodepath="17">Los últimos quince duelos ligueros entre ambos se han saldado con <argset><specifier>diez</specifier><head>empates </head></argset>y cinco triunfos realistas . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="20.2.2.1.0" sentencenodepath="20">Henrique_da_Silva 'Catanha' ganó la partida a Jimmy_Hasselbaink en el estadio Vicente_Calderón y su equipo , el Málaga , consiguió <argset><specifier>un</specifier><head>empate </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">ante el Atlético_de_Madrid</argument><argument argument="argM" function="cn" thematicrole="atr" type="sn">( 2-2 )</argument><reference_modifiers>que complica la permanencia en Primera de un conjunto madrileño que lleva once jornadas sin vencer</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="26.0.2.1.1.2.1.0" sentencenodepath="26">El delantero del Racing Salvador_Ballesta , que fue líder de la tabla de artilleros durante muchas jornadas en la primera vuelta y que hace una semana puso_fin a una sequía goleadora que duró casi tres meses , firmó el tanto que dio <argset><specifier>el</specifier><head>empate </head></argset>a su equipo ante el Valladolid ( 1-1 ) y , con 23 dianas , Ø vuelve a estar en lo más alto de esa clasificación , junto_con Catanha y Hasselbaink . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="28.2.0.1.1.3.1.0" sentencenodepath="28">El equipo vasco , tras caer derrotado en terreno del Mallorca ( 2-0 ) , ya lleva cinco jornadas sin vencer , mientras_que el Celta , que cedió <argset><specifier>un</specifier><head>empate </head></argset>en casa frente al Numancia ( 0-0 ) , encadena seis sin saborear una victoria . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="20.0.1.0.0" sentencenodepath="20">Al <argset><head>empate </head></argset>siguió algo de vértigo con jugadas salientes en las que Saviola para el River_Plate y Delgado para el Boca_Juniors a punto estuvieron de poner en ventaja a sus equipos . </example>
+        <example file="CESS-CAST-A/13710_20001017.tbf.xml" nodepath="12.2.0.1.0.0" sentencenodepath="12">Este Mundial se juega al mejor de 16 partidas y en_caso_de <argset><head>empate </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">a ocho</argument></argset>Kasparov conserva el título . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="4.0.2.1.0" sentencenodepath="4">La encuesta de la cadena ABC dio <argset><specifier>un</specifier><head>empate </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">con un 41_por_ciento a_favor_de cada candidato</argument></argset>y un 14_por_ciento señaló que había habido un empate . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="4.2.2.2.1.0" sentencenodepath="4">La encuesta de la cadena ABC dio un empate con un 41_por_ciento a_favor_de cada candidato y un 14_por_ciento señaló que había habido <argset><specifier>un</specifier><head>empate </head></argset>. </example>
+        <example file="CESS-CAST-A/14699_20001018.tbf.xml" nodepath="5.1.1.2.1.2.1.0.1.1.2.1.0" sentencenodepath="5">Con esta decisión , su compatriota Yober_Ortega , segundo en las listas de la AMB con récord de 30 victorias , <argset><specifier>un</specifier><head>empate </head></argset>y tres derrotas , viajará a Tokio donde el próximo 23_de_septiembre Ø tendrá una segunda oportunidad , tras perder hace un año con Cermeño , para conquistar la diadema interina cuando Ø enfrente al japonés Kozo_Ishii , que actualmente ocupa el tercer puesto de la categoría Supergallo . </example>
+        <example file="CESS-CAST-A/14819_20000121.tbf.xml" nodepath="3.3.1.1.1.1.1.1.1.1.5.1.0" sentencenodepath="3">El Cajacantabria comenzó la fase por la permanencia con cinco puntos , dos más que el Famadesa , al que también le valdría <argset><specifier>el</specifier><head>empate </head></argset>para continuar con sus aspiraciones y mantenerse en la categoría . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="0.0.0.1.4.2.1.1.1.0" sentencenodepath="0">Un " gigante " de nombre Rivaldo , que se bastó y sobró para dar <argset><specifier>el</specifier><head>empate </head></argset>al Barcelona ante el Milán ( 3-3 ) , y el " siempre oportunista " Filippo_Inzaghi , autor del gol del Juventus_Turín en su visita al Deportivo_de_la_Coruña ( 1-1 ) , son destacados por la prensa italiana en_relación_a los encuentros europeos jugados anoche . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="10.2.2.1.0" sentencenodepath="10">El diario turinés de información general " La_Stampa " califica el enfrentamiento entre gallegos y piamonteses como " una dura batalla bajo la lluvia " , Ø considera <argset><specifier>el</specifier><head>empate </head></argset>como " importantísimo " para el Juventus e Ø indica que en el primer tiempo el " Deportivo era una furia que recuperaba balones en el centro del campo " . </example>
+        <example file="CESS-CAST-A/1538_20001103.tbf.xml" nodepath="5.0.0.1.4.1.1" sentencenodepath="5">Comentario : El campeón colombiano Atlético_Nacional sacó hoy <argset><specifier>un</specifier><reference_modifiers>valioso</reference_modifiers><head>empate </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">sin goles</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">, frente_a Millonarios ,</argument></argset>en el partido de ida de la final de la Copa_Merconorte de fútbol , competición que se disputa entre clubes de Perú , Ecuador , Colombia , Venezuela , Bolivia , México y Costa_Rica . </example>
+        <example file="CESS-CAST-AA/20131_20000224.tbf.xml" nodepath="14.0.3.0.0.1.0" sentencenodepath="14">" Ø Estamos deseando que comience el partido . <argset><specifier>El</specifier><head>empate </head><reference_modifiers>conseguido en Valencia</reference_modifiers></argset>nos ha dado más moral y además Ø contaremos con la afición , que está deseando que Ø hagamos un gran partido y que seguro que nos apoyará desde el comienzo " , finalizó Roberto_Carlos . </example>
+        <example file="CESS-CAST-AA/21333_20000326_b.tbf.xml" nodepath="1.2.3.1.0.2.5.0.1.0" sentencenodepath="1">El FC_Barcelona se impuso al Málaga ( 1-2 ) en La_Rosaleda y Ø logró su cuarta victoria consecutiva y la novena en toda su historia en terreno del equipo andaluz , donde Ø también ha cosechado <argset><specifier>seis</specifier><head>empates </head></argset>y seis derrotas . </example>
+        <example file="CESS-CAST-AA/21333_20000326_c.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">El Rayo_Vallecano consiguió <argset><specifier>un</specifier><head>empate </head></argset>en el Santiago_Bernabéu frente_al Real_Madrid ( 0-0 ) y Ø puso_fin a la excelente racha madridista en el coliseo blanco , donde el equipo de Vicente_del_Bosque había encadenado siete victorias ligueras consecutivas . </example>
+        <example file="CESS-CAST-AA/21333_20000326_c.tbf.xml" nodepath="3.2.1.1.1.0.0" sentencenodepath="3">El equipo de Del_Bosque es el rey del <argset><head>empate </head><reference_modifiers>, con 13</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/21333_20000326_d.tbf.xml" nodepath="3.6.1.1.1.1.2.1.0" sentencenodepath="3">Hasta ahora , Ø había visitado en cinco ocasiones al Alavés , una en Primera , tres en Segunda y una en Tercera , con un saldo de tres derrotas y <argset><specifier>dos</specifier><head>empates </head></argset>. </example>
+        <example file="CESS-CAST-AA/21333_20000326_e.tbf.xml" nodepath="2.5.2.1.1.1.2.1.0" sentencenodepath="2">El equipo mallorquín ha visitado en Liga al Valencia en trece ocasiones , con un bagaje de nueve derrotas y <argset><specifier>cuatro</specifier><head>empates </head></argset>. </example>
+        <example file="CESS-CAST-AA/21333_20000326_f.tbf.xml" nodepath="1.0.3.1.0.0" sentencenodepath="1">El Betis de Guus_Hiddink no pudo pasar del <argset><head>empate </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en casa</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">ante el Celta</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sn">( 0-0 )</argument></argset>y Ø aumentó a seis el número de jornadas consecutivas que Ø lleva sin ganar . </example>
+        <example file="CESS-CAST-AA/21333_20000326_h.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">El Athletic_de_Bilbao cedió <argset><specifier>un</specifier><head>empate </head></argset>en San_Mamés ante el colista Sevilla ( 1-1 ) y Ø ya encadena siete jornadas sin vencer , en las que Ø sólo ha sumado tres puntos de 21 posibles . </example>
+        <example file="CESS-CAST-AA/2181_20000504.tbf.xml" nodepath="0.3.1.1.1.0" sentencenodepath="0">El campeón Blooming , de Santa_Cruz , logró mantenerse hoy en la punta de la tabla de posiciones del torneo boliviano de fútbol al conseguir <argset><specifier>un</specifier><head>empate </head><argument argument="arg2" function="cn" thematicrole="atr" type="sn">2-2</argument></argset>en su visita al Atlético_Pompeya , en la ciudad amazónica de Trinidad , al noreste de Bolivia . </example>
+        <example file="CESS-CAST-AA/2181_20000504.tbf.xml" nodepath="1.2.1.1.1.1.1.0" sentencenodepath="1">El artillero Víctor_Hugo_"Tucho"_Antelo marcó los dos goles que dieron <argset><specifier>el</specifier><head>empate </head></argset>a Blooming , dirigido por el técnico argentino Carlos_Ramacciotti , y le permitieron sumar 21 puntos en la duodécima fecha del certamen nacional . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="17.4.2.1.0" sentencenodepath="17">El Unión_Española , en_tanto , que el fin de semana pasado ofreció la primera sorpresa del torneo de apertura al golear por 5-2 al O`Higgins_de_Rancagua , logró sacar este fin de semana <argset><specifier>un</specifier><head>empate </head><reference_modifiers>dramático</reference_modifiers><argument argument="arg2" function="cn" thematicrole="atr" type="sn">( 2-2 )</argument></argset>frente al Deportes_Concepción . </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="6.2.3.1.1.0" sentencenodepath="6">El subcampeón de Europa se alió con la fortuna en su segunda llegada al área navarra , en el minuto 18 , y un centro de Mendieta se tradujo en <argset><specifier>el</specifier><head>empate </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">a uno</argument></argset>al introducir Cruchaga el balón en propia puerta . </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="13.3.1.0" sentencenodepath="13">Aún_así , Lekunberri pudo devolver <argset><specifier>el</specifier><head>empate </head></argset>al marcador con un cabezazo que se estrelló en el poste ( m.89 ) . </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="13.0.1.0" sentencenodepath="13"><argset><specifier>El</specifier><head>empate </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Osasuna</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en El_Sadar</argument><reference_modifiers>, aplaudido en la grada por la afición madrileña ,</reference_modifiers></argset>espoleó a los de Martín_Prado . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="7.4.2.1.1.3.3.1.0" sentencenodepath="7">El gol no hizo cambiar el ritmo a River ni a la " U " , que logró <argset><specifier>el</specifier><head>empate </head></argset>a los 36 , cuando el árbitro Carlos_Amarilla se dejó engañar por Arancibia , que apretado por Sarabia se lanzó en el área , y concedió el penalti , convertido por González . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="9.0.0.1.0" sentencenodepath="9"><argset><specifier>El</specifier><head>empate </head></argset>le gustaba al River y Ø no lo disimuló , sobre_todo después de la expulsión de Ramos , por doble amonestación , en el 47 . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="9.0.4.1.0" sentencenodepath="9">Desde entonces Ø sólo ha conseguido <argset><specifier>tres</specifier><head>empates </head></argset>en el feudo del Deportivo y Ø ha cosechado cinco derrotas . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="18.5.2.1.1.1.2.1.0" sentencenodepath="18">Desde que Ø superó al Real_Madrid en la decimotercera jornada ( 1-0 ) , el equipo gallego sólo ha conseguido ocho puntos de treinta posibles , con un balance de seis derrotas , <argset><specifier>dos</specifier><head>empates </head></argset>y dos victorias . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="20.2.2.2.1.0" sentencenodepath="20">Jimmy_Hasselbaink marcó dos goles esta jornada y Ø ya suma 20 en lo que va de Liga , uno menos que el líder de la tabla de artilleros , Salva ( Racing ) , pero el Atlético_de_Madrid no los supo aprovechar y Ø cedió <argset><specifier>un</specifier><head>empate </head></argset>ante el Zaragoza . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="36.0.2.1.0" sentencenodepath="36">El Málaga cedió <argset><specifier>un</specifier><head>empate </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">sin goles</argument></argset>ante el Valladolid y Ø ya lleva cuatro partidos consecutivos en La_Rosaleda sin batir la portería contraria . </example>
+        <example file="CESS-CAST-AA/5021_20000206.tbf.xml" nodepath="3.0.3.1.1.0" sentencenodepath="3">Ø No marcó en <argset><specifier>el</specifier><head>empate </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">del partido inaugural</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sn">( 1-1 ante Chile )</argument></argset>y tampoco hoy , en la igualada frente_a Uruguay ( 2-2 ) . </example>
+        <example file="CESS-CAST-AA/5192_20000207.tbf.xml" nodepath="4.6.4.1.1.1.1.1.3.1.0" sentencenodepath="4">Su última derrota , antes de la sufrida ante el Garbel , se había producido en la cancha del Celje esloveno ( 35-32 , el 27_de_febrero_de_1999 ) , donde Ø inició una racha de 40 partidos ( 37 victorias y <argset><specifier>3</specifier><head>empates </head></argset>) sin perder . </example>
+        <example file="CESS-CAST-P/160_20011002.tbf.xml" nodepath="5.0.0.2.1.0" sentencenodepath="5">Cuatro victorias y <argset><specifier>un</specifier><head>empate </head></argset>en cinco jornadas , avalan la trayectoria del nuevo Inter . </example>
+        <example file="CESS-CAST-P/164_20011002.tbf.xml" nodepath="2.5.1.0.0" sentencenodepath="2">Los jugadores , mientras , no dieron gran relevancia al <argset><head>empate </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Valladolid</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Bernabéu</argument></argset>. </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="1.3.1.0.0" sentencenodepath="1">El equipo de Rubio no pasó del <argset><head>empate </head></argset>ante el Eibar en el inicio de la Liga_de_Segunda_División . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="13.1.4.2.1.1.3.1.1.1.0" sentencenodepath="13">Es_decir , encerrarse en su zona del campo para proteger la portería , ceder la posesión del balón al contrario y esperar algún contragolpe o una falta para ver si Ø podía conseguir algo más que <argset><specifier>el</specifier><head>empate </head></argset>. </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="22.2.1.1.0" sentencenodepath="22">Los pocos aficionados que se dieron cita en el Camp_d'Esports se llevaron un susto de muerte y , al_final , <argset><specifier>el</specifier><head>empate </head></argset>supo mejor de lo que cabía esperar . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

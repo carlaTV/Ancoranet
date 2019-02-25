@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="legislación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="legislar" originlink="verb.legislar.1" wordnetsynset="16:04906199">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="17" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="11" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060111_5-1.tbf.xml" nodepath="11.3.4.4.1.0.1.1.2.1.1.0" sentencenodepath="11">Al reiterar las críticas que Ø pronunció contra Stein ante la reunión del Consejo_Permanente_de_la_OEA , la embajadora peruana dijo que no se puede aceptar que las misiones observadoras se conviertan en instrumentos para avalar o no avalar procesos internos y rebatir <argset><specifier>la</specifier><head>legislación </head><reference_modifiers>interna</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/211_C-2.tbf.xml" nodepath="8.3.1.1.0" sentencenodepath="8">Para asegurar la aprobación un comité de esa rama del Congreso agregó a <argset><specifier>la</specifier><head>legislación </head></argset>un proyecto para crear un grupo de seguimiento de los derechos humanos en China . </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="3.3.3.1.1.0" sentencenodepath="3">Es a la tercera fórmula de la Fundamentación , que integra la determinación formal de la universalizabilidad de las máximas y la material que obliga a tratar a todo hombre como fin , a la que corresponde la ley fundamental de la Crítica_de_la_razón_práctica , como observa acertadamente Jose_Gomez_Caffarena , puesto_que una y otra apelan a <argset><specifier>la</specifier><head>legislación </head><reference_modifiers>( Gesetzgebung )</reference_modifiers><reference_modifiers>universal</reference_modifiers><reference_modifiers>que la Grundlegung había referido al todo de todos los fines , tanto de los seres racionales como fines en sí , cuanto de los propios fines que cada cual puede proponerse , es_decir , al enlace sistemático de los seres racionales en el - reino - ( - desde_luego que solo un ideal - , precisa Kant ) del que cada persona debe obrar como miembro colegislador</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/11470_20000515.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>La</specifier><head>legislación </head><reference_modifiers>electoral</reference_modifiers><reference_modifiers>dominicana</reference_modifiers><reference_modifiers>, que desde 1996 dispone la modalidad de colegios cerrados de votación ,</reference_modifiers></argset>establece que las mujeres votan en las primeras horas de la mañana y los hombres lo hacen por la tarde . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="15.0.1.0" sentencenodepath="15"><argset><specifier>La</specifier><head>legislación </head><reference_modifiers>electoral</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="s.a">dominicana</argument><reference_modifiers>, que desde 1996 dispone la modalidad de colegios cerrados de votación</reference_modifiers>, </argset>establece que las mujeres votan en las primeras horas de la mañana y los hombres lo hacen por la tarde . </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="1.2.6.2.1.1" sentencenodepath="1">Durante los 45 años de existencia en Sudáfrica de la segregación racial o apartheid , el color de la piel de una persona era el factor más importante para determinar su futuro ; hoy Ø ya no es así , aunque <argset><specifier>la</specifier><reference_modifiers>nueva</reference_modifiers><head>legislación </head></argset>no ha conseguido romper el desequilibrio existente . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="1.2.1.1.3.1.0" sentencenodepath="1">El titular del juzgado_de_Lo_Penal_3 de Barcelona , Santiago_Vidal , ha dictado una sentencia en la que Ø critica <argset><specifier>la</specifier><head>legislación </head><reference_modifiers>actual</reference_modifiers><reference_modifiers>, que permite " la simple expedición de la licencia de ciclomotores que la Autoridad_Provincial_de_Tráfico concede de forma indiscriminada y sin ningún control real , por vía de delegación a las autoescuelas de formación de conductores "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="3.3.1.1.1.1.1.0" sentencenodepath="3">Rodríguez , según Arias , expresó su disposición a aprobar <argset><specifier>la</specifier><head>legislación </head><reference_modifiers>necesaria</reference_modifiers></argset>para permitir la reelección presidencial , prohibida desde 1969 . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="7.2.2.2.1.1.0" sentencenodepath="7">Miles de integristas islámicos , violentos y contrarios a la violencia , se encuentran encarcelados en Egipto sin juicio merced_a esta ley e incluso algunos destacados sindicalistas y defensores de los derechos_humanos están procesados por tribunales militares y de seguridad del Estado bajo <argset><specifier>esta</specifier><head>legislación </head></argset>. </example>
+        <example file="CESS-CAST-AA/4506_20000406.tbf.xml" nodepath="4.3.3.1.0" sentencenodepath="4">El especialista holandés consideró " vital " que los Quince establezcan <argset><specifier>una</specifier><head>legislación </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para la estrategia de las pequeñas y medianas empresas ( PYMES ) en el sector de la defensa</argument></argset>, para poder hacer_frente a " la competencia " de los fabricantes de armamento de EEUU . </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="7.4.3.1.1.1.0.0" sentencenodepath="7">Por_otra_parte , Triadú también señaló que la Generalitat prepara un cambio de <argset><head>legislación </head></argset>a_través_de un nuevo decreto que permita usar la red viaria que depende de la Generalitat , así_como las vías de Ferrocarriles_Catalanes y de metro para que las operadoras de cable extiendan su red . </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="1.1.0.2.1.1.2.1.1.0" sentencenodepath="1">En una conferencia de prensa convocada en Alicante con_motivo_de la clausura de un seminario sobre los modelos de relación entre el sindicato y la sociedad organizado por UGT , Méndez apostó por un " cambio en <argset><specifier>la</specifier><head>legislación </head></argset>" y Ø resaltó que hay que " conectar la buena situación económica con un avance en la protección por desempleo " . </example>
+        <example file="CESS-CAST-AA/9580_20000512.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>La</specifier><head>legislación </head><reference_modifiers>electoral</reference_modifiers><reference_modifiers>dominicana</reference_modifiers></argset>exige que para triunfar en la primera vuelta es necesario que el candidato obtenga el 50_por_ciento más un voto del total de sufragios válidos emitidos . </example>
+        <example file="CESS-CAST-P/151_20010202.tbf.xml" nodepath="2.2.1.3.0.1.1.1.2.0.1.1.0.1.1.0" sentencenodepath="2">Bruselas advierte de que Ø no desea imponer al mundo del fútbol su propio sistema de traspasos , sino una solución que sea " compatible a_la_vez con <argset><specifier>la</specifier><head>legislación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">europea</argument></argset>y con el derecho nacional , y respete la libertad contractual " , según anunció Amelia_Torres , portavoz del comisario Mario_Monti . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="25.2.1.1.1.2.0.1.1.1.0.0" sentencenodepath="25">El uso de esta herramienta desde el hogar , el espacio laboral ( Ø sea fijo o a distancia ) o los ratos de ocio , plantea el dilema de quién es el propietario del mensaje en cada caso y qué tipo de <argset><head>legislación </head></argset>lo ampara . </example>
+        <example file="CESS-CAST-P/4_20020302.tbf.xml" nodepath="1.0.1.1" sentencenodepath="1"><argset><specifier>La</specifier><reference_modifiers>anterior</reference_modifiers><head>legislación </head></argset>obligaba a los agentes a perseguir al infractor y comunicarle la sanción al_momento . </example>
+        <example file="CESS-CAST-P/53_19990901.tbf.xml" nodepath="6.2.1.1.2.1.1.1.3.3.0.1.1.1.1" sentencenodepath="6">La normativa que hoy entra en vigor ha desencadenado las quejas de grupos ecologistas , e , incluso , de algunos países de la UE , como Holanda o Italia , que han presentado demandas a <argset><specifier>la</specifier><reference_modifiers>nueva</reference_modifiers><head>legislación </head></argset>. </example>
+        <example file="CESS-CAST-P/65_19991001.tbf.xml" nodepath="2.2.1.2.2.1.1" sentencenodepath="2">Las modificaciones han rebajado las garantías de respeto a la intimidad que ofrecía <argset><specifier>la</specifier><reference_modifiers>anterior</reference_modifiers><head>legislación </head></argset>, según el PSOE y NI . </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="2.2.1.1.0" sentencenodepath="2">La propuesta , que deberá ser aprobada en la cumbre de jefes de Estado y de Gobierno que se celebrará en Barcelona el próximo marzo , pretende cambiar <argset><specifier>las</specifier><head>legislaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los distintos países</argument></argset>para favorecer el intercambio de investigadores entre países , empresas , universidades y centros de investigación , con plena equiparación de títulos y méritos académicos , y sin que Ø pierdan oportunidades académicas por alternar distintos sectores . </example>
+        <example file="CESS-CAST-P/85_19990302.tbf.xml" nodepath="1.0.1.1.4.4.1.2.1.1.1.0" sentencenodepath="1">La industria , que genera constantes quejas de los vecinos de las calles limítrofes por la emisión de malos olores , pese_a_que Ø cumple todas las medidas de seguridad exigidas por <argset><specifier>la</specifier><head>legislación </head></argset>, ocupa un solar de 10.000 metros_cuadrados que no cumple los requisitos que le marca el Plan_General_Metropolitano ( PGM ) . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="6.2.3.3.2.1.0" sentencenodepath="6">La dirección de la compañía explicó que su intención es " negociar con los representantes sindicales locales , conforme_a <argset><specifier>la</specifier><head>legislación </head><reference_modifiers>en vigor</reference_modifiers><argument argument="argM" function="cn" type="sp">en cada país</argument></argset>" , para reducir " al máximo posible las consecuencias sociales " de los despidos . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="9.2.5.2.2.1.1.0.0" sentencenodepath="9">El representante del sindicato alemán IG_Metall , Albrecht_Kotitschke , dijo que " será difícil encontrar un denominador común " para las negociaciones europeas de un plan social , debido_a " las diferencias de <argset><head>legislación </head></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

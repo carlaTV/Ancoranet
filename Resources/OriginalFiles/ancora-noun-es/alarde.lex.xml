@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="alarde" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="alardear" originlink="verb.alardear.1" wordnetsynset="16:00335874+16:50000294">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="S"/>
+      </argument>
+      <argument argument="arg1">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c2-0.tbf.xml" nodepath="5.0.4.1.2.1.0" sentencenodepath="5">Entonces Ø se felicitan con chocar de palmas y <argset><specifier>mucho</specifier><head>alarde </head><argument argument="arg1" function="cn" type="sp">de festividad</argument></argset>, y Ø van a por la siguiente . </example>
+        <example file="3LB-CAST/dc10-12.tbf.xml" nodepath="12.2.2.0.0" sentencenodepath="12">Henry_Ford , por su parte , quiso dedicarse a la política , Ø hizo <argset><head>alardes </head><argument argument="arg1" function="cn" type="sp">de antisionismo</argument></argset>y Ø experimentó amargos fracasos en su afán de romper por la violencia la sindicación de sus obreros . </example>
+        <example file="3LB-CAST/dc2-8.tbf.xml" nodepath="1.3.0.1.1.1" sentencenodepath="1">Pero en_realidad no se trata , ni_mucho_menos , de un fenómeno parapsicológico , sino de <argset><specifier>un</specifier><reference_modifiers>revolucionario</reference_modifiers><head>alarde </head><argument argument="arg1" function="cn" type="s.a">tecnológico</argument><argument argument="arg0" function="cn" thematicrole="agt" type="S">ideado por Erich_Sutter , extrovertido físico del Instituto_de_Ciencias_Visuales_Smith-Kettlewell_de_San_Francisco</argument></argset>. </example>
+        <example file="3LB-CAST/t4-13.tbf.xml" nodepath="2.2.3.0.0" sentencenodepath="2">El hambre , la sed y el frío son amenazas constantes para todos los seres vivos , pero sólo nosotros los hombres hacemos de su satisfacción <argset><head>alarde </head><reference_modifiers>decorativo y vano</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="4.0.3.1.0" sentencenodepath="4">" Hacer nuestro trabajo , tan alejados de los grandes mercados , es <argset><specifier>un</specifier><head>alarde </head><argument argument="arg1" function="cn" type="sp">de voluntarismo</argument></argset>; así_que , después de tanto tiempo intentando hacer muchas cosas , y de hacerlas bien , si Ø no tenemos ventajas competitivas , no queda más remedio que estar donde está el gran consumo " , apuntó Ø . </example>
+        <example file="CESS-CAST-P/42_20020802.tbf.xml" nodepath="0.0.1.1.1" sentencenodepath="0">En <argset><specifier>un</specifier><reference_modifiers>nuevo</reference_modifiers><head>alarde </head><argument argument="arg1" function="cn" type="sp">de originalidad e inventiva</argument></argset>, TVE-1 estrenó el miércoles lo nunca visto : un musical veraniego . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="alardear" originlink="verb.alardear.1" wordnetsynset="16:50000294">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/82_19991202.tbf.xml" nodepath="9.1.1.2.3.1.0.0" sentencenodepath="9">Y los payeses urbanos , que quisieron hacer <argset><head>alarde </head><argument argument="arg1" function="cn" type="sp">de su cosecha</argument></argset>, prepararon una comida-barbacoa para que Mayol y Antoni_Falcón , director de Parques_y_Jardines , paladeasen sus hortalizas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="alardear" originlink="verb.alardear.1" wordnetsynset="16:00335874">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2938_20000303.tbf.xml" nodepath="4.2.2.0.1.0" sentencenodepath="4">Juan_Carlos_Aparicio ha apuntado que " <argset><specifier>el</specifier><head>alarde </head><argument argument="arg1" function="cn" type="sp">del buen humor</argument></argset>no es el_mío , Ø es el que Ø he visto que tiene este señor con barba , Serra ( candidato del PSC ) , cuando Ø habla de repartir el progreso " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ampliación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ampliar" originlink="verb.ampliar.1" wordnetsynset="16:00235235">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-3.tbf.xml" nodepath="12.2.3.4.1.1.0" sentencenodepath="12">El acuerdo prevé que Campofrío adquiera en metálico el 49,5_por_ciento del capital de Navidul y el restante 50,5_por_ciento Ø lo haga a_través_de <argset><specifier>una</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su capital</argument><argument argument="argM" function="cn" thematicrole="ext" type="sp">del 16_por_ciento</argument><reference_modifiers>, que suscribirá íntegramente la familia Díaz , accionista mayoritario de la sociedad absorbida</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/e2-0.tbf.xml" nodepath="12.4.1.0" sentencenodepath="12">Y , finalmente , de la antropología procede <argset><specifier>una</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del concepto de cultura</argument></argset>. </example>
+        <example file="CESS-CAST-A/11317_20000817.tbf.xml" nodepath="8.3.0.1.1.0.0.0.0" sentencenodepath="8">Desde entonces , el grupo concesionario , que en 1999 obtuvo ganancias por 18 millones de dólares y ventas por 80 millones de dólares , realizó obras de <argset><head>ampliación </head>y modernización de la Autopista_del_Oeste , una carretera de 51 kilómetros de extensión administrada bajo cobro de peaje </argset>. </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="0.2.2.2.2.1.0.1" sentencenodepath="0">El jefe del Gobierno bávaro , Edmund_Stoiber , se pronunció hoy por una suspensión de los fondos de cohesión para países como España , a_fin_de poder financiar la ampliación de la UE al Este , y Ø reiteró que convendría consultar al pueblo sobre <argset><reference_modifiers>dicha</reference_modifiers><head>ampliación </head></argset>. </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="1.3.1.1.1.1.0" sentencenodepath="1">Stoiber mencionó hoy , sábado , el asunto de <argset><specifier>la</specifier><head>ampliación </head></argset>en su discurso de apertura de la feria agrícola que se celebra durante la Fiesta_de_la_Cerveza_de_Múnich , en el que Ø se congratuló de que el comisario europeo alemán , el socialdemócrata Günter_Verheugen , haya lanzado el debate sobre la necesidad de una especie de referendo . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="3.4.0.3.1.0" sentencenodepath="3">Previamente , en una entrevista con el diario de Múnich " Süddeutsche_Zeitung " , Stoiber había precisado que Ø apoya <argset><specifier>la</specifier><head>ampliación </head></argset>, pero que antes habrá que asegurar su financiación , reformar estructuralmente la Unión_Europea ( UE ) e informar claramente a la población de lo que se pretende . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="4.0.2.1.1.0" sentencenodepath="4">El primer ministro bávaro considera que <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">a tres antiguos países del bloque comunista ( dos de ellos con poca población )</argument></argset>no es factible con los fondos asignados de_momento para la misma - 68.000 millones de euros para el periodo 2000 a 2006 - y Ø critica que para ese tiempo se haya previsto para los quince 632.0000 millones . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="5.0.1.1.1.0" sentencenodepath="5">Para que <argset><specifier>la</specifier><head>ampliación </head></argset>sea posible pronto , es necesario en primer lugar , según Stpiber , renunciar a los fondos de cohesión que reciben ahora España , Portugal , Irlanda o Grecia , que son países económicamente más fuertes que los candidatos a la adhesión ( Polonia , Hungría y República_Checa ) . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="8.0.1.3.1.0" sentencenodepath="8">Para que sea posible <argset><specifier>la</specifier><head>ampliación </head></argset>, Ø sostiene , hay que resolver también los mecanismos de toma de decisión en la UE y definir el reparto de competencias a largo plazo , que debe ser entre Europa , las naciones y las regiones . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="9.3.1.2.1.1.0" sentencenodepath="9">Stoiber no cuestiona la legitimidad en sí de <argset><specifier>la</specifier><head>ampliación </head></argset>, pues , Ø afirma , si Ø no hubiera sido por la división de Europa en dos bloques , " Polonia o Hungría no hubieran ingresado más tarde que España o Portugal , porque Ø son países que forman_parte del núcleo de Europa " . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="10.0.3.3.1.1.0" sentencenodepath="10">El político socialcristiano cree , sin_embargo , que hay que poner límites a <argset><specifier>la</specifier><head>ampliación </head></argset>, y Ø defiende que no se incluya a Turquía , porque Europa acabaría lindando con Irak e Irán , y que se puede asimilar Ucrania pero no Rusia . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="13.3.3.1.0.1.1.1.0" sentencenodepath="13">En el turno de réplicas , el portavoz socialista en la comisión , Rafael_Estrella , opinó que ensanchar las fronteras de la UE " sin fortalecer la unión política conduce al fracaso de <argset><specifier>esa</specifier><head>ampliación </head></argset>" . </example>
+        <example file="CESS-CAST-AA/5405_20000908.tbf.xml" nodepath="6.2.1.1.1.1.2.1.0" sentencenodepath="6">La placa comunitaria tiene una longitud de 520 milímetros , frente_a los 500 milímetros de la matrícula actual , <argset><specifier>una</specifier><head>ampliación </head><reference_modifiers>que haría imposible , con el tamaño actual de los caracteres , incluir la citada banda azul , distintivo provincial , cuatro números y tres letras</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="3.4.1.4.1.0.2.2.3.1.1.1.1.3.1.0.1.1.0.0" sentencenodepath="3">Según Triadú , " se trataría de que Microsoft sirviese de motor al eje tecnológico que quiere impulsar la Generalitat y que iría desde el campus de la Universidad_Autónoma_de_Barcelona ( UAB ) , pasaría por el Parque_Tecnológico_del_Vallés , que está en fase de <argset><head>ampliación </head></argset>; bajaría a_lo_largo_de la B-30 alcanzando el proyecto 22_@ en el Poblenou de Barcelona , y terminaría en el campus de Castelldefels de la Universidad_Politécnica_de_Cataluña ( UPC ) " . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="6.3.1.1.1.1.1.1.0.1.1.2.1.1.0" sentencenodepath="6">Por_último , esta Proposición pide la supresión de una serie de artículos referidos a los peajes y a <argset><specifier>las</specifier><head>ampliaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los plazos de las concesiones</argument><reference_modifiers>dadas a las empresas que explotan las autopistas de peaje en España</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="15.4.1.1.1.1.1.0" sentencenodepath="15">Si la cotización de Terra alcanza los 62 euros , Telefónica se verá liberada de acudir a <argset><specifier>la</specifier><head>ampliación </head></argset>, lo que se reflejará en su cotización . </example>
+        <example file="CESS-CAST-P/98_19990302.tbf.xml" nodepath="1.3.1.0.1.0" sentencenodepath="1">El grupo pretende ahora afrontar <argset><specifier>una</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de capital</argument><argument argument="argM" function="cn" thematicrole="ext" type="sp">, por un valor mínimo de 4.000 millones de pesetas</argument></argset>y la búsqueda de nuevos socios . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="sin" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="7.4.1.0.1.1.3.1.0" sentencenodepath="7">El político bávaro atribuye incluso la actual debilidad del Euro al hecho de que se está planeando <argset><specifier>una</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la UE</argument><reference_modifiers>sin suficiente base financiera</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="ampliar" originlink="verb.ampliar.1" wordnetsynset="16:00235235">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="12" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg3" thematicrole="ein">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="efi">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="10.3.2.1.0" sentencenodepath="10">Por otra parte , el texto de la patronal contempla la creación de nuevos contratos de trabajo enfocados a la reinserción laboral de una duración que podrá oscilar de 18 meses a cinco años y <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg3" function="cn" thematicrole="ein" type="sp">de ocho</argument><argument argument="arg4" function="cn" thematicrole="efi" type="sp">a doce meses</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del periodo de referencia ( durante el cual se exige haber trabajado cuatro meses ) para poder solicitar el subsidio de desempleo</argument></argset>. </example>
+        <example file="3LB-CAST/e2-3.tbf.xml" nodepath="9.0.1.0.1.2.3.1.1.2.2.1.0.0" sentencenodepath="9">En nombre de Dios , de la Civilización , de la Pacificación de los pueblos o de su Redención , es_decir , de los intereses económicos , de las necesidades adquisitivas de materias primas o de <argset><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de mercados</argument></argset>, la historia de la humanidad no ha sido sino una sucesión de guerras que supusieron la aniquilación , a manos de los vencedores , de culturas o civilizaciones seculares . </example>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="10.0.3.4.1.2.2.1.0" sentencenodepath="10">" Pero esta no es una respuesta totalmente negativa , por ello Ø también planteamos otras alternativas compensatorias , como <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Pacto_de_San_José</argument><reference_modifiers>, con lo que podemos subsidiar el 20_por_ciento</reference_modifiers></argset>" , indicó el mandatario . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="0.0.4.1.1.2.2.1.1.0" sentencenodepath="0">El jefe del Gobierno bávaro , Edmund_Stoiber , se pronunció hoy por una suspensión de los fondos de cohesión para países como España , a_fin_de poder financiar <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la UE</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">al Este</argument></argset>, y Ø reiteró que convendría consultar al pueblo sobre dicha ampliación . </example>
+        <example file="CESS-CAST-A/17715_20001022.tbf.xml" nodepath="0.2.1.1.1.1.2.1.1.1.1.0" sentencenodepath="0">La vicecanciller federal austriaca y sucesora del ultranacionalista Joerg_Haider en la Presidencia_del_Partido_Liberal ( FPOE ) , Susanne_Riess-Passer , defiende la celebración de un referéndum entre los ciudadanos de la Unión_Europea ( UE ) para decidir sobre <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>ampliación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">al Este</argument></argset>. </example>
+        <example file="CESS-CAST-A/17715_20001022.tbf.xml" nodepath="3.3.4.1.0" sentencenodepath="3">Ø Indicó que el referéndum debería celebrarse no_sólo en Austria , sino en todos los Estados miembros , aunque Ø defendió <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la Unión</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">hacia el este de Europa</argument></argset>, siempre_que Ø no perjudique a los intereses austriacos . </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="8.0.6.4.1.1.0.2.0" sentencenodepath="8">Ivanov tampoco se refirió directamente a la cuestión de la deuda cubana , aunque Ø expresó que <argset>la profundización y <head>ampliación </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">( de las relaciones La_Habana-Moscú )</argument>
+          </argset>responde a los intereses de Rusia y Ø aseguró que " se va a continuar en esa dirección " . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="14.3.0.1.3.1.2.1.1.0" sentencenodepath="14">" Ø Somos un_poco víctimas de nuestra propia criatura . Ø Estamos en una situación en la que no existe coherencia entre la política monetaria y las economías de los distintos países " , dijo Estrella , quien abogó por fijar " calendarios claros " en <argset><specifier>la</specifier><head>ampliación </head></argset>. </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="16.0.3.1.1.2.1.0.1.0" sentencenodepath="16">El portavoz del PP en la comisión , Guillermo_Martínez , coincidió con De_Miguel en la postura del Gobierno ante <argset><specifier>la</specifier><head>ampliación </head></argset>y la valoración de los votos , y Ø destacó su " rigor y flexibilidad " en el tratamiento de los asuntos de mayor calado de la UE . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="19.3.2.1.1.1.1.1.0" sentencenodepath="19">El diputado de Coalición_Canaria Luis_Mardones coincidió con De_Miguel en la exigencia de la ponderación adecuada del voto y en las prioridades de <argset><specifier>la</specifier><head>ampliación </head></argset>, aunque Ø pidió " más precisión " en los costes de financiación y más poder vinculante de la Carta . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="12.0.3.0.0.2.1.0" sentencenodepath="12">En_materia_de seguridad Ø anunció la profesionalización y <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la cobertura</argument></argset>de la Policía_Nacional_Civil , reformar el sistema penitenciario y migratorio , y Ø pidió a la comunidad internacional su apoyo para atender ese grave problema . </example>
+        <example file="CESS-CAST-P/3_20000602.tbf.xml" nodepath="5.5.1.1.1.0" sentencenodepath="5">Clos también repasará con Cascos el calendario previsto para que <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del recinto aeroportuario y la tercera pista</argument></argset>estén listos en el 2003 . </example>
+        <example file="CESS-CAST-P/56_20000801_f.tbf.xml" nodepath="1.2.1.1.1.0.0" sentencenodepath="1">La Conselleria_de_Medi_Ambient ha aprobado el proyecto de <argset><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la red de abastecimiento de agua potable de Juncosa</argument></argset>, por 73 millones , dentro_de un programa de actuaciones urgentes . </example>
+        <example file="CESS-CAST-P/56_20000801_f.tbf.xml" nodepath="3.3.1.1.1.1.1.2.1.1.0" sentencenodepath="3">Este problema llevó al ayuntamiento a sopesar la posibilidad de aceptar un vertedero industrial a_cambio_de <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la red de agua</argument></argset>. </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="18.2.2.3.1.1.1.0.1.1.1.0.1.1.0.1.1.0.0" sentencenodepath="18">Hace sólo 10 días , los sindicatos del metro alertaron de la mala conservación de algunos túneles y Ø denunciaron que la compañía cuenta con 100 trabajadores menos que al comienzo del plan de <argset><head>ampliación </head></argset>. </example>
+        <example file="CESS-CAST-P/67_20000902.tbf.xml" nodepath="14.2.1.1.3.2.0.1.1.0.0" sentencenodepath="14">Los analistas advierten de una creciente relación de las cotizaciones de Telefónica y Terra ( en proceso de <argset><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de capital</argument></argset>) . </example>
+        <example file="CESS-CAST-P/81_20000201.tbf.xml" nodepath="7.2.3.4.1.0.2.1.0" sentencenodepath="7">Onega anunció que todos los ministerios implicados han creado grupos de trabajo para hacer posible la aplicación de la ley y que el Gobierno ha decidido ya habilitar los créditos y <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de personal</argument></argset>necesarios . </example>
+        <example file="CESS-CAST-P/9_20010601_b.tbf.xml" nodepath="6.2.0.1.1.1.1.2.0.3.1.1.1.0" sentencenodepath="6">El Gobierno español tenía razón en exigir que , por simple ingeniería estadística derivada de <argset><specifier>la</specifier><head>ampliación </head></argset>, varias regiones ( Andalucía , Galicia , Extremadura ) no se quedaran sin los dichosos fondos ( casi un billón de pesetas anuales ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="ampliar" originlink="verb.ampliar.1" wordnetsynset="16:00235235">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="13.0.3.1.0" sentencenodepath="13">En la práctica , el acuerdo supuso <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de la flota pesquera</argument></argset>, como demuestra el hecho de que en 1992 había 60 buques congeladores de todo tipo en el país y hoy hay 300 , dijo hoy a EFE Juan_Villalonga , de Greenpeace . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="1.3.1.1.1.2.1.1.0" sentencenodepath="1">De_Miguel , quien compareció en el Congreso ante la comisión mixta para la Unión_Europea , apeló a un " sentimiento elemental de solidaridad " para defender la postura de España ante <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">europea</argument><reference_modifiers>, a la que definió como " una oportunidad y no una amenaza "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">Según De_Miguel , <argset><specifier>la</specifier><head>ampliación </head></argset>es el " objetivo fundamental " de la Unión , pero Ø subrayó que sería un " error " establecer plazos porque Ø iría " en_contra_de " los intereses de los propios países aspirantes . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">El ministro egipcio del Interior , general Habib_Al_Adli , justificó <argset><specifier>la</specifier><head>ampliación </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">por otros tres años</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del estado de emergencia , vigente en el país desde 1981 ,</argument></argset>al considerar que Ø es necesario para luchar contra el terrorismo . </example>
+        <example file="CESS-CAST-AA/24092_20000928.tbf.xml" nodepath="1.0.2.1.1.0" sentencenodepath="1">Soria consideró que <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las pistas</argument></argset>es " no_sólo importante , sino vital e incluso esencial para el desarrollo de Gran_Canaria " , y Ø consideró que la inclusión de 26.000 millones de pesetas en el plan para efectuar obras de reforma en el aeropuerto es " totalmente insuficiente " . </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="7.0.1.3.3.1.0" sentencenodepath="7">Los otros dos puntos capitales de la reforma , la composición de la Comisión_Europea y <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del número de decisiones que se adoptarán por mayoría</argument></argset>no se abordarán hasta mañana Lunes , cuando los ministros de Exteriores preparen la discusión de la cumbre de Biarritz . </example>
+        <example file="CESS-CAST-P/23_20000501.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un asentamiento judío</argument></argset>ensombrece el inicio de las negociaciones en Eilat . </example>
+        <example file="CESS-CAST-P/23_20000501.tbf.xml" nodepath="1.0.1.1.1.1.0" sentencenodepath="1">El anuncio de <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un asentamiento judío en Cisjordania</argument></argset>retrasó ayer el comienzo de las negociaciones de paz entre israelís y palestinos , que finalmente se iniciaron en el puerto de Eilat , a orillas del Mar_Rojo . </example>
+        <example file="CESS-CAST-P/34_19981202.tbf.xml" nodepath="10.2.1.1.0" sentencenodepath="10">El republicano Lindsey_Graham dijo que <argset><specifier>la</specifier><head>ampliación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la investigación contra Clinton</argument></argset>no impedirá que el comité lleve a votación la semana próxima la continuación del proceso contra el presidente . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

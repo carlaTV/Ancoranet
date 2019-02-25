@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="invento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="inventar" originlink="verb.inventar.1" wordnetsynset="16:02865563">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="4" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a1-0.tbf.xml" nodepath="2.2.4.1.1.4.1.1.0" sentencenodepath="2">Resulta entonces que Ø no practica las historias del espejo , del tomavistas o de <argset><specifier>todos esos</specifier><head>inventos </head><reference_modifiers>que tan poca ilusión nos producen ya</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc10-10.tbf.xml" nodepath="11.4.1.1.2.1.3.5.0.1.2.0" sentencenodepath="11">Al borde del siglo_XX , en el año_1900 , crean Daimler , su hijo Paul y Wilhelm_Maybach , un automóvil que reunía todos los adelantos técnicos del momento : 35 CV de potencia , carburador de inyección y neumáticos <argset>, <specifier>un</specifier>
+            <head>invento </head>
+            <reference_modifiers>reciente</reference_modifiers>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los hermanos Michelín de París</argument>
+          </argset>. </example>
+        <example file="3LB-CAST/dc10-9.tbf.xml" nodepath="3.5.5.1.1.0.2.1.1" sentencenodepath="3">El propio James_Watt , veinte años más tarde , se referiría a algo parecido , cuando Ø solicitó patente para lo que constituía <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>séptimo</reference_modifiers><head>invento </head></argset>. </example>
+        <example file="3LB-CAST/dc10-9.tbf.xml" nodepath="8.0.2.1.0" sentencenodepath="8">La oposición de los críticos y <argset><specifier>el</specifier><head>invento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del arranque eléctrico</argument></argset>arrumbaron definitivamente su notable idea . </example>
+        <example file="3LB-CAST/dc2-8.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>El</specifier><head>invento </head></argset>permite a personas totalmente impedidas llevar_a_cabo infinidad de tareas con tan_sólo mirar fijamente a la pantalla de un ordenador . </example>
+        <example file="CESS-CAST-A/15931_20000320.tbf.xml" nodepath="7.2.1.2.1.0.1.1.1.1.1.3.3.1.2" sentencenodepath="7">Ibarretxe destacó el papel de la Universidad como instrumento para formar las personas , que son las que " van a resolver los problemas de las propias personas " y que son , añadió Ø , <argset><specifier>el</specifier>" <reference_modifiers>gran</reference_modifiers><head>invento </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del siglo_XXI</argument>" </argset>. </example>
+        <example file="CESS-CAST-P/140_20011102.tbf.xml" nodepath="1.3.1.0.4.1.1.0" sentencenodepath="1">Javier_García_Sánchez ( Barcelona , 1955 ) pertenecía , decían Ø , al " núcleo riguroso " de <argset><specifier>aquel</specifier><head>invento </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">generacional</argument></argset>. </example>
+        <example file="CESS-CAST-P/16_20010901.tbf.xml" nodepath="6.4.2.0.1.1.0" sentencenodepath="6">" Hay que tirar por tierra tópicos como el de ' me_lo_van_a_quitar_de_las_manos ' o ' me_voy_a_hacer_millonario ' , porque con <argset><specifier>los</specifier><head>inventos </head></argset>se puede hacer dinero , pero no ser millonario " . </example>
+        <example file="CESS-CAST-P/16_20010901.tbf.xml" nodepath="8.0.4.1.0" sentencenodepath="8">" Detrás del tetrabrik , por_ejemplo , hay <argset><specifier>muchos</specifier><head>inventos </head><reference_modifiers>pequeños</reference_modifiers></argset>" , sostiene Ø . </example>
+        <example file="CESS-CAST-P/16_20010901.tbf.xml" nodepath="9.2.0.2.1.1.0" sentencenodepath="9">Su creatividad está tan ligada a <argset><specifier>los</specifier><head>inventos </head></argset>que hasta a su mujer Ø la conoció en el mundillo . </example>
+        <example file="CESS-CAST-P/26_19990701_a.tbf.xml" nodepath="80.0.1.0" sentencenodepath="80"><argset><specifier>Ese</specifier><head>invento </head></argset>permitía estirar el hilo de algodón mecánicamente sin que Ø se rompiera . </example>
+        <example file="CESS-CAST-P/48_19990802.tbf.xml" nodepath="9.2.2.1.1.2.1.1.1.1.1.1.1.2.1.0" sentencenodepath="9">Es posible que sea la posibilidad de aumentar la libertad de movimientos o de acentuar la individualidad de los ciudadanos que ofrecen <argset><specifier>estos</specifier><head>inventos </head></argset>lo que los hace tan deseados . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="efecto" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="afectar" originlink="verb.afectar.1" wordnetsynset="16:07766144">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-11.tbf.xml" nodepath="2.3.1.2.0.0" sentencenodepath="2">Cuando finalmente el paquete lumínico llega al receptor que se precipita hacia el observador , éste verá que , en_virtud_del <argset><head>efecto </head><reference_modifiers>Doppler</reference_modifiers></argset>, el aparato receptor registra una frecuencia mayor que la que ha venido midiendo él en su caída . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="efectuar" originlink="verb.efectuar.1" wordnetsynset="16:07766144">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="24" preposition="de" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="sobre" type="sp"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="2" preposition="para" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="3" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="27" type="void"/>
+        <constituent frequency="35" postype="article" type="determiner"/>
+        <constituent frequency="5" postype="demonstrative" type="determiner"/>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="23" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="11" type="S"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="4" type="sn"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-4.tbf.xml" nodepath="17.2.1.2.0.0" sentencenodepath="17">Hernando destacó que la reforma laboral de 1997 , fruto de los acuerdos alcanzados con los agentes sociales , tuvo <argset><head>efectos </head><reference_modifiers>" extraordinarios "</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre el empleo</argument></argset>y Ø sirvió para frenar el crecimiento " desbocado " de la inestabilidad laboral que se produjo a_partir_de 1986 . </example>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="7.0.0.1.0" sentencenodepath="7"><argset><specifier>Los</specifier><head>efectos </head><reference_modifiers>negativos</reference_modifiers><reference_modifiers>en plano interno</reference_modifiers></argset>fueron el pánico y la desconfianza de cientos de miles de rumanos en las autoridades del Estado , mientras en el ámbito exterior , el Fondo_Monetario_Internacional aplazó , ayer , miércoles , la prolongación del acuerdo con Rumanía , de importancia capital para el relanzamiento económico del país . </example>
+        <example file="3LB-CAST/d1-13.tbf.xml" nodepath="12.0.0.4.2.1.1" sentencenodepath="12">Cuando se cambia de cancha y de público ( con <argset><specifier>el</specifier>- <head>efecto </head><reference_modifiers>5-0</reference_modifiers>- <reference_modifiers>añadido</reference_modifiers></argset>) ; cuando se cambia de plantilla por pasar de la Liga_Europea a la ACB y al tercer extranjero , y cuando se pasa de cándidos árbitros extranjeros a árbitros españoles , todo puede cambiar en un par de días . </example>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>El</specifier><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las radiaciones ionizantes producidas por la fisión nuclear o cualquiera otra fuente radiactiva</argument></argset>depende en primer lugar del tipo de radiación : alfa , beta o gamma . </example>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="9.2.1.0" sentencenodepath="9">Se suelen dividir <argset><specifier>estos</specifier><head>efectos </head></argset>en dos grupos : somáticos y genéticos . </example>
+        <example file="3LB-CAST/dc1-12.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>Ciertos</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">somáticos</argument><reference_modifiers>como eritemas , anemias , necrosis y esterilidad , entre otros ,</reference_modifiers></argset>se hacen notar inmediatamente , en una clara relación causa_efecto que depende de la dosis recibida . </example>
+        <example file="3LB-CAST/dc1-12.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>Los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">genéticos</argument></argset>, por_último , son consecuencia de mutaciones provocadas por la radiación sobre las gónadas concretamente sobre el material hereditario de sus células . </example>
+        <example file="3LB-CAST/dc1-6.tbf.xml" nodepath="8.0.4.1.1.1" sentencenodepath="8">Una buena nevada conserva asimismo la tierra cultivable de <argset><specifier>los</specifier><reference_modifiers>temibles</reference_modifiers><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del hielo</argument></argset>, y Ø la mantiene en sus justas proporciones de humedad y temperatura . </example>
+        <example file="3LB-CAST/dc1-7.tbf.xml" nodepath="1.0.0.1.1.1.0" sentencenodepath="1">Uno de <argset><specifier>los</specifier><head>efectos </head><reference_modifiers>más temidos</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del exceso de precipitaciones o de la acumulación sobre puntos indeseados</argument></argset>son las avalanchas . </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="4.0.3.1.4.1.0" sentencenodepath="4">El estallido de la Primera_Guerra_Mundial , en 1914 , llevó muy poco después a que la humanidad contemplara con sus propios ojos <argset><specifier>los</specifier><head>efectos </head><reference_modifiers>combinados</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ciencia y guerra</argument></argset>: los espantos de los combates de trincheras y los bombardeos aéreos de ciudades quedaron ensombrecidos por un nuevo fantasma , el de las armas químicas . </example>
+        <example file="3LB-CAST/dc2-11.tbf.xml" nodepath="5.3.3.2.1.0" sentencenodepath="5">Ø Vemos , pues , que puede existir un corrimiento de frecuencias tanto al rojo como al azul , aunque <argset><specifier>el</specifier><head>efecto </head></argset>se conoce comúnmente por corrimiento gravitacional al rojo . </example>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="5.4.1.1.0" sentencenodepath="5">Once años después , en otoño de 1971 los científicos J._C._Hafele , de la Universidad_Washington_de_St.Louis , y Richard_Keating , del Observatorio_de_la_Marina_de_EE.UU. , decidieron comprobar <argset><specifier>el</specifier><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del corrimiento gravitacional al rojo</argument></argset>con ayuda de relojes . </example>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="8.0.1.1.2.1.0.0" sentencenodepath="8">En primer lugar el desplazamiento de las frecuencias por <argset><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la gravedad</argument></argset>, y en segundo , la dilatación del tiempo como consecuencia de la velocidad , predicho también por Einstein ( ver el primer capítulo de esta serie ) . </example>
+        <example file="3LB-CAST/dc2-13.tbf.xml" nodepath="3.2.2.1.1.1.1.1.0" sentencenodepath="3">Durante la etapa de aceleración del cohete , los científicos pudieron medir un desfase entre ambas frecuencias , pero este corrimiento se debía a la dilatación del tiempo causada por la velocidad , y no por la gravitación <argset>, <head>efecto </head>
+            <reference_modifiers>que por_otro_lado todavía no se manifestaba por no encontrarse el reloj a una altura suficiente</reference_modifiers>
+          </argset>. </example>
+        <example file="3LB-CAST/dc2-2.tbf.xml" nodepath="8.3.1.1.0" sentencenodepath="8">Al carácter imperceptible de tales armas contribuye en_gran_medida a <argset><specifier>este</specifier><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">psicológico</argument></argset>, dado_que existen tantas formas posibles de ataque que resulta imposible prever y organizar la defensa , ni_siquiera de forma pasiva . </example>
+        <example file="3LB-CAST/dc2-3.tbf.xml" nodepath="7.3.1.2.3.2.2.0.1" sentencenodepath="7">Este potente veneno gastrointestinal es en_realidad una proteína neurotóxica que , absorbida por el intestino , pasa a la sangre y alcanza el sistema nervioso , con <argset><reference_modifiers>terribles</reference_modifiers><head>efectos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para la víctima</argument><reference_modifiers>: visión doble o borrosa por dilatación de las pupilas , calambres musculares y parálisis progresiva de los músculos</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="9.5.2.3.1.0" sentencenodepath="9">Al_igual_que en los metales , en esta situación , la conductividad ( a ) disminuye como consecuencia de las vibraciones reticulares , lo que explica también <argset><specifier>el</specifier><head>efecto </head><reference_modifiers>, antes mencionado para el complejo TCNQ-TTF ,</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de aumento de 1 al disminuir la temperatura y , con ella , las vibraciones reticulares</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="10.3.1.1.1.0" sentencenodepath="10">Esta distorsión molecular ejerce probablemente una mayor influencia que <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">electrónicos</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de extensión del sistema</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="8.3.4.2.0.2" sentencenodepath="8">Sin_embargo , por_debajo_de 59 K a cae bruscamente y la sustancia se comporta como un semiconductor , a_consecuencia_del <argset><reference_modifiers>mencionado</reference_modifiers>- <head>efecto </head><reference_modifiers>Peierls</reference_modifiers>- <reference_modifiers>, en_cierto_modo análogo al efecto Jan-Teller</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="8.3.4.2.0.5.1.2.1.0.0" sentencenodepath="8">Sin_embargo , por_debajo_de 59 K a cae bruscamente y la sustancia se comporta como un semiconductor , a_consecuencia_del mencionado - efecto Peierls - , en_cierto_modo análogo al <argset><head>efecto </head><reference_modifiers>Jan-Teller</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="13.0.1.0" sentencenodepath="13"><argset><specifier>El</specifier><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la filosofía</argument></argset>es precisamente , para Kant , - la salud ( status_salubritatis ) de la razón . </example>
+        <example file="3LB-CAST/e3-3.tbf.xml" nodepath="6.0.4.2.1.1.0" sentencenodepath="6">Descartes había necesitado el recurso a la bondad divina como garantía de que Ø no me engaño al creer en la existencia de una realidad extramental , porque a <argset><specifier>tal</specifier><head>efecto </head></argset>era nulo el valor de la verdad del cogito , y Husserl pretenderá en_vano trascender el solipsismo de la conciencia fundando en ella el recurso a la intersubjetividad trascendental . </example>
+        <example file="3LB-CAST/r2-11.tbf.xml" nodepath="4.4.4.1.0.1.3.1.1.1.0.0" sentencenodepath="4">El país se ha parado , por_lo_menos políticamente , hasta_que Ø no encuentren a Roldán , que es una bomba de <argset><head>efectos </head><reference_modifiers>retardados</reference_modifiers></argset>, dando vueltas por los sueños de los políticos y de los financieros . </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="10.2.3.0.3.1.0.0" sentencenodepath="10">Milberg explicó que la solución encontrada con Alchemy es buena para la plantilla y Ø no será con <argset><head>efectos </head><reference_modifiers>retroactivos al 1_de_enero_del_2000</reference_modifiers></argset>, como se había apuntado , sino_que Ø se cerrará definitivamente en las próximas semanas . </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="7.0.4.1.0" sentencenodepath="7">Al final de los 12 asaltos , Morales y Barrera mostraban en sus respectivos rostros <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la encarnizada pelea que dejó al campeón invicto con el ojo derecho semitapado y sangrando</argument></argset>, mientras_que Barrera tenía un corte profundo en el pómulo izquierdo . </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="11.4.0.1.4.1.2.1.1.0" sentencenodepath="11">Morales recibió en el duodécimo asalto la cuenta de protección después que el árbitro de la pelea , Mitch_Halpern , consideró a sólo 45 segundos del final una caída por empujón de Barrera como <argset><specifier>el</specifier><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de una izquierda cruzada</argument></argset>. </example>
+        <example file="CESS-CAST-A/16230_20000220.tbf.xml" nodepath="15.2.1.1.2.1.3.1.1.1.1.0.1.2.1.0" sentencenodepath="15">La clave de la pelea , que fue un intercambio feroz de golpes desde el inicio de la campana , estuvo en el quinto asalto cuando Morales colocó una serie de derechas potentes a la cabeza de Barrera que sintió <argset><specifier>el</specifier><head>efecto </head></argset>y Ø lo tuvo por casi un minuto al borde del nocaut . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="10.2.1.1.2.1.0.0" sentencenodepath="10">Fuentes del sector crítico de CDC , opinan que el " golpe de <argset><head>efecto </head></argset>" de Esteve ha sorprendido favorablemente , ya_que Ø reconduce la situación interna hacia un nuevo escenario en el que se pueden conciliar mejor las distintas sensibilidades del partido . </example>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="0.3.1.1.1.1.0" sentencenodepath="0">El ministro de Hacienda de Colombia , Juan_Manuel_Santos , manifestó hoy su cautela respecto_a <argset><specifier>los</specifier><head>efectos </head><reference_modifiers>que puedan producir sobre el mercado internacional del café las fuertes heladas que se han registrado en los últimos días en Brasil , el mayor productor del grano en el mundo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="3.5.2.1.0.1.0" sentencenodepath="3">La semana anterior , en los estados cafetaleros de Paraná y Sao_Paulo , y en el Estado_de_Minas_Gerais , se registraron fuertes heladas que ocasionaron daños a las plantaciones , aunque sobre <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>efecto </head></argset>y cuantificación aún no hay informaciones precisas . </example>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="6.3.0.2.0.2.1.1.0" sentencenodepath="6">Santos , que ocupó el cargo de delegado de Colombia ante la Organización_Internacional_del_Café ( OIC ) durante ocho años , pidió a los caficultores no crearse falsas expectativas sobre <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las heladas en Brasil</argument></argset>y persistir en el empeño de mejorar la productividad y la eficiencia de sus fincas . </example>
+        <example file="CESS-CAST-A/17384_20000221.tbf.xml" nodepath="0.0.2.0.0" sentencenodepath="0">El uso indiscriminado de alimentos granulados , concentrados o deshidratados en la preparación de caldos y sopas tiene <argset><head>efectos </head><reference_modifiers>nocivos</reference_modifiers><reference_modifiers>para la salud</reference_modifiers></argset>, denunció hoy la Asociación_Mexicana_de_Estudios_para_la_Defensa_del_Consumidor ( AMEDEC ) . </example>
+        <example file="CESS-CAST-A/17655_20000125.tbf.xml" nodepath="0.2.0.1.0.1.1.3.0.0" sentencenodepath="0">La intención del Gobierno sudafricano de crear igualdad de oportunidades laborales y erradicar los abusos del pasado racista ha llevado a elaborar y aplicar nuevas leyes , pero de manera tan acelerada que Ø han producido <argset><head>efectos </head><reference_modifiers>contrarios a los que se pretendía</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17745_20000322.tbf.xml" nodepath="3.0.2.0.1.4.1.0.1.0" sentencenodepath="3">La revista abordará temas que van " desde la prevención de los problemas mecánicos hasta <argset><specifier>los</specifier><head>efectos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">sobre los conductores de algunos medicamentos</argument>, </argset>o la seguridad de los menores cuando Ø viajan en los automóviles " , dijo Veiga . </example>
+        <example file="CESS-CAST-AA/20018_20000127.tbf.xml" nodepath="10.3.1.0.0" sentencenodepath="10">Enersis dejó en diciembre pasado sin <argset><head>efecto </head></argset>una anunciada venta de la sanitaria Aguas_Cordillera , a_raíz_de un fallo de la comisión resolutiva de la Fiscalía_Antimonopolios que ya había paralizado la licitación de la sanitaria el 21_de_octubre del año pasado . </example>
+        <example file="CESS-CAST-AA/20525_20000325.tbf.xml" nodepath="4.3.4.1.0.1.1.1.3.1.0.4.1.0" sentencenodepath="4">A este respecto , Ø comentó que la consecución de otra tregua no depende del PNV , EH o EA , partidos que , en su opinión , son los que " más directamente están acusando <argset><specifier>los</specifier><head>efectos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">" de la " no distensión "</argument></argset>cuando Ø han sido quienes " más han invertido " para que Ø se produjera . </example>
+        <example file="CESS-CAST-AA/20686_20001025.tbf.xml" nodepath="10.5.3.1.1.1.1.3.1.0.0" sentencenodepath="10">En el primer intento el buzo no logró adentrarse más de cinco metros porque su voluminosa escafandra resultó más ancha que el pasillo , al_parecer desfigurado por <argset><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las misteriosas explosiones que hundieron el " Kursk " durante unas maniobras navales</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="2.1.0.2.3.1.1.1.1.0.1.1.0.1.1.0.0" sentencenodepath="2">En ese documento , Bruselas considera que la opción nuclear contribuye a la reducción de emisiones de gases de <argset><head>efecto </head><reference_modifiers>invernadero</reference_modifiers></argset>y Ø garantiza el suministro energético de la Unión . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="11.3.4.2.1.1.1.0.1.1.0.1.1.0.0" sentencenodepath="11">En el borrador del documento que examinará la Comisión_Europea , se indica que la preocupación por el recalentamiento terrestre ha conducido a un cambio sobre la percepción de la energía nuclear como fuente de aprovisionamiento , debido precisamente a la ausencia de emisiones de gases de <argset><head>efecto </head><reference_modifiers>invernadero</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="1.0.4.1.0.1.1.1.1.1.2.2.1.1.1.1.0" sentencenodepath="1">" El estado de emergencia se amplió como medida para asegurar lo conseguido en los últimos años , incluido el mantenimiento de la estabilidad y la limitación de <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la violencia y el crimen organizado</argument></argset>" , afirma Al_Adli , en una entrevista publicada hoy , viernes , por el diario egipcio de propiedad estatal " Al_Ahram " . </example>
+        <example file="CESS-CAST-AA/24844_20000929.tbf.xml" nodepath="1.0.3.3.3.0.0" sentencenodepath="1">" Ø Ha sido una decisión del pueblo danés que Ø lamentamos aunque Ø la aceptamos . Ø No Creo que Ø tenga <argset><head>efectos </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre el euro</argument></argset>. Ø Somos 300 millones de personas que creemos en una moneda y los daneses sólo 4,5 millones " , dijo el ministro francés de Finanzas , Laurent_Fabius . </example>
+        <example file="CESS-CAST-AA/24933_20000929.tbf.xml" nodepath="9.3.1.1.5.1.1.0" sentencenodepath="9">El hecho de la aparición del C5 fue aprovechado por el máximo responsable de Citroen para asegurar que las ventas de berlinas no han caído en el mercado por <argset><specifier>el</specifier><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la progresión de vehículos como el monovolumen</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4018_20000706.tbf.xml" nodepath="8.0.4.1.0" sentencenodepath="8">Medidas habituales de conservación , como el incremento de la talla de las mallas , " no tienen <argset><specifier>un</specifier><head>efecto </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">protector</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">para esas especies</argument></argset>" , añadió Ø . </example>
+        <example file="CESS-CAST-AA/4020_20000906.tbf.xml" nodepath="1.2.3.1.0.0.0.0" sentencenodepath="1">El estudio muestra que la pobreza es a_la_vez <argset><head>efecto </head>y causa del estancamiento del modelo económico salvadoreño </argset>, según dijo en una rueda de prensa el decano de la Facultad_de_Economía de la UCA , el sacerdote Javier_Ibizate . </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="1.4.1.1.1.0" sentencenodepath="1">Triadú detalló hoy , durante unas jornadas sobre la situación tecnológica de Cataluña , que a <argset><specifier>tal</specifier><head>efecto </head></argset>se reunieron el mes pasado en Seattle ( Estados_Unidos ) el presidente ejecutivo de Microsoft , Steve_Ballmer , y el consejero de Industria de la Generalitat , Antoni_Subirá . </example>
+        <example file="CESS-CAST-AA/8633_20000114.tbf.xml" nodepath="15.1.1.0" sentencenodepath="15">Mientras_tanto , <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la crisis</argument></argset>empiezan a extenderse fuera del país al descubrirse problemas derivados de este carburante contaminado en uno de los aviones de las Fuerzas_Aéreas_Reales_de_Australia que operaba en las tareas de mantenimiento de la paz en Timor_Oriental . </example>
+        <example file="CESS-CAST-AA/8873_20000412.tbf.xml" nodepath="2.3.2.1.1.1.1.0.2.4.1.1.1.1.1.2.1.1.2.1.4.1.0" sentencenodepath="2">En el 2002 se calcula que habrá en_torno_a 3,5 millones de automóviles que no podrán usar la actual gasolina sin plomo de 95 octanos , cuyos usuarios tendrán garantizado el suministro de una gasolina , también sin plomo , pero con los aditivos necesarios para que se produzca , principalmente en los asientos de las válvulas , <argset><specifier>el</specifier><head>efecto </head><reference_modifiers>lubricante</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del plomo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="5.2.5.2.0.0" sentencenodepath="5">Portillo señaló que su país afronta una difícil situación en el campo externo , como <argset><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la combinación del mal uso de las políticas económicas con la caída de los precios de los principales productos de exportación</argument></argset>. </example>
+        <example file="CESS-CAST-P/102_19990202.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>Los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la mundialización</argument></argset>. </example>
+        <example file="CESS-CAST-P/10_20010601.tbf.xml" nodepath="7.2.2.1.1.1.0.1" sentencenodepath="7">Ø Dejaron atrás la opresión y muchos de ellos eligieron una tierra de <argset><reference_modifiers>saludables</reference_modifiers><head>efectos </head></argset>, como Ø es la de Buenos_Aires , ciudad con unos 80.000 gallegos censados , entre los que 3.000 rebasan los 100 años . </example>
+        <example file="CESS-CAST-P/112_20020102.tbf.xml" nodepath="5.2.1.0" sentencenodepath="5">Ø Es <argset><specifier>un</specifier><head>efecto </head><reference_modifiers>especial</reference_modifiers><reference_modifiers>que se les olvidó</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/121_19991202_b.tbf.xml" nodepath="2.2.1.1.0" sentencenodepath="2">El objetivo es combatir <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la sentencia Bosman</argument></argset>. </example>
+        <example file="CESS-CAST-P/13_19990601.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La final de copa entre Inglaterra y Alemania ha tenido <argset><specifier>un</specifier><head>efecto </head><reference_modifiers>positivo</reference_modifiers></argset>, aunque Ø haya pasado casi inadvertido . </example>
+        <example file="CESS-CAST-P/148_19991001.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>Los</specifier><head>efectos </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">sonoros , visuales y pirotécnicos</argument></argset>producen así una frenética reacción en_cadena , en un espectáculo en el que están todas las disciplinas creativas . </example>
+        <example file="CESS-CAST-P/160_20011002.tbf.xml" nodepath="2.1.1.0" sentencenodepath="2">Con la misma humildad , prudencia y obsesión por la disciplina con las que Ø triunfó en el Mallorca y en el Valencia , <argset><specifier>el</specifier><head>efecto </head><reference_modifiers>Cúper</reference_modifiers></argset>también se ha hecho notar en Milán , con lo que ha aumentado el prestigio del técnico argentino . </example>
+        <example file="CESS-CAST-P/174_20001201.tbf.xml" nodepath="8.0.1.1.2.1.1.1.0" sentencenodepath="8">" El comité de investigación creado a <argset><specifier>tal</specifier><head>efecto </head></argset>continuará trabajando con celeridad y profundidad hasta llegar a las últimas consecuencias y aclarar lo que ha pasado " , indicó ayer Alberto_Jofre , director de deportes del CPE . </example>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>OTROS</specifier><head>EFECTOS </head></argset>. </example>
+        <example file="CESS-CAST-P/21_20020702_b.tbf.xml" nodepath="14.2.2.1.0" sentencenodepath="14">La carretera entre La_Puebla_de_San_Miguel y Losilla_de_Aras , en la comarca de Els_Serrans , sufrió numerosos desprendimientos y la zona vinícola de Utiel-Requena , padeció <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la piedra</argument></argset>. </example>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="11.2.0.2.2.0.0" sentencenodepath="11">Sonetos clásicos , perfectamente formales , o expresiones poéticas de las clases populares , pero experimentando siempre para buscar nuevas formas , logrando con sus malabarismos verbales <argset><head>efectos </head><reference_modifiers>sorprendentes</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del lenguaje</argument></argset>y dando al lector con su mente de ilusionista imágenes del_todo nuevas . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="7.2.1.1.0.3.1.1.2.1.3.0.0" sentencenodepath="7">Como antes de la ya olvidada tregua , cada asesinato ha ido acompañado de un cansino rosario de condenas , pero también del creciente hostigamiento político a un Partido_Nacionalista_Vasco ( PNV ) que , si surte <argset><head>efectos </head></argset>la estrategia del Gobierno , pagará muy cara la firma que Ø estampó en Lizarra . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="17.2.1.1" sentencenodepath="17">La incesante presión del Ejecutivo está teniendo <argset><specifier>un</specifier><reference_modifiers>doble</reference_modifiers><head>efecto </head></argset>en las filas peneuvistas . </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="6.4.1.0.3.1.0.4.0" sentencenodepath="6">En un escrito que incluye severas instrucciones , la Administración advierte a los médicos del " posible potencial de <argset>abuso , mal uso o <head>efectos </head>
+            <reference_modifiers>desconocidos</reference_modifiers>
+            <reference_modifiers>que pudieran implicar responsabilidades e , incluso , acciones legales</reference_modifiers>
+          </argset>" . </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="9.4.4.1.0.1.1" sentencenodepath="9">Ø También pide a médicos y farmacéuticos que Ø adviertan a los pacientes de <argset><specifier>los</specifier><reference_modifiers>posibles</reference_modifiers><head>efectos </head><reference_modifiers>secundarios</reference_modifiers>, </argset>" así_como otros que pueden aparecer con el uso más extendido del medicamento " . </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="23.2.6.1.1.2.1.0.0" sentencenodepath="23">El ensayo concluye que la Viagra , " estableciendo con claridad el criterio de exclusión , es un tratamiento seguro y sin <argset><head>efectos </head><reference_modifiers>secundarios</reference_modifiers><reference_modifiers>de importancia</reference_modifiers></argset>" , si_bien " han de respetarse las contraindicaciones y actuar bajo criterio médico responsable " . </example>
+        <example file="CESS-CAST-P/57_20010801.tbf.xml" nodepath="7.2.1.1.2.3.1.1.3.2.3.2.1.4.0.2.1.3.1.1.0" sentencenodepath="7">La petición de la fiscalía de Alicante contra el magistrado del CGPJ contradice al_menos una sentencia del Tribunal_Supremo que absolvió al diputado socialista Javier_Barrero de un delito de desobediencia grave , por no someterse a la prueba del alcoholímetro , al considerar que el acusado no presentaba síntomas externos de que Ø conducía bajo <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del alcohol</argument></argset>. </example>
+        <example file="CESS-CAST-P/60_20011101.tbf.xml" nodepath="0.3.0.0" sentencenodepath="0">El frenazo de la economía mundial apenas tendrá <argset><head>efectos </head><reference_modifiers>negativos</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre la economía catalana</argument></argset>, según la Generalitat . </example>
+        <example file="CESS-CAST-P/69_20010501.tbf.xml" nodepath="6.0.2.2.0.0" sentencenodepath="6">La lluvia ha compensado el que estaba a_punto_de convertirse en el mes_de_abril más seco del siglo , y Ø tendrá <argset><head>efectos </head><reference_modifiers>benignos</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para algunos cultivos , como el de aceituna y , previsiblemente , el de fruta dulce</argument></argset>. </example>
+        <example file="CESS-CAST-P/71_19990901.tbf.xml" nodepath="4.2.1.2.3.1.0" sentencenodepath="4">Una encuesta publicada por la revista Hello! revela que el 86% de los británicos opina que la vida de Diana tuvo <argset><specifier>un</specifier><head>efecto </head><reference_modifiers>positivo</reference_modifiers></argset>en el mundo y un 75% cree que la relación entre Carlos y sus hijos es ahora más fuerte . </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="4.3.3.2.1.1.1.1.0" sentencenodepath="4">La Confederació_de_Comerç_de_Catalunya ( CCC ) reclamó ayer que el Tribunal_de_Defensa_de_la_Competencia " intervenga de_oficio " y Ø emita un informe sobre <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la fusión entre los grupos franceses propietarios de Pryca ( Carrefour ) y Continente ( Promodès )</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el mercado español</argument></argset>. </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="6.2.0.1.1.1.0" sentencenodepath="6">El Ministerio_de_Economía ha comenzado a recoger información de <argset><specifier>los</specifier><head>efectos </head><reference_modifiers>que puede tener la fusión entre Carrefour y Promodès</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">sobre la competencia en el sector español de la distribución</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="19.2.3.0.0" sentencenodepath="19">Vicente_Martínez_Pujalte , del PP , dijo que una rebaja de impuestos podría tener <argset><head>efectos </head><reference_modifiers>negativos</reference_modifiers></argset>si las petroleras la aprovechan para subir sus beneficios . </example>
+        <example file="CESS-CAST-P/76_20010103.tbf.xml" nodepath="0.4.1.1.0" sentencenodepath="0">El pueblo holandés de Volendam se encontraba ayer bajo <argset><specifier>los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del shock producido por el incendio que costó la vida a nueve jóvenes que celebraban la Nochevieja en un bar</argument></argset>. </example>
+        <example file="CESS-CAST-P/7_19990901.tbf.xml" nodepath="0.0.0.2.1.0.0" sentencenodepath="0">Barato golpe de <argset><head>efecto </head></argset>con las pensiones . </example>
+        <example file="CESS-CAST-P/7_20010302.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>El</specifier><head>efecto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los llamados resultados extraordinarios - - diferentes a la actividad principal - -</argument></argset>ha sido claro en el caso de Telefónica . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>Los</specifier><head>efectos </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las medidas liberalizadoras</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="a_efectos_prácticos" cousin="no" denotation="none" id="3" lexicalizationtype="adverbial" lexicalized="yes" originlemma="efectuar" originlink="verb.efectuar.1" wordnetsynset="16:07766144">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/45_20001201.tbf.xml" nodepath="1.2.0.1.2.1.0.0" sentencenodepath="1">La número dos de la lista , Magda_Oranich , se encuentra convaleciente de una reciente enfermedad , y el número dos a <argset><head>efectos </head><argument argument="argL" function="cn" type="s.a">prácticos</argument></argset>, Josep_Miró_Ardèvol , está de baja desde hace semanas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="efectos_especiales" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="efectuar" originlink="verb.efectuar.1" wordnetsynset="16:04544710">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/179_20010401.tbf.xml" nodepath="4.3.6.0.1" sentencenodepath="4">Segura ha conseguido ahora más dinero , más medios , más coches para destrozar , <argset><reference_modifiers>mejores</reference_modifiers><head>efectos </head><argument argument="argL" function="cn" type="s.a">especiales</argument></argset>y el permiso de rodaje en Marbella , con lo que la película resulta más espectacular . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

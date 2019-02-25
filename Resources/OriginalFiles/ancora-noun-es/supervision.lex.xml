@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="supervisión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="supervisar" originlink="verb.supervisar.1" wordnetsynset="16:00735967">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="40.2.2.1.1.0.1.1.0.1.2.1.1.1.0" sentencenodepath="40">Ø Abogó por una solución justa y duradera a la deuda exterior , y Ø reiteró la necesidad de fortalecer la disciplina u transparencia de <argset><specifier>la</specifier><head>supervisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">bancaria</argument></argset>y las políticas económicas y financieras " sanas " y de continuar con los cambios estructurales . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="5.4.2.2.1.1.0.0" sentencenodepath="5">Ø También permite que los fondos puedan invertir en instrumentos negociados en mercados no regulados , denominados derivados " over_the_counter " , en los que el riesgo es mucho más elevado , siempre_que las instituciones involucradas en la transacción estén sometidas a <argset><head>supervisión </head><reference_modifiers>prudencial</reference_modifiers></argset>y que Ø tengan suficiente liquidez . </example>
+        <example file="CESS-CAST-P/117_20010103.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">La carga fue trasvasada a otra cisterna bajo <argset><specifier>la</specifier><head>supervisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de técnicos y bomberos de la Generalitat</argument></argset>. </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="1.4.4.2.0.2.1.1.0.1.1.0.0" sentencenodepath="1">Peralta se negó a aclarar si el fondo ascendía a 30 o a 1.050 millones de pesetas , puesto_que había dos documentos que recogían cifras distintas , lo que llevó al entonces director de <argset><head>supervisión </head></argset>de la CNMV a afirmar que el arzobispado colaboraba con el intento de engaño de Gescartera . </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="3.3.3.1.0.1.1.0.0" sentencenodepath="3">Y Ø dijo que Ø remitió al director de <argset><head>supervisión </head></argset>de la CNMV a Gescartera por si Ø necesitaba más información . </example>
+        <example file="CESS-CAST-P/73_20020301.tbf.xml" nodepath="1.2.4.1.1.0" sentencenodepath="1">La ley prevé que los consistorios - - a_excepción_del de Barcelona - - regularán su política urbanística bajo <argset><specifier>la</specifier><head>supervisión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Generalitat</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="supervisar" originlink="verb.supervisar.1" wordnetsynset="16:00735967">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10920_20001115.tbf.xml" nodepath="3.3.1.2.1.0.0" sentencenodepath="3">Además , se creará un órgano independiente de <argset><head>supervisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de seguridad en las minas de carbón</argument></argset>, al que las explotaciones deberán presentar cada dos semanas informes detallados sobre el nivel de seguridad del yacimiento . </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="15.5.2.1.1.1.0.0" sentencenodepath="15">Según explicó el director de operaciones , Aurelio_Rojo , " en ningún momento hubo riesgo para los pasajeros , porque el sistema de <argset><head>supervisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del metro</argument></argset>funcionó a_la_perfección " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

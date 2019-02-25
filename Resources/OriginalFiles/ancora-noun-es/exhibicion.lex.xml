@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="exhibición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="exhibir" originlink="verb.exhibir.1" wordnetsynset="16:00335980+16:02580524">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-3.tbf.xml" nodepath="6.2.1.0" sentencenodepath="6">Unzaga realizó <argset><specifier>una</specifier><head>exhibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de lo que debe hacer un gregario para su líder</argument></argset>. </example>
+        <example file="CESS-CAST-A/11084_20001014.tbf.xml" nodepath="1.3.1.1.1.1.1.1.0.0" sentencenodepath="1">Agassi , que no ha tenido su mejor año deportivo ni en el capítulo personal , estuvo en Houston para participar en varios partidos de <argset><head>exhibición </head></argset>junto_a otros famosos del deporte como Clyde_Drexler y Charles_Barkley , que le permitieron incrementar los fondos de su organización benéfica " Andre_Agassi_Charitable_Foundation " , dedicada a ayudar a los niños más necesitados . </example>
+        <example file="CESS-CAST-A/11981_20001215.tbf.xml" nodepath="3.3.2.2.1.0" sentencenodepath="3">Alvaro_Valera y Manuel_Robles , campeón parolímpico y medalla de bronce , respectivamente , en tenis de mesa , protagonizaron uno de los momentos más brillantes del acto , al llevar_a_cabo en el escenario <argset><specifier>una</specifier><head>exhibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su deporte</argument></argset>. </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="2.0.1.1.5.1.1.0.2.1.1.1.1.0.0" sentencenodepath="2">Las derrotas , que ya llegan a 18 en lo que va de los partidos de <argset><head>exhibición </head></argset>, han hecho que la paciencia de Steinbrenner se termine , por lo que Ø ya quiere soluciones . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="16.0.5.1.1.1.1.1.1.0.0" sentencenodepath="16">Sin_embargo , este año Ø sólo han sido cinco triunfos en los partidos de <argset><head>exhibición </head></argset>y la marca ha hecho que a Steinbrenner , que llegó feliz a su cuartel de Legends_Field en Tampa ( Florida ) , se le haya ido la sonrisa de su cara y Ø no se sienta cómodo . </example>
+        <example file="CESS-CAST-AA/21196_20000129.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Al mediodía y a las órdenes del coronel Dieter_Szola , el equipo de vuelo acrobático " Team_2000 " hizo <argset><specifier>una</specifier><head>exhibición </head></argset>sobre la cúspide del Gerlitze , a la que poco después se sumó un parapente a motor que arrastraba una enorme pancarta con el texto " El_FPOE_de_Klagenfurt_(capital_de_Carintia)_felicita_a_Joerg " . </example>
+        <example file="CESS-CAST-AA/21196_20000129.tbf.xml" nodepath="8.4.1.1.3.4.1.1.0" sentencenodepath="8">La fiesta en honor de Haider inició su apogeo al anochecer en el estadio abierto " Alpen-Arena " , donde actuarán hasta altas horas varios grupos musicales y podrán verse <argset><specifier>varias</specifier><head>exhibiciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de deportes de invierno</argument><reference_modifiers>, que culminarán con fuegos de artificio</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/5315_20000207.tbf.xml" nodepath="5.0.3.0.1.1.0.1.4.1.0" sentencenodepath="5">" Mi regreso a la competición podría producirse alrededor del mes_de_mayo , cuando se organicen <argset><specifier>unas</specifier><head>exhibiciones </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en las calles de algunas ciudades españolas</argument><reference_modifiers>, en las que está inicialmente previsto que también participen ( el cubano ) Iván_Pedroso - campeón mundial en pista y al aire libre - y ( la española de origen cubano ) Niurka_Montalvo - campeona del mundo en Sevilla`99 -</reference_modifiers></argset>" , comentó a Efe el atleta avilesino . </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="4.0.1.3.1.1.1.1.1.1.2.1.0.0" sentencenodepath="4">Una auténtica contrarreloj de 16,5 kilómetros , lejos de ser considerada como el habitual prólogo de <argset><head>exhibición </head></argset>, probará las fuerzas de los principales favoritos . </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="8.4.1.1.0" sentencenodepath="8">Antes , Ø había asistido impasible a <argset><specifier>una</specifier><head>exhibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de juego</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Barça , que de_nuevo pareció , durante 45 minutos , un equipo impresionante siempre_que sea dominador del balón</argument></argset>. </example>
+        <example file="CESS-CAST-P/145_20000702.tbf.xml" nodepath="1.1.2.1.1.1.1.1.2.2.1.1.0" sentencenodepath="1">El dirigente italiano , a_pesar_de distinguirse por ser un hombre tranquilo y poco dado a <argset><specifier>la</specifier><head>exhibición </head></argset>, ha pedido a sus compatriotas que Ø apoyen con entusiasmo a la selección , tal como hizo su predecesor Sandro_Pertini en el Mundial_de_España-82 . </example>
+        <example file="CESS-CAST-P/16_20001002_a.tbf.xml" nodepath="1.0.4.1.0" sentencenodepath="1">Miles de payeses hicieron ayer en Lleida <argset><specifier>una</specifier><head>exhibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de fuerza</argument></argset>en plena Fira_de_Sant_Miquel : Ø declararon persona_non_grata al conseller Mas por las cargas de los Mossos del viernes para romper el bloqueo de los centros de distribución de hidrocarburos , y Ø ratificaron que el alza del gasóleo es la gota que colma el vaso en un sector deprimido . </example>
+        <example file="CESS-CAST-P/18_20011202.tbf.xml" nodepath="1.2.2.4.1.2.2.1.0.0" sentencenodepath="1">Así , la FIFA vela aparentemente por la imagen virtuosa de los jugadores y Ø sanciona la desnudez pectoral para celebrar el gol , pero al_final_del partido Ø no castiga los intercambios de camisetas que acaban en <argset><head>exhibiciones </head><reference_modifiers>similares</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="exhibir" originlink="verb.exhibir.1" wordnetsynset="16:06217283">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="9.6.2.1.0" sentencenodepath="9">Una digna excepción la constituyó ya hace unos años , la cívica protesta realizada por el entonces entrenador del Valencia , el holandés Guus_Hiddink , frente_a <argset><specifier>la</specifier><head>exhibición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de banderas nazis</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el graderío</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

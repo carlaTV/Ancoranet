@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="jubilación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="jubilar" originlink="verb.jubilar.1" wordnetsynset="16:10054148+16:09639546">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" preposition="a_partir" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="7.0.4.1.1.1.1.3.1.2.1.1.1.1.1.0" sentencenodepath="7">Méndez también se refirió a la necesidad de " buscar un acuerdo para mejorar la situaciones de prejubilación y mejorar la cuantía de <argset><specifier>las</specifier><head>jubilaciones </head><reference_modifiers>anticipadas</reference_modifiers><reference_modifiers>, a_partir los 60 años</reference_modifiers></argset>" , y Ø apuntó que " el debate social va por un camino que no es el correcto " . </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="10.2.2.1.0" sentencenodepath="10">Los ministros de Trabajo de la UE acordaron no seguir fomentando <argset><specifier>las</specifier><head>jubilaciones </head><reference_modifiers>anticipadas</reference_modifiers></argset>por sus altos costes laborales y sociales . </example>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="19.4.1.1.0" sentencenodepath="19">También se recurre , como las empresas privadas , a <argset><specifier>las</specifier><head>jubilaciones </head><reference_modifiers>anticipadas</reference_modifiers></argset>para hacer recaer sobre la Seguridad_Social - - una Seguridad_Social que recorta fármacos para ahorrar - - una parte de los costes generados por la medida arbitraria . </example>
+        <example file="CESS-CAST-P/16_20020202.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>La</specifier><head>jubilación </head></argset>le ha llevado a ejercer de espectador , tras pasar el testigo a su hijo y dos sobrinos . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="4.0.3.1.1.2.0.1.0.0" sentencenodepath="4">Ø Me refiero a los denominados premios de <argset><head>jubilación </head></argset>, de fidelización , de permanencia ... una sola vez , equivalente a dos , tres o cuatro mensualidades de su salario . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="5.4.1.3.1.1.1.2.1.0.0" sentencenodepath="5">Ello , a todas luces , no es una ayuda económica mensual o anual para completar una posible prestación de <argset><head>jubilación </head></argset>. </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="6.0.2.2.1.1.1.0.0" sentencenodepath="6">Ø Viene a premiar la permanencia en la empresa durante unos determinados años o , en otros casos , a incentivar el cese por <argset><head>jubilación </head></argset>, pero en ningún caso Ø tiene el carácter de una prestación derivada de un plan de pensiones que complemente las que en su día puede reconocer la Seguridad_Social . </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="10.1.1.1.3.1.1.1.1.0.2.0" sentencenodepath="10">Ahora_bien , extender una obligatoriedad legal de tal entidad con_respecto_a los premios de <argset>fidelización , <head>jubilación </head>o permanencia </argset>- - cualquiera que sea su denominación - - con un claro carácter retroactivo , ya_que en el momento de su concesión no se contemplaba su externalización , repercutirá negativamente no_sólo para la concesión de otros premios similares , sino incluso para el incremento de los ya existentes en futuras negociaciones de convenios colectivos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="jubilar" originlink="verb.jubilar.1" wordnetsynset="16:09639546">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/65_20010602.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">Josep_Maria_Bach ( foto ) , hasta ahora responsable de la división regional de Europa_sur y vicepresidente de BASF_Española , permanecerá como gerente del grupo en España hasta <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>jubilación </head><reference_modifiers>, " dentro de seis meses " ,</reference_modifiers></argset>dijo Ø ayer en la presentación de los resultados del grupo . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

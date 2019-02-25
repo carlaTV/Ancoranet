@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="proyección" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="proyectar" originlink="verb.proyectar.1" wordnetsynset="16:04453784">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060104_5-1.tbf.xml" nodepath="7.0.1.0.0" sentencenodepath="7">Según <argset><head argument="arg1" thematicrole="pat">proyecciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Chilevid</argument></argset>, comparando el comportamiento de los últimos cuatro años en el año_2000 se debería alcanzar los 600 millones de dólares de exportación . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="8.5.3.3.3.1.0" sentencenodepath="8">Por su parte , la comisaria europea de Energía , Loyola_de_Palacio , dejó claro que la operación es competencia de las autoridades españolas , " siempre_que la fusión se mantenga dentro del mercado español " , a lo que Ø añadió que la Comisión_Europa deberá examinarla si la nueva entidad logra <argset><specifier>una</specifier><head>proyección </head><argument argument="arg2" function="cn" thematicrole="loc" type="s.a">europea</argument></argset>. </example>
+        <example file="CESS-CAST-P/35_20000301.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>Todas las</specifier><head argument="arg1" thematicrole="pat">proyecciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las televisiones</argument></argset>dieron por ganador a Bush tras cerrarse las urnas . </example>
+        <example file="CESS-CAST-P/54_20011202.tbf.xml" nodepath="2.3.3.1.0" sentencenodepath="2">Pero la próxima retirada de Jordi_Pujol hace que este acuerdo de la izquierda adquiera <argset><specifier>una</specifier><head>proyección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">electoral</argument><reference_modifiers>que preocupa a CiU</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

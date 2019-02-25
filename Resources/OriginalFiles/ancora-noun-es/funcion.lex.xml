@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="función" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="funcionar" originlink="verb.funcionar.1" wordnetsynset="16:05156358+16:04011535">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="9" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="interrogative" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+        <constituent frequency="9" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-11.tbf.xml" nodepath="6.2.2.1.1.0" sentencenodepath="6">Ø No es tampoco una hermanita de la caridad , y Ø sabe que <argset><specifier>la</specifier><head>función </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">directiva</argument></argset>exige adoptar posturas difíciles , conflictivas , duras . </example>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="8.2.1.0.4.1.1.0.1" sentencenodepath="8">Muchas de estas reacciones químicas y cambios moleculares desembocan en alteraciones metabólicas en la célula , cambios genéticos , inhibiciones en <argset><reference_modifiers>determinadas</reference_modifiers><head>funciones </head></argset>e incluso muerte celular . </example>
+        <example file="3LB-CAST/dc1-16.tbf.xml" nodepath="2.3.0.2.1.0.0" sentencenodepath="2">Ningún animal , ni_siquiera los evolutivamente más cercanos , atesora en su piel semejante cúmulo de <argset><head>funciones </head></argset>. </example>
+        <example file="3LB-CAST/dc2-9.tbf.xml" nodepath="7.2.1.3.4.1.0.0.1.0" sentencenodepath="7">Cada tecla emite una señal luminosa propia , que se corresponde con <argset><specifier>una</specifier><head>función </head></argset>o actividad concreta ( apagar , encender , hablar , escribir , imprimir ... ) . </example>
+        <example file="CESS-CAST-A/14943_20001019.tbf.xml" nodepath="5.1.2.1.0" sentencenodepath="5">En la actualidad , además_de <argset><specifier>esa</specifier><head>función </head></argset>, Ø sirve también para canalizar las relaciones de la OTAN con países que quieren tener una relación de cooperación con la Alianza sin aspirar a una integración . </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="6.2.1.1.1.0.0" sentencenodepath="6">Rusia " valora en alto grado la actividad de Cuba en el Movimiento_de_Países_No_Alineados y en la ONU " , dijo el presidente en <argset><head>funciones </head></argset>, quien añadió que todavía hay " margen de maniobra " en el campo económico entre Moscú y La_Habana . </example>
+        <example file="CESS-CAST-AA/19378_20001024.tbf.xml" nodepath="0.4.1.1.2.1.0.3.1.3.1.2.1.1.0" sentencenodepath="0">El Príncipe_de_Asturias recibió hoy en el Palacio_de_la_Zarzuela a una nutrida representación de estudiantes de Derecho de la Universidad_de_Deusto , a los que Ø explicó el desempeño diario de <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>funciones </head></argset>y quienes , por invitación suya , visitaron a_continuación el Palacio_Real_de_Madrid . </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="19.0.0.3.1.1.2.1.1.0" sentencenodepath="19">" Ø Confío en que por su concepto del honor y de la autoridad , y por <argset><specifier>las</specifier><head>funciones </head><reference_modifiers>que desempeñan</reference_modifiers></argset>, Ø aceptarán mi petición " , indicó Kostunica y Ø agregó que " así Ø impedirían que el proceso electoral se convirtiera en una farsa , Ø eliminaríamos las dudas y Ø atenuaríamos el descontento justificado de los ciudadanos " . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="4.0.3.5.1.3.1.0" sentencenodepath="4">" Ø Esperamos que el ente comicial - encargado de organizar y vigilar las elecciones en Venezuela - haga todo lo posible para que ese comité de auditoría , integrado por la sociedad civil , culmine <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>funciones </head></argset>" , manifestó Lacalle , publicó hoy el diario " El_Universal " de Caracas . </example>
+        <example file="CESS-CAST-AA/5703_20000809.tbf.xml" nodepath="5.4.1.0" sentencenodepath="5">Sukarnoputri , hija del primer presidente de Indonesia , Sukarno , no tiene en el Gobierno <argset><specifier>ninguna</specifier><head>función </head><reference_modifiers>definida</reference_modifiers></argset>, aunque tras su elección en octubre pasado Ø recibió de Wahid la tarea de pacificar las islas Molucas , donde desde enero_de_1999 han muerto más de 4.000 personas a_causa_de la violencia sectaria . </example>
+        <example file="CESS-CAST-AA/6438_20000608.tbf.xml" nodepath="0.2.3.1.1.2.2.1.0" sentencenodepath="0">La esposa del presidente del Gobierno , Ana_Botella , ha pedido hoy a las mujeres que Ø aumenten la natalidad " para lograr que España no sea una sociedad cada vez más envejecida " y Ø ha reclamado más atención de las administraciones públicas , con_el_fin_de hacer compatible el trabajo de la mujer y <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>función </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">como madre</argument></argset>. </example>
+        <example file="CESS-CAST-AA/6552_20000810.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">El presidente de Indonesia , Abdurrahman_Wahid , acordó anoche traspasar <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>funciones </head><reference_modifiers>de Gobierno</reference_modifiers><reference_modifiers>cotidianas</reference_modifiers></argset>a la vicepresidenta Megawati_Sukarnoputri , en una acción que los analistas consideran como un intento para defenderse del Parlamento que pretende expulsarlo del cargo . </example>
+        <example file="CESS-CAST-P/111_20000202.tbf.xml" nodepath="0.4.2.1.1.1.1.1.1.1.0" sentencenodepath="0">Los sindicatos de la función pública rechazaron ayer la propuesta del Govern_de_la_Generalitat de subir el sueldo de los funcionarios catalanes este año en un 2,7% , en la reunión de la mesa de <argset><specifier>la</specifier><head>función </head><reference_modifiers>pública</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/122_19990202.tbf.xml" nodepath="8.0.3.0.0" sentencenodepath="8">" Ø Realizó <argset><head>funciones </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de acompañante de honor del equipo nacional olímpico de Australia</argument></argset>durante los Juegos_de_Barcelona , lo que no tiene nada que_ver con la candidatura " , asegura el documento . </example>
+        <example file="CESS-CAST-P/133_20011001.tbf.xml" nodepath="3.2.3.2.0.1.0" sentencenodepath="3">En enero , aproximadamente , el programa de usos redactado por Josep_Montanyés , actual director del Teatre_Lliure y coordinador de la puesta_en_marcha de la Ciutat_del_Teatre , pasará a ser un texto definitivo y se sabrá entonces para qué servirá el edificio y <argset><specifier>qué</specifier><head>funciones </head></argset>Ø deberá cubrir . </example>
+        <example file="CESS-CAST-P/146_19991001.tbf.xml" nodepath="8.3.1.0.1.0" sentencenodepath="8">Esta temporada Ø contará con <argset><specifier>más</specifier><head>funciones </head></argset>que en la anterior . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="10.2.3.1.4.1.1.0.2.1.0" sentencenodepath="10">Dotar al Parlament de mayores condiciones logísticas para trabajar significa dotarlo también de mayores condiciones políticas para que Ø sea más ágil y más activo en lo que debe ser <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>función </head></argset>. </example>
+        <example file="CESS-CAST-P/1_20000702.tbf.xml" nodepath="6.2.1.1.4.0.0" sentencenodepath="6">" Los libros de texto que no respetan una visión neutra y sensata de la historia son pura excepción " , concluye este catedrático , que también presta <argset><head>funciones </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de asesor educativo</argument></argset>en países de América_Latina . </example>
+        <example file="CESS-CAST-P/20_20000201_c.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">Los funcionarios catalanes de prisiones piden medios coercitivos - - como esprays paralizantes - - para <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>función </head></argset>. </example>
+        <example file="CESS-CAST-P/23_20000201_a.tbf.xml" nodepath="1.0.0.3.1.0.1.0.2.1.0" sentencenodepath="1">Considerables diferencias retributivas entre plantillas que hacen <argset><specifier>las mismas</specifier><head>funciones </head></argset>, etcétera o que nos afectan a todos ( revalorización digna de las pensiones mínimas ) . </example>
+        <example file="CESS-CAST-P/32_19991101.tbf.xml" nodepath="17.0.1.0" sentencenodepath="17"><argset><specifier>Esta</specifier><head>función </head></argset>la juega el rey que , aunque Ø parezca un contrasentido , se ha convertido en el motor del cambio . </example>
+        <example file="CESS-CAST-P/46_19981102.tbf.xml" nodepath="10.2.4.1.1.0" sentencenodepath="10">La juez estimó que dos mossos se excedieron en <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>funciones </head></argset>cuando , el verano de 1996 , Ø increparon a los jóvenes , que celebraban una despedida de soltero . </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="2.2.1.2.4.1.2.2.3.2.1.0" sentencenodepath="2">La juez que investiga el presunto desvío de dinero del Grupo_Torras-KIO durante la etapa del financiero Javier_de_la_Rosa ha dictado una resolución inesperada en la que Ø se interesa por el nivel de vida del empresario y si en estos momentos " Ø tiene trabajo estable o Ø desempeña <argset><specifier>alguna</specifier><head>función </head></argset>en entidades privadas , propias o ajenas " . </example>
+        <example file="CESS-CAST-P/54_20011101.tbf.xml" nodepath="0.3.1.2.1.1.3.1.1.0" sentencenodepath="0">El Hongkong_Shanghai_Banking_Corporation ( HSBC ) , vinculado al caso Gescartera , anunció ayer el relevo como máximos responsables de sus dos filiales en España de Jaime_Galobart y Salvador_Pastor , <argset><argument argument="arg1" thematicrole="tem" type="relatiu">cuyas</argument><head>funciones </head></argset>estarán a_partir_de ahora controladas por un tercer hombre de la confianza de la matriz del banco . </example>
+        <example file="CESS-CAST-P/65_20010602.tbf.xml" nodepath="2.4.1.1.0" sentencenodepath="2">El hombre fuerte de la multinacional química será sustituido entonces por Erwin_Rahuer en <argset><specifier>las</specifier><head>funciones </head><reference_modifiers>ejecutivas</reference_modifiers></argset>, que asumirá el cargo de presidente . </example>
+        <example file="CESS-CAST-P/68_19990902.tbf.xml" nodepath="4.0.2.5.1.2.1.0.1.1.0.4.0" sentencenodepath="4">La polémica orden sobre los criterios para cubrir las vacantes de magistrados indicaba que " en ningún caso " se designarían magistrados para completar ninguna plaza en casos de <argset>permisos , asistencia a cursos , <head>funciones </head>
+            <reference_modifiers>asociativas</reference_modifiers>o supuestos similares </argset>, y Ø señalaba que estas circunstancias deberían solventarse mediante " la adecuada coordinación interna del tribunal " . </example>
+        <example file="CESS-CAST-P/76_19981201.tbf.xml" nodepath="10.0.1.1.0" sentencenodepath="10">Entre <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>funciones </head></argset>destacan la de autorizar la inscripción en el censo de la entidad portuaria de consignatarios de empresas de estiba y de los comercializadores de pescado , además_de otorgar concesiones y autorizaciones para la ocupación de la superficie pública y de las instalaciones . </example>
+        <example file="CESS-CAST-P/79_20020401.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">Su personaje , María , empieza <argset><specifier>la</specifier><head>función </head></argset>esperando la llegada de su marido , que fue encarcelado por pegarla y va a salir en libertad . </example>
+        <example file="CESS-CAST-P/79_20020401.tbf.xml" nodepath="17.0.0.1.1.1.2.1.0" sentencenodepath="17">La manera en que el personaje de María y <argset><specifier>la misma</specifier><head>función </head></argset>han ido creciendo ; yo también he crecido . </example>
+        <example file="CESS-CAST-P/85_20010103.tbf.xml" nodepath="11.0.1.0" sentencenodepath="11"><argset><argument argument="arg1" thematicrole="tem" type="spec">Su</argument><head>función </head></argset>era dedicarse al perímetro de la plaza e iniciar la limpieza del interior cuando ésta se desalojase . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="event" id="2" lexicalized="no" originlemma="funcionar" originlink="verb.funcionar.1" wordnetsynset="16:04011535">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" type="relatiu"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/t5-8.tbf.xml" nodepath="2.3.1.2.2.2.0.1.0" sentencenodepath="2">Ø Apartó con sumo cuidado el juego de tocador , un regalo de su abuela <argset><argument argument="arg1" thematicrole="tem" type="relatiu">cuya</argument><head>función </head></argset>no había pasado nunca de la dudosamente decorativa . </example>
+        <example file="CESS-CAST-P/104_20020502.tbf.xml" nodepath="10.5.2.1.2.2.1.2.0.1.0" sentencenodepath="10">La cubierta se prolongará en la fachada principal hacia la avenida de Cambó , creando una especie de pérgola-escultura , un invernáculo que dará sombra y <argset><argument argument="arg1" thematicrole="tem" type="relatiu">cuya</argument><head>función </head></argset>será " captar la energía de Via_Laietana y de la plaza de la Catedral y captar el movimiento de turistas en la ruta de conexión con Santa_Maria_del_Mar " , explica Tagliabue . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="underspecified" id="3" lexicalized="no" originlemma="funcionar" originlink="verb.funcionar.1" wordnetsynset="16:05156358">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/134_20000701.tbf.xml" nodepath="0.2.2.1.1.1" sentencenodepath="0">El telón cayó ayer para ese gran mito del teatro y el cine europeos que fue Vittorio_Gassman y miles de italianos quisieron ovacionar <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>última</reference_modifiers><head>función </head></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense alternativelemma="en_funciones" cousin="yes" denotation="none" id="4" lexicalizationtype="adjectival" lexicalized="yes" originlemma="funcionar" originlink="verb.funcionar.1" wordnetsynset="16:00462318">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3365_20000405.tbf.xml" nodepath="0.0.0.1.2.1.0.0" sentencenodepath="0">El consejero de Agricultura en <argset><head>funciones </head></argset>, Paulino_Plata , abogó hoy por incluir la sequía en la política agraria común ( PAC ) y Ø reclamó una partida extraordinaria de fondos estructurales para garantizar más agua con un plan de inversión en depuración y en reutilización de aguas residuales . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="1.2.2.1.0.0" sentencenodepath="1">Stoltenberg , de 41 años , iniciará los contactos la próxima semana y mientras_tanto permanecerá en <argset><head>funciones </head></argset>la alianza dimisionaria , compuesta por democristianos , centristas y liberales , que reúnen 42 de los 165 escaños del Storting ( Parlamento ) . </example>
+        <example file="CESS-CAST-P/17_20000202.tbf.xml" nodepath="2.0.0.0.1.1.1.0.0" sentencenodepath="2">El presidente en <argset><head>funciones </head></argset>salía entonces ( antiguamente Ø quiero decir ) en televisión y Ø hablaba de " un gobierno socialcomunista " y , después de anunciarnos los peores males si tal cosa salía adelante , Ø nos tranquilizaba diciendo que " por_fortuna hay más centristas que comunistas " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="en_función_de" cousin="yes" denotation="none" id="5" lexicalizationtype="adverbial" lexicalized="yes" originlemma="funcionar" originlink="verb.funcionar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argL">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-2.tbf.xml" nodepath="9.3.1.2.5.1.0.0" sentencenodepath="9">El presidente , según indicó por su parte la Casa_Blanca , contestó diciendo que le preocupa la reacción de Europa y que Ø tomará_en_cuenta su inquietud , pero que , en última instancia , la decisión se adoptará en <argset><head>función </head><argument argument="argL" function="cn" type="sp">de intereses de seguridad nacional de EEUU</argument></argset>. </example>
+        <example file="3LB-CAST/dc1-13.tbf.xml" nodepath="10.3.1.0.1.1.2.2.0.2.2.1.0.0" sentencenodepath="10">De entre todas las especies , la que nos es , más cercana es la de los grandes simios , de recia pelambre repartida por todo su cuerpo en <argset><head>función </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de una larga serie de atribuciones que desempeña a_la_perfección</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="función_pública" cousin="yes" denotation="result" id="6" lexicalizationtype="nominal" lexicalized="yes" originlemma="funcionar" originlink="verb.funcionar.1" wordnetsynset="16:00462318">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/111_20000202.tbf.xml" nodepath="0.0.1.1.1.1.0" sentencenodepath="0">Los sindicatos de <argset><specifier>la</specifier><head>función </head><argument argument="argL" function="cn" type="s.a">pública</argument></argset>rechazaron ayer la propuesta del Govern_de_la_Generalitat de subir el sueldo de los funcionarios catalanes este año en un 2,7% , en la reunión de la mesa de la función pública . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

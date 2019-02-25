@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="depósito" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="depositar" originlink="verb.depositar.1" wordnetsynset="16:09637132">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-9.tbf.xml" nodepath="4.0.2.3.1.1.2.2.1.0" sentencenodepath="4">La desventaja de esta técnica es que se necesita un edificio donde colocar los compresores y <argset><specifier>los</specifier><head>depósitos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de aire comprimido</argument></argset>; después hay que instalar unas conducciones que introduzcan el aire comprimido en el cañón . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="3.3.3.0.1.0" sentencenodepath="3">Las nuevas directivas amplían los activos financieros en los que puede invertirse a_través_de un fondo u " organismo de inversión colectiva de valores mobiliarios " ( OICVM ) , incluyendo , por_ejemplo , <argset><specifier>los</specifier><head>depósitos </head><argument argument="arg2" function="cn" thematicrole="loc" type="s.a">bancarios</argument></argset>y otros instrumentos que se negocien en mercados regulados . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="9.3.4.0.3.1.1.1.1.1.0" sentencenodepath="9">El analista de ING_Barings , Arturo_Porcekanski , explicó a EFE que " en 1995 los bancos argentinos estaban en manos argentinas , y tras la crisis en México los inversionistas retiraron casi el 20_por_ciento de <argset><specifier>los</specifier><head>depósitos </head><reference_modifiers>que había en la Argentina</reference_modifiers></argset>, y el país tuvo una crisis bancaria enorme " . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="10.0.5.1.1.1.0.0" sentencenodepath="10">" Hoy_por_hoy , en el período de 1997 a 99 - cuando hubo una crisis tan grave como la de los años 82 y 83 - no existió ninguna retirada de <argset><head>depósitos </head></argset>de los bancos argentinos , porque la gran mayoría de ellos están firmemente respaldados por grupos extranjeros , entre ellos de manera muy importante por los españoles " , dijo el analista . </example>
+        <example file="CESS-CAST-A/17887_20000622.tbf.xml" nodepath="9.0.2.1.2.1.1.0" sentencenodepath="9">La evolución del balance muestra un aumento del 10,86% en <argset><specifier>los</specifier><head>depósitos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de acreedores</argument></argset>hasta alcanzar 121.181 millones , mientras_que los recursos de fuera de balance ( fondos y planes de pensiones ) tuvieron una evolución muy dispar , con una caída del 9,82% en los fondos . </example>
+        <example file="CESS-CAST-AA/20120_20000525.tbf.xml" nodepath="15.4.2.1.1.1.0.0" sentencenodepath="15">En su reunión de hoy , el máximo órgano rector del banco tampoco modificó la facilidad marginal de crédito ( por la que Ø presta dinero a las entidades ) , ni la facilidad de <argset><head>depósito </head></argset>( por la que Ø remunera el dinero ) , dejándolas en el 4,75 y el 2,75_por_ciento , respectivamente . </example>
+        <example file="CESS-CAST-AA/3865_20000204.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">A <argset><specifier>ese</specifier><head>depósito </head></argset>se sumó , hacia los años_80 , el dinero procedente de fondos de los servicios secretos alemanes ( BND ) , creados de común acuerdo entre los tres grandes partidos ( CDU , socialdemócrata y liberal ) en tiempos del canciller socialdemócrata Helmut_Schmidt . </example>
+        <example file="CESS-CAST-AA/3865_20000204.tbf.xml" nodepath="3.0.0.1.0" sentencenodepath="3"><argset><specifier>Estos</specifier><head>depósitos </head></argset>teóricamente debían servir para apoyar la labor de partidos afines en España y Portugal , pero , al_parecer , parte de ellos " retornaron " a Alemania o Ø no fueron donados a sus destinatarios . </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="0.2.2.1.1.1.1.0.2.0" sentencenodepath="0">Los camioneros británicos intensificaron hoy sus protestas y Ø continuaron con el bloqueo de <argset>refinerías y <head>depósitos </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de combustible</argument>
+          </argset>, pese_a la negativa del ministro británico de Economía , Gordon_Brown , a bajar los impuestos del carburante . </example>
+        <example file="CESS-CAST-P/69_20010201_f.tbf.xml" nodepath="4.3.0.0.0" sentencenodepath="4">La compañía ofrecerá , a_partir_de Junio , <argset><head>depósitos </head><reference_modifiers>en yenes</reference_modifiers>, fondos de inversión , préstamos y pagos </argset>. </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="6.1.2.3.1.1.0" sentencenodepath="6">Según Peralta , una de las cifras que Ø proporcionó a la CNMV ( los 30 millones ) reflejaba la parte líquida de la inversión , mientras_que la otra se refería a <argset><specifier>los</specifier><head>depósitos </head><reference_modifiers>en valores</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

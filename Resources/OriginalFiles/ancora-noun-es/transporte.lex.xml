@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="transporte" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="transportar" originlink="verb.transportar.1" wordnetsynset="16.02495376n+16:00204553+16:02495376">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="25" type="void"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="11" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-6.tbf.xml" nodepath="6.5.1.0.0" sentencenodepath="6">Además la madre no puede hacer mucho en_cuanto_al <argset><head>transporte </head></argset>, pues Ø tiene que comer el doble de lo normal para producir suficiente leche . </example>
+        <example file="CESS-CAST-A/10209_20001114.tbf.xml" nodepath="1.0.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>transporte </head><reference_modifiers>naval</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">entre las naciones asiáticas</argument></argset>, según apuntó el director de la japonesa Fundación_Nippon , Hiroshi_Terashima , es mucho mayor que en la ruta transatlántica , " sin_embargo , el papel vital del transporte marino se ve minado por las bandas internacionales , lo que puede llevar a destruir el progreso económico de las naciones de la región " . </example>
+        <example file="CESS-CAST-A/10209_20001114.tbf.xml" nodepath="1.3.1.1.2.1.0.0" sentencenodepath="1">El transporte naval entre las naciones asiáticas , según apuntó el director de la japonesa Fundación_Nippon , Hiroshi_Terashima , es mucho mayor que en la ruta transatlántica , " sin_embargo , el papel vital del <argset><head>transporte </head><reference_modifiers>marino</reference_modifiers></argset>se ve minado por las bandas internacionales , lo que puede llevar a destruir el progreso económico de las naciones de la región " . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="0.4.1.2.1.1.1.1.1.1.1.0.0" sentencenodepath="0">Los ministros de Transporte_de_América subrayaron hoy en Washington la importancia " vital " que el desarrollo de las infraestructuras de <argset><head>transportes </head></argset>tienen para el crecimiento económico de los países pequeños del continente . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="4.2.0.1.1.1.0.1.1.0.0" sentencenodepath="4">También asistieron algunos observadores del sector del <argset><head>transporte </head></argset>, autoridades gubernamentales y organismos internacionales , como la Organización_de_Aviación_Civil_Internacional ( OACI ) . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="5.2.5.1.0.3.1.1.1.1.0.0" sentencenodepath="5">Los ministros subrayaron que , si se tiene_en_cuenta las disparidades en tamaño y fase de desarrollo económico entre los países del continente , " son los países pequeños y en_vías_de desarrollo los que tienen que hacer mejoras en la infraestructura de <argset><head>transporte </head></argset>al desarrollo " . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="9.2.1.1.1.1.1.2.1.2.1.1.0" sentencenodepath="9">Los participantes asistieron a la firma de un Memorándum de cooperación entre el Departamento_de_Transporte_de_EEUU y el BID para promover mejoras sostenibles en <argset><specifier>el</specifier><head>transporte </head><reference_modifiers>del continente</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/12967_20000417.tbf.xml" nodepath="3.3.0.2.1.1.0" sentencenodepath="3">De_acuerdo_con esta decisión , se aplicarán sanciones administrativas o incluso penales para <argset><specifier>los</specifier><head>transportes </head><reference_modifiers>que no tengan los destinos autorizados</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/13026_20001117.tbf.xml" nodepath="9.4.1.1.1.2.1.2.0.1.0.0.1.1.0.0" sentencenodepath="9">Además , Ø se comprometerán a realizar los esfuerzos necesarios para dotarse en los próximos años de medios de <argset><head>transporte </head><reference_modifiers>estratégico</reference_modifiers></argset>, armas guiadas , de medios de abastecimiento de combustible en vuelo , de supresión de defensas aéreas , medios de defensa contra misiles tierra-tierra , y medios humanos , aéreos y satélites de espionaje . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="8.3.1.1.1.1.0.1.1.0.0" sentencenodepath="8">La protesta en los puertos se traduce en una ausencia de actividad del <argset><head>transporte </head></argset>, ya_que Transcont considera que no se deben realizar concentraciones " para no molestar a la sociedad " . </example>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="11.0.0.1.1.1.1.0.0" sentencenodepath="11">Pau_Willoughby , responsable del <argset><head>transporte </head><reference_modifiers>olímpico</reference_modifiers></argset>reconoció que " el sábado 76.000 personas acudieron al Parque_Olímpico y el domingo la cantidad va a ser superior . A primera hora de la mañana ya estaban en el recinto 30.500 aficionados " . </example>
+        <example file="CESS-CAST-AA/19695_20000427.tbf.xml" nodepath="2.2.2.1.1.1.1.1.1.0.0" sentencenodepath="2">Varios sindicatos estatales reclaman aumentos salariales y los estudiantes rechazan el incremento de las tarifas del <argset><head>transporte </head><argument argument="argM" function="cn" thematicrole="adv" type="s.a">público</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="3.2.4.1.4.1.1.1.1.1.0.1.1.0.1.0" sentencenodepath="3">Aznar reconoció que a él le habría gustado " ir más rápido " en la liberalización de determinados sectores , pero Ø consideró " positivo " el resultado logrado hoy en esta materia , en_la_medida_que el documento de conclusiones compromete a los Quince a acelerar la integración de mercados como <argset><specifier>los</specifier><head>transportes </head></argset>y la energía y que la UE ha emprendido en Lisboa un camino " irreversible " . </example>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="0.0.0.1.2.4.1.0.1.1.1.1.1.0.1.1.0.0" sentencenodepath="0">Los estudiantes de la Universidad estatal de San_Carlos ( USAC ) de Guatemala que se mantenían en huelga de hambre en protesta por la subida del boleto del <argset><head>transporte </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de pasajeros</argument></argset>de la capital depusieron hoy su actitud y Ø se declararon victoriosos . </example>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="4.0.1.1.1.1.2.1.2.0.1.1.0.0" sentencenodepath="4">El fin de la medida de presión contra las autoridades y empresarios del <argset><head>transporte </head></argset>se produjo en_medio_de una multitudinaria manifestación de inquilinos de los mercados populares de la ciudad , quienes vitorearon a los estudiantes . </example>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="10.2.1.0.1.1.1.2.1.1.1.1.0.1.1.1.1.1.1.2.1.0.0" sentencenodepath="10">Las protestas estallaron un día después de la entrada en vigor de un aumento del 33_por_ciento de las tarifas para las categorías preferencial y popular de <argset><head>transporte </head><reference_modifiers>colectivo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/2505_20001004.tbf.xml" nodepath="0.2.3.1.1.2.1.0.1.2.1.4.1.1.1.0.0" sentencenodepath="0">Unas 10.000 personas paralizan hoy el centro de Belgrado a_lo_largo_de casi un kilómetro , y la gente sigue afluyendo , en una urbe ociosa , con un 40_por_ciento normal de paro incrementado ahora por la huelga , la desobediencia civil y las dificultades de <argset><head>transporte </head></argset>. </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="7.4.6.5.2.1.0.0" sentencenodepath="7">En la refinería de la petrolera estadounidense Texaco en Milford_Haven ( sur de Gales ) - la tercera más grande de Gran_Bretaña - cincuenta camiones bloquean su acceso , aunque la distribución del combustible no corre peligro , dado_que Ø se realiza por tuberías y mediante <argset><head>transporte </head><reference_modifiers>marítimo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="0.0.1.2.1.1.1.2.3.1.1.3.1.1.1.0" sentencenodepath="0">La renuncia del Gobierno_de_Caracas a acatar el fallo del Tribunal_Andino_de_Justicia que declaró ilegal la decisión que Venezuela adoptó para restringir <argset><specifier>el</specifier><head>transporte </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">internacional</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">por carretera</argument></argset>, podría llevar a Colombia , en dos meses , a adoptar medidas contra los productos venezolanos . </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="11.0.1.1.1.1.4.1.1.1.1.0.0" sentencenodepath="11">Sobre la posibilidad de que Caracas proponga una reforma a las normas sobre <argset><head>transporte </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">fronterizo</argument></argset>, Ramírez fue enfática en señalar que su país no la acompañará , pues de lo que se trata no es de " solucionar el incumplimiento modificando la norma , sino acatando la normatividad vigente " . </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="13.4.1.1.1.1.3.1.1.1.1.2.1.0.1.1.0.0" sentencenodepath="13">Tanto la Secretaría de la CAN , que dirige el venezolano Sebastián_Alegrett , como el Tribunal_Andino , dieron a Colombia la razón en su demanda para que Venezuela levantara la restricción a la libre prestación del servicio de <argset><head>transporte </head></argset>adoptada por los ministerios del Interior , Hacienda , Industria_y_Comercio , Transporte y Comunicaciones de Venezuela . </example>
+        <example file="CESS-CAST-AA/8551_20000114.tbf.xml" nodepath="0.0.3.1.1.1.3.1.0.0" sentencenodepath="0">Las agencias de viajes de Panamá denunciaron por supuestas prácticas monopolísticas a las aerolíneas que se dedican al <argset><head>transporte </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">internacional</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de pasajeros</argument></argset>, ante la Comisión_de_Libre_Competencia panameña , informó hoy una fuente vinculada a estas pequeñas empresas . </example>
+        <example file="CESS-CAST-AA/8551_20000114.tbf.xml" nodepath="7.3.1.1.1.1.0.0" sentencenodepath="7">De_acuerdo_con APAVIT , la medida afecta a los usuarios del <argset><head>transporte </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">aéreo</argument></argset>que verán aumentado sus costos , lo que también aumentaría el desempleo con el posible cierre de algunas agencias de viajes . </example>
+        <example file="CESS-CAST-AA/8633_20000114.tbf.xml" nodepath="7.3.1.1.1.0.0" sentencenodepath="7">Las extraordinarias dimensiones de este país y la gran cantidad de lugares remotos de difícil acceso hacen de los aviones ligeros un medio de <argset><head>transporte </head></argset>insustituible . </example>
+        <example file="CESS-CAST-AA/8633_20000114.tbf.xml" nodepath="9.0.0.1.0" sentencenodepath="9"><argset><specifier>El</specifier><head>transporte </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">aéreo</argument></argset>también es fundamental en la salud y muchos dependen de las ambulancias aéreas para poder acceder a un hospital . </example>
+        <example file="CESS-CAST-AA/9690_20000412.tbf.xml" nodepath="4.2.2.1.0.2.2.1.0.0.2.0" sentencenodepath="4">Al_término_de la sesión de hoy todos los sectores tuvieron pérdidas , la principal fue para servicios con el 5,32_por_ciento , seguido de <argset>comunicaciones y <head>transportes </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">con 4,20_por_ciento</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/11_20000801.tbf.xml" nodepath="4.3.1.1.1.3.1.1.1.1.0.1.0.5.0" sentencenodepath="4">Es mucho más fácil reubicar una instalación en unos terrenos amplios y con los proyectos sin realizar que en un área como Vall_d'Hebron , junto_a una ronda casi siempre colapsada y frente_a una ciudad sanitaria con tanto movimiento de tráfico <argset>( ambulancias , coches y <head>transportes </head>
+            <reference_modifiers>públicos</reference_modifiers>) </argset>. </example>
+        <example file="CESS-CAST-P/16_20020202.tbf.xml" nodepath="7.4.1.1.4.0.1.1.1" sentencenodepath="7">Pero Ø no podrá legar su memoria , que se remonta a <argset><specifier>un</specifier><reference_modifiers>inusitado</reference_modifiers><head>transporte </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las lámparas gigantes del Palau_Nacional</argument></argset>o a décadas en las que no había montamuebles pero sí aceras sin apenas tránsito en las que Ø aparcaban con comodidad . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="8.4.1.1.3.3.1.1.1.1.1.1.1.0.0" sentencenodepath="8">" Los granjeros que nos entienden no han tenido problemas . Las disputas han aparecido con los propietarios que rechazaban la ocupación de una tierra que es nuestra " , sermonea Ø ante un control policial instalado en la carretera , que parece obsesionado en parar a las furgonetas de <argset><head>transporte </head><reference_modifiers>público</reference_modifiers></argset>por si Ø ocultan a simpatizantes de la oposición . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="8.2.0.1.1.0.0" sentencenodepath="8">Ésta y otras agencias buscaban alternativas de <argset><head>transporte </head></argset>para sus clientes , principalmente en las aerolíneas que unen Barcelona y las Baleares ( Iberia , Spanair y Air_Europa ) . </example>
+        <example file="CESS-CAST-P/27_20020801_c.tbf.xml" nodepath="4.3.1.1.1.0" sentencenodepath="4">La compañía no logró reubicarlos en <argset><specifier>otro</specifier><head>transporte </head></argset>el martes , por lo que Ø los citó ayer - - a las cinco de la mañana - - en el puerto . </example>
+        <example file="CESS-CAST-P/42_19990301.tbf.xml" nodepath="1.4.0.1.1.1.1.1.0.0" sentencenodepath="1">Dos tripulantes de la estación orbital rusa Mir llegaron ayer por la mañana a Kazajstán a_bordo de la cápsula de <argset><head>transporte </head><reference_modifiers>espacial</reference_modifiers></argset>Soyuz_TM-28 . </example>
+        <example file="CESS-CAST-P/69_19991001.tbf.xml" nodepath="6.2.2.1.0.0" sentencenodepath="6">Ø Lo siguieron por la calle sin que A._E. se diera_cuenta , los agresores bajaron del <argset><head>transporte </head><reference_modifiers>público</reference_modifiers></argset>y Ø le siguieron por la calle de Narcís_Monturiol , donde Ø le pararon y Ø comenzaron a golpearle por todo el cuerpo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="transportar" originlink="verb.transportar.1" wordnetsynset="16:00204553">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="23.3.2.1.2.1.1.1.1.1.1.0.1.0.0" sentencenodepath="23">Algroup , presente en 18 países y con 23.000 empleados , opera en el sector de la producción de aluminio y el empaquetado , con una fuerte presencia en el sector de la industria del <argset><head>transporte </head></argset>y del embalaje de productos alimentarios , cosméticos y farmacéuticos . </example>
+        <example file="3LB-CAST/dc10-8.tbf.xml" nodepath="9.4.1.1.0" sentencenodepath="9">Ø se enfocó desde muy antiguo hacia <argset><specifier>el</specifier><head>transporte </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de vivos y bienes</argument><reference_modifiers>, del que tenía ejemplo en las naves que movía el viento por aguas y mares con estimable eficiencia</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="3.3.2.1.0" sentencenodepath="3">Esta disposición incrementa la interacción metal-metal o_bien entre orbitales n de los distintos macrociclos , facilitando <argset><specifier>el</specifier><head>transporte </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_c.tbf.xml" nodepath="1.4.1.2.1.0.0" sentencenodepath="1">- - La empresa MonBus ha puesto_en_marcha una línea regular de <argset><head>transporte </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de viajeros</argument></argset>entre El_Vendrell y Andorra que será operativa todo el año . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="transportar" originlink="verb.transportar.1" wordnetsynset="16:00204553">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="14.2.0.1.1.1.0.0" sentencenodepath="14">Entre las propuestas de la CTU destacan la suspensión del <argset><head>transporte </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de productos</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">entre ambos países</argument></argset>y que se paralice la actividad comercial que las empresas neozelandesas mantienen con Fiyi . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="medio_de_transporte" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="transportar" originlink="verb.transportar.1" wordnetsynset="16:00204553">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="1.2.1.3.2.1.2.0.1.1.0.0" sentencenodepath="1">La magistrada quiere conocer si Ø dispone de servicio doméstico , de otro personal , medios de <argset><head>transporte </head></argset>y , en_definitiva , " todo cuanto conlleve a concretar los ingresos con que Ø cuenta para subsistir y mantenerse él y su familia " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

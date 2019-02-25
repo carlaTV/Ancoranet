@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="atribución" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="atribuir" originlink="verb.atribuir.1" wordnetsynset="16:10411732">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-13.tbf.xml" nodepath="10.3.1.0.1.1.2.2.0.2.2.1.0.1.1.1.2.1.0.0" sentencenodepath="10">De entre todas las especies , la que nos es , más cercana es la de los grandes simios , de recia pelambre repartida por todo su cuerpo en función de una larga serie de <argset><head>atribuciones </head><reference_modifiers>que desempeña a_la_perfección</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="1.3.2.1.1.2.1.0.0.2" sentencenodepath="1">Según la diputada socialista , uno de los mayores errores ha sido limitar en la Ley_de_Hidrocarburos de 1998 la capacidad de actuación de los poderes públicos ante una estructura de la oferta de carácter oligopólico " propensa a ejercer su poder sobre minoristas y consumidores " , además_de establecer un esquema de órganos de defensa de la competencia de <argset>" <reference_modifiers>reducidas</reference_modifiers>
+            <head>atribuciones </head>" y " escasa neutralidad y transparencia " </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="atribuir" originlink="verb.atribuir.1" wordnetsynset="16:04427252">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="5.3.4.2.1.1.0" sentencenodepath="5">Para lograr que aumente la competencia , el PSOE pide que se garantice el acceso de terceros a las redes de almacenamiento y distribución de productos petrolíferos con el establecimiento del acceso regulado y con <argset><specifier>la</specifier><head>atribución </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a la CNE</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la competencia para fijar los cánones y peajes a pagar por su uso</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

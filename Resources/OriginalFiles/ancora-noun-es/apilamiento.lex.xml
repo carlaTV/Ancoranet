@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="apilamiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="apilar" originlink="verb.apilar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="7" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="1.2.5.2.1.1.0" sentencenodepath="1">La planaridad de las moléculas hace que Ø puedan aproximarse mucho en la dirección perpendicular a su plano molecular , tanto en <argset><specifier>el</specifier><head>apilamiento </head><reference_modifiers>segregado</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de moléculas de TNCQ</argument></argset>como en la columna paralela de moléculas de TTF , a_lo_largo_de cuyos ejes se produce el movimiento electrónico responsable de la conductividad . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="0.5.2.1.0" sentencenodepath="0">Así , la alta conductividad de - metal orgánico - en CTC sólo se produce cuando , de las tres situaciones posibles de empaquetamiento y transferencia de carga ( fig. 4B ) , <argset><specifier>los</specifier><head>apilamientos </head><reference_modifiers>segregados</reference_modifiers></argset>van acompañados de transferencia parcial de carga , lo que implica la existencia de moléculas neutras junto_con otras ionizadas . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="1.1.2.3.2.1.3.1.0.0" sentencenodepath="1">Si la transferencia de carga es total ( 1 electrón por pareja dador-aceptor ) , todas las moléculas están ionizadas y , como máximo , pueden lograrse semiconductores , ya_que el movimiento electrónico entre moléculas a_lo_largo_del <argset><head>apilamiento </head></argset>supondría la formación de especies doblemente cargadas en el dador o el aceptor , lo que implica una barrera energética a_causa_de repulsión electrónica . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="9.3.1.1.1.0.4.1.0.0" sentencenodepath="9">Se cumple con ello el requisito de conductividad por movimiento de carga de molécula cargada a molécula neutra a_lo_largo_del <argset><head>apilamiento </head></argset>. </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="1.3.1.1.1.1.3.1.0.0" sentencenodepath="1">En_particular , son tres los objetivos : - - Transferencia de carga D-A entre 0 - - Interacciones entre <argset><head>apilamientos </head><reference_modifiers>segregados</reference_modifiers></argset>que impidan cambios de fase capaces de provocar la transición de estructura conductora a aislante . </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="6.4.1.0.2.1.1" sentencenodepath="6">En_general , la sustitución en el esqueleto monocíclico de TCNQ da_lugar a complejos con propiedades conductoras inferiores a las del TCNQ , por la menor planaridad de la molécula , lo que dificulta <argset><specifier>el</specifier><reference_modifiers>apretado</reference_modifiers><head>apilamiento </head><reference_modifiers>necesario para el solapamiento n responsable de la conductividad</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="0.2.2.0.0" sentencenodepath="0">Desde un punto de vista estructural estos compuestos son semejantes a los metales orgánicos ya comentados y Ø forman <argset><head>apilamientos </head><reference_modifiers>segregados en_zigzag</reference_modifiers></argset>formando una cadena quasi-unidimensional . </example>
+        <example file="3LB-CAST/dc3-5.tbf.xml" nodepath="8.2.1.1.0" sentencenodepath="8">Estos metalomacrociclos polimerizan formando <argset><specifier>un</specifier><head>apilamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre las distintas moléculas</argument></argset>, con la distancia interplanar adecuada ( fig. 2 ) . </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="1.3.1.2.1.2.1.0.0" sentencenodepath="1">Recientemente , J._Simons ha descrito un procedimiento alternativo para conseguir una disposición de macrociclos de ftalocianinas en <argset><head>apilamientos </head></argset>sin necesidad de ligandos puente . </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="2.3.2.2.2.1.0.0" sentencenodepath="2">Ø Consiste en la presencia de largas cadenas hidrocarbonadas en posiciones periféricas del macrociclo , lo que conduce a la formación de mesofases discóticas y al <argset><head>apilamiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los macrociclos</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="2.3.3.1.0.0" sentencenodepath="2">Esta situación se consigue cuando moléculas planas y conjugadas cristalizan en <argset><head>apilamientos </head><reference_modifiers>segregados</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dadores ( D ) y aceptores ( A )</argument></argset>, consiguiendo de este modo una de las condiciones necesarias para que pueda darse la conductividad . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="3.1.1.0" sentencenodepath="3">Lamentablemente , <argset><specifier>el</specifier><head>apilamiento </head><reference_modifiers>mezclado</reference_modifiers><reference_modifiers>que contiene de forma alternativa moléculas dadoras ( D ) y aceptoras ( A ) en cada apilamiento</reference_modifiers>, </argset>es en_general el modelo termodinámicamente favorecido . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="3.1.1.2.4.1.1.0" sentencenodepath="3">Lamentablemente , el apilamiento mezclado que contiene de forma alternativa moléculas dadoras ( D ) y aceptoras ( A ) en <argset><specifier>cada</specifier><head>apilamiento </head></argset>, es en_general el modelo termodinámicamente favorecido . </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="1.3.1.1.0.0" sentencenodepath="1">Además_del grado fraccional de transferencia de carga , ésta tiene que estar deslocalizada a_lo_largo_del <argset><head>apilamiento </head></argset>. </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="2.0.0.5.1.1.0" sentencenodepath="2">Cuanto más próximas se encuentren las moléculas en <argset><specifier>el</specifier><head>apilamiento </head></argset>, mayor será el solapamiento de los orbitales entre ellos y , en_consecuencia , mayor será la deslocalización de la carga . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

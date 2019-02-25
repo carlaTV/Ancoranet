@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="conexión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="conectar" originlink="verb.conectar.1" wordnetsynset="16:02488140">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2698_20000203.tbf.xml" nodepath="0.4.4.0.2.1.1.0" sentencenodepath="0">El secretario de Comunicación del Partido_Popular y responsable para Internet , Manuel_Atencia , aseguró hoy a EFE que en España no hay tarifa plana para <argset><specifier>la</specifier><head>conexión </head><argument argument="arg1" function="cn" type="sp">a la red</argument></argset>por problemas técnicos , ya_que aún no existe ningún medio de discriminación de voz y datos , salvo el de tecnología ADSL . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="conectar" originlink="verb.conectar.2" wordnetsynset="16:02488140+16:09931077+16:09993288+16:04734393">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="4" preposition="con" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="z" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-1.tbf.xml" nodepath="2.0.3.2.1.1.1.0.1.1.0.2.1.1.0.0" sentencenodepath="2">Sony prevé un incremento de la demanda de la tecnología de PlayStation_2 a_medida_que aumenta el número de electrodomésticos como televisores digitales dotados con <argset><head>conexiones </head><argument argument="arg2" function="cn" type="sp">a redes informáticas de banda amplia</argument></argset>, dijeron las fuentes . </example>
+        <example file="3LB-CAST/dc1-0.tbf.xml" nodepath="2.1.1.0" sentencenodepath="2">Si dos neuronas se activan a_la_vez ante un estímulo determinado , <argset><argument argument="arg1" thematicrole="pat" type="spec">sus</argument><head>conexiones </head></argset>se refuerzan . </example>
+        <example file="3LB-CAST/e1-1.tbf.xml" nodepath="7.0.3.1.0" sentencenodepath="7">Ya se han separado <argset><specifier>las</specifier><head>conexiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ZZNM</argument><argument argument="arg2" function="cn" type="sp">con el ámbito de lo religioso</argument></argset>; una cierta interpretación romántica o tardorromántica del personaje , cuyo ejemplo pudiera ser ZZNM , ha querido hacer de él un personaje trágico . </example>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="13.3.1.1.1.4.1.1.1.2.1.0.0" sentencenodepath="13">En esos medios policiales se apunta la posibilidad de que en esta ocasión se trate de otra banda organizada y sin <argset><head>conexión </head><argument argument="arg2" function="cn" type="sp">con ETA</argument></argset>, aunque no se descarta que la organización terrorista , aun a_sabiendas de que Ø no cuenta con medios para recaudar el dinero exigido , busque lo que se denomina - una maniobra de pura perturbación - . </example>
+        <example file="CESS-CAST-A/14291_20000518.tbf.xml" nodepath="1.4.0.1.1.1.0.0" sentencenodepath="1">Desde su filial en España , Telia_Iberia ofrecerá a las empresas sus servicios de <argset><head>conexión </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">con internet</argument></argset>, así_como la venta a operadores privados de espacios para trasmisión de datos y voz . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="12.2.6.1.2.1.1.2.1.0.1" sentencenodepath="12">El candidato a la coordinación general de IU Gaspar_Llamazares dijo que con esta fusión el Gobierno " facilita de_nuevo la conversión del monopolio público del sector eléctrico en un monopolio privado con <argset><reference_modifiers>claras</reference_modifiers><head>conexiones </head><argument argument="arg2" function="cn" type="s.a">políticas</argument></argset>" . </example>
+        <example file="CESS-CAST-A/18485_20000724.tbf.xml" nodepath="6.4.1.1.1.1.1.1.1.4.1.0" sentencenodepath="6">En_materia_de carreteras , Gutiérrez_del_Castillo trasladó al ministro la necesidad de acelerar la construcción de las autovías Ruta_de_la_Plata ( desde Sevilla al límite con la provincia de Badajoz ) , Córdoba-Antequera , Granada-Motril y el tramo Nerja-Adra que falta para cerrar la del Mediterráneo , así_como <argset><specifier>la</specifier><head>conexión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sn">Bahía_de_Cádiz-Bahía_de_Algeciras</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="3.0.4.1.1.1.0" sentencenodepath="3">" La tecnología existente hoy permite un acceso mucho más directo y eficiente a los mercados que <argset><specifier>las</specifier><head>conexiones </head><reference_modifiers>electrónicas</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre mercados</argument><reference_modifiers>( ITS )</reference_modifiers></argset>" , explica el informe preparado por una comisión especial del NYSE y cuyas recomendaciones fueron aprobadas hoy por el Consejo_de_Administración_de_la_Bolsa . </example>
+        <example file="CESS-CAST-AA/4842_20000606.tbf.xml" nodepath="14.3.3.1.1.0.3.1.3.3.0.0" sentencenodepath="14">Aquí , en el salón de reuniones del Ayuntamiento , Don_Felipe vio como los concejales de los cinco partidos que integran la corporación coincidían en lamentar que esta sea la única ciudad de la España peninsular que no tiene <argset><head>conexión </head><reference_modifiers>ferroviaria</reference_modifiers></argset>con Madrid , y que Teruel sea la única provincia que no tiene en su territorio ni un solo kilómetro de autovía . </example>
+        <example file="CESS-CAST-AA/5005_20001107.tbf.xml" nodepath="5.2.1.2.1.1.4.1.0.2.0.1" sentencenodepath="5">Las citadas tarifas oscilan entre las 1.850 pesetas al mes ( si se trata de accesos a centrales locales ) y las 2.300 pesetas ( si la comunicación es de tránsito simple <argset>- <head>conexión </head>
+            <argument argument="arg2" function="cn" type="sp">a una única central por provincia</argument>- </argset>) . </example>
+        <example file="CESS-CAST-AA/5145_20000207.tbf.xml" nodepath="3.0.3.1.1.0" sentencenodepath="3">La división de alarmas residenciales y para pymes , Protección_Activa , cerró el año con <argset><specifier>90.000</specifier><head>conexiones </head><reference_modifiers>en todo el mundo</reference_modifiers></argset>, mientras_que en España Ø consiguió duplicar el número de clientes hasta alcanzar las 40.000 conexiones . </example>
+        <example file="CESS-CAST-AA/5145_20000207.tbf.xml" nodepath="3.2.3.2.1.1.1.0" sentencenodepath="3">La división de alarmas residenciales y para pymes , Protección_Activa , cerró el año con 90.000 conexiones en todo el mundo , mientras_que en España Ø consiguió duplicar el número de clientes hasta alcanzar <argset><specifier>las 40.000</specifier><head>conexiones </head></argset>. </example>
+        <example file="CESS-CAST-P/104_20020502.tbf.xml" nodepath="10.5.2.1.2.2.1.2.2.3.1.1.2.1.1.1.1.0.0" sentencenodepath="10">La cubierta se prolongará en la fachada principal hacia la avenida de Cambó , creando una especie de pérgola-escultura , un invernáculo que dará sombra y cuya función será " captar la energía de Via_Laietana y de la plaza de la Catedral y captar el movimiento de turistas en la ruta de <argset><head>conexión </head><argument argument="arg2" function="cn" type="sp">con Santa_Maria_del_Mar</argument></argset>" , explica Tagliabue . </example>
+        <example file="CESS-CAST-P/43_20010702.tbf.xml" nodepath="6.4.4.1.0" sentencenodepath="6">En_principio , los gobiernos mexicano y español dudan de que ETA coopere con el Ejército_Zapatista_de_Liberación_Nacional ( EZLN ) , pese_a_que un informe desclasificado del Pentágono apunta <argset><specifier>esa</specifier><head>conexión </head></argset>. </example>
+        <example file="CESS-CAST-P/65_20010602.tbf.xml" nodepath="8.0.1.1.1" sentencenodepath="8">" <argset><specifier>La</specifier><reference_modifiers>única</reference_modifiers><head>conexión </head><reference_modifiers>que tenemos</reference_modifiers><argument argument="arg2" function="cn" type="sp">con el Magreb</argument></argset>es insuficiente " , dijo Ø . </example>
+        <example file="CESS-CAST-P/70_20011102.tbf.xml" nodepath="3.1.0.3.1.0" sentencenodepath="3">Cada año por estas fechas , Delta suspende temporalmente <argset><specifier>la</specifier><head>conexión </head><reference_modifiers>directa</reference_modifiers></argset>y Ø la sustituye por un vuelo con escala en Barajas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="conectar" originlink="verb.conectar.2" wordnetsynset="16:09993288+16:10345982+16:04734393">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="3" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="5.5.0.1.1.0" sentencenodepath="5">La protesta se extendió también , a_lo_largo_de la mañana , a <argset><specifier>la</specifier><head>conexión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la A-7</argument><argument argument="arg2" function="cn" type="sp">con la pista de Ademuz</argument></argset>y a algunos polígonos industriales , sobre_todo en la autovía A-3 Madrid-Valencia , según fuentes de Asetraval . </example>
+        <example file="CESS-CAST-P/50_19991101.tbf.xml" nodepath="0.2.1.1.1.1.2.2.1.0" sentencenodepath="0">El Ayuntamiento_de_Manresa y la Generalitat negocian la construcción de un paso subterráneo que permita <argset><specifier>la</specifier><head>conexión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la rotonda de Els_Dolors</argument><argument argument="arg2" function="cn" type="sp">con la ronda norte del Eix_Transversal</argument></argset>, atravesando la zona de la Parada . </example>
+        <example file="CESS-CAST-P/50_19991101.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">La obra , que costaría 200 millones de pesetas y que el consistorio quiere realizar en este mandato , facilitaría <argset><specifier>la</specifier><head>conexión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del barrio de la carretera de Santpedor</argument><argument argument="arg2" function="cn" type="sp">con el Eix_Transversal</argument></argset>y Ø eliminaría el actual colapso circulatorio de la plaza de la Creu . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

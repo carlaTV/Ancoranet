@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="juego" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="jugar" originlink="verb.jugar.1" wordnetsynset="16:00289269">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="8" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ins">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="41" type="void"/>
+        <constituent frequency="22" postype="article" type="determiner"/>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="8" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="24" type="s.a"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="9" type="S"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-1.tbf.xml" nodepath="3.3.1.2.1.1.1.1.1.0.3.0.2.1.3.1.0.0.0" sentencenodepath="3">La firma anunció esta semana una inversión de casi 1.200 millones de dólares para aumentar la producción del chip " emotion engine " , componente clave de PlayStation_2 que ofrece una alta calidad de imagen en <argset><head>juegos </head>y vídeos </argset>y que Sony desarrolló junto_a Toshiba . </example>
+        <example file="3LB-CAST/a1-2.tbf.xml" nodepath="1.0.3.1.1.0" sentencenodepath="1">Medardo_Fraile no entra en <argset><specifier>el</specifier><head>juego </head></argset>, Ø se sitúa fuera del escenario y Ø contempla . </example>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="3.2.1.1.1.1.0.0" sentencenodepath="3">Otro aspecto con el que a_buen_seguro se producirá un mayor número de relevos de jugadores será cuando las reglas de <argset><head>juego </head></argset>favorezcan más el juego rápido , por_ejemplo disminuyendo el tiempo de posesión del balón a menos de los treinta segundos actuales . </example>
+        <example file="3LB-CAST/d1-13.tbf.xml" nodepath="7.3.2.1.1.1.1.0.0" sentencenodepath="7">Y lo restante del equipo , es sencillamente mediocre , con un esquema de <argset><head>juego </head></argset>- démodé - , pasado de moda , aburrido , sin más aliciente para el aficionado que algún alocado remate de cabeza de Zamorano y el temor a que , de_repente , le salga bien a Hierro un disparo desde lejos . </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="14.0.0.2.1.2.1.1" sentencenodepath="14">Otra , más específica : con Norris y Savic había <argset><specifier>un</specifier><reference_modifiers>verdadero</reference_modifiers><head>juego </head><reference_modifiers>interior</reference_modifiers></argset>en el conjunto blaugrana , pero con un Roberts que es un alero alto , pero endeble bajo los aros ( vean Ø por_ejemplo sus totales reboteadores ) , con un Massenburg potentísimo pero carente de un solo movimiento ofensivo de espaldas a la canasta , y con un Andreu de conocidas limitaciones , ya no existe ese juego interior en ataque . </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="14.0.0.2.3.4.1.0" sentencenodepath="14">Otra , más específica : con Norris y Savic había un verdadero juego interior en el conjunto blaugrana , pero con un Roberts que es un alero alto , pero endeble bajo los aros ( vean Ø por_ejemplo sus totales reboteadores ) , con un Massenburg potentísimo pero carente de un solo movimiento ofensivo de espaldas a la canasta , y con un Andreu de conocidas limitaciones , ya no existe <argset><specifier>ese</specifier><head>juego </head><reference_modifiers>interior</reference_modifiers><argument argument="argM" function="cn" thematicrole="mnr" type="sp">en ataque</argument></argset>. </example>
+        <example file="3LB-CAST/d1-2.tbf.xml" nodepath="10.1.1.2.1.0" sentencenodepath="10">Pero en Europa y en las universidades , donde <argset><specifier>el</specifier><head>juego </head></argset>es más previsible , quien tiene el base y el pívot tiene el éxito asegurado . </example>
+        <example file="3LB-CAST/d1-4.tbf.xml" nodepath="3.0.0.0.0" sentencenodepath="3"><argset><head>Juego </head>diversión , lucidez , espectáculo al_fin </argset>. </example>
+        <example file="3LB-CAST/d2-11.tbf.xml" nodepath="3.0.3.1.1.2.3.4.4.0.1.1.0" sentencenodepath="3">Si de la actual estructura directiva descoyuntada del Madrid descuella una persona cabal y , además , enamorada del baloncesto - como es casi inevitable en_cuanto uno se acerca a <argset><specifier>este</specifier><head>juego </head></argset>y a sus gentes sin prejuicios - , ésa es Jaquotot . </example>
+        <example file="3LB-CAST/d2-16.tbf.xml" nodepath="4.2.4.1.2.1.1.2.1.0.0.0.0" sentencenodepath="4">El Barcelona es la conciencia malsana del Madrid , su espejo oscuro , la representación más visible de una decadencia siquiera temporal y , el sábado , dignísima de <argset><head>juego </head>y garras estériles </argset>. </example>
+        <example file="3LB-CAST/d2-3.tbf.xml" nodepath="0.2.4.1.2.1.1.1" sentencenodepath="0">Su gran rival , el Banesto , hizo_gala de un planteamiento agresivo , pero a esta escuadra le sucede como a los equipos de fútbol que Ø disponen de <argset><specifier>un</specifier><reference_modifiers>brillante</reference_modifiers><head>juego </head></argset>y nadie sabe marcar goles . </example>
+        <example file="3LB-CAST/d2-3.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>El</specifier><head>juego </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">de ataques y defensa</argument></argset>fue ganado por el grupo de Tony_Rominger . </example>
+        <example file="3LB-CAST/dc1-2.tbf.xml" nodepath="4.0.1.1.0" sentencenodepath="4">A_diferencia_de <argset><specifier>otros</specifier><head>juegos </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ordenador</argument><reference_modifiers>, cuyo único objetivo es aniquilar a los invasores o sortear obstáculos</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc1-2.tbf.xml" nodepath="8.0.3.1.0" sentencenodepath="8">" Ø Es <argset><specifier>un</specifier><head>juego </head><reference_modifiers>pacifista</reference_modifiers><reference_modifiers>que resulta de refinadísimos algoritmos genéticos</reference_modifiers></argset>" , dice Vladimir_Pokhilko , de la empresa Animatek , en Moscú , cuando Ø se refiere al HFish , un mundo de peces irisados concebido por él . </example>
+        <example file="3LB-CAST/dc10-2.tbf.xml" nodepath="3.2.1.6.2.1.3.2.1.4.1.1.1.1.0.0" sentencenodepath="3">Ø Es como si , desde el principio , la vida se pusiera sus propios frenos , estableciendo unos sutiles mecanismos de regulación , los virus , que actuarían como factores correctores en esa especie de <argset><head>juego </head><reference_modifiers>que llamamos equilibrio ecológico</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc10-5.tbf.xml" nodepath="4.0.0.4.1.0.0" sentencenodepath="4">Si , como en el caso de Alejandro_Pushkin , se encontraba en <argset><head>juego </head></argset>el honor de la persona , la respuesta era inmediata : se arrojaba el guante y sólo había que concertar fecha y hora , escoger el terreno y las armas , y nombrar los padrinos . </example>
+        <example file="3LB-CAST/dc10-8.tbf.xml" nodepath="5.3.2.0.2.1.2.1.1.2.1.1.1.0.0" sentencenodepath="5">Sin_embargo el duelista no sólo debía estar preparado en todo momento ; estrategas de oficio conocían perversos ardides para desajustar de alguna manera la igualdad que garantizaban las reglas del <argset><head>juego </head></argset>. </example>
+        <example file="3LB-CAST/t6-6.tbf.xml" nodepath="3.0.0.0.1.1.1.1.1.0" sentencenodepath="3">Ella , cómplice en <argset><specifier>aquel</specifier><head>juego </head><reference_modifiers>inocente</reference_modifiers><reference_modifiers>que su marido desaprobaba con energía</reference_modifiers></argset>, iba recogiendo luego las plumas que se desprendían a su paso y Ø las guardaba para él , para compensarle quizá de la previsible extinción del pequeño placer que Ø compartían , consciente ya de que en poco tiempo sólo quedaría el recuerdo de las plumas sobre una sucia franja desmochada , la degradada frontera entre su piel y esa piel tan fina y arrugada , teñida de azul celeste , hasta que el cambio de estación se encarnara en pretexto suficiente para estrenar otro par , siempre el mismo modelo . </example>
+        <example file="CESS-CAST-A/11084_20001014.tbf.xml" nodepath="15.1.1.1.1.0" sentencenodepath="15">" La velocidad en <argset><argument argument="arg0" thematicrole="agt" type="spec">mi</argument><head>juego </head></argset>debe ser fundamental y Ø debo conseguir ese ajuste antes de volver a las pistas " . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="14.0.1.2.1.1.0" sentencenodepath="14">El equipo blanco , <argset><argument argument="arg0" thematicrole="agt" type="relatiu">cuyo</argument><head>juego </head></argset>no gusta a casi nadie , puede presumir , sin_embargo , de ser el que menos partidos ha perdido ( 5 ) y el que más puntos ha sumado a domicilio ( 25 ) . </example>
+        <example file="CESS-CAST-A/13150_20000316.tbf.xml" nodepath="1.0.1.3.2.1.0.5.1.1.1.1.1.1.0.0" sentencenodepath="1">" Se trata de un auténtico equipazo en el que cualquiera de sus diez jugadores te puede anotar diez puntos y 'matarte' , por lo que Ø no nos tenemos que centrar en tratar de amarrarles en un aspecto de <argset><head>juego </head><reference_modifiers>determinado</reference_modifiers></argset>. Habrá que hacer un partido bueno tanto adelante como atrás " , advirtió Espil . </example>
+        <example file="CESS-CAST-A/13150_20000316.tbf.xml" nodepath="3.0.1.1.0.2.1.1" sentencenodepath="3">" Aunque Ø nos cueste bastante , Ø tenemos que tratar de desplegar <argset><specifier>un</specifier><reference_modifiers>mejor</reference_modifiers><head>juego </head></argset>, circular más el balón y buscar tiros más cómodos . Ø Ultimamente estamos perdiendo incluso efectividad en_cuanto_a porcentaje de tiros libres y triples . Ø Ahora debemos mirar hacia adelante y no volvernos locos " , comentó Ø . </example>
+        <example file="CESS-CAST-A/13150_20000316.tbf.xml" nodepath="6.3.1.1.1.1.1.1.1" sentencenodepath="6">Por_último , Espil reconoció que una solución para frenar <argset><specifier>el</specifier><reference_modifiers>poderoso</reference_modifiers><head>juego </head><reference_modifiers>interior</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del conjunto catalán , con jugadores de la envergadura y fuerza física de Roberto_Dueñas , Derrick_Alston o Efthimios_Rentzias ,</argument></argset>radicará en conceder el tiro a su rival . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="10.3.5.1.1.2.1.0.0" sentencenodepath="10">El partido terminó en_medio_de una polémica porque el árbitro Claudio_Martín anuló un gol a Guillermo_Barros_Schelotto en el último minuto de <argset><head>juego </head></argset>, en una decisión muy protestada por los jugadores e hinchas visitantes . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="13.3.1.3.1.1.2.1.0.0" sentencenodepath="13">La sola presencia de tres futbolistas como Angel , Aimar y Saviola , la síntesis de la potencia ofensiva del River_Plate , bastó a los dueños de casa para mantener en_guardia al conjunto boquense durante los primeros minutos de <argset><head>juego </head></argset>. </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="17.3.1.5.3.1.1.0" sentencenodepath="17">El Boca_Juniors parecía desbordado por los movimientos de su adversario hasta que Gustavo_Barros_Schelotto y José_Basualdo asumieron su papel de " patrones " en el centro del campo , Ø recuperaron cien balones y Ø pusieron equilibrio en <argset><specifier>el</specifier><head>juego </head></argset>. </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="25.1.2.2.1.1.1.1.2.1.0.0" sentencenodepath="25">Para mal de los visitantes , el colombiano Yepes se lució en la marca de la defensa riverplatense y su figura creció hasta convertirse en la gran estrella del <argset><head>juego </head></argset>. </example>
+        <example file="CESS-CAST-A/13710_20001017.tbf.xml" nodepath="7.0.0.1.1.1.0" sentencenodepath="7">Después del <argset><specifier>medio</specifier><head>juego </head></argset>, la ventaja de las piezas blancas se iba acentuando . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="3.0.3.1.2.1.1.1.1.1" sentencenodepath="3">Para el diario deportivo milanés " LaGazzettadelloSport " , el partido entre milanistas y barcelonistas resultó " emocionante y marcado por los episodios más que por <argset><specifier>el</specifier><reference_modifiers>buen</reference_modifiers><head>juego </head></argset>" , así_como Ø califica a Rivaldo como " monstruoso " y que " mantiene en la lucha al Barcelona " . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="4.0.1.2.1.1.0.1.1.0.1" sentencenodepath="4">" Se han visto más goles que muestras de <argset><reference_modifiers>buen</reference_modifiers><head>juego </head></argset>. Una contradicción encarnada por el príncipe de la noche , Rivaldo : 3 goles . Más ímpetu que lucidez , más corazón que capacidad de rendir airosos y eficaces los esquemas de ataque " , se recoge en la crónica del partido de dicho diario . </example>
+        <example file="CESS-CAST-A/1538_20001103.tbf.xml" nodepath="8.2.1.1" sentencenodepath="8">El campeón colombiano exhibió <argset><specifier>un</specifier><reference_modifiers>mejor</reference_modifiers><head>juego </head><reference_modifiers>de conjunto</reference_modifiers><reference_modifiers>que le sirvió para crear jugadas de peligro , con hombres como Víctor_Aristizábal , Oswaldo_Mackenzie y Tressor_Moreno</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="5.2.1.0.0" sentencenodepath="5">El trono que dejó vacante Carl_Lewis está en <argset><head>juego </head></argset>desde el viernes , primer día del programa atlético . </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="9.2.3.3.1.1.1.0" sentencenodepath="9">El experto opina que China podría emprender acciones militares en_vez_de una guerra dialéctica con Taipei , o quizás Ø decida continuar con <argset><specifier>los</specifier><head>juegos </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de guerra</argument></argset>para mantener a la isla en la incertidumbre . </example>
+        <example file="CESS-CAST-A/15801_20000123.tbf.xml" nodepath="3.0.4.1.1.1" sentencenodepath="3">El_Aynaui le rompió el servicio en <argset><specifier>el</specifier><reference_modifiers>séptimo</reference_modifiers><head>juego </head></argset>y esa ventaja fue suficiente para que el marroquí se alzase con la victoria . </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="8.4.2.1.1.0.0" sentencenodepath="8">" Nos faltó inteligencia en ofensiva para superar a un rival muy ordenado que colocó a muchos jugadores en la defensiva " , señaló Ø a Rijsbergen , intentando dar_respuesta al <argset><head>juego </head><reference_modifiers>poco ofensivo</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de sus jugadores</argument></argset>. </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="14.0.2.1.1.2.1.1.0.1.1.1.1.0.1.1.0.0" sentencenodepath="14">Urzaiz marcó en el minuto 87 , trece después de haber saltado al terreno de <argset><head>juego </head></argset>, y Ø aleja al Celta de la Copa_de_la_UEFA . </example>
+        <example file="CESS-CAST-A/17142_20000321.tbf.xml" nodepath="5.2.6.5.1.0.1" sentencenodepath="5">Miloc dijo que por el momento Ø no sabe si Ø convocará a nuevos jugadores para los próximos partidos , ya_que a su criterio , los que están han actuado bien en <argset><reference_modifiers>anteriores</reference_modifiers><head>juegos </head></argset>. </example>
+        <example file="CESS-CAST-AA/20072_20000924.tbf.xml" nodepath="3.0.2.2.1.0" sentencenodepath="3">El Numancia comenzó atacando más y Ø ejecutó <argset><specifier>un</specifier><head>juego </head><reference_modifiers>directo</reference_modifiers></argset>intentando aprovechar su superioridad en el juego aéreo en_tanto_que el equipo valencianista comenzó cargando el juego en Vicente , muy dinámico durante la primera parte . </example>
+        <example file="CESS-CAST-AA/20072_20000924.tbf.xml" nodepath="3.0.2.3.1.1.1.1.1.1.0" sentencenodepath="3">El Numancia comenzó atacando más y Ø ejecutó un juego directo intentando aprovechar su superioridad en <argset><specifier>el</specifier><head>juego </head><reference_modifiers>aéreo</reference_modifiers></argset>en_tanto_que el equipo valencianista comenzó cargando el juego en Vicente , muy dinámico durante la primera parte . </example>
+        <example file="CESS-CAST-AA/20072_20000924.tbf.xml" nodepath="3.2.2.1.0" sentencenodepath="3">El Numancia comenzó atacando más y Ø ejecutó un juego directo intentando aprovechar su superioridad en el juego aéreo en_tanto_que el equipo valencianista comenzó cargando <argset><specifier>el</specifier><head>juego </head></argset>en Vicente , muy dinámico durante la primera parte . </example>
+        <example file="CESS-CAST-AA/20072_20000924.tbf.xml" nodepath="10.4.2.1.0.1.1.1.1.1.0.0" sentencenodepath="10">Durante esta fase , el equipo valenciano se mostró impreciso y sin sitio en el terreno de <argset><head>juego </head></argset>, hasta el punto de que era Carboni el encargado de subir el balón hacia el área soriana . </example>
+        <example file="CESS-CAST-AA/20165_20000224.tbf.xml" nodepath="7.2.5.3.1.1.1.0.0" sentencenodepath="7">El jugador del Athletic señaló que el público de San_Mamés puede salir satisfecho del campo si el equipo rojiblanco alcanza el nivel de <argset><head>juego </head></argset>desplegado ante Real_Mallorca y Deportivo , aunque Ø matizó que además_de ofrecer espectáculo , " hay que ganar los partidos " . </example>
+        <example file="CESS-CAST-AA/20351_20000224.tbf.xml" nodepath="6.2.4.4.1.0" sentencenodepath="6">El mismo diario añade que " en una noche para olvidar , Nacional nunca se encontró en el terreno de juego , mientras_que el rival , aprovechando su condición de local y el talento de su máxima figura , el argentino Leo_Rodríguez , liquidaron desde la etapa inicial <argset><specifier>el</specifier><head>juego </head></argset>" . </example>
+        <example file="CESS-CAST-AA/20351_20000224.tbf.xml" nodepath="10.2.2.4.4.1.1.1" sentencenodepath="10">El periódico " El_Tiempo " de Bogotá tituló " Nacional_sacó_0,4_en_la_Universidad_de_Chile " y Ø reseña que " en un partido sorpresivamente unilateral , los locales dominaron en grandes pasajes del encuentro juego de medio campo del volante Leo_Rodríguez y del promisorio Rodrigo_Tello , mientras_que Nacional nunca se encontró con <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>buen</reference_modifiers><head>juego </head><reference_modifiers>de toque</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="2.2.0.3.1.1.1.3.0.1.0" sentencenodepath="2">El conjunto valencianista , que remontó un 1-0 encajado a los seis minutos , dominó durante la mayor parte del primer tiempo , pero en la segunda mitad Ø quedó a_merced_de los locales , que pusieron <argset><specifier>el</specifier><head>juego </head></argset>y las ocasiones , pero el Valencia decidió en una jugada aislada . </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="9.2.2.0.1.0" sentencenodepath="9">Osasuna fue quien puso <argset><specifier>el</specifier><head>juego </head></argset>y las oportunidades de gol . </example>
+        <example file="CESS-CAST-AA/24289_20000731.tbf.xml" nodepath="2.0.5.2.4.1.1.0" sentencenodepath="2">" Ø Estoy triste porque Colombia no contagia , Ø no gusta . Y fue precisamente por eso que surgió la idea de mi posible regreso al equipo nacional después de dos años de ausencia . Ø Consideré que Ø podría aportarle al equipo no_sólo <argset><argument argument="arg0" thematicrole="agt" type="spec">mi</argument><head>juego </head></argset>sino_también mi experiencia internacional " , agrega " El_Pibe " en su columna . </example>
+        <example file="CESS-CAST-AA/24289_20000731.tbf.xml" nodepath="8.2.3.4.2.1.4.1.1.1.0.0" sentencenodepath="8">" El_Pibe " volvió a criticar el estilo de juego de la selección colombiana y al_respecto Ø acotó : " Ø Acepto que hasta el momento los resultados son positivos , pero Ø sigo insistiendo en que no me gusta el estilo de <argset><head>juego </head></argset>" . </example>
+        <example file="CESS-CAST-AA/5166_20001108.tbf.xml" nodepath="4.2.1.3.3.1.1.0.10.0" sentencenodepath="4">El mandatario anunció un incremento del Impuesto_a_las_Transferencias_de_Bienes_Industriales ( ITBIS ) del 8 al 12_por_ciento , que afectará , entre otros , a <argset>seguros , publicidad , pasajes aéreos , vigilancia , alquiler de locales y <head>juegos </head>
+            <reference_modifiers>de azar</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="0.0.3.1.1.1.3.1.1.0.2.0.1.1.0.0" sentencenodepath="0">El presidente de Filipinas , Joseph_Estrada , inmerso en un escándalo de corrupción , dijo hoy que el gobernador que le acusó de haberse embolsado millones de dólares procedentes del <argset><head>juego </head><reference_modifiers>ilegal</reference_modifiers></argset>había intentado sobornarle , pero - Ø aseguró - " Ø nunca utilicé ese dinero " . </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="1.3.1.4.1.1.1.2.0.1.0.1.0.0" sentencenodepath="1">Estrada es blanco de una campaña de desprestigio liderada por la vicepresidenta del país , Gloria_Macapagal-Arroyo , desde que el gobernador de la provincia de Ilocos_del_Sur y antiguo amigo del presidente , Luis_Singson , le acusó de haberse embolsado más de ocho millones de dólares procedentes del <argset><head>juego </head><reference_modifiers>ilegal</reference_modifiers></argset>y de comisiones de una empresa tabacalera . </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="3.0.4.1.3.1.0.1.1.3.1.0" sentencenodepath="3">Según Estrada , Singson le ofreció 200 millones de pesos ( más de cuatro millones de dólares ) como sobornos para que Ø permitiera <argset><specifier>un</specifier><head>juego </head><reference_modifiers>ilegal</reference_modifiers></argset>en su provincia , pero el presidente dijo que ese dinero fue ingresado en una cuenta bancaria de Ilocos_del_Sur y él nunca lo tocó . </example>
+        <example file="CESS-CAST-AA/7089_20000510.tbf.xml" nodepath="4.0.1.2.1.1.1.1.1.1.0.0" sentencenodepath="4">" Ø Es el resultado de su forma de <argset><head>juego </head></argset>, con un central extraordinario que controla el ritmo del partido , y aunque su juego es lento como siempre Ø lo ha sido , Ø ha hecho una vuelta de campeonato muy buena " , aseguró Ø . </example>
+        <example file="CESS-CAST-AA/7089_20000510.tbf.xml" nodepath="4.0.3.0.1.1.0" sentencenodepath="4">" Ø Es el resultado de su forma de juego , con un central extraordinario que controla el ritmo del partido , y aunque <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juego </head></argset>es lento como siempre Ø lo ha sido , Ø ha hecho una vuelta de campeonato muy buena " , aseguró Ø . </example>
+        <example file="CESS-CAST-AA/7351_20000911.tbf.xml" nodepath="2.0.1.1.1.1.0.1.2.1.0.1.1.0.0" sentencenodepath="2">Para el resto de futbolistas que saltaron al terreno de <argset><head>juego </head></argset>de El_Madrigal , el encuentro ante el Rayo_Vallecano suponía el retorno a la máxima categoría del fútbol nacional después de algún tiempo o el debut en Primera_División . </example>
+        <example file="CESS-CAST-AA/7642_20000309.tbf.xml" nodepath="11.0.1.2.1.1.0" sentencenodepath="11">" La confianza que Ø tenemos tiene mucho que_ver con <argset><specifier>el</specifier><head>juego </head><reference_modifiers>que hemos realizado últimamente</reference_modifiers></argset>y también nos da esperanzas el hecho de que el Deportivo hiciera un mal partido el pasado domingo ante el Malaga " , concluyó Ø . </example>
+        <example file="CESS-CAST-AA/8656_20000813.tbf.xml" nodepath="3.3.5.1.1.1.1.0.0" sentencenodepath="3">La jugadora zaragozana en declaraciones a EFE comentó que en la presente temporada Ø se está encontrando a un nivel de <argset><head>juego </head></argset>" muy bueno " lo que le ha llevado a ser la cuarta en la clasificación europea . </example>
+        <example file="CESS-CAST-AA/9155_20000712.tbf.xml" nodepath="8.3.1.0.1.4.4.1.1.1.0.0" sentencenodepath="8">Además_de la presión que le supuso la exigencia de Córdoba , el técnico colombiano tendrá que vérselas con Bermúdez , quien comentó en Buenos_Aires que la selección de su país no tenía un sistema de <argset><head>juego </head><reference_modifiers>claro ni eficiente</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/9408_20001113.tbf.xml" nodepath="0.3.3.1.1.1.0.1.1.1.1.0" sentencenodepath="0">Luis_Casimiro , entrenador del Pamesa_Valencia , ha señalado respecto_al equipo turco del Pinar_Karsikaya , al que Ø se medirá este Martes en la cuarta jornada de la primera fase de la Copa_Saporta , que se trata de un conjunto poco ortodoxo en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juego </head></argset>, pero muy efectivo . </example>
+        <example file="CESS-CAST-AA/9408_20001113.tbf.xml" nodepath="1.0.1.0.1.0" sentencenodepath="1">" <argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head>juego </head></argset>se puede catalogar de poco ortodoxo pero muy efectivo , porque Ø es muy rápido y Ø tratan de correr siempre . Además , en el juego posicional Ø tienen a un hombre como Oztas , que es un alero alto - 2,06 metros - , que sale a jugar tras la línea de tres puntos y que es el segundo jugador que mejor porcentajes tiene del equipo en tiros de tres " , apuntó el técnico . </example>
+        <example file="CESS-CAST-AA/9408_20001113.tbf.xml" nodepath="1.0.3.1.1.1.0" sentencenodepath="1">" Su juego se puede catalogar de poco ortodoxo pero muy efectivo , porque Ø es muy rápido y Ø tratan de correr siempre . Además , en <argset><specifier>el</specifier><head>juego </head><reference_modifiers>posicional</reference_modifiers></argset>Ø tienen a un hombre como Oztas , que es un alero alto - 2,06 metros - , que sale a jugar tras la línea de tres puntos y que es el segundo jugador que mejor porcentajes tiene del equipo en tiros de tres " , apuntó el técnico . </example>
+        <example file="CESS-CAST-P/101_19990103.tbf.xml" nodepath="4.3.1.1.1.1.0" sentencenodepath="4">Los éxitos del Madrid no han tapado las carencias de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juego </head></argset>. </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="8.4.1.1.1.1.0.0" sentencenodepath="8">Antes , Ø había asistido impasible a una exhibición de <argset><head>juego </head></argset>del Barça , que de_nuevo pareció , durante 45 minutos , un equipo impresionante siempre_que Ø sea dominador del balón . </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="17.3.3.4.1.1" sentencenodepath="17">Ø Ha demostrado que Ø empieza a ser un digno aspirante porque Ø une calidad , ambición , <argset><specifier>un</specifier><reference_modifiers>mecánico</reference_modifiers><head>juego </head><reference_modifiers>de posición</reference_modifiers><reference_modifiers>que ha logrado conjuntar</reference_modifiers></argset>y un potencial de ataque impresionante . </example>
+        <example file="CESS-CAST-P/125_19990501.tbf.xml" nodepath="7.2.1.1.1.2.1.2.1.0.0" sentencenodepath="7">El resultado fue que el Depor , hasta entonces un equipo funcionarial de <argset><head>juego </head><reference_modifiers>aseado</reference_modifiers></argset>, se transformó en una escuadra sufridora , combativa , de esas que no dan un balón por perdido hasta el final . </example>
+        <example file="CESS-CAST-P/129_20020502.tbf.xml" nodepath="8.0.0.1.1.1.0" sentencenodepath="8">Nada_más reanudarse <argset><specifier>el</specifier><head>juego </head></argset>, Ø habilitó a Guti , que malogró otra gran ocasión . </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="13.0.2.1.0.0" sentencenodepath="13">Guardiola e Iván_Helguera intentaron crear <argset><head>juego </head></argset>, pero Inglaterra , bien posicionada , convirtió la banda izquierda española , por donde se movían Luis_Enrique y Romero , en un adorno . </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="21.0.1.1.2.1.0" sentencenodepath="21">La misma que tiene <argset><specifier>el</specifier><head>juego </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la España de Camacho</argument></argset>. </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="24.3.1.1.1.0.0" sentencenodepath="24">El seleccionador debe encontrar con urgencia un modelo de <argset><head>juego </head></argset>que implique a los jugadores . </example>
+        <example file="CESS-CAST-P/148_19991001.tbf.xml" nodepath="7.0.1.1.0.2.0.1.1.2.0.1.2.1.0.0" sentencenodepath="7">Un espectáculo , en_definitiva , difícil de ubicar y de clasificar , pero fácil de disfrutar - - Ø estará en el TNC hasta el domingo - - porque Ø invita al <argset><head>juego </head></argset>, Ø explora en las sensaciones y , sobre_todo , porque , incluyendo el humor y la sorpresa , Ø sabe combinar la poesía con las fórmulas matemáticas . </example>
+        <example file="CESS-CAST-P/149_20020501.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>El</specifier><head>juego </head></argset>básicamente consiste en seguir los movimientos y las coreografías de las canciones de Britney . </example>
+        <example file="CESS-CAST-P/149_20020501.tbf.xml" nodepath="5.0.1.0" sentencenodepath="5"><argset><specifier>El</specifier><head>juego </head></argset>se comercializa para Gameboy_Advance ( que es la nueva consola de bolsillo de Nintendo , sensación de todos los adolescentes y niños ) , para Playstation_2 y para PC , con lo que se intenta captar la atención de un público más adulto . </example>
+        <example file="CESS-CAST-P/14_19981202.tbf.xml" nodepath="3.0.1.0.2.1.0.0" sentencenodepath="3">Lo que está en <argset><head>juego </head></argset>en_realidad es la responsabilidad internacional de los dirigentes políticos cuando en el ejercicio de su cargo Ø han violado los principios contenidos en la Declaración_Universal_de_Derechos_Humanos . </example>
+        <example file="CESS-CAST-P/199_20001201.tbf.xml" nodepath="5.3.3.1.1.2.1.1.0.0" sentencenodepath="5">En_realidad lo que Ø quería era simplemente atraer la atención sobre su cadena de teatro y salas de <argset><head>juego </head></argset>. </example>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="1.2.1.2.0.1.1.1.3.1.1.1.2.0.4.1.1.1.2.1.0" sentencenodepath="1">Joan_Brossa siempre me ha parecido un niño grande , y las diferentes facetas de su obra , las de un creador que , tocado por los dioses , ha tenido la suerte de no perder las ganas de sorprender y de sorprenderse , ni la capacidad de investigar , ni el gusto por la provocación y <argset><specifier>el</specifier><head>juego </head></argset>; es_decir , todas las cualidades inherentes a la infancia que son imprescindibles para la creación y que sólo algunos caracteres geniales - - como Joan_Miró o Pere_Calders - - conservan toda la vida . </example>
+        <example file="CESS-CAST-P/69_20010201_f.tbf.xml" nodepath="2.3.1.1.0.2.0" sentencenodepath="2">NTT_Docomo y Sony han firmado acuerdos con empresas de telecomunicaciones de otros países para integrar <argset>teléfono_móvil y <head>juegos </head>
+            <reference_modifiers>electrónicos</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="5.0.3.1.1.1" sentencenodepath="5">Ø Empezó con un juego alegre ante <argset><specifier>el</specifier><reference_modifiers>habitual</reference_modifiers><head>juego </head><reference_modifiers>primario y defensivo</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del conjunto vasco</argument></argset>, pero Ø se fue diluyendo a_medida_que avanzaba el partido . </example>
+        <example file="CESS-CAST-P/74_20000903.tbf.xml" nodepath="13.0.3.1.1.3.1.0.1.1.0.0" sentencenodepath="13">" En mi ánimo jamás estuvo criticar , sino motivar para que la gente acuda al terreno de <argset><head>juego </head></argset>" , añadió el técnico . </example>
+        <example file="CESS-CAST-P/81_19991101.tbf.xml" nodepath="1.0.1.2.1.0.1.3.1.1.1.0.1.1.1.4.0" sentencenodepath="1">Tras regresar al estilo de su primera película como director con La_trama , que era una revisión del tema de <argset>los timos , engaños y <head>juegos </head>
+            <argument argument="argM" function="cn" thematicrole="ins" type="sp">de espejos</argument>
+          </argset>de Casa_de_juegos , David_Mamet opta con El_caso_Winslow por otro retorno , en este caso al teatro , su primer lugar de nacimiento artístico . </example>
+        <example file="CESS-CAST-P/86_20000102.tbf.xml" nodepath="15.0.1.0" sentencenodepath="15"><argset><specifier>El</specifier><head>juego </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de la semana</argument></argset>consiste en encontrar las siete diferencias entre la boda de Cristina_Tárrega con Mami_Quevedo y Fernando_Morientes con Victoria_López . </example>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="5.2.1.1.1.0.0" sentencenodepath="5">La Fiorentina sumó los tres puntos en <argset><head>juego </head></argset>a_pesar_de_que sus méritos fueron escasos y de_que el argentino Batistuta estuvo negado ante la portería defendida por Cañizares . </example>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="6.2.1.1.0" sentencenodepath="6">El conjunto italiano y el Valencia justificaron con <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juego </head></argset>la irregular trayectoria que Ø llevan en sus respectivos campeonatos de Liga . </example>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="9.3.1.1.1.1.0.0" sentencenodepath="9">Las bajas del sancionado Mendieta , en el Valencia , y el lesionado Chiesa , en la Fiorentina , se dejaron sentir en el nivel del <argset><head>juego </head></argset>. </example>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="10.4.1.1.2.1.0.0" sentencenodepath="10">Las cosas empezaron a torcerse de_mala_manera para el Valencia en los primeros minutos de <argset><head>juego </head></argset>, aunque el goleador Batistuta , recién recuperado de una lesión , hizo saber pronto que Ø no era su noche . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="jugar" originlink="verb.jugar.1" wordnetsynset="16.00289269n">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/8656_20000813.tbf.xml" nodepath="9.1.2.2.1.1.1.2.1.0.0" sentencenodepath="9">" En los links - campos de golf naturales - Ø no me encuentro muy a_gusto jugando , porque Ø son campos para jugadoras de fuerza , y hasta ahora Ø no se me han dado bien , pero Ø confío en mantener la buena línea de <argset><head>juego </head></argset>que Ø he mantenido hasta ahora " , señaló Carriedo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="jugar" originlink="verb.jugar.2" wordnetsynset="16:00289269">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/7642_20000309.tbf.xml" nodepath="2.2.4.3.3.1.0.1" sentencenodepath="2">El internacional sueco , que probablemente será titular el próximo domingo contra el Deportivo por la baja del sancionado Mauricio_Pellegrino , afirmó que la defensa es uno de los pilares de este Valencia , que junto_con la del Alavés es la más fuerte de toda la liga y que , en_conjunto , ha contribuido al <argset><reference_modifiers>buen</reference_modifiers><head>juego </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del equipo</argument></argset>en los últimos partidos . </example>
+        <example file="CESS-CAST-AA/8105_20000310.tbf.xml" nodepath="7.2.1.0.2.2.3.1.1.0.0" sentencenodepath="7">Se trata del modelo de coche elegido por el candidato de IU para viajar por toda España y que en la caravana electoral ha servido para hacer <argset><head>juegos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de palabras nunca malintencionadas</argument></argset>. </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="26.0.1.0.1.0" sentencenodepath="26">" <argset><specifier>El</specifier><head>juego </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">ante el Atlético</argument></argset>fue muy malo , pero yo no me quiero meter en esas cosas " , dijo Pujol , que añadió que en la ceremonia del centenario Ø no había podido percibir con claridad la participación de las diferentes figuras y secciones del Barça " porque estaba todo muy oscuro " . </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="17.2.2.5.1.2.1.1.1.0.0" sentencenodepath="17">El dirigente socialista vasco puso interés en recalcar que su partido " siempre tendrá la puerta abierta " al PNV para luchar contra ETA , pero Ø enfatizó que esa unidad sólo será posible si los nacionalistas aceptan las reglas del <argset><head>juego </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">democrático</argument></argset>y Ø convienen en que el Estatuto , " que Ø han estado torpedeando " , es el instrumento más amplio de convivencia que jamás han tenido los vascos . </example>
+        <example file="CESS-CAST-P/67_19981201.tbf.xml" nodepath="0.3.3.2.1.0.1.1.0.0" sentencenodepath="0">El director general de la ONCE , Enrique_Savando , anunció ayer que la organización estudia sacar un nuevo producto al mercado del <argset><head>juego </head></argset>, ya_que la recaudación de los cupones , incluido el Cuponazo , se ha estancado . </example>
+        <example file="CESS-CAST-P/68_19991201.tbf.xml" nodepath="2.0.0.0.1.1.0" sentencenodepath="2">En <argset><specifier>el</specifier><head>juego </head><reference_modifiers>, de estrategia militar ,</reference_modifiers></argset>el protagonista debe ocupar un pueblo y matar a todos sus enemigos , y Ø necesita tomar el tranquilizante Diazepan para mejorar el pulso y la puntería . </example>
+        <example file="CESS-CAST-P/68_19991201.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>El</specifier><head>juego </head></argset>, añadió Ø , promociona " la consecución del éxito a cualquier precio , incluso drogándose " . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="5.0.2.1.1.0" sentencenodepath="5">Ø Empezó con <argset><specifier>un</specifier><head>juego </head><reference_modifiers>alegre</reference_modifiers></argset>ante el habitual juego primario y defensivo del conjunto vasco , pero Ø se fue diluyendo a_medida_que avanzaba el partido . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="12.2.2.0.1.1.1.1.1.0.0" sentencenodepath="12">En el Eibar ocurre otro_tanto de lo mismo , pero el conjunto de Blas_Ziarreta continúa fiel al mismo estilo de <argset><head>juego </head></argset>en sus desplazamientos . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="23.0.1.2.2.1.0.0.1.1.0.0" sentencenodepath="23">" El equipo ha intentado crear dificultades con cambios de <argset><head>juego </head></argset>y balones largos , pero el trabajo defensivo del Eibar ha sido bueno " , explicó Rubio . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="4" lexicalized="no" originlemma="jugar" originlink="verb.jugar.2" wordnetsynset="16:00289269">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-10.tbf.xml" nodepath="3.2.4.1.0" sentencenodepath="3">Otro aspecto con el que a_buen_seguro se producirá un mayor número de relevos de jugadores será cuando las reglas de juego favorezcan más <argset><specifier>el</specifier><head>juego </head><reference_modifiers>rápido</reference_modifiers></argset>, por_ejemplo disminuyendo el tiempo de posesión del balón a menos de los treinta segundos actuales . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="5" lexicalized="no" originlemma="jugar" originlink="verb.jugar.5" wordnetsynset="16:00289269">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="19" type="void"/>
+        <constituent frequency="9" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="numeral" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="11.2.1.3.2.1.0" sentencenodepath="11">Perú realizó un planteamiento de partido muy serio , con <argset><specifier>un</specifier><head>juego </head><reference_modifiers>muy ordenado en el centro del campo</reference_modifiers><reference_modifiers>que le permitió llegar con claridad a las inmediaciones de la portería hondureña</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="15.2.2.1.1.0" sentencenodepath="15">El tanto dolió en las filas hondureñas y Ø pareció espolear <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juego </head></argset>, ya_que Ø se fueron al ataque con mayor ambición de la demostrada hasta entonces . </example>
+        <example file="CESS-CAST-A/17865_20001223.tbf.xml" nodepath="8.2.1.5.2.1.1.1.0.0" sentencenodepath="8">Ø Dicen que Ø honró el título , primero , antes de oficializarlo , en los terrenos de <argset><head>juego </head></argset>, y después , en la cancha de la vida , en la que Ø dio ejemplo de deportividad . </example>
+        <example file="CESS-CAST-A/17992_20001022.tbf.xml" nodepath="0.4.1.1.1.0.1.1.1.1.1.0.0" sentencenodepath="0">La Unión_Deportiva_Las_Palmas logró una merecida victoria ( 0-3 ) en San_Mamés ante un Athletic penoso en todas las facetas del <argset><head>juego </head></argset>, que hoy no fue capaz remontar el temprano resultado en_contra , como Ø hizo en anteriores ocasiones . </example>
+        <example file="CESS-CAST-A/17992_20001022.tbf.xml" nodepath="1.0.3.1.1.1.0.0" sentencenodepath="1">No se llevaban diez minutos de <argset><head>juego </head></argset>y Guayre_Betancor , el protagonista de la polémica de la semana , expresó sobre el terreno de juego lo que se adivinaba en sus palabras cuando Ø llegó a afirmar que la defensa rojiblanca , incluido Alkorta , era lenta : su tremenda velocidad . </example>
+        <example file="CESS-CAST-A/17992_20001022.tbf.xml" nodepath="6.2.3.1.1.0" sentencenodepath="6">El gol del brasileño no_sólo puso una diferencia definitiva en el marcador - que completó Josico a centro de un jugador hecho en Lezama , Edu_Alonso - , sino_que Ø enseñó las miserias en <argset><specifier>el</specifier><head>juego </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Athletic</argument></argset>. </example>
+        <example file="CESS-CAST-A/18213_20000828.tbf.xml" nodepath="3.2.0.6.1.0.0" sentencenodepath="3">Hurtado reconoció que para la designación de las candidaturas " hay muchos intereses " en <argset><head>juego </head></argset>y que " no ver eso es estar ciego " porque " no basta tener una candidatura intachable , que hay que tenerla , sino moverse en campos políticos de la manera que se exige para conseguirlo " aunque Ø puntualizó que " esto no quiere decir que Ø sea ni bueno ni malo , sino_que hay que comprenderlo y asumirlo " . </example>
+        <example file="CESS-CAST-AA/20351_20000224.tbf.xml" nodepath="6.2.2.5.1.1.1.1.0.0" sentencenodepath="6">El mismo diario añade que " en una noche para olvidar , Nacional nunca se encontró en el terreno de <argset><head>juego </head></argset>, mientras_que el rival , aprovechando su condición de local y el talento de su máxima figura , el argentino Leo_Rodríguez , liquidaron desde la etapa inicial el juego " . </example>
+        <example file="CESS-CAST-AA/20351_20000224.tbf.xml" nodepath="10.2.2.2.4.0.0" sentencenodepath="10">El periódico " El_Tiempo " de Bogotá tituló " Nacional_sacó_0,4_en_la_Universidad_de_Chile " y Ø reseña que " en un partido sorpresivamente unilateral , los locales dominaron en grandes pasajes del encuentro <argset><head>juego </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de medio campo</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del volante Leo_Rodríguez y del promisorio Rodrigo_Tello</argument></argset>, mientras_que Nacional nunca se encontró con su buen juego de toque " . </example>
+        <example file="CESS-CAST-AA/21176_20000626.tbf.xml" nodepath="5.3.3.1.0.1.1.0" sentencenodepath="5">Sampras no quiso ver en la actitud de los españoles estratagema alguna para conservar <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juego </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de tierra</argument></argset>y comenzar a preparar mejor la eliminatoria de semifinales de Copa_Davis contra España , en Santander , del 21 al 23_de_julio . </example>
+        <example file="CESS-CAST-AA/21634_20000627.tbf.xml" nodepath="4.4.1.0.1.4.1.2.0.1" sentencenodepath="4">La federación alemana , de la que él es vicepresidente , está buscando ahora un sucesor a Erich_Ribbeck , quien dimitió como seleccionador tras la humillante eliminación de la Eurocopa en la ronda preliminar y <argset><reference_modifiers>escaso</reference_modifiers><head>juego </head><reference_modifiers>ofrecido por su conjunto</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/21954_20000226.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">" <argset><specifier>El</specifier><head>juego </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Mallorca</argument></argset>se basa en la fortaleza defensiva y en contragolpes que Tristán suele resolver bien arriba " , comentó Irureta , quien calificó al equipo balear de " muy armónico y homogéneo , que lleva ya tres años muy bien y está haciendo un buen campeonato " . </example>
+        <example file="CESS-CAST-AA/21954_20000226.tbf.xml" nodepath="4.2.3.3.3.1.1.0.1.1.0" sentencenodepath="4">Irureta indicó que el técnico del Mallorca , Fernando_Vázquez , " logró recuperar a hombres importantes , como Stankovic , Lauren o Nadal " , y Ø consideró importante que el Deportivo no pierda mañana la paciencia a la hora de buscar el gol y " Ø lleve la iniciativa en <argset><specifier>el</specifier><head>juego </head></argset>y con el balón " . </example>
+        <example file="CESS-CAST-AA/21954_20000226.tbf.xml" nodepath="9.2.1.1.1.3.1.3.3.1.1.1.4.1.1.1.1.1.0.0" sentencenodepath="9">El técnico gallego convocó a 19 jugadores , entre los que destaca el mediocampista argentino Ariel_"Caño"_Ibagaza , recuperado ya de la lesión que le mantuvo un mes apartado de los terrenos de <argset><head>juego </head></argset>. </example>
+        <example file="CESS-CAST-AA/22459_20000927.tbf.xml" nodepath="10.0.0.1.6.2.1.0" sentencenodepath="10">Costa , que hoy rubricó con un excelente resto el ` break ` que encarriló el triunfo español nada_más reanudarse <argset><specifier>el</specifier><head>juego </head></argset>esta mañana después de la suspensión del partido el Martes , afirmó que ese golpe de derecha " ha salido gracias_a la motivación " de ambos y a que Ø estaban " muy unidos " . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="19.1.1.1.3.1.1.1.1.0.0" sentencenodepath="19">En_todo_caso , los cuatro goles que se encajaron en los 90 minutos de <argset><head>juego </head></argset>, bajo una intensa lluvia , fueron un buen premio para los casi 2.000 espectadores que se atrevieron a asistir al estadio . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="5.0.0.0.1.1.1.1.1.1.0.1.0.1.0.1.0.0" sentencenodepath="5">Acusado de recibir más de ocho millones de dólares procedentes del <argset><head>juego </head><reference_modifiers>ilegal</reference_modifiers></argset>y de comisiones de una empresa tabacalera , Estrada reiteró el Lunes su inocencia en un mensaje televisado a la nación , que fue seguido por otros dos , inesperados , del Ejército y la Policía , en los que Ø se comprometían a defender la Constitución . </example>
+        <example file="CESS-CAST-AA/24289_20000731.tbf.xml" nodepath="0.3.7.2.2.1.1.1.1.1.1.1" sentencenodepath="0">El futbolista colombiano Carlos_"El_PIbe"_Valderrama anunció hoy que definitivamente Ø no regresará a la selección nacional de su país para jugar las eliminatorias al mundial de 2002 , pese_a manifestar la semana pasada su deseo de hacerlo ante <argset><specifier>el</specifier><reference_modifiers>mal</reference_modifiers><head>juego </head><reference_modifiers>exhibido por el equipo cafetero</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24289_20000731.tbf.xml" nodepath="8.0.2.1.1.1.0.0" sentencenodepath="8">" El_Pibe " volvió a criticar el estilo de <argset><head>juego </head></argset>de la selección colombiana y al_respecto Ø acotó : " Ø Acepto que hasta el momento los resultados son positivos , pero Ø sigo insistiendo en que no me gusta el estilo de juego " . </example>
+        <example file="CESS-CAST-AA/24289_20000731.tbf.xml" nodepath="10.3.1.1.1.1.1.2.1.1.0" sentencenodepath="10">Valderrama dividió la opinión del país al anunciar su deseo de volver al seleccionado cafetero ante <argset><specifier>el</specifier><head>juego </head><reference_modifiers>anémico y ultradefensivo</reference_modifiers><reference_modifiers>, que le ha dejado como saldo nueve puntos en seis partidos y el quinto lugar en la tabla de posiciones de la fase clasificatoria al torneo de Japón y Surcorea</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="2.2.2.4.2.3.1.1.1.0" sentencenodepath="2">La única escudería que la semana pasada no estuvo en este circuito para hacer pruebas fue Minardi y eso le está costando muy caro , sobre_todo en un circuito en el que los neumáticos se desgastan mucho y es difícil por ese motivo poner a_punto los coches , ya_que para el gran Premio el número de neumáticos está limitado a <argset><specifier>siete</specifier><head>juegos </head></argset>y conviene dejar el mayor número posible nuevos , o casi , para la carrera del domingo . </example>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Hoy Marc_Gené ha tenido que utilizar <argset><specifier>dos</specifier><head>juegos </head></argset>para hacer el trabajo que otras escuderías han hecho en tres días y con la posibilidad de cambiar las ruedas cada quince o veinte vueltas . </example>
+        <example file="CESS-CAST-AA/2765_20000303.tbf.xml" nodepath="2.3.6.2.1.1.0.1.1.0.0" sentencenodepath="2">Los hechos ocurrieron el pasado 20_de_febrero , cuando el árbitro tuvo que suspender el encuentro a los siete minutos de la segunda parte , al saltar al terreno de <argset><head>juego </head></argset>más de doscientos aficionados que agredieron a los jugadores del conjunto visitante . </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="17.6.5.1.1.1.1.1.1.1.0.0" sentencenodepath="17">Por_si_fuera_poco , el Getafe se encontró con la suerte de cara con la lesión de Padilla , en el minuto 73 , y los tres cambios efectuados en el cuadro local , que dejó al Albacete los últimos 17 minutos con diez hombres sobre el terreno de <argset><head>juego </head></argset>. </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="18.4.1.0.1.1.0.0" sentencenodepath="18">Al final del choque , la afición del Getafe se lanzó al terreno de <argset><head>juego </head></argset>para celebrar junto_a los jugadores de Martín_Prado una más_que sufrida permanencia , que certificó el golazo de Parrado . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="13.0.1.1.1.2.2.2.1.1.1.0.0" sentencenodepath="13">Con la Copa_de_la_UEFA prácticamente asegurada , dado_que el único equipo que todavía puede poner en peligro a los albiazules , el Mallorca , tendría que sumar los nueve puntos en <argset><head>juego </head></argset>que restan y esperar a que el Alavés no sume ninguno , José_Manuel_Esnal " Mané " dotará a su equipo de una mayor ambición ofensiva para aspirar a jugar la máxima competición continental . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="14.4.1.1.1.1.0.0" sentencenodepath="14">Así , el técnico vizcaíno del combinado alavesista se ha decantado por un esquema de <argset><head>juego </head></argset>que le viene reportando grandes dividendos esta temporada cuando Ø juega a_domicilio , como el 4-2-3-1 , con la presencia en el mismo de jugadores con vocación atacante como Nan_Ribera , Magno_Mocelin , Astudillo y Javi_Moreno . </example>
+        <example file="CESS-CAST-AA/3589_20000405.tbf.xml" nodepath="5.4.1.1.2.3.3.1.0" sentencenodepath="5">Por_el_contrario , el ministro alemán de Asuntos_Exteriores , Joschka_Fischer , consideró la separación como una vía peligrosa con la que se alimenta la espiral de la violencia y se le hace <argset><specifier>el</specifier><head>juego </head></argset>al presidente yugoslavo , Slobodan_Milosevic . </example>
+        <example file="CESS-CAST-AA/3818_20000806.tbf.xml" nodepath="7.0.2.5.1.1.1.0.0" sentencenodepath="7">Alonso reconoció que Ø todavía no ha asimilado el sistema de <argset><head>juego </head></argset>que desea Cúper - " aunque los compañeros te hacen fácil todo por su calidad humana " - , pero Ø añadió que Ø ha jugado con todo tipo de sistemas y lo que varía de uno a otro es lo que el técnico indica a sus jugadores . </example>
+        <example file="CESS-CAST-AA/3847_20000605.tbf.xml" nodepath="3.2.4.1.1.1.1.0.0" sentencenodepath="3">" Ø Agarré el tren para seguir subiendo " , había asegurado el argentino jugador , de 27 años , tras imponerse en la tercera ronda al eslovaco Karol_Kucera , y así Ø lo demostró durante los minutos de <argset><head>juego </head></argset>disputados hoy . </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="9.2.2.0.2.1.1.0" sentencenodepath="9">Los Yanquis perdieron el tercer partido consecutivo después de colocarse 14 triunfos por_encima_del promedio 500 , pero Ø ahora tienen 37-39 en los últimos 75 partidos que Ø han disputado y liderar la División_Este_de_la_Americana con <argset><specifier>tres</specifier><head>juegos </head><reference_modifiers>de ventaja</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/4810_20000306.tbf.xml" nodepath="4.4.2.0.1.0" sentencenodepath="4">Después de la victoria del pasado sábado ante el Universidad_Complutense_de_Madrid por 3-1 , el Ivesur-PTV ha encadenado dos triunfos , aunque <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>juego </head></argset>no termina de convencer y Ø tuvo bastantes problemas para ganar al penúltimo clasificado de la Superliga . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="3.0.2.1.1.0" sentencenodepath="3">El primer tiempo permitió ver <argset><specifier>un</specifier><head>juego </head><reference_modifiers>de buena factura técnica , pero sin grandes incursiones ofensivas</reference_modifiers></argset>, la " U " por incapacidad y el River_Plate por precaución . </example>
+        <example file="CESS-CAST-AA/6036_20001108.tbf.xml" nodepath="0.0.0.1.6.1.1.1.3.1.0" sentencenodepath="0">Comentario : La selección española sub_18 se impuso por 1-0 a Finlandia en un encuentro en el que el cuadro hispano aprovechó <argset><specifier>el</specifier><head>juego </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">por las bandas</argument></argset>para derrotar a un rival más sólido de lo previsto . </example>
+        <example file="CESS-CAST-AA/6036_20001108.tbf.xml" nodepath="1.4.1.0.2.3.2.1.1.1.0.0" sentencenodepath="1">El impresionante palmarés de la selección española en categorías inferiores no amilanó en lo más mínimo al conjunto finlandés que salió dispuesto a romper cualquier complejo de inferioridad , aunque con más voluntad que <argset><head>juego </head></argset>, frente_a España , muy frío en los primeros compases del encuentro . </example>
+        <example file="CESS-CAST-AA/6036_20001108.tbf.xml" nodepath="6.4.2.0.2.1.0" sentencenodepath="6">La lesión de Nano en el minuto 65 obligó al equipo español , que ya no disponía de más jugadores de campo en el banquillo a jugar en inferioridad numérica el resto del encuentro , lo que limitó <argset><specifier>el</specifier><head>juego </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del equipo</argument><reference_modifiers>, que se fue enfriando como la noche</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="entrar_en_juego" cousin="no" denotation="none" id="6" lexicalizationtype="verbal" lexicalized="yes" originlemma="jugar" originlink="verb.jugar.1" wordnetsynset="16:cs3">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/103_20000502.tbf.xml" nodepath="5.3.1.1.2.4.2.1.0.0" sentencenodepath="5">La placidez con la que el protagonista desarrolla ese cometido contrasta , y ahí radica una de las mejores virtudes del filme , con el clima asfixiante que se apodera del relato cuando entra en <argset><head>juego </head></argset>el personaje de Felicia . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="estar_en_juego" cousin="no" denotation="none" id="7" lexicalizationtype="verbal" lexicalized="yes" originlemma="jugar" originlink="verb.jugar.1" wordnetsynset="16:00289269">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-2.tbf.xml" nodepath="0.2.2.2.4.1.0.1.2.1.0.0" sentencenodepath="0">Ø Añade que si el Gobierno se equivoca o no en su estrategia política aún falta por verse , pero Ø sostiene que " cuando se toman decisiones inmorales en temas en los que están en <argset><head>juego </head></argset>valores democráticos y civiles importantes la equivocación siempre es seria , aunque Ø no reporte inconvenientes inmediatos " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="juego_de_azar" cousin="no" denotation="result" id="8" lexicalizationtype="nominal" lexicalized="yes" originlemma="jugar" originlink="verb.jugar.1" wordnetsynset="16:00289269">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argL">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-7.tbf.xml" nodepath="6.2.1.1.2.2.1.1.5.1.1.0" sentencenodepath="6">No fue hasta la adopción de la pistola como arma reglamentaria , durante la Revolución_Francesa , cuando el duelo se convirtió en <argset><specifier>un</specifier><head>juego </head><argument argument="argL" function="cn" type="sp">de azar</argument><reference_modifiers>mortal</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/3_20020103.tbf.xml" nodepath="2.1.3.0.2.1.0.2.0" sentencenodepath="2">Antonino_Joya , portavoz de la Organización_de_Consumidores_y_Usuarios ( OCU ) , mostró su queja por el tipo de redondeo que se ha aplicado en algunos servicios y productos : " Ha habido subidas importantes en <argset>panadería , <head>juegos </head>
+            <argument argument="argL" function="cn" type="sp">de azar</argument>, cines , buses , metros , revistas y periódicos </argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="juegos_florales" cousin="no" denotation="result" id="9" lexicalizationtype="nominal" lexicalized="yes" originlemma="jugar" originlink="verb.jugar.1" wordnetsynset="16:00289269">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/11_19990202.tbf.xml" nodepath="0.1.3.1.1.1.0" sentencenodepath="0">Hay quien confunde el viaje al centro con una excursión dominguera y los congresos políticos con <argset><specifier>unos</specifier><head>juegos </head><argument argument="argL" function="cn" type="s.a">florales</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="poner_en_juego" cousin="no" denotation="none" id="10" lexicalizationtype="verbal" lexicalized="yes" originlemma="jugar" originlink="verb.jugar.1" wordnetsynset="16:00289269">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10952_20000714.tbf.xml" nodepath="5.4.1.0.0" sentencenodepath="5">Hoy , en Magnny_Cours , se pusieron en <argset><head>juego </head></argset>las parrillas de salidas de las dos carreras del fin de semana . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="terreno_de_juego" cousin="no" denotation="result" id="11" lexicalizationtype="nominal" lexicalized="yes" originlemma="jugar" originlink="verb.jugar.1" wordnetsynset="16:00289269">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="15.0.0.0.1.3.1.1.1.1.0.0" sentencenodepath="15">Gaizka_Mendieta , después de un mes apartado de los terrenos de <argset><head>juego </head></argset>por lesión , reapareció en el estadio Sánchez_Pizjuan y Ø contribuyó con un gol , el undécimo que Ø marca en la presente Liga , al triunfo del Valencia sobre el colista Sevilla ( 1-2 ) . </example>
+        <example file="CESS-CAST-A/17992_20001022.tbf.xml" nodepath="1.2.2.1.1.1.1.0.0" sentencenodepath="1">No se llevaban diez minutos de juego y Guayre_Betancor , el protagonista de la polémica de la semana , expresó sobre el terreno de <argset><head>juego </head></argset>lo que se adivinaba en sus palabras cuando Ø llegó a afirmar que la defensa rojiblanca , incluido Alkorta , era lenta : su tremenda velocidad . </example>
+        <example file="CESS-CAST-A/18968_20000223.tbf.xml" nodepath="1.0.3.1.1.1.0.1.1.0.0" sentencenodepath="1">Raúl , por su parte , sigue sin saltar al terreno de <argset><head>juego </head></argset>, pero todo apunta a que el delantero podrá jugar . </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="12.1.1.1.1.1.0.0" sentencenodepath="12">Y en ese terreno de <argset><head>juego </head></argset>, que ha menguado a la mitad , la religión ha de competir con rivales como la Informática , la iniciación al vídeo , los experimentos de química , la práctica de deportes americanos o las experiencias musicales . </example>
+        <example file="CESS-CAST-P/106_20020402.tbf.xml" nodepath="2.0.3.2.1.1.1.1.1.0.0" sentencenodepath="2">" Todo esto parte del Gobierno . Se quiere bajar al Rayo desde los despachos y no en los terrenos de <argset><head>juego </head></argset>" , dijo el director general del club , que reiteró que la familia Ruiz-Mateos no es bien vista por las instituciones a_causa_de los contenciosos que mantiene su padre con ellas , " y Ø no la dejan hacer histórico al Rayo " . </example>
+        <example file="CESS-CAST-P/13_19991201.tbf.xml" nodepath="3.2.0.0.2.1.1.1.1.0.0" sentencenodepath="3">Muy distinto es ser rápido sobre el terreno de <argset><head>juego </head></argset>, concebir las mejores jugadas y montar espectaculares contrataques , como Ø ocurría con aquel Jordi_Villacampa , que verse ahora en la necesidad de afrontar necesidades económicas , rivalidades internas y resultados que no siempre son comprendidos por una afición que responsabiliza de todo lo malo a jugadores , entrenador y directivos . </example>
+        <example file="CESS-CAST-P/143_20010601.tbf.xml" nodepath="4.0.5.2.1.4.1.1.1.1.0.0" sentencenodepath="4">" Las alineaciones indebidas deben denunciarse en 48 horas , si no , se puede hipotecar la competición durante años . La actitud de estos clubs ahora es intolerable . Ø Intentan hacer ruido para pescar algo pero , al_margen_de las sanciones que el Comité_de_Competición impondrá por la falsedad de documentación , quien no haya ganado los partidos en el terreno de <argset><head>juego </head></argset>, no tiene nada que hacer " , remarcó ayer a EL_PERIODICO Gerardo_González , secretario general de la RFEF . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reacción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="reaccionar" originlink="verb.reaccionar.1" wordnetsynset="16:04544561+16:00132807">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="12" preposition="de" type="sp"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="tras" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" postype="article" type="determiner"/>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="1" postype="interrogative" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="14" type="s.a"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-2.tbf.xml" nodepath="9.3.1.0.0.3.1.0" sentencenodepath="9">El presidente , según indicó por su parte la Casa_Blanca , contestó diciendo que le preocupa <argset><specifier>la</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Europa</argument></argset>y que Ø tomará_en_cuenta su inquietud , pero que , en última instancia , la decisión se adoptará en función de intereses de seguridad nacional de EEUU . </example>
+        <example file="3LB-CAST/211_C-3.tbf.xml" nodepath="13.3.1.1.1.1.0" sentencenodepath="13">" Por qué Ø tienen miedo si Ø dicen que Ø tienen el apoyo de la gente . Por qué Ø tienen miedo de participar en una elección limpia ... El mundo le ha dicho : señor Fujimori sea mucho más caballero y compita Ø en una elección limpia " , dijo Ø al aludir a <argset><specifier>la</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la comunidad internacional que ha cuestionado las elecciones celebradas el domingo</argument></argset>. </example>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="1.2.5.2.3.3.2.1.1.0" sentencenodepath="1">Chávez dijo que el aplazamiento de las elecciones ha servido de lección a los venezolanos , " porque Ø aprendimos que las instituciones han funcionado , también por <argset><specifier>la</specifier><head>reacción </head><reference_modifiers>madura</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de nuestro pueblo</argument></argset>y porque Ø ha abierto el compás a la mayor participación de la sociedad civil " . </example>
+        <example file="3LB-CAST/dc1-10.tbf.xml" nodepath="7.3.1.1.4.1.1.0" sentencenodepath="7">Insertadas en la pila , las varillas absorbían la cantidad suficiente de neutrones para impedir que las fisiones del uranio se multiplicaran en <argset><specifier>una</specifier><head>reacción </head><reference_modifiers>en cadena</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="8.0.0.1.1.1.0.0" sentencenodepath="8">Muchas de <argset><specifier>estas</specifier><head>reacciones </head><reference_modifiers>químicas</reference_modifiers>y cambios moleculares </argset>desembocan en alteraciones metabólicas en la célula , cambios genéticos , inhibiciones en determinadas funciones e incluso muerte celular . </example>
+        <example file="3LB-CAST/dc10-5.tbf.xml" nodepath="7.0.3.1.1.0" sentencenodepath="7">Gregorio_Marañón explica en su ensayo sobre Don_Juan que <argset><specifier>la</specifier><head>reacción </head><reference_modifiers>psicológica</reference_modifiers><reference_modifiers>específica</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del varón</argument></argset>es el culto del honor , de la honra llevado hasta el máximo sacrificio ; si Ø es necesario hasta la venganza y el crimen , que el honor se justifica siempre - . </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="5.3.1.2.5.1.1.1.1.0" sentencenodepath="5">Sin_embargo , la aparición de los gases asfixiantes en la Gran_Guerra produjo un aparente milagro : ninguno de los contendientes se atrevió a usarlos , temerosos de <argset><specifier>la</specifier><head>reacción </head><reference_modifiers>, también química ,</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del contrario</argument></argset>. </example>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="9.0.1.1.1.1.0.0" sentencenodepath="9">Como los aviones a <argset><head>reacción </head></argset>se encuentran a gran altura durante la mayor parte de su vuelo , el corrimiento gravitacional se encarga de que los relojes de a_bordo funcionen un_poco más deprisa que los situados en tierra . </example>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="18.1.0.2.3.1.1.1.1.0.0" sentencenodepath="18">Para ello , Ø dijo , " hay que mantener fuerte a nuestro ejército " , que por_ahora es " el más fuerte del mundo " y mejorar su capacidad de <argset><head>reacción </head></argset>, y además Ø aseguró que Ø apoyaba la modernización de las armas estratégicas y tácticas , " mientras_que el gobernador Bush propone saltarse una generación de tecnología " . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="3.2.1.2.5.0.1.1.4.1.1.0" sentencenodepath="3">Ésta es la primera vez que la mayoría que sustenta al Ejecutivo pierde una votación en el Parlamento después de que Ibarretxe suspendiera el pacto de legislatura con EH tras <argset><specifier>la</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de esta coalición</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">al último atentado</argument></argset>. </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="11.5.1.0" sentencenodepath="11">A_pesar_de_que el presidente electo en la isla se apresuró en sus primeras declaraciones públicas a despejar los temores independentistas suscitados en Pekín por la victoria , las autoridades chinas aún no han dado_a_conocer <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>reacción </head><reference_modifiers>oficial</reference_modifiers><argument argument="argM" function="cn" thematicrole="cau" type="sp">sobre el resultado de los comicios</argument></argset>. </example>
+        <example file="CESS-CAST-A/16977_20000722.tbf.xml" nodepath="2.2.0.1.3.2.1.3.1.1.1.2.1.0" sentencenodepath="2">" Es inconveniente tomar medidas a la luz del comportamiento de dos o tres días de mercado " , dijo Santos , quien señaló que hay que esperar a que se confirmen las informaciones sobre los daños en la próxima cosecha brasileña ( 2001 ) y <argset><specifier>la</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del mercado internacional</argument></argset>. </example>
+        <example file="CESS-CAST-A/17195_20001021.tbf.xml" nodepath="5.2.1.1.1.1.1.3.5.1.3.0.0" sentencenodepath="5">El problema está en el uso de una variedad de maíz transgénico , conocida como StarLink , que no se ha aprobado para el consumo humano debido_a que Ø puede causar <argset><head>reacciones </head><reference_modifiers>alérgicas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/19111_20000923.tbf.xml" nodepath="6.3.1.1.1" sentencenodepath="6">" Si una simple broma , aunque Ø sea de mal gusto , es lo único que nos pueden reprochar nuestros adversarios después de cinco años de ejercer la Presidencia_de_la_República , Eso quiere_decir que Ø no lo hemos hecho mal " , declaró en <argset><specifier>una</specifier><reference_modifiers>primera</reference_modifiers><head>reacción </head></argset>Kwasniewski . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="5.2.1.1.1.2.1.1.2.1.1.0" sentencenodepath="5">Ha sido Hubert_Védrine , titular de Exteriores , el encargado de intentar encauzar las aguas al puntualizar que la política de Francia en Oriente_Medio " no cambia " y que <argset><specifier>la</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Jospin</argument></argset>salió " del corazón y de la convicción " . </example>
+        <example file="CESS-CAST-AA/24070_20000329.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">Un nuevo tanto , del centrocampista del Aston_Villa Lee_Hendrie , anuló <argset><specifier>cualquier</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">rival</argument></argset>, a_pesar_de quedar aún media hora de partido . </example>
+        <example file="CESS-CAST-AA/3784_20000806.tbf.xml" nodepath="8.2.3.1.2.1.1.0" sentencenodepath="8">Los detractores de Wahid dicen que él mismo es su peor enemigo , Ø lo acusan de minar la estabilidad y la recuperación económica de Indonesia con <argset><argument argument="arg1" thematicrole="tem" type="spec">sus</argument><head>reacciones </head><reference_modifiers>impulsivas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8907_20000114.tbf.xml" nodepath="2.3.2.1.0" sentencenodepath="2">El ex jefe de Estado , exiliado en Francia desde el pasado día_3 , denunció en su artículo las condiciones del golpe de Estado del general Robert_Guei y <argset><specifier>la</specifier><head>reacción </head><reference_modifiers>" muy moderada "</reference_modifiers><reference_modifiers>que éste suscitó en el extranjero , en_particular en Francia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="13.2.2.1.4.3.1.0" sentencenodepath="13">El dirigente defendió la apuesta del técnico holandés - - " también se nos censuraría si Ø jugáramos de manera defensiva , como el Mallorca o el Atlético , todos atrás " - - y Ø criticó que se minimizara el gran partido que realizó el Barça ante el Manchester : " Ø Pudimos ganar 6-3 , porque Ø lo merecimos , y entonces la afición hubiera tenido <argset><specifier>una</specifier><head>reacción </head><reference_modifiers>muy distinta</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la afición</argument></argset>deja a Núñez en minoría dentro de la directiva . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>La</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del público</argument><reference_modifiers>en el partido del centenario</reference_modifiers></argset>ha reforzado al sector partidario de la destitución del técnico . </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">Volcado en_comunión_con el equipo , el público esperaba <argset><specifier>la</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">azulgrana</argument></argset>, en el campo y en el banquillo . </example>
+        <example file="CESS-CAST-P/122_20020103.tbf.xml" nodepath="17.3.1.0" sentencenodepath="17">- - ¿ <argset><specifier>Qué</specifier><head>reacciones </head></argset>obtuvo Ø ? - - . </example>
+        <example file="CESS-CAST-P/12_20000903.tbf.xml" nodepath="2.1.1.0" sentencenodepath="2">Pero <argset><specifier>las</specifier><head>reacciones </head></argset>no han sido todas favorables . </example>
+        <example file="CESS-CAST-P/135_20000202.tbf.xml" nodepath="57.0.3.5.2.1.1.1.1.0.0" sentencenodepath="57">Ø Estoy mezclando canciones nuevas y antiguas , porque no me gusta que haya sólo un tipo de <argset><head>reacción </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">ante un concierto</argument></argset>; Ø quiero que haya emoción y también despelote . </example>
+        <example file="CESS-CAST-P/148_19991001.tbf.xml" nodepath="5.3.1.1" sentencenodepath="5">Los efectos sonoros , visuales y pirotécnicos producen así <argset><specifier>una</specifier><reference_modifiers>frenética</reference_modifiers><head>reacción </head><reference_modifiers>en_cadena</reference_modifiers></argset>, en un espectáculo en el que están todas las disciplinas creativas . </example>
+        <example file="CESS-CAST-P/178_20010401_a.tbf.xml" nodepath="3.4.2.0.2.1.0" sentencenodepath="3">Los árbitros concedieron la canasta ( 64-66 , m.35 ) , lo que facilitó <argset><specifier>la</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">malagueña</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="17.3.1.0" sentencenodepath="17">Ø Consideró " natural " <argset><specifier>esa</specifier><head>reacción </head></argset>, ya_que , " en el mercado capitalista " , cuando una empresa gana , Ø se alegra , lo que no sucede si Ø pierde . </example>
+        <example file="CESS-CAST-P/182_20010701.tbf.xml" nodepath="5.2.2.1.0.0" sentencenodepath="5">Los representantes de Argentina , Brasil , Paraguay , Chile , Perú , Uruguay , Ecuador , Bolivia y Venezuela habían reclamado , casi en <argset><head>reacción </head><reference_modifiers>solidaria</reference_modifiers></argset>, que Colombia no fuera la sede . </example>
+        <example file="CESS-CAST-P/25_19991202.tbf.xml" nodepath="22.2.1.0" sentencenodepath="22">" No me corresponde hablar en_público de la empresa o del club que Ø ya he dejado " es <argset><specifier>una</specifier><head>reacción </head><reference_modifiers>digna</reference_modifiers></argset>cuando Ø es gratuita . </example>
+        <example file="CESS-CAST-P/26_20000302.tbf.xml" nodepath="8.1.1.1" sentencenodepath="8">Entonces , <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>única</reference_modifiers><head>reacción </head></argset>fue acelerar . </example>
+        <example file="CESS-CAST-P/30_20000103.tbf.xml" nodepath="3.0.2.0.0.1.0" sentencenodepath="3">" Si Ø respetamos la petición de suspensión formulada por el Tribunal , <argset><specifier>las</specifier><head>reacciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del público</argument></argset>podrían atenuarse con el tiempo y podría llegarse a una solución positiva para Turquía " , añadió Ø . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="4.4.1.0.0" sentencenodepath="4">Rius ha cambiado de forma radical su mensaje hacia médicos y ciudadanos como <argset><head>reacción </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">tras las primeras saturaciones de este invierno , que se produjeron el pasado fin de semana en varios hospitales de Barcelona</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="8.4.4.2.0.1" sentencenodepath="8">De_igual_modo , Sanidad recuerda a los facultativos que Ø deberán considerar el estado cardiovascular del paciente , de_cara_a <argset><reference_modifiers>posibles</reference_modifiers><head>reacciones </head><reference_modifiers>adversas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/44_19991102.tbf.xml" nodepath="15.1.1.0" sentencenodepath="15">Mientras los protestantes desconfían , <argset><specifier>la</specifier><head>reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre los católicos</argument></argset>ha sido positiva . </example>
+        <example file="CESS-CAST-P/72_20000903.tbf.xml" nodepath="18.0.0.0" sentencenodepath="18"><argset><head>Reacción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los vascos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="reaccionar" originlink="verb.reaccionar.2" wordnetsynset="16:04544561">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="15.0.1.0" sentencenodepath="15"><argset><specifier>La</specifier><head>reacción </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los camioneros británicos</argument></argset>se produce después de una semana agitada en el mercado de materias primas londinense , donde los contratos de petróleo Brent para entrega en octubre llegaron a fijarse a 34,60 dólares el barril , el precio más alto desde noviembre_de_1990 , en plena crisis del golfo Pérsico . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

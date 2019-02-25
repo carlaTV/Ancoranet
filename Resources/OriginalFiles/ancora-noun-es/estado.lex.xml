@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="estado" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="estar" originlink="verb.estar.2" wordnetsynset="16:00016185">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="19" preposition="de" type="sp"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+        <constituent frequency="3" type="s.a"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="23" preposition="de" type="sp"/>
+        <constituent frequency="12" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="25" postype="article" type="determiner"/>
+        <constituent frequency="20" type="void"/>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="14" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="2.1.2.1.1.1.0.1.1.1.0" sentencenodepath="2">La semana pasada el Departamento_de_Justicia y los gobiernos de 17 de <argset><specifier>los 19</specifier><head>estados </head><reference_modifiers>que demandaron a Microsoft en 1998</reference_modifiers></argset>presentaron al juez una versión ajustada de sus propuestas de solución judicial , entre las que figura la división de la firma en dos compañías . </example>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="10.3.1.4.1.1.1.0" sentencenodepath="10">En este sentido , los senadores socialistas recuerdan que ya hace un mes que terminaron los plazos de alegaciones públicas de los distintos trazados del futuro AVE , por lo que Ø desean saber si <argset><specifier>el</specifier><head>estado </head><reference_modifiers>actual</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del proyecto</argument></argset>se corresponde con las numerosas manifestaciones y promesas que el PP realizó durante la pasada campaña electoral . </example>
+        <example file="3LB-CAST/211_C-3.tbf.xml" nodepath="2.2.0.2.2.1.0.0" sentencenodepath="2">Obuchi , de 62 años , sufrió un derrame cerebral en la madrugada del día_2_de_abril y , tras permanecer seis semanas en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de coma</argument></argset>, Ø falleció en el hospital Yuntendo de Tokio . </example>
+        <example file="3LB-CAST/a12-1.tbf.xml" nodepath="5.2.5.1.1.0" sentencenodepath="5">Yo tardé mucho tiempo en enterarme de que no había tal voz , de que se trataba sólo de una vieja metáfora , y como Ø nunca lograba escuchar a nadie que hablara dentro_de mí Ø me mantuve durante bastantes años en <argset><specifier>un</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de feliz inconsciencia</argument></argset>. </example>
+        <example file="3LB-CAST/d2-4.tbf.xml" nodepath="2.0.3.1.1.0" sentencenodepath="2">Oliverio_Rincón no parece en <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de forma</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del año pasado</argument></argset>, cuando Ø fue cuarto en la carrera , pero ayer Ø no desentonó . </example>
+        <example file="3LB-CAST/d2-8.tbf.xml" nodepath="3.4.1.1.0" sentencenodepath="3">La falta del entorno familiar en situaciones difíciles , sobre_todo cuando profesionalmente no van bien las cosas , llevan al ciclista a <argset><specifier>un</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">depresivo</argument></argset>. </example>
+        <example file="3LB-CAST/dc10-0.tbf.xml" nodepath="7.0.3.1.0.0" sentencenodepath="7">Ø Depende , en primer lugar , del <argset><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de forma</argument><argument argument="arg2" function="cn" thematicrole="atr" type="sp">del organismo infectado - ya se trate de una planta , animal o del propio ser humano -</argument></argset>y , por otra parte , del tipo de virus . </example>
+        <example file="3LB-CAST/dc2-10.tbf.xml" nodepath="17.3.5.2.3.1.0.0" sentencenodepath="17">Como nuestro observador conoce el Principio_de_la_Equivalencia , Ø sabe que para él no existe gravedad , puesto_que Ø se halla en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de caída libre</argument></argset>, y por_lo_tanto Ø puede calcular la frecuencia emitida con ayuda de las leyes de la Teoría_Especial_de_la_Relatividad . </example>
+        <example file="3LB-CAST/dc2-7.tbf.xml" nodepath="7.1.1.0" sentencenodepath="7">Hasta hace bien poco <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>estado </head></argset>era patético . </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="3.2.0.0.1.0" sentencenodepath="3">En_efecto , cuando un número de átomos ( como en los metales o semiconductores ) o de moléculas ( en nuestro caso de los metales orgánicos ) se unen para formar un sólido cristalino , <argset><specifier>los</specifier><head>estados </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">electrónicos</argument></argset>se mezclan y Ø forman bandas . </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="8.3.0.0" sentencenodepath="8">Pero si la banda ocupada más alta está parcialmente llena , existen <argset><head>estados </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">electrónicos</argument><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">vacíos</argument><reference_modifiers>infinitamente próximos al nivel de Fermi ( al estado ocupado más alto )</reference_modifiers></argset>, de_modo_que esos electrones pueden tomar_parte en la conductividad eléctrica en esta banda de conducción . </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="8.3.0.3.0.3.2.0.0" sentencenodepath="8">Pero si la banda ocupada más alta está parcialmente llena , existen estados electrónicos vacíos infinitamente próximos al nivel de Fermi ( al <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="S">ocupado</argument><reference_modifiers>más alto</reference_modifiers></argset>) , de_modo_que esos electrones pueden tomar_parte en la conductividad eléctrica en esta banda de conducción . </example>
+        <example file="3LB-CAST/dc3-4.tbf.xml" nodepath="7.0.3.1.0.0" sentencenodepath="7">El polisulfuro de fenileno , aunque no conjugado , es en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">puro</argument></argset>un excelente aislante ( 1016 ) pero al - doparlo - Ø alcanza una conductividad de 1 y Ø presenta la ventaja de ser el primer polímero conductor soluble y termomoldeable . </example>
+        <example file="3LB-CAST/dc3-5.tbf.xml" nodepath="0.0.1.1.1.0.3.1.1.0" sentencenodepath="0">Las pruebas realizadas utilizando poliacetileno dopado como electrodo en <argset><specifier>diferentes</specifier><head>estados </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de oxidación</argument></argset>o_bien utilizando litio en uno de los electrodos , son muy prometedoras . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="5.0.1.2.1.1.0" sentencenodepath="5">El segundo requisito para <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">metálico</argument><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">molecular</argument></argset>es que las moléculas deben estar en un estado de oxidación fraccionado . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="5.2.3.1.1.0" sentencenodepath="5">El segundo requisito para el estado metálico molecular es que las moléculas deben estar en <argset><specifier>un</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de oxidación</argument><reference_modifiers>fraccionado</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/n1-11.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">La granja se encuentra en <argset><specifier>un</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">desastroso</argument></argset>. </example>
+        <example file="3LB-CAST/t1-3.tbf.xml" nodepath="7.0.0.0.1" sentencenodepath="7"><argset><reference_modifiers>Nuevo</reference_modifiers><head>estado </head></argset>se las veía surgir de las cenizas con una vitalidad reverdecida . </example>
+        <example file="3LB-CAST/t6-4.tbf.xml" nodepath="9.0.3.1.1.0" sentencenodepath="9">Ø Encontró el piso en <argset><specifier>un</specifier><head>estado </head><reference_modifiers>bastante aceptable</reference_modifiers></argset>, Ø lo había hecho limpiar a_conciencia cuando Ø se marchó , y al_margen_del polvo acumulado sobre todas las superficies , las habitaciones casi vacías le fueron acogiendo una tras otra como una sucesión de gestos amables . </example>
+        <example file="CESS-CAST-A/10952_20000714.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>El</specifier><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la pista , muy mojada ,</argument></argset>favoreció a los pilotos en los entrenamientos para la primera carrera . </example>
+        <example file="CESS-CAST-A/15209_20001220.tbf.xml" nodepath="2.0.5.1.0.1.2.2.1.0" sentencenodepath="2">" Ya no es una cuestión de mapas el saber dónde están Ø y cuál es <argset><specifier>el</specifier><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las minas</argument></argset>" , añadió Ø , al recordar los millones de estos artefactos explosivos que alemanes y británicos colocaron en el desierto occidental egipcio durante las grandes batallas de blindados que Ø libraron en esa zona en la Segunda_Guerra_Mundial . </example>
+        <example file="CESS-CAST-A/15786_20001220.tbf.xml" nodepath="6.3.3.5.1.2.0.1.0.1.1.1.0" sentencenodepath="6">No_obstante , Ø dijo que " las condiciones para tocar el tema autonómico no se dan en estos momentos " y " en_cierto_modo " - admitió Ø - " la violencia terrorista está impidiendo la reforma constitucional necesaria para encajar <argset><specifier>el</specifier><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las autonomías</argument></argset>y para reformar el Senado como cámara autonómica " . </example>
+        <example file="CESS-CAST-A/17231_20001122.tbf.xml" nodepath="4.4.1.1" sentencenodepath="4">Jirasek había seguido con pesar día a día <argset><specifier>el</specifier><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">degradante</argument><head>estado </head><reference_modifiers>de salud</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Zatopek , que ingresó en hospital el lunes_30_de_octubre en estado muy grave del que ya no se recuperó</argument></argset>. </example>
+        <example file="CESS-CAST-A/17231_20001122.tbf.xml" nodepath="4.4.1.3.1.0.1.5.1.0.0" sentencenodepath="4">Jirasek había seguido con pesar día a día el degradante estado de salud de Zatopek , que ingresó en hospital el lunes_30_de_octubre en <argset><head>estado </head><reference_modifiers>muy grave</reference_modifiers><reference_modifiers>del que ya no se recuperó</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="2.3.1.1.1.4.1.1.3.1.0.0" sentencenodepath="2">El magistrado vierte esta crítica en una sentencia en la que Ø condena al conductor de un cuadriciclo ligero ( vehículo que no puede desarrollar más de 45 km/h , de chasis ligero y con una potencia no superior a 50 centímetros cúbicos ) por accidentarse cuando Ø iba en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">ebrio</argument></argset>, concretamente con una tasa de alcohol en la sangre cuatro veces superior a la permitida . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="4.1.1.1.0" sentencenodepath="4">Según la sentencia , dado <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de embriaguez</argument></argset>, el conductor perdió el control del ligero vehículo , Ø colisionó con una valla de protección de la calzada y Ø quedó suspendido sobre la misma . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="0.2.1.2.1.0.0" sentencenodepath="0">El ministro egipcio del Interior , general Habib_Al_Adli , justificó la ampliación por otros tres años del <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de emergencia</argument><reference_modifiers>, vigente en el país desde 1981 ,</reference_modifiers></argset>al considerar que Ø es necesario para luchar contra el terrorismo . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="1.0.1.1.0" sentencenodepath="1">" <argset><specifier>El</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de emergencia</argument></argset>se amplió como medida para asegurar lo conseguido en los últimos años , incluido el mantenimiento de la estabilidad y la limitación de los efectos de la violencia y el crimen organizado " , afirma Al_Adli , en una entrevista publicada hoy , viernes , por el diario egipcio de propiedad estatal " Al_Ahram " . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="4.3.2.1.0" sentencenodepath="4">El Parlamento egipcio , en el que más del 95_por_ciento de los diputados pertenece al gobernante Partido_Nacional_Democrático ( PND ) , decidió la semana pasada ampliar otros tres años <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de emergencia</argument></argset>en todo el país , vigente desde que hace 19 años fue asesinado el anterior presidente , Anuar_Sadat . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="5.0.3.1.1.1.0" sentencenodepath="5">Pese_a_que Adli insiste en que <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de emergencia</argument></argset>" no supone una limitación para las libertades públicas , la democracia y la libertad de expresión " , los partidos opositores , las organizaciones de defensa de los derechos_humanos y otros grupos comprometidos con las libertades públicas han recurrido la ley ante los tribunales . </example>
+        <example file="CESS-CAST-AA/2162_20000303.tbf.xml" nodepath="6.2.1.1.0" sentencenodepath="6">Estas organizaciones consideran que <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de emergencia</argument></argset>es utilizado por el régimen , que encabeza el presidente , Hosni_Mubarak , como arma para combatir a la oposición y reprimir a los defensores de los derechos_humanos , al conceder a las autoridades el derecho a actuar y practicar detenciones indefinidas sin control judicial . </example>
+        <example file="CESS-CAST-AA/21634_20000627.tbf.xml" nodepath="3.0.5.1.1.0.1" sentencenodepath="3">En un tono algo irónico , Beckenbauer se permite incluso bromear acerca_del <argset><reference_modifiers>pésimo</reference_modifiers><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la selección alemana</argument></argset>: " Mira Ø , ahora Ø necesitamos los Mundiales más que nunca , ya_que así al_menos Ø estaremos ahí sin tener que clasificarnos " , escribe Ø . </example>
+        <example file="CESS-CAST-AA/23019_20000328.tbf.xml" nodepath="1.4.1.1.1.0" sentencenodepath="1">El presidente y el secretario general de la RFEF , Angel_María_Villar y Gerardo_González , respectivamente , visitaron hoy el centro de producción que Media_Park tiene en Sant_Just_Desvern ( Barcelona ) para conocer <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de desarrollo</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la web</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="5.3.5.1.1.0" sentencenodepath="5">El PSOE reclama al Gobierno que Ø envíe información cada tres meses sobre <argset><specifier>el</specifier><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las obras desarrolladas por estas entidades</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3788_20000405.tbf.xml" nodepath="3.2.0.1.0" sentencenodepath="3">En la pelea también resultaron heridos otros seis aficionados , cinco ingleses y un turco , que fueron trasladados a un hospital y <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>estado </head></argset>no reviste gravedad , según informó la policía . </example>
+        <example file="CESS-CAST-AA/4636_20000109.tbf.xml" nodepath="3.2.1.5.1.1.0" sentencenodepath="3">Ø Agregó que si durante la presidencia portuguesa de la UE " se consiguiese modificar <argset><specifier>este</specifier><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de cosas</argument></argset>, ello significaría una gran contribución para la agricultura portuguesa " . </example>
+        <example file="CESS-CAST-AA/4810_20000306.tbf.xml" nodepath="5.0.1.0.0" sentencenodepath="5">En_cuanto_al <argset><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su plantilla</argument></argset>, el rematador internacional Juan_Carlos_Vega deberá estar inactivo durante un mes y medio al sufrir una rotura del calcáneo del tobillo izquierdo , con lo que Ø será baja para los partidos finales y para la Copa_del_Rey , que se disputará del 25 al 27_de_marzo en El_Ejido ( Almería ) . </example>
+        <example file="CESS-CAST-AA/5315_20000207.tbf.xml" nodepath="11.4.2.2.1.0" sentencenodepath="11">Con mirarme a la cara Ø sabe perfectamente cómo Ø me siento y cuál es <argset><argument argument="arg1" thematicrole="tem" type="spec">mi</argument><head>estado </head><reference_modifiers>anímico</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6354_20000909.tbf.xml" nodepath="0.5.1.1.1.5.1.1.1" sentencenodepath="0">Vincet_Spadea será el sustituto de Andre_Agassi en el equipo olímpico estadounidense en los Juegos_de_Sydney , después de que el campeón en Atlanta`96 renunciara esta semana a la cita olímpica por <argset><specifier>el</specifier><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">mal</argument><head>estado </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">de salud</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su madre y hermana , aquejadas de cáncer de mama</argument></argset>. </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="13.3.1.1.0" sentencenodepath="13">Se le preguntaba por <argset><specifier>el</specifier><head>estado </head><reference_modifiers>físico</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su jefe de filas</argument></argset>. </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="16.4.3.1.1.1.0.3.1.1" sentencenodepath="16">Ahora_bien , la empobrecida y semiparalizada economía rusa podría colapsar definitivamente , arrastrando consigo a una población que durante un decenio ha soportado <argset><specifier>un</specifier><reference_modifiers>permanente</reference_modifiers><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de abandono por_parte_de los sucesivos gobiernos</argument></argset>y que ha estado viviendo al_límite_del hambre como en las peores épocas de la colectivización estaliniana . </example>
+        <example file="CESS-CAST-P/120_20010103.tbf.xml" nodepath="2.0.2.1.1.1.1.0" sentencenodepath="2">Un Segunda_B , un campo en <argset><specifier>mal</specifier><head>estado </head></argset>, la presión de jugárselo todo a partido único y la motivación de unos y otros . </example>
+        <example file="CESS-CAST-P/133_20011001.tbf.xml" nodepath="8.6.2.1.1.2.2.6.1.1.2.1.1.0" sentencenodepath="8">Ø Fue pintado por primera vez en los planos por los técnicos municipales casi como una exigencia del diseño del conjunto de la Ciutat_del_Teatre , para cerrar la plaza de Margarida_Xirgu que circundan el Mercat_de_les_Flors , el Teatre_Lliure ( Palau_de_l'Agricultura ) , el Institut_del_Teatre y unas 80 viviendas construidas hace 50 años , pero en <argset><specifier>un</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de conservación aceptable</argument></argset>. </example>
+        <example file="CESS-CAST-P/143_20011101.tbf.xml" nodepath="1.3.0.1.0" sentencenodepath="1">La campeona de la Copa_del_Mundo de supergigante de la pasada temporada no pudo superar <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de coma</argument></argset>y las heridas que Ø sufrió al chocar en el descenso con el entrenador de la selección alemana de promesas de esquí , Markus_Anwander . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="3.2.1.1.1.0.1.0.0" sentencenodepath="3">Y , sin_embargo , a este hombre en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de alerta permanente</argument></argset>y quizá hermético le entusiasman las cosas que vuelan . </example>
+        <example file="CESS-CAST-P/20_20010301.tbf.xml" nodepath="4.5.2.1.1" sentencenodepath="4">En esta ocasión , sin_embargo , la causa no fue un fallo en la señalización ni <argset><specifier>el</specifier><reference_modifiers>mal</reference_modifiers><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los raíles , que acababan de ser reparados</argument></argset>. </example>
+        <example file="CESS-CAST-P/22_19990201.tbf.xml" nodepath="3.2.1.1.1.1.2.1.1.1.0" sentencenodepath="3">La iniciativa del Consejo_de_Seguridad , aprobada el sábado , establece la puesta_en_marcha de tres comisiones - - desarme , situación humanitaria y presos de guerra kuwaitís - - para evaluar <argset><specifier>el</specifier><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las relaciones entre Irak y la ONU</argument></argset>. </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="8.4.3.1.0" sentencenodepath="8">De_igual_modo , Sanidad recuerda a los facultativos que Ø deberán considerar <argset><specifier>el</specifier><head>estado </head><reference_modifiers>cardiovascular</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del paciente</argument></argset>, de_cara_a posibles reacciones adversas . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="17.1.0.3.1.0" sentencenodepath="17">Tras la disolución de la masiva y pacífica manifestación convocada por sindicatos , asociaciones ecologistas y organizaciones no gubernamentales ( ONG ) contra la OMC y la " mundialización de las multinacionales " , Paul_Schell , alcalde de Seattle , declaró a media tarde del Martes <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de emergencia</argument></argset>y Ø decretó el toque de queda en el centro de la ciudad . </example>
+        <example file="CESS-CAST-P/3_19991202.tbf.xml" nodepath="21.1.2.1.0" sentencenodepath="21">En_principio , el toque de queda y <argset><specifier>el</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de emergencia</argument></argset>se mantendrán hasta el final de la reunión . </example>
+        <example file="CESS-CAST-P/45_20020103.tbf.xml" nodepath="11.3.1.0.0" sentencenodepath="11">De_momento , los Ejércitos de ambos estados siguen en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de alerta</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_i.tbf.xml" nodepath="2.2.4.1.0.0" sentencenodepath="2">Bordes , que se ha entrevistado con representantes de hoteles , comercios , restaurantes y gasolineras , recordó que la puesta_en_marcha de la variante de la carretera N-2 , en Febrero , y la supresión de peajes para camiones en la A-2 dejaron al comercio de Cervera en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">" crítico "</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_k.tbf.xml" nodepath="1.0.1.2.1.1.2.2.1.0.0" sentencenodepath="1">Los últimos vecinos de los pisos situados en los números 2 , 4 , y 6 de la avenida de Can_Bordoll del barrio de Can_Roqueta de Sabadell , declarados en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de ruina</argument></argset>, fueron desalojados ayer por la mañana , sin resistencia , pero con críticas a la actuación del ayuntamiento , que inició inmediatamente el derribo de los edificios . </example>
+        <example file="CESS-CAST-P/57_20010801.tbf.xml" nodepath="8.6.2.2.0.4.1.0.2" sentencenodepath="8">En este caso , según la propia calificación fiscal , el magistrado del Poder_Judicial se encontraba en esa situación , puesto_que Ø presentaba " signos externos " de <argset>" <reference_modifiers>profundo</reference_modifiers>
+            <head>estado </head>
+            <argument argument="arg2" function="cn" thematicrole="atr" type="s.a">etílico</argument>" </argset>cuando Ø fue requerido por los agentes de la policía y Ø se negó a realizar la prueba . </example>
+        <example file="CESS-CAST-P/59_19991001.tbf.xml" nodepath="1.2.1.2.1.1.1.3.1.1.1.1.2.1.2.0.1.1.1.1.1.1.1.0.0" sentencenodepath="1">Ø Es la solemne y merecida confirmación de un talento que sus lectores reconocían desde la aparición de El_tambor_de_hojalata y su protagonista enano Oskar_Matzerath , producto de una mente en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de revisión iconoclasta</argument></argset>sin contemplaciones ante la Alemania de su tiempo . </example>
+        <example file="CESS-CAST-P/69_20000102.tbf.xml" nodepath="9.2.5.1.1.0" sentencenodepath="9">Fuentes del hospital gijonés explicaron que el bebé se encontraba en ese momento en <argset><specifier>un</specifier><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de " maduración fetal positiva "</argument></argset>, según confirmaron la amniocentesis ( análisis del líquido amniótico que envuelve al feto ) y otras pruebas . </example>
+        <example file="CESS-CAST-P/71_20010501.tbf.xml" nodepath="3.1.0.3.1.0.1" sentencenodepath="3">Una hora más tarde Ø localizaron a 11 de los montañeros en <argset><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">perfecto</argument><head>estado </head></argset>y Ø les indicaron el camino de regreso . </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="2.2.5.4.1.0" sentencenodepath="2">Preguntado sobre este asunto en la comisión parlamentaria que investiga el escándalo financiero , Peralta afirmó que Ø no quiso responder al requerimiento de Vives porque Ø ya había explicado <argset><specifier>el</specifier><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de sus cuentas</argument></argset>" el día anterior " . </example>
+        <example file="CESS-CAST-P/76_20010103.tbf.xml" nodepath="5.3.1.1.5.1.1.2.1.0.0" sentencenodepath="5">La reina Beatriz_de_Holanda visitó ayer el Centro_Médico_de_Amsterdam , donde se encuentran ingresados 24 heridos , 17 de ellos en <argset><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="s.a">crítico</argument></argset>. </example>
+        <example file="CESS-CAST-P/80_20010302.tbf.xml" nodepath="2.1.1.2.2.1.1.0" sentencenodepath="2">Ayer , todas las emisoras de radio que informan sobre <argset><specifier>el</specifier><head>estado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del tráfico</argument></argset>utilizaron la antigua y la nueva nomenclatura para no despistar a los oyentes . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="estar" originlink="verb.estar.2" wordnetsynset="16:00016185">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="atr">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/118_20011202.tbf.xml" nodepath="1.2.1.1.1.1.3.2.1.1.1" sentencenodepath="1">Xavier_Oliveras es el autor de la placa original dedicada al Salvador_Seguí , el Noi_del_Sucre , secuestrada por el comando , un grupo de intelectuales que frecuentan el restaurante Casa_Leopoldo , ante <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>pésimo</reference_modifiers><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de conservación</argument></argset>. </example>
+        <example file="CESS-CAST-P/134_19981101.tbf.xml" nodepath="34.2.3.1.2.1.0" sentencenodepath="34">Es sábado y muchas familias con niños aparecen por la sala para comprobar de_cerca <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>estado </head></argset>. </example>
+        <example file="CESS-CAST-P/25_20011102.tbf.xml" nodepath="7.2.1.1.0.3.1.1.1" sentencenodepath="7">Mubarak , que agradeció la invitación de su " hermano " Aznar para visitar España , advirtió de que dejar por mucho tiempo el proceso de paz en <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><reference_modifiers>actual</reference_modifiers><head>estado </head><argument argument="arg2" function="cn" thematicrole="atr" type="sp">de estancamiento</argument></argset>pude tener " gravísimas repercusiones " y " acarrear peligros para toda la región que pueden repercutir en otras regiones " . </example>
+        <example file="CESS-CAST-P/65_20000602.tbf.xml" nodepath="6.0.3.0.1.0" sentencenodepath="6">" Ø Está agonizando , pero Ø aún no está muerto . <argset><argument argument="arg1" thematicrole="tem" type="spec">Su</argument><head>estado </head></argset>es muy grave " , precisó la policía tras liberar a los rehenes . </example>
+        <example file="CESS-CAST-P/69_20000602.tbf.xml" nodepath="7.3.1.0.1.4.1.0.1.0" sentencenodepath="7">Horas después Ø regresó al Hospital_La_Paz , donde Ø fue ingresada dado <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>estado </head><reference_modifiers>emocional</reference_modifiers></argset>y las graves lesiones que Ø presentaba . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense alternativelemma="estado_de_excepción" cousin="no" denotation="result" id="3" lexicalizationtype="nominal" lexicalized="yes" originlemma="estar" originlink="verb.estar.2" wordnetsynset="16:cs3">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="4.0.2.3.1.1" sentencenodepath="4">El diputado socialista Enrique_Múgica afirmó que en el País_Vasco existe <argset><specifier>un</specifier>" <head>estado </head><argument argument="argL" function="cn" type="sp">de excepción</argument>" <reference_modifiers>impuesto por ETA , defendido por EH y " contemplado con pasividad " por el PNV y EA</reference_modifiers></argset>, y Ø consideró que el Gobierno vasco no quiere convocar elecciones por miedo a la pérdida de hegemonía del nacionalismo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="estado_de_ánimo" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="estar" originlink="verb.estar.2" wordnetsynset="16:00016185">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argL">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/d2-8.tbf.xml" nodepath="2.0.1.1.0" sentencenodepath="2">En <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>estado </head><argument argument="argL" function="cn" type="sp">de ánimo</argument></argset>, además_de cansancio físico , se van acumulando otros tipos de " fatigas " , como son la separación prolongada de su familia . </example>
+        <example file="3LB-CAST/dc10-3.tbf.xml" nodepath="4.2.4.1.1.0" sentencenodepath="4">Un grupo de investigadores británicos ha llegado a asegurar que los virus se aprovechan de <argset><specifier>los</specifier><head>estados </head><argument argument="argL" function="cn" type="sp">de ánimo</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los individuos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

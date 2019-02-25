@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="negativa" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="negar" originlink="verb.negar.1" wordnetsynset="16:05383114+16:05383849">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/r2-4.tbf.xml" nodepath="4.0.0.0" sentencenodepath="4"><argset><head>Negativa </head>, </argset>los grandes de la banca española vivieron el acoso de ETA a_comienzos_de la década de los ochenta . </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="8.2.1.1.0" sentencenodepath="8">Arias , que tampoco ha gozado del apoyo de su partido , agitado en una tempranera lucha interna por la selección de su candidato para los comicios del año_2002 , reconoció que <argset><specifier>la</specifier><head>negativa </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del gubernamental PUSC</argument></argset>es la " estocada " a la reelección presidencial . </example>
+        <example file="CESS-CAST-P/41_19991002.tbf.xml" nodepath="3.0.2.1.2.2.1.0" sentencenodepath="3">El ministro admitió las dificultades que encierra este asunto , por <argset><specifier>la</specifier><head>negativa </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno español</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a plantearse siquiera la cesión de las dos ciudades</argument></argset>, y Ø reconoció que el Ejecutivo de Aznar " seguirá pensando que Ceuta y Melilla le pertenecen , y el marroquí , por su parte , que también " . </example>
+        <example file="CESS-CAST-P/47_20000602.tbf.xml" nodepath="11.4.1.0" sentencenodepath="11">" Ø Obtuve como respuesta <argset><specifier>la</specifier><head>negativa </head></argset>" . </example>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="3.0.5.1.2.1.5.1.1.0" sentencenodepath="3">" La sociedad vasca no se merece el clima de crispación política y de división que , con nuestra intolerancia , con nuestras descalificaciones y con <argset><specifier>la</specifier><head>negativa </head><reference_modifiers>permanente</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al diálogo</argument></argset>, Ø estamos generando " , lamentó Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="negar" originlink="verb.negar.2" wordnetsynset="16:05383114">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="6" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/r2-4.tbf.xml" nodepath="7.0.1.1" sentencenodepath="7"><argset><specifier>La</specifier><reference_modifiers>rotunda</reference_modifiers><head>negativa </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los máximos responsables de las finanzas españolas</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a contribuir al fortalecimiento de la banda mafiosa</argument></argset>se saldó con una ofensiva etarra contra oficinas , delegaciones y sucursales de diversas entidades bancarias . </example>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="9.0.3.1.1.0" sentencenodepath="9">Con_respecto_al rechazo de la propuesta hecha por el gobernante cubano , Fidel_Castro , Chávez aclaró que <argset><specifier>la</specifier><head>negativa </head></argset>obedeció a que los países de la OPEP no la sintieron viable , y Ø destacó que Ø declaró sobre ese asunto porque Ø consideró " adecuado " que antes de que Ø se marcharan de La_Habana Ø le dieran una respuesta al anfitrión de la Cumbre . </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="0.2.3.2.1.0" sentencenodepath="0">Los camioneros británicos intensificaron hoy sus protestas y Ø continuaron con el bloqueo de refinerías y depósitos de combustible , pese_a <argset><specifier>la</specifier><head>negativa </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ministro británico de Economía , Gordon_Brown ,</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a bajar los impuestos del carburante</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="8.2.1.0" sentencenodepath="8">Por_su_parte el PP , mostró <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>negativa </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a votar a_favor_de esta Proposición_de_Ley</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">, por parecer que " estamos hablando de una tómbola " , donde las concesiones " tocan como la lotería "</argument></argset>. </example>
+        <example file="CESS-CAST-P/136_20010501.tbf.xml" nodepath="9.0.3.1.0" sentencenodepath="9">Kiko comunicó a sus compañeros <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>negativa </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a colaborar</argument></argset>y su postura llegó a oídos del Frente , incluso con frases literales , según explicó el jugador en el programa El_Larguero . </example>
+        <example file="CESS-CAST-P/16_20001002_a.tbf.xml" nodepath="0.0.0.1.1.1.2.1.0" sentencenodepath="0">Las movilizaciones por la subida del precio del gasóleo y <argset><specifier>la</specifier><head>negativa </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno de Aznar</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a rebajar los impuestos que gravan los carburantes pese_al incremento del precio del petróleo</argument></argset>no amainan , sino_que Ø aumentan . </example>
+        <example file="CESS-CAST-P/34_20000401.tbf.xml" nodepath="15.3.1.1.0" sentencenodepath="15">La búsqueda de Gelman despertó una amplia solidaridad internacional tras <argset><specifier>la</specifier><head>negativa </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ex presidente uruguayo Sanguinetti</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a aportar datos al poeta sobre el paradero de su nieta</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

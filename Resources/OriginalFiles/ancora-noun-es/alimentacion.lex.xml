@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="alimentación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="alimentar" originlink="verb.alimentar.1" wordnetsynset="16:05617748+16:05618089">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-6.tbf.xml" nodepath="7.1.2.2.1.1.1" sentencenodepath="7">Sin la protección de la nieve , tendrían que pasar semanas antes del brote de las plantas , y los animales salvajes e insectos carecerían de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>primera</reference_modifiers><head>alimentación </head><reference_modifiers>, vital tras el largo sueño</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17384_20000221.tbf.xml" nodepath="4.3.4.1.1.3.0.1.5.1.1.1" sentencenodepath="4">Lomelí exigió a las autoridades sanitarias que Ø alerten a las familias para evitar que la comida de bebés , niños y mujeres embarazadas contengan granulados , que " en_nada contribuyen a <argset><specifier>una</specifier><reference_modifiers>buena</reference_modifiers><head>alimentación </head></argset>" . </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="12.2.3.2.1.0.4.0" sentencenodepath="12">En la bolsa de Madrid , el sector de comunicaciones fue el más beneficiado por las subidas , por el tirón de Telefónica , y Ø ganó un 4,70_por_ciento ; seguido de <argset>nuevas tecnologías , que subió un 3,49_por_ciento ; bancos , un 1,54_por_ciento , y <head>alimentación </head>
+            <reference_modifiers>, un 0,49_por_ciento</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="12.2.2.0.1.1.1.1.3.2.1.1.1.1.0" sentencenodepath="12">Media Serbia está hoy sin electricidad por haberse averiado los cuatro grupos generadores de la central térmica de Obrenovac , y ya hay dificultades para encontrar el pan semi-negro barato que es la base de <argset><specifier>la</specifier><head>alimentación </head></argset>para el serbio medio . </example>
+        <example file="CESS-CAST-P/69_20000102.tbf.xml" nodepath="14.5.1.0.2.0" sentencenodepath="14">Desde entonces , se la mantenía con vida medular a_través_de <argset>respiración asistida y <head>alimentación </head>
+            <argument argument="argM" function="cn" thematicrole="mnr" type="s.a">parenteral</argument>
+            <argument argument="argM" function="cn" thematicrole="loc" type="sp">por vía intravenosa</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/71_19991201_a.tbf.xml" nodepath="1.2.1.0.2.3.0.2.2.0.1.0" sentencenodepath="1">El proyecto pretende abrir centros para heroinómanos en los que se faciliten jeringuillas , asistencia médica y social <argset>( <head>alimentación </head>, vestido e higiene ) </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="alimentar" originlink="verb.alimentar.1" wordnetsynset="16:05617748">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-P/6_19990301.tbf.xml" nodepath="4.2.3.1.1.1.0.2.2.1.0" sentencenodepath="4">Este , a instancias de algunos médicos , empieza a dictar la incapacidad jurídica de algunas de las afectadas o a ordenar directamente su ingreso en centros sanitarios que puedan controlar <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>alimentación </head></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

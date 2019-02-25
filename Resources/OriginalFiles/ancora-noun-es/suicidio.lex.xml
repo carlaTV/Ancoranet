@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="suicidio" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="suicidarse" originlink="verb.suicidarse.1" wordnetsynset="16:00144739">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-5.tbf.xml" nodepath="8.3.1.1.0" sentencenodepath="8">Para un tití , intentar la paternidad en solitario sería poco_menos_que <argset><specifier>un</specifier><head>suicidio </head></argset>. </example>
+        <example file="CESS-CAST-P/135_20000202.tbf.xml" nodepath="31.4.3.1.0" sentencenodepath="31">Cuando Ø grabé esa canción , en 1991 , mucha gente que me apreciaba me dijo que Ø era <argset><specifier>un</specifier><head>suicidio </head></argset>. </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="22.3.1.4.1.0.1.1.0.0" sentencenodepath="22">Los expertos policiales han informado al juez de que la presunta responsable de la explosión tiene " bastantes antecedentes " por intentos de <argset><head>suicidios </head></argset>. </example>
+        <example file="CESS-CAST-P/26_19990701_a.tbf.xml" nodepath="48.0.2.1.0" sentencenodepath="48">La guerra civil fue <argset><specifier>un</specifier><head>suicidio </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">colectivo</argument></argset>, y en ella yo no hice de periodista . </example>
+        <example file="CESS-CAST-P/3_19991102.tbf.xml" nodepath="2.2.0.2.2.1.0" sentencenodepath="2">En Barcelona está Juicio_Nera , de Luis_Orega , que defiende <argset><specifier>el</specifier><head>suicidio </head><reference_modifiers>ritual</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="suicidarse" originlink="verb.suicidarse.1" wordnetsynset="16:00144739">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="3.3.1.1.1.1.0.0" sentencenodepath="3">Fuentes de la investigación han señalado a este diario que el intento de <argset><head>suicidio </head></argset>de una vecina es la causa más probable de la tragedia . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="21.0.1.1.1.0.0" sentencenodepath="21">OTROS INTENTOS DE <argset><head>SUICIDIO </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="multa" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="multar" originlink="verb.multar.1" wordnetsynset="16:04923025+16:09574958">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="11" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="10" postype="indefinite" type="determiner"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-1.tbf.xml" nodepath="5.2.0.1.3.3.1.0" sentencenodepath="5">Cuatro años después , dichas obligaciones estaban por cumplir , agregó Herrera , quien observó que la compañía recibió <argset><specifier>una</specifier><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 1.872 millones de pesos ( 892,7 millones de dólares )</argument></argset>. </example>
+        <example file="3LB-CAST/2000060211_6-1.tbf.xml" nodepath="6.0.4.2.0.0.1.0" sentencenodepath="6">La compañía hizo uso del recurso de apelación , tras lo cual <argset><specifier>la</specifier><head>multa </head></argset>fue confirmada y reducida a 1.365 millones de pesos , explicó el funcionario . </example>
+        <example file="3LB-CAST/c1-3.tbf.xml" nodepath="7.2.1.0.4.2.1.1.3.1.1.1.2.1.0.2.0" sentencenodepath="7">La señora Aguirre , híbrido de comadre galdosiana y coronela de las SS , contribuye al - progrom - antisindical y antitrabajadores levantiscos que ha puesto_en_marcha la derecha que nos agobia con su terapia de estropajo y aljofifa , de <argset>barrenderos y <head>multas </head>
+          </argset>, de purificación ciudadana a golpe de fregona . </example>
+        <example file="CESS-CAST-A/19061_20000426.tbf.xml" nodepath="3.0.1.2.2.1.1.0.0" sentencenodepath="3">El conductor , Antonio_Muñoz_Serrano , que ha sido condenado a <argset><specifier>una</specifier><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 120.000 pesetas</argument>y prohibición de la licencia de circulación durante un año </argset>, sufrió el accidente la mañana del 5_de_junio del pasado año cuando Ø conducía su cuadriciclo - cuyo uso requiere solo de la licencia de circulación - , por una travesía de Sant_Boi_de_Llobregat ( Barcelona ) . </example>
+        <example file="CESS-CAST-AA/2232_20001103.tbf.xml" nodepath="5.4.5.2.1.0.1.2.1.0" sentencenodepath="5">Bush tuvo que reconocer el Jueves , después de una filtración periodística , que Ø fue detenido en 1976 por conducir ebrio , por lo que Ø pagó <argset><specifier>una</specifier><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 150 dólares</argument></argset>y su carné de conducir fue sancionado en el estado de Maine . </example>
+        <example file="CESS-CAST-AA/2765_20000303.tbf.xml" nodepath="1.0.3.1.0" sentencenodepath="1">Además , el organismo federativo ha impuesto <argset><specifier>una</specifier><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 30.000 pesetas</argument></argset>al club fuengiroleño y Ø ha sancionado con quince partidos de suspensión a dos jugadores del conjunto local , José_Antonio_González_Mérida y Rafael_Cortés_Trujillo , por su supuesta participación en las agresiones sufridas por los futbolistas del equipo veleño . </example>
+        <example file="CESS-CAST-AA/8203_20000210.tbf.xml" nodepath="4.2.3.1.0" sentencenodepath="4">Además , Ø le obliga a notificar por escrito a este organismo , en un plazo máximo de diez días , su compromiso a cesar su actividad , y Ø le ha impuesto <argset><specifier>una</specifier><head>multa </head><reference_modifiers>coercitiva</reference_modifiers><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 200.000 pesetas</argument><reference_modifiers>, con un máximo de dos millones de pesetas ,</reference_modifiers></argset>por cada día que transcurra sin realizar esta notificación . </example>
+        <example file="CESS-CAST-P/56_20000801_j.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">Tras <argset><specifier>las</specifier><head>multas </head></argset>, los vehículos quedan inmovilizados hasta que se subsanan las irregularidades . </example>
+        <example file="CESS-CAST-P/57_20000702.tbf.xml" nodepath="2.0.0.1.0" sentencenodepath="2"><argset><specifier>Las</specifier><head>multas </head><reference_modifiers>impuestas</reference_modifiers></argset>oscilan entre las 42.000 y las 482.000 pesetas , además_de añadir la prohibición de residir en la antigua zona ocupada por Israel en el sur de Líbano por periodos de uno a siete años . </example>
+        <example file="CESS-CAST-P/68_20011201.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">LAS AUTORIDADES de Agadir han impuesto <argset><specifier>una</specifier><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 38,5 millones de pesetas ( 232.000 euros )</argument></argset>al Lameiro_Uno , un pesquero gallego con 13 tripulantes , acusado de faenar sin licencia en aguas marroquís . </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="5.3.2.1.1.0" sentencenodepath="5">Quien infrinja la ley , dice el texto norteamericano , podrá ser condenado a 10 años de prisión y a <argset><specifier>una</specifier><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de al_menos un millón de dólares , cerca de 200 millones de pesetas</argument></argset>. </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="3.4.1.0" sentencenodepath="3">A_principios_del pasado_junio , la Autoridad_Antimonopolios , que en Italia tiene poderes judiciales , impuso a ocho compañías petrolíferas <argset><specifier>una</specifier><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de unos 60.000 millones de pesetas</argument></argset>por la misma razón : Ø habían acordado el precio al_detalle de las gasolinas . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>Las</specifier><head>multas </head><reference_modifiers>más elevadas</reference_modifiers></argset>han sido impuestas a las compañías Ras ( grupo Allianz ) , Sai ( Ligresti ) , Generali , Assitalia , Lloyd_Adriático y Winterthur , que deberán pagar al erario público 9.400 millones de pesetas , 7.030 , 5.910 , 5.290 , 5.008 y 4.120 , respectivamente . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="8.2.1.0" sentencenodepath="8">Esta última pagará <argset><specifier>la</specifier><head>multa </head><reference_modifiers>más leve</reference_modifiers><reference_modifiers>, que asciende a unos 65 millones de pesetas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="10.1.1.1.1.0" sentencenodepath="10">Enrico_Letta , ministro de Industria , al conocer <argset><specifier>la</specifier><head>multa </head></argset>, dijo que Ø era " la demostración sobre la situación monstruosa en la que ha desembocado el sector de los seguros , con una semiliberalización sólo sobre los precios y con poca transparencia y competencia por_parte_de de la oferta " . </example>
+        <example file="CESS-CAST-P/79_19981101.tbf.xml" nodepath="9.3.0.1.1.1.1.2.1.0.0" sentencenodepath="9">Además_del cierre , estos establecimientos pueden recibir sanciones de hasta un millón de pesetas de <argset><head>multa </head></argset>. </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="2.3.1.0.1.0" sentencenodepath="2">El accidente que causó la muerte de una niña en el cruce de la calle de Aragó con el paseo de Gràcia , frente_al antiguo Fashion_Café , se ha saldado con <argset><specifier>una</specifier><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 120.000 pesetas</argument></argset>, un año de retirada del carnet y una indemnización de 19,7 millones de pesetas . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="22.0.2.1.0.0" sentencenodepath="22">La ley castiga con <argset><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de uno a dos meses</argument></argset>la imprudencia leve con resultado de muerte , y con multa de 15 a 30 días la imprudencia con resultado de lesiones . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="22.2.0.1.0.0" sentencenodepath="22">La ley castiga con multa de uno a dos meses la imprudencia leve con resultado de muerte , y con <argset><head>multa </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 15 a 30 días</argument></argset>la imprudencia con resultado de lesiones . </example>
+        <example file="CESS-CAST-P/82_20011201.tbf.xml" nodepath="3.0.1.3.2.1.1.1.0" sentencenodepath="3">" Ø No quiero cazar a nadie para poner <argset><specifier>una</specifier><head>multa </head></argset>. Ø Quiero que la gente respete la velocidad . Ø Es nuestra única intención " , dijo Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

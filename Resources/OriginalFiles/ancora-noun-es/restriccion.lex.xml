@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="restricción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="restringir" originlink="verb.restringir.1" wordnetsynset="16:04021804">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="spec" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="5.2.6.0.1.1.1.0.0" sentencenodepath="5">Ramírez advirtió que " si vencido el tiempo no se acata ( el fallo ) por_parte_del país que está violando la norma , el Tribunal nos da derecho a aplicarle <argset><head>restricciones </head><reference_modifiers>comerciales</reference_modifiers><reference_modifiers>como , por_ejemplo , la imposición de aranceles</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/52_19990901.tbf.xml" nodepath="5.1.5.1.1.1.1.1.1.2.1.1.0" sentencenodepath="5">Narbona tampoco ahorró críticas a Tocino : " Ø Ocupa el último lugar en las encuestas de popularidad por su incapacidad para resolver un problema primordial como <argset><specifier>las</specifier><head>restricciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de agua</argument><reference_modifiers>, que ya afectan a 150.000 españoles</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/6_20020501.tbf.xml" nodepath="1.4.2.1.1.1.1.2.1.1.0.1.1.1.0" sentencenodepath="1">El tribunal de Estrasburgo mantiene así claramente diferenciadas la eutanasia activa , despenalizada únicamente en Holanda , y la suspensión de los tratamientos que mantienen a una persona artificialmente con vida , vía aceptada con <argset><specifier>más o menos</specifier><head>restricciones </head><reference_modifiers>administrativas</reference_modifiers></argset>según los países y de la que el mismo Lunes se beneficiaba otra enferma británica . </example>
+        <example file="CESS-CAST-P/73_20000201_e.tbf.xml" nodepath="1.2.2.1.2.1.0" sentencenodepath="1">La Asociación_de_Líneas_Aéreas calificó ayer de " inaceptable " la medida e Ø insistió en que " <argset><specifier>cualquier</specifier><head>restricción </head></argset>no debe imponerse de manera precipitada y sin dar tiempo a las compañías aéreas a buscar soluciones para los vuelos afectados " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="restringir" originlink="verb.restringir.1" wordnetsynset="16:00516738">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="13.4.1.1.1.1.3.1.0" sentencenodepath="13">Tanto la Secretaría de la CAN , que dirige el venezolano Sebastián_Alegrett , como el Tribunal_Andino , dieron a Colombia la razón en su demanda para que Venezuela levantara <argset><specifier>la</specifier><head>restricción </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a la libre prestación del servicio de transporte</argument><reference_modifiers>adoptada por los ministerios del Interior , Hacienda , Industria_y_Comercio , Transporte y Comunicaciones de Venezuela</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="restringir" originlink="verb.restringir.1" wordnetsynset="16:00516738">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/73_20000201_e.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>restricción </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">nocturna</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los vuelos en Barajas</argument></argset>genera críticas . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="fuga" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="fugarse" originlink="verb.fugarse.1" wordnetsynset="16:00032687">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="des">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/t3-6.tbf.xml" nodepath="1.3.1.1.4.2.1.1.1.1.1.1.0" sentencenodepath="1">A_través_de las cortinas de lluvia y lágrimas , el mar era una opción : o avanzar hacia las definitivas profundidades y hundir para siempre la piedra oscura que le ocupaba el cerebro o regresar a la playa para recuperar la penumbra de <argset><specifier>una</specifier><head>fuga </head><reference_modifiers>frustrada</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/24984_20000630.tbf.xml" nodepath="10.1.4.0.3.4.1.0" sentencenodepath="10">Por la tarde Ø salió al_principio , Ø marcó el mejor tiempo y Ø se tuvo que volver a detener , porque Ø tenía <argset><specifier>una</specifier><head>fuga </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de aceite</argument></argset>y , de_nuevo , los mecánicos tuvieron que separar el motor del chasis . </example>
+        <example file="CESS-CAST-AA/2735_20000504.tbf.xml" nodepath="3.2.2.4.1.1.3.1.1.2.1.0.0" sentencenodepath="3">García_Castellón apunta en el auto , al que ha tenido acceso Efe , que Gil efectúa " las presentaciones mensuales a las que Ø está obligado ante este juzgado " y Ø señala que además no existe ningún motivo que " pueda inducir a un posible riesgo de <argset><head>fuga </head></argset>" . </example>
+        <example file="CESS-CAST-P/102_19990202.tbf.xml" nodepath="5.2.0.1.0" sentencenodepath="5">Desde el 13_de_enero , el real se había devaluado más de un 50% y <argset><specifier>la</specifier><head>fuga </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de dólares</argument></argset>supera los 25.000 millones ( más de 3,6 billones de pesetas ) en los últimos cinco meses . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="4.4.3.0.1.1" sentencenodepath="4">Los expertos de la Policía_Científica han descubierto varios cortes en la goma de la cocina del 2°_1ª del número 92 de la calle de Eduard_Toda , que propiciaron <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>fuga </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de gas</argument></argset>y la posterior explosión . </example>
+        <example file="CESS-CAST-P/23_20020601.tbf.xml" nodepath="12.4.2.1.0" sentencenodepath="12">Los incidentes han abierto aún más la brecha entre la Conselleria_de_Justícia y los sindicatos , tras <argset><specifier>las</specifier><head>fugas </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">del pasado año</argument></argset>. </example>
+        <example file="CESS-CAST-P/26_20000302.tbf.xml" nodepath="10.0.4.1.1.0" sentencenodepath="10">Tras el choque , el conductor se dio a <argset><specifier>la</specifier><head>fuga </head></argset>y actualmente Ø es buscado por la policía . </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="12.2.3.1.0" sentencenodepath="12">Ø Aseguró que se ha producido <argset><specifier>una</specifier><head>fuga </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de soldados</argument><argument argument="argM" function="cn" thematicrole="des" type="sp">a Macedonia</argument></argset>. </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="2.5.1.1.3.1.1.1.0.0" sentencenodepath="2">La defensa de Javier_de_la_Rosa , quien se encuentra en prisión desde hace más de seis meses , ha solicitado de_nuevo a la juez del caso Torras su puesta_en_libertad por estimar que no existe ningún riesgo de <argset><head>fuga </head></argset>. </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="8.3.1.1.2.1.0.1.1.0.0" sentencenodepath="8">Jufresa y Hernández-Gil insisten en reclamar la libertad de su cliente ante la " inexistencia del riesgo de <argset><head>fuga </head></argset>" . </example>
+        <example file="CESS-CAST-P/49_19990501.tbf.xml" nodepath="17.2.2.0.1.1.1.0.0" sentencenodepath="17">Los jueces estiman que persiste el riesgo de <argset><head>fuga </head></argset>y la posibilidad de entorpecer la labor de la justicia si el financiero obtiene la libertad provisional hasta la celebración del juicio . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="fugarse" originlink="verb.fugarse.1" wordnetsynset="16:00134469">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-11.tbf.xml" nodepath="11.0.0.0.0.1.2.0.2.0" sentencenodepath="11">A_veces sorprendido en su buena fe <argset>( la saga / <head>fuga </head>
+            <reference_modifiers>lamentable</reference_modifiers>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Ricardo_Peral</argument>) </argset>, a_veces defraudado por hombres cuya permanencia en el equipo estaba más que cuestionada y que él ha defendido por un concepto muy clásicamente madridista de fidelidad a los veteranos y los colores , Mariano ha ido aprendiendo las lecciones tanto de los triunfos como de los reveses . </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">A la deserción de unos 10.000 escolares en los últimos tres años , por_efecto_de la caída demográfica y la menor elección de la materia confesional , se añade <argset><specifier>la</specifier><head>fuga </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de alumnos</argument><reference_modifiers>que se registra por la reducción horaria que Ensenyament ha introducido en la franja dedicada a las enseñanzas opcionales</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

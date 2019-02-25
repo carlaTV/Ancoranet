@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="modernización" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="modernizar" originlink="verb.modernizar.1" wordnetsynset="16:00170063">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/11317_20000817.tbf.xml" nodepath="8.3.0.1.1.0.0.2.0" sentencenodepath="8">Desde entonces , el grupo concesionario , que en 1999 obtuvo ganancias por 18 millones de dólares y ventas por 80 millones de dólares , realizó obras de <argset>ampliación y <head>modernización </head>
+            <argument argument="argM" function="cn" thematicrole="loc" type="sp">de la Autopista_del_Oeste , una carretera de 51 kilómetros de extensión administrada bajo cobro de peaje</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/49_20001202.tbf.xml" nodepath="0.4.1.1.1.1.2.1.1.1.1.1.0.0.0" sentencenodepath="0">Los populares añadieron ayer al precio de su apoyo al Presupuesto la creación de un fondo de 1.000 millones de pesetas para desarrollar un plan de <argset><head>modernización </head>y apoyo al pequeño y mediano comercio , especialmente el urbano </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="modernizar" originlink="verb.modernizar.1" wordnetsynset="16:00170063">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13809_20001018.tbf.xml" nodepath="18.1.2.3.1.2.1.0" sentencenodepath="18">Para ello , Ø dijo , " hay que mantener fuerte a nuestro ejército " , que por_ahora es " el más fuerte del mundo " y mejorar su capacidad de reacción , y además Ø aseguró que Ø apoyaba <argset><specifier>la</specifier><head>modernización </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las armas estratégicas y tácticas</argument></argset>, " mientras_que el gobernador Bush propone saltarse una generación de tecnología " . </example>
+        <example file="CESS-CAST-AA/7453_20000209.tbf.xml" nodepath="8.2.2.1.0" sentencenodepath="8">Caruana , que en los comicios de 1996 obtuvo el 52,7_por_ciento de los votos - 8.561 - , ha venido reivindicando el derecho a la autodeterminación , así_como <argset><specifier>la</specifier><head>modernización </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de sus lazos constitucionales con el Reino_Unido</argument></argset>. </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="19.4.3.1.1.1.0.1.1.1.0" sentencenodepath="19">La patronal del pequeño comercio reclamó también a la Generalitat que Ø incremente el volumen de ayudas a <argset><specifier>la</specifier><head>modernización </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del comercio tradicional y urbano</argument></argset>, para que Ø pueda competir con las nuevas fórmulas comerciales . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

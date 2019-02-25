@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="enlace" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="enlazar" originlink="verb.enlazar.1" wordnetsynset="16:09993288">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/51_19990702.tbf.xml" nodepath="2.1.1.1.1.0.0" sentencenodepath="2">Sin_embargo , un comité de <argset><head>enlace </head></argset>compuesto , entre otros , por Pío_García_Escudero , Javier_Arenas , Josep_Piqué y Pedro_Arriola mantendrá un seguimiento directo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="enlazar" originlink="verb.enlazar.3" wordnetsynset="16:09993288">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="4" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="7.3.0.1.2.1.0" sentencenodepath="7">Cuando Ø son absorbidas por las células se producen ionizaciones y excitaciones que llegan a romper <argset><specifier>los</specifier><head>enlaces </head><reference_modifiers>químicos</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las moléculas que constituyen la materia viva</argument></argset>dando_lugar a recombinaciones que pueden generar auténticos venenos . </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="4.1.2.2.0.0.1.1.0.1.1.1.0.1.0.0" sentencenodepath="4">Por lo que respecta a la parte dadora del complejo conductor , la mayor parte de nuevas moléculas dadoras sintetizadas han mantenido el sistema de anillo de 1,3 ditiol del TTF y se han estudiado derivados con una estructura extendida con <argset><head>enlaces </head></argset>o como el tetrametiltetratiaful ( TMTTF ) , o un sistema extendido como por_ejemplo el dibenzotetratiafulval ( DBTTF ) o , finalmente , la sustitución del tomo de azufre por otros heteroátomos como selenio o teluro ( fig. 5 ) . </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="3.3.3.1.1.3.3.2.2.0.0" sentencenodepath="3">Es a la tercera fórmula de la Fundamentación , que integra la determinación formal de la universalizabilidad de las máximas y la material que obliga a tratar a todo hombre como fin , a la que corresponde la ley fundamental de la Crítica_de_la_razón_práctica , como observa acertadamente Jose_Gomez_Caffarena , puesto_que una y otra apelan a la legislación ( Gesetzgebung ) universal que la Grundlegung había referido al todo de todos los fines , tanto de los seres racionales como fines en sí , cuanto de los propios fines que cada cual puede proponerse , es_decir , al <argset><head>enlace </head><reference_modifiers>sistemático</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los seres racionales</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el - reino - ( - desde_luego que solo un ideal - , precisa Kant ) del que cada persona debe obrar como miembro colegislador</argument></argset>. </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="2.5.1.0.2.2.1.1.1.0.2.4.1.0" sentencenodepath="2">La concentración de camiones , tanto en_dirección_a Alicante como a Barcelona , se ha iniciado sobre las 07.00 horas en_torno_al kilómetro 500 , a la altura del término de Paterna , donde se produce <argset><specifier>el</specifier><head>enlace </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del " By-Pass "</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">con la V-30 , por donde se canaliza el tráfico al Puerto_de_Valencia</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21730_20001026.tbf.xml" nodepath="12.2.4.2.1.1.4.1.2.1.1.1.1.1.0.0" sentencenodepath="12">Estos submarinos no han sido construidos para soportar ser transportados en un buque como si Ø fuera un contenedor , lo que exigiría una tecnología no disponible , y tampoco resulta conveniente proceder a su remolcado hasta el Reino_Unido , según las fuentes , que calificaron de " importante " el planteamiento español para situar un representante de <argset><head>enlace </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">con la base</argument></argset>. </example>
+        <example file="CESS-CAST-P/108_20000301_a.tbf.xml" nodepath="9.1.2.1.1.1.0.0" sentencenodepath="9">En una carrera española , como la Setmana_Catalana , que se disputa del 20 al 24 de este mes , 30 motoristas de la Guardia_Civil o de los Mossos_d'Esquadra , según competencias , 16 motos de <argset><head>enlaces </head></argset>y tres coches policiales se encargan de la seguridad de la carrera . </example>
+        <example file="CESS-CAST-P/56_20000801_e.tbf.xml" nodepath="0.0.0.0" sentencenodepath="0"><argset><head>Enlace </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la C-240</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">con la variante de Montblanc</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_e.tbf.xml" nodepath="1.0.0.1.1.1.0.0" sentencenodepath="1">Las obras del <argset><head>enlace </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la carretera C-240</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">con la recién inaugurada variante de la carretera N-240</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">a su paso por Montblanc</argument></argset>, presupuestadas en 570 millones de pesetas , ya se han iniciado y está previsto que Ø finalicen a_principios_del próximo mes_de_enero . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="sustitución" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="event" id="1" lexicalized="no" originlemma="sustituir" originlink="verb.sustituir.1" wordnetsynset="16:00128951">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg2">
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="4.1.2.2.2.1.1.0" sentencenodepath="4">Por lo que respecta a la parte dadora del complejo conductor , la mayor parte de nuevas moléculas dadoras sintetizadas han mantenido el sistema de anillo de 1,3 ditiol del TTF y se han estudiado derivados con una estructura extendida con enlaces o como el tetrametiltetratiaful ( TMTTF ) , o un sistema extendido como por_ejemplo el dibenzotetratiafulval ( DBTTF ) o , finalmente , <argset><specifier>la</specifier><head>sustitución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del tomo de azufre</argument><argument argument="arg2" function="cn" type="sp">por otros heteroátomos como selenio o teluro</argument>( fig. 5 ) </argset>. </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="6.1.1.0" sentencenodepath="6">En_general , <argset><specifier>la</specifier><head>sustitución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">en el esqueleto monocíclico</argument><argument argument="arg2" function="cn" type="sp">de TCNQ</argument></argset>da_lugar a complejos con propiedades conductoras inferiores a las del TCNQ , por la menor planaridad de la molécula , lo que dificulta el apretado apilamiento necesario para el solapamiento n responsable de la conductividad . </example>
+        <example file="CESS-CAST-A/12873_20000819.tbf.xml" nodepath="3.2.1.1.2.1.1.4.2.1.1.5.2.0.0" sentencenodepath="3">La grúa Titán trabaja en el re-flotamiento de la nave , operación que no ha afectado el tránsito normal de barcos por la vía acuática , según la ACP , que el pasado 31_de_diciembre asumió la administración y mantenimiento de la ruta interoceánica , en <argset><head>sustitución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la estadounidense Comisión_del_Canal_de_Panamá</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20809_20000428.tbf.xml" nodepath="1.0.0.0.1.5.2.0.0" sentencenodepath="1">Eraso , que asumió la dirección de Caja_Cantabria el 30_de_diciembre , en <argset><head>sustitución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de José_María_Pérez_Alvarez</argument></argset>, dio a conocer a la asamblea general de la entidad los resultados correspondientes al ejercicio pasado y Ø anunció los planes que su equipo tiene en mente para reorientar su actividad entre este año y 2001 . </example>
+        <example file="CESS-CAST-AA/24699_20000229.tbf.xml" nodepath="2.3.0.1.2.1.1.4.4.1.0.0" sentencenodepath="2">Ante unas 500 personas , la esposa de José_María_Aznar ha destacado el conocido Decreto_Coste_Cero , iniciativa que ha eximido a las empresas del pago de cotizaciones empresariales a la Seguridad_Social cuando Ø contraten empleados en <argset><head>sustitución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los que estén de baja por maternidad</argument></argset>, o la ley que promueve la conciliación de la vida familiar y laboral de las personas trabajadoras . </example>
+        <example file="CESS-CAST-AA/5282_20001108.tbf.xml" nodepath="5.6.2.0.0" sentencenodepath="5">Así , el diputado popular Luis_Marquínez_Marquínez presidió ayer por primera vez la Comisión_de_Infraestructuras , en <argset><head>sustitución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su compañero de partido Juan_Ignacio_Barrero , quien ha sido designado presidente de la Empresa_Nacional_de_Celulosa ( ENCE )</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

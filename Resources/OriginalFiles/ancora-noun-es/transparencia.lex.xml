@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="transparencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="transparentar" originlink="verb.transparentar.1" wordnetsynset="16:03779450">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="10" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="3.2.2.6.4.1.0.1" sentencenodepath="3">El mandatario indicó que Ø comparte la inquietud de sus opositores sobre el régimen electoral y Ø dijo que Ø ha comprometido " su coincidencia con la búsqueda de los caminos más convenientes para_que las elecciones ( generales del año_2002 ) se hagan con <argset><reference_modifiers>absoluta</reference_modifiers><head>transparencia </head></argset>" . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="28.2.2.1.1.1.1.1.1.1.1.2.5.0.0" sentencenodepath="28">Los gobernantes se comprometieron a poner_en_marcha " nuevas formas de participación " popular y Ø subrayaron la necesidad de modernizar las estructuras de los partidos políticos , a los que se les pidió <argset><head>transparencia </head></argset>en sus medios de financiación . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="40.2.2.1.1.0.1.1.0.1.2.0" sentencenodepath="40">Ø Abogó por una solución justa y duradera a la deuda exterior , y Ø reiteró la necesidad de fortalecer <argset>la disciplina u <head>transparencia </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la supervisión bancaria</argument>
+          </argset>y las políticas económicas y financieras " sanas " y de continuar con los cambios estructurales . </example>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="1.0.2.1.2.1.1.1.1.0.0" sentencenodepath="1">El secretario de política industrial de la Federación_del_Metal_de_CCOO , Ramón_Gorri , manifestó el malestar de su organización por la falta de <argset><head>transparencia </head><reference_modifiers>con que , a su juicio , se ha llevado_a_cabo la operación</reference_modifiers></argset>y Ø acusó a la Sociedad_Estatal_de_Participaciones_Industriales ( SEPI ) de haber actuado al_margen de los sindicatos . </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="8.0.4.1.1.1.0.2.0" sentencenodepath="8">" Se llevó_a_cabo una reforma al marco legal del mercado de valores para proporcionar <argset>una mayor seguridad jurídica y <head>transparencia </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">a las operaciones</argument>
+          </argset>, aunque también otros aspectos exógenos influyeron en el éxito " , señaló Croissier . </example>
+        <example file="CESS-CAST-A/17451_20000522.tbf.xml" nodepath="9.2.2.2.0" sentencenodepath="9">María_Antonia_Alvarez destacó <argset>la " tranquilidad y <head>transparencia </head>" <reference_modifiers>con la que se ha desarrollado este proceso , que el PSdeG da por cerrado , aunque necesitará la confirmación oficial del Comité_Nacional_Gallego</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="1.3.2.1.1.2.1.0.2.2.2.0" sentencenodepath="1">Según la diputada socialista , uno de los mayores errores ha sido limitar en la Ley_de_Hidrocarburos de 1998 la capacidad de actuación de los poderes públicos ante una estructura de la oferta de carácter oligopólico " propensa a ejercer su poder sobre minoristas y consumidores " , además_de establecer un esquema de órganos de defensa de la competencia de <argset>" reducidas atribuciones " y " escasa neutralidad y <head>transparencia </head>" </argset>. </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="14.3.6.2.2.2.1.2.1.0.0" sentencenodepath="14">Además , es " previsible " que durante el próximo ejercicio el Tesoro vuelva a recomprar valores en el mercado secundario , para minimizar el coste y , al_mismo_tiempo , garantizar un elevado grado de <argset><head>transparencia </head></argset>que evite distorsiones en el mercado . </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="10.2.3.1.1.1.2.1.1.2.1.1.1.1.1.2.2.1.0.0.0" sentencenodepath="10">Richard_Grasso , presidente del directorio del NYSE , dijo que las recomendaciones que adoptará la Bolsa permitirán construir un mercado " basado en la elección de los clientes respecto_a la forma en cómo ellos tienen acceso y Ø utilizan <argset><specifier>la</specifier><head>transparencia </head>, liquidez y profundidad sin paralelo del NYSE </argset>" . </example>
+        <example file="CESS-CAST-AA/6498_20000409.tbf.xml" nodepath="4.3.3.1.1.0.0.2.1.0.0" sentencenodepath="4">La CNMV y una posterior regulación de la Sociedad_de_Bolsas establece , entre otros asuntos , que las compañías que coticen en este segmento estarán sometidas a mayores obligaciones de <argset><head>transparencia </head></argset>que las que actualmente actúan en la bolsa española . </example>
+        <example file="CESS-CAST-AA/8105_20000310.tbf.xml" nodepath="20.2.1.2.5.1.0.1.0.5.1.0" sentencenodepath="20">Ø Debe de ser la erótica de la política , que el propio candidato llevó al extremo en Murcia , donde , ironizando sobre la manera con la que Aznar denomina al pacto PSOE-IU ( la " cosa " ) , Almunia defendió <argset><specifier>la</specifier><head>transparencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ese acuerdo</argument></argset>frente_a la falta de concreción de los aliados de Aznar : " ¿ Cómo es su cosa ? , ¿ dónde Ø tienen su cosa ? ... " , fue preguntando el candidato socialista a un auditorio cada vez más divertido . </example>
+        <example file="CESS-CAST-P/108_19990501.tbf.xml" nodepath="2.2.3.1.1.1.1.0.0" sentencenodepath="2">El secretario general del Gobierno chileno , Jorge_Arrate , y el ministro de Economía , Jorge_Leyva , defendieron la independencia de la fiscalía y Ø atribuyeron la medida a una voluntad de <argset><head>transparencia </head></argset>. </example>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="9.2.1.2.1.1.0" sentencenodepath="9">Una única moneda con la que manejarse en un amplio espacio geográfico sin fronteras físicas es la mejor herramienta para <argset><specifier>la</specifier><head>transparencia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de precios</argument></argset>. </example>
+        <example file="CESS-CAST-P/46_20010802.tbf.xml" nodepath="19.0.0.1.1.1.0" sentencenodepath="19">Acostumbrados a <argset><specifier>una</specifier><head>transparencia </head><reference_modifiers>casi total</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">en todo tipo de asuntos</argument></argset>, el consumidor medio está convencido de que las ilegalidades serán controladas y castigadas por las instituciones suecas , pero Ø también tiene la seguridad de que , termine como Ø termine el asunto , Ø no recibirá ningún dinero de vuelta . </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>Poca</specifier><head>transparencia </head></argset>. </example>
+        <example file="CESS-CAST-P/73_20000801.tbf.xml" nodepath="10.3.3.2.1.1.1.3.3.1.1.0.0.0" sentencenodepath="10">Enrico_Letta , ministro de Industria , al conocer la multa , dijo que Ø era " la demostración sobre la situación monstruosa en la que ha desembocado el sector de los seguros , con una semiliberalización sólo sobre los precios y con <argset><specifier>poca</specifier><head>transparencia </head>y competencia por_parte_de de la oferta </argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

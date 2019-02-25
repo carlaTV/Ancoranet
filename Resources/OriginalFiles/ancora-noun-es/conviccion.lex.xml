@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="convicción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="convencer" originlink="verb.convencer.1" wordnetsynset="16:04562849">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="11.0.4.1.1.0" sentencenodepath="11">La firme intervención del primer ministro , Mugur_Isarescu , quien garantizó la solidez de BCR , la estabilidad de las cotizaciones de la moneda nacional , asimismo <argset><specifier>la</specifier><head>convicción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la gente</argument><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de que fueron víctimas de manipulaciones especulativas</argument></argset>, contribuyeron a traer de_nuevo la calma . </example>
+        <example file="3LB-CAST/e2-1.tbf.xml" nodepath="8.3.1.1.3.1.0.0" sentencenodepath="8">Tras fijar el concepto de tribu - utilizado vulgarmente en un sentido acientífico y de modo ambiguo y confuso Malinowski hace dos observaciones que Ø defiende con <argset><head>convicción </head></argset>. </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="0.2.3.1.1.1.3.1.1.1.1.0.1.2.3.2.1.1.1.1.1.0" sentencenodepath="0">El objeto de esta reflexión es defender , por_medio_de la distinción entre autonomía moral y autarquía , una idea regulativa para la ética , entendida ésta con la intención de concreción en que la tomaba Kant , al unir en ella la antropología a la moral o metafísica de las costumbres , o con la que Hegel distinguía la Sittlichkeit_de_la_Moralitat , y Max_Weber la ética de la responsabilidad de la ética de <argset><specifier>la</specifier><head>convicción </head></argset>. </example>
+        <example file="3LB-CAST/t1-2.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Por algo que Ø no sabía explicar , Ø tenía <argset><specifier>la</specifier><head>convicción </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de que la maniobra había sido urdida contra ella por Fermina_Daza , para no premiar su poema</argument></argset>. </example>
+        <example file="3LB-CAST/t6-6.tbf.xml" nodepath="5.0.2.1.2.1.1.1.1.4.1.0.0" sentencenodepath="5">Las chinelas de su madre , sus tobillos siempre al aire sobre los tacones que , según Ø afirmaba con <argset><head>convicción </head></argset>, eran indispensables para parecer arreglada , atractiva incluso , hasta en los peores momentos de la jornada doméstica , le precedían por la estrecha escalera de la azotea , iluminando para él los aterradores tramos que Ø jamás habría sido capaz de coronar solo . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="5.2.1.1.1.2.1.1.2.3.3.1.1.0" sentencenodepath="5">Ha sido Hubert_Védrine , titular de Exteriores , el encargado de intentar encauzar las aguas al puntualizar que la política de Francia en Oriente_Medio " no cambia " y que la reacción de Jospin salió " del corazón y de <argset><specifier>la</specifier><head>convicción </head></argset>" . </example>
+        <example file="CESS-CAST-AA/23030_20000228.tbf.xml" nodepath="21.0.1.1.1.1.1.0.0" sentencenodepath="21">" Más_que un hecho de <argset><head>convicción </head></argset>, sus frases sobre el Hizbulá han aparecido como una maniobra política en el horizonte mediocre de la cohabitación preelectoral " , sentencia el periódico . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="1.0.1.1.1.5.2.1.0.1.0.0" sentencenodepath="1">Pese_a su nacionalismo , que pueblos vecinos de Yugoslavia consideran más peligroso que el de Slobodan_Milosevic , por ser de <argset><head>convicción </head></argset>y no de conveniencia , hoy le llueven las felicitaciones internacionales y las invitaciones a cumbres . </example>
+        <example file="CESS-CAST-AA/8933_20000211.tbf.xml" nodepath="8.3.4.1.0" sentencenodepath="8">Sobre la exhortación de Cardoso a la necesidad de afianzar el régimen democrático en Paraguay , González_Macchi recalcó que Brasil " tiene <argset><specifier>la</specifier><head>convicción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que nuestra democracia será fortalecida , lo que tornará más felices a los habitantes de nuestra tierra</argument></argset>" . </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="7.0.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>convicción </head><reference_modifiers>que le imprimió al Arsenal en el descanso</reference_modifiers></argset>; la forma de cambiar su ubicación en el campo adelantando sus líneas ; la contundencia física en los duelos individuales o la presión ejercida sobre la salida del balón de los defensas del Barça hablaron muy bien de la dirección de Wenger . </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="40.2.1.0.0" sentencenodepath="40">Ø Hacemos por <argset><head>convicción </head></argset>lo que los socialistas hacen por la imposición de cuotas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="convencer" originlink="verb.convencer.1" wordnetsynset="16:04562312">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-AA/5124_20000307.tbf.xml" nodepath="4.0.1.1.1.0" sentencenodepath="4">Tras expresar <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>convicción </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">de que ETA " lo que pretende es introducir el miedo en la sociedad "</argument></argset>, Miguel_Sanz consideró que " la sociedad ha dado un paso definitivo desde la firmeza para consolidar el régimen de libertades y Ø ha perdido el miedo , porque Ø creo que el Espíritu_de_Ermua está muy presente en la mayoría social y le va a ser difícil a ETA eliminarlo de la conciencia de los ciudadanos " . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="convencer" originlink="verb.convencer.2" wordnetsynset="16:04562849">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/t4-0.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>Una</specifier><head>convicción </head><reference_modifiers>axiomática</reference_modifiers></argset>no es lo_mismo que una ambición de perfecciones vitalistas y gozaderas . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="9.2.1.1.0" sentencenodepath="9">La afirmación del titular de Interior obedece a <argset><specifier>la</specifier><head>convicción </head><reference_modifiers>, compartida por José_María_Aznar ,</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de que la organización terrorista ETA no desaparecerá jamás mientras cuente con la complicidad , siquiera por omisión , de un Gobierno vasco controlado por el nacionalismo</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

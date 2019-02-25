@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="cumplimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="cumplir" originlink="verb.cumplir.1" wordnetsynset="16:00061811">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/18733_20000223.tbf.xml" nodepath="14.2.0.2.0.1.1.1.0.0" sentencenodepath="14">Stoller había pedido un año de cárcel y tres dispensados de <argset><head>cumplimiento </head></argset>, así_como privación de derechos cívicos , para los vascofranceses Iker_Elizalde , de 21 años , y Heren_Muruaga , de 24 años , en libertad condicional . </example>
+        <example file="CESS-CAST-AA/8195_20000812.tbf.xml" nodepath="12.2.5.1.1.3.1.1.1.1.0.0" sentencenodepath="12">Un informe del Ministerio_de_Agricultura_,_Pesca_y_Alimentación , señala que " el 97_por_ciento de las frutas y hortalizas españolas presentan niveles de residuos inferiores a los límites vigentes , cifra que nos sitúa en un grado de <argset><head>cumplimiento </head></argset>similar al de Suecia , Finlandia , Estados_Unidos o Canadá " . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="4.2.2.4.1.0.1.1.0.0" sentencenodepath="4">El presidente ofreció perseguir penalmente a los que evaden impuestos , revisar las concesiones privadas para la prestación de servicios básicos como la electricidad , agua y teléfonos , y Ø aseguró que Ø fortalecerá la política fiscal como parte del <argset><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los acuerdos de paz</argument></argset>. </example>
+        <example file="CESS-CAST-P/1_20020901.tbf.xml" nodepath="12.0.1.3.3.1.0.1" sentencenodepath="12">" Se intenta proteger al perjudicado , aunque la efectividad de la medida es de <argset><reference_modifiers>muy difícil</reference_modifiers><head>cumplimiento </head></argset>ya_que Ø depende del acusado . Sólo se puede actuar cuando ya se ha quebrantado la medida " , asegura el abogado penalista Miguel_Capuz . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="cumplir" originlink="verb.cumplir.1" wordnetsynset="16:00729882+16:00694042">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por_parte_de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10477_20001114.tbf.xml" nodepath="7.4.1.4.1.0" sentencenodepath="7">El consejero cita en su carta las diferentes directivas comunitarias sobre medidas de protección de la población para que se exija al Gobierno británico <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>cumplimiento </head></argset>. </example>
+        <example file="CESS-CAST-A/16875_20000321.tbf.xml" nodepath="10.2.2.4.1.1.2.1.2.1.0" sentencenodepath="10">El ministro venezolano rechazó , en una rueda de prensa , que se maneje cualquier problema relacionado con derechos_humanos " en_base_a conveniencias políticas o a relaciones bilaterales " , y Ø aseguró que su país se opondrá a la iniciativa de algunos países de evaluar unilateralmente <argset><specifier>el</specifier><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las normativas de derechos_humanos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8933_20000211.tbf.xml" nodepath="6.3.3.2.1.4.1.1.0" sentencenodepath="6">El Mercado_Común_del_Sur ( MERCOSUR , formado por Argentina , Brasil , Paraguay y Uruguay ) requiere , prosiguió el gobernante paraguayo , " potenciar sus instituciones , establecer aquellas inexistentes , estipular nuevas reglas , más claras y simples , para que Ø sean plenamente respetadas y verificables en <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>cumplimiento </head></argset>" . </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="3.1.2.1.0" sentencenodepath="3">para Méndez la reducción de la jornada laboral a 35 horas semanales , <argset><specifier>el</specifier><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la Ley_de_Prevención_de_Riesgos_Laborales</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por_parte_de los empresarios</argument></argset>y " mejorar los mecanismos de coordinación entre las administraciones autonómicas y el Gobierno " son fines prioritarios para tratar en esta negociación . </example>
+        <example file="CESS-CAST-P/113_19990501_a.tbf.xml" nodepath="11.3.1.0" sentencenodepath="11">Ø Pedirán a los patronos <argset><specifier>el</specifier><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los acuerdos firmados , como el de estabilidad en el empleo o el de los convenios colectivos</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="12.2.0.4.1.0" sentencenodepath="12">Aun_cuando estaba programado que esta medida fuera obligatoria a_partir_de 1_de_enero_del_2001 , transcurrido el período transitorio de adaptación , la dificultad de su puesta_en_práctica - - denunciada tanto por las centrales sindicales como por la patronal - - ha llevado a reconsiderar la postura del legislador , concediendo una moratoria hasta el 26_de_noviembre_del_año_2002 , sin que ello suponga un cambio del criterio sostenido ; o_sea , que se atrasa <argset><specifier>el</specifier><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la obligación</argument></argset>, pero no ésta desaparece . </example>
+        <example file="CESS-CAST-P/93_20010602.tbf.xml" nodepath="10.5.2.1.0.2.0.0" sentencenodepath="10">CCOO mantiene convocada una nueva jornada de huelga para el próximo_martes_,_5_de_junio , para exigir , además_del <argset><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los pactos antes mencionados</argument></argset>, un plus salarial y la reincorporación a su puesto de una encargada . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="cumplir" originlink="verb.cumplir.1" wordnetsynset="16:00729882">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a1-4.tbf.xml" nodepath="15.2.3.1.2.1.1.0.3.0.0" sentencenodepath="15">Ø Trabajamos y Germán_de_Granda , desde su aparente exabrupto , es un buen modelo de lo que Ø llamamos <argset><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del deber</argument></argset>, con una fórmula muy olvidada por estos pagos . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="12.2.1.2.3.4.4.1.1.1.0" sentencenodepath="12">" México está en_desacuerdo_con que las inversiones " puedan escaparse " no por razones laborales o medioambientales , sino por razones de competencia " , argumentó la responsable diplomática , que añadió que eso no significa que su país no está comprometido con <argset><specifier>el</specifier><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las reglas laborales o de respeto del medio_ambiente</argument></argset>. </example>
+        <example file="CESS-CAST-AA/22163_20000527.tbf.xml" nodepath="3.0.4.1.0.0" sentencenodepath="3">Bolivia pidió a Chile el desentierro de las minas , calculadas en más de medio millón en la frontera , en <argset><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los acuerdos internacionales</argument></argset>, pero la última respuesta del Gobierno de Santiago fue que Ø no tenían los recursos necesarios para realizar esa tarea . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="1.2.5.2.1.1.1.0.0" sentencenodepath="1">El presidente de la Comisión y delegado del Gobierno andaluz en Málaga , Luciano_Alonso , afirmó que " no ha sido posible " aprobar el expediente de <argset><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del PGOU</argument></argset>" porque no Ø se ha querido por_parte_del Ayuntamiento_de_Marbella " . </example>
+        <example file="CESS-CAST-AA/3865_20000204.tbf.xml" nodepath="17.3.1.0.2.3.4.1.1.0" sentencenodepath="17">" Ø He dado mi palabra , puede que usted lo considere pasado de moda pero yo la voy a cumplir " , dijo Kohl al periodista de la ARD que le preguntaba si no le parecía que <argset><specifier>el</specifier><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ley</argument></argset>era más importante que la palabra de honor . </example>
+        <example file="CESS-CAST-AA/4239_20000706.tbf.xml" nodepath="0.0.3.1.0.0" sentencenodepath="0">Un total de 134 bienes de Jorge_Eliécer_Rodríguez_Orejuela , hermano menor de los jefes del desarticulado cartel de la cocaína de Cali , fueron ocupados por las autoridades de Colombia en <argset><head>cumplimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de órdenes de confiscación definitiva</argument></argset>, informaron hoy fuentes judiciales . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

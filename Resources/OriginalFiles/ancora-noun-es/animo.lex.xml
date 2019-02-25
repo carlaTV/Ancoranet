@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ánimo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="animar" originlink="verb.animar.1" wordnetsynset="16:10075224">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="efi">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/c4-2.tbf.xml" nodepath="5.0.6.1.0.1.1.0.0" sentencenodepath="5">Su disposición constante a hacer el bien , su pajolero empeño en cumplir todo tipo de normas y deberes , su respeto a la ley moral , su integridad de <argset><head>ánimo </head></argset>y recto proceder , hacen del virtuoso un lobo para el hombre . </example>
+        <example file="3LB-CAST/d2-8.tbf.xml" nodepath="2.0.1.1.1.1.0.0" sentencenodepath="2">En su estado de <argset><head>ánimo </head></argset>, además_de cansancio físico , se van acumulando otros tipos de " fatigas " , como son la separación prolongada de su familia . </example>
+        <example file="3LB-CAST/dc10-3.tbf.xml" nodepath="4.2.4.1.1.1.1.0.0" sentencenodepath="4">Un grupo de investigadores británicos ha llegado a asegurar que los virus se aprovechan de los estados de <argset><head>ánimo </head></argset>de los individuos . </example>
+        <example file="3LB-CAST/t5-1.tbf.xml" nodepath="2.3.1.1.1.3.1.0" sentencenodepath="2">Doña_MPG se halló ante un hecho que no pudo por_menos_que conmover <argset><argument argument="arg0" thematicrole="cau" type="spec">su</argument><head>ánimo </head></argset>. </example>
+        <example file="CESS-CAST-A/16182_20001121.tbf.xml" nodepath="0.2.3.1.1.0.1.1.0" sentencenodepath="0">El entrenador del FC_Barcelona , el mallorquín Llorenc_Serra_Ferrer , ha realizado hoy un ejercicio de distracción respecto_a la situación por la que atraviesa la parcela deportiva del club barcelonista y Ø se ha limitado a asegurar que <argset><specifier>los</specifier><head>ánimos </head></argset>están bien en el vestuario y que éste está muy unido . </example>
+        <example file="CESS-CAST-A/16182_20001121.tbf.xml" nodepath="5.0.5.2.3.1.0" sentencenodepath="5">En el seno de la directiva barcelonista se ha reemplazado el silencio por el diálogo y las apariciones públicas , con_el_propósito_de no resquebrajar aún más <argset><specifier>el</specifier><head>ánimo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del barcelonismo</argument></argset>, pero ello no ha escondido , a_tenor_de las críticas que se recogen en los medios , que existe un manifiesto desencanto por el futuro que pueda correr el Barcelona esta temporada , tras una planificación que no ha sido del_todo aplaudida por la masa social . </example>
+        <example file="CESS-CAST-A/16182_20001121.tbf.xml" nodepath="7.2.4.1.1.0" sentencenodepath="7">El técnico barcelonista ha asegurado que sus jugadores viajarán a Bélgica con <argset><specifier>el</specifier><head>ánimo </head><argument argument="arg2" function="cn" thematicrole="efi" type="sp">de " revancha "</argument></argset>, después de haber quedado apeados de la Liga_de_Campeones . </example>
+        <example file="CESS-CAST-AA/4842_20000606.tbf.xml" nodepath="2.5.0.1.1.0.1.1.0.0" sentencenodepath="2">" Nadie debe concebir otra posibilidad , para Aragón y para España , que no sea la de una Teruel dinámica y pujante " , afirmó Ø hoy en el ayuntamiento de la capital turolense dentro del mensaje de <argset><head>ánimo </head></argset>que Ø dirigió a los habitantes de esta provincia . </example>
+        <example file="CESS-CAST-P/134_19981101.tbf.xml" nodepath="22.2.2.1.1.0.0" sentencenodepath="22">La sala está llena y muchos músicos ( Max_Sunyer , Joan_Santmartí y Jordi_Gaspart , entre otros ) van a darle <argset><head>ánimos </head></argset>. </example>
+        <example file="CESS-CAST-P/134_19981101.tbf.xml" nodepath="33.0.0.0" sentencenodepath="33"><argset><head>Animos </head></argset>. </example>
+        <example file="CESS-CAST-P/135_19981201_d.tbf.xml" nodepath="1.2.4.1.2.3.1.1.0" sentencenodepath="1">El prestigioso compositor norteamericano considera que " se está creando una audiencia nueva que viene a la ópera con <argset><specifier>el</specifier><head>ánimo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de ver algo diferente</argument></argset>" . </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="5.1.1.0" sentencenodepath="5">Pero <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>ánimo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de modernizar la FIFA , en un primer periodo de cuatro años ,</argument></argset>chocó imprevisiblemente con un rosario de conflictos que han llegado incluso a poner_en_cuestión su honorabilidad . </example>
+        <example file="CESS-CAST-P/159_20011002.tbf.xml" nodepath="10.0.3.1.1.1.0.0" sentencenodepath="10">La Federación_Española_de_Fútbol le envió un telegrama de <argset><head>ánimo </head></argset>y el seleccionador español , José_Antonio_Camacho , llamó a la familia del jugador para interesarse por él . </example>
+        <example file="CESS-CAST-P/38_20020502.tbf.xml" nodepath="1.0.1.0.1.2.1.0" sentencenodepath="1">En Belén , donde <argset><specifier>los</specifier><head>ánimos </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los habitantes</argument></argset>están extremadamente crispados por el asedio de la basílica de la Natividad , se registraron varios incidentes . </example>
+        <example file="CESS-CAST-P/51_20000402.tbf.xml" nodepath="4.4.3.1.1.0" sentencenodepath="4">Según fuentes democristianas , Duran_Lleida atribuyó la filtración del caso " a la miseria humana , el odio y a <argset><specifier>un</specifier><head>ánimo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de venganza</argument></argset>" . </example>
+        <example file="CESS-CAST-P/85_20000401.tbf.xml" nodepath="10.0.1.0" sentencenodepath="10"><argset><specifier>Los</specifier><head>ánimos </head></argset>se calmaron cuando cruzó la puerta de embarque número 24 una patrulla con cinco guardias_civiles que con su sola presencia apaciguó a las masas . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/23978_20000629.tbf.xml" nodepath="4.2.2.1.0" sentencenodepath="4">El circuito de Magny-Cours , que cuenta con la curva más larga del mundial , una de las más lentas y la más difícil para entrar en meta , que no gusta a casi ningún piloto , favorece las aspiraciones de Ferrari y Ø enfría <argset><specifier>los</specifier><head>ánimos </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de McLaren , que no ha logrado la victoria en este trazado desde que en 1991 sustituyó al de Paul_Ricard</argument></argset>. </example>
+        <example file="CESS-CAST-P/74_20000903.tbf.xml" nodepath="13.0.1.0.1.1.0" sentencenodepath="13">" En <argset><argument argument="arg1" thematicrole="tem" type="spec">mi</argument><head>ánimo </head></argset>jamás estuvo criticar , sino motivar para que la gente acuda al terreno de juego " , añadió el técnico . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="animar" originlink="verb.animar.1" wordnetsynset="16:03648811">
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="11.3.2.0.3.1.1.0" sentencenodepath="11">Puede incluso llegar a darse el caso de que sea más ventajoso económicamente proceder a la extinción de los contratos de trabajo de trabajadores con una determinada antigüedad que capitalizar el dinero para la obtención de dicha cantidad , lo cual no está en <argset><specifier>el</specifier><head>ánimo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del legislador</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="sin_ánimo_de" cousin="no" denotation="none" id="3" lexicalizationtype="adverbial" lexicalized="yes" originlemma="animar" originlink="verb.animar.1" wordnetsynset="16:03648811+16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argL">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc10-7.tbf.xml" nodepath="1.3.1.2.3.1.1.4.2.1.0.0" sentencenodepath="1">Se establecieron también tres tipos de duelo : los decretorios o a_muerte , los propugnatorios o a_primera_sangre , en los que se combatía para lavar el honor pero sin <argset><head>ánimo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de matar</argument></argset>y los satisfactorios , en los que se estaba dispuesto a desistir del enfrentamiento en cualquier momento si el ofensor prestaba la debida satisfacción . </example>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="1.0.0.1.1.3.1.1.2.0.1.0.0" sentencenodepath="1">El galardón , concedido cada año por esa institución privada sin <argset><head>ánimo </head><argument argument="argL" function="cn" type="sp">de lucro</argument></argset>y dedicada a la difusión de la cultura hispánica , fue entregada por el presidente del Spanish_Institute , Fernando_Abreu , y el príncipe Pablo_de_Grecia , primo de don Felipe actuó como maestro de ceremonias . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

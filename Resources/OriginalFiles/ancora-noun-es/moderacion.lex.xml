@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="moderación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="moderar" originlink="verb.moderar.1" wordnetsynset="16:03825241">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a15-1.tbf.xml" nodepath="8.1.0.1.0.0" sentencenodepath="8">Pero con <argset><head>moderación </head></argset>Ø protege los intestinos y por eso dejar de fumar puede ser también perjudicial . </example>
+        <example file="CESS-CAST-A/11714_20000314.tbf.xml" nodepath="5.3.1.3.1.1.2.2.1.1.2.2.1.1.1.0" sentencenodepath="5">A juicio de Alberto_Fernández , el " debate real " en Cataluña está en si CiU afronta la legislatura " predeterminada por una aproximación a ERC y a planteamientos independentistas o_bien por los planteamientos de un PP que están construidos desde <argset><specifier>la</specifier><head>moderación </head></argset>" . </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="12.2.1.0" sentencenodepath="12">Sólo rompía <argset><specifier>esa</specifier><head>moderación </head><reference_modifiers>generalizada</reference_modifiers></argset>Johan_Bruyneel , excorredor del ONCE y director deportivo de Lance_Armstrong . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="4.4.3.1.0.0.0" sentencenodepath="4">- - CiU puede elegir , no entre PP y ERC , sino entre <argset><head>moderación </head>y radicalidad </argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="12.3.1.4.1.1.0" sentencenodepath="12">Con carácter previo , Ø queremos conseguir que Catalunya se gobierne desde <argset><specifier>la</specifier><head>moderación </head></argset>, poniendo el acento en cuestiones sociales y económicas . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="16.2.3.1.0.1.0" sentencenodepath="16">Ø Sabe que el futuro de Catalunya está en <argset><specifier>la</specifier><head>moderación </head></argset>y la colaboración entre la Generalitat y el Gobierno de España . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="39.2.0.1.0" sentencenodepath="39">La apuesta social permitirá atraer a estos sectores , y <argset><specifier>la</specifier><head>moderación </head></argset>, a aquellos sectores cansados del discurso nacionalista . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

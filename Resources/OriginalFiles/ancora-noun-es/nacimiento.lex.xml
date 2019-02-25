@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="nacimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="nacer" originlink="verb.nacer.1" wordnetsynset="16:10867147">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a22-0.tbf.xml" nodepath="1.3.0.0" sentencenodepath="1">Al terminar la Navidad pasada , una tienda de belenes ofreció <argset><head>nacimientos </head></argset>a precio de quema . </example>
+        <example file="3LB-CAST/a22-1.tbf.xml" nodepath="6.3.2.1.1.1.0" sentencenodepath="6">Y ahora , María_Angélica , tire al cubo de la basura uno de los dos Jesuses y dedíquense Ø a montar <argset><specifier>el</specifier><head>nacimiento </head></argset>. </example>
+        <example file="3LB-CAST/dc1-6.tbf.xml" nodepath="2.0.1.1.1.1.0.0" sentencenodepath="2">En el momento del <argset><head>nacimiento </head></argset>, cada gemelo pesa ya una décima parte del peso de su madre , tanto como si una mujer diera_a_luz bebés de 6 kilos . </example>
+        <example file="CESS-CAST-AA/20551_20000128.tbf.xml" nodepath="2.2.1.1.1.1.1.1.2.1.3.0.0.1.0.0" sentencenodepath="2">Entre las iniciativas aprobadas destaca la subida de un 34,4_por_ciento de las prestaciones anuales por hijo a_cargo_de la Seguridad_Social , así_como dos nuevas prestaciones familiares por <argset><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de hijo</argument></argset>, a_partir_del tercero , y por parto múltiple . </example>
+        <example file="CESS-CAST-P/142_20010302.tbf.xml" nodepath="7.3.1.1.1.0.0" sentencenodepath="7">Al_parecer , Toledo pudo presentar una partida de <argset><head>nacimiento </head></argset>irregular para obtener el carnet de identidad español . </example>
+        <example file="CESS-CAST-P/14_20000903.tbf.xml" nodepath="6.2.0.1.1.0.1.4.1.1.1.0.0.0" sentencenodepath="6">Ø Son palabras de Icíar_Bollaín , que , sin_embargo , es una urbanita de <argset><head>nacimiento </head>y educación </argset>. </example>
+        <example file="CESS-CAST-P/69_20000102.tbf.xml" nodepath="10.3.0.0" sentencenodepath="10">Los médicos de Cabueñes , que pensaban mantener el embarazo hasta la semana 32 , ya habían logrado <argset><head>nacimientos </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de fetos de sólo 26 semanas</argument></argset>. </example>
+        <example file="CESS-CAST-P/69_20010201_b.tbf.xml" nodepath="1.2.1.0.0" sentencenodepath="1">La integración del Gabinete_Gimeno_Asociados en el despacho de Echevarría-Casanovas-Matosas ha dado_lugar al <argset><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Laudis_Consultor_(_Abogados_y_Economistas_)</argument></argset>. </example>
+        <example file="CESS-CAST-P/75_19990901.tbf.xml" nodepath="5.4.2.1.1.1.1.1.0" sentencenodepath="5">El secretario general de la patronal , Miguel_Angel_Fraile , reclamó también la revisión de la ley de equipamientos comerciales de la Generalitat , normativa que gestiona y limita la oferta comercial en Catalunya , como_consecuencia_de los cambios provocados por <argset><specifier>el</specifier><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del gigante francés</argument></argset>. </example>
+        <example file="CESS-CAST-P/81_19991101.tbf.xml" nodepath="1.4.1.1.1.2.1.0.1.2.2.1.0.0" sentencenodepath="1">Tras regresar al estilo de su primera película como director con La_trama , que era una revisión del tema de los timos , engaños y juegos de espejos de Casa_de_juegos , David_Mamet opta con El_caso_Winslow por otro retorno , en este caso al teatro , su primer lugar de <argset><head>nacimiento </head><reference_modifiers>artístico</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="3.4.1.2.1.1.1.1.0.0" sentencenodepath="3">El presidente de la compañía , Claude_Darmon , anunció ayer a los representantes sindicales el recorte laboral a los ocho meses del <argset><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del grupo</argument></argset>fruto de la fusión de las actividades productivas de la sociedad helvético-sueca Asea_Brown_Boveri ( ABB ) y de la firma franco-británica Alstom en julio_de_1999 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="nacer" originlink="verb.nacer.1" wordnetsynset="16:05456618">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/d2-8.tbf.xml" nodepath="10.3.1.2.2.3.1.1.1.3.3.1.1.0" sentencenodepath="10">Rominger , aunque se le vea como a un robot intratable en la carrera , es un ser humano que está luchando en el plano profesional y que se ve privado de lo más bonito para un padre : estar al lado de su mujer en <argset><specifier>el</specifier><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su hijo</argument></argset>. </example>
+        <example file="3LB-CAST/r2-1.tbf.xml" nodepath="12.0.1.1.0" sentencenodepath="12">Tras <argset><specifier>el</specifier><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su hija</argument></argset>, Ø tuvo que someterse a una operación que le impidió ser madre de_nuevo , por lo que Ø ha adoptado un niño , Noé . </example>
+        <example file="CESS-CAST-AA/6536_20001009.tbf.xml" nodepath="3.4.1.1.1.1.0.1.3.1.1.1.1.1.1.1.1.1.1.0" sentencenodepath="3">En el acto de firma fue seguido , ya en el salón de actos , por el discurso de Castelo , que manifestó su satisfacción por el hecho de que por primera vez desde <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>nacimiento </head><argument argument="argM" function="cn" thematicrole="tmp" type="sn">hace 20 años</argument></argset>, la Academia_de_las_Letras_y_de_las_Artes extremeña disponga de una sede fija donde trabajar y Ø deje de ser una entidad " errante , derramada por los pueblos " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="nacer" originlink="verb.nacer.1" wordnetsynset="16:10867147+16:05456618">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="12" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a27-0.tbf.xml" nodepath="16.0.1.0.0" sentencenodepath="16">Amén_del <argset><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Infante_Don_Felipe_de_Borbón_y_Grecia , que pesó al nacer 4.300 gramos y fue un acontecimiento social , pues consiguió reunir a toda la familia real española en Madrid - incluida la reina Victoria_Eugenia , que fue la madrina y no había pisado tierra española desde el día que abandonó el país camino del exilio - ,</argument></argset>quizá lo más significativo , lo que puede darnos idea de cómo eran las cosas por_aquel_entonces , es una anécdota que circuló como la pólvora y que tuvo_lugar en la villa de Santos_de_Maimona , donde el alcalde de la localidad sorprendió a propios y extraños con un bando sobre la moral pública y las buenas costumbres , con el que Ø dicen Ø pretendía hacer_frente a los ardores de aquel caluroso verano . </example>
+        <example file="3LB-CAST/a4-0.tbf.xml" nodepath="2.4.1.0.2.1.1.0.2.1.0" sentencenodepath="2">Pero Claves llega a la opinión pública española en circunstancias evocadoras de las que arroparon <argset><specifier>el</specifier><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Cuadernos</argument></argset>. </example>
+        <example file="3LB-CAST/d2-1.tbf.xml" nodepath="3.3.2.1.1.0" sentencenodepath="3">A_lo_mejor Tony estaba aún conmovido por <argset><specifier>el</specifier><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su segundo hijo , al que ha llamado Robin</argument></argset>. </example>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="4.4.1.1.2.3.1.1.0" sentencenodepath="4">Desde Bruselas , los Reyes_de_España y Paola_de_Bélgica se trasladaron a la capital de la región de Flandes , que celebra especialmente <argset><specifier>el</specifier><head>nacimiento </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, en 1500 ,</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del entonces príncipe Carlos , quien se habría de convertir en Rey_de_España y emperador del Sacro_Imperio_Romano</argument></argset>. </example>
+        <example file="CESS-CAST-A/14709_20000419.tbf.xml" nodepath="1.0.5.1.0.1.1.1.1.0.0" sentencenodepath="1">La corona no había caído tanto frente al dólar desde 1993 , fecha del <argset><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la República_Checa</argument></argset>, y la tendencia es a la baja , según el experto del Banco_Comercial ( KB ) Jan_Vejmelek . </example>
+        <example file="CESS-CAST-A/18375_20000922.tbf.xml" nodepath="0.4.1.0" sentencenodepath="0">La Bolsa_de_París acogió hoy con champán , pero también con una importante caída <argset><specifier>el</specifier><head>nacimiento </head><reference_modifiers>jurídico</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Euronext , fruto de su fusión con las plazas financieras de Amsterdam y Bruselas</argument></argset>. </example>
+        <example file="CESS-CAST-A/18375_20000922.tbf.xml" nodepath="3.0.1.1.1.1.0" sentencenodepath="3">El brindis por <argset><specifier>el</specifier><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la primera Bolsa parcialmente paneuropea</argument></argset>fue transmitido en_diferido a Amsterdam , donde se desarrolló la ceremonia de nacimiento oficial de Euronext , y a Bruselas . </example>
+        <example file="CESS-CAST-A/18375_20000922.tbf.xml" nodepath="3.3.0.1.0.1.4.1.1.1.0.0" sentencenodepath="3">El brindis por el nacimiento de la primera Bolsa parcialmente paneuropea fue transmitido en_diferido a Amsterdam , donde se desarrolló la ceremonia de <argset><head>nacimiento </head><reference_modifiers>oficial</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Euronext</argument></argset>, y a Bruselas . </example>
+        <example file="CESS-CAST-P/10_20020102.tbf.xml" nodepath="2.3.2.1.0" sentencenodepath="2">El Ejecutivo portugués quería también saludar de esta forma <argset><specifier>el</specifier><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de una generación euro</argument></argset>. </example>
+        <example file="CESS-CAST-P/122_20010502.tbf.xml" nodepath="0.4.1.2.1.1.2.4.1.0.1.1.0.0" sentencenodepath="0">La_Fundació_La_Mirada , entidad difusora la obra de Joan_Oliver , Pere_Quart ( 1899-1986 ) , y de la Colla_de_Sabadell - - que Oliver lideró junto_a Francesc_Trabal y Armand_Obiols - - , sacará a la luz este verano un libro conmemorativo de la exposición La_Colla_de_Sabadell_,_entre_el_noucentisme_i_l'avantguarda , organizada en el mes_de_noviembre_de_1999 en el Casal_Pere_Quart_de_Sabadell con_motivo_del centenario del <argset><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Oliver y Trabal</argument></argset>. </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="36.2.1.2.1.2.4.1.0.0" sentencenodepath="36">Valero_Rivera prescindió de Mateo_Garralda durante la pretemporada y ayer , en el primer partido en el que Iñaki_Urdangarín no pudo jugar a_causa_del <argset><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su hijo</argument></argset>, el bloque azulgrana se resintió en el lateral derecho ante la ausencia de un zurdo con experiencia . </example>
+        <example file="CESS-CAST-P/175_20000702.tbf.xml" nodepath="0.2.1.2.2.0.1.1.1.0" sentencenodepath="0">Numerosos han sido los homenajes a Luis_Buñuel con motivodel centenario de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>nacimiento </head></argset>. </example>
+        <example file="CESS-CAST-P/20_20000201_a.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">La Unión_Europea encara la peor y más delicada crisis desde <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>nacimiento </head></argset>con la posible llegada al poder del ultraderechista Haider en Austria . </example>
+        <example file="CESS-CAST-P/87_20000202.tbf.xml" nodepath="0.4.0.1.1.2.1.1.1.1.1.0.0" sentencenodepath="0">El legado del prolífico escritor Ferran_Canyameres ( Terrassa , 1898 - Barcelona , 1964 ) a Terrassa se amplió ayer , convenio firmado entre el concejal de Cultura , Pere_Navarro , la hija del autor , Montserrat_Canyameres , y el filólogo Gustau_Erill , autor de la biografía ganadora del concurso de Omnium_Cultural para conmemorar el centenario del <argset><head>nacimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del autor</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="conversación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="conversar" originlink="verb.conversar.1" wordnetsynset="16:05339187+16:05259291">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+        <constituent frequency="7" preposition="entre" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="8" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="6" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="3" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="23" postype="article" type="determiner"/>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="13" type="void"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="9" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">Gonzalo_Sánchez_de_Lozada , por su lado , dijo que <argset><specifier>la</specifier><head>conversación </head><reference_modifiers>" franca , abierta y constructiva "</reference_modifiers></argset>permitió transmitir " ciertos temas que son de vital importancia " y en los cuales su partido quiere contribuir a su solución sin ser parte del Ejecutivo . </example>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="6.2.3.0.2.2.0.2.0" sentencenodepath="6">Ø Confesó que Ø ha atendido asuntos internacionales , como <argset>" <specifier>una</specifier>
+            <head>conversación </head>
+            <argument argument="argM" function="cn" thematicrole="adv" type="sp">con el secretario general de la Organización_de_Estados_Americanos ( OEA ) , César_Gaviria</argument>
+            <reference_modifiers>evaluando la pretensión de EEUU de sancionar a Perú por el triunfo de Alberto_Fujimori , que nosotros combatimos</reference_modifiers>" , </argset>y también con el conflicto planteado con Guayana , que produjo una protesta de la Cancillería_de_Caracas por la instalación de una base espacial en un territorio reclamado por Venezuela . </example>
+        <example file="3LB-CAST/a20-1.tbf.xml" nodepath="3.0.2.1.1.1.0.2.2.1.0" sentencenodepath="3">Ø Tiene más casta de lo que indica su tensión baja y <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>conversación </head><reference_modifiers>irónica</reference_modifiers></argset>, al_fin_y_al_cabo , si Ø no nació en un bombardeo , Ø sí creció en el de Londres , cuando su papá era medio espía inglés y la reina de Inglaterra jugaba con ella a las enfermeras y los aviadores de la RAF . </example>
+        <example file="3LB-CAST/dc2-5.tbf.xml" nodepath="9.1.1.2.1.1.1.0" sentencenodepath="9">En 1972 , el clima de distensión creado por <argset><specifier>las</specifier><head>conversaciones </head><reference_modifiers>de desarme SALT</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre Estados_Unidos y la Unión_Soviética</argument></argset>favoreció la firma de un nuevo acuerdo internacional para la prohibición del desarrollo , producción y almacenamiento de armas biológicas . </example>
+        <example file="3LB-CAST/r2-6.tbf.xml" nodepath="5.0.4.6.0.1.1.1.1" sentencenodepath="5">Corcuera se ha negado a precisar la categoría con que Ø regresa , - ya_que - según Ø dijo - Ø estoy pendiente de <argset><specifier>una</specifier><reference_modifiers>última</reference_modifiers><head>conversación </head></argset>- , pero Tiempo ha podido saber que es casi seguro que su puesto sea como en su última etapa , de los llamados de fuera_de convenio y donde los sueldos brutos oscilan entre las 200.000 pesetas que puede cobrar un gestor de ventas y las 800.000 de un director general . </example>
+        <example file="3LB-CAST/r2-7.tbf.xml" nodepath="5.3.1.1.1.0.0" sentencenodepath="5">La crisis política y las elecciones son , según los amigos de Corcuera , sus temas de <argset><head>conversación </head></argset>, mientras su situación personal no parece preocuparle mucho . </example>
+        <example file="3LB-CAST/t1-4.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>Las</specifier><head>conversaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con la prima Hildebranda</argument></argset>acabaron de confundirla . </example>
+        <example file="CESS-CAST-A/11977_20000215.tbf.xml" nodepath="13.3.2.1.1.0" sentencenodepath="13">En ese sentido , Rato afirmó que " de <argset><specifier>las</specifier><head>conversaciones </head><reference_modifiers>que nosotros conocemos , que se han podido realizar entre empresas en España , y algunas incluso con el propio señor González ,</reference_modifiers></argset>Ø sabemos todos los detalles " . </example>
+        <example file="CESS-CAST-A/17704_20000522.tbf.xml" nodepath="5.1.1.1.0" sentencenodepath="5">Según fuentes próximas al Ministerio_de_Defensa , durante <argset><specifier>las</specifier><head>conversaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre las dos delegaciones</argument></argset>el general Nyanda se interesó especialmente sobre la situación en las fronteras de Angola con Namibia y Zambia , donde en los últimos meses las fuerzas de la UNITA protagonizaron violentos incidentes armados . </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="9.0.2.1.1.0" sentencenodepath="9">Ambos ministros dijeron que <argset><specifier>la</specifier><head>conversación </head></argset>fue " muy franca " , y Pérez_Roque pareció dar a entender una solución de principio al asegurar que la reunión fue " útil para Cuba " . </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="10.3.4.1.1.1" sentencenodepath="10">Ivanov también afirmó que Ø estaba " muy satisfecho " tras <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>" provechosa "</reference_modifiers><head>conversación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con Pérez_Roque</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19378_20001024.tbf.xml" nodepath="2.1.1.0" sentencenodepath="2">Según señaló a Efe Iker_Echevarría , alumno de quinto curso , <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>conversación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con el Príncipe , que se interesó por sus estudios ,</argument></argset>se desarrolló en un ambiente sumamente distendido , con mucha participación y muchas preguntas por_parte_de los estudiantes . </example>
+        <example file="CESS-CAST-AA/20450_20000325.tbf.xml" nodepath="1.4.1.1.0" sentencenodepath="1">El pleno empleo estuvo también en_candelero en <argset><specifier>las</specifier><head>conversaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Aznar</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con los interlocutores sociales : CEOE y sindicatos</argument><reference_modifiers>, que se plasmaron en sendas reuniones esta semana con Antonio_Gutiérrez y Cándido_Méndez , y se cerrarán el Lunes con un encuentro con José_María_Cuevas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="1.4.0.1.2.0.1.2.0.1.1.1.0" sentencenodepath="1">La comisión , presidida por el diputado italiano Antonio_Di_Pietro , se entrevistó hoy con el presidente de Venezuela , Hugo_Chávez , sin que trascendiera nada de <argset><specifier>la</specifier><head>conversación </head></argset>, y con el ministro de Relaciones_Exteriores , José_Vicente_Rangel . </example>
+        <example file="CESS-CAST-AA/23700_20000229.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>Las</specifier><head>conversaciones </head></argset>se producen una semana después de que Chávez asistiera en la capital española al Foro_de_Madrid , donde se dieron cita representantes de 30 países y 30 organismos multilaterales financieros para ver la forma de ayudar a la reconstrucción planificada de Venezuela . </example>
+        <example file="CESS-CAST-AA/24886_20000330.tbf.xml" nodepath="5.3.7.2.1.0.3.0.0" sentencenodepath="5">Ø Indica asimismo que en repetidas ocasiones Sabariz le manifestó al presidente de la FGB su intención de dejar el cargo debido_a las múltiples ocupaciones , por lo que se iniciaron <argset><head>conversaciones </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">con diferentes personas</argument></argset>para que , una_vez_que concluya la presente temporada , Ø se pudieran hacer_cargo del colectivo arbitral . </example>
+        <example file="CESS-CAST-AA/4361_20000109.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>Las</specifier><head>conversaciones </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">de paz</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre sirios e israelíes</argument></argset>se reanudarán de manera formal mañana , domingo , en Shepherdstown ( Virginia_Occidental , EEUU ) , se anunció hoy . </example>
+        <example file="CESS-CAST-AA/4361_20000109.tbf.xml" nodepath="5.0.0.1.0" sentencenodepath="5"><argset><specifier>Las</specifier><head>conversaciones </head></argset>se encuentran estancadas desde el jueves , pero ahora ambas partes deben analizar un documento de trabajo presentado por el presidente de EEUU , Bill_Clinton , en el que se pretende identificar los acuerdos y desacuerdos entre Siria e Israel . </example>
+        <example file="CESS-CAST-AA/4361_20000109.tbf.xml" nodepath="10.0.0.1.0" sentencenodepath="10"><argset><specifier>Las</specifier><head>conversaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre sirios e israelíes</argument></argset>se iniciaron el pasado lunes en Shepherdstown y Ø suponen el primer encuentro a alto nivel entre ambos países desde hace casi cuatro años . </example>
+        <example file="CESS-CAST-AA/5522_20000307.tbf.xml" nodepath="1.0.4.1.1.0" sentencenodepath="1">" El carnaval de Sao_Paulo es feo , muy feo " , dijo hoy el alcalde de Río_de_Janeiro , Luis_Paulo_Conde , en <argset><specifier>una</specifier><head>conversación </head><reference_modifiers>informal</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">con periodistas cariocas</argument></argset>, y Ø encendió la polémica . </example>
+        <example file="CESS-CAST-AA/8484_20000210.tbf.xml" nodepath="2.0.1.0.2.1.1" sentencenodepath="2">" Ø Tuve <argset><specifier>una</specifier><reference_modifiers>breve</reference_modifiers><head>conversación </head></argset>con Brian y Ø le expliqué que mi intención es llevar a la Eurocopa el mejor equipo posible . Brian se mostró feliz por mi llamada , pero Ø dejó claro que Ø no ha cambiado su forma de pensar respecto_a la selección " , indicó Johansson . </example>
+        <example file="CESS-CAST-AA/8934_20000912.tbf.xml" nodepath="0.2.1.0.1" sentencenodepath="0">El gigante bancario estadounidense Chase_Manhattan_Bank está en <argset><reference_modifiers>" serias "</reference_modifiers><head>conversaciones </head></argset>para comprar la firma de inversiones JP_Morgan , según informa hoy el periódico The_New_York_Times en su edición electrónica . </example>
+        <example file="CESS-CAST-AA/8934_20000912.tbf.xml" nodepath="7.2.1.0" sentencenodepath="7">Sin_embargo , según The_New_York_Times <argset><specifier>las</specifier><head>conversaciones </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">con el banco alemán</argument></argset>habrían finalizado . </example>
+        <example file="CESS-CAST-AA/9294_20000512.tbf.xml" nodepath="9.0.3.4.1.1.1.1.0.0" sentencenodepath="9">" Sería interesante , ya_que el presidente del Gobierno , José_María_Aznar , tomó la responsabilidad de iniciar <argset><head>conversaciones </head></argset>con los agentes sociales para impulsar el diálogo social en esta etapa que Ø siga en esta línea y Ø se responsabilice directamente " , precisó Ø . </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="17.4.1.1.0" sentencenodepath="17">" Ø No me tenía que explicar nada . Simplemente Ø no cuadro en su proyecto del Barça . Está claro que Ø no son cosas agradables ni por su parte ni por la_mía " , señaló el exjugador barcelonista sobre <argset><specifier>la</specifier><head>conversación </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">con el entrenador</argument></argset>. </example>
+        <example file="CESS-CAST-P/111_20010702.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">El sindicato de intérpretes y los representantes de las majors de Hollywood prosiguen <argset><specifier>las</specifier><head>conversaciones </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para alcanzar un acuerdo que permita firmar el nuevo convenio de los actores</argument></argset>. </example>
+        <example file="CESS-CAST-P/125_19990501.tbf.xml" nodepath="18.5.2.0.1" sentencenodepath="18">Mientras , los teléfonos de los brasileños no han dejado de sonar estos días , con <argset><reference_modifiers>largas</reference_modifiers><head>conversaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre Djalminha , Donato , Flávio y Mauro_Silva , por un lado , y Rivaldo y Anderson por otro</argument></argset>. </example>
+        <example file="CESS-CAST-P/135_19981201_a.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>La</specifier><head>conversación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre ambos</argument></argset>descubre una vida oculta . </example>
+        <example file="CESS-CAST-P/182_20010701.tbf.xml" nodepath="1.0.1.1.0.0.1" sentencenodepath="1">Después de <argset><reference_modifiers>largas</reference_modifiers><head>conversaciones </head></argset>y una gran presión política del país , entusiasmado con la organización del torneo , la CSF se decantó por la suspensión del torneo y el mantenimiento de la sede . </example>
+        <example file="CESS-CAST-P/20_20010301.tbf.xml" nodepath="10.0.1.1.1.1.1.0" sentencenodepath="10">En ese momento de <argset><specifier>la</specifier><head>conversación </head></argset>, el hombre gritó " Viene un tren ! " . </example>
+        <example file="CESS-CAST-P/20_20010302.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">Sin_embargo , otro dirigente sindicalista confesó en <argset><specifier>una</specifier><head>conversación </head><reference_modifiers>privada</reference_modifiers></argset>que el culpable de las dificultades en la negociación no es ni Cuevas , ni Jiménez_Aguilar y ni_siquiera Rato , sino los chatarreros , como llaman los sindicalistas a los pequeños empresarios ligados a la CEOE . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="13.0.4.1.0.0" sentencenodepath="13">" Si Ø les llevamos comida a los veteranos , será más fácil entablar <argset><head>conversación </head></argset>" , aconseja Chitsaya . </example>
+        <example file="CESS-CAST-P/23_20020601.tbf.xml" nodepath="17.1.2.0.0" sentencenodepath="17">Y Ø mantiene <argset><head>conversaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con el Gobierno central</argument></argset>para poder trasladar a internos y , de este modo , esponjar Quatre_Camins , Brians y la Modelo . </example>
+        <example file="CESS-CAST-P/24_19981201.tbf.xml" nodepath="18.4.5.1.1.1.1.0" sentencenodepath="18">Sin_embargo , tras reunirse ayer con el ministro de Defensa , Eduardo_Serra , fuentes de este departamento aseguraron que " el acuerdo sobre la venta de dos submarinos a Chile no ha sido el objeto de <argset><specifier>la</specifier><head>conversación </head></argset>" . </example>
+        <example file="CESS-CAST-P/26_19981201.tbf.xml" nodepath="2.3.4.1.1.0" sentencenodepath="2">El diario asegura , citando fuentes del Foreign_Office ( Ministerio_de_Exteriores ) , que la influyente secretaria de Estado norteamericana , Madeleine_Albright , ha sacado_a_colación el tema de Pinochet en <argset><specifier>dos</specifier><head>conversaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con el ministro de Exteriores británico , Robin_Cook</argument></argset>. </example>
+        <example file="CESS-CAST-P/2_19991102.tbf.xml" nodepath="2.2.0.0.1.1.1.1.0.0" sentencenodepath="2">En algunas de ellas pueden encontrarse chats ( páginas de <argset><head>conversación </head></argset>) donde los adeptos se comunican y un tablón donde dejar anuncios diversos . </example>
+        <example file="CESS-CAST-P/36_19990901.tbf.xml" nodepath="7.3.4.2.2.1.1.1.1.0" sentencenodepath="7">En cualquier caso , Ibarretxe reconoció que existen problemas en el panorama vasco , como la aparición de episodios de violencia callejera , que Ø calificó de " inaceptables " , y la ruptura de <argset><specifier>las</specifier><head>conversaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre el Gobierno central y ETA</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="41.3.1.1.1.0.0" sentencenodepath="41">- - ¿ La ronda de <argset><head>conversaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Pujol</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con todas las fuerzas</argument></argset>es un rechazo a su petición de un pacto estable ? - - </example>
+        <example file="CESS-CAST-P/37_20000902.tbf.xml" nodepath="1.2.2.3.1.0" sentencenodepath="1">El líder de los socialistas catalanes quiere evitar así que el president utilice <argset><specifier>las</specifier><head>conversaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con la oposición</argument></argset>para prolongar su estrategia de gobernar en minoría sin casarse con nadie . </example>
+        <example file="CESS-CAST-P/61_20000601.tbf.xml" nodepath="14.4.1.0" sentencenodepath="14">La policía luxemburguesa continuaba anoche pacientemente <argset><specifier>las</specifier><head>conversaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">con el secuestrador</argument></argset>, con la esperanza de lograr un desenlace pacífico del secuestro . </example>
+        <example file="CESS-CAST-P/64_19990102.tbf.xml" nodepath="2.2.3.0.0" sentencenodepath="2">Alcober añade que el distrito mantiene <argset><head>conversaciones </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">con Renfe</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para que la compañía modernice el cambio de agujas , " que parece ser que es lo que más molesta " , si_bien se mantiene el soterramiento de las vías</argument></argset>. </example>
+        <example file="CESS-CAST-P/71_20010702.tbf.xml" nodepath="3.2.1.1.1.0.0" sentencenodepath="3">Desde el inicio de la marcha , en el triste escenario de los mayores golpes , el tema de <argset><head>conversación </head></argset>era la actuación policial y los recuerdos de guerra . </example>
+        <example file="CESS-CAST-P/76_20000302.tbf.xml" nodepath="1.4.0.0" sentencenodepath="1">Según el periódico , en las últimas semanas ambas corporaciones han mantenido <argset><head>conversaciones </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para alcanzar una fusión</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20000302.tbf.xml" nodepath="2.0.2.1.0" sentencenodepath="2">" Aunque cualquier tipo de acuerdo entre las dos está todavía muy lejos y es improbable que Ø ocurra antes de las próximas elecciones generales en España , <argset><specifier>las</specifier><head>conversaciones </head></argset>resaltan el frenético ritmo que hay en este sector en Europa en este sentido " , dice el diario . </example>
+        <example file="CESS-CAST-P/94_20000802.tbf.xml" nodepath="4.2.0.1.1.0.1.1.1.0" sentencenodepath="4">El lateral brasileño desveló parte del contenido de <argset><specifier>la</specifier><head>conversación </head><reference_modifiers>mantenida el día antes por Florentino_Pérez con los internacionales recién incorporados</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="conversar" originlink="verb.conversar.1" wordnetsynset="16:05339187">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/136_20001001.tbf.xml" nodepath="34.2.6.1.1.0" sentencenodepath="34">No , pero a_veces Ø le suelto a un amigo una parrafada de la película en_medio_de <argset><specifier>la</specifier><head>conversación </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="degradación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="degradar" originlink="verb.degradar.1" wordnetsynset="16:00130362+16:10360885">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-3.tbf.xml" nodepath="5.4.3.1.0" sentencenodepath="5">Hasta ahora estos compuestos orgánicos poliméricos conductores presentan el problema de su escasa estabilidad , ya_que en el caso del poliacetileno dopado , <argset><specifier>la</specifier><head>degradación </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">en presencia de aire</argument></argset>comienza al_cabo_de una o dos horas . </example>
+        <example file="CESS-CAST-AA/8195_20000812.tbf.xml" nodepath="10.1.3.1.1.2.7.2.1.0" sentencenodepath="10">" El problema - dice Planelles - radica en los plazos de seguridad , que nunca son iguales para un lugar que para otro , ya_que <argset><specifier>la</specifier><head>degradación </head></argset>se ve condicionada por la situación meteorológica , pero yo apuesto que no son más de un cinco_por_ciento de agricultores en Almería los que no cumplen totalmente las normativas " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="degradar" originlink="verb.degradar.1" wordnetsynset="16:00174193">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/15392_20001220.tbf.xml" nodepath="8.2.0.2.1.1" sentencenodepath="8">En un informe sobre " el fin de las actividades mineras de Francia " hecho público hoy , el Tribunal_de_Cuentas alertó sobre las " incertidumbres " que pesan sobre varias de las actividades de CdF y , ante <argset><specifier>la</specifier>" <head>degradación </head><reference_modifiers>irreversible</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las condiciones de explotación</argument>" </argset>, Ø aboga por " el cierre más rápido posible " de las minas de carbón . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="degradar" originlink="verb.degradar.1" wordnetsynset="16:00130362+16:00175800">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/t1-6.tbf.xml" nodepath="0.0.1.3.1.1.0" sentencenodepath="0">La única explicación posible de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>degradación </head></argset>era el rencor de que el esposo se hubiera sacrificado a conciencia por una montonera de negros , como ella decía , cuando el único sacrificio justo hubiera sido el de sobrevivir para ella . </example>
+        <example file="CESS-CAST-P/91_20020402.tbf.xml" nodepath="0.3.1.1.2.1.1.0" sentencenodepath="0">Parques_y_Jardines acometió las obras tras las críticas de los vecinos y de la oposición por <argset><specifier>la</specifier><head>degradación </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">del complejo de Sants</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="descenso" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="descender" originlink="verb.descender.1" wordnetsynset="16:03985255">
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg4" thematicrole="efi">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="1.4.1.0" sentencenodepath="1">Sin_embargo , a_lo_largo_de la década de los noventa se registró <argset><specifier>un</specifier><head>descenso </head><reference_modifiers>que se calcula entre el 1 y el 2_por_ciento</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/14819_20000121.tbf.xml" nodepath="2.0.0.1.2.2.2.1.1.1.0.0" sentencenodepath="2">El equipo santanderino , que la pasada temporada jugó la promoción de <argset><head>descenso </head></argset>y se salvó en los últimos partidos , se ha reforzado esta campaña con varias jugadoras extranjeras y Ø aún no conoce la derrota en casa . </example>
+        <example file="CESS-CAST-A/16786_20000221.tbf.xml" nodepath="6.0.3.1.3.1.1.1.1.3.1.0.0" sentencenodepath="6">El yen registró momentos de alza efímeros debido_a que la confianza de los inversores en la divisa nipona ha disminuído por el sentimiento de que la actividad económica japonesa está en <argset><head>descenso </head></argset>y un impuesto a los principales bancos situados en Tokio que , de ser aprobado , reducirá los beneficios de esas entidades . </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="7.3.2.1.0" sentencenodepath="7">Para el Real_Madrid , que encajó su sexta derrota de la temporada , Ø supuso el fin de una racha de once jornadas sin perder y <argset><specifier>el</specifier><head>descenso </head><argument argument="arg4" function="cn" thematicrole="efi" type="sp">al cuarto peldaño de la tabla</argument></argset>. </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="2.2.0.2.1.1.4.1.2.1.1.1" sentencenodepath="2">La mallorquina , de 28 años , doble campeona del mundo de la especialidad ( 1999 y 2000 ) , aspiraba al oro , pero la falta de un mayor desnivel en el circuito y una caída que Ø sufrió en la cuarta vuelta tras chocar con Pezzo en <argset><specifier>un</specifier><reference_modifiers>rocoso</reference_modifiers><head>descenso </head></argset>la obligaron a conformarse con un bronce olímpico que , en cualquiera de los casos , pone broche a una sensacional temporada . </example>
+        <example file="CESS-CAST-A/18964_20000923.tbf.xml" nodepath="8.0.1.1.0" sentencenodepath="8">En <argset><specifier>un</specifier><head>descenso </head><reference_modifiers>con piso muy irregular</reference_modifiers></argset>, la italiana superó a Fullana tras chocar con ella y derribarla , en una maniobra que no estuvo bien vista por la delegación española , que quiso presentar una reclamación , algo que descarta el reglamento olímpico del " mountain-bike " . </example>
+        <example file="CESS-CAST-AA/9698_20000312.tbf.xml" nodepath="0.2.4.1.3.4.1.1.1.1.1.1.0.0" sentencenodepath="0">El técnico del RCD_Espanyol , Paco_Flores , destacó el " magnífico encuentro " de su equipo , el " excelente " trabajo de Raúl_Tamudo y los buenos resultados de terceros equipos que se ha combinado con la victoria españolista para alejarse de los puestos de <argset><head>descenso </head></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en_torno_al" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="efi">
+        <constituent frequency="1" preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="demonstrative" type="determiner"/>
+        <constituent frequency="10" type="void"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="7" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="3.2.2.1.0" sentencenodepath="3">Ø Destacó que el millón y medio de desempleados actuales es " la menor cifra de paro registrado en cualquier mes desde julio_de_1981 " y Ø atribuyó <argset><specifier>ese</specifier><head>descenso </head></argset>a la reforma laboral de 1997 y a la política económica del Ejecutivo , " que ha transformado el crecimiento económico en creación de empleo " . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="23.4.2.1.0.1.1.0.0" sentencenodepath="23">El Espanyol goleó al Betis ( 3-0 ) , Ø ascendió al séptimo puesto de la clasificación y Ø envió a zona de <argset><head>descenso </head></argset>a un equipo andaluz que encadena nueve jornadas sin conocer la victoria . </example>
+        <example file="CESS-CAST-AA/20809_20000428.tbf.xml" nodepath="0.0.2.1.2.1.2.2.2.1.0" sentencenodepath="0">Caja_Cantabria ha puesto_en_marcha un plan de ajuste para fortalecer su situación financiera y solvencia , tras haber registrado en 1999 <argset><specifier>un</specifier><head>descenso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en sus beneficios brutos</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 35_por_ciento</argument><argument argument="arg4" function="cn" thematicrole="efi" type="sp">, hasta los 4.716 millones de pesetas</argument></argset>, informó hoy su director general , Javier_Eraso . </example>
+        <example file="CESS-CAST-AA/21333_20000326_a.tbf.xml" nodepath="2.4.1.1.2.3.1.1.1.1.1.0.0" sentencenodepath="2">El Deportivo le amargó la fiesta con un triunfo por 3-1 que le afianza en el liderato y hunde en la zona de <argset><head>descenso </head></argset>al conjunto asturiano . </example>
+        <example file="CESS-CAST-AA/21333_20000326_g.tbf.xml" nodepath="1.0.2.1.3.0.3.1.2.1.1.1.1.0.0" sentencenodepath="1">El Numancia firmó una goleada sobre el Atlético_de_Madrid ( 3-0 ) que le sirve para alejarse momentáneamente de la zona de <argset><head>descenso </head></argset>y que deja al equipo rojiblanco un_poco más cerca de la Segunda_División . </example>
+        <example file="CESS-CAST-AA/21333_20000326_h.tbf.xml" nodepath="2.3.1.2.2.1.1.1.0.0" sentencenodepath="2">Los hombres de Luis_Fernández , que al concluir la última jornada de la primera vuelta estaban situados en el cuarto peldaño de la clasificación , en zona de Liga_de_Campeones , ocupan ahora el decimotercer puesto , a cinco puntos del <argset><head>descenso </head></argset>. </example>
+        <example file="CESS-CAST-AA/21333_20000326_i.tbf.xml" nodepath="3.4.1.1.1.1.1.0.0" sentencenodepath="3">El Racing , pese_a ser el equipo que más partidos ha ganado fuera ( 6 ) , no consigue distanciarse de los puestos de <argset><head>descenso </head></argset>. </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>Este</specifier><head>descenso </head></argset>está provocado por la disminución de la necesidad de endeudamiento del Estado y por el menor vencimiento de deuda , que han permitido que , en los últimos cuatro años , el Tesoro haya reducido a la mitad los fondos que Ø debe obtener en los mercados . </example>
+        <example file="CESS-CAST-AA/6013_20000408.tbf.xml" nodepath="9.4.1.1.2.1.0.1.1.1.1.1.1.0.0" sentencenodepath="9">Octavo en la clasificación , el equipo catalán tiene 42 puntos a tan sólo tres de la zona que da derecho a jugar la Copa_de_la_UEFA y a ocho ya de las posiciones de <argset><head>descenso </head></argset>. </example>
+        <example file="CESS-CAST-AA/6013_20000408.tbf.xml" nodepath="10.0.1.1.1.0.1.5.1.1.1.1.0.0" sentencenodepath="10">La remontada del Espanyol , que hace tan sólo un mes se encontraba a un punto del <argset><head>descenso </head></argset>, ha venido propiciada en las últimas cuatro jornadas , donde Ø ha conseguido 10 puntos de los 12 posibles , Ø ha ganado dos partidos consecutivos por primera vez en toda la segunda vuelta y Ø ganó un partido a domicilio , al Mallorca el pasado domingo , después de más de dos meses sin hacerlo . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="7.3.4.4.3.1.2.1.2.1.2.0" sentencenodepath="7">En el turno de intervenciones , tanto el Bloque_Nacionalista_Gallego como el PNV e IU anunciaron que Ø estaban a_favor_de la propuesta del PSOE , porque Ø les parecía " razonable " y " Ø era la mejor manera de conseguir un equilibrio financiero " y favorecer <argset>" <specifier>el</specifier>
+            <head>descenso </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los peajes</argument>" </argset>. </example>
+        <example file="CESS-CAST-P/106_20020402.tbf.xml" nodepath="1.2.4.1.1.0" sentencenodepath="1">Los responsables de la entidad rayista anunciaron que Ø la abandonarán si <argset><specifier>el</specifier><head>descenso </head></argset>se consuma . </example>
+        <example file="CESS-CAST-P/108_20000601_d.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">En abril pasado , la venta de viviendas registró <argset><specifier>un</specifier><head>descenso </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 5,8%</argument></argset>, según el Departamento_de_Comercio . </example>
+        <example file="CESS-CAST-P/113_19990501_c.tbf.xml" nodepath="5.1.2.0.1.1" sentencenodepath="5">Por países , Finlandia registró el crecimiento más destacado en este periodo ( 1,6% ) , mientras_que <argset><specifier>los</specifier><reference_modifiers>mayores</reference_modifiers><head>descensos </head></argset>se produjeron en Alemania ( -0,7% ) , Italia , ( -0,9% ) y Dinamarca ( -1,1% ) . </example>
+        <example file="CESS-CAST-P/113_19990501_c.tbf.xml" nodepath="7.2.3.1.0" sentencenodepath="7">En_cuanto_a EEUU , la producción industrial aumentó el 0,3% , mientras_que en Japón se registró <argset><specifier>un</specifier><head>descenso </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 0,8%</argument></argset>en ese mismo periodo . </example>
+        <example file="CESS-CAST-P/136_20010501.tbf.xml" nodepath="2.0.3.1.1.1.2.1.0.0" sentencenodepath="2">Un grupo de los más radicales miembros del Frente_Atlético le acusó de ser el principal responsable del <argset><head>descenso </head></argset>y Ø le reprochó con suma dureza no colaborar económicamente con la peña para sufragar sus desplazamientos . </example>
+        <example file="CESS-CAST-P/139_20010103.tbf.xml" nodepath="0.2.4.2.1.0.1" sentencenodepath="0">El valor del mercado discográfico español caerá hasta un 4% en el 2001 y Ø se situará en_torno_a los 63.168 millones de pesetas , tras haber sufrido <argset><reference_modifiers>sucesivos</reference_modifiers><head>descensos </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">en_torno_al 2%</argument></argset>durante los dos últimos años . </example>
+        <example file="CESS-CAST-P/143_20010601.tbf.xml" nodepath="9.0.1.3.1.1.3.1.0" sentencenodepath="9">" Los clubs se están justificando , ahora que Ø temen <argset><specifier>los</specifier><head>descensos </head></argset>, ante sus aficiones , pero en la esfera federativa Ø saben que Ø no tienen nada que hacer " , agregó González , que interpretó la decisión de quitar los puntos al Getafe " como una estricta aplicación del reglamento " . </example>
+        <example file="CESS-CAST-P/143_20010601.tbf.xml" nodepath="11.3.1.1.1.6.1.3.2.1.0" sentencenodepath="11">El club navarro , que dice tener el apoyo de otras entidades , como el Athletic o la Real_Sociedad , pedirá los puntos de los partidos Osasuna-Espanyol y Las_Palmas-Osasuna por alineación indebida , situación que González interpreta como una coacción : " Se está llevando la situación al caos para que la Liga_Profesional pueda plantearse la revisión del número de equipos en las ligas o replantearse incluso <argset><specifier>los</specifier><head>descensos </head></argset>" . </example>
+        <example file="CESS-CAST-P/143_20011101.tbf.xml" nodepath="1.3.2.1.1.3.1.1.1.1.0" sentencenodepath="1">La campeona de la Copa_del_Mundo de supergigante de la pasada temporada no pudo superar el estado de coma y las heridas que Ø sufrió al chocar en <argset><specifier>el</specifier><head>descenso </head></argset>con el entrenador de la selección alemana de promesas de esquí , Markus_Anwander . </example>
+        <example file="CESS-CAST-P/21_20020702_a.tbf.xml" nodepath="20.2.2.1.1.0.0" sentencenodepath="20">El informe asegura que hace dos años Ø era el 12% y que al <argset><head>descenso </head></argset>ha contribuido una mayor " racionalización " . </example>
+        <example file="CESS-CAST-P/75_20020102.tbf.xml" nodepath="2.2.2.2.1.1.1.1.1.1.1.1.0" sentencenodepath="2">La cifra - - puntualizó Trànsit - - continúa siendo elevada , pero los responsables autonómicos de la gestión de las carreteras quisieron agradecer a los conductores su colaboración a la hora de lograr <argset><specifier>ese</specifier><head>descenso </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 11%</argument></argset>. </example>
+        <example file="CESS-CAST-P/77_20000801.tbf.xml" nodepath="2.0.2.1.0" sentencenodepath="2">Este cierre representa <argset><specifier>un</specifier><head>descenso </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">mensual</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 0,47%</argument></argset>, y Ø mantiene al índice en zona de mínimos anuales . </example>
+        <example file="CESS-CAST-P/77_20000801.tbf.xml" nodepath="5.2.1.1.0" sentencenodepath="5">La apertura al alza de Nueva_York , hizo que <argset><specifier>los</specifier><head>descensos </head></argset>fueran más moderados al final del día . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="descender" originlink="verb.descender.1" wordnetsynset="16:00130362">
+    <frame appearsinplural="no" type="anticausative">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="16.2.3.1.0.2.3.1.0.1.1.0.0" sentencenodepath="16">El Alavés , después_de cinco jornadas sin vencer , se impuso a domicilio al Betis ( 0-1 ) con un gol de Kodro y Ø hunde un_poco más al equipo andaluz , que continúa en zona de <argset><head>descenso </head></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="5.0.3.1.0.1.1.0.0" sentencenodepath="5">En la parte baja de la tabla , Sevilla y Real_Sociedad continúan en zona de <argset><head>descenso </head></argset>y esta jornada se les ha unido el Racing_de_Santander . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="31.2.1.1.1.1.0.0" sentencenodepath="31">El equipo asturiano , que ha sumado 23 de sus 27 puntos en el Carlos_Tartiere , sale de la zona de <argset><head>descenso </head></argset>. </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="33.4.2.0.1.1.1.1.3.1.1.2.1.1.1.1.0.0" sentencenodepath="33">Un gol del uruguayo Marcelo_Zalayeta dio la cuarta victoria de la presente Liga al colista Sevilla , por 1-0 sobre un Racing_de_Santander que cae al decimoctavo puesto de la clasificación y pasa a acompañar al equipo andaluz en la zona de <argset><head>descenso </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="descender" originlink="verb.descender.1" wordnetsynset="16:03985255">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="3.0.0.1.0" sentencenodepath="3"><argset><specifier>El</specifier><head>descenso </head><reference_modifiers>medio</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del paro</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en mayo</argument></argset>en los quince años anteriores fue de 56.665 desempleados , y en el mismo mes de 1999 el desempleo tuvo una reducción de 58.880 personas , mientras_que en los últimos doce meses Ø bajó en 117.951 personas , un 7,15_por_ciento . </example>
+        <example file="3LB-CAST/204_c-6.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">El presidente de la patronal CEOE , José_María_Cuevas , dijo que <argset><specifier>el</specifier><head>descenso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del paro</argument></argset>es " muy significativo e importante " , aunque Ø agregó que le hubiera gustado que Ø bajara más , que el empleo es uno de los grandes objetivos de las empresas y de los sindicatos y que " Ø estamos en el buen camino para cumplir el reto del pleno empleo " . </example>
+        <example file="CESS-CAST-P/102_20010202.tbf.xml" nodepath="1.2.1.1.0" sentencenodepath="1">Un repaso a las estadísticas revela que <argset><specifier>el</specifier><head>descenso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la cifra total</argument></argset>se debe a que han disminuido las asistencias técnicas que en 1999 se desbordaron por las revisiones de fachadas . </example>
+        <example file="CESS-CAST-P/110_20000401.tbf.xml" nodepath="12.0.1.0" sentencenodepath="12"><argset><specifier>El</specifier><head>descenso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los precios</argument></argset>se debió a la debilidad del consumo interno , que aún se resiente de la crisis económica , y a la apreciación del yen . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="4.1.1.2.1.0.3.2.0.1.0" sentencenodepath="4">Sin_embargo , la aparición reciente de indicadores económicos positivos , como <argset><specifier>el</specifier><head>descenso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del desempleo</argument></argset>y el aumento de la confianza inversora de las principales empresas , le abren el camino para una nueva etapa con una política monetaria más flexible y tipos de interés más altos . </example>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="2.3.2.1.0.1" sentencenodepath="2">Este nuevo boom se producirá pese_a los problemas en el tráfico aéreo y al <argset><reference_modifiers>seguro</reference_modifiers><head>descenso </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de turistas rusos</argument><reference_modifiers>, que probablemente reducirá el número de visitantes de esa procedencia a los 280.000</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

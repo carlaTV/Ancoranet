@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="traslado" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="trasladar" originlink="verb.trasladar.1" wordnetsynset="16:00180278">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg4" thematicrole="des">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="6.4.0.1.1.3.1.0.0.1.0" sentencenodepath="6">Así , al finalizar la contienda , las únicas víctimas de las armas químicas fueron los pocos soldados que sufrieron accidentes durante <argset><specifier>el</specifier><head>traslado </head></argset>, almacenamiento o manipulación de estos productos , además_de los desgraciados habitantes de la ciudad italiana de Bari , en cuyo puerto fue bombardeado e incendiado un buque estadounidense repleto de proyectiles de gas mostaza . </example>
+        <example file="CESS-CAST-P/16_20020202.tbf.xml" nodepath="5.0.1.2.1.0" sentencenodepath="5">" Ø Hemos hecho <argset><specifier>muchos</specifier><head>traslados </head></argset>a Sant_Cugat , y ahora está de_moda Gavà_Mar " , apunta Ø , al mando de 23 hombres . </example>
+        <example file="CESS-CAST-P/85_20010103.tbf.xml" nodepath="6.2.2.1.0" sentencenodepath="6">El 061 realizó 270 intervenciones de todo tipo , mientras_que la Cruz_Roja realizó <argset><specifier>más de 50</specifier><head>traslados </head><argument argument="arg4" function="cn" thematicrole="des" type="sp">a hospitales</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="trasladar" originlink="verb.trasladar.1" wordnetsynset="16:00180278">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/63_20010501.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">Orefici sólo pide que <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>traslado </head></argset>se efectúe " cuando haya una sentencia firme " , ya_que sus abogados han recurrido el fallo . </example>
+        <example file="CESS-CAST-P/85_19990302.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>El</specifier><head>traslado </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la empresa</argument></argset>supondrá iniciar la reforma de la fachada norte de la Gran_Via y convertir el solar industrial en un conjunto residencial con el carácter urbano del vial que proyecta el consistorio de L'Hospitalet . </example>
+        <example file="CESS-CAST-P/85_19990302.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>El</specifier><head>traslado </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la fábrica , especializada en la fabricación de envases metálicos ,</argument></argset>no reportará pérdida de puestos de trabajo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="trasladar" originlink="verb.trasladar.1" wordnetsynset="16:00180278">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="des">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24215_20001030.tbf.xml" nodepath="13.4.1.0.0" sentencenodepath="13">La jornada también fue aplazada en Candelaria , una localidad de la costa norte , debido_al <argset><head>traslado </head><argument argument="arg4" function="cn" thematicrole="des" type="sadv">allí</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de centenares de votantes no residentes</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

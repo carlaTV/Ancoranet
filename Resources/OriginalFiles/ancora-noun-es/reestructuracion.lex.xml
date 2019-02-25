@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reestructuración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="reestructurar" originlink="verb.reestructurar.1" wordnetsynset="16:00737598">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/110_20000401.tbf.xml" nodepath="5.2.1.1.1.0.0" sentencenodepath="5">Una de las razones de este aumento del paro son los planes de <argset><head>reestructuración </head></argset>llevados_a_cabo por algunas de las grandes empresas japonesas . </example>
+        <example file="CESS-CAST-P/7_20010302.tbf.xml" nodepath="4.3.1.1" sentencenodepath="4">La tabacalera Altadis llevó_a_cabo este año <argset><specifier>una</specifier><reference_modifiers>fuerte</reference_modifiers><head>reestructuración </head></argset>tras la fusión de Tabacalera y la francesa Seita . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="reestructurar" originlink="verb.reestructurar.1" wordnetsynset="16:00737598">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="2.2.1.2.1.0" sentencenodepath="2">El director del banco , Radovan_Vrava , señaló que el motivo principal es <argset><specifier>la</specifier><head>reestructuración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del banco</argument></argset>y no sólo la reducción de los costes . </example>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>La</specifier><head>reestructuración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los otros bancos checos</argument></argset>se está acompañando por la reducción del personal . </example>
+        <example file="CESS-CAST-AA/4800_20000406.tbf.xml" nodepath="8.0.1.1.1.0.0" sentencenodepath="8">El plan de <argset><head>reestructuración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de las operaciones del NYSE</argument></argset>incluye la creación de una plataforma múltiple que satisfaga las necesidades de los inversores , al entregarles a estos una gama variada de posibilidades para ejecutar sus órdenes . </example>
+        <example file="CESS-CAST-P/54_20011101.tbf.xml" nodepath="2.0.3.1.1.0" sentencenodepath="2">Fuentes del HSBC negaron ayer que <argset><specifier>la</specifier><head>reestructuración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su cúpula</argument></argset>tenga nada que_ver con el caso Gescartera : " La creación de la nueva figura de presidente de zona es algo que ya se había hecho en Italia y en Francia y que estaba pendiente de realizarse en España desde hace meses " . </example>
+        <example file="CESS-CAST-P/91_19990701.tbf.xml" nodepath="5.3.0.1.1.1.1.0.0" sentencenodepath="5">Bangemann asesorará a Telefónica en su proceso de <argset><head>reestructuración </head></argset>, en la apertura de mercados y en la selección de nuevos socios locales . </example>
+        <example file="CESS-CAST-P/91_20000301.tbf.xml" nodepath="8.0.1.2.1.1.1.1.1.1.0" sentencenodepath="8">Los representantes sindicales de los 12 países afectados por <argset><specifier>la</specifier><head>reestructuración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del grupo</argument></argset>se reunieron ayer para coordinar una respuesta al plan . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="reestructurar" originlink="verb.reestructurar.1" wordnetsynset="16:00737598">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="13.4.1.1.1.1.0.1.1.1.1.0" sentencenodepath="13">La dependencia ecuatoriana del FMI también se expresa en la necesidad del acuerdo para iniciar <argset><specifier>una</specifier><head>reestructuración </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la deuda exterior que sobrepasa los 16.000 millones de dólares y que representa el 113_por_ciento del producto interior bruto , el índice más alto de América_Latina</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

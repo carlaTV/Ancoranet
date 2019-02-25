@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="descalificación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="descalificar" originlink="verb.descalificar.1" wordnetsynset="16:00698191">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="sin" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20033_20000224.tbf.xml" nodepath="14.4.0.2.0.1.1.0" sentencenodepath="14">Ø Presume de que su eslogan electoral , " La_fuerza_positiva " , se ajusta a su perfil , amante del diálogo y la negociación y poco aficionado a <argset><specifier>las</specifier><head>descalificaciones </head></argset>y a los duelos dialécticos , en los que Ø parte con la desventaja de sus dificultades de pronunciación , sobre las que él mismo bromea . </example>
+        <example file="CESS-CAST-AA/3291_20000304.tbf.xml" nodepath="1.0.5.5.1.1.1.1.0.0" sentencenodepath="1">Fernández ha pedido hoy a los electores en Manlleu ( Barcelona ) que Ø no se dejen_arrastrar por la estrategia de <argset><head>descalificaciones </head></argset>del PSOE y Ø ha proclamado que el PP " es la única garantía de continuidad del progreso social y económico en España " . </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="9.0.1.2.5.3.1.0" sentencenodepath="9">" Ø Volví a preguntarle si Ø no había infringido las reglas de_manera_que Ø mereciera <argset><specifier>la</specifier><head>descalificación </head></argset>, el señor Segura contestó que Ø estaba cierto de no haberlas violado " , precisó el dirigente mexicano . </example>
+        <example file="CESS-CAST-AA/8697_20001011.tbf.xml" nodepath="5.0.1.2.1.0" sentencenodepath="5">Si_bien el artículo 25 del reglamento de la FEB , decreta <argset><specifier>la</specifier><head>descalificación </head><reference_modifiers>directa</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del agresor</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">sin amonestación alguna , en_relación_a la gravedad de la conducta antideportiva</argument></argset>, y se declararía el combate sin validez , el promotor exige en su carta que la próxima defensa del título por_parte_de Peña " Ø la realice frente_a Xavi_Moya , aún_cuando de haberse aplicado el reglamento vigente , lo justo habría sido su descalificación " . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="22.5.1.0.0" sentencenodepath="22">Pero a nuestra oferta de acuerdo referente al Presupuesto , el president contestó de_nuevo con <argset><head>descalificaciones </head><reference_modifiers>personales</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="24.4.3.1.0" sentencenodepath="24">¿ Cómo podrán los ciudadanos y ciudadanas creer que existe otra forma de hacer política y tener confianza en sus representantes si Ø adoptamos <argset><specifier>la</specifier><head>descalificación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">personal</argument></argset>como norma ? . </example>
+        <example file="CESS-CAST-P/36_19990901.tbf.xml" nodepath="14.0.1.1.0" sentencenodepath="14">Respecto_a <argset><specifier>las</specifier><head>descalificaciones </head><reference_modifiers>que ETA lanzó al PNV a_través_de su último comunicado</reference_modifiers></argset>, HB matiza que Ø se refieren únicamente a " algunos sectores " del partido nacionalista . </example>
+        <example file="CESS-CAST-P/37_19990901.tbf.xml" nodepath="1.2.3.1.0" sentencenodepath="1">Evidenciando la sintonía entre ambas formaciones nacionalistas , impensable hace unos años , Garaikoetxea no dudó en alabar al partido de Xabier_Arzalluz " porque Ø ha impulsado el proceso de paz " , y Ø tachó de " injustas " <argset><specifier>las</specifier><head>descalificaciones </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">etarras</argument></argset>. </example>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="3.0.5.1.2.1.3.1.1.0" sentencenodepath="3">" La sociedad vasca no se merece el clima de crispación política y de división que , con nuestra intolerancia , con <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestras</argument><head>descalificaciones </head></argset>y con la negativa permanente al diálogo , Ø estamos generando " , lamentó Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="descalificar" originlink="verb.descalificar.1" wordnetsynset="16.00698191n">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-5.tbf.xml" nodepath="2.2.0.1.8.1.4.0.1.2.0" sentencenodepath="2">" Ø No es falta de información , Ø es ocultación de información " , dijo Zenarruzabeitia , para quien la comparecencia de ayer de Mayor_Oreja " no fue de recibo " porque en_vez_de " responder detalladamente " a la interpelación del PNV Ø se dedicó a <argset>" <specifier>la</specifier>
+            <head>descalificación </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un grupo político</argument>
+          </argset>y a hablar de cuestiones que no tienen nada que ver , Ø utilizó la política del chipirón de responder atacando " . </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="1.3.1.1.1.1.2.1.3.1.1.3.1.0" sentencenodepath="1">" Ø Puedo asegurar que él ( Segura ) mintió , por_lo_menos a mí " , dijo Vázquez_Raña al responder a la decisión del atleta de someterse al detector de mentiras en una cadena de televisión por cable para aclarar que Ø ignoraba <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>descalificación </head><reference_modifiers>, que ha generado una gran polémica en México</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="5.2.1.2.1.0" sentencenodepath="5">Vázquez_Raña reiteró que Segura conocía <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>descalificación </head></argset>" y a mí Ø me dijo que Ø no había violado las reglas de su competencia " , tras de lo cual el dirigente mexicano realizó diversas acciones para tratar de defender la presunta victoria del atleta . </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="6.2.5.1.2.1.0.1.1.0.1.1.1.0" sentencenodepath="6">El dirigente de la Organización_Deportiva_Panamericana ( ODEPA ) y de la Asociación_de_Comités_Olímpicos_Nacionales ( ACNO ) , recordó que Ø incluso se negó a participar en la ceremonia de premiación de la marcha 20 kilómetros como señal de protesta por <argset><specifier>la</specifier><head>descalificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del mexicano</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8697_20001011.tbf.xml" nodepath="5.4.7.5.1.0" sentencenodepath="5">Si_bien el artículo 25 del reglamento de la FEB , decreta la descalificación directa del agresor sin amonestación alguna , en_relación_a la gravedad de la conducta antideportiva , y se declararía el combate sin validez , el promotor exige en su carta que la próxima defensa del título por_parte_de Peña " Ø la realice frente_a Xavi_Moya , aún_cuando de haberse aplicado el reglamento vigente , lo justo habría sido <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>descalificación </head></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="descalificar" originlink="verb.descalificar.1" wordnetsynset="16.00698191n">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/8697_20001011.tbf.xml" nodepath="0.3.0.1.0" sentencenodepath="0">El promotor Francisco_García_Montoya , apoderado del púgil Xavi_Moya , ha pedido a la Federación_Española_de_Boxeo ( FEB ) <argset><specifier>la</specifier><head>descalificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del púgil Amadeo_Peña</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">por conducta antideportiva</argument></argset>y , a_su_vez , la invalidez del combate por el título nacional del peso medio , en el que Peña retuvo la corona al vencer por K.O. técnico ( abandono ) a Moya en el noveno asalto . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="4" lexicalized="no" originlemma="descalificar" originlink="verb.descalificar.2" wordnetsynset="16.00698191n">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="0.3.5.1.1.4.1.1.0" sentencenodepath="0">El presidente del Comité_Olímpico_Mexicano ( COM ) , Mario_Vázquez_Raña , afirmó hoy que Ø no tiene motivos para someterse al detector de mentiras al insistir que el mexicano Bernardo_Segura le mintió sobre <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>descalificación </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">en la marcha 20 kilómetros de Sydney`2000</argument></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

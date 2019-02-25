@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="confusión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="confundir" originlink="verb.confundir.1" wordnetsynset="16:10068579+16:00043311">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cn" thematicrole="tmp" type="sp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e3-1.tbf.xml" nodepath="3.1.1.1.1.0" sentencenodepath="3">9 Como de <argset><specifier>esta</specifier><head>confusión </head></argset>resulta el dogmatismo , que es el final de la animación de la razón , al salvaguardar la preponderancia decisiva de las razones prácticas , la filosofía favorece - el designio de la Naturaleza - , que es el de mantener constantemente despiertas y activas las facultades del sujeto y apartar de él un sueño letárgico . </example>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="5.0.0.0" sentencenodepath="5"><argset><head>Confusión </head><reference_modifiers>acrecentada por la publicación de la noticia de que varios empresarios de Durango y Eibar han sido extorsionados en las últimas semanas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/11084_20001014.tbf.xml" nodepath="13.2.4.1.2.1.0.0" sentencenodepath="13">El dos veces campeón del Abierto_de_Estados_Unidos reiteró que aunque el tenis seguía siendo una de ellas , también existía un elevado grado de <argset><head>confusión </head></argset>en su valoración de lo que puede ser el futuro como profesional . </example>
+        <example file="CESS-CAST-AA/4506_20000406.tbf.xml" nodepath="7.2.0.4.2.3.0.0" sentencenodepath="7">El general británico dijo que cada brigada debe estar formada por soldados de un solo país , para que no surjan <argset><head>confusiones </head></argset>, pero que no pueden existir " naciones suministradoras de carne de cañón " , mientras otras unidades se reservan para las tareas de retaguardia . </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="7.5.2.1.1.1.2.2.1.1.2.1.0.0" sentencenodepath="7">A sus 66 años , con una hija y dos divorcios , este ejecutivo todoterreno , tan capaz de ejercer de relaciones públicas o de desenvolverse con un micrófono como de moverse en las intrigas del poder , se encontró con la tarea de poner_en_marcha el Mundial más complejo de la historia y , a_la_vez , con el mundo del fútbol pidiendo soluciones a un largo periodo de <argset><head>confusión </head></argset>. </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="15.4.1.1.0" sentencenodepath="15">CiU ha ocupado en gran parte el espacio central propiciando <argset><specifier>la</specifier><head>confusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre catalanismo y nacionalismo</argument></argset>. </example>
+        <example file="CESS-CAST-P/7_19990901.tbf.xml" nodepath="5.0.1.0.1" sentencenodepath="5">Para <argset><reference_modifiers>mayor</reference_modifiers><head>confusión </head></argset>- - ¿ o Ø es deliberado ? - - , el repartidor de esa torna , que la oposición considera una descarada paga extra electoral para jubilados , será Benestar_Social . </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="0.3.4.1.2.0" sentencenodepath="0">El consejero de Comercio del Gobierno Vasco , Josu_Jon_Imaz , explicó ayer que el apoyo del PNV en el Congreso_de_los_Diputados a las medidas liberalizadoras de los horarios comerciales se debió a <argset>" <specifier>una</specifier>
+            <head>confusión </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de procedimiento</argument>" </argset>, al haberse sometido a votación " varios decretos en un mismo paquete " . </example>
+        <example file="3LB-CAST/a1-6.tbf.xml" nodepath="9.3.0.0" sentencenodepath="9">Si no hay una conceptualización precisa , sembraremos <argset><head>confusión</head></argset> . </example>
+        <example file="3LB-CAST/e1-2.tbf.xml" nodepath="6.2.0.4.1.0" sentencenodepath="6">Cuando el conflicto representado por el obstinado que a nadie atiende tiene alcance público y objetivo , la situación es trágica ; pero si el maniático sólo ejerce  
+        <argset><specifier>la</specifier><head>confusión</head></argset>
+        desde una fantasía particular , subjetiva , entramos en el campo de lo humorístico .</example>
+        <example file="CESS-CAST-P/13_20020502.tbf.xml" nodepath="1.3.1.2.1.4.1.1.0" sentencenodepath="1">No es admisible la excusa que dio la policía de que esa agresión se debió a <argset><specifier>la</specifier><head>confusión</head></argset>
+          <argument argument="argM" function="cn" thematicrole="tmp" type="sp">del momento</argument>  . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="confundir" originlink="verb.confundir.1" wordnetsynset="16:05581054">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg2" thematicrole="tem">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="6.3.0.0" sentencenodepath="6">El cambio de las normas de clasificación provocó ayer <argset><head>confusión </head><argument argument="arg2" function="cn" thematicrole="tem" type="sp">sobre la posibilidad de que España ya estuviera clasificada</argument></argset>porque Hungría es uno de los semifinalistas y Ø ya tiene plaza olímpica por su condición de campeón europeo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="confundir" originlink="verb.confundir.2" wordnetsynset="16:10068579+16:10067954">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/t3-2.tbf.xml" nodepath="2.0.4.2.3.1.1.1.1.1.0.1.1.0.1.2.2.4.1.1.1.1.1.0" sentencenodepath="2">Volver a la habitación , naufragar en una soledad gris a la espera del milagro del sol , deambular por una ciudad demasiado vista , sin otro objetivo que contemplar los resultados del cruce de negra e hindú , hindú y holandés , holandés y negra , español e hindú , mulata e hindú , holandesa y mulato , todas las combinaciones raciales que según los prospectos turísticos convertían a Trinidad en un escaparate de <argset><specifier>la</specifier><head>confusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las razas</argument></argset>tan espléndido como la playa de Copacabana . </example>
+        <example file="CESS-CAST-P/107_20000701.tbf.xml" nodepath="22.4.2.0.1" sentencenodepath="22">Ø Temo a Pantani , Zülle y Olano , aunque Ø creo que Virenque y Jalabert también pueden ganar el Tour , afirmó el ganador de 1997 , para <argset><reference_modifiers>mayor</reference_modifiers><head>confusión </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en este inicio de carrera</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="4" lexicalized="no" originlemma="confundir" originlink="verb.confundir.2" wordnetsynset="16:10068579">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/12000_20000415.tbf.xml" nodepath="1.0.2.1.2.1.1.0" sentencenodepath="1">Morales_Bruque denunció la " ceremonia de <argset><specifier>la</specifier><head>confusión </head><reference_modifiers>que se ha creado en_torno_a este tema</reference_modifiers></argset>" e hizo especial hincapié al caso del alcalde de Mérida , Pedro_Acedo , del PP , a quien no se le ha renovado la licencia de explotación de la emisora de FM de la que Ø es titular en Don_Benito ( Badajoz ) , afiliada a la COPE . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

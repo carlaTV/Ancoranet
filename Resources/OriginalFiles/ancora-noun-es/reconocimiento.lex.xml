@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reconocimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="reconocer" originlink="verb.reconocer.1" wordnetsynset="16:10341471+16:00790504+16:04972934+16:04474949+16:04445171">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="3" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a1-5.tbf.xml" nodepath="14.3.2.1.0" sentencenodepath="14">Pero reunir trabajos dispersos , y difíciles de lograr , no es tarea desdeñable , sino_que Ø merece <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestro</argument><head>reconocimiento </head></argset>. </example>
+        <example file="3LB-CAST/d1-1.tbf.xml" nodepath="6.2.0.1.1.1.0" sentencenodepath="6">La profecía de El_Buitre-Nostradamus fue consecuencia de <argset><specifier>un</specifier><head>reconocimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">íntimo</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la luna de un espejito mágico</argument></argset>. </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="4.3.2.2.1.1.2.1.0" sentencenodepath="4">A preguntas del fiscal , Carlos_Castresana , Luis_Cuervas concretó que fue el 11_de_junio_de_1994 cuando Ø llegaron al acuerdo con Miguel_Angel_Gil_Marín para fichar a Simeone y que hubo tres condiciones : " <argset><specifier>un</specifier><head>reconocimiento </head><reference_modifiers>médico</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del jugador</argument></argset>, que las letras estuviesen avaladas y el traspaso de Pedro_González del Sevilla al Atlético " . </example>
+        <example file="CESS-CAST-A/11981_20001215.tbf.xml" nodepath="2.2.2.1.0" sentencenodepath="2">Todos los homenajeados recibieron el aplauso y <argset><specifier>el</specifier><head>reconocimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las autoridades asistentes y de los trescientos invitados que presenciaron el acto</argument></argset>. </example>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>El</specifier><head>reconocimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de España y Bélgica</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la figura histórica de Carlos_V</argument></argset>presidió la visita que realizaron hoy los Reyes Juan_Carlos y Sofía a Gante , la ciudad natal del Emperador . </example>
+        <example file="CESS-CAST-AA/20778_20001126.tbf.xml" nodepath="6.2.1.0.1.1.1.0" sentencenodepath="6">Sólo los tres hombres del podio , los auténticos protagonistas del maratón , terminaron en tiempos de <argset><specifier>cierto</specifier><head>reconocimiento </head></argset>, ya_que el cuarto - Wesley_Chelule , de Kenia , anunciado con una mejor marca de 2.10:14- , completó el circuito de 42,195 kms. en 2.16:44 . </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="11.2.0.1.1.0.3.3.1.1.2.1.0" sentencenodepath="11">Segura es miembro del centro izquierdista Partido_de_la_Revolución_Democrática ( PRD ) que le ha hecho diversos homenajes , entre ellos <argset><specifier>un</specifier><head>reconocimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la alcaldesa de la Ciudad_de_México , que lanzó duras críticas contra los dirigentes deportivos que no defendieron su triunfo en Sydney</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="8.3.2.0.0" sentencenodepath="8">Nosotros reiteramos nuestra apuesta por la estabilidad , a_partir_del <argset><head>reconocimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de nuestra capacidad de influencia</argument></argset>. </example>
+        <example file="CESS-CAST-P/4_20020601_b.tbf.xml" nodepath="1.1.0.2.0.1.1.0.0.0" sentencenodepath="1">Al encontrarse un elefante con otros Ø muestra signos de <argset><head>reconocimiento </head>y alegría </argset>hacia los conocidos años atrás , y Ø se muestra agresivo con los desconocidos . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="reconocer" originlink="verb.reconocer.1" wordnetsynset="16:04972934">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/58_19981102.tbf.xml" nodepath="3.3.4.1.1.2.1.0" sentencenodepath="3">Curcoy explicó a su regreso a Lleida que " lo más importante es la satisfacción que produce <argset><specifier>el</specifier><head>reconocimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del trabajo realizado</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">, en un certamen al que se presentan más de un centenar de documentales de todo el planeta</argument></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="reconocer" originlink="verb.reconocer.1" wordnetsynset="16:00633825">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4901_20001107.tbf.xml" nodepath="7.6.2.1.3.1.2.4.1.0" sentencenodepath="7">Pero para Arthur_Titherington , presidente de la asociación de supervivientes de los campos de concentración japoneses , eso no fue suficiente ni adecuado , al considerar que las autoridades niponas deben utilizar la palabra " shazai " , que en japonés significa <argset><specifier>el</specifier><head>reconocimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que " he cometido una ofensa por la que de forma humilde pido perdón "</argument></argset>. </example>
+        <example file="CESS-CAST-P/174_20001201.tbf.xml" nodepath="5.2.1.1.0.0" sentencenodepath="5">La dimisión , de carácter irrevocable , vino acompañada del <argset><head>reconocimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de " errores</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en la valoración psicológica de alguno de los componentes de la selección de baloncesto</argument>" </argset>. </example>
+        <example file="CESS-CAST-P/24_19990401.tbf.xml" nodepath="1.2.1.3.2.0.1.1.0.0.0.0" sentencenodepath="1">Las fuerzas especiales son una unidad militar de élite que realiza misiones de <argset><head>reconocimiento </head>y apoyo al Ejército y a las fuerzas paramilitares que operan en Kosovo </argset>. </example>
+        <example file="CESS-CAST-P/37_19990901.tbf.xml" nodepath="3.4.1.4.2.1.4.1.0.0" sentencenodepath="3">En esta línea , Ø criticó al ministro Piqué por " tratar de falsear el significado de Lizarra " , sin entender que la solución al conflicto " vendrá del <argset><head>reconocimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la realidad política de Euskal_Herria</argument></argset>" . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

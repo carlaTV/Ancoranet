@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="remedio" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="remediar" originlink="verb.remediar.1" wordnetsynset="16:03228145+16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="contra" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="7" postype="r" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="0.4.4.1.1.1.1.0" sentencenodepath="0">Sin_embargo , los abogados de la empresa indicaron una vez más que Ø proyectan insistir en las apelaciones para impedir que <argset><specifier>esos</specifier><head>remedios </head><reference_modifiers>" extremos y sin justificación "</reference_modifiers></argset>se lleven_a_efecto . </example>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="1.3.4.1.1.1.3.3.3.1.0.0" sentencenodepath="1">El Departamento_de_Justicia dijo respecto_a la última comparecencia de la compañía que ésta no tiene_en_cuenta el hecho de que se ha determinado " que Microsoft ha cometido repetidamente graves violaciones legales y que es preciso aplicar <argset><head>remedios </head><reference_modifiers>serios</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="sp">para restablecer la competencia e impedir violaciones similares en el futuro</argument></argset>" . </example>
+        <example file="3LB-CAST/d1-3.tbf.xml" nodepath="0.0.2.1.0" sentencenodepath="0">No hay <argset><specifier>más</specifier><head>remedio </head></argset>, a la vista del espectáculo bastante espasmódico de este Michigan-Duke , que concluir que salvo milagro ninguno de estos dos equipos dominará el torneo final de la NCAA este año . </example>
+        <example file="3LB-CAST/e3-1.tbf.xml" nodepath="1.1.4.1.0.0" sentencenodepath="1">Pero como la salud del hombre es una sucesión incesante de enfermedades y de curaciones , la simple dieta de la razón práctica no basta todavía para preservar este equilibrio que Ø llamamos salud y que pende de un hilo : la filosofía debe intervenir de modo terapéutico como <argset><head>remedio </head></argset>( materia médica ) . </example>
+        <example file="3LB-CAST/t6-1.tbf.xml" nodepath="1.4.5.1.0.5.0.0" sentencenodepath="1">Ø Tocó el familiar bulto con cuidado , recorriendo sus aristas con las yemas de los dedos , contemplando la imagen que le devolvía el espejo y pensando que todo aquello ya no tenía <argset><head>remedio </head></argset>, que nada Ø podía hacer ya por su cara , ni por su pecho , por esas piernas que Ø no veía , pero Ø sabía tan huesudas y separadas como las patas de un pollo mojado , y por esa carne blanquecina , fofa , que comenzaba a acumularse en_torno_a su cintura , a descolgarse hacia abajo arrastrando en su vértigo un ombligo progresivamente hondo , para añadir una nueva vejación , la de los años , a un cuerpo condenado de_antemano , desde antes de existir , a ser feo . </example>
+        <example file="CESS-CAST-AA/20090_20000830.tbf.xml" nodepath="4.0.4.6.0.1.0" sentencenodepath="4">" Hacer nuestro trabajo , tan alejados de los grandes mercados , es un alarde de voluntarismo ; así_que , después de tanto tiempo intentando hacer muchas cosas , y de hacerlas bien , si Ø no tenemos ventajas competitivas , no queda <argset><specifier>más</specifier><head>remedio </head></argset>que estar donde está el gran consumo " , apuntó Ø . </example>
+        <example file="CESS-CAST-AA/5332_20000207.tbf.xml" nodepath="1.0.5.2.2.1.0" sentencenodepath="1">" Viene bien que no haya posibilidad de descanso y que Ø tengamos tantos partidos seguidos . Ø Estamos deseando que llegue el partido de Copa contra el Mérida para olvidarnos definitivamente de Coruña . Lo único que Ø podemos hacer es trabajar más fuerte , no hay <argset><specifier>otro</specifier><head>remedio </head><reference_modifiers>posible</reference_modifiers></argset>para esto " , declaró Michel_Salgado . </example>
+        <example file="CESS-CAST-P/108_19990602.tbf.xml" nodepath="1.3.2.1.0.4.0.1.0" sentencenodepath="1">Horacio_Gómez , presidente del conjunto vigués , ha reiterado que Ø no aceptará incluir jugadores en las negociaciones , por lo que la entidad madridista no tendrá <argset><specifier>más</specifier><head>remedio </head></argset>que pagar la cláusula del jugador , que asciende a 2.000 millones . </example>
+        <example file="CESS-CAST-P/121_19991202_a.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Carlos_Sainz y Didier_Auriol no tuvieron <argset><specifier>más</specifier><head>remedio </head><reference_modifiers>que ponerse en el escaparate</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/126_20000401.tbf.xml" nodepath="34.2.4.0.1.0" sentencenodepath="34">El surrealismo es una de sus especialidades , pero Ø ya no tuvo <argset><specifier>más</specifier><head>remedio </head></argset>que reír . </example>
+        <example file="CESS-CAST-P/21_20000401.tbf.xml" nodepath="10.4.0.1.0" sentencenodepath="10">Por estética , en IU no queda <argset><specifier>otro</specifier><head>remedio </head></argset>que dar la cara . </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="0.2.1.1.1.1.0" sentencenodepath="0">Los farmacéuticos y los pacientes reconocen la autenticidad de <argset><specifier>este</specifier><head>remedio </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">contra la impotencia masculina</argument></argset>. </example>
+        <example file="CESS-CAST-P/70_20000501.tbf.xml" nodepath="13.0.3.1.3.2.4.0.1.0" sentencenodepath="13">" Mis preferidos eran del estilo de Robin_Hood . Claro que después las cosas cambiaron y Ø entendí que uno no tiene <argset><specifier>más</specifier><head>remedio </head></argset>que adaptarse a hacer de todo " , asegura este actor , nacido hace 35 años en Nueva_Zelanda . </example>
+        <example file="CESS-CAST-P/9_20010601_b.tbf.xml" nodepath="3.3.0.1.0" sentencenodepath="3">El Gobierno español no ha tenido <argset><specifier>más</specifier><head>remedio </head></argset>que rendirse a la evidencia y cancelar la batalla que le enfrentaba a casi todos los países de la Unión_Europea , excepción hecha de Grecia y Portugal , por un asunto que nadie deseaba plantear con antelación y que tampoco se sabía muy bien por qué habría de resolverse ahora y no dentro de cuatro años . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

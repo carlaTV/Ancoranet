@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="repercusión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="repercutir" originlink="verb.repercutir.1" wordnetsynset="16:04027354">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a1-7.tbf.xml" nodepath="2.0.0.1.4.0.0" sentencenodepath="2">Que la distribución de procesos , su heterogeneidad y <argset><head>repercusión </head></argset>no afectan a una base fundamentalmente andaluza y , sobre_todo , pensar que América es un inmenso continente donde caben las modalidades de Nuevo_México y de Chiloé . </example>
+        <example file="3LB-CAST/e1-1.tbf.xml" nodepath="6.0.3.1.1.0" sentencenodepath="6">Un personaje literario no tiene por qué ser juzgado por <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>repercusiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">sociales o ticas</argument></argset>, pero un mito quizá sí . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="14.3.0.1" sentencenodepath="14">Según Renato_Grandmont , analista de Deutsche_Bank para América_Latina , recientes decisiones de las empresas españolas han tenido <argset><reference_modifiers>serias</reference_modifiers><head>repercusiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los mercados latinoamericanos</argument></argset>. </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="5.3.6.0.0" sentencenodepath="5">Preguntado por la influencia que puede tener en las cuentas municipales la propuesta electoral del PP de que las empresas que ganen menos de tres millones tengan un tipo cero en el Impuesto_de_Actividades_Económicas ( IAE ) , Ø señaló que en las grandes ciudades " Ø no va a tener <argset><head>repercusión </head></argset>" . </example>
+        <example file="CESS-CAST-AA/20165_20000224.tbf.xml" nodepath="3.0.5.0.3.3.0.0" sentencenodepath="3">" Habrá que avisar que viene Magía_Dávila , como avisaron los rivales con Japón_Sevilla . Si después del partido Ø nos vemos igual que esta semana Ø no será porque alguien no lo ha advertido . Me da igual que Ø pueda tener <argset><head>repercusión </head></argset>dentro del campo , pero Ø estoy en el deber de avisarlo " , explicó Ferreira , quien confesó que el árbitro madrileño no le trae " buenos recuerdos " . </example>
+        <example file="CESS-CAST-AA/22039_20000926.tbf.xml" nodepath="6.0.1.1.0" sentencenodepath="6">En_cuanto_a <argset><specifier>la</specifier><head>repercusión </head><reference_modifiers>que ha tenido el oro olímpico conseguido en Sydney</reference_modifiers></argset>, la judoca comentó aquí se la había dado mucho valor por ser la primera que el equipo español lograba en los Juegos . </example>
+        <example file="CESS-CAST-AA/6315_20001209.tbf.xml" nodepath="4.2.1.2.3.4.1.0" sentencenodepath="4">" El Bernabéu es el mejor escaparate del fútbol mundial " , afirmó el entrenador del Celta , quien añadió : " todo lo que se haga allí tiene <argset><specifier>mucha</specifier><head>repercusión </head></argset>, porque Ø te enfrentas al equipo que , para mí , es potencialmente el mejor equipo de la Liga , con muchos recursos tanto ofensivos como defensivos " . </example>
+        <example file="CESS-CAST-P/21_20000701.tbf.xml" nodepath="11.0.1.1.0" sentencenodepath="11">Si <argset><specifier>las</specifier><head>repercusiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">económicas</argument></argset>son graves , la exclusión del euro está , además , marginando al Reino_Unido dentro de la Unión_Europea . </example>
+        <example file="CESS-CAST-P/25_20011102.tbf.xml" nodepath="7.2.1.1.2.0.2" sentencenodepath="7">Mubarak , que agradeció la invitación de su " hermano " Aznar para visitar España , advirtió de que dejar por mucho tiempo el proceso de paz en su actual estado de estancamiento pude tener <argset>" <reference_modifiers>gravísimas</reference_modifiers>
+            <head>repercusiones </head>" </argset>y " acarrear peligros para toda la región que pueden repercutir en otras regiones " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="repercutir" originlink="verb.repercutir.1" wordnetsynset="16:07768969">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="1.0.3.4.2.1.1" sentencenodepath="1">" La contratación de servicios en los dos primeros satélites en órbita está en plena capacidad , y en_cuanto el Hispasat_1C esté activo , se podrá duplicar la capacidad de prestación de servicios , con <argset><specifier>la</specifier><reference_modifiers>consiguiente</reference_modifiers><head>repercusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los beneficios</argument></argset>" , dijo Fernando_López_Amor , presidente de Hispasat , en unas jornadas sobre telecomunicaciones . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

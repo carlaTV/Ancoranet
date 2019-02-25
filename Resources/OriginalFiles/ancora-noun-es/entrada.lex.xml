@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="entrada" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="entrar" originlink="verb.entrar.1" wordnetsynset="16:00027115+16:02159544">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="3" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="4" postype="numeral" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="8" type="s.a"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-3.tbf.xml" nodepath="3.0.4.4.1.1.0" sentencenodepath="3">Los profesores se irritaron con el gobernador porque Ø ingresó en la Secretaría_de_Educación por <argset><specifier>la</specifier><head>entrada </head><reference_modifiers>principal</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">del edificio , en cuyo frente estaban acampados ,</argument></argset>y Ø decidieron esperar su salida para agredirlo porque Ø consideraron el acto de Covas como una provocación , según algunos líderes de la protesta . </example>
+        <example file="3LB-CAST/n1-15.tbf.xml" nodepath="10.0.0.1.1.0" sentencenodepath="10">A <argset><specifier>la</specifier><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de - Pushestreet - , la - calle de los camellos - de Christiania ,</argument></argset>un cartel advertía a los consumidores : los fumadores de porros y de hachís tienen que ir a aprovisionarse a otra parte , concretamente a Istedgade , otro barrio de Copenhague , situado al_lado_de la estación central , donde el comercio de la - hierba - no ha sufrido alteración alguna . </example>
+        <example file="CESS-CAST-A/14710_20000218.tbf.xml" nodepath="8.2.1.0" sentencenodepath="8">Tal_y_como Ø ocurre en otros sectores , donde la entrega del manejo de empresas locales a manos españolas se ha traducido en una oleada de fuertes inversiones para mejorar los servicios , en el sector financiero <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los bancos españoles</argument></argset>ha dado más seguridad a un sistema financiero muchas veces endeble . </example>
+        <example file="CESS-CAST-A/17472_20001022.tbf.xml" nodepath="8.2.4.1.0" sentencenodepath="8">Jane_West , director general del Comité_Organizador_de_los_Juegos_Paralímpicos_de_Sydney anunció que se han vendido ya <argset><specifier>cerca de 980.000</specifier><head>entradas </head></argset>, incluidos los 760.000 pases de día para los distintos acontecimientos deportivos . </example>
+        <example file="CESS-CAST-AA/20121_20000427.tbf.xml" nodepath="14.0.3.1.0" sentencenodepath="14">El 8_de_mayo se repartirán <argset><specifier>las</specifier><head>entradas </head></argset>a cada uno de los dos finalistas , el RCD_Espanyol seguro , y el otro se conocerá esta tarde de forma oficial . </example>
+        <example file="CESS-CAST-AA/21196_20000129.tbf.xml" nodepath="7.5.0.0.0" sentencenodepath="7">Entre otros muchos regalos , Joerg_Haider recibió también de sus amigos y seguidores <argset><head>entradas </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para ver a la Filarmónica_de_Berlín en el próximo Festival_de_Salzburgo</argument></argset>, un reloj de pulsera para su colección , una botella de vino de diez litros de edición exclusiva y un antiguo equipo completo de esquí , réplica de los de principios de siglo . </example>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="2.3.4.1.1.2.4.1.1.0" sentencenodepath="2">En un principio los estudiantes de Derecho de la USAC habían anunciado que unos 200 estudiantes se sumarían a la huelga de hambre , que se desarrolló en <argset><specifier>la</specifier><head>entrada </head><reference_modifiers>principal</reference_modifiers><argument argument="arg2" function="cn" thematicrole="loc" type="sp">del edificio del Ayuntamiento de la capital</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="7.4.0.1.1.1.1.5.3.0.1.1.0.0" sentencenodepath="7">Ø También se mostró partidario de aplicar el denominado " modelo regata " , que da prioridad de <argset><head>entrada </head></argset>a aquellos países que " mejor están preparados " por_encima_de grupos preseleccionados . </example>
+        <example file="CESS-CAST-AA/21553_20000429.tbf.xml" nodepath="2.2.1.1.1" sentencenodepath="2">El vuelacercas de Bagwell , el octavo de la temporada , fue conectado en el episodio inicial , y el de Hidalgo y Ward , el quinto para ambos , fueron despachados en <argset><specifier>la</specifier><reference_modifiers>segunda</reference_modifiers><head>entrada </head></argset>. </example>
+        <example file="CESS-CAST-AA/21553_20000429.tbf.xml" nodepath="4.3.3.1.1.0.1.0" sentencenodepath="4">El lanzador titular de los Cerveceros , el puertorriqueño , Jaime_Navarro ( 0-5 ) , fue castigado con seis imparables , tres que salieron del parque , y seis carreras - - cinco limpias - - Ø otorgó tres pasaportes y Ø abanicó a uno en sólo <argset><specifier>dos</specifier><head>entradas </head>y </argset>un tercio para cargar con la derrota . </example>
+        <example file="CESS-CAST-AA/21717_20000327.tbf.xml" nodepath="1.2.1.1.2.1.1.1.2.5.0.1.1.1.0" sentencenodepath="1">Esta decisión , que suscitó la semana pasada una gran polémica en San_Sebastián , contrastaba con la política de apoyo al equipo impulsada por la directiva guipuzcoana , que en los últimos partidos jugados por la Real en casa había permitido a los socios hacerse con <argset><specifier>dos</specifier><head>entradas </head><reference_modifiers>adicionales</reference_modifiers><reference_modifiers>a un precio de mil pesetas</reference_modifiers></argset>y llenar el estadio de Anoeta . </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="4.2.0.2.2.1.0.1.0" sentencenodepath="4">El abridor perdedor fue Neagle ( 2-2 ) , que trabajó <argset><specifier>cinco</specifier><head>entradas </head></argset>y dos tercios para permitir 10 imparables y siete carreras limpias , dio dos bases por bolas y recetó tres chocolates . </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="5.0.4.0.1.1.0.1.0.1.0" sentencenodepath="5">John_Halama ( 10-5 ) se llevó el triunfo después de lanzar <argset><specifier>seis</specifier><head>entradas </head></argset>y un tercio , ceder nueve hits , incluidos tres jonrones , cuatro carreras , Ø no dio boletos gratis y Ø sacó tres ponches . </example>
+        <example file="CESS-CAST-AA/6482_20000710.tbf.xml" nodepath="20.3.2.1.0" sentencenodepath="20">Ø Son capaces de soportar soporíferos encuentros , porque <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>entrada </head></argset>no les da para más . </example>
+        <example file="CESS-CAST-P/101_19991002.tbf.xml" nodepath="13.0.1.0" sentencenodepath="13"><argset><specifier>Las</specifier><head>entradas </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para este homenaje</argument></argset>están a la venta en ServiCaixa al precio de 3.000 pesetas . </example>
+        <example file="CESS-CAST-P/101_20020402.tbf.xml" nodepath="7.0.0.1.0" sentencenodepath="7"><argset><specifier>Las</specifier><head>entradas </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">al recinto</argument></argset>son angostas y , a_través_de ellas , el visitante empieza a tener la sensación de que Ø acude a un lugar donde Ø , probablemente , vivirá un auténtico infierno . </example>
+        <example file="CESS-CAST-P/125_20020202.tbf.xml" nodepath="3.2.4.2.1.2.4.1.1.1.2.1.1.1.2.2.1.2.1.1.0" sentencenodepath="3">La jornada de ayer , víspera de la boda real , tuvo carácter musical y Ø se cerró , por la noche , con un concierto pop que se celebró en el estadio del Ajax con la asistencia de los novios y de 50.000 personas que contribuyeron , con los 45 euros ( 7.487 pesetas ) de <argset><specifier>la</specifier><head>entrada </head></argset>, a los fondos de la Fundación_Príncipes_de_Orange , destinada a financiar proyectos de cooperación humanitaria . </example>
+        <example file="CESS-CAST-P/135_19991201_e.tbf.xml" nodepath="3.3.1.0.2.1.1.0" sentencenodepath="3">El triunfo de Toy_Story_2 es aún más notable cuando gran parte de <argset><specifier>las</specifier><head>entradas </head><reference_modifiers>vendidas</reference_modifiers></argset>han sido infantiles , más baratas en Estados_Unidos . </example>
+        <example file="CESS-CAST-P/157_20010202_b.tbf.xml" nodepath="4.0.0.0" sentencenodepath="4"><argset><head>Entrada </head><reference_modifiers>gratuita</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/18_19990602_c.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">Ø Compré <argset><specifier>la</specifier><head>entrada </head></argset>y Ø fui recorriendo estands y palacios hasta llegar al de una conocida marca alemana de automóviles que me denegó el acceso sin explicación alguna . </example>
+        <example file="CESS-CAST-P/1_20020202.tbf.xml" nodepath="8.2.2.1.1.1.1.0.0" sentencenodepath="8">La hija de María_del_Carmen_Costa , que también se llama Carmen , afirmó ayer que la instalación era nueva , y Ø subrayó que la espita de <argset><head>entrada </head></argset>del gas se cambió el pasado julio . </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="17.2.1.1.0" sentencenodepath="17">Ø Están en <argset><specifier>la</specifier><head>entrada </head><reference_modifiers>de la granja Remari</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="22.2.1.1.3.3.1.1.0" sentencenodepath="22">La obra consta de una A mayúscula - - esas del poeta robustas , simples e inconfundibles - - que se colocará en <argset><specifier>la</specifier><head>entrada </head><reference_modifiers>del museo</reference_modifiers></argset>sobre una columna con la leyenda A de cinema . </example>
+        <example file="CESS-CAST-P/30_20010701.tbf.xml" nodepath="4.3.3.1.0" sentencenodepath="4">Y esto continuará si no cesa <argset><specifier>esta</specifier><head>entrada </head><reference_modifiers>masiva</reference_modifiers><reference_modifiers>insostenible para el territorio</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/42_20020802.tbf.xml" nodepath="2.2.1.2.3.3.1.1.0.0" sentencenodepath="2">El problema es que las noches musicales de esta tele siempre riman igual : una pareja de presentadores simpatiquísimos ( ahora son Guillermo_Romero y Patricia_Betancort ) que mantienen diálogos surrealistas para dar <argset><head>entrada </head></argset>a actuaciones con la música enlatada . </example>
+        <example file="CESS-CAST-P/45_20020103.tbf.xml" nodepath="7.0.0.1.1.1.1.1.1.0" sentencenodepath="7">Situados a unos 30 metros de <argset><specifier>la</specifier><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de la cámara</argument></argset>, los atacantes arrojaron el primer explosivo contra una furgoneta policial , pero la granada no estalló . </example>
+        <example file="CESS-CAST-P/55_20010103.tbf.xml" nodepath="11.2.3.1.1" sentencenodepath="11">El PSOE piensa que esta decisión marcará <argset><specifier>una</specifier><reference_modifiers>mala</reference_modifiers><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de año</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para las familias más desfavorecidas</argument></argset>porque ellas son las que más usan el gas butano en sus casas . </example>
+        <example file="CESS-CAST-P/78_19990102.tbf.xml" nodepath="0.2.1.1.0" sentencenodepath="0">El recibo de la luz baja con <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del nuevo año</argument></argset>una media del 4,9% que será del 2,5% para los particulares y las pequeñas y medianas empresas . </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="10.0.1.2.0.2.1.0.0" sentencenodepath="10">" Actualmente hay campos públicos con <argset><head>entradas </head><reference_modifiers>asequibles</reference_modifiers></argset>y si Ø no quieres comprarte un buen equipo Ø se puede alquilar " , aseguraba Ø antes de recomendar vivamente la práctica de este deporte : " Ø Es un deporte muy relajante y para todas las edades " . </example>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="18.3.1.0.1.1.0.0" sentencenodepath="18">El entrenador del Valencia se vio obligado a dar <argset><head>entrada </head></argset>a Angulo ( m.25 ) y a modificar la posición de varios de sus jugadores . </example>
+        <example file="CESS-CAST-P/96_20020401.tbf.xml" nodepath="5.3.1.0.1.3.1.1.0.3.1.1.1.0.0" sentencenodepath="5">Ø También hablan con Maria y Ramon , que tienen una vivienda en la que no puede abrirse la puerta de <argset><head>entrada </head></argset>y que Ø ven el exterior a_través_de los agujeros que hay en la pared . </example>
+        <example file="CESS-CAST-P/97_19981201.tbf.xml" nodepath="2.1.0.1.1.2.1.1.1.1.0.2.1.1.0" sentencenodepath="2">Eso después de rellenar una hoja con los datos personales en la especie de mesa petitoria de <argset><specifier>la</specifier><head>entrada </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="entrar" originlink="verb.entrar.1" wordnetsynset="16:00027115">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+        <constituent frequency="10" preposition="de" type="sp"/>
+        <constituent frequency="1" type="relatiu"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="14" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="13" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10084_20000313.tbf.xml" nodepath="4.4.1.0" sentencenodepath="4">Además en las elecciones generales celebradas hoy el PP consolidó <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en las localidades del denominado " cinturón rojo " del sur de Madrid , en el que comparte victorias y derrotas con el PSOE , que sin_embargo sigue siendo el partido más votado en el cómputo global de esta zona</argument></argset>. </example>
+        <example file="CESS-CAST-A/12863_20001116.tbf.xml" nodepath="8.0.4.4.0.1.1.1.0" sentencenodepath="8">Las autoridades costarricenses arrestaron a Niño_Canales , peruana , después de una intensa investigación , porque la delincuente es considerada responsable de <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de miles de indocumentados</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a Estados_Unidos</argument></argset>, igual que Castillo , indica la sede estadounidense . </example>
+        <example file="CESS-CAST-A/13810_20000617.tbf.xml" nodepath="7.2.2.2.2.1.1.0" sentencenodepath="7">Su editorial " Impulso_en_Fomento " recuerda que este es un departamento " que tiende a despertar simpatías porque , si Ø se gestiona bien , sus inversiones son muy tangibles " y Ø destaca " la apuesta de Alvarez_Cascos por <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de capital privado</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la financiación de las obras</argument></argset>" . </example>
+        <example file="CESS-CAST-A/14013_20000120.tbf.xml" nodepath="6.4.1.0.2.3.1.2.2.1.2.1.0" sentencenodepath="6">Madrazo se reunió hoy con senadores de diversas comisiones a quienes Ø explicó el mecanismo legal utilizado por la Procuraduría para permitir que <argset><specifier>la</specifier><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en México</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de 72 especialistas de la Oficina_Federal_de_Investigación ( FBI )</argument></argset>. </example>
+        <example file="CESS-CAST-A/15386_20000720.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Telefónica</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Media_Park</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">al tomar un 25% del capital</argument></argset>permitirá a la productora no_sólo una significativa inyección de ingresos , que ha situado los fondos propios de la sociedad en unos 16.000 millones de pesetas , sino_también un socio que le abrirá las puertas del amplio mercado latinoamericano . </example>
+        <example file="CESS-CAST-A/15392_20001220.tbf.xml" nodepath="0.0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del grupo español Endesa</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la eléctrica francesa SNET , filial de Charbonnages_de_France ( CdF ) ,</argument></argset>es " una primera etapa " a_partir_de la cual se podrán evaluar las sinergias derivadas de esa cooperación , afirmó el presidente de esta última empresa , Philippe_Ladoucette . </example>
+        <example file="CESS-CAST-A/1617_20000703.tbf.xml" nodepath="9.1.2.4.2.0.2.2.1.1.0" sentencenodepath="9">Agotado este plazo , los funcionarios de asilo comunican su decisión y , si la admisión a trámite de la petición de asilo es denegada de_nuevo , se aplica la Ley_de_Extranjería , lo que puede llevar al retorno del solicitante a su país de origen o a <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en España</argument><argument argument="argM" function="cn" thematicrole="cau" type="sp">por razones humanitarias</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="2.3.4.5.1.1.0" sentencenodepath="2">La sesión estuvo dominada por la volatilidad , como Ø es frecuente en estos días , aunque los analistas prevén que la de mañana lo sea aún más , ya_que los inversores comenzarán a tomar posiciones por <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Terra</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el Ibex-35</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sn">, el próximo Lunes , día_31 ,</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">con una ponderación prevista del 8_por_ciento</argument></argset>, lo que hará bajar el peso de otros valores . </example>
+        <example file="CESS-CAST-AA/19731_20000127.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">Ante <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Terra</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el selectivo</argument></argset>, mañana será un día " curioso " , según los analistas consultados por EFE , porque habrá oportunidad de adquirir a precios muy baratos muchos valores del Ibex-35 . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="0.3.3.4.1.1.1.0" sentencenodepath="0">El secretario de Estado de Asuntos Europeos , Ramón_de_Miguel , consideró hoy que sería " ruin " que España se opusiera a facilitar <argset><specifier>la</specifier><head>entrada </head></argset>a los países que aspiran a formar_parte de la Unión_Europea , aunque Ø se mostró contrario a establecer un calendario fijo de adhesiones . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="3.2.1.1.0" sentencenodepath="3">El secretario de Estado auguró que <argset><specifier>la</specifier><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en la UE</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de varios países del Este</argument></argset>supone para España una opción " única " de entablar " lazos " , después de que por " razones históricas en el pasado y políticas en años presentes " , Ø haya estado " desgajada " de ellos . </example>
+        <example file="CESS-CAST-AA/24024_20000731.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><argument argument="arg1" thematicrole="tem" type="spec">Su</argument><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el circuito</argument></argset>se produjo por una zona arbolada , con lo que Ø consiguió evitar las medidas de seguridad . </example>
+        <example file="CESS-CAST-AA/24844_20000929.tbf.xml" nodepath="13.2.0.1.1.0.4.2.0.1.0" sentencenodepath="13">Grasser es miembro del ultranacionalista Partido_Liberal austriaco ( FPOe ) que lidera Joerg_Haider y <argset><argument argument="arg1" thematicrole="tem" type="relatiu">cuya</argument><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el gobierno austríaco</argument></argset>motivó la aplicación de las sanciones entre Febrero y el mes pasado . </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="1.0.4.1.1.2.4.1.1.1" sentencenodepath="1">Guillén , que se fue de 5-2 , con dos " outs " en la pizarra , se colocó en la caja de bateo contra el abridor Denny_Neagle , que había llenado las bases en <argset><specifier>la</specifier><reference_modifiers>sexta</reference_modifiers><head>entrada </head></argset>con Jay_Buhner , David_Bell y Rickey_Henderson , y Ø le soltó un bambinazo , su segundo de la campaña , por el jardín derecho para sentenciar un partido que hasta entonces sólo ganaban los Marineros por un parcial de 3-2 . </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="4.2.1.1.0.1.1.1.0.2.1.1.0" sentencenodepath="4">Ø Insistió que como testigo de lo ocurrido en el estadio a <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Segura</argument></argset>y " Ø sintió que se trató de una burla a todos los espectadores y al pueblo de México " . </example>
+        <example file="CESS-CAST-P/35_20000202_f.tbf.xml" nodepath="5.0.1.1.0" sentencenodepath="5">Desde <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Kosovo</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, en Junio del año pasado ,</argument></argset>la fuerza de paz de la OTAN ha arrestado a cinco serbios , sospechosos de crímenes de guerra . </example>
+        <example file="CESS-CAST-P/73_20010902.tbf.xml" nodepath="13.0.1.1.0" sentencenodepath="13">Con <argset><specifier>la</specifier><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Estados_Unidos</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, en 1995 ,</argument></argset>Fisas vio la necesidad de vender directamente al público y transformarse en una empresa de cosmética . </example>
+        <example file="CESS-CAST-P/96_19990601.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de turistas</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Catalunya</argument></argset>superará la cifra récord de 18 millones de personas en 1999 , según las previsiones que ha realizado la Conselleria_de_Indústria_,Comerç_i_Turisme_de_la_Generalitat , que calcula un incremento del 7% respecto_a la cifra de visitantes de 1998 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="entrar" originlink="verb.entrar.1" wordnetsynset="16:00026402+16:02641840">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="6.3.1.1.6.1.3.1.1.0" sentencenodepath="6">Pero antes de eso , habrá otras coincidencias : cuando Clinton , esté llegando esta tarde al Palacio_de_Bellevue , donde Ø será recibido con honores militares por el presidente alemán , Johannes_Rau , a pocos metros de distancia , en la Avenida_17_de_Junio , los corredores de la Vuelta_Ciclista a Alemania darán los últimos golpes de pedal de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>entrada </head><reference_modifiers>triunfal</reference_modifiers><argument argument="arg2" function="cn" thematicrole="loc" type="sp">a la capital</argument></argset>. </example>
+        <example file="CESS-CAST-A/12375_20000119.tbf.xml" nodepath="9.3.5.1.0" sentencenodepath="9">En su campaña por toda Croacia , que Ø realiza de forma improvisada recorriendo el país en un automóvil prestado , Mesic promete " el establecimiento del Estado_de_Derecho , la opción europea y <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de capital extranjero</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para activar nuestros recursos</argument></argset>" . </example>
+        <example file="CESS-CAST-A/12863_20001116.tbf.xml" nodepath="0.0.3.3.0.1.1.0.0" sentencenodepath="0">Estados_Unidos pidió a Nicaragua que Ø exija visado de <argset><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en su territorio</argument></argset>a las personas cuyo destino final sea Estados_Unidos , en_especial a las procedentes de Sudamérica , informó hoy una fuente diplomática . </example>
+        <example file="CESS-CAST-A/12863_20001116.tbf.xml" nodepath="1.3.5.1.2.1.1.1.1.0.0" sentencenodepath="1">Una nota de prensa de la Embajada_de_Estados_Unidos en Managua , afirma hoy que Washington " invita a Nicaragua a participar en los esfuerzos regionales , y reexaminar los requerimientos de <argset><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">al territorio nicaragüense</argument></argset>para impedir el tráfico ilegal de personas " . </example>
+        <example file="CESS-CAST-A/12863_20001116.tbf.xml" nodepath="2.0.1.2.1.1.1.1.1.0.0" sentencenodepath="2">La petición a Nicaragua de exigir el visado de <argset><head>entrada </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">en el país</argument></argset>, en_especial a personas procedentes de Sudamérica , ha sido formulada a_través_de la legación diplomática en Managua mediante una nota de prensa en la que Ø resalta los esfuerzos de otros países para lograr ese objetivo . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="17.0.4.2.3.1.1.1.1.1.0" sentencenodepath="17">El representante de CiU Ignasi_Guardans también se mostró " muy de_acuerdo " con el Gobierno en los criterios sobre <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de nuevos Estados</argument></argset>, pero Ø le recomendó más " capacidad de liderazgo " y " elevar el tiro " respecto_a determinados asuntos . </example>
+        <example file="CESS-CAST-AA/21730_20001026.tbf.xml" nodepath="4.4.3.1.0" sentencenodepath="4">A su juicio , Ø es una prueba del esfuerzo por mantener informado al Gobierno y a la sociedad de la situación del " Tireless " , no ha sido autorizada <argset><specifier>la</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ningún técnico español que pudiera verificar la información suministrada</argument></argset>, queja que figura en la carta enviada ayer por Piqué a Londres . </example>
+        <example file="CESS-CAST-P/10_20010103.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>La</specifier><head>entrada </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del nuevo frente atlántico</argument><reference_modifiers>, que conlleva fuertes vientos y lluvias abundantes ,</reference_modifiers></argset>se encuadra dentro de un paso de sucesivas borrascas que comenzó hace 10 días y que continuará hasta la próxima semana . </example>
+        <example file="CESS-CAST-P/2_19991102.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">" Bienvenido , aquí tu alma y tu mente puede abrirse sin límites " , reza <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>entrada </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="entrar" originlink="verb.entrar.4" wordnetsynset="16:00026402">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-5.tbf.xml" nodepath="13.0.1.1.1.1.1.1.0.0" sentencenodepath="13">Desde el 17_de_mayo_de_1997 , fecha de <argset><head>entrada </head><argument argument="argL" function="cn" type="sp">en vigor</argument></argset>de la reforma laboral , se han registrado 2.430.879 contratos indefinidos e incentivados . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="5" lexicalized="no" originlemma="entrar" originlink="verb.entrar.4" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argL">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/21423_20000428.tbf.xml" nodepath="10.2.1.0.1.1.1.0" sentencenodepath="10">Las protestas estallaron un día después de <argset><specifier>la</specifier><head>entrada </head><argument argument="argL" function="cn" type="sp">en vigor</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un aumento del 33_por_ciento de las tarifas para las categorías preferencial y popular de transporte colectivo</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="entrada_en_vigor" cousin="no" denotation="result" id="6" lexicalizationtype="nominal" lexicalized="yes" originlemma="entrar" originlink="verb.entrar.4" wordnetsynset="16:00026402+16:cs3">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argL">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-2.tbf.xml" nodepath="9.0.1.1.1.1.1.1.0.0" sentencenodepath="9">Desde el 17_de_mayo_de_1997 , fecha de <argset><head>entrada </head><argument argument="argL" function="cn" type="sp">en vigor de la reforma laboral</argument></argset>, se han registrado 2.430.879 contratos indefinidos e incentivados . </example>
+        <example file="CESS-CAST-P/81_20000201.tbf.xml" nodepath="3.4.2.0.1.1.1.0" sentencenodepath="3">Estos centros sufren ya atascos monumentales , incluso antes de <argset><specifier>la</specifier><head>entrada </head><argument argument="argL" function="cn" type="sp">en vigor</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la ley</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

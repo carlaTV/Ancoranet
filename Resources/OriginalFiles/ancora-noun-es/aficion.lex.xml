@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="afición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="aficionar" originlink="verb.aficionar.1" wordnetsynset="16:50001167">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="a" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="3" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="indefinite" type="determiner"/>
+        <constituent frequency="20" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="5" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-0.tbf.xml" nodepath="10.3.1.1.0" sentencenodepath="10">Un fatalismo indoloro se apodera de <argset><specifier>una</specifier><head>afición </head><reference_modifiers>que ayer le aclamó con el entusiasmo y la serenidad de quien , a_la_vez , halaga al presente y homenajea al pasado</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/d2-10.tbf.xml" nodepath="7.4.1.3.1.1.1.1.1.1.2.4.1.1" sentencenodepath="7">Cuando hace días dimitía , por sus prácticas fiscales , Ø digamos , atípicas ( cada vez menos atípicas , es_cierto , a la vista de la que está cayendo ... ) , el " conselleiro " del Gobierno gallego Juan_Fernández , el lector medio de periódicos no cayó sin_duda en_la_cuenta de que se trataba del mismo Juan_Fernández que hizo a_pulso el OAR_Ferrol , tarea por la que Ø es universalmente aplaudido ... pero en la que Ø ya lució <argset><specifier>una</specifier><reference_modifiers>reprobable</reference_modifiers><head>afición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a jugar con ventaja</argument></argset>. </example>
+        <example file="CESS-CAST-A/10268_20000413.tbf.xml" nodepath="9.0.5.3.2.1.1.0" sentencenodepath="9">" Ø Ha sido un año muy atípico . Ø Soy un hombre al que le gusta conectar con la gente y Ø no había tenido la oportunidad de hacerlo hasta ahora . Lo de ayer , es una alegría para mí y para <argset><specifier>toda la</specifier><head>afición </head></argset>" , confesó el guardameta . </example>
+        <example file="CESS-CAST-A/13853_20000918.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">El entrenador del Deportivo , Javier_Irureta , hizo un llamamiento especial a <argset><specifier>la</specifier><head>afición </head></argset>para que Ø apoye incondicionalmente al equipo en el partido de mañana ante el Hamburgo , como Ø lo suele hacer siempre en la Liga española , porque en su opinión ello es vital para la victoria . </example>
+        <example file="CESS-CAST-A/13853_20000918.tbf.xml" nodepath="9.4.4.1.1.0" sentencenodepath="9">Irureta destacó en conferencia de prensa tras el entrenamiento que " hay que apelar , como siempre , a <argset><specifier>nuestra</specifier><head>afición </head></argset>para que Ø venga y Ø apoye al_máximo , que Ø nos anime " . </example>
+        <example file="CESS-CAST-A/17070_20000321.tbf.xml" nodepath="3.2.2.0.1.1" sentencenodepath="3">Villahermosa está situada cerca_de la costa del Golfo_de_México y Ø se destaca por su actividad industrial nacida de la producción petrolera ; Ø tiene clima cálido y húmedo , poca actividad del fútbol profesional , pero <argset><specifier>una</specifier><reference_modifiers>enorme</reference_modifiers><head>afición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">al béisbol</argument></argset>. </example>
+        <example file="CESS-CAST-A/18465_20001023.tbf.xml" nodepath="9.0.0.1.2.3.0.1.1" sentencenodepath="9">Juan_López , un discapacitado intelectual de 21 años <argset><argument argument="arg0" thematicrole="agt" type="relatiu">cuya</argument><reference_modifiers>principal</reference_modifiers><head>afición </head></argset>es salir con los amigos , ha logrado el oro en 400 metros . </example>
+        <example file="CESS-CAST-AA/20131_20000224.tbf.xml" nodepath="14.0.3.2.3.1.1.0" sentencenodepath="14">" Ø Estamos deseando que comience el partido . El empate conseguido en Valencia nos ha dado más moral y además Ø contaremos con <argset><specifier>la</specifier><head>afición </head><reference_modifiers>, que está deseando que hagamos un gran partido y que seguro que nos apoyará desde el comienzo</reference_modifiers></argset>" , finalizó Roberto_Carlos . </example>
+        <example file="CESS-CAST-AA/20351_20000224.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>afición </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">colombiana</argument></argset>recibió con sorpresa la goleada de la Universidad_de_Chile por 4-0 sobre el campeón Atlético_Nacional , en el que el portero Miguel_Calero fue protagonista para evitar lo que hubiera sido una catástrofe , en compromiso del grupo 4 de la Copa_Libertadores_de_América . </example>
+        <example file="CESS-CAST-AA/22653_20000227.tbf.xml" nodepath="1.0.4.3.1.2.2.1.1.0" sentencenodepath="1">" Ø Necesitábamos un resultado de esta contundencia , por la situación en la que Ø nos encontrábamos y para ganar credibilidad ante nosotros y ante <argset><specifier>la</specifier><head>afición </head></argset>" , ha dicho Flores . </example>
+        <example file="CESS-CAST-AA/23101_20000927.tbf.xml" nodepath="4.3.1.1.0.1.0" sentencenodepath="4">" Ø Creo que con <argset><specifier>nuestra</specifier><head>afición </head></argset>y nuestro trabajo Ø lo vamos a alcanzar " . </example>
+        <example file="CESS-CAST-AA/24052_20000229.tbf.xml" nodepath="3.7.4.7.2.3.1.1.1.1.1.0" sentencenodepath="3">En opinión del técnico albiazul , el jugar el encuentro de vuelta en Pamplona " es siempre una ventaja para pasar a la siguiente ronda de la Recopa " , si_bien Ø puntualizó que para acceder a la final " habrá que hacer también un buen partido en Eslovenia , para luego poder rematar en nuestra cancha con el apoyo de <argset><specifier>la</specifier><head>afición </head></argset>" . </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="11.1.1.0" sentencenodepath="11">En la acción siguiente , <argset><specifier>la</specifier><head>afición </head><reference_modifiers>local</reference_modifiers></argset>reclamó penalti por posible agarrón de Bjorklund a Sabino . </example>
+        <example file="CESS-CAST-AA/2690_20001104.tbf.xml" nodepath="6.2.0.1.2.1.0.2.2.3.4.1.1.2.0.1.1.1.3.2.0.1" sentencenodepath="6">Carlos_Alberto_Pavón_Plummer , de 26 años , es hijo de Blanca_Nieves_Pavón , una humilde hondureña , y del costarricense Allord_Plummer , un ex jugador costarricense que en los años 70 fue goleador en el Marathón , de San_Pedro_Sula , uno de los equipos más populares de Honduras , con <argset><reference_modifiers>mayor</reference_modifiers><head>afición </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la zona norte del país</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="13.0.1.3.3.1.1.0" sentencenodepath="13">El empate de Osasuna en El_Sadar , aplaudido en la grada por <argset><specifier>la</specifier><head>afición </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">madrileña</argument></argset>, espoleó a los de Martín_Prado . </example>
+        <example file="CESS-CAST-AA/2970_20000604.tbf.xml" nodepath="18.1.1.0" sentencenodepath="18">Al final del choque , <argset><specifier>la</specifier><head>afición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Getafe</argument></argset>se lanzó al terreno de juego para celebrar junto_a los jugadores de Martín_Prado una más_que sufrida permanencia , que certificó el golazo de Parrado . </example>
+        <example file="CESS-CAST-AA/9155_20000712.tbf.xml" nodepath="9.3.2.1.1.0" sentencenodepath="9">García ha solicitado repetidamente a la prensa y a <argset><specifier>la</specifier><head>afición </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">del país</argument></argset>apoyo y paciencia , ante la oleada de críticas y encuestas con resultados en su contra , las cuales advierten que Colombia no_sólo ha jugado de manera mezquina y Ø ha perdido la identidad futbolística , sino_que Ø debe cambiar de técnico si los resultados son negativos contra Perú y Ecuador . </example>
+        <example file="CESS-CAST-AA/9405_20000115.tbf.xml" nodepath="5.1.1.0" sentencenodepath="5">Engordaron <argset><specifier>la</specifier><head>afición </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">corinthiana</argument></argset>unos cuantos hinchas del Flamengo carioca , el archirrival de los vascaínos , que , en su momento , dejaron patente en las tribunas su simpatía por el Palmeiras , el gran " enemigo " de su adversario de hoy . </example>
+        <example file="CESS-CAST-P/101_19990103.tbf.xml" nodepath="2.4.1.1.0" sentencenodepath="2">Sin Redondo , que no se ha recuperado de su esguince en la rodilla derecha , ni Mijatovic , con molestias en el tendón de Aquiles , el Madrid pasará el primer examen del año ante <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>afición </head></argset>. </example>
+        <example file="CESS-CAST-P/101_20020402.tbf.xml" nodepath="15.0.1.0.4.1.1.1.1.1.0" sentencenodepath="15">" Los griegos son complicados en su campo por la presión de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>afición </head></argset>, pero todos los que hemos jugado contra ellos hemos comprobado que Ø bajan mucho su rendimiento cuando Ø juegan fuera de casa . A doble partido , el Barça es el favorito " , afirma Makaay , delantero del Deportivo . </example>
+        <example file="CESS-CAST-P/105_19990401.tbf.xml" nodepath="8.4.0.1.1.1.0" sentencenodepath="8">Luego Ø la hacía extensiva a <argset><specifier>la</specifier><head>afición </head></argset>. </example>
+        <example file="CESS-CAST-P/105_19990401.tbf.xml" nodepath="11.0.1.3.1.1.1.0" sentencenodepath="11">" Ø Dedico este título a nuestro club , a <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestra</argument><head>afición </head></argset>, porque Ø nos ha hecho mucho más fácil el esfuerzo . Con un Palau así Ø somos un equipo más potente " , explicó el técnico . </example>
+        <example file="CESS-CAST-P/108_19990601.tbf.xml" nodepath="13.2.1.1.1.1.0.1.0.1.1.0.0" sentencenodepath="13">El internacional yugoslavo quiso despedirse agradeciendo el apoyo de todos <argset>, <head>afición </head>, técnicos , jugadores </argset>e incluso de los rivales . </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="4.0.4.1.1.0" sentencenodepath="4">El presidente del Barça , Josep_Lluís_Núñez , lanzó ayer un mensaje de serenidad a <argset><specifier>la</specifier><head>afición </head><reference_modifiers>, a la que pidió " calma y apoyo al equipo "</reference_modifiers></argset>, y Ø se mostró dolido por el clamor popular que se produjo contra el técnico Louis_van_Gaal durante el partido del pasado sábado ante el Atlético_de_Madrid , justo en el día inaugural del centenario del club . </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="8.2.2.1.0.1.0" sentencenodepath="8">El máximo dirigente azulgrana admite la desilusión que ha supuesto la eliminación del equipo en la Liga_de_Campeones y Ø considera que <argset><specifier>la</specifier><head>afición </head></argset>" tiene el derecho moral de quejarse , pero ni el club ni el presidente pueden perder la calma " . </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="13.2.2.1.4.1.1.0" sentencenodepath="13">El dirigente defendió la apuesta del técnico holandés - - " también se nos censuraría si Ø jugáramos de manera defensiva , como el Mallorca o el Atlético , todos atrás " - - y Ø criticó que se minimizara el gran partido que realizó el Barça ante el Manchester : " Ø Pudimos ganar 6-3 , porque Ø lo merecimos , y entonces <argset><specifier>la</specifier><head>afición </head></argset>hubiera tenido una reacción muy distinta " . </example>
+        <example file="CESS-CAST-P/116_19991201.tbf.xml" nodepath="1.0.5.1.1.0" sentencenodepath="1">Porque , a_pesar_de sus cientos de títulos , de victorias , de fichajes , de millones , Ø no acaban de cautivar a <argset><specifier>la</specifier><head>afición </head></argset>. </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="0.0.1.1.1.1.0" sentencenodepath="0">La reacción de <argset><specifier>la</specifier><head>afición </head></argset>deja a Núñez en minoría dentro de la directiva . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="14.1.1.2.2.1.1.1.1.2.1.1.0" sentencenodepath="14">En este sentido , las palabras de Joan_Gaspart responsabilizando al entrenador de la necesidad de devolver la ilusión a <argset><specifier>la</specifier><head>afición </head></argset>son significativas . </example>
+        <example file="CESS-CAST-P/13_19991201.tbf.xml" nodepath="3.3.2.2.1.1.1.1.1.0.4.1.4.1.1.0" sentencenodepath="3">Muy distinto es ser rápido sobre el terreno de juego , concebir las mejores jugadas y montar espectaculares contrataques , como Ø ocurría con aquel Jordi_Villacampa , que verse ahora en la necesidad de afrontar necesidades económicas , rivalidades internas y resultados que no siempre son comprendidos por <argset><specifier>una</specifier><head>afición </head><reference_modifiers>que responsabiliza de todo lo malo a jugadores , entrenador y directivos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/158_20010502.tbf.xml" nodepath="1.4.1.0.1.0.1.3.1.1.0" sentencenodepath="1">" Ø No descarto que se retire al equipo de la Liga . Si hay alguien que quiere que Ø no ascendamos , Ø le voy a poner las cosas más fáciles de esta forma " , recalcó ayer España en_alusión_al malestar existente no_sólo entre los rectores y profesionales del club , sino_también en <argset><specifier>la</specifier><head>afición </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">recreativista</argument></argset>por los últimos arbitrajes sufridos por el equipo . </example>
+        <example file="CESS-CAST-P/74_20000903.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>afición </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">blanquiazul</argument></argset>. </example>
+        <example file="CESS-CAST-P/74_20000903.tbf.xml" nodepath="9.3.2.1.1.1.1.0" sentencenodepath="9">Ø También quiso puntualizar ayer las críticas a <argset><specifier>la</specifier><head>afición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del Espanyol</argument></argset>que Ø hizo antes y después del partido de vuelta de la Supercopa frente_al Deportivo . </example>
+        <example file="CESS-CAST-P/94_20000802.tbf.xml" nodepath="3.0.2.0.1.4.1.1.0" sentencenodepath="3">" Con la calidad que Ø tiene y sus enormes ganas de triunfar , seguro que en muy poco tiempo Ø tendrá a <argset><specifier>toda la</specifier><head>afición </head></argset>a favor " , añadió Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="event" id="2" lexicalized="no" originlemma="aficionar" originlink="verb.aficionar.1" wordnetsynset="16:50001167+16:00273579">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/136_20010501.tbf.xml" nodepath="0.3.1.0.1.2.1.1.3.1.1.2.3.1.1.1.1.0" sentencenodepath="0">El infierno del Atlético en Segunda_División es especialmente duro para Kiko , precisamente el jugador que prestó su imagen a la campaña publicitaria con la que el club madrileño buscó el respaldo de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>afición </head></argset>. </example>
+        <example file="CESS-CAST-P/96_20020401.tbf.xml" nodepath="6.3.1.2.3.1.1.1.1.2.2.1.1.1.0.1.4.1.1.0" sentencenodepath="6">El espacio también ofrece el reportaje Mare_Terra , que muestra el trabajo de unos espeleólogos profesionales , como el caso de Marc , que es realizador de vídeo y combina <argset><specifier>la</specifier><head>afición </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">por el mundo subterráneo</argument></argset>con el trabajo de grabar los lugares más inaccesibles del interior de la tierra . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

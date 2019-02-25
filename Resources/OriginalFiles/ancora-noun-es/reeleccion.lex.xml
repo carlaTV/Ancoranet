@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="reelección" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="reelegir" originlink="verb.reelegir.1" wordnetsynset="16:00118483">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="atr">
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="20" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060111_5-1.tbf.xml" nodepath="8.4.1.1.1.1.4.1.0.2.1.0" sentencenodepath="8">La Reunión del Consejo_Permanente_de_la_OEA había generado expectativa en la oposición de Perú ante la posibilidad de que se iniciara un proceso para sancionar a esta nación al considerar " ilegítima " <argset><specifier>la</specifier><head>reelección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Fujimori</argument></argset>y " nulos " los comicios . </example>
+        <example file="3LB-CAST/211_C-3.tbf.xml" nodepath="7.0.2.0.1.1.1.0" sentencenodepath="7">El jefe de Estado y candidato a <argset><specifier>la</specifier><head>reelección </head></argset>resultó reelegido para un tercer período de gobierno con el 51,2_por_ciento de los votos totales en la segunda vuelta de los comicios presidenciales a la que Ø se presentó el pasado_domingo en solitario sin rival ni observadores . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="0.0.3.5.1.1.0" sentencenodepath="0">El secretario general del CDC , Pere_Esteve , ha asegurado hoy que Ø no se presentará a <argset><specifier>la</specifier><head>reelección </head><reference_modifiers>en el cargo</reference_modifiers></argset>, porque Ø cree que el que Ø ocupa debe ser " para el número dos " ( del partido ) y Ø apostilló que su candidato es Artur_Mas . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="1.4.4.1.1.0" sentencenodepath="1">El secretario general de CDC , Pere_Esteve , ha anunciado hoy a la ejecutiva y al consejo nacional de su partido que Ø no optará a <argset><specifier>la</specifier><head>reelección </head></argset>para que Artur_Mas asuma esa responsabilidad y Ø sea el número dos de CDC , tras Jordi_Pujol , lo que le situaría como líder del partido en el futuro . </example>
+        <example file="CESS-CAST-A/16468_20000521.tbf.xml" nodepath="4.0.0.1.4.3.1.1.1.0" sentencenodepath="4">Esteve , que hace 15 días indicó que su previsión era presentarse a <argset><specifier>la</specifier><head>reelección </head></argset>, ha puntualizado que Ø está dispuesto a volver a optar al cargo " porque Ø me hace ilusión y no hay ninguna razón para no hacerlo si se da el caso de que Mas no optase al cargo " . </example>
+        <example file="CESS-CAST-A/16807_20000522.tbf.xml" nodepath="2.2.1.1.1.1.0.1.8.1.1.1.4.1.1.1" sentencenodepath="2">El simulacro contó con la presencia de representantes del Jurado_Nacional_de_Elecciones ( JNE ) , del Jurado_Especial_de_Lima , de la Organización_de_Estados_Americanos ( OEA ) , de la Defensoría_del_Pueblo y de la Alianza_Perú_2000 , que presenta la candidatura a <argset><specifier>una</specifier><reference_modifiers>segunda</reference_modifiers><head>reelección </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del presidente Alberto_Fujimori</argument></argset>. </example>
+        <example file="CESS-CAST-A/18351_20000724.tbf.xml" nodepath="5.0.1.0.1.4.1.1.1.1.1.1.0" sentencenodepath="5">Para Blanco , quien no quiso hablar sobre si Ø ha decidido o no presentarse a <argset><specifier>la</specifier><head>reelección </head></argset>como secretario general del PSC-PSOE , el cambio debe servir para que en el PSOE , tanto a nivel federal como regional , se cree un " espacio de debate " que acabe con las " guerras de familias " y con los " nominalismos " . </example>
+        <example file="CESS-CAST-A/19111_20000923.tbf.xml" nodepath="5.3.1.0.1.1.2.2.1.0.3.3.1.0" sentencenodepath="5">No_obstante , la cinta con la grabación llegó a_manos_de Marian_Krzaklewski , candidato de la derecha a la Presidencia y principal rival del actual jefe del estado , quien busca <argset><specifier>la</specifier><head>reelección </head></argset>en los comicios fijados para el 8_de_octubre . </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="0.0.1.1.1.1.0" sentencenodepath="0">La discusión sobre <argset><specifier>la</specifier><head>reelección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">presidencial</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Costa_Rica</argument><reference_modifiers>, que desde diciembre pasado impulsa el ex gobernante y Nobel_de_la_Paz Oscar_Arias ,</reference_modifiers></argset>ha agitado la vida política en este país centroamericano . </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="3.3.1.1.1.2.1.1.1.0" sentencenodepath="3">Rodríguez , según Arias , expresó su disposición a aprobar la legislación necesaria para permitir <argset><specifier>la</specifier><head>reelección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">presidencial</argument><reference_modifiers>, prohibida desde 1969</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="5.3.1.1.2.1.1.1.2.1.1.1.0.2.1.2.1.0" sentencenodepath="5">Arias acusó al ex presidente Calderón , del gubernamental PUSC , de " traición " y de " apuñalar la democracia " al retirar su apoyo a un proyecto que permitiría la discusión de reformas constitucionales para debatir en el Parlamento <argset><specifier>la</specifier><head>reelección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">presidencial</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="8.2.3.1.3.1.1.0" sentencenodepath="8">Arias , que tampoco ha gozado del apoyo de su partido , agitado en una tempranera lucha interna por la selección de su candidato para los comicios del año_2002 , reconoció que la negativa del gubernamental PUSC es la " estocada " a <argset><specifier>la</specifier><head>reelección </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">presidencial</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20070_20000525.tbf.xml" nodepath="4.0.2.1.1.1.2.1.1.1.0" sentencenodepath="4">Otro dato a tener_en_cuenta es que el entonces presidente y candidato a <argset><specifier>la</specifier><head>reelección </head></argset>, José_Luís_Núñez , reunió 14.331 firmas , con la ventaja de tener a su favor el acceso al censo de socios del club , pero esa cifra fue casi la mitad de las 27.152 firmas que presentó el propio Núñez en las anteriores elecciones celebradas contra Sixte_Cambra en 1989 . </example>
+        <example file="CESS-CAST-AA/20613_20000428.tbf.xml" nodepath="4.0.0.1.3.0.1.1.1.1.1.1.1.0.1.1.0.0.2.1.1.1.0" sentencenodepath="4">Chávez , que es considerada una de las figuras más cercanas al entorno del presidente y candidato a <argset><specifier>la</specifier><head>reelección </head></argset>, Alberto_Fujimori , argumentó que Ø tiene informaciones , " aunque no confirmadas " , de reiteradas reuniones que habrían sostenido Toledo y su esposa Eliane_Karp en Estados_Unidos con familiares de Berenson . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="5.2.4.1.1.2.1.1.2.4.1.0.0.2.1.1.1.0" sentencenodepath="5">La oposición venezolana ha denunciado que las elecciones están viciadas debido_a la supuesta parcialidad de las autoridades del CNE , las cuales favorecerían de forma automática al actual jefe del Estado y candidato a <argset><specifier>la</specifier><head>reelección </head></argset>, Hugo_Chávez , porque Ø fueron escogidas " a_dedo " por partidarios suyos miembros de la extinta y todopoderosa Asamblea_Nacional_Constituyente ( ANC ) . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="7.4.4.2.2.3.1.1.1.1.0" sentencenodepath="7">Ø Invitó a los candidatos a evitar que sus actividades oficiales sean usadas como " instrumentos de apoyo de campaña " , puesto_que la delegación Carter reconoció " la ventaja natural que disfrutan " los candidatos a <argset><specifier>la</specifier><head>reelección </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">en el cargo</argument></argset>" para que su agenda sea cubierta de manera preferencial por los medios " . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="9.0.2.1.1.1.1.0" sentencenodepath="9">El presidente venezolano , Hugo_Chávez , inició su campaña por <argset><specifier>la</specifier><head>reelección </head></argset>el pasado miércoles viajando al interior del país en un avión comercial y trasladándose en vehículos particulares , e Ø informó de que Ø suspendió , por lo que queda de campaña , sus participaciones en inauguraciones de obras públicas , como una " demostración " de que Ø no va a utilizar " ningún tipo de ventajas " . </example>
+        <example file="CESS-CAST-AA/5814_20001208.tbf.xml" nodepath="8.0.5.1.1.3.1.1.1.3.1.0" sentencenodepath="8">" Yo espero una guerra santa en Florida en las elecciones de 2002 " , fecha en la que probablemente Jeb_Bush buscará <argset><specifier>la</specifier><head>reelección </head></argset>, se renovará toda la Cámara_de_Representantes_de_EEUU y un tercio del Senado federal , dijo el congresista republicano por Florida Joe_Scarborough . </example>
+        <example file="CESS-CAST-P/35_19991101.tbf.xml" nodepath="9.4.5.1.1.0" sentencenodepath="9">Además , Garaikoetxea no ha aclarado si Ø se presentará o no a <argset><specifier>la</specifier><head>reelección </head><reference_modifiers>como presidente del partido que él mismo formó en 1986 tras escindirse del PNV</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="35.5.1.1.1.1.0" sentencenodepath="35">- - Se da por sentada su candidatura a <argset><specifier>la</specifier><head>reelección </head><argument argument="argM" function="cn" thematicrole="atr" type="sp">como presidente</argument></argset>, por lo que la principal incógnita del congreso está en el número dos . </example>
+        <example file="CESS-CAST-P/56_20000801_l.tbf.xml" nodepath="1.3.5.1.1.0" sentencenodepath="1">El primer secretario del PSC del Vallès_Oriental , Jordi_Terrades_i_Santacreu , anunció ayer que Ø no se presentará a <argset><specifier>la</specifier><head>reelección </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el congreso</argument><reference_modifiers>que la federación comarcal celebrará el próximo 23_de_septiembre en Granollers</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="reelegir" originlink="verb.reelegir.1" wordnetsynset="16:00118483">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/25330_20000331.tbf.xml" nodepath="8.0.0.1.3.0.2.1.1.1.1.0.4.0.2.1.1.0" sentencenodepath="8">Séguin , quien ha sido blanco reiterado de las iras del actual alcalde parisiense , el también neogaullista Jean_Tiberi - candidato a <argset><argument argument="arg1" thematicrole="pat" type="spec">su propia</argument><head>reelección </head></argset>- , rechazó anoche polemizar con su compañero de filas . </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="23.2.1.3.1.1.1" sentencenodepath="23">Ø Parece un inmejorable eslogan de campaña para <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>segura</reference_modifiers><head>reelección </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, en Junio próximo ,</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el congreso de Seúl</argument></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="reelegir" originlink="verb.reelegir.1" wordnetsynset="16:00118483">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/34_19981202.tbf.xml" nodepath="4.2.3.1.1.1.1.1.1.1.4.2.1.0.1.1.1.1.1.0.0" sentencenodepath="4">Los diputados republicanos de esta comisión señalaron que Ø tenían la intención de investigar las acusaciones de que Clinton podría haber cometido " actos delictivos " , al reunir fondos para su campaña de <argset><head>reelección </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

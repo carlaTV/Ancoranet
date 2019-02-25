@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="devaluación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="devaluar" originlink="verb.devaluar.1" wordnetsynset="16:00227728">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="15.2.1.2.3.2.1.1.1.0.1.1.1.2.0.1.1.1.1.1.1.0" sentencenodepath="15">La revista económica Carta_Capital divulga un informe de la firma Lafis que vaticina para 1999 una inflación del 50% ( en 1998 Ø fue del 2,49% ) , una tasa de cambio de 2,34 reales por dólar ( hasta el comienzo de <argset><specifier>la</specifier><head>devaluación </head></argset>Ø era de 1,23 ) y serias amenazas para la estabilidad del Mercosur . </example>
+        <example file="CESS-CAST-P/69_20010501.tbf.xml" nodepath="9.0.3.2.0.3.1.0" sentencenodepath="9">El agua afectó a la piel del fruto , lo que " supone <argset><specifier>una</specifier><head>devaluación </head></argset>en el mercado " , dijo Julio_Montfort , de la oficina de la Conselleria_d'Agricultura en la Ribera_d'Ebre . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="devaluar" originlink="verb.devaluar.1" wordnetsynset="16:00234534+16:00227728">
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/14944_20000318.tbf.xml" nodepath="12.2.2.1.1.0" sentencenodepath="12">El país no lograba un volumen de embarques de ese tamaño desde 1991 , cuando Ø consiguió una exportación cercana a los 18 millones de sacas , y al excelente resultado contribuyeron tanto <argset><specifier>la</specifier><head>devaluación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del real</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">, en enero_de_1999 ,</argument></argset>como la elevada cosecha del período 1998-1999 , 35 millones de sacas , la mayor de la década . </example>
+        <example file="CESS-CAST-AA/22738_20000628.tbf.xml" nodepath="3.0.3.1.1.0" sentencenodepath="3">Ante esta debilidad económica , el Tesoro estadounidense querrá favorecer <argset><specifier>la</specifier><head>devaluación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de su moneda</argument></argset>, con lo que " el dólar empezará entonces a retroceder ( ... ) y el euro podría ser propulsado " , lo que afectaría a la competitividad de los 11 países de la zona euro , explicó Ø . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="frente_al" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="3.0.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>devaluación </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">progresiva</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del real</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">frente_al dólar</argument>- - en enero la divisa brasileña cayó más del 70% </argset>, la sangría incontrolada de capitales y el pánico popular ante los rumores de que el Gobierno confiscaría las cuentas de ahorro y Ø declararía la moratoria en los pagos de sus deudas , ha encendido todas las luces de alarma . </example>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="9.5.1.0.1.0" sentencenodepath="9">Fischer señaló ayer en Davos antes de salir para Brasil que <argset><specifier>la</specifier><head>devaluación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del real</argument></argset>ha ido " incuestionablemente demasiado lejos " , y si Brasil toma " resueltas medidas como en las dos últimas semanas " , el final de la crisis no está lejos . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

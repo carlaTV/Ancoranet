@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="mediación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="mediar" originlink="verb.mediar.1" wordnetsynset="16:05349429">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="0.2.2.1.0" sentencenodepath="0">El presidente yugoslavo Slobodan_Milosevic se prepara para la segunda vuelta electoral , mientras_que la oposición pretende <argset><specifier>una</specifier><head>mediación </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">internacional</argument></argset>para poder presentar sus pruebas sobre el triunfo de Vojislav_Kostunica por mayoría absoluta , lo que evitaría la segunda ronda del 8_de_octubre . </example>
+        <example file="CESS-CAST-AA/6582_20001209.tbf.xml" nodepath="17.0.5.2.1.0" sentencenodepath="17">11-25_de_julio . - Barak y Arafat se reúnen en Camp_David , con <argset><specifier>la</specifier><head>mediación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Clinton y Madeleine_Albright</argument></argset>, pero Ø no logran ningún acuerdo ante sus discrepancias sobre la cuestión clave de la soberanía sobre Jerusalén . </example>
+        <example file="CESS-CAST-AA/6740_20000710.tbf.xml" nodepath="3.3.1.0.1.6.2.1.1.0" sentencenodepath="3">El primer ministro viajará hoy a EEUU , donde mañana , Martes , Ø se reunirá con el líder palestino , Yaser_Arafat , y bajo <argset><specifier>la</specifier><head>mediación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del presidente estadounidense , Bill_Clinton ,</argument></argset>en la cumbre de Camp_David , en la que Ø intentarán acordar los principios de un tratado de paz definitivo . </example>
+        <example file="CESS-CAST-P/24_19981201.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">El titular de Exteriores de Chile inicia sin esperanzas <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>mediación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Madrid</argument></argset>. </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="19.4.1.1.0.1.0" sentencenodepath="19">Sin_embargo , como la Generalitat ya ha abierto expediente sancionador , Ø pueden optar por solicitar <argset><specifier>una</specifier><head>mediación </head></argset>o un arbitraje con_objeto_de pactar daños y perjuicios por los costes de manutención , hotel y cancelaciones que Ø están teniendo que asumir . </example>
+        <example file="CESS-CAST-P/31_19990401.tbf.xml" nodepath="1.4.1.4.2.1.2.1.1.0" sentencenodepath="1">El ministro de Defensa ruso , Igor_Sergueyev , anunció el miércoles el envío de siete navíos de guerra a las proximidades de la zona del conflicto de Kosovo para " evaluar la situación " , tras el fracaso , el día anterior , de <argset><specifier>la</specifier><head>mediación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del primer ministro , Yevgueni_Primakov</argument></argset>. </example>
+        <example file="CESS-CAST-P/99_20011201.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">Los trabajadores aceptaron <argset><specifier>la</specifier><head>mediación </head></argset>y Ø abandonaron el encierro en la sede de la conselleria . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="mediar" originlink="verb.mediar.2" wordnetsynset="16:00805906">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="4.3.1.0.0" sentencenodepath="4">El ex jugador del Valencia y del Real_Madrid marcó el único tanto del partido por <argset><head>mediación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un penalti que provocó él mismo y que permite al equipo italiano destacarse en el liderato del Grupo_B_de_la_Liga_de_Campeones</argument></argset>. </example>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="12.2.3.1.0.0" sentencenodepath="12">El Valencia logró rehacerse al empuje inicial de los italianos y Ø empezó a merodear el área de Toldo por <argset><head>mediación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la rapidez de Ilie y Claudio_López</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

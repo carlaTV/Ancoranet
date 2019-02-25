@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="experimento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="experimentar" originlink="verb.experimentar.2" wordnetsynset="16:04468129">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="con_miras_a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="0.3.1.0.2.1.0.3.2.1" sentencenodepath="0">El Comando_Sur de las Fuerzas_Armadas de Estados_Unidos albergará próximamente al cuartel general del " Millenium_Challenge " <argset>, <specifier>el</specifier>
+            <reference_modifiers>primer</reference_modifiers>
+            <head>experimento </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de una " verdadera " acción conjunta del Ejército , la Armada , la Infantería_de_Marina y la Fuerza_Aérea</argument>
+            <argument argument="argM" function="cn" thematicrole="fin" type="sp">con_miras_a las guerras del futuro</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="1.0.3.1.1" sentencenodepath="1">" Millenium_Challenge ( Reto_del_Milenio ) es <argset><specifier>el</specifier><reference_modifiers>primer</reference_modifiers><head>experimento </head><reference_modifiers>de su tipo</reference_modifiers><argument argument="argM" function="cn" thematicrole="mnr" type="sp">con una auténtica operación conjunta</argument></argset>" , dijo a EFE el director del experimento , Shane_Deichman , que se llevará_a_cabo durante los meses de agosto y septiembre . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="3.2.3.1.1.0" sentencenodepath="3">El Comando_Sur es uno de los nueve mandos unificados de las Fuerzas_Armadas estadounidenses ubicados en diferentes partes del mundo , y en su base actual en Miami ( Florida ) trabajarán unos 250 oficiales del " comando conjunto " para <argset><specifier>este</specifier><head>experimento </head></argset>. </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="6.3.1.1.1.2.1.0" sentencenodepath="6">La coronel Janet_Tucker , portavoz del Comando de Experimentación conjunta en Suffolk ( Virginia ) , explicó a EFE la diferencia entre los tradicionales ejercicios militares y <argset><specifier>este</specifier><head>experimento </head><reference_modifiers>, en el cual participarán miles de soldados</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="8.1.0.1.0" sentencenodepath="8">" <argset><specifier>Un</specifier><head>experimento </head></argset>probará la preparación y las capacidades para el contexto militar del futuro , y Ø sirve para que Ø veamos cómo cada una de las fuerzas se desempeñará en una guerra " . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="12.2.4.1.0" sentencenodepath="12">Ø Añadió que , en el futuro se harán <argset><specifier>otros</specifier><head>experimentos </head><reference_modifiers>enfocados hacia la OTAN y Argentina - que ya ha expresado su deseo de que Washington le considere como socio militar especial ajeno a la Alianza_Atlántica - también ha manifestado su interés en este experimento</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="13.0.1.1.0" sentencenodepath="13">Para <argset><specifier>este</specifier><head>experimento </head></argset>el Pentágono ha recurrido a un escenario de conflicto del pasado : una nación aliada de Estados_Unidos que está amenazada por un vecino , tal_como Ø ocurrió en 1990 cuando Irak invadió Kuwait . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="18.0.1.1.1.0.0" sentencenodepath="18">El director del <argset><head>experimento </head></argset>explicó a EFE que los conflictos del futuro serán muy distintos a los del pasado , pues es muy probable que el enemigo no use uniformes , ni Ø se nos presente con enormes divisiones mecanizadas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="experimentar" originlink="verb.experimentar.3" wordnetsynset="16:00418704+16:00503375+16:04468129">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ins">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" type="S"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-2.tbf.xml" nodepath="5.2.2.0.1" sentencenodepath="5">El usuario puede generar en estos las criaturas que le vengan a la imaginación , y llevar_a_cabo con ellas <argset><reference_modifiers>fascinantes</reference_modifiers><head>experimentos </head></argset>. </example>
+        <example file="3LB-CAST/dc2-1.tbf.xml" nodepath="10.4.0.1" sentencenodepath="10">Más tarde , durante la Segunda_Guerra_Mundial , tanto aliados como alemanes realizaron <argset><reference_modifiers>numerosos</reference_modifiers><head>experimentos </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en ese terreno</argument><reference_modifiers>, la mayoría de ellos fuera de los frentes de batalla</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc2-10.tbf.xml" nodepath="14.3.3.1.0" sentencenodepath="14">Pongamos Ø por caso que Ø hemos arreglado <argset><specifier>el</specifier><head>experimento </head></argset>de_tal_manera_que el laboratorio llegue al punto más alto de su vuelo , a su apogeo , justo cuando el emisor de la torre lanza hacia abajo el paquete de ondas lumínicas . </example>
+        <example file="3LB-CAST/dc2-11.tbf.xml" nodepath="3.0.1.1.0" sentencenodepath="3">En <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestro</argument><head>experimento </head><reference_modifiers>imaginario</reference_modifiers></argset>se ha verificado un corrimiento de la luz hacia frecuencias más altas - - hacia el extremo azul del espectro visible - - porque el laboratorio en caída libre se movía hacia el receptor . </example>
+        <example file="3LB-CAST/dc2-11.tbf.xml" nodepath="6.0.1.1.1.1.0.0" sentencenodepath="6">De la descripción del <argset><head>experimento </head></argset>se colige que el desplazamiento de frecuencias es un fenómeno universal que incumbe a cualquier sistema rítmico afectado por un campo gravitatorio . </example>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="2.3.1.1.4.1.0.0" sentencenodepath="2">En 1960 se consiguió llevar_a_cabo la primera prueba fiable , de construcción muy parecida , por_cierto , al <argset><head>experimento </head><argument argument="arg2" function="cn" thematicrole="ins" type="sp">de la torre y el laboratorio-cohete</argument></argset>. </example>
+        <example file="3LB-CAST/dc2-12.tbf.xml" nodepath="13.0.2.1.0" sentencenodepath="13">Una vez finalizado <argset><specifier>el</specifier><head>experimento </head></argset>se constataron 273 y 59 nanosegundos respectivamente , valores que entran cómodamente dentro_del margen de 20 nanosegundos que se dieron los científicos para amortiguar los posibles errores de medición . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="1.3.1.1.1.0.0" sentencenodepath="1">" Millenium_Challenge ( Reto_del_Milenio ) es el primer experimento de su tipo con una auténtica operación conjunta " , dijo a EFE el director del <argset><head>experimento </head></argset>, Shane_Deichman , que se llevará_a_cabo durante los meses de agosto y septiembre . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="12.2.4.1.1.1.1.2.0.1.3.2.1.1.1.1.0" sentencenodepath="12">Ø Añadió que , en el futuro se harán otros experimentos enfocados hacia la OTAN y Argentina - que ya ha expresado su deseo de que Washington le considere como socio militar especial ajeno a la Alianza_Atlántica - también ha manifestado su interés en <argset><specifier>este</specifier><head>experimento </head></argset>. </example>
+        <example file="CESS-CAST-P/102_20011002.tbf.xml" nodepath="12.4.1.0.1.1.4.1.0" sentencenodepath="12">Y en ese terreno de juego , que ha menguado a la mitad , la religión ha de competir con rivales como la Informática , la iniciación al vídeo , <argset><specifier>los</specifier><head>experimentos </head><argument argument="arg2" function="cn" thematicrole="ins" type="sp">de química</argument></argset>, la práctica de deportes americanos o las experiencias musicales . </example>
+        <example file="CESS-CAST-P/3_19981101.tbf.xml" nodepath="16.0.0.1.1.1.0" sentencenodepath="16">Uno de <argset><specifier>los</specifier><head>experimentos </head><reference_modifiers>más ambiciosos</reference_modifiers></argset>es el que se efectúa simultáneamente en 21 centros sanitarios de toda España . </example>
+        <example file="CESS-CAST-P/42_19990301.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">La veterana estación rusa seguirá <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>experimentos </head></argset>hasta el 2002 . </example>
+        <example file="CESS-CAST-P/42_19990301.tbf.xml" nodepath="7.0.1.1.1.0.0" sentencenodepath="7">Seis días de <argset><head>experimentos </head></argset>. </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="0.3.1.1.1.3.1.1.1.1.1.0.0" sentencenodepath="0">La Cámara_de_Representantes norteamericana decidió ayer prohibir todas las investigaciones que supongan la fabricación y la clonación de embriones humanos incluso en el caso de <argset><head>experimentos </head><reference_modifiers>no reproductivos , es_decir , puramente científicos</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="S">, destinados a la creación de tejidos</argument></argset>. </example>
+        <example file="CESS-CAST-P/71_19991201_a.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">La comisión mixta Congreso-Senado sobre drogas respaldó ayer <argset><specifier>el</specifier><head>experimento </head><reference_modifiers>piloto</reference_modifiers><argument argument="arg2" function="cn" thematicrole="ins" type="sp">sobre narcosalas</argument><reference_modifiers>que va a llevar_a_cabo la comunidad de Madrid en_colaboración_con el Plan_Nacional_sobre_Drogas</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

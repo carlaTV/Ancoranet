@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="proposición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="proponer" originlink="verb.proponer.1" wordnetsynset="16:05355937">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="2" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sp"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/n1-9.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">El director de una filial bancaria de Leipzig recibió <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">proposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de sus superiores</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para trabajar en el Este</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23719_20000629.tbf.xml" nodepath="3.0.3.3.1.3.1.0.1.3.1.0" sentencenodepath="3">Ø Dijo además que Ø es una " contradicción " del PP , que apoyó <argset><specifier>una</specifier><head>proposición </head><reference_modifiers>no de ley</reference_modifiers></argset>para no modificar el precio de los libros , y Ø subrayó que las liberalizaciones sirven para " beneficiar a unos pocos y dejar en el desamparo al resto " . </example>
+        <example file="CESS-CAST-P/124_20010402.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">El Grupo_Parlamentario de IU ha presentado en el Congreso <argset><specifier>una</specifier><head>proposición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">no de Ley</argument><reference_modifiers>, en la que pide que los acontecimientos televisivos que no se emitan en_directo incorporen el subtitulado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/17_20001201.tbf.xml" nodepath="13.0.1.0" sentencenodepath="13"><argset><specifier>La</specifier><head>proposición </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Círculo_de_Empresarios_de_Madrid</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que sean las propias trabajadoras las que costeen su propia baja maternal</argument></argset>resulta insostenible desde cualquier punto de vista e innecesaria , habida_cuenta_de que las medidas vigentes y el coste cero de la cotización de la posible sustituta son más_que suficientes . </example>
+        <example file="CESS-CAST-P/57_20000601_e.tbf.xml" nodepath="1.4.1.0" sentencenodepath="1">La Cámara aprobó ayer , con los votos de PP e IU , <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">proposición </head><reference_modifiers>, rechazada por PSOE y PA</reference_modifiers><reference_modifiers>, que propone que el director de la Radio_Televisión_de_Andalucía sea nombrado por la Cámara</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="proponer" originlink="verb.proponer.1" wordnetsynset="16:05355937">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19561_20000830.tbf.xml" nodepath="4.4.2.3.1.1.0.1.1.2.2.2.0" sentencenodepath="4">En la reunión de Montevideo se facultó al Grupo_de_la_Cuenca_del_Plata , bajo la dirección ejecutiva del Centro_Panamericano_Especializado_en_Fiebre_Aftosa ( PANAFTOSA ) , a que Ø ejecute los estudios e investigaciones necesarios para definir integralmente las áreas de frontera , " en los aspectos que inciden en la situación de riesgo epidemiológico " y <argset>" <specifier>la</specifier>
+            <head>proposición </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de programas especiales acordes a esa caracterización</argument>" </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="proposición_no_de_ley" cousin="no" denotation="result" id="3" lexicalizationtype="nominal" lexicalized="yes" originlemma="proponer" originlink="verb.proponer.1" wordnetsynset="16:05355937">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/104_20011001.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">El Parlament ha aprobado , por unanimidad , <argset><specifier>una</specifier><head>proposición </head><argument argument="argL" function="cn" type="sp">no de ley</argument><reference_modifiers>en la que se reclama a la Generalitat que , en el plazo de seis meses , elabore un estudio sobre la viabilidad de construir una línea de ferrocarril entre Sallent ( Bages ) y La_Pobla_de_Lillet</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

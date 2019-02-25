@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="decreto" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="decretar" originlink="verb.decretar.1" wordnetsynset="16:04909380">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" postype="indefinite" type="determiner"/>
+        <constituent frequency="10" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="10" type="S"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-4.tbf.xml" nodepath="14.4.1.0.2.2.1.2.1.1.1.1.0" sentencenodepath="14">Durante la visita , los expertos se entrevistaron con responsables políticos que aseguraron que , tras la publicación de <argset><specifier>un</specifier><head>decreto </head></argset>el pasado año , la imposición de trabajos forzosos u obligatorios ha sido suspendida en la práctica y ninguna queja ha llegado al conocimiento de los órganos de aplicación de la ley . </example>
+        <example file="CESS-CAST-A/1267_20000103.tbf.xml" nodepath="10.0.1.1.0" sentencenodepath="10">Asimismo , <argset><specifier>el</specifier><head>decreto </head></argset>prohíbe a los barcos congeladores explotar la especie en forma comercial y Ø permite una captura incidental de 7.500 toneladas durante los próximos tres meses . </example>
+        <example file="CESS-CAST-AA/20305_20001025.tbf.xml" nodepath="0.2.2.3.1.0" sentencenodepath="0">El presidente de Serbia , Milan_Milutinovic , ha convocado para las 13.00_GMT de hoy al nuevo Gobierno de transición pactado el Martes por las tres principales fuerzas políticas serbias , y se espera que Ø publique <argset><specifier>el</specifier><head>decreto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de elecciones anticipadas para el 23_de_diciembre</argument></argset>. </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="7.4.4.1.1.1" sentencenodepath="7">Por_otra_parte , Triadú también señaló que la Generalitat prepara un cambio de legislación a_través_de <argset><specifier>un</specifier><reference_modifiers>nuevo</reference_modifiers><head>decreto </head><reference_modifiers>que permita usar la red viaria que depende de la Generalitat , así_como las vías de Ferrocarriles_Catalanes y de metro para que las operadoras de cable extiendan su red</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="8.2.1.1.1" sentencenodepath="8">El consejero de Presidencia manifestó que <argset><specifier>este</specifier><reference_modifiers>nuevo</reference_modifiers><head>decreto </head><reference_modifiers>, que está estudiando en este momento los equipos jurídicos de la Generalitat ,</reference_modifiers></argset>está previsto que Ø entre en vigor el próximo mes_de_noviembre con_el_objetivo_de facilitar la llegada de la infraestructura del cable a toda Cataluña . </example>
+        <example file="CESS-CAST-P/102_19991001.tbf.xml" nodepath="2.0.1.2.4.1.1.1" sentencenodepath="2">La reducción de impuestos , que se concretará en <argset><specifier>un</specifier><reference_modifiers>extenso</reference_modifiers><head>decreto </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">fiscal</argument><reference_modifiers>que será aprobado antes de fin de año</reference_modifiers></argset>, beneficiará sobre_todo a las familias con ingresos inferiores a los 2.600.000 pesetas anuales . </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="9.0.2.1.1.0" sentencenodepath="9">El recurso fue presentado contra <argset><specifier>el</specifier><head>decreto </head><reference_modifiers>1.570/01</reference_modifiers><reference_modifiers>, aprobado a_principios_de diciembre</reference_modifiers></argset>, pero el tribunal especifica que la sentencia afecta a la aplicación de la ley aprobada por el Parlamento . </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="10.2.1.1.1.3.1.0" sentencenodepath="10">Se da la circunstancia de que el propio tribunal avaló <argset><specifier>el</specifier><head>decreto </head></argset>el 28_de_diciembre , de_acuerdo_con el trámite establecido por los procedimientos administrativos . </example>
+        <example file="CESS-CAST-P/18_19981102.tbf.xml" nodepath="9.4.1.1.0" sentencenodepath="9">Ahora el ecumenismo recibe otro golpe con <argset><specifier>un</specifier><head>decreto </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los obispos católicos de Gran_Bretaña e Irlanda</argument><reference_modifiers>prohibiendo a católicos la comunión en una iglesia anglicana</reference_modifiers></argset>y viceversa . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="20.2.0.2.3.1.1.1.1.2.1.1.1.1.0.1" sentencenodepath="20">Ø Estarán de_acuerdo conmigo que hubiera sido mejor el análisis de las previsibles dificultades en la implantación del <argset><reference_modifiers>fatídico</reference_modifiers><head>decreto </head></argset>que llegar a la actual situación , en la que los auténticamente enfrentados - - los defensores de la vía MIR ( incluidos la mayoría de médicos de hospitales públicos que secundaron la huelga el pasado Martes ) y la Administración estatal - - pretenden buscar soluciones técnicamente aceptables en un marco distorsionado por el conflicto y las consiguientes presiones de terceros . </example>
+        <example file="CESS-CAST-P/35_19991202.tbf.xml" nodepath="7.4.2.2.1.0" sentencenodepath="7">El Kremlin recibió ayer un espaldarazo por_parte_del Tribunal_Constitucional , al considerar compatible con la ley fundamental rusa <argset><specifier>el</specifier><head>decreto </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">presidencial</argument><reference_modifiers>que suspende temporalmente a Yuri_Skuratov , el fiscal general</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/42_19990301.tbf.xml" nodepath="12.4.5.1.1.1.0" sentencenodepath="12">Hasta entonces , Ø será explotada de forma comercial , tal_y_como anunció en enero el primer ministro ruso , Yevgueni_Primakov , tras firmar <argset><specifier>un</specifier><head argument="arg1" thematicrole="pat">decreto </head><reference_modifiers>según el cual , a_partir_del próximo junio , la estación dejará de recibir fondos federales y deberá costearse con dinero privado procedente de patrocinadores</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/68_19990302.tbf.xml" nodepath="7.3.2.7.1.0.0" sentencenodepath="7">Sin_embargo , el hepatólogo consideró que ése no era el único problema y que , en cualquier caso , " no se puede hacer investigación por <argset><head>decreto </head></argset>" , lo que obliga a un mayor esfuerzo de la empresa y una mejor adecuación de los recursos . </example>
+        <example file="CESS-CAST-P/81_20000201.tbf.xml" nodepath="8.3.1.1.1.1.0.0" sentencenodepath="8">El punto más crítico en el trabajo de las oficinas se vivirá con la puesta_en_marcha del <argset><head>decreto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de regularización de los 80.000 sin_papeles llegados a España antes del pasado 1_de_junio</argument><reference_modifiers>, cuyo borrador fue debatido ayer en el Foro_de_la_Inmigración</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="3.2.3.1.0" sentencenodepath="3">El PSC quiere que el Govern recurra <argset><specifier>el</specifier><head>decreto </head></argset>ante el Tribunal_Constitucional . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="7.3.1.1.2.1.1.1.0" sentencenodepath="7">Además , Ø confían en el compromiso asumido por el conseller de Economia , Artur_Mas , para aplicar <argset><specifier>el</specifier><head argument="arg1" thematicrole="pat">decreto </head></argset>en Catalunya de la manera más beneficiosa para el pequeño comercio , concentrando en agosto las nuevas aperturas de festivos . </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="14.3.1.1.0.0" sentencenodepath="14">El conseller Artur_Mas lamentó ayer mismo haber tenido que votar en_contra_del <argset><head argument="arg1" thematicrole="pat">decreto </head><reference_modifiers>, que también incluía otras medidas aceptadas por CiU , como la liberalización de los sectores energéticos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="16.2.4.5.1.1.0" sentencenodepath="16">La ejecutiva del PSC anunció que Ø pedirá a la Generalitat que Ø presente un recurso ante el Tribunal_Constitucional contra <argset><specifier>los</specifier><head>decretos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de liberalización de horarios comerciales y del suelo</argument></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="19.4.1.1.0" sentencenodepath="19">En Castilla-La_Mancha , Gobierno y empresarios acordarán la semana próxima aplicar <argset><specifier>el</specifier><head argument="arg1" thematicrole="pat">decreto </head></argset>en la región . </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="0.3.5.2.3.1.0" sentencenodepath="0">El consejero de Comercio del Gobierno Vasco , Josu_Jon_Imaz , explicó ayer que el apoyo del PNV en el Congreso_de_los_Diputados a las medidas liberalizadoras de los horarios comerciales se debió a " una confusión de procedimiento " , al haberse sometido a votación " <argset><specifier>varios</specifier><head argument="arg1" thematicrole="pat">decretos </head></argset>en un mismo paquete " . </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="1.0.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>decreto </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de medidas urgentes</argument><reference_modifiers>de intensificación de la competencia en mercados de bienes y servicios</reference_modifiers></argset>no_sólo incluía la libertad de horarios comerciales , sino_también , por_ejemplo , las medidas sobre el sector energético , el libre descuento de los libros , la potenciación de las mutuas laborales , etcétera . </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="2.0.2.2.1.0" sentencenodepath="2">El PNV apoyó éste y <argset><specifier>otros tres</specifier><head argument="arg1" thematicrole="pat">decretos </head><reference_modifiers>presentados por el Gobierno</reference_modifiers></argset>y Ø votó en_contra_de medidas fiscales . </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="4.0.1.1.1.1.0" sentencenodepath="4">" Al votarse <argset><specifier>varios</specifier><head argument="arg1" thematicrole="pat">decretos </head></argset>en un mismo paquete , Ø dio_lugar a que hubiese un voto favorable que pudo ser interpretado como el apoyo al decreto " , dijo Imaz . </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="4.0.4.1.2.1.2.2.1.1.1.1.0.0" sentencenodepath="4">" Al votarse varios decretos en un mismo paquete , Ø dio_lugar a que hubiese un voto favorable que pudo ser interpretado como el apoyo al <argset><head argument="arg1" thematicrole="pat">decreto </head></argset>" , dijo Imaz . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="por_decreto_de" cousin="no" denotation="none" id="2" lexicalizationtype="adverbial" lexicalized="yes" originlemma="decretar" originlink="verb.decretar.1" wordnetsynset="16:04909380">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/57_20000401_b.tbf.xml" nodepath="1.2.1.1.2.1.2.1.2.2.1.0.0" sentencenodepath="1">El Tribunal_Supremo ha desestimado el recurso interpuesto por la Unión_Progresista_de_Fiscales contra el ascenso de Eduardo_Fungairiño a fiscal de Sala y su nombramiento como fiscal jefe de la Audiencia_Nacional , acordado por <argset><head>decreto </head><argument argument="argL" function="cn" type="sp">del Consejo_de_Ministros</argument></argset>el 30_de_mayo_de_1997 . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

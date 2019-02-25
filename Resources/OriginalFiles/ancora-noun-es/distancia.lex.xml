@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="distancia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="distar" originlink="verb.distar.1" wordnetsynset="16:03967504">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="entre" type="sp"/>
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="con_respecto_a" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="20" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="5" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="6.3.1.1.2.1.1.1.1.0.0" sentencenodepath="6">Pero antes de eso , habrá otras coincidencias : cuando Clinton , esté llegando esta tarde al Palacio_de_Bellevue , donde Ø será recibido con honores militares por el presidente alemán , Johannes_Rau , a pocos metros de <argset><head>distancia </head></argset>, en la Avenida_17_de_Junio , los corredores de la Vuelta_Ciclista a Alemania darán los últimos golpes de pedal de su entrada triunfal a la capital . </example>
+        <example file="3LB-CAST/d1-7.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">Esas dos evidencias resumen <argset><specifier>las</specifier><head>distancias </head><reference_modifiers>máximas</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre uno y otro equipo</argument></argset>. </example>
+        <example file="3LB-CAST/d2-8.tbf.xml" nodepath="4.2.0.1.1.1.1.1.0" sentencenodepath="4">El caso de Rominger , padre de un niño en plena Vuelta a España , con un parto de cesárea para su mujer , es duro de afrontar desde <argset><specifier>la</specifier><head>distancia </head></argset>. </example>
+        <example file="3LB-CAST/dc1-8.tbf.xml" nodepath="7.3.1.1.1.1.0.0" sentencenodepath="7">El cañón puede expeler los copos a más_de cincuenta metros de <argset><head>distancia </head></argset>. </example>
+        <example file="3LB-CAST/dc10-6.tbf.xml" nodepath="10.3.1.1.1.3.3.2.1.1.2.1.2.1.6.1.0" sentencenodepath="10">El código del honor obligaba a los duelistas a observar unas reglas fijas establecidas : ambos contendientes habían de poseer el mismo rango social , de_lo_contrario las diferencias pasaban a solventarse en un juicio ordinario ; Ø habían de llevar dos padrinos o testigos , encargados de determinar el grado de la ofensa , decidir la fecha , el terreno , el tipo de arma y <argset><specifier>la</specifier><head>distancia </head><reference_modifiers>que mediaría entre los adversarios</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="2.0.1.1" sentencenodepath="2"><argset><specifier>La</specifier><reference_modifiers>pequeña</reference_modifiers><head>distancia </head><reference_modifiers>interplanar</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre moléculas adyacentes</argument><reference_modifiers>( 3,17 angstroms para TNCQ y 3,47 angstroms para TTF )</reference_modifiers></argset>permite una gran interacción entre los Om n de moléculas vecinas , es_decir la formación de una banda , un rango restringido de energías permitidas para los electrones en el sólido . </example>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="1.0.4.1.2.1.0.1.1.0.1.1.1.0" sentencenodepath="1">Sin_embargo , el hecho más importante ahora es el contacto existente entre tomos de selenio , <argset><argument argument="arg1" thematicrole="tem" type="relatiu">cuya</argument><head>distancia </head></argset>es menor que la suma de los radios de Van_der_Waals , con lo que en este caso estos compuestos pueden ser conductores bi o tridimensionales . </example>
+        <example file="3LB-CAST/dc3-5.tbf.xml" nodepath="8.3.2.1.0" sentencenodepath="8">Estos metalomacrociclos polimerizan formando un apilamiento entre las distintas moléculas , con <argset><specifier>la</specifier><head>distancia </head><reference_modifiers>interplanar</reference_modifiers><reference_modifiers>adecuada</reference_modifiers></argset>( fig. 2 ) . </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="3.5.1.1.1.1.0" sentencenodepath="3">Ahora_bien , aun logrando el metalomacrociclo polimérico - dopado - y con la cristalización apropiada , no se puede conseguir un control sobre <argset><specifier>la</specifier><head>distancia </head><reference_modifiers>interplanar</reference_modifiers><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de las unidades moleculares paralelas</argument></argset>, lo que sería esencial para asegurar el correcto solapamiento entre orbitales responsables de la conductividad . </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="5.3.1.2.2.2.1.1.1.0.2.1.1.0" sentencenodepath="5">Se trata , en_efecto , de introducir un ligando unido al metal del metalomacrociclo , lo que permite la formación de especies poliméricas en las que <argset><specifier>la</specifier><head>distancia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre macrociclos</argument>( fig. 2 ) </argset>viene fijada por el ligando L. </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="7.4.1.1.0" sentencenodepath="7">Por_otro_lado , el uso de ligandos de distinta naturaleza ( tomos o moléculas ) permite un perfecto control sobre <argset><specifier>la</specifier><head>distancia </head><reference_modifiers>interplanar</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="3.1.1.0" sentencenodepath="3">En los casos estudiados <argset><specifier>esta</specifier><head>distancia </head></argset>está en el rango de 3,2 - 3,5 angstroms . </example>
+        <example file="3LB-CAST/e3-0.tbf.xml" nodepath="4.3.1.1.0" sentencenodepath="4">Pues_bien , lo que Ø sostendremos en lo que sigue es que <argset><specifier>la</specifier><head>distancia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre este fin ideal y el existencial</argument></argset>no es susceptible de acortamiento . </example>
+        <example file="3LB-CAST/t3-5.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">Sabios cuerpos adaptados a la garita jaula , los ojos vigilaban <argset><specifier>la</specifier><head>distancia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del nadador</argument><argument argument="arg2" function="cn" thematicrole="loc" type="sp">con_respecto_a las perpendiculares de los hoyos y los remolinos</argument></argset>. </example>
+        <example file="CESS-CAST-A/10127_20001013.tbf.xml" nodepath="17.2.1.1.3.0.1.1.0.1.1.0.0" sentencenodepath="17">EEUU informó de que dos de sus submarinos seguían las maniobras navales rusas a_centenares de millas de <argset><head>distancia </head></argset>y Ø también detectaron las explosiones . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="1.2.0.1.1.0" sentencenodepath="1">Los estadounidenses Maurice_Greene y Michael_Johnson no se enfrentarán directamente en la pista pero desde <argset><specifier>la</specifier><head>distancia </head></argset>reclamarán , uno en los 100 y el otro en los 400 , el número uno del atletismo mundial masculino . </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="16.0.1.1.2.0.0" sentencenodepath="16">El gol que acortaba <argset><head>distancias </head></argset>lo consiguió Clavasquin en el minuto 32 de fuerte disparo que dejó al meta peruano sin posibilidades de atajarlo . </example>
+        <example file="CESS-CAST-AA/20120_20000525.tbf.xml" nodepath="11.4.1.1.1.1.4.2.1.1.1.0" sentencenodepath="11">Los banqueros de Fráncfort se enfrentan ahora a la necesidad de tener que modificar de_nuevo los tasas más pronto que tarde , para recortar al_menos <argset><specifier>la</specifier><head>distancia </head></argset>con el 6,5_por_ciento que cuesta el dinero en EEUU desde el incremento de medio punto decidido por la Reserva_Federal el pasado 16_de_mayo . </example>
+        <example file="CESS-CAST-AA/3286_20000505.tbf.xml" nodepath="8.1.0.0" sentencenodepath="8">" <argset><head>Distancias </head><reference_modifiers>que parecían insalvables</reference_modifiers></argset>la realidad ha demostrado que no lo eran " . </example>
+        <example file="CESS-CAST-AA/4842_20000606.tbf.xml" nodepath="9.0.1.1.1.2.2.1.1.0" sentencenodepath="9">A_bordo_de un helicóptero , para ganar tiempo en <argset><specifier>las</specifier><head>distancias </head><reference_modifiers>que separan a los pueblos</reference_modifiers></argset>, Don_Felipe viajó más tarde a la pequeña localidad de Molinos , en donde su entusiasta alcalde , Mateo_Andrés , está empeñado en incorporar al municipio a lo más avanzado de la sociedad de la información . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="2.2.2.3.1.1.2.2.0" sentencenodepath="2">La cuarta plaza sigue en_poder_del Celta , pero el equipo vigués continúa su marcha cuesta_abajo y , tras caer derrotado ante el Rayo_Vallecano ( 1-0 ) , Ø está a ocho puntos del Deportivo <argset>, <specifier>la misma</specifier>
+            <head>distancia </head>
+            <reference_modifiers>que separa del liderato a Alavés y Athletic_de_Bilbao</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-AA/6013_20000408.tbf.xml" nodepath="1.4.1.1.1.1.1.1.1.2.3.1.2.1.1.0" sentencenodepath="1">Pese_a haber conseguido sólo dos puntos en las tres últimas jornadas de Liga disputadas , el combinado de José_Manuel_Esnal " Mané " encarará esta confrontación con la mente puesta en sumar una nueva victoria que , caso_de materializarse , serviría para dejar a los de Paco_Flores a <argset><specifier>una</specifier><head>distancia </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">de once puntos</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la tabla clasificatoria</argument></argset>. </example>
+        <example file="CESS-CAST-P/130_19990502.tbf.xml" nodepath="10.2.0.1.1.0.1.1.0" sentencenodepath="10">Sus propias canciones le bastan para levitar , pero al notar que <argset><specifier>la</specifier><head>distancia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">entre Revolución y El_ángel_exterminador</argument></argset>las beneficia a ambas y que rematar el set enlazando Perruzo y Magic no desconcierta a un público rendido a su misal , es normal que Ø se crezca . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="25.0.1.2.1.2.1.2.0.3.2.1.0.0" sentencenodepath="25">El uso de esta herramienta desde el hogar , el espacio laboral ( Ø sea fijo o a <argset><head>distancia </head></argset>) o los ratos de ocio , plantea el dilema de quién es el propietario del mensaje en cada caso y qué tipo de legislación lo ampara . </example>
+        <example file="CESS-CAST-P/18_19981102.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head>distancia </head></argset>creció con la decisión que dividió a la Iglesia_de_Inglaterra ( bastante caótica , por_otra_parte ) al aprobar la ordenación de mujeres . </example>
+        <example file="CESS-CAST-P/25_20010102.tbf.xml" nodepath="10.4.2.1.3.2.1.0" sentencenodepath="10">Unas 70.000 personas participaron ayer en el sepelio de Thabet_Thabet , secretario general de Al_Fatah , partido del presidente Yasir_Arafat , en la cisjordana localidad de Tulkarem , a <argset><specifier>poca</specifier><head>distancia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de Netanya</argument></argset>. </example>
+        <example file="CESS-CAST-P/45_20010302.tbf.xml" nodepath="4.3.1.1.1.1.1.1.3.4.1.1.0" sentencenodepath="4">Al ser informados por la editorial de la suspensión del acto , Ø decidieron ir a la puerta de los estudios provisionales de Ràdio_Barcelona , que se encuentran a <argset><specifier>muy poca</specifier><head>distancia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de la iglesia</argument></argset>. </example>
+        <example file="CESS-CAST-P/46_20010802.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">El precio del carburante en Suecia es casi el mismo aunque <argset><specifier>la</specifier><head>distancia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre dos gasolineras</argument></argset>sea de más de 1.000 kilómetros . </example>
+        <example file="CESS-CAST-P/50_19990301.tbf.xml" nodepath="18.0.1.1.1.0" sentencenodepath="18">" Antes <argset><specifier>la</specifier><head>distancia </head></argset>era muy larga , pero ahora Ø coges el coche y en un momento Ø estás en las Glòries " , explica Ø . </example>
+        <example file="CESS-CAST-P/65_20000801.tbf.xml" nodepath="10.0.2.1.0" sentencenodepath="10">El desnivel vertical y <argset><specifier>la</specifier><head>distancia </head><reference_modifiers>horizontal</reference_modifiers></argset>se salvarán con ascensores inclinados . </example>
+        <example file="CESS-CAST-P/83_20011102.tbf.xml" nodepath="4.2.2.1.1.1.1.1.1.1.1.0.0" sentencenodepath="4">El reto es embocar la bola en un hoyo situado a 105 metros de <argset><head>distancia </head></argset>con un solo golpe . </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="11.3.0.0" sentencenodepath="11">Y Ø marcó <argset><head>distancias </head><reference_modifiers>con la iniciativa adoptada por la Junta_de_Andalucía , que no se basó en ningún criterio de igualdad sino en una pura decisión política y que calificó de " rupturista con el Pacto_de_Toledo "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/86_20000401.tbf.xml" nodepath="6.0.0.1.0" sentencenodepath="6"><argset><specifier>Las</specifier><head>distancias </head></argset>son largas ; las esperas , desesperantes . </example>
+        <example file="CESS-CAST-P/93_20000302.tbf.xml" nodepath="22.2.0.3.0.1.2.1.0" sentencenodepath="22">Gerard pudo conseguirlo en un remate de cabeza ( m.30 ) y también Ilie y Farinós en tres o cuatro ocasiones más , pero el balón siempre fue fuera , a <argset><specifier>poca</specifier><head>distancia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de los palos</argument></argset>, o Ø se encontró con Toldo , el mejor jugador del conjunto florentino junto_al portugués Rui_Costa . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="a_distancia" cousin="no" denotation="result" id="2" lexicalizationtype="adverbial" lexicalized="yes" originlemma="distar" originlink="verb.distar.1" wordnetsynset="16:03967504+16:06307377">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/d2-13.tbf.xml" nodepath="12.2.1.0.0" sentencenodepath="12">Los dos andan disputando a <argset><head>distancia </head></argset>otra carrera contrarreloj . </example>
+        <example file="CESS-CAST-AA/4683_20001107.tbf.xml" nodepath="13.0.2.1.0.0" sentencenodepath="13">El " Memphis " y el " Toledo " , de Estados_Unidos , y el " Splendid " , del Reino_Unido , seguían a <argset><head>distancia </head></argset>las maniobras navales y Ø no pudieron colisionar con el " Kursk " , según esas informaciones . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="mando_a_distancia" cousin="no" denotation="result" id="3" lexicalizationtype="nominal" lexicalized="yes" originlemma="distar" originlink="verb.distar.1" wordnetsynset="16:06307377">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="5.0.1.1.1.1.1.1.0.0" sentencenodepath="5">Un fallo en el mando a <argset><head>distancia </head></argset>hizo fracasar el atentado planeado por ese comando , que pretendía volar un furgón ocupado por 24 militares , según la justicia española . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="salvar_las_distancias" cousin="no" denotation="none" id="4" lexicalizationtype="verbal" lexicalized="yes" originlemma="distar" originlink="verb.distar.1" wordnetsynset="16:03967504">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/121_20020202.tbf.xml" nodepath="2.2.2.1.0" sentencenodepath="2">El resultado recuerda , salvando <argset><specifier>las</specifier><head>distancias </head></argset>, al filme medular del melodrama romántico hollywoodiense , Tú_y_yo , y las muchas revisiones que Ø ha tenido en los últimos años , Algo_para_recordar a la cabeza . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

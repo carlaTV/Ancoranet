@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ahorro" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ahorrar" originlink="verb.ahorrar.1" wordnetsynset="16:00126393+16:cs1">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="respecto_a" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="indefinite" type="determiner"/>
+        <constituent frequency="11" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-5.tbf.xml" nodepath="16.4.0.1.3.1.1.0" sentencenodepath="16">De llevarse_a_cabo , la fusión creará una sociedad con ingresos combinados de 12.400 millones de dólares mientras que los beneficios económicos inmediatos supondrán al_menos <argset><specifier>un</specifier><head>ahorro </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 150 millones de dólares</argument></argset>. </example>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="8.2.1.0.2.1.1.2.3.0.2.3.1.0" sentencenodepath="8">La quiebra del Fondo_Nacional_de_Inversores , mayor fondo mutuo privado , que desencadenó el pánico la semana pasada a 300.000 personas , fue seguida por intentos desestabilizadores en el Banco_Comercial_Rumano ( BCR ) , el mayor del Estado , y en el CEC , entidad en la que seis millones de rumanos colocaron <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>ahorros </head></argset>. </example>
+        <example file="CESS-CAST-A/12432_20000416.tbf.xml" nodepath="2.2.1.2.1.0" sentencenodepath="2">García explicó que las compañías de telecomunicaciones pueden lograr <argset><specifier>un</specifier><head>ahorro </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de hasta el 60_por_ciento</argument></argset>al operar en este mercado virtual , y Ø sólo deben abonar a Iber-X una comisión sobre la operación , del 3_por_ciento el vendedor y del 2_por_ciento el comprador . </example>
+        <example file="CESS-CAST-A/12432_20000416.tbf.xml" nodepath="4.0.1.0.0" sentencenodepath="4">Además_del <argset><head>ahorro </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">económico</argument></argset>, las operaciones a_través_de Iber-X permiten a las compañías vender producto excedente y comprar para atender necesidades coyunturales en_tiempo_real , frente_a los plazos de varios meses del mercado tradicional . </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="0.4.5.1.1.1.1.1.0.0" sentencenodepath="0">El ex ministro español de Industria_y_Energía Luis_Carlos_Croissier sugirió hoy , lunes , a las autoridades mexicanas que Ø impulsen la privatización de empresas estatales en el mercado de valores para elevar la captación del <argset><head>ahorro </head><reference_modifiers>interno</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/12584_20001016.tbf.xml" nodepath="10.7.1.0.3.1.1.1.0" sentencenodepath="10">En 1990 , agregó Ø , las tasas de interés se situaban en el 15,15_por_ciento , con un nivel de inflación real del 5,8_por_ciento , lo que empujaba a los inversores a canalizar <argset><specifier>el</specifier><head>ahorro </head></argset>hacia instrumentos bancarios y de renta pública . </example>
+        <example file="CESS-CAST-A/13810_20000617.tbf.xml" nodepath="1.3.2.3.1.1.1.0.0" sentencenodepath="1">EXPANSION destaca en su portada que las sospechas sobre las compras bursátiles de Villalonga hunden el valor de Telefónica y que el Ejecutivo aumentará los incentivos al <argset><head>ahorro </head></argset>con importantes medidas para rebajar la presión fiscal y favorecer la movilidad de los fondos de inversión . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="6.3.6.1.2.0.1.0.0" sentencenodepath="6">El Parlamento_Europeo introdujo varias enmiendas para proteger a los consumidores contra los riesgos que tienen este tipo de inversiones porque , como resaltó el eurodiputado popular José_Manuel_García-Margallo , Ø " constituyen hoy_día el primer instrumento de <argset><head>ahorro </head></argset>" y que hay que " liberalizar pero con prudencia " . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="12.0.5.1.1.1.1.0.2.2.1.0" sentencenodepath="12">Como en los últimos años , " el Tesoro mantendrá abierta la posibilidad de realizar emisiones oportunistas que conlleven <argset><specifier>un</specifier><head>ahorro </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">respecto_a la financiación tradicional vía bonos y obligaciones</argument></argset>" , apunta el Proyecto . </example>
+        <example file="CESS-CAST-AA/5255_20000110.tbf.xml" nodepath="0.3.2.0.3.1.0" sentencenodepath="0">La imagen corporativa del nuevo Banco_Bilbao_Vizcaya_Argentaria ( BBVA ) mantendrá los colores y tipografía del Banco_Bilbao_Vizcaya ( BBV ) , lo que permitirá a la entidad <argset><specifier>un</specifier><head>ahorro </head><argument argument="argM" function="cn" thematicrole="adv" type="sp">de costes</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la implantación de la nueva marca</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de unos 26.000 millones de pesetas</argument></argset>, según fuentes de la entidad . </example>
+        <example file="CESS-CAST-AA/8203_20000210.tbf.xml" nodepath="0.4.1.1.0.1.1.3.0.0" sentencenodepath="0">La Comisión_Nacional_del_Mercado_de_Valores ( CNMV ) ha incoado un expediente sancionador a la sociedad " Port_Kenny_Holding " y a su apoderado , Fernando_Heras_Castán , por tener indicios de que Ø está captando <argset><head>ahorro </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de inversores</argument></argset>sin la preceptiva autorización . </example>
+        <example file="CESS-CAST-AA/8203_20000210.tbf.xml" nodepath="2.0.4.2.4.1.1.1.0.0" sentencenodepath="2">Por ello , Ø advierte al público que esta entidad no está registrada en la CNMV y que Ø no está autorizada para captar <argset><head>ahorro </head></argset>, y Ø ha adoptado determinadas medidas para que cese su actividad . </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="8.2.1.0" sentencenodepath="8">La fusión de las divisiones de ciencias de la vida significará <argset><specifier>unos</specifier><head>ahorros </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de unos 171.600 millones de pesetas</argument></argset>durante los próximos tres años . </example>
+        <example file="CESS-CAST-P/10_20020102.tbf.xml" nodepath="0.2.1.1.1.1.0.0" sentencenodepath="0">El Gobierno de Portugal decidió abrir una cuenta de <argset><head>ahorro </head></argset>con 50 euros ( 8.319 pesetas ) a los bebés nacidos el 1_de_enero_del_2002 , según anunció el lunes_,_31_de_diciembre , el ministro de Economía portugués , Guilherme_d'Oliveira_Martins . </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="0.4.1.2.2.1.1.1.1.2.1.0.0" sentencenodepath="0">El Tribunal_Supremo de Argentina declaró ayer inconstitucional el corralito financiero , el bloqueo de las cuentas salariales y de <argset><head>ahorro </head></argset>decretado por el EX expresidente Fernando_de_la_Rúa y su ministro de Economía , Domingo_Cavallo , y ratificado por el presidente Eduardo_Duhalde mediante una ley aprobada en el Parlamento . </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="5.5.2.3.1.3.1.0" sentencenodepath="5">Al declarar inconstitucional el corralito , el Tribunal_Supremo pone en jaque a la Administración de Duhalde , ya_que Ø allana el camino para que miles de personas puedan recuperar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>ahorros </head></argset>, pero se teme que los bancos no puedan responder a la demanda de sus clientes . </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="13.4.1.1.1.3.2.1.0" sentencenodepath="13">Hasta la fecha , los empleados argentinos pueden retirar un máximo de 1.500 pesos mensuales ( unos 1.253 euros , cerca_de 208.000 pesetas ) de los bancos en los que Ø ingresan sus salarios o Ø guardan <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>ahorros </head></argset>. </example>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="3.0.4.1.2.1.1.1.1.1.2.1.1.1.0.0" sentencenodepath="3">La devaluación progresiva del real frente_al dólar - - en enero la divisa brasileña cayó más del 70% , la sangría incontrolada de capitales y el pánico popular ante los rumores de que el Gobierno confiscaría las cuentas de <argset><head>ahorro </head></argset>y Ø declararía la moratoria en los pagos de sus deudas , ha encendido todas las luces de alarma . </example>
+        <example file="CESS-CAST-P/69_20010201_d.tbf.xml" nodepath="2.3.1.0" sentencenodepath="2">Con el contrato , de unos 1.400 millones de pesetas anuales , la Generalitat obtendrá <argset><specifier>un</specifier><head>ahorro </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">anual</argument><argument argument="argM" function="cn" thematicrole="ext" type="sp">del 19%</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la factura eléctrica</argument><argument argument="argM" function="cn" thematicrole="ext" type="sp">de 90 puntos de consumo de las conselleries y el Institut_Català_de_la_Salut</argument></argset>. </example>
+        <example file="CESS-CAST-P/69_20010201_j.tbf.xml" nodepath="1.2.2.1.0" sentencenodepath="1">La aerolínea belga ha incrementado su previsión inicial de 400 despidos en una plantilla de 11.233 empleados , y Ø busca <argset><specifier>un</specifier><head>ahorro </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 115.472 millones de pesetas</argument></argset>. </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="6.3.1.1.1.1.2.2.1.1.1.0.0" sentencenodepath="6">UGT y CCOO proponen , como alternativa a cerrar los sábados , la instauración de un horario similar al que desarrollan las cajas de <argset><head>ahorros </head></argset>, que abren una tarde a la semana . </example>
+        <example file="CESS-CAST-P/99_20000102.tbf.xml" nodepath="0.2.0.2.1.1.1.3.1.1.1.1.0.0" sentencenodepath="0">El magistrado del Tribunal_Supremo , José_Antonio_Somalo_Giménez , ha sido nombrado defensor del cliente de la Federación_Catalana_de_Cajas_de_Ahorro , que agrupa a las 10 entidades de <argset><head>ahorros </head></argset>de Catalunya . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="ahorrar" originlink="verb.ahorrar.1" wordnetsynset="16:00126393">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a15-8.tbf.xml" nodepath="1.0.0.2.0" sentencenodepath="1"><argset>Reciclaje , <head>ahorro </head>, aprovechamiento de los residuos y lucha contra el despilfarro energético de los países ricos </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="caja_de_ahorros" cousin="no" denotation="result" id="3" lexicalizationtype="nominal" lexicalized="yes" originlemma="ahorrar" originlink="verb.ahorrar.1" wordnetsynset="16:00126393">
+    <frame appearsinplural="yes" type="default">
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/a15-7.tbf.xml" nodepath="0.1.1.1.2.1.1.1.0.0" sentencenodepath="0">De un tiempo a esta parte los sobres que envía la caja de <argset><head>ahorros </head></argset>( básicamente para avisar del saldo negativo ) llevan una especie de marca con tres flechas planas y dobladas , cada una de las cuales muere en la siguiente . </example>
+        <example file="3LB-CAST/a15-7.tbf.xml" nodepath="2.0.1.1.1.1.0.0" sentencenodepath="2">A_pesar_de_que la caja de <argset><head>ahorros </head></argset>en cuestión tiene su sede en el mismísimo centro de Barcelona , Ø lo pone en inglés . </example>
+        <example file="3LB-CAST/a15-7.tbf.xml" nodepath="11.0.1.1.1.1.1.1.0.0" sentencenodepath="11">Los sobres de la caja de <argset><head>ahorros </head></argset>son exactamente iguales a los que Ø enviaban antes de añadirles lo de recycled_ecological_paper . </example>
+        <example file="3LB-CAST/a15-7.tbf.xml" nodepath="13.1.3.1.1.0.1.1.1.1.0.0" sentencenodepath="13">Pues porque ponerlo no cuesta casi nada y , poniéndolo , los de la caja de <argset><head>ahorros </head></argset>creen quedar no como capitalistas chupasangres sino como respetuosos con el entorno . </example>
+        <example file="CESS-CAST-P/105_20000401.tbf.xml" nodepath="7.3.1.3.1.1.1.3.1.1.1.1.1.0.0" sentencenodepath="7">No estaría mal algún gesto social claro de estas concesionarias , que dependen sobre_todo de las cajas de <argset><head>ahorro </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

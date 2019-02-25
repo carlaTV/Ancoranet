@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="división" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="dividir" originlink="verb.dividir.1" wordnetsynset="16:06102171">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" postype="article" type="determiner"/>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="8" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="2.4.1.2.1.1.2.3.1.0" sentencenodepath="2">La semana pasada el Departamento_de_Justicia y los gobiernos de 17 de los 19 estados que demandaron a Microsoft en 1998 presentaron al juez una versión ajustada de sus propuestas de solución judicial , entre las que figura <argset><specifier>la</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la firma</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">en dos compañías</argument></argset>. </example>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="5.2.1.1.0" sentencenodepath="5">Los abogados de Microsoft aseguran que <argset><specifier>la</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la firma</argument></argset>disminuiría gravemente su capacidad para competir en el mercado de los programas informáticos . </example>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="12.2.2.0.2.0.0" sentencenodepath="12">Mientras , el ministro de Defensa , general Eliécer_Hurtado , se vio obligado a salir_al_paso de los ya casi normales y permanentes rumores de golpe de Estado , y Ø negó que haya <argset><head>división </head></argset>en las filas castrenses y mucho menos que esté en marcha una conspiración contra Chávez . </example>
+        <example file="3LB-CAST/111_C-2.tbf.xml" nodepath="14.2.3.1.1.1.1.1.3.1.1.1.1" sentencenodepath="14">Ø Añadió que Ø desconoce la procedencia de los rumores , que estarían motivados por <argset><specifier>una</specifier><reference_modifiers>supuesta</reference_modifiers><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la milicia</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">entre los partidarios de Chávez y los seguidores del aspirante presidencial y también militar retirado , Francisco_Arias_Cárdenas , quien sí se ha explayado al dar sus opiniones sobre la " payasada " del aplazamiento electoral</argument></argset>
+        </example>
+        <example file="CESS-CAST-A/10268_20000413.tbf.xml" nodepath="5.0.0.1.5.1.0.1" sentencenodepath="5">Desde que Ø comenzó su trayectoria profesional con el Figueres en <argset><reference_modifiers>segunda</reference_modifiers><head>división </head></argset>( 1990/92 ) , el maleficio de perder ante el Barcelona acompañó a Toni tanto en el Rayo_Vallecano ( 1992/93 ) como en el Espanyol ( 1993/99 ) . </example>
+        <example file="CESS-CAST-A/1329_20000703.tbf.xml" nodepath="0.0.2.1.1.0" sentencenodepath="0">El empresario catalán Joan_Castells , precandidato en las elecciones del FC_Barcelona , sostiene que <argset><specifier>la</specifier><head>división </head><reference_modifiers>que existe actualmente en la masa social del club</reference_modifiers></argset>podría repararse si sale elegido él presidente , pero Ø está convencido de que la cohesión no será posible si los vencedores en las urnas son sus oponentes Joan_Gaspart o Lluís_Bassat . </example>
+        <example file="CESS-CAST-AA/3589_20000405.tbf.xml" nodepath="0.4.2.2.1.1.0" sentencenodepath="0">La oposición cristianodemócrata cosechó hoy duras críticas de los partidos de la coalición gubernamental , socialdemócratas y verdes , al abogar abiertamente por <argset><specifier>una</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Kosovo</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="0.4.1.2.1.5.1.1.1.1.0.1.1.0.0" sentencenodepath="0">El tercera base venezolano Carlos_Guillén entró hoy en el libro de la historia del béisbol profesional de las Grandes_Ligas al pegar su primer gran slam en las Mayores en el legendario Yankee_Stadium y permitir que los Marineros_de_Seattle venciesen 8-5 a los Yanquis en el duelo de líderes de <argset><head>división </head></argset>. </example>
+        <example file="CESS-CAST-AA/5145_20000207.tbf.xml" nodepath="3.0.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>división </head><reference_modifiers>de alarmas residenciales y para pymes</reference_modifiers><reference_modifiers>, Protección_Activa ,</reference_modifiers></argset>cerró el año con 90.000 conexiones en todo el mundo , mientras_que en España Ø consiguió duplicar el número de clientes hasta alcanzar las 40.000 conexiones . </example>
+        <example file="CESS-CAST-AA/7291_20000112.tbf.xml" nodepath="4.0.0.1.3.1.1.1.1.1.1" sentencenodepath="4">Valencia , que jugó en un equipo de <argset><specifier>la</specifier><reference_modifiers>segunda</reference_modifiers><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de fútbol</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Colombia</argument></argset>, es el hermano mayor de Adolfo , internacional que en la actualidad milita en el equipo griego del Paok_de_Salónica . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="2.0.2.3.3.1.1.1.0" sentencenodepath="2">El presidente del PP del País_Vasco , Carlos_Iturgaiz , dijo que el País_Vasco atraviesa un momento " grave y preocupante " y es necesario rebajar la tensión política para evitar <argset><specifier>la</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">social</argument></argset>, pero Ø consideró que corresponde al PNV y al Gobierno_Vasco hacerlo porque Ø fueron quienes rompieron " el pacto donde estaba el 90_por_ciento de la sociedad , la Mesa_de_Ajuria_Enea , para enrolarse en Estella , donde está el 45_por_ciento y que no busca la paz , sino la construcción nacional " . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="11.2.4.1.0.2.0" sentencenodepath="11">El portavoz del Gobierno_Vasco , Josu_Jon_Imaz , aseguró que " los que cometen los crímenes buscan crear <argset>confrontación , <head>división </head>y enfrentamiento </argset>entre las fuerzas políticas y la sociedad vasca " , por lo que Ø pidió " no caer nunca en esa trampa " . </example>
+        <example file="CESS-CAST-AA/8039_20000610.tbf.xml" nodepath="7.3.2.1.0.1.1.1.2.1.1.1.0" sentencenodepath="7">Según el viceministro surcoreano de Reunificación , Yang_Young_Shik , el Gobierno quiere vincular su cooperación económica al asunto de los núcleos familiares rotos por <argset><specifier>la</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la península</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">en dos países</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de 1945</argument></argset>. </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="14.0.1.3.1.1.0" sentencenodepath="14">El presupuesto conjunto de investigación y desarrollo ( I_+_D ) de <argset><specifier>las dos</specifier><head>divisiones </head><reference_modifiers>fusionadas</reference_modifiers></argset>asciende a 429.000 millones de pesetas . </example>
+        <example file="CESS-CAST-P/108_20000601_a.tbf.xml" nodepath="12.3.3.1.1.2.1.0" sentencenodepath="12">No_obstante , Ø ha anunciado que Ø apelará cualquier dictamen que establezca <argset><argument argument="arg0" thematicrole="cau" type="spec">su</argument><head>división </head></argset>, lo cual prolongaría el proceso judicial mucho tiempo . </example>
+        <example file="CESS-CAST-P/10_20020501.tbf.xml" nodepath="5.0.2.1.1.0.0" sentencenodepath="5">Gracias_a la tecnología , a <argset><specifier>la</specifier><head>división </head>y organización del trabajo </argset>, a la acumulación de conocimientos y experiencias , el trabajo se ha ido humanizando y perdiendo el carácter de maldición divina . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head>división </head><reference_modifiers>interna</reference_modifiers></argset>crece . </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="11.2.1.2.2.1.1.1.1.1" sentencenodepath="11">La presentación de la candidatura de Porta la semana pasada desató un cruce de acusaciones entre ambos candidatos que puso_de_manifiesto la existencia de <argset><specifier>una</specifier><reference_modifiers>fuerte</reference_modifiers><head>división </head></argset>en esta institución histórica catalana . </example>
+        <example file="CESS-CAST-P/19_20010901.tbf.xml" nodepath="0.2.1.1.2.0.1.1.0.0.0" sentencenodepath="0">LA CONFERENCIA DE DURBAN MANEJA TRES CONCEPTOS QUE SON SINÓNIMO DE <argset><head>DIVISIÓN </head>SEPARACIÓN O EXCLUSIÓN </argset>. </example>
+        <example file="CESS-CAST-P/30_19990201.tbf.xml" nodepath="19.0.0.3.1.1.0.3.1.1.0" sentencenodepath="19">" Ø Respetamos a los que están contentos en <argset><specifier>la</specifier><head>división </head><reference_modifiers>interna</reference_modifiers><argument argument="argM" function="cn" thematicrole="adv" type="sp">, con uno , dos o tres líderes</argument></argset>" , afirmó Ø , y Ø les pidió que Ø respetaran al PP , " fuerte , unido y cohesionado " . </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="20.2.2.5.5.1.0.2.1.0.4.0" sentencenodepath="20">El portavoz del Ejecutivo_de_Vitoria , Josu_Jon_Imaz , acusó a Aznar de lanzar un " mensaje basado en la confrontación y la ausencia de diálogo " , pero Ø aseguró que PNV y EA acudirán a sus respectivas reuniones con Mayor_Oreja dispuestos a buscar " espacios de entendimiento " , porque Ø no desean potenciar " mensajes de <argset>crispación , fractura o <head>división </head>
+          </argset>" . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="18.2.4.1.2.2.1.1.1.0.0" sentencenodepath="18">Por una parte , al exigir al PNV una rectificación en_toda_regla de la estrategia política que a_principios_de año Ø aprobó en su asamblea , Ø propicia que los dirigentes nacionalistas se enroquen en sus postulados para conjurar toda imagen de claudicación ; por la otra , Ø alienta a los disidentes a plantar_cara a Arzalluz y reforzar ante el electorado la imagen de <argset><head>división </head><reference_modifiers>interna</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="3.0.5.1.1.2.1.0.0" sentencenodepath="3">" La sociedad vasca no se merece el clima de crispación política y de <argset><head>división </head></argset>que , con nuestra intolerancia , con nuestras descalificaciones y con la negativa permanente al diálogo , Ø estamos generando " , lamentó Ø . </example>
+        <example file="CESS-CAST-P/65_20010602.tbf.xml" nodepath="0.3.1.1.1" sentencenodepath="0">El grupo químico BASF integrará sus actividades de España y el sur de Europa en <argset><specifier>una</specifier><reference_modifiers>nueva</reference_modifiers><head>división </head><reference_modifiers>dirigida desde Alemania por Dieter_Tomaschewscky</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/65_20010602.tbf.xml" nodepath="1.0.0.2.1.0.2.1.1.0" sentencenodepath="1">Josep_Maria_Bach ( foto ) , hasta ahora responsable de <argset><specifier>la</specifier><head>división </head><reference_modifiers>regional</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Europa_sur</argument></argset>y vicepresidente de BASF_Española , permanecerá como gerente del grupo en España hasta su jubilación , " dentro de seis meses " , dijo Ø ayer en la presentación de los resultados del grupo . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="18.3.4.4.3.4.1.0.1" sentencenodepath="18">El director del experimento explicó a EFE que los conflictos del futuro serán muy distintos a los del pasado , pues es muy probable que el enemigo no use uniformes , ni Ø se nos presente con <argset><reference_modifiers>enormes</reference_modifiers><head>divisiones </head><reference_modifiers>mecanizadas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17070_20000321.tbf.xml" nodepath="8.4.0.1.1.1.0.2.3.1.1.2.1.1.0" sentencenodepath="8">El cuadro venezolano presentará como novedades ante México la incorporación del delantero Juan_Arango , quien juega en el club Saltillo de <argset><specifier>la</specifier><head>división </head><reference_modifiers>de ascenso</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del fútbol mexicano</argument></argset>, y a Ruberth_Morán , quien milita en el Córdoba de la segunda división española . </example>
+        <example file="CESS-CAST-A/18813_20000223.tbf.xml" nodepath="3.2.4.0.1.1.3.1.1.1.1.1.3.1.5.1.0.1" sentencenodepath="3">El médico valencianista confirmó que la lesión del jugador ha llegado a este punto después de que se haya producido una degeneración de la lesión que sufrió el meta de L'Alcudia hace dos años y medio , cuando Ø militaba con el Villarreal en <argset><reference_modifiers>segunda</reference_modifiers><head>división </head></argset>. </example>
+        <example file="CESS-CAST-AA/5694_20000908.tbf.xml" nodepath="4.0.2.1.1" sentencenodepath="4">Esos factores han determinado <argset><specifier>las</specifier><reference_modifiers>nuevas</reference_modifiers><head>divisiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la sociedad contemporánea</argument><reference_modifiers>" que es urgente corregir "</reference_modifiers></argset>, dijo el presidente , quien consideró que en este encuentro del Milenio los objetivos deben ser responder a los retos del futuro y " no reducirse a los buenos propósitos " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="dividir" originlink="verb.dividir.1" wordnetsynset="16:00247514+16:05368405">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="9.4.5.0.5.1.1.0" sentencenodepath="9">Stoiber no cuestiona la legitimidad en sí de la ampliación , pues , Ø afirma , si Ø no hubiera sido por <argset><specifier>la</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Europa</argument><argument argument="argM" function="cn" thematicrole="mnr" type="sp">en dos bloques</argument></argset>, " Polonia o Hungría no hubieran ingresado más tarde que España o Portugal , porque Ø son países que forman_parte del núcleo de Europa " . </example>
+        <example file="CESS-CAST-P/39_19990202.tbf.xml" nodepath="3.1.4.3.1.1.1.0.0" sentencenodepath="3">No_obstante , Ø constató una gran diferencia entre los dos procesos de paz : " En Irlanda_del_Norte se está logrando la reconciliación de una sociedad dividida , mientras_que en el País_Vasco se está dando un proceso de <argset><head>división </head></argset>, impulsado desde la política , de una sociedad que no lo está " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="dividir" originlink="verb.dividir.1" wordnetsynset="16:00247514+16:04514703">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3589_20000405.tbf.xml" nodepath="8.2.1.0.1.2.1.0" sentencenodepath="8">Algunos diputados verdes y liberales advirtieron del peligro que acarrearía <argset><specifier>la</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Kosovo</argument></argset>para toda la región , si se tiene_en_cuenta que la consecuencia lógica sería la creación de una Gran_Albania . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="0.3.1.0.1.5.1.1.2.2.2.1.1" sentencenodepath="0">El PP y el PSOE alertaron hoy del deterioro que , a su juicio , se está produciendo en la sociedad vasca tras los últimos acontecimientos , especialmente el asesinato del periodista José_Luis_López_de_Lacalle y <argset><specifier>la</specifier><reference_modifiers>posterior</reference_modifiers><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">entre los partidos</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en los actos de condena del mismo</argument></argset>. </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="2.3.1.1.1.1.0" sentencenodepath="2">La francesa Rhône-Poulenc y la alemana Hoechst cerraron ayer la fusión de <argset><argument argument="arg0" thematicrole="cau" type="spec">sus</argument><head>divisiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de farmacia y agricultura</argument><reference_modifiers>- - integradas dentro del ramo denominado ciencias de la vida ( farmacia , fitosanitarios y productos veterinarios ) - -</reference_modifiers></argset>bajo el nombre de Aventis , el segundo gigante farmacéutico mundial y el primero en el ramo fitosanitario . </example>
+        <example file="CESS-CAST-P/102_19981202.tbf.xml" nodepath="8.0.1.1.1.1.0" sentencenodepath="8">La fusión de <argset><specifier>las</specifier><head>divisiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ciencias de la vida</argument></argset>significará unos ahorros de unos 171.600 millones de pesetas durante los próximos tres años . </example>
+        <example file="CESS-CAST-P/108_20000601_a.tbf.xml" nodepath="10.2.1.1.0" sentencenodepath="10">Los abogados de Microsoft , empresa que creó el programa Windows que usan el 95% de los ordenadores , aseguran que <argset><specifier>la</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la firma</argument></argset>disminuiría su capacidad para competir . </example>
+        <example file="CESS-CAST-P/6_20010501.tbf.xml" nodepath="2.3.1.1.1.0" sentencenodepath="2">Y siguió la reforma parcial de las pensiones , con <argset><specifier>la</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">no_sólo de las dos grandes centrales</argument></argset>, sino con la disensión interna en UGT . </example>
+        <example file="CESS-CAST-P/90_20010701.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>división </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de consultoría estratégica</argument><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de la firma de servicios profesionales Mazars</argument></argset>ha incorporado a Luis_Ramallo como miembro independiente de su consejo asesor . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="primera_división" cousin="no" denotation="result" id="4" lexicalizationtype="nominal" lexicalized="yes" originlemma="dividir" originlink="verb.dividir.1" wordnetsynset="16:06116890">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="11.3.0.2.1.0.1.2.2.1.1.2.1.1.1.1.0.1" sentencenodepath="11">Este " superclásico " entre los equipos con mayores hinchadas del fútbol argentino se disputó tres días después de otro que terminó igualado a un gol en la undécima jornada de la liga de <argset><reference_modifiers>primera</reference_modifiers><head>división </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="abastecimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="abastecer" originlink="verb.abastecer.1" wordnetsynset="16:00684444">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13169_20001017.tbf.xml" nodepath="5.3.1.0" sentencenodepath="5">La huelga no afectará <argset><specifier>el</specifier><head>abastecimiento </head></argset>debido_a_que los frigoríficos , las empresas alimentarias y las cadenas de supermercados aumentaron sus compras la semana pasada en previsión de una escasez de productos . </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="13.0.4.2.1.0.1.1.1.0" sentencenodepath="13">" El problema es doble porque no_sólo hay dificultades con <argset><specifier>el</specifier><head>abastecimiento </head></argset>, sino_que también la gente está comprando más carburante de lo normal " , afirmó una portavoz de BP_Amoco . </example>
+        <example file="CESS-CAST-P/56_20000801_f.tbf.xml" nodepath="1.2.1.1.1.0.1.1.1.1.1.0.0" sentencenodepath="1">La Conselleria_de_Medi_Ambient ha aprobado el proyecto de ampliación de la red de <argset><head>abastecimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de agua potable</argument></argset>de Juncosa , por 73 millones , dentro_de un programa de actuaciones urgentes . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="abastecer" originlink="verb.abastecer.1" wordnetsynset="16:00684444">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13026_20001117.tbf.xml" nodepath="9.4.1.1.1.2.1.2.2.1.0.0.1.0.1.0.0" sentencenodepath="9">Además , Ø se comprometerán a realizar los esfuerzos necesarios para dotarse en los próximos años de medios de transporte estratégico , armas guiadas , de medios de <argset><head>abastecimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de combustible en vuelo</argument></argset>, de supresión de defensas aéreas , medios de defensa contra misiles tierra-tierra , y medios humanos , aéreos y satélites de espionaje . </example>
+        <example file="CESS-CAST-P/39_20000302.tbf.xml" nodepath="8.3.2.1.1.0" sentencenodepath="8">El delegado del Gobierno en Melilla dijo ayer que ya se han importado más de 2.000 corderos de la Península y que <argset><specifier>el</specifier><head>abastecimiento </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para la comunidad musulmana</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para la celebración de su fiesta</argument></argset>" está asegurada " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

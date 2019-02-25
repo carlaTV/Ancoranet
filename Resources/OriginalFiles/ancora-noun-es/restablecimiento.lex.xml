@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="restablecimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="event" id="1" lexicalized="no" originlemma="restablecer" originlink="verb.restablecer.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-5.tbf.xml" nodepath="12.3.2.1.1.1.0" sentencenodepath="12">La central neozelandesa de trabajadores ( CTU ) , con 200.000 afiliados y que agrupa a los sindicatos de este país , ha decidido hoy iniciar un boicot comercial y turístico contra Fiyi para lograr <argset><specifier>el</specifier><head>restablecimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la democracia constitucional</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en ese país</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="restablecer" originlink="verb.restablecer.1" wordnetsynset="16:cs1+16:cs2">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="1.0.1.3.1.1.0" sentencenodepath="1">La sexta legislatura parlamentaria desde <argset><specifier>el</specifier><head>restablecimiento </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la democracia</argument></argset>empezó con la esperanza y también con el convencimiento de que esta vez las actitudes de consenso y de diálogo saldrían adelante , por_encima_de otras actitudes . </example>
+        <example file="CESS-CAST-P/26_20000802.tbf.xml" nodepath="8.2.1.0.1.0.0" sentencenodepath="8">Estas medidas están sujetas al <argset><head>restablecimiento </head><reference_modifiers>" duradero "</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de una paz civil</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la isla</argument></argset>y al buen uso que haga la Asamblea corsa de las transferencias de competencias de aquí al 2002 . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

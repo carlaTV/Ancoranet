@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="enmienda" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="enmendar" originlink="verb.enmendar.1" wordnetsynset="16:00811999">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="4" type="s.a"/>
+        <constituent frequency="6" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="1.2.1.1.1.0.0" sentencenodepath="1">Los eurodiputados incorporaron una serie de <argset><head>enmiendas </head><argument argument="argM" function="cn" thematicrole="fin" type="S">para aumentar la protección de los inversores y que ahora deberán negociarse con los ministros de Finanzas de la Unión_Europea ( UE )</argument></argset>. </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="6.2.1.0" sentencenodepath="6">El Parlamento_Europeo introdujo <argset><specifier>varias</specifier><head>enmiendas </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para proteger a los consumidores contra los riesgos que tienen este tipo de inversiones</argument></argset>porque , como resaltó el eurodiputado popular José_Manuel_García-Margallo , Ø " constituyen hoy_día el primer instrumento de ahorro " y que hay que " liberalizar pero con prudencia " . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="7.0.1.1.0" sentencenodepath="7">Entre <argset><specifier>esas</specifier><head>enmiendas </head></argset>figura una reducción del 35 al 20_por_ciento del límite máximo para inversión en instrumentos vinculados a índices bursátiles . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="8.0.1.1.1.0.0" sentencenodepath="8">Otra serie de <argset><head>enmiendas </head></argset>impone mayores exigencias a las sociedades de gestión de fondos de inversión . </example>
+        <example file="CESS-CAST-AA/21758_20000627.tbf.xml" nodepath="11.2.1.1.1.0" sentencenodepath="11">Ø Comentó que sin <argset><specifier>las</specifier><head>enmiendas </head><reference_modifiers>de última hora</reference_modifiers></argset>, cabía la posibilidad de que " los estándares laborales y medioambientales fueran utilizados por algunas organizaciones para practicar nuevas formas de neo-proteccionismo " . </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="1.3.1.1.4.1.0.0" sentencenodepath="1">El portavoz socialista de Infraestructuras , José_Segura , justificó hoy esta medida , que se completa con <argset><head>enmiendas </head><reference_modifiers>parciales</reference_modifiers></argset>, por " la ausencia de información y la falta de planificación " de las obras previstas . </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="4.2.1.0" sentencenodepath="4">El Grupo_Socialista ha presentado <argset><specifier>una</specifier><head>enmienda </head><reference_modifiers>específica</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la disposición adicional primera</argument><reference_modifiers>, que se refiere al seguimiento de las actuaciones</reference_modifiers></argset>, porque Ø no incluye a entes públicos dependientes del Ministerio_de_Fomento como el Gestor_de_Infraestructuras_Ferroviarias ( GIF ) , Aeropuertos_Españoles_y_Navegación_Aérea ( AENA ) o Puertos_del_Estado . </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">El Grupo_Socialista ha presentado <argset><specifier>una</specifier><head>enmienda </head><reference_modifiers>parcial</reference_modifiers><reference_modifiers>en la que pide que se incremente en 10.000 millones de pesetas la partida destinada a subsidiar el pago de las hipotecas</reference_modifiers></argset>, ya_que , según Segura , " la que consignan los presupuestos es muy corta " . </example>
+        <example file="CESS-CAST-AA/5253_20001207.tbf.xml" nodepath="6.3.1.1.1" sentencenodepath="6">La demanda contra la candidatura de Cheney se basa en <argset><specifier>la</specifier><reference_modifiers>duodécima</reference_modifiers><head>enmienda </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la Constitución de EEUU</argument><reference_modifiers>, que prohíbe que un elector vote por un presidente y un vicepresidente del mismo estado</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8725_20000411.tbf.xml" nodepath="2.0.1.1.1.0" sentencenodepath="2">" Con <argset><specifier>las</specifier><head>enmiendas </head></argset>se produciría el desarme de la Constitución de 1980 , lo que implica que el poder pase sin control al Ejecutivo " , aseguró el senador institucional y ex comandante en jefe de la Armada , Jorge_Martínez_Busch . </example>
+        <example file="CESS-CAST-P/39_20010202.tbf.xml" nodepath="16.2.3.0.0" sentencenodepath="16">Ø Sabemos que Putin ha propuesto <argset><head>enmiendas </head><reference_modifiers>que sólo permiten al juez emitir órdenes de arresto</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/39_20010202.tbf.xml" nodepath="17.2.0.0" sentencenodepath="17">- - <argset><head>Enmiendas </head><reference_modifiers>que fueron retiradas bajo la presión de la fiscalía</reference_modifiers></argset>... . </example>
+        <example file="CESS-CAST-P/70_20010801.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>La</specifier><head>enmienda </head><reference_modifiers>, que fue rechazada en la Cámara_de_Representantes por 265 votos contra 162 ,</reference_modifiers></argset>pone en jaque numerosas y prometedoras investigaciones médicas , algunas de las cuales ya están en curso . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="enmienda_a_la_totalidad" cousin="no" denotation="result" id="2" lexicalizationtype="nominal" lexicalized="yes" originlemma="enmendar" originlink="verb.enmendar.1" wordnetsynset="16:00811999">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argL">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">El Grupo_Parlamentario_Socialista ha presentado <argset><specifier>una</specifier><head>enmienda </head><argument argument="argL" function="cn" type="sp">a la totalidad</argument></argset>, con petición de devolución , a la sección 17 del Proyecto_de_Ley_de_Presupuestos_Generales_del_Estado para el próximo año , que se refiere a la política de infraestructuras . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

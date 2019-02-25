@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="exposición" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="exponer" originlink="verb.exponer.1" wordnetsynset="16:06217283">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13973_20000518.tbf.xml" nodepath="1.4.1.1.1.1.1.0" sentencenodepath="1">Acompañados por la Reina_Paola , esta tercera jornada de estancia oficial de los Reyes_de_España en Bélgica se abrió con la inauguración de <argset><specifier>la</specifier><head>exposición </head><reference_modifiers>" Tapicerías_de_la_Corona_de_España "</reference_modifiers></argset>en la Catedral_de_San_Miguel_y_Santa_Gúdula , en Bruselas . </example>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="6.3.1.1.0" sentencenodepath="6">SITC_Cultura ofrece las propuestas culturales del mercado mediante <argset><specifier>una</specifier><head>exposición </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de 1.000 metros cuadrados , un 20% más que el año pasado</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5830_20000307.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Los Reyes inauguraron hoy <argset><specifier>la</specifier><head>exposición </head><reference_modifiers>dedicada a la obra de Antoni_Tápies</reference_modifiers><reference_modifiers>que abrirá sus puertas al público a_partir_de mañana en el Centro_de_Arte_Reina_Sofía</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/5830_20000307.tbf.xml" nodepath="1.3.1.1.1.2.2.1.1.1.1.1.0" sentencenodepath="1">Don_Juan_Carlos y Doña_Sofía recibieron información sobre la muestra del propio artista , acompañado por su esposa , Teresa_Barba , y por el comisario de <argset><specifier>la</specifier><head>exposición </head></argset>, Manuel_Borja-Villel , que también les explicó los pormenores de algunas de las noventa obras que ha reunido la exposición . </example>
+        <example file="CESS-CAST-AA/5830_20000307.tbf.xml" nodepath="5.2.0.1.2.1.1.2.3.1.1.1.2.2" sentencenodepath="5">Telas , cartones , tierra metal , madera , o simples esteras son elementos empleados por el pintor en su prolífica obra , que incluye más de 7.000 piezas , y que esta selección <argset>, <specifier>la</specifier>
+            <reference_modifiers>tercera</reference_modifiers>
+            <reference_modifiers>gran</reference_modifiers>
+            <head>exposición </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Tápies</argument>
+            <argument argument="arg2" function="cn" thematicrole="loc" type="sp">en Madrid</argument>, </argset>trata de resumir . </example>
+        <example file="CESS-CAST-P/25_20000301.tbf.xml" nodepath="4.2.2.1.0.2.1.0.1.1" sentencenodepath="4">Van allí los interesados por la obra de Miró , los que quieren ver <argset><specifier>las</specifier><reference_modifiers>diversas</reference_modifiers><head>exposiciones </head></argset>y actos que se realizan allí , los que valoran la arquitectura de Sert , los que deciden subir a Montjuïc y se lo encuentran sin preverlo . </example>
+        <example file="CESS-CAST-P/8_20020502.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">Jaime_de_Marichalar y su hijo Froilán visitaban <argset><specifier>una</specifier><head>exposición </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el Palacio_de_Congresos_de_Madrid , muy cerca del Bernabéu ,</argument></argset>cuando se produjo el atentado . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="exponer" originlink="verb.exponer.3" wordnetsynset="16:06217283">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/t3-2.tbf.xml" nodepath="12.2.1.1.0" sentencenodepath="12">El taxista seguía con <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>exposición </head><reference_modifiers>tan maravillada como rutinaria</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/12469_20001216.tbf.xml" nodepath="4.2.0.1.1.4.3.1.0" sentencenodepath="4">La empresa tiene planes para abrir una nueva galería en Zurich en marzo próximo , que celebraría <argset><specifier>cuatro</specifier><head>exposiciones </head></argset>al año , según el diario . </example>
+        <example file="CESS-CAST-A/17012_20000221.tbf.xml" nodepath="2.5.1.0" sentencenodepath="2">Durante la visita de Verdonck y otros directivos del banco se inaugurará oficialmente en el Museo_Nacional_de_Bellas_Artes de Argentina <argset><specifier>una</specifier><head>exposición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de arte español</argument><reference_modifiers>titulada " De_Goya_a_Picasso "</reference_modifiers><reference_modifiers>, de la que el Urquijo es patrocinador</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="1.4.1.1.1.0.0" sentencenodepath="1">El SITC , que celebra ahora su novena edición , ha aumentado durante los últimos años un 20% su superficie de <argset><head>exposición </head></argset>para llegar a la actual edición con más de 42.000 metros cuadrados . </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="11.0.3.1.1.0" sentencenodepath="11">El canciller cubano fue preguntado también por <argset><specifier>la</specifier><head>exposición </head><reference_modifiers>que se celebra en Cuba</reference_modifiers><reference_modifiers>en la que participan compañías farmacéuticas estadounidenses</reference_modifiers></argset>y Ø rechazó que ello pueda ser un ejemplo de que se haya flexibilizado el bloqueo , que se mantiene " estricta y rigurosamente aplicado " . </example>
+        <example file="CESS-CAST-AA/5830_20000307.tbf.xml" nodepath="1.3.1.1.1.2.2.1.1.3.4.1.1.1.0.1.1.1.1.2.1.0" sentencenodepath="1">Don_Juan_Carlos y Doña_Sofía recibieron información sobre la muestra del propio artista , acompañado por su esposa , Teresa_Barba , y por el comisario de la exposición , Manuel_Borja-Villel , que también les explicó los pormenores de algunas de las noventa obras que ha reunido <argset><specifier>la</specifier><head>exposición </head></argset>. </example>
+        <example file="CESS-CAST-AA/5830_20000307.tbf.xml" nodepath="4.2.1.1.1.1.1.0" sentencenodepath="4">Don_Juan_Carlos y Doña_Sofía siguieron el recorrido establecido para <argset><specifier>la</specifier><head>exposición </head><reference_modifiers>, que se ajusta a un cierto orden cronológico de la obra de Tápies</reference_modifiers><reference_modifiers>, en la que se pueden ver varios de sus autorretratos , collages y otros trabajos , que llegan hasta 1999 , como " Imagen_de_tierra " , o " Complemento "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/122_20010502.tbf.xml" nodepath="1.2.1.1.2.1.0.3.1.1.1.0" sentencenodepath="1">Bartomeu_Cruells , portavoz de La_Mirada , explicó que la edición de " un catálogo en_forma_de álbum fotográfico y documental " inspirado en <argset><specifier>la</specifier><head>exposición </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Sabadell</argument></argset>era un proyecto antiguo de la entidad . </example>
+        <example file="CESS-CAST-P/122_20010502.tbf.xml" nodepath="2.5.1.1.1.1.1.1.1.1.1.1.1.0" sentencenodepath="2">Como la muestra del centenario " duró menos de un mes " , añadió Cruells , los seguidores de la Colla se pusieron manos a la obra para completarla con este libro que respetará la estructura de <argset><specifier>la</specifier><head>exposición </head></argset>y recogerá todas las fotografías y documentos que se exhibieron . </example>
+        <example file="CESS-CAST-P/122_20010502.tbf.xml" nodepath="8.2.1.2.1.2.1.0.1.1.0.0" sentencenodepath="8">La_Diputació_de_Barcelona , que ha cedido la gestión del inmueble modernista donde residió la familia de Oliver y se reunía el grupo , ha acabado el proyecto arquitectónico para transformar dos corrales y una cochera en salas de <argset><head>exposición </head><reference_modifiers>permanente</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/169_20010202.tbf.xml" nodepath="1.3.1.0" sentencenodepath="1">Con este motivo , el Palau_de_la_Música de la ciudad ha organizado <argset><specifier>una</specifier><head>exposición </head><reference_modifiers>inédita</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sn">, La_Edad_de_Oro_de_la_Cuerda ,</argument><reference_modifiers>que presenta auténticas joyas de este tipo de instrumentos , por las que el mejor de los intérpretes perdería la cabeza</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/169_20010202.tbf.xml" nodepath="5.0.0.1.1.1.2.1.1.0" sentencenodepath="5">Otra de las piezas más cotizadas de <argset><specifier>la</specifier><head>exposición </head></argset>es un stradivarius conocido como Golden_Bell , de 1686 . </example>
+        <example file="CESS-CAST-P/169_20010202.tbf.xml" nodepath="8.0.1.0" sentencenodepath="8"><argset><specifier>La</specifier><head>exposición </head></argset>se completa con una colección de arcos ( para rasgar las cuerdas ) y 41 pochettes , los instrumentos de arco más pequeños que existen . </example>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="23.2.1.1.0" sentencenodepath="23">La inauguración del poema corpóreo coincidirá con <argset><specifier>una</specifier><head>exposición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de homenaje al artista , que ahora será póstumo</argument></argset>. </example>
+        <example file="CESS-CAST-P/8_20020502.tbf.xml" nodepath="3.1.2.4.1.1.0" sentencenodepath="3">Según una portavoz de la muestra , Marichalar " se mostró impasible para no asustar al niño " y Ø se quedó cinco minutos más visitando <argset><specifier>la</specifier><head>exposición </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="3" lexicalized="no" originlemma="exponer" originlink="verb.exponer.3" wordnetsynset="16:cs1+16:06217283+16:05153478">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por_parte_de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="3.3.1.1.2.1.1.0.3.1.1.0" sentencenodepath="3">El vencimiento medio se ha situado en 5,5 años , dos más que a_mediados_de los noventa , extensión que permite al Estado reducir <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>exposición </head></argset>a los repuntes de tipos pero que , al tiempo , provoca un aumento de la deuda en circulación . </example>
+        <example file="CESS-CAST-P/122_20010502.tbf.xml" nodepath="0.4.1.2.1.1.0" sentencenodepath="0">La_Fundació_La_Mirada , entidad difusora la obra de Joan_Oliver , Pere_Quart ( 1899-1986 ) , y de la Colla_de_Sabadell - - que Oliver lideró junto_a Francesc_Trabal y Armand_Obiols - - , sacará a la luz este verano un libro conmemorativo de <argset><specifier>la</specifier><head>exposición </head><argument argument="arg1" function="cn" thematicrole="pat" type="sn">La_Colla_de_Sabadell_,_entre_el_noucentisme_i_l'avantguarda</argument><reference_modifiers>, organizada en el mes_de_noviembre_de_1999 en el Casal_Pere_Quart_de_Sabadell con_motivo_del centenario del nacimiento de Oliver y Trabal</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/17_20000301.tbf.xml" nodepath="7.3.1.2.2.1.1.0" sentencenodepath="7">Lo es también la incitación a actos de brutalidad que subyace en <argset><specifier>la</specifier><head>exposición </head><reference_modifiers>indiscriminada</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de símbolos racistas</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en las gradas</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por_parte_de grupos organizados</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">, con la culpable indiferencia o incluso el beneplácito de la concurrencia y de determinados equipos directivos que de forma instrumental les dan aliento</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="presentar" originlink="verb.presentar.1" wordnetsynset="16:06217283">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="5.2.5.1.1.2.1.0.2.1.0.4.0" sentencenodepath="5">Ø Explicó que esta labor Ø la realiza a_través_de una gran variedad de programas culturales , educativos y informativos como <argset>presentaciones de libros , conciertos , <head>exposiciones </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de arte</argument>y cursos de español , programa este último que cuenta con 2.500 alumnos </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

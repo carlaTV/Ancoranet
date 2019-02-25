@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="alternativa" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="alternar" originlink="verb.alternar.1" wordnetsynset="16:04463475">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="4" preposition="a" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" foundincorporated="yes">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="7" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" postype="article" type="determiner"/>
+        <constituent frequency="10" type="void"/>
+        <constituent frequency="10" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="12" type="s.a"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="15.4.3.1.1" sentencenodepath="15">Hace dos semanas , el escritor peruano Mario_Vargas_Llosa comentó en México que Vicente_Fox representa <argset><specifier>la</specifier><reference_modifiers>única</reference_modifiers><head>alternativa </head><reference_modifiers>de oposición</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="sp">para poner_fin a 71 años del PRI en el poder</argument></argset>. </example>
+        <example file="3LB-CAST/c2-6.tbf.xml" nodepath="0.1.1.5.3.1.0.1" sentencenodepath="0">Claro que cuando Felipe_González ( que a_lo_que_parece no ha perdido del_todo el carisma aquel que Ø tuvo ) lanza piropos a Aznar , y Ø le seduce con cenas y discursos y Ø lo califica de <argset><reference_modifiers>clara</reference_modifiers><head>alternativa </head></argset>( acaso también en el clásico sentido de claro / ilustre ) está ocurriendo algo desolador y terrible , igual que si , llegado al Gobierno , José_María_Aznar se volcase en mieles dialécticas con González . </example>
+        <example file="3LB-CAST/dc2-3.tbf.xml" nodepath="6.1.2.0.0" sentencenodepath="6">En 1943 , como <argset><head>alternativa </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la bomba atómica - en cuyo desarrollo ya se había comenzado a investigar -</argument></argset>, los Estados_Unidos se dispusieron a fabricar bombas de carbunco y más adelante de toxinas botulímicas . </example>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="6.0.1.0" sentencenodepath="6"><argset><specifier>Una</specifier><head argument="arg2">alternativa </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para lograr una menor repulsión coulómbica , y al propio tiempo modular el potencial redox ,</argument></argset>consiste en la síntesis de moléculas aceptoras con sistemas n extendidos que contengan anillos heterocíclicos . </example>
+        <example file="3LB-CAST/dc3-13.tbf.xml" nodepath="9.0.1.0" sentencenodepath="9"><argset><specifier>Una</specifier><head argument="arg2">alternativa </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para lograr moléculas aceptoras eficaces</argument></argset>se refiere al fragmento electronegativo de la molécula capaz de deslocalizar la carga . </example>
+        <example file="3LB-CAST/r2-10.tbf.xml" nodepath="7.0.3.3.3.1.1.0" sentencenodepath="7">Eso es una insensatez porque es evidente que una política se empantana en su propio cieno y surge <argset><specifier>una</specifier><head argument="arg1" thematicrole="pat">alternativa </head><reference_modifiers>que es muy posible que desagrade</reference_modifiers></argset>, pero es evidente que hay que llegar a elecciones cuanto_antes . </example>
+        <example file="CESS-CAST-A/10664_20000117.tbf.xml" nodepath="6.3.1.1.1.2.2.1.0.0" sentencenodepath="6">En la conferencia de prensa Pedro_Antonio_Ríos expresó su deseo de que durante el periodo que falta para las elecciones se hable de <argset><head>alternativas </head></argset>y se hagan propuestas sobre el empleo , la mejora de las condiciones laborales y el modelo de Estado . </example>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="10.0.3.4.1.0" sentencenodepath="10">" Pero esta no es una respuesta totalmente negativa , por ello Ø también planteamos <argset><specifier>otras</specifier><head>alternativas </head><reference_modifiers>compensatorias</reference_modifiers><reference_modifiers>, como la ampliación del Pacto_de_San_José , con lo que podemos subsidiar el 20_por_ciento</reference_modifiers></argset>" , indicó el mandatario . </example>
+        <example file="CESS-CAST-A/13738_20000217.tbf.xml" nodepath="22.0.0.1.0" sentencenodepath="22"><argset><specifier>Las</specifier><head>alternativas </head><argument argument="arg2" function="cn" type="sp">a los sistemas de compra habituales , como el comercio electrónico ,</argument></argset>están ganando mucha importancia e Ø irán adquiriendo una gran relevancia . </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="7.0.6.1.1.4.2.1.3.2.0" sentencenodepath="7">La estrategia con la línea de modelos pequeños y medianos de Rover " no ha conducido al éxito " , razón por la que BMW ha decidido desvincularse de su filial , tras analizar que no quedaba <argset>" <specifier>otra</specifier>
+            <head>alternativa </head>
+            <reference_modifiers>viable</reference_modifiers>" </argset>, agregó el presidente . </example>
+        <example file="CESS-CAST-A/15624_20001019.tbf.xml" nodepath="1.4.8.1.0" sentencenodepath="1">El consejero delegado de Iberdrola , Javier_Herrero , señaló a EFE que cualquier posible oferta " se analizará adecuadamente y se tomará la decisión que corresponda " , aunque , puntualizó Ø , su compañía " sólo tiene hoy <argset><specifier>la</specifier><head>alternativa </head><reference_modifiers>completa , estudiada y cerrada con Endesa</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-A/16816_20000221.tbf.xml" nodepath="4.5.2.1.0" sentencenodepath="4">En_espera_de la respuesta del Gobierno francés , queda también por definir el trazado definitivo que tendría esta vía transpirenaica dado_que existen <argset><specifier>varias</specifier><head>alternativas </head><reference_modifiers>, en las que Loyola_de_Palacio destacó la necesidad de tener_en_cuenta que se trata de una zona que requiere " especial sensibilidad medioambiental y también histórica " por albergar por_ejemplo rutas del Camino_de_Santiago</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16875_20000321.tbf.xml" nodepath="12.2.2.4.1.1.2.3.1.1" sentencenodepath="12">Rangel recordó que la violencia de Colombia repercute directamente en su país , ya_que Ø comparten 2.219 kilómetros de " frontera común , activa y plagada de problemas " , y Ø señaló que desde Venezuela se apuesta por la paz en Colombia , que es <argset><specifier>la</specifier><reference_modifiers>única</reference_modifiers><head>alternativa </head></argset>. </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="9.2.2.3.1.1" sentencenodepath="9">Los Yanquis saben que hasta mediados del mes_de_abril Ø no van a necesitar un quinto abridor y que el relevista panameño Ramiro_Mendoza podría ser <argset><specifier>la</specifier><reference_modifiers>mejor</reference_modifiers><head argument="arg1" thematicrole="pat">alternativa </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a ocupar ese puesto que deje vacante Yarnall</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="6.2.4.0.0" sentencenodepath="6">García resaltó que aunque el INS tiene autoridad para aplicar sus decisiones , Ø ha buscado <argset><head argument="arg2">alternativas </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para que el caso sea llevado sin causarle más traumas al niño , uno de tres sobrevivientes de un naufragio de inmigrantes ilegales cubanos ocurrido en las costas de Florida en noviembre pasado , en el que murió su madre</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23278_20001129.tbf.xml" nodepath="0.3.5.1.0.0" sentencenodepath="0">El presidente de la Asociación_Española_de_Titulados_Náutico_Pesqueros - Aetinape - , José_Manuel_Muñiz , ha pedido a la Unión_Europea que se comiencen a recuperar caladeros propios en aguas de la UE como <argset><head argument="arg2">alternativa </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a las dificultades para pescar en países como Marruecos</argument></argset>, según indica Ø en un comunicado . </example>
+        <example file="CESS-CAST-AA/25091_20000929.tbf.xml" nodepath="3.1.2.2.2.3.1.0" sentencenodepath="3">En_cuanto_a la moción de censura presentada por los socialistas en el País_Vasco , Frutos aseguró que Ø estaría dispuesto a apoyarla " siempre_que el acuerdo para gobernar se pactara entre ambos grupos " y Ø destacó que " cuando no hay <argset><specifier>otra</specifier><head argument="arg2">alternativa </head></argset>se deben convocar elecciones " . </example>
+        <example file="CESS-CAST-AA/25617_20000929.tbf.xml" nodepath="3.3.2.1.0.1" sentencenodepath="3">Hasta ese instante el partido resultó muy equilibrado y con <argset><reference_modifiers>constantes</reference_modifiers><head>alternativas </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el luminoso</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4496_20000109.tbf.xml" nodepath="1.0.6.4.1.1.0.2.1.1.1.1.0" sentencenodepath="1">" Y como eso se sabe , Ø intentarán ensuciar con todo tipo de cosas la campaña , porque Ø han sido una oposición mala e incapaz de plantear <argset><specifier>una</specifier><head>alternativa </head><reference_modifiers>constructiva</reference_modifiers></argset>a la sociedad española " , explicó Aznar , ante unas mil personas en un mitin del PP en Melilla . </example>
+        <example file="CESS-CAST-P/107_19991001.tbf.xml" nodepath="2.4.2.2.1.1" sentencenodepath="2">El ministro instó a los fabricantes a mejorar la calidad de los servicios que rodean a los productos , como " casi <argset><specifier>la</specifier><reference_modifiers>única</reference_modifiers><head>alternativa </head>" <argument argument="argM" function="cn" thematicrole="fin" type="sp">para aumentar las ventas , en un mercado europeo más integrado y con perspectivas de crecimiento de la demanda interior cada vez menores</argument></argset>. </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="0.0.0.0.1.0" sentencenodepath="0"><argset><argument argument="arg1" thematicrole="pat" type="spec">Nuestra</argument><head argument="arg2">alternativa </head></argset>es y Ø será contundente , pero basada en la responsabilidad , en la propuesta constructiva y en el convencimiento de la necesidad de un cambio de estilo que beneficiará a todos . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="6.2.1.1.1.1.1.1" sentencenodepath="6">Parece lo más normal que el líder de <argset><specifier>la</specifier><reference_modifiers>principal</reference_modifiers><head argument="arg2">alternativa </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de gobierno</argument></argset>, que está al_frente_de un grupo de 50 diputados ilusionados y con ganas de trabajar , tenga despacho en la propia Cámara , que es donde se tienen que decidir las prioridades legislativas . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="26.0.0.0.1.0" sentencenodepath="26"><argset><argument argument="arg1" thematicrole="pat" type="spec">Nuestra</argument><head argument="arg2">alternativa </head></argset>es y Ø será contundente , pero basada en la responsabilidad , en la propuesta constructiva y en el convencimiento de la necesidad de un cambio de estilo que beneficiará a todos . </example>
+        <example file="CESS-CAST-P/27_20020801_a.tbf.xml" nodepath="8.2.0.0" sentencenodepath="8">Ésta y otras agencias buscaban <argset><head argument="arg2">alternativas </head><reference_modifiers>de transporte</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="sp">para sus clientes</argument></argset>, principalmente en las aerolíneas que unen Barcelona y las Baleares ( Iberia , Spanair y Air_Europa ) . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="24.1.1.2.1.1.1.1" sentencenodepath="24">De ahí el interés del Gobierno en afianzar <argset><specifier>una</specifier>" <head argument="arg2">alternativa </head><reference_modifiers>de libertad</reference_modifiers>" </argset>junto_al PSOE , en palabras de Aznar . </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="11.2.1.1.0.0" sentencenodepath="11">El objetivo del PP es configurarse como <argset><head argument="arg2">alternativa </head><reference_modifiers>de gobierno</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Catalunya</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para aplicar las políticas que nuestro partido ya ha hecho realidad en el Gobierno de España</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="29.4.1.1.0.0" sentencenodepath="29">¿ Qué pasos debe dar Ø para ser <argset><head argument="arg2">alternativa </head></argset>? - - . </example>
+        <example file="CESS-CAST-P/42_20020802.tbf.xml" nodepath="8.3.1.1" sentencenodepath="8">Y Hierro - - que se siente poeta de segunda y que no entiende que se hayan vendido 11 ediciones de su Cuaderno_de_Nueva_York - - , es <argset><specifier>una</specifier><reference_modifiers>buena</reference_modifiers><head argument="arg2">alternativa </head></argset>. </example>
+        <example file="CESS-CAST-P/82_19991202.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>Las</specifier><head>alternativas </head><argument argument="arg2" function="cn" type="sp">al abeto</argument><reference_modifiers>que propone el Instituto_de_Parques_y_Jardines</reference_modifiers></argset>son el durillo , el laurel_alejandrino , y el madroño , que estarán a la venta en numerosos establecimientos que han suscrito un acuerdo de colaboración con el ayuntamiento . </example>
+        <example file="CESS-CAST-P/98_19990601.tbf.xml" nodepath="6.2.2.0.0" sentencenodepath="6">UGT y CCOO proponen , como <argset><head argument="arg2">alternativa </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a cerrar los sábados</argument></argset>, la instauración de un horario similar al que desarrollan las cajas de ahorros , que abren una tarde a la semana . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

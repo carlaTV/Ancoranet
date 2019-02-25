@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="conducción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="conducir" originlink="verb.conducir.3" wordnetsynset="16:00193637">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="a_lo_largo_del" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-9.tbf.xml" nodepath="4.2.2.1.0" sentencenodepath="4">La desventaja de esta técnica es que se necesita un edificio donde colocar los compresores y los depósitos de aire comprimido ; después hay que instalar <argset><specifier>unas</specifier><head>conducciones </head><reference_modifiers>que introduzcan el aire comprimido en el cañón</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="5.4.1.2.1.1.0.0" sentencenodepath="5">Si las bandas están totalmente llenas y hay un salto de energía hasta la siguiente banda vacía , sería necesario un gran aporte energético para que los electrones pudiesen desplazarse y dar_lugar a <argset><head>conducción </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">eléctrica</argument></argset>( fig. 4A ) . </example>
+        <example file="3LB-CAST/dc3-10.tbf.xml" nodepath="8.4.5.1.1.1.1.0.0" sentencenodepath="8">Pero si la banda ocupada más alta está parcialmente llena , existen estados electrónicos vacíos infinitamente próximos al nivel de Fermi ( al estado ocupado más alto ) , de_modo_que esos electrones pueden tomar_parte en la conductividad eléctrica en esta banda de <argset><head>conducción </head></argset>. </example>
+        <example file="3LB-CAST/dc3-5.tbf.xml" nodepath="10.4.0.0" sentencenodepath="10">En algunos casos también se ha podido observar <argset><head>conducción </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por contacto entre los tomos metálicos contenidos en los macrociclos</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="9.3.4.1.0" sentencenodepath="9">Por_otro_lado , Hanack y sus colaboradores , en Alemania , han demostrado que si se utilizan metales de transición como Fe , Ru , Os , Co , Rh , Mn o Cr , que imponen una configuración octaédrica , y se utilizan moléculas orgánicas con sistemas n como ligandos , es posible <argset><specifier>una</specifier><head>conducción </head><reference_modifiers>adicional</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">a_lo_largo_del eje central</argument></argset>en estos polímeros . </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="3.3.1.1.1.3.1.1.1.1.0.0" sentencenodepath="3">Un convoy del metro de Madrid recorre tres estaciones sin el chófer , que olvidó desactivar la palanca de <argset><head>conducción </head></argset>. </example>
+        <example file="CESS-CAST-P/66_19990601.tbf.xml" nodepath="10.0.4.1.4.1.1.1.0.0" sentencenodepath="10">Cuando el conductor , de 36 años , se dio_cuenta de que Ø se había dejado la palanca de <argset><head>conducción </head></argset>en posición de marcha Ø se bajó al andén y Ø persiguió el convoy por el túnel . </example>
+        <example file="CESS-CAST-P/79_19990302.tbf.xml" nodepath="7.2.5.1.3.1.1.0" sentencenodepath="7">La sentencia de la juez de instrucción número 21 , María_del_Carmen_Suárez , afirma que el imputado " no adoptó las medidas de atención exigibles en <argset><specifier>la</specifier><head>conducción </head></argset>" , por lo que Ø perdió el control del coche . </example>
+        <example file="CESS-CAST-P/9_20010601_a.tbf.xml" nodepath="7.1.1.2.1.2.1.0" sentencenodepath="7">Lamentablemente , la única forma de hacer posible <argset><specifier>una</specifier><head>conducción </head><reference_modifiers>masiva y a precio razonable</reference_modifiers></argset>es colocar la siniestralidad en límites razonables . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="conducir" originlink="verb.conducir.3" wordnetsynset="16:07837945">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-3.tbf.xml" nodepath="4.1.1.2.1.1.1.1.0.0" sentencenodepath="4">Por_otro_lado , la influencia de la especie dopante en el proceso de <argset><head>conducción </head></argset>aún no está totalmente esclarecida . </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="8.4.1.1.1.1.0.0" sentencenodepath="8">Además , según los ligandos utilizados , éstos pueden o no intervenir en el proceso de <argset><head>conducción </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

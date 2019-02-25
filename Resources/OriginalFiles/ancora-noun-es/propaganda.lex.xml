@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="propaganda" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="dar_a_conocer" originlink="verb.dar_a_conocer.1" wordnetsynset="16:05409803">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/t6-5.tbf.xml" nodepath="2.0.3.2.1.2.1.0.0" sentencenodepath="2">Mientras Ø intentaba alisar con cuidado el vulgar cartel de <argset><head>propaganda </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de naranjas</argument></argset>, sus ojos distinguieron una mancha clara tras los balcones , al otro lado de la calle . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>propaganda </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Milosevic</argument></argset>no pudo encontrarle durante la campaña más_que un punto " vulnerable " : que Ø convive con gatos , a lo que él respondía con una sonrisa que Ø es el político ideal para gobernar Serbia , con sus albaneses y sus serbios a la greña , ya_que Ø ha conseguido que su perro y sus dos gatos se quieran y Ø jueguen . </example>
+        <example file="CESS-CAST-P/26_19990701_a.tbf.xml" nodepath="30.1.1.0" sentencenodepath="30">Antes de la segunda guerra mundial <argset><specifier>la</specifier><head>propaganda </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">antimilitarista y pacifista</argument></argset>inundaba París . </example>
+        <example file="CESS-CAST-P/30_20020801_g.tbf.xml" nodepath="3.3.1.0.1.1.0.0" sentencenodepath="3">Radio_Liberty empezó a emitir en 1959 como instrumento de <argset><head>propaganda </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">política</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Estados_Unidos</argument></argset>en su enfrentamiento ideológico con el comunismo soviético . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="propagar" originlink="verb.propagar.1" wordnetsynset="16:05409803">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" foundincorporated="yes" thematicrole="tem"/>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc2-4.tbf.xml" nodepath="4.1.1.0.1.1.0.2.2.1.1.1.0.0.1.1.0.0" sentencenodepath="4">No en_vano los japoneses ya habían hecho sus pinitos con bombas bacteriológicas en la guerra contra China , y el continente americano se encontraba al alcance de algunos de sus medios tecnológicos : cientos de globos autómatas , sin otra carga que folletos de <argset><head argument="arg1" thematicrole="tem">propaganda </head></argset>o pequeñas bombas incendiarias , llegaron a caer sobre la costa oeste de Estados_Unidos . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="19.3.1.0" sentencenodepath="19">- - ¿ <argset><specifier>La</specifier><head>propaganda </head><reference_modifiers>política</reference_modifiers></argset>también mira demasiado a Estados_Unidos ? . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="cena" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="cenar" originlink="verb.cenar.1" wordnetsynset="16:06128171">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">Pujol urgió la necesidad de esta medida legal durante <argset><specifier>una</specifier><head>cena </head><reference_modifiers>organizada anoche por la patronal de la pequeña y mediana empresa , Pimec-Sefes ,</reference_modifiers><reference_modifiers>en la que también advirtió a los empresarios , sindicatos y administraciones a que cumplan con la normativa laboral en_materia_de prevención de la siniestralidad</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="13.0.0.1.1.0" sentencenodepath="13">Durante <argset><specifier>la</specifier><head>cena </head></argset>, la patronal Pimec-Sefes , que representa a más_de 50.000 empresas , entregó sus premios anuales a las pymes que han desarrollado proyectos más destacados , así_como_también Ø distinguió , en el apartado periodístico , al suplemento de Economía del diario La_Vanguardia . </example>
+        <example file="3LB-CAST/c2-6.tbf.xml" nodepath="0.1.1.3.3.1.0.0.0" sentencenodepath="0">Claro que cuando Felipe_González ( que a_lo_que_parece no ha perdido del_todo el carisma aquel que Ø tuvo ) lanza piropos a Aznar , y Ø le seduce con <argset><head>cenas </head>y discursos </argset>y Ø lo califica de clara alternativa ( acaso también en el clásico sentido de claro / ilustre ) está ocurriendo algo desolador y terrible , igual que si , llegado al Gobierno , José_María_Aznar se volcase en mieles dialécticas con González . </example>
+        <example file="3LB-CAST/t3-3.tbf.xml" nodepath="2.2.3.1.1.1.1.0" sentencenodepath="2">Ø He visto que Ø sacaba el ticket para <argset><specifier>la</specifier><head>cena </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de fin de año</argument></argset>. </example>
+        <example file="3LB-CAST/t3-3.tbf.xml" nodepath="3.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>cena </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">del Holiday_Inn</argument></argset>es casi tan elegante como la del Hilton . </example>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="0.4.1.1.0" sentencenodepath="0">El príncipe de Asturias , don Felipe_de_Borbón , recibió anoche la Medalla_de_Oro del Spanish_Institute neoyorquino en <argset><specifier>una</specifier><head>cena </head><reference_modifiers>de gala</reference_modifiers><reference_modifiers>a la que asistieron más de 250 invitados del mundo de los negocios , la cultura y la comunicación</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8933_20000211.tbf.xml" nodepath="1.3.1.1.1.3.1.1.0" sentencenodepath="1">" La tan hablada globalización se ha tornado un fenómeno que beneficia sólo a unos pocos , los cuales ven su expansión proyectada a todos los rincones del mundo y , al_mismo_tiempo , perjudica a la mayoría de naciones , obligadas a buscar su crecimiento en mercados estrechos y , en muchos casos , cada vez más pobres " , manifestó Ø en el discurso que Ø pronunció en <argset><specifier>una</specifier><head>cena </head><reference_modifiers>que ofreció en su homenaje el presidente de Brasil , Fernando_Henrique_Cardoso</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="23.3.1.1.0.1.0" sentencenodepath="23">Pero las campañas políticas norteamericanas son mucho más que <argset><specifier>las</specifier><head>cenas </head></argset>, fiestas y globos . </example>
+        <example file="CESS-CAST-P/21_20000202_b.tbf.xml" nodepath="4.2.1.1.0.2.1.0.1.0" sentencenodepath="4">Ø Es de los que saben que <argset><specifier>la</specifier><head>cena </head><reference_modifiers>- - alguna cena - -</reference_modifiers></argset>recrea y Ø enamora . </example>
+        <example file="CESS-CAST-P/21_20000202_b.tbf.xml" nodepath="4.2.1.1.0.2.1.0.1.1.3.0" sentencenodepath="4">Ø Es de los que saben que la cena <argset>- - <specifier>alguna</specifier>
+            <head>cena </head>- - </argset>recrea y Ø enamora . </example>
+        <example file="CESS-CAST-P/71_20000903.tbf.xml" nodepath="3.0.0.1.1.0" sentencenodepath="3">A <argset><specifier>la</specifier><head>cena </head></argset>también asistió el último fichaje del Barcelona , Iván_de_la_Peña , y Ø puso el punto y final a las vacaciones de Gaspart . </example>
+        <example file="CESS-CAST-P/88_19990701.tbf.xml" nodepath="0.3.1.2.2.2.1.2.1.1.1.1.1" sentencenodepath="0">El Hotel_Arts de Barcelona presentó ayer su programa Millennium_Experience , una propuesta insólita para recibir el año_2000 con algo más que <argset><specifier>una</specifier><reference_modifiers>simple</reference_modifiers><head>cena </head><reference_modifiers>de Nochevieja</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

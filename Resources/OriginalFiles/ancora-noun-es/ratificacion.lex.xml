@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ratificación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ratificar" originlink="verb.ratificar.1" wordnetsynset="16:05367196">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="4.6.5.1.0" sentencenodepath="4">Sin_embargo , la reincorporación de Baumann como máxima estrella del mitin del domingo no pone punto final a su lucha contra la sanción , puesto_que para ello es necesaria <argset><specifier>la</specifier><head>ratificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la instancia superior internacional , la IAAF</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="ratificar" originlink="verb.ratificar.1" wordnetsynset="16:05367196">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10583_20000714.tbf.xml" nodepath="1.2.3.1.1.0.1.1.1.0" sentencenodepath="1">La visita de Ramadán será la primera en más de un año de un alto cargo gubernamental iraquí a Jordania para tratar cuestiones políticas bilaterales e internacionales , y Ø se iniciará dos días después de <argset><specifier>la</specifier><head>ratificación </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el cargo</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del nuevo primer ministro , Ali_Abul_Ragheb ,</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">por el Parlamento_de_Ammán</argument></argset>. </example>
+        <example file="CESS-CAST-A/17821_20001223.tbf.xml" nodepath="0.2.1.1.1.0.1.1.1.0" sentencenodepath="0">El presidente de la Xunta_de_Galicia , Manuel_Fraga , suscribirá el texto del manifiesto para <argset><specifier>la</specifier><head>ratificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Estatuto_de_Roma_del_Tribunal_Penal_Internacional</argument></argset>, según informó hoy el Gobierno gallego en una nota oficial . </example>
+        <example file="CESS-CAST-AA/6434_20000710.tbf.xml" nodepath="0.3.1.1.1.1.1.1.0.0" sentencenodepath="0">Los sirios comenzaron hoy a acudir a los centros electorales para participar en el referéndum de <argset><head>ratificación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Bachar_Asad como nuevo presidente de Siria , en sucesión de su padre Hafez_Asad , fallecido el pasado 10_de_junio</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

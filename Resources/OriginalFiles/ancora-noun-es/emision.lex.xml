@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="emisión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="emitir" originlink="verb.emitir.1" wordnetsynset="16:00814731">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="2.2.1.2.0.1.1.0.1.1.0.0" sentencenodepath="2">El " pasaporte europeo " , que ya existe desde 1985 , permite la comercialización de los fondos de inversión fuera del país de <argset><head>emisión </head></argset>sin que sean necesarias autorizaciones adicionales , aunque la evolución de los mercados financieros y la extensión de Internet han impuesto una revisión de la normativa . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="2.1.0.2.3.1.1.1.1.0.0" sentencenodepath="2">En ese documento , Bruselas considera que la opción nuclear contribuye a la reducción de <argset><head>emisiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de gases de efecto invernadero</argument></argset>y Ø garantiza el suministro energético de la Unión . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="10.0.3.0.4.1.1.2.1.1.0.0" sentencenodepath="10">" Hay un doble rasero en la UE cuando se trata de la energía nuclear . Por_un_lado , la delegación comunitaria en La_Haya la semana pasada apoyó abstenerse en emplear instalaciones nucleares para reducir <argset><head>emisiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dióxido de carbono</argument></argset>, mientras_que al_mismo_tiempo se permite a la comisaria Loyola_de_Palacio que Ø abuse de su poder para promocionar la industria nuclear " , según los parlamentarios verdes . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="11.3.4.2.1.1.1.0.0" sentencenodepath="11">En el borrador del documento que examinará la Comisión_Europea , se indica que la preocupación por el recalentamiento terrestre ha conducido a un cambio sobre la percepción de la energía nuclear como fuente de aprovisionamiento , debido precisamente a la ausencia de <argset><head>emisiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de gases de efecto invernadero</argument></argset>. </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="4.2.1.0" sentencenodepath="4">Por ello , a_finales_del próximo ejercicio , <argset><specifier>las</specifier><head argument="arg1" thematicrole="pat">emisiones </head><reference_modifiers>vivas</reference_modifiers></argset>ascenderán a 52,6 billones de pesetas , 1,14 billones más que este año . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="6.4.1.1.1.1.2.2.2.1.1.1.1.1.0" sentencenodepath="6">Los intereses de la deuda supondrán al Estado el próximo año un desembolso de 2,84 billones de pesetas , que una vez descontados los ingresos derivados de <argset><specifier>la</specifier><head>emisión </head></argset>quedarán en 2,78 billones , el cuatro_por_ciento menos que este año . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="7.4.1.1.1.1.0.0" sentencenodepath="7">Estas previsiones " se basan en unos supuestos de <argset><head>emisión </head></argset>continuistas con lo realizado este año " que intentan compatibilizar los objetivos de minimizar la carga financiera y el riesgo de refinanciación . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="10.2.0.1.0" sentencenodepath="10">El Tesoro concentrará la financiación neta del Estado en bonos y obligaciones , mientras_que <argset><specifier>las</specifier><head>emisiones </head><reference_modifiers>en letras</reference_modifiers></argset>serán inferiores a las amortizaciones . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="12.0.5.1.1.1.1.0.0" sentencenodepath="12">Como en los últimos años , " el Tesoro mantendrá abierta la posibilidad de realizar <argset><head>emisiones </head><reference_modifiers>oportunistas</reference_modifiers><reference_modifiers>que conlleven un ahorro respecto_a la financiación tradicional vía bonos y obligaciones</reference_modifiers></argset>" , apunta el Proyecto . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="3.4.1.3.1.1.3.3.1.1.2.1.1.0" sentencenodepath="3">Bondevik presentó anoche su dimisión y la de su Gobierno al quedar en minoría en el Storting frente_a una modificación de la Ley_de_Protección_Ambiental presentada por la oposición laborista , que pretendía elevar los límites permitidos de <argset><specifier>las</specifier><head>emisiones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dióxido de carbono ( CO2 )</argument></argset>. </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="4.4.2.0.2.1.1.1.1.3.3.1.0" sentencenodepath="4">La ley fue aprobada anoche por 81 votos a favor y 71 en_contra , lo que permitirá la construcción de una central energética que funcionará con el gas natural del Mar_del_Norte noruego que , según el Gobierno_Bondevik , aumentará <argset><specifier>las</specifier><head>emisiones </head><reference_modifiers>nocivas</reference_modifiers></argset>por_encima_de lo acordado en la reunión de Kioto . </example>
+        <example file="CESS-CAST-AA/9690_20000412.tbf.xml" nodepath="1.3.1.3.1.1.0" sentencenodepath="1">En la sesión se negociaron 75,5 millones de títulos por los que se pagó un importe de 1.294,7 millones de pesos ( unos 136,2 millones de dólares ) , de <argset><specifier>un total de 74</specifier><head>emisiones </head><reference_modifiers>de las cuales , 10 registraron alzas , 47 perdieron y 17 se mantuvieron sin cambios</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/139_19991201.tbf.xml" nodepath="6.3.1.1.0" sentencenodepath="6">Tal como ya anunció EL_PERIODICO , La_2 participa en <argset><specifier>esta</specifier><head>emisión </head><argument argument="argM" function="cn" thematicrole="loc" type="s.a">mundial</argument></argset>con tres espacios de unos ocho minutos cada uno : una fiesta mediterránea de Comediants desde Canfranc ( Huesca ) , un espectáculo flamenco de Pilar_Távora - - hija de Salvador - - , desde Sevilla , y un festival celta en Santiago_de_Compostela protagonizado por José_Manuel_Budiño y Cristina_Pato . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="emitir" originlink="verb.emitir.1" wordnetsynset="16:00814731">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="relatiu"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="sadv"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/15362_20001120.tbf.xml" nodepath="6.0.0.3.1.1.0" sentencenodepath="6">" Vale_Todo " , <argset><argument argument="arg1" thematicrole="pat" type="relatiu">cuya</argument><head>emisión </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en EEUU</argument></argset>comenzará entre abril y junio del 2001 , será la primera producción del gigante televisivo brasileño exclusiva para el mercado exterior . </example>
+        <example file="CESS-CAST-A/17012_20000221.tbf.xml" nodepath="3.2.3.1.2.6.1.1.0" sentencenodepath="3">El Banco_Urquijo , fundado a_fines_del siglo_XIX , inició en 1998 los trámites para poder entrar en el sistema financiero argentino y el pasado enero Ø recibió una autorización preliminar , que se hizo ahora definitiva con <argset><specifier>la</specifier><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la llamada " Comunicación_B " del Banco_Central</argument></argset>. </example>
+        <example file="CESS-CAST-P/64_20000401.tbf.xml" nodepath="2.0.0.1.1.1.0" sentencenodepath="2">Previamente a <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>emisión </head><argument argument="argM" function="cn" thematicrole="mnr" type="sadv">en_público</argument></argset>, el vídeo fue revisado , entre otros , por Manuel_Valls , portavoz del primer ministro francés , Lionel_Jospin , y el diputado socialista Jacques_Guyard . </example>
+        <example file="CESS-CAST-P/78_20020402.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">BRENDAN_Comiskey , obispo de Ferns , en el suroeste de Irlanda , tomó esta decisión tras <argset><specifier>la</specifier><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un programa de televisión sobre un escándalo sexual que tuvo_lugar en su diócesis</argument></argset>. </example>
+        <example file="CESS-CAST-P/85_19990302.tbf.xml" nodepath="1.0.1.1.3.0.3.1.1.0" sentencenodepath="1">La industria , que genera constantes quejas de los vecinos de las calles limítrofes por <argset><specifier>la</specifier><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de malos olores</argument></argset>, pese_a_que Ø cumple todas las medidas de seguridad exigidas por la legislación , ocupa un solar de 10.000 metros_cuadrados que no cumple los requisitos que le marca el Plan_General_Metropolitano ( PGM ) . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="emitir" originlink="verb.emitir.1" wordnetsynset="16:00814731">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-11.tbf.xml" nodepath="5.2.0.2.1.1.0" sentencenodepath="5">El primero es provocado por los tomos de helio y Ø es fácilmente detenido por una hoja de papel ; el segundo proviene de <argset><specifier>la</specifier><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de electrones rápidos</argument></argset>y Ø puede pararse interponiendo una hoja de aluminio , el tercero está compuesto por fotones que tienen un alto poder de penetración , aunque no pueden traspasar el plomo . </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="6.2.3.1.1.0" sentencenodepath="6">El borrador del documento que la Comisión_Europea estudiará el miércoles indica que el empleo de la energía nuclear ha permitido ahorrarse <argset><specifier>la</specifier><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de 800 millones de toneladas de dióxido de carbono</argument></argset>en 1998 . </example>
+        <example file="CESS-CAST-AA/24050_20000928.tbf.xml" nodepath="8.1.1.2.1.0.0" sentencenodepath="8">En los dos últimos años , los tipos medios de <argset><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la deuda</argument></argset>han aumentado dos puntos , encarecimiento que comenzará a mostrarse en el coste de la deuda el próximo año , cuando además se refinanciarán letras emitidas en 1998 y 1999 . </example>
+        <example file="CESS-CAST-AA/3836_20000204.tbf.xml" nodepath="17.3.1.2.1.1.1.0.0" sentencenodepath="17">Hace algunas semanas las autoridades anunciaron que Ø disminuirán el volumen de <argset><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de estos títulos</argument></argset>, al_tiempo_que Ø aumentarán su recompra . </example>
+        <example file="CESS-CAST-P/139_19991201.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>La</specifier><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los 12 documentales especiales</argument></argset>comenzará el viernes_,_10_de_diciembre , con la Primera parte de Ilusiones_,_derrotas_y_esperanzas , un reportaje en dos capítulos realizado por Elías_Andrés ( director de La_transición ) , en el que se repasarán los principales acontecimientos políticos de los últimos 100 años . </example>
+        <example file="CESS-CAST-P/175_20000702.tbf.xml" nodepath="1.4.1.1.0" sentencenodepath="1">La_2 retoma hoy ( 00.15_horas ) el tema con <argset><specifier>la</specifier><head>emisión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un documental de dos capítulos de Antonio_Drove , director de filmes como La_verdad_sobre_el_caso_Savolta ( 1979 )</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

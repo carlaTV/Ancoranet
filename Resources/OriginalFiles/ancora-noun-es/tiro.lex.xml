@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="tiro" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="tirar" originlink="verb.tirar.1" wordnetsynset="16:00077986">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg3" thematicrole="ori">
+        <constituent frequency="1" preposition="desde" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="z" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/c4-2.tbf.xml" nodepath="6.1.4.0.1.1.2.1.1.0.0" sentencenodepath="6">Yo es que no puedo : cuando Ø veo que alguien invoca la conciencia o el honor me dan ganas de agarrar la escopeta y liarme a <argset><head>tiros </head></argset>. </example>
+        <example file="3LB-CAST/d1-11.tbf.xml" nodepath="1.1.1.2.1.1.1.1.1.1.0" sentencenodepath="1">Es mucho más espectacular defender para tratar de provocar el error en el equipo rival que hacerlo sólo para buscar un fallo en <argset><specifier>el</specifier><head>tiro </head></argset>. </example>
+        <example file="3LB-CAST/d1-12.tbf.xml" nodepath="5.2.3.0.5.0.3.2.1.1.1.1.1.0.1.1.1.0" sentencenodepath="5">Ø Saltaron juntos a la NBA en 1992 , y ahí se ha podido ver que a Day le cuesta convertirse en el nuevo Sean_Elliott ( Ø va progresando en Milwaukee , pero Ø sigue sin meter mucho más del 40_% de <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>tiros </head></argset>) , que Mayberry se ve limitado ( en el mismo equipo de los Bucks ) por su propensión a anotar más_que a dirigir , y Ø sólo es el suplente de Eric_Murdock mientras que finalmente puede ser el menos - glamouroso - del trío , Miller , el que más favorablemente esté sorprendiendo en la Liga profesional : la semana pasada Ø fue por primera vez - jugador de la semana - en la NBA , y pese_a su talla modesta de 2,05 ( pero con una envergadura de casi 2,20 ) Ø está resolviendo el agujero de los Suns en el pívot . </example>
+        <example file="3LB-CAST/d1-14.tbf.xml" nodepath="5.2.6.1.1.2.2.2.1.0" sentencenodepath="5">El Madrid temía que su eficaz defensa , con un - líbero - como García_Coll metido en la zona a robar balones , que fue posible tres días antes , ya no sería tan fácil ante unos - pequeños - barcelonistas bien aleccionados y que buscarían <argset><specifier>el</specifier><head>tiro </head></argset>en_vez_de quedarse incomprensiblemente paralizados . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="5.3.1.1.1.1.0.0" sentencenodepath="5">La violencia hizo_acto_de_presencia en el tramo final con la muerte a <argset><head>tiros </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de dos seguidores del PLD</argument></argset>el pasado 29_de_abril en Moca ( norte ) , al cruzarse con una caravana propagandística del PRD . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="17.2.3.2.2.1.0" sentencenodepath="17">El representante de CiU Ignasi_Guardans también se mostró " muy de_acuerdo " con el Gobierno en los criterios sobre la entrada de nuevos Estados , pero Ø le recomendó más " capacidad de liderazgo " y " elevar <argset><specifier>el</specifier><head>tiro </head></argset>" respecto_a determinados asuntos . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="15.2.1.0.0" sentencenodepath="15">El segundo gol fue mediante <argset><head>tiro </head><reference_modifiers>penal</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="2.2.0.1.1.1.1.0" sentencenodepath="2">La nueva estrella de los Warriors , que en los últimos cuatro partidos ha conseguido 122 puntos , logró 21 canastas de <argset><specifier>29</specifier><head>tiros </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de campo</argument><reference_modifiers>con 7_de_8</reference_modifiers><argument argument="arg3" function="cn" thematicrole="ori" type="sp">desde la línea de personal</argument></argset>, 13 rebotes y cinco asistencias . </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="4.0.0.1.1.4.1.1.1.2.1.1.1" sentencenodepath="4">Los Lakers , que tuvieron con Bryant la oportunidad de ganar el partido en <argset><specifier>el</specifier><reference_modifiers>último</reference_modifiers><head>tiro </head><reference_modifiers>del tiempo reglamentario</reference_modifiers></argset>, fueron dominados por_completo por los Warriors en la prórroga y sólo el acierto de su jugador estrella evitó que el marcador final fuese más favorable al equipo de Golden_State . </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="6.0.2.1.1.1.1.1.0" sentencenodepath="6">El escolta de los Lakers terminó con 18 canastas de <argset><specifier>34</specifier><head>tiros </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de campo</argument></argset>, Ø estuvo perfecto 13_de_13 desde la línea de personal , Ø dio ocho asistencias y Ø capturó siete rebotes , que no fueron suficientes para evitar la derrota de los Lakers . </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="7.0.0.1.3.5.1.0.1.1.0.1.1.1.1.0" sentencenodepath="7">Los actuales campeones de liga , que también tuvieron el apoyo del pívot Shaquille_O`Neal con 25 puntos ( 11 de <argset><specifier>18</specifier><head>tiros </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de campo</argument></argset>y 3_de_6 desde la línea de personal ) , 10 rebotes y dos asistencias , rompieron una racha de cuatro triunfos consecutivos , Ø se quedaron con marca de 14-6 y sin poder subir al primer lugar de la División_del_Pacífico . </example>
+        <example file="CESS-CAST-AA/4900_20000407.tbf.xml" nodepath="6.0.2.1.1.0" sentencenodepath="6">Alrededor del minuto 24 , un centro inocuo tras <argset><specifier>un</specifier><head>tiro </head><argument argument="arg3" function="cn" thematicrole="ori" type="sp">de esquina</argument><reference_modifiers>corto</reference_modifiers><reference_modifiers>por la izquierda</reference_modifiers><reference_modifiers>sobre el área universitaria</reference_modifiers></argset>lo ganó Pereyra por arriba de cabeza , pero medio de_espaldas al pórtico y sin precisión ; para su fortuna , el balón dio en el pecho de Rafael_Olarra , Ø cambió de dirección y Ø se introdujo en el pórtico de Vargas , que sólo atinó a mirar . </example>
+        <example file="CESS-CAST-P/25_20010102.tbf.xml" nodepath="11.2.1.0.0" sentencenodepath="11">Thabet fue abatido a <argset><head>tiros </head></argset>el domingo cuando Ø se encontraba cerca de su casa . </example>
+        <example file="CESS-CAST-P/30_20010701.tbf.xml" nodepath="3.1.1.0.2.0" sentencenodepath="3">Ahora ocurre lo mismo : <argset>mazazos , <head>tiros </head>... </argset>sin tener_en_cuenta el sufrimiento del animal ni la certeza de su muerte . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="tirar" originlink="verb.tirar.2" wordnetsynset="16:00077986">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13507_20000918.tbf.xml" nodepath="2.2.1.1.1.1.1.0" sentencenodepath="2">Gol : 0-1, m.14: Karina_Masotta , dentro del área en el rechace de <argset><specifier>un</specifier><head>tiro </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Oneto</argument></argset>. </example>
+        <example file="CESS-CAST-A/16532_20001020.tbf.xml" nodepath="0.3.1.4.3.1.2.0.1.1.0.0" sentencenodepath="0">Más de dos centenares de artistas colombianos divulgaron hoy un " manifiesto de la cultura por la paz " en el que Ø aseguraron que " a punta de <argset><head>tiros </head></argset>" no se resuelve el conflicto interno que padece su país . </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="19.0.1.0.1.1.0.4.2.2.0.0" sentencenodepath="19">Con goles de Rodrigo_Vilarino ( 39' ) ; Marcos_Olea ( 45' ) y Felipe_González ( 84' ) , de <argset><head>tiro </head><reference_modifiers>penal</reference_modifiers></argset>, los integrantes del equipo italiano le pasaron por_encima a los dueños de casa que terminaron el partido con dos de sus jugadores expulsados . </example>
+        <example file="CESS-CAST-A/17037_20000423.tbf.xml" nodepath="6.3.3.1.2.0.0" sentencenodepath="6">" Ø No lo será - añadió Ø - , pero si él o Nicolás_Redondo están como lehendakari , se supone que no habrá <argset><head>tiros </head></argset>y Ø no matarán a nadie " . </example>
+        <example file="CESS-CAST-AA/7291_20000112.tbf.xml" nodepath="1.2.1.1.1.0.0" sentencenodepath="1">Valencia , que también fue futbolista , aprovechó un enfrentamiento a <argset><head>tiros </head></argset>de sus secuestradores con desconocidos que aparecieron en la zona montañosa en la que Ø permanecía cautivo , según relató él mismo a periodistas de la ciudad de Cali . </example>
+        <example file="CESS-CAST-AA/9408_20001113.tbf.xml" nodepath="1.0.3.4.1.1.1.1.0.1.5.2.1.2.4.1.0.0" sentencenodepath="1">" Su juego se puede catalogar de poco ortodoxo pero muy efectivo , porque Ø es muy rápido y Ø tratan de correr siempre . Además , en el juego posicional Ø tienen a un hombre como Oztas , que es un alero alto - 2,06 metros - , que sale a jugar tras la línea de tres puntos y que es el segundo jugador que mejor porcentajes tiene del equipo en <argset><head>tiros </head><reference_modifiers>de tres</reference_modifiers></argset>" , apuntó el técnico . </example>
+        <example file="CESS-CAST-P/90_20010402.tbf.xml" nodepath="1.4.1.1.1.0.1.2.1.0.0" sentencenodepath="1">Un tribunal popular juzga a_partir_de hoy en la Audiencia_de_Lleida el asesinato de Emilio_Salguero_Cortés , muerto a <argset><head>tiros </head></argset>en 1999 tras una discusión por una deuda iniciada en este bar de Lleida . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="3" lexicalized="no" originlemma="tirar" originlink="verb.tirar.6" wordnetsynset="16:00039566">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13150_20000316.tbf.xml" nodepath="3.0.1.1.4.1.0.0" sentencenodepath="3">" Aunque Ø nos cueste bastante , Ø tenemos que tratar de desplegar un mejor juego , circular más el balón y buscar <argset><head>tiros </head><reference_modifiers>más cómodos</reference_modifiers></argset>. Ø Ultimamente estamos perdiendo incluso efectividad en_cuanto_a porcentaje de tiros libres y triples . Ø Ahora debemos mirar hacia adelante y no volvernos locos " , comentó Ø . </example>
+        <example file="CESS-CAST-A/13150_20000316.tbf.xml" nodepath="3.0.3.3.1.0.1.1.0.1.1.0.0.0" sentencenodepath="3">" Aunque Ø nos cueste bastante , Ø tenemos que tratar de desplegar un mejor juego , circular más el balón y buscar tiros más cómodos . Ø Ultimamente estamos perdiendo incluso efectividad en_cuanto_a porcentaje de <argset><head>tiros </head><reference_modifiers>libres</reference_modifiers>y triples </argset>. Ø Ahora debemos mirar hacia adelante y no volvernos locos " , comentó Ø . </example>
+        <example file="CESS-CAST-A/13150_20000316.tbf.xml" nodepath="6.3.3.1.1.1.0" sentencenodepath="6">Por_último , Espil reconoció que una solución para frenar el poderoso juego interior del conjunto catalán , con jugadores de la envergadura y fuerza física de Roberto_Dueñas , Derrick_Alston o Efthimios_Rentzias , radicará en conceder <argset><specifier>el</specifier><head>tiro </head></argset>a su rival . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="19.4.0.1.2.3.1.0" sentencenodepath="19">Y como los delanteros no aportaban tuvo que hacerse_cargo del asunto Riquelme , quien en el minuto 30 ejecutó con maestría <argset><specifier>un</specifier><head>tiro </head><reference_modifiers>libre</reference_modifiers><argument argument="argM" function="cn" thematicrole="loc" type="sp">a más de 20 metros de la puerta</argument></argset>y coló el balón ante un estático Bonano . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

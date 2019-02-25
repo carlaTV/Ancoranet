@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="transferencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="transferir" originlink="verb.transferir.1" wordnetsynset="16:00132095">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="16" preposition="de" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="ori">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="des">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="12" type="void"/>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="6" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-0.tbf.xml" nodepath="10.4.1.1.3.5.1.1.1.0.0" sentencenodepath="10">Con propósito de claridad y sistematización , Ø clasificaremos los - metales orgánicos - en los tres tipos fundamentales que actualmente se conocen : a Polímeros orgánicos covalentes ; b Metalomacrociclos poliméricos ; c Complejos de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-1.tbf.xml" nodepath="5.2.1.1.0.1.1.0.0" sentencenodepath="5">El tercer tipo ( c ) de materiales orgánicos conductores , en los que se encuadra la labor investigadora de los autores , son los llamados complejos de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>o , abreviadamente , C . </example>
+        <example file="3LB-CAST/dc3-1.tbf.xml" nodepath="6.3.1.1.0" sentencenodepath="6">Se pretende con esta denominación definir <argset><specifier>la</specifier><head>transferencia </head><reference_modifiers>parcial</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un electrón</argument><argument argument="argM" function="cn" thematicrole="ori" type="sp">de una molécula dadora</argument><argument argument="argM" function="cn" thematicrole="des" type="sp">a una molécula aceptora</argument><reference_modifiers>formando un cristal de tipo iónico en el que los aniones o los cationes , o ambos simultáneamente sean grupos químicos de alguna complejidad</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="0.5.4.1.1.0.0" sentencenodepath="0">Así , la alta conductividad de - metal orgánico - en CTC sólo se produce cuando , de las tres situaciones posibles de empaquetamiento y transferencia de carga ( fig. 4B ) , los apilamientos segregados van acompañados de <argset><head>transferencia </head><reference_modifiers>parcial</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>, lo que implica la existencia de moléculas neutras junto_con otras ionizadas . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="1.0.1.1.0" sentencenodepath="1">Si <argset><specifier>la</specifier><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>es total ( 1 electrón por pareja dador-aceptor ) , todas las moléculas están ionizadas y , como máximo , pueden lograrse semiconductores , ya_que el movimiento electrónico entre moléculas a_lo_largo_del apilamiento supondría la formación de especies doblemente cargadas en el dador o el aceptor , lo que implica una barrera energética a_causa_de repulsión electrónica . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="2.0.1.2.4.1.2.2.1.1.1.1.0" sentencenodepath="2">Una situación desfavorable que no se produce al existir moléculas sin ionizar , en el caso de <argset><specifier>la</specifier><head>transferencia </head><reference_modifiers>parcial</reference_modifiers></argset>, pues únicamente se forman iones monocargados que son , además , particularmente estables como consecuencia . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="8.3.1.0.2.1.1.0" sentencenodepath="8">Es justamente el valor relativo del potencial de oxidación del dador y del potencial de reducción del aceptor lo que garantiza que <argset><specifier>la</specifier><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>no sea total . </example>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="10.3.3.1.1.1.0.2.2.0.2.1.0.2.1.1.1.0" sentencenodepath="10">Es obvio , por_tanto , que un camino apropiado para mejorar la conductividad sería el empleo de moléculas dador y aceptor que tuviesen valores de potenciales lo más apropiados para lograr <argset><specifier>la</specifier><head>transferencia </head><reference_modifiers>parcial</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>en el grado óptimo . </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="0.0.3.1.2.1.1.1.1.1.0.0" sentencenodepath="0">Se trata , pues , de modificar los potenciales redox de dador y aceptor para modular el grado de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>, y con este propósito se ha sintetizado un considerable número de moléculas dadoras y aceptoras con estructuras - diseñadas - para lograr mejores CTC conductores . </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="1.3.1.1.1.0.2" sentencenodepath="1">En_particular , son tres los objetivos <argset>: - - <head>Transferencia </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga D-A</argument>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre 0</argument>- - Interacciones entre apilamientos segregados que impidan cambios de fase capaces de provocar la transición de estructura conductora a aislante </argset>. </example>
+        <example file="3LB-CAST/dc3-12.tbf.xml" nodepath="8.2.4.1.0.2.1.1.1.0.1.1.0.0" sentencenodepath="8">De estudios teóricos pudo concluirse que la extensión del sistema 11 en estos compuestos conduce a una disminución de la repulsión intramolecular de tipo Coulomb lo que habría de favorecer la formación de complejos de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>. </example>
+        <example file="3LB-CAST/dc3-14.tbf.xml" nodepath="4.2.0.1.0.1.1.0.0" sentencenodepath="4">Ø Son moléculas capaces de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">electrónica</argument></argset>por sí mismas . </example>
+        <example file="3LB-CAST/dc3-7.tbf.xml" nodepath="9.2.0.1.1.1.3.3.1.1.1.0.3.1.0.0" sentencenodepath="9">Este descubrimiento clave fue origen de un gran esfuerzo investigador , que provocó la búsqueda de nuevos complejos orgánicos de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>( CTC ) que pudieran igualar o incluso mejorar al TCNQ-TTF . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="7.3.2.3.1.1.0" sentencenodepath="7">Parte de esta exigencia es análoga a la norma clásica de que en un metal , la banda ocupada más alta tiene que estar sólo parcialmente llena , lo que corresponde en los CTC a <argset><specifier>una</specifier><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">electrónica</argument><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">dador-aceptor</argument><reference_modifiers>parcial</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="8.5.3.1.0" sentencenodepath="8">De_hecho , la combinación de moléculas fuertemente dadoras y aceptoras no garantiza la formación del complejo , ya_que puede producirse <argset><specifier>una</specifier><head>transferencia </head><reference_modifiers>total</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>formando especies ( D+IA-I ) que se comportan eléctricamente como sustancias iónicas aislantes ( aislantes Mott-Hubbard ) . </example>
+        <example file="3LB-CAST/dc3-8.tbf.xml" nodepath="9.1.1.1.4.2.1.1.1.0.0" sentencenodepath="9">En_consecuencia , en los compuestos orgánicos conductores conocidos en los que ha sido evaluado el grado de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>( ) , se ha encontrado que ésta es menor de la unidad , y generalmente en_torno_a 0,5 . </example>
+        <example file="3LB-CAST/dc3-9.tbf.xml" nodepath="1.0.1.0.2.1.0.0" sentencenodepath="1">Además_del grado fraccional de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument></argset>, ésta tiene que estar deslocalizada a_lo_largo_del apilamiento . </example>
+        <example file="CESS-CAST-P/26_20000802.tbf.xml" nodepath="8.2.1.2.1.0.2.3.1.1.0" sentencenodepath="8">Estas medidas están sujetas al restablecimiento " duradero " de una paz civil en la isla y al buen uso que haga la Asamblea corsa de <argset><specifier>las</specifier><head>transferencias </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de competencias</argument></argset>de aquí al 2002 . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="16.0.1.2.2.1.1.0.1.0.0" sentencenodepath="16">La ligera mejoría de la balanza de rentas y de la de <argset><head>transferencias </head></argset>- - que junto_a la balanza comercial y la de servicios integran el saldo por cuenta_corriente - - tampoco ha bastado para cubrir el deterioro comercial . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="17.3.0.1.1.1.0.0" sentencenodepath="17">En_concreto , el déficit de la rúbrica de rentas se situó en 259.200 millones , mientras_que el superávit de <argset><head>transferencias </head></argset>fue de 325.200 millones . </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="18.0.1.2.4.1.0" sentencenodepath="18">La cuenta de capital - - que integra <argset><specifier>las</specifier><head>transferencias </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Feder , el Fondo_de_Cohesión y el Feoga_Garantía</argument></argset>- - registró hasta marzo un saldo de 272.100 millones , inferior en un 21% al de 1998 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="transferir" originlink="verb.transferir.1" wordnetsynset="16:00204553+16:00718330+16:00132095">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc3-11.tbf.xml" nodepath="0.5.1.2.1.2.1.0.2.0" sentencenodepath="0">Así , la alta conductividad de - metal orgánico - en CTC sólo se produce cuando , de las tres situaciones posibles de <argset>empaquetamiento y <head>transferencia </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de carga</argument>
+          </argset>( fig. 4B ) , los apilamientos segregados van acompañados de transferencia parcial de carga , lo que implica la existencia de moléculas neutras junto_con otras ionizadas . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="benefactive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10049_20001114.tbf.xml" nodepath="1.3.1.3.1.1.1.2.1.0.0" sentencenodepath="1">SIN , ET y UFINSA adquieren mediante esta operación el control en_común de Aragón_de_Cable , Cablelteca , Supercable_Andalucía , Supercable_Sevilla y Supercable_Almería mediante un contrato de gestión y de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de acciones</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a AUNA , una sociedad " holding " creada para este fin</argument></argset>. </example>
+        <example file="CESS-CAST-P/94_19990601.tbf.xml" nodepath="21.4.2.1.0" sentencenodepath="21">En el primer trimestre de 1999 , las reservas de divisas disminuyeron en 1,67 billones , incluyendo <argset><specifier>la</specifier><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de reservas</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">al Banco_Central_Europeo ( BCE )</argument></argset>, por lo que su valor a_final_de marzo ascendía a 7,6 billones de pesetas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="transferir" originlink="verb.transferir.1" wordnetsynset="16:00132095">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/7674_20001010.tbf.xml" nodepath="5.3.2.1.3.1.0.0" sentencenodepath="5">En este sentido , el gigante informático Microsoft ha decidido celebrar en Barcelona las dos próximas reuniones anuales de <argset><head>transferencia </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de tecnología</argument></argset>, que convocan cada año a 8.000 técnicos y que tendrán_lugar a_finales_de los años 2001 y 2002 . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

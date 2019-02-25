@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="traspaso" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="traspasar" originlink="verb.traspasar.1" wordnetsynset="16:09536467+16:00718494">
+    <frame appearsinplural="no" type="benefactive">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="2" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="0.4.1.1.1.1.0.0" sentencenodepath="0">Luis_Cuervas y Jose_María_del_Nido , ex presidente y ex vicepresidente del Sevilla_FC , respectivamente , admitieron hoy durante su declaración que el cierre del <argset><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Diego_Pablo_Simeone</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Sevilla</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">al Atlético_de_Madrid</argument></argset>se llevó_a_cabo dos días antes de la firma del patrocinio de las camisetas . </example>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="2.2.4.1.1.1.0" sentencenodepath="2">La acusación pública mantiene que el Atlético_de_Madrid utilizó dinero del Ayuntamiento_de_Marbella para completar <argset><specifier>el</specifier><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del jugador argentino Diego_Pablo_Simeone</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">desde el Sevilla</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">al Atlético_de_Madrid</argument></argset>aunque los dos ex directivos mantienen que Ø es falso . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10295_20000613.tbf.xml" nodepath="4.3.2.2.1.1.6.1.0" sentencenodepath="4">A preguntas del fiscal , Carlos_Castresana , Luis_Cuervas concretó que fue el 11_de_junio_de_1994 cuando Ø llegaron al acuerdo con Miguel_Angel_Gil_Marín para fichar a Simeone y que hubo tres condiciones : " un reconocimiento médico del jugador , que las letras estuviesen avaladas y <argset><specifier>el</specifier><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Pedro_González</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Sevilla</argument><argument argument="argM" function="cn" type="sp">al Atlético</argument></argset>" . </example>
+        <example file="CESS-CAST-A/15197_20000823.tbf.xml" nodepath="2.0.2.1.3.1.1.1.1.1.1.0.0" sentencenodepath="2">El problema está en que la directiva del Werder redactó un contrato en el que el importe del <argset><head>traspaso </head></argset>está escrito correctamente en números ( 3,700.000 DM ) , pero erróneamente en letras , donde en_lugar_de figurar los 3,7 millones acordados , aparece la cantidad de siete millones y medio de marcos alemanes . </example>
+        <example file="CESS-CAST-A/15197_20000823.tbf.xml" nodepath="3.0.1.1.1.1.1.0" sentencenodepath="3">Aunque el intermediario en <argset><specifier>el</specifier><head>traspaso </head></argset>, el croata Josip_Kuze , afirma que el NK_Zagreb no tiene ningún derecho de reclamar la diferencia de 3,8 millones - al tratarse únicamente de un desliz mecanográfico por parte alemana - la directiva del club croata ha solicitado formalmente al Werder_Bremen abonar la cantidad indicada en letras . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="18.0.1.1.1.0.0" sentencenodepath="18">El fantasma del <argset><head>traspaso </head></argset>ya comenzó a rondar en la cabeza de Steinbrenner , que ve con buenos ojos la posibilidad de conseguir a Jim_Edmonds de los Angelinos_de_Anaheim . </example>
+        <example file="CESS-CAST-AA/8934_20000912.tbf.xml" nodepath="5.2.1.1.1.1.1.1" sentencenodepath="5">La noticia continúa con las especulaciones respecto_a <argset><specifier>un</specifier><reference_modifiers>posible</reference_modifiers><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de propiedad</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de JP_Morgan , el quinto mayor banco de inversión de los EEUU</argument></argset>. </example>
+        <example file="CESS-CAST-P/151_20010202.tbf.xml" nodepath="0.3.1.1.1.0.1.1.1.1.1.1.1.1.0" sentencenodepath="0">La Comisión_Europea anunció ayer su voluntad de desbloquear las negociaciones para la reforma de <argset><specifier>los</specifier><head>traspasos </head></argset>y conseguir así " una solución negociada " con la FIFA y la UEFA antes de la reunión decisiva prevista para el próximo 16_de_febrero , con_el_objetivo_de que Ø pueda servir para solucionar el gran problema que arrastra el fútbol para adecuarse a la normativa comunitaria europea . </example>
+        <example file="CESS-CAST-P/151_20010202.tbf.xml" nodepath="2.2.1.1.3.2.1.2.1.0.0" sentencenodepath="2">Bruselas advierte de que Ø no desea imponer al mundo del fútbol su propio sistema de <argset><head>traspasos </head></argset>, sino una solución que sea " compatible a_la_vez con la legislación europea y con el derecho nacional , y respete la libertad contractual " , según anunció Amelia_Torres , portavoz del comisario Mario_Monti . </example>
+        <example file="CESS-CAST-P/169_20010401.tbf.xml" nodepath="0.3.1.1.3.0.1.1.4.1.1.0" sentencenodepath="0">Llorenç_Serra_Ferrer trató ayer de restarle a Juan_Román_Riquelme el protagonismo que Ø había adquirido después de que el Boca_Júniors y el Barça anunciaran un principio de acuerdo para <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>traspaso </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="traspasar" originlink="verb.traspasar.1" wordnetsynset="16:00718494">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="5" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/15197_20000823.tbf.xml" nodepath="0.3.1.0.2.4.1.2.0.1.1.1.0.3.1.1.0" sentencenodepath="0">Un error mecanográfico de la administración del Werder_Bremen puede costar caro al club alemán , al que el NK_Zagreb pide 3,8 millones de marcos más de lo que fue acordado entre los clubes por <argset><specifier>el</specifier><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Ivica_Banovic</argument></argset>. </example>
+        <example file="CESS-CAST-AA/23195_20000328.tbf.xml" nodepath="2.0.3.3.1.1.1.1.0.0" sentencenodepath="2">" Las garantías que Ø buscamos de Lázaro_González ( tío_abuelo del menor ) es que Ø coopere con una orden de <argset><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Elián_González</argument></argset>, en_caso_de_que una corte de apelaciones de EEUU emita una decisión adversa " , precisó la funcionaria . </example>
+        <example file="CESS-CAST-AA/5703_20000809.tbf.xml" nodepath="0.3.1.1.0" sentencenodepath="0">El presidente del Parlamento_de_Indonesia , Akbar_Tanjung , abogó hoy por <argset><specifier>el</specifier><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del control del Gobierno</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">a la vicepresidenta Megawati_Sukarnoputri</argument></argset>para que el jefe de Estado , Abdurrahman_Wahid , pueda centrarse en la política exterior . </example>
+        <example file="CESS-CAST-P/34_20000401.tbf.xml" nodepath="16.1.2.1.1.0.0" sentencenodepath="16">Sanguinetti , poco antes del <argset><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de poderes</argument></argset>, se limitó a decir que " ningún niño ha desaparecido en Uruguay " . </example>
+        <example file="CESS-CAST-P/46_19981102.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>traspaso </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de competencias</argument></argset>se completó el 4_de_mayo con el relevo de la Guardia_Civil_de_Tráfico . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

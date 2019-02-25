@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="regeneración" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="regenerar" originlink="verb.regenerar.1" wordnetsynset="16:09697656">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/5671_20000708.tbf.xml" nodepath="8.2.2.2.1.0.1.1.0.0" sentencenodepath="8">Fruto de la falta de planificación , y como_consecuencia_de costumbres ancestrales , sólo el 3_por_ciento del suelo se considera cultivable , mientras_que el resto está semi o totalmente desertizado y sin posibilidades de <argset><head>regeneración </head></argset>. </example>
+        <example file="CESS-CAST-P/52_20000802.tbf.xml" nodepath="1.3.5.1.0.1.1.1.0.0" sentencenodepath="1">No_obstante , el presidente del Cabildo de La_Palma , José_Luis_Perestelo , afirmó que el daño ecológico no era demasiado grave teniendo_en_cuenta la facilidad de <argset><head>regeneración </head></argset>del pino canario , una especie habituada a la furia del vulcanismo , y que no todas las hectáreas afectadas podían considerarse quemadas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="regenerar" originlink="verb.regenerar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/6170_20000608.tbf.xml" nodepath="7.2.2.0.4.0.2.1.0.0" sentencenodepath="7">Ø Reiteró la importancia de la depuración del río Segura , " el más contaminado de Europa " , y Ø recordó que , aparte_del plan actual de depuración , es necesario uno " más ambicioso " de <argset><head>regeneración </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de riberas y reforestación</argument></argset>, y que el ministro de Medio_Ambiente , Jaume_Matas , ha hablado de este asunto con él y con el presidente de la Comunidad_Valenciana , Eduardo_Zaplana . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="regenerar" originlink="verb.regenerar.1" wordnetsynset="16:09697656">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/dc1-13.tbf.xml" nodepath="4.2.3.1.1.1.2.3.1.0" sentencenodepath="4">Hoy , las modernas ciencias de la dermatología y la cosmética caminan en ese sentido y Ø centran todo su empeño en aislar los principios inmediatos que hacen posible <argset><specifier>la</specifier><head>regeneración </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de las células epiteliales o de los cabellos</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

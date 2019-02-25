@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ida" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="ir" originlink="verb.ir.2" wordnetsynset="16:00029100">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="13" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/10268_20000413.tbf.xml" nodepath="1.3.1.1.1.1.2.3.1.1.1.1.0.0" sentencenodepath="1">Toni , quien volvió a ser titular en la portería del Atlético_de_Madrid , expresó a Efe su satisfacción por la goleada ( 3-0 ) lograda ayer frente_al conjunto azulgrana en el partido de <argset><head>ida </head></argset>de la semifinal de la Copa_del_Rey jugado en el estadio Vicente_Calderón , donde se guardó un minuto de silencio en_memoria_del reciente fallecimiento de su padre . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="7.0.1.1.1.1.0.0" sentencenodepath="7">Incidencias : Partido de <argset><head>ida </head></argset>en los cuartos de final de la Copa_Libertadores_de_América , disputado en el estadio Monumental del River_Plate ante unos 40.000 espectadores . </example>
+        <example file="CESS-CAST-A/13703_20000518.tbf.xml" nodepath="8.0.1.5.1.4.1.1.1.1.0.0" sentencenodepath="8">Comentario : El River_Plate echó_mano hoy de la potencia de su ofensiva para vencer por dos goles a uno en casa al Boca_Juniors en el partido de <argset><head>ida </head></argset>que ambos equipos argentinos disputaron en los cuartos de final de la Copa_Libertadores_de_América . </example>
+        <example file="CESS-CAST-A/1538_20001103.tbf.xml" nodepath="3.0.0.1.1.1.1.0.0" sentencenodepath="3">Incidencias : partido de <argset><head>ida </head></argset>de la final de la Copa_Merconorte_de_Fútbol , disputado en el estadio El_Campín de Bogotá , ante unos 30.000 aficionados . </example>
+        <example file="CESS-CAST-A/1538_20001103.tbf.xml" nodepath="5.0.0.1.5.1.1.1.1.0.0" sentencenodepath="5">Comentario : El campeón colombiano Atlético_Nacional sacó hoy un valioso empate sin goles , frente_a Millonarios , en el partido de <argset><head>ida </head></argset>de la final de la Copa_Merconorte de fútbol , competición que se disputa entre clubes de Perú , Ecuador , Colombia , Venezuela , Bolivia , México y Costa_Rica . </example>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="12.2.6.1.1.1.3.1.0.0.0" sentencenodepath="12">Así_mismo , se van a aumentar las frecuencias con Washington , Buenos_Aires , La_Habana , París , y Lisboa , y en el caso de la capital francesa , " Ø vamos a lanzar durante los seis primeros meses de 2001 una campaña agresiva de precios de tal forma que se pueda hacer <argset><specifier>una</specifier><head>ida </head>y vuelta por tan_solo 9.800 pesetas </argset>" . </example>
+        <example file="CESS-CAST-A/17142_20000321.tbf.xml" nodepath="1.2.0.1.1.1.1.1.0.1.1.1.2.1.1.1.0.0" sentencenodepath="1">La prensa deportiva fue crítica con la actuación del equipo que pese_a ganar 2-1 el partido de <argset><head>ida </head></argset>no deslumbró ante un país que no tiene tradición futbolística y que , empero , llegó a complicar al rival . </example>
+        <example file="CESS-CAST-AA/3788_20000405.tbf.xml" nodepath="1.0.0.1.1.4.1.1.1.1.1.0.0" sentencenodepath="1">El aficionado , que acudió a Estanbul para presenciar el encuentro de <argset><head>ida </head></argset>de las semifinales de la Copa_de_la_UEFA , que disputarán mañana ambos conjuntos , murió al recibir heridas de arma blanca durante la pelea que se produjo a la salida de un bar , indicó la policía , que no facilitó la identidad del fallecido . </example>
+        <example file="CESS-CAST-AA/3818_20000806.tbf.xml" nodepath="0.4.1.2.1.1.1.1.0.0" sentencenodepath="0">Diego_Alonso , delantero uruguayo del Valencia , apeló hoy a la humildad para superar al Tirol_Innsbruck en el partido de <argset><head>ida </head></argset>de la eliminatoria previa de la Liga_de_Campeones que el equipo de Héctor_Cúper disputará el próximo miércoles en tierras austriacas . </example>
+        <example file="CESS-CAST-P/108_20000301_b.tbf.xml" nodepath="6.0.0.1.1.1.0.0" sentencenodepath="6">El partido de <argset><head>ida </head></argset>se jugará en el Palau_Blaugrana el día_19_de_marzo y la vuelta el día_26 . </example>
+        <example file="CESS-CAST-P/113_19990501_e.tbf.xml" nodepath="2.3.1.1.1.1.1.0.1.0.0" sentencenodepath="2">Para beneficiarse de la ayuda , los vehículos deberán hacer un mínimo de ocho viajes de <argset><head>ida </head></argset>y de vuelta al mes . </example>
+        <example file="CESS-CAST-P/115_20010901.tbf.xml" nodepath="1.2.1.1.1.2.2.0.1.1.3.2.1.1.1.0.0" sentencenodepath="1">Dos goles del jugador del Atlético_de_Madrid Colsa al_filo_del descanso ( minutos 43 y 45 ) sentenciaron a los austriacos , la única selección capaz de derrotar a España en los cinco últimos años , incluido el partido de <argset><head>ida </head></argset>. </example>
+        <example file="CESS-CAST-P/123_19990202.tbf.xml" nodepath="9.2.4.1.1.1.1.0.1.1.0.0" sentencenodepath="9">Samuel_Eto'o , que se mostró satisfecho por la confianza del técnico argentino , dijo que la plantilla no debía fiarse por el resultado del partido de <argset><head>ida </head></argset>de la Copa_del_Rey disputado en el Estadio_Olímpico ( 4-2 ) . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="37.6.1.1.0" sentencenodepath="37">El Barça volverá a jugar mañana en el Palau_Blaugrana ( 18.45 horas ) ante el Burgas_de_Bulgaria en <argset><specifier>la</specifier><head>ida </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la eliminatoria previa de la Copa_de_Europa</argument></argset>. </example>
+        <example file="CESS-CAST-P/35_20000402.tbf.xml" nodepath="0.2.1.1.1.0.0" sentencenodepath="0">Azulgranas y valencianistas jugarán el partido de <argset><head>ida </head></argset>de cuartos de la Liga_de_Campeones . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="participación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="participar" originlink="verb.participar.1" wordnetsynset="16:00804778+16:00504440">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="21" preposition="de" type="sp"/>
+        <constituent frequency="12" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="22" preposition="en" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="25" postype="article" type="determiner"/>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="10" type="void"/>
+        <constituent frequency="12" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="15" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-3.tbf.xml" nodepath="12.2.1.1.1.0" sentencenodepath="12">Un segundo debate se celebró el pasado_26_de_mayo pero únicamente con <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Labastida , Fox y Cárdenas</argument></argset>. </example>
+        <example file="3LB-CAST/2000060111_5-1.tbf.xml" nodepath="5.4.2.1.0" sentencenodepath="5">El jefe de Estado , Alberto_Fujimori , acudió a las urnas en solitario , sin <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de su rival , el economista Alejandro_Toledo ,</argument></argset>en una segunda vuelta que no fue vigilada por observadores nacionales y extranjeros . </example>
+        <example file="3LB-CAST/211_C-4.tbf.xml" nodepath="1.2.5.4.4.1.1.1" sentencenodepath="1">Chávez dijo que el aplazamiento de las elecciones ha servido de lección a los venezolanos , " porque Ø aprendimos que las instituciones han funcionado , también por la reacción madura de nuestro pueblo y porque Ø ha abierto el compás a <argset><specifier>la</specifier><reference_modifiers>mayor</reference_modifiers><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la sociedad civil</argument></argset>" . </example>
+        <example file="3LB-CAST/d2-10.tbf.xml" nodepath="9.1.2.1.1" sentencenodepath="9">Hace unos años , en <argset><specifier>una</specifier><reference_modifiers>rara</reference_modifiers><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la Copa_Korac</argument></argset>, Fernández intentó ( con la habitual y bien conocida connivencia federativa en Madrid ) " colar " a un tercer extranjero , el argentino Ricardo_García , como jugador autóctono en la plantilla europea del OAR , aprovechando el casticismo del nombre y del apellido . </example>
+        <example file="3LB-CAST/d2-9.tbf.xml" nodepath="8.2.4.1.1.0.0" sentencenodepath="8">La empresa organizadora de la carrera consigue una gran cantidad de colaboradores y patrocinadores , pero este año Ø no ha logrado igualar en <argset><head>participación </head></argset>a carreras menos importantes disputadas a_lo_largo_de la temporada . </example>
+        <example file="3LB-CAST/d2-9.tbf.xml" nodepath="10.2.5.1.1.0" sentencenodepath="10">Los organizadores tienen_en_cuenta que las cosas no pueden ir a peor en_cuanto_a <argset><specifier>la</specifier><head>participación </head></argset>, teniendo garantizada sólo la de los españoles . </example>
+        <example file="CESS-CAST-A/10017_20000413.tbf.xml" nodepath="3.0.0.0.1.4.1.3.1.1.0" sentencenodepath="3">EDF , que no quiso revelar cuánto Ø pagó por <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><reference_modifiers>mayoritaria</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en EAA</argument></argset>, intervendrá como asistente en la construcción de Altamira_2 y , posteriormente , Ø se encargará de explotarla como principal accionista . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="28.0.3.1.1.0.3.1.0.0" sentencenodepath="28">Los gobernantes se comprometieron a poner_en_marcha " nuevas formas de <argset><head>participación </head>" <reference_modifiers>popular</reference_modifiers></argset>y Ø subrayaron la necesidad de modernizar las estructuras de los partidos políticos , a los que se les pidió transparencia en sus medios de financiación . </example>
+        <example file="CESS-CAST-A/10591_20001013.tbf.xml" nodepath="6.4.1.1.1.3.1.2.1.1.1.0" sentencenodepath="6">En su comunicado final Ø también reiteraron su compromiso para que se tomen las medidas adecuadas para asegurar <argset><specifier>la</specifier><head>participación </head><reference_modifiers>plena</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los trabajos para alcanzar las metas ya establecidas en reuniones previas</argument></argset>. </example>
+        <example file="CESS-CAST-A/11317_20000817.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">El cuarto socio de CGO , el grupo malayo IJM_Corporation_Berhad , mantendrá <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">del 18_por_ciento</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la concesionaria</argument></argset>. </example>
+        <example file="CESS-CAST-A/12633_20000315.tbf.xml" nodepath="0.3.1.0" sentencenodepath="0">Latinoamérica concluyó hoy , miércoles , <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la " Bolsa_de_Turismo " de Berlín , la más importante del mundo ,</argument></argset>con un balance preliminar un_tanto pesimista porque Ø no tuvo la cantidad de visitantes esperada . </example>
+        <example file="CESS-CAST-A/14013_20000120.tbf.xml" nodepath="3.2.1.2.1.0" sentencenodepath="3">El procurador general de la República , Jorge_Madrazo , explicó que la víspera concluyó <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los especialistas del FBI</argument></argset>y hoy terminaron las excavaciones debido_a_que no hay indicios de que existan más cadáveres en las propiedades confiscadas . </example>
+        <example file="CESS-CAST-A/14234_20000217.tbf.xml" nodepath="4.2.1.2.1.0.0" sentencenodepath="4">La normativa define el porcentaje máximo de <argset><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de cada activo</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en el fondo</argument></argset>para limitar el riesgo de los inversores , a_través_de la diversificación de la cartera . </example>
+        <example file="CESS-CAST-A/1506_20001003.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">Fuentes de la Asociación_de_Empresarios_Transportistas_de_Valencia ( Asetraval ) , convocante de la protesta , manifestaron a EFE que <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de vehículos pesados</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el bloqueo de la circunvalación de Valencia</argument></argset>ha sido hoy algo inferior a la de ayer , pues " hay menos camiones circulando al darse_cuenta de la conveniencia de esta protesta " . </example>
+        <example file="CESS-CAST-A/15595_20000920.tbf.xml" nodepath="12.0.3.1.1.4.1.1.1.1.1" sentencenodepath="12">La vida de Freeman se ha visto alterada por la fama , las cámaras y las entrevistas por <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>estelar</reference_modifiers><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la Ceremonia_Inaugural</argument></argset>; la de Perec se ha mantenido en el anonimato de los entrenamientos . </example>
+        <example file="CESS-CAST-A/1592_20001203.tbf.xml" nodepath="2.3.2.0.3.2.1.1.1.3.4.1.1.0" sentencenodepath="2">No_obstante , el Presidente de Spanair indicó que hay " acuerdos muy satisfactorios con la compañía escandinava SAS ( que ya es accionista de la empresa española con un 49_por_ciento del capital ) y con la alemana Lufthansa , con la que Ø volamos con código compartido " , que podría entrar en el accionariado en el futuro con <argset><specifier>alguna</specifier><head>participación </head></argset>. </example>
+        <example file="CESS-CAST-A/17070_20000321.tbf.xml" nodepath="1.0.3.1.0" sentencenodepath="1">Venezuela empezará la semana próxima <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la eliminatoria suramericana para el Mundial del 2002 contra Ecuador</argument></argset>y el equipo sub'23 de México tiene su mente puesta en las selecciones de Jamaica , Costa_Rica y Honduras , sus rivales del preolímpico que se jugará en abril próximo en la ciudad mexicana de Guadalajara . </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="0.3.3.1.1.0" sentencenodepath="0">El ministro de Economía , Rodrigo_Rato , afirmó hoy que el Ejecutivo actuará en <argset><specifier>la</specifier><head>participación </head><reference_modifiers>recíproca</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre el BBVA y Telefónica</argument></argset>" siempre en defensa de los intereses generales " , ya_que ha pasado la época en la que los acuerdos pasaban " por el poder político " e " incluso por la financiación del PSOE " . </example>
+        <example file="CESS-CAST-A/18656_20000126.tbf.xml" nodepath="2.0.2.1.1.1.0" sentencenodepath="2">El programa está abierto a <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de otras empresas</argument></argset>y las tres que lo integran han aportado 125 millones de pesetas cada una con_objeto_de realizar las actividades que se llevarán_a_cabo hasta la próxima feria del SIMO , en otoño . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="1.4.1.1.2.4.1.1.0" sentencenodepath="1">La Comisión_Jurídica_de_la_Federación_Alemana_de_Atletismo dio luz verde hoy , viernes , a su vuelta a los estadios , que se materializará con <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el mitin " Live_2000 " de Nuremberg , donde saldrá con el dorsal número 131</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19378_20001024.tbf.xml" nodepath="2.4.1.1.1.2.1.0.1.0" sentencenodepath="2">Según señaló a Efe Iker_Echevarría , alumno de quinto curso , su conversación con el Príncipe , que se interesó por sus estudios , se desarrolló en un ambiente sumamente distendido , con <argset><specifier>mucha</specifier><head>participación </head></argset>y muchas preguntas por_parte_de los estudiantes . </example>
+        <example file="CESS-CAST-AA/20428_20000525.tbf.xml" nodepath="2.3.1.1.2.2.2.0.0" sentencenodepath="2">" Peor que vender barato es no vender o vender caro " , aseguró el productor rural al indicar que siempre_que Brasil acordó retenciones para regular el mercado cafetero Ø terminó vendiendo menos y Ø perdió <argset><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el total de las exportaciones mundiales del grano</argument></argset>. </example>
+        <example file="CESS-CAST-AA/20993_20000225.tbf.xml" nodepath="1.3.1.1.1.1.0.1.3.1.1.1.1" sentencenodepath="1">Pacheco , que comenzó su primer día de campaña en Cádiz firmando un acuerdo con la Unión_de_Agricultores_y_Ganaderos_de_Andalucía ( UAGA-COAG ) , contestó así a las declaraciones de Romero , que señaló que con <argset><specifier>una</specifier><reference_modifiers>alta</reference_modifiers><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">electoral</argument></argset>Andalucía se libraría del " peaje " del PA , partido que ha gobernado en coalición con el PSOE los últimos cuatro años . </example>
+        <example file="CESS-CAST-AA/21634_20000627.tbf.xml" nodepath="1.1.0.5.4.1.1.1" sentencenodepath="1">" Ultimamente se me pregunta a_menudo : ¿ han bajado nuestras posibilidades de obtener los Mundiales a_raíz_de <argset><specifier>la</specifier><reference_modifiers>decepcionante</reference_modifiers><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del equipo alemán</argument></argset>? No , porque los miembros de la FIFA se fijan en el alto nivel del conjunto del torneo " , escribe Beckenbauer , en su columna del popular diario " Bild " . </example>
+        <example file="CESS-CAST-AA/23424_20000228.tbf.xml" nodepath="6.2.1.3.2.1.0" sentencenodepath="6">Con la construcción y lanzamiento del satélite 1C finaliza la primera generación de satélites Hispasat , en la que <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la industria española aeroespacial</argument></argset>ha sido del 33_por_ciento . </example>
+        <example file="CESS-CAST-AA/24092_20001029.tbf.xml" nodepath="5.0.5.2.1.0" sentencenodepath="5">El conjunto de Héctor_Cúper no encontraba su sitio en el campo , con <argset><specifier>escasa</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los hombres de la medular</argument></argset>, y Osasuna , con un esfuerzo físico generoso , mandó durante los primeros quince minutos , si_bien posteriormente Ø perdió la posesión del balón , que pasó a las filas valencianistas . </example>
+        <example file="CESS-CAST-AA/2735_20000504.tbf.xml" nodepath="4.2.4.1.2.1.1.1.1.0.1.0.1.1.1.2.1.0" sentencenodepath="4">Ø Argumenta que están " pendientes las presentes actuaciones de la práctica de diligencias esenciales para determinar la verdadera naturaleza " del caso y <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los hechos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2765_20000303.tbf.xml" nodepath="1.2.4.1.1.1" sentencenodepath="1">Además , el organismo federativo ha impuesto una multa de 30.000 pesetas al club fuengiroleño y Ø ha sancionado con quince partidos de suspensión a dos jugadores del conjunto local , José_Antonio_González_Mérida y Rafael_Cortés_Trujillo , por <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>supuesta</reference_modifiers><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en las agresiones sufridas por los futbolistas del equipo veleño</argument></argset>. </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="8.2.4.1.2.1.2.1.0" sentencenodepath="8">Lacalle destacó que , en ese sentido , Ø aplauden la decisión del presidente de la República de " suspender <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en actos de inauguración de obras públicas</argument></argset>por voluntad propia " . </example>
+        <example file="CESS-CAST-AA/3260_20000505.tbf.xml" nodepath="9.2.2.1.4.1.0" sentencenodepath="9">El presidente venezolano , Hugo_Chávez , inició su campaña por la reelección el pasado miércoles viajando al interior del país en un avión comercial y trasladándose en vehículos particulares , e Ø informó de que Ø suspendió , por lo que queda de campaña , <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>participaciones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en inauguraciones de obras públicas</argument></argset>, como una " demostración " de que Ø no va a utilizar " ningún tipo de ventajas " . </example>
+        <example file="CESS-CAST-AA/3502_20001106.tbf.xml" nodepath="6.2.2.2.1.2.1.1.1.0" sentencenodepath="6">Segura señaló también que las inversiones presupuestadas hasta el año_2004 representan un pequeño porcentaje del total previsto y Ø destacó que " hace_falta " un marco normativo para regular <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del capital privado</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en las obras</argument></argset>. </example>
+        <example file="CESS-CAST-AA/4412_20001107.tbf.xml" nodepath="0.2.1.1.1.0.0" sentencenodepath="0">La decimoquinta edición de la regata transoceánica ARC`2000 batirá su récord de <argset><head>participación </head></argset>al inscribirse 233 embarcaciones de 19 países , según informó el director de la empresa World_Cruising_Club , Andrew_Bishop . </example>
+        <example file="CESS-CAST-AA/4412_20001107.tbf.xml" nodepath="5.2.1.1.0" sentencenodepath="5">En la prueba intervendrán cuatro barcos españoles , y sobresale <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del ex presidente de la Federación_de_Vela_de_Las_Palmas , Enrique_Boissier , que regateará en el " Canarias "</argument></argset>. </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="7.3.4.1.4.1.0.0" sentencenodepath="7">Ø También afirmó que Ø impulsará acciones para conseguir las condiciones que garanticen el pleno desarrollo de los indígenas , atender la demanda de tierras y dar <argset><head>participación </head></argset>a las mujeres en las decisiones políticas . </example>
+        <example file="CESS-CAST-AA/9462_20000115.tbf.xml" nodepath="10.3.1.1" sentencenodepath="10">Según la Misión_de_las_Naciones_Unidas_para_Guatemala ( MINUGUA ) , en el crimen del religioso hubo <argset><specifier>una</specifier><reference_modifiers>eventual</reference_modifiers><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de agentes de los cuerpos de seguridad ilegales y clandestinos que operan en el Estado</argument></argset>. </example>
+        <example file="CESS-CAST-P/101_19991002.tbf.xml" nodepath="5.2.1.1.0" sentencenodepath="5">El homenaje contará con <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de casi un centenar de profesionales del espectáculo entre músicos - - Maria_del_Mar_Bonet , Toti_Soler , Oriol_Tranvia - - , magos - - Hausson y Mag_Lari - - y actores como Pavlovsky , Vicky_Peña , Carme_Sansa , Ferran_Rañé y Feliu_Formosa , entre otros</argument></argset>. </example>
+        <example file="CESS-CAST-P/101_19991002.tbf.xml" nodepath="8.3.0.1.1.1.0" sentencenodepath="8">En ella se proyectarán imágenes de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en diversas series y montajes</argument></argset>. </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="26.2.0.1.3.6.1.0" sentencenodepath="26">" El juego ante el Atlético fue muy malo , pero yo no me quiero meter en esas cosas " , dijo Pujol , que añadió que en la ceremonia del centenario Ø no había podido percibir con claridad <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de las diferentes figuras y secciones del Barça</argument></argset>" porque estaba todo muy oscuro " . </example>
+        <example file="CESS-CAST-P/124_20010201.tbf.xml" nodepath="4.2.2.4.1.1.0" sentencenodepath="4">Fuentes del organismo han confirmado este plan y Ø han agregado que " su viabilidad depende de <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Generalitat</argument></argset>" . </example>
+        <example file="CESS-CAST-P/135_19981202.tbf.xml" nodepath="3.2.1.2.4.1.0" sentencenodepath="3">El humor y la diversión - - que les permite plantear con frivolidad algunos de los temas que más preocupan a la sociedad actual - - , y el contacto directo con el público - - del que se requiere una activa colaboración tanto en el escenario como en el patio de butacas - - , son los pilares que sustentan unos espectáculos dramatúrgicamente poco ambiciosos que aspiran a entretener dignamente humor , la improvisación y <argset><specifier>la</specifier><head>participación </head></argset>. </example>
+        <example file="CESS-CAST-P/135_19981202.tbf.xml" nodepath="7.4.1.1.1.2.0.1.1.0.0.1.0.0.2.0" sentencenodepath="7">La estupenda vis cómica de Txema y el savoir_faire que ambos intérpretes demuestran a la hora de involucrar a un público a_veces demasiado tímido sin ejercer la violencia psicológica ni llegar a incomodarlo , constituyen , sin_duda , el gran atractivo - - y también el gran riesgo - - de un espectáculo cuyo grado de diversión es proporcional al de <argset>imaginación y <head>participación </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los espectadores</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/139_20010103.tbf.xml" nodepath="9.0.1.1.1.0.0" sentencenodepath="9">Su cuota de <argset><head>participación </head></argset>sobre las ventas pasó del 70,1% en 1997 al 78,2% en 1999 . </example>
+        <example file="CESS-CAST-P/139_20010103.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">Los demás soportes presentan <argset><specifier>una</specifier><head>participación </head><reference_modifiers>residual</reference_modifiers></argset>, si_bien destaca el fuerte aumento experimentado por las ventas de sencillos , que en 1999 absorbieron casi el 4% del mercado total . </example>
+        <example file="CESS-CAST-P/155_20010302.tbf.xml" nodepath="14.2.1.0.1.0" sentencenodepath="14">La película contó con <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de todos los habitantes del pueblo</argument></argset>y ayudas económicas del programa europeo Media , el Ministerio_de_Cultura , TVE y Vía_Digital . </example>
+        <example file="CESS-CAST-P/16_20020601_c.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">ICV abre el programa a <argset><specifier>la</specifier><head>participación </head></argset>. </example>
+        <example file="CESS-CAST-P/18_19990602_f.tbf.xml" nodepath="5.0.1.1.1.0.1" sentencenodepath="5">El catalán con <argset><reference_modifiers>mayor</reference_modifiers><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en un banco</argument></argset>es Casimiro_Molins , que tiene el 5% del Popular . </example>
+        <example file="CESS-CAST-P/36_19990901.tbf.xml" nodepath="13.0.2.3.1.1.1.0" sentencenodepath="13">Su portavoz , Arnaldo_Otegi , destacó que la solución al conflicto pasa por garantizar <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los seis territorios vascos , incluidos los del otro lado de la frontera ,</argument></argset>y Ø advirtió de la importancia de dos fechas futuras : el 12_de_septiembre , primer aniversario del Pacto_de_Lizarra , y el 18_de_septiembre , convocatoria de la Asamblea_de_Municipios_Vascos . </example>
+        <example file="CESS-CAST-P/41_20020103.tbf.xml" nodepath="7.3.1.1.2.1.2.4.1.1.3.1.0" sentencenodepath="7">La juez aceptó que el juicio empiece el 14_de_octubre , tal como propuso el fiscal Robert_Spencer , que confirmó contra Moussaoui seis acusaciones , que incluyen <argset><specifier>la</specifier><head>participación </head><reference_modifiers>directa</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la muerte de más de 3.000 personas</argument></argset>: cuatro de los cargos están castigados con la pena de muerte , y dos , con la cadena_perpetua . </example>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="13.6.2.1.1.4.1.1.1.1.1.0" sentencenodepath="13">Si el PNV rompiera con EH , Ø la dejaría de_nuevo en_manos_de ETA , según el lehendakari , quien ante Aznar defendió la conveniencia de blindar <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la formación aberzale</argument><reference_modifiers>en las instituciones</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/50_19981201.tbf.xml" nodepath="0.3.1.1.1.2.1.1.1.1.0.1.2.1.1" sentencenodepath="0">El secretario general de la Presidència_de_la_Generalitat , Joaquim_Triadú , compartió la esencia teórica del discurso de Josep_Antoni_Duran_Lleida en todas aquellas cuestiones que hicieron_referencia a la búsqueda de fórmulas que impliquen <argset><specifier>una</specifier><reference_modifiers>mayor</reference_modifiers><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">ciudadana</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la vida política</argument></argset>. </example>
+        <example file="CESS-CAST-P/52_20011201.tbf.xml" nodepath="13.3.1.2.4.1.1.0" sentencenodepath="13">El Departamento vasco de Hacienda acusó a Montoro de expandir " como cortina de humo " que el problema se remite a <argset><specifier>la</specifier><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los órganos de decisión de la UE</argument></argset>. </example>
+        <example file="CESS-CAST-P/63_19990201.tbf.xml" nodepath="0.2.1.1" sentencenodepath="0">El presidente de Egipto , Hosni_Mubarak , propugna <argset><specifier>una</specifier><reference_modifiers>mayor</reference_modifiers><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los países en_vías_de desarrollo</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la economía</argument></argset>. </example>
+        <example file="CESS-CAST-P/72_20020202.tbf.xml" nodepath="8.4.0.0.2.1.1.2.1.0.0" sentencenodepath="8">Además , los Quince reclaman condiciones para favorecer el acceso y la tributación de los fondos de capital riesgo ( inversores dispuestos a apostar por pequeñas compañías a_cambio_de <argset><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los beneficios</argument></argset>cuando éstas salen a Bolsa ) . </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="18.3.2.1.0.4.1.0" sentencenodepath="18">La investigación sigue abierta , por lo que no se descarta <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la desaparición de más vehículos , así_como en otros hechos delictivos pendientes de esclarecer</argument></argset>. </example>
+        <example file="CESS-CAST-P/86_20010301.tbf.xml" nodepath="2.2.1.0" sentencenodepath="2">A_pesar_del boicot , en cinco de los 11 centros de la UPF <argset><specifier>la</specifier><head>participación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de los alumnos</argument></argset>permitió elegir a sus representantes . </example>
+        <example file="CESS-CAST-P/93_20010602.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Mientras CCOO sostiene que el paro fue seguido por el 80% de la plantilla , UGT - - que no apoya la protesta - - redujo <argset><specifier>la</specifier><head>participación </head></argset>al 30% . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="participar" originlink="verb.participar.1" wordnetsynset="16:00804778">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/22039_20000926.tbf.xml" nodepath="2.0.1.0.1.1" sentencenodepath="2">En_cuanto_a <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>posible</reference_modifiers><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en los próximos Juegos_Olímpicos</argument></argset>y , así , lograr ser la única deportista española que conquiste tres medallas en tres Juegos diferentes , Ø comentó que " quedan cuatro años para Atenas y aunque el tiempo pasa volando aún pueden pasar muchas cosas " . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="participar" originlink="verb.participar.1" wordnetsynset="16:cs1">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-AA/2246_20000303.tbf.xml" nodepath="5.2.1.0" sentencenodepath="5">El piloto italiano y campeón de Europa de 1999 Enrico_Bertone gestiona <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head></argset>, como también lo hacen Bert_Jong ( Holanda ) , Erik_Weber ( Alemania ) , los hermanos Jasen y Dilian_Popov ( Bulgaria ) , Ian_Greer y Mikel_Pattison ( Inglaterra ) y Tosm_Monsem ( Noruega ) . </example>
+        <example file="CESS-CAST-AA/2252_20000704.tbf.xml" nodepath="6.2.1.1.3.1.1.0" sentencenodepath="6">Beatriz_Ferrer_Salat , en la modalidad doma , Pilar_Cordón , en saltos , y Natalia_Valdés , en concurso completo , son las tres amazonas que defenderán los colores de España con <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>participación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en las distintas modalidades de hípica para los Juegos_Olímpicos de Sydney</argument></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="participar" originlink="verb.participar.2" wordnetsynset="16:09562992">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/204_c-3.tbf.xml" nodepath="8.2.0.0" sentencenodepath="8">Familiares de López_de_Coca tienen <argset><head>participación </head></argset>en la empresa Colisur_2000 , ubicada en Picón ( Ciudad_Real ) , una planta transformadora a la que la Consejería le retiró la autorización para emitir certificados de transformación para el cobro de las ayudas comunitarias que existen para esta actividad . </example>
+        <example file="CESS-CAST-AA/5394_20001207.tbf.xml" nodepath="3.0.4.1.1.0" sentencenodepath="3">" Este año Ø concluiremos con <argset><specifier>una</specifier><head>participación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del 80_por_ciento en el mercado de bebidas de cola y de un 21_por_ciento en el mercado total de bebidas no alcohólicas</argument></argset>" , agregó Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

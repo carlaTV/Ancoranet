@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="rebaja" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="rebajar" originlink="verb.rebajar.1" wordnetsynset="16:04010041">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="9" preposition="de" type="sp"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="8" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a22-0.tbf.xml" nodepath="0.2.1.1.0.0" sentencenodepath="0">El error fue haberlo comprado en <argset><head>rebajas </head></argset>. </example>
+        <example file="3LB-CAST/a22-0.tbf.xml" nodepath="10.1.1.0" sentencenodepath="10">De allí <argset><specifier>las</specifier><head>rebajas </head></argset>. </example>
+        <example file="3LB-CAST/c5-1.tbf.xml" nodepath="0.0.2.1.0" sentencenodepath="0">Batallar codo_a_codo <argset><specifier>las</specifier><head>rebajas </head></argset>para sentirme pueblo pueblo en la única sección posible a la que Ø pertenezco : la de los saldos . </example>
+        <example file="3LB-CAST/c5-1.tbf.xml" nodepath="7.2.10.1.1.1.1.0" sentencenodepath="7">Se acabó la Nochebuena , el año_93 , el día de Reyes , el gordo de Navidad , la lotería del Niño , el estreno de <argset><specifier>las</specifier><head>rebajas </head></argset>, las galas de las teles ... todo , hasta el Xacobeo . </example>
+        <example file="3LB-CAST/t3-6.tbf.xml" nodepath="9.2.1.1.3.1.1.0" sentencenodepath="9">Yo tengo unas velas que Ø compré en <argset><specifier>las</specifier><head>rebajas </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de la cerería de la calle del Bisbe</argument></argset>. </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="16.0.3.4.1.1.1.1.1.1.2.2.0" sentencenodepath="16">" Obligado por una situación que contribuyó a crear con una política de brazos cruzados , Jospin ha salido del atolladero con habilidad ( ... ) . La acumulación de impaciencia ha hecho un favor al primer ministro al forzarle a entrar en un terreno que no es tradicionalmente el_suyo <argset>: <specifier>la</specifier>
+            <head>rebaja </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la presión fiscal</argument>
+          </argset>" , afirma el diario izquierdista " Liberation " . </example>
+        <example file="CESS-CAST-AA/8504_20001212.tbf.xml" nodepath="2.3.2.2.0.0" sentencenodepath="2">José_Segura , diputado socialista encargado de la defensa de la Proposición , añadió desde la tribuna que " Ø queremos <argset><head>rebajas </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los peajes</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">de las autopistas</argument></argset>, pero no a_costa_de los ciudadanos , sino_que Ø se produzca desde una corrección de la desigualdad de los equilibrios económicos-financieros en defecto y en exceso de las empresas , para conseguir que las situaciones de mayor prosperidad repercutan en el interés general " . </example>
+        <example file="CESS-CAST-P/102_19991001.tbf.xml" nodepath="0.2.0.2.0.1.0" sentencenodepath="0">El Gobierno italiano ha decidido aplicar el próximo año <argset><specifier>una</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de impuestos</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sp">por importe de 878.518 millones de pesetas</argument></argset>y un recorte de los gastos públicos de 1,4 billones de pesetas , y establecer ayudas al desarrollo por valor de 6,1 billones adicionales . </example>
+        <example file="CESS-CAST-P/25_20000701.tbf.xml" nodepath="3.2.2.1.1.0" sentencenodepath="3">Copeland , un ingeniero de 24 años , había admitido ser el autor de los atentados , pero Ø intentó conseguir <argset><specifier>una</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en la pena</argument></argset>alegando un ataque de paranoia y esquizofrenia . </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="4.0.0.0" sentencenodepath="4"><argset><head>REBAJA </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">DE LA FIANZA</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="1.4.2.1.0" sentencenodepath="1">CiU tampoco desea bajar tasas , el PSOE aboga por el modelo francés e IU propone <argset><specifier>una</specifier><head>rebaja </head><reference_modifiers>selectiva</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="2.4.0.1.1.1.0" sentencenodepath="2">El presidente del Gobierno , José_María_Aznar , se mostró ayer contrario a <argset><specifier>una</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del impuesto especial sobre hidrocarburos</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">para compensar la subida del precio del petróleo y de los carburantes</argument></argset>. </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="18.3.0.1.1.0.1.1.0" sentencenodepath="18">El portavoz económico de IU , Gaspar_Llamazares , se mostró partidario de aplicar <argset><specifier>una</specifier><head>rebaja </head><reference_modifiers>selectiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los impuestos</argument></argset>a los sectores más desfavorecidos , como el pesquero y el agrario , pero no de forma generalizada . </example>
+        <example file="CESS-CAST-P/76_20000902.tbf.xml" nodepath="19.2.1.1.0" sentencenodepath="19">Vicente_Martínez_Pujalte , del PP , dijo que <argset><specifier>una</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de impuestos</argument></argset>podría tener efectos negativos si las petroleras la aprovechan para subir sus beneficios . </example>
+        <example file="CESS-CAST-P/78_19990102.tbf.xml" nodepath="1.0.3.1.1.0" sentencenodepath="1">La Comisión_del_Sistema_Eléctrico_Nacional ( CSEN ) , sin_embargo , considera que <argset><specifier>la</specifier><head>rebaja </head></argset>es inferior a la anunciada por el Gobierno y Ø la sitúa en el 2,1% . </example>
+        <example file="CESS-CAST-P/80_20000701.tbf.xml" nodepath="7.3.1.1.0" sentencenodepath="7">Mientras duren los trabajos , los comerciantes afectados disfrutarán de <argset><specifier>una</specifier><head>rebaja </head><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 30%</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el impuesto de actividades económicas ( IAE )</argument></argset>. </example>
+        <example file="CESS-CAST-P/92_20000701.tbf.xml" nodepath="9.4.2.0.3.0.2.2.1.0" sentencenodepath="9">" Ø Preferimos que Ø suban el IAE " El representante de Pimecsefes declaró a Efe : " El Gobierno nos hacía planteamientos positivos , como <argset><specifier>la</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del IAE</argument></argset>, pero Ø nunca habló de los horarios comerciales ; nosotros preferimos que Ø nos suban el IAE , pero no que Ø nos cambien el actual sistema de horarios " . </example>
+        <example file="CESS-CAST-P/9_20010601_b.tbf.xml" nodepath="0.3.0.1.1.0" sentencenodepath="0">Después la propia competencia y la ley de mercado acabará derivando en <argset><specifier>una</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los precios</argument></argset>o en un sistema más justo para que no paguen justos por pecadores . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="rebajar" originlink="verb.rebajar.1" wordnetsynset="16:09596149">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ext">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" thematicrole="efi">
+        <constituent frequency="1" preposition="hasta" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/13810_20000617.tbf.xml" nodepath="0.0.4.1.0" sentencenodepath="0">La caída en bolsa de Telefónica por las compras bursátiles de su presidente , que recogen dos de los tres diarios económicos , las medidas de liberalización en horarios comerciales y <argset><specifier>la</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los impuestos sobre los fondos de inversión</argument></argset>ocupan hoy las primeras planas de los diarios económicos . </example>
+        <example file="CESS-CAST-A/13968_20000317.tbf.xml" nodepath="3.1.5.1.1.0.0" sentencenodepath="3">El Gobierno repartirá este año el " bote " de la recaudación fiscal inesperada ( 7.622,4 millones de euros ) : 1.524,4 millones para gastos públicos , y 6.097,9 millones en recortes adicionales de impuestos , entre ellos , Vivienda y Renta - por 1.676,9 millones cada uno - y otros 2.774 millones de <argset><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del impuesto al valor añadido ( IVA )</argument></argset>. </example>
+        <example file="CESS-CAST-P/106_19991202.tbf.xml" nodepath="2.2.1.1.3.1.1.4.4.1.0" sentencenodepath="2">Ésta es la previsión que maneja el conseller de Economia , Artur_Mas , en el primer esbozo del Presupuesto_de_la_Generalitat para el 2000 presentado ayer , en el que Ø prevé <argset><specifier>una</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">del déficit</argument><argument argument="arg2" function="cn" thematicrole="ext" type="sp">del 25%</argument><argument argument="arg4" function="cn" thematicrole="efi" type="sp">, hasta 11.250 millones de pesetas ( 67,61 millones de euros ) ,</argument></argset>con_el_objetivo_de lograr el equilibrio presupuestario en el 2001 . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="rebajar" originlink="verb.rebajar.1" wordnetsynset="16:04010041">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="3.2.1.1.0" sentencenodepath="3">Mendizábal señaló que <argset><specifier>la</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los impuestos</argument><reference_modifiers>solicitada por las petroleras y su patronal y presentada por éstas como la única solución para frenar la constante subida de los carburantes</reference_modifiers>, </argset>es una medida que " tiene poco sentido " , ya_que en España la fiscalidad que afecta a estos productos es una de las menores de la Unión_Europea . </example>
+        <example file="CESS-CAST-P/48_20020302.tbf.xml" nodepath="9.3.1.1.0" sentencenodepath="9">Ante esta situación , la magistrada accedió a <argset><specifier>la</specifier><head>rebaja </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la fianza</argument></argset>, aunque , paralelamente , Ø ha ordenado la investigación sobre el modo y el nivel de vida del imputado . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

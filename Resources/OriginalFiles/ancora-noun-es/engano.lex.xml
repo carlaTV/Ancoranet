@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="engaño" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="engañar" originlink="verb.engañar.1" wordnetsynset="16:00111383+16:00498592">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="13.5.1.1.1.1.1.2.1.0" sentencenodepath="13">Asimismo el Gobierno rumano anunció hoy medidas legislativas para fortalecer el control sobre los fondos mutuos de inversiones con el objetivo de impedir el fraude , <argset><specifier>el</specifier><head>engaño </head></argset>y la falsa publicidad . </example>
+        <example file="3LB-CAST/a12-0.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><specifier>Otro</specifier><head>engaño </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del cuerpo</argument></argset>, según ellos . </example>
+        <example file="CESS-CAST-A/12406_20000916.tbf.xml" nodepath="6.3.3.3.1.2.0.1" sentencenodepath="6">Asimismo , Ø cree que las ayudas de la UE habría que dejar de vincularlas a proyectos concretos , y entregarlas en bruto a los países para evitar así <argset>" <head>engaños </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="s.a">burocráticos</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-A/17909_20000222.tbf.xml" nodepath="7.3.3.1.0.2.0" sentencenodepath="7">En_cuanto_al anuncio del candidato del PSOE a la Presidencia_del_Gobierno , Joaquín_Almunia , de que las 35 horas semanales de jornada laboral no sean por ley , tal_y_como recoge el pacto entre los socialistas e IU , Rato afirmó que se trata de <argset>" <specifier>un</specifier>
+            <head>engaño </head>
+            <reference_modifiers>más</reference_modifiers>" , </argset>y una muestra de que dicho acuerdo " ya empieza con incumplimientos y con broncas " . </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="30.2.2.1.0" sentencenodepath="30">Ø No lo entiendo , Ø es <argset><specifier>un</specifier><head>engaño </head></argset>. </example>
+        <example file="CESS-CAST-P/81_19991101.tbf.xml" nodepath="1.0.1.2.1.0.1.3.1.1.1.0.1.1.1.2.0" sentencenodepath="1">Tras regresar al estilo de su primera película como director con La_trama , que era una revisión del tema de <argset>los timos , <head>engaños </head>y juegos de espejos </argset>de Casa_de_juegos , David_Mamet opta con El_caso_Winslow por otro retorno , en este caso al teatro , su primer lugar de nacimiento artístico . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="engañar" originlink="verb.engañar.1" wordnetsynset="16:00498592">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="1.4.4.2.0.3.1.1.3.1.1.1.1.0.0" sentencenodepath="1">Peralta se negó a aclarar si el fondo ascendía a 30 o a 1.050 millones de pesetas , puesto_que había dos documentos que recogían cifras distintas , lo que llevó al entonces director de supervisión de la CNMV a afirmar que el arzobispado colaboraba con el intento de <argset><head>engaño </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Gescartera</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

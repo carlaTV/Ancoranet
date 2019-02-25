@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="mensaje" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="enviar" originlink="verb.enviar.1" wordnetsynset="16:04729537+16:04949838">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat">
+        <constituent frequency="6" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="19" type="void"/>
+        <constituent frequency="20" postype="indefinite" type="determiner"/>
+        <constituent frequency="15" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="por" type="sp"/>
+        <constituent frequency="15" type="s.a"/>
+        <constituent frequency="1" type="sadv"/>
+        <constituent frequency="14" type="S"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_C-6.tbf.xml" nodepath="9.2.3.1.0.3.2.2.0.0" sentencenodepath="9">Las pruebas recogidas por la Policía , así_como informaciones de prensa , indican que fueron grupos organizados los que difundieron rumores sobre la inminente quiebra del BCR , a_través_de llamadas telefónicas anónimas y <argset><head>mensajes </head><reference_modifiers>por correo electrónico</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/2000060111_5-1.tbf.xml" nodepath="7.4.2.1.0" sentencenodepath="7">Fujimori se consideró el pasado_lunes , en <argset><specifier>un</specifier><head>mensaje </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">a la nación</argument></argset>, presidente reelegido dispuesto a asumir cinco años más la presidencia , al contar con el 51,22_por_ciento de los votos totales , al 99,78_por_ciento de las mesas escrutadas . </example>
+        <example file="3LB-CAST/211_C-3.tbf.xml" nodepath="19.2.1.1.2.2.1.1.0.1.1.3.1.1.1.0" sentencenodepath="19">Chávez acudió en la noche del jueves , justo una semana después de aparecer por última vez ante los venezolanos para lanzar <argset><specifier>un</specifier><head>mensaje </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">institucional</argument></argset>en cadena nacional de radiotelevisión , a un "_Programa_Especial_" de la cadena privada Venevisión , en el que Ø fue entrevistado durante dos horas por el periodista Fausto_Malavé , que acogió numerosas preguntas llegadas por Internet para el mandatario . </example>
+        <example file="3LB-CAST/211_C-6.tbf.xml" nodepath="6.2.0.1.0" sentencenodepath="6">En_cambio , Katsav presentará una familia pluralista - marido sefardí y esposa ashkenazí - y tradicionalista en lo religioso , y <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>mensaje </head></argset>será que " Peres es como el Papa , que viaja por todo el mundo " , mientras_que él se ocupa sobre_todo de los problemas internos . </example>
+        <example file="3LB-CAST/a22-1.tbf.xml" nodepath="12.3.1.1.1.1" sentencenodepath="12">No había que ser muy perspicaz para entender <argset><specifier>el</specifier><reference_modifiers>siniestro</reference_modifiers><head>mensaje </head></argset>. </example>
+        <example file="3LB-CAST/c1-3.tbf.xml" nodepath="4.0.1.1.1.2.1.0.2.1.1.1" sentencenodepath="4">Multar las octavillas derramadas sobre Madrid como botellas de papel con <argset><specifier>un</specifier><reference_modifiers>dramático</reference_modifiers><head>mensaje </head><reference_modifiers>dentro</reference_modifiers></argset>, es meter la voz de los trabajadores en un horno crematorio . </example>
+        <example file="3LB-CAST/c1-3.tbf.xml" nodepath="5.0.3.1.0.0" sentencenodepath="5">Aplicar de forma selectiva y discriminatoria todo el rigor de la ordenanza municipal al <argset><head>mensaje </head><reference_modifiers>impreso y desparramado</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la clase obrera</argument></argset>es encerrarlo en una cámara de gas . </example>
+        <example file="3LB-CAST/d2-9.tbf.xml" nodepath="4.0.3.1.1" sentencenodepath="4">El director deportivo transmite inmediatamente <argset><specifier>el</specifier>" <head>mensaje </head>" </argset>a sus ciclistas como si de un conducto reglamentario se tratase - muchas veces en el momento menos adecuado - , y éstos se desmoralizan más aún si cabe por no haber cumplido con su misión en la carrera . </example>
+        <example file="3LB-CAST/dc2-7.tbf.xml" nodepath="11.2.3.0.0" sentencenodepath="11">Ø Se pasa más de diez horas al día escribiendo con su mirada en la pantalla , y con una voz metálica , generada en un sintetizador de voz , Ø transmite <argset><head>mensajes </head></argset>- a una velocidad de veinte palabras por minuto - a sus familiares y amigos . </example>
+        <example file="3LB-CAST/t6-5.tbf.xml" nodepath="4.3.1.1" sentencenodepath="4">Debajo se podía leer <argset><specifier>un</specifier><reference_modifiers>turbio</reference_modifiers><head>mensaje </head><reference_modifiers>, faltan 923 días para terminar esta obra</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="12.2.5.1.2.1.1" sentencenodepath="12">Mahuad advirtió que Ø adoptaría acciones para controlar los precios y el sólo anuncio le significó un sonoro aplauso en el Parlamento cuando Ø rindió <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><reference_modifiers>primer</reference_modifiers><head>mensaje </head><reference_modifiers>de labores</reference_modifiers></argset>a la Nación y Ø despertó las esperanzas de mejores días para la mayoría de los habitantes . </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="0.3.1.1" sentencenodepath="0">El pívot David_Robinson le envió <argset><specifier>un</specifier><reference_modifiers>claro</reference_modifiers><head>mensaje </head></argset>al jugador más dominante de la liga , Shaquille_O'Neal , que los Spurs_de_San_Antonio son los campeones defensores del título después de vencerlos en la prórroga por 103-98 del último partido de la campaña regular . </example>
+        <example file="CESS-CAST-A/15931_20000320.tbf.xml" nodepath="0.0.3.2.2.1.0.1" sentencenodepath="0">El lehendakari del Gobierno_Vasco , Juan_José_Ibarretxe , lamentó hoy que en la actual situación política " sobra arrogancia " y faltan <argset>" <head>mensajes </head>
+            <reference_modifiers>más tolerantes</reference_modifiers>" </argset>, y Ø abogó por que se recupere la defensa del interés general como " columna vertebral " de la actuación de los partidos . </example>
+        <example file="CESS-CAST-A/16730_20000221.tbf.xml" nodepath="2.0.0.1.0" sentencenodepath="2"><argset><specifier>El</specifier><head>mensaje </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de McCain , senador por Arizona ,</argument></argset>se ha hecho más agresivo después de la victoria de Bush en Carolina_del_Sur , y en los escasos tres días que van a separar un proceso de otro , Ø ha querido dejar clara la diferencia que separa a ambos . </example>
+        <example file="CESS-CAST-A/17037_20000423.tbf.xml" nodepath="12.2.6.1.0" sentencenodepath="12">Ø Dijo que ETA " se podía haber ahorrado " <argset><specifier>el</specifier><head>mensaje </head><reference_modifiers>que envió ayer a las organizaciones juveniles Jarrai y Gasteriak , fusionadas en Haika</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/17278_20000321.tbf.xml" nodepath="3.6.1.1.0.3.2.2.4.1.0.0" sentencenodepath="3">Para el presidente del Principado , " es evidente " que el PSOE no llega a nuevos sectores de la población por lo que , en su opinión , debe hacerse " un gran esfuerzo de cambio , de aproximación , de <argset><head>mensajes </head><reference_modifiers>claros</reference_modifiers></argset>y de valores que permitan que ese mensaje sea asumido por los nuevos componentes de una sociedad española que ha cambiado mucho en estos años " . </example>
+        <example file="CESS-CAST-A/17278_20000321.tbf.xml" nodepath="3.6.1.1.0.3.2.2.6.1.0.1.2.1.1.0" sentencenodepath="3">Para el presidente del Principado , " es evidente " que el PSOE no llega a nuevos sectores de la población por lo que , en su opinión , debe hacerse " un gran esfuerzo de cambio , de aproximación , de mensajes claros y de valores que permitan que <argset><specifier>ese</specifier><head>mensaje </head></argset>sea asumido por los nuevos componentes de una sociedad española que ha cambiado mucho en estos años " . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="5.4.1.1.0" sentencenodepath="5">Acusado de recibir más de ocho millones de dólares procedentes del juego ilegal y de comisiones de una empresa tabacalera , Estrada reiteró el Lunes su inocencia en <argset><specifier>un</specifier><head>mensaje </head><reference_modifiers>televisado a la nación</reference_modifiers><reference_modifiers>, que fue seguido por otros dos , inesperados , del Ejército y la Policía , en los que se comprometían a defender la Constitución</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/3876_20001005.tbf.xml" nodepath="11.2.2.1.0" sentencenodepath="11">Atanasio_Rakita , obispo delegado del Patriarca de la Iglesia Ortodoxa serbia Pavle , compareció frente_a la masa congregada ante el balcón de la Alcaldía_de_Belgrado y Ø leyó <argset><specifier>un</specifier><head>mensaje </head><reference_modifiers>en el que el jefe de la Iglesia pide al Ejército que no ataque al pueblo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/4216_20001107.tbf.xml" nodepath="2.3.1.3.4.1.0.1.0" sentencenodepath="2">El candidato republicano a la Casa_Blanca cerró así una dura jornada final en la que Ø visitó cuatro estados pregonando <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>mensaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de que es mejor líder que su rival , Al_Gore ,</argument></argset>y sus propuestas para bajar los impuestos a todo el país . </example>
+        <example file="CESS-CAST-AA/4842_20000606.tbf.xml" nodepath="2.5.0.1.1.0.0" sentencenodepath="2">" Nadie debe concebir otra posibilidad , para Aragón y para España , que no sea la de una Teruel dinámica y pujante " , afirmó Ø hoy en el ayuntamiento de la capital turolense dentro del <argset><head>mensaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ánimo</argument><reference_modifiers>que dirigió a los habitantes de esta provincia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/5124_20000307.tbf.xml" nodepath="1.4.2.2.1.1.2.1.1.0" sentencenodepath="1">De camino hacia Barcelona , donde Ø visitará hoy la Feria_Internacional " Alimentaria 2000 " , Sanz subrayó a Efe que " como en todas las ocasiones en que se producen actos de esta naturaleza y sin querer caer , ni_muchísimo_menos , en <argset><specifier>un</specifier><head>mensaje </head><reference_modifiers>conformista y reiterativo</reference_modifiers></argset>, lo que procede es condenar sin paliativos estos atentados " . </example>
+        <example file="CESS-CAST-AA/6736_20000208.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Esta orden " envía <argset><specifier>un</specifier><head>mensaje </head></argset>" , ya_que el Gobierno federal es el principal empleador de Estados_Unidos , con 1,8 millones de trabajadores en su nómina . </example>
+        <example file="CESS-CAST-P/112_19981202.tbf.xml" nodepath="4.0.3.1.0" sentencenodepath="4">El presidente del Barça , Josep_Lluís_Núñez , lanzó ayer <argset><specifier>un</specifier><head>mensaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de serenidad</argument></argset>a la afición , a la que pidió " calma y apoyo al equipo " , y Ø se mostró dolido por el clamor popular que se produjo contra el técnico Louis_van_Gaal durante el partido del pasado sábado ante el Atlético_de_Madrid , justo en el día inaugural del centenario del club . </example>
+        <example file="CESS-CAST-P/113_20000201.tbf.xml" nodepath="1.3.1.6.2.1.1.1.2.1.0" sentencenodepath="1">Los líderes sindicales internacionales advirtieron ayer de que " Ø es el momento de dejar atrás las palabras , y actuar para solucionar los problemas sociales que plantea la mundialización del comercio " , tras el fracaso de la cumbre de Seattle ( Estados_Unidos ) y <argset><specifier>los</specifier><head>mensajes </head><reference_modifiers>reformistas</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del presidente estadounidense y el primer ministro británico</argument><argument argument="argM" function="cn" type="sp">en el Foro_Económico_Mundial_de_Davos ( Suiza )</argument></argset>. </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="21.1.1.0" sentencenodepath="21">Por esto <argset><specifier>el</specifier><head>mensaje </head><reference_modifiers>que desde Europa tenemos que enviar una y otra vez a los ciudadanos turcos y a sus gobernantes</reference_modifiers></argset>es que Ø asuman la realidad de este pluralismo , que sin mengua de su propio orgullo nacional Ø propongan una solución autonómica y que Ø conviertan a los kurdos en corresponsables de su propio autogobierno dentro de una Turquía unida . </example>
+        <example file="CESS-CAST-P/120_20010103.tbf.xml" nodepath="15.2.1.0" sentencenodepath="15">" Ø No podemos pensar que antes de jugar esto ya está ganado " , es <argset><specifier>el</specifier><head>mensaje </head><reference_modifiers>que ha repetido con insistencia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/134_20000701.tbf.xml" nodepath="11.3.2.2.1.1.1.4.1.1.1.2.1.1.1.1.1.0.0" sentencenodepath="11">Tres girasoles , su flor preferida , y el escrito " Ciao_amore_,_Diletta " acompañó el ataúd junto_a una corona de rosas rojas de sus cuatro hijos , que compartieron espacio con las numerosas flores y notas con todo tipo de <argset><head>mensajes </head></argset>que los visitantes dejaron a su paso . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="0.1.1.1.0" sentencenodepath="0">La comunicación por Internet no garantiza la privacidad : <argset><specifier>un</specifier><head>mensaje </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">por correo electrónico</argument></argset>puede ser rescatado tras ser borrado . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="3.3.1.1.0" sentencenodepath="3">Posiblemente Bill pensó que <argset><specifier>el</specifier><head>mensaje </head></argset>ya estaba borrado y bien borrado . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="9.2.1.1.1.1.2.3.1.1.1.1.1.3.1.1.1.0.0" sentencenodepath="9">Gates ha sido una víctima de este tenso debate que , de_acuerdo_con la manga ancha con que la Administración suele medir estos temas en EEUU , lleva_camino de convulsionar a una sociedad que intercambia cada día más de 25.000 millones de <argset><head>mensajes </head><reference_modifiers>electrónicos</reference_modifiers></argset>, sólo en el ámbito laboral . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="14.0.0.0.0" sentencenodepath="14"><argset><head argument="arg1" thematicrole="pat">Mensajes </head>y documentos </argset>vuelven a aparecer como por_arte_de_magia . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="19.0.0.0.0" sentencenodepath="19"><argset><head argument="arg1" thematicrole="pat">Mensajes </head><reference_modifiers>que alguna vez se borraron bien borrados para eliminar sombras ,</reference_modifiers></argset>se iluminaban gracias_a su pericia y Ø , además , valían mucho dinero en el sistema judicial estadounidense . </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="21.3.0.2.3.1.0" sentencenodepath="21">Hoy_en_día , no hay juicio digno de tal nombre que no incluya <argset><specifier>varios</specifier><head>mensajes </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de correo electrónico</argument><reference_modifiers>donde el culpable lo confiesa todo sin que Perry_Mason tenga tiempo a intimidarlo con una insoportable mirada a los ojos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="22.3.0.0" sentencenodepath="22">Jessen ha proporcionado a los jueces <argset><head>mensajes </head><reference_modifiers>electrónicos</reference_modifiers><reference_modifiers>donde empresarios , abogados , médicos o trabajadores explicaban trapicheos de todo tamaño y color , conspiraciones , instrucciones para eliminar pruebas , la sorpresa porque un paciente se había salvado tras una operación chapuza o , directamente , la planificación de chantajes a cadenas de supermercados</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/16_19990501_a.tbf.xml" nodepath="25.2.1.1.1.0.2.1.1.1.0.0" sentencenodepath="25">El uso de esta herramienta desde el hogar , el espacio laboral ( Ø sea fijo o a distancia ) o los ratos de ocio , plantea el dilema de quién es el propietario del <argset><head>mensaje </head></argset>en cada caso y qué tipo de legislación lo ampara . </example>
+        <example file="CESS-CAST-P/17_20011001.tbf.xml" nodepath="14.3.1.0" sentencenodepath="14">En Nueva_York , los taxistas árabes o de aspecto árabe han recibido <argset><specifier>un</specifier><head>mensaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de apoyo</argument></argset>de la compañía . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="24.3.2.1.1.1.1.1.0.3.0.0" sentencenodepath="24">Las campañas políticas norteamericanas se basan en una clarificación , en una precisión de lo que Ø llamamos <argset><head>mensaje </head></argset>y en sus votantes . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="25.7.3.0.0" sentencenodepath="25">- - ¿ Aquí no hay precisión porque no hay <argset><head>mensaje </head></argset>? . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="27.3.1.4.1.0" sentencenodepath="27">Aquí se pretende seguir ignorando que Ø no retenemos <argset><specifier>más de un</specifier><head>mensaje </head></argset>. </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="28.4.1.1.0" sentencenodepath="28">- - Ø Supongo que <argset><specifier>el</specifier><head>mensaje </head></argset>no es sólo palabras . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="30.0.1.0" sentencenodepath="30"><argset><specifier>El</specifier><head>mensaje </head></argset>no sólo se comunica verbalmente . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="33.3.1.1.1.1.1.1.0.0" sentencenodepath="33">- - De casi todo : de dirigir la elaboración del <argset><head>mensaje </head></argset>, de conocer a_fondo los objetivos en el electorado y de todo el aspecto logístico . </example>
+        <example file="CESS-CAST-P/27_19981202.tbf.xml" nodepath="7.0.0.0" sentencenodepath="7"><argset><head argument="arg1" thematicrole="pat">Mensaje </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Frei</argument></argset>. </example>
+        <example file="CESS-CAST-P/29_19990103.tbf.xml" nodepath="8.3.1.2.2.1.0" sentencenodepath="8">Encima de las fotografías ampliadas de las cuatro caras , Cuixart dibujó unos grafismos en tinta china que potenciaban <argset><specifier>el</specifier><head>mensaje </head><reference_modifiers>vanguardista</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la publicación</argument></argset>. </example>
+        <example file="CESS-CAST-P/2_19991102.tbf.xml" nodepath="5.2.0.1.1.1.0" sentencenodepath="5">Este es uno de <argset><specifier>los</specifier><head>mensajes </head></argset>que se lee en uno de esos tableros . </example>
+        <example file="CESS-CAST-P/30_19990102.tbf.xml" nodepath="6.3.1.0.3.2.2.1.1.0" sentencenodepath="6">Las palabras de Milosevic no tranquilizaron al presidente montenegrino , Milo_Djukanovic , quien expresó , también en <argset><specifier>el</specifier><head>mensaje </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de Año_Nuevo</argument></argset>, sus temores de que Milosevic emprenda una acción contra Montenegro " para convertirlo en propiedad autocrática de un sólo hombre " . </example>
+        <example file="CESS-CAST-P/30_19990201.tbf.xml" nodepath="6.3.1.0" sentencenodepath="6">Arenas expuso en 45 minutos <argset><specifier>un</specifier><head>mensaje </head><reference_modifiers>interno</reference_modifiers></argset>para los militantes populares que se han embarcado en el viaje al centro . </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="2.3.1.1.0" sentencenodepath="2">El Gobierno vasco replica al presidente que <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>mensaje </head></argset>busca el enfrentamiento . </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="20.0.3.1.1.1.1" sentencenodepath="20">El portavoz del Ejecutivo_de_Vitoria , Josu_Jon_Imaz , acusó a Aznar de lanzar <argset><specifier>un</specifier>" <head>mensaje </head><reference_modifiers>basado en la confrontación y la ausencia de diálogo</reference_modifiers>" </argset>, pero Ø aseguró que PNV y EA acudirán a sus respectivas reuniones con Mayor_Oreja dispuestos a buscar " espacios de entendimiento " , porque Ø no desean potenciar " mensajes de crispación , fractura o división " . </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="20.2.2.5.5.1.0.1" sentencenodepath="20">El portavoz del Ejecutivo_de_Vitoria , Josu_Jon_Imaz , acusó a Aznar de lanzar un " mensaje basado en la confrontación y la ausencia de diálogo " , pero Ø aseguró que PNV y EA acudirán a sus respectivas reuniones con Mayor_Oreja dispuestos a buscar " espacios de entendimiento " , porque Ø no desean potenciar <argset>" <head>mensajes </head>
+            <reference_modifiers>de crispación , fractura o división</reference_modifiers>" </argset>. </example>
+        <example file="CESS-CAST-P/32_19990501.tbf.xml" nodepath="5.2.2.1.0" sentencenodepath="5">El general Maroni señaló que en los próximos días se recrudecerán los ataques , y Ø dirigió <argset><specifier>un</specifier><head>mensaje </head><reference_modifiers>admonitorio</reference_modifiers></argset>a las tropas serbias : " El tiempo mejora " . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="18.0.3.1.0" sentencenodepath="18">De_momento , dos hospitales de Barcelona - - Sant_Pau y Vall_d'Hebron - - han recogido <argset><specifier>ese</specifier><head>mensaje </head></argset>y Ø han establecido consultorios adosados a urgencias en los que Ø atienden de_inmediato , o antes de 24 horas , a las personas con patologías leves , que suponen casi un 20% de la demanda de urgencias . </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="101.0.4.0.0" sentencenodepath="101">Ultimamente todos ellos me dejan <argset><head>mensajes </head></argset>en el contestador : ' ¡ Hey , Bill , si te hace_falta trabajo , el año que viene Ø tenemos gira ! ' </example>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="1.0.1.1.1" sentencenodepath="1">En <argset><specifier>el</specifier><reference_modifiers>tradicional</reference_modifiers><head>mensaje </head><reference_modifiers>de Nochevieja</reference_modifiers></argset>, Ø hizo un nuevo llamamiento al diálogo para solucionar el problema de la violencia y Ø expresó su " compromiso " con la " defensa a_ultranza de la libertad y la seguridad " de todas las personas . </example>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="8.3.1.1.0" sentencenodepath="8">Pese_a admitir de_entrada que Euskadi sufre una compleja situación política y que Ø no puede " seguir viviendo así " , Ibarretxe quiso enviar <argset><specifier>un</specifier><head>mensaje </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de esperanza</argument><reference_modifiers>: " La paz es posible "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/63_20020202.tbf.xml" nodepath="0.0.0.1.1.0.0" sentencenodepath="0">Envío de <argset><head>mensajes </head></argset>a teléfonos_móviles y servicios participativos de televisión interactiva . </example>
+        <example file="CESS-CAST-P/68_19991201.tbf.xml" nodepath="8.2.3.1.0" sentencenodepath="8">El presidente de la UCE recordó que el Diazepan es un psicotrópico presente en calmantes como el Valium y Ø estimó " extremadamente peligroso " <argset><specifier>el</specifier><head>mensaje </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del videojuego</argument></argset>, " sobre_todo porque Ø está destinado a niños y jóvenes " . </example>
+        <example file="CESS-CAST-P/71_19990901.tbf.xml" nodepath="1.2.1.0" sentencenodepath="1">Dos hermanas dejan <argset><specifier>un</specifier><head>mensaje </head></argset>, ayer , en Kensington . </example>
+        <example file="CESS-CAST-P/75_20020102.tbf.xml" nodepath="3.5.1.0" sentencenodepath="3">Así , ayer , en los paneles informativos de diversas vías importantes , Trànsit incluyó <argset><specifier>un</specifier><head>mensaje </head><reference_modifiers>: " Entre todos hemos reducido los accidentes . Gracias por su ayuda "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/78_20010201.tbf.xml" nodepath="4.2.0.3.1.0" sentencenodepath="4">Badr aseguró que los imanes darán <argset><specifier>este</specifier><head>mensaje </head></argset>a sus fieles de forma reiterada desde las 12 mezquitas de Melilla y que Ø también les instarán a incumplir la prohibición comunitaria de importar borregos de Marruecos debido_a un brote de fiebre_aftosa que podría propagarse a la cabaña española . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="event" id="2" lexicalized="no" originlemma="enviar" originlink="verb.enviar.1" wordnetsynset="16:04729537">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-P/30_19990102.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">Por su parte , el presidente yugoslavo Slobodan_Milosevic afirmó en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>mensaje </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de Año_Nuevo</argument></argset>que durante 1999 se debe " encontrar una solución política a la crisis de Kosovo " que ponga_fin a " las dudas del mundo y Europa " y que implique " la igualdad para todos " . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="underspecified" id="3" lexicalized="no" originlemma="enviar" originlink="verb.enviar.1" wordnetsynset="16:04949838">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="hacia" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="3.0.0.1.1.1.1.1.0" sentencenodepath="3">Pérez_Roque , portador de <argset><specifier>un</specifier><head>mensaje </head><reference_modifiers>personal</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del presidente Fidel_Castro</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">al jefe de Estado interino y primer ministro de Rusia , Vladímir_Putin ,</argument></argset>llegó anoche a Rusia tras una gira por Italia , Francia y Dinamarca . </example>
+        <example file="CESS-CAST-P/35_20000103.tbf.xml" nodepath="4.3.1.0" sentencenodepath="4">Rius ha cambiado de forma radical <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>mensaje </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">hacia médicos y ciudadanos</argument></argset>como reacción tras las primeras saturaciones de este invierno , que se produjeron el pasado fin de semana en varios hospitales de Barcelona . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

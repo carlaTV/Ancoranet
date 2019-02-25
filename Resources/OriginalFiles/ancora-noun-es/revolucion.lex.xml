@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="revolución" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="revolucionar" originlink="verb.revolucionar.1" wordnetsynset="16:05524865">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="2.3.1.1" sentencenodepath="2">El mundo del sexo en Holanda vive hoy <argset><specifier>una</specifier><reference_modifiers>gran</reference_modifiers><head>revolución </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="revolver" originlink="verb.revolver.1" wordnetsynset="16:05524865">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="6" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="5" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060204_5-3.tbf.xml" nodepath="2.2.1.1.1" sentencenodepath="2">Se trata de <argset><specifier>una</specifier><reference_modifiers>auténtica</reference_modifiers><head>revolución </head><reference_modifiers>contenida en cuatro letras : Care ( Contrato de ayuda para regresar al empleo ) , con el que la patronal finalmente parece haber conseguido seducir a cuatro de las cinco grandes centrales sindicales</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/a27-0.tbf.xml" nodepath="1.0.0.1.1.0" sentencenodepath="1">Que <argset><specifier>la</specifier><head>revolución </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de mayo_del_68</argument></argset>nos cogió a la mayor parte de los jóvenes de ese tiempo con el paso - cambiao - y que las noticias que llegaban del exterior apenas_si encontraban eco en los periódicos . </example>
+        <example file="3LB-CAST/c1-2.tbf.xml" nodepath="0.4.2.1.2.1.1.0" sentencenodepath="0">El partido tumultuoso y enrabietado , bastante cochambrosete , que hizo anoche el Madrid me recordó con frecuencia los arrebatos cinematográficos del Ejército de Pancho_Villa , esa ética populachera y emocionante de <argset><specifier>todas las</specifier><head>revoluciones </head><reference_modifiers>nobles y desarrapadas</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/c2-1.tbf.xml" nodepath="8.2.0.4.2.1.0.0" sentencenodepath="8">Ø Es malestar , nazismo , ansia muda de <argset><head>revolución </head></argset>, crispación , venganza contra los padres y contra el sistema . </example>
+        <example file="3LB-CAST/c5-0.tbf.xml" nodepath="10.0.4.1.1.1.1.1.1.0" sentencenodepath="10">Sangrar otra vez , como entonces , la vena de la anarquía para regar el árbol de <argset><specifier>la</specifier><head>revolución </head></argset>en el que ya nadie cree . </example>
+        <example file="3LB-CAST/dc3-0.tbf.xml" nodepath="2.2.3.1.1" sentencenodepath="2">Poco_a_poco Ø aprendió a efectuar modificaciones sobre ellos , como en las aleaciones metálicas , pero sólo recientemente se ha producido <argset><specifier>una</specifier><reference_modifiers>auténtica</reference_modifiers><head>revolución </head></argset>con la creación de nuevos materiales , cada vez mejores , en mayor número y más adaptados a las propiedades específicas que en cada caso se les demandan . </example>
+        <example file="3LB-CAST/n1-15.tbf.xml" nodepath="5.1.2.2.1.2.1.6.1.1.1.1.1.0.1.1.1.1.0" sentencenodepath="5">Después_de que la madre de Enrique_Buendía ( uno de los líderes de la Corriente ) recogiera el fusil de su hijo muerto en combate , los discursos comenzaron y se enumeraron los logros del acuerdo : ayudas para créditos , becas para estudios , subsidio de paro durante dos años e indulto para los presos por delitos relacionados con <argset><specifier>la</specifier><head>revolución </head></argset>- un punto en el que algunos no estaban del_todo de_acuerdo porque Ø no se extiende a delitos relacionados con el secuestro , para los que hay una pena de 60 años - . </example>
+        <example file="CESS-CAST-A/15355_20001120.tbf.xml" nodepath="5.3.3.1.0" sentencenodepath="5">Tras una visita al Departamento_de_Elecciones del condado , Lincoln_Díaz_Balart , congresista republicano por Florida , dijo que " si esto ocurriera en cualquier otro país del mundo , habría <argset><specifier>una</specifier><head>revolución </head></argset>" . </example>
+        <example file="CESS-CAST-A/17865_20001223.tbf.xml" nodepath="30.2.3.1.1.1.1.0.1.2.1.0" sentencenodepath="30">La bandera del COI bajó a media asta y los crespones rindieron homenaje a la mujer del hombre que encabezó <argset><specifier>la</specifier><head>revolución </head></argset>en el olimpismo moderno . </example>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="9.2.0.3.0.1.1.1.0" sentencenodepath="9">El conseller ha puesto_de_manifiesto la importancia de las nuevas tecnologías dentro del sector , " el turismo es fruto de <argset><specifier>la</specifier><head>revolución </head><reference_modifiers>tecnológica</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">en el sector de las comunicaciones</argument></argset>" - ha dicho Ø - y Ø ha apostado por incorporar estas tecnologías a la estrategia empresarial del sector . </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="3.0.6.1.1.0" sentencenodepath="3">" Usted no estuvo aquí con nosotros en <argset><specifier>la</specifier><head>revolución </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de Edsa</argument></argset>" , afirmó la ex presidenta Corazón_Aquino , que instó también a Estrada a presentar su dimisión inmediata por el bien de la economía y de la sociedad filipinas . </example>
+        <example file="CESS-CAST-P/127_19990602.tbf.xml" nodepath="2.3.1.0.1" sentencenodepath="2">Reivindicar al Bowie camaleónico y elegante , a los Beatles más pomposos y servir la mezcla con traje orquestal de John_Barry o Ennio_Morricone ni suena a <argset><reference_modifiers>penúltima</reference_modifiers><head>revolución </head></argset>. </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="121.7.1.1.2.1.2.1.1.0" sentencenodepath="121">- - ¿ No se siente Ø frustrado de tener que vivir como un recluso tras haber participado activamente en <argset><specifier>una</specifier><head>revolución </head><reference_modifiers>que no funcionó</reference_modifiers></argset>? - - </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="129.0.3.1.0.0" sentencenodepath="129">Poco_a_poco , sin mucho ruido , sin <argset><head>revoluciones </head></argset>, porque Ø no sirven de nada . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="anticausative">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/51_20010102.tbf.xml" nodepath="9.2.0.3.1.1.2.3.1.1.1.1.0" sentencenodepath="9">Ø Argumentó que Ø confía en la capacidad del País_Vasco para progresar afrontando las dificultades , y Ø se preguntó si una sociedad solidaria , preocupada por la integración y la cohesión social , que está superando el reto de <argset><specifier>la</specifier><head>revolución </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">tecnológica</argument></argset>, no va a poder resolver su principal problema : " ¿ Ø Es que Ø no vamos a tener el coraje y el nervio suficiente para erradicar la violencia ? " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="revolver" originlink="verb.revolver.1" wordnetsynset="16:00618075">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a27-0.tbf.xml" nodepath="14.0.0.1.3.0.2.2.1.1" sentencenodepath="14">Francia , que vivía uno de los momentos de cambio más importantes de su reciente historia , casi <argset><argument argument="argM" thematicrole="cau" type="spec">su</argument><reference_modifiers>segunda</reference_modifiers><head>revolución </head></argset>, fue la gran vedette de esos años . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+</lexentry>

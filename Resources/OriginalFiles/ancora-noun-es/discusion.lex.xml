@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="discusión" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="discutir" originlink="verb.discutir.1" wordnetsynset="16:05369177">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="cau">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="r" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="3" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10226_20000714.tbf.xml" nodepath="6.2.3.1.1.0" sentencenodepath="6">Argentina y Gran_Bretaña reanudaron sus relaciones diplomáticas en 1990 , al_cabo_de una ronda de negociaciones celebradas en Madrid , en aquella ocasión el país suramericano tuvo que aceptar que <argset><specifier>las</specifier><head>discusiones </head><reference_modifiers>bilaterales</reference_modifiers></argset>dejaran al_margen la espinosa cuestión de la soberanía sobre las Malvinas . </example>
+        <example file="CESS-CAST-A/13241_20000216.tbf.xml" nodepath="0.3.1.1.1" sentencenodepath="0">La política europea de rechazo al nuevo gobierno austriaco de tinte ultraderechista dio_lugar hoy , miércoles , a <argset><specifier>una</specifier><reference_modifiers>encendida</reference_modifiers><head>discusión </head></argset>en el parlamento alemán ( Bundestag ) entre socialdemócratas y verdes , que apoyan el aislamiento de Viena , y los conservadores que lo condenan . </example>
+        <example file="CESS-CAST-AA/20019_20000427.tbf.xml" nodepath="2.4.0.1.1.1.1.0.0" sentencenodepath="2">Según el presidente del salón , Ramón_Bagó , este certamen " quiere ser un foro de <argset><head>discusión </head></argset>sobre todos los problemas del turismo " además_de ser un centro de información para que los ciudadanos puedan planificar sus vacaciones , ya_que los catalanes representan el 40% del turismo emisor de España . </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="7.4.1.0.1.0.1.4.1.0" sentencenodepath="7">Los otros dos puntos capitales de la reforma , la composición de la Comisión_Europea y la ampliación del número de decisiones que se adoptarán por mayoría no se abordarán hasta mañana Lunes , cuando los ministros de Exteriores preparen <argset><specifier>la</specifier><head>discusión </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de la cumbre de Biarritz</argument></argset>. </example>
+        <example file="CESS-CAST-P/14_19981202.tbf.xml" nodepath="4.0.1.0" sentencenodepath="4"><argset><specifier>La</specifier><head>discusión </head></argset>, más allá de las fronteras concretas de los países , debe centrarse en la responsabilidad en la que incurren los regímenes no democráticos . </example>
+        <example file="CESS-CAST-P/151_20010202.tbf.xml" nodepath="1.4.1.1.1.3.1.2.1.1.0" sentencenodepath="1">Los tres comisarios europeos responsables de Competencia ( Mario_Monti ) , Deportes ( Viviane_Reding ) y Asuntos_Sociales ( Anna_Diamantopoulou ) comunicaron por escrito a los dos organismos del fútbol su voluntad de celebrar una reunión , antes de la cumbre del 16_de_febrero , para dar " un impulso político " decisivo a <argset><specifier>las</specifier><head>discusiones </head></argset>, por la inquietud ante el bloqueo actual . </example>
+        <example file="CESS-CAST-P/17_20000102.tbf.xml" nodepath="20.3.2.1.2.2.1.1.1.1.0.2.3.1.1.0" sentencenodepath="20">Los condicionantes que Convergència_i_Unió tiene con el Partido_Popular , como Ø ya se ha visto de_sobras , han hecho que se rompieran o bloquearan en las últimas semanas otros posibles acuerdos , como por_ejemplo la celebración del pleno del Parlament que tenía que nombrar a los miembros del consejo de administración de la CCRTV y encarrilar <argset><specifier>la</specifier><head>discusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Presupuesto para el 2000</argument></argset>. </example>
+        <example file="CESS-CAST-P/182_20010701.tbf.xml" nodepath="2.3.1.1.2.1.0.3.2.5.1.0.0" sentencenodepath="2">La decisión dejó satisfechos a los colombianos , especialmente al presidente del país , Andrés_Pastrana , que había asegurado que la celebración del torneo en su país " no estaba en <argset><head>discusión </head></argset>" . </example>
+        <example file="CESS-CAST-P/20_20000201_b.tbf.xml" nodepath="1.3.2.1.0" sentencenodepath="1">Para cuestiones que afectan a más de una autonomía ( como la financiación ) , el presidente andaluz pide menos reuniones bilaterales y <argset><specifier>más</specifier><head>discusión </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de todos</argument></argset>en_búsqueda_de amplios consensos . </example>
+        <example file="CESS-CAST-P/25_19991202.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">Cuando a alguien Ø le rescinden un contrato - - porque a la empresa o a la institución para la que Ø trabajaba ya no le interesan sus servicios - - , suele haber <argset><specifier>una</specifier><head>discusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">económica</argument></argset>. </example>
+        <example file="CESS-CAST-P/31_19990401.tbf.xml" nodepath="8.2.1.1.0" sentencenodepath="8">En un clima tenso , el ministro de Exteriores Igor_Ivanov acusó a la OTAN de querer separar a Kosovo de Yugoslavia , y en la Duma <argset><specifier>las</specifier><head>discusiones </head></argset>caldearon tanto el ambiente que dos diputados se enzarzaron a puñetazos . </example>
+        <example file="CESS-CAST-P/44_19991102.tbf.xml" nodepath="7.1.4.1.0.1.1.1.1" sentencenodepath="7">Juan_Pablo_II , desde el balcón vaticano de la plaza de San_Pedro , destacó la importancia del acuerdo : " Ø Pone_fin a una de <argset><specifier>las</specifier><reference_modifiers>principales</reference_modifiers><head>discusiones </head><reference_modifiers>que contraponían a católicos y luteranos</reference_modifiers></argset>" como Ø es " la doctrina de la fe " . </example>
+        <example file="CESS-CAST-P/71_19991201_c.tbf.xml" nodepath="3.2.1.2.4.2.1.3.1.0" sentencenodepath="3">Los hechos ocurrieron la semana pasada cuando Inocencio_Salazar , conocido como El_Fati , atacó a otro recluso sin mediar palabra y sin que Ø hubieran protagonizado <argset><specifier>ninguna</specifier><head>discusión </head></argset>. </example>
+        <example file="CESS-CAST-P/90_20010402.tbf.xml" nodepath="1.4.1.1.1.0.1.4.1.1.0" sentencenodepath="1">Un tribunal popular juzga a_partir_de hoy en la Audiencia_de_Lleida el asesinato de Emilio_Salguero_Cortés , muerto a tiros en 1999 tras <argset><specifier>una</specifier><head>discusión </head><argument argument="argM" function="cn" thematicrole="cau" type="sp">por una deuda</argument><reference_modifiers>iniciada en este bar de Lleida</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="benefactive">
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="10.0.3.0.1.1.0.1" sentencenodepath="10">Le Ø ha llevado años de <argset><reference_modifiers>numerosas</reference_modifiers><head>discusiones </head><argument argument="arg2" function="cn" thematicrole="ben" type="sp">con las confederaciones</argument></argset>, pero , por_fin , Ø obtuvo en agosto pasado la luz verde para aplicarlo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="discutir" originlink="verb.discutir.1" wordnetsynset="16:05342032+16:05368498">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="4.4.5.1.1.0" sentencenodepath="4">Sin_embargo , el partido de Rodríguez acordó el Martes que el asunto no sea elevado al Congreso para <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>discusión </head></argset>. </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="2.0.4.1.1.0" sentencenodepath="2">La mayoría de los responsables de la diplomacia comunitaria se sumarán mañana Lunes a <argset><specifier>la</specifier><head>discusión </head></argset>, pero su presencia no va a producir cambios . </example>
+        <example file="CESS-CAST-P/64_20000401.tbf.xml" nodepath="10.0.1.1.0" sentencenodepath="10">Durante <argset><specifier>la</specifier><head>discusión </head></argset>, el policía agredió a la mujer , mientras sus compañeros de patrulla trataban de contenerlo . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="discutir" originlink="verb.discutir.1" wordnetsynset="16:05368498+16:05342032+16:05369177">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/t5-0.tbf.xml" nodepath="10.1.1.0" sentencenodepath="10">Pero <argset><specifier>la</specifier><head>discusión </head></argset>debió empezar en_seguida , porque Ø olvidaron cerrar la puerta . </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="5.3.1.1.2.1.1.1.2.1.0" sentencenodepath="5">Arias acusó al ex presidente Calderón , del gubernamental PUSC , de " traición " y de " apuñalar la democracia " al retirar su apoyo a un proyecto que permitiría <argset><specifier>la</specifier><head>discusión </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de reformas constitucionales para debatir en el Parlamento la reelección presidencial</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5786_20000407.tbf.xml" nodepath="11.3.1.4.1.3.1.1.1.1.0" sentencenodepath="11">El aumento de la polarización llevó hoy a que el presidente de la Dirección_del_Partido_Liberal , Luis_Guillermo_Vélez , pidiera a Pastrana que " Ø abra los escenarios de <argset><specifier>la</specifier><head>discusión </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la reforma política que quiere hacer con el referendo</argument></argset>, " Ø evite una mayor polarización " y Ø no divida al país " entre buenos y malos " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="discutir" originlink="verb.discutir.2" wordnetsynset="16:05369177+16:05340429">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="4" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14943_20001019.tbf.xml" nodepath="1.0.3.4.0.0" sentencenodepath="1">" Sí , Ø queremos que Yugoslavia se convierta en miembro de la Asociación_para_la_Paz . Pero , de_momento , no hay <argset><head>discusiones </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre ello</argument></argset>. Ø Lo queremos , pero no se prevé que Ø suceda pronto " , declaró la fuente a la prensa . </example>
+        <example file="CESS-CAST-AA/8725_20000411.tbf.xml" nodepath="8.2.2.2.1.1.1.1.0" sentencenodepath="8">El ministro de Defensa , Mario_Fernández , preguntado sobre las afirmaciones de Martínez_Busch , dijo que se trataba sólo de " una opinión " y Ø agregó que " el hecho que <argset><specifier>la</specifier><head>discusión </head></argset>esté radicada en el Congreso corresponde a lo que debe ocurrir en democracia " . </example>
+        <example file="CESS-CAST-AA/8934_20000912.tbf.xml" nodepath="1.0.1.2.1.1.1.1.0" sentencenodepath="1">Una fuente anónima , cercana a <argset><specifier>las</specifier><head>discusiones </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre ambas instituciones</argument></argset>, confirmó al medio que el acuerdo es inminente y que el anuncio oficial de la fusión podría hacerse mañana , miércoles , por la mañana . </example>
+        <example file="CESS-CAST-P/5_20000903.tbf.xml" nodepath="3.1.2.1.2.1.1" sentencenodepath="3">Entre las 80 sentencias del mismo , una dice que por derecho natural el clero no debe hacer la mili , y otro , que <argset><specifier>la</specifier><reference_modifiers>libre</reference_modifiers><head>discusión </head></argset>corrompe el alma . </example>
+        <example file="CESS-CAST-P/84_19990902.tbf.xml" nodepath="19.4.2.4.1.0" sentencenodepath="19">Para todo ello , Pujol reclamó a PP y PSOE que Ø hagan " un gran esfuerzo de consenso , y que Ø no conviertan <argset><specifier>la</specifier><head>discusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre pensiones</argument></argset>en una gran subasta " . </example>
+        <example file="CESS-CAST-P/93_20001001.tbf.xml" nodepath="6.0.0.1.1.1.2.1.0.2.0" sentencenodepath="6">Después de un largo periodo de <argset>debates parlamentarios y <head>discusiones </head>
+            <argument argument="arg0" function="cn" thematicrole="agt" type="s.a">populares</argument>
+          </argset>, el Gobierno holandés - - una curiosa mezcla de socialdemócratas , liberales y conservadores , que se conoce con el apodo de Violeta_II - - levantará hoy la prohibición sobre los burdeles . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="5" lexicalized="no" originlemma="discutir" originlink="verb.discutir.2" wordnetsynset="16:05342032">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>discusión </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">sobre la reelección presidencial en Costa_Rica , que desde diciembre pasado impulsa el ex gobernante y Nobel_de_la_Paz Oscar_Arias ,</argument></argset>ha agitado la vida política en este país centroamericano . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

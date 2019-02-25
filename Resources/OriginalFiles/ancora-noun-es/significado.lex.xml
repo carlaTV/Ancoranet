@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="significado" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="significar" originlink="verb.significar.1" wordnetsynset="16:04951584+16:04546018">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-AA/4412_20001107.tbf.xml" nodepath="6.0.3.3.1.0.1.1" sentencenodepath="6">La presidenta del Patronato_de_Turismo_de_Gran_Canaria , María_Concepción_de_Armas , mostró su satisfacción por la celebración del ARC`2000 porque Ø tiene " <argset><specifier>un</specifier><reference_modifiers>gran</reference_modifiers><head>significado </head></argset>e importancia para la promoción de la isla " , y Ø recordó que Ø es " la mayor regata transoceánica del mundo " . </example>
+        <example file="CESS-CAST-P/37_19990901.tbf.xml" nodepath="3.4.1.2.1.0" sentencenodepath="3">En esta línea , Ø criticó al ministro Piqué por " tratar de falsear <argset><specifier>el</specifier><head>significado </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de Lizarra</argument></argset>" , sin entender que la solución al conflicto " vendrá del reconocimiento de la realidad política de Euskal_Herria " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="significar" originlink="verb.significar.3" wordnetsynset="16:04951584+16:04546018">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/a15-2.tbf.xml" nodepath="15.2.1.0" sentencenodepath="15">Los otros nombres de modelos tenían <argset><specifier>un</specifier><head>significado </head><reference_modifiers>claro</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/135_19991201_a.tbf.xml" nodepath="3.0.3.2.3.1.1.0" sentencenodepath="3">" Ø No quiero parecer demasiado melancólica , pero él era mi guía , mi luz , y hoy es difícil encontrar <argset><specifier>el mismo</specifier><head>significado </head></argset>en las cosas " , explicó ayer la actriz italiana . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

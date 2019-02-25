@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="derrota" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="derrotar" originlink="verb.derrotar.1" wordnetsynset="16:05558471">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" preposition="frente_al" type="sp"/>
+        <constituent frequency="2" preposition="ante" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="6" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="3" type="sn"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" preposition="junto_con" type="sp"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="17" postype="numeral" type="determiner"/>
+        <constituent frequency="25" postype="article" type="determiner"/>
+        <constituent frequency="9" type="void"/>
+        <constituent frequency="2" postype="z" type="determiner"/>
+        <constituent frequency="2" postype="demonstrative" type="determiner"/>
+        <constituent frequency="9" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="9" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="16" type="s.a"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d1-2.tbf.xml" nodepath="7.0.4.1.0" sentencenodepath="7">Tres temporadas , cuatro partidos entre ambos equipos y <argset><specifier>cuatro</specifier><head>derrotas </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Michigan</argument><reference_modifiers>- - una de ellas en una Final_Four - -</reference_modifiers><reference_modifiers>, la última hace pocos días en Ann_Arbor , junto_a Detroit</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/10084_20000313.tbf.xml" nodepath="1.5.4.1.1.1.0" sentencenodepath="1">Insuficiente fue el crecimiento del PSOE en la Comunidad_de_Madrid , que obtuvo 12 escaños , uno más que en las generales de hace cuatro años , pese_a perder casi 30.000 votos y quedarse con algo más 1.008.000 y que no sirvió para frenar <argset><specifier>la</specifier><head>derrota </head><reference_modifiers>global</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/10084_20000313.tbf.xml" nodepath="4.4.1.1.1.1.1.1.0.0.1.1.4.4.0.2.0" sentencenodepath="4">Además en las elecciones generales celebradas hoy el PP consolidó su entrada en las localidades del denominado " cinturón rojo " del sur de Madrid , en el que Ø comparte <argset>victorias y <head>derrotas </head>
+          </argset>con el PSOE , que sin_embargo sigue siendo el partido más votado en el cómputo global de esta zona . </example>
+        <example file="CESS-CAST-A/10168_20000212.tbf.xml" nodepath="1.0.0.1.1.4.1.0.1.1.1.1.3.2.1.0" sentencenodepath="1">Las minas , sembradas en 1942 por las tropas del mariscal alemán Erwin_Rommel como medida para cubrir la retirada nazi del norte de Egipto , tras <argset><specifier>la</specifier><head>derrota </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">a manos inglesas</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en El_Alamein</argument></argset>, se han cobrado , hasta el momento , la vida de más de 900 personas , e Ø impiden proyectos de promoción inmobiliaria en la costa norte del país . </example>
+        <example file="CESS-CAST-A/13774_20000718.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>Las</specifier><head>derrotas </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Fernando_Vicente y Jacobo_Díaz</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en los partidos de primera ronda del torneo de Stuttgart disputados hoy</argument><reference_modifiers>, sumadas a la eliminación de Francisco_Clavet en la jornada anterior ,</reference_modifiers></argset>han dejado a la competición sin representantes españoles . </example>
+        <example file="CESS-CAST-A/13789_20000317.tbf.xml" nodepath="3.5.1.1.5.1.1" sentencenodepath="3">Los dos bases de los Bucks también se impusieron en el duelo individual al novato Steve_Francis y Cuttino_Mobley , que con 22 y 20 puntos , respectivamente , no pudieron evitar <argset><specifier>la</specifier><reference_modifiers>quinta</reference_modifiers><head>derrota </head><reference_modifiers>consecutiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para los Rockets</argument><argument argument="argM" function="cn" thematicrole="ext" type="sn">( 24-40 )</argument></argset>. </example>
+        <example file="CESS-CAST-A/14699_20001018.tbf.xml" nodepath="5.1.1.2.1.2.1.0.1.1.4.1.0" sentencenodepath="5">Con esta decisión , su compatriota Yober_Ortega , segundo en las listas de la AMB con récord de 30 victorias , un empate y <argset><specifier>tres</specifier><head>derrotas </head></argset>, viajará a Tokio donde el próximo 23_de_septiembre Ø tendrá una segunda oportunidad , tras perder hace un año con Cermeño , para conquistar la diadema interina cuando Ø enfrente al japonés Kozo_Ishii , que actualmente ocupa el tercer puesto de la categoría Supergallo . </example>
+        <example file="CESS-CAST-A/14819_20000121.tbf.xml" nodepath="2.2.4.1.0" sentencenodepath="2">El equipo santanderino , que la pasada temporada jugó la promoción de descenso y se salvó en los últimos partidos , se ha reforzado esta campaña con varias jugadoras extranjeras y Ø aún no conoce <argset><specifier>la</specifier><head>derrota </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en casa</argument></argset>. </example>
+        <example file="CESS-CAST-A/14966_20000318.tbf.xml" nodepath="5.4.1.1.1.4.1.0.0" sentencenodepath="5">Ø No parece una labor demasiado complicada ante un rival que en la defensa de su corona cuenta sus partidos por <argset><head>derrotas </head></argset>. </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="1.2.3.1.0" sentencenodepath="1">Los Lakers han sido el centro de atención durante toda la liga por sus triunfos , pero en las dos últimas jornadas en su gira por tierras tejanas Ø han sufrido <argset><specifier>dos</specifier><head>derrotas </head><reference_modifiers>muy significativas</reference_modifiers></argset>en_vísperas de comenzar la primera ronda de la fase final contra los Kings_de_Sacramento . </example>
+        <example file="CESS-CAST-A/15346_20000420.tbf.xml" nodepath="3.4.1.2.1.1.1.4.1.1.1" sentencenodepath="3">Una vez más la figura del " Almirante " surgió en los momentos difíciles y decisivos al conseguir seis de sus 17 puntos en la prórroga que Ø dejaron a los Lakers ( 67-15 ) con <argset><specifier>la</specifier><reference_modifiers>segunda</reference_modifiers><head>derrota </head><reference_modifiers>consecutiva</reference_modifiers></argset>después de haber estado a las puertas de una nueva marca histórica , 69 triunfos . </example>
+        <example file="CESS-CAST-A/15989_20001221.tbf.xml" nodepath="7.4.1.1.1.1.1.1.1.1.1.1.1.0" sentencenodepath="7">Reynolds ganó su primera invitación para participar en el " Partido_de_las_Estrellas " la campaña anterior , después de obtener una marca de cinco triunfos por <argset><specifier>cero</specifier><head>derrotas </head></argset>en sus primeros diez inicios como abridor . </example>
+        <example file="CESS-CAST-A/15989_20001221.tbf.xml" nodepath="11.2.0.0.1.2.1.1.1.1.1.0" sentencenodepath="11">El lanzador derecho posee una marca de_por_vida de 86 triunfos por <argset><specifier>69</specifier><head>derrotas </head></argset>y un promedio de efectividad en el montículo de 3,85 , cifras que lo han colocado entre los diez mejores lanzadores en la historia de la franquicia , en triunfos , derrotas y ponches . </example>
+        <example file="CESS-CAST-A/15989_20001221.tbf.xml" nodepath="11.2.1.1.1.3.1.1.3.2.0.2.0" sentencenodepath="11">El lanzador derecho posee una marca de_por_vida de 86 triunfos por 69 derrotas y un promedio de efectividad en el montículo de 3,85 , cifras que lo han colocado entre los diez mejores lanzadores en la historia de la franquicia , en <argset>triunfos , <head>derrotas </head>y ponches </argset>. </example>
+        <example file="CESS-CAST-A/16182_20001121.tbf.xml" nodepath="1.3.1.1.1.0.3.2.2.1.1.1.2.1.1" sentencenodepath="1">Serra_Ferrer , igual que sus jugadores , ha recibido hoy la visita del presidente de la entidad , Joan_Gaspart , quien ha intentado trasladar tranquilidad , después de sumar el domingo <argset><specifier>la</specifier><reference_modifiers>quinta</reference_modifiers><head>derrota </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Liga</argument></argset>, después de haberse jugado once partidos . </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="3.1.2.2.1.0" sentencenodepath="3">El FC_Barcelona , gracias_a su triunfo sobre el colista Sevilla en el Camp_Nou ( 2-0 ) y <argset><specifier>la</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Real_Madrid</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">frente_al Racing_de_Santander</argument></argset>, recuperó el segundo puesto de la tabla que Ø perdió la pasada jornada . </example>
+        <example file="CESS-CAST-A/17142_20000321.tbf.xml" nodepath="3.2.4.4.1.1.3.1.1.1.0" sentencenodepath="3">El técnico anunció que Ø van a corregir los errores porque las fallas " son más fáciles de superar cuando se gana que cuando uno queda amargado por <argset><specifier>la</specifier><head>derrota </head></argset>" . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="2.0.1.0" sentencenodepath="2"><argset><specifier>Las</specifier><head>derrotas </head><reference_modifiers>, que ya llegan a 18 en lo que va de los partidos de exhibición ,</reference_modifiers></argset>han hecho que la paciencia de Steinbrenner se termine , por lo que Ø ya quiere soluciones . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="13.4.1.1.1.2.1.0" sentencenodepath="13">El año pasado , en que tampoco Ø brillaron en su cita de primavera , al_menos Ø consiguieron una marca de 14 triunfos y <argset><specifier>19</specifier><head>derrotas </head></argset>para confirmar luego al inicio de la temporada que Ø no estaban en forma , lo que a_punto_estuvo_de costarle el puesto a Torre . </example>
+        <example file="CESS-CAST-AA/19413_20000524.tbf.xml" nodepath="9.0.1.1.0" sentencenodepath="9">Tras <argset><specifier>esta</specifier><head>derrota </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Asamblea_Legislativa</argument></argset>, Oscar_Arias se juega su última oportunidad en la Sala_Constitucional , cuyos fallos son inapelables , que debe resolver en fecha sin determinar sobre varios recursos al_respecto . </example>
+        <example file="CESS-CAST-AA/20667_20000128.tbf.xml" nodepath="0.3.3.2.1.4.4.1.1.1.1.0" sentencenodepath="0">El Ivesur_PTV intentará mañana confirmar su recuperación con una nueva victoria en la cancha del CV_Vigo , tras el claro triunfo obtenido el pasado miércoles a_domicilio ante el Pepsi_Gijón ( 0-3 ) , con el que los malagueños cortaron una racha de <argset><specifier>tres</specifier><head>derrotas </head><reference_modifiers>seguidas</reference_modifiers><reference_modifiers>, dos en la Superliga y una en la Copa_Confederación</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/21333_20000326_b.tbf.xml" nodepath="1.2.3.1.0.2.5.2.1.0" sentencenodepath="1">El FC_Barcelona se impuso al Málaga ( 1-2 ) en La_Rosaleda y Ø logró su cuarta victoria consecutiva y la novena en toda su historia en terreno del equipo andaluz , donde Ø también ha cosechado seis empates y <argset><specifier>seis</specifier><head>derrotas </head></argset>. </example>
+        <example file="CESS-CAST-AA/21333_20000326_b.tbf.xml" nodepath="3.2.1.2.1.1.0" sentencenodepath="3">El Málaga volvió a sentir el sabor amargo de <argset><specifier>una</specifier><head>derrota </head></argset>después de cinco jornadas sin perder . </example>
+        <example file="CESS-CAST-AA/21333_20000326_d.tbf.xml" nodepath="3.6.1.1.1.1.0.1.0" sentencenodepath="3">Hasta ahora , Ø había visitado en cinco ocasiones al Alavés , una en Primera , tres en Segunda y una en Tercera , con un saldo de <argset><specifier>tres</specifier><head>derrotas </head></argset>y dos empates . </example>
+        <example file="CESS-CAST-AA/21333_20000326_e.tbf.xml" nodepath="2.5.2.1.1.1.0.1.0" sentencenodepath="2">El equipo mallorquín ha visitado en Liga al Valencia en trece ocasiones , con un bagaje de <argset><specifier>nueve</specifier><head>derrotas </head></argset>y cuatro empates . </example>
+        <example file="CESS-CAST-AA/2137_20000704.tbf.xml" nodepath="11.2.4.1.0" sentencenodepath="11">La propia administración de Miyazawa se vio sacudida en 1992 por escándalos de corrupción y sobornos y el año siguiente , aún bajo su presidencia , el Partido_Liberal_Democratico ( PLD ) sufrió <argset><specifier>una</specifier><head>derrota </head><argument argument="argM" function="cn" thematicrole="tmp" type="s.a">electoral</argument><reference_modifiers>que dio origen al único paréntesis en los 38 años de gobierno ininterrumpido desde su fundación</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/21553_20000429.tbf.xml" nodepath="4.3.4.1.1.1.1.0" sentencenodepath="4">El lanzador titular de los Cerveceros , el puertorriqueño , Jaime_Navarro ( 0-5 ) , fue castigado con seis imparables , tres que salieron del parque , y seis carreras - - cinco limpias - - Ø otorgó tres pasaportes y Ø abanicó a uno en sólo dos entradas y un tercio para cargar con <argset><specifier>la</specifier><head>derrota </head></argset>. </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="2.2.4.1.0.2.4.1.0" sentencenodepath="2">Los titulares del Universidad_de_Chile instalados en las gradas del estadio " El_Teniente " de Rancagua , vieron como los goles de Marcos_González ( a los 3 minutos ) ; del argentino Diego_Rivarola ( m.36 ) , de Sebastián_Pardo ( m.53 ) , y Edson_Monsalve ( m.78 ) , dieron_cuenta fácil del dueño de casa , que en la primera fecha había sufrido <argset><specifier>otra</specifier><head>derrota </head></argset>frente al Unión_Española , por 5-2 . </example>
+        <example file="CESS-CAST-AA/22816_20000228.tbf.xml" nodepath="13.5.1.1.0" sentencenodepath="13">A 942 kilómetros al sur de Santiago , el Osorno se desquitó este fin de semana de <argset><specifier>la</specifier><head>derrota </head><reference_modifiers>que le infligió el Puerto_Montt ( 1-0 ) en la primera rueda del torneo de apertura</reference_modifiers></argset>, al vencer al Huachipato , por 2-0 . </example>
+        <example file="CESS-CAST-AA/25617_20000929.tbf.xml" nodepath="0.0.0.1.3.1.1" sentencenodepath="0">Comentario : El Rayet_Guadalajara encajó <argset><specifier>la</specifier><reference_modifiers>primera</reference_modifiers><head>derrota </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de la temporada</argument></argset>ante el Bilbao_Basket ( 86-85 ) en un vibrante e igualado partido que se decidió en el tramo final y que sirvió a los locales para estrenar su casillero de victorias de esta temporada . </example>
+        <example file="CESS-CAST-AA/2790_20001104.tbf.xml" nodepath="3.0.0.1.0" sentencenodepath="3"><argset><specifier>La</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Vancouver</argument></argset>es la primera que Ø sufre en sus tres salidas en la recién iniciada temporada , después de vencer a los Supersonics_de_Seattle y a Los_Angeles_Clippers , y Ø les impidió sumar tres victorias consecutivas , que habrían significado un nuevo récord para la franquicia . </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="3.4.1.2.1.2.0.1.1.1.1.1.0" sentencenodepath="3">El base Larry_Hughes lo apoyó con otro partido sólido al conseguir 24 puntos ( 9_de_22 y 6_de_9 ) , nueve asistencias y cinco rebotes para permitir a los Warriors romper una racha de <argset><specifier>dos</specifier><head>derrotas </head><reference_modifiers>consecutivas</reference_modifiers></argset>y dejar su marca en 6-13 . </example>
+        <example file="CESS-CAST-AA/4675_20000807.tbf.xml" nodepath="8.4.1.1.1.0.1.3.2.1.1.1" sentencenodepath="8">Pero el zurdo Neagle , que comenzó con dos triunfos brillantes a su llegada al equipo neoyorquino no pudo superar el acierto de Guillén que se convirtió en la gran estrella y lo dejó con <argset><specifier>la</specifier><reference_modifiers>segunda</reference_modifiers><head>derrota </head><reference_modifiers>consecutiva</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/4810_20000306.tbf.xml" nodepath="1.2.0.2.0.1.1.0.0" sentencenodepath="1">Si los malagueños logran vencer el próximo sábado al Universidad_de_Granada a_domicilio , el conjunto entrenado por Paco_Hervás se garantizaría un lugar entre los cuatro primeros , que dan derecho a optar al título liguero , mientras_que , en caso de <argset><head>derrota </head></argset>, Ø tendría que esperar al último partido , en el que Ø recibirá a los gijoneses . </example>
+        <example file="CESS-CAST-AA/4810_20000306.tbf.xml" nodepath="2.3.4.0.1.0" sentencenodepath="2">La próxima y penúltima jornada podría incluso aclarar los cuatro primeros puestos de la tabla , ya_que el Sant_Pere_y_Sant_Pau se enfrenta al Pepsi_Gijón y <argset><specifier>una</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los asturianos</argument><argument argument="argM" function="cn" thematicrole="adv" type="sp">, junto_con un triunfo del Ivesur-PTV ,</argument></argset>sentenciaría los puestos tercero y cuarto , al estar ya clasificados el Numancia y el Unicaja_Almería . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="9.2.2.1.0" sentencenodepath="9">Desde entonces Ø sólo ha conseguido tres empates en el feudo del Deportivo y Ø ha cosechado <argset><specifier>cinco</specifier><head>derrotas </head></argset>. </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="18.5.2.1.1.1.0.1.0" sentencenodepath="18">Desde que Ø superó al Real_Madrid en la decimotercera jornada ( 1-0 ) , el equipo gallego sólo ha conseguido ocho puntos de treinta posibles , con un balance de <argset><specifier>seis</specifier><head>derrotas </head></argset>, dos empates y dos victorias . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="21.0.0.1.2.4.1.0" sentencenodepath="21">El equipo aragonés , que sólo ha sufrido <argset><specifier>cuatro</specifier><head>derrotas </head></argset>en 23 jornadas , sacó un punto de un partido que Ø perdía 2-0 a_falta_de once minutos y Ø se mantiene en el segundo puesto de la clasificación . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="22.0.0.1" sentencenodepath="22">
+          <argset>
+            <reference_modifiers>NUEVA</reference_modifiers>
+            <head>DERROTA </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">DEL BETIS</argument>
+            <reference_modifiers>EN EL DEBUT DE HIDDINK</reference_modifiers>
+          </argset>
+        </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="23.2.3.1.0" sentencenodepath="23">El debut de Guus_Hiddink como técnico del Betis no fue afortunado y el equipo verdiblanco volvió a perder , esta vez en su visita al Valencia ( 3-1 ) , y Ø ya suma <argset><specifier>doce</specifier><head>derrotas </head></argset>en lo que va de Liga que le relegan al decimoséptimo puesto de la tabla . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="29.0.0.1" sentencenodepath="29">
+          <argset>
+            <reference_modifiers>PRIMERA</reference_modifiers>
+            <head>DERROTA </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="sp">DEL ESPANYOL</argument>
+            <reference_modifiers>CON PACO_FLORES COMO TÉCNICO</reference_modifiers>
+          </argset>
+        </example>
+        <example file="CESS-CAST-AA/5192_20000207.tbf.xml" nodepath="6.2.1.1.2.1.1.1.3.1.1.0" sentencenodepath="6">El rival de los barcelonistas mañana , el Airtel_Chapela , llega con un nuevo entrenador , José_Manuel_Fernández , que debutó el pasado sábado con <argset><specifier>una</specifier><head>derrota </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">ante el Bidasoa</argument><argument argument="argM" function="cn" thematicrole="ext" type="sn">( 20-26 )</argument></argset>y que tiene la difícil tarea de salvar a un equipo que en toda la Liga solamente ha logrado una victoria - ante el Teucro ( 25-23 ) - . </example>
+        <example file="CESS-CAST-AA/5332_20000207.tbf.xml" nodepath="2.2.0.1.1.1.1.0" sentencenodepath="2">El jugador gallego está seguro de que <argset><specifier>la</specifier><head>derrota </head></argset>no tendrá consecuencias negativas para el equipo . </example>
+        <example file="CESS-CAST-AA/5808_20001108.tbf.xml" nodepath="10.0.0.1.1.0" sentencenodepath="10">Pese_a <argset><specifier>esa</specifier><head>derrota </head><argument argument="argM" function="cn" thematicrole="adv" type="s.a">electoral</argument></argset>y a la caída del apoyo electoral que reduce las perspectivas de voto para su formación , Haider ha reiterado su amenaza de nuevos comicios al indicar en " News " que " si el Gobierno no va a poder seguir con su labor , Ø creo que una nueva convocatoria es lo único correcto y posible " . </example>
+        <example file="CESS-CAST-AA/6482_20000710.tbf.xml" nodepath="28.0.0.1.1" sentencenodepath="28"><argset><specifier>Una</specifier><reference_modifiers>sola</reference_modifiers><head>derrota </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en siete años</argument></argset>y Ø dice que a_partir_de ahora Ø se dedicará a preparar más concienzudamente los grandes . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="3.2.0.4.1.0" sentencenodepath="3">Iturgaiz aseguró que el PNV no quiere <argset><specifier>la</specifier><head>derrota </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">" ni policial , ni judicial , ni social "</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de ETA</argument></argset>, sino_que , por_el_contrario , con sus pactos Ø da cobertura a la organización terrorista . </example>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="5.2.1.1.1.0.1.1.1.1.1.1.2.4.2.1.1.0" sentencenodepath="5">Saleta empezó su carrera como especialista en el kick-boxing , disciplina en la que Ø consiguió el campeonato del mundo y de Europa en las modalidades de aficionados y profesionales de profesionales y en la que Ø se apuntó 30 victorias y solo <argset><specifier>una</specifier><head>derrota </head></argset>. </example>
+        <example file="CESS-CAST-AA/8253_20000812.tbf.xml" nodepath="8.0.0.0.1.1.1.0" sentencenodepath="8">Después de <argset><specifier>la</specifier><head>derrota </head></argset>durante año y medio Ø estuvo recuperándose de la lesión que Ø sufrió y Ø reapareció en el cuadrilátero en marzo_de_1997 para derrotar a Yuri_Yelistratov . </example>
+        <example file="CESS-CAST-AA/9408_20001113.tbf.xml" nodepath="8.0.1.0.2.1.1.1.5.1.2.1.0" sentencenodepath="8">En_cuanto_al futuro de su equipo en la Copa_Saporta , donde Ø ocupa la tercera plaza con dos triunfos y <argset><specifier>dos</specifier><head>derrotas </head></argset>, Ø se mostró optimista en poder alcanzar una buena clasificación en su grupo y evitar cruces complicados , aunque Ø señaló que Ø tampoco deben fijarse demasiado en los posibles rivales de la siguiente ronda . </example>
+        <example file="CESS-CAST-P/10_19981202.tbf.xml" nodepath="2.4.1.2.2.1.2.1.1.0" sentencenodepath="2">Las urnas no le han dado las condiciones ganadoras en las que basarse para relanzar el tema de la consulta tras <argset><specifier>las</specifier><head>derrotas </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">secesionistas</argument><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de 1980 y 1995</argument></argset>. </example>
+        <example file="CESS-CAST-P/114_20000401.tbf.xml" nodepath="20.0.4.1.3.1.1.0" sentencenodepath="20">Curiosamente , Rivaldo se ha perdido los tres duelos de esta temporada con el Valencia ( <argset><specifier>la</specifier><head>derrota </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Supercopa</argument></argset>y el 3-1 de Mestalla ) , pero Ø no alberga sentimientos de revancha . </example>
+        <example file="CESS-CAST-P/116_19991201.tbf.xml" nodepath="4.0.3.3.3.0.3.1.1.1.0" sentencenodepath="4">La mayor demostración de que Ø están inquietos , de que Domingo_García no las tiene todas consigo , no es que Van_Gaal diga que hay una campaña mediática contra él ( no hay peor campaña que <argset><argument argument="arg1" thematicrole="pat" type="spec">sus cuatro</argument><head>derrotas </head><reference_modifiers>consecutivas</reference_modifiers></argset>) , sino el hecho de que Ø ya han conseguido lo que Ø querían : redactar las preguntas de Gol_a_Gol . </example>
+        <example file="CESS-CAST-P/117_19981201.tbf.xml" nodepath="6.3.5.1.0.0" sentencenodepath="6">El resultado influirá en el desarrollo de la junta pese_a_que oficialmente la continuidad de Van_Gaal está , de_momento , a_prueba_de <argset><head>derrotas </head></argset>. </example>
+        <example file="CESS-CAST-P/11_19990902.tbf.xml" nodepath="5.2.1.3.3.1.0.0.0" sentencenodepath="5">Martin_Malia subraya que el comunismo tuvo una doble cara como Janus : para unos de triunfo y bondad , mientras_que para otros Ø fue de <argset><head>derrota </head>y terror </argset>. </example>
+        <example file="CESS-CAST-P/123_19990202.tbf.xml" nodepath="20.0.1.2.2.1.0" sentencenodepath="20">La racha de malos resultados , con <argset><specifier>tres</specifier><head>derrotas </head><reference_modifiers>consecutivas</reference_modifiers></argset>, ha agravado la situación de la Unió_Esportiva_Lleida , que vive un momento de crisis , que podría afectar a Miquel_Corominas . </example>
+        <example file="CESS-CAST-P/125_19990501.tbf.xml" nodepath="17.0.0.2.1.0" sentencenodepath="17">Si llega <argset><specifier>la</specifier><head>derrota </head></argset>, como casi siempre Ø ha sucedido ante el Barça , el argentino Lionel_Scaloni lo tiene claro : " Si Ø no ganamos , Ø habremos puesto la Liga en manos de Van_Gaal , y siempre consuela pensar que el título se lo lleve el Barça y no el Celta " . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="16.0.3.1.1.0" sentencenodepath="16">La selección se recuperó de <argset><specifier>la</specifier><head>derrota </head><reference_modifiers>sufrida un día antes</reference_modifiers><reference_modifiers>frente a Rusia</reference_modifiers></argset>, y con gran espíritu de lucha y determinación Ø logró un triunfo imprescindible . </example>
+        <example file="CESS-CAST-P/130_19991001.tbf.xml" nodepath="25.3.2.4.2.1.0" sentencenodepath="25">Termina así la aventura de Bakero en el banquillo ya_que en los 13 partidos que Ø ha dirigido al Puebla , cinco del torneo anterior y ocho del actual , Ø sólo ha ganado dos encuentros , Ø ha empatado cuatro y Ø ha encajado <argset><specifier>siete</specifier><head>derrotas </head></argset>. </example>
+        <example file="CESS-CAST-P/132_20010301.tbf.xml" nodepath="0.2.0.1" sentencenodepath="0">Tercer partido ante un grande y <argset><reference_modifiers>tercera</reference_modifiers><head>derrota </head></argset>. </example>
+        <example file="CESS-CAST-P/136_20010501.tbf.xml" nodepath="1.6.1.1.1.1.1" sentencenodepath="1">El más carismático jugador rojiblanco hasta hace unos meses fue objeto el sábado por la noche de un intento de agresión a la salida del estadio , después de <argset><specifier>la</specifier><reference_modifiers>humillante</reference_modifiers><head>derrota </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">ante el Murcia</argument></argset>. </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="5.0.2.1.1.1.0" sentencenodepath="5">Quizá por eso , y apelando a <argset><specifier>la</specifier><head>derrota </head><reference_modifiers>que sufrió el Deportivo en Elland_Road</reference_modifiers><argument argument="argM" function="cn" thematicrole="ext" type="sn">( 3-0 )</argument></argset>, Cúper se cubrió ayer las espaldas al reconocer que caer esta vez ante el Leeds no sería un fracaso . </example>
+        <example file="CESS-CAST-P/178_20010401_a.tbf.xml" nodepath="4.3.1.1" sentencenodepath="4">El Casademont_Girona , por su parte , sufrió <argset><specifier>una</specifier><reference_modifiers>contundente</reference_modifiers><head>derrota </head></argset>en la cancha del Baloncesto_Gijón ( 92-77 ) , a_pesar_de los 15 puntos ( con cinco triples ) de Toolson , y los 14 de Larry_Stewart . </example>
+        <example file="CESS-CAST-P/40_20000202.tbf.xml" nodepath="10.4.1.0" sentencenodepath="10">En la carrera demócrata , el simple hecho de que Gore no lograse batir fácilmente a Bradley , como vaticinaban los sondeos , fue ya <argset><specifier>una</specifier><head>derrota </head></argset>para el vicepresidente demócrata y heredero político de Bill_Clinton . </example>
+        <example file="CESS-CAST-P/50_20020501.tbf.xml" nodepath="1.2.0.1.1.0" sentencenodepath="1">En la guerra civil Ø creó las milicias gallegas , y tras <argset><specifier>la</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="s.a">republicana</argument></argset>Ø se exilió . </example>
+        <example file="CESS-CAST-P/94_19990901.tbf.xml" nodepath="0.2.1.0" sentencenodepath="0">Costa lleva <argset><specifier>cinco</specifier><head>derrotas </head><reference_modifiers>seguidas</reference_modifiers></argset>en primera ronda . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="derrotar" originlink="verb.derrotar.1" wordnetsynset="16:05558471">
+    <frame appearsinplural="no" type="passive">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="11.0.5.1.0" sentencenodepath="11">Si a esos reveses se le añade <argset><specifier>la</specifier><head>derrota </head><argument argument="argM" function="cn" thematicrole="ext" type="sp">por 3-1</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en Londres</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">ante el Chelsea</argument></argset>, el Barcelona ha encajado doce goles en diez días y Ø sólo ha marcado uno . </example>
+        <example file="CESS-CAST-A/12803_20000416.tbf.xml" nodepath="19.2.4.2.1.1.1.1.0" sentencenodepath="19">Aitor_Larrazábal , defensa del Athletic , disputó su partido número 300 en Primera , pero Ø no guardará un buen recuerdo , ya_que , además de <argset><specifier>la</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su equipo</argument></argset>, Ø fue expulsado por doble amonestación . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" postype="possessive" type="determiner"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="tmp">
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="ext">
+        <constituent frequency="1" type="sn"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="8" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="8" type="s.a"/>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/13710_20001017.tbf.xml" nodepath="1.2.2.2.1.0.4.3.1.1.1.1" sentencenodepath="1">Kasparov repitió el gambito de dama aceptado y Kramnik volvió a innovar y a poner en serios aprietos al " ogro de Bakú " que se ha salvado de sufrir <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>segunda</reference_modifiers><head>derrota </head></argset>. </example>
+        <example file="CESS-CAST-A/13710_20001017.tbf.xml" nodepath="9.0.2.3.1.1" sentencenodepath="9">No había nada que hacer y analistas y grandes maestros auguraban ya <argset><specifier>la</specifier><reference_modifiers>segura</reference_modifiers><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Kasparov</argument></argset>pero Kramnik no supo , o Ø no pudo , rematar la partida y después de 66 movimientos se firmaron las tablas que no dejaron contento a ninguno . </example>
+        <example file="CESS-CAST-A/14966_20000318.tbf.xml" nodepath="3.2.2.4.1.4.1.1" sentencenodepath="3">Italia llegó a ir por delante en el marcador , pero Ø duró poco y Ø no pudo hacer nada para que el equipo más en forma del torneo le endosase <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>tercera</reference_modifiers><head>derrota </head><reference_modifiers>consecutiva</reference_modifiers></argset>en su llegada a este mítico campeonato . </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="17.0.1.0" sentencenodepath="17"><argset><specifier>La</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del cuadro minero</argument></argset>dejó bastante preocupado a su entrenador Arturo_Salah , ya_que el próximo martes sus jugadores deberán enfrentar a los del Bella_Vista , de Uruguay , por la Copa_Libertadores . </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="18.2.1.0" sentencenodepath="18">Otra de las sorpresas en esta jornada inaugural , fue <argset><specifier>la</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del Wanderers</argument></argset>, en su propia casa , a_manos_del Audax_Italiano , por 3-1 . </example>
+        <example file="CESS-CAST-A/17069_20000423.tbf.xml" nodepath="7.0.1.1.1.3.1.1" sentencenodepath="7">Para el Real_Madrid , que encajó <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>sexta</reference_modifiers><head>derrota </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de la temporada</argument></argset>, Ø supuso el fin de una racha de once jornadas sin perder y el descenso al cuarto peldaño de la tabla . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="13.3.1.1.1.3.0.1.1" sentencenodepath="13">El equipo vitoriano asciende al quinto puesto de la clasificación a_costa_de un FC_Barcelona que , después de siete jornadas sin perder , sufrió <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>séptima</reference_modifiers><head>derrota </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">en la presente Liga</argument></argset>y la segunda en casa . </example>
+        <example file="CESS-CAST-AA/5003_20000206.tbf.xml" nodepath="15.4.1.2.1.1.1.2.1.1" sentencenodepath="15">El Athletic_de_Bilbao , gracias_a un gol en propia puerta de Pacheta en el minuto 76 , vuelve a estar en zona europea , en el sexto peldaño de la clasificación , tras vencer por 2-1 a un Numancia que encajó <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>octava</reference_modifiers><head>derrota </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de la Liga 1999-2000</argument></argset>. </example>
+        <example file="CESS-CAST-AA/5192_20000207.tbf.xml" nodepath="4.0.1.1" sentencenodepath="4"><argset><argument argument="arg1" thematicrole="pat" type="spec">Su</argument><reference_modifiers>última</reference_modifiers><head>derrota </head><reference_modifiers>, antes de la sufrida ante el Garbel ,</reference_modifiers></argset>se había producido en la cancha del Celje esloveno ( 35-32 , el 27_de_febrero_de_1999 ) , donde Ø inició una racha de 40 partidos ( 37 victorias y 3 empates ) sin perder . </example>
+        <example file="CESS-CAST-P/121_19991202_e.tbf.xml" nodepath="1.3.1.1.0" sentencenodepath="1">La selección perdió toda posibilidad de luchar por una de las tres plazas que llevan a Sydney con <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>derrota </head><argument argument="argM" function="cn" thematicrole="tmp" type="sp">de ayer</argument><argument argument="arg0" function="cn" thematicrole="agt" type="sp">ante Italia</argument><argument argument="argM" function="cn" thematicrole="ext" type="sn">( 2-3 )</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Copa_del_Mundo</argument></argset>. </example>
+        <example file="CESS-CAST-P/178_20010401_a.tbf.xml" nodepath="0.2.3.2.1.1" sentencenodepath="0">El Unicaja logró que el Barça mordiera el polvo en Málaga y Ø sumara <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><reference_modifiers>cuarta</reference_modifiers><head>derrota </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en la Liga</argument></argset>en un partido intenso , emotivo y no exento de polémica . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="derrotar" originlink="verb.derrotar.1" wordnetsynset="16:05558471">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/20613_20000428.tbf.xml" nodepath="1.0.4.3.1.2.1.2.2.1.1.1.1.0" sentencenodepath="1">" Esto es muy grave porque Ø significa poner_en_entredicho todo el esquema o la arquitectura jurídica , social y política que fue la base para <argset><specifier>la</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del terrorismo</argument></argset>" , dijo la presidenta de la Comisión_de_Defensa_del_Congreso , Martha_Chávez . </example>
+        <example file="CESS-CAST-AA/26133_20000930.tbf.xml" nodepath="7.0.2.2.1.0" sentencenodepath="7">Los observadores consideran que si la oposición acabara por aceptar una nueva competición , <argset><specifier>la</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de Milosevic</argument></argset>sería aún más contundente , y los Gobiernos occidentales recomiendan al DOS que Ø no descarte esa posibilidad . </example>
+        <example file="CESS-CAST-AA/4633_20001207.tbf.xml" nodepath="6.6.2.1.1.4.0.1.1.1.1.0" sentencenodepath="6">El escolta de los Lakers terminó con 18 canastas de 34 tiros de campo , Ø estuvo perfecto 13_de_13 desde la línea de personal , Ø dio ocho asistencias y Ø capturó siete rebotes , que no fueron suficientes para evitar <argset><specifier>la</specifier><head>derrota </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los Lakers</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="robo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="robar" originlink="verb.robar.1" wordnetsynset="16:00499179">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="article" type="determiner"/>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14620_20000318.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><specifier>El</specifier><head>robo </head></argset>fue descubierto por un técnico del sitio web en el que el pirata introdujo los datos de las tarjetas de crédito , que incluía el número , nombre y fecha de caducidad , es_decir , toda la información necesaria para realizar compras a_través_de Internet . </example>
+        <example file="CESS-CAST-A/14620_20000318.tbf.xml" nodepath="7.2.3.1.1.1.0.0" sentencenodepath="7">MSNBC añadió que se han registrado otros casos de <argset><head>robos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de identidad y datos de tarjetas de crédito de estadounidenses</argument><reference_modifiers>perpetrados por piratas informáticos que actúan desde Europa_del_Este y Asia</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/16182_20000220.tbf.xml" nodepath="7.4.1.0.1.1.1.0.3.3.1.1" sentencenodepath="7">Segundos después , se producía la invasión al campo en protesta por lo que Ø consideraban que Ø era <argset><specifier>un</specifier>" <head>robo </head>" <argument argument="arg1" function="cn" thematicrole="pat" type="sp">del partido</argument></argset>. </example>
+        <example file="CESS-CAST-P/118_20011202.tbf.xml" nodepath="22.0.1.0.2.2.1.1" sentencenodepath="22">En_cuanto_al anuncio por_parte_del ayuntamiento , tras <argset><specifier>el</specifier><reference_modifiers>publicitado</reference_modifiers><head>robo </head></argset>, de que Ø habían empezado hace dos meses los trámites para restaurarla , Oliveras dice : " Ø Me da risa . A_buenas_horas Ø se preocupan " . </example>
+        <example file="CESS-CAST-P/43_19981201.tbf.xml" nodepath="4.3.1.2.1.1.1.1.0.0" sentencenodepath="4">Ese mismo día se produjeron otras cuatro denuncias de personas de la misma urbanización del Maresme por un delito de <argset><head>robo </head><argument argument="argM" function="cn" thematicrole="mnr" type="sp">con fuerza en las cosas</argument></argset>. </example>
+        <example file="CESS-CAST-P/56_20000801_b.tbf.xml" nodepath="2.1.1.0" sentencenodepath="2">A_pesar_de la espectacularidad de la acción , <argset><specifier>el</specifier><head>robo </head></argset>se saldó sin daños personales . </example>
+        <example file="CESS-CAST-P/71_19991201_h.tbf.xml" nodepath="0.0.1.1.0.0" sentencenodepath="0">Detenido por <argset><head>robos </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">en autopistas</argument></argset>tras una persecución de 100 kilómetros . </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="1.2.1.1.1.2.0.1.1.0.0.0" sentencenodepath="1">La policía ha detenido a tres personas , con antecedentes por <argset><head>robos </head>y atracos </argset>, que sustraían vehículos para cometer sus fechorías y que después los quemaban o despeñaban por un barranco del barrio barcelonés del Carmel para destruirlos . </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="11.0.1.0" sentencenodepath="11"><argset><specifier>Los</specifier><head>robos </head></argset>solían registrarse en otros lugares de Barcelona , distribuidos por toda la ciudad . </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="13.0.0.1.1.0.0" sentencenodepath="13">Incremento de <argset><head>robos </head></argset>. </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="14.4.2.1.1.2.1.1.1.1.0.0" sentencenodepath="14">La policía inició la investigación hace pocas semanas , tras detectar un importante incremento de las denuncias por <argset><head>robos </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de vehículos</argument></argset>. </example>
+        <example file="CESS-CAST-P/78_19981202.tbf.xml" nodepath="20.2.0.1.1.0.5.1.0.1.1.1.1.1.0" sentencenodepath="20">La policía tiene constancia de que , al_menos en una ocasión , los tres atracadores prendieron fuego al vehículo empleado para perpetrar <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>robos </head></argset>y que las llamas se propagaron a otros coches aparcados . </example>
+        <example file="CESS-CAST-P/85_20010103.tbf.xml" nodepath="1.0.1.0.0.0" sentencenodepath="1"><argset><specifier>Los</specifier><head>robos </head>y altercados registrados durante la celebración </argset>retrasaron el operativo de limpieza de la plaza , cubierta de botellas rotas utilizadas como arma en algunas trifulcas . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="robar" originlink="verb.robar.1" wordnetsynset="16:00499179">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/14620_20000318.tbf.xml" nodepath="4.0.2.1.0" sentencenodepath="4">Jim_Macken , portavoz del Servicio_Secreto , confirmó <argset><specifier>el</specifier><head>robo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de información</argument></argset>pero Ø no reveló cuál fue el sitio web del Gobierno en el que se encontró la información . </example>
+        <example file="CESS-CAST-A/16182_20001121.tbf.xml" nodepath="8.0.3.3.5.1.1.0" sentencenodepath="8">" El Brujas es un equipo muy académico en su concepción del fútbol . Ø Juega con un 4-3-3 y con vocación vertical , ya_que Ø organiza rápidos contragolpes tras <argset><specifier>el</specifier><head>robo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del balón</argument></argset>, aprovechando , además , la velocidad de los extremos y laterales " , ha explicado Ø . </example>
+        <example file="CESS-CAST-P/50_20010902.tbf.xml" nodepath="1.4.5.1.1.1.0" sentencenodepath="1">Además , el grupo socialista pide también que la Fiscalía_Anticorrupción se persone en las causas abiertas para investigar <argset><specifier>el</specifier><head>robo </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de sumarios relacionados con Jesús_Gil</argument><argument argument="argM" function="cn" thematicrole="loc" type="sp">en los juzgados de la localidad</argument></argset>. </example>
+        <example file="CESS-CAST-P/71_19991201_h.tbf.xml" nodepath="3.3.1.0.1.1.0.0.0" sentencenodepath="3">Se le imputan , entre otros , delitos de <argset><head>robo </head>y falsificación de documentos </argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

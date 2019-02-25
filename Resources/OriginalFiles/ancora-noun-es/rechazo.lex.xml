@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="rechazo" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="rechazar" originlink="verb.rechazar.1" wordnetsynset="16:00133315">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="6" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="a" type="sp"/>
+        <constituent frequency="1" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="38.2.1.1" sentencenodepath="38">Ø Expresó <argset><specifier>el</specifier><reference_modifiers>más enérgico</reference_modifiers><head>rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a la aplicación unilateral y extraterritorial de las leyes o medidas nacionales que infrinjan el Derecho_Internacional e intenten imponerse en terceros países</argument></argset>. </example>
+        <example file="CESS-CAST-A/13241_20000216.tbf.xml" nodepath="0.0.1.2.1.0.0" sentencenodepath="0">La política europea de <argset><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">al nuevo gobierno austriaco de tinte ultraderechista</argument></argset>dio_lugar hoy , miércoles , a una encendida discusión en el parlamento alemán ( Bundestag ) entre socialdemócratas y verdes , que apoyan el aislamiento de Viena , y los conservadores que lo condenan . </example>
+        <example file="CESS-CAST-A/15021_20000218.tbf.xml" nodepath="2.5.0.0.1.0" sentencenodepath="2">La Cámara también aprobó hoy , con los votos de los grupos de la oposición , <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">del PNV y EA</argument></argset>y la ausencia en las votaciones de EH , una iniciativa socialista en la que Ø instan al Ejecutivo autónomo a " extremar " su actuación en la lucha contra la violencia callejera . </example>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="7.3.0.1.1.1.0.1.1.1.1.1.0.0" sentencenodepath="7">Según el experto en asuntos de Taiwán Li_Jiaquan , los estudiantes habían pedido permiso para organizar protestas por la actitud de <argset><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">del nuevo presidente</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la política de " una sola China " y de la teoría de " un país , dos sistemas " que Pekín plantea como requisito previo para concluir con el proceso de reunificación pacífica de la " madre patria "</argument></argset>. </example>
+        <example file="CESS-CAST-A/16686_20000221.tbf.xml" nodepath="10.5.2.1.1.2.1.0" sentencenodepath="10">Universidad_de_Chile , por su parte , campeón de la temporada pasada , también igualó 0-0 con Deportes_Concepción , en un partido que recibió <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de los seguidores del cuadro universitario</argument></argset>. </example>
+        <example file="CESS-CAST-AA/21460_20000526.tbf.xml" nodepath="4.1.1.0" sentencenodepath="4">Para el coordinador de IU en Asturias , <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a la OPA</argument></argset>era la única medida que podía adoptar el Gobierno ante el aumento de la concentración del sector eléctrico y la incidencia que la misma tendría en los consumidores . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="6.3.4.1.1.0" sentencenodepath="6">Al_término_de la audiencia en la que Ø presentó hoy su dimisión al Rey , Bondevik subrayó que Ø había basado la renuncia de su gabinete en <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de la oposición</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a su propuesta para evitar que las severas leyes ambientales quedaran debilitadas</argument></argset>. </example>
+        <example file="CESS-CAST-P/113_19990501_a.tbf.xml" nodepath="1.0.3.1.0" sentencenodepath="1">UGT y CCOO manifestarán hoy <argset><argument argument="arg0" thematicrole="cau" type="spec">su</argument><head>rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a la OTAN</argument></argset>y Ø pedirán el cese inmediato de los bombardeos sobre Yugoslavia durante los 61 actos conmemorativos del Primero_de_Mayo . </example>
+        <example file="CESS-CAST-P/144_20010302.tbf.xml" nodepath="3.0.0.0.1.2.1.1.1.0" sentencenodepath="3">Después de vivir en la clandestinidad y de haber encontrado <argset><specifier>el</specifier><head>rechazo </head><reference_modifiers>inicial</reference_modifiers><argument argument="arg0" function="cn" thematicrole="cau" type="sp">del hermano mayor</argument></argset>, el fútbol_sala ha alcanzado la mayoría de edad en España con una salud envidiable , y ahora Ø camina de la mano de la FIFA y de la UEFA . </example>
+        <example file="CESS-CAST-P/34_20010502.tbf.xml" nodepath="7.2.1.0" sentencenodepath="7">El único freno posible sería <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de más de la mitad de los 31 congresos estatales</argument></argset>. </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="41.5.1.0" sentencenodepath="41">- - ¿ La ronda de conversaciones de Pujol con todas las fuerzas es <argset><specifier>un</specifier><head>rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a su petición de un pacto estable</argument></argset>? - - </example>
+        <example file="CESS-CAST-P/3_20000602.tbf.xml" nodepath="3.3.1.0" sentencenodepath="3">Asimismo , Ø mostrará <argset><argument argument="arg0" thematicrole="cau" type="spec">su</argument><head>rechazo </head></argset>a la privatización del aeropuerto . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="passive">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/15776_20000320.tbf.xml" nodepath="1.0.0.3.1.1.1.1.1.2.1.2.1.1.1.0" sentencenodepath="1">El Gobierno emitió para ello una prohibición negando todas las solicitudes presentadas por los universitarios para echarse a las calles a demostrar <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Pekín</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al presidente electo en la isla</argument></argset>, e Ø instó a los responsables de los diversos campus a mantener el orden en sus respectivos recintos , señala el diario " Hong_Kong_Standard " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="rechazar" originlink="verb.rechazar.1" wordnetsynset="16:00133315">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="por_parte_de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/12163_20000415.tbf.xml" nodepath="9.0.0.1.0.0" sentencenodepath="9">Con_respecto_al <argset><head>rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la propuesta hecha por el gobernante cubano , Fidel_Castro ,</argument></argset>Chávez aclaró que la negativa obedeció a que los países de la OPEP no la sintieron viable , y Ø destacó que Ø declaró sobre ese asunto porque Ø consideró " adecuado " que antes de que Ø se marcharan de La_Habana Ø le dieran una respuesta al anfitrión de la Cumbre . </example>
+        <example file="CESS-CAST-AA/8725_20000411.tbf.xml" nodepath="7.3.1.1.0" sentencenodepath="7">Sin_embargo , el senador institucional Edgardo_Boeninger , ex ministro secretario general de la Presidencia , señaló que <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">por_parte_de Martínez_Busch</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a las reformas constitucionales</argument></argset>" corresponde a una posición minoritaria " . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="rechazar" originlink="verb.rechazar.1" wordnetsynset="16:00133315">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="cau">
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="5" preposition="a" type="sp"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-3.tbf.xml" nodepath="10.4.3.4.1.1.1.0.0" sentencenodepath="10">Toledo manifestó ante la multitud que Ø reunió en la Plaza_de_Armas de Cañete que esas elecciones son " ilegítimas " mientras_que la gente coreaba " Ø queremos nuevas elecciones " , " no al fraude " , y otras frases de <argset><head>rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">al régimen de Fujimori</argument></argset>. </example>
+        <example file="CESS-CAST-A/10409_20000413.tbf.xml" nodepath="9.0.2.1.1" sentencenodepath="9">El dirigente sindical manifestó <argset><specifier>el</specifier>" <head>rechazo </head>" <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los trabajadores</argument><argument argument="arg0" function="cn" thematicrole="cau" type="sp">a la operación</argument></argset>y Ø sostuvo que " los americanos no vienen a aportar carga de trabajo porque Santa_Bárbara ya tiene firmados contratos con varios clientes y únicamente Ø se harán_cargo de los trabajadores y de la cartera de clientes " . </example>
+        <example file="CESS-CAST-P/19_20010901.tbf.xml" nodepath="9.2.5.0.1.1.0.0" sentencenodepath="9">Cabe considerarla una variante del racismo , aunque de_hecho Ø obedece lo_mismo al <argset><head>rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de formas de vida diferentes a la propia</argument></argset>que a prejuicios raciales . </example>
+        <example file="CESS-CAST-P/21_20000701.tbf.xml" nodepath="0.2.1.1.0" sentencenodepath="0">Los esfuerzos de Tony_Blair por mantener al Reino_Unido en el corazón de Europa tropiezan con <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">de los británicos</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">al euro</argument></argset>. </example>
+        <example file="CESS-CAST-P/21_20000701.tbf.xml" nodepath="3.5.3.2.0.1" sentencenodepath="3">Pero Blair hizo ayer en Tubinga ( Alemania ) votos europeístas , Ø reiteró su apuesta , " en_principio " , por el euro y Ø reclamó que Gran_Bretaña sea " un socio completo " en la Unión_Europea , en <argset><reference_modifiers>abierto</reference_modifiers><head>rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a la Europa de dos velocidades</argument></argset>. </example>
+        <example file="CESS-CAST-P/4_20020601_c.tbf.xml" nodepath="16.2.1.2.1.1.0.3.0.0.2.0" sentencenodepath="16">Éste es un aspecto negativo de lo que Ø llamamos <argset>intolerancia o <head>rechazo </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la convivencia</argument>
+          </argset>. </example>
+        <example file="CESS-CAST-P/73_20000201_f.tbf.xml" nodepath="0.0.0.0" sentencenodepath="0"><argset><head>Rechazo </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a las medidas contra la violencia escolar en Francia</argument></argset>. </example>
+        <example file="CESS-CAST-P/93_20000701.tbf.xml" nodepath="5.0.2.1.0" sentencenodepath="5">Tal es <argset><specifier>el</specifier><head>rechazo </head><argument argument="arg0" function="cn" thematicrole="cau" type="sp">del Gobierno vasco</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a la medida</argument></argset>que los servicios jurídicos trabajan para proceder a presentar recursos judiciales para " evitar que puedan ponerse estas medidas en_marcha " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="observación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="observar" originlink="verb.observar.1" wordnetsynset="16:00647699+16:00565444">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" foundincorporated="yes" thematicrole="pat"/>
+      <specifiers>
+        <constituent frequency="6" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="numeral" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/111_C-4.tbf.xml" nodepath="8.0.2.1.2.1.1.1.1.0.0" sentencenodepath="8">La retirada del candidato opositor , el economista Alejandro_Toledo , y la salida del país de la misión de <argset><head>observación </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de la Organización_de_Estados_Americanos</argument></argset>hicieron aumentar las sospechas de " irregularidades " en el proceso . </example>
+        <example file="3LB-CAST/a22-1.tbf.xml" nodepath="1.0.2.1.0" sentencenodepath="1">Ø Era <argset><specifier>una</specifier><head>observación </head><reference_modifiers>un_tanto profana</reference_modifiers></argset>y Ø preferí dejarla pasar sin comentario alguno . </example>
+        <example file="3LB-CAST/dc1-16.tbf.xml" nodepath="8.3.1.1.1.1.0.3.1.0.2.1.0.0" sentencenodepath="8">Pero su importancia va mucho más allá de la que Ø podríamos atribuirles como fascinantes objetos de <argset><head>observación </head></argset>. </example>
+        <example file="3LB-CAST/dc2-8.tbf.xml" nodepath="14.0.1.0.1.1.0.1.2.0" sentencenodepath="14">Después_de meses de <argset>intensos estudios y <head>observaciones </head>
+          </argset>, los resultados han sido presentados en 1989 ante la comunidad científica , en la reunión anual de la Asociación_Norteamericana_de_Avances_Científicos , celebrada en San_Francisco . </example>
+        <example file="3LB-CAST/e2-1.tbf.xml" nodepath="8.3.1.0" sentencenodepath="8">Tras fijar el concepto de tribu - utilizado vulgarmente en un sentido acientífico y de modo ambiguo y confuso Malinowski hace <argset><specifier>dos</specifier><head>observaciones </head><reference_modifiers>que defiende con convicción</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/t3-4.tbf.xml" nodepath="19.0.1.1" sentencenodepath="19"><argset><specifier>La</specifier><reference_modifiers>melancólica</reference_modifiers><head>observación </head></argset>quedaba contrastada por el frágil esplendor de la naturaleza iluminada en Maracas_Bay . </example>
+        <example file="CESS-CAST-A/10049_20001114.tbf.xml" nodepath="8.3.1.1.1.0" sentencenodepath="8">La Comisión_Europea invita a las terceras partes interesadas en esta operación a trasmitirle <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head>observaciones </head></argset>en el plazo de diez días sobre este proyecto de concentración . </example>
+        <example file="CESS-CAST-P/105_20020301.tbf.xml" nodepath="2.4.1.1.2.1.0" sentencenodepath="2">El día anterior , el directivo Gonçal_Lloveras se reafirmó en su opinión de que Rexach debía haber sido destituido <argset>, <head>observación </head>
+            <reference_modifiers>que ya le había valido una reprimenda pública de Gaspart</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/71_19991201_i.tbf.xml" nodepath="2.2.1.1.0" sentencenodepath="2">El veterinario concluyó de <argset><argument argument="arg0" thematicrole="agt" type="spec">sus</argument><head argument="arg1" thematicrole="pat">observaciones </head></argset>que el perro había sido adiestrado para ser agresivo , aunque de una manera inconsciente . </example>
+        <example file="CESS-CAST-P/86_19990702.tbf.xml" nodepath="0.3.1.0.0" sentencenodepath="0">Los heridos pasaron la noche en <argset><head>observación </head></argset>. </example>
+        <example file="CESS-CAST-P/86_19990702.tbf.xml" nodepath="1.4.0.1.1.2.1.1.0.0" sentencenodepath="1">Los seis niños y una mujer que el miércoles por la noche resultaron intoxicados en un incendio declarado en un centro de acogida de mujeres maltratadas de Gràcia fueron dados de_alta ayer después de pasar varias horas ingresados en <argset><head>observación </head></argset>. </example>
+        <example file="CESS-CAST-P/97_19981201.tbf.xml" nodepath="1.0.1.2.2.1.2.1.1.2.1.1.1.0.3.1.1.0" sentencenodepath="1">Como en los buenos tiempos de Ignacio_Ribó y Oriol_Regàs , las calles cercanas estaban rebosantes de coches y las dos plantas del club eran un hervidero de cuerpos intentando , toda una misión imposible , afianzarse en algún sitio para dedicarse al noble deporte nocturno de <argset><specifier>la</specifier><head>observación </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

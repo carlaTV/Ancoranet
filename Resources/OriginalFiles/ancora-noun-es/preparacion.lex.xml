@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="preparación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="preparar" originlink="verb.preparar.1" wordnetsynset="16:00574678">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="con_vistas_a" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="7.0.3.1.3.0.0.1.0" sentencenodepath="7">" Los ejercicios sirven para que Ø probemos <argset><specifier>la</specifier><head>preparación </head></argset>y la capacidad actuales de las fuerzas en el presente " , dijo Ø . </example>
+        <example file="CESS-CAST-A/14332_20000618.tbf.xml" nodepath="8.1.2.0.0.1.0" sentencenodepath="8">" Un experimento probará <argset><specifier>la</specifier><head>preparación </head></argset>y las capacidades para el contexto militar del futuro , y Ø sirve para que Ø veamos cómo cada una de las fuerzas se desempeñará en una guerra " . </example>
+        <example file="CESS-CAST-AA/5192_20000207.tbf.xml" nodepath="0.5.1.1.1.2.1.3.1.0.0" sentencenodepath="0">El FC_Barcelona , tras perder el pasado sábado en Zaragoza su condición de invicto esta temporada en la Liga_ASOBAL ( 25-23 ) y de esa manera romper una racha de 40 encuentros sin perder , retomará mañana el pulso a la competición ( 20,00_horas ) ante el Airtel_Chapela , un partido que le servirá de <argset><head>preparación </head><reference_modifiers>con_vistas_a la disputa de la Copa_ASOBAL , que se disputará el próximo fin_de_semana en Pamplona</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="4.0.3.2.1.0" sentencenodepath="4">" Ø Creo que después de esto positivo que ha ocurrido , y a_pesar_del poco tiempo que queda para Sydney , <argset><specifier>la</specifier><head>preparación </head></argset>va a ser mejor , Ø no es que Ø haya sido mala , pero a_partir_de ahora Ø va a ser mejor " , pronosticó Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="preparar" originlink="verb.preparar.1" wordnetsynset="16:00593220">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="8" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-A/17384_20000221.tbf.xml" nodepath="0.0.0.1.3.1.1.0" sentencenodepath="0">El uso indiscriminado de alimentos granulados , concentrados o deshidratados en <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de caldos y sopas</argument></argset>tiene efectos nocivos para la salud , denunció hoy la Asociación_Mexicana_de_Estudios_para_la_Defensa_del_Consumidor ( AMEDEC ) . </example>
+        <example file="CESS-CAST-AA/20070_20000525.tbf.xml" nodepath="22.3.4.1.1.0" sentencenodepath="22">Joan_Castells sería el siguiente con más posibilidades , ya_que Ø lleva trabajando en <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su candidatura</argument></argset>durante cerca de dos años . </example>
+        <example file="CESS-CAST-P/149_20010502.tbf.xml" nodepath="2.4.1.1.2.1.1.0" sentencenodepath="2">" Estos equipos con su público atacan en_tromba . Hay que evitar tener esos cinco o diez minutos malos que pueden hacer que se te vaya toda una eliminatoria " , manifestó el capitán Mendieta , opinión compartida por Cúper en <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de un partido para el que exige concentración , serenidad y disciplina para superarlo con éxito</argument></argset>. </example>
+        <example file="CESS-CAST-P/153_20020501.tbf.xml" nodepath="1.4.0.2.2.2.1.1.1.0" sentencenodepath="1">Esta semana ha abierto sus puertas en la capital británica Edible ( Comestible ) , el primer restaurante especializado en <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de insectos , reptiles y otras especialidades culinarias similares , destacando el filete de cocodrilo y el savarin de hormigas a la crema de leche</argument></argset>. </example>
+        <example file="CESS-CAST-P/42_19990301.tbf.xml" nodepath="8.3.0.2.3.1.1.1.0" sentencenodepath="8">Durante sus seis días en la estación orbital , Ivan_Bella realizó experiencias científicas que tienen por objeto contribuir a <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de sus compatriotas cosmonautas</argument><argument argument="argM" function="cn" thematicrole="fin" type="sp">en futuros viajes al espacio de más larga duración</argument></argset>. </example>
+        <example file="CESS-CAST-P/87_20000202.tbf.xml" nodepath="2.3.1.1.1.1.1.1.1.0" sentencenodepath="2">Además , Erill ha cedido 29 carpetas con el material y la información recopilados durante <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de su obra Ferran_Canyameres_:_entre_la_memoria_i_l'oblit</argument></argset>. </example>
+        <example file="CESS-CAST-P/97_19991102.tbf.xml" nodepath="11.0.1.0" sentencenodepath="11"><argset><specifier>La</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de este especial de Nochevieja</argument></argset>coincide con uno de los momentos más dulces de Comediants , que parecen especializarse en proyectos relacionados con el tiempo , el paso del siglo . </example>
+        <example file="CESS-CAST-P/97_19991102.tbf.xml" nodepath="13.3.0.1.1.1.0" sentencenodepath="13">Pilar_Távora , hija de Salvador , ya está inmersa en <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del espectáculo flamenco que se ofrecerá dentro de Millenium_day</argument></argset>. </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="no" type="passive">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="argM" thematicrole="adv">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <examples>
+        <example file="CESS-CAST-P/65_20010701.tbf.xml" nodepath="9.1.1.0" sentencenodepath="9">Según la policía , <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>preparación </head><argument argument="argM" function="cn" thematicrole="adv" type="s.a">militar</argument></argset>es excelente , ya_que Ø actuó como mercenario en las guerras de la antigua Yugoslavia y del Líbano . </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="preparar" originlink="verb.preparar.1" wordnetsynset="16:00593220">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/43_19990902.tbf.xml" nodepath="4.2.2.1.1.1.1.0" sentencenodepath="4">Entre los asuntos a tratar por el monarca y el presidente figuraban las elecciones catalanas y las dificultades en <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de la Cumbre_Iberoamericana que se celebrará en La_Habana en noviembre</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="4" lexicalized="no" originlemma="preparar" originlink="verb.preparar.2" wordnetsynset="16:00574678">
+    <frame appearsinplural="no" type="default">
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/10585_20000213.tbf.xml" nodepath="4.2.1.0" sentencenodepath="4">El alemán que ya fue campeón olímpico en 1988 , busca <argset><specifier>la</specifier><head>preparación </head><reference_modifiers>que le lleve en los próximos Juegos a conseguir su segundo oro</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/2531_20000303.tbf.xml" nodepath="6.2.1.3.2.1.2.1.0" sentencenodepath="6">En el seminario participó la presidenta de la Comisión sobre la Prostitución del Ministerio , Vittoria_Tola , quien explicó que las personas que atenderán el teléfono tendrán <argset><specifier>una</specifier><head>preparación </head><reference_modifiers>específica</reference_modifiers><argument argument="argM" function="cn" thematicrole="fin" type="sp">para atender a esas mujeres</argument></argset>y además Ø hablarán varios idiomas , con_objeto_de poder dialogar con las extranjeras . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="5" lexicalized="no" originlemma="preparar" originlink="verb.preparar.2" wordnetsynset="16:00574678">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/24407_20000731.tbf.xml" nodepath="0.0.2.1.2.1.1.0" sentencenodepath="0">El venezolano Noél_Arambulet , campeón mundial mínimo de la Asociación_Mundial_de_Boxeo ( AMB ) , comenzó la etapa final de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>preparación </head></argset>para enfrentarse al aspirante filipino Joma_Gamboa el próximo 20_de_agosto , informó hoy la prensa local . </example>
+        <example file="CESS-CAST-AA/24407_20000731.tbf.xml" nodepath="3.1.2.1.0.1.1.1.0" sentencenodepath="3">Arambulet , tras culminar parte de <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>preparación </head></argset>, viajará el 13_de_agosto a Tokio , donde Ø llegará después de dos días de viaje , para seguir rumbo a Nagoya , sede del combate por el cinturón mundial . </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="10.0.1.1.1.1.0" sentencenodepath="10">Al referirse a <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>preparación </head></argset>, Sotomayor consideró que la misma " se encuentra en un nivel bastante alto " . </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="17.0.3.0.1.1.0" sentencenodepath="17">" Ø Creo que el mundo igual se ha preparado , por_eso Ø se nos pudiera hacer difícil , pero por lo que Ø he podido apreciar <argset><specifier>la</specifier><head>preparación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de la delegación cubana</argument></argset>está bastante bien y Ø creo que sí se puede optar por esa posición " , sentenció Ø . </example>
+        <example file="CESS-CAST-AA/6304_20000909.tbf.xml" nodepath="18.3.1.1.1.1.0" sentencenodepath="18">Por_último , el saltador cubano afirmó que tras concluir <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>preparación </head></argset>en los Juegos_Olímpicos de Sydney " Ø pienso mantenerme en el deporte en activo " . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

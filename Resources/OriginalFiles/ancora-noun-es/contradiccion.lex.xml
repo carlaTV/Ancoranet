@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="contradicción" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="contradecir" originlink="verb.contradecir.1" wordnetsynset="16:04423096">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+        <constituent frequency="4" preposition="con" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" postype="indefinite" type="determiner"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="7" type="void"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="4" type="S"/>
+        <constituent frequency="1" type="S"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/e1-2.tbf.xml" nodepath="1.2.0.1.0" sentencenodepath="1">Los protagonistas de la tragedia representan <argset><specifier>una</specifier><head>contradicción </head><reference_modifiers>efectiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">entre leyes opuestas</argument></argset>, el choque de intereses o tradiciones difícilmente reconciliables en la paz de la ciudad . </example>
+        <example file="3LB-CAST/e2-0.tbf.xml" nodepath="5.0.2.1.0" sentencenodepath="5">La idea del dualismo o <argset><specifier>la</specifier><head>contradicción </head><reference_modifiers>en que vivían los hombres</reference_modifiers><reference_modifiers>, que era como la característica definitoria del ser humano ,</reference_modifiers></argset>ocupó millares de páginas de la historia del pensamiento antiguo e incluso medieval , en que la cultura era , de un modo u otro , el - cultivo de la fe religiosa - y Ø se manifestaba no_sólo a la sombra de los teólogos , sino_también a la de los arquitectos o los pintores del arte sacro . </example>
+        <example file="CESS-CAST-A/11811_20000516.tbf.xml" nodepath="9.2.1.1" sentencenodepath="9">La admisión oficial de la " irregularidad " supone <argset><specifier>una</specifier><reference_modifiers>grave</reference_modifiers><head>contradicción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para la imagen exterior de los comicios</argument></argset>pues Díaz había negado , pocas horas antes y ante las cámaras de televisión , que sus hombres hubieran estado despojando de las cédulas a ciudadanos de tez oscura . </example>
+        <example file="CESS-CAST-A/15026_20001019.tbf.xml" nodepath="4.0.3.0.1.0" sentencenodepath="4">" Se han visto más goles que muestras de buen juego . <argset><specifier>Una</specifier><head>contradicción </head><reference_modifiers>encarnada por el príncipe de la noche , Rivaldo</reference_modifiers><reference_modifiers>: 3 goles</reference_modifiers></argset>. Más ímpetu que lucidez , más corazón que capacidad de rendir airosos y eficaces los esquemas de ataque " , se recoge en la crónica del partido de dicho diario . </example>
+        <example file="CESS-CAST-AA/21441_20001026.tbf.xml" nodepath="12.4.1.2.2.2.3.1.0.0" sentencenodepath="12">En_relación_con la Carta_de_los_Derechos_de_la_UE , a la que el Consejo respaldó en Biarritz , De_Miguel la definió como " un catálogo de derechos fundamentales francamente completo y que no está en <argset><head>contradicción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">con las Constituciones nacionales</argument></argset>" . </example>
+        <example file="CESS-CAST-AA/22292_20000131.tbf.xml" nodepath="2.2.0.1.4.1.1.2.4.1.1.1.1.1.1.3.1.2.2.1.0.2.1.0.2.0" sentencenodepath="2">" Parte del actual Gobierno está bajo sospecha " , aseveró Alcaraz , quien calificó de " tapadera de la corrupción " a la empresa Saturno , que representó al Gabinete en la compra de los terrenos en los que está prevista la construcción del monumento , una operación " llena de <argset>absurdos y <head>contradicciones </head>
+          </argset>" en la que un informe de la Audiencia_de_Cuentas ha detectado irregularidades . </example>
+        <example file="CESS-CAST-AA/22863_20001129.tbf.xml" nodepath="10.3.3.0.0" sentencenodepath="10">Don_Felipe reiteró , como Ø hizo el mes pasado en un viaje al estado norteamericano de Nuevo_México , que no existe <argset><head>contradicción </head></argset>entre las identidades europea y americana , contra lo que muchos piensan . </example>
+        <example file="CESS-CAST-AA/23719_20000629.tbf.xml" nodepath="3.0.3.3.1.1" sentencenodepath="3">Ø Dijo además que Ø es <argset><specifier>una</specifier>" <head>contradicción </head>" <argument argument="arg0" function="cn" thematicrole="agt" type="sp">del PP , que apoyó una proposición no de ley para no modificar el precio de los libros</argument></argset>, y Ø subrayó que las liberalizaciones sirven para " beneficiar a unos pocos y dejar en el desamparo al resto " . </example>
+        <example file="CESS-CAST-AA/24537_20001030.tbf.xml" nodepath="6.3.1.1.1.0.1" sentencenodepath="6">Según explicó el delegado de la Consejería_de_Obras_Públicas en Málaga , Enrique_Salvo , los técnicos han elaborado dos anexos de <argset>" <head>contradicciones </head>
+            <reference_modifiers>no exhaustivas</reference_modifiers>" </argset>, pues el examen pormenorizado " podría llevar a una lista extensa " - precisó Ø - , encontradas en la documentación remitida por el Ayuntamiento el 19_de_mayo_de_2000 . </example>
+        <example file="CESS-CAST-P/34_20000903.tbf.xml" nodepath="21.0.1.2.3.0.1.1.1.0" sentencenodepath="21">Un negro panorama que quizá explique alguna de <argset><specifier>las</specifier><head>contradicciones </head><reference_modifiers>en que ha incurrido su Gabinete</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/36_20000501.tbf.xml" nodepath="42.0.0.2.1.0" sentencenodepath="42">La desorientación del PSC , <argset><specifier>las</specifier><head>contradicciones </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">con el PSOE</argument></argset>y las iniciativas de corte nacionalista de Pasqual_Maragall harán que éste pierda protagonismo , y Ø contrastarán con la actitud coherente del PP . </example>
+        <example file="CESS-CAST-P/43_19991102.tbf.xml" nodepath="4.2.1.3.2.0.1" sentencenodepath="4">Esta es la provocativa teoría de dos arqueólogos norteamericanos , en <argset><reference_modifiers>abierta</reference_modifiers><head>contradicción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">con la generalmente aceptada de que América fue poblada hace 13.500 años por nómadas procedentes de Asia que entraron en ella por Alaska</argument></argset>. </example>
+        <example file="CESS-CAST-P/45_20000302.tbf.xml" nodepath="3.2.4.2.1.1.0" sentencenodepath="3">El tribunal afirma que , a_pesar_de_que la declaración de la joven resultó " coherente " , la gravedad de las acusaciones sobre la " violencia física y psíquica " fue descrita de forma " pobre y esquemática " y con <argset><specifier>algunas</specifier><head>contradicciones </head></argset>. </example>
+        <example file="CESS-CAST-P/71_20011002.tbf.xml" nodepath="5.2.2.0.0" sentencenodepath="5">El ecónomo rechazó que hubiera <argset><head>contradicciones </head></argset>en las cuentas del arzobispado , como destacó Vives en su informe de 1999 sobre la delicada situación de Gescartera . </example>
+        <example file="CESS-CAST-P/91_20020501.tbf.xml" nodepath="2.0.3.2.1.0.0" sentencenodepath="2">" Se trata de un sondeo sobre la percepción que los jóvenes tienen de sí mismos . Las opiniones vertidas pueden entrar en <argset><head>contradicción </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">con la situación real</argument></argset>" , advirtió José_Muñoz , coordinador del estudio . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

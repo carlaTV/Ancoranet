@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="residencia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="residir" originlink="verb.residir.1" wordnetsynset="16:02618194">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="2" postype="possessive" type="determiner"/>
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <argument argument="arg2" foundincorporated="yes" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="loc">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="5" type="void"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+        <constituent frequency="2" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="3" type="S"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" type="sn"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="4.3.3.1.1.1.0.0" sentencenodepath="4">El presidente de la Generalitat , Jordi_Pujol , cree necesario que el Gobierno agilice los permisos de <argset><head>residencia </head></argset>a los inmigrantes para poder responder a la falta de mano de obra en Cataluña que , según cálculos del Departamento_de_Trabajo , impide cubrir unos 23.000 empleos en diversos sectores . </example>
+        <example file="3LB-CAST/104_c-1.tbf.xml" nodepath="6.4.4.1.1.1.1.1.0.0" sentencenodepath="6">Según Pujol , " no puede ser que se tarde ocho meses para dar un permiso de <argset><head>residencia </head></argset>de trabajo a un ciudadano polaco " , en un momento de falta de mano de obra que actúa , en su opinión , como freno al crecimiento económico . </example>
+        <example file="3LB-CAST/r2-5.tbf.xml" nodepath="8.1.1.1.1.1.1.1.1.0.0.0.0" sentencenodepath="8">A_diferencia_de las misivas remitidas a ciudadanos vascos , las cartas dirigidas a las personalidades con <argset><head>residencia </head>y negocios en Madrid </argset>contienen una terminología poco habitual en las comunicaciones realizadas por los etarras hasta la desarticulación por_parte_de la Policía_Autonómica_Vasca de las redes de cobro del impuesto revolucionario . </example>
+        <example file="CESS-CAST-A/17249_20001021.tbf.xml" nodepath="5.0.0.1.1.4.1.1.2.4.1.0.0" sentencenodepath="5">En un registro policial de la PTJ el 21_de_septiembre en el apartamento del edificio Columbia de La_Paz , que no figuraba como <argset><head>residencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de un diplomático</argument></argset>, se encontraron cerca de cien obras coloniales y se decomisaron ocho lienzos , afirma el comunicado . </example>
+        <example file="CESS-CAST-AA/21342_20000526.tbf.xml" nodepath="3.3.2.1.1.1.2.1.0" sentencenodepath="3">Dicha indemnización será pagada por el Estado en cuyo territorio se hubiera cometido el delito a los habitantes de los estados firmantes del Convenio y a los de todos los estados miembros del Consejo_de_Europa que tengan <argset><specifier>su</specifier><head>residencia </head><reference_modifiers>permanente</reference_modifiers></argset>en el Estado en cuyo territorio se hubiera cometido el delito . </example>
+        <example file="CESS-CAST-AA/21391_20000129.tbf.xml" nodepath="4.2.0.1.4.0.1.1.1.1.0" sentencenodepath="4">" La fuerza no me ha faltado , la salud sí , Ø está muy disminuida " , dijo Balaguer , quien ha conducido la campaña electoral de su partido sin salir de <argset><specifier>su</specifier><head>residencia </head></argset>o haciendo declaraciones a los periodistas desde el interior de su automóvil en un cementerio al que los fines de semana Ø acude para visitar la tumba de sus parientes . </example>
+        <example file="CESS-CAST-AA/5253_20001207.tbf.xml" nodepath="4.2.4.1.0.1.1.0.1.2.2.1.0" sentencenodepath="4">La candidatura a vicepresidente hizo que Cheney se inscribiera como elector de Wyoming , donde Ø tiene <argset><specifier>otra</specifier><head>residencia </head></argset>y Ø estudió en la escuela secundaria . </example>
+        <example file="CESS-CAST-AA/5253_20001207.tbf.xml" nodepath="7.3.1.0" sentencenodepath="7">Cheney , que el mes pasado superó un leve ataque al corazón - el cuarto en veintiún años - , tiene a la venta <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>residencia </head><argument argument="arg2" function="cn" thematicrole="loc" type="sp">de Dallas</argument><reference_modifiers>, por la cual pide 3,1 millones de dólares</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/111_20010102.tbf.xml" nodepath="0.4.1.1.1.0" sentencenodepath="0">Les_Borges_Blanques El ayuntamiento cederá una finca para construir <argset><specifier>una</specifier><head>residencia </head><reference_modifiers>que podría tener 80 plazas</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/154_20010102.tbf.xml" nodepath="1.3.3.3.6.1.0.1.6.1.0" sentencenodepath="1">Jörg_Frick , el abogado de la ex campeona , sin entrar a comentar las cifras , ha confirmado que su cliente ha retirado la demanda contra el fisco y Ø ha aceptado pagar sus deudas , porque Ø no ha tenido que hacer_frente al pago de impuestos en Estados_Unidos , donde Ø tiene fijada actualmente <argset><argument argument="arg1" thematicrole="tem" type="spec">su</argument><head>residencia </head></argset>. </example>
+        <example file="CESS-CAST-P/17_20020202.tbf.xml" nodepath="3.5.1.1.0" sentencenodepath="3">Tras el fallo judicial , Duhalde y Lenicov celebraron una reunión a_puerta_cerrada en <argset><specifier>la</specifier><head>residencia </head><argument argument="arg1" function="cn" thematicrole="tem" type="s.a">presidencial</argument><reference_modifiers>de Los_Olivos</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="23.2.10.1.1.1.1.1.2.1.1.1.1.0.0.1.1.0" sentencenodepath="23">Esta reforma ha de establecer la adecuación del número y tipo de especialistas que el país necesita , la flexibilización en las áreas de competencia , el énfasis en la capacitación por_encima_de la titulación , la actualización de los programas formativos de_acuerdo_a la sociedad del siglo_XXI , la formación y motivación de los responsables de la tutorización y , por_encima_de_todo , la consolidación de un sistema de evaluación a la imagen del de <argset><specifier>las</specifier><head>residencias </head><argument argument="argM" function="cn" thematicrole="loc" type="sp">de EEUU</argument><reference_modifiers>( boards )</reference_modifiers><reference_modifiers>, que fue de donde nació el mismo sistema MIR hace más de 20 años</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/43_19981201.tbf.xml" nodepath="3.2.1.1.1.1.1.1.1.1.1.0" sentencenodepath="3">La policía autonómica trabaja en la hipótesis de que el asalto a <argset><specifier>esta</specifier><head argument="arg2" thematicrole="loc">residencia </head><reference_modifiers>de la familia Pujol</reference_modifiers></argset>fue obra de delincuentes comunes . </example>
+        <example file="CESS-CAST-P/43_19981201.tbf.xml" nodepath="8.2.6.3.1.1.0" sentencenodepath="8">Los Mossos_d'Esquadra subrayaron que la torre de Premià_de_Dalt no tiene una escolta las 24 horas del día como Ø sucede con <argset><specifier>otras</specifier><head argument="arg2" thematicrole="loc">residencias </head><reference_modifiers>de Pujol</reference_modifiers></argset>porque uno de sus hijos la utiliza en la actualidad como residencia habitual . </example>
+        <example file="CESS-CAST-P/43_19981201.tbf.xml" nodepath="8.2.7.5.1.0.0" sentencenodepath="8">Los Mossos_d'Esquadra subrayaron que la torre de Premià_de_Dalt no tiene una escolta las 24 horas del día como Ø sucede con otras residencias de Pujol porque uno de sus hijos la utiliza en la actualidad como <argset><head>residencia </head><reference_modifiers>habitual</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense alternativelemma="permiso_de_residencia" cousin="no" denotation="result" id="2" lexicalizationtype="nominal" lexicalized="yes" originlemma="residir" originlink="verb.residir.1" wordnetsynset="16:00682217">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-AA/2531_20000303.tbf.xml" nodepath="7.3.1.1.1.2.1.2.2.1.1.1.1.2.1.0.0" sentencenodepath="7">En el caso de este segmento , la campaña prevé la posibilidad de facilitarles el regreso a su país de origen o_bien intentar proporcionarles en Italia una colocación estable y la obtención de un permiso legal de <argset><head>residencia </head></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

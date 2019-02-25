@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="motivación" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="motivar" originlink="verb.motivar.1" wordnetsynset="16:00013700">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" foundincorporated="yes" thematicrole="cau"/>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-2.tbf.xml" nodepath="5.0.2.1.1.1.1.2.0" sentencenodepath="5">Uno de los pocos aspectos en los que hay entendimiento es en la valoración de <argset>" <specifier>las</specifier>
+            <head>motivaciones </head>" </argset>, indicaron las mismas fuentes , que añadieron que el presidente Clinton presentó un cuadro matizado de la situación que incita a Estados_Unidos a contemplar el NMD . </example>
+        <example file="CESS-CAST-AA/22039_20000926.tbf.xml" nodepath="0.4.4.4.0.0" sentencenodepath="0">Isabel_Fernández , medalla de oro en los Juegos_Olímpicos de Sydney en Judo en la categoría de menos de 57 kilos , ha asegurado hoy a su llegada a Alicante que Ø continuará en la competición de máximo nivel " mientras Ø tenga <argset><head>motivación </head></argset>" . </example>
+        <example file="CESS-CAST-AA/22459_20000927.tbf.xml" nodepath="10.2.4.0.1.1.0" sentencenodepath="10">Costa , que hoy rubricó con un excelente resto el ` break ` que encarriló el triunfo español nada_más reanudarse el juego esta mañana después de la suspensión del partido el Martes , afirmó que ese golpe de derecha " ha salido gracias_a <argset><specifier>la</specifier><head>motivación </head>" <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de ambos</argument></argset>y a que Ø estaban " muy unidos " . </example>
+        <example file="CESS-CAST-AA/25617_20000929.tbf.xml" nodepath="7.3.0.1.1.1.0.0.1.1" sentencenodepath="7">La excelente aportación de Sergio_Rodríguez , máximo anotador de su equipo con 24 puntos , tampoco fue suficiente para contrarrestar <argset><specifier>la</specifier><reference_modifiers>mayor</reference_modifiers><head>motivación </head></argset>y acierto del cinco vizcaíno que al_final tuvo en su pivot suplente Josu_González al jugador decisivo del encuentro . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="23.2.8.1.0.2.0" sentencenodepath="23">Esta reforma ha de establecer la adecuación del número y tipo de especialistas que el país necesita , la flexibilización en las áreas de competencia , el énfasis en la capacitación por_encima_de la titulación , la actualización de los programas formativos de_acuerdo_a la sociedad del siglo_XXI , <argset>la formación y <head>motivación </head>
+            <argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los responsables de la tutorización</argument>
+          </argset>y , por_encima_de_todo , la consolidación de un sistema de evaluación a la imagen del de las residencias de EEUU ( boards ) , que fue de donde nació el mismo sistema MIR hace más de 20 años . </example>
+        <example file="CESS-CAST-P/38_20010701.tbf.xml" nodepath="6.3.3.1.1.0.0" sentencenodepath="6">Ø Dejé los Stones porque Ø aspiraba a tener <argset><head argument="arg0" thematicrole="cau">motivaciones </head><reference_modifiers>diferentes al dinero</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/43_19981201.tbf.xml" nodepath="5.4.2.1.0.3.1.0" sentencenodepath="5">Según los investigadores , los autores desconocían que se trataba de una vivienda del president , por lo que Ø descartan <argset><specifier>otra</specifier><head>motivación </head><reference_modifiers>no relacionada con la delincuencia habitual</reference_modifiers></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="2" lexicalized="no" originlemma="motivar" originlink="verb.motivar.1" wordnetsynset="16:00013700">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/120_20010103.tbf.xml" nodepath="2.0.6.1.0" sentencenodepath="2">Un Segunda_B , un campo en mal estado , la presión de jugárselo todo a partido único y <argset><specifier>la</specifier><head>motivación </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de unos y otros</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

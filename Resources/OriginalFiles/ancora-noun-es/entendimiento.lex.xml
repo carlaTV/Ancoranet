@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="entendimiento" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="entender" originlink="verb.entender.1" wordnetsynset="16:04699267">
+    <frame appearsinplural="no" type="default">
+      <specifiers>
+        <constituent frequency="7" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="3" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="2" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-2.tbf.xml" nodepath="5.0.0.0.1.1.1.1.2.0.0" sentencenodepath="5">Uno de los pocos aspectos en los que hay <argset><head>entendimiento </head></argset>es en la valoración de " las motivaciones " , indicaron las mismas fuentes , que añadieron que el presidente Clinton presentó un cuadro matizado de la situación que incita a Estados_Unidos a contemplar el NMD . </example>
+        <example file="3LB-CAST/e3-1.tbf.xml" nodepath="6.2.0.3.1.1.0" sentencenodepath="6">Los planetas vistos desde la Tierra unas veces avanzan , otras Ø se paran y otras Ø retroceden , pero si Ø adoptamos con <argset><specifier>el</specifier><head>entendimiento </head></argset>el punto de vista del sol Ø vemos que Ø siguen un curso regular . </example>
+        <example file="3LB-CAST/e3-1.tbf.xml" nodepath="9.1.2.1.2.1.0.0" sentencenodepath="9">Por eso , porque la misma actividad legisladora del <argset><head>entendimiento </head></argset>que da a lo diverso de la experiencia su orden y regularidad resulta del poder de la libertad , que es el de iniciar series de fenómenos , como dice la tesis de la tercera antinomia , no hay ningún producto racional que pueda sobreponerse a la libertad . </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="0.2.2.4.1.1.1.1.1.0" sentencenodepath="0">El presidente del Gobierno español , José_María_Aznar , aseguró hoy que ni él ni su Gobierno ponen límites a la relación con el PSOE en_materia_de lucha antiterrorista , pero Ø cree que los socialistas están generando " polémicas sobre cuestiones accesorias " frente_a la necesidad de <argset><specifier>un</specifier><head>entendimiento </head><reference_modifiers>de fondo</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="4.2.4.0.2.1.0.2.4.1.0.0" sentencenodepath="4">Aznar cree que no aportan nada " polémicas sobre cuestiones accesorias que no se refieren al <argset><head>entendimiento </head><reference_modifiers>de fondo</reference_modifiers><reference_modifiers>que es necesario y por el que el Gobierno trabaja</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="5.0.5.2.1.0.2.1.0" sentencenodepath="5">" Yo no voy a alentar ningún tipo de polémica que se refiere a lo accesorio y , si me permiten Ø que Ø lo diga , a lo muy accesorio , frente_a lo que es <argset><specifier>un</specifier><head>entendimiento </head><reference_modifiers>de fondo</reference_modifiers><reference_modifiers>, que es la definición de una política para el presente y para el futuro y respecto_de lo cual ni el presidente del Gobierno ni el Gobierno tienen límites en su relación con el PSOE</reference_modifiers></argset>" , dijo Aznar . </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="6.4.5.0.1.1.1.1.1.0" sentencenodepath="6">El presidente del Parlamento_Vasco , Juan_María_Atutxa , consideró " desazonador que la clase política , en combinación con ciertos representantes de colectivos , no haya sido capaz de llegar a <argset><specifier>un</specifier><head>entendimiento </head></argset>para que su voz suene unívoca " en_contra_del terrorismo . </example>
+        <example file="CESS-CAST-P/137_20020501.tbf.xml" nodepath="3.2.3.2.2.1.0.0" sentencenodepath="3">Achúcarro , bilbaíno nombrado artista para la paz por la Unesco , destacó que siempre hubo " una corriente subterránea de <argset><head>entendimiento </head></argset>" entre él y Lluch . </example>
+        <example file="CESS-CAST-P/30_20000903.tbf.xml" nodepath="20.2.2.4.1.1.1.0.2.1.0.0" sentencenodepath="20">El portavoz del Ejecutivo_de_Vitoria , Josu_Jon_Imaz , acusó a Aznar de lanzar un " mensaje basado en la confrontación y la ausencia de diálogo " , pero Ø aseguró que PNV y EA acudirán a sus respectivas reuniones con Mayor_Oreja dispuestos a buscar " espacios de <argset><head>entendimiento </head></argset>" , porque Ø no desean potenciar " mensajes de crispación , fractura o división " . </example>
+        <example file="CESS-CAST-P/42_19991202.tbf.xml" nodepath="18.0.0.1.1.3.0.1.1.0.0" sentencenodepath="18">Conscientes de que no había posibilidad de <argset><head>entendimiento </head></argset>, Aznar e Ibarretxe acordaron dejar el debate sobre el diálogo con EH para mejor ocasión . </example>
+        <example file="CESS-CAST-P/84_20010802.tbf.xml" nodepath="0.4.1.2.1.0.0.0.0" sentencenodepath="0">Los ciclistas finalizaron ayer en Barcelona su tour particular a_favor_del <argset><head>entendimiento </head></argset>y la buena convivencia en Europa , que dio_comienzo el pasado día_13_de_julio en Berlín y que les ha llevado también a París . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="result" id="2" lexicalized="no" originlemma="entender" originlink="verb.entender.2" wordnetsynset="16:04699267">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" preposition="entre" type="sp"/>
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM">
+        <constituent frequency="1" preposition="en" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="2" type="void"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+        <constituent frequency="1" preposition="sobre" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/15630_20001120.tbf.xml" nodepath="2.3.3.2.2.1.0.0" sentencenodepath="2">El jefe del Ejecutivo español , ante la insistencia del PSOE de firmar un pacto escrito con el Gobierno en_materia_de lucha antiterrorista , dijo que Ø es " absolutamente partidario " del <argset><head>entendimiento </head><reference_modifiers>más estable y profundo</reference_modifiers><argument argument="arg1" function="cn" thematicrole="tem" type="sp">con los socialistas</argument><argument argument="argM" function="cn" type="sp">en esa materia</argument></argset>. </example>
+        <example file="CESS-CAST-A/17928_20000622.tbf.xml" nodepath="3.3.2.0.0" sentencenodepath="3">Entre los avances que el PSOE desearía que se produjeran entre los Ejecutivos central y vasco Ø citó un acuerdo en cooperación policial y <argset><head>entendimientos </head><reference_modifiers>sobre la articulación de la Ertzaintza y las Fuerzas_de_Seguridad_del_Estado</reference_modifiers></argset>, ya_que - subrayó Ø - la reciente reunión entre Mayor_Oreja y el consejero vasco de Interior , Javier_Balza , " fue simple foto " y no se produjeron acuerdos posteriores . </example>
+        <example file="CESS-CAST-A/17928_20000622.tbf.xml" nodepath="4.3.1.2.1.3.1.0" sentencenodepath="4">Por_último , Jáuregui expresó el deseo de los socialistas de que se produzca <argset><specifier>un</specifier><head>entendimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">entre los partidos que ambos representan - el PP y el PNV -</argument></argset>respecto_a la existencia de un " foro de unidad democrática " en Euskadi . </example>
+        <example file="CESS-CAST-P/36_20000903.tbf.xml" nodepath="45.3.5.3.0.1.1.1.0" sentencenodepath="45">Ø Es libre de estrellarse , porque el PP ha dejado claro que un acuerdo entre CiU y ERC es incompatible con <argset><specifier>un</specifier><head>entendimiento </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">con el Gobierno</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

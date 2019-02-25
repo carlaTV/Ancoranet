@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="instancia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="instar" originlink="verb.instar.1" wordnetsynset="16:04888919">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="2" preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="8" type="void"/>
+        <constituent frequency="3" postype="article" type="determiner"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="12" type="s.a"/>
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" type="S"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/2000060211_6-2.tbf.xml" nodepath="9.3.1.2.1.2.0.1" sentencenodepath="9">El presidente , según indicó por su parte la Casa_Blanca , contestó diciendo que le preocupa la reacción de Europa y que Ø tomará_en_cuenta su inquietud , pero que , en <argset><reference_modifiers>última</reference_modifiers><head>instancia </head></argset>, la decisión se adoptará en función de intereses de seguridad nacional de EEUU . </example>
+        <example file="CESS-CAST-A/10872_20001214.tbf.xml" nodepath="6.2.1.1.2.3.1.1.1.0.2.1" sentencenodepath="6">Los presos de La_Tablada fueron juzgados bajo una ley especial que no contempla la posibilidad de <argset>apelación o <reference_modifiers>segunda</reference_modifiers>
+            <head>instancia </head>
+            <argument argument="arg1" function="cn" thematicrole="pat" type="s.a">judicial</argument>
+          </argset>, lo cual va contra los convenios internacionales suscritos por Argentina . </example>
+        <example file="CESS-CAST-A/15355_20001120.tbf.xml" nodepath="11.0.1.0" sentencenodepath="11"><argset><specifier>La</specifier><head>instancia </head><reference_modifiers>judicial</reference_modifiers><reference_modifiers>suprema</reference_modifiers><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Estado</argument></argset>tiene paralizada la certificación oficial del resultado de las elecciones presidenciales en Florida mientras no haya un dictamen suyo sobre el recuento manual . </example>
+        <example file="CESS-CAST-A/17821_20001223.tbf.xml" nodepath="2.2.1.1.2.2.0.0" sentencenodepath="2">El objetivo es crear un tribunal , que tendrá su sede en La_Haya , como <argset><head>instancia </head><reference_modifiers>judicial</reference_modifiers><reference_modifiers>independiente</reference_modifiers></argset>, con carácter permanente y alcance potencialmente universal y que será competente para enjuiciar los crímenes de mayor trascendencia para la comunidad internacional en su conjunto . </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="4.6.5.1.1.1.1.0" sentencenodepath="4">Sin_embargo , la reincorporación de Baumann como máxima estrella del mitin del domingo no pone punto final a su lucha contra la sanción , puesto_que para ello es necesaria la ratificación de <argset><specifier>la</specifier><head>instancia </head><reference_modifiers>superior</reference_modifiers><reference_modifiers>internacional</reference_modifiers><reference_modifiers>, la IAAF</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/19336_20000623.tbf.xml" nodepath="12.3.1.1.1.1.1.0" sentencenodepath="12">Tampoco se descarta que el veredicto de <argset><specifier>la</specifier><head>instancia </head><reference_modifiers>internacional</reference_modifiers></argset>sea contrario a los deseos de Baumann , como Ø ocurrió con Marlene_Ottey , a quien la IAAF mantuvo la suspensión a_pesar_de haber sido absuelta por la Federación_Jamaicana . </example>
+        <example file="CESS-CAST-AA/20443_20000128.tbf.xml" nodepath="12.2.2.3.2.2.0.1" sentencenodepath="12">Ø Recordó que Cuba es el único país del mundo al que las compañías de EE.UU tienen prohibido vender alimentos y medicinas y Ø aseguró que la feria tiene un sentido " promocional y Ø prueba , en <argset><reference_modifiers>última</reference_modifiers><head>instancia </head></argset>, las posibilidades existentes en el mercado norteamericano que se le niegan hoy a niños , ancianos y enfermos en Cuba " . </example>
+        <example file="CESS-CAST-AA/4958_20000606.tbf.xml" nodepath="6.0.1.1.1" sentencenodepath="6">En <argset><specifier>una</specifier><reference_modifiers>primera</reference_modifiers><head>instancia </head></argset>Ø fue contratado para supervisar los asuntos relacionados con el baloncesto dentro de la NBA , incluyendo perspectiva y desarrollo , así_como los eventos internacionales . </example>
+        <example file="CESS-CAST-AA/5560_20001007.tbf.xml" nodepath="10.4.1.1.1.4.0.1.1.1.1.1.1.0" sentencenodepath="10">Su apego al procedimiento legal Ø lo ha demostrado en esta crisis , en la que la desobediencia civil fue pareja con la apelación a <argset><specifier>todas las</specifier><head>instancias </head><reference_modifiers>judiciales</reference_modifiers></argset>para que Ø reconocieran el fraude electoral , cosa que terminó de hacer hoy el Tribunal_Constitucional . </example>
+        <example file="CESS-CAST-AA/8684_20001011.tbf.xml" nodepath="7.2.4.2.1.1.1.1.1" sentencenodepath="7">Después de esa acción , Vazquez_Raña habló con el presidente del Comité_Olímpico_Internacional ( COI ) , Juan_Antonio_Samaranch , y al día siguiente , tras estudiar el caso , Ø decidió presentar una apelación ante el Tribunal_de_Arbitraje_Deportivo <argset>, <reference_modifiers>máxima</reference_modifiers>
+            <head>instancia </head>
+            <reference_modifiers>a la que se podía acudir</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/158_20010602.tbf.xml" nodepath="1.2.2.1.1.1.1.1.0.1" sentencenodepath="1">Domènec_Reixach , con un presupuesto coherente con la realidad del Nacional , huye de una política que busque descaradamente la audiencia ( un tema que está haciendo daño a la cultura teatral , en_particular ) y Ø apunta hacia una programación que en <argset><reference_modifiers>última</reference_modifiers><head>instancia </head></argset>busca formar y consolidar un público fiel para el TNC . </example>
+        <example file="CESS-CAST-P/31_19990401.tbf.xml" nodepath="7.5.6.6.1.1.2.1.0.1" sentencenodepath="7">Nadie se expresaba en esos términos desde los tiempos de la guerra_fría , aunque Ø no suponen ningún cambio de orientación en la doctrina militar rusa , ya_que , desde 1993 , Rusia se había declarado dispuesta a utilizar el arma nuclear en <argset><reference_modifiers>primera</reference_modifiers><head>instancia </head></argset>para repeler una agresión con armamento convencional , debido_al colapso sufrido por su Ejército . </example>
+        <example file="CESS-CAST-P/6_19990301.tbf.xml" nodepath="4.0.1.2.0.0" sentencenodepath="4">Este , a <argset><head>instancias </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de algunos médicos</argument></argset>, empieza a dictar la incapacidad jurídica de algunas de las afectadas o a ordenar directamente su ingreso en centros sanitarios que puedan controlar su alimentación . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

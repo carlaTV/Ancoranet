@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="solución" lng="es" origin="deverbal" type="noun">
+  <sense cousin="yes" denotation="result" id="1" lexicalized="no" originlemma="solucionar" originlink="verb.solucionar.1" wordnetsynset="16:04377480">
+    <frame appearsinplural="yes" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="3" type="s.a"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="13" preposition="a" type="sp"/>
+        <constituent frequency="3" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="fin">
+        <constituent frequency="4" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="16" type="void"/>
+        <constituent frequency="19" postype="article" type="determiner"/>
+        <constituent frequency="35" postype="indefinite" type="determiner"/>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="24" type="s.a"/>
+        <constituent frequency="19" type="S"/>
+        <constituent frequency="1" type="sn"/>
+        <constituent frequency="1" preposition="en" type="sp"/>
+        <constituent frequency="1" type="sadv"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/104_c-2.tbf.xml" nodepath="2.4.1.2.1.1.1.1.0.0" sentencenodepath="2">La semana pasada el Departamento_de_Justicia y los gobiernos de 17 de los 19 estados que demandaron a Microsoft en 1998 presentaron al juez una versión ajustada de sus propuestas de <argset><head>solución </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">judicial</argument></argset>, entre las que figura la división de la firma en dos compañías . </example>
+        <example file="3LB-CAST/104_c-3.tbf.xml" nodepath="15.0.4.1.0" sentencenodepath="15">Para Vázquez_Quintana la apertura de la red de telefonía local de Telefónica a otros operadores no es <argset><specifier>la</specifier><head>solución </head><reference_modifiers>total</reference_modifiers></argset>ya_que Ø podría hacer que la empresa dominante dejara de invertir en la red por no considerarla como una inversión atractiva , y el Gobierno debe incentivar estas inversiones . </example>
+        <example file="3LB-CAST/111_C-7.tbf.xml" nodepath="14.4.1.1" sentencenodepath="14">Para todos los curiosos que se plantean dónde y cuál será el momento más indicado para ver a Clinton , el " Bild " , el periódico de mayor tirada de Europa , ofrecía estos días <argset><specifier>una</specifier><reference_modifiers>simple y a_la_vez cómoda</reference_modifiers><head>solución </head></argset>: " Por_supuesto , en la televisión " . </example>
+        <example file="3LB-CAST/204_C-1.tbf.xml" nodepath="6.3.1.0.1.1.0.0" sentencenodepath="6">El secretario general de Confebask propuso incidir en la sensibilización de la población y modificar la orientación profesional de los jóvenes como vías de <argset><head>solución </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">a la escasez de trabajadores</argument></argset>. </example>
+        <example file="3LB-CAST/a22-3.tbf.xml" nodepath="3.2.1.0" sentencenodepath="3">Me quedaba <argset><specifier>una</specifier><head>solución </head></argset>. </example>
+        <example file="3LB-CAST/a22-3.tbf.xml" nodepath="9.0.3.1.0" sentencenodepath="9">Alguien propuso entonces <argset><specifier>una</specifier><head>solución </head></argset>y Ø resolvimos adoptarla . </example>
+        <example file="3LB-CAST/d2-10.tbf.xml" nodepath="0.3.3.1.1.1.0" sentencenodepath="0">Quizá sería conveniente que Ø comenzaran a preocuparse en encontrar <argset><specifier>otras</specifier><head>soluciones </head><reference_modifiers>que sean bastante más atrayentes de_cara_al resto de la élite del ciclismo mundial</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc10-11.tbf.xml" nodepath="4.3.1.1" sentencenodepath="4">En 1904 un tal Henry_Hayes de Denver , Colorado , patentó <argset><specifier>una</specifier><reference_modifiers>curiosa</reference_modifiers><head>solución </head><reference_modifiers>: un caballo mecánico que llevaba adosadas dos ruedecillas en las patas delanteras y las traseras sujetas al eje delantero del auto</reference_modifiers></argset>. </example>
+        <example file="3LB-CAST/dc3-1.tbf.xml" nodepath="9.0.1.1" sentencenodepath="9"><argset><specifier>La</specifier><reference_modifiers>primera , y más simple ,</reference_modifiers><head>solución </head><reference_modifiers>en este sentido</reference_modifiers></argset>fue la adición a un polímero , un plástico , de fibrillas o partículas metálicas o de otra sustancia conductora , como el grafito . </example>
+        <example file="3LB-CAST/dc3-6.tbf.xml" nodepath="4.0.1.0.1.1.1.0" sentencenodepath="4">En busca de <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a este problema</argument></argset>, desde hace algunos años se han desarrollado los polímeros metalomacrocíclicos denominados - Chich_Kebabo - o - Schaschlik - , que en castellano Ø podríamos traducir por - brocheta - . </example>
+        <example file="CESS-CAST-A/10150_20001114.tbf.xml" nodepath="40.0.2.1.1.0" sentencenodepath="40">Ø Abogó por <argset><specifier>una</specifier><head>solución </head><reference_modifiers>justa y duradera</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la deuda exterior</argument></argset>, y Ø reiteró la necesidad de fortalecer la disciplina u transparencia de la supervisión bancaria y las políticas económicas y financieras " sanas " y de continuar con los cambios estructurales . </example>
+        <example file="CESS-CAST-A/10872_20001214.tbf.xml" nodepath="8.2.3.1.0" sentencenodepath="8">Fernando_de_la_Rúa , que se niega a aplicar un indulto u otra medida de gracia a los presos , trató sin éxito a_lo_largo_de este año que el Parlamento aprobase un proyecto de ley que permitiera una revisión de las condenas y ahora Ø busca <argset><specifier>una</specifier><head>solución </head></argset>por la vía judicial . </example>
+        <example file="CESS-CAST-A/12812_20001116.tbf.xml" nodepath="4.0.5.4.1.1.1.1.1.0" sentencenodepath="4">Pero " este loable esfuerzo tendría mayor sentido si Ø se acompañase de la búsqueda de <argset><specifier>una</specifier><head>solución </head><reference_modifiers>definitiva</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">" al problema</argument></argset>, con un compromiso claro de los gobiernos respectivos en_favor_de su prohibición , afirmó HI . </example>
+        <example file="CESS-CAST-A/13146_20000216.tbf.xml" nodepath="9.5.1.2.2.5.1.1.0" sentencenodepath="9">La etarra se dirigió hoy al Tribunal para pedir al Gobierno español que " Ø negocie con ETA , en_lugar_de enviar tantas demandas de extradición " , y exigir a las autoridades francesas que " Ø también contribuyan a <argset><specifier>una</specifier><head>solución </head><reference_modifiers>negociada</reference_modifiers><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al conflicto vasco</argument></argset>en_lugar_de extraditar " . </example>
+        <example file="CESS-CAST-A/13150_20000316.tbf.xml" nodepath="6.3.1.1.0" sentencenodepath="6">Por_último , Espil reconoció que <argset><specifier>una</specifier><head>solución </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para frenar el poderoso juego interior del conjunto catalán , con jugadores de la envergadura y fuerza física de Roberto_Dueñas , Derrick_Alston o Efthimios_Rentzias ,</argument></argset>radicará en conceder el tiro a su rival . </example>
+        <example file="CESS-CAST-A/13928_20000317.tbf.xml" nodepath="10.2.1.0.1.0" sentencenodepath="10">Milberg explicó que <argset><specifier>la</specifier><head>solución </head><reference_modifiers>encontrada con Alchemy</reference_modifiers></argset>es buena para la plantilla y Ø no será con efectos retroactivos al 1_de_enero_del_2000 , como se había apuntado , sino_que Ø se cerrará definitivamente en las próximas semanas . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="0.3.4.1.3.1.0" sentencenodepath="0">La Unión_Europea ( UE ) está dispuesta a reconsiderar la aplicación de las sanciones económicas decididas contra Rusia por la guerra en Chechenia , aunque Ø insiste en que Moscú debe encontrar <argset><specifier>una</specifier><head>solución </head><reference_modifiers>política</reference_modifiers></argset>al conflicto . </example>
+        <example file="CESS-CAST-A/15780_20000620.tbf.xml" nodepath="6.6.3.2.1.1.0" sentencenodepath="6">En Feira , los Quince recordarán hoy a Rusia , no_obstante , que Ø tiene que respetar sus compromisos acerca_del conflicto en Chechenia , donde Ø tendrá que hacer lo posible para evitar " un recurso desproporcionado a la fuerza " , al_tiempo_que Ø debe procurar encontrar <argset><specifier>una</specifier><head>solución </head><reference_modifiers>política</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-A/15931_20000320.tbf.xml" nodepath="4.3.3.2.2.0.1.1.0.2.4.1.2.1.0.1.1.0" sentencenodepath="4">Junto_a esta situación , el lehendakari denunció que también hay " un discurso político lleno de arrogancia " , con la que se trata de " circunscribir el diálogo a unos ámbitos y no a otros , tratando de impulsar <argset><specifier>las</specifier><head>soluciones </head><reference_modifiers>que debemos dar todos los demás</reference_modifiers></argset>pero nunca las de uno mismo e incluso tratando de negar la existencia del diálogo a nivel institucional como elemento de respuesta a cualquier problema " . </example>
+        <example file="CESS-CAST-A/16223_20001020.tbf.xml" nodepath="2.2.4.1.1.1.3.1.0" sentencenodepath="2">Preguntado por las críticas del presidente del PSC , Pasqual_Maragall , a que Ø se trasvase del Ebro a las comarcas de sur de la Comunidad_Valenciana porque Ø " derrochan " agua , Pla dijo que Ø " comparto la idea de que Ø tenemos que plantear <argset><specifier>una</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">" a estas comarcas "</argument><reference_modifiers>que vaya vinculada no_sólo al aprovechamiento del trasvase del agua del Ebro</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-A/17317_20000221.tbf.xml" nodepath="0.3.1.2.0" sentencenodepath="0">La Asociación_Nacional_de_Instituciones_Financieras ( ANIF ) afirmó hoy que <argset>" <specifier>la</specifier>
+            <head>solución </head>
+            <reference_modifiers>adecuada " para los problemas fiscales de Colombia</reference_modifiers>
+          </argset>está en mayores recortes en los gastos y no en el aumento de los tributos . </example>
+        <example file="CESS-CAST-A/18381_20000322.tbf.xml" nodepath="2.3.2.1.0.4.0.0" sentencenodepath="2">Las derrotas , que ya llegan a 18 en lo que va de los partidos de exhibición , han hecho que la paciencia de Steinbrenner se termine , por lo que Ø ya quiere <argset><head>soluciones </head></argset>. </example>
+        <example file="CESS-CAST-A/18483_20000126.tbf.xml" nodepath="9.2.2.1.0" sentencenodepath="9">Ambos ministros dijeron que la conversación fue " muy franca " , y Pérez_Roque pareció dar a entender <argset><specifier>una</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de principio</argument></argset>al asegurar que la reunión fue " útil para Cuba " . </example>
+        <example file="CESS-CAST-A/18813_20000223.tbf.xml" nodepath="2.3.2.5.1.0" sentencenodepath="2">Candel explicó hoy que el jugador sufre una rotura del ligamento escafolunar y que " Ø sólo tiene <argset><specifier>una</specifier><head>solución </head><reference_modifiers>: que sea intervenido quirúrgicamente el próximo miércoles en Barcelona</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-AA/19343_20000524.tbf.xml" nodepath="3.2.1.1.2.2.2.1.1.1" sentencenodepath="3">Mendizábal señaló que la rebaja de los impuestos solicitada por las petroleras y su patronal y presentada por éstas como <argset><specifier>la</specifier><reference_modifiers>única</reference_modifiers><head>solución </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para frenar la constante subida de los carburantes</argument></argset>, es una medida que " tiene poco sentido " , ya_que en España la fiscalidad que afecta a estos productos es una de las menores de la Unión_Europea . </example>
+        <example file="CESS-CAST-AA/20121_20000427.tbf.xml" nodepath="1.3.0.2.1.1.1.1.1.1.0" sentencenodepath="1">Gaspart , según su discurso , fue respetuoso con el talante de la Federación en su búsqueda por encontrar <argset><specifier>una</specifier><head>solución </head><reference_modifiers>que permitiese a los internacionales holandeses jugar con el FC_Barcelona en el Camp_Nou</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/21609_20001127.tbf.xml" nodepath="4.0.3.1.2.1.1.0" sentencenodepath="4">" El Libro_Verde sobre cómo suministrar energía a la Unión_Europea durante las próximas décadas recomienda la energía nuclear como <argset><specifier>una</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al cambio climático</argument></argset>" , asegura la organización . </example>
+        <example file="CESS-CAST-AA/21729_20000225.tbf.xml" nodepath="12.2.1.1.1" sentencenodepath="12">Torre dio como <argset><specifier>una</specifier><reference_modifiers>posible</reference_modifiers><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al problema del bateador designado</argument></argset>el de usar jugadores como Bernie_Williams , Paul_O`Neill y Tino_Martínez en_vez_de darle días de descanso . </example>
+        <example file="CESS-CAST-AA/2916_20000705.tbf.xml" nodepath="5.2.3.2.0.0" sentencenodepath="5">Alonso explicó que " Endemol aporta en_principio el talento " mientras_que Telefónica_Media busca <argset><head>soluciones </head><reference_modifiers>tecnológicas</reference_modifiers><reference_modifiers>" que nos permitan sacar más partido , en_definitiva , a esos productos clásicos de Endemol "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="6.2.2.1.1.0" sentencenodepath="6">El canciller ecuatoriano criticó las voces que demandan la renuncia de Mahuad y Ø dijo que <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la crisis</argument></argset>" no es un problema de ir cambiando de personajes " en el Ejecutivo . </example>
+        <example file="CESS-CAST-AA/4842_20000606.tbf.xml" nodepath="11.2.1.0" sentencenodepath="11">El alcalde de este pueblo de 350 habitantes resumió <argset><specifier>las</specifier><head>soluciones </head><reference_modifiers>informáticas</reference_modifiers><reference_modifiers>que explicó al Príncipe en una frase : " cualquier municipio , por pequeño que sea , puede ser el centro de mundo "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/5606_20000207.tbf.xml" nodepath="1.4.1.1.3.3.3.1.0" sentencenodepath="1">El anuncio fue hecho el domingo en Porto_Alegre , capital del estado de Río_Grande_do_Sul , donde opera la CRT , por el presidente de TCS , Henrique_Neves , quien afirmó que Telefónica y sus socios aceptaron <argset><specifier>esa</specifier><head>solución </head></argset>para poner_fin a la diferencia entre el precio pedido por TBS y el que está dispuesto a pagar TCS , única empresa interesada en el negocio . </example>
+        <example file="CESS-CAST-AA/5976_20001008.tbf.xml" nodepath="10.2.0.1.2.1.0" sentencenodepath="10">La Comisión_Europea , Bélgica y la propia Austria han presentado propuestas al_respecto_de las que saldrá <argset><specifier>la</specifier><head>solución </head><reference_modifiers>final</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/6874_20000910.tbf.xml" nodepath="2.3.1.2.4.1.0" sentencenodepath="2">Brown ya ha advertido de que el Gobierno no va a rebajar ni un penique los impuestos del carburante y que los bloqueos no suponen <argset><specifier>una</specifier><head>solución </head></argset>. </example>
+        <example file="CESS-CAST-AA/7380_20000209.tbf.xml" nodepath="4.2.3.1.1.1.2.2.1.0" sentencenodepath="4">Aznar , a_su_vez , explicó a las representantes de las Asociaciones las medidas que el Gobierno_del_Partido_Popular seguirá impulsando en la próxima legislatura para prevenir y combatir la violencia de género , y Ø se comprometió a promover una ley integral que aborde <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los malos tratos domésticos</argument></argset>. </example>
+        <example file="CESS-CAST-AA/7637_20000510.tbf.xml" nodepath="8.3.4.1.1.1.1.1.0" sentencenodepath="8">Frutos , en declaraciones en los pasillos del Congreso , consideró que las emociones que provoca un asesinato como el de José_Luis_López_de_Lacalle deben hacerse compatibles con la inteligencia para intentar llegar a <argset><specifier>una</specifier><head>solución </head><reference_modifiers>adecuada</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-AA/8633_20000114.tbf.xml" nodepath="6.2.5.1.0" sentencenodepath="6">La alarma saltó justo antes de Navidades y tres semanas después la situación del sector , que intenta determinar qué aviones han sido verdaderamente dañados y cuáles podrían reanudar el vuelo , no ha encontrado aún <argset><specifier>una</specifier><head>solución </head></argset>. </example>
+        <example file="CESS-CAST-AA/8633_20000114.tbf.xml" nodepath="11.0.0.4.1.1.1.1" sentencenodepath="11">Numerosas voces de alarma se han alzado en Australia para pedir <argset><specifier>una</specifier><reference_modifiers>pronta</reference_modifiers><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">del problema</argument></argset>, pero la técnica y lo insólito del suceso dificultan el hallazgo de un examen fiable , según han explicado los expertos . </example>
+        <example file="CESS-CAST-P/10_20020501.tbf.xml" nodepath="9.2.1.0" sentencenodepath="9">El trabajo es <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">para muchas cosas</argument></argset>. </example>
+        <example file="CESS-CAST-P/118_19991001.tbf.xml" nodepath="3.2.2.3.3.0.0" sentencenodepath="3">Resultó sorprendente escuchar por_boca_del holandés que fueron sus jugadores quienes no tuvieron <argset><head>soluciones </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para replicar a la fuerte presión con que sorprendieron los ingleses</argument></argset>. </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="15.0.5.1.0" sentencenodepath="15">Por esto se le exige desde Europa <argset><specifier>una</specifier><head>solución </head><reference_modifiers>democrática</reference_modifiers><reference_modifiers>que no alcanza a países vecinos menos integrados en el espacio europeo</reference_modifiers></argset>, por esto se le propone que sin perder su condición de Estado centralizado y laico Ø otorgue la autonomía a su minoría kurda . </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="19.2.0.4.1.1.0" sentencenodepath="19">Es evidente que , a_la_corta o a_la_larga , esta tensión insoportable tendrá que desembocar en <argset><specifier>una</specifier><head>solución </head><reference_modifiers>política</reference_modifiers></argset>y que ésta sólo podrá consistir en el otorgamiento de una amplia autonomía a la población kurda . </example>
+        <example file="CESS-CAST-P/11_19990702.tbf.xml" nodepath="21.3.2.4.1.0" sentencenodepath="21">Por esto el mensaje que desde Europa Ø tenemos que enviar una y otra vez a los ciudadanos turcos y a sus gobernantes es que Ø asuman la realidad de este pluralismo , que sin mengua de su propio orgullo nacional Ø propongan <argset><specifier>una</specifier><head>solución </head><reference_modifiers>autonómica</reference_modifiers></argset>y que Ø conviertan a los kurdos en corresponsables de su propio autogobierno dentro de una Turquía unida . </example>
+        <example file="CESS-CAST-P/11_20020402.tbf.xml" nodepath="7.0.1.1" sentencenodepath="7"><argset><specifier>La</specifier><reference_modifiers>única</reference_modifiers><head>solución </head></argset>es la retirada israelí de los territorios ocupados . </example>
+        <example file="CESS-CAST-P/125_20020301.tbf.xml" nodepath="12.2.1.4.1.2.1.0" sentencenodepath="12">Millàs , a quien los renovadores atribuyen un comportamiento " caciquil " , insistió en que Ø está " abierto a cualquier negociación " con la oposición con_el_fin_de " encontrar <argset><specifier>una</specifier><head>solución </head><reference_modifiers>que favorezca al país</reference_modifiers></argset>" . </example>
+        <example file="CESS-CAST-P/135_20020301.tbf.xml" nodepath="7.0.2.5.1.1.0" sentencenodepath="7">Ella sabrá en qué momento José_Frade , su antiguo amante de juventud , se le apareció como <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a sus problemas</argument></argset>, pero bien cierto es que Norma tiene ahora muchos más líos de los que Ø tenía hace un año . </example>
+        <example file="CESS-CAST-P/136_20001001.tbf.xml" nodepath="24.5.2.0.0" sentencenodepath="24">Ø No voy de lista , Ø no hago preguntas , ni Ø doy <argset><head>soluciones </head></argset>. </example>
+        <example file="CESS-CAST-P/145_20011202_a.tbf.xml" nodepath="7.5.2.1.1.1.2.1.0.0" sentencenodepath="7">A sus 66 años , con una hija y dos divorcios , este ejecutivo todoterreno , tan capaz de ejercer de relaciones públicas o de desenvolverse con un micrófono como de moverse en las intrigas del poder , se encontró con la tarea de poner_en_marcha el Mundial más complejo de la historia y , a_la_vez , con el mundo del fútbol pidiendo <argset><head>soluciones </head></argset>a un largo periodo de confusión . </example>
+        <example file="CESS-CAST-P/14_20011202.tbf.xml" nodepath="7.1.4.3.1.1.0" sentencenodepath="7">Y Luis_María_Anson , resabiado , fusilaba en La_Razón a Suárez como líder de la " UCD claudicante " ante ETA : " Los fascistas , los falangistas , los franquistas que en 1976 quisieron maquillarse de demócratas de toda la vida afirmaban que era necesario dar <argset><specifier>una</specifier><head>solución </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">política</argument><reference_modifiers>, no policial ,</reference_modifiers></argset>a ETA ... " . </example>
+        <example file="CESS-CAST-P/151_20010202.tbf.xml" nodepath="0.3.1.1.1.2.2.2.0" sentencenodepath="0">La Comisión_Europea anunció ayer su voluntad de desbloquear las negociaciones para la reforma de los traspasos y conseguir así <argset>" <specifier>una</specifier>
+            <head>solución </head>
+            <reference_modifiers>negociada</reference_modifiers>" </argset>con la FIFA y la UEFA antes de la reunión decisiva prevista para el próximo 16_de_febrero , con_el_objetivo_de que Ø pueda servir para solucionar el gran problema que arrastra el fútbol para adecuarse a la normativa comunitaria europea . </example>
+        <example file="CESS-CAST-P/151_20010202.tbf.xml" nodepath="2.2.1.3.0.1.0" sentencenodepath="2">Bruselas advierte de que Ø no desea imponer al mundo del fútbol su propio sistema de traspasos , sino <argset><specifier>una</specifier><head>solución </head><reference_modifiers>que sea " compatible a_la_vez con la legislación europea y con el derecho nacional , y respete la libertad contractual "</reference_modifiers></argset>, según anunció Amelia_Torres , portavoz del comisario Mario_Monti . </example>
+        <example file="CESS-CAST-P/17_19990201.tbf.xml" nodepath="5.3.1.1.1.0.1.4.1.1.0.2.0" sentencenodepath="5">Conocedora del engranaje de la miseria , Ø vivió la huella de Clinton , que ha mejorado los servicios inmediatos pero ha dificultado lograr <argset>viviendas de alquiler y <head>soluciones </head>
+            <reference_modifiers>a_medio_plazo</reference_modifiers>
+          </argset>. </example>
+        <example file="CESS-CAST-P/18_19990602_a.tbf.xml" nodepath="3.2.2.2.1.0.0" sentencenodepath="3">En nuestra estúpida candidez , nosotros sí creemos profundamente en esas afirmaciones y Ø seguiremos luchando por medios pacíficos y mediante <argset><head>soluciones </head><reference_modifiers>dialogadas</reference_modifiers></argset>contra la guerra y las limpiezas étnicas " Ø vengan de donde Ø vengan " . </example>
+        <example file="CESS-CAST-P/18_19990701.tbf.xml" nodepath="20.2.0.2.4.1.1.1.1.2.4.1.0.0" sentencenodepath="20">Ø Estarán de_acuerdo conmigo que hubiera sido mejor el análisis de las previsibles dificultades en la implantación del fatídico decreto que llegar a la actual situación , en la que los auténticamente enfrentados - - los defensores de la vía MIR ( incluidos la mayoría de médicos de hospitales públicos que secundaron la huelga el pasado Martes ) y la Administración estatal - - pretenden buscar <argset><head>soluciones </head><reference_modifiers>técnicamente aceptables</reference_modifiers></argset>en un marco distorsionado por el conflicto y las consiguientes presiones de terceros . </example>
+        <example file="CESS-CAST-P/19_19990602_a.tbf.xml" nodepath="18.5.4.5.1.1.0.0" sentencenodepath="18">Pero quizá los ciudadanos tienen razón , porque Ø supongo que cuando usted habla de sorprender Ø se refiere a aportar <argset><head>soluciones </head><reference_modifiers>innovadoras</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/21_20000501.tbf.xml" nodepath="39.0.4.1.0" sentencenodepath="39">" La redistribución de la tierra no será <argset><specifier>una</specifier><head>solución </head><reference_modifiers>a_corto_plazo</reference_modifiers></argset>" , martillea Ø . </example>
+        <example file="CESS-CAST-P/25_20020502.tbf.xml" nodepath="5.3.1.0.0" sentencenodepath="5">Esa necesidad del hay_que_hacer_algo nos lleva a <argset><head>soluciones </head><reference_modifiers>que nunca lo son , pero que nos calman hasta el próximo zarpazo de la barbarie</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/27_19981202.tbf.xml" nodepath="8.3.5.1.0" sentencenodepath="8">El presidente chileno , Eduardo_Frei , dijo ayer : " A_pesar_de las diferencias que separan a los chilenos , Ø hemos dado <argset><argument argument="arg0" thematicrole="agt" type="spec">nuestra</argument><head>solución </head></argset>a la tensión , siempre presente en los periodos de transición , entre la necesidad de justicia y la necesidad de reconciliación " . </example>
+        <example file="CESS-CAST-P/27_20020801_b.tbf.xml" nodepath="2.3.5.1.1.1.0" sentencenodepath="2">Turisme_de_Barcelona anunció ayer que Ø se ha reunido con la empresa para buscar <argset><specifier>una</specifier><head>solución </head></argset>al conflicto de_manera_que el servicio no se vea afectado . </example>
+        <example file="CESS-CAST-P/30_19990102.tbf.xml" nodepath="5.4.4.1.0" sentencenodepath="5">Por su parte , el presidente yugoslavo Slobodan_Milosevic afirmó en su mensaje de Año_Nuevo que durante 1999 se debe " encontrar <argset><specifier>una</specifier><head>solución </head><argument argument="arg0" function="cn" thematicrole="agt" type="s.a">política</argument><argument argument="arg1" function="cn" thematicrole="pat" type="sp">a la crisis de Kosovo</argument>" <reference_modifiers>que ponga_fin a " las dudas del mundo y Europa " y que implique " la igualdad para todos "</reference_modifiers></argset>. </example>
+        <example file="CESS-CAST-P/30_20020801_b.tbf.xml" nodepath="3.2.3.1.0" sentencenodepath="3">Ensenyament admitió que ha habido deficiencias en el procedimiento , pero Ø no aportó <argset><specifier>ninguna</specifier><head>solución </head></argset>. </example>
+        <example file="CESS-CAST-P/36_19990901.tbf.xml" nodepath="13.0.2.1.1.0" sentencenodepath="13">Su portavoz , Arnaldo_Otegi , destacó que <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al conflicto</argument></argset>pasa por garantizar la participación de los seis territorios vascos , incluidos los del otro lado de la frontera , y Ø advirtió de la importancia de dos fechas futuras : el 12_de_septiembre , primer aniversario del Pacto_de_Lizarra , y el 18_de_septiembre , convocatoria de la Asamblea_de_Municipios_Vascos . </example>
+        <example file="CESS-CAST-P/37_19990901.tbf.xml" nodepath="3.4.1.4.2.1.1.1.0" sentencenodepath="3">En esta línea , Ø criticó al ministro Piqué por " tratar de falsear el significado de Lizarra " , sin entender que <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al conflicto</argument></argset>" vendrá del reconocimiento de la realidad política de Euskal_Herria " . </example>
+        <example file="CESS-CAST-P/3_20020501.tbf.xml" nodepath="8.0.3.3.1.0" sentencenodepath="8">" Ø No hemos recurrido ni Ø vamos a recurrir a los planteamientos del todo o nada porque esas actitudes han impedido <argset><specifier>una</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">al contencioso</argument></argset>en los tres últimos siglos " , afirmó el ministro , quien consideró asumible que el Gobierno británico someta el acuerdo a consulta entre los gibraltareños , pero no admitirá ningún ejercicio de autodeterminación . </example>
+        <example file="CESS-CAST-P/4_20020601_c.tbf.xml" nodepath="11.0.1.0" sentencenodepath="11"><argset><specifier>La</specifier><head>solución </head><reference_modifiers>adecuada</reference_modifiers></argset>es la de los cursos de aprendizaje . </example>
+        <example file="CESS-CAST-P/56_20000801_a.tbf.xml" nodepath="10.2.2.1.2.1.0.1.1.0.0" sentencenodepath="10">Mari_Carmen_Soler , portavoz de los trabajadores , afirmó que " el papel de los empleados en busca de <argset><head>soluciones </head></argset>ha sido fundamental " . </example>
+        <example file="CESS-CAST-P/64_19990201.tbf.xml" nodepath="2.5.1.1.1.0.0" sentencenodepath="2">El equipo económico del presidente brasileño , Fernando_Henrique_Cardoso , y una misión del Fondo_Monetario_Internacional ( FMI ) comenzaron ayer en Brasilia una reunión in_extremis para intentar buscar <argset><head>soluciones </head></argset>a la grave crisis financiera que afecta a la economía del país latinoamericano . </example>
+        <example file="CESS-CAST-P/68_20000201.tbf.xml" nodepath="2.3.1.1" sentencenodepath="2">En los modelos donde se carece de políticas de integración social encarcelar y amontonar reclusos es <argset><specifier>la</specifier><reference_modifiers>gran</reference_modifiers><head>solución </head></argset>. </example>
+        <example file="CESS-CAST-P/73_20000201_e.tbf.xml" nodepath="1.2.2.1.5.2.1.3.1.1.0.0" sentencenodepath="1">La Asociación_de_Líneas_Aéreas calificó ayer de " inaceptable " la medida e Ø insistió en que " cualquier restricción no debe imponerse de manera precipitada y sin dar tiempo a las compañías aéreas a buscar <argset><head>soluciones </head><argument argument="argM" function="cn" thematicrole="fin" type="sp">para los vuelos afectados</argument></argset>" . </example>
+        <example file="CESS-CAST-P/76_20010602.tbf.xml" nodepath="8.3.1.0.0.1" sentencenodepath="8">El fiscal jefe del Tribunal_Superior_de_Murcia , Guillermo_Sena , y la fiscal de menores , Mercedes_Soler , calificaron el acuerdo de <argset>" <head>solución </head>
+            <argument argument="argM" function="cn" thematicrole="mnr" type="s.a">jurídica</argument>
+            <reference_modifiers>más correcta</reference_modifiers>" </argset>y " lo Mejor para el chico " . </example>
+        <example file="CESS-CAST-P/85_20000401.tbf.xml" nodepath="15.0.1.0" sentencenodepath="15"><argset><specifier>La</specifier><head>solución </head></argset>fue mandar desde Palma_de_Mallorca un avión con la pieza que subsanaba el fallo . </example>
+        <example file="CESS-CAST-P/9_20010601_a.tbf.xml" nodepath="16.0.3.1.0" sentencenodepath="16">Mientras se consigue <argset><specifier>alguna</specifier><head>solución </head></argset>, las ventas caen en_picado - - en España el ciclomotor es el auténtico motor del sector de las dos ruedas y hay seis marcas que fabrican motos de 50_cc - - y demasiados temerarios circulan sin seguro . </example>
+      </examples>
+    </frame>
+    <frame appearsinplural="yes" type="benefactive">
+      <argument argument="arg2" thematicrole="ben">
+        <constituent frequency="3" preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" thematicrole="mnr">
+        <constituent frequency="1" type="s.a"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+        <constituent frequency="2" postype="indefinite" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="2" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="CESS-CAST-A/14291_20000518.tbf.xml" nodepath="0.0.2.1.2.1.2.1.3.2.0.0" sentencenodepath="0">Telia_Iberia , subsidiaria del consorcio telefónico estatal sueco Telia , es la primera compañía en lanzar al mercado español la gama de servicios ASP ( Application_Service_Provider ) que suministrará <argset><head>soluciones </head><reference_modifiers>informáticas</reference_modifiers><argument argument="arg2" function="cn" thematicrole="ben" type="sp">para empresas medianas y grandes</argument></argset>, informó hoy la compañía en Estocolmo . </example>
+        <example file="CESS-CAST-P/25_19990401.tbf.xml" nodepath="2.2.5.1.1.0" sentencenodepath="2">Fischer añadió que la OTAN también prepara una propuesta conjunta de_cara_a <argset><specifier>una</specifier><head>solución </head><argument argument="argM" function="cn" thematicrole="mnr" type="s.a">política</argument><argument argument="arg2" function="cn" thematicrole="ben" type="sp">para Kosovo</argument></argset>. </example>
+        <example file="CESS-CAST-P/30_20000103.tbf.xml" nodepath="3.0.2.2.1.1.1.0" sentencenodepath="3">" Si Ø respetamos la petición de suspensión formulada por el Tribunal , las reacciones del público podrían atenuarse con el tiempo y podría llegarse a <argset><specifier>una</specifier><head>solución </head><reference_modifiers>positiva</reference_modifiers><argument argument="arg2" function="cn" thematicrole="ben" type="sp">para Turquía</argument></argset>" , añadió Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="event" id="2" lexicalized="no" originlemma="solucionar" originlink="verb.solucionar.1" wordnetsynset="16:04377480+16:00099792">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+        <constituent frequency="4" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="3" type="void"/>
+        <constituent frequency="1" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="3LB-CAST/211_C-1.tbf.xml" nodepath="5.3.3.1.2.1.2.3.1.1.1.0" sentencenodepath="5">Gonzalo_Sánchez_de_Lozada , por su lado , dijo que la conversación " franca , abierta y constructiva " permitió transmitir " ciertos temas que son de vital importancia " y en los cuales su partido quiere contribuir a <argset><argument argument="arg1" thematicrole="pat" type="spec">su</argument><head>solución </head></argset>sin ser parte del Ejecutivo . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="3.2.2.0.1.1.0.2.3.1.1.1.1.0.1.1.0.0" sentencenodepath="3">La polémica entre ambos países se inició en 1996 y Ø ha sido fuente de profundas desavenencias tanto en la interpretación de los acuerdos bilaterales como en las normas del sistema de <argset><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de disputas</argument></argset>de la OMC . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="14.3.1.1.1.0.0" sentencenodepath="14">Para muchos miembros de la OMC la disputa entre Canadá y Brasil debilita el sistema de <argset><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de disputas</argument></argset>de la OMC porque Ø ha expuesto algunas de las deficiencias de su sistema legal . </example>
+        <example file="CESS-CAST-A/17235_20000522.tbf.xml" nodepath="17.2.0.1.1.1.2.1.0.1.1.0.0" sentencenodepath="17">Ø Son preguntas sobre los textos legales del órgano de <argset><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de disputas</argument></argset>cuya interpretación divide ahora a los miembros de la OMC . </example>
+        <example file="CESS-CAST-AA/24215_20001030.tbf.xml" nodepath="8.0.7.1.1.3.1.1.1.1.2.0.1.1.0" sentencenodepath="8">" Los resultados ( ... ) se pueden interpretar como un voto sanción` para el Gobierno por carecer de una política de Estado para <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de los problemas</argument></argset>, para llevar adelante de manera exitosa el proceso de paz y la recuperación de la economía " , afirmó la Dirección_Nacional_Liberal ( DNL ) en un comunicado que Ø hizo público el domingo por la noche en Bogotá . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="yes" denotation="underspecified" id="3" lexicalized="no" originlemma="solucionar" originlink="verb.solucionar.1" wordnetsynset="16:00099792">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="pat">
+        <constituent frequency="1" preposition="de" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="article" type="determiner"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/3_19990102.tbf.xml" nodepath="2.0.3.1.2.1.0.1.1.1.1.1.0" sentencenodepath="2">Ayer mismo , en el primer día del euro , Rato destacó las capacidades de la moneda única europea como instrumento para avanzar en <argset><specifier>la</specifier><head>solución </head><argument argument="arg1" function="cn" thematicrole="pat" type="sp">de problemas " como es el empleo , la calidad de vida , la calidad de los servicios públicos , la sanidad , las pensiones y , en_definitiva , la prosperidad de los españoles</argument></argset>" , dijo Ø . </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

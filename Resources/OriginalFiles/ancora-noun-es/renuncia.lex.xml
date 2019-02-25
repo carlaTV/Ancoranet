@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="renuncia" lng="es" origin="deverbal" type="noun">
+  <sense cousin="no" denotation="result" id="1" lexicalized="no" originlemma="renunciar" originlink="verb.renunciar.1" wordnetsynset="16:00139061+16:00134056">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="7" preposition="de" type="sp"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="de" type="sp"/>
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" postype="demonstrative" type="determiner"/>
+        <constituent frequency="7" postype="article" type="determiner"/>
+        <constituent frequency="1" postype="indefinite" type="determiner"/>
+        <constituent frequency="4" postype="possessive" type="determiner"/>
+      </specifiers>
+      <reference_modifiers>
+        <constituent frequency="1" type="s.a"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/d2-0.tbf.xml" nodepath="11.0.1.0" sentencenodepath="11"><argset><specifier>Semejante</specifier><head>renuncia </head></argset>nos ha defraudado un poco . </example>
+        <example file="CESS-CAST-A/14635_20000121.tbf.xml" nodepath="10.2.4.1.1.1.1.3.2.1.1.0" sentencenodepath="10">Pero los indígenas no comprenden esto y así Ø tienen en la falta de acciones gubernamentales más firmes contra la especulación otra justificación para el levantamiento nacional que Ø adelantan para esta semana , principalmente en_demanda_de <argset><specifier>la</specifier><head>renuncia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">de los tres poderes del Estado</argument></argset>. </example>
+        <example file="CESS-CAST-AA/19996_20000726.tbf.xml" nodepath="7.2.0.1.1.1.1.1.1.0" sentencenodepath="7">En el mercado circularon rumores acerca_de la posibilidad de <argset><specifier>una</specifier><head>renuncia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del gobernador del Banco_de_Japón ( BOJ ) , Masaru_Hayami , muy presionado en las últimas semanas por su intento de elevar ya los tipos de interés</argument></argset>. </example>
+        <example file="CESS-CAST-AA/2418_20001104.tbf.xml" nodepath="11.2.3.1.1.0" sentencenodepath="11">Hace dos días , otro miembro del Gabinete , el titular de Comercio , Manuel_Rojas , dejó su puesto , y ayer , viernes , los presidentes del Senado y del Congreso , Franklin_Drilon y Manuel_Villar , respectivamente , arrastraron en <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>renuncia </head></argset>a otros dos senadores y 45 congresistas . </example>
+        <example file="CESS-CAST-AA/3976_20000108.tbf.xml" nodepath="6.0.2.1.1.2.1.0" sentencenodepath="6">El canciller ecuatoriano criticó las voces que demandan <argset><specifier>la</specifier><head>renuncia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Mahuad</argument></argset>y Ø dijo que la solución a la crisis " no es un problema de ir cambiando de personajes " en el Ejecutivo . </example>
+        <example file="CESS-CAST-AA/6296_20001109.tbf.xml" nodepath="10.4.1.4.2.1.2.1.0" sentencenodepath="10">Durante la semana , el presidente ha ido perdiendo el apoyo del sector económico al pedir públicamente su dimisión tanto la Cámara_de_Comercio_e_Industria_de_Filipinas , con más de 20.000 miembros , como la Asociación_de_Analistas_Financieros , por considerar que sólo <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>renuncia </head></argset>sacará al país de la crisis . </example>
+        <example file="CESS-CAST-AA/6354_20000909.tbf.xml" nodepath="5.3.1.1.0" sentencenodepath="5">Tarango fue incluido en el equipo de Estados_Unidos tras <argset><specifier>la</specifier><head>renuncia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de Pete_Sampras , siete veces campeón de Wimbledon , y Jean_Michael_Gambill , que declinaron la invitación</argument></argset>. </example>
+        <example file="CESS-CAST-AA/7726_20000911.tbf.xml" nodepath="0.0.1.0" sentencenodepath="0"><argset><specifier>La</specifier><head>renuncia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del Gobierno_de_Caracas</argument><argument argument="arg1" function="cn" thematicrole="tem" type="sp">a acatar el fallo del Tribunal_Andino_de_Justicia que declaró ilegal la decisión que Venezuela adoptó para restringir el transporte internacional de carga por carretera</argument>, </argset>podría llevar a Colombia , en dos meses , a adoptar medidas contra los productos venezolanos . </example>
+        <example file="CESS-CAST-AA/8396_20000310.tbf.xml" nodepath="6.3.3.1.0" sentencenodepath="6">Al_término_de la audiencia en la que Ø presentó hoy su dimisión al Rey , Bondevik subrayó que Ø había basado <argset><specifier>la</specifier><head>renuncia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">de su gabinete</argument></argset>en el rechazo de la oposición a su propuesta para evitar que las severas leyes ambientales quedaran debilitadas . </example>
+        <example file="CESS-CAST-AA/8934_20000912.tbf.xml" nodepath="8.2.1.1" sentencenodepath="8">Otro hecho que ha puesto en alerta a los inversores fue <argset><specifier>la</specifier><reference_modifiers>sorpresiva</reference_modifiers><head>renuncia </head><argument argument="arg0" function="cn" thematicrole="agt" type="sp">del gerente de finanzas de JP_Morgan , Peter_Hancock , cuya salida del banco la semana pasada se vio como un paso que presagiaba la inminencia de un acuerdo de fusión</argument></argset>. </example>
+        <example file="CESS-CAST-P/174_20001201.tbf.xml" nodepath="1.0.1.0" sentencenodepath="1"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head>renuncia </head></argset>es la primera que se produce tras el escándalo de la presunta selección de deportistas sin deficiencias en algunas selecciones españolas que acudieron a los Juegos_de_Sydney , como la de baloncesto , que ganó la medalla de oro en su categoría . </example>
+        <example file="CESS-CAST-P/174_20001201.tbf.xml" nodepath="7.0.1.0" sentencenodepath="7"><argset><argument argument="arg0" thematicrole="agt" type="spec">Su</argument><head>renuncia </head></argset>no detendrá la investigación abierta por el CPE para aclarar la situación . </example>
+        <example file="CESS-CAST-P/33_20010601.tbf.xml" nodepath="0.3.1.1" sentencenodepath="0">Un breve comunicado en una página_web habitualmente utilizada por las Autodefensas_Unidas_de_Colombia ( AUC ) anunció ayer <argset><specifier>la</specifier>" <head>renuncia </head>" <argument argument="arg0" function="cn" thematicrole="agt" type="sp">de su máximo jefe</argument></argset>, aunque no se ha podido establecer su veracidad . </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="event" id="2" lexicalized="no" originlemma="renunciar" originlink="verb.renunciar.1" wordnetsynset="16:00134568">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg0" thematicrole="agt">
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </argument>
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <reference_modifiers>
+        <constituent frequency="1" preposition="como" type="sp"/>
+      </reference_modifiers>
+      <examples>
+        <example file="3LB-CAST/r2-6.tbf.xml" nodepath="3.3.1.2.2.1.0.1.1.1.0" sentencenodepath="3">Corcuera , que pidió una excedencia por su actividad política , solicitó la reincorporación en Altos_Hornos_de_Vizcaya el pasado 14_de_mayo , cinco días después de <argset><argument argument="arg0" thematicrole="agt" type="spec">su</argument><head>renuncia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">al acta de diputado</argument><reference_modifiers>como consecuencia del escándalo Roldán</reference_modifiers></argset>. </example>
+      </examples>
+      <specifiers>
+        <constituent frequency="1" postype="possessive" type="determiner"/>
+      </specifiers>
+    </frame>
+  </sense>
+  <sense cousin="no" denotation="underspecified" id="3" lexicalized="no" originlemma="renunciar" originlink="verb.renunciar.1" wordnetsynset="16:00134056">
+    <frame appearsinplural="no" type="default">
+      <argument argument="arg1" thematicrole="tem">
+        <constituent frequency="1" preposition="a" type="sp"/>
+      </argument>
+      <specifiers>
+        <constituent frequency="1" type="void"/>
+      </specifiers>
+      <examples>
+        <example file="CESS-CAST-P/38_19990902_g.tbf.xml" nodepath="1.4.1.1.1.0.0" sentencenodepath="1">José_Cuiña entregó ayer al presidente del PP_de_Galicia , Manuel_Fraga , su carta de <argset><head>renuncia </head><argument argument="arg1" function="cn" thematicrole="tem" type="sp">al cargo</argument></argset>. </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>
