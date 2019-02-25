@@ -20,6 +20,11 @@ To run the code, simply open a terminal, navigate to the project folder and exec
 ```
 python main.py
 ```
+A dialogue will appear asking you whether you want to process the nouns dictionary or the verbs one:
+```
+Enter "noun" or "verb":
+```
+The output files are in Resources/OutputFiles.
 
 ## Authors
 
